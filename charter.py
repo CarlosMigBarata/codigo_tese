@@ -3,7 +3,17 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 # ---- CONFIG ----
-FOLDER = "outputs0_2026-03-19_12-21-36"
+#FOLDER = "outputs0_2026-03-20_00-55-28"
+#FOLDER = "outputs0_2026-03-19_12-21-36"
+#FOLDER = "outputs0_2026-03-19_04-44-45"
+#FOLDER = "outputs0_2026-03-20_12-07-19"
+
+FOLDER = "outputs0_2026-03-20_20-20-15"
+
+#alpha 0.5
+#FOLDER = "outputs0_2026-03-20_15-44-41" 
+
+
 CSV_PATH = Path(f"{FOLDER}/metrics.csv")  # change to your file
 OUTPUT_DIR = Path(f"{FOLDER}/plots")
 OUTPUT_DIR.mkdir(exist_ok=True)
@@ -45,6 +55,16 @@ metrics_to_plot2 = [
         "alpha"
     ]
 
+metrics_to_plot3 = [
+        "awning_train_accuracy",
+        "billboard_train_accuracy",
+        "vendingmachine_train_accuracy",
+        "statue_train_accuracy",
+        "table_train_accuracy",
+        "wallsign_train_accuracy",
+        "alpha"
+    ]
+
 def plot_each_metric_individually(metrics_to_plot):
 
     # ---- SELECT METRICS ----
@@ -73,8 +93,8 @@ def plot_all_metrics(metrics_to_plot, id):
 
     for metric in metrics_to_plot:
         values = df[metric]
-        norm_values = (values - values.min()) / (values.max() - values.min() + 1e-8)
-        plt.plot(df["Epoch"], norm_values, label=metric)
+        #norm_values = (values - values.min()) / (values.max() - values.min() + 1e-8)
+        plt.plot(df["Epoch"], values, label=metric)
 
     plt.xlabel("Epoch")
     plt.ylabel("Value")
@@ -92,3 +112,5 @@ def plot_all_metrics(metrics_to_plot, id):
 plot_all_metrics(metrics_to_plot=metrics_to_plot1, id=1)
 
 plot_all_metrics(metrics_to_plot=metrics_to_plot2, id=2)
+
+plot_all_metrics(metrics_to_plot=metrics_to_plot3, id=3)
