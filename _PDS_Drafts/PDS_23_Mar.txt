@@ -1,0 +1,15 @@
+PDS
+
+sexta:
+começei por fazer um teste com alpha a 0.5 (terça para quarta), e dps tive a implementar o early stopping. começei por tentar para usando a loss, e finalmente passei para usar a test_satisfaction. (quarta-quinta-sexta madrugada)
+
+Parece que por volta da epoca 25 chega mais ou menos ao ideal, mesmo que as 10 primeiras epocas o alpha seja 1 pelo que a LTN loss nao seja aplicada.
+
+também fiz um pequeno script (charter) para crias uns graficos baseando me nos .csv.
+
+
+Experimentei correr um teste com a mesma arquitetura e o mesmo conhecimento, em que apenas mudava quão rapido o alpha decrescia. neste teste, o modelo chega aos mesmos valores de satisfaction que o modelo que fiz anteriormente teve, levando mais ou menos 25 epocas.
+
+Decidi experimentar com outros axiomas, para ver se os valores de alpha e de early stopping eram razoaveis noutras circunstancias. Quando experimentei com uma disjunção simples (cafe = statue ou vending_machine), a test_sat deste axioma era 0.6 (0.5968634376525879), apesar de ser capaz de prever as classes/conceitos bem (0.983875,0.882375,0.931125 para as classes cafe, statue e vending_machine respetivamente)
+
+Para tentar perceber melhor, fui buscar/adaptar o codigo das confusion matrices e das oclusion maps que o bernardo tinha no seu trabalho, mas ainda não acabei porque não tive tempo durante o fim de semana.

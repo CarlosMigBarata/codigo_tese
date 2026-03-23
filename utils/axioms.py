@@ -26,17 +26,17 @@ final_classes = 1
 # Constants
 #final classes
 class_cafe = ltn.Constant(torch.tensor(CLASSES.index("Cafe")), trainable=False)
-class_hotel = ltn.Constant(torch.tensor(CLASSES.index("Hotel")), trainable=False)
-class_store = ltn.Constant(torch.tensor(CLASSES.index("Store")), trainable=False)
-class_misc_commercial = ltn.Constant(torch.tensor(CLASSES.index("MiscCommercial")), trainable=False)
+#class_hotel = ltn.Constant(torch.tensor(CLASSES.index("Hotel")), trainable=False)
+#class_store = ltn.Constant(torch.tensor(CLASSES.index("Store")), trainable=False)
+#class_misc_commercial = ltn.Constant(torch.tensor(CLASSES.index("MiscCommercial")), trainable=False)
 
 #concepts
-class_awning = ltn.Constant(torch.tensor(CLASSES.index("Awning")), trainable=False)
-class_billboard = ltn.Constant(torch.tensor(CLASSES.index("Billboard")), trainable=False)
+#class_awning = ltn.Constant(torch.tensor(CLASSES.index("Awning")), trainable=False)
+#class_billboard = ltn.Constant(torch.tensor(CLASSES.index("Billboard")), trainable=False)
 class_vending_machine = ltn.Constant(torch.tensor(CLASSES.index("VendingMachine")), trainable=False)
 class_statue = ltn.Constant(torch.tensor(CLASSES.index("Statue")), trainable=False)
-class_table = ltn.Constant(torch.tensor(CLASSES.index("Table")), trainable=False)
-class_wall_sign = ltn.Constant(torch.tensor(CLASSES.index("WallSign")), trainable=False)
+#class_table = ltn.Constant(torch.tensor(CLASSES.index("Table")), trainable=False)
+#class_wall_sign = ltn.Constant(torch.tensor(CLASSES.index("WallSign")), trainable=False)
 
 
 
@@ -83,26 +83,17 @@ def compute_axioms(logits, *args, p):
     #logits = logits_model(features_param)
 
     x = ltn.Variable("x", logits)
-    x_hotel = ltn.Variable("x_hotel", logits[args[CLASSES.index("Hotel")] == 1, :])
-    x_not_hotel = ltn.Variable(
-        "x_not_hotel", logits[args[CLASSES.index("Hotel")] == 0, :]
-    )
+    #x_hotel = ltn.Variable("x_hotel", logits[args[CLASSES.index("Hotel")] == 1, :])
+    #x_not_hotel = ltn.Variable("x_not_hotel", logits[args[CLASSES.index("Hotel")] == 0, :])
+
     x_cafe = ltn.Variable("x_cafe", logits[args[CLASSES.index("Cafe")] == 1, :])
-    x_not_cafe = ltn.Variable(
-        "x_not_cafe", logits[args[CLASSES.index("Cafe")] == 0, :]
-    )
-    x_store = ltn.Variable("x_store", logits[args[CLASSES.index("Store")] == 1, :])
-    x_not_store = ltn.Variable(
-        "x_not_store", logits[args[CLASSES.index("Store")] == 0, :]
-    )
-    x_misc_commercial = ltn.Variable(
-        "x_misc_commercial", logits[args[CLASSES.index("MiscCommercial")] == 1, :]
-    )
-    x_not_misc_commercial = ltn.Variable(
-        "x_not_misc_commercial",
-        
-        logits[args[CLASSES.index("MiscCommercial")] == 0, :],
-    )
+    x_not_cafe = ltn.Variable("x_not_cafe", logits[args[CLASSES.index("Cafe")] == 0, :])
+
+    #x_store = ltn.Variable("x_store", logits[args[CLASSES.index("Store")] == 1, :])
+    #x_not_store = ltn.Variable("x_not_store", logits[args[CLASSES.index("Store")] == 0, :])
+
+    #x_misc_commercial = ltn.Variable("x_misc_commercial", logits[args[CLASSES.index("MiscCommercial")] == 1, :])
+    #x_not_misc_commercial = ltn.Variable("x_not_misc_commercial",logits[args[CLASSES.index("MiscCommercial")] == 0, :])
 
     axioms_cafe_and_disjunction = [
         safe_forall(x_cafe, p(x_cafe, class_cafe), device),
@@ -118,6 +109,8 @@ def compute_axioms(logits, *args, p):
 
     ]
 
+    '''
+    
     axioms = [
         # Grounded Predicates
 
@@ -165,6 +158,8 @@ def compute_axioms(logits, *args, p):
             device
         ),
     ]
+
+    '''
     #print("values of axioms")
     #for a in axioms:
       #print(a.value)

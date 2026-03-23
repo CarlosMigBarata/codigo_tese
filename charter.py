@@ -7,8 +7,11 @@ from pathlib import Path
 #FOLDER = "outputs0_2026-03-19_12-21-36"
 #FOLDER = "outputs0_2026-03-19_04-44-45"
 #FOLDER = "outputs0_2026-03-20_12-07-19"
+#FOLDER = "outputs0_2026-03-20_20-20-15"
+#FOLDER = "outputs0_2026-03-21_01-44-11"
 
-FOLDER = "outputs0_2026-03-20_20-20-15"
+#FOLDER = "outputs0_2026-03-21_13-39-46"
+FOLDER = "outputs0_2026-03-23_19-39-18"
 
 #alpha 0.5
 #FOLDER = "outputs0_2026-03-20_15-44-41" 
@@ -47,6 +50,7 @@ metrics_to_plot1 = [
         "alpha"
     ]
 
+'''
 metrics_to_plot2 = [
         "cafe_train_accuracy",
         "hotel_train_accuracy",
@@ -64,6 +68,20 @@ metrics_to_plot3 = [
         "wallsign_train_accuracy",
         "alpha"
     ]
+'''
+
+metrics_to_plot2 = [
+        "cafe_train_accuracy",
+        "alpha"
+    ]
+
+metrics_to_plot3 = [
+        "vendingmachine_train_accuracy",
+        "statue_train_accuracy",
+        "alpha"
+    ]
+
+
 
 def plot_each_metric_individually(metrics_to_plot):
 

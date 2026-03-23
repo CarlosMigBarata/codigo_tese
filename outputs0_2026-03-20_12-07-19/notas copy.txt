@@ -1,0 +1,1 @@
+acelerei a dimuinição do alpha, os resultados fiacaram lieiramente piores mas durou as 25 epocas do costume
