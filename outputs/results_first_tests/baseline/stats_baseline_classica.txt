@@ -1,0 +1,9 @@
+Results Description
+Number of examples: 15000
+Train/Test limit: 16000
+Epochs: 100
+Complexity of the Dataset: 1
+Batch size: 32
+Learning rate: 0.00100
+Number of classes: 4
+

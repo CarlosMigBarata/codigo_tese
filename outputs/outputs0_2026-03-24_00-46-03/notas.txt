@@ -1,0 +1,1 @@
+teste em que começo com um starting alpha menor q 1, mas alto (0.8)
