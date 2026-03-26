@@ -11,7 +11,8 @@ from pathlib import Path
 #FOLDER = "outputs0_2026-03-21_01-44-11"
 
 #FOLDER = "outputs0_2026-03-21_13-39-46"
-FOLDER = "outputs/outputs0_2026-03-23_19-39-18"
+#FOLDER = "outputs/outputs0_2026-03-23_19-39-18"
+FOLDER = "outputs/outputs0_2026-03-24_15-51-04"
 
 #alpha 0.5
 #FOLDER = "outputs0_2026-03-20_15-44-41" 
