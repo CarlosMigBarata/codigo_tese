@@ -1,6 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
+import sys
+
+if len(sys.argv) < 2:
+    print("Usage: python charter.py <path>")
+    sys.exit(1)
+
 
 # ---- CONFIG ----
 #FOLDER = "outputs0_2026-03-20_00-55-28"
@@ -12,14 +18,17 @@ from pathlib import Path
 
 #FOLDER = "outputs0_2026-03-21_13-39-46"
 #FOLDER = "outputs/outputs0_2026-03-23_19-39-18"
-FOLDER = "outputs/outputs0_2026-03-24_15-51-04"
+folder = "outputs/outputs0_2026-03-24_15-51-04"
+
+folder = sys.argv[1]
+print("Received path:", folder)
 
 #alpha 0.5
 #FOLDER = "outputs0_2026-03-20_15-44-41" 
 
 
-CSV_PATH = Path(f"{FOLDER}/metrics.csv")  # change to your file
-OUTPUT_DIR = Path(f"{FOLDER}/plots")
+CSV_PATH = Path(f"{folder}/metrics.csv")  # change to your file
+OUTPUT_DIR = Path(f"{folder}/plots")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # ---- LOAD DATA ----
@@ -48,15 +57,40 @@ metrics_to_plot1 = [
         "test_loss",
         "train_sat_kb",
         "test_sat_kb",
+        "combined_train_loss",
+        "combined_test_loss",
         "alpha"
     ]
 
 '''
+
+metrics_to_plot2 = [
+        "cafe_train_accuracy",
+        "alpha"
+    ]
+
+
+    metrics_to_plot3 = [
+        "vendingmachine_train_accuracy",
+        "statue_train_accuracy",
+        "alpha"
+    ]
+
+'''
+
 metrics_to_plot2 = [
         "cafe_train_accuracy",
         "hotel_train_accuracy",
         "store_train_accuracy",
         "misccommercial_train_accuracy",
+        "alpha"
+    ]
+
+metrics_to_plot2b = [
+        "cafe_test_accuracy",
+        "hotel_tets_accuracy",
+        "store_test_accuracy",
+        "misccommercial_test_accuracy",
         "alpha"
     ]
 
@@ -69,20 +103,16 @@ metrics_to_plot3 = [
         "wallsign_train_accuracy",
         "alpha"
     ]
-'''
 
-metrics_to_plot2 = [
-        "cafe_train_accuracy",
+metrics_to_plot3b = [
+        "awning_test_accuracy",
+        "billboard_test_accuracy",
+        "vendingmachine_test_accuracy",
+        "statue_test_accuracy",
+        "table_test_accuracy",
+        "wallsign_test_accuracy",
         "alpha"
     ]
-
-metrics_to_plot3 = [
-        "vendingmachine_train_accuracy",
-        "statue_train_accuracy",
-        "alpha"
-    ]
-
-
 
 def plot_each_metric_individually(metrics_to_plot):
 
@@ -132,4 +162,8 @@ plot_all_metrics(metrics_to_plot=metrics_to_plot1, id=1)
 
 plot_all_metrics(metrics_to_plot=metrics_to_plot2, id=2)
 
+plot_all_metrics(metrics_to_plot=metrics_to_plot2b, id="2b")
+
 plot_all_metrics(metrics_to_plot=metrics_to_plot3, id=3)
+
+plot_all_metrics(metrics_to_plot=metrics_to_plot3b, id="3b")
