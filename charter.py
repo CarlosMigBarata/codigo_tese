@@ -20,6 +20,9 @@ if len(sys.argv) < 2:
 #FOLDER = "outputs/outputs0_2026-03-23_19-39-18"
 folder = "outputs/outputs0_2026-03-24_15-51-04"
 
+def set_folder(out_folder):
+    return out_folder
+
 folder = sys.argv[1]
 print("Received path:", folder)
 
@@ -88,7 +91,7 @@ metrics_to_plot2 = [
 
 metrics_to_plot2b = [
         "cafe_test_accuracy",
-        "hotel_tets_accuracy",
+        "hotel_test_accuracy",
         "store_test_accuracy",
         "misccommercial_test_accuracy",
         "alpha"
@@ -133,9 +136,6 @@ def plot_each_metric_individually(metrics_to_plot):
     """
 
 def plot_all_metrics(metrics_to_plot, id):
-    # ---- SELECT METRICS ----
-    exclude_cols = ["Epoch"]  # you can also exclude "Alpha" if you want
-    metrics = [col for col in df.columns if col not in exclude_cols]
 
     # ---- PLOT ----
     plt.figure()
@@ -157,6 +157,9 @@ def plot_all_metrics(metrics_to_plot, id):
     plt.close()
 
     print(f"Saved: {save_path}")
+
+
+
 
 plot_all_metrics(metrics_to_plot=metrics_to_plot1, id=1)
 

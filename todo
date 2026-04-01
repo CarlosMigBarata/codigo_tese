@@ -1,0 +1,6 @@
+testes com diferentes tamanhos de camadas fully connected, usar o leaky relu
+
+
+tbm experimentar usar sigmoid na camada dos conceitos.
+
+tbm criar um script que compile os resultados da ultima epoca dos varios metrics

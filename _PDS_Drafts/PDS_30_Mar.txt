@@ -1,0 +1,5 @@
+Durante esta semana estive a testar diferentes arquieturas para o meu modelo, com cada vez menos nueronios nas camadas fully connected. estou a testar primeiro usar alpha= 1.0 e depois 0.8.
+
+Infelizmente, quando mudei o codigo para que pudesse fazer um looop e executar varios testes seguidos, eu esqueci-me que já não estava a inicilizar uma nova variavel do logits_model, pelo que provavelmente estava a reutilizar os pesos do primeiro teste para começar o segundo.
+
+os resultados são substancialmente diferentes, desde a ultima epoca do teste0 para a primeira epoca do teste1, mas como só me apercebi deste bug na segunda-feira ainda estou no processo de testar se fez muito mal. felizmente, os unicos testes que possam ter sido afetados são os testes com alpha 0.8.
