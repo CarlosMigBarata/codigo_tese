@@ -49,12 +49,14 @@ def occlusion_map(model, image, class_idx, patch_size=20, stride=10, final_class
 
     return heatmap
 
-def show_occlusion(image, heatmap, save_folder):
+def show_occlusion(image, heatmap, save_folder, id):
     image = image.permute(1, 2, 0).cpu().numpy()
 
-    output_dir = Path(f"{save_folder}/plots")
-    save_path = output_dir / "occlusion_map.png"
-    save_path_image = output_dir / "base_image.png"
+    output_dir = Path(f"{save_folder}/plots/images")
+    output_dir.mkdir(exist_ok=True)
+
+    save_path = output_dir / f"occlusion_map{id}.png"
+    save_path_image = output_dir / f"base_image{id}.png"
 
     plt.imshow(image)
     plt.savefig(save_path_image)
@@ -66,3 +68,28 @@ def show_occlusion(image, heatmap, save_folder):
 
     plt.savefig(save_path)
     plt.close()
+
+'''
+relevant classes é o conjunto de classes que o modelo está a usar para treinar
+all classes é o conjunto de todas as classes presentes no dataset/ontologia
+'''
+def write_image_info(relevant_classes, all_classes, image_id, image_concepts, txt_path ):
+    txt_file = open(txt_path, "w+")
+
+    relevant_concepts_present = [
+        relevant_classes[j]
+        for j, val in enumerate(image_concepts)
+        if val == 1
+    ]
+
+    print(f"relevant concepts: {relevant_concepts_present} ")
+    txt_file.write(f"relevant concepts: {relevant_concepts_present} for image {image_id}\n")
+
+    all_concepts_present = [
+        all_classes[j]
+        for j, val in enumerate(image_concepts)
+        if val == 1
+    ]
+
+    print(f"all concepts: {all_concepts_present}")
+    txt_file.write(f"relevant concepts: {all_concepts_present} for image {image_id}\n")

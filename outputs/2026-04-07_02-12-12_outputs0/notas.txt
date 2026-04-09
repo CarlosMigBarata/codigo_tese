@@ -1,0 +1,1 @@
+msm ark que o anterior, mas usando leaky relu nas camadas FC e sigmoid no concept layer.
