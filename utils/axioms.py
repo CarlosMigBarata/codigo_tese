@@ -4,15 +4,18 @@ import ltn
 
 RULES = []
 
-rule1 = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1}
+#rule1 = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1}
+rule1 = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck"]), "nbr_of_ops": 2}
+
 
 RULES.append(rule1)
 
+# Misc Industrial = (not Awning) and Truck
 
 CLASSES = [
-    "MiscCommercial",
+    "MiscIndustrial",
     "Awning",
-    "Table"
+    "Truck",
 ]
 
 ALL_CLASSES = [
@@ -54,6 +57,12 @@ ALL_CLASSES = [
 ]
 
 '''
+
+CLASSES = [
+    "MiscCommercial",
+    "Awning",
+    "Table"
+]
 
 CLASSES = [
     "Cafe",
@@ -166,8 +175,58 @@ Class equiv (((c1 op1 c2) op2 c3) op3 c4)
 
 ("Cafe", "OR", ["Statue", "VendingMachine"]),
 ("Hotel", "EQUIV", ["WallSign"]),
+
+MI NOT A AND T
+("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck"])
+
+# Misc Industrial = (not Awning) and Truck
+        Forall(
+            x,
+            Equiv(
+                p([x, class_misc_industrial]),
+                And(Not(p([x, class_awning])), p([x, class_truck])),
+            ),
+        ),
 '''    
 
+
+'''
+def build_axiom(x, p, rule, nbr_of_ops):
+    target = rule[0]
+    target_cnst = CLASS_CONSTANTS[target]
+
+    expr = None
+
+    for i in range(nbr_of_ops):
+        op = rule[2*i + 1]
+        concepts = rule[2*i + 2]
+        concept_cnsts = [CLASS_CONSTANTS[c] for c in concepts]
+
+        if op == "NOT":
+            current = Not(p(x, concept_cnsts[0]))
+
+        elif op == "AND":
+            current = p(x, concept_cnsts[0])
+            for c in concept_cnsts[1:]:
+                current = And(current, p(x, c))
+
+        elif op == "OR":
+            current = p(x, concept_cnsts[0])
+            for c in concept_cnsts[1:]:
+                current = Or(current, p(x, c))
+
+        elif op == "EQUIV":
+            return Equiv(p(x, target_cnst), p(x, concept_cnsts[0]))
+
+        # Combine with previous expression
+        if expr is None:
+            expr = current
+        else:
+            # Default chaining = AND (since your rule is sequential)
+            expr = And(expr, current)
+
+    return Equiv(p(x, target_cnst), expr)
+'''
 
 
 def build_axiom(x, p, rule, nbr_of_ops):
@@ -195,7 +254,7 @@ def build_axiom(x, p, rule, nbr_of_ops):
             #construir conjuntcion -> c1 and c2 and c3...
             for c in concept_cnsts[1:]:
                 conjunction = And(conjunction, p(x, c))
-            complete_axiom = Equiv(p(x, target_cnst), conjunction)
+            complete_axiom = conjunction
 
         elif op == "OR":
             disjunction = complete_axiom
@@ -205,14 +264,22 @@ def build_axiom(x, p, rule, nbr_of_ops):
             #construir disjunction -> c1 or c2 or c3...
             for c in concept_cnsts[1:]:
                 disjunction = Or(disjunction, p(x, c))
-            complete_axiom =  Equiv(p(x, target_cnst), disjunction)
+            complete_axiom =  disjunction
+
+        elif op == "NOT":
+            expression = complete_axiom
+            if i == 0:
+                expression = p(x, concept_cnsts[0])
+
+            complete_axiom =  Not(expression)
 
         #apenas se usa se so quisermos uma equivalencia entre uma classe e um conceito Cafe = Statue
         elif op == "EQUIV":
-            complete_axiom =  Equiv(p(x, target_cnst), p(x, concept_cnsts[0]))
+            return Equiv(p(x, target_cnst), p(x, concept_cnsts[0]))
 
-    
-    return complete_axiom
+    #aplica as ops, e dps gera a equivalencia final
+    return Equiv(p(x, target_cnst), complete_axiom)
+
     
 def get_masked_variable(logits, args, class_name):
     idx = CLASS_TO_IDX[class_name]
@@ -250,8 +317,11 @@ def compute_axioms(logits, *args, p):
     #x_not_misc_commercial = ltn.Variable("x_not_misc_commercial",logits[args[CLASS_TO_IDX["MiscCommercial"]] == 0, :])
 
 
-    x_misc_commercial, x_not_misc_commercial = get_masked_variable(logits=logits, args=args, class_name="MiscCommercial")
-    append_class_predicates(axioms, p, x=x_misc_commercial, x_not=x_not_misc_commercial, class_name="MiscCommercial",device=device)
+    #x_misc_commercial, x_not_misc_commercial = get_masked_variable(logits=logits, args=args, class_name="MiscCommercial")
+    #append_class_predicates(axioms, p, x=x_misc_commercial, x_not=x_not_misc_commercial, class_name="MiscCommercial",device=device)
+
+    x_misc_industrial, x_not_industrial = get_masked_variable(logits=logits, args=args, class_name="MiscIndustrial")
+    append_class_predicates(axioms, p, x=x_misc_industrial, x_not=x_not_industrial, class_name="MiscIndustrial",device=device)
 
 
 
@@ -313,6 +383,15 @@ def get_classes_to_plot():
     ),
     ]
     
+
+# Misc Industrial = (not Awning) and Truck
+        Forall(
+            x,
+            Equiv(
+                p([x, class_misc_industrial]),
+                And(Not(p([x, class_awning])), p([x, class_truck])),
+            ),
+        ),
 
     
 # Restaurant = (Car or Truck) and Sign
