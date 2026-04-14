@@ -3,19 +3,67 @@ import ltn
 
 
 RULES = []
+#qnd aplico um AND ou um OUR, tenho por aspas na primeira casa
+rule1 = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1}
+rule2 = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck", "Truck"]), "nbr_of_ops": 2}
+rule3 = {"rule": ("CountryHouse", "AND",["Car", "TiledRoof"]), "nbr_of_ops": 1}
 
-#rule1 = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1}
-rule1 = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck"]), "nbr_of_ops": 2}
+rule4 = {"rule": ("Cafe", "OR", ["Statue", "VendingMachine"]), "nbr_of_ops": 1}
+rule5 = {"rule": ("Hotel", "EQUIV", ["WallSign"]), "nbr_of_ops": 1}
+rule6 = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1}
+
+
+'''
+    # Axioms
+    # MiscCommercial = Awning and Table
+    # MiscIndustrial = not Awning and Truck
+    # CountryHouse = Car and TiledRoof
+
+    # Cafe = Statue or Vending Machine
+    # Hotel = Wall Sign
+    # Store = Billboard
+'''
 
 
 RULES.append(rule1)
+RULES.append(rule4)
+RULES.append(rule5)
+RULES.append(rule6)
 
-# Misc Industrial = (not Awning) and Truck
+
+def get_final_classes_in_classes(classes, all_final_classes):
+    final_in_classes = [c for c in all_final_classes if c in classes]
+    return final_in_classes
+
+
 
 CLASSES = [
-    "MiscIndustrial",
+    "Cafe",
+    "Hotel",
+    "Store",
+    "MiscCommercial",
+    
     "Awning",
-    "Truck",
+    "Billboard",
+    "VendingMachine",
+    "Statue",
+    "Table",
+    "WallSign",
+]
+
+ALL_FINAL_CLASSES = [
+    "Cafe",
+    "Hotel",
+    "Restaurant",
+    "Store",
+    "MiscCommercial",
+    "Suburban",
+    "MiscResidential",
+    "CountryHouse",
+    "ConstructionSite",
+    "MiscIndustrial",
+    "PowerPlant",
+    "WaterTreatment",
 ]
 
 ALL_CLASSES = [
@@ -56,7 +104,44 @@ ALL_CLASSES = [
     "Car"
 ]
 
+
+list_of_final_classes = get_final_classes_in_classes(CLASSES, ALL_FINAL_CLASSES)
+final_classes = len(list_of_final_classes)
+
 '''
+
+
+CLASSES = [
+    "MiscIndustrial",
+    "Awning",
+    "Truck",
+]
+
+
+CLASSES = [
+    "CountryHouse",
+    "MiscIndustrial",
+    "MiscCommercial",
+
+    "Car",
+    "TiledRoof",
+    "Awning",
+    "Truck",
+    "Table",
+]
+
+
+CLASSES = [
+    "CountryHouse",
+    "Car",
+    "TiledRoof",
+]
+
+CLASSES = [
+    "MiscIndustrial",
+    "Awning",
+    "Truck",
+]
 
 CLASSES = [
     "MiscCommercial",
@@ -69,6 +154,7 @@ CLASSES = [
     "Hotel",
     "Store",
     "MiscCommercial",
+
     "Awning",
     "Billboard",
     "VendingMachine",
@@ -86,7 +172,6 @@ CLASSES = [
 '''
 CLASS_TO_IDX = {name: i for i, name in enumerate(CLASSES)}
 
-final_classes = 1
 
 # Constants
 #final classes
@@ -230,7 +315,7 @@ def build_axiom(x, p, rule, nbr_of_ops):
 
 
 def build_axiom(x, p, rule, nbr_of_ops):
-    #rule = ("Cafe", "OR", ["Statue", "VendingMachine"], "AND", ["", "Statue"])
+    #rule = ("Cafe", "OR", ["Statue", "VendingMachine"], "AND", ["Statue", "Statue"])
     #nbr_of_ops = 2
 
     target = rule[0]
@@ -268,6 +353,7 @@ def build_axiom(x, p, rule, nbr_of_ops):
 
         elif op == "NOT":
             expression = complete_axiom
+            #se apenas um conceito tem de ser invertido, NOT tem de ser a primeira opção. caso contrario
             if i == 0:
                 expression = p(x, concept_cnsts[0])
 
@@ -281,12 +367,17 @@ def build_axiom(x, p, rule, nbr_of_ops):
     return Equiv(p(x, target_cnst), complete_axiom)
 
     
-def get_masked_variable(logits, args, class_name):
+def get_masked_variable_and_append_predicates(logits, p, args, class_name, axioms, device):
+    
+    if class_name not in CLASS_CONSTANTS or class_name not in CLASS_TO_IDX:
+        print(f"\n\n skipping class {class_name} \n\n")
+        return
+    
+    cnst = CLASS_CONSTANTS.get(class_name)
     idx = CLASS_TO_IDX[class_name]
-    return ltn.Variable(f"x_{class_name}",logits[args[idx] == 1, :]), ltn.Variable(f"x_not_{class_name}",logits[args[idx] == 0, :])
 
-def append_class_predicates(axioms, p, x, x_not, class_name, device):
-    cnst = CLASS_CONSTANTS[class_name]
+    x = ltn.Variable(f"x_{class_name}",logits[args[idx] == 1, :])
+    x_not = ltn.Variable(f"x_not_{class_name}",logits[args[idx] == 0, :])
 
     p1 = safe_forall(x, p(x, cnst), device)
     p2 = safe_forall(x_not, Not(p(x_not, cnst)), device)
@@ -304,24 +395,36 @@ def compute_axioms(logits, *args, p):
     #logits = logits_model(features_param)
 
     x = ltn.Variable("x", logits)
-    #x_hotel = ltn.Variable("x_hotel", logits[args[CLASSES.index("Hotel")] == 1, :])
-    #x_not_hotel = ltn.Variable("x_not_hotel", logits[args[CLASSES.index("Hotel")] == 0, :])
 
-    #x_cafe = ltn.Variable("x_cafe", logits[args[CLASSES.index("Cafe")] == 1, :])
-    #x_not_cafe = ltn.Variable("x_not_cafe", logits[args[CLASSES.index("Cafe")] == 0, :])
 
-    #x_store = ltn.Variable("x_store", logits[args[CLASSES.index("Store")] == 1, :])
-    #x_not_store = ltn.Variable("x_not_store", logits[args[CLASSES.index("Store")] == 0, :])
+    for class_name in list_of_final_classes:
+        get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name=class_name, axioms=axioms, device=device)
 
-    #x_misc_commercial = ltn.Variable("x_misc_commercial", logits[args[CLASS_TO_IDX["MiscCommercial"]] == 1, :])
-    #x_not_misc_commercial = ltn.Variable("x_not_misc_commercial",logits[args[CLASS_TO_IDX["MiscCommercial"]] == 0, :])
 
+        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="Cafe", axioms=axioms, device=device)
+        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="Store", axioms=axioms, device=device)
+        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="MiscCommercial", axioms=axioms, device=device)
+
+
+    #append_class_predicates(axioms, p, x=x_hotel, x_not=x_not_hotel, class_name="Hotel",device=device)
+
+    #x_cafe, x_not_cafe = get_masked_variable(logits=logits, args=args, class_name="Cafe")
+    #append_class_predicates(axioms, p, x=x_cafe, x_not=x_not_cafe, class_name="Cafe",device=device)
+
+    #x_store, x_not_store = get_masked_variable(logits=logits, args=args, class_name="Store")
+    #append_class_predicates(axioms, p, x=x_store, x_not=x_not_store, class_name="Store",device=device)
 
     #x_misc_commercial, x_not_misc_commercial = get_masked_variable(logits=logits, args=args, class_name="MiscCommercial")
     #append_class_predicates(axioms, p, x=x_misc_commercial, x_not=x_not_misc_commercial, class_name="MiscCommercial",device=device)
 
-    x_misc_industrial, x_not_industrial = get_masked_variable(logits=logits, args=args, class_name="MiscIndustrial")
-    append_class_predicates(axioms, p, x=x_misc_industrial, x_not=x_not_industrial, class_name="MiscIndustrial",device=device)
+    #x_misc_industrial, x_not_industrial = get_masked_variable(logits=logits, args=args, class_name="MiscIndustrial")
+    #append_class_predicates(axioms, p, x=x_misc_industrial, x_not=x_not_industrial, class_name="MiscIndustrial",device=device)
+
+
+    #x_CH, x_not_CH = get_masked_variable(logits=logits, args=args, class_name="CountryHouse")
+    #append_class_predicates(axioms, p, x=x_CH, x_not=x_not_CH, class_name="CountryHouse",device=device)
+
+    
 
 
 
@@ -367,6 +470,35 @@ def get_classes_to_plot():
     concept_val_metrics.append("alpha")
 
     return class_train_metrics, class_val_metrics, concept_train_metrics, concept_val_metrics
+
+'''
+DO NOT USE; ONLY FOR OLD TESTS
+'''
+def get_classes_to_plot_old():
+    class_train_metrics = []
+    class_val_metrics = []
+    concept_train_metrics= []
+    concept_val_metrics = []
+
+    final_classes_to_plot = CLASSES[:final_classes]
+    concepts_to_plot = CLASSES[final_classes:]
+
+
+    for c in final_classes_to_plot:
+        class_train_metrics.append(f"{c.lower()}_train_accuracy")
+        class_val_metrics.append(f"{c.lower()}_test_accuracy")
+
+    for c in concepts_to_plot:
+        concept_train_metrics.append(f"{c.lower()}_train_accuracy")
+        concept_val_metrics.append(f"{c.lower()}_test_accuracy")
+
+    class_train_metrics.append("alpha")
+    class_val_metrics.append("alpha")
+    concept_train_metrics.append("alpha")
+    concept_val_metrics.append("alpha")
+
+    return class_train_metrics, class_val_metrics, concept_train_metrics, concept_val_metrics
+
 
 
 '''

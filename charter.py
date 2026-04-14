@@ -47,6 +47,18 @@ metrics_to_plot1 = [
         "alpha"
 
 ]
+metrics_to_plot1_old = [
+        "train_loss",
+        "test_loss",
+        "train_sat_kb",
+        "test_sat_kb",
+        "combined_train_loss",
+        "combined_test_loss",
+        "alpha"
+
+]
+
+
 if mode == "0":
     folder = sys.argv[2]
 
@@ -150,7 +162,7 @@ def collect_final_metrics_from_runs(parent_folder):
 def plot_all_metrics_across_runs(df, metrics_to_plot, id):
 
     # ---- PLOT ----
-    plt.figure(figsize=(20, 10))
+    plt.figure(figsize=(25, 15))
 
     for metric in metrics_to_plot:
         values = df[metric]

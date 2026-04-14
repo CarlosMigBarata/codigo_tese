@@ -1,0 +1,23 @@
+MiscIndustrial_train confusion matrix:
+tensor([[13555,    45],
+        [    7,  2393]], dtype=torch.int32)
+
+Awning_train confusion matrix:
+tensor([[2417, 6269],
+        [  40, 7274]], dtype=torch.int32)
+
+Truck_train confusion matrix:
+tensor([[10800,     9],
+        [ 2799,  2392]], dtype=torch.int32)
+
+MiscIndustrial_val confusion matrix:
+tensor([[3403,   11],
+        [   0,  586]], dtype=torch.int32)
+
+Awning_val confusion matrix:
+tensor([[ 587, 1573],
+        [  13, 1827]], dtype=torch.int32)
+
+Truck_val confusion matrix:
+tensor([[2718,    0],
+        [ 684,  598]], dtype=torch.int32)
