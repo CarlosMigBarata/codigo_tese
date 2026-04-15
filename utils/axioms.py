@@ -4,13 +4,13 @@ import ltn
 
 RULES = []
 #qnd aplico um AND ou um OUR, tenho por aspas na primeira casa
-rule1 = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1}
-rule2 = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck", "Truck"]), "nbr_of_ops": 2}
-rule3 = {"rule": ("CountryHouse", "AND",["Car", "TiledRoof"]), "nbr_of_ops": 1}
+rule_MiscCommercial_AwningAndTable = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1}
+rule_MiscIndustrial_notAwningAndTruck = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck", "Truck"]), "nbr_of_ops": 2}
+rule_CH_CarAndTiledroof = {"rule": ("CountryHouse", "AND",["Car", "TiledRoof"]), "nbr_of_ops": 1}
 
-rule4 = {"rule": ("Cafe", "OR", ["Statue", "VendingMachine"]), "nbr_of_ops": 1}
-rule5 = {"rule": ("Hotel", "EQUIV", ["WallSign"]), "nbr_of_ops": 1}
-rule6 = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1}
+rule_Cafe_StatueOrVendingMachine = {"rule": ("Cafe", "OR", ["Statue", "VendingMachine"]), "nbr_of_ops": 1}
+rule_Hotel_Wallsign = {"rule": ("Hotel", "EQUIV", ["WallSign"]), "nbr_of_ops": 1}
+rule_Store_Billboard = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1}
 
 
 '''
@@ -25,10 +25,13 @@ rule6 = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1}
 '''
 
 
-RULES.append(rule1)
-RULES.append(rule4)
-RULES.append(rule5)
-RULES.append(rule6)
+RULES.append(rule_MiscCommercial_AwningAndTable)
+RULES.append(rule_MiscIndustrial_notAwningAndTruck)
+RULES.append(rule_CH_CarAndTiledroof)
+
+#RULES.append(rule4)
+#RULES.append(rule5)
+#RULES.append(rule6)
 
 
 def get_final_classes_in_classes(classes, all_final_classes):
@@ -38,17 +41,15 @@ def get_final_classes_in_classes(classes, all_final_classes):
 
 
 CLASSES = [
-    "Cafe",
-    "Hotel",
-    "Store",
+    "CountryHouse",
+    "MiscIndustrial",
     "MiscCommercial",
-    
+
+    "Car",
+    "TiledRoof",
     "Awning",
-    "Billboard",
-    "VendingMachine",
-    "Statue",
+    "Truck",
     "Table",
-    "WallSign",
 ]
 
 ALL_FINAL_CLASSES = [
@@ -173,25 +174,6 @@ CLASSES = [
 CLASS_TO_IDX = {name: i for i, name in enumerate(CLASSES)}
 
 
-# Constants
-#final classes
-
-'''
-#CLASS_TO_IDX["Awning"]
-#class_cafe = ltn.Constant(torch.tensor(CLASS_TO_IDX["Cafe"]), trainable=False)
-#class_hotel = ltn.Constant(torch.tensor(CLASS_TO_IDX["Hotel"]), trainable=False)
-#class_store = ltn.Constant(torch.tensor(CLASS_TO_IDX["Store"]), trainable=False)
-class_misc_commercial = ltn.Constant(torch.tensor(CLASS_TO_IDX["MiscCommercial"]), trainable=False)
-
-#concepts
-class_awning = ltn.Constant(torch.tensor(CLASS_TO_IDX["Awning"]), trainable=False)
-#class_billboard = ltn.Constant(torch.tensor(CLASS_TO_IDX["Billboard"]), trainable=False)
-#class_vending_machine = ltn.Constant(torch.tensor(CLASS_TO_IDX["VendingMachine"]), trainable=False)
-#class_statue = ltn.Constant(torch.tensor(CLASS_TO_IDX["Statue"]), trainable=False)
-class_table = ltn.Constant(torch.tensor(CLASS_TO_IDX["Table"]), trainable=False)
-#class_wall_sign = ltn.Constant(torch.tensor(CLASS_TO_IDX["WallSign"]), trainable=False)
-'''
-
 CLASS_CONSTANTS = {
     name: ltn.Constant(torch.tensor(idx), trainable=False)
     for name, idx in CLASS_TO_IDX.items()
@@ -265,53 +247,24 @@ MI NOT A AND T
 ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck"])
 
 # Misc Industrial = (not Awning) and Truck
-        Forall(
+        safe_Forall(
             x,
             Equiv(
                 p([x, class_misc_industrial]),
                 And(Not(p([x, class_awning])), p([x, class_truck])),
             ),
+            device
         ),
+
+        safe_forall(
+        x,
+        Equiv(
+            p(x, class_cafe),
+            Or(p(x, class_statue), p(x, class_vending_machine)),
+        ),
+        device
+    )
 '''    
-
-
-'''
-def build_axiom(x, p, rule, nbr_of_ops):
-    target = rule[0]
-    target_cnst = CLASS_CONSTANTS[target]
-
-    expr = None
-
-    for i in range(nbr_of_ops):
-        op = rule[2*i + 1]
-        concepts = rule[2*i + 2]
-        concept_cnsts = [CLASS_CONSTANTS[c] for c in concepts]
-
-        if op == "NOT":
-            current = Not(p(x, concept_cnsts[0]))
-
-        elif op == "AND":
-            current = p(x, concept_cnsts[0])
-            for c in concept_cnsts[1:]:
-                current = And(current, p(x, c))
-
-        elif op == "OR":
-            current = p(x, concept_cnsts[0])
-            for c in concept_cnsts[1:]:
-                current = Or(current, p(x, c))
-
-        elif op == "EQUIV":
-            return Equiv(p(x, target_cnst), p(x, concept_cnsts[0]))
-
-        # Combine with previous expression
-        if expr is None:
-            expr = current
-        else:
-            # Default chaining = AND (since your rule is sequential)
-            expr = And(expr, current)
-
-    return Equiv(p(x, target_cnst), expr)
-'''
 
 
 def build_axiom(x, p, rule, nbr_of_ops):
@@ -401,42 +354,11 @@ def compute_axioms(logits, *args, p):
         get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name=class_name, axioms=axioms, device=device)
 
 
-        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="Cafe", axioms=axioms, device=device)
-        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="Store", axioms=axioms, device=device)
-        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="MiscCommercial", axioms=axioms, device=device)
-
-
-    #append_class_predicates(axioms, p, x=x_hotel, x_not=x_not_hotel, class_name="Hotel",device=device)
-
-    #x_cafe, x_not_cafe = get_masked_variable(logits=logits, args=args, class_name="Cafe")
-    #append_class_predicates(axioms, p, x=x_cafe, x_not=x_not_cafe, class_name="Cafe",device=device)
-
-    #x_store, x_not_store = get_masked_variable(logits=logits, args=args, class_name="Store")
-    #append_class_predicates(axioms, p, x=x_store, x_not=x_not_store, class_name="Store",device=device)
-
-    #x_misc_commercial, x_not_misc_commercial = get_masked_variable(logits=logits, args=args, class_name="MiscCommercial")
-    #append_class_predicates(axioms, p, x=x_misc_commercial, x_not=x_not_misc_commercial, class_name="MiscCommercial",device=device)
-
-    #x_misc_industrial, x_not_industrial = get_masked_variable(logits=logits, args=args, class_name="MiscIndustrial")
-    #append_class_predicates(axioms, p, x=x_misc_industrial, x_not=x_not_industrial, class_name="MiscIndustrial",device=device)
-
-
-    #x_CH, x_not_CH = get_masked_variable(logits=logits, args=args, class_name="CountryHouse")
-    #append_class_predicates(axioms, p, x=x_CH, x_not=x_not_CH, class_name="CountryHouse",device=device)
-
-    
-
-
-
     for r in RULES:
         axioms.append(
             safe_forall(x, build_axiom(x, p, r["rule"], r["nbr_of_ops"]), device)
         )
     
-    #print("values of axioms")
-    #for a in axioms:
-      #print(a.value)
-
     sat_level = formula_aggregator(*axioms)
 
     return sat_level
@@ -470,6 +392,8 @@ def get_classes_to_plot():
     concept_val_metrics.append("alpha")
 
     return class_train_metrics, class_val_metrics, concept_train_metrics, concept_val_metrics
+
+
 
 '''
 DO NOT USE; ONLY FOR OLD TESTS
@@ -604,4 +528,86 @@ axioms = [
         device
     ),
 ]
+
+
+        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="Cafe", axioms=axioms, device=device)
+        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="Store", axioms=axioms, device=device)
+        #get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name="MiscCommercial", axioms=axioms, device=device)
+
+
+    #append_class_predicates(axioms, p, x=x_hotel, x_not=x_not_hotel, class_name="Hotel",device=device)
+
+    #x_cafe, x_not_cafe = get_masked_variable(logits=logits, args=args, class_name="Cafe")
+    #append_class_predicates(axioms, p, x=x_cafe, x_not=x_not_cafe, class_name="Cafe",device=device)
+
+    #x_store, x_not_store = get_masked_variable(logits=logits, args=args, class_name="Store")
+    #append_class_predicates(axioms, p, x=x_store, x_not=x_not_store, class_name="Store",device=device)
+
+    #x_misc_commercial, x_not_misc_commercial = get_masked_variable(logits=logits, args=args, class_name="MiscCommercial")
+    #append_class_predicates(axioms, p, x=x_misc_commercial, x_not=x_not_misc_commercial, class_name="MiscCommercial",device=device)
+
+    #x_misc_industrial, x_not_industrial = get_masked_variable(logits=logits, args=args, class_name="MiscIndustrial")
+    #append_class_predicates(axioms, p, x=x_misc_industrial, x_not=x_not_industrial, class_name="MiscIndustrial",device=device)
+
+
+    #x_CH, x_not_CH = get_masked_variable(logits=logits, args=args, class_name="CountryHouse")
+    #append_class_predicates(axioms, p, x=x_CH, x_not=x_not_CH, class_name="CountryHouse",device=device)
+# Constants
+#final classes
+
+#CLASS_TO_IDX["Awning"]
+#class_cafe = ltn.Constant(torch.tensor(CLASS_TO_IDX["Cafe"]), trainable=False)
+#class_hotel = ltn.Constant(torch.tensor(CLASS_TO_IDX["Hotel"]), trainable=False)
+#class_store = ltn.Constant(torch.tensor(CLASS_TO_IDX["Store"]), trainable=False)
+class_misc_commercial = ltn.Constant(torch.tensor(CLASS_TO_IDX["MiscCommercial"]), trainable=False)
+
+#concepts
+class_awning = ltn.Constant(torch.tensor(CLASS_TO_IDX["Awning"]), trainable=False)
+#class_billboard = ltn.Constant(torch.tensor(CLASS_TO_IDX["Billboard"]), trainable=False)
+#class_vending_machine = ltn.Constant(torch.tensor(CLASS_TO_IDX["VendingMachine"]), trainable=False)
+#class_statue = ltn.Constant(torch.tensor(CLASS_TO_IDX["Statue"]), trainable=False)
+class_table = ltn.Constant(torch.tensor(CLASS_TO_IDX["Table"]), trainable=False)
+#class_wall_sign = ltn.Constant(torch.tensor(CLASS_TO_IDX["WallSign"]), trainable=False)
+
+
+
+    
+'''
+
+'''
+def build_axiom(x, p, rule, nbr_of_ops):
+    target = rule[0]
+    target_cnst = CLASS_CONSTANTS[target]
+
+    expr = None
+
+    for i in range(nbr_of_ops):
+        op = rule[2*i + 1]
+        concepts = rule[2*i + 2]
+        concept_cnsts = [CLASS_CONSTANTS[c] for c in concepts]
+
+        if op == "NOT":
+            current = Not(p(x, concept_cnsts[0]))
+
+        elif op == "AND":
+            current = p(x, concept_cnsts[0])
+            for c in concept_cnsts[1:]:
+                current = And(current, p(x, c))
+
+        elif op == "OR":
+            current = p(x, concept_cnsts[0])
+            for c in concept_cnsts[1:]:
+                current = Or(current, p(x, c))
+
+        elif op == "EQUIV":
+            return Equiv(p(x, target_cnst), p(x, concept_cnsts[0]))
+
+        # Combine with previous expression
+        if expr is None:
+            expr = current
+        else:
+            # Default chaining = AND (since your rule is sequential)
+            expr = And(expr, current)
+
+    return Equiv(p(x, target_cnst), expr)
 '''
