@@ -1,0 +1,6 @@
+
+gerador das images do datasetVCB
+https://github.com/brunoacr/ArchMAX-Generator
+
+o resto dos datasets:
+ https://huggingface.co/datasets/bruno-cotrim/arch-max.
