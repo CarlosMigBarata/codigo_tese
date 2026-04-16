@@ -1,0 +1,78 @@
+------------ FORMATO DA MATRIZ --------
+----------------[TN, FP]------------------
+----------------[FN, TP]------------------
+TN: predicted Negative, Reality Negative
+FN: predicted Negative, Reality Positive
+FP: predicted Positive, Reality Negative
+TP: predicted Positive, Reality Positive
+
+
+CountryHouse_train confusion matrix:
+tensor([[13795,     9],
+        [   10,  2186]], dtype=torch.int32)
+
+MiscIndustrial_train confusion matrix:
+tensor([[13568,    32],
+        [   11,  2389]], dtype=torch.int32)
+
+MiscCommercial_train confusion matrix:
+tensor([[12821,    50],
+        [  103,  3026]], dtype=torch.int32)
+
+
+
+Car_train confusion matrix:
+tensor([[7963, 4287],
+        [1120, 2630]], dtype=torch.int32)
+
+TiledRoof_train confusion matrix:
+tensor([[10626,     1],
+        [ 3183,  2190]], dtype=torch.int32)
+
+Awning_train confusion matrix:
+tensor([[8641,   45],
+        [4261, 3053]], dtype=torch.int32)
+        
+Truck_train confusion matrix:
+tensor([[10808,     1],
+        [ 2785,  2406]], dtype=torch.int32)
+
+Table_train confusion matrix:
+tensor([[10761,    10],
+        [ 2183,  3046]], dtype=torch.int32)
+
+
+
+
+CountryHouse_val confusion matrix:
+tensor([[3447,    0],
+        [   0,  553]], dtype=torch.int32)
+
+MiscIndustrial_val confusion matrix:
+tensor([[3411,    3],
+        [   0,  586]], dtype=torch.int32)
+
+MiscCommercial_val confusion matrix:
+tensor([[3216,    2],
+        [  37,  745]], dtype=torch.int32)
+
+Car_val confusion matrix:
+tensor([[2405,  620],
+        [ 419,  556]], dtype=torch.int32)
+
+TiledRoof_val confusion matrix:
+tensor([[2663,    0],
+        [ 784,  553]], dtype=torch.int32)
+
+Awning_val confusion matrix:
+tensor([[2157,    3],
+        [1092,  748]], dtype=torch.int32)
+
+Truck_val confusion matrix:
+tensor([[2718,    0],
+        [ 693,  589]], dtype=torch.int32)
+
+Table_val confusion matrix:
+tensor([[2670,    0],
+        [ 581,  749]], dtype=torch.int32)
+

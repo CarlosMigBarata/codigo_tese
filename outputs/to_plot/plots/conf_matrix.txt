@@ -1,0 +1,88 @@
+------------ FORMATO DA MATRIZ --------
+
+
+----------------[TN, FP]------------------
+----------------[FN, TP]------------------
+
+
+TN: predicted Negative, Reality Negative
+FP: predicted Positive, Reality Negative
+FN: predicted Negative, Reality True
+TP: predicted Positive, Reality Positive
+
+
+tn = torch.sum((y_true == 0) & (y_pred == 0)) #TN
+fp = torch.sum((y_true == 0) & (y_pred == 1)) #FP
+fn = torch.sum((y_true == 1) & (y_pred == 0)) #FN
+tp = torch.sum((y_true == 1) & (y_pred == 1)) #TP
+
+
+
+
+CountryHouse_train confusion matrix:
+tensor([[13803,     1],
+        [    3,  2193]], dtype=torch.int32)
+
+MiscIndustrial_train confusion matrix:
+tensor([[13587,    13],
+        [    8,  2392]], dtype=torch.int32)
+
+MiscCommercial_train confusion matrix:
+tensor([[12826,    45],
+        [   68,  3061]], dtype=torch.int32)
+
+Car_train confusion matrix:
+tensor([[12250,     0],
+        [ 1586,  2164]], dtype=torch.int32)
+
+TiledRoof_train confusion matrix:
+tensor([[   18, 10609],
+        [   19,  5354]], dtype=torch.int32)
+
+Awning_train confusion matrix:
+tensor([[8668,   18],
+        [4283, 3031]], dtype=torch.int32)
+
+Truck_train confusion matrix:
+tensor([[10809,     0],
+        [ 2805,  2386]], dtype=torch.int32)
+
+Table_train confusion matrix:
+tensor([[    0, 10771],
+        [    1,  5228]], dtype=torch.int32)
+
+
+
+
+
+CountryHouse_val confusion matrix:
+tensor([[3447,    0],
+        [   0,  553]], dtype=torch.int32)
+
+MiscIndustrial_val confusion matrix:
+tensor([[3399,   15],
+        [   0,  586]], dtype=torch.int32)
+
+MiscCommercial_val confusion matrix:
+tensor([[3215,    3],
+        [  31,  751]], dtype=torch.int32)
+
+Car_val confusion matrix:
+tensor([[3025,    0],
+        [ 422,  553]], dtype=torch.int32)
+
+TiledRoof_val confusion matrix:
+tensor([[   0, 2663],
+        [   0, 1337]], dtype=torch.int32)
+
+Awning_val confusion matrix:
+tensor([[2158,    2],
+        [1099,  741]], dtype=torch.int32)
+
+Truck_val confusion matrix:
+tensor([[2718,    0],
+        [ 689,  593]], dtype=torch.int32)
+
+Table_val confusion matrix:
+tensor([[   0, 2670],
+        [   0, 1330]], dtype=torch.int32)

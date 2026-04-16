@@ -1,0 +1,22 @@
+Esta semana começei a fazer testes em que adiciono conhecimento, especificamente conjunções. 
+
+começei por usar as regras, uma de cada vez
+
+MiscCommercial = Awning and Table
+
+MiscIndustrial = (not) Awning and Truck
+
+e testei com diversos valores de alpha (0.7, 0.8, 0.9, em todos, as vezes faziam com outros alphas adicionais)
+
+Tenho estado a usar a arquitetura que tinha decidido anteriormente durante a fase em que treinava sem conhecimento, mas mudifiquei ligeiramente nos ultimos testes. Em vez de usar um valor fixo de neuronios na concept layer, passei a usar o numero equivalente aos conceitos que queriam identificar.
+
+Depois experimentei para os mesmos valores de alpha, mas com 3 conjunções ao mesmo tempo. As duas anteriores mais
+
+CountryHouse = Car and TiledRoof
+
+Também melhorei o script dos axioms, para ser mais facil experimentar com diversos tipos de conhecimento. Em vez de ser necessário fazer tudo a mão, eu só preciso de especificar as Classes que estou a usar e os axiomas que relacionam as classes/conceitos.
+
+Também criei mais funcionalidades no script para criar os graficos, agora posso criar um grafico a partir dos resultados da ultima epoca de diversos testes.
+
+
+Tive alguns problemas com alguns conceitos, que em certos testes tinham valores muito instaveis(saltos de 0.6 para 0.2 em epocas consecutivas). no entanto, hoje no domingo descobri que tinha um bug em como escrevia as regras para a nova função dos axiomas, por isso essa instavel provavelmente devia vir disso.

@@ -1,0 +1,149 @@
+That's an important architectural decision — using sat level as the **primary objective** puts significant pressure on the LTN formulation to be both expressive and numerically stable. Let me dig into the implications.
+
+---
+
+## Sat Level as Primary Objective — Key Concerns
+
+### 1. `SatAgg` with `PMeanError` — Gradient Dynamics
+
+```python
+formula_aggregator = ltn.fuzzy_ops.SatAgg(
+    ltn.fuzzy_ops.AggregPMeanError(p=2)
+)
+```
+
+`PMeanError` with `p=2` is essentially a **quadratic mean of `(1 - axiom_sat)`** values. As primary loss this means:
+
+- The model is **penalised proportionally to unsatisfied axioms**
+- With `p=2`, it's sensitive to large violations but **dampens gradients near saturation** (when axioms are nearly satisfied, `1 - sat → 0`, gradient shrinks)
+- This creates a **vanishing gradient problem late in training** — the model stalls before fully satisfying the logic
+
+**Consider** switching to `p=4` or `p=6` to sharpen the penalty signal:
+```python
+formula_aggregator = ltn.fuzzy_ops.SatAgg(
+    ltn.fuzzy_ops.AggregPMeanError(p=4)  # more aggressive near saturation
+)
+```
+
+---
+
+### 2. The `Forall` quantifier is also `PMeanError(p=2)`
+
+```python
+Forall = ltn.Quantifier(ltn.fuzzy_ops.AggregPMeanError(p=2), quantifier="f")
+```
+
+You're stacking two `PMeanError` aggregations — one inside `Forall` over instances, one inside `SatAgg` over axioms. This means the **outer loss sees an already-smoothed signal**. The gradient chain is:
+
+```
+Loss ← SatAgg(PMeanError) ← [axiom1, axiom2, ...] ← Forall(PMeanError) ← per-instance truth values
+```
+
+Double quadratic smoothing can make training **very slow to respond to hard violations** on individual samples. A common approach is to use a stricter quantifier internally:
+
+```python
+Forall = ltn.Quantifier(ltn.fuzzy_ops.AggregPMeanError(p=4), quantifier="f")
+```
+
+---
+
+### 3. Axiom Weighting — You Have None
+
+With the current setup all axioms contribute equally to `SatAgg`:
+
+```python
+sat_level = formula_aggregator(*axioms)
+```
+
+Your axiom list contains two fundamentally different **types**:
+
+| Type | Example | Role |
+|---|---|---|
+| Grounded predicates | `∀x_mc: P(x, MiscCommercial)` | Supervised signal |
+| Rule equivalences | `∀x: MC ≡ Awning ∧ Table` | Logical constraint |
+
+These have **very different gradient scales** and semantic importance. If a rule equivalence axiom saturates early, it will pull the aggregation up and **mask unsatisfied grounded predicates**. You should weight them explicitly:
+
+```python
+# Conceptually — LTN doesn't natively support this,
+# but you can do it manually:
+grounded_sat = formula_aggregator(*grounded_axioms)
+rule_sat = formula_aggregator(*rule_axioms)
+
+# Weighted combination as your actual loss
+loss = alpha * (1 - grounded_sat) + (1 - alpha) * (1 - rule_sat)
+```
+
+Where `alpha` is a hyperparameter you can tune — or even make learnable.
+
+---
+
+### 4. Equivalence as the Sole Rule Connective — Semantic Risk
+
+All your rules are compiled to `Equiv`:
+
+```python
+return Equiv(p(x, target_cnst), complete_axiom)
+```
+
+Using `Equiv` (`↔`) means you're asserting **both directions simultaneously**:
+- `MiscCommercial → Awning ∧ Table` (if commercial, must have both)
+- `Awning ∧ Table → MiscCommercial` (if both present, must be commercial)
+
+The second direction is **semantically questionable** — a CountryHouse could hypothetically have an awning and a table. This causes **axiom conflicts** when examples from different classes share concepts, which directly degrades sat level and sends contradictory gradients.
+
+**Consider using `Implies` instead of `Equiv` for rules:**
+```python
+return Implies(p(x, target_cnst), complete_axiom)
+# "If MiscCommercial, then Awning AND Table" — safer
+```
+
+Or make it configurable per rule:
+```python
+rule1 = {"rule": (...), "nbr_of_ops": 1, "connective": "EQUIV"}
+rule2 = {"rule": (...), "nbr_of_ops": 2, "connective": "IMPLIES"}
+```
+
+---
+
+### 5. Sat Level Monitoring — You're Flying Blind
+
+Since this is your primary objective, you need **per-axiom sat level logging**, not just the aggregated value. Right now you have this commented out:
+
+```python
+#for a in axioms:
+    #print(a.value)
+```
+
+You need proper diagnostics in training — something like:
+
+```python
+def compute_axioms_debug(logits, *args, p):
+    axiom_labels = []
+    axiom_values = []
+
+    # tag each axiom with a label as you build them
+    # e.g. ("grounded_MiscCommercial_pos", tensor_value)
+    ...
+    return sat_level, dict(zip(axiom_labels, axiom_values))
+```
+
+Without this, if sat level plateaus you have **no way to know which axiom is the bottleneck** — a grounded predicate conflict, a rule violation, or an empty-batch `0.5` injection from `safe_forall`.
+
+---
+
+## Critical Risk Summary for Primary Objective Use
+
+```
+double PMeanError(p=2) → vanishing gradients late in training
+no axiom weighting    → grounded vs rule axioms compete blindly  
+Equiv connective      → bidirectional constraints cause conflicts
+safe_forall(0.5)      → silent noise injection into sat aggregation
+build_axiom bug       → rule2 is logically wrong, corrupting the objective
+```
+
+The `build_axiom` bug I flagged earlier is especially severe here — if `rule2` is silently wrong, your **primary loss is computing the wrong thing from epoch 1**, and your model will converge to a logically incorrect solution with no error signal to tell you.
+
+---
+
+What does your training loop look like? Specifically, how are you converting `sat_level` to a loss — `1 - sat_level`, direct maximisation, or something else? That'll let me assess if there are further numerical issues downstream.

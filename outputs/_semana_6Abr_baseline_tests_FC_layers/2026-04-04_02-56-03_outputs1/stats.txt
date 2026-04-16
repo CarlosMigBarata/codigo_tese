@@ -1,0 +1,28 @@
+Results Description
+Number of examples: 15000
+Train/Test limit: 16000
+Epochs: 120
+Complexity of the Dataset: 1
+Batch size: 32
+Learning rate: 0.00100
+Number of classes: 10
+
+Number of epochs completed: 84
+Warmup epochs: 10; final_epochs: 30; staring alpha:0.8; constant_alpha: True; final alpha: 0.25; patience: 15
+
+Model Architecture:
+CNN(
+  (conv1a): Conv2d(3, 8, kernel_size=(3, 3), stride=(1, 1))
+  (conv1b): Conv2d(8, 12, kernel_size=(3, 3), stride=(1, 1))
+  (conv2a): Conv2d(12, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2b): Conv2d(16, 24, kernel_size=(3, 3), stride=(1, 1))
+  (conv3a): Conv2d(24, 32, kernel_size=(3, 3), stride=(1, 1))
+  (maxpool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (dense1): Linear(in_features=20000, out_features=48, bias=True)
+  (dense2): Linear(in_features=48, out_features=24, bias=True)
+  (concept_layer): Linear(in_features=24, out_features=6, bias=True)
+  (output_layer): Linear(in_features=6, out_features=4, bias=True)
+)
+

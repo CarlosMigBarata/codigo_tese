@@ -1,6 +1,3 @@
-testes com diferentes tamanhos de camadas fully connected, usar o leaky relu
+usar clingo? para verificiar se os outputs sao consistentes com a ontologia
 
-
-tbm experimentar usar sigmoid na camada dos conceitos.
-
-tbm criar um script que compile os resultados da ultima epoca dos varios metrics
+dps posso tentar complicar, encontrar regras em que conceitos aparecem como vdd e falso

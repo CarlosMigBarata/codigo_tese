@@ -1,0 +1,39 @@
+
+------------ FORMATO DA MATRIZ --------
+
+
+----------------[TN, FP]------------------
+----------------[FN, TP]------------------
+
+
+TN: predicted Negative, Reality Negative
+FN: predicted Negative, Reality True
+FP: predicted Positive, Reality Negative
+TP: predicted Positive, Reality Positive
+
+
+
+
+MiscIndustrial_train confusion matrix:
+tensor([[13557,    43],
+        [    7,  2393]], dtype=torch.int32)
+
+Awning_train confusion matrix:
+tensor([[   0, 8686],
+        [   1, 7313]], dtype=torch.int32)
+
+Truck_train confusion matrix:
+tensor([[    1, 10808],
+        [ 1370,  3821]], dtype=torch.int32)
+
+MiscIndustrial_val confusion matrix:
+tensor([[3402,   12],
+        [   0,  586]], dtype=torch.int32)
+
+Awning_val confusion matrix:
+tensor([[   0, 2160],
+        [   0, 1840]], dtype=torch.int32)
+
+Truck_val confusion matrix:
+tensor([[   0, 2718],
+        [ 375,  907]], dtype=torch.int32)

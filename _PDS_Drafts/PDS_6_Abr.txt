@@ -1,0 +1,3 @@
+realizei alguns testes modificando os valores das camadas fully connected, mas não tive muito tempo para analisar os resultados.
+
+fui dimnuindo o numero de neuronios na camada dos conceitos, usando o alpha 1.0 e 0.8 tal como fiz na semana passada.
