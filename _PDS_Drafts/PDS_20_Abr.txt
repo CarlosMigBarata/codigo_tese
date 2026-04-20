@@ -1,0 +1,6 @@
+Durante esta semana, criei o metodo de validação da consistencia dos resultados. Eu adapto os resultados para o clingo, definindo para cada imagem/sample que conceitos estão presentes
+e identifico-os usando a função holds(sample, conceito)
+
+Defini para cada erro em que condições é que a regra é violada e quando é aceitada, e conto o numero de vezes que cada regra não é respeitada, e o tipo de erro que foi cometido.
+
+Na parte do python, introduzi um dicionario com todas as regras da ontologia, e para correr os testes apenas preciso de mudar que regras é que estão ativas, e todo o resto é feito baseado nessa informação.

@@ -1,176 +1,15 @@
 import torch
 import ltn
+import utils.rules_and_concepts as rules_and_concepts
 
+RULES = rules_and_concepts.get_active_rules()
+CLASSES = rules_and_concepts.get_classes()
 
-RULES = []
-#qnd aplico um AND ou um OUR, tenho por aspas na primeira casa
-rule_MiscCommercial_AwningAndTable = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1}
-rule_MiscIndustrial_notAwningAndTruck = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck", "Truck"]), "nbr_of_ops": 2}
-rule_CH_CarAndTiledroof = {"rule": ("CountryHouse", "AND",["Car", "TiledRoof"]), "nbr_of_ops": 1}
+print(f"classes {CLASSES}")
 
-rule_Cafe_StatueOrVendingMachine = {"rule": ("Cafe", "OR", ["Statue", "VendingMachine"]), "nbr_of_ops": 1}
-rule_Hotel_Wallsign = {"rule": ("Hotel", "EQUIV", ["WallSign"]), "nbr_of_ops": 1}
-rule_Store_Billboard = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1}
-
-
-'''
-    # Axioms
-    # MiscCommercial = Awning and Table
-    # MiscIndustrial = not Awning and Truck
-    # CountryHouse = Car and TiledRoof
-
-    # Cafe = Statue or Vending Machine
-    # Hotel = Wall Sign
-    # Store = Billboard
-'''
-
-
-RULES.append(rule_MiscCommercial_AwningAndTable)
-RULES.append(rule_MiscIndustrial_notAwningAndTruck)
-RULES.append(rule_CH_CarAndTiledroof)
-
-#RULES.append(rule4)
-#RULES.append(rule5)
-#RULES.append(rule6)
-
-
-def get_final_classes_in_classes(classes, all_final_classes):
-    final_in_classes = [c for c in all_final_classes if c in classes]
-    return final_in_classes
-
-
-
-CLASSES = [
-    "CountryHouse",
-    "MiscIndustrial",
-    "MiscCommercial",
-
-    "Car",
-    "TiledRoof",
-    "Awning",
-    "Truck",
-    "Table",
-]
-
-ALL_FINAL_CLASSES = [
-    "Cafe",
-    "Hotel",
-    "Restaurant",
-    "Store",
-    "MiscCommercial",
-    "Suburban",
-    "MiscResidential",
-    "CountryHouse",
-    "ConstructionSite",
-    "MiscIndustrial",
-    "PowerPlant",
-    "WaterTreatment",
-]
-
-ALL_CLASSES = [
-    "Residential",
-    "Commercial",
-    "Industrial",
-
-
-    "Cafe",
-    "Hotel",
-    "Restaurant",
-    "Store",
-    "MiscCommercial",
-    "Suburban",
-    "MiscResidential",
-    "CountryHouse",
-    "ConstructionSite",
-    "MiscIndustrial",
-    "PowerPlant",
-    "WaterTreatment",
-
-    "Door",
-    "Window",
-    "Awning",
-    "Billboard",
-    "Porch",
-    "Sign",
-    "Table",
-    "TiledRoof",
-    "TiledRoofTop",
-    "VendingMachine",
-    "WallSign",
-    "Statue",
-    "Chimney",
-    "Pipe",
-    "Machine",
-    "Truck",
-    "Car"
-]
-
-
-list_of_final_classes = get_final_classes_in_classes(CLASSES, ALL_FINAL_CLASSES)
+list_of_final_classes = rules_and_concepts.get_final_classes()
 final_classes = len(list_of_final_classes)
 
-'''
-
-
-CLASSES = [
-    "MiscIndustrial",
-    "Awning",
-    "Truck",
-]
-
-
-CLASSES = [
-    "CountryHouse",
-    "MiscIndustrial",
-    "MiscCommercial",
-
-    "Car",
-    "TiledRoof",
-    "Awning",
-    "Truck",
-    "Table",
-]
-
-
-CLASSES = [
-    "CountryHouse",
-    "Car",
-    "TiledRoof",
-]
-
-CLASSES = [
-    "MiscIndustrial",
-    "Awning",
-    "Truck",
-]
-
-CLASSES = [
-    "MiscCommercial",
-    "Awning",
-    "Table"
-]
-
-CLASSES = [
-    "Cafe",
-    "Hotel",
-    "Store",
-    "MiscCommercial",
-
-    "Awning",
-    "Billboard",
-    "VendingMachine",
-    "Statue",
-    "Table",
-    "WallSign",
-]
-
-CLASSES = [
-    "Cafe",
-    "Statue",
-    "VendingMachine"
-]
-
-'''
 CLASS_TO_IDX = {name: i for i, name in enumerate(CLASSES)}
 
 
@@ -212,7 +51,7 @@ def get_CLASSES():
     return CLASSES
 
 def get_ALL_CLASSES():
-    return ALL_CLASSES
+    return rules_and_concepts.get_all_classes()
 
 
 def get_nbr_of_concepts():
@@ -267,7 +106,7 @@ MI NOT A AND T
 '''    
 
 
-def build_axiom(x, p, rule, nbr_of_ops):
+def build_axiom(x, p, rule, nbr_of_ops, main_op):
     #rule = ("Cafe", "OR", ["Statue", "VendingMachine"], "AND", ["Statue", "Statue"])
     #nbr_of_ops = 2
 
@@ -315,9 +154,16 @@ def build_axiom(x, p, rule, nbr_of_ops):
         #apenas se usa se so quisermos uma equivalencia entre uma classe e um conceito Cafe = Statue
         elif op == "EQUIV":
             return Equiv(p(x, target_cnst), p(x, concept_cnsts[0]))
+        
+        elif op == "IMPL":
+            return Implies(p(x, target_cnst), p(x, concept_cnsts[0]))
 
     #aplica as ops, e dps gera a equivalencia final
-    return Equiv(p(x, target_cnst), complete_axiom)
+    if main_op == "EQUIV":
+        return Equiv(p(x, target_cnst), complete_axiom)
+    
+    elif main_op == "IMPL":
+        return Implies(p(x, target_cnst), complete_axiom)
 
     
 def get_masked_variable_and_append_predicates(logits, p, args, class_name, axioms, device):
@@ -356,7 +202,7 @@ def compute_axioms(logits, *args, p):
 
     for r in RULES:
         axioms.append(
-            safe_forall(x, build_axiom(x, p, r["rule"], r["nbr_of_ops"]), device)
+            safe_forall(x, build_axiom(x, p, r["rule"], r["nbr_of_ops"], r["Main_OP"]), device)
         )
     
     sat_level = formula_aggregator(*axioms)
@@ -610,4 +456,194 @@ def build_axiom(x, p, rule, nbr_of_ops):
             expr = And(expr, current)
 
     return Equiv(p(x, target_cnst), expr)
+'''
+
+
+'''
+dict:
+#rule: the main axiom. A primeira classe é o conceito mais a esq da regra, a partir daí é Operation -> conceitos envolvidos. em relação as operações
+#a Equivalencia/Implicação é ignorada, a menos que seja a unica operação. quando apenas existe um AND/OR/NOT, é só preciso meter essa operação
+#sem mudanças; se houver mais do que uma, a partir da primeira operação a primeira posição da lista dos conceitos envolvidos é ignorada.
+
+#nbr_of_ops: numero de opções, 1 se só houver uma equivalencia/implicacao ou se houver apenas 1 And/Or/not. conta o numero de OPs na rule
+#MAIN_OP: "EQUIV"/"IMPL". representa a principal operação, que é ignorada quando existe outras operações.
+
+#High Level Rules
+rule_BuildingTypes = {"rule": ("Building", "OR", ["Residential", "Commercial", "Industrial"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_FeatureTypes = {"rule": ("Feature", "OR", ["Awning", "Billboard", "Car", "Chimney", "Door", "Machine", "Pipe","Porch",
+             "Sign", "Statue", "Table", "TiledRoof", "Truck", "VendingMachine", "WallSign", "Window"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#preciso de implementar o Implica -> "IMPL"
+
+#Building ⊑ ¬((∃has.Car ⊔ ∃has.T ruck) ⊓ (∃has.Machine))
+
+rule_Buiding_Impl_not_carAndTruck_OrMachine = {"rule": ("Building", "OR", ["Car", "Truck"], "AND", ["Machine", "Machine"],
+                                                                  "NOT", ["Machine"]), "nbr_of_ops": 3, "Main_OP": "IMPL"}
+
+
+#second rule Building ⊓¬(∃has.Door ⊔ ∃has.Window) ⊑ ¬∃has.Awning -> o meu codigo n ta preparado para isto, dps tenho de melhorar a logica
+
+
+# Building ⊑¬(∃has.Car ⊓ ∃has.T ruck)
+rule_Building_Impl_not_CarAndTruck = {"rule": ("Building", "AND", ["Car", "Truck"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+
+
+#Building ⊑ ¬(∃has.Chimney ⊓ ∃has.Statue)
+rule_Building_Impl_not_ChimneyAndStatue = {"rule": ("Building", "AND", ["Chimney", "Statue"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+
+
+
+
+rule_CommercialBuildingType = {"rule": ("Commercial", "OR", ["Cafe", "Hotel", "MiscCommercial", "Restaurant", "Store"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_IndustrialBuildingType = {"rule": ("Industrial", "OR", ["ConstructionSite", "MiscIndustrial", "PowerPlant", "WaterTreatment"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_ResidentialBuildingType = {"rule": ("Residential", "OR", ["CountryHouse", "MiscResidential", "Suburban"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#rules related to final classes
+#when using the second rule, its necessary to place a placeholder in this first slot
+
+#equiv
+rule_Hotel_Wallsign = {"rule": ("Hotel", "EQUIV", ["WallSign"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Store_Billboard = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Industrial_notTable = {"rule": ("Industrial", "NOT", ["Table"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+rule_ConstructionSite_Machine = {"rule": ("ConstructionSite", "EQUIV", ["Machine"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Suburban_Porch = {"rule": ("Suburban", "EQUIV", ["Porch"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#conj
+rule_MiscCommercial_AwningAndTable = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_MiscIndustrial_notAwningAndTruck = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck", "Truck"]), "nbr_of_ops": 2, "Main_OP": "EQUIV"}
+rule_CH_CarAndTiledroof = {"rule": ("CountryHouse", "AND",["Car", "TiledRoof"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_PowerPlant_ChimneyAndPipe = {"rule": ("PowerPlant", "AND",["Chimney", "Pipe"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_WaterTreatment_PipeAndTruck = {"rule": ("WaterTreatment", "AND", ["Pipe", "Truck"]), "nbr_of_ops":1, "Main_OP": "EQUIV"}
+
+
+#disj
+rule_Cafe_StatueOrVendingMachine = {"rule": ("Cafe", "OR", ["Statue", "VendingMachine"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+
+#regras complexas
+rule_Restaurant_CarOrTruckAndSign = {"rule": ("Restaurant", "OR", ["Car", "Truck"], "AND", ["Sign", "Sign"]), "nbr_of_ops": 2, "Main_OP": "EQUIV"}
+
+
+#in this case, the awning inside of the NOT is NOT USED, its just a placeholder. same applies to the first TiledRoof
+rule_MiscResidential_not_AwningAndTable_AndTiledRoof = {"rule": ("MiscResidential", "AND", ["Awning", "Table"], "NOT", ["Awning"],
+                                                                  "OR", ["TiledRoof", "TiledRoof"]), "nbr_of_ops": 3, "Main_OP": "EQUIV"}
+
+# Residential⊑¬(∃has.Chimney ⊔ ∃has.P ipe)
+rule_Residential_Impl_not_ChimneyOrPipe = {"rule": ("Residential", "OR", ["Chimney", "Pipe"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+
+
+'''
+    # Axioms
+    # MiscCommercial = Awning and Table
+    # MiscIndustrial = not Awning and Truck
+    # CountryHouse = Car and TiledRoof
+
+    # Cafe = Statue or Vending Machine
+    # Hotel = Wall Sign
+    # Store = Billboard
+'''
+
+
+RULES.append(rule_MiscCommercial_AwningAndTable)
+RULES.append(rule_MiscIndustrial_notAwningAndTruck)
+RULES.append(rule_CH_CarAndTiledroof)
+
+RULES.append(rule_Cafe_StatueOrVendingMachine)
+RULES.append(rule_Hotel_Wallsign)
+RULES.append(rule_Store_Billboard)
+
+RULES.append(rule_Restaurant_CarOrTruckAndSign)
+
+
+def get_final_classes_in_classes(classes, all_final_classes):
+    return [c for c in all_final_classes if c in classes]
+
+
+
+'''
+"Awning",
+"Billboard",
+"VendingMachine",
+"Statue",
+"Table",
+"WallSign",'''
+
+
+CLASSES = [
+
+    "CountryHouse",
+    "MiscIndustrial",
+    "MiscCommercial",
+    "Restaurant",
+    "Cafe",
+    "Hotel",
+    "Store",
+
+    "Car",
+    "TiledRoof",
+    "Awning",
+    "Truck",
+    "Table",
+    "Sign",
+    "Billboard",
+    "VendingMachine",
+    "Statue",
+    "WallSign",
+]
+
+ALL_FINAL_CLASSES = [
+    "Cafe",
+    "Hotel",
+    "Restaurant",
+    "Store",
+    "MiscCommercial",
+    "Suburban",
+    "MiscResidential",
+    "CountryHouse",
+    "ConstructionSite",
+    "MiscIndustrial",
+    "PowerPlant",
+    "WaterTreatment",
+]
+
+ALL_CLASSES = [
+    "Building",
+    "Feature",
+
+    "Residential",
+    "Commercial",
+    "Industrial",
+
+    "Cafe",
+    "Hotel",
+    "Restaurant",
+    "Store",
+    "MiscCommercial",
+    "Suburban",
+    "MiscResidential",
+    "CountryHouse",
+    "ConstructionSite",
+    "MiscIndustrial",
+    "PowerPlant",
+    "WaterTreatment",
+
+    "Door",
+    "Window",
+    "Awning",
+    "Billboard",
+    "Porch",
+    "Sign",
+    "Table",
+    "TiledRoof",
+    "TiledRoofTop",
+    "VendingMachine",
+    "WallSign",
+    "Statue",
+    "Chimney",
+    "Pipe",
+    "Machine",
+    "Truck",
+    "Car"
+]
 '''
