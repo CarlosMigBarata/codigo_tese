@@ -1,0 +1,186 @@
+import re
+
+import torch
+import ltn
+import utils.rules_and_concepts as rules_and_concepts
+
+rule_BuildingTypes = {"rule": ("Building", "OR", ["Residential", "Commercial", "Industrial"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_FeatureTypes = {"rule": ("Feature", "OR", ["Awning", "Billboard", "Car", "Chimney", "Door", "Machine", "Pipe","Porch",
+             "Sign", "Statue", "Table", "TiledRoof", "Truck", "VendingMachine", "WallSign", "Window"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#preciso de implementar o Implica -> "IMPL"
+
+
+''' Building ⊑ ¬((∃has.Car ⊔ ∃has.T ruck) ⊓ (∃has.Machine))'''
+rule_Buiding_Impl_not_carAndTruck_OrMachine = {"rule": ("Building", "OR", ["Car", "Truck"], "AND", ["Machine", "Machine"],
+                                                                  "NOT", ["Machine"]), "nbr_of_ops": 3, "Main_OP": "IMPL"}
+
+
+#second rule Building ⊓¬(∃has.Door ⊔ ∃has.Window) ⊑ ¬∃has.Awning -> o meu codigo n ta preparado para isto, dps tenho de melhorar a logica
+
+
+# Building ⊑¬(∃has.Car ⊓ ∃has.T ruck)
+rule_Building_Impl_not_CarAndTruck = {"rule": ("Building", "AND", ["Car", "Truck"], "NOT", ["Car"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+
+
+#Building ⊑ ¬(∃has.Chimney ⊓ ∃has.Statue)
+rule_Building_Impl_not_ChimneyAndStatue = {"rule": ("Building", "AND", ["Chimney", "Statue"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+
+
+rule_CommercialBuildingType = {"rule": ("Commercial", "OR", ["Cafe", "Hotel", "MiscCommercial", "Restaurant", "Store"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_IndustrialBuildingType = {"rule": ("Industrial", "OR", ["ConstructionSite", "MiscIndustrial", "PowerPlant", "WaterTreatment"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_ResidentialBuildingType = {"rule": ("Residential", "OR", ["CountryHouse", "MiscResidential", "Suburban"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#rules related to final classes
+#when using the second rule, its necessary to place a placeholder in this first slot
+
+#equiv
+#rule_Hotel_Wallsign = {"rule": ("Hotel", "EQUIV", ["WallSign"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+rule_Hotel_Wallsign = {"rule_left_side": "Hotel", "rule_right_side": "WallSign", "Main_OP": "EQUIV"}
+
+
+rule_Store_Billboard = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Industrial_notTable = {"rule": ("Industrial", "NOT", ["Table"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+rule_ConstructionSite_Machine = {"rule": ("ConstructionSite", "EQUIV", ["Machine"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Suburban_Porch = {"rule": ("Suburban", "EQUIV", ["Porch"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#conj
+rule_MiscCommercial_AwningAndTable = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#rule_MiscIndustrial_notAwningAndTruck = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck", "Truck"]), "nbr_of_ops": 2, "Main_OP": "EQUIV"}
+
+rule_MiscIndustrial_notAwningAndTruck = {"rule_left_side": "MiscIndustrial", "rule_right_side": "AND(NOT(Awning), Truck)", "Main_OP": "EQUIV"}
+
+
+rule_CH_CarAndTiledroof = {"rule": ("CountryHouse", "AND",["Car", "TiledRoof"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_PowerPlant_ChimneyAndPipe = {"rule": ("PowerPlant", "AND",["Chimney", "Pipe"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_WaterTreatment_PipeAndTruck = {"rule": ("WaterTreatment", "AND", ["Pipe", "Truck"]), "nbr_of_ops":1, "Main_OP": "EQUIV"}
+
+
+#disj
+rule_Cafe_StatueOrVendingMachine = {"rule": ("Cafe", "OR", ["Statue", "VendingMachine"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+
+#regras complexas
+rule_Restaurant_CarOrTruckAndSign = {"rule": ("Restaurant", "OR", ["Car", "Truck"], "AND", ["Sign", "Sign"]), "nbr_of_ops": 2, "Main_OP": "EQUIV"}
+
+
+#in this case, the awning inside of the NOT is NOT USED, its just a placeholder. same applies to the first TiledRoof
+rule_MiscResidential_not_AwningAndTable_AndTiledRoof = {"rule": ("MiscResidential", "AND", ["Awning", "Table"], "NOT", ["Awning"],
+                                                                  "OR", ["TiledRoof", "TiledRoof"]), "nbr_of_ops": 3, "Main_OP": "EQUIV"}
+
+# Residential⊑¬(∃has.Chimney ⊔ ∃has.Pipe)
+rule_Residential_Impl_not_ChimneyOrPipe = {"rule": ("Residential", "OR", ["Chimney", "Pipe"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+
+#RULES = rules_and_concepts.get_active_rules()
+RULES = []
+RULES.append(rule_Hotel_Wallsign)
+RULES.append(rule_MiscIndustrial_notAwningAndTruck)
+
+
+CLASSES = rules_and_concepts.get_classes()
+
+print(f"classes {CLASSES}")
+
+list_of_final_classes = rules_and_concepts.get_final_classes()
+final_classes = len(list_of_final_classes)
+
+CLASS_TO_IDX = {name: i for i, name in enumerate(CLASSES)}
+
+
+CLASS_CONSTANTS = {
+    name: ltn.Constant(torch.tensor(idx), trainable=False)
+    for name, idx in CLASS_TO_IDX.items()
+}
+
+
+#Connectives
+Not = ltn.Connective(ltn.fuzzy_ops.NotStandard())
+And = ltn.Connective(ltn.fuzzy_ops.AndProd())
+Or = ltn.Connective(ltn.fuzzy_ops.OrProbSum())
+Implies = ltn.Connective(ltn.fuzzy_ops.ImpliesReichenbach())
+Forall = ltn.Quantifier(ltn.fuzzy_ops.AggregPMeanError(p=2), quantifier="f")
+Exists = ltn.Quantifier(ltn.fuzzy_ops.AggregPMean(p=2), quantifier="e")
+Equiv = ltn.Connective(
+    ltn.fuzzy_ops.Equiv(
+        ltn.fuzzy_ops.AndProd(),
+        ltn.fuzzy_ops.ImpliesReichenbach()
+    )
+)
+
+#X -> linha 287
+
+
+def new_build_axioms(p, x, rule_left_side, rule_right_side, main_op):
+        #aplica as ops, e dps gera a equivalencia final
+    if main_op == "EQUIV":
+        return Equiv(build_axioms_rec(p, x, rule_left_side), build_axioms_rec(p, x, rule_right_side))
+    
+    elif main_op == "IMPL":
+        return Implies(build_axioms_rec(p, x, rule_left_side), build_axioms_rec(p, x, rule_right_side))
+    
+    else:
+        print("TYPO ON MAIN OP")
+
+
+def build_axioms_rec(p, x, rule):
+    op = rule.split("(")[0]
+    print(f"operation: {op}")
+
+    if op == "AND":
+        # remove "AND(" from start and ")" from end
+        inner = rule[4:-1]
+        print(f"inside AND, inner: {inner}")
+        rule_components = split_top_level(inner)
+
+        return And(build_axioms_rec(p, x, rule_components[0]), build_axioms_rec(p, x, rule_components[1]))
+
+    elif op == "OR":
+        # remove "OR(" from start and ")" from end
+        inner = rule[3:-1]
+        print(f"inside OR, inner: {inner}")
+
+        rule_components = split_top_level(inner)
+
+        return Or(build_axioms_rec(p, x, rule_components[0]), build_axioms_rec(p, x, rule_components[1]))
+
+    elif op == "NOT":
+        print(f"inside NOT, rule: {rule}")
+        # remove "NOT(" from start and ")" from end
+        not_string = rule[4:-1]
+
+        return Not(build_axioms_rec(p, x, not_string))
+    
+    #the rule string is only concept,
+    else:
+        if rule not in CLASS_CONSTANTS:
+            print(f"{rule} is not CLASS_CONSTANTS")
+
+
+        target_cnst = CLASS_CONSTANTS[rule]
+        print(f"target_cnst {target_cnst}")
+
+        return p(x, target_cnst)
+
+
+def split_top_level(s):
+    parts = []
+    current = []
+    depth = 0
+
+    for char in s:
+        if char == '(':
+            depth += 1
+        elif char == ')':
+            depth -= 1
+
+        if char == ',' and depth == 1:
+            parts.append(''.join(current))
+            current = []
+        else:
+            current.append(char)
+
+    parts.append(''.join(current))
+    return parts

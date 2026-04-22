@@ -11,6 +11,9 @@
 #NAO USAR PLACEHOLDERS QUE NAO APARECEM NA REGRA CORRESPONDENTE. breaks o getClassesFromRules
 
 #High Level Rules
+import re
+
+#FOR_OR, FOR_AND
 rule_BuildingTypes = {"rule": ("Building", "OR", ["Residential", "Commercial", "Industrial"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
 rule_FeatureTypes = {"rule": ("Feature", "OR", ["Awning", "Billboard", "Car", "Chimney", "Door", "Machine", "Pipe","Porch",
              "Sign", "Statue", "Table", "TiledRoof", "Truck", "VendingMachine", "WallSign", "Window"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
@@ -19,21 +22,20 @@ rule_FeatureTypes = {"rule": ("Feature", "OR", ["Awning", "Billboard", "Car", "C
 
 
 ''' Building ⊑ ¬((∃has.Car ⊔ ∃has.T ruck) ⊓ (∃has.Machine))'''
-rule_Buiding_Impl_not_carAndTruck_OrMachine = {"rule": ("Building", "OR", ["Car", "Truck"], "AND", ["Machine", "Machine"],
-                                                                  "NOT", ["Machine"]), "nbr_of_ops": 3, "Main_OP": "IMPL"}
+rule_Buiding_Impl_not_carAndTruck_OrMachine = {"left": "Building", "right":"NOT(AND(OR(Car,Truck),Machine))", "main_op":"IMPL"}
 
 
 #second rule Building ⊓¬(∃has.Door ⊔ ∃has.Window) ⊑ ¬∃has.Awning -> o meu codigo n ta preparado para isto, dps tenho de melhorar a logica
 
 
 # Building ⊑¬(∃has.Car ⊓ ∃has.T ruck)
-rule_Building_Impl_not_CarAndTruck = {"rule": ("Building", "AND", ["Car", "Truck"], "NOT", ["Car"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+rule_Building_Impl_not_CarAndTruck = {"left": "Building", "right":"NOT(AND(Car,Truck))", "main_op":"IMPL"}
 
 
 #Building ⊑ ¬(∃has.Chimney ⊓ ∃has.Statue)
-rule_Building_Impl_not_ChimneyAndStatue = {"rule": ("Building", "AND", ["Chimney", "Statue"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+rule_Building_Impl_not_ChimneyAndStatue = {"left": "Building", "right":"NOT(AND(Chimney,Statue))", "main_op":"IMPL"}
 
-
+#FOR_OR
 rule_CommercialBuildingType = {"rule": ("Commercial", "OR", ["Cafe", "Hotel", "MiscCommercial", "Restaurant", "Store"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
 rule_IndustrialBuildingType = {"rule": ("Industrial", "OR", ["ConstructionSite", "MiscIndustrial", "PowerPlant", "WaterTreatment"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
 rule_ResidentialBuildingType = {"rule": ("Residential", "OR", ["CountryHouse", "MiscResidential", "Suburban"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
@@ -42,38 +44,90 @@ rule_ResidentialBuildingType = {"rule": ("Residential", "OR", ["CountryHouse", "
 #when using the second rule, its necessary to place a placeholder in this first slot
 
 #equiv
-rule_Hotel_Wallsign = {"rule": ("Hotel", "EQUIV", ["WallSign"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_Store_Billboard = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_Industrial_notTable = {"rule": ("Industrial", "NOT", ["Table"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Hotel_Wallsign = {"left": "Hotel", "right": "WallSign", "main_op": "EQUIV"}
+rule_Store_Billboard = {"left": "Store", "right": "Billboard", "main_op": "EQUIV"}
+rule_Industrial_notTable = {"left": "Industrial", "right": "NOT(Table)", "main_op": "EQUIV"}
 
-rule_ConstructionSite_Machine = {"rule": ("ConstructionSite", "EQUIV", ["Machine"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_Suburban_Porch = {"rule": ("Suburban", "EQUIV", ["Porch"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_ConstructionSite_Machine = {"left": "ConstructionSite", "right": "Machine", "main_op": "EQUIV"}
+rule_Suburban_Porch = {"left": "Suburban", "right": "Porch", "main_op": "EQUIV"}
 
 #conj
-rule_MiscCommercial_AwningAndTable = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_MiscIndustrial_notAwningAndTruck = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck", "Truck"]), "nbr_of_ops": 2, "Main_OP": "EQUIV"}
-rule_CH_CarAndTiledroof = {"rule": ("CountryHouse", "AND",["Car", "TiledRoof"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_PowerPlant_ChimneyAndPipe = {"rule": ("PowerPlant", "AND",["Chimney", "Pipe"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_WaterTreatment_PipeAndTruck = {"rule": ("WaterTreatment", "AND", ["Pipe", "Truck"]), "nbr_of_ops":1, "Main_OP": "EQUIV"}
+rule_MiscCommercial_AwningAndTable = {"left": "MiscCommercial", "right": "AND(Awning, Table)", "main_op": "EQUIV"}
+rule_MiscIndustrial_notAwningAndTruck = {"left": "MiscIndustrial", "right": "AND(NOT(Awning), Truck)", "main_op": "EQUIV"}
+rule_CH_CarAndTiledroof = {"left": "CountryHouse", "right": "AND(Car, TiledRoof)", "main_op": "EQUIV"}
+rule_PowerPlant_ChimneyAndPipe = {"left": "PowerPlant", "right": "AND(Chimney, Pipe)", "main_op": "EQUIV"}
+rule_WaterTreatment_PipeAndTruck = {"left": "WaterTreatment", "right": "AND(Pipe, Truck)", "main_op": "EQUIV"}
 
 
 #disj
-rule_Cafe_StatueOrVendingMachine = {"rule": ("Cafe", "OR", ["Statue", "VendingMachine"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Cafe_StatueOrVendingMachine = {"left": "Cafe", "right": "OR(Statue, VendingMachine)", "main_op": "EQUIV"}
 
 
 #regras complexas
-rule_Restaurant_CarOrTruckAndSign = {"rule": ("Restaurant", "OR", ["Car", "Truck"], "AND", ["Sign", "Sign"]), "nbr_of_ops": 2, "Main_OP": "EQUIV"}
+#Restaurant≡(∃has.Car ⊔ ∃has.T ruck) ⊓ ∃has.Sign
+rule_Restaurant_CarOrTruckAndSign = {"left": "Restaurant", "right": "AND(OR(Car,Truck),Sign)", "main_op": "EQUIV"}
 
 
-#in this case, the awning inside of the NOT is NOT USED, its just a placeholder. same applies to the first TiledRoof
-rule_MiscResidential_not_AwningAndTable_AndTiledRoof = {"rule": ("MiscResidential", "AND", ["Awning", "Table"], "NOT", ["Awning"],
-                                                                  "OR", ["TiledRoof", "TiledRoof"]), "nbr_of_ops": 3, "Main_OP": "EQUIV"}
+#MiscResidential≡ ¬(∃has.Awning ⊓ ∃has.T able) ⊓ ∃has.T iledRoof
+rule_MiscResidential_not_AwningAndTable_AndTiledRoof = {"left": "MiscResidential", "right": "AND(NOT(AND(Awning,Table)),TiledRoof)", "main_op": "EQUIV"}
 
-# Residential⊑¬(∃has.Chimney ⊔ ∃has.Pipe)
-rule_Residential_Impl_not_ChimneyOrPipe = {"rule": ("Residential", "OR", ["Chimney", "Pipe"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+# Residential ⊑ ¬ (∃has.Chimney ⊔ ∃has.Pipe)
+rule_Residential_Impl_not_ChimneyOrPipe = {"left": "Residential", "right":"NOT(OR(Chimney,Pipe))", "main_op":"IMPL"}
+
+
+'''
+NEW RULES
+'''
+
+#rule_MiscIndustrial_notAwningAndTruck = {"rule_left_side": "MiscIndustrial", "rule_right_side": "AND(NOT(Awning), Truck)", "Main_OP": "EQUIV"}
+rule1 = {"left": "MiscIndustrial", "right": "AND(NOT(Awning), Truck)", "main_op": "EQUIV"}
+#rule_Hotel_Wallsign = {"rule_left_side": "Hotel", "rule_right_side": "WallSign", "Main_OP": "EQUIV"}
+rule2 = {"left": "Hotel", "right": "WallSign", "main_op": "EQUIV"}
+#rule_Residential_Impl_not_ChimneyOrPipe = {"rule": ("Residential", "OR", ["Chimney", "Pipe"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+rule3 = {"left": "Residential", "right":"NOT(OR(Chimney,Pipe))", "main_op":"IMPL"}
 
 
 ALL_AXIOMS = [
+    #not implemented yet
+    {"axiom": rule_BuildingTypes, "active": False, "name": "building_types"}, #high level rules
+    {"axiom": rule_FeatureTypes, "active": False, "name": "feature_types"},
+    {"axiom": rule_CommercialBuildingType, "active": False, "name": "commercial"},
+    {"axiom": rule_IndustrialBuildingType, "active": False, "name": "industrial"},
+    {"axiom": rule_ResidentialBuildingType, "active": False, "name": "residential"},
+
+
+    #done
+    {"axiom": rule_Buiding_Impl_not_carAndTruck_OrMachine, "active": False, "name": "building_impl_complex"}, #implications, more related to the building creation process
+    {"axiom": rule_Building_Impl_not_CarAndTruck, "active": False, "name": "building_no_car_truck"},
+    {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": False, "name": "building_no_chimney_statue"},
+
+
+    #equiv
+    {"axiom": rule_Hotel_Wallsign, "active": True, "name":"hotel"}, 
+    {"axiom": rule_Store_Billboard, "active": False, "name":"store"},
+    {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"},
+    {"axiom": rule_ConstructionSite_Machine, "active": False, "name":"constructionsite"},
+    {"axiom": rule_Suburban_Porch, "active": False, "name":"suburban"},
+
+
+    #conj
+    {"axiom": rule_MiscCommercial_AwningAndTable, "active": False, "name":"misccommercial"},
+    {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": True, "name":"miscindustrial"},
+    {"axiom": rule_CH_CarAndTiledroof, "active": False, "name":"countryhouse"},
+    {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"powerplant"},
+    {"axiom": rule_WaterTreatment_PipeAndTruck, "active": False, "name":"watertreatment"},
+
+    #disj
+    {"axiom": rule_Cafe_StatueOrVendingMachine, "active": False, "name":"cafe"},
+
+    #complex
+    {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": False,"name":"restaurant"},
+    {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": False, "name":"miscresidential"},
+    {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": True, "name": "residential_no_chimney_pipe"},
+    ]
+
+
+OLD_ALL_AXIOMS = [
     {"axiom": rule_BuildingTypes, "active": False, "name": "building_types"}, #high level rules
     {"axiom": rule_FeatureTypes, "active": False, "name": "feature_types"},
     {"axiom": rule_CommercialBuildingType, "active": False, "name": "commercial"},
@@ -130,13 +184,9 @@ def print_only_active_rules(consistency, violation_type_counts, txt_file):
 
             txt_file.write("\n")
 
-'''
+#rule1 = {"rule_left_side": "MiscIndustrial", "rule_right_side": "AND(NOT(Awning), Truck)", "Main_OP": "EQUIV"}
 
-RULES.append(rule_MiscCommercial_AwningAndTable)
-RULES.append(rule_MiscIndustrial_notAwningAndTruck)
-RULES.append(rule_CH_CarAndTiledroof)
-'''
-
+#rule2 = {"rule_left_side": "Hotel", "rule_right_side": "WallSign", "main_op": "EQUIV"}
 
 RULES = [a["axiom"] for a in ALL_AXIOMS if a["active"]]
 
@@ -154,10 +204,18 @@ def getClassesFromRules(all_concepts):
 
     for r in RULES: 
         conceptsAndOperationsInRule = []
-        rule = flatten_rule(r["rule"])
+        #rule_left_side = flatten_rule(r["rule_left_side"])
+        #rule_right_side = flatten_rule(r["rule_right_side"])
+
+        left = re.split(r"[(,)]", r["left"])
+        right = re.split(r"[(,)]", r["right"])
+
+        rule = left + right
+
+        print(f"rule in getClassesFromRules {rule}")
 
         for element in rule:
-            conceptsAndOperationsInRule.append(element)
+            conceptsAndOperationsInRule.append(element.strip())
 
         concepts = [c for c in all_concepts if c in conceptsAndOperationsInRule]
 
@@ -185,7 +243,7 @@ ALL_FINAL_CLASSES = [
 
 ALL_CLASSES = [
     "Building",
-    "Feature",
+    "Feature",-
 
     "Residential",
     "Commercial",
@@ -378,5 +436,66 @@ CLASSES = [
     "Statue",
     "VendingMachine"
 ]
+
+rule_BuildingTypes = {"rule": ("Building", "OR", ["Residential", "Commercial", "Industrial"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_FeatureTypes = {"rule": ("Feature", "OR", ["Awning", "Billboard", "Car", "Chimney", "Door", "Machine", "Pipe","Porch",
+             "Sign", "Statue", "Table", "TiledRoof", "Truck", "VendingMachine", "WallSign", "Window"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#preciso de implementar o Implica -> "IMPL"
+
+
+Building ⊑ ¬((∃has.Car ⊔ ∃has.T ruck) ⊓ (∃has.Machine))
+rule_Buiding_Impl_not_carAndTruck_OrMachine = {"rule": ("Building", "OR", ["Car", "Truck"], "AND", ["Machine", "Machine"],
+                                                                  "NOT", ["Machine"]), "nbr_of_ops": 3, "Main_OP": "IMPL"}
+
+
+#second rule Building ⊓¬(∃has.Door ⊔ ∃has.Window) ⊑ ¬∃has.Awning -> o meu codigo n ta preparado para isto, dps tenho de melhorar a logica
+
+
+# Building ⊑¬(∃has.Car ⊓ ∃has.T ruck)
+rule_Building_Impl_not_CarAndTruck = {"rule": ("Building", "AND", ["Car", "Truck"], "NOT", ["Car"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+
+
+#Building ⊑ ¬(∃has.Chimney ⊓ ∃has.Statue)
+rule_Building_Impl_not_ChimneyAndStatue = {"rule": ("Building", "AND", ["Chimney", "Statue"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
+
+
+rule_CommercialBuildingType = {"rule": ("Commercial", "OR", ["Cafe", "Hotel", "MiscCommercial", "Restaurant", "Store"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_IndustrialBuildingType = {"rule": ("Industrial", "OR", ["ConstructionSite", "MiscIndustrial", "PowerPlant", "WaterTreatment"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_ResidentialBuildingType = {"rule": ("Residential", "OR", ["CountryHouse", "MiscResidential", "Suburban"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#rules related to final classes
+#when using the second rule, its necessary to place a placeholder in this first slot
+
+#equiv
+rule_Hotel_Wallsign = {"rule": ("Hotel", "EQUIV", ["WallSign"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Store_Billboard = {"rule": ("Store", "EQUIV", ["Billboard"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Industrial_notTable = {"rule": ("Industrial", "NOT", ["Table"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+rule_ConstructionSite_Machine = {"rule": ("ConstructionSite", "EQUIV", ["Machine"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_Suburban_Porch = {"rule": ("Suburban", "EQUIV", ["Porch"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+#conj
+rule_MiscCommercial_AwningAndTable = {"rule": ("MiscCommercial", "AND", ["Awning", "Table"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_MiscIndustrial_notAwningAndTruck = {"rule": ("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck", "Truck"]), "nbr_of_ops": 2, "Main_OP": "EQUIV"}
+rule_CH_CarAndTiledroof = {"rule": ("CountryHouse", "AND",["Car", "TiledRoof"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_PowerPlant_ChimneyAndPipe = {"rule": ("PowerPlant", "AND",["Chimney", "Pipe"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_WaterTreatment_PipeAndTruck = {"rule": ("WaterTreatment", "AND", ["Pipe", "Truck"]), "nbr_of_ops":1, "Main_OP": "EQUIV"}
+
+
+#disj
+rule_Cafe_StatueOrVendingMachine = {"rule": ("Cafe", "OR", ["Statue", "VendingMachine"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+
+
+#regras complexas
+rule_Restaurant_CarOrTruckAndSign = {"rule": ("Restaurant", "OR", ["Car", "Truck"], "AND", ["Sign", "Sign"]), "nbr_of_ops": 2, "Main_OP": "EQUIV"}
+
+
+#in this case, the awning inside of the NOT is NOT USED, its just a placeholder. same applies to the first TiledRoof
+rule_MiscResidential_not_AwningAndTable_AndTiledRoof = {"rule": ("MiscResidential", "AND", ["Awning", "Table"], "NOT", ["Awning"],
+                                                                  "OR", ["TiledRoof", "TiledRoof"]), "nbr_of_ops": 3, "Main_OP": "EQUIV"}
+
+# Residential⊑¬(∃has.Chimney ⊔ ∃has.Pipe)
+rule_Residential_Impl_not_ChimneyOrPipe = {"rule": ("Residential", "OR", ["Chimney", "Pipe"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
 
 '''

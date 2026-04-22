@@ -1,3 +1,5 @@
+import re
+
 import torch
 import ltn
 import utils.rules_and_concepts as rules_and_concepts
@@ -106,65 +108,149 @@ MI NOT A AND T
 '''    
 
 
-def build_axiom(x, p, rule, nbr_of_ops, main_op):
-    #rule = ("Cafe", "OR", ["Statue", "VendingMachine"], "AND", ["Statue", "Statue"])
-    #nbr_of_ops = 2
+'''
+Example rule
 
-    target = rule[0]
-    target_cnst = CLASS_CONSTANTS[target]
+A and B = (C or not D) and E
 
-    complete_axiom = ""
+AND(A , B); AND(OR(C,NOT(D)), E)
 
-    for i in range(nbr_of_ops):
+A = (A and B) or (C and D)
 
-        op = rule[2*i +1] # pos 1, 3, 5 etc
-        concepts = rule[2*i +2]# pos 2, 4, 6 etc
+OR(AND(A,B),AND(C,D))
 
-        concept_cnsts = [CLASS_CONSTANTS[c] for c in concepts]
+FOR_AND [A,B,C,D]
 
-        if op == "AND":
+rule_left_side
+rule_right_side
+Main_OP
 
-            conjunction = complete_axiom
-            if i == 0:
-                conjunction = p(x, concept_cnsts[0])
+'''
+def build_axiom(p, x, left, right, main_op, debug_mode=False):
+        #aplica as ops, e dps gera a equivalencia final
 
-            #construir conjuntcion -> c1 and c2 and c3...
-            for c in concept_cnsts[1:]:
-                conjunction = And(conjunction, p(x, c))
-            complete_axiom = conjunction
+    left_obj, left_str = build_axioms_rec(p, x, left)
+    right_obj, right_str = build_axioms_rec(p, x, right)
 
-        elif op == "OR":
-            disjunction = complete_axiom
-            if i == 0:
-                disjunction = p(x, concept_cnsts[0])
 
-            #construir disjunction -> c1 or c2 or c3...
-            for c in concept_cnsts[1:]:
-                disjunction = Or(disjunction, p(x, c))
-            complete_axiom =  disjunction
-
-        elif op == "NOT":
-            expression = complete_axiom
-            #se apenas um conceito tem de ser invertido, NOT tem de ser a primeira opção. caso contrario
-            if i == 0:
-                expression = p(x, concept_cnsts[0])
-
-            complete_axiom =  Not(expression)
-
-        #apenas se usa se so quisermos uma equivalencia entre uma classe e um conceito Cafe = Statue
-        elif op == "EQUIV":
-            return Equiv(p(x, target_cnst), p(x, concept_cnsts[0]))
-        
-        elif op == "IMPL":
-            return Implies(p(x, target_cnst), p(x, concept_cnsts[0]))
-
-    #aplica as ops, e dps gera a equivalencia final
     if main_op == "EQUIV":
-        return Equiv(p(x, target_cnst), complete_axiom)
-    
-    elif main_op == "IMPL":
-        return Implies(p(x, target_cnst), complete_axiom)
+        ax = Equiv(left_obj, right_obj)
 
+        if debug_mode: 
+            print(f"[AXIOM] EQUIV({left_str}, {right_str})")
+
+        return ax
+
+    elif main_op == "IMPL":
+        ax = Implies(left_obj, right_obj)
+
+        if debug_mode: 
+            print(f"[AXIOM] IMPL({left_str}, {right_str})")
+
+        return ax
+    
+
+    else:
+        print("TYPO ON MAIN OP")
+
+
+def build_axioms_rec(p, x, rule, depth=0, debug_mode=False):
+    indent = "  " * depth
+    if debug_mode:
+        print(f"{indent}Processing: {rule}")
+
+    op = rule.split("(")[0]
+    #print(f"operation: {op}")
+
+    if op == "AND":
+        # remove "AND" from start
+        inner = rule[3:]
+        #print(f"inside AND, inner: {inner}")
+        parts = split_top_level(inner)
+
+        #print(f"rule_components len({len(rule_components)}), rule_components {rule_components}")
+
+        #tirar os parentises e os espaçoes em braco
+        #print(f"rule_components split: 0: {rule_components[0][1:].strip()} 1: {rule_components[1][:-1].strip()}")
+
+        left_obj, left_str = build_axioms_rec(p, x, parts[0][1:].strip(), depth+1, debug_mode)
+        right_obj, right_str = build_axioms_rec(p, x, parts[1][:-1].strip(), depth+1, debug_mode)
+
+        return And(left_obj, right_obj), f"AND({left_str}, {right_str})"
+
+    elif op == "OR":
+        # remove "OR(" from start and ")" from end
+        inner = rule[2:]
+        #print(f"inside OR, inner: {inner}")
+
+        parts = split_top_level(inner)
+
+        '''
+        for c in concept_cnsts[1:]:
+            conjunction = And(conjunction, p(x, c))
+        complete_axiom = conjunction
+        '''
+
+                #for _or?
+        if len(parts) > 2:
+
+            left_obj, left_str = build_axioms_rec(p, x, parts[0][1:].strip(), depth+1, debug_mode)
+            right_obj, right_str = build_axioms_rec(p, x, parts[1][:-1].strip(), depth+1, debug_mode)
+
+            complete_disj = ""
+            disj = Or(left_obj, right_obj)
+
+            for p in parts[2:]:
+                obj, s = build_axioms_rec(p, x, parts[1].strip(), depth+1, debug_mode)
+
+                disj = Or(disj, )
+                ""
+
+
+        left_obj, left_str = build_axioms_rec(p, x, parts[0][1:].strip(), depth+1, debug_mode)
+        right_obj, right_str = build_axioms_rec(p, x, parts[1][:-1].strip(), depth+1, debug_mode)
+
+        return Or(left_obj, right_obj), f"OR({left_str}, {right_str})"
+
+    elif op == "NOT":
+        #print(f"inside NOT, rule: {rule}")
+        # remove "NOT(" from start and ")" from end
+        inner = rule[4:-1]
+
+        obj, s = build_axioms_rec(p, x, inner, depth+1, debug_mode)
+        return Not(obj), f"NOT({s})"
+    
+    #the rule string is only concept,
+    else:
+        if rule not in CLASS_CONSTANTS:
+            print(f"{rule} is not CLASS_CONSTANTS")
+
+
+        target_cnst = CLASS_CONSTANTS[rule]
+        #print(f"target_cnst {rule}")
+
+        return p(x, target_cnst), rule
+
+
+def split_top_level(s):
+    parts = []
+    current = []
+    depth = 0
+
+    for char in s:
+        if char == '(':
+            depth += 1
+        elif char == ')':
+            depth -= 1
+
+        if char == ',' and depth == 1:
+            parts.append(''.join(current))
+            current = []
+        else:
+            current.append(char)
+
+    parts.append(''.join(current))
+    return parts
     
 def get_masked_variable_and_append_predicates(logits, p, args, class_name, axioms, device):
     
@@ -186,7 +272,7 @@ def get_masked_variable_and_append_predicates(logits, p, args, class_name, axiom
 
 
 
-def compute_axioms(logits, *args, p):
+def compute_axioms(logits, *args, p, debug_mode=False):
 
     device = logits.device
     axioms = []
@@ -201,8 +287,9 @@ def compute_axioms(logits, *args, p):
 
 
     for r in RULES:
+        #print(f"R in compute axioms: {r}")
         axioms.append(
-            safe_forall(x, build_axiom(x, p, r["rule"], r["nbr_of_ops"], r["Main_OP"]), device)
+            safe_forall(x, build_axiom(p,x, r["left"], r["right"], r["main_op"], debug_mode), device)
         )
     
     sat_level = formula_aggregator(*axioms)
@@ -646,4 +733,65 @@ ALL_CLASSES = [
     "Truck",
     "Car"
 ]
+
+
+def build_axiom(x, p, rule, nbr_of_ops, main_op):
+    #rule = ("Cafe", "OR", ["Statue", "VendingMachine"], "AND", ["Statue", "Statue"])
+    #nbr_of_ops = 2
+
+    target = rule[0]
+    target_cnst = CLASS_CONSTANTS[target]
+
+    complete_axiom = ""
+
+    for i in range(nbr_of_ops):
+
+        op = rule[2*i +1] # pos 1, 3, 5 etc
+        concepts = rule[2*i +2]# pos 2, 4, 6 etc
+
+        concept_cnsts = [CLASS_CONSTANTS[c] for c in concepts]
+
+        if op == "AND":
+
+            conjunction = complete_axiom
+            if i == 0:
+                conjunction = p(x, concept_cnsts[0])
+
+            #construir conjuntcion -> c1 and c2 and c3...
+            for c in concept_cnsts[1:]:
+                conjunction = And(conjunction, p(x, c))
+            complete_axiom = conjunction
+
+        elif op == "OR":
+            disjunction = complete_axiom
+            if i == 0:
+                disjunction = p(x, concept_cnsts[0])
+
+            #construir disjunction -> c1 or c2 or c3...
+            for c in concept_cnsts[1:]:
+                disjunction = Or(disjunction, p(x, c))
+            complete_axiom =  disjunction
+
+        elif op == "NOT":
+            expression = complete_axiom
+            #se apenas um conceito tem de ser invertido, NOT tem de ser a primeira opção. caso contrario
+            if i == 0:
+                expression = p(x, concept_cnsts[0])
+
+            complete_axiom =  Not(expression)
+
+        #apenas se usa se so quisermos uma equivalencia entre uma classe e um conceito Cafe = Statue
+        elif op == "EQUIV":
+            return Equiv(p(x, target_cnst), p(x, concept_cnsts[0]))
+        
+        elif op == "IMPL":
+            return Implies(p(x, target_cnst), p(x, concept_cnsts[0]))
+
+    #aplica as ops, e dps gera a equivalencia final
+    if main_op == "EQUIV":
+        return Equiv(p(x, target_cnst), complete_axiom)
+    
+    elif main_op == "IMPL":
+        return Implies(p(x, target_cnst), complete_axiom)
+    
 '''

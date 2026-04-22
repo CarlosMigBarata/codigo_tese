@@ -51,7 +51,7 @@ applicable(X, misccommercial) :-
 
 
 %rule2, the negation can not be done?
-% miscInd = not awning and truck
+% miscInd = (not awning and truck)
 violation(X, miscindustrial, has_awning) :-
     holds(X, miscindustrial),
     holds(X, awning).
@@ -161,7 +161,7 @@ applicable(X, store) :-
     holds(X, billboard).
 
 %rule 7
-% restaurant = (car or truck) and sign
+%Restaurant ≡ (∃has.Car ⊔ ∃has.T ruck) ⊓ ∃has.Sign
 violation(X, restaurant, missing_sign) :-
     holds(X, restaurant),
     not holds(X, sign).
@@ -269,14 +269,10 @@ applicable(X, watertreatment) :-
 
 
 %rule 12
-%Industrial_not_table = Not Table
+%Industrial_not_table -> Not Table
 violation(X, industrial_not_table, has_table) :-
     holds(X, industrial),
     holds(X, table).
-
-%violation(X, industrial_not_table, not_predicted) :-
-    %not holds(X, industrial),
-    %not holds(X, table).
 
 applicable(X, industrial_not_table) :-
     holds(X, industrial).
@@ -333,8 +329,40 @@ violation(X, industrial, missing_all) :-
     not holds(X, powerplant),
     not holds(X, watertreatment).
 
+violation(X, industrial, not_predicted) :-
+    holds(X, constructionsite),
+    not holds(X, industrial).
+
+violation(X, industrial, not_predicted) :-
+    holds(X, miscindustrial),
+    not holds(X, industrial).
+
+violation(X, industrial, not_predicted) :-
+    holds(X, powerplant),
+    not holds(X, industrial).
+
+violation(X, industrial, not_predicted) :-
+    holds(X, watertreatment),
+    not holds(X, industrial).
+
+
 applicable(X, industrial) :-
     holds(X, industrial).
+
+applicable(X, industrial) :-
+    holds(X, constructionsite).
+
+applicable(X, industrial) :-
+    holds(X, miscindustrial).
+
+applicable(X, industrial) :-
+    holds(X, powerplant).
+
+applicable(X, industrial) :-
+    holds(X, watertreatment).
+
+
+
 
 %rule15 Rule: Residential hierarchy
 violation(X, residential, missing_all) :-
@@ -343,34 +371,57 @@ violation(X, residential, missing_all) :-
     not holds(X, miscresidential),
     not holds(X, suburban).
 
+violation(X, residential, not_predicted) :-
+    holds(X, countryhouse),
+    not holds(X, residential).
+
+violation(X, residential, not_predicted) :-
+    holds(X, miscresidential),
+    not holds(X, residential).
+
+violation(X, residential, not_predicted) :-
+    holds(X, suburban),
+    not holds(X, residential).
+
+
 applicable(X, residential) :-
     holds(X, residential).
 
-%rule 16 MiscResidential ≡ NOT(Awning ∧ Table) OR TiledRoof
-violation(X, miscresidential, contradiction) :-
+applicable(X, industrial) :-
+    holds(X, countryhouse).
+
+applicable(X, industrial) :-
+    holds(X, miscresidential).
+
+applicable(X, industrial) :-
+    holds(X, suburban).
+
+%rule 16 MiscResidential ≡ NOT(Awning ∧ Table) ∧ TiledRoof
+violation(X, miscresidential, has_awning_and_awning) :-
     holds(X, miscresidential),
     holds(X, awning),
-    holds(X, table),
+    holds(X, table).
+
+violation(X, miscresidential, missing_tiledroof) :-
+    holds(X, miscresidential),
     not holds(X, tiledroof).
 
-%violation(X, miscresidential, not_predicted) :-
-   % not holds(X, awning),
-   % not holds(X, table),
-   % not holds(X, miscresidential).
-
 violation(X, miscresidential, not_predicted) :-
+    not holds(X, awning),
+    not holds(X, table),
     holds(X, tiledroof),
     not holds(X, miscresidential).
+
+
 
 applicable(X, miscresidential) :-
     holds(X, miscresidential).
 
-%applicable(X, miscresidential) :-
-    %not holds(X, awning),
-    %not holds(X, table).
-
 applicable(X, miscresidential) :-
-    holds(X, tiledroof).
+    not holds(X, awning),
+    not holds(X, table),
+    holds(X,tiledroof).
+
 
 
 %rule 17 Building ⊑ ¬(Car ∧ Truck)
@@ -397,7 +448,6 @@ applicable(X, building_no_chimney_statue) :-
 
 
 %rule 19 Residential ⊑ ¬(Chimney ∨ Pipe)
-
 violation(X, residential_no_chimney_pipe, has_chimney) :-
     holds(X, residential),
     holds(X, chimney).
@@ -409,7 +459,9 @@ violation(X, residential_no_chimney_pipe, has_pipe) :-
 applicable(X, residential_no_chimney_pipe) :-
     holds(X, residential).
 
-%rule 20 Building ⊑ ¬((Car ∨ Truck) ∧ Machine) 
+
+
+%rule 20 Building ⊑ ¬( (Car ∨ Truck) ∧ Machine ) 
 violation(X, building_impl_complex, invalid_combination) :-
     holds(X, building),
     holds(X, car),
