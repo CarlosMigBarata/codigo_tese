@@ -1,0 +1,67 @@
+Results Description
+Number of examples: 15000
+Train/Test limit: 16000
+Epochs: 120
+Complexity of the Dataset: 1
+Batch size: 32
+Learning rate: 0.00100
+Number of classes: 23
+
+Number of epochs completed: 57
+Warmup epochs: 10; final_epochs: 30; staring alpha:0.9; constant_alpha: True; final alpha: 0.25; patience: 15
+
+Model Architecture:
+CNN(
+  (conv1a): Conv2d(3, 8, kernel_size=(3, 3), stride=(1, 1))
+  (conv1b): Conv2d(8, 12, kernel_size=(3, 3), stride=(1, 1))
+  (conv2a): Conv2d(12, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2b): Conv2d(16, 24, kernel_size=(3, 3), stride=(1, 1))
+  (conv3a): Conv2d(24, 32, kernel_size=(3, 3), stride=(1, 1))
+  (maxpool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (dense1): Linear(in_features=20000, out_features=128, bias=True)
+  (dense2): Linear(in_features=128, out_features=64, bias=True)
+  (concept_layer): Linear(in_features=64, out_features=30, bias=True)
+  (output_layer): Linear(in_features=30, out_features=8, bias=True)
+)
+
+
+
+
+ consistency per rule
+suburban | consistency=1.0000
+
+residential | consistency=0.9903
+    - miscres_not_predicted: 13
+
+residential_no_chimney_pipe | consistency=1.0000
+
+miscresidential | consistency=1.0000
+
+cafe | consistency=0.7755
+    - missing_both: 229
+
+countryhouse | consistency=1.0000
+
+store | consistency=0.9917
+    - missing_billboard: 7
+
+hotel | consistency=0.9770
+    - missing_wallsign: 18
+
+restaurant | consistency=0.8931
+    - missing_vehicle: 51
+    - missing_sign: 2
+
+commercial | consistency=0.9653
+    - cafe_not_predicted: 16
+    - misccom_not_predicted: 15
+    - restaurant_not_predicted: 13
+    - hotel_not_predicted: 2
+
+misccommercial | consistency=0.9532
+    - missing_table: 29
+    - missing_awning: 5
+    - not_predicted: 1
+
