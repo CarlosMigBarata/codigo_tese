@@ -1,9 +1,23 @@
 Proxima semana:
 
+
+Explicações:
+
+
+terça
 a validação que eu estou a fazer já estava correta. o input que eu uso é os logits, que são os valores dos neuronios das ultimas duas camadas. este são os mesmos valores que eu uso como input para a LTN. para passar para o LTN, eu aplico o sigmoid para transformar os valores dos neuronios, que são valores reais, em valores 0 ou 1.
 
-em relação ao rules.lp, o violation representa os casos em que a regra não é respeitada, e o aplicable representa os casos em que a imagem é relevant para a regra, ou seja, os conceitos presentes no axioma estão, pelo menos em parte, presentes na imagem ou foram previsostos que estão na imagem.
+em relação ao rules.lp, o violation representa os casos em que a regra não é respeitada, e o aplicable representa os casos em que a imagem é relevant para a regra, ou seja, os conceitos presentes no axioma estão, pelo menos em parte, presentes na imagem ou foram previsostos que estão na imagem. por outras palavras, o aplicable verifica se a imagem contem os conceitos necessários para que um dos lados seja verdadeiro, e a violação define que um dos lados é vdd e a sua implicação é falsa.
 
 a razão entre os dois vai ser 1- (violation/applicable), ou seja, o proporção entre o numero de regras que foram respeitadas em relação ao numero que a rede identificou como relevante.
 
 em relação ao gerador, não é "perfeito", apenas garante que os axiomas são respeitados. WaterTreatment = Pipe AND Truck -> garante pipe and truck, mas tbm pode ter janelas ou portas,etc
+
+
+quarta
+
+em relação as regras que apareciam todas negativas, os dois casos foram resolvidos sem ser necessário usar um predicado extra para tornar o X seguro. quando apareceu no axioma 16, eu tinha visto mal na ontologia, e no axioma 12, era composto por uma implicação e não uma equivalencia. também completei as disjunções sobre as superclasses residential,comercial,industrial
+
+
+
+Perguntas (n sei bem  a quem por que eu é que sei mais mas it is what it is)

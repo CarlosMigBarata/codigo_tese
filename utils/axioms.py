@@ -72,21 +72,6 @@ def safe_forall(var, formula, device, default_value=0.5):
         return Forall(var, formula)
 
 '''
-Type of rule:
-Cafe = (A or b) and c
-
-Class op1 [c1, c2] op2 [c3] -> Cafe or [A, B] and [C]
-
-os parantesis tem de ser da esq para a direuta ou seja
-
-Class equiv (((c1 op1 c2) op2 c3) op3 c4)
-
-("Cafe", "OR", ["Statue", "VendingMachine"]),
-("Hotel", "EQUIV", ["WallSign"]),
-
-MI NOT A AND T
-("MiscIndustrial", "NOT", ["Awning"], "AND",["Truck"])
-
 # Misc Industrial = (not Awning) and Truck
         safe_Forall(
             x,
@@ -121,10 +106,9 @@ OR(AND(A,B),AND(C,D))
 
 FOR_AND [A,B,C,D]
 
-rule_left_side
-rule_right_side
-Main_OP
-
+left
+right
+main_op
 '''
 def build_axiom(p, x, left, right, main_op, debug_mode=False):
         #aplica as ops, e dps gera a equivalencia final
@@ -149,6 +133,12 @@ def build_axiom(p, x, left, right, main_op, debug_mode=False):
 
         return ax
     
+    elif main_op == "BUILDING_FACT":
+        if debug_mode: 
+            print(f"[AXIOM] FACT({right_str})")
+
+        return right_obj
+    
 
     else:
         print("TYPO ON MAIN OP")
@@ -165,13 +155,33 @@ def build_axioms_rec(p, x, rule, depth=0, debug_mode=False):
     if op == "AND":
         # remove "AND" from start
         inner = rule[3:]
-        #print(f"inside AND, inner: {inner}")
         parts = split_top_level(inner)
 
-        #print(f"rule_components len({len(rule_components)}), rule_components {rule_components}")
+                #for _and
+        if len(parts) > 2:
+            #print("inside for_and")
+            start_obj, str = build_axioms_rec(p, x, parts[0][1:].strip(), depth+1, debug_mode)
 
-        #tirar os parentises e os espaçoes em braco
-        #print(f"rule_components split: 0: {rule_components[0][1:].strip()} 1: {rule_components[1][:-1].strip()}")
+            complete_conj = start_obj
+            complete_string = f"AND({str}"
+
+            for i in range(1, len(parts)):
+                
+                if i == len(parts) - 1:
+                    part = parts[i][:-1]
+                else:
+                    part = parts[i]
+            
+                obj, s = build_axioms_rec(p, x, part.strip(), depth+1, debug_mode)
+                complete_conj = And(complete_conj, obj)
+                complete_string = complete_string + f", {s}"
+            
+            complete_string = complete_string + ")"
+
+            #print(f"complete string {complete_string}")
+
+            return complete_conj, complete_string
+
 
         left_obj, left_str = build_axioms_rec(p, x, parts[0][1:].strip(), depth+1, debug_mode)
         right_obj, right_str = build_axioms_rec(p, x, parts[1][:-1].strip(), depth+1, debug_mode)
@@ -185,26 +195,31 @@ def build_axioms_rec(p, x, rule, depth=0, debug_mode=False):
 
         parts = split_top_level(inner)
 
-        '''
-        for c in concept_cnsts[1:]:
-            conjunction = And(conjunction, p(x, c))
-        complete_axiom = conjunction
-        '''
-
                 #for _or?
         if len(parts) > 2:
+            #print("inside for_or")
+            start_obj, str = build_axioms_rec(p, x, parts[0][1:].strip(), depth+1, debug_mode)
 
-            left_obj, left_str = build_axioms_rec(p, x, parts[0][1:].strip(), depth+1, debug_mode)
-            right_obj, right_str = build_axioms_rec(p, x, parts[1][:-1].strip(), depth+1, debug_mode)
+            complete_disj = start_obj
+            complete_string = f"OR({str}"
 
-            complete_disj = ""
-            disj = Or(left_obj, right_obj)
+            for i in range(1, len(parts)):
+                
+                if i == len(parts) - 1:
+                    part = parts[i][:-1]
+                else:
+                    part = parts[i]
+            
+                obj, s = build_axioms_rec(p, x, part.strip(), depth+1, debug_mode)
+                complete_disj = Or(complete_disj, obj)
+                complete_string = complete_string + f", {s}"
+            
+            complete_string = complete_string + ")"
 
-            for p in parts[2:]:
-                obj, s = build_axioms_rec(p, x, parts[1].strip(), depth+1, debug_mode)
+            #print(f"complete string {complete_string}")
 
-                disj = Or(disj, )
-                ""
+            return complete_disj, complete_string
+
 
 
         left_obj, left_str = build_axioms_rec(p, x, parts[0][1:].strip(), depth+1, debug_mode)
@@ -271,7 +286,6 @@ def get_masked_variable_and_append_predicates(logits, p, args, class_name, axiom
     axioms.append(p2)
 
 
-
 def compute_axioms(logits, *args, p, debug_mode=False):
 
     device = logits.device
@@ -295,6 +309,7 @@ def compute_axioms(logits, *args, p, debug_mode=False):
     sat_level = formula_aggregator(*axioms)
 
     return sat_level
+
 
 
 

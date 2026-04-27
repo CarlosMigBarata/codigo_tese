@@ -20,7 +20,6 @@ rule(building_no_car_truck).
 rule(building_no_chimney_statue).
 rule(residential_no_chimney_pipe).
 rule(building_impl_complex).
-rule(building_noDoorOrNoWindow_Impl_noAwning).
 
 holds(sample_id, class).
 
@@ -179,12 +178,12 @@ violation(X, restaurant, missing_vehicle) :-
     not holds(X, car),
     not holds(X, truck).
 
-violation(X, restaurant, sign_car_not_predicted) :-
+violation(X, restaurant, not_predicted) :-
     holds(X, sign),
     holds(X, car),
     not holds(X, restaurant).
 
-violation(X, restaurant, sign_truck_not_predicted) :-
+violation(X, restaurant, not_predicted) :-
     holds(X, sign),
     holds(X, truck),
     not holds(X, restaurant).
@@ -295,23 +294,23 @@ violation(X, commercial, missing_all) :-
     not holds(X, restaurant),
     not holds(X, store).
 
-violation(X, commercial, cafe_not_predicted) :-
+violation(X, commercial, not_predicted) :-
     holds(X, cafe),
     not holds(X, commercial).
 
-violation(X, commercial, hotel_not_predicted) :-
+violation(X, commercial, not_predicted) :-
     holds(X, hotel),
     not holds(X, commercial).
 
-violation(X, commercial, misccom_not_predicted) :-
+violation(X, commercial, not_predicted) :-
     holds(X, misccommercial),
     not holds(X, commercial).
 
-violation(X, commercial, restaurant_not_predicted) :-
+violation(X, commercial, not_predicted) :-
     holds(X, restaurant),
     not holds(X, commercial).
 
-violation(X, commercial, store_not_predicted) :-
+violation(X, commercial, not_predicted) :-
     holds(X, store),
     not holds(X, commercial).
 
@@ -337,19 +336,19 @@ violation(X, industrial, missing_all) :-
     not holds(X, powerplant),
     not holds(X, watertreatment).
 
-violation(X, industrial, csite_not_predicted) :-
+violation(X, industrial, not_predicted) :-
     holds(X, constructionsite),
     not holds(X, industrial).
 
-violation(X, industrial, miscind_not_predicted) :-
+violation(X, industrial, not_predicted) :-
     holds(X, miscindustrial),
     not holds(X, industrial).
 
-violation(X, industrial, powerplant_not_predicted) :-
+violation(X, industrial, not_predicted) :-
     holds(X, powerplant),
     not holds(X, industrial).
 
-violation(X, industrial, watertreatment_not_predicted) :-
+violation(X, industrial, not_predicted) :-
     holds(X, watertreatment),
     not holds(X, industrial).
 
@@ -379,15 +378,15 @@ violation(X, residential, missing_all) :-
     not holds(X, miscresidential),
     not holds(X, suburban).
 
-violation(X, residential, countryhouse_not_predicted) :-
+violation(X, residential, not_predicted) :-
     holds(X, countryhouse),
     not holds(X, residential).
 
-violation(X, residential, miscres_not_predicted) :-
+violation(X, residential, not_predicted) :-
     holds(X, miscresidential),
     not holds(X, residential).
 
-violation(X, residential, suburban_not_predicted) :-
+violation(X, residential, not_predicted) :-
     holds(X, suburban),
     not holds(X, residential).
 
@@ -470,12 +469,12 @@ applicable(X, residential_no_chimney_pipe) :-
 
 
 %rule 20 Building ⊑ ¬( (Car ∨ Truck) ∧ Machine ) 
-violation(X, building_impl_complex, has_car_and_machine) :-
+violation(X, building_impl_complex, invalid_combination) :-
     holds(X, building),
     holds(X, car),
     holds(X, machine).
 
-violation(X, building_impl_complex, has_truck_and_machine) :-
+violation(X, building_impl_complex, invalid_combination) :-
     holds(X, building),
     holds(X, truck),
     holds(X, machine).
@@ -485,22 +484,6 @@ applicable(X, building_impl_complex) :-
     holds(X, building).
 
 
-%rule 21 #Building ⊓ ¬(∃has.Door ⊔ ∃has.Window) ⊑ ¬∃has.Awning
-%building_noDoorOrNoWindow_Impl_noAwning
-
-violation(X, building_noDoorOrNoWindow_Impl_noAwning, not_building_has_awning) :-
-    not holds(X, building),
-    holds(X, awning).
-
-violation(X, building_noDoorOrNoWindow_Impl_noAwning, not_door_no_window_has_awning) :-
-    not holds(X, door),
-    not holds(X, window),
-    holds(X, awning).
-
-applicable(X, building_noDoorOrNoWindow_Impl_noAwning) :-
-    holds(X, building),
-    not holds(X, door),
-    not holds(X, window).
 
 
 

@@ -1,0 +1,99 @@
+------------ FORMATO DA MATRIZ --------
+----------------[TN, FP]------------------
+----------------[FN, TP]------------------
+
+TN: predicted Negative, Reality Negative
+FN: predicted Negative, Reality Positive
+FP: predicted Positive, Reality Negative
+TP: predicted Positive, Reality Positive
+
+
+
+ConstructionSite_train confusion matrix:
+tensor([[14466,     4],
+        [    2,  1528]], dtype=torch.int32)
+
+MiscIndustrial_train confusion matrix:
+tensor([[13563,    37],
+        [   15,  2385]], dtype=torch.int32)
+
+PowerPlant_train confusion matrix:
+tensor([[13298,    65],
+        [   88,  2549]], dtype=torch.int32)
+
+WaterTreatment_train confusion matrix:
+tensor([[13658,   100],
+        [  122,  2120]], dtype=torch.int32)
+
+Industrial_train confusion matrix:
+tensor([[    0, 10667],
+        [    1,  5332]], dtype=torch.int32)
+
+Awning_train confusion matrix:
+tensor([[7811,  875],
+        [4881, 2433]], dtype=torch.int32)
+
+Table_train confusion matrix:
+tensor([[10771,     0],
+        [ 5229,     0]], dtype=torch.int32)
+
+Chimney_train confusion matrix:
+tensor([[11567,    10],
+        [ 1859,  2564]], dtype=torch.int32)
+
+Pipe_train confusion matrix:
+tensor([[1206, 9916],
+        [ 461, 4417]], dtype=torch.int32)
+
+Machine_train confusion matrix:
+tensor([[14470,     0],
+        [   31,  1499]], dtype=torch.int32)
+
+Truck_train confusion matrix:
+tensor([[10807,     2],
+        [ 2346,  2845]], dtype=torch.int32)
+
+ConstructionSite_val confusion matrix:
+tensor([[3621,    0],
+        [   0,  379]], dtype=torch.int32)
+
+MiscIndustrial_val confusion matrix:
+tensor([[3394,   20],
+        [   0,  586]], dtype=torch.int32)
+
+PowerPlant_val confusion matrix:
+tensor([[3296,   18],
+        [  29,  657]], dtype=torch.int32)
+
+WaterTreatment_val confusion matrix:
+tensor([[3420,   23],
+        [  37,  520]], dtype=torch.int32)
+
+Industrial_val confusion matrix:
+tensor([[   0, 2666],
+        [   0, 1334]], dtype=torch.int32)
+
+Awning_val confusion matrix:
+tensor([[2138,   22],
+        [1530,  310]], dtype=torch.int32)
+
+Table_val confusion matrix:
+tensor([[2670,    0],
+        [1330,    0]], dtype=torch.int32)
+
+Chimney_val confusion matrix:
+tensor([[2879,    0],
+        [ 456,  665]], dtype=torch.int32)
+
+Pipe_val confusion matrix:
+tensor([[ 322, 2453],
+        [ 145, 1080]], dtype=torch.int32)
+
+Machine_val confusion matrix:
+tensor([[3621,    0],
+        [   0,  379]], dtype=torch.int32)
+
+Truck_val confusion matrix:
+tensor([[2718,    0],
+        [ 563,  719]], dtype=torch.int32)
+

@@ -14,31 +14,33 @@
 import re
 
 #FOR_OR, FOR_AND
-rule_BuildingTypes = {"rule": ("Building", "OR", ["Residential", "Commercial", "Industrial"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_FeatureTypes = {"rule": ("Feature", "OR", ["Awning", "Billboard", "Car", "Chimney", "Door", "Machine", "Pipe","Porch",
-             "Sign", "Statue", "Table", "TiledRoof", "Truck", "VendingMachine", "WallSign", "Window"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_BuildingTypes = {"left": "Building", "right": "OR(Residential, Commercial, Industrial)", "main_op": "BUILDING_FACT"}
+
+rule_FeatureTypes = {"left": "Feature", "right": "OR(Awning, Billboard, Car, Chimney, Door, Machine, Pipe, Porch, "
+"Sign, Statue, Table, TiledRoof, Truck, VendingMachine, WallSign, Window)", "main_op": "EQUIV"}
 
 #preciso de implementar o Implica -> "IMPL"
 
 
 ''' Building ⊑ ¬((∃has.Car ⊔ ∃has.T ruck) ⊓ (∃has.Machine))'''
-rule_Buiding_Impl_not_carAndTruck_OrMachine = {"left": "Building", "right":"NOT(AND(OR(Car,Truck),Machine))", "main_op":"IMPL"}
+rule_Buiding_Impl_not_carAndTruck_OrMachine = {"left": "Building", "right":"NOT(AND(OR(Car,Truck),Machine))", "main_op":"BUILDING_FACT"}
 
 
 #second rule Building ⊓¬(∃has.Door ⊔ ∃has.Window) ⊑ ¬∃has.Awning -> o meu codigo n ta preparado para isto, dps tenho de melhorar a logica
 
 
 # Building ⊑¬(∃has.Car ⊓ ∃has.T ruck)
-rule_Building_Impl_not_CarAndTruck = {"left": "Building", "right":"NOT(AND(Car,Truck))", "main_op":"IMPL"}
+rule_Building_Impl_not_CarAndTruck = {"left": "Building", "right":"NOT(AND(Car,Truck))", "main_op":"BUILDING_FACT"}
 
 
 #Building ⊑ ¬(∃has.Chimney ⊓ ∃has.Statue)
-rule_Building_Impl_not_ChimneyAndStatue = {"left": "Building", "right":"NOT(AND(Chimney,Statue))", "main_op":"IMPL"}
+rule_Building_Impl_not_ChimneyAndStatue = {"left": "Building", "right":"NOT(AND(Chimney,Statue))", "main_op":"BUILDING_FACT"}
 
 #FOR_OR
-rule_CommercialBuildingType = {"rule": ("Commercial", "OR", ["Cafe", "Hotel", "MiscCommercial", "Restaurant", "Store"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_IndustrialBuildingType = {"rule": ("Industrial", "OR", ["ConstructionSite", "MiscIndustrial", "PowerPlant", "WaterTreatment"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
-rule_ResidentialBuildingType = {"rule": ("Residential", "OR", ["CountryHouse", "MiscResidential", "Suburban"]), "nbr_of_ops": 1, "Main_OP": "EQUIV"}
+rule_CommercialBuildingType = {"left": "Commercial", "right": "OR(Cafe, Hotel, MiscCommercial, Restaurant, Store)", "main_op": "EQUIV"}
+rule_IndustrialBuildingType = {"left": "Industrial", "right": "OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment)", "main_op": "EQUIV"}
+rule_ResidentialBuildingType = {"left": "Residential", "right": "OR(CountryHouse, MiscResidential, Suburban)", "main_op": "EQUIV"}
+
 
 #rules related to final classes
 #when using the second rule, its necessary to place a placeholder in this first slot
@@ -74,94 +76,51 @@ rule_MiscResidential_not_AwningAndTable_AndTiledRoof = {"left": "MiscResidential
 # Residential ⊑ ¬ (∃has.Chimney ⊔ ∃has.Pipe)
 rule_Residential_Impl_not_ChimneyOrPipe = {"left": "Residential", "right":"NOT(OR(Chimney,Pipe))", "main_op":"IMPL"}
 
+#Building ⊓ ¬(∃has.Door ⊔ ∃has.Window) ⊑ ¬∃has.Awning
+rule_Building_noDoorOrNoWindow_Impl_noAwning = {"left": "NOT(OR(Door,Window))", "right":"NOT(Awning)", "main_op":"IMPL"}
 
-'''
-NEW RULES
-'''
-
-#rule_MiscIndustrial_notAwningAndTruck = {"rule_left_side": "MiscIndustrial", "rule_right_side": "AND(NOT(Awning), Truck)", "Main_OP": "EQUIV"}
-rule1 = {"left": "MiscIndustrial", "right": "AND(NOT(Awning), Truck)", "main_op": "EQUIV"}
-#rule_Hotel_Wallsign = {"rule_left_side": "Hotel", "rule_right_side": "WallSign", "Main_OP": "EQUIV"}
-rule2 = {"left": "Hotel", "right": "WallSign", "main_op": "EQUIV"}
-#rule_Residential_Impl_not_ChimneyOrPipe = {"rule": ("Residential", "OR", ["Chimney", "Pipe"], "NOT", ["Chimney"]), "nbr_of_ops": 2, "Main_OP": "IMPL"}
-rule3 = {"left": "Residential", "right":"NOT(OR(Chimney,Pipe))", "main_op":"IMPL"}
 
 
 ALL_AXIOMS = [
-    #not implemented yet
     {"axiom": rule_BuildingTypes, "active": False, "name": "building_types"}, #high level rules
-    {"axiom": rule_FeatureTypes, "active": False, "name": "feature_types"},
-    {"axiom": rule_CommercialBuildingType, "active": False, "name": "commercial"},
+    {"axiom": rule_FeatureTypes, "active": False, "name": "feature_types"}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
+    {"axiom": rule_CommercialBuildingType, "active": True, "name": "commercial"},
     {"axiom": rule_IndustrialBuildingType, "active": False, "name": "industrial"},
-    {"axiom": rule_ResidentialBuildingType, "active": False, "name": "residential"},
+    {"axiom": rule_ResidentialBuildingType, "active": True, "name": "residential"},
 
 
     #done
     {"axiom": rule_Buiding_Impl_not_carAndTruck_OrMachine, "active": False, "name": "building_impl_complex"}, #implications, more related to the building creation process
     {"axiom": rule_Building_Impl_not_CarAndTruck, "active": False, "name": "building_no_car_truck"},
     {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": False, "name": "building_no_chimney_statue"},
+    {"axiom": rule_Building_noDoorOrNoWindow_Impl_noAwning, "active": False, "name": "building_noDoorOrNoWindow_Impl_noAwning"},
 
 
     #equiv
-    {"axiom": rule_Hotel_Wallsign, "active": True, "name":"hotel"}, 
-    {"axiom": rule_Store_Billboard, "active": False, "name":"store"},
-    {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"},
-    {"axiom": rule_ConstructionSite_Machine, "active": False, "name":"constructionsite"},
-    {"axiom": rule_Suburban_Porch, "active": False, "name":"suburban"},
+    {"axiom": rule_Hotel_Wallsign, "active": True, "name":"hotel"}, #comercial
+    {"axiom": rule_Store_Billboard, "active": True, "name":"store"}, #comercial
+    {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"}, #industrial
+    {"axiom": rule_ConstructionSite_Machine, "active": False, "name":"constructionsite"}, #industrial
+    {"axiom": rule_Suburban_Porch, "active": True, "name":"suburban"}, #residential
 
 
     #conj
-    {"axiom": rule_MiscCommercial_AwningAndTable, "active": False, "name":"misccommercial"},
-    {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": True, "name":"miscindustrial"},
-    {"axiom": rule_CH_CarAndTiledroof, "active": False, "name":"countryhouse"},
-    {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"powerplant"},
-    {"axiom": rule_WaterTreatment_PipeAndTruck, "active": False, "name":"watertreatment"},
+    {"axiom": rule_MiscCommercial_AwningAndTable, "active": True, "name":"misccommercial"}, #comercial
+    {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": False, "name":"miscindustrial"}, #industrial
+    {"axiom": rule_CH_CarAndTiledroof, "active": True, "name":"countryhouse"}, #residential
+    {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"powerplant"}, #industrial
+    {"axiom": rule_WaterTreatment_PipeAndTruck, "active": False, "name":"watertreatment"}, #industrial
 
     #disj
-    {"axiom": rule_Cafe_StatueOrVendingMachine, "active": False, "name":"cafe"},
+    {"axiom": rule_Cafe_StatueOrVendingMachine, "active": True, "name":"cafe"}, #comercial
 
     #complex
-    {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": False,"name":"restaurant"},
-    {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": False, "name":"miscresidential"},
-    {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": True, "name": "residential_no_chimney_pipe"},
+    {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": True,"name":"restaurant"},#comercial
+    {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": True, "name":"miscresidential"},#residential
+    {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": True, "name": "residential_no_chimney_pipe"},#residential
+
     ]
 
-
-OLD_ALL_AXIOMS = [
-    {"axiom": rule_BuildingTypes, "active": False, "name": "building_types"}, #high level rules
-    {"axiom": rule_FeatureTypes, "active": False, "name": "feature_types"},
-    {"axiom": rule_CommercialBuildingType, "active": False, "name": "commercial"},
-    {"axiom": rule_IndustrialBuildingType, "active": False, "name": "industrial"},
-    {"axiom": rule_ResidentialBuildingType, "active": False, "name": "residential"},
-
-    {"axiom": rule_Buiding_Impl_not_carAndTruck_OrMachine, "active": False, "name": "building_impl_complex"}, #implications, more related to the building creation process
-    {"axiom": rule_Building_Impl_not_CarAndTruck, "active": False, "name": "building_no_car_truck"},
-    {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": False, "name": "building_no_chimney_statue"},
-
-
-    #equiv
-    {"axiom": rule_Hotel_Wallsign, "active": False, "name":"hotel"}, 
-    {"axiom": rule_Store_Billboard, "active": False, "name":"store"},
-    {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"},
-    {"axiom": rule_ConstructionSite_Machine, "active": False, "name":"constructionsite"},
-    {"axiom": rule_Suburban_Porch, "active": False, "name":"suburban"},
-
-
-    #conj
-    {"axiom": rule_MiscCommercial_AwningAndTable, "active": True, "name":"misccommercial"},
-    {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": True, "name":"miscindustrial"},
-    {"axiom": rule_CH_CarAndTiledroof, "active": True, "name":"countryhouse"},
-    {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"powerplant"},
-    {"axiom": rule_WaterTreatment_PipeAndTruck, "active": False, "name":"watertreatment"},
-
-    #disj
-    {"axiom": rule_Cafe_StatueOrVendingMachine, "active": False, "name":"cafe"},
-
-    #complex
-    {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": True,"name":"restaurant"},
-    {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": True, "name":"miscresidential"},
-    {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": True, "name": "residential_no_chimney_pipe"},
-]
 
 RULE_MAP = {r["name"]: r for r in ALL_AXIOMS}
 
@@ -238,12 +197,12 @@ ALL_FINAL_CLASSES = [
     "ConstructionSite",
     "MiscIndustrial",
     "PowerPlant",
-    "WaterTreatment",
+    "WaterTreatment"
 ]
 
 ALL_CLASSES = [
-    "Building",
-    "Feature",-
+    #"Building",
+    #"Feature",
 
     "Residential",
     "Commercial",
@@ -282,8 +241,8 @@ ALL_CLASSES = [
 ]
 
 ALL_CONCEPTS = [
-    "Building",
-    "Feature",
+    #"Building",
+    #"Feature",
 
     "Residential",
     "Commercial",
