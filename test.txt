@@ -1,0 +1,51 @@
+
+
+
+ consistency per rule
+
+
+========= ACTIVE RULES =========
+
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+residential: [AXIOM] EQUIV(Residential, OR(CountryHouse, MiscResidential, Suburban))
+residential_no_chimney_pipe: [AXIOM] IMPL(Residential, NOT(OR(Chimney,Pipe)))
+industrial: [AXIOM] EQUIV(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+powerplant: [AXIOM] EQUIV(PowerPlant, AND(Chimney, Pipe))
+miscresidential: [AXIOM] EQUIV(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+constructionsite: [AXIOM] EQUIV(ConstructionSite, Machine)
+industrial_not_table: [AXIOM] EQUIV(Industrial, NOT(Table))
+countryhouse: [AXIOM] EQUIV(CountryHouse, AND(Car, TiledRoof))
+miscindustrial: [AXIOM] EQUIV(MiscIndustrial, AND(NOT(Awning), Truck))
+watertreatment: [AXIOM] EQUIV(WaterTreatment, AND(Pipe, Truck))
+
+
+========= CONISTENCY PER RULE =========
+
+suburban | consistency=-2.0000 | applicable_count=0
+
+residential | consistency=-2.0000 | applicable_count=0
+
+residential_no_chimney_pipe | consistency=-2.0000 | applicable_count=0
+
+industrial | consistency=0.9993 | applicable_count=1337
+    - powerplant_not_predicted: 1
+
+powerplant | consistency=0.9761 | applicable_count=710
+    - not_predicted: 17
+
+miscresidential | consistency=-2.0000 | applicable_count=0
+
+constructionsite | consistency=1.0000 | applicable_count=379
+
+industrial_not_table | consistency=1.0000 | applicable_count=1336
+
+countryhouse | consistency=-2.0000 | applicable_count=0
+
+miscindustrial | consistency=0.9373 | applicable_count=638
+    - not_predicted: 39
+    - has_awning: 1
+
+watertreatment | consistency=0.9679 | applicable_count=560
+    - missing_pipe: 13
+    - not_predicted: 5
+

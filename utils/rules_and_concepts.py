@@ -84,8 +84,8 @@ rule_Building_noDoorOrNoWindow_Impl_noAwning = {"left": "NOT(OR(Door,Window))", 
 ALL_AXIOMS = [
     {"axiom": rule_BuildingTypes, "active": False, "name": "building_types"}, #high level rules
     {"axiom": rule_FeatureTypes, "active": False, "name": "feature_types"}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
-    {"axiom": rule_CommercialBuildingType, "active": True, "name": "commercial"},
-    {"axiom": rule_IndustrialBuildingType, "active": False, "name": "industrial"},
+    {"axiom": rule_CommercialBuildingType, "active": False, "name": "commercial"},
+    {"axiom": rule_IndustrialBuildingType, "active": True, "name": "industrial"},
     {"axiom": rule_ResidentialBuildingType, "active": True, "name": "residential"},
 
 
@@ -97,43 +97,62 @@ ALL_AXIOMS = [
 
 
     #equiv
-    {"axiom": rule_Hotel_Wallsign, "active": True, "name":"hotel"}, #comercial
-    {"axiom": rule_Store_Billboard, "active": True, "name":"store"}, #comercial
-    {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"}, #industrial
-    {"axiom": rule_ConstructionSite_Machine, "active": False, "name":"constructionsite"}, #industrial
+    {"axiom": rule_Hotel_Wallsign, "active": False, "name":"hotel"}, #comercial
+    {"axiom": rule_Store_Billboard, "active": False, "name":"store"}, #comercial
+    {"axiom": rule_Industrial_notTable, "active": True, "name":"industrial_not_table"}, #industrial
+    {"axiom": rule_ConstructionSite_Machine, "active": True, "name":"constructionsite"}, #industrial
     {"axiom": rule_Suburban_Porch, "active": True, "name":"suburban"}, #residential
 
 
     #conj
-    {"axiom": rule_MiscCommercial_AwningAndTable, "active": True, "name":"misccommercial"}, #comercial
-    {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": False, "name":"miscindustrial"}, #industrial
+    {"axiom": rule_MiscCommercial_AwningAndTable, "active": False, "name":"misccommercial"}, #comercial
+    {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": True, "name":"miscindustrial"}, #industrial
     {"axiom": rule_CH_CarAndTiledroof, "active": True, "name":"countryhouse"}, #residential
-    {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"powerplant"}, #industrial
-    {"axiom": rule_WaterTreatment_PipeAndTruck, "active": False, "name":"watertreatment"}, #industrial
+    {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": True, "name":"powerplant"}, #industrial
+    {"axiom": rule_WaterTreatment_PipeAndTruck, "active": True, "name":"watertreatment"}, #industrial
 
     #disj
-    {"axiom": rule_Cafe_StatueOrVendingMachine, "active": True, "name":"cafe"}, #comercial
+    {"axiom": rule_Cafe_StatueOrVendingMachine, "active": False, "name":"cafe"}, #comercial
 
     #complex
-    {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": True,"name":"restaurant"},#comercial
+    {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": False,"name":"restaurant"},#comercial
     {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": True, "name":"miscresidential"},#residential
     {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": True, "name": "residential_no_chimney_pipe"},#residential
 
     ]
 
 
-RULE_MAP = {r["name"]: r for r in ALL_AXIOMS}
+AXIOMS_MAP = {r["name"]: r for r in ALL_AXIOMS}
+AXIOMS_BY_NAME = {item["name"]: item for item in ALL_AXIOMS}
 
-def print_only_active_rules(consistency, violation_type_counts, txt_file):
+def print_only_active_rules(consistency, applicable_counts, violation_type_counts, txt_file):
+    #print("start printing in rules and concepts")
+
+    txt_file.write("\n\n========= ACTIVE RULES =========\n\n")
     for rule_name, value in consistency.items():
-        r = RULE_MAP.get(rule_name)
+        r = AXIOMS_MAP.get(rule_name)
+
 
         if r is None:
             print(f"rule {rule_name} not found")
             continue
 
         if r["active"]:
-            txt_file.write(f"{rule_name} | consistency={value:.4f}\n")
+            txt_file.write(get_string_axiom(r["name"]))
+    
+    
+    txt_file.write("\n\n========= CONISTENCY PER RULE =========\n\n")
+    for rule_name, value in consistency.items():
+        r = AXIOMS_MAP.get(rule_name)
+
+
+        if r is None:
+            print(f"rule {rule_name} not found")
+            continue
+
+        if r["active"]:
+            a = applicable_counts.get(rule_name, 0)
+            txt_file.write(f"{rule_name} | consistency={value:.4f} | applicable_count={a}\n")
 
             vtypes = violation_type_counts.get(rule_name, {})
 
@@ -143,11 +162,15 @@ def print_only_active_rules(consistency, violation_type_counts, txt_file):
 
             txt_file.write("\n")
 
+        
+
+    txt_file.close()
+
 #rule1 = {"rule_left_side": "MiscIndustrial", "rule_right_side": "AND(NOT(Awning), Truck)", "Main_OP": "EQUIV"}
 
 #rule2 = {"rule_left_side": "Hotel", "rule_right_side": "WallSign", "main_op": "EQUIV"}
 
-RULES = [a["axiom"] for a in ALL_AXIOMS if a["active"]]
+AXIOMS = {a["name"]:a["axiom"] for a in ALL_AXIOMS if a["active"]}
 
 def flatten_rule(rule):
     flat = []
@@ -161,7 +184,13 @@ def flatten_rule(rule):
 def getClassesFromRules(all_concepts):
     classes = []
 
-    for r in RULES: 
+    #print(f"getClassesFromRules: axioms.items{AXIOMS.items()} ")
+
+    for ax in AXIOMS.items(): 
+
+        r = ax[1]
+        #print(f"getClassesFromRules: r {r} ")
+
         conceptsAndOperationsInRule = []
         #rule_left_side = flatten_rule(r["rule_left_side"])
         #rule_right_side = flatten_rule(r["rule_right_side"])
@@ -311,10 +340,30 @@ def get_concepts():
 def get_all_rules():
     return ALL_AXIOMS
 
-def get_active_rules():
-    return RULES
+def get_active_axioms():
+    return AXIOMS
 
+def get_normalized_FINAL_CLASSES():
+    normalized_list = []
 
+    for cls in FINAL_CLASSES:
+        normalized_list.append(cls.lower())
+
+    return normalized_list
+
+def get_string_axiom(rule_name):
+    ax = AXIOMS_BY_NAME[rule_name]["axiom"]
+
+    return f"{rule_name}: [AXIOM] {ax["main_op"]}({ax["left"]}, {ax["right"]})\n"
+    
+
+def get_name_of_axiom(axiom):
+    print(f"axiom in get_name of axiom: {axiom}")
+    to_return = ALL_AXIOMS[axiom]["name"]
+    print(to_return)
+
+    return to_return
+    
 
 
 

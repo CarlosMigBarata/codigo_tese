@@ -1,13 +1,13 @@
-import re
+
 
 import torch
 import ltn
 import utils.rules_and_concepts as rules_and_concepts
 
-RULES = rules_and_concepts.get_active_rules()
+AXIOMS = rules_and_concepts.get_active_axioms()
 CLASSES = rules_and_concepts.get_classes()
 
-print(f"classes {CLASSES}")
+print(f"classes in axioms.py {CLASSES}")
 
 list_of_final_classes = rules_and_concepts.get_final_classes()
 final_classes = len(list_of_final_classes)
@@ -19,13 +19,6 @@ CLASS_CONSTANTS = {
     name: ltn.Constant(torch.tensor(idx), trainable=False)
     for name, idx in CLASS_TO_IDX.items()
 }
-
-'''
-Access by
-
-CLASS_CONSTANTS["Awning"]
-CLASS_CONSTANTS["Table"]
-'''
 
 
 #Connectives
@@ -45,6 +38,44 @@ Equiv = ltn.Connective(
 formula_aggregator = ltn.fuzzy_ops.SatAgg(
     ltn.fuzzy_ops.AggregPMeanError(p=2)
 )
+
+class MeanMetric:
+    def __init__(self):
+        self.reset_state()
+
+    def update(self, value, n=1):
+        self.total += value * n
+        self.count += n
+
+    def compute(self):
+        return self.total / self.count if self.count != 0 else 0.0
+
+
+    def reset_state(self):
+        self.total = 0.0
+        self.count = 0
+
+    def result(self):
+        return self.compute()
+    
+
+metrics_dict = {}
+
+axiom_train_accuracy_metric = {
+    f"{axiom.lower()}_train_accuracy": MeanMetric()
+    for axiom in AXIOMS
+}
+
+metrics_dict.update(axiom_train_accuracy_metric)
+
+axiom_val_accuracy_metric = {
+    f"{axiom.lower()}_val_accuracy": MeanMetric()
+    for axiom in AXIOMS
+}
+metrics_dict.update(axiom_val_accuracy_metric)
+
+
+
 
 def get_number_of_final_classes():
     return final_classes
@@ -110,6 +141,7 @@ left
 right
 main_op
 '''
+
 def build_axiom(p, x, left, right, main_op, debug_mode=False):
         #aplica as ops, e dps gera a equivalencia final
 
@@ -139,7 +171,6 @@ def build_axiom(p, x, left, right, main_op, debug_mode=False):
 
         return right_obj
     
-
     else:
         print("TYPO ON MAIN OP")
 
@@ -286,32 +317,66 @@ def get_masked_variable_and_append_predicates(logits, p, args, class_name, axiom
     axioms.append(p2)
 
 
-def compute_axioms(logits, *args, p, debug_mode=False):
+'''
+metrics_dict = {}
+
+axiom_train_accuracy_metric = {
+    f"{rules_and_concepts.get_name_of_axiom(axiom).lower()}_train_accuracy": MeanMetric()
+    for axiom in RULES
+}
+
+metrics_dict.update(axiom_train_accuracy_metric)
+
+axiom_val_accuracy_metric = {
+    f"{rules_and_concepts.get_name_of_axiom(axiom).lower()}_val_accuracy": MeanMetric()
+    for axiom in RULES
+}
+metrics_dict.update(axiom_val_accuracy_metric)
+'''
+
+
+def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
 
     device = logits.device
-    axioms = []
+    ltn_axioms = []
 
     #logits = logits_model(features_param)
 
     x = ltn.Variable("x", logits)
 
+    #print(logits)
+    #print(f" args {args}")
+
 
     for class_name in list_of_final_classes:
-        get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name=class_name, axioms=axioms, device=device)
+        get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name=class_name, axioms=ltn_axioms, device=device)
 
 
-    for r in RULES:
-        #print(f"R in compute axioms: {r}")
-        axioms.append(
-            safe_forall(x, build_axiom(p,x, r["left"], r["right"], r["main_op"], debug_mode), device)
-        )
+    for ax in AXIOMS.items():
+        #print(f"R in compute axioms: {r}"
+        print(f"ax in compute_Ax {ax}")
+        r = ax[1]
+        print(f"r in compute ax: {r}")
+
+        ltn_axiom = safe_forall(x, build_axiom(p,x, r["left"], r["right"], r["main_op"], debug_mode), device)
+        ltn_axioms.append(ltn_axiom)
+        if not validation_mode:
+            update_rule_sat_metric(ax, "train", ltn_axiom)
+        else:
+            update_rule_sat_metric(ax, "val", ltn_axiom)
     
-    sat_level = formula_aggregator(*axioms)
+    sat_level = formula_aggregator(*ltn_axioms)
+
+    #print(sat_level)
 
     return sat_level
 
+def update_rule_sat_metric(axiom, phase, value):
+    ax_name = axiom.lower()
+    print(f"ltn_axiom: {value}")
 
-
+    metrics_dict[f"{ax_name}_{phase}_accuracy"].update(value)
+    
 
 '''metrics functions'''
 

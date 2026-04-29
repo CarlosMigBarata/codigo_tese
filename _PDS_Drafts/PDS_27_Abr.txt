@@ -1,0 +1,17 @@
+
+
+Durante esta semana eu revi a parte da validação com o clingo de que falamos na semana passada. Tal como faço para o LTN, o input que eu uso são os logits, que representam os valores das ativações dos neuronios das ultimas camdas (concept layer + classes finais).
+ para o clingo, estes valores reais são transformados em 0s e 1s para poderem ser usados.
+
+Em relação a logica do rules.lp, os predicados violation() representam os casos em que o lado esquerdo da implicação é verdadeiro, e o lado direito é falso. O aplicable() representa o caso em que o lado esquerdo é verdadeiro, indepedentemente se o lado direito é verdadeiro ou falso.
+Desta forma, a proporção final que é calculada 1-(violation/applicable) representa a proporção dos casos em que ambos os lados da implicação são verdadeiros.
+
+Os casos em que ambos os lados da implicação são falsos são ignorados. Se os adicionasse, ia inflacionar o numero de casos em que a regra é respeitada desnecessariamente.
+
+Modifiqui um pouco as regras que incluiam o conceito "Building", uma vez que não estava presente no dataset, porque está sempre presente para todas as imagens.
+
+
+certas features (as portas/estatutas/carros/etc) são deve estar localizadas em certos sitios, por isso criar uns predicados como around_building() para carros, ou on_building() para janelas ou portas podia ser interessante. depois, se difinir que apenas o carro/camiao/estatura podem estar a volta do predio, podia substituir uma regra como cafe = hasWindow and hasCar por hasWindow e hasFeatureAroundBuilding(), talvez fosse capaz de identificar o carro?
+
+
+Em relação a testes, experimentei utilizar todas as regras que referenciavam cada tipo de building (Comercial/Industrial/Residential), cada um destes conjuntos de cada vez, e depois introduzir as combinações entre cada um destes conjuntos.

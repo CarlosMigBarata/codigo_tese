@@ -1,0 +1,60 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 58)==================================================
+Training Info
+Alpha: 0.7000
+Train Loss: 0.01557722
+Val Loss: 0.03490315
+
+Logical Consistency
+Train SAT (KB): 0.93663539
+Val SAT (KB): 0.93511897
+
+Combined Loss
+Combined Train Loss: 0.02991344
+Combined Val Loss: 0.034903149
+
+Train Accuracy per Class, final classes
+suburban            : 1.000
+countryhouse        : 1.000
+constructionsite    : 0.999
+miscresidential     : 0.998
+miscindustrial      : 0.994
+powerplant          : 0.987
+watertreatment      : 0.982
+
+Train Accuracy per Class, concepts
+porch               : 0.999
+machine             : 0.999
+residential         : 0.998
+industrial          : 0.996
+tiledroof           : 0.938
+pipe                : 0.922
+chimney             : 0.890
+truck               : 0.856
+car                 : 0.805
+table               : 0.662
+awning              : 0.609
+
+Validation Accuracy per Class, final classes
+suburban            : 1.000
+countryhouse        : 1.000
+constructionsite    : 1.000
+miscresidential     : 0.997
+miscindustrial      : 0.991
+powerplant          : 0.978
+watertreatment      : 0.970
+
+Validation Accuracy per Class, concepts
+porch               : 1.000
+machine             : 0.999
+residential         : 0.999
+industrial          : 0.995
+tiledroof           : 0.943
+pipe                : 0.912
+chimney             : 0.899
+truck               : 0.861
+car                 : 0.799
+table               : 0.671
+awning              : 0.601
+
+==================================================
