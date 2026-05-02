@@ -1,0 +1,43 @@
+
+
+========= ACTIVE RULES =========
+
+miscresidential: [AXIOM] EQUIV(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+residential_no_chimney_pipe: [AXIOM] IMPL(Residential, NOT(OR(Chimney,Pipe)))
+countryhouse: [AXIOM] EQUIV(CountryHouse, AND(Car, TiledRoof))
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+residential: [AXIOM] EQUIV(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+miscresidential | consistency=0.9973 | applicable_count=1116
+    - missing_tiledroof: 3
+
+residential_no_chimney_pipe | consistency=1.0000 | applicable_count=1339
+
+countryhouse | consistency=1.0000 | applicable_count=553
+
+suburban | consistency=1.0000 | applicable_count=902
+
+residential | consistency=0.9970 | applicable_count=1343
+    - miscres_not_predicted: 4
+
+
+ Rule Satisfaction in LTNs 
+
+ Axiom satisfaction in ltn during training
+residential_no_chimney_pipe: 0.998
+suburban            : 0.995
+countryhouse        : 0.993
+miscresidential     : 0.988
+residential         : 0.987
+
+ Axiom satisfaction in ltn during validation 
+countryhouse        : 0.999
+residential_no_chimney_pipe: 0.999
+suburban            : 0.999
+residential         : 0.991
+miscresidential     : 0.991
+
+==================================================

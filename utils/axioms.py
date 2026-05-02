@@ -75,22 +75,7 @@ axiom_val_accuracy_metric = {
 metrics_dict.update(axiom_val_accuracy_metric)
 
 
-
-
-def get_number_of_final_classes():
-    return final_classes
-
-def get_CLASSES():
-    return CLASSES
-
-def get_ALL_CLASSES():
-    return rules_and_concepts.get_all_classes()
-
-
-def get_nbr_of_concepts():
-    return len(CLASSES) - final_classes
-
-def safe_forall(var, formula, device, default_value=0.5):
+def safe_forall(var, formula, device, default_value=1.0):
 # Check if variable has zero elements
     
     if var.value.shape[0] == 0:  # no elements in the batch
@@ -145,11 +130,14 @@ main_op
 def build_axiom(p, x, left, right, main_op, debug_mode=False):
         #aplica as ops, e dps gera a equivalencia final
 
-    left_obj, left_str = build_axioms_rec(p, x, left)
-    right_obj, right_str = build_axioms_rec(p, x, right)
+    #left_obj, left_str = build_axioms_rec(p, x, left)
+    #right_obj, right_str = build_axioms_rec(p, x, right)
 
 
     if main_op == "EQUIV":
+        left_obj, left_str = build_axioms_rec(p, x, left)
+        right_obj, right_str = build_axioms_rec(p, x, right)
+
         ax = Equiv(left_obj, right_obj)
 
         if debug_mode: 
@@ -158,6 +146,10 @@ def build_axiom(p, x, left, right, main_op, debug_mode=False):
         return ax
 
     elif main_op == "IMPL":
+
+        left_obj, left_str = build_axioms_rec(p, x, left)
+        right_obj, right_str = build_axioms_rec(p, x, right)
+
         ax = Implies(left_obj, right_obj)
 
         if debug_mode: 
@@ -166,6 +158,8 @@ def build_axiom(p, x, left, right, main_op, debug_mode=False):
         return ax
     
     elif main_op == "BUILDING_FACT":
+        right_obj, right_str = build_axioms_rec(p, x, right)
+
         if debug_mode: 
             print(f"[AXIOM] FACT({right_str})")
 
@@ -353,10 +347,9 @@ def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
 
 
     for ax in AXIOMS.items():
-        #print(f"R in compute axioms: {r}"
-        print(f"ax in compute_Ax {ax}")
+
         r = ax[1]
-        print(f"r in compute ax: {r}")
+        #print(f"r in compute ax: {r}")
 
         ltn_axiom = safe_forall(x, build_axiom(p,x, r["left"], r["right"], r["main_op"], debug_mode), device)
         ltn_axioms.append(ltn_axiom)
@@ -372,11 +365,24 @@ def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
     return sat_level
 
 def update_rule_sat_metric(axiom, phase, value):
-    ax_name = axiom.lower()
-    print(f"ltn_axiom: {value}")
+    ax_name = axiom[0].lower()
+    #print(f"ltn_axiom value: {value}")
+    #print(f"ltn_axiom value: {value.value}")
 
-    metrics_dict[f"{ax_name}_{phase}_accuracy"].update(value)
-    
+    metrics_dict[f"{ax_name}_{phase}_accuracy"].update(value.value)
+
+def reset_rule_sat_metrics():
+    for metrics in metrics_dict.values():
+        metrics.reset_state()
+
+def get_rule_sat_metrics_keys():
+    return metrics_dict.keys()
+
+def get_rule_sat_metrics_results():
+    return [metrics.result() for metrics in metrics_dict.values()]
+
+def get_rule_sat_metrics_len():
+    return len(metrics_dict)
 
 '''metrics functions'''
 
