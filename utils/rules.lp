@@ -49,13 +49,6 @@ applicable(X, misccommercial) :-
     holds(X, table).
 
 
-applicable_premise(X, misccommercial) :-
-    holds(X, misccommercial).
-
-applicable_prediction(X, misccommercial) :-
-    holds(X, awning),
-    holds(X, table).
-
 
 
 %rule2, the negation can not be done?

@@ -53,6 +53,9 @@ Car_train confusion matrix:
 tensor([[12248,     2],
         [ 1560,  2190]], dtype=torch.int32)
 
+
+
+
 Suburban_val confusion matrix:
 tensor([[3098,    0],
         [   0,  902]], dtype=torch.int32)

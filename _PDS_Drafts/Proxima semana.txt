@@ -20,4 +20,6 @@ em relação as regras que apareciam todas negativas, os dois casos foram resolv
 
 
 
-Perguntas (n sei bem  a quem por que eu é que sei mais mas it is what it is)
+Perguntas 
+
+certas features (as portas/estatutas/carros/etc) são deve estar localizadas em certos sitios, por isso criar uns predicados como around_building() para carros, ou on_building() para janelas ou portas podia ser interessante. depois, se difinir que apenas o carro/camiao/estatura podem estar a volta do predio, podia substituir uma regra como cafe = hasWindow and hasCar por hasWindow e hasFeatureAroundBuilding(), talvez fosse capaz de identificar o carro?

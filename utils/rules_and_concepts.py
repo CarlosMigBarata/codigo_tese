@@ -265,23 +265,26 @@ ALL_CONCEPTS = [
     "Commercial",
     "Industrial",
 
-    "Door",
-    "Window",
-    "Awning",
-    "Billboard",
-    "Porch",
-    "Sign",
-    "Table",
-    "TiledRoof",
-    "TiledRoofTop",
-    "VendingMachine",
-    "WallSign",
-    "Statue",
-    "Chimney",
-    "Pipe",
-    "Machine",
-    "Truck",
-    "Car"
+    #nbr de vezes que aparece em todas as regras
+    "Door", #1
+    "Window", #1
+    "Awning", #4
+    "Billboard",#1
+    "Porch",#1
+    "Sign",#1
+    "Table",#3
+    "TiledRoof",#2
+    "TiledRoofTop",#0
+    "VendingMachine",#1
+    "WallSign",#1
+    "Statue",#2
+    "Chimney",#3
+    "Pipe",#3
+    "Machine",#2
+    "Truck",#5
+    "Car"#4
+    #o carro e o camião aparacem muitas vezes, mas 3 das 4 vezes que o carro aparece,
+    #aparece em conjunto com o camião
 ]
 
 

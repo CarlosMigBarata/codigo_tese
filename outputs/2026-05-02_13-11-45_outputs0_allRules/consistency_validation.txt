@@ -1,0 +1,140 @@
+
+
+========= ACTIVE RULES =========
+
+miscresidential: [AXIOM] EQUIV(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+constructionsite: [AXIOM] EQUIV(ConstructionSite, Machine)
+watertreatment: [AXIOM] EQUIV(WaterTreatment, AND(Pipe, Truck))
+powerplant: [AXIOM] EQUIV(PowerPlant, AND(Chimney, Pipe))
+residential_no_chimney_pipe: [AXIOM] IMPL(Residential, NOT(OR(Chimney,Pipe)))
+countryhouse: [AXIOM] EQUIV(CountryHouse, AND(Car, TiledRoof))
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+industrial: [AXIOM] EQUIV(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+store: [AXIOM] EQUIV(Store, Billboard)
+miscindustrial: [AXIOM] EQUIV(MiscIndustrial, AND(NOT(Awning), Truck))
+building_no_chimney_statue: [AXIOM] BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+cafe: [AXIOM] EQUIV(Cafe, OR(Statue, VendingMachine))
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+building_impl_complex: [AXIOM] BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+building_no_car_truck: [AXIOM] BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+misccommercial: [AXIOM] EQUIV(MiscCommercial, AND(Awning, Table))
+commercial: [AXIOM] EQUIV(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial_not_table: [AXIOM] EQUIV(Industrial, NOT(Table))
+restaurant: [AXIOM] EQUIV(Restaurant, AND(OR(Car,Truck),Sign))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] IMPL(NOT(OR(Door,Window)), NOT(Awning))
+residential: [AXIOM] EQUIV(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+miscresidential | consistency=0.9991 | applicable_count=1111
+    - not_predicted: 1
+
+constructionsite | consistency=1.0000 | applicable_count=379
+
+watertreatment | consistency=0.8603 | applicable_count=551
+    - missing_truck: 60
+    - not_predicted: 16
+    - missing_pipe: 1
+
+powerplant | consistency=0.9885 | applicable_count=694
+    - not_predicted: 6
+    - missing_chimney: 1
+    - missing_pipe: 1
+
+residential_no_chimney_pipe | consistency=1.0000 | applicable_count=1335
+
+countryhouse | consistency=1.0000 | applicable_count=553
+
+suburban | consistency=1.0000 | applicable_count=902
+
+industrial | consistency=1.0000 | applicable_count=1337
+
+store | consistency=1.0000 | applicable_count=841
+
+miscindustrial | consistency=0.9354 | applicable_count=666
+    - not_predicted: 43
+
+building_no_chimney_statue | consistency=1.0000 | applicable_count=4000
+
+cafe | consistency=0.9064 | applicable_count=1004
+    - missing_both: 94
+
+hotel | consistency=0.9700 | applicable_count=801
+    - missing_wallsign: 20
+    - not_predicted: 4
+
+building_impl_complex | consistency=1.0000 | applicable_count=4000
+
+building_no_car_truck | consistency=1.0000 | aplicable_count=4000
+
+misccommercial | consistency=0.7493 | applicable_count=1065
+    - not_predicted: 266
+    - missing_table: 1
+
+commercial | consistency=0.9970 | applicable_count=1324
+    - cafe_not_predicted: 3
+    - restaurant_not_predicted: 1
+
+industrial_not_table | consistency=1.0000 | applicable_count=1337
+
+restaurant | consistency=0.9839 | applicable_count=496
+    - missing_sign: 4
+    - missing_vehicle: 4
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=0.9627 | applicable_count=697
+    - not_door_no_window_has_awning: 26
+
+residential | consistency=0.9985 | applicable_count=1337
+    - miscres_not_predicted: 2
+
+
+ Rule Satisfaction in LTNs 
+
+ Axiom satisfaction in ltn during training
+building_no_chimney_statue: 0.989
+building_no_car_truck: 0.987
+building_impl_complex: 0.982
+building_nodoorornowindow_impl_noawning: 0.981
+residential_no_chimney_pipe: 0.978
+countryhouse        : 0.968
+residential         : 0.961
+suburban            : 0.961
+constructionsite    : 0.957
+industrial          : 0.952
+commercial          : 0.948
+store               : 0.947
+restaurant          : 0.935
+powerplant          : 0.917
+industrial_not_table: 0.910
+miscindustrial      : 0.907
+watertreatment      : 0.881
+cafe                : 0.872
+hotel               : 0.870
+miscresidential     : 0.863
+misccommercial      : 0.796
+
+ Axiom satisfaction in ltn during validation 
+building_no_chimney_statue: 0.990
+building_no_car_truck: 0.989
+building_impl_complex: 0.989
+residential_no_chimney_pipe: 0.987
+constructionsite    : 0.980
+building_nodoorornowindow_impl_noawning: 0.980
+countryhouse        : 0.979
+commercial          : 0.978
+store               : 0.974
+suburban            : 0.972
+residential         : 0.971
+industrial          : 0.970
+restaurant          : 0.967
+powerplant          : 0.935
+industrial_not_table: 0.927
+miscindustrial      : 0.924
+watertreatment      : 0.882
+cafe                : 0.880
+hotel               : 0.879
+miscresidential     : 0.872
+misccommercial      : 0.799
+
+==================================================

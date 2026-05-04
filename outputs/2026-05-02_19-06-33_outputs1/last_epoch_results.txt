@@ -1,0 +1,83 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 22)==================================================
+Training InfoAlpha: 0.8000
+Train Loss: 0.4622
+Val Loss: 0.4730
+Combined Train Loss: 0.4621
+Combined Val Loss: 0.4730
+
+Logical Consistency
+Train SAT (KB): 0.5386
+Val SAT (KB): 0.5492
+
+Train Accuracy per Class, final classes
+constructionsite    : 0.904
+restaurant          : 0.878
+countryhouse        : 0.863
+watertreatment      : 0.860
+miscindustrial      : 0.850
+powerplant          : 0.835
+misccommercial      : 0.804
+store               : 0.801
+hotel               : 0.796
+suburban            : 0.777
+cafe                : 0.764
+miscresidential     : 0.725
+
+Train Accuracy per Class, concepts
+machine             : 0.904
+statue              : 0.889
+vendingmachine      : 0.816
+billboard           : 0.801
+wallsign            : 0.796
+porch               : 0.777
+car                 : 0.766
+chimney             : 0.724
+sign                : 0.715
+pipe                : 0.695
+truck               : 0.676
+table               : 0.673
+industrial          : 0.667
+residential         : 0.667
+tiledroof           : 0.664
+awning              : 0.543
+window              : 0.335
+commercial          : 0.333
+door                : 0.331
+
+Validation Accuracy per Class, final classes
+constructionsite    : 0.905
+restaurant          : 0.876
+countryhouse        : 0.862
+watertreatment      : 0.861
+miscindustrial      : 0.854
+powerplant          : 0.829
+misccommercial      : 0.804
+hotel               : 0.797
+store               : 0.789
+suburban            : 0.774
+cafe                : 0.763
+miscresidential     : 0.724
+
+Validation Accuracy per Class, concepts
+machine             : 0.905
+statue              : 0.888
+vendingmachine      : 0.814
+wallsign            : 0.797
+billboard           : 0.789
+porch               : 0.774
+car                 : 0.756
+chimney             : 0.720
+sign                : 0.705
+pipe                : 0.694
+truck               : 0.679
+table               : 0.667
+residential         : 0.667
+industrial          : 0.666
+tiledroof           : 0.666
+awning              : 0.540
+door                : 0.346
+window              : 0.336
+commercial          : 0.333
+
+==================================================

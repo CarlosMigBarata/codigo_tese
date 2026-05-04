@@ -360,7 +360,9 @@ def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
     
     sat_level = formula_aggregator(*ltn_axioms)
 
-    #print(sat_level)
+    if debug_mode:
+        print(f"sat level: {sat_level}")
+        print(f"logits: {logits}")
 
     return sat_level
 

@@ -1,3 +1,27 @@
 usar clingo? para verificiar se os outputs sao consistentes com a ontologia
 
 dps posso tentar complicar, encontrar regras em que conceitos aparecem como vdd e falso
+
+
+[
+    ([[
+    ([' NOT(Awning),'], [' NOT(Billboard),']),
+     ' NOT(Car),']], [' NOT(Door),'])
+] 
+     
+     
+     
+     
+     
+     
+| right: [' Awning,', [[' NOT(Billboard),', ' NOT(Car),']]]
+
+
+left: ((
+    
+    (' NOT(Awning),', ' NOT(Billboard),'), 'NOT(Car),'),
+    ' NOT(Door),') 
+
+
+
+| right: (' Awning,', (' NOT(Billboard),', ' NOT(Car),'))
