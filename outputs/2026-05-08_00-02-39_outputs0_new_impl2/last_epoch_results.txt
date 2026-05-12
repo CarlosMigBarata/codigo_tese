@@ -1,0 +1,47 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 39)==================================================
+Training InfoAlpha: 0.7000
+Train Loss: 0.0085
+Val Loss: 0.0130
+Combined Train Loss: 0.0132
+Combined Val Loss: 0.0163
+
+Logical Consistency
+Train SAT (KB): 0.9757
+Val SAT (KB): 0.9761
+
+Train Accuracy per Class, final classes
+suburban            : 1.000
+store               : 0.999
+hotel               : 0.994
+
+Train Accuracy per Class, concepts
+porch               : 0.999
+billboard           : 0.998
+wallsign            : 0.993
+truck               : 0.603
+door                : 0.563
+chimney             : 0.500
+pipe                : 0.472
+window              : 0.420
+car                 : 0.301
+statue              : 0.116
+
+Validation Accuracy per Class, final classes
+suburban            : 1.000
+store               : 0.999
+hotel               : 0.993
+
+Validation Accuracy per Class, concepts
+porch               : 1.000
+billboard           : 0.999
+wallsign            : 0.993
+truck               : 0.600
+chimney             : 0.494
+door                : 0.477
+pipe                : 0.468
+window              : 0.425
+car                 : 0.306
+statue              : 0.117
+
+==================================================

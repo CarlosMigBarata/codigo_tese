@@ -1,0 +1,74 @@
+
+
+========= ACTIVE RULES =========
+
+rule_hotel_impl_car: [AXIOM] IMPL(Hotel, AND(Car, Awning))
+rule_store_impl_door: [AXIOM] IMPL(Store, AND(Door, NOT(Chimney)))
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+rule_hotel_impl_door: [AXIOM] IMPL(Hotel, AND(Door, Chimney))
+rule_hotel_impl_window: [AXIOM] IMPL(Hotel, AND(Window, Pipe))
+store: [AXIOM] EQUIV(Store, Billboard)
+rule_store_impl_car: [AXIOM] IMPL(Store, AND(Car, NOT(Awning)))
+rule_store_impl_window: [AXIOM] IMPL(Store, AND(Window, NOT(Pipe)))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_hotel_impl_car | consistency=0.3747 | rule_holds=296 | rule_vac_holds=3210 | violations=494 | total=4000
+    - left_holds_right_fails: 494
+
+rule_store_impl_door | consistency=1.0000 | rule_holds=843 | rule_vac_holds=3157 | violations=0 | total=4000
+
+hotel | consistency=0.9886 | rule_holds=781 | rule_vac_holds=3210 | violations=9 | total=4000
+    - left_holds_right_fails: 9
+
+rule_hotel_impl_door | consistency=0.3747 | rule_holds=296 | rule_vac_holds=3210 | violations=494 | total=4000
+    - left_holds_right_fails: 494
+
+rule_hotel_impl_window | consistency=0.3747 | rule_holds=296 | rule_vac_holds=3210 | violations=494 | total=4000
+    - left_holds_right_fails: 494
+
+store | consistency=1.0000 | rule_holds=843 | rule_vac_holds=3157 | violations=0 | total=4000
+
+rule_store_impl_car | consistency=1.0000 | rule_holds=843 | rule_vac_holds=3157 | violations=0 | total=4000
+
+rule_store_impl_window | consistency=1.0000 | rule_holds=843 | rule_vac_holds=3157 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+store               : 0.983
+hotel               : 0.970
+rule_store_impl_window: 0.842
+rule_store_impl_door: 0.840
+rule_store_impl_car : 0.839
+rule_hotel_impl_car : 0.830
+rule_hotel_impl_door: 0.828
+rule_hotel_impl_window: 0.826
+
+Axiom satisfaction: validation 
+
+store               : 0.994
+hotel               : 0.971
+rule_store_impl_window: 0.834
+rule_store_impl_door: 0.833
+rule_store_impl_car : 0.832
+rule_hotel_impl_car : 0.821
+rule_hotel_impl_door: 0.820
+rule_hotel_impl_window: 0.819
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+store               : {'agree': 843, 'disagree': 0, 'missing': 3157}
+hotel               : {'agree': 788, 'disagree': 2, 'missing': 3210}
+rule_store_impl_window: {'agree': 843, 'disagree': 0, 'missing': 3157}
+rule_store_impl_door: {'agree': 842, 'disagree': 1, 'missing': 3157}
+rule_store_impl_car : {'agree': 843, 'disagree': 0, 'missing': 3157}
+rule_hotel_impl_car : {'agree': 789, 'disagree': 1, 'missing': 3210}
+rule_hotel_impl_door: {'agree': 788, 'disagree': 2, 'missing': 3210}
+rule_hotel_impl_window: {'agree': 788, 'disagree': 2, 'missing': 3210}

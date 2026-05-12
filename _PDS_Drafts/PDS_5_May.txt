@@ -1,0 +1,5 @@
+Durante esta semana eu terminei o metodo de validação dos LTNs. tal como o metodo de validação com o clingo, os predicados que representam os conceitos nos axiomas do LTN são calculados aplicando a função sigmoide aos valores de ativação dos neuronios correspondentes.
+
+Além disso, passei a guardar os valores de satisfação de cada um dos axiomas dos LTNs por epoca, em vez de apenas ter o valor de todos os axiomas agregados.
+
+Também criei um script que gera um ficheiro .lp com os aplicables() e as violations() a partir de um dicionário de axiomas, para ser mais facil adicionar axiomas no futuro.

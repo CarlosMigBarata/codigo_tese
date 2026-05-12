@@ -23,9 +23,9 @@ CLASS_CONSTANTS = {
 
 #Connectives
 Not = ltn.Connective(ltn.fuzzy_ops.NotStandard())
-And = ltn.Connective(ltn.fuzzy_ops.AndProd())
-Or = ltn.Connective(ltn.fuzzy_ops.OrProbSum())
-Implies = ltn.Connective(ltn.fuzzy_ops.ImpliesReichenbach())
+And = ltn.Connective(ltn.fuzzy_ops.AndProd()) # a * b
+Or = ltn.Connective(ltn.fuzzy_ops.OrProbSum()) # a + b - a*b
+Implies = ltn.Connective(ltn.fuzzy_ops.ImpliesReichenbach()) # 1-a + a*b
 Forall = ltn.Quantifier(ltn.fuzzy_ops.AggregPMeanError(p=2), quantifier="f")
 Exists = ltn.Quantifier(ltn.fuzzy_ops.AggregPMean(p=2), quantifier="e")
 Equiv = ltn.Connective(
@@ -38,7 +38,7 @@ Equiv = ltn.Connective(
 formula_aggregator = ltn.fuzzy_ops.SatAgg(
     ltn.fuzzy_ops.AggregPMeanError(p=2)
 )
-
+#S=1−(n1​∑(1−s_i​)^2)^1/2
 class MeanMetric:
     def __init__(self):
         self.reset_state()
@@ -327,7 +327,31 @@ axiom_val_accuracy_metric = {
 }
 metrics_dict.update(axiom_val_accuracy_metric)
 '''
+@torch.no_grad()
+def evaluate_per_sample_axioms(logits_model, test_loader, p, device, threshold=0.5):
+    
+    logits_model.eval()
+    results = {}  # sid -> {rule_name: 0 or 1}
 
+    for batch in test_loader:
+        features, _, ids = batch
+        features = features.to(device)
+        logits = logits_model(features)
+        x = ltn.Variable("x", logits)
+
+        for rule_name, rule_def in AXIOMS.items():
+            body = build_axiom(
+                p, x,
+                rule_def["left"], rule_def["right"], rule_def["main_op"]
+            )
+            # body.value is shape [batch] - per-sample fuzzy truth
+            per_sample = (body.value > threshold).int().cpu().tolist()
+
+            for j, val in enumerate(per_sample):
+                sid = "s_" + ids[j].replace(".", "_").replace("-", "_")
+                results.setdefault(sid, {})[rule_name] = val
+
+    return results
 
 def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
 

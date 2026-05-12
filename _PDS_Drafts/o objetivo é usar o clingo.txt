@@ -1,0 +1,24 @@
+o objetivo é usar o clingo para comparar com os resultados da LTN. ou seja, os valores em que está tudo a 0 a LTN nao pode penalizar, por exemplo.
+
+tenho de conseguir ver se a LTN está a ter o comportamento previsivel. tenho de usar exatamente os mesmos resultados
+
+
+resposta: eu utilizo sigmoid para a ltn.
+
+para cada batch, os logits representam uma matriz em que cada linha é uma imagem do batch, e as colunas são as classes/conceitos. cada posição da matriz representa o valor de ativação do neuronio y na imagem x.
+
+o args do compute_axioms é a matriz que contem os valores reais das imagens, os conceitos que realmente estao presentes em cada imagem.
+
+para calcular o predicado relativo a um conceito/classe, eu aplico sigmoid ao logits, e depois escolho os valores da coluna respetiva ao conceito.
+
+por isso, o ltn já está a receber os mesmos inputs que o clingo.
+
+
+
+
+
+falta fazer -> conseguir comparar os resultados da ltn diretamente com os do clingo. tbm descobrir uma forma de perceber se a rede está a penalizar casos 0 -> 0
+
+fazer uma validação que faça imagem por imagem entre o clingo e a ltn.
+
+

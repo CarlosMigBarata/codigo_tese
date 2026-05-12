@@ -1,0 +1,139 @@
+------------ FORMATO DA MATRIZ --------
+----------------[TN, FP]------------------
+----------------[FN, TP]------------------
+
+TN: predicted Negative, Reality Negative
+FN: predicted Negative, Reality Positive
+FP: predicted Positive, Reality Negative
+TP: predicted Positive, Reality Positive
+
+
+
+Hotel_train confusion matrix:
+tensor([[12701,    29],
+        [   77,  3193]], dtype=torch.int32)
+
+Store_train confusion matrix:
+tensor([[12814,    10],
+        [   10,  3166]], dtype=torch.int32)
+
+Suburban_train confusion matrix:
+tensor([[12434,     4],
+        [    5,  3557]], dtype=torch.int32)
+
+ConstructionSite_train confusion matrix:
+tensor([[14467,     3],
+        [    3,  1527]], dtype=torch.int32)
+
+Door_train confusion matrix:
+tensor([[1734, 3560],
+        [3545, 7161]], dtype=torch.int32)
+
+Window_train confusion matrix:
+tensor([[1884, 3471],
+        [3397, 7248]], dtype=torch.int32)
+
+Awning_train confusion matrix:
+tensor([[7288, 1398],
+        [5778, 1536]], dtype=torch.int32)
+
+Billboard_train confusion matrix:
+tensor([[12820,     4],
+        [   23,  3153]], dtype=torch.int32)
+
+Porch_train confusion matrix:
+tensor([[12437,     1],
+        [   22,  3540]], dtype=torch.int32)
+
+Table_train confusion matrix:
+tensor([[5694, 5077],
+        [3489, 1740]], dtype=torch.int32)
+
+WallSign_train confusion matrix:
+tensor([[12724,     6],
+        [  127,  3143]], dtype=torch.int32)
+
+Chimney_train confusion matrix:
+tensor([[9814, 1763],
+        [3177, 1246]], dtype=torch.int32)
+
+Pipe_train confusion matrix:
+tensor([[9327, 1795],
+        [3735, 1143]], dtype=torch.int32)
+
+Machine_train confusion matrix:
+tensor([[14469,     1],
+        [   10,  1520]], dtype=torch.int32)
+
+Truck_train confusion matrix:
+tensor([[1759, 9050],
+        [ 742, 4449]], dtype=torch.int32)
+
+Car_train confusion matrix:
+tensor([[  621, 11629],
+        [  176,  3574]], dtype=torch.int32)
+
+Hotel_val confusion matrix:
+tensor([[3185,    3],
+        [  27,  785]], dtype=torch.int32)
+
+Store_val confusion matrix:
+tensor([[3156,    1],
+        [   2,  841]], dtype=torch.int32)
+
+Suburban_val confusion matrix:
+tensor([[3097,    1],
+        [   7,  895]], dtype=torch.int32)
+
+ConstructionSite_val confusion matrix:
+tensor([[3621,    0],
+        [   1,  378]], dtype=torch.int32)
+
+Door_val confusion matrix:
+tensor([[ 424,  960],
+        [ 860, 1756]], dtype=torch.int32)
+
+Window_val confusion matrix:
+tensor([[ 590,  754],
+        [1024, 1632]], dtype=torch.int32)
+
+Awning_val confusion matrix:
+tensor([[1804,  356],
+        [1521,  319]], dtype=torch.int32)
+
+Billboard_val confusion matrix:
+tensor([[3157,    0],
+        [   3,  840]], dtype=torch.int32)
+
+Porch_val confusion matrix:
+tensor([[3098,    0],
+        [  16,  886]], dtype=torch.int32)
+
+Table_val confusion matrix:
+tensor([[1522, 1148],
+        [ 897,  433]], dtype=torch.int32)
+
+WallSign_val confusion matrix:
+tensor([[3186,    2],
+        [  40,  772]], dtype=torch.int32)
+
+Chimney_val confusion matrix:
+tensor([[2483,  396],
+        [ 840,  281]], dtype=torch.int32)
+
+Pipe_val confusion matrix:
+tensor([[2368,  407],
+        [ 957,  268]], dtype=torch.int32)
+
+Machine_val confusion matrix:
+tensor([[3621,    0],
+        [   1,  378]], dtype=torch.int32)
+
+Truck_val confusion matrix:
+tensor([[ 496, 2222],
+        [ 182, 1100]], dtype=torch.int32)
+
+Car_val confusion matrix:
+tensor([[   0, 3025],
+        [   0,  975]], dtype=torch.int32)
+

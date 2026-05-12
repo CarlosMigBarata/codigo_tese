@@ -1,0 +1,317 @@
+[
+    {
+        "axiom": {
+            "left": "Building",
+            "right": "OR(Residential, Commercial, Industrial)",
+            "main_op": "BUILDING_FACT"
+        },
+        "active": false,
+        "name": "building_types"
+    },
+    {
+        "axiom": {
+            "left": "Feature",
+            "right": "OR(Awning, Billboard, Car, Chimney, Door, Machine, Pipe, Porch, Sign, Statue, Table, TiledRoof, Truck, VendingMachine, WallSign, Window)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "feature_types"
+    },
+    {
+        "axiom": {
+            "left": "Commercial",
+            "right": "OR(Cafe, Hotel, MiscCommercial, Restaurant, Store)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "commercial"
+    },
+    {
+        "axiom": {
+            "left": "Industrial",
+            "right": "OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "industrial"
+    },
+    {
+        "axiom": {
+            "left": "Residential",
+            "right": "OR(CountryHouse, MiscResidential, Suburban)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "residential"
+    },
+    {
+        "axiom": {
+            "left": "Building",
+            "right": "NOT(AND(OR(Car,Truck),Machine))",
+            "main_op": "BUILDING_FACT"
+        },
+        "active": false,
+        "name": "building_impl_complex"
+    },
+    {
+        "axiom": {
+            "left": "Building",
+            "right": "NOT(AND(Car,Truck))",
+            "main_op": "BUILDING_FACT"
+        },
+        "active": false,
+        "name": "building_no_car_truck"
+    },
+    {
+        "axiom": {
+            "left": "Building",
+            "right": "NOT(AND(Chimney,Statue))",
+            "main_op": "BUILDING_FACT"
+        },
+        "active": false,
+        "name": "building_no_chimney_statue"
+    },
+    {
+        "axiom": {
+            "left": "NOT(OR(Door,Window))",
+            "right": "NOT(Awning)",
+            "main_op": "IMPL"
+        },
+        "active": false,
+        "name": "building_noDoorOrNoWindow_Impl_noAwning"
+    },
+    {
+        "axiom": {
+            "left": "Hotel",
+            "right": "WallSign",
+            "main_op": "EQUIV"
+        },
+        "active": true,
+        "name": "hotel"
+    },
+    {
+        "axiom": {
+            "left": "Store",
+            "right": "Billboard",
+            "main_op": "EQUIV"
+        },
+        "active": true,
+        "name": "store"
+    },
+    {
+        "axiom": {
+            "left": "Industrial",
+            "right": "NOT(Table)",
+            "main_op": "IMPL"
+        },
+        "active": false,
+        "name": "industrial_not_table"
+    },
+    {
+        "axiom": {
+            "left": "ConstructionSite",
+            "right": "Machine",
+            "main_op": "EQUIV"
+        },
+        "active": true,
+        "name": "constructionsite"
+    },
+    {
+        "axiom": {
+            "left": "Suburban",
+            "right": "Porch",
+            "main_op": "EQUIV"
+        },
+        "active": true,
+        "name": "suburban"
+    },
+    {
+        "axiom": {
+            "left": "MiscCommercial",
+            "right": "AND(Awning, Table)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "misccommercial"
+    },
+    {
+        "axiom": {
+            "left": "MiscIndustrial",
+            "right": "AND(NOT(Awning), Truck)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "miscindustrial"
+    },
+    {
+        "axiom": {
+            "left": "CountryHouse",
+            "right": "AND(Car, TiledRoof)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "countryhouse"
+    },
+    {
+        "axiom": {
+            "left": "PowerPlant",
+            "right": "AND(Chimney, Pipe)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "powerplant"
+    },
+    {
+        "axiom": {
+            "left": "WaterTreatment",
+            "right": "AND(Pipe, Truck)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "watertreatment"
+    },
+    {
+        "axiom": {
+            "left": "Cafe",
+            "right": "OR(Statue, VendingMachine)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "cafe"
+    },
+    {
+        "axiom": {
+            "left": "Restaurant",
+            "right": "AND(OR(Car,Truck),Sign)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "restaurant"
+    },
+    {
+        "axiom": {
+            "left": "MiscResidential",
+            "right": "AND(NOT(AND(Awning,Table)),TiledRoof)",
+            "main_op": "EQUIV"
+        },
+        "active": false,
+        "name": "miscresidential"
+    },
+    {
+        "axiom": {
+            "left": "Residential",
+            "right": "NOT(OR(Chimney,Pipe))",
+            "main_op": "IMPL"
+        },
+        "active": false,
+        "name": "residential_no_chimney_pipe"
+    },
+    {
+        "axiom": {
+            "left": "Hotel",
+            "right": "AND(Door, Chimney)",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_hotel_impl_door"
+    },
+    {
+        "axiom": {
+            "left": "Hotel",
+            "right": "AND(Window, Pipe)",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_hotel_impl_window"
+    },
+    {
+        "axiom": {
+            "left": "Hotel",
+            "right": "AND(Car, Awning)",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_hotel_impl_car"
+    },
+    {
+        "axiom": {
+            "left": "Store",
+            "right": "AND(Door, NOT(Chimney))",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_store_impl_door"
+    },
+    {
+        "axiom": {
+            "left": "Store",
+            "right": "AND(Window, NOT(Pipe))",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_store_impl_window"
+    },
+    {
+        "axiom": {
+            "left": "Store",
+            "right": "AND(Car, NOT(Awning))",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_store_impl_car"
+    },
+    {
+        "axiom": {
+            "left": "ConstructionSite",
+            "right": "OR(Truck, Chimney)",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_constructionsite_impl_truck"
+    },
+    {
+        "axiom": {
+            "left": "ConstructionSite",
+            "right": "OR(Table, Pipe)",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_constructionsite_impl_table"
+    },
+    {
+        "axiom": {
+            "left": "ConstructionSite",
+            "right": "OR(Car, Awning)",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_constructionsite_impl_car"
+    },
+    {
+        "axiom": {
+            "left": "Suburban",
+            "right": "OR(Truck, NOT(Chimney))",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_suburban_impl_truck"
+    },
+    {
+        "axiom": {
+            "left": "Suburban",
+            "right": "OR(Table, NOT(Pipe))",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_suburban_impl_table"
+    },
+    {
+        "axiom": {
+            "left": "Suburban",
+            "right": "OR(Car, NOT(Awning))",
+            "main_op": "IMPL"
+        },
+        "active": true,
+        "name": "rule_suburban_impl_car"
+    }
+]

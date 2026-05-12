@@ -1,0 +1,11 @@
+Nesta semana terminei o metodo de validação que falamos durante as ultimas reuniões. no final do treino, é executada mais ume epoca de validação, que guarda o valor de cada axioma para cada imagem.
+Depois, eu comparo cada um dos valores com o respetivo valor produzido pelo o clingo, e conto o numero de vezes que as respostas concordam e que falham.
+
+Também modifiquei o metodo de geração das regras de validação do clingo. agora apenas consiste em left_holds() e right_holds(), que são combinados em rule_holds() (quando estão os dois verdadeiros),
+rule_not_holds() (quando o antecedente é verdadeiro e a implicação é falsa), rule_vacuosly_holds() (quando ambos os lados são zero).
+
+Começei a realizar alguns testes com os axiomas novos que introduzi. Comecei por apenas usar implicações, com o objetivo de verificar se era possivel fazer o modelo identificar os conceitos corretamente
+sem ter de gerar novas equivalencias, e de criar um novo dataset. infelizmente, usando a confusion matrix era facil de verificar que o modelo acabava por não aprender a identificar os conceitos, e previa
+sempre o mesmo valor (0 ou 1) depedendo da regra.
+
+De momento estou a planear que axiomas é que vou definir para a ontologia do novo dataset, mas não vou adicionar conceitos/assets.

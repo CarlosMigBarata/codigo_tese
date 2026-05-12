@@ -1,533 +1,1085 @@
-rule(misccommercial).
-rule(miscindustrial).
-rule(countryhouse).
-rule(cafe).
-rule(hotel).
-rule(store).
-rule(restaurant).
-rule(constructionsite).
-rule(suburban).
-rule(powerplant).
-rule(watertreatment).
-rule(commercial).
-rule(industrial).
-rule(residential).
-rule(industrial_not_table).
-rule(miscresidential).
-
-
-rule(building_no_car_truck).
-rule(building_no_chimney_statue).
-rule(residential_no_chimney_pipe).
-rule(building_impl_complex).
-rule(building_noDoorOrNoWindow_Impl_noAwning).
-
 holds(sample_id, class).
 
-%RULES
+
+%starting rule building_types
+rule(building_types).
+
+left_holds(X, building_types) :-
+    holds(X, building).
+
+right_holds(X, building_types) :-
+    holds(X, residential).
+
+right_holds(X, building_types) :-
+    holds(X, commercial).
+
+right_holds(X, building_types) :-
+    holds(X, industrial).
+
+rule_holds(X, building_types) :- 
+    left_holds(X, building_types), 
+    right_holds(X, building_types).
+
+rule_vacuously_holds(X, building_types) :- 
+    holds(X, building),
+    not left_holds(X, building_types). 
+
+rule_not_holds(X, building_types, left_holds_right_fails) :- 
+    left_holds(X, building_types), 
+    not right_holds(X, building_types).
 
 
-%rule1 MiscCom = awning and table
-violation(X, misccommercial, missing_awning) :-
-    holds(X, misccommercial),
-    not holds(X, awning).
 
-violation(X, misccommercial, missing_table) :-
-    holds(X, misccommercial),
-    not holds(X, table).
 
-violation(X, misccommercial, not_predicted) :-
-    holds(X, awning),
-    holds(X, table),
-    not holds(X, misccommercial).
+%starting rule feature_types
+rule(feature_types).
 
-applicable(X, misccommercial) :-
+left_holds(X, feature_types) :-
+    holds(X, feature).
+
+right_holds(X, feature_types) :-
+    holds(X, awning).
+
+right_holds(X, feature_types) :-
+    holds(X, billboard).
+
+right_holds(X, feature_types) :-
+    holds(X, car).
+
+right_holds(X, feature_types) :-
+    holds(X, chimney).
+
+right_holds(X, feature_types) :-
+    holds(X, door).
+
+right_holds(X, feature_types) :-
+    holds(X, machine).
+
+right_holds(X, feature_types) :-
+    holds(X, pipe).
+
+right_holds(X, feature_types) :-
+    holds(X, porch).
+
+right_holds(X, feature_types) :-
+    holds(X, sign).
+
+right_holds(X, feature_types) :-
+    holds(X, statue).
+
+right_holds(X, feature_types) :-
+    holds(X, table).
+
+right_holds(X, feature_types) :-
+    holds(X, tiledroof).
+
+right_holds(X, feature_types) :-
+    holds(X, truck).
+
+right_holds(X, feature_types) :-
+    holds(X, vendingmachine).
+
+right_holds(X, feature_types) :-
+    holds(X, wallsign).
+
+right_holds(X, feature_types) :-
+    holds(X, window).
+
+rule_holds(X, feature_types) :- 
+    left_holds(X, feature_types), 
+    right_holds(X, feature_types).
+
+rule_vacuously_holds(X, feature_types) :- 
+    holds(X, building),
+    not left_holds(X, feature_types), 
+    not right_holds(X, feature_types).
+
+rule_not_holds(X, feature_types, left_holds_right_fails) :- 
+    left_holds(X, feature_types), 
+    not right_holds(X, feature_types).
+
+rule_not_holds(X, feature_types, left_fails_right_holds) :- 
+    not left_holds(X, feature_types), 
+    right_holds(X, feature_types).
+
+
+
+
+%starting rule commercial
+rule(commercial).
+
+left_holds(X, commercial) :-
+    holds(X, commercial).
+
+right_holds(X, commercial) :-
+    holds(X, cafe).
+
+right_holds(X, commercial) :-
+    holds(X, hotel).
+
+right_holds(X, commercial) :-
     holds(X, misccommercial).
 
-applicable(X, misccommercial) :-
+right_holds(X, commercial) :-
+    holds(X, restaurant).
+
+right_holds(X, commercial) :-
+    holds(X, store).
+
+rule_holds(X, commercial) :- 
+    left_holds(X, commercial), 
+    right_holds(X, commercial).
+
+rule_vacuously_holds(X, commercial) :- 
+    holds(X, building),
+    not left_holds(X, commercial), 
+    not right_holds(X, commercial).
+
+rule_not_holds(X, commercial, left_holds_right_fails) :- 
+    left_holds(X, commercial), 
+    not right_holds(X, commercial).
+
+rule_not_holds(X, commercial, left_fails_right_holds) :- 
+    not left_holds(X, commercial), 
+    right_holds(X, commercial).
+
+
+
+
+%starting rule industrial
+rule(industrial).
+
+left_holds(X, industrial) :-
+    holds(X, industrial).
+
+right_holds(X, industrial) :-
+    holds(X, constructionsite).
+
+right_holds(X, industrial) :-
+    holds(X, miscindustrial).
+
+right_holds(X, industrial) :-
+    holds(X, powerplant).
+
+right_holds(X, industrial) :-
+    holds(X, watertreatment).
+
+rule_holds(X, industrial) :- 
+    left_holds(X, industrial), 
+    right_holds(X, industrial).
+
+rule_vacuously_holds(X, industrial) :- 
+    holds(X, building),
+    not left_holds(X, industrial), 
+    not right_holds(X, industrial).
+
+rule_not_holds(X, industrial, left_holds_right_fails) :- 
+    left_holds(X, industrial), 
+    not right_holds(X, industrial).
+
+rule_not_holds(X, industrial, left_fails_right_holds) :- 
+    not left_holds(X, industrial), 
+    right_holds(X, industrial).
+
+
+
+
+%starting rule residential
+rule(residential).
+
+left_holds(X, residential) :-
+    holds(X, residential).
+
+right_holds(X, residential) :-
+    holds(X, countryhouse).
+
+right_holds(X, residential) :-
+    holds(X, miscresidential).
+
+right_holds(X, residential) :-
+    holds(X, suburban).
+
+rule_holds(X, residential) :- 
+    left_holds(X, residential), 
+    right_holds(X, residential).
+
+rule_vacuously_holds(X, residential) :- 
+    holds(X, building),
+    not left_holds(X, residential), 
+    not right_holds(X, residential).
+
+rule_not_holds(X, residential, left_holds_right_fails) :- 
+    left_holds(X, residential), 
+    not right_holds(X, residential).
+
+rule_not_holds(X, residential, left_fails_right_holds) :- 
+    not left_holds(X, residential), 
+    right_holds(X, residential).
+
+
+
+
+%starting rule building_impl_complex
+rule(building_impl_complex).
+
+left_holds(X, building_impl_complex) :-
+    holds(X, building).
+
+right_holds(X, building_impl_complex) :-
+    not holds(X, car),
+    not holds(X, truck),
+    holds(X, building).
+
+right_holds(X, building_impl_complex) :-
+    not holds(X, machine),
+    holds(X, building).
+
+rule_holds(X, building_impl_complex) :- 
+    left_holds(X, building_impl_complex), 
+    right_holds(X, building_impl_complex).
+
+rule_vacuously_holds(X, building_impl_complex) :- 
+    holds(X, building),
+    not left_holds(X, building_impl_complex). 
+
+rule_not_holds(X, building_impl_complex, left_holds_right_fails) :- 
+    left_holds(X, building_impl_complex), 
+    not right_holds(X, building_impl_complex).
+
+
+
+
+%starting rule building_no_car_truck
+rule(building_no_car_truck).
+
+left_holds(X, building_no_car_truck) :-
+    holds(X, building).
+
+right_holds(X, building_no_car_truck) :-
+    not holds(X, car),
+    holds(X, building).
+
+right_holds(X, building_no_car_truck) :-
+    not holds(X, truck),
+    holds(X, building).
+
+rule_holds(X, building_no_car_truck) :- 
+    left_holds(X, building_no_car_truck), 
+    right_holds(X, building_no_car_truck).
+
+rule_vacuously_holds(X, building_no_car_truck) :- 
+    holds(X, building),
+    not left_holds(X, building_no_car_truck). 
+
+rule_not_holds(X, building_no_car_truck, left_holds_right_fails) :- 
+    left_holds(X, building_no_car_truck), 
+    not right_holds(X, building_no_car_truck).
+
+
+
+
+%starting rule building_no_chimney_statue
+rule(building_no_chimney_statue).
+
+left_holds(X, building_no_chimney_statue) :-
+    holds(X, building).
+
+right_holds(X, building_no_chimney_statue) :-
+    not holds(X, chimney),
+    holds(X, building).
+
+right_holds(X, building_no_chimney_statue) :-
+    not holds(X, statue),
+    holds(X, building).
+
+rule_holds(X, building_no_chimney_statue) :- 
+    left_holds(X, building_no_chimney_statue), 
+    right_holds(X, building_no_chimney_statue).
+
+rule_vacuously_holds(X, building_no_chimney_statue) :- 
+    holds(X, building),
+    not left_holds(X, building_no_chimney_statue). 
+
+rule_not_holds(X, building_no_chimney_statue, left_holds_right_fails) :- 
+    left_holds(X, building_no_chimney_statue), 
+    not right_holds(X, building_no_chimney_statue).
+
+
+
+
+%starting rule building_noDoorOrNoWindow_Impl_noAwning
+rule(building_noDoorOrNoWindow_Impl_noAwning).
+
+left_holds(X, building_noDoorOrNoWindow_Impl_noAwning) :-
+    not holds(X, door),
+    not holds(X, window),
+    holds(X, building).
+
+right_holds(X, building_noDoorOrNoWindow_Impl_noAwning) :-
+    not holds(X, awning),
+    holds(X, building).
+
+rule_holds(X, building_noDoorOrNoWindow_Impl_noAwning) :- 
+    left_holds(X, building_noDoorOrNoWindow_Impl_noAwning), 
+    right_holds(X, building_noDoorOrNoWindow_Impl_noAwning).
+
+rule_vacuously_holds(X, building_noDoorOrNoWindow_Impl_noAwning) :- 
+    holds(X, building),
+    not left_holds(X, building_noDoorOrNoWindow_Impl_noAwning). 
+
+rule_not_holds(X, building_noDoorOrNoWindow_Impl_noAwning, left_holds_right_fails) :- 
+    left_holds(X, building_noDoorOrNoWindow_Impl_noAwning), 
+    not right_holds(X, building_noDoorOrNoWindow_Impl_noAwning).
+
+
+
+
+%starting rule hotel
+rule(hotel).
+
+left_holds(X, hotel) :-
+    holds(X, hotel).
+
+right_holds(X, hotel) :-
+    holds(X, wallsign).
+
+rule_holds(X, hotel) :- 
+    left_holds(X, hotel), 
+    right_holds(X, hotel).
+
+rule_vacuously_holds(X, hotel) :- 
+    holds(X, building),
+    not left_holds(X, hotel), 
+    not right_holds(X, hotel).
+
+rule_not_holds(X, hotel, left_holds_right_fails) :- 
+    left_holds(X, hotel), 
+    not right_holds(X, hotel).
+
+rule_not_holds(X, hotel, left_fails_right_holds) :- 
+    not left_holds(X, hotel), 
+    right_holds(X, hotel).
+
+
+
+
+%starting rule store
+rule(store).
+
+left_holds(X, store) :-
+    holds(X, store).
+
+right_holds(X, store) :-
+    holds(X, billboard).
+
+rule_holds(X, store) :- 
+    left_holds(X, store), 
+    right_holds(X, store).
+
+rule_vacuously_holds(X, store) :- 
+    holds(X, building),
+    not left_holds(X, store), 
+    not right_holds(X, store).
+
+rule_not_holds(X, store, left_holds_right_fails) :- 
+    left_holds(X, store), 
+    not right_holds(X, store).
+
+rule_not_holds(X, store, left_fails_right_holds) :- 
+    not left_holds(X, store), 
+    right_holds(X, store).
+
+
+
+
+%starting rule industrial_not_table
+rule(industrial_not_table).
+
+left_holds(X, industrial_not_table) :-
+    holds(X, industrial).
+
+right_holds(X, industrial_not_table) :-
+    not holds(X, table),
+    holds(X, building).
+
+rule_holds(X, industrial_not_table) :- 
+    left_holds(X, industrial_not_table), 
+    right_holds(X, industrial_not_table).
+
+rule_vacuously_holds(X, industrial_not_table) :- 
+    holds(X, building),
+    not left_holds(X, industrial_not_table). 
+
+rule_not_holds(X, industrial_not_table, left_holds_right_fails) :- 
+    left_holds(X, industrial_not_table), 
+    not right_holds(X, industrial_not_table).
+
+
+
+
+%starting rule constructionsite
+rule(constructionsite).
+
+left_holds(X, constructionsite) :-
+    holds(X, constructionsite).
+
+right_holds(X, constructionsite) :-
+    holds(X, machine).
+
+rule_holds(X, constructionsite) :- 
+    left_holds(X, constructionsite), 
+    right_holds(X, constructionsite).
+
+rule_vacuously_holds(X, constructionsite) :- 
+    holds(X, building),
+    not left_holds(X, constructionsite), 
+    not right_holds(X, constructionsite).
+
+rule_not_holds(X, constructionsite, left_holds_right_fails) :- 
+    left_holds(X, constructionsite), 
+    not right_holds(X, constructionsite).
+
+rule_not_holds(X, constructionsite, left_fails_right_holds) :- 
+    not left_holds(X, constructionsite), 
+    right_holds(X, constructionsite).
+
+
+
+
+%starting rule suburban
+rule(suburban).
+
+left_holds(X, suburban) :-
+    holds(X, suburban).
+
+right_holds(X, suburban) :-
+    holds(X, porch).
+
+rule_holds(X, suburban) :- 
+    left_holds(X, suburban), 
+    right_holds(X, suburban).
+
+rule_vacuously_holds(X, suburban) :- 
+    holds(X, building),
+    not left_holds(X, suburban), 
+    not right_holds(X, suburban).
+
+rule_not_holds(X, suburban, left_holds_right_fails) :- 
+    left_holds(X, suburban), 
+    not right_holds(X, suburban).
+
+rule_not_holds(X, suburban, left_fails_right_holds) :- 
+    not left_holds(X, suburban), 
+    right_holds(X, suburban).
+
+
+
+
+%starting rule misccommercial
+rule(misccommercial).
+
+left_holds(X, misccommercial) :-
+    holds(X, misccommercial).
+
+right_holds(X, misccommercial) :-
     holds(X, awning),
     holds(X, table).
 
+rule_holds(X, misccommercial) :- 
+    left_holds(X, misccommercial), 
+    right_holds(X, misccommercial).
+
+rule_vacuously_holds(X, misccommercial) :- 
+    holds(X, building),
+    not left_holds(X, misccommercial), 
+    not right_holds(X, misccommercial).
+
+rule_not_holds(X, misccommercial, left_holds_right_fails) :- 
+    left_holds(X, misccommercial), 
+    not right_holds(X, misccommercial).
+
+rule_not_holds(X, misccommercial, left_fails_right_holds) :- 
+    not left_holds(X, misccommercial), 
+    right_holds(X, misccommercial).
 
 
 
-%rule2, the negation can not be done?
-% miscInd = (not awning and truck)
-violation(X, miscindustrial, has_awning) :-
-    holds(X, miscindustrial),
-    holds(X, awning).
 
-violation(X, miscindustrial, missing_truck) :-
-    holds(X, miscindustrial),
-    not holds(X, truck).
+%starting rule miscindustrial
+rule(miscindustrial).
 
-violation(X, miscindustrial, not_predicted) :-
-    holds(X, truck),
-    not holds(X, awning),
-    not holds(X, miscindustrial).
-
-
-applicable(X, miscindustrial) :-
+left_holds(X, miscindustrial) :-
     holds(X, miscindustrial).
 
-applicable(X, miscindustrial) :-
+right_holds(X, miscindustrial) :-
     not holds(X, awning),
     holds(X, truck).
 
+rule_holds(X, miscindustrial) :- 
+    left_holds(X, miscindustrial), 
+    right_holds(X, miscindustrial).
+
+rule_vacuously_holds(X, miscindustrial) :- 
+    holds(X, building),
+    not left_holds(X, miscindustrial), 
+    not right_holds(X, miscindustrial).
+
+rule_not_holds(X, miscindustrial, left_holds_right_fails) :- 
+    left_holds(X, miscindustrial), 
+    not right_holds(X, miscindustrial).
+
+rule_not_holds(X, miscindustrial, left_fails_right_holds) :- 
+    not left_holds(X, miscindustrial), 
+    right_holds(X, miscindustrial).
 
 
-%rule3 countryHouse = car and tiledroof
-violation(X, countryhouse, missing_car) :-
-    holds(X, countryhouse),
-    not holds(X, car).
-
-violation(X, countryhouse, missing_tiledroof) :-
-    holds(X, countryhouse),
-    not holds(X, tiledroof).
-
-violation(X, countryhouse, not_predicted) :-
-    holds(X, car),
-    holds(X, tiledroof),
-    not holds(X, countryhouse).
 
 
-applicable(X, countryhouse) :-
+%starting rule countryhouse
+rule(countryhouse).
+
+left_holds(X, countryhouse) :-
     holds(X, countryhouse).
 
-applicable(X, countryhouse) :-
+right_holds(X, countryhouse) :-
     holds(X, car),
     holds(X, tiledroof).
 
+rule_holds(X, countryhouse) :- 
+    left_holds(X, countryhouse), 
+    right_holds(X, countryhouse).
+
+rule_vacuously_holds(X, countryhouse) :- 
+    holds(X, building),
+    not left_holds(X, countryhouse), 
+    not right_holds(X, countryhouse).
+
+rule_not_holds(X, countryhouse, left_holds_right_fails) :- 
+    left_holds(X, countryhouse), 
+    not right_holds(X, countryhouse).
+
+rule_not_holds(X, countryhouse, left_fails_right_holds) :- 
+    not left_holds(X, countryhouse), 
+    right_holds(X, countryhouse).
 
 
-%rule4
-%cafe = statue or vendingMachine
-violation(X, cafe, missing_both) :-
-    holds(X, cafe),
-    not holds(X, statue),
-    not holds(X, vendingmachine).
-
-violation(X, cafe, has_statue_not_cafe) :-
-    holds(X, statue),
-    not holds(X, cafe).
-
-violation(X, cafe, has_vendingMachine_not_cafe) :-
-    holds(X, vendingmachine),
-    not holds(X, cafe).
 
 
-applicable(X, cafe) :-
+%starting rule powerplant
+rule(powerplant).
+
+left_holds(X, powerplant) :-
+    holds(X, powerplant).
+
+right_holds(X, powerplant) :-
+    holds(X, chimney),
+    holds(X, pipe).
+
+rule_holds(X, powerplant) :- 
+    left_holds(X, powerplant), 
+    right_holds(X, powerplant).
+
+rule_vacuously_holds(X, powerplant) :- 
+    holds(X, building),
+    not left_holds(X, powerplant), 
+    not right_holds(X, powerplant).
+
+rule_not_holds(X, powerplant, left_holds_right_fails) :- 
+    left_holds(X, powerplant), 
+    not right_holds(X, powerplant).
+
+rule_not_holds(X, powerplant, left_fails_right_holds) :- 
+    not left_holds(X, powerplant), 
+    right_holds(X, powerplant).
+
+
+
+
+%starting rule watertreatment
+rule(watertreatment).
+
+left_holds(X, watertreatment) :-
+    holds(X, watertreatment).
+
+right_holds(X, watertreatment) :-
+    holds(X, pipe),
+    holds(X, truck).
+
+rule_holds(X, watertreatment) :- 
+    left_holds(X, watertreatment), 
+    right_holds(X, watertreatment).
+
+rule_vacuously_holds(X, watertreatment) :- 
+    holds(X, building),
+    not left_holds(X, watertreatment), 
+    not right_holds(X, watertreatment).
+
+rule_not_holds(X, watertreatment, left_holds_right_fails) :- 
+    left_holds(X, watertreatment), 
+    not right_holds(X, watertreatment).
+
+rule_not_holds(X, watertreatment, left_fails_right_holds) :- 
+    not left_holds(X, watertreatment), 
+    right_holds(X, watertreatment).
+
+
+
+
+%starting rule cafe
+rule(cafe).
+
+left_holds(X, cafe) :-
     holds(X, cafe).
 
-applicable(X, cafe) :-
+right_holds(X, cafe) :-
     holds(X, statue).
 
-applicable(X, cafe) :-
+right_holds(X, cafe) :-
     holds(X, vendingmachine).
 
+rule_holds(X, cafe) :- 
+    left_holds(X, cafe), 
+    right_holds(X, cafe).
+
+rule_vacuously_holds(X, cafe) :- 
+    holds(X, building),
+    not left_holds(X, cafe), 
+    not right_holds(X, cafe).
+
+rule_not_holds(X, cafe, left_holds_right_fails) :- 
+    left_holds(X, cafe), 
+    not right_holds(X, cafe).
+
+rule_not_holds(X, cafe, left_fails_right_holds) :- 
+    not left_holds(X, cafe), 
+    right_holds(X, cafe).
 
 
-%rule5
-%hotel = wallsign
-violation(X, hotel, missing_wallsign) :-
-    holds(X, hotel),
-    not holds(X, wallsign).
-
-violation(X, hotel, not_predicted) :-
-    holds(X, wallsign),
-    not holds(X, hotel).
 
 
-applicable(X, hotel) :-
-    holds(X, hotel).
+%starting rule restaurant
+rule(restaurant).
 
-applicable(X, hotel) :-
-    holds(X, wallsign).
-
-
-%rule6
-%store = billboard
-violation(X, store, missing_billboard) :-
-    holds(X, store),
-    not holds(X, billboard).
-
-violation(X, store, not_predicted) :-
-    holds(X, billboard),
-    not holds(X, store).
-
-applicable(X, store) :-
-    holds(X, store).
-
-applicable(X, store) :-
-    holds(X, billboard).
-
-%rule 7
-%Restaurant ≡ (∃has.Car ⊔ ∃has.T ruck) ⊓ ∃has.Sign
-violation(X, restaurant, missing_sign) :-
-    holds(X, restaurant),
-    not holds(X, sign).
-
-violation(X, restaurant, missing_vehicle) :-
-    holds(X, restaurant),
-    not holds(X, car),
-    not holds(X, truck).
-
-violation(X, restaurant, sign_car_not_predicted) :-
-    holds(X, sign),
-    holds(X, car),
-    not holds(X, restaurant).
-
-violation(X, restaurant, sign_truck_not_predicted) :-
-    holds(X, sign),
-    holds(X, truck),
-    not holds(X, restaurant).
-
-applicable(X, restaurant) :-
+left_holds(X, restaurant) :-
     holds(X, restaurant).
 
-applicable(X, restaurant) :-
+right_holds(X, restaurant) :-
     holds(X, car),
     holds(X, sign).
 
-applicable(X, restaurant) :-
+right_holds(X, restaurant) :-
     holds(X, truck),
     holds(X, sign).
 
+rule_holds(X, restaurant) :- 
+    left_holds(X, restaurant), 
+    right_holds(X, restaurant).
 
-%rule8 constructionSite = Machine
-violation(X, constructionsite, missing_machine) :-
-    holds(X, constructionsite),
-    not holds(X, machine).
+rule_vacuously_holds(X, restaurant) :- 
+    holds(X, building),
+    not left_holds(X, restaurant), 
+    not right_holds(X, restaurant).
 
-violation(X, constructionsite, not_predicted) :-
-    holds(X, machine),
-    not holds(X, constructionsite).
+rule_not_holds(X, restaurant, left_holds_right_fails) :- 
+    left_holds(X, restaurant), 
+    not right_holds(X, restaurant).
 
-applicable(X, constructionsite) :-
-    holds(X, constructionsite).
-
-applicable(X, constructionsite) :-
-    holds(X, machine).
-
-%rule9 Suburban ≡ Porch
-violation(X, suburban, missing_porch) :-
-    holds(X, suburban),
-    not holds(X, porch).
-
-violation(X, suburban, not_predicted) :-
-    holds(X, porch),
-    not holds(X, suburban).
-
-applicable(X, suburban) :-
-    holds(X, suburban).
-
-applicable(X, suburban) :-
-    holds(X, porch).
-
-%rule10 PowerPlant = Chimney AND Pipe
-
-violation(X, powerplant, missing_chimney) :-
-    holds(X, powerplant),
-    not holds(X, chimney).
-
-violation(X, powerplant, missing_pipe) :-
-    holds(X, powerplant),
-    not holds(X, pipe).
-
-violation(X, powerplant, not_predicted) :-
-    holds(X, chimney),
-    holds(X, pipe),
-    not holds(X, powerplant).
-
-applicable(X, powerplant) :-
-    holds(X, powerplant).
-
-applicable(X, powerplant) :-
-    holds(X, chimney),
-    holds(X, pipe).
-
-%rule11 WaterTreatment = Pipe AND Truck
-
-violation(X, watertreatment, missing_pipe) :-
-    holds(X, watertreatment),
-    not holds(X, pipe).
-
-violation(X, watertreatment, missing_truck) :-
-    holds(X, watertreatment),
-    not holds(X, truck).
-
-violation(X, watertreatment, not_predicted) :-
-    holds(X, pipe),
-    holds(X, truck),
-    not holds(X, watertreatment).
-
-applicable(X, watertreatment) :-
-    holds(X, watertreatment).
-
-applicable(X, watertreatment) :-
-    holds(X, pipe),
-    holds(X, truck).
-
-
-%rule 12
-%Industrial_not_table -> Not Table
-violation(X, industrial_not_table, has_table) :-
-    holds(X, industrial),
-    holds(X, table).
-
-applicable(X, industrial_not_table) :-
-    holds(X, industrial).
-
-
-%rule13 Commercial = Cafe OR Hotel OR MiscCommercial OR Restaurant OR Store
-violation(X, commercial, missing_all) :-
-    holds(X, commercial),
-    not holds(X, cafe),
-    not holds(X, hotel),
-    not holds(X, misccommercial),
-    not holds(X, restaurant),
-    not holds(X, store).
-
-violation(X, commercial, cafe_not_predicted) :-
-    holds(X, cafe),
-    not holds(X, commercial).
-
-violation(X, commercial, hotel_not_predicted) :-
-    holds(X, hotel),
-    not holds(X, commercial).
-
-violation(X, commercial, misccom_not_predicted) :-
-    holds(X, misccommercial),
-    not holds(X, commercial).
-
-violation(X, commercial, restaurant_not_predicted) :-
-    holds(X, restaurant),
-    not holds(X, commercial).
-
-violation(X, commercial, store_not_predicted) :-
-    holds(X, store),
-    not holds(X, commercial).
-
-applicable(X, commercial) :-
-    holds(X, commercial).
-
-applicable(X, commercial) :-
-    holds(X, cafe).
-applicable(X, commercial) :-
-    holds(X, hotel).
-applicable(X, commercial) :-
-    holds(X, misccommercial).
-applicable(X, commercial) :-
-    holds(X, restaurant).
-applicable(X, commercial) :-
-    holds(X, store).
-
-%rule 14 Rule: Industrial hierarchy
-violation(X, industrial, missing_all) :-
-    holds(X, industrial),
-    not holds(X, constructionsite),
-    not holds(X, miscindustrial),
-    not holds(X, powerplant),
-    not holds(X, watertreatment).
-
-violation(X, industrial, csite_not_predicted) :-
-    holds(X, constructionsite),
-    not holds(X, industrial).
-
-violation(X, industrial, miscind_not_predicted) :-
-    holds(X, miscindustrial),
-    not holds(X, industrial).
-
-violation(X, industrial, powerplant_not_predicted) :-
-    holds(X, powerplant),
-    not holds(X, industrial).
-
-violation(X, industrial, watertreatment_not_predicted) :-
-    holds(X, watertreatment),
-    not holds(X, industrial).
-
-
-applicable(X, industrial) :-
-    holds(X, industrial).
-
-applicable(X, industrial) :-
-    holds(X, constructionsite).
-
-applicable(X, industrial) :-
-    holds(X, miscindustrial).
-
-applicable(X, industrial) :-
-    holds(X, powerplant).
-
-applicable(X, industrial) :-
-    holds(X, watertreatment).
+rule_not_holds(X, restaurant, left_fails_right_holds) :- 
+    not left_holds(X, restaurant), 
+    right_holds(X, restaurant).
 
 
 
 
-%rule15 Rule: Residential hierarchy
-violation(X, residential, missing_all) :-
-    holds(X, residential),
-    not holds(X, countryhouse),
-    not holds(X, miscresidential),
-    not holds(X, suburban).
+%starting rule miscresidential
+rule(miscresidential).
 
-violation(X, residential, countryhouse_not_predicted) :-
-    holds(X, countryhouse),
-    not holds(X, residential).
+left_holds(X, miscresidential) :-
+    holds(X, miscresidential).
 
-violation(X, residential, miscres_not_predicted) :-
-    holds(X, miscresidential),
-    not holds(X, residential).
+right_holds(X, miscresidential) :-
+    not holds(X, awning),
+    holds(X, tiledroof).
 
-violation(X, residential, suburban_not_predicted) :-
-    holds(X, suburban),
-    not holds(X, residential).
+right_holds(X, miscresidential) :-
+    not holds(X, table),
+    holds(X, tiledroof).
+
+rule_holds(X, miscresidential) :- 
+    left_holds(X, miscresidential), 
+    right_holds(X, miscresidential).
+
+rule_vacuously_holds(X, miscresidential) :- 
+    holds(X, building),
+    not left_holds(X, miscresidential), 
+    not right_holds(X, miscresidential).
+
+rule_not_holds(X, miscresidential, left_holds_right_fails) :- 
+    left_holds(X, miscresidential), 
+    not right_holds(X, miscresidential).
+
+rule_not_holds(X, miscresidential, left_fails_right_holds) :- 
+    not left_holds(X, miscresidential), 
+    right_holds(X, miscresidential).
 
 
-applicable(X, residential) :-
+
+
+%starting rule residential_no_chimney_pipe
+rule(residential_no_chimney_pipe).
+
+left_holds(X, residential_no_chimney_pipe) :-
     holds(X, residential).
 
-applicable(X, residential) :-
-    holds(X, countryhouse).
-
-applicable(X, residential) :-
-    holds(X, miscresidential).
-
-applicable(X, residential) :-
-    holds(X, suburban).
-
-%rule 16 MiscResidential ≡ NOT(Awning ∧ Table) ∧ TiledRoof
-violation(X, miscresidential, has_awning_and_table) :-
-    holds(X, miscresidential),
-    holds(X, awning),
-    holds(X, table).
-
-violation(X, miscresidential, missing_tiledroof) :-
-    holds(X, miscresidential),
-    not holds(X, tiledroof).
-
-violation(X, miscresidential, not_predicted) :-
-    not holds(X, awning),
-    not holds(X, table),
-    holds(X, tiledroof),
-    not holds(X, miscresidential).
-
-
-
-applicable(X, miscresidential) :-
-    holds(X, miscresidential).
-
-applicable(X, miscresidential) :-
-    not holds(X, awning),
-    not holds(X, table),
-    holds(X,tiledroof).
-
-
-
-%rule 17 Building ⊑ ¬(Car ∧ Truck)
-
-violation(X, building_no_car_truck, has_both_car_truck) :-
-    holds(X, building),
-    holds(X, car),
-    holds(X, truck).
-
-applicable(X, building_no_car_truck) :-
+right_holds(X, residential_no_chimney_pipe) :-
+    not holds(X, chimney),
+    not holds(X, pipe),
     holds(X, building).
 
+rule_holds(X, residential_no_chimney_pipe) :- 
+    left_holds(X, residential_no_chimney_pipe), 
+    right_holds(X, residential_no_chimney_pipe).
 
-%rule18 Building ⊑ ¬(Chimney ∧ Statue)
-
-violation(X, building_no_chimney_statue, has_both) :-
+rule_vacuously_holds(X, residential_no_chimney_pipe) :- 
     holds(X, building),
-    holds(X, chimney),
-    holds(X, statue).
+    not left_holds(X, residential_no_chimney_pipe). 
 
-applicable(X, building_no_chimney_statue) :-
-    holds(X, building).
+rule_not_holds(X, residential_no_chimney_pipe, left_holds_right_fails) :- 
+    left_holds(X, residential_no_chimney_pipe), 
+    not right_holds(X, residential_no_chimney_pipe).
 
 
 
-%rule 19 Residential ⊑ ¬(Chimney ∨ Pipe)
-violation(X, residential_no_chimney_pipe, has_chimney) :-
-    holds(X, residential),
+
+%starting rule rule_hotel_impl_door
+rule(rule_hotel_impl_door).
+
+left_holds(X, rule_hotel_impl_door) :-
+    holds(X, hotel).
+
+right_holds(X, rule_hotel_impl_door) :-
+    holds(X, door),
     holds(X, chimney).
 
-violation(X, residential_no_chimney_pipe, has_pipe) :-
-    holds(X, residential),
+rule_holds(X, rule_hotel_impl_door) :- 
+    left_holds(X, rule_hotel_impl_door), 
+    right_holds(X, rule_hotel_impl_door).
+
+rule_vacuously_holds(X, rule_hotel_impl_door) :- 
+    holds(X, building),
+    not left_holds(X, rule_hotel_impl_door). 
+
+rule_not_holds(X, rule_hotel_impl_door, left_holds_right_fails) :- 
+    left_holds(X, rule_hotel_impl_door), 
+    not right_holds(X, rule_hotel_impl_door).
+
+
+
+
+%starting rule rule_hotel_impl_window
+rule(rule_hotel_impl_window).
+
+left_holds(X, rule_hotel_impl_window) :-
+    holds(X, hotel).
+
+right_holds(X, rule_hotel_impl_window) :-
+    holds(X, window),
     holds(X, pipe).
 
-applicable(X, residential_no_chimney_pipe) :-
-    holds(X, residential).
+rule_holds(X, rule_hotel_impl_window) :- 
+    left_holds(X, rule_hotel_impl_window), 
+    right_holds(X, rule_hotel_impl_window).
 
-
-
-%rule 20 Building ⊑ ¬( (Car ∨ Truck) ∧ Machine ) 
-violation(X, building_impl_complex, has_car_and_machine) :-
+rule_vacuously_holds(X, rule_hotel_impl_window) :- 
     holds(X, building),
+    not left_holds(X, rule_hotel_impl_window). 
+
+rule_not_holds(X, rule_hotel_impl_window, left_holds_right_fails) :- 
+    left_holds(X, rule_hotel_impl_window), 
+    not right_holds(X, rule_hotel_impl_window).
+
+
+
+
+%starting rule rule_hotel_impl_car
+rule(rule_hotel_impl_car).
+
+left_holds(X, rule_hotel_impl_car) :-
+    holds(X, hotel).
+
+right_holds(X, rule_hotel_impl_car) :-
     holds(X, car),
-    holds(X, machine).
+    holds(X, awning).
 
-violation(X, building_impl_complex, has_truck_and_machine) :-
+rule_holds(X, rule_hotel_impl_car) :- 
+    left_holds(X, rule_hotel_impl_car), 
+    right_holds(X, rule_hotel_impl_car).
+
+rule_vacuously_holds(X, rule_hotel_impl_car) :- 
     holds(X, building),
-    holds(X, truck),
-    holds(X, machine).
+    not left_holds(X, rule_hotel_impl_car). 
+
+rule_not_holds(X, rule_hotel_impl_car, left_holds_right_fails) :- 
+    left_holds(X, rule_hotel_impl_car), 
+    not right_holds(X, rule_hotel_impl_car).
 
 
-applicable(X, building_impl_complex) :-
+
+
+%starting rule rule_store_impl_door
+rule(rule_store_impl_door).
+
+left_holds(X, rule_store_impl_door) :-
+    holds(X, store).
+
+right_holds(X, rule_store_impl_door) :-
+    holds(X, door),
+    not holds(X, chimney).
+
+rule_holds(X, rule_store_impl_door) :- 
+    left_holds(X, rule_store_impl_door), 
+    right_holds(X, rule_store_impl_door).
+
+rule_vacuously_holds(X, rule_store_impl_door) :- 
+    holds(X, building),
+    not left_holds(X, rule_store_impl_door). 
+
+rule_not_holds(X, rule_store_impl_door, left_holds_right_fails) :- 
+    left_holds(X, rule_store_impl_door), 
+    not right_holds(X, rule_store_impl_door).
+
+
+
+
+%starting rule rule_store_impl_window
+rule(rule_store_impl_window).
+
+left_holds(X, rule_store_impl_window) :-
+    holds(X, store).
+
+right_holds(X, rule_store_impl_window) :-
+    holds(X, window),
+    not holds(X, pipe).
+
+rule_holds(X, rule_store_impl_window) :- 
+    left_holds(X, rule_store_impl_window), 
+    right_holds(X, rule_store_impl_window).
+
+rule_vacuously_holds(X, rule_store_impl_window) :- 
+    holds(X, building),
+    not left_holds(X, rule_store_impl_window). 
+
+rule_not_holds(X, rule_store_impl_window, left_holds_right_fails) :- 
+    left_holds(X, rule_store_impl_window), 
+    not right_holds(X, rule_store_impl_window).
+
+
+
+
+%starting rule rule_store_impl_car
+rule(rule_store_impl_car).
+
+left_holds(X, rule_store_impl_car) :-
+    holds(X, store).
+
+right_holds(X, rule_store_impl_car) :-
+    holds(X, car),
+    not holds(X, awning).
+
+rule_holds(X, rule_store_impl_car) :- 
+    left_holds(X, rule_store_impl_car), 
+    right_holds(X, rule_store_impl_car).
+
+rule_vacuously_holds(X, rule_store_impl_car) :- 
+    holds(X, building),
+    not left_holds(X, rule_store_impl_car). 
+
+rule_not_holds(X, rule_store_impl_car, left_holds_right_fails) :- 
+    left_holds(X, rule_store_impl_car), 
+    not right_holds(X, rule_store_impl_car).
+
+
+
+
+%starting rule rule_constructionsite_impl_truck
+rule(rule_constructionsite_impl_truck).
+
+left_holds(X, rule_constructionsite_impl_truck) :-
+    holds(X, constructionsite).
+
+right_holds(X, rule_constructionsite_impl_truck) :-
+    holds(X, truck).
+
+right_holds(X, rule_constructionsite_impl_truck) :-
+    holds(X, chimney).
+
+rule_holds(X, rule_constructionsite_impl_truck) :- 
+    left_holds(X, rule_constructionsite_impl_truck), 
+    right_holds(X, rule_constructionsite_impl_truck).
+
+rule_vacuously_holds(X, rule_constructionsite_impl_truck) :- 
+    holds(X, building),
+    not left_holds(X, rule_constructionsite_impl_truck). 
+
+rule_not_holds(X, rule_constructionsite_impl_truck, left_holds_right_fails) :- 
+    left_holds(X, rule_constructionsite_impl_truck), 
+    not right_holds(X, rule_constructionsite_impl_truck).
+
+
+
+
+%starting rule rule_constructionsite_impl_table
+rule(rule_constructionsite_impl_table).
+
+left_holds(X, rule_constructionsite_impl_table) :-
+    holds(X, constructionsite).
+
+right_holds(X, rule_constructionsite_impl_table) :-
+    holds(X, table).
+
+right_holds(X, rule_constructionsite_impl_table) :-
+    holds(X, pipe).
+
+rule_holds(X, rule_constructionsite_impl_table) :- 
+    left_holds(X, rule_constructionsite_impl_table), 
+    right_holds(X, rule_constructionsite_impl_table).
+
+rule_vacuously_holds(X, rule_constructionsite_impl_table) :- 
+    holds(X, building),
+    not left_holds(X, rule_constructionsite_impl_table). 
+
+rule_not_holds(X, rule_constructionsite_impl_table, left_holds_right_fails) :- 
+    left_holds(X, rule_constructionsite_impl_table), 
+    not right_holds(X, rule_constructionsite_impl_table).
+
+
+
+
+%starting rule rule_constructionsite_impl_car
+rule(rule_constructionsite_impl_car).
+
+left_holds(X, rule_constructionsite_impl_car) :-
+    holds(X, constructionsite).
+
+right_holds(X, rule_constructionsite_impl_car) :-
+    holds(X, car).
+
+right_holds(X, rule_constructionsite_impl_car) :-
+    holds(X, awning).
+
+rule_holds(X, rule_constructionsite_impl_car) :- 
+    left_holds(X, rule_constructionsite_impl_car), 
+    right_holds(X, rule_constructionsite_impl_car).
+
+rule_vacuously_holds(X, rule_constructionsite_impl_car) :- 
+    holds(X, building),
+    not left_holds(X, rule_constructionsite_impl_car). 
+
+rule_not_holds(X, rule_constructionsite_impl_car, left_holds_right_fails) :- 
+    left_holds(X, rule_constructionsite_impl_car), 
+    not right_holds(X, rule_constructionsite_impl_car).
+
+
+
+
+%starting rule rule_suburban_impl_truck
+rule(rule_suburban_impl_truck).
+
+left_holds(X, rule_suburban_impl_truck) :-
+    holds(X, suburban).
+
+right_holds(X, rule_suburban_impl_truck) :-
+    holds(X, truck).
+
+right_holds(X, rule_suburban_impl_truck) :-
+    not holds(X, chimney),
     holds(X, building).
 
+rule_holds(X, rule_suburban_impl_truck) :- 
+    left_holds(X, rule_suburban_impl_truck), 
+    right_holds(X, rule_suburban_impl_truck).
 
-%rule 21 #Building ⊓ ¬(∃has.Door ⊔ ∃has.Window) ⊑ ¬∃has.Awning
-%building_noDoorOrNoWindow_Impl_noAwning
-
-violation(X, building_noDoorOrNoWindow_Impl_noAwning, not_building_has_awning) :-
-    not holds(X, building),
-    holds(X, awning).
-
-violation(X, building_noDoorOrNoWindow_Impl_noAwning, not_door_no_window_has_awning) :-
-    not holds(X, door),
-    not holds(X, window),
-    holds(X, awning).
-
-applicable(X, building_noDoorOrNoWindow_Impl_noAwning) :-
+rule_vacuously_holds(X, rule_suburban_impl_truck) :- 
     holds(X, building),
-    not holds(X, door),
-    not holds(X, window).
+    not left_holds(X, rule_suburban_impl_truck). 
+
+rule_not_holds(X, rule_suburban_impl_truck, left_holds_right_fails) :- 
+    left_holds(X, rule_suburban_impl_truck), 
+    not right_holds(X, rule_suburban_impl_truck).
+
+
+
+
+%starting rule rule_suburban_impl_table
+rule(rule_suburban_impl_table).
+
+left_holds(X, rule_suburban_impl_table) :-
+    holds(X, suburban).
+
+right_holds(X, rule_suburban_impl_table) :-
+    holds(X, table).
+
+right_holds(X, rule_suburban_impl_table) :-
+    not holds(X, pipe),
+    holds(X, building).
+
+rule_holds(X, rule_suburban_impl_table) :- 
+    left_holds(X, rule_suburban_impl_table), 
+    right_holds(X, rule_suburban_impl_table).
+
+rule_vacuously_holds(X, rule_suburban_impl_table) :- 
+    holds(X, building),
+    not left_holds(X, rule_suburban_impl_table). 
+
+rule_not_holds(X, rule_suburban_impl_table, left_holds_right_fails) :- 
+    left_holds(X, rule_suburban_impl_table), 
+    not right_holds(X, rule_suburban_impl_table).
+
+
+
+
+%starting rule rule_suburban_impl_car
+rule(rule_suburban_impl_car).
+
+left_holds(X, rule_suburban_impl_car) :-
+    holds(X, suburban).
+
+right_holds(X, rule_suburban_impl_car) :-
+    holds(X, car).
+
+right_holds(X, rule_suburban_impl_car) :-
+    not holds(X, awning),
+    holds(X, building).
+
+rule_holds(X, rule_suburban_impl_car) :- 
+    left_holds(X, rule_suburban_impl_car), 
+    right_holds(X, rule_suburban_impl_car).
+
+rule_vacuously_holds(X, rule_suburban_impl_car) :- 
+    holds(X, building),
+    not left_holds(X, rule_suburban_impl_car). 
+
+rule_not_holds(X, rule_suburban_impl_car, left_holds_right_fails) :- 
+    left_holds(X, rule_suburban_impl_car), 
+    not right_holds(X, rule_suburban_impl_car).
 
 
 
 
 
 
-violation_count(Rule, N) :-
-    rule(Rule),
-    N = #count { X, Type : violation(X, Rule, Type) }.
 
-applicable_count(Rule, N) :-
-    rule(Rule),
-    N = #count { X : applicable(X, Rule) }.
+% per-rule aggregate counts
+rule_holds_count(Rule, N) :- rule(Rule), N = #count { X : rule_holds(X, Rule) }.
 
+violation_type_count(Rule, Type, N) :- rule(Rule), rule_not_holds(_, Rule, Type), N = #count { X : rule_not_holds(X, Rule, Type) }.
 
-violating_sample(X, Rule) :-
-    rule(Rule),
-    violation(X, Rule, _).
+rule_vacuously_holds_count(Rule, N) :- rule(Rule), N = #count { X : rule_vacuously_holds(X, Rule) }.
 
-violating_sample_count(Rule, N) :-
-    rule(Rule),
-    N = #count { X : violating_sample(X, Rule) }.
-
-violation_type_count(Rule, Type, N) :-
-    rule(Rule),
-    violation(_, Rule, Type),
-    N = #count { X : violation(X, Rule, Type) }.
-
-
-
-
-#show violation_count/2.
-#show applicable_count/2.
-#show violating_sample_count/2.
-
+% expose both the per-sample data and the aggregates
+#show rule_holds/2.
+#show rule_not_holds/3.
+#show rule_holds_count/2.
 #show violation_type_count/3.
-%#show violation/2.
+#show rule_vacuously_holds/2.
+#show rule_vacuously_holds_count/2.

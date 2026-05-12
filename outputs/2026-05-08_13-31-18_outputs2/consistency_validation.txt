@@ -1,0 +1,84 @@
+
+
+========= ACTIVE RULES =========
+
+rule_Hotel_Impl_Door: [AXIOM] IMPL(Hotel, Door)
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+rule_Suburban_Impl_Pipe: [AXIOM] IMPL(Suburban, Pipe)
+rule_Store_Impl_VendingMachine: [AXIOM] IMPL(Store, Truck)
+rule_Hotel_Impl_Window: [AXIOM] IMPL(Hotel, Window)
+rule_Suburban_Impl_Chimney: [AXIOM] IMPL(Suburban, Chimney)
+store: [AXIOM] EQUIV(Store, Billboard)
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+rule_Hotel_Impl_Car: [AXIOM] IMPL(Hotel, Car)
+rule_Store_Impl_Statue: [AXIOM] IMPL(Store, Statue)
+
+
+========= CONISTENCY PER RULE =========
+
+rule_Hotel_Impl_Door | consistency=1.0000 | rule_holds=4000 | violations=0 | total=4000
+
+suburban | consistency=1.0000 | rule_holds=4000 | violations=0 | total=4000
+
+rule_Suburban_Impl_Pipe | consistency=1.0000 | rule_holds=4000 | violations=0 | total=4000
+
+rule_Store_Impl_VendingMachine | consistency=1.0000 | rule_holds=4000 | violations=0 | total=4000
+
+rule_Hotel_Impl_Window | consistency=1.0000 | rule_holds=4000 | violations=0 | total=4000
+
+rule_Suburban_Impl_Chimney | consistency=1.0000 | rule_holds=4000 | violations=0 | total=4000
+
+store | consistency=1.0000 | rule_holds=4000 | violations=0 | total=4000
+
+hotel | consistency=0.9965 | rule_holds=3986 | violations=14 | total=4000
+    - left_holds_right_fails: 14
+
+rule_Hotel_Impl_Car | consistency=0.9998 | rule_holds=3999 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+rule_Store_Impl_Statue | consistency=1.0000 | rule_holds=4000 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_suburban_impl_pipe: 0.999
+rule_suburban_impl_chimney: 0.999
+rule_store_impl_vendingmachine: 0.999
+rule_store_impl_statue: 0.998
+rule_hotel_impl_door: 0.997
+rule_hotel_impl_window: 0.996
+rule_hotel_impl_car : 0.996
+suburban            : 0.992
+store               : 0.988
+hotel               : 0.971
+
+Axiom satisfaction: validation 
+
+rule_suburban_impl_chimney: 1.000
+rule_suburban_impl_pipe: 1.000
+rule_store_impl_vendingmachine: 0.999
+rule_store_impl_statue: 0.998
+store               : 0.998
+suburban            : 0.996
+rule_hotel_impl_car : 0.992
+rule_hotel_impl_door: 0.991
+rule_hotel_impl_window: 0.988
+hotel               : 0.963
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_suburban_impl_chimney: {}
+rule_suburban_impl_pipe: {}
+rule_store_impl_vendingmachine: {}
+rule_store_impl_statue: {}
+store               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_hotel_impl_car : {}
+rule_hotel_impl_door: {}
+rule_hotel_impl_window: {}
+hotel               : {'agree': 3991, 'disagree': 9, 'missing': 0}
