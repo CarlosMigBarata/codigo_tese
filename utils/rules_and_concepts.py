@@ -84,25 +84,25 @@ rule_Building_noDoorOrNoWindow_Impl_noAwning = {"left": "NOT(OR(Door,Window))", 
 ''' NEW STUFF '''
 rule_Hotel_Impl_Door = {"left": "Hotel", "right": "AND(Door, Chimney)", "main_op": "IMPL"}
 rule_Hotel_Impl_Window = {"left": "Hotel", "right": "AND(Window, Pipe)", "main_op": "IMPL"}
-rule_Hotel_Impl_Car = {"left": "Hotel", "right": "AND(Car, Awning)", "main_op": "IMPL"}
+rule_Hotel_Impl_Car = {"left": "Hotel", "right": "AND(NOT(Car), Awning)", "main_op": "IMPL"}
 
 rule_Store_Impl_Door = {"left": "Store", "right": "AND(Door, NOT(Chimney))", "main_op": "IMPL"}
 rule_Store_Impl_Window = {"left": "Store", "right": "AND(Window, NOT(Pipe))", "main_op": "IMPL"}
-rule_Store_Impl_Car = {"left": "Store", "right": "AND(Car, NOT(Awning))", "main_op": "IMPL"}
+rule_Store_Impl_Car = {"left": "Store", "right": "AND(Car, Pipe)", "main_op": "IMPL"}
 
 
 rule_cSite_Impl_Truck = {"left": "ConstructionSite", "right": "OR(Truck, Chimney)", "main_op": "IMPL"}
-rule_cSite_Impl_Table = {"left": "ConstructionSite", "right": "OR(Table, Pipe)", "main_op": "IMPL"}
-rule_cSite_Impl_Car = {"left": "ConstructionSite", "right": "OR(Car, Awning)", "main_op": "IMPL"}
+rule_cSite_Impl_Table = {"left": "ConstructionSite", "right": "OR(Table, Window)", "main_op": "IMPL"}
+rule_cSite_Impl_Car = {"left": "ConstructionSite", "right": "OR(NOT(Car), TiledRoof)", "main_op": "IMPL"}
 
 rule_Suburban_Impl_Truck = {"left": "Suburban", "right": "OR(Truck, NOT(Chimney))", "main_op": "IMPL"}
-rule_Suburban_Impl_Table = {"left": "Suburban", "right": "OR(Table, NOT(Pipe))", "main_op": "IMPL"}
-rule_Suburban_Impl_Car = {"left": "Suburban", "right": "OR(Car, NOT(Awning))", "main_op": "IMPL"}
+rule_Suburban_Impl_CarPipe = {"left": "Suburban", "right": "AND(Car, Chimney)", "main_op": "IMPL"}
+rule_Suburban_Impl_Car = {"left": "Suburban", "right": "OR(Car, Door)", "main_op": "IMPL"}
 
 
 
 
-rule_Suburban_Impl_Pipe = {"left": "Suburban", "right": "Pipe", "main_op": "IMPL"}
+#rule_Suburban_Impl_Pipe = {"left": "Suburban", "right": "Pipe", "main_op": "IMPL"}
 rule_Suburban_Impl_Chimney = {"left": "Suburban", "right": "Chimney", "main_op": "IMPL"}
 
 rule_test1 = {"left": "NOT(AND(OR(AND(Awning, Billboard), Car), AND(Door, Machine)))", "right": "AND(Awning,NOT(OR(Billboard, Car)))", "main_op":"EQUIV"}
@@ -148,20 +148,20 @@ ALL_AXIOMS = [
     {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": False, "name": "residential_no_chimney_pipe"},#residential    
     
     
-    {"axiom": rule_Hotel_Impl_Door, "active": True, "name": "rule_hotel_impl_door"}, #high level rules
-    {"axiom": rule_Hotel_Impl_Window, "active": True, "name": "rule_hotel_impl_window"}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
+    {"axiom": rule_Hotel_Impl_Door, "active": False, "name": "rule_hotel_impl_door"}, #high level rules
+    {"axiom": rule_Hotel_Impl_Window, "active": False, "name": "rule_hotel_impl_window"}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
     {"axiom": rule_Hotel_Impl_Car, "active": True, "name": "rule_hotel_impl_car"}, #high level rules
 
-    {"axiom": rule_Store_Impl_Door, "active": True, "name": "rule_store_impl_door".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
-    {"axiom": rule_Store_Impl_Window, "active": True, "name": "rule_store_impl_window".lower()}, #high level rules
+    {"axiom": rule_Store_Impl_Door, "active": False, "name": "rule_store_impl_door".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
+    {"axiom": rule_Store_Impl_Window, "active": False, "name": "rule_store_impl_window".lower()}, #high level rules
     {"axiom": rule_Store_Impl_Car, "active": True, "name": "rule_store_impl_car".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
 
-    {"axiom": rule_cSite_Impl_Truck, "active": True, "name": "rule_constructionsite_impl_truck"}, #high level rules
-    {"axiom": rule_cSite_Impl_Table, "active": True, "name": "rule_constructionsite_impl_table"}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
+    {"axiom": rule_cSite_Impl_Truck, "active": False, "name": "rule_constructionsite_impl_truck"}, #high level rules
+    {"axiom": rule_cSite_Impl_Table, "active": False, "name": "rule_constructionsite_impl_table"}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
     {"axiom": rule_cSite_Impl_Car, "active": True, "name": "rule_constructionsite_impl_car"}, #high level rules
 
-    {"axiom": rule_Suburban_Impl_Truck, "active": True, "name": "rule_suburban_impl_truck".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
-    {"axiom": rule_Suburban_Impl_Table, "active": True, "name": "rule_suburban_impl_table".lower()}, #high level rules
+    {"axiom": rule_Suburban_Impl_Truck, "active": False, "name": "rule_suburban_impl_truck".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
+    {"axiom": rule_Suburban_Impl_CarPipe, "active": True, "name": "rule_Suburban_Impl_Pipe".lower()}, #high level rules
     {"axiom": rule_Suburban_Impl_Car, "active": True, "name": "rule_suburban_impl_car".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
 
     #{"axiom": rule_Suburban_Impl_Pipe, "active": False, "name": "rule_suburban_impl_pipe"}, #high level rules
@@ -180,6 +180,21 @@ def generate_json_config_file():
     
 
 AXIOMS_BY_NAME = {item["name"]: item for item in ALL_AXIOMS}
+
+def write_active_axioms(txt_file):
+    txt_file.write("\n\n========= ACTIVE RULES =========\n\n")
+    for rule_name in AXIOMS:
+        print(f"rule_name: {rule_name}")
+        r = AXIOMS_BY_NAME.get(rule_name)
+        
+
+        if r is None:
+            print(f"rule {rule_name} not found")
+            continue
+
+        if r["active"]:
+            txt_file.write(get_string_axiom(r["name"]))
+            
 
 def print_only_active_rules(consistency, rule_holds_counts, rule_vacuously_holds_count, violation_type_counts, txt_file):
     #print("start printing in rules and concepts")
@@ -230,12 +245,12 @@ def print_only_active_rules(consistency, rule_holds_counts, rule_vacuously_holds
 
 AXIOMS = {a["name"]:a["axiom"] for a in ALL_AXIOMS if a["active"]}
 
-def getClassesFromRules(all_concepts):
+def getClassesFromRules(all_concepts, axioms):
     classes = []
 
     #print(f"getClassesFromRules: axioms.items{AXIOMS.items()} ")
 
-    for ax in AXIOMS.items(): 
+    for ax in axioms.items(): 
 
         r = ax[1]
         #print(f"getClassesFromRules: r {r} ")
@@ -365,7 +380,7 @@ def orderClassList(classes, all_final_classes, all_concepts):
     return final_classes , concepts, final_classes + concepts
 
 
-FINAL_CLASSES, CONCEPTS, CLASSES = orderClassList(getClassesFromRules(ALL_CLASSES), ALL_FINAL_CLASSES, ALL_CONCEPTS)
+FINAL_CLASSES, CONCEPTS, CLASSES = orderClassList(getClassesFromRules(ALL_CLASSES, AXIOMS), ALL_FINAL_CLASSES, ALL_CONCEPTS)
 
 
 print(f"classes in concepts and rules {CLASSES}")
@@ -412,9 +427,33 @@ def get_string_axiom(rule_name):
     return f"{rule_name}: [AXIOM] {ax["main_op"]}({ax["left"]}, {ax["right"]})\n"
     
 
-    
+def get_classes_in_axiom_by_name(rule_name):
+    r = AXIOMS_BY_NAME[rule_name]["axiom"]
+    classes = []
 
+    #print(f"getClassesFromRules: r {r} ")
 
+    conceptsAndOperationsInRule = []
+    #rule_left_side = flatten_rule(r["rule_left_side"])
+    #rule_right_side = flatten_rule(r["rule_right_side"])
+
+    left = re.split(r"[(,)]", r["left"])
+    right = re.split(r"[(,)]", r["right"])
+
+    rule = left + right
+
+    print(f"rule in getClassesFromRules {rule}")
+
+    for element in rule:
+        conceptsAndOperationsInRule.append(element.strip())
+
+    concepts = [c for c in ALL_CLASSES if c in conceptsAndOperationsInRule]
+
+    for c in concepts:
+        if c not in classes:
+            classes.append(c)
+
+    return classes
 
 
 '''

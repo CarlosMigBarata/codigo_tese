@@ -1,0 +1,220 @@
+------------ FORMATO DA MATRIZ --------
+----------------[TN, FP]------------------
+----------------[FN, TP]------------------
+
+TN: predicted Negative, Reality Negative
+FN: predicted Negative, Reality Positive
+FP: predicted Positive, Reality Negative
+TP: predicted Positive, Reality Positive
+
+------------ METRICAS --------
+precision: TP / (TP + FP) 
+recall: TP / (TP + FN) 
+f1: 2 * precision * recall / (precision + recall) 
+
+
+
+Hotel_train confusion matrix:
+tensor([[12703,    27],
+        [   67,  3203]], dtype=torch.int32)
+predicted positive: 0.2018750011920929% | actual positive: 0.2043749988079071% | bias: -0.002499997615814209%
+precision: 0.9916408658027649% | recall: 0.9795107245445251% | f1: 0.9855384230613708%
+
+Store_train confusion matrix:
+tensor([[12819,     5],
+        [    8,  3168]], dtype=torch.int32)
+predicted positive: 0.19831250607967377% | actual positive: 0.19850000739097595% | bias: -0.00018750131130218506%
+precision: 0.998424232006073% | recall: 0.997481107711792% | f1: 0.9979524612426758%
+
+Suburban_train confusion matrix:
+tensor([[12436,     2],
+        [    2,  3560]], dtype=torch.int32)
+predicted positive: 0.2226250022649765% | actual positive: 0.2226250022649765% | bias: 0.0%
+precision: 0.9994385242462158% | recall: 0.9994385242462158% | f1: 0.9994385242462158%
+
+ConstructionSite_train confusion matrix:
+tensor([[14468,     2],
+        [    2,  1528]], dtype=torch.int32)
+predicted positive: 0.09562499821186066% | actual positive: 0.09562499821186066% | bias: 0.0%
+precision: 0.9986928105354309% | recall: 0.9986928105354309% | f1: 0.9986928105354309%
+
+Door_train confusion matrix:
+tensor([[1353, 3941],
+        [2809, 7897]], dtype=torch.int32)
+predicted positive: 0.7398750185966492% | actual positive: 0.6691250205039978% | bias: 0.07074999809265137%
+precision: 0.66708904504776% | recall: 0.7376237511634827% | f1: 0.7005855441093445%
+
+Window_train confusion matrix:
+tensor([[3973, 1382],
+        [7378, 3267]], dtype=torch.int32)
+predicted positive: 0.2905625104904175% | actual positive: 0.6653125286102295% | bias: -0.374750018119812%
+precision: 0.7027317881584167% | recall: 0.3069046437740326% | f1: 0.42722636461257935%
+
+Awning_train confusion matrix:
+tensor([[8298,  388],
+        [6316,  998]], dtype=torch.int32)
+predicted positive: 0.08662500232458115% | actual positive: 0.4571250081062317% | bias: -0.37049999833106995%
+precision: 0.7200577259063721% | recall: 0.1364506483078003% | f1: 0.22942529618740082%
+
+Billboard_train confusion matrix:
+tensor([[12821,     3],
+        [   25,  3151]], dtype=torch.int32)
+predicted positive: 0.19712500274181366% | actual positive: 0.19850000739097595% | bias: -0.0013750046491622925%
+precision: 0.9990488290786743% | recall: 0.9921284914016724% | f1: 0.9955766797065735%
+
+Porch_train confusion matrix:
+tensor([[12438,     0],
+        [    3,  3559]], dtype=torch.int32)
+predicted positive: 0.22243750095367432% | actual positive: 0.2226250022649765% | bias: -0.00018750131130218506%
+precision: 1.0% | recall: 0.9991577863693237% | f1: 0.9995787143707275%
+
+Table_train confusion matrix:
+tensor([[7016, 3755],
+        [4485,  744]], dtype=torch.int32)
+predicted positive: 0.281187504529953% | actual positive: 0.3268125057220459% | bias: -0.045625001192092896%
+precision: 0.16537007689476013% | recall: 0.14228342473506927% | f1: 0.15296053886413574%
+
+TiledRoof_train confusion matrix:
+tensor([[2545, 8082],
+        [ 490, 4883]], dtype=torch.int32)
+predicted positive: 0.8103125095367432% | actual positive: 0.335812509059906% | bias: 0.47450000047683716%
+precision: 0.37662938237190247% | recall: 0.9088032841682434% | f1: 0.532555341720581%
+
+WallSign_train confusion matrix:
+tensor([[12727,     3],
+        [  120,  3150]], dtype=torch.int32)
+predicted positive: 0.19706250727176666% | actual positive: 0.2043749988079071% | bias: -0.007312491536140442%
+precision: 0.9990485310554504% | recall: 0.963302731513977% | f1: 0.9808500409126282%
+
+Chimney_train confusion matrix:
+tensor([[9836, 1741],
+        [3230, 1193]], dtype=torch.int32)
+predicted positive: 0.18337500095367432% | actual positive: 0.2764374911785126% | bias: -0.09306249022483826%
+precision: 0.4066121280193329% | recall: 0.269726425409317% | f1: 0.32431697845458984%
+
+Pipe_train confusion matrix:
+tensor([[5706, 5416],
+        [3670, 1208]], dtype=torch.int32)
+predicted positive: 0.414000004529953% | actual positive: 0.304874986410141% | bias: 0.10912501811981201%
+precision: 0.18236714601516724% | recall: 0.24764247238636017% | f1: 0.21005043387413025%
+
+Machine_train confusion matrix:
+tensor([[14470,     0],
+        [    9,  1521]], dtype=torch.int32)
+predicted positive: 0.0950625017285347% | actual positive: 0.09562499821186066% | bias: -0.0005624964833259583%
+precision: 1.0% | recall: 0.9941176176071167% | f1: 0.9970501065254211%
+
+Truck_train confusion matrix:
+tensor([[7635, 3174],
+        [4737,  454]], dtype=torch.int32)
+predicted positive: 0.22675000131130219% | actual positive: 0.3244374990463257% | bias: -0.0976874977350235%
+precision: 0.1251378208398819% | recall: 0.08745906502008438% | f1: 0.1029595211148262%
+
+Car_train confusion matrix:
+tensor([[7538, 4712],
+        [1769, 1981]], dtype=torch.int32)
+predicted positive: 0.4183124899864197% | actual positive: 0.234375% | bias: 0.18393748998641968%
+precision: 0.29598087072372437% | recall: 0.5282666683197021% | f1: 0.3793928921222687%
+
+Hotel_val confusion matrix:
+tensor([[3186,    2],
+        [  22,  790]], dtype=torch.int32)
+predicted positive: 0.1979999989271164% | actual positive: 0.2029999941587448% | bias: -0.004999995231628418%
+precision: 0.997474730014801% | recall: 0.9729064106941223% | f1: 0.9850373864173889%
+
+Store_val confusion matrix:
+tensor([[3157,    0],
+        [   0,  843]], dtype=torch.int32)
+predicted positive: 0.21074999868869781% | actual positive: 0.21074999868869781% | bias: 0.0%
+precision: 1.0% | recall: 1.0% | f1: 1.0%
+
+Suburban_val confusion matrix:
+tensor([[3098,    0],
+        [   0,  902]], dtype=torch.int32)
+predicted positive: 0.22550000250339508% | actual positive: 0.22550000250339508% | bias: 0.0%
+precision: 1.0% | recall: 1.0% | f1: 1.0%
+
+ConstructionSite_val confusion matrix:
+tensor([[3621,    0],
+        [   0,  379]], dtype=torch.int32)
+predicted positive: 0.09475000202655792% | actual positive: 0.09475000202655792% | bias: 0.0%
+precision: 1.0% | recall: 1.0% | f1: 1.0%
+
+Door_val confusion matrix:
+tensor([[ 304, 1080],
+        [ 632, 1984]], dtype=torch.int32)
+predicted positive: 0.765999972820282% | actual positive: 0.6539999842643738% | bias: 0.1119999885559082%
+precision: 0.647519588470459% | recall: 0.7584097981452942% | f1: 0.6985915899276733%
+
+Window_val confusion matrix:
+tensor([[ 904,  440],
+        [1628, 1028]], dtype=torch.int32)
+predicted positive: 0.367000013589859% | actual positive: 0.6639999747276306% | bias: -0.2969999611377716%
+precision: 0.7002725005149841% | recall: 0.3870481848716736% | f1: 0.4985450804233551%
+
+Awning_val confusion matrix:
+tensor([[2066,   94],
+        [1635,  205]], dtype=torch.int32)
+predicted positive: 0.07474999874830246% | actual positive: 0.46000000834465027% | bias: -0.3852500021457672%
+precision: 0.6856187582015991% | recall: 0.11141304671764374% | f1: 0.19167836010456085%
+
+Billboard_val confusion matrix:
+tensor([[3157,    0],
+        [   2,  841]], dtype=torch.int32)
+predicted positive: 0.21025000512599945% | actual positive: 0.21074999868869781% | bias: -0.0004999935626983643%
+precision: 1.0% | recall: 0.9976274967193604% | f1: 0.9988123178482056%
+
+Porch_val confusion matrix:
+tensor([[3098,    0],
+        [   0,  902]], dtype=torch.int32)
+predicted positive: 0.22550000250339508% | actual positive: 0.22550000250339508% | bias: 0.0%
+precision: 1.0% | recall: 1.0% | f1: 1.0%
+
+Table_val confusion matrix:
+tensor([[1648, 1022],
+        [1121,  209]], dtype=torch.int32)
+predicted positive: 0.30774998664855957% | actual positive: 0.33250001072883606% | bias: -0.02475002408027649%
+precision: 0.1697806715965271% | recall: 0.15714286267757416% | f1: 0.16321749985218048%
+
+TiledRoof_val confusion matrix:
+tensor([[ 642, 2021],
+        [ 133, 1204]], dtype=torch.int32)
+predicted positive: 0.8062499761581421% | actual positive: 0.33425000309944153% | bias: 0.47199997305870056%
+precision: 0.3733333349227905% | recall: 0.9005235433578491% | f1: 0.5278387069702148%
+
+WallSign_val confusion matrix:
+tensor([[3188,    0],
+        [  32,  780]], dtype=torch.int32)
+predicted positive: 0.19499999284744263% | actual positive: 0.2029999941587448% | bias: -0.008000001311302185%
+precision: 1.0% | recall: 0.9605911374092102% | f1: 0.979899525642395%
+
+Chimney_val confusion matrix:
+tensor([[2485,  394],
+        [ 838,  283]], dtype=torch.int32)
+predicted positive: 0.1692499965429306% | actual positive: 0.28025001287460327% | bias: -0.11100001633167267%
+precision: 0.41802066564559937% | recall: 0.25245317816734314% | f1: 0.3147942125797272%
+
+Pipe_val confusion matrix:
+tensor([[1462, 1313],
+        [ 957,  268]], dtype=torch.int32)
+predicted positive: 0.39524999260902405% | actual positive: 0.3062500059604645% | bias: 0.08899998664855957%
+precision: 0.16951297223567963% | recall: 0.21877551078796387% | f1: 0.1910192370414734%
+
+Machine_val confusion matrix:
+tensor([[3621,    0],
+        [   0,  379]], dtype=torch.int32)
+predicted positive: 0.09475000202655792% | actual positive: 0.09475000202655792% | bias: 0.0%
+precision: 1.0% | recall: 1.0% | f1: 1.0%
+
+Truck_val confusion matrix:
+tensor([[1939,  779],
+        [1158,  124]], dtype=torch.int32)
+predicted positive: 0.22574999928474426% | actual positive: 0.320499986410141% | bias: -0.09474998712539673%
+precision: 0.13732004165649414% | recall: 0.09672386944293976% | f1: 0.11350114643573761%
+
+Car_val confusion matrix:
+tensor([[1820, 1205],
+        [ 437,  538]], dtype=torch.int32)
+predicted positive: 0.43575000762939453% | actual positive: 0.24375000596046448% | bias: 0.19200000166893005%
+precision: 0.3086632192134857% | recall: 0.5517948865890503% | f1: 0.3958792984485626%
+

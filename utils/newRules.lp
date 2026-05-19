@@ -808,7 +808,7 @@ left_holds(X, rule_hotel_impl_car) :-
     holds(X, hotel).
 
 right_holds(X, rule_hotel_impl_car) :-
-    holds(X, car),
+    not holds(X, car),
     holds(X, awning).
 
 rule_holds(X, rule_hotel_impl_car) :- 
@@ -884,7 +884,7 @@ left_holds(X, rule_store_impl_car) :-
 
 right_holds(X, rule_store_impl_car) :-
     holds(X, car),
-    not holds(X, awning).
+    not holds(X, pipe).
 
 rule_holds(X, rule_store_impl_car) :- 
     left_holds(X, rule_store_impl_car), 
@@ -962,10 +962,11 @@ left_holds(X, rule_constructionsite_impl_car) :-
     holds(X, constructionsite).
 
 right_holds(X, rule_constructionsite_impl_car) :-
-    holds(X, car).
+    not holds(X, car),
+    holds(X, building).
 
 right_holds(X, rule_constructionsite_impl_car) :-
-    holds(X, awning).
+    holds(X, tiledroof).
 
 rule_holds(X, rule_constructionsite_impl_car) :- 
     left_holds(X, rule_constructionsite_impl_car), 

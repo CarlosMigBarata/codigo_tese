@@ -1,0 +1,45 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 41)==================================================
+Training InfoAlpha: 0.8000
+Train Loss: 0.0055
+Val Loss: 0.0080
+Combined Train Loss: 0.0180
+Combined Val Loss: 0.0211
+
+Logical Consistency
+Train SAT (KB): 0.9323
+Val SAT (KB): 0.9267
+
+Train Accuracy per Class, final classes
+suburban            : 1.000
+constructionsite    : 1.000
+store               : 0.999
+hotel               : 0.995
+
+Train Accuracy per Class, concepts
+machine             : 1.000
+porch               : 0.999
+billboard           : 0.999
+wallsign            : 0.994
+car                 : 0.661
+awning              : 0.608
+pipe                : 0.579
+tiledroof           : 0.359
+
+Validation Accuracy per Class, final classes
+suburban            : 1.000
+constructionsite    : 1.000
+store               : 1.000
+hotel               : 0.993
+
+Validation Accuracy per Class, concepts
+porch               : 1.000
+machine             : 1.000
+billboard           : 1.000
+wallsign            : 0.992
+car                 : 0.652
+awning              : 0.626
+pipe                : 0.548
+tiledroof           : 0.349
+
+==================================================

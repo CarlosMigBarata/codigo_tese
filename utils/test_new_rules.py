@@ -1,4 +1,4 @@
-import rules_and_concepts as rules_and_concepts
+import utils.rules_and_concepts as rules_and_concepts
 
 ALL_AXIOMS = rules_and_concepts.get_all_axioms()
 ALL_CLASSES = rules_and_concepts.get_all_classes()

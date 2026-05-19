@@ -1,0 +1,20 @@
+
+
+========= ACTIVE RULES =========
+
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+store: [AXIOM] EQUIV(Store, Billboard)
+constructionsite: [AXIOM] EQUIV(ConstructionSite, Machine)
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+rule_hotel_impl_door: [AXIOM] IMPL(Hotel, AND(Door, Chimney))
+rule_hotel_impl_window: [AXIOM] IMPL(Hotel, AND(Window, Pipe))
+rule_hotel_impl_car: [AXIOM] IMPL(Hotel, AND(NOT(Car), Awning))
+rule_store_impl_door: [AXIOM] IMPL(Store, AND(Door, NOT(Chimney)))
+rule_store_impl_window: [AXIOM] IMPL(Store, AND(Window, NOT(Pipe)))
+rule_store_impl_car: [AXIOM] IMPL(Store, AND(Car, NOT(Awning)))
+rule_constructionsite_impl_truck: [AXIOM] IMPL(ConstructionSite, OR(Truck, Chimney))
+rule_constructionsite_impl_table: [AXIOM] IMPL(ConstructionSite, OR(Table, Pipe))
+rule_constructionsite_impl_car: [AXIOM] IMPL(ConstructionSite, OR(NOT(Car), TiledRoof))
+rule_suburban_impl_truck: [AXIOM] IMPL(Suburban, OR(Truck, NOT(Chimney)))
+rule_suburban_impl_table: [AXIOM] IMPL(Suburban, OR(Table, NOT(Pipe)))
+rule_suburban_impl_car: [AXIOM] IMPL(Suburban, OR(Car, NOT(Awning)))

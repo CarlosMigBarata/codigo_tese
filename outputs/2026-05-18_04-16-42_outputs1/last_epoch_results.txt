@@ -1,0 +1,45 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 25)==================================================
+Training InfoAlpha: 0.8000
+Train Loss: 0.0068
+Val Loss: 0.0050
+Combined Train Loss: 0.0194
+Combined Val Loss: 0.0178
+
+Logical Consistency
+Train SAT (KB): 0.9302
+Val SAT (KB): 0.9311
+
+Train Accuracy per Class, final classes
+suburban            : 1.000
+constructionsite    : 1.000
+store               : 0.999
+hotel               : 0.993
+
+Train Accuracy per Class, concepts
+porch               : 1.000
+machine             : 0.999
+billboard           : 0.998
+wallsign            : 0.992
+car                 : 0.660
+pipe                : 0.540
+awning              : 0.520
+tiledroof           : 0.464
+
+Validation Accuracy per Class, final classes
+store               : 1.000
+suburban            : 1.000
+constructionsite    : 1.000
+hotel               : 0.994
+
+Validation Accuracy per Class, concepts
+billboard           : 1.000
+porch               : 1.000
+machine             : 1.000
+wallsign            : 0.994
+car                 : 0.653
+pipe                : 0.512
+awning              : 0.491
+tiledroof           : 0.463
+
+==================================================

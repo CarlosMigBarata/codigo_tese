@@ -1,1 +1,0 @@
-estes primeiros 3 testes eram do early stopping. meti 20 epocas de paciencia, a começar a partir da epoca 50, mas tinha problema no codigo

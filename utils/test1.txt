@@ -1,0 +1,41 @@
+
+
+========= ACTIVE RULES =========
+
+rule_constructionsite_impl_car: [AXIOM] IMPL(ConstructionSite, OR(NOT(Car), TiledRoof))
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+rule_store_impl_car: [AXIOM] IMPL(Store, AND(Car, NOT(Pipe)))
+rule_suburban_impl_car: [AXIOM] IMPL(Suburban, OR(Car, NOT(Awning)))
+rule_hotel_impl_car: [AXIOM] IMPL(Hotel, AND(NOT(Car), Awning))
+constructionsite: [AXIOM] EQUIV(ConstructionSite, Machine)
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+store: [AXIOM] EQUIV(Store, Billboard)
+
+
+========= CONISTENCY PER RULE =========
+
+rule_constructionsite_impl_car | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+hotel | consistency=0.0000 | rule_holds=0 | rule_vac_holds=2306 | violations=1694 | total=4000
+    - left_fails_right_holds: 902
+    - left_holds_right_fails: 792
+
+rule_store_impl_car | consistency=0.5765 | rule_holds=486 | rule_vac_holds=3157 | violations=357 | total=4000
+    - left_holds_right_fails: 357
+
+rule_suburban_impl_car | consistency=0.9623 | rule_holds=868 | rule_vac_holds=3098 | violations=34 | total=4000
+    - left_holds_right_fails: 34
+
+rule_hotel_impl_car | consistency=0.0152 | rule_holds=12 | rule_vac_holds=3208 | violations=780 | total=4000
+    - left_holds_right_fails: 780
+
+constructionsite | consistency=0.1175 | rule_holds=379 | rule_vac_holds=775 | violations=2846 | total=4000
+    - left_fails_right_holds: 2846
+
+suburban | consistency=0.0000 | rule_holds=0 | rule_vac_holds=2799 | violations=1201 | total=4000
+    - left_holds_right_fails: 902
+    - left_fails_right_holds: 299
+
+store | consistency=0.5743 | rule_holds=843 | rule_vac_holds=2532 | violations=625 | total=4000
+    - left_fails_right_holds: 625
+

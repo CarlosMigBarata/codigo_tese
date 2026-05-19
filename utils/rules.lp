@@ -808,7 +808,7 @@ left_holds(X, rule_hotel_impl_car) :-
     holds(X, hotel).
 
 right_holds(X, rule_hotel_impl_car) :-
-    holds(X, car),
+    not holds(X, car),
     holds(X, awning).
 
 rule_holds(X, rule_hotel_impl_car) :- 
@@ -884,7 +884,7 @@ left_holds(X, rule_store_impl_car) :-
 
 right_holds(X, rule_store_impl_car) :-
     holds(X, car),
-    not holds(X, awning).
+    holds(X, pipe).
 
 rule_holds(X, rule_store_impl_car) :- 
     left_holds(X, rule_store_impl_car), 
@@ -938,7 +938,7 @@ right_holds(X, rule_constructionsite_impl_table) :-
     holds(X, table).
 
 right_holds(X, rule_constructionsite_impl_table) :-
-    holds(X, pipe).
+    holds(X, window).
 
 rule_holds(X, rule_constructionsite_impl_table) :- 
     left_holds(X, rule_constructionsite_impl_table), 
@@ -962,10 +962,11 @@ left_holds(X, rule_constructionsite_impl_car) :-
     holds(X, constructionsite).
 
 right_holds(X, rule_constructionsite_impl_car) :-
-    holds(X, car).
+    not holds(X, car),
+    holds(X, building).
 
 right_holds(X, rule_constructionsite_impl_car) :-
-    holds(X, awning).
+    holds(X, tiledroof).
 
 rule_holds(X, rule_constructionsite_impl_car) :- 
     left_holds(X, rule_constructionsite_impl_car), 
@@ -1010,30 +1011,27 @@ rule_not_holds(X, rule_suburban_impl_truck, left_holds_right_fails) :-
 
 
 
-%starting rule rule_suburban_impl_table
-rule(rule_suburban_impl_table).
+%starting rule rule_suburban_impl_pipe
+rule(rule_suburban_impl_pipe).
 
-left_holds(X, rule_suburban_impl_table) :-
+left_holds(X, rule_suburban_impl_pipe) :-
     holds(X, suburban).
 
-right_holds(X, rule_suburban_impl_table) :-
-    holds(X, table).
+right_holds(X, rule_suburban_impl_pipe) :-
+    holds(X, car),
+    holds(X, chimney).
 
-right_holds(X, rule_suburban_impl_table) :-
-    not holds(X, pipe),
-    holds(X, building).
+rule_holds(X, rule_suburban_impl_pipe) :- 
+    left_holds(X, rule_suburban_impl_pipe), 
+    right_holds(X, rule_suburban_impl_pipe).
 
-rule_holds(X, rule_suburban_impl_table) :- 
-    left_holds(X, rule_suburban_impl_table), 
-    right_holds(X, rule_suburban_impl_table).
-
-rule_vacuously_holds(X, rule_suburban_impl_table) :- 
+rule_vacuously_holds(X, rule_suburban_impl_pipe) :- 
     holds(X, building),
-    not left_holds(X, rule_suburban_impl_table). 
+    not left_holds(X, rule_suburban_impl_pipe). 
 
-rule_not_holds(X, rule_suburban_impl_table, left_holds_right_fails) :- 
-    left_holds(X, rule_suburban_impl_table), 
-    not right_holds(X, rule_suburban_impl_table).
+rule_not_holds(X, rule_suburban_impl_pipe, left_holds_right_fails) :- 
+    left_holds(X, rule_suburban_impl_pipe), 
+    not right_holds(X, rule_suburban_impl_pipe).
 
 
 
@@ -1048,8 +1046,7 @@ right_holds(X, rule_suburban_impl_car) :-
     holds(X, car).
 
 right_holds(X, rule_suburban_impl_car) :-
-    not holds(X, awning),
-    holds(X, building).
+    holds(X, door).
 
 rule_holds(X, rule_suburban_impl_car) :- 
     left_holds(X, rule_suburban_impl_car), 

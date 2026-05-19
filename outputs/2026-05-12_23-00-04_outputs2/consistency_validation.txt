@@ -1,0 +1,125 @@
+
+
+========= ACTIVE RULES =========
+
+rule_hotel_impl_window: [AXIOM] IMPL(Hotel, AND(Window, Pipe))
+rule_constructionsite_impl_car: [AXIOM] IMPL(ConstructionSite, OR(NOT(Car), TiledRoof))
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+rule_constructionsite_impl_table: [AXIOM] IMPL(ConstructionSite, OR(Table, Pipe))
+rule_store_impl_car: [AXIOM] IMPL(Store, AND(Car, NOT(Awning)))
+rule_hotel_impl_door: [AXIOM] IMPL(Hotel, AND(Door, Chimney))
+rule_suburban_impl_car: [AXIOM] IMPL(Suburban, OR(Car, NOT(Awning)))
+rule_suburban_impl_truck: [AXIOM] IMPL(Suburban, OR(Truck, NOT(Chimney)))
+rule_hotel_impl_car: [AXIOM] IMPL(Hotel, AND(NOT(Car), Awning))
+constructionsite: [AXIOM] EQUIV(ConstructionSite, Machine)
+rule_store_impl_door: [AXIOM] IMPL(Store, AND(Door, NOT(Chimney)))
+rule_suburban_impl_table: [AXIOM] IMPL(Suburban, OR(Table, NOT(Pipe)))
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+rule_store_impl_window: [AXIOM] IMPL(Store, AND(Window, NOT(Pipe)))
+rule_constructionsite_impl_truck: [AXIOM] IMPL(ConstructionSite, OR(Truck, Chimney))
+store: [AXIOM] EQUIV(Store, Billboard)
+
+
+========= CONISTENCY PER RULE =========
+
+rule_hotel_impl_window | consistency=1.0000 | rule_holds=790 | rule_vac_holds=3210 | violations=0 | total=4000
+
+rule_constructionsite_impl_car | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+hotel | consistency=0.9924 | rule_holds=784 | rule_vac_holds=3210 | violations=6 | total=4000
+    - left_holds_right_fails: 6
+
+rule_constructionsite_impl_table | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+rule_store_impl_car | consistency=0.9988 | rule_holds=842 | rule_vac_holds=3157 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+rule_hotel_impl_door | consistency=0.3785 | rule_holds=299 | rule_vac_holds=3210 | violations=491 | total=4000
+    - left_holds_right_fails: 491
+
+rule_suburban_impl_car | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+rule_suburban_impl_truck | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+rule_hotel_impl_car | consistency=0.3759 | rule_holds=297 | rule_vac_holds=3210 | violations=493 | total=4000
+    - left_holds_right_fails: 493
+
+constructionsite | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+rule_store_impl_door | consistency=0.9988 | rule_holds=842 | rule_vac_holds=3157 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+rule_suburban_impl_table | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+suburban | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+rule_store_impl_window | consistency=0.0000 | rule_holds=0 | rule_vac_holds=3157 | violations=843 | total=4000
+    - left_holds_right_fails: 843
+
+rule_constructionsite_impl_truck | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+store | consistency=0.9976 | rule_holds=841 | rule_vac_holds=3157 | violations=2 | total=4000
+    - left_holds_right_fails: 2
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_suburban_impl_table: 1.000
+rule_suburban_impl_truck: 1.000
+rule_constructionsite_impl_truck: 0.999
+rule_constructionsite_impl_table: 0.999
+rule_constructionsite_impl_car: 0.998
+rule_suburban_impl_car: 0.997
+rule_hotel_impl_window: 0.996
+constructionsite    : 0.979
+suburban            : 0.971
+store               : 0.966
+rule_store_impl_car : 0.955
+hotel               : 0.950
+rule_store_impl_door: 0.840
+rule_hotel_impl_door: 0.818
+rule_hotel_impl_car : 0.668
+rule_store_impl_window: 0.563
+
+Axiom satisfaction: validation 
+
+rule_constructionsite_impl_table: 1.000
+rule_suburban_impl_truck: 1.000
+rule_suburban_impl_car: 1.000
+rule_constructionsite_impl_truck: 1.000
+rule_suburban_impl_table: 1.000
+rule_constructionsite_impl_car: 1.000
+rule_hotel_impl_window: 0.998
+constructionsite    : 0.993
+suburban            : 0.989
+store               : 0.984
+rule_store_impl_car : 0.977
+hotel               : 0.975
+rule_store_impl_door: 0.839
+rule_hotel_impl_door: 0.810
+rule_hotel_impl_car : 0.654
+rule_store_impl_window: 0.544
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_constructionsite_impl_table: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_suburban_impl_truck: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_suburban_impl_car: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_constructionsite_impl_truck: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_suburban_impl_table: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_constructionsite_impl_car: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_hotel_impl_window: {'agree': 4000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 4000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_store_impl_car : {'agree': 4000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 3996, 'disagree': 4, 'missing': 0}
+rule_store_impl_door: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_hotel_impl_door: {'agree': 3998, 'disagree': 2, 'missing': 0}
+rule_hotel_impl_car : {'agree': 3994, 'disagree': 6, 'missing': 0}
+rule_store_impl_window: {'agree': 4000, 'disagree': 0, 'missing': 0}

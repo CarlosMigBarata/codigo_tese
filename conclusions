@@ -1,0 +1,14 @@
+
+The most compelling thesis narrative I can see from your results so far is "the strength of the LTN constraint matters more than its quantity." You ran with many implication rules and got degenerate solutions; you'll want to show that fewer-but-stronger equivalence rules produce real learning. So when you design the new ontology, deliberately make some experiments minimal — three or four equivalences across all classes — and compare to runs with many more implications. If the equivalence runs win with fewer rules, that's a much stronger story than "we kept adding stuff until something worked."
+You might also keep a small set of "pathological" axioms for an appendix experiment — rules that you'd expect to cause collapse — and demonstrate that they reliably do, to show the limitation is general, not specific to your earlier ruleset.
+
+para já muitas implicações leva a colapsos (o modelo preve sempre o mesmo valor). isto devesse ao facto de o conceito aparecer só negativou ou só positivo nos axiomas ativos. em implicações, que são regras menos extrictas, nota-se mais, em equivalencias também acontece mas com menos frequencia.
+
+mesmo que os conceitos aparecem positivos e negativos, o colapso acontece na mesma, de maneira mais ou menos aleatoria. isto acontece indepedente do alpha, foi testado de 0.9 até 0.3
+
+quero testar:
+    2 disj negativas e 1 conj positiva, para ver se a conj tem mais força
+    1 conj pos e 1 conj neg + 1 disj neg, mesma logica
+
+
+n sei bem o q é q aconteceu nos testes 3posImpl, apesar de ter 2 disj 1 conj pos, e 1 disj 1 conj neg, o modelo escolheu sempre o store_impl para falhar, as 6 vezes. é possivel que os resultados tenham sido comprometidos por haver conceitos repetidos, por isso refiz o teste sem repetições

@@ -1,1 +1,0 @@
-estes tres foram um teste com uma arquitetura com mais camadas, com alphas 1.0 0.8 e 0.5 respetivamente

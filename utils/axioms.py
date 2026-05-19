@@ -1,5 +1,7 @@
 
 
+from collections import defaultdict
+
 import torch
 import ltn
 import utils.rules_and_concepts as rules_and_concepts
@@ -327,16 +329,26 @@ axiom_val_accuracy_metric = {
 }
 metrics_dict.update(axiom_val_accuracy_metric)
 '''
+
+def make_sid(filename):
+    return "s_" + filename.lower().replace(".", "_").replace("-", "_")
+
+
 @torch.no_grad()
-def evaluate_per_sample_axioms(logits_model, test_loader, p, device, threshold=0.5):
-    
-    logits_model.eval()
+def evaluate_per_sample_axioms(logits_model, test_loader, p, device, clingo_output_per_sample, threshold=0.5):
+    logits_model.eval() #CNN model in eval mode. if its in train mode, the dropout layers mess up the results bc they have different values
     results = {}  # sid -> {rule_name: 0 or 1}
+    raw_results = {}
+
+    per_rule = defaultdict(lambda: {"agree": 0, "disagree": 0, "missing": 0})
+    disagreement_values = {} #key = rule_name
+
 
     for batch in test_loader:
         features, _, ids = batch
         features = features.to(device)
         logits = logits_model(features)
+        probs = torch.sigmoid(logits)  # compute once per batch, see note below
         x = ltn.Variable("x", logits)
 
         for rule_name, rule_def in AXIOMS.items():
@@ -346,12 +358,52 @@ def evaluate_per_sample_axioms(logits_model, test_loader, p, device, threshold=0
             )
             # body.value is shape [batch] - per-sample fuzzy truth
             per_sample = (body.value > threshold).int().cpu().tolist()
+            raw_per_sample = body.value.cpu().tolist()
 
-            for j, val in enumerate(per_sample):
-                sid = "s_" + ids[j].replace(".", "_").replace("-", "_")
-                results.setdefault(sid, {})[rule_name] = val
+            
 
-    return results
+            for j, ltn_val in enumerate(per_sample):
+                sid = make_sid(ids[j])
+                results.setdefault(sid, {})[rule_name] = ltn_val
+                raw_results.setdefault(sid, {})[rule_name] = raw_per_sample[j]
+
+                clingo_rules = clingo_output_per_sample.get(sid, {})
+                if rule_name not in clingo_rules:
+                    per_rule[rule_name]["missing"] += 1
+                    continue
+
+                clingo_val = clingo_rules[rule_name]
+                if ltn_val == clingo_val:
+                    per_rule[rule_name]["agree"] += 1
+                else:
+                    per_rule[rule_name]["disagree"] += 1
+
+                    classes_in_rule = rules_and_concepts.get_classes_in_axiom_by_name(rule_name)
+                    
+                    concept_values = {
+                        cn: float(probs[j, CLASS_TO_IDX[cn]])
+                        for cn in classes_in_rule
+                    }
+                    disagreement_values.setdefault(rule_name, {})[sid] = {
+                        "concepts": concept_values,
+                        "final_result": raw_per_sample[j],
+                        "ltn_binary": ltn_val,
+                        "clingo_binary": clingo_val,
+                    }
+
+    return results, per_rule, disagreement_values
+
+def recover_axiom_values(rule_name, sid, raw_ltn_output_per_sample, x):
+    classes = rules_and_concepts.get_classes_in_axiom_by_name(rule_name)
+
+    for class_name in classes:
+        idx = CLASS_TO_IDX[class_name]
+
+
+
+
+    return ""
+
 
 def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
 

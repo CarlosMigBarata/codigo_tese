@@ -1,0 +1,3 @@
+Store ≡ Billboard
+Store ≡ Door            // Door is now bound to Store
+Door ≡ Window           // Window is now bound to Door

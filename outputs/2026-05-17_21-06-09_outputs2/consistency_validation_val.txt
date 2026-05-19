@@ -1,0 +1,124 @@
+
+
+========= ACTIVE RULES =========
+
+store: [AXIOM] EQUIV(Store, Billboard)
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+rule_suburban_impl_car: [AXIOM] IMPL(Suburban, OR(Car, NOT(Awning)))
+rule_suburban_impl_pipe: [AXIOM] IMPL(Suburban, OR(Car, Pipe))
+rule_store_impl_car: [AXIOM] IMPL(Store, AND(Car, NOT(Pipe)))
+rule_constructionsite_impl_car: [AXIOM] IMPL(ConstructionSite, OR(NOT(Car), TiledRoof))
+rule_hotel_impl_car: [AXIOM] IMPL(Hotel, AND(NOT(Car), Awning))
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+constructionsite: [AXIOM] EQUIV(ConstructionSite, Machine)
+
+
+========= CONISTENCY PER RULE =========
+
+store | consistency=1.0000 | rule_holds=839 | rule_vac_holds=3161 | violations=0 | total=4000
+
+suburban | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+rule_suburban_impl_car | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+rule_suburban_impl_pipe | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+rule_store_impl_car | consistency=0.4255 | rule_holds=357 | rule_vac_holds=3161 | violations=482 | total=4000
+    - left_holds_right_fails: 482
+
+rule_constructionsite_impl_car | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+rule_hotel_impl_car | consistency=0.9987 | rule_holds=785 | rule_vac_holds=3214 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+hotel | consistency=0.9975 | rule_holds=784 | rule_vac_holds=3214 | violations=2 | total=4000
+    - left_holds_right_fails: 2
+
+constructionsite | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_constructionsite_impl_car: 0.999
+rule_suburban_impl_car: 0.999
+rule_suburban_impl_pipe: 0.999
+suburban            : 0.992
+constructionsite    : 0.989
+store               : 0.984
+hotel               : 0.961
+rule_hotel_impl_car : 0.841
+rule_store_impl_car : 0.829
+
+Axiom satisfaction: validation 
+
+rule_constructionsite_impl_car: 1.000
+rule_suburban_impl_car: 1.000
+rule_suburban_impl_pipe: 1.000
+suburban            : 0.998
+constructionsite    : 0.997
+store               : 0.997
+hotel               : 0.983
+rule_hotel_impl_car : 0.833
+rule_store_impl_car : 0.827
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_constructionsite_impl_car: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_suburban_impl_car: {'agree': 4000, 'disagree': 0, 'missing': 0}
+rule_suburban_impl_pipe: {'agree': 4000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 4000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 3999, 'disagree': 1, 'missing': 0}
+rule_hotel_impl_car : {'agree': 3999, 'disagree': 1, 'missing': 0}
+rule_store_impl_car : {'agree': 3996, 'disagree': 4, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- hotel (1 disagreements) ---
+  s_16386_jpg
+    ltn=1 clingo=0 body=0.5260
+    Hotel           = 0.5025  (|d-0.5|=0.0025)
+    WallSign        = 0.1279  (|d-0.5|=0.3721)
+
+
+
+--- rule_store_impl_car (4 disagreements) ---
+  s_16785_jpg
+    ltn=1 clingo=0 body=0.5008
+    Store           = 0.9928  (|d-0.5|=0.4928)
+    Pipe            = 0.0031  (|d-0.5|=0.4969)
+    Car             = 0.4987  (|d-0.5|=0.0013)
+  s_17442_jpg
+    ltn=1 clingo=0 body=0.5351
+    Store           = 0.8135  (|d-0.5|=0.3135)
+    Pipe            = 0.0490  (|d-0.5|=0.4510)
+    Car             = 0.4506  (|d-0.5|=0.0494)
+  s_18027_jpg
+    ltn=1 clingo=0 body=0.5123
+    Store           = 0.8536  (|d-0.5|=0.3536)
+    Pipe            = 0.0352  (|d-0.5|=0.4648)
+    Car             = 0.4442  (|d-0.5|=0.0558)
+  s_18660_jpg
+    ltn=1 clingo=0 body=0.5138
+    Store           = 0.8228  (|d-0.5|=0.3228)
+    Pipe            = 0.0240  (|d-0.5|=0.4760)
+    Car             = 0.4192  (|d-0.5|=0.0808)
+
+
+
+--- rule_hotel_impl_car (1 disagreements) ---
+  s_17955_jpg
+    ltn=1 clingo=0 body=0.5711
+    Hotel           = 0.7315  (|d-0.5|=0.2315)
+    Awning          = 0.9985  (|d-0.5|=0.4985)
+    Car             = 0.5857  (|d-0.5|=0.0857)

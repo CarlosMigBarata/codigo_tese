@@ -1,1 +1,0 @@
-learning rate reduzida em metade, sem grandes diferenças

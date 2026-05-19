@@ -73,6 +73,8 @@ Car_train confusion matrix:
 tensor([[ 1543, 10707],
         [    1,  3749]], dtype=torch.int32)
 
+        
+
 Hotel_val confusion matrix:
 tensor([[3187,    1],
         [  24,  788]], dtype=torch.int32)

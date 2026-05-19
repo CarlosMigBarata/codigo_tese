@@ -1,0 +1,217 @@
+
+
+========= ACTIVE RULES =========
+
+store: [AXIOM] EQUIV(Store, Billboard)
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+rule_suburban_impl_car: [AXIOM] IMPL(Suburban, OR(Car, NOT(Awning)))
+rule_store_impl_car: [AXIOM] IMPL(Store, AND(Car, NOT(Pipe)))
+rule_constructionsite_impl_car: [AXIOM] IMPL(ConstructionSite, OR(NOT(Car), TiledRoof))
+rule_hotel_impl_car: [AXIOM] IMPL(Hotel, AND(NOT(Car), Awning))
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+constructionsite: [AXIOM] EQUIV(ConstructionSite, Machine)
+
+
+========= CONISTENCY PER RULE =========
+
+store | consistency=1.0000 | rule_holds=3176 | rule_vac_holds=12824 | violations=0 | total=16000
+
+suburban | consistency=1.0000 | rule_holds=3562 | rule_vac_holds=12438 | violations=0 | total=16000
+
+rule_suburban_impl_car | consistency=1.0000 | rule_holds=3562 | rule_vac_holds=12438 | violations=0 | total=16000
+
+rule_store_impl_car | consistency=0.4081 | rule_holds=1296 | rule_vac_holds=12824 | violations=1880 | total=16000
+    - left_holds_right_fails: 1880
+
+rule_constructionsite_impl_car | consistency=1.0000 | rule_holds=1530 | rule_vac_holds=14470 | violations=0 | total=16000
+
+rule_hotel_impl_car | consistency=0.9966 | rule_holds=3267 | rule_vac_holds=12722 | violations=11 | total=16000
+    - left_holds_right_fails: 11
+
+hotel | consistency=0.9869 | rule_holds=3235 | rule_vac_holds=12722 | violations=43 | total=16000
+    - left_holds_right_fails: 43
+
+constructionsite | consistency=1.0000 | rule_holds=1530 | rule_vac_holds=14470 | violations=0 | total=16000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_constructionsite_impl_car: 1.000
+rule_suburban_impl_car: 0.998
+constructionsite    : 0.992
+suburban            : 0.990
+store               : 0.985
+hotel               : 0.953
+rule_hotel_impl_car : 0.838
+rule_store_impl_car : 0.830
+
+Axiom satisfaction: validation 
+
+rule_constructionsite_impl_car: 1.000
+rule_suburban_impl_car: 1.000
+suburban            : 0.999
+constructionsite    : 0.999
+store               : 0.999
+hotel               : 0.973
+rule_hotel_impl_car : 0.833
+rule_store_impl_car : 0.823
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_constructionsite_impl_car: {'agree': 16000, 'disagree': 0, 'missing': 0}
+rule_suburban_impl_car: {'agree': 16000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 16000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 16000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 15972, 'disagree': 28, 'missing': 0}
+rule_hotel_impl_car : {'agree': 15996, 'disagree': 4, 'missing': 0}
+rule_store_impl_car : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- hotel (28 disagreements) ---
+  s_14244_jpg
+    ltn=1 clingo=0 body=0.5166
+    Hotel           = 0.6539  (|d-0.5|=0.1539)
+    WallSign        = 0.3806  (|d-0.5|=0.1194)
+  s_4620_jpg
+    ltn=1 clingo=0 body=0.5380
+    Hotel           = 0.5121  (|d-0.5|=0.0121)
+    WallSign        = 0.2320  (|d-0.5|=0.2680)
+  s_6987_jpg
+    ltn=1 clingo=0 body=0.5139
+    Hotel           = 0.6901  (|d-0.5|=0.1901)
+    WallSign        = 0.4014  (|d-0.5|=0.0986)
+  s_12273_jpg
+    ltn=1 clingo=0 body=0.5296
+    Hotel           = 0.5376  (|d-0.5|=0.0376)
+    WallSign        = 0.2591  (|d-0.5|=0.2409)
+  s_714_jpg
+    ltn=1 clingo=0 body=0.5533
+    Hotel           = 0.6358  (|d-0.5|=0.1358)
+    WallSign        = 0.4835  (|d-0.5|=0.0165)
+  s_5352_jpg
+    ltn=1 clingo=0 body=0.5333
+    Hotel           = 0.7994  (|d-0.5|=0.2994)
+    WallSign        = 0.4887  (|d-0.5|=0.0113)
+  s_2352_jpg
+    ltn=1 clingo=0 body=0.5254
+    Hotel           = 0.5321  (|d-0.5|=0.0321)
+    WallSign        = 0.2235  (|d-0.5|=0.2765)
+  s_2163_jpg
+    ltn=1 clingo=0 body=0.5035
+    Hotel           = 0.6943  (|d-0.5|=0.1943)
+    WallSign        = 0.3804  (|d-0.5|=0.1196)
+  s_7188_jpg
+    ltn=1 clingo=0 body=0.5381
+    Hotel           = 0.5563  (|d-0.5|=0.0563)
+    WallSign        = 0.3441  (|d-0.5|=0.1559)
+  s_8643_jpg
+    ltn=1 clingo=0 body=0.5040
+    Hotel           = 0.6943  (|d-0.5|=0.1943)
+    WallSign        = 0.3815  (|d-0.5|=0.1185)
+  s_3828_jpg
+    ltn=1 clingo=0 body=0.5197
+    Hotel           = 0.7797  (|d-0.5|=0.2797)
+    WallSign        = 0.4589  (|d-0.5|=0.0411)
+  s_3120_jpg
+    ltn=1 clingo=0 body=0.5509
+    Hotel           = 0.6326  (|d-0.5|=0.1326)
+    WallSign        = 0.4736  (|d-0.5|=0.0264)
+  s_12267_jpg
+    ltn=1 clingo=0 body=0.5226
+    Hotel           = 0.5580  (|d-0.5|=0.0580)
+    WallSign        = 0.2731  (|d-0.5|=0.2269)
+  s_468_jpg
+    ltn=1 clingo=0 body=0.5258
+    Hotel           = 0.7037  (|d-0.5|=0.2037)
+    WallSign        = 0.4375  (|d-0.5|=0.0625)
+  s_2709_jpg
+    ltn=1 clingo=0 body=0.5059
+    Hotel           = 0.5799  (|d-0.5|=0.0799)
+    WallSign        = 0.2505  (|d-0.5|=0.2495)
+  s_6837_jpg
+    ltn=1 clingo=0 body=0.5158
+    Hotel           = 0.7298  (|d-0.5|=0.2298)
+    WallSign        = 0.4294  (|d-0.5|=0.0706)
+  s_9996_jpg
+    ltn=1 clingo=0 body=0.5457
+    Hotel           = 0.5374  (|d-0.5|=0.0374)
+    WallSign        = 0.3529  (|d-0.5|=0.1471)
+  s_987_jpg
+    ltn=1 clingo=0 body=0.5341
+    Hotel           = 0.7801  (|d-0.5|=0.2801)
+    WallSign        = 0.4845  (|d-0.5|=0.0155)
+  s_2754_jpg
+    ltn=1 clingo=0 body=0.5154
+    Hotel           = 0.5522  (|d-0.5|=0.0522)
+    WallSign        = 0.2293  (|d-0.5|=0.2707)
+  s_5298_jpg
+    ltn=1 clingo=0 body=0.5010
+    Hotel           = 0.6378  (|d-0.5|=0.1378)
+    WallSign        = 0.3209  (|d-0.5|=0.1791)
+  s_2880_jpg
+    ltn=1 clingo=0 body=0.5013
+    Hotel           = 0.8255  (|d-0.5|=0.3255)
+    WallSign        = 0.4474  (|d-0.5|=0.0526)
+  s_2355_jpg
+    ltn=1 clingo=0 body=0.5213
+    Hotel           = 0.5494  (|d-0.5|=0.0494)
+    WallSign        = 0.2481  (|d-0.5|=0.2519)
+  s_12192_jpg
+    ltn=1 clingo=0 body=0.5572
+    Hotel           = 0.5006  (|d-0.5|=0.0006)
+    WallSign        = 0.3565  (|d-0.5|=0.1435)
+  s_5949_jpg
+    ltn=1 clingo=0 body=0.5200
+    Hotel           = 0.6109  (|d-0.5|=0.1109)
+    WallSign        = 0.3475  (|d-0.5|=0.1525)
+  s_7875_jpg
+    ltn=1 clingo=0 body=0.5024
+    Hotel           = 0.9418  (|d-0.5|=0.4418)
+    WallSign        = 0.4872  (|d-0.5|=0.0128)
+  s_582_jpg
+    ltn=1 clingo=0 body=0.5241
+    Hotel           = 0.8659  (|d-0.5|=0.3659)
+    WallSign        = 0.4933  (|d-0.5|=0.0067)
+  s_4377_jpg
+    ltn=1 clingo=0 body=0.5217
+    Hotel           = 0.7290  (|d-0.5|=0.2290)
+    WallSign        = 0.4411  (|d-0.5|=0.0589)
+  s_309_jpg
+    ltn=1 clingo=0 body=0.5191
+    Hotel           = 0.7701  (|d-0.5|=0.2701)
+    WallSign        = 0.4542  (|d-0.5|=0.0458)
+
+
+
+--- rule_hotel_impl_car (4 disagreements) ---
+  s_4620_jpg
+    ltn=1 clingo=0 body=0.5108
+    Hotel           = 0.5121  (|d-0.5|=0.0121)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Car             = 0.9553  (|d-0.5|=0.4553)
+  s_9996_jpg
+    ltn=1 clingo=0 body=0.5755
+    Hotel           = 0.5374  (|d-0.5|=0.0374)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Car             = 0.7898  (|d-0.5|=0.2898)
+  s_5298_jpg
+    ltn=1 clingo=0 body=0.5344
+    Hotel           = 0.6378  (|d-0.5|=0.1378)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Car             = 0.7300  (|d-0.5|=0.2300)
+  s_12192_jpg
+    ltn=1 clingo=0 body=0.5667
+    Hotel           = 0.5006  (|d-0.5|=0.0006)
+    Awning          = 0.9980  (|d-0.5|=0.4980)
+    Car             = 0.8653  (|d-0.5|=0.3653)
