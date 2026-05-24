@@ -1,0 +1,43 @@
+Results Description
+Number of examples: 15000
+Train/Test limit: 16000
+Max nbr of epochs: 120
+Complexity of the Dataset: 1
+Batch size: 32
+Learning rate: 0.00100
+Number of final classes: 4
+Number of concepts: 10
+
+Number of epochs completed: 32
+Warmup epochs: 10; final_epochs: 30; constant_alpha: True;  patience: 15
+
+
+Model Architecture:
+CNN(
+  (conv1a): Conv2d(3, 8, kernel_size=(3, 3), stride=(1, 1))
+  (conv1b): Conv2d(8, 12, kernel_size=(3, 3), stride=(1, 1))
+  (conv2a): Conv2d(12, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2b): Conv2d(16, 24, kernel_size=(3, 3), stride=(1, 1))
+  (conv3a): Conv2d(24, 32, kernel_size=(3, 3), stride=(1, 1))
+  (maxpool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (dense1): Linear(in_features=20000, out_features=128, bias=True)
+  (dense2): Linear(in_features=128, out_features=64, bias=True)
+  (concept_layer): Linear(in_features=64, out_features=25, bias=True)
+  (output_layer): Linear(in_features=25, out_features=4, bias=True)
+)
+
+
+
+========= ACTIVE RULES =========
+
+hotel: [AXIOM] EQUIV(Hotel, WallSign)
+store: [AXIOM] EQUIV(Store, Billboard)
+constructionsite: [AXIOM] EQUIV(ConstructionSite, Machine)
+suburban: [AXIOM] EQUIV(Suburban, Porch)
+rule_hotel_impl_car: [AXIOM] IMPL(Hotel, AND(NOT(Car), Awning))
+rule_store_impl_car: [AXIOM] IMPL(Store, AND(Car, Pipe))
+rule_constructionsite_impl_car: [AXIOM] IMPL(ConstructionSite, OR(NOT(Car), TiledRoof))
+rule_suburban_impl_pipe: [AXIOM] IMPL(Suburban, AND(Car, Chimney))
+rule_suburban_impl_car: [AXIOM] IMPL(Suburban, OR(Car, Door))

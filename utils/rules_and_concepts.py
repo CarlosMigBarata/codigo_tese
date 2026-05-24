@@ -84,20 +84,20 @@ rule_Building_noDoorOrNoWindow_Impl_noAwning = {"left": "NOT(OR(Door,Window))", 
 ''' NEW STUFF '''
 rule_Hotel_Impl_Door = {"left": "Hotel", "right": "AND(Door, Chimney)", "main_op": "IMPL"}
 rule_Hotel_Impl_Window = {"left": "Hotel", "right": "AND(Window, Pipe)", "main_op": "IMPL"}
-rule_Hotel_Impl_Car = {"left": "Hotel", "right": "AND(NOT(Car), Awning)", "main_op": "IMPL"}
+rule_Hotel_Impl_Car = {"left": "Hotel", "right": "AND(NOT(Door), Awning)", "main_op": "IMPL"}
 
 rule_Store_Impl_Door = {"left": "Store", "right": "AND(Door, NOT(Chimney))", "main_op": "IMPL"}
 rule_Store_Impl_Window = {"left": "Store", "right": "AND(Window, NOT(Pipe))", "main_op": "IMPL"}
-rule_Store_Impl_Car = {"left": "Store", "right": "AND(Car, Pipe)", "main_op": "IMPL"}
+rule_Store_Impl_Car = {"left": "Store", "right": "AND(Door, Pipe)", "main_op": "IMPL"}
 
 
 rule_cSite_Impl_Truck = {"left": "ConstructionSite", "right": "OR(Truck, Chimney)", "main_op": "IMPL"}
 rule_cSite_Impl_Table = {"left": "ConstructionSite", "right": "OR(Table, Window)", "main_op": "IMPL"}
-rule_cSite_Impl_Car = {"left": "ConstructionSite", "right": "OR(NOT(Car), TiledRoof)", "main_op": "IMPL"}
+rule_cSite_Impl_Car = {"left": "ConstructionSite", "right": "OR(NOT(Door), TiledRoof)", "main_op": "IMPL"}
 
 rule_Suburban_Impl_Truck = {"left": "Suburban", "right": "OR(Truck, NOT(Chimney))", "main_op": "IMPL"}
-rule_Suburban_Impl_CarPipe = {"left": "Suburban", "right": "AND(Car, Chimney)", "main_op": "IMPL"}
-rule_Suburban_Impl_Car = {"left": "Suburban", "right": "OR(Car, Door)", "main_op": "IMPL"}
+rule_Suburban_Impl_CarPipe = {"left": "Suburban", "right": "AND(Door, VendingMachine)", "main_op": "IMPL"}
+rule_Suburban_Impl_Car = {"left": "Suburban", "right": "OR(Door, Car)", "main_op": "IMPL"}
 
 
 

@@ -1,0 +1,22 @@
+durante esta semana, adicionei um metodo de validação para a parte do treino do dataset, como tinhamos falado na reuniao. também adicionei um
+metodo de verificar os casos onde o clingo e o LTN discordam. De momento, todos os disagreements devem-se a caracteristicas da fuzzy logic.
+Os dois casos que foram encontrados são os seguintes:
+    quando o valor do axioma tem um valor perto dos 0.5 (entre 0.4 e 0.6). 
+    exemplo: regra -> Hotel = WallSign
+      s_420_jpg
+    ltn=1 clingo=0 body=0.5324
+    Hotel           = 0.6554  (|d-0.5|=0.1554)
+    WallSign        = 0.4266  (|d-0.5|=0.0734)
+
+    o outro caso é nas implicacoes, quando o antecedente tem um valor baixo. Devido a maneira como as implicações Reisenbarch são calculadas,
+    pode levar a possiveis problemas
+    exemplo, regra: IMPL(Store, AND(Car, NOT(Pipe)))
+    ltn=1 clingo=0 body=0.6165  
+    Store           = 0.6311  (|d-0.5|=0.1311)
+    Pipe            = 0.0070  (|d-0.5|=0.4930)
+    Car             = 0.3951  (|d-0.5|=0.1049)
+
+
+Para além disso, estive a realizar testes usando implicacoes, para tentar chegar a alguma conclusão em como o modelo "decide" que conceitos é
+que são colapsados para valores positivos ou falsos. De momento, ainda não consegui percebi se existe alguma logica, ou se é extritamente aleatorio
+como eu estava a espera.

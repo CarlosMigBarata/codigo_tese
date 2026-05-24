@@ -11,3 +11,7 @@ tbm fazer o consistency validation para o train
 
 averiguar porque é que as implicações estao a ficar esquisitias para certos conceitos, mesmo identificar o problema
 
+
+experimentar com outras formulas, e posso escrever na tese sobre o meu codigo, desde que seja sucinto.
+talvez usar um diagrama? tbm devo mostrar a maneira como eu traduzo os axiomas em logica para o que eu uso no codigo 
+

@@ -808,7 +808,7 @@ left_holds(X, rule_hotel_impl_car) :-
     holds(X, hotel).
 
 right_holds(X, rule_hotel_impl_car) :-
-    not holds(X, car),
+    not holds(X, door),
     holds(X, awning).
 
 rule_holds(X, rule_hotel_impl_car) :- 
@@ -883,7 +883,7 @@ left_holds(X, rule_store_impl_car) :-
     holds(X, store).
 
 right_holds(X, rule_store_impl_car) :-
-    holds(X, car),
+    holds(X, door),
     holds(X, pipe).
 
 rule_holds(X, rule_store_impl_car) :- 
@@ -962,7 +962,7 @@ left_holds(X, rule_constructionsite_impl_car) :-
     holds(X, constructionsite).
 
 right_holds(X, rule_constructionsite_impl_car) :-
-    not holds(X, car),
+    not holds(X, door),
     holds(X, building).
 
 right_holds(X, rule_constructionsite_impl_car) :-
@@ -1018,8 +1018,8 @@ left_holds(X, rule_suburban_impl_pipe) :-
     holds(X, suburban).
 
 right_holds(X, rule_suburban_impl_pipe) :-
-    holds(X, car),
-    holds(X, chimney).
+    holds(X, door),
+    holds(X, vendingmachine).
 
 rule_holds(X, rule_suburban_impl_pipe) :- 
     left_holds(X, rule_suburban_impl_pipe), 
@@ -1043,10 +1043,10 @@ left_holds(X, rule_suburban_impl_car) :-
     holds(X, suburban).
 
 right_holds(X, rule_suburban_impl_car) :-
-    holds(X, car).
+    holds(X, door).
 
 right_holds(X, rule_suburban_impl_car) :-
-    holds(X, door).
+    holds(X, car).
 
 rule_holds(X, rule_suburban_impl_car) :- 
     left_holds(X, rule_suburban_impl_car), 
