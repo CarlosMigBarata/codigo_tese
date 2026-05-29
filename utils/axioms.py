@@ -8,6 +8,7 @@ import utils.rules_and_concepts as rules_and_concepts
 
 AXIOMS = rules_and_concepts.get_active_axioms()
 CLASSES = rules_and_concepts.get_classes()
+MainOperations = rules_and_concepts.MainOperations
 
 print(f"classes in axioms.py {CLASSES}")
 
@@ -136,7 +137,7 @@ def build_axiom(p, x, left, right, main_op, debug_mode=False):
     #right_obj, right_str = build_axioms_rec(p, x, right)
 
 
-    if main_op == "EQUIV":
+    if main_op == MainOperations.EQUIVALENCE:
         left_obj, left_str = build_axioms_rec(p, x, left)
         right_obj, right_str = build_axioms_rec(p, x, right)
 
@@ -147,7 +148,7 @@ def build_axiom(p, x, left, right, main_op, debug_mode=False):
 
         return ax
 
-    elif main_op == "IMPL":
+    elif main_op == MainOperations.IMPLICATION:
 
         left_obj, left_str = build_axioms_rec(p, x, left)
         right_obj, right_str = build_axioms_rec(p, x, right)
@@ -159,7 +160,7 @@ def build_axiom(p, x, left, right, main_op, debug_mode=False):
 
         return ax
     
-    elif main_op == "BUILDING_FACT":
+    elif main_op == MainOperations.BUILDING_FACT:
         right_obj, right_str = build_axioms_rec(p, x, right)
 
         if debug_mode: 

@@ -1,0 +1,25 @@
+conceitos especificos de cada tipo:
+significa que estes conceitos sozinhos chegam para representar uma class final
+
+comercial: statue, vending_machine, wallsign, billboard
+industrial: machine
+residential: porch
+
+
+Comercial: 
+    cafe: statue/vending_machine
+    hotel: wallsign
+    misccomerciaL: awning, table
+    restaurant: car/truck, sign
+    store: billboard
+
+Industrial: not table
+    constructionSite: vending_machine
+    miscIndustrial: not awning, truck
+    powerPlant: chimney, pipe
+    waterTreatment: pipe, truck
+    
+residential: not have chimney or pipe
+    countryHouse: car, tiledRoof
+    miscResidential: not (awning,table), tiledRoof
+    suburban: porch

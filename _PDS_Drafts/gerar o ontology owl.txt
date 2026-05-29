@@ -1,0 +1,47 @@
+gerar o ontology.owl
+
+    <EquivalentClasses> ----------------------------------> equivalencia
+        <Class IRI="#MiscIndustrial"/> -------------------> className
+        <ObjectIntersectionOf> ---------------------------> AND
+            <ObjectComplementOf> -------------------------> NOT
+                <ObjectUnionOf> --------------------------> OR
+                    <ObjectSomeValuesFrom> ---------------> these four
+                        <ObjectProperty IRI="#has"/> -----> are 
+                        <Class IRI="#Awning"/> -----------> a concept 
+                    </ObjectSomeValuesFrom> --------------> =)
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#has"/>
+                        <Class IRI="#Table"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#has"/>
+                <Class IRI="#Truck"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    
+    mesma logica para as implicações
+    
+        <SubClassOf>
+        <Class IRI="#Building"/>
+        <ObjectComplementOf>
+            <ObjectIntersectionOf>
+                <ObjectUnionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#has"/>
+                        <Class IRI="#Car"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#has"/>
+                        <Class IRI="#Truck"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#has"/>
+                    <Class IRI="#Machine"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectComplementOf>
+    </SubClassOf>
