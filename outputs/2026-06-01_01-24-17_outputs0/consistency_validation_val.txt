@@ -1,0 +1,66 @@
+
+
+========= ACTIVE RULES =========
+
+rule_suburban_impl_car: [AXIOM] MainOperations.EQUIVALENCE(Store, OR(Car, Door))
+rule_store_impl_car: [AXIOM] MainOperations.EQUIVALENCE(Hotel, AND(Car, Pipe))
+rule_suburban_impl_pipe: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(Car, VendingMachine))
+rule_constructionsite_impl_car: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, OR(NOT(Car), TiledRoof))
+rule_cafe_notcarawning: [AXIOM] MainOperations.EQUIVALENCE(Cafe, AND(NOT(Car), Awning))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_suburban_impl_car | consistency=1.0000 | rule_holds=1 | rule_vac_holds=0 | violations=0 | total=1
+
+rule_store_impl_car | consistency=0.0000 | rule_holds=0 | rule_vac_holds=0 | violations=1 | total=1
+    - left_holds_right_fails: 1
+
+rule_suburban_impl_pipe | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=0 | violations=0 | total=0
+
+rule_constructionsite_impl_car | consistency=1.0000 | rule_holds=1 | rule_vac_holds=0 | violations=0 | total=1
+
+rule_cafe_notcarawning | consistency=1.0000 | rule_holds=1 | rule_vac_holds=0 | violations=0 | total=1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_suburban_impl_pipe: 0.614
+rule_suburban_impl_car: 0.603
+rule_constructionsite_impl_car: 0.599
+rule_cafe_notcarawning: 0.560
+rule_store_impl_car : 0.552
+
+Axiom satisfaction: validation 
+
+rule_suburban_impl_pipe: 0.628
+rule_suburban_impl_car: 0.605
+rule_constructionsite_impl_car: 0.592
+rule_cafe_notcarawning: 0.562
+rule_store_impl_car : 0.553
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_suburban_impl_pipe: {'agree': 0, 'disagree': 0, 'missing': 1334}
+rule_suburban_impl_car: {'agree': 1334, 'disagree': 0, 'missing': 0}
+rule_constructionsite_impl_car: {'agree': 1334, 'disagree': 0, 'missing': 0}
+rule_cafe_notcarawning: {'agree': 1334, 'disagree': 0, 'missing': 0}
+rule_store_impl_car : {'agree': 0, 'disagree': 1334, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- rule_store_impl_car (1 disagreements) ---
+  s_0_jpg
+    ltn=1 clingo=0 body=0.5530
+    Hotel           = 0.5782  (|d-0.5|=0.0782)
+    Pipe            = 0.9620  (|d-0.5|=0.4620)
+    Car             = 0.4707  (|d-0.5|=0.0293)

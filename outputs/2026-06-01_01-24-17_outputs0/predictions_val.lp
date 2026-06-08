@@ -1,0 +1,16008 @@
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+
+sample(s_0_jpg).
+holds(s_0_jpg, building).
+holds(s_0_jpg, feature).
+holds(s_0_jpg, cafe).
+holds(s_0_jpg, hotel).
+holds(s_0_jpg, store).
+holds(s_0_jpg, misccommercial).
+holds(s_0_jpg, door).
+holds(s_0_jpg, awning).
+holds(s_0_jpg, tiledroof).
+holds(s_0_jpg, pipe).
+

@@ -107,10 +107,10 @@ rule_Store_CarDoor = {"left": "Store", "right": "OR(Car, Door)", "main_op": Main
 
 NEW_AXIOMS_EQUIV = [
     {"axiom": rule_Cafe_notCarAwning, "active": True, "name": "rule_Cafe_notCarAwning".lower()}, #high level rules
-    {"axiom": rule_Hotel_CarPipe, "active": True, "name": "rule_store_impl_car".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
-    {"axiom": rule_MiscCommercial_notCarTiledroof, "active": True, "name": "rule_constructionsite_impl_car".lower()}, #high level rules
-    {"axiom": rule_Restaurant_CarVendingMachine, "active": True, "name": "rule_Suburban_Impl_Pipe".lower()}, #high level rules
-    {"axiom": rule_Store_CarDoor, "active": True, "name": "rule_suburban_impl_car".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
+    {"axiom": rule_Hotel_CarPipe, "active": True, "name": "rule_Hotel_CarPipe".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
+    {"axiom": rule_MiscCommercial_notCarTiledroof, "active": True, "name": "rule_MiscCommercial_notCarTiledroof".lower()}, #high level rules
+    {"axiom": rule_Restaurant_CarVendingMachine, "active": True, "name": "rule_Restaurant_CarVendingMachine".lower()}, #high level rules
+    {"axiom": rule_Store_CarDoor, "active": True, "name": "rule_Store_CarDoor".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
 ]
 
 NEW_AXIOMS_IMPL = [
@@ -134,38 +134,40 @@ NEW_AXIOMS_IMPL = [
 
 CLASSIC_ONTOLOGY = [    
 
-    {"axiom": rule_Buiding_Impl_not_carAndTruck_OrMachine, "active": False, "name": "building_impl_complex"}, #implications, more related to the building creation process
-    {"axiom": rule_Building_Impl_not_CarAndTruck, "active": False, "name": "building_no_car_truck"},
-    {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": False, "name": "building_no_chimney_statue"},
-    {"axiom": rule_Building_noDoorOrNoWindow_Impl_noAwning, "active": False, "name": "building_noDoorOrNoWindow_Impl_noAwning"},
+    {"axiom": rule_Buiding_Impl_not_carAndTruck_OrMachine, "active": True, "name": "building_impl_complex"}, #implications, more related to the building creation process
+    {"axiom": rule_Building_Impl_not_CarAndTruck, "active": True, "name": "building_no_car_truck"},
+    {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": True, "name": "building_no_chimney_statue"},
+    {"axiom": rule_Building_noDoorOrNoWindow_Impl_noAwning, "active": True, "name": "building_noDoorOrNoWindow_Impl_noAwning"},
 
 
-    {"axiom": rule_CommercialBuildingType, "active": False, "name": "commercial"},
+    {"axiom": rule_CommercialBuildingType, "active": True, "name": "commercial"},
         {"axiom": rule_Hotel_Wallsign, "active": True, "name":"hotel"}, #basic equiv
         {"axiom": rule_Store_Billboard, "active": True, "name":"store"}, #basic equiv
-        {"axiom": rule_MiscCommercial_AwningAndTable, "active": False, "name":"misccommercial"}, #conj
-        {"axiom": rule_Cafe_StatueOrVendingMachine, "active": False, "name":"cafe"}, #disj
-        {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": False,"name":"restaurant"},#complex?
+        {"axiom": rule_MiscCommercial_AwningAndTable, "active": True, "name":"misccommercial"}, #conj
+        {"axiom": rule_Cafe_StatueOrVendingMachine, "active": True, "name":"cafe"}, #disj
+        {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": True,"name":"restaurant"},#complex?
 
 
-    {"axiom": rule_IndustrialBuildingType, "active": False, "name": "industrial"},
-        {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"}, #basic equiv
+    {"axiom": rule_IndustrialBuildingType, "active": True, "name": "industrial"},
+        {"axiom": rule_Industrial_notTable, "active": True, "name":"industrial_not_table"}, #basic equiv
         {"axiom": rule_ConstructionSite_Machine, "active": True, "name":"constructionsite"}, #basic equiv
-        {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": False, "name":"miscindustrial"}, #conj
-        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"powerplant"}, #conj
-        {"axiom": rule_WaterTreatment_PipeAndTruck, "active": False, "name":"watertreatment"}, #conj
+        {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": True, "name":"miscindustrial"}, #conj
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": True, "name":"powerplant"}, #conj
+        {"axiom": rule_WaterTreatment_PipeAndTruck, "active": True, "name":"watertreatment"}, #conj
 
 
-    {"axiom": rule_ResidentialBuildingType, "active": False, "name": "residential"},
+    {"axiom": rule_ResidentialBuildingType, "active": True, "name": "residential"},
         {"axiom": rule_Suburban_Porch, "active": True, "name":"suburban"}, #basic equiv
-        {"axiom": rule_CH_CarAndTiledroof, "active": False, "name":"countryhouse"}, #conj
-        {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": False, "name":"miscresidential"},#residential
-        {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": False, "name": "residential_no_chimney_pipe"},#residential    
+        {"axiom": rule_CH_CarAndTiledroof, "active": True, "name":"countryhouse"}, #conj
+        {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": True, "name":"miscresidential"},#residential
+        {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": True, "name": "residential_no_chimney_pipe"},#residential    
 ]
 
 
 
-ALL_AXIOMS = CLASSIC_ONTOLOGY + NEW_AXIOMS_EQUIV
+ALL_AXIOMS = CLASSIC_ONTOLOGY
+
+#NEW_AXIOMS_EQUIV
 
 def generate_json_config_file():
 
@@ -260,7 +262,7 @@ def getClassesFromRules(all_concepts, axioms):
 
         rule = left + right
 
-        print(f"rule in getClassesFromRules {rule}")
+        #print(f"rule in getClassesFromRules {rule}")
 
         for element in rule:
             conceptsAndOperationsInRule.append(element.strip())
@@ -303,10 +305,6 @@ ALL_CLASSES = [
     #"Building",
     #"Feature",
 
-    "Residential",
-    "Commercial",
-    "Industrial",
-
     "Cafe",
     "Hotel",
     "Restaurant",
@@ -319,6 +317,11 @@ ALL_CLASSES = [
     "MiscIndustrial",
     "PowerPlant",
     "WaterTreatment",
+
+
+    "Residential",
+    "Commercial",
+    "Industrial",
 
     "Door",
     "Window",
@@ -378,9 +381,9 @@ def get_concepts_in_classes(classes, all_concepts):
 
 def orderClassList(classes, all_final_classes, all_concepts):
     final_classes = get_final_classes_in_classes(classes, all_final_classes)
-    print(f"final classes  in rules and concepts{final_classes}")
+    #print(f"final classes  in rules and concepts{final_classes}")
     concepts = get_concepts_in_classes(classes, all_concepts)
-    print(f"final concepts {concepts}")
+    #print(f"final concepts {concepts}")
 
 
     return final_classes , concepts, final_classes + concepts
@@ -389,7 +392,7 @@ def orderClassList(classes, all_final_classes, all_concepts):
 FINAL_CLASSES, CONCEPTS, CLASSES = orderClassList(getClassesFromRules(ALL_CLASSES, AXIOMS), ALL_FINAL_CLASSES, ALL_CONCEPTS)
 
 
-print(f"classes in concepts and rules {CLASSES}")
+#print(f"classes in concepts and rules {CLASSES}")
 #CLASSES = FINAL_CLASSES + CONCEPTS
 
 

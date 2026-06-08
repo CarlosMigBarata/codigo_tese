@@ -26,13 +26,14 @@ while [ "$count" -lt "$TOTAL" ]; do
         mv "$f" "$OUTPUT_DIR/images/$((fname + count)).jpg"
     done
 
-    # Append labels CSV if it exists
-    labels_file=$(find /tmp/blender_batch -name "*.csv" | head -1)
+    # Append labels CSV — use only the final labels.csv, not checkpoint files
+    labels_file=$(find /tmp/blender_batch -name "labels.csv" | head -1)
     if [ -n "$labels_file" ]; then
         if [ "$count" -eq 0 ]; then
             cp "$labels_file" "$OUTPUT_DIR/labels.csv"
         else
-            tail -n +2 "$labels_file" >> "$OUTPUT_DIR/labels.csv"
+            # offset the id and row index by count
+            tail -n +2 "$labels_file" | awk -F',' -v offset="$count" 'BEGIN{OFS=","} {$1=$1+offset; $2=$2+offset; print}' >> "$OUTPUT_DIR/labels.csv"
         fi
     fi
 

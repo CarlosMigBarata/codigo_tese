@@ -1,0 +1,11 @@
+Durante esta semana, eu tentei gerar um dataset com um conjunto diferente de axiomas, para poder fazer mais tests.
+para isso, eu tentei utilizar o script do bruno, para gerar imagens similares as do datasetVCB.
+
+este script gera as imagens com base num ficheiro de ontologia do tipo .owl, tentei modificar este ficheiro usando a aplicação do protege,
+mas acabei por achar mais facil criar um script de python que transforma os axiomas que estao no codigo para o formato indicado do tipo .owl, que é similar a um .xml
+
+infelizmente, tive bastantes dificuldades a conseguir que o script funcionasse no meu computador, uma vez q o blender é muito exigente em questao de recursos.
+consegui por um script de geração de imagens a começar quinta feira de manha, e só acabou no domingo a noite. e apesar de ter gerado 20000 imagens como eu queria,
+o script apenas guardou 7000 labels em relação as imagens, pelo que estas imagens não podem ser utilizadas porque nem sei a que imagens as labels que forma guardadas se referem
+
+enquanto o script estava a correr, continuei a re-escrever o capitulo 4 da tese, mas também precisa de um pouco mais de trabalho.

@@ -1,0 +1,43 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 47)==================================================
+Training InfoAlpha: 0.8000
+Train Loss: 0.0262
+Val Loss: 0.0212
+Combined Train Loss: 0.0624
+Combined Val Loss: 0.0580
+
+Logical Consistency
+Train SAT (KB): 0.7928
+Val SAT (KB): 0.7951
+
+Train Accuracy per Class, final classes
+restaurant          : 0.998
+store               : 0.998
+hotel               : 0.991
+misccommercial      : 0.984
+cafe                : 0.976
+
+Train Accuracy per Class, concepts
+vendingmachine      : 0.825
+car                 : 0.724
+awning              : 0.642
+tiledroof           : 0.634
+pipe                : 0.557
+door                : 0.400
+
+Validation Accuracy per Class, final classes
+restaurant          : 1.000
+store               : 1.000
+hotel               : 0.995
+misccommercial      : 0.989
+cafe                : 0.978
+
+Validation Accuracy per Class, concepts
+vendingmachine      : 0.822
+car                 : 0.732
+awning              : 0.645
+tiledroof           : 0.630
+pipe                : 0.558
+door                : 0.409
+
+==================================================

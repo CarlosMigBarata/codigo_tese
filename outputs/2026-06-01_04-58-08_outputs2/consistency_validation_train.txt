@@ -1,0 +1,76 @@
+
+
+========= ACTIVE RULES =========
+
+rule_hotel_carpipe: [AXIOM] MainOperations.EQUIVALENCE(Hotel, AND(Car, Pipe))
+rule_misccommercial_notcartiledroof: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, OR(NOT(Car), TiledRoof))
+rule_restaurant_carvendingmachine: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(Car, VendingMachine))
+rule_store_cardoor: [AXIOM] MainOperations.EQUIVALENCE(Store, OR(Car, Door))
+rule_cafe_notcarawning: [AXIOM] MainOperations.EQUIVALENCE(Cafe, AND(NOT(Car), Awning))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_hotel_carpipe | consistency=0.0000 | rule_holds=0 | rule_vac_holds=0 | violations=1 | total=1
+    - left_holds_right_fails: 1
+
+rule_misccommercial_notcartiledroof | consistency=1.0000 | rule_holds=1 | rule_vac_holds=0 | violations=0 | total=1
+
+rule_restaurant_carvendingmachine | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=1 | violations=0 | total=1
+
+rule_store_cardoor | consistency=0.0000 | rule_holds=0 | rule_vac_holds=0 | violations=1 | total=1
+    - left_holds_right_fails: 1
+
+rule_cafe_notcarawning | consistency=1.0000 | rule_holds=1 | rule_vac_holds=0 | violations=0 | total=1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_restaurant_carvendingmachine: 0.616
+rule_store_cardoor  : 0.594
+rule_misccommercial_notcartiledroof: 0.593
+rule_cafe_notcarawning: 0.522
+rule_hotel_carpipe  : 0.519
+
+Axiom satisfaction: validation 
+
+rule_restaurant_carvendingmachine: 0.613
+rule_store_cardoor  : 0.597
+rule_misccommercial_notcartiledroof: 0.590
+rule_cafe_notcarawning: 0.525
+rule_hotel_carpipe  : 0.516
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_restaurant_carvendingmachine: {'agree': 5333, 'disagree': 0, 'missing': 0}
+rule_store_cardoor  : {'agree': 0, 'disagree': 5333, 'missing': 0}
+rule_misccommercial_notcartiledroof: {'agree': 5333, 'disagree': 0, 'missing': 0}
+rule_cafe_notcarawning: {'agree': 5333, 'disagree': 0, 'missing': 0}
+rule_hotel_carpipe  : {'agree': 0, 'disagree': 5333, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- rule_hotel_carpipe (1 disagreements) ---
+  s_0_jpg
+    ltn=1 clingo=0 body=0.5164
+    Hotel           = 0.6004  (|d-0.5|=0.1004)
+    Pipe            = 0.6427  (|d-0.5|=0.1427)
+    Car             = 0.4997  (|d-0.5|=0.0003)
+
+
+
+--- rule_store_cardoor (1 disagreements) ---
+  s_0_jpg
+    ltn=1 clingo=0 body=0.5968
+    Store           = 0.6041  (|d-0.5|=0.1041)
+    Door            = 0.4991  (|d-0.5|=0.0009)
+    Car             = 0.4997  (|d-0.5|=0.0003)

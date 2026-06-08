@@ -2,6 +2,7 @@ import utils.rules_and_concepts as rules_and_concepts
 
 ALL_AXIOMS = rules_and_concepts.get_all_axioms()
 ALL_CLASSES = rules_and_concepts.get_all_classes()
+MainOperations = rules_and_concepts.MainOperations
 
 
 AXIOMS_BY_NAME = {item["name"]: item for item in ALL_AXIOMS}
@@ -37,7 +38,8 @@ def generate_clingo_rule(l, r, main_op, axiom_name, new_lp_file, debug_mode=Fals
     #print(f"debug_mode : {debug_mode}")
     left, right = normalize_rule(l,r, debug_mode)
 
-    print(f"left: {left} | right: {right}")
+    if debug_mode:
+        print(f"left: {left} | right: {right}")
     left = flatten_rec(left)
     right = flatten_rec(right)
     generate_clingo_holds(left, right, axiom_name, new_lp_file, main_op)
@@ -163,7 +165,7 @@ def apply_and(inner, invert=False, debug_mode=False):
                 part = parts[i]
         
             obj = normalize_rule_rec(part.strip(), invert=invert, debug_mode=debug_mode)
-            print(f"in for and, complete_conj {complete_conj}, onj {obj}")
+            #print(f"in for and, complete_conj {complete_conj}, onj {obj}")
             complete_conj = complete_conj + obj
 
 
@@ -291,7 +293,7 @@ def generate_clingo_holds(left, right, axiom_name, new_lp_file, main_op):
     #GENERATE APLICABLE
     #new_lp_file.write(f"rule({axiom_name}).\n")
 
-    print(f"in clingo holds left: {left}, right: {right}")
+    #print(f"in clingo holds left: {left}, right: {right}")
 
     new_lp_file.write(f"%starting rule {axiom_name}\n")
     new_lp_file.write(f"rule({axiom_name}).\n\n")
@@ -311,13 +313,16 @@ def generate_rule_holds_and_rule_not_holds(axiom_name, new_lp_file, main_op):
     new_lp_file.write(f"    left_holds(X, {axiom_name}), \n")
     new_lp_file.write(f"    right_holds(X, {axiom_name}).\n\n")
 
-    if main_op == "EQUIV":
+    #print(f"main op in gen stuff {main_op}\n")
+    if main_op == rules_and_concepts.MainOperations.EQUIVALENCE:
+        #print("\n\n\n\n\n\n inside condition EQUIV \n\n\n\n\n\n\n")
         new_lp_file.write(f"rule_vacuously_holds(X, {axiom_name}) :- \n")
         new_lp_file.write(f"    holds(X, building),\n")
         new_lp_file.write(f"    not left_holds(X, {axiom_name}), \n")
         new_lp_file.write(f"    not right_holds(X, {axiom_name}).\n\n")
 
-    if main_op == "IMPL" or main_op == "BUILDING_FACT":
+    if main_op == MainOperations.IMPLICATION or main_op == MainOperations.BUILDING_FACT:
+        #print("\n\n\n\n\n\n inside condition \n\n\n\n\n\n\n")
         new_lp_file.write(f"rule_vacuously_holds(X, {axiom_name}) :- \n")
         new_lp_file.write(f"    holds(X, building),\n")
         new_lp_file.write(f"    not left_holds(X, {axiom_name}). \n\n")
@@ -326,8 +331,9 @@ def generate_rule_holds_and_rule_not_holds(axiom_name, new_lp_file, main_op):
     new_lp_file.write(f"    left_holds(X, {axiom_name}), \n")
     new_lp_file.write(f"    not right_holds(X, {axiom_name}).\n\n")
 
-    print(f"main op in gen stuff {main_op}")
-    if main_op == "EQUIV":
+    if main_op == MainOperations.EQUIVALENCE:
+        #print("\n\n\n\n\n\n inside condition \n\n\n\n\n\n\n")
+        #print("writing an equivalence violation to the rule")
         new_lp_file.write(f"rule_not_holds(X, {axiom_name}, left_fails_right_holds) :- \n")
         new_lp_file.write(f"    not left_holds(X, {axiom_name}), \n")
         new_lp_file.write(f"    right_holds(X, {axiom_name}).\n\n")
@@ -338,7 +344,7 @@ def generate_rule_holds_and_rule_not_holds(axiom_name, new_lp_file, main_op):
     
 
 def generate_part_holds(rule, axiom_name, part, new_lp_file):
-    print(f"rule in part_holds {rule}, in part {part}")
+    #print(f"rule in part_holds {rule}, in part {part}")
     part_holds_string = f"{part}_holds(X, {axiom_name}) :-\n"
 
     c_len_rule = len(rule)

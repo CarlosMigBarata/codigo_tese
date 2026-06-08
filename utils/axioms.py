@@ -7,15 +7,21 @@ import ltn
 import utils.rules_and_concepts as rules_and_concepts
 
 AXIOMS = rules_and_concepts.get_active_axioms()
-CLASSES = rules_and_concepts.get_classes()
+CLASSES = rules_and_concepts.get_all_classes()
 MainOperations = rules_and_concepts.MainOperations
 
-print(f"classes in axioms.py {CLASSES}")
+#print(f"classes in axioms.py {CLASSES}")
 
-list_of_final_classes = rules_and_concepts.get_final_classes()
+list_of_final_classes = rules_and_concepts.get_all_final_classes()
 final_classes = len(list_of_final_classes)
 
 CLASS_TO_IDX = {name: i for i, name in enumerate(CLASSES)}
+
+print(f"[DEBUG axioms] CLASS_TO_IDX: {CLASS_TO_IDX}")
+# Spot-check: first final class should be index 0
+first_final = list_of_final_classes[0]
+assert CLASS_TO_IDX[first_final] == 0, \
+    f"Expected {first_final} at index 0, got {CLASS_TO_IDX[first_final]}"
 
 
 CLASS_CONSTANTS = {
@@ -83,7 +89,7 @@ def safe_forall(var, formula, device, default_value=1.0):
     
     if var.value.shape[0] == 0:  # no elements in the batch
         # Return a neutral truth value (0.5)
-        print("\n\n\n\n\n\n\n\n miss \n\n\n\n\n\n")
+        #print("\n\n\n\n\n\n\n\n miss \n\n\n\n\n\n")
 
         #missCounter += 1
         return ltn.Constant(torch.tensor(default_value, device=device))
