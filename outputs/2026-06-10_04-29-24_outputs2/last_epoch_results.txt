@@ -1,0 +1,85 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 100)==================================================
+Training InfoAlpha: 0.5000
+Train Loss: 0.0399
+Val Loss: 0.0440
+Combined Train Loss: 0.0659
+Combined Val Loss: 0.0718
+
+Logical Consistency
+Train SAT (KB): 0.9082
+Val SAT (KB): 0.9004
+
+Train Accuracy per Class, final classes
+constructionsite    : 1.000
+countryhouse        : 0.999
+suburban            : 0.999
+miscresidential     : 0.998
+store               : 0.994
+restaurant          : 0.992
+miscindustrial      : 0.989
+powerplant          : 0.980
+hotel               : 0.973
+watertreatment      : 0.970
+misccommercial      : 0.965
+cafe                : 0.957
+
+Train Accuracy per Class, concepts
+porch               : 0.999
+machine             : 0.999
+residential         : 0.997
+industrial          : 0.997
+billboard           : 0.994
+commercial          : 0.993
+wallsign            : 0.975
+tiledroof           : 0.933
+vendingmachine      : 0.907
+chimney             : 0.897
+pipe                : 0.895
+statue              : 0.889
+table               : 0.881
+truck               : 0.846
+sign                : 0.827
+car                 : 0.826
+window              : 0.644
+awning              : 0.635
+tiledrooftop        : 0.465
+door                : 0.409
+
+Validation Accuracy per Class, final classes
+countryhouse        : 1.000
+suburban            : 1.000
+constructionsite    : 1.000
+miscresidential     : 0.999
+restaurant          : 0.998
+store               : 0.996
+miscindustrial      : 0.987
+powerplant          : 0.971
+watertreatment      : 0.968
+hotel               : 0.960
+misccommercial      : 0.960
+cafe                : 0.942
+
+Validation Accuracy per Class, concepts
+porch               : 1.000
+machine             : 1.000
+residential         : 0.998
+industrial          : 0.998
+billboard           : 0.997
+commercial          : 0.989
+wallsign            : 0.967
+tiledroof           : 0.944
+chimney             : 0.906
+vendingmachine      : 0.893
+statue              : 0.889
+table               : 0.886
+pipe                : 0.885
+truck               : 0.858
+car                 : 0.836
+sign                : 0.825
+window              : 0.661
+awning              : 0.614
+tiledrooftop        : 0.462
+door                : 0.419
+
+==================================================

@@ -1,0 +1,5 @@
+Durante esta semana começei a re-esecrever o capitulo 4 da tese. Se fosse possivel, gostaria de receber feedback sobre as primeiras subceções, uma vez que ainda não consegui escrever a 4.6.
+Coloquei o ficheiro dentro da pasta Produção Propria/02-Dissertação/
+
+Voltei a gerar o dataset, desta vez com sucesso. Ainda tenho de decidir que axiomas é que quero incluir quando for gerar uma ontologia nova. Entretanto,
+começei a fazer os testes em que treino os modelos com uma parte das imagens, em vez de usar o dataset completo.

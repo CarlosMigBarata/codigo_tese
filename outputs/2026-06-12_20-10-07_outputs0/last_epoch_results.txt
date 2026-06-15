@@ -1,0 +1,85 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 56)==================================================
+Training InfoAlpha: 1.0000
+Train Loss: 0.0413
+Val Loss: 0.0431
+Combined Train Loss: 0.0413
+Combined Val Loss: 0.0431
+
+Logical Consistency
+Train SAT (KB): 0.5569
+Val SAT (KB): 0.5611
+
+Train Accuracy per Class, final classes
+countryhouse        : 0.999
+suburban            : 0.998
+constructionsite    : 0.998
+miscresidential     : 0.996
+store               : 0.992
+restaurant          : 0.988
+miscindustrial      : 0.982
+hotel               : 0.978
+powerplant          : 0.978
+watertreatment      : 0.970
+cafe                : 0.959
+misccommercial      : 0.957
+
+Train Accuracy per Class, concepts
+wallsign            : 0.806
+sign                : 0.719
+tiledrooftop        : 0.695
+truck               : 0.672
+tiledroof           : 0.670
+residential         : 0.633
+vendingmachine      : 0.615
+table               : 0.594
+awning              : 0.537
+door                : 0.521
+industrial          : 0.511
+machine             : 0.497
+chimney             : 0.351
+billboard           : 0.339
+window              : 0.334
+car                 : 0.317
+pipe                : 0.286
+porch               : 0.279
+statue              : 0.189
+commercial          : 0.025
+
+Validation Accuracy per Class, final classes
+suburban            : 1.000
+constructionsite    : 1.000
+countryhouse        : 1.000
+store               : 0.998
+restaurant          : 0.998
+miscresidential     : 0.998
+miscindustrial      : 0.986
+hotel               : 0.973
+powerplant          : 0.970
+watertreatment      : 0.970
+cafe                : 0.940
+misccommercial      : 0.938
+
+Validation Accuracy per Class, concepts
+wallsign            : 0.802
+sign                : 0.705
+tiledrooftop        : 0.689
+truck               : 0.679
+tiledroof           : 0.666
+residential         : 0.640
+vendingmachine      : 0.603
+table               : 0.602
+machine             : 0.535
+awning              : 0.534
+door                : 0.517
+industrial          : 0.515
+chimney             : 0.394
+billboard           : 0.344
+window              : 0.334
+car                 : 0.329
+pipe                : 0.286
+porch               : 0.276
+statue              : 0.206
+commercial          : 0.013
+
+==================================================

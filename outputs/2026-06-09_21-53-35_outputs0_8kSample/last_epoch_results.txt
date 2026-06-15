@@ -1,0 +1,85 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 41)==================================================
+Training InfoAlpha: 1.0000
+Train Loss: 0.0372
+Val Loss: 0.0324
+Combined Train Loss: 0.0372
+Combined Val Loss: 0.0324
+
+Logical Consistency
+Train SAT (KB): 0.5786
+Val SAT (KB): 0.5787
+
+Train Accuracy per Class, final classes
+miscresidential     : 0.999
+countryhouse        : 0.999
+constructionsite    : 0.998
+suburban            : 0.998
+store               : 0.992
+restaurant          : 0.990
+miscindustrial      : 0.987
+hotel               : 0.980
+powerplant          : 0.974
+watertreatment      : 0.970
+cafe                : 0.962
+misccommercial      : 0.954
+
+Train Accuracy per Class, concepts
+chimney             : 0.696
+truck               : 0.673
+residential         : 0.658
+vendingmachine      : 0.652
+pipe                : 0.639
+awning              : 0.536
+table               : 0.533
+door                : 0.526
+sign                : 0.525
+wallsign            : 0.511
+machine             : 0.481
+window              : 0.466
+car                 : 0.421
+tiledrooftop        : 0.329
+statue              : 0.311
+porch               : 0.291
+billboard           : 0.289
+industrial          : 0.274
+tiledroof           : 0.112
+commercial          : 0.031
+
+Validation Accuracy per Class, final classes
+suburban            : 1.000
+countryhouse        : 1.000
+constructionsite    : 0.999
+store               : 0.998
+miscresidential     : 0.998
+restaurant          : 0.997
+miscindustrial      : 0.992
+powerplant          : 0.983
+hotel               : 0.982
+watertreatment      : 0.973
+cafe                : 0.955
+misccommercial      : 0.955
+
+Validation Accuracy per Class, concepts
+vendingmachine      : 0.696
+chimney             : 0.695
+truck               : 0.679
+residential         : 0.656
+pipe                : 0.643
+table               : 0.550
+awning              : 0.542
+wallsign            : 0.513
+door                : 0.512
+machine             : 0.504
+sign                : 0.492
+window              : 0.475
+car                 : 0.410
+tiledrooftop        : 0.336
+billboard           : 0.309
+industrial          : 0.297
+porch               : 0.297
+statue              : 0.290
+tiledroof           : 0.108
+commercial          : 0.025
+
+==================================================

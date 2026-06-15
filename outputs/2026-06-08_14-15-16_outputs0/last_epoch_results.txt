@@ -1,0 +1,85 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 53)==================================================
+Training InfoAlpha: 1.0000
+Train Loss: 0.0420
+Val Loss: 0.0436
+Combined Train Loss: 0.0420
+Combined Val Loss: 0.0436
+
+Logical Consistency
+Train SAT (KB): 0.6358
+Val SAT (KB): 0.6341
+
+Train Accuracy per Class, final classes
+suburban            : 0.999
+countryhouse        : 0.998
+constructionsite    : 0.997
+miscresidential     : 0.996
+store               : 0.993
+restaurant          : 0.987
+miscindustrial      : 0.986
+hotel               : 0.972
+powerplant          : 0.971
+watertreatment      : 0.969
+misccommercial      : 0.966
+cafe                : 0.957
+
+Train Accuracy per Class, concepts
+machine             : 0.904
+billboard           : 0.807
+wallsign            : 0.784
+sign                : 0.725
+pipe                : 0.688
+awning              : 0.683
+truck               : 0.680
+vendingmachine      : 0.672
+industrial          : 0.641
+residential         : 0.616
+door                : 0.594
+table               : 0.576
+chimney             : 0.556
+tiledrooftop        : 0.513
+car                 : 0.455
+commercial          : 0.441
+porch               : 0.394
+window              : 0.384
+tiledroof           : 0.352
+statue              : 0.273
+
+Validation Accuracy per Class, final classes
+countryhouse        : 1.000
+suburban            : 1.000
+constructionsite    : 1.000
+restaurant          : 0.998
+miscresidential     : 0.998
+store               : 0.997
+miscindustrial      : 0.985
+hotel               : 0.976
+powerplant          : 0.974
+watertreatment      : 0.968
+misccommercial      : 0.944
+cafe                : 0.937
+
+Validation Accuracy per Class, concepts
+machine             : 0.905
+wallsign            : 0.790
+billboard           : 0.788
+sign                : 0.705
+pipe                : 0.694
+awning              : 0.691
+vendingmachine      : 0.680
+truck               : 0.679
+industrial          : 0.650
+table               : 0.622
+residential         : 0.613
+door                : 0.582
+chimney             : 0.537
+tiledrooftop        : 0.530
+car                 : 0.471
+commercial          : 0.468
+window              : 0.398
+porch               : 0.395
+tiledroof           : 0.365
+statue              : 0.262
+
+==================================================

@@ -1,0 +1,85 @@
+
+==================================================FINAL EPOCH SUMMARY (Epoch 51)==================================================
+Training InfoAlpha: 1.0000
+Train Loss: 0.0319
+Val Loss: 0.0285
+Combined Train Loss: 0.0319
+Combined Val Loss: 0.0285
+
+Logical Consistency
+Train SAT (KB): 0.5847
+Val SAT (KB): 0.5836
+
+Train Accuracy per Class, final classes
+suburban            : 1.000
+constructionsite    : 0.999
+countryhouse        : 0.998
+miscresidential     : 0.998
+store               : 0.995
+restaurant          : 0.994
+miscindustrial      : 0.991
+hotel               : 0.978
+powerplant          : 0.978
+watertreatment      : 0.973
+cafe                : 0.970
+misccommercial      : 0.966
+
+Train Accuracy per Class, concepts
+industrial          : 0.837
+table               : 0.776
+porch               : 0.773
+sign                : 0.713
+billboard           : 0.712
+residential         : 0.665
+pipe                : 0.578
+door                : 0.530
+awning              : 0.514
+vendingmachine      : 0.507
+machine             : 0.499
+commercial          : 0.395
+statue              : 0.391
+truck               : 0.383
+wallsign            : 0.376
+tiledroof           : 0.356
+car                 : 0.352
+window              : 0.345
+chimney             : 0.304
+tiledrooftop        : 0.236
+
+Validation Accuracy per Class, final classes
+suburban            : 1.000
+countryhouse        : 1.000
+constructionsite    : 1.000
+restaurant          : 1.000
+miscresidential     : 0.999
+store               : 0.999
+miscindustrial      : 0.994
+powerplant          : 0.984
+hotel               : 0.983
+watertreatment      : 0.974
+misccommercial      : 0.958
+cafe                : 0.955
+
+Validation Accuracy per Class, concepts
+industrial          : 0.838
+porch               : 0.792
+table               : 0.780
+sign                : 0.705
+residential         : 0.663
+billboard           : 0.654
+pipe                : 0.593
+door                : 0.518
+vendingmachine      : 0.516
+awning              : 0.489
+machine             : 0.484
+truck               : 0.445
+statue              : 0.414
+commercial          : 0.390
+tiledroof           : 0.360
+wallsign            : 0.360
+car                 : 0.346
+window              : 0.338
+tiledrooftop        : 0.239
+chimney             : 0.238
+
+==================================================

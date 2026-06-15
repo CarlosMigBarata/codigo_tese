@@ -1,0 +1,732 @@
+
+
+========= ACTIVE RULES =========
+
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(NOT(Awning), Truck))
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+
+
+========= CONISTENCY PER RULE =========
+
+building_impl_complex | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+suburban | consistency=1.0000 | rule_holds=866 | rule_vac_holds=3134 | violations=0 | total=4000
+
+commercial | consistency=0.9963 | rule_holds=1329 | rule_vac_holds=2666 | violations=5 | total=4000
+    - left_fails_right_holds: 5
+
+constructionsite | consistency=1.0000 | rule_holds=382 | rule_vac_holds=3618 | violations=0 | total=4000
+
+residential | consistency=1.0000 | rule_holds=1328 | rule_vac_holds=2672 | violations=0 | total=4000
+
+miscresidential | consistency=0.8268 | rule_holds=1098 | rule_vac_holds=2672 | violations=230 | total=4000
+    - left_fails_right_holds: 230
+
+countryhouse | consistency=1.0000 | rule_holds=535 | rule_vac_holds=3465 | violations=0 | total=4000
+
+restaurant | consistency=1.0000 | rule_holds=488 | rule_vac_holds=3512 | violations=0 | total=4000
+
+residential_no_chimney_pipe | consistency=1.0000 | rule_holds=1328 | rule_vac_holds=2672 | violations=0 | total=4000
+
+building_no_car_truck | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+store | consistency=0.9988 | rule_holds=822 | rule_vac_holds=3177 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+powerplant | consistency=0.9751 | rule_holds=667 | rule_vac_holds=3316 | violations=17 | total=4000
+    - left_holds_right_fails: 17
+
+misccommercial | consistency=0.9849 | rule_holds=847 | rule_vac_holds=3140 | violations=13 | total=4000
+    - left_holds_right_fails: 10
+    - left_fails_right_holds: 3
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=0.9392 | rule_holds=587 | rule_vac_holds=3375 | violations=38 | total=4000
+    - left_holds_right_fails: 38
+
+miscindustrial | consistency=0.9905 | rule_holds=726 | rule_vac_holds=3267 | violations=7 | total=4000
+    - left_fails_right_holds: 7
+
+cafe | consistency=0.9647 | rule_holds=1040 | rule_vac_holds=2922 | violations=38 | total=4000
+    - left_holds_right_fails: 38
+
+industrial | consistency=0.9993 | rule_holds=1338 | rule_vac_holds=2661 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+hotel | consistency=0.9914 | rule_holds=803 | rule_vac_holds=3190 | violations=7 | total=4000
+    - left_holds_right_fails: 7
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+industrial_not_table | consistency=1.0000 | rule_holds=1339 | rule_vac_holds=2661 | violations=0 | total=4000
+
+watertreatment | consistency=0.9577 | rule_holds=702 | rule_vac_holds=3267 | violations=31 | total=4000
+    - left_fails_right_holds: 29
+    - left_holds_right_fails: 2
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+building_no_chimney_statue: 0.994
+building_no_car_truck: 0.991
+building_impl_complex: 0.988
+industrial_not_table: 0.985
+building_nodoorornowindow_impl_noawning: 0.980
+residential_no_chimney_pipe: 0.980
+constructionsite    : 0.973
+residential         : 0.973
+countryhouse        : 0.971
+suburban            : 0.971
+industrial          : 0.958
+commercial          : 0.948
+store               : 0.946
+miscindustrial      : 0.935
+restaurant          : 0.932
+hotel               : 0.929
+powerplant          : 0.926
+watertreatment      : 0.923
+misccommercial      : 0.911
+cafe                : 0.898
+miscresidential     : 0.858
+
+Axiom satisfaction: validation 
+
+building_no_chimney_statue: 0.995
+building_impl_complex: 0.993
+building_no_car_truck: 0.993
+industrial_not_table: 0.989
+residential_no_chimney_pipe: 0.988
+countryhouse        : 0.986
+suburban            : 0.984
+residential         : 0.980
+store               : 0.980
+building_nodoorornowindow_impl_noawning: 0.979
+constructionsite    : 0.978
+industrial          : 0.972
+miscindustrial      : 0.965
+commercial          : 0.961
+restaurant          : 0.948
+misccommercial      : 0.928
+powerplant          : 0.924
+watertreatment      : 0.919
+hotel               : 0.917
+cafe                : 0.895
+miscresidential     : 0.847
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+building_no_chimney_statue: {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_impl_complex: {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_no_car_truck: {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial_not_table: {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential_no_chimney_pipe: {'agree': 4000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 4000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_nodoorornowindow_impl_noawning: {}
+constructionsite    : {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+restaurant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+misccommercial      : {'agree': 3990, 'disagree': 10, 'missing': 0}
+powerplant          : {'agree': 3985, 'disagree': 15, 'missing': 0}
+watertreatment      : {'agree': 3999, 'disagree': 1, 'missing': 0}
+hotel               : {'agree': 3994, 'disagree': 6, 'missing': 0}
+cafe                : {'agree': 3962, 'disagree': 38, 'missing': 0}
+miscresidential     : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- cafe (38 disagreements) ---
+  s_8874_jpg
+    ltn=1 clingo=0 body=0.5614
+    Cafe            = 0.5154  (|d-0.5|=0.0154)
+    VendingMachine  = 0.4708  (|d-0.5|=0.0292)
+    Statue          = 0.0034  (|d-0.5|=0.4966)
+  s_11712_jpg
+    ltn=1 clingo=0 body=0.5632
+    Cafe            = 0.5489  (|d-0.5|=0.0489)
+    VendingMachine  = 0.4477  (|d-0.5|=0.0523)
+    Statue          = 0.1208  (|d-0.5|=0.3792)
+  s_6819_jpg
+    ltn=1 clingo=0 body=0.5598
+    Cafe            = 0.5436  (|d-0.5|=0.0436)
+    VendingMachine  = 0.4767  (|d-0.5|=0.0233)
+    Statue          = 0.0002  (|d-0.5|=0.4998)
+  s_3036_jpg
+    ltn=1 clingo=0 body=0.5395
+    Cafe            = 0.6630  (|d-0.5|=0.1630)
+    VendingMachine  = 0.4192  (|d-0.5|=0.0808)
+    Statue          = 0.0557  (|d-0.5|=0.4443)
+  s_6669_jpg
+    ltn=1 clingo=0 body=0.5636
+    Cafe            = 0.5205  (|d-0.5|=0.0205)
+    VendingMachine  = 0.4799  (|d-0.5|=0.0201)
+    Statue          = 0.1187  (|d-0.5|=0.3813)
+  s_7650_jpg
+    ltn=1 clingo=0 body=0.5620
+    Cafe            = 0.5073  (|d-0.5|=0.0073)
+    VendingMachine  = 0.4564  (|d-0.5|=0.0436)
+    Statue          = 0.0386  (|d-0.5|=0.4614)
+  s_8121_jpg
+    ltn=1 clingo=0 body=0.5581
+    Cafe            = 0.6648  (|d-0.5|=0.1648)
+    VendingMachine  = 0.4787  (|d-0.5|=0.0213)
+    Statue          = 0.0552  (|d-0.5|=0.4448)
+  s_3477_jpg
+    ltn=1 clingo=0 body=0.5702
+    Cafe            = 0.6706  (|d-0.5|=0.1706)
+    VendingMachine  = 0.4890  (|d-0.5|=0.0110)
+    Statue          = 0.1103  (|d-0.5|=0.3897)
+  s_369_jpg
+    ltn=1 clingo=0 body=0.5592
+    Cafe            = 0.6128  (|d-0.5|=0.1128)
+    VendingMachine  = 0.4985  (|d-0.5|=0.0015)
+    Statue          = 0.0028  (|d-0.5|=0.4972)
+  s_5082_jpg
+    ltn=1 clingo=0 body=0.5570
+    Cafe            = 0.5388  (|d-0.5|=0.0388)
+    VendingMachine  = 0.4410  (|d-0.5|=0.0590)
+    Statue          = 0.0067  (|d-0.5|=0.4933)
+  s_6924_jpg
+    ltn=1 clingo=0 body=0.5612
+    Cafe            = 0.5355  (|d-0.5|=0.0355)
+    VendingMachine  = 0.4455  (|d-0.5|=0.0545)
+    Statue          = 0.0762  (|d-0.5|=0.4238)
+  s_2133_jpg
+    ltn=1 clingo=0 body=0.5731
+    Cafe            = 0.7462  (|d-0.5|=0.2462)
+    VendingMachine  = 0.4965  (|d-0.5|=0.0035)
+    Statue          = 0.1134  (|d-0.5|=0.3866)
+  s_13515_jpg
+    ltn=1 clingo=0 body=0.5484
+    Cafe            = 0.6886  (|d-0.5|=0.1886)
+    VendingMachine  = 0.4730  (|d-0.5|=0.0270)
+    Statue          = 0.0256  (|d-0.5|=0.4744)
+  s_15705_jpg
+    ltn=1 clingo=0 body=0.5207
+    Cafe            = 0.8010  (|d-0.5|=0.3010)
+    VendingMachine  = 0.4535  (|d-0.5|=0.0465)
+    Statue          = 0.0274  (|d-0.5|=0.4726)
+  s_4104_jpg
+    ltn=1 clingo=0 body=0.5636
+    Cafe            = 0.7143  (|d-0.5|=0.2143)
+    VendingMachine  = 0.4646  (|d-0.5|=0.0354)
+    Statue          = 0.1222  (|d-0.5|=0.3778)
+  s_10395_jpg
+    ltn=1 clingo=0 body=0.5474
+    Cafe            = 0.6959  (|d-0.5|=0.1959)
+    VendingMachine  = 0.4859  (|d-0.5|=0.0141)
+    Statue          = 0.0006  (|d-0.5|=0.4994)
+  s_15489_jpg
+    ltn=1 clingo=0 body=0.6119  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.8297  (|d-0.5|=0.3297)
+    VendingMachine  = 0.4996  (|d-0.5|=0.0004)
+    Statue          = 0.2392  (|d-0.5|=0.2608)
+  s_15849_jpg
+    ltn=1 clingo=0 body=0.5384
+    Cafe            = 0.6848  (|d-0.5|=0.1848)
+    VendingMachine  = 0.4391  (|d-0.5|=0.0609)
+    Statue          = 0.0354  (|d-0.5|=0.4646)
+  s_4116_jpg
+    ltn=1 clingo=0 body=0.5677
+    Cafe            = 0.5635  (|d-0.5|=0.0635)
+    VendingMachine  = 0.4535  (|d-0.5|=0.0465)
+    Statue          = 0.1853  (|d-0.5|=0.3147)
+  s_5247_jpg
+    ltn=1 clingo=0 body=0.5629
+    Cafe            = 0.5249  (|d-0.5|=0.0249)
+    VendingMachine  = 0.4537  (|d-0.5|=0.0463)
+    Statue          = 0.1089  (|d-0.5|=0.3911)
+  s_3579_jpg
+    ltn=1 clingo=0 body=0.5827
+    Cafe            = 0.7037  (|d-0.5|=0.2037)
+    VendingMachine  = 0.4879  (|d-0.5|=0.0121)
+    Statue          = 0.1768  (|d-0.5|=0.3232)
+  s_8847_jpg
+    ltn=1 clingo=0 body=0.5342
+    Cafe            = 0.7606  (|d-0.5|=0.2606)
+    VendingMachine  = 0.4661  (|d-0.5|=0.0339)
+    Statue          = 0.0232  (|d-0.5|=0.4768)
+  s_15588_jpg
+    ltn=1 clingo=0 body=0.5468
+    Cafe            = 0.6505  (|d-0.5|=0.1505)
+    VendingMachine  = 0.4521  (|d-0.5|=0.0479)
+    Statue          = 0.0280  (|d-0.5|=0.4720)
+  s_14139_jpg
+    ltn=1 clingo=0 body=0.5428
+    Cafe            = 0.7424  (|d-0.5|=0.2424)
+    VendingMachine  = 0.4722  (|d-0.5|=0.0278)
+    Statue          = 0.0332  (|d-0.5|=0.4668)
+  s_9882_jpg
+    ltn=1 clingo=0 body=0.5606
+    Cafe            = 0.8011  (|d-0.5|=0.3011)
+    VendingMachine  = 0.4923  (|d-0.5|=0.0077)
+    Statue          = 0.0840  (|d-0.5|=0.4160)
+  s_11367_jpg
+    ltn=1 clingo=0 body=0.5641
+    Cafe            = 0.6027  (|d-0.5|=0.1027)
+    VendingMachine  = 0.4891  (|d-0.5|=0.0109)
+    Statue          = 0.0629  (|d-0.5|=0.4371)
+  s_6_jpg
+    ltn=1 clingo=0 body=0.5578
+    Cafe            = 0.7104  (|d-0.5|=0.2104)
+    VendingMachine  = 0.4978  (|d-0.5|=0.0022)
+    Statue          = 0.0350  (|d-0.5|=0.4650)
+  s_3432_jpg
+    ltn=1 clingo=0 body=0.5566
+    Cafe            = 0.6347  (|d-0.5|=0.1347)
+    VendingMachine  = 0.4698  (|d-0.5|=0.0302)
+    Statue          = 0.0481  (|d-0.5|=0.4519)
+  s_5202_jpg
+    ltn=1 clingo=0 body=0.5611
+    Cafe            = 0.6027  (|d-0.5|=0.1027)
+    VendingMachine  = 0.4851  (|d-0.5|=0.0149)
+    Statue          = 0.0409  (|d-0.5|=0.4591)
+  s_8430_jpg
+    ltn=1 clingo=0 body=0.5625
+    Cafe            = 0.5092  (|d-0.5|=0.0092)
+    VendingMachine  = 0.4667  (|d-0.5|=0.0333)
+    Statue          = 0.0652  (|d-0.5|=0.4348)
+  s_1650_jpg
+    ltn=1 clingo=0 body=0.5520
+    Cafe            = 0.6430  (|d-0.5|=0.1430)
+    VendingMachine  = 0.4675  (|d-0.5|=0.0325)
+    Statue          = 0.0263  (|d-0.5|=0.4737)
+  s_7884_jpg
+    ltn=1 clingo=0 body=0.5580
+    Cafe            = 0.5944  (|d-0.5|=0.0944)
+    VendingMachine  = 0.4813  (|d-0.5|=0.0187)
+    Statue          = 0.0134  (|d-0.5|=0.4866)
+  s_8922_jpg
+    ltn=1 clingo=0 body=0.5299
+    Cafe            = 0.5844  (|d-0.5|=0.0844)
+    VendingMachine  = 0.3488  (|d-0.5|=0.1512)
+    Statue          = 0.0017  (|d-0.5|=0.4983)
+  s_9096_jpg
+    ltn=1 clingo=0 body=0.5233
+    Cafe            = 0.7374  (|d-0.5|=0.2374)
+    VendingMachine  = 0.4201  (|d-0.5|=0.0799)
+    Statue          = 0.0487  (|d-0.5|=0.4513)
+  s_4254_jpg
+    ltn=1 clingo=0 body=0.5588
+    Cafe            = 0.6061  (|d-0.5|=0.1061)
+    VendingMachine  = 0.4792  (|d-0.5|=0.0208)
+    Statue          = 0.0322  (|d-0.5|=0.4678)
+  s_4179_jpg
+    ltn=1 clingo=0 body=0.5561
+    Cafe            = 0.6309  (|d-0.5|=0.1309)
+    VendingMachine  = 0.4836  (|d-0.5|=0.0164)
+    Statue          = 0.0162  (|d-0.5|=0.4838)
+  s_15855_jpg
+    ltn=1 clingo=0 body=0.5436
+    Cafe            = 0.5969  (|d-0.5|=0.0969)
+    VendingMachine  = 0.4160  (|d-0.5|=0.0840)
+    Statue          = 0.0108  (|d-0.5|=0.4892)
+  s_14871_jpg
+    ltn=1 clingo=0 body=0.5438
+    Cafe            = 0.6099  (|d-0.5|=0.1099)
+    VendingMachine  = 0.4301  (|d-0.5|=0.0699)
+    Statue          = 0.0061  (|d-0.5|=0.4939)
+
+
+
+--- building_noDoorOrNoWindow_Impl_noAwning (38 disagreements) ---
+  s_3615_jpg
+    ltn=1 clingo=0 body=0.6431  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4918  (|d-0.5|=0.0082)
+    Window          = 0.2979  (|d-0.5|=0.2021)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_11403_jpg
+    ltn=1 clingo=0 body=0.6605  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4951  (|d-0.5|=0.0049)
+    Window          = 0.3278  (|d-0.5|=0.1722)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_11712_jpg
+    ltn=1 clingo=0 body=0.6552  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4907  (|d-0.5|=0.0093)
+    Window          = 0.3231  (|d-0.5|=0.1769)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_8028_jpg
+    ltn=1 clingo=0 body=0.6540  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4986  (|d-0.5|=0.0014)
+    Window          = 0.3101  (|d-0.5|=0.1899)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_3603_jpg
+    ltn=1 clingo=0 body=0.6646  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4925  (|d-0.5|=0.0075)
+    Window          = 0.3392  (|d-0.5|=0.1608)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_15630_jpg
+    ltn=1 clingo=0 body=0.6526  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4936  (|d-0.5|=0.0064)
+    Window          = 0.3143  (|d-0.5|=0.1857)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_3336_jpg
+    ltn=1 clingo=0 body=0.6475  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4945  (|d-0.5|=0.0055)
+    Window          = 0.3029  (|d-0.5|=0.1971)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_12192_jpg
+    ltn=1 clingo=0 body=0.6686  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4967  (|d-0.5|=0.0033)
+    Window          = 0.3419  (|d-0.5|=0.1581)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_924_jpg
+    ltn=1 clingo=0 body=0.6644  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4951  (|d-0.5|=0.0049)
+    Window          = 0.3356  (|d-0.5|=0.1644)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_1878_jpg
+    ltn=1 clingo=0 body=0.6621  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4991  (|d-0.5|=0.0009)
+    Window          = 0.3257  (|d-0.5|=0.1743)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_14991_jpg
+    ltn=1 clingo=0 body=0.6515  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4998  (|d-0.5|=0.0002)
+    Window          = 0.3036  (|d-0.5|=0.1964)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_15849_jpg
+    ltn=1 clingo=0 body=0.6497  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4965  (|d-0.5|=0.0035)
+    Window          = 0.3045  (|d-0.5|=0.1955)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_8664_jpg
+    ltn=1 clingo=0 body=0.6643  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4894  (|d-0.5|=0.0106)
+    Window          = 0.3427  (|d-0.5|=0.1573)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_8301_jpg
+    ltn=1 clingo=0 body=0.6475  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4908  (|d-0.5|=0.0092)
+    Window          = 0.3079  (|d-0.5|=0.1921)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_7605_jpg
+    ltn=1 clingo=0 body=0.6721  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4997  (|d-0.5|=0.0003)
+    Window          = 0.3449  (|d-0.5|=0.1551)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_15165_jpg
+    ltn=1 clingo=0 body=0.6502  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4962  (|d-0.5|=0.0038)
+    Window          = 0.3060  (|d-0.5|=0.1940)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_6267_jpg
+    ltn=1 clingo=0 body=0.6404  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4970  (|d-0.5|=0.0030)
+    Window          = 0.2854  (|d-0.5|=0.2146)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_13251_jpg
+    ltn=1 clingo=0 body=0.6534  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4883  (|d-0.5|=0.0117)
+    Window          = 0.3229  (|d-0.5|=0.1771)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_810_jpg
+    ltn=1 clingo=0 body=0.6462  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4903  (|d-0.5|=0.0097)
+    Window          = 0.3060  (|d-0.5|=0.1940)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_4467_jpg
+    ltn=1 clingo=0 body=0.6806  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4893  (|d-0.5|=0.0107)
+    Window          = 0.3749  (|d-0.5|=0.1251)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_12747_jpg
+    ltn=1 clingo=0 body=0.6427  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4905  (|d-0.5|=0.0095)
+    Window          = 0.2989  (|d-0.5|=0.2011)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_9660_jpg
+    ltn=1 clingo=0 body=0.6713  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4951  (|d-0.5|=0.0049)
+    Window          = 0.3491  (|d-0.5|=0.1509)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_13071_jpg
+    ltn=1 clingo=0 body=0.6498  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4998  (|d-0.5|=0.0002)
+    Window          = 0.3000  (|d-0.5|=0.2000)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_14139_jpg
+    ltn=1 clingo=0 body=0.6549  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4994  (|d-0.5|=0.0006)
+    Window          = 0.3109  (|d-0.5|=0.1891)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_927_jpg
+    ltn=1 clingo=0 body=0.6531  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4972  (|d-0.5|=0.0028)
+    Window          = 0.3102  (|d-0.5|=0.1898)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_7329_jpg
+    ltn=1 clingo=0 body=0.6857  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4993  (|d-0.5|=0.0007)
+    Window          = 0.3724  (|d-0.5|=0.1276)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_6426_jpg
+    ltn=1 clingo=0 body=0.6502  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4975  (|d-0.5|=0.0025)
+    Window          = 0.3041  (|d-0.5|=0.1959)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_12993_jpg
+    ltn=1 clingo=0 body=0.6655  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4985  (|d-0.5|=0.0015)
+    Window          = 0.3332  (|d-0.5|=0.1668)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_8070_jpg
+    ltn=1 clingo=0 body=0.6411  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4944  (|d-0.5|=0.0056)
+    Window          = 0.2905  (|d-0.5|=0.2095)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_10920_jpg
+    ltn=1 clingo=0 body=0.6845  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4947  (|d-0.5|=0.0053)
+    Window          = 0.3760  (|d-0.5|=0.1240)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_585_jpg
+    ltn=1 clingo=0 body=0.6405  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4947  (|d-0.5|=0.0053)
+    Window          = 0.2888  (|d-0.5|=0.2112)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_3813_jpg
+    ltn=1 clingo=0 body=0.6736  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4895  (|d-0.5|=0.0105)
+    Window          = 0.3607  (|d-0.5|=0.1393)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_2469_jpg
+    ltn=1 clingo=0 body=0.6365  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4892  (|d-0.5|=0.0108)
+    Window          = 0.2887  (|d-0.5|=0.2113)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_1665_jpg
+    ltn=1 clingo=0 body=0.6383  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4985  (|d-0.5|=0.0015)
+    Window          = 0.2791  (|d-0.5|=0.2209)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_8523_jpg
+    ltn=1 clingo=0 body=0.6467  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4993  (|d-0.5|=0.0007)
+    Window          = 0.2947  (|d-0.5|=0.2053)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_4068_jpg
+    ltn=1 clingo=0 body=0.6476  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4995  (|d-0.5|=0.0005)
+    Window          = 0.2960  (|d-0.5|=0.2040)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_2040_jpg
+    ltn=1 clingo=0 body=0.6377  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4999  (|d-0.5|=0.0001)
+    Window          = 0.2758  (|d-0.5|=0.2242)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+  s_2229_jpg
+    ltn=1 clingo=0 body=0.6528  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Door            = 0.4995  (|d-0.5|=0.0005)
+    Window          = 0.3065  (|d-0.5|=0.1935)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+
+
+
+--- powerplant (15 disagreements) ---
+  s_2524_jpg
+    ltn=1 clingo=0 body=0.5331
+    PowerPlant      = 0.6080  (|d-0.5|=0.1080)
+    Chimney         = 0.3906  (|d-0.5|=0.1094)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_2836_jpg
+    ltn=1 clingo=0 body=0.5319
+    PowerPlant      = 0.6686  (|d-0.5|=0.1686)
+    Chimney         = 0.4332  (|d-0.5|=0.0668)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_14905_jpg
+    ltn=1 clingo=0 body=0.5597
+    PowerPlant      = 0.5098  (|d-0.5|=0.0098)
+    Chimney         = 0.4274  (|d-0.5|=0.0726)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_11872_jpg
+    ltn=1 clingo=0 body=0.5353
+    PowerPlant      = 0.6967  (|d-0.5|=0.1967)
+    Chimney         = 0.4564  (|d-0.5|=0.0436)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_15793_jpg
+    ltn=1 clingo=0 body=0.5202
+    PowerPlant      = 0.8378  (|d-0.5|=0.3378)
+    Chimney         = 0.4798  (|d-0.5|=0.0202)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_14473_jpg
+    ltn=1 clingo=0 body=0.5426
+    PowerPlant      = 0.7636  (|d-0.5|=0.2636)
+    Chimney         = 0.4953  (|d-0.5|=0.0047)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_12100_jpg
+    ltn=1 clingo=0 body=0.5335
+    PowerPlant      = 0.7297  (|d-0.5|=0.2297)
+    Chimney         = 0.4662  (|d-0.5|=0.0338)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_811_jpg
+    ltn=1 clingo=0 body=0.5075
+    PowerPlant      = 0.8867  (|d-0.5|=0.3867)
+    Chimney         = 0.4772  (|d-0.5|=0.0228)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_5902_jpg
+    ltn=1 clingo=0 body=0.5046
+    PowerPlant      = 0.7638  (|d-0.5|=0.2638)
+    Chimney         = 0.4252  (|d-0.5|=0.0748)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_4234_jpg
+    ltn=1 clingo=0 body=0.5420
+    PowerPlant      = 0.7315  (|d-0.5|=0.2315)
+    Chimney         = 0.4848  (|d-0.5|=0.0152)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_2347_jpg
+    ltn=1 clingo=0 body=0.5023
+    PowerPlant      = 0.7091  (|d-0.5|=0.2091)
+    Chimney         = 0.3883  (|d-0.5|=0.1117)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_4543_jpg
+    ltn=1 clingo=0 body=0.5429
+    PowerPlant      = 0.6558  (|d-0.5|=0.1558)
+    Chimney         = 0.4579  (|d-0.5|=0.0421)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_15598_jpg
+    ltn=1 clingo=0 body=0.5467
+    PowerPlant      = 0.6807  (|d-0.5|=0.1807)
+    Chimney         = 0.4792  (|d-0.5|=0.0208)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_11044_jpg
+    ltn=1 clingo=0 body=0.5199
+    PowerPlant      = 0.8402  (|d-0.5|=0.3402)
+    Chimney         = 0.4799  (|d-0.5|=0.0201)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_15622_jpg
+    ltn=1 clingo=0 body=0.5345
+    PowerPlant      = 0.8086  (|d-0.5|=0.3086)
+    Chimney         = 0.4933  (|d-0.5|=0.0067)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+
+
+
+--- misccommercial (10 disagreements) ---
+  s_11166_jpg
+    ltn=1 clingo=0 body=0.5602
+    MiscCommercial  = 0.5786  (|d-0.5|=0.0786)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4955  (|d-0.5|=0.0045)
+  s_2730_jpg
+    ltn=1 clingo=0 body=0.5555
+    MiscCommercial  = 0.5832  (|d-0.5|=0.0832)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4700  (|d-0.5|=0.0300)
+  s_4980_jpg
+    ltn=1 clingo=0 body=0.5567
+    MiscCommercial  = 0.6432  (|d-0.5|=0.1432)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4978  (|d-0.5|=0.0022)
+  s_2634_jpg
+    ltn=1 clingo=0 body=0.5519
+    MiscCommercial  = 0.6284  (|d-0.5|=0.1284)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4755  (|d-0.5|=0.0245)
+  s_4059_jpg
+    ltn=1 clingo=0 body=0.5474
+    MiscCommercial  = 0.6633  (|d-0.5|=0.1633)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4746  (|d-0.5|=0.0254)
+  s_13008_jpg
+    ltn=1 clingo=0 body=0.5529
+    MiscCommercial  = 0.5890  (|d-0.5|=0.0890)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4596  (|d-0.5|=0.0404)
+  s_13248_jpg
+    ltn=1 clingo=0 body=0.5434
+    MiscCommercial  = 0.6493  (|d-0.5|=0.1493)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4563  (|d-0.5|=0.0437)
+  s_2775_jpg
+    ltn=1 clingo=0 body=0.5440
+    MiscCommercial  = 0.6625  (|d-0.5|=0.1625)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4644  (|d-0.5|=0.0356)
+  s_7644_jpg
+    ltn=1 clingo=0 body=0.5559
+    MiscCommercial  = 0.6545  (|d-0.5|=0.1545)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4981  (|d-0.5|=0.0019)
+  s_4068_jpg
+    ltn=1 clingo=0 body=0.5623
+    MiscCommercial  = 0.5136  (|d-0.5|=0.0136)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.4944  (|d-0.5|=0.0056)
+
+
+
+--- miscindustrial (1 disagreements) ---
+  s_4663_jpg
+    ltn=1 clingo=0 body=0.5050
+    MiscIndustrial  = 0.4882  (|d-0.5|=0.0118)
+    Awning          = 0.0655  (|d-0.5|=0.4345)
+    Truck           = 1.0000  (|d-0.5|=0.5000)
+
+
+
+--- hotel (6 disagreements) ---
+  s_3543_jpg
+    ltn=1 clingo=0 body=0.5348
+    Hotel           = 0.6755  (|d-0.5|=0.1755)
+    WallSign        = 0.4449  (|d-0.5|=0.0551)
+  s_10050_jpg
+    ltn=1 clingo=0 body=0.5548
+    Hotel           = 0.5587  (|d-0.5|=0.0587)
+    WallSign        = 0.4475  (|d-0.5|=0.0525)
+  s_8199_jpg
+    ltn=1 clingo=0 body=0.5602
+    Hotel           = 0.5396  (|d-0.5|=0.0396)
+    WallSign        = 0.4781  (|d-0.5|=0.0219)
+  s_3129_jpg
+    ltn=1 clingo=0 body=0.5594
+    Hotel           = 0.5390  (|d-0.5|=0.0390)
+    WallSign        = 0.4686  (|d-0.5|=0.0314)
+  s_13635_jpg
+    ltn=1 clingo=0 body=0.5347
+    Hotel           = 0.7144  (|d-0.5|=0.2144)
+    WallSign        = 0.4628  (|d-0.5|=0.0372)
+  s_15414_jpg
+    ltn=1 clingo=0 body=0.5572
+    Hotel           = 0.5356  (|d-0.5|=0.0356)
+    WallSign        = 0.4418  (|d-0.5|=0.0582)
+
+
+
+--- watertreatment (1 disagreements) ---
+  s_13624_jpg
+    ltn=1 clingo=0 body=0.5053
+    WaterTreatment  = 0.9665  (|d-0.5|=0.4665)
+    Pipe            = 0.4970  (|d-0.5|=0.0030)
+    Truck           = 1.0000  (|d-0.5|=0.5000)

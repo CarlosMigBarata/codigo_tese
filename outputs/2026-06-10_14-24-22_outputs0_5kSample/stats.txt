@@ -1,0 +1,67 @@
+Results Description
+Number of examples: 15000
+Train/Test limit: 16000
+Max nbr of epochs: 120
+Complexity of the Dataset: 1
+Batch size: 32
+Learning rate: 0.00100
+Number of final classes: 12
+Number of concepts: 20
+[subset] using 5000/16000 train samples (stratified=True, seed=42)
+Number of epochs completed: 50
+Warmup epochs: 10; final_epochs: 30; constant_alpha: True;  patience: 15
+
+
+Model Architecture:
+CNN(
+  (conv1a): Conv2d(3, 8, kernel_size=(3, 3), stride=(1, 1))
+  (conv1b): Conv2d(8, 12, kernel_size=(3, 3), stride=(1, 1))
+  (conv2a): Conv2d(12, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2b): Conv2d(16, 24, kernel_size=(3, 3), stride=(1, 1))
+  (conv3a): Conv2d(24, 32, kernel_size=(3, 3), stride=(1, 1))
+  (maxpool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (dense1): Linear(in_features=20000, out_features=128, bias=True)
+  (dense2): Linear(in_features=128, out_features=64, bias=True)
+  (concept_layer): Linear(in_features=64, out_features=25, bias=True)
+  (output_layer): Linear(in_features=25, out_features=12, bias=True)
+)
+
+
+
+
+
+[subset] class positive rates:
+Cafe                0.2300
+Hotel               0.1950
+Restaurant          0.1118
+Store               0.1908
+MiscCommercial      0.1922
+Suburban            0.2270
+MiscResidential     0.2848
+CountryHouse        0.1424
+ConstructionSite    0.0956
+MiscIndustrial      0.1518
+PowerPlant          0.1746
+WaterTreatment      0.1480
+Residential         0.3420
+Commercial          0.3174
+Industrial          0.3406
+Door                0.6722
+Window              0.6688
+Awning              0.4660
+Billboard           0.1908
+Porch               0.2270
+Sign                0.2754
+Table               0.3156
+TiledRoof           0.3432
+TiledRoofTop        0.3204
+VendingMachine      0.1798
+WallSign            0.1950
+Statue              0.1086
+Chimney             0.2758
+Pipe                0.3104
+Machine             0.0956
+Truck               0.3210
+Car                 0.2366
