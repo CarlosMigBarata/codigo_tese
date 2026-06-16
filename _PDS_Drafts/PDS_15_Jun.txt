@@ -1,0 +1,7 @@
+Durante esta semana, estive a continuar a escrever o capitulo 4 e utilizar o feedback que o professor ricardo me deu.
+
+Em relação aos testes, descobri porque é que as vezes o modelo ficava "preso" a volta dos 0.467..., e não começava a apreender.
+Nestes casos, o modelo classifica para todos os casos que todas as classes estão falsas. isto leva a uns valores razoaveis, porque todas as classes aparecem muito mais vezes falsas do que verdadeiras.
+
+Para tentar mitigar isto, passei a usar pos_weight, que "castiga" proporcionalemte os casos em que o modelo classifica classe na imagem como falsa quando devia ser verdadeiro, baseando-se na proporção entre o numero de casos verdadeiros e falsos de cada classe.
+Para além disto, apenas continuei a testar com cada vez menores tamanhos no subset das imagens
