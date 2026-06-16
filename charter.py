@@ -124,11 +124,6 @@ def plot_all_metrics(metrics_to_plot, id):
 
 
 '''plots acrross runs'''
-
-
-
-
-
 def collect_final_metrics_from_runs(parent_folder):
     parent = Path(parent_folder)
 
