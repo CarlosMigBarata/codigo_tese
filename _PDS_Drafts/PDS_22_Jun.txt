@@ -1,0 +1,19 @@
+Durante esta semana, continuei a escrever o capitulo 4. apliquei o feedback que o professor ricardo, menos uma modificação no capitulo 4.4.2 (que agora é 4.4.4) que acabei por não ter tempo.
+Principalmente, gostaria de receber feedback sobre a estrutura deste capitulo. por exemplo, a primeira subseccao do 4.4, em que falo de como construou os axiomas no projeto, fazia sentido inicialmente, mas agora já não faz muito sentido estar no sitio onde está, e não sei bem para onde o mover.
+
+também não tenho a certeza de tudo o que devo falar aqui. eu ja falo dos objtivos, dataset, arquitetura, treino/integração do conhecimento (4.4), metricas, e dps vou falar das experiencias, e n sei se devo falar mais sobre estes temas, ou se devo focar noutros pontos
+
+Em relação ao codigo/testes, não fiz nenhuma alteração esta semana, e conctinuei a testar com diferentes tamanhos de subset.
+
+de momemento, testei (com o pos_weights) dataset de tamanho 12000, 8000, 4000, 3000, 1500 e 750. Ainda não compilei os resultados em graficos, porque ainda quero fazer para mais alguns tamanhos, mas para já estas são as minhas conclusões:
+
+O modelo quando é apenas treinado usando a classification loss tem sempre o menor validation classification loss, e por consecuencia o menor combined validation loss,
+o que mostra que a adicionar o conhecimento não é muito benefico, se apenas nos quisermos focar na classification de imagens.
+
+O que parece haver uma vantagem é no facto de, para subsets pequenos (3000, 1500, 750), o modelo sofre muito overfitting na parte da classifcação,
+mas na parte de satisfação de axiomas sofre muito menos.
+
+para o exemplo das 750 imagens de treino, para o teste com alpha 1.0 (só class loss), o modelo tinha 0.06 de train class loss, e 0.34 de val class loss. e está diferença vai aumentando mais,
+para o teste com alpha 0.2 a train class loss é 0.12 e a val class loss é 0.54. por outro lado, para o mesmo exemplo, a train satisfaction é 0.83, enquanto a val sat é 0.78.
+
+Não sei bem porque é que isto aconctece, pelo que gostaria de saber a opinião dos professores.
