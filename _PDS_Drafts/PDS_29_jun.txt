@@ -1,0 +1,6 @@
+fui ver as labels das imagens, para garantir que posso usar multiclass em vez BCE. Aparentemente, a imagem pode ser gerada com varias classes ao mesmo tempo,
+pelo q já não é possivel usar o multiclass.
+
+também testei treinar o modelo com 750 imagens e com uma camade intermedia entre o concept layer e o final layer, mas não houve nenuhuma mudança, e continua a haver uma perda na clasification loss com alpha mais pequeno.
+
+Continuei a re-escrever o capitulo 4, de momemto gostaria de feedback em relação as subseções 4.1, 4.2 e 4.3

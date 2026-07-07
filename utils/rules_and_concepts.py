@@ -276,32 +276,32 @@ def getClassesFromRules(all_concepts, axioms):
 
     return classes
 
-SUPER_CLASSES = [
-    "Building",
-    "Feature",
+SUPER_CLASS_MAPPING = {
+    "Commercial":  ["Cafe", "Hotel", "MiscCommercial", "Restaurant", "Store"],
+    "Industrial":  ["ConstructionSite", "MiscIndustrial", "PowerPlant", "WaterTreatment"],
+    "Residential": ["CountryHouse", "MiscResidential", "Suburban"],
+}
 
-    "Residential",
-    "Commercial",
-    "Industrial",
-]
+SUPER_CLASSES = ["Residential", "Commercial", "Industrial"]
 
-
-ALL_FINAL_CLASSES = [
+ALL_BUILDING_CLASSES = [
     "Cafe",
     "Hotel",
     "Restaurant",
     "Store",
     "MiscCommercial",
+
     "Suburban",
     "MiscResidential",
     "CountryHouse",
     "ConstructionSite",
+    
     "MiscIndustrial",
     "PowerPlant",
     "WaterTreatment"
 ]
 
-ALL_CLASSES = [
+ALL_LABELS = [
     #"Building",
     #"Feature",
 
@@ -346,9 +346,9 @@ ALL_CONCEPTS = [
     #"Building",
     #"Feature",
 
-    "Residential",
-    "Commercial",
-    "Industrial",
+    #"Residential",
+    #"Commercial",
+    #"Industrial",
 
     #nbr de vezes que aparece em todas as regras
     "Door", #1
@@ -389,7 +389,7 @@ def orderClassList(classes, all_final_classes, all_concepts):
     return final_classes , concepts, final_classes + concepts
 
 
-FINAL_CLASSES, CONCEPTS, CLASSES = orderClassList(getClassesFromRules(ALL_CLASSES, AXIOMS), ALL_FINAL_CLASSES, ALL_CONCEPTS)
+FINAL_CLASSES, CONCEPTS, CLASSES = orderClassList(getClassesFromRules(ALL_LABELS, AXIOMS), ALL_BUILDING_CLASSES, ALL_CONCEPTS)
 
 
 #print(f"classes in concepts and rules {CLASSES}")
@@ -398,11 +398,14 @@ FINAL_CLASSES, CONCEPTS, CLASSES = orderClassList(getClassesFromRules(ALL_CLASSE
 
 # metodos "publicos" 
 
-def get_all_final_classes():
-    return ALL_FINAL_CLASSES
+def get_super_class_mapping():
+    return SUPER_CLASS_MAPPING
+
+def get_all_building_classes():
+    return ALL_BUILDING_CLASSES
 
 def get_all_classes():
-    return ALL_CLASSES
+    return ALL_LABELS
 
 def get_classes():
     return CLASSES
@@ -459,7 +462,7 @@ def get_classes_in_axiom_by_name(rule_name):
     for element in rule:
         conceptsAndOperationsInRule.append(element.strip())
 
-    concepts = [c for c in ALL_CLASSES if c in conceptsAndOperationsInRule]
+    concepts = [c for c in ALL_LABELS if c in conceptsAndOperationsInRule]
 
     for c in concepts:
         if c not in classes:

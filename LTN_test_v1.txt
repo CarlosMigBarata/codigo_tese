@@ -1,0 +1,50 @@
+Este teste foi realizado usando a nova arquitetura, por isso já existe 3 layers de onde eu vou buscar informação para os LTNs.
+
+
+[SAT CHECK] ground truth mean sat: 0.9791
+
+Per-axiom satisfaction on ground truth:
+
+  building_impl_complex_val_accuracy      : 0.9995
+  building_no_car_truck_val_accuracy      : 0.9996
+  building_no_chimney_statue_val_accuracy : 0.9997
+  building_nodoorornowindow_impl_noawning_val_accuracy: 0.9996
+  commercial_val_accuracy                 : 0.9981
+  hotel_val_accuracy                      : 0.9990
+  store_val_accuracy                      : 0.9990
+  misccommercial_val_accuracy             : 0.9990
+  cafe_val_accuracy                       : 0.9988
+  restaurant_val_accuracy                 : 0.9989
+  industrial_val_accuracy                 : 0.9983
+  industrial_not_table_val_accuracy       : 0.9996
+  constructionsite_val_accuracy           : 0.9990
+  miscindustrial_val_accuracy             : 0.8614 <---- problema
+  powerplant_val_accuracy                 : 0.9991
+  watertreatment_val_accuracy             : 0.9991
+  residential_val_accuracy                : 0.9986
+  suburban_val_accuracy                   : 0.9990
+  countryhouse_val_accuracy               : 0.9991
+  miscresidential_val_accuracy            : 0.9989
+  residential_no_chimney_pipe_val_accuracy: 0.9994
+
+
+
+
+respetivo axioma
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(NOT(Awning), Truck))
+
+na pratica, este erros deve-se aos casos em que uma imagem que não está na super-classe industrial tem, devido ao seu axioma ou geração aleatoria, o truck presente.
+como o truck pode ser selecionado aletoriamente para qualquer classe, isso gera alguns erros em que o building não é industrial, por isso nao pode ser MiscIndustrial, mas respeita este axioma.
+
+a unica maneira de resolver este caso é refazer o dataset, ou não usar este axioma
+
+os valores dos axiomas não são exatamente 1 devido a maneira como eu fiz o calculate_axioms(). como eu internamente aplico o sigmoid, para evitar ter de refazer esta parte de raiz,
+eu simplesmente apliquei uma escala aos valores de 0 e 1. Neste exemplo, eu usei uma escala de 8.0, pelo que o 1 fica 8 e o 0 fica -8.
+
+
+aplicando sigmoid, 
+
+sigmoid(8) ≈ 0.9997 
+sigmoid(-8) ≈ 0.0003
+
+que basicamente funcionam como 1 ou 0.

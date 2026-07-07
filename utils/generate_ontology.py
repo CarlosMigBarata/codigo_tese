@@ -38,7 +38,7 @@ FEATURE_CLASSES = [
 
 #to remove possible duplicates, and maintain order. there shouldnt be any duplicates anyways
 BUILDING_CLASSES = list(dict.fromkeys(
-    rules_and_concepts.get_all_final_classes()
+    rules_and_concepts.get_all_building_classes()
     + rules_and_concepts.get_super_classes()
 ))
  

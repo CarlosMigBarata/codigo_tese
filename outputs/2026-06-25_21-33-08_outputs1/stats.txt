@@ -1,0 +1,58 @@
+Results Description
+Seed: 57177
+Number of examples: 20000
+Train/Test limit: 16000
+Max nbr of epochs: 120
+Validation Interval: 1
+Complexity of the Dataset: 1
+Batch size: 32
+Learning rate: 0.00010
+Number of final classes: 12
+Number of concepts: 20
+
+Number of epochs completed: 72
+Best epoch found: 57
+Warmup epochs: 10; final_epochs: 30; constant_alpha: True;  patience: 15.0
+
+
+Model Architecture:
+CNN(
+  (conv1a): Conv2d(3, 8, kernel_size=(3, 3), stride=(1, 1))
+  (conv1b): Conv2d(8, 12, kernel_size=(3, 3), stride=(1, 1))
+  (conv2a): Conv2d(12, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2b): Conv2d(16, 24, kernel_size=(3, 3), stride=(1, 1))
+  (conv3a): Conv2d(24, 32, kernel_size=(3, 3), stride=(1, 1))
+  (maxpool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (dense1): Linear(in_features=20000, out_features=128, bias=True)
+  (dense2): Linear(in_features=128, out_features=64, bias=True)
+  (concept_layer): Linear(in_features=64, out_features=25, bias=True)
+  (output_layer): Linear(in_features=25, out_features=12, bias=True)
+)
+
+
+
+========= ACTIVE RULES =========
+
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(NOT(Awning), Truck))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))

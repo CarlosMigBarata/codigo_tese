@@ -1,0 +1,86 @@
+durante esta semana, re-escrevi o capitulo até a seccão 4.4, e gostaria de receber feedback em relação ao que escrevi.
+
+tenho a arquitetura do modelo detalhada numa das seccoes do capitulo 4.
+
+Experimentei mudificar a arquitetura do modelo. as 3 super-classes (residential, industrial, commercial) são mutualmente exclusivas, e são identificadas no ultimo layer da rede.
+
+as building labels (cafe, hotel, loja, etc) são classificadas no penultimo layer, e podem aparecer varias, desde que sejam todas da mesma super-classe.
+
+o concept layer é o antepenultimo layer, e está igual, tirando o facto de já não ter as 3 super-classes.
+
+agora, a classification loss é a soma entre a classification loss das building labels e das super-classes. o dataset não tem uma label para estas super-classes, mas são derivadas pelas building labels.
+
+experimentei com esta estrutura, e adicionando 2 layers FC, um entre cada uma destas 3 camadas importantes, cujo o tamanho é valor intermédio entre os tamanhos das duas camadas.
+ambos os testes continuaram dar valores semelhantes aos valores antes destas mudanças:
+    quando o alpha é 1, a classificaiton loss é a volta dos 0.05-0.06.
+    quando o alpha é reduzido para 0.75, a classification loss mantem-se semelhante, mas a combined loss piora para 0.09 devido a satisfaction loss que fica em 0.2.
+    para alpha 0.5, a combined loss mantem-se nos 0.105, porque a classification loss aumenta para 0.7 e satisfaction loss diminui para 0.15
+    para alpha 0.25, a combined loss melhora ligeiramente para 0.1, com a classification loss aumenta para 0.08 e a satisfaction loss diminui para 0.1
+
+    estes valores seguem o mesmo padrão das anteriores.
+
+
+
+
+em relação ás validações dos LTNs, eu fiz um teste em que passei os valores das labels, 0 e 1s, diretamente para os LTNs.
+
+estes foram os resultados:
+
+
+
+Este teste foi realizado usando a nova arquitetura, por isso já existe 3 layers de onde eu vou buscar informação para os LTNs.
+
+
+[SAT CHECK] ground truth mean sat: 0.9791
+
+Per-axiom satisfaction on ground truth:
+
+  building_impl_complex_val_accuracy      : 0.9995
+  building_no_car_truck_val_accuracy      : 0.9996
+  building_no_chimney_statue_val_accuracy : 0.9997
+  building_nodoorornowindow_impl_noawning_val_accuracy: 0.9996
+  commercial_val_accuracy                 : 0.9981
+  hotel_val_accuracy                      : 0.9990
+  store_val_accuracy                      : 0.9990
+  misccommercial_val_accuracy             : 0.9990
+  cafe_val_accuracy                       : 0.9988
+  restaurant_val_accuracy                 : 0.9989
+  industrial_val_accuracy                 : 0.9983
+  industrial_not_table_val_accuracy       : 0.9996
+  constructionsite_val_accuracy           : 0.9990
+  miscindustrial_val_accuracy             : 0.8614 <---- problema
+  powerplant_val_accuracy                 : 0.9991
+  watertreatment_val_accuracy             : 0.9991
+  residential_val_accuracy                : 0.9986
+  suburban_val_accuracy                   : 0.9990
+  countryhouse_val_accuracy               : 0.9991
+  miscresidential_val_accuracy            : 0.9989
+  residential_no_chimney_pipe_val_accuracy: 0.9994
+
+
+
+
+respetivo axioma
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(NOT(Awning), Truck))
+
+na pratica, este erros deve-se aos casos em que uma imagem que não está na super-classe industrial tem, devido ao seu axioma ou geração aleatoria, o truck presente.
+como o truck pode ser selecionado aletoriamente para qualquer classe, isso gera alguns erros em que o building não é industrial, por isso nao pode ser MiscIndustrial, mas respeita este axioma.
+
+a unica maneira de resolver este caso é refazer o dataset, ou não usar este axioma
+
+os valores dos axiomas não são exatamente 1 devido a maneira como eu fiz o calculate_axioms(). como eu internamente aplico o sigmoid, para evitar ter de refazer esta parte de raiz,
+eu simplesmente apliquei uma escala aos valores de 0 e 1. Neste exemplo, eu usei uma escala de 8.0, pelo que o 1 fica 8 e o 0 fica -8.
+
+
+aplicando sigmoid, 
+
+sigmoid(8) ≈ 0.9997 
+sigmoid(-8) ≈ 0.0003
+
+que basicamente funcionam como 1 ou 0.
+
+
+
+
+tirando aquele axioma que falei, não vejo nenhum problema nos LTNs. eu ainda não tenho a certeza se vou deixar de usar esse axioma ou não.
+

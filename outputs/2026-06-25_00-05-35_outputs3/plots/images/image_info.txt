@@ -1,0 +1,2 @@
+relevant concepts: ['Suburban', 'MiscResidential', 'CountryHouse', 'Residential', 'Door', 'Window', 'Porch', 'TiledRoof', 'TiledRoofTop', 'Car'] for image 2
+relevant concepts: ['Suburban', 'MiscResidential', 'CountryHouse', 'Residential', 'Door', 'Window', 'Porch', 'TiledRoof', 'TiledRoofTop', 'Car'] for image 2

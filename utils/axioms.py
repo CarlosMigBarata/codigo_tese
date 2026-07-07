@@ -12,13 +12,19 @@ MainOperations = rules_and_concepts.MainOperations
 
 #print(f"classes in axioms.py {CLASSES}")
 
-list_of_final_classes = rules_and_concepts.get_all_final_classes()
+list_of_final_classes = rules_and_concepts.get_all_building_classes()
 final_classes = len(list_of_final_classes)
+vacuous_counts = {class_name: 0 for class_name in list_of_final_classes}
+
+def get_vac_counts(): return vacuous_counts
+#vacuous_counts_this_batch = False
+
+#def get_vacuous_counts(): return vacuous_counts
 
 CLASS_TO_IDX = {name: i for i, name in enumerate(CLASSES)}
 
 print(f"[DEBUG axioms] CLASS_TO_IDX: {CLASS_TO_IDX}")
-# Spot-check: first final class should be index 0
+# Spot-check: first final classdef get_vac should be index 0
 first_final = list_of_final_classes[0]
 assert CLASS_TO_IDX[first_final] == 0, \
     f"Expected {first_final} at index 0, got {CLASS_TO_IDX[first_final]}"
@@ -313,11 +319,18 @@ def get_masked_variable_and_append_predicates(logits, p, args, class_name, axiom
     x = ltn.Variable(f"x_{class_name}",logits[args[idx] == 1, :])
     x_not = ltn.Variable(f"x_not_{class_name}",logits[args[idx] == 0, :])
 
+    if x.value.shape[0] == 0:
+        vacuous_counts[class_name] += 1
+    if x_not.value.shape[0] == 0:
+        vacuous_counts[class_name] += 1
+
     p1 = safe_forall(x, p(x, cnst), device)
     p2 = safe_forall(x_not, Not(p(x_not, cnst)), device)
 
     axioms.append(p1)
     axioms.append(p2)
+
+    
 
 
 '''
