@@ -40,6 +40,10 @@ rule_CommercialBuildingType = {"left": "Commercial", "right": "OR(Cafe, Hotel, M
 rule_IndustrialBuildingType = {"left": "Industrial", "right": "OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment)", "main_op":  MainOperations.EQUIVALENCE}
 rule_ResidentialBuildingType = {"left": "Residential", "right": "OR(CountryHouse, MiscResidential, Suburban)", "main_op":  MainOperations.EQUIVALENCE}
 
+rule_CommercialRestrictions= {"left": "Commercial", "right":"OR(NOT(Machine), NOT(Pipe), NOT(Porch), NOT(TiledRoof))", "main_op": MainOperations.IMPLICATION }
+rule_IndustrialRestrictions= {"left": "Industrial", "right":"OR(NOT(WallSign), NOT(Billboard), NOT(Sign), NOT(Statue), NOT(VendingMachine), NOT(Porch), NOT(TiledRoof))", "main_op": MainOperations.IMPLICATION }
+rule_ResidentialRestrictions= {"left": "Residential", "right":"OR(NOT(WallSign), NOT(Billboard), NOT(Sign), NOT(Statue), NOT(VendingMachine), NOT(Machine))", "main_op": MainOperations.IMPLICATION }
+
 
 #rules related to final classes
 #when using the second rule, its necessary to place a placeholder in this first slot
@@ -54,7 +58,7 @@ rule_Suburban_Porch = {"left": "Suburban", "right": "Porch", "main_op":  MainOpe
 
 #conj
 rule_MiscCommercial_AwningAndTable = {"left": "MiscCommercial", "right": "AND(Awning, Table)", "main_op": MainOperations.EQUIVALENCE}
-rule_MiscIndustrial_notAwningAndTruck = {"left": "MiscIndustrial", "right": "AND(NOT(Awning), Truck)", "main_op":  MainOperations.EQUIVALENCE}
+rule_MiscIndustrial_notAwningAndTruck = {"left": "MiscIndustrial", "right": "AND(AND(NOT(Awning), Truck),NOT(Sign))", "main_op":  MainOperations.EQUIVALENCE}
 rule_CH_CarAndTiledroof = {"left": "CountryHouse", "right": "AND(Car, TiledRoof)", "main_op":  MainOperations.EQUIVALENCE}
 rule_PowerPlant_ChimneyAndPipe = {"left": "PowerPlant", "right": "AND(Chimney, Pipe)", "main_op":  MainOperations.EQUIVALENCE}
 rule_WaterTreatment_PipeAndTruck = {"left": "WaterTreatment", "right": "AND(Pipe, Truck)", "main_op":  MainOperations.EQUIVALENCE}
@@ -138,6 +142,10 @@ CLASSIC_ONTOLOGY = [
     {"axiom": rule_Building_Impl_not_CarAndTruck, "active": True, "name": "building_no_car_truck"},
     {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": True, "name": "building_no_chimney_statue"},
     {"axiom": rule_Building_noDoorOrNoWindow_Impl_noAwning, "active": True, "name": "building_noDoorOrNoWindow_Impl_noAwning"},
+
+    {"axiom": rule_CommercialRestrictions, "active":True, "name":"rule_CommercialRestrictions"},
+    {"axiom": rule_IndustrialRestrictions, "active":True, "name":"rule_IndustrialRestrictions"},
+    {"axiom": rule_ResidentialRestrictions, "active":True, "name":"rule_ResidentialRestrictions"},
 
 
     {"axiom": rule_CommercialBuildingType, "active": True, "name": "commercial"},

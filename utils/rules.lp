@@ -116,6 +116,137 @@ rule_not_holds(X, building_noDoorOrNoWindow_Impl_noAwning, left_holds_right_fail
 
 
 
+%starting rule rule_CommercialRestrictions
+rule(rule_CommercialRestrictions).
+
+left_holds(X, rule_CommercialRestrictions) :-
+    holds(X, commercial).
+
+right_holds(X, rule_CommercialRestrictions) :-
+    not holds(X, machine),
+    holds(X, building).
+
+right_holds(X, rule_CommercialRestrictions) :-
+    not holds(X, pipe),
+    holds(X, building).
+
+right_holds(X, rule_CommercialRestrictions) :-
+    not holds(X, porch),
+    holds(X, building).
+
+right_holds(X, rule_CommercialRestrictions) :-
+    not holds(X, tiledroof),
+    holds(X, building).
+
+rule_holds(X, rule_CommercialRestrictions) :- 
+    left_holds(X, rule_CommercialRestrictions), 
+    right_holds(X, rule_CommercialRestrictions).
+
+rule_vacuously_holds(X, rule_CommercialRestrictions) :- 
+    holds(X, building),
+    not left_holds(X, rule_CommercialRestrictions). 
+
+rule_not_holds(X, rule_CommercialRestrictions, left_holds_right_fails) :- 
+    left_holds(X, rule_CommercialRestrictions), 
+    not right_holds(X, rule_CommercialRestrictions).
+
+
+
+
+%starting rule rule_IndustrialRestrictions
+rule(rule_IndustrialRestrictions).
+
+left_holds(X, rule_IndustrialRestrictions) :-
+    holds(X, industrial).
+
+right_holds(X, rule_IndustrialRestrictions) :-
+    not holds(X, wallsign),
+    holds(X, building).
+
+right_holds(X, rule_IndustrialRestrictions) :-
+    not holds(X, billboard),
+    holds(X, building).
+
+right_holds(X, rule_IndustrialRestrictions) :-
+    not holds(X, sign),
+    holds(X, building).
+
+right_holds(X, rule_IndustrialRestrictions) :-
+    not holds(X, statue),
+    holds(X, building).
+
+right_holds(X, rule_IndustrialRestrictions) :-
+    not holds(X, vendingmachine),
+    holds(X, building).
+
+right_holds(X, rule_IndustrialRestrictions) :-
+    not holds(X, porch),
+    holds(X, building).
+
+right_holds(X, rule_IndustrialRestrictions) :-
+    not holds(X, tiledroof),
+    holds(X, building).
+
+rule_holds(X, rule_IndustrialRestrictions) :- 
+    left_holds(X, rule_IndustrialRestrictions), 
+    right_holds(X, rule_IndustrialRestrictions).
+
+rule_vacuously_holds(X, rule_IndustrialRestrictions) :- 
+    holds(X, building),
+    not left_holds(X, rule_IndustrialRestrictions). 
+
+rule_not_holds(X, rule_IndustrialRestrictions, left_holds_right_fails) :- 
+    left_holds(X, rule_IndustrialRestrictions), 
+    not right_holds(X, rule_IndustrialRestrictions).
+
+
+
+
+%starting rule rule_ResidentialRestrictions
+rule(rule_ResidentialRestrictions).
+
+left_holds(X, rule_ResidentialRestrictions) :-
+    holds(X, residential).
+
+right_holds(X, rule_ResidentialRestrictions) :-
+    not holds(X, wallsign),
+    holds(X, building).
+
+right_holds(X, rule_ResidentialRestrictions) :-
+    not holds(X, billboard),
+    holds(X, building).
+
+right_holds(X, rule_ResidentialRestrictions) :-
+    not holds(X, sign),
+    holds(X, building).
+
+right_holds(X, rule_ResidentialRestrictions) :-
+    not holds(X, statue),
+    holds(X, building).
+
+right_holds(X, rule_ResidentialRestrictions) :-
+    not holds(X, vendingmachine),
+    holds(X, building).
+
+right_holds(X, rule_ResidentialRestrictions) :-
+    not holds(X, machine),
+    holds(X, building).
+
+rule_holds(X, rule_ResidentialRestrictions) :- 
+    left_holds(X, rule_ResidentialRestrictions), 
+    right_holds(X, rule_ResidentialRestrictions).
+
+rule_vacuously_holds(X, rule_ResidentialRestrictions) :- 
+    holds(X, building),
+    not left_holds(X, rule_ResidentialRestrictions). 
+
+rule_not_holds(X, rule_ResidentialRestrictions, left_holds_right_fails) :- 
+    left_holds(X, rule_ResidentialRestrictions), 
+    not right_holds(X, rule_ResidentialRestrictions).
+
+
+
+
 %starting rule commercial
 rule(commercial).
 
@@ -411,7 +542,8 @@ left_holds(X, miscindustrial) :-
 
 right_holds(X, miscindustrial) :-
     not holds(X, awning),
-    holds(X, truck).
+    holds(X, truck),
+    not holds(X, sign).
 
 rule_holds(X, miscindustrial) :- 
     left_holds(X, miscindustrial), 
