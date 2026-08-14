@@ -326,11 +326,6 @@ ALL_LABELS = [
     "PowerPlant",
     "WaterTreatment",
 
-
-    "Residential",
-    "Commercial",
-    "Industrial",
-
     "Door",
     "Window",
     "Awning",
@@ -347,7 +342,12 @@ ALL_LABELS = [
     "Pipe",
     "Machine",
     "Truck",
-    "Car"
+    "Car",
+
+
+    "Residential",
+    "Commercial",
+    "Industrial",
 ]
 
 ALL_CONCEPTS = [

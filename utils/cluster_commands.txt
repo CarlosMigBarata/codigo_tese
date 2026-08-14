@@ -1,0 +1,13 @@
+
+
+res sync the files to the cluster
+
+rsync -avz -e "ssh -p 12034"   --exclude venv --exclude .git --exclude important_info --exclude outputs --exclude utils/interface  --exclude __pycache__ --exclude old_notebooks   ~/Desktop/codigo_tese/codigo_tese/   cm.barata@cluster.di.fct.unl.pt:~/codigo_tese/
+
+entrar no cluster
+ssh dicluster 
+
+
+cd ~/codigo_tese
+chmod +x setup_env.sh
+./setup_env.sh

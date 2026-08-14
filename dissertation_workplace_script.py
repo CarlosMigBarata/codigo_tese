@@ -1,5 +1,6 @@
 
 import math
+import time
 import ltn
 import numpy as np
 import pandas as pd
@@ -105,6 +106,9 @@ df = pd.read_csv(labels, index_col=0)
 df["id"] = df["id"].apply(lambda x: f"{x}.jpg")
 # CLASSES = df.columns.tolist()[1:]
 
+'''
+
+
 CLASSES = rules_and_concepts.get_all_classes() #era get_classes
 
 ALL_EXISTING_CLASSES = rules_and_concepts.get_all_classes()
@@ -130,6 +134,34 @@ print(f"[DEBUG] CLASSES order: {CLASSES}")
 print(f"[DEBUG] Building classes (first {building_classes}): {CLASSES[:building_classes]}")
 print(f"[DEBUG] Super classes (from {building_classes} to {super_classes_pos}): {CLASSES[building_classes:super_classes_pos]}")
 print(f"[DEBUG] Concept classes (after): {CLASSES[super_classes_pos:]}")
+
+
+'''
+
+CLASSES = rules_and_concepts.get_all_classes() #era get_classes
+
+ALL_EXISTING_CLASSES = rules_and_concepts.get_all_classes()
+ALL_CONCEPTS = rules_and_concepts.get_ALL_CONCEPTS()
+ALL_BUILDING_CLASSES = rules_and_concepts.get_all_building_classes()
+SUPER_CLASSES = rules_and_concepts.get_super_classes()
+
+building_classes = len(ALL_BUILDING_CLASSES)
+super_classes = len(rules_and_concepts.get_super_classes())
+concepts = len(ALL_CONCEPTS)
+
+
+concepts_pos = building_classes + concepts
+super_classes_pos = concepts_pos + super_classes
+
+
+assert CLASSES[:building_classes] == rules_and_concepts.get_all_building_classes(), \
+    f"Building classes mismatch: {CLASSES[:building_classes]}"
+assert len(CLASSES) <= building_classes + len(ALL_CONCEPTS) + 5, \
+    f"CLASSES too long for model output: {len(CLASSES)} vs {building_classes + len(ALL_CONCEPTS) + 5}"
+print(f"[DEBUG] CLASSES order: {CLASSES}")
+print(f"[DEBUG] Building classes (first {building_classes}): {CLASSES[:building_classes]}")
+print(f"[DEBUG] Concepts (from {building_classes} to {concepts_pos}): {CLASSES[building_classes:concepts_pos]}")
+print(f"[DEBUG] Super classes (after): {CLASSES[concepts_pos:]}")
 
 #print(f"final classes: {final_classes}, number of classes {len(CLASSES)}, CLASSES in main file: {CLASSES}")
 
@@ -368,10 +400,12 @@ class CNN(nn.Module):
         x = self.maxpool(x)
 
         x = F.leaky_relu(self.conv2a(x))
+        x = self.maxpool(x) #new
         x = F.leaky_relu(self.conv2b(x))
         x = self.maxpool(x)
         
         x = F.leaky_relu(self.conv3a(x))
+        #x = self.maxpool(x) #new
         x = F.leaky_relu(self.conv3b(x))
         x = self.maxpool(x)
 
@@ -386,15 +420,15 @@ class CNN(nn.Module):
         #x = self.dropout(x)
         #x = F.leaky_relu(self.dense2(x))
 
-        z = F.leaky_relu(self.concept_layer(x))
+        y = F.leaky_relu(self.concept_layer(x))
 
-        x = F.leaky_relu(self.suport_layer1(z))
+        x = F.leaky_relu(self.suport_layer1(y))
 
         x = F.leaky_relu(self.output_layer(x))#era z  
 
         x2 = F.leaky_relu(self.suport_layer2(x))
 
-        y = self.super_class_layer(x2)
+        z = self.super_class_layer(x2)
 
         result = torch.cat([x, y, z], dim=1)
         return result
@@ -485,7 +519,7 @@ def reset_model(in_channels, num_classes, seed=None):
     classification_loss_fn = nn.BCEWithLogitsLoss() #pos_weight=pos_weight
 
 
-    super_cols = CLASSES[building_classes:super_classes_pos]
+    super_cols = CLASSES[concepts_pos:]
     super_pos_counts = train_set_df[super_cols].sum()
     super_neg_counts = len(train_set_df) - super_pos_counts
     super_weights = (super_neg_counts / super_pos_counts.clip(lower=1)).values
@@ -602,14 +636,16 @@ conf_matrices.update({
 model steps
 
 '''
+
+
 def train_step(features_param, *labels_list, optimizer, logits_model, classification_loss_fn, super_loss_fn, p, alpha=0.5):
 
     if not hasattr(train_step, "_verified"):
         train_step._verified = True
         print(f"[DEBUG] labels_list length: {len(labels_list)}, final_classes: {building_classes}")
         print(f"[DEBUG] class labels map to: {CLASSES[:building_classes]}")
-        print(f"[DEBUG] super class labels map to: {CLASSES[building_classes:super_classes_pos]}")
-        print(f"[DEBUG] concept labels map to: {CLASSES[super_classes_pos:]}")
+        print(f"[DEBUG] concepts labels map to: {CLASSES[building_classes:concepts_pos]}")
+        print(f"[DEBUG] super class labels map to: {CLASSES[concepts_pos:]}")
         logits = logits_model(features_param)
         print(f"[DEBUG] logits shape: {logits.shape}, expected: [batch, {building_classes + min(len(ALL_CONCEPTS)+5, 48)}]")
 
@@ -617,7 +653,11 @@ def train_step(features_param, *labels_list, optimizer, logits_model, classifica
     logits_model.train()
     optimizer.zero_grad()
 
+    start = time.time()
     logits = logits_model(features_param)
+    end = time.time()
+
+    timeDifLogits = end-start
 
     # first 4 logits correspond to classes
 
@@ -625,8 +665,10 @@ def train_step(features_param, *labels_list, optimizer, logits_model, classifica
     #class_labels = torch.stack(labels_list[:building_classes], dim=1).float()
     #building_loss = classification_loss_fn(class_logits, class_labels)
 
-    super_class_logits = logits[:, building_classes:super_classes_pos]
-    super_class_labels = torch.stack(list(labels_list[building_classes:super_classes_pos]), dim=1).float()
+    startLTN = time.time()
+
+    super_class_logits = logits[:, concepts_pos:super_classes_pos]
+    super_class_labels = torch.stack(list(labels_list[concepts_pos:super_classes_pos]), dim=1).float()
 
     super_loss = super_loss_fn(super_class_logits, super_class_labels)
 
@@ -660,6 +702,14 @@ def train_step(features_param, *labels_list, optimizer, logits_model, classifica
     calculate_accuracy_for_each_class("train", logits, labels_list)
     update_confusion_matrix("train", logits.detach(), complete_lables_tensor, CLASSES, conf_matrices)
 
+    endLTN = time.time()
+
+    timeDifLTN = endLTN - startLTN
+
+    #print(f"logits time: {timeDifLogits}, timeLTN: {timeDifLTN}")
+
+    return timeDifLogits, timeDifLTN
+
 @torch.no_grad()
 def test_step(features_param, *labels_list, logits_model, classification_loss_fn, super_loss_fn, p, alpha=0.5):
     logits_model.eval()
@@ -670,8 +720,8 @@ def test_step(features_param, *labels_list, logits_model, classification_loss_fn
     class_labels = torch.stack(labels_list[:building_classes], dim=1).float()
     building_loss = classification_loss_fn(class_logits, class_labels)
 
-    super_class_logits = logits[:, building_classes:super_classes_pos]
-    super_class_labels = torch.stack(list(labels_list[building_classes:super_classes_pos]), dim=1).float()
+    super_class_logits = logits[:, concepts_pos:super_classes_pos]
+    super_class_labels = torch.stack(list(labels_list[concepts_pos:super_classes_pos]), dim=1).float()
     super_loss = super_loss_fn(super_class_logits, super_class_labels)
 
     classification_loss = super_loss
@@ -1328,7 +1378,7 @@ for i in range(0,3):
     if i ==2:
         starting_alpha = 0.1
     if i ==3:
-        starting_alpha = 1.0
+        starting_alpha = 0.0
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
 
