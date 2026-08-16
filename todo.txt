@@ -1,17 +1,8 @@
 
 
-verificar a comparação dos ltn vs clingo qnd nn concordam
-talvez fazer um simples script neste aspeto?
+ver da arquitetura do modelo. tirar os dropouts, adicionar camadas de convolucional
+por global pooling.
 
-Concrete example with product t-norm AND: two concepts with probabilities 0.55 and 0.55. 
-Clingo sees True ∧ True = True. LTN computes 0.55 × 0.55 = 0.30, which thresholds to False. 
+validar a ontologia, garantir que as super-classes sao mutualmente exclusivas
 
-
-tbm fazer o consistency validation para o train
-
-averiguar porque é que as implicações estao a ficar esquisitias para certos conceitos, mesmo identificar o problema
-
-
-experimentar com outras formulas, e posso escrever na tese sobre o meu codigo, desde que seja sucinto.
-talvez usar um diagrama? tbm devo mostrar a maneira como eu traduzo os axiomas em logica para o que eu uso no codigo 
-
+tirar as building labels da class loss
