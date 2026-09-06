@@ -25,10 +25,11 @@ def write_results_description_in_txt(txt_file, model, epochs_completed, warmup_e
     txt_file.write("Learning rate: %.5f\n" % constants.LEARNING_RATE)
     txt_file.write(f"Number of final classes: {final_classes}\n" )
     txt_file.write(f"Number of concepts: {len(CLASSES) - final_classes}\n" )
+    txt_file.write(f"trained with building predicates: {constants.BUILDING_PREDICATES}; trained with concept predicates: {constants.CONCEPT_PREDICATES}\n")
     if constants.TRAIN_WITH_A_SUBSET: txt_file.write(info_about_dataset)
     txt_file.write("\n")
 
-    txt_file.write(f"Number of epochs completed: {epochs_completed}\n")
+    txt_file.write(f"Number of epochs completed: {epochs_completed}/{constants.LIMIT}\n")
     txt_file.write(f"Best epoch found: {best_epoch}\n")
     txt_file.write(f"Warmup epochs: {warmup_epochs}; final_epochs: {final_epochs}; constant_alpha: {constant_alpha};  patience: {patience} cycles, total number of training epochs: {epochs_completed * constants.VALIDATION_INTERVAL}\n")
     if not constant_alpha: txt_file.write(f"staring alpha:{starting_alpha}; final alpha: {final_alpha};\n")
@@ -99,7 +100,7 @@ def write_conf_matrices_to_file(conf_matrices, txt_file):
             high_bias[key] = cm
 
     txt_file.write("\n\n\n")
-    txt_file.write("------------ HIGH BIAS METRICS --------\n")
+    txt_file.write("------------ HIGH BIAS METRICS --------------------------------------------------------------\n")
     for key, cm in high_bias.items():
         txt_file.write(f"{key} confusion matrix:\n{cm}\n")
         predicted_pos_rate, actual_pos_rate, bias, precision, recall, f1 = positive_rate_stats(cm)

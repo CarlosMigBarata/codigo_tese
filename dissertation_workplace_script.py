@@ -44,6 +44,14 @@ if len(sys.argv) < 2:
 
 RUN_NAME = sys.argv[1]
 
+if len(sys.argv) == 3:
+    SUBSET_SIZE = int(sys.argv[2])
+
+else:
+    SUBSET_SIZE = constants.SUBSET_SIZE
+
+
+print(f"subset size: {SUBSET_SIZE}")
 
 """ HYPERPARAMETERS """
 
@@ -65,7 +73,7 @@ MODEL_SAVING_INTERVAL = constants.MODEL_SAVING_INTERVAL
 DEBUG_MODE = constants.DEBUG_MODE
 
 TRAIN_WITH_A_SUBSET = constants.TRAIN_WITH_A_SUBSET
-SUBSET_SIZE = constants.SUBSET_SIZE
+#SUBSET_SIZE = constants.SUBSET_SIZE
 STRATIFY = constants.STRATIFY
 SUBSET_SEED = constants.SUBSET_SEED
 VALIDATION_INTERVAL = constants.VALIDATION_INTERVAL
@@ -106,37 +114,6 @@ df = pd.read_csv(labels, index_col=0)
 df["id"] = df["id"].apply(lambda x: f"{x}.jpg")
 # CLASSES = df.columns.tolist()[1:]
 
-'''
-
-
-CLASSES = rules_and_concepts.get_all_classes() #era get_classes
-
-ALL_EXISTING_CLASSES = rules_and_concepts.get_all_classes()
-ALL_CONCEPTS = rules_and_concepts.get_ALL_CONCEPTS()
-ALL_BUILDING_CLASSES = rules_and_concepts.get_all_building_classes()
-building_classes = len(ALL_BUILDING_CLASSES)
-super_classes = len(rules_and_concepts.get_super_classes())
-super_classes_pos = building_classes + super_classes
-
-SUPER_CLASS_MAPPING = rules_and_concepts.get_super_class_mapping()
-SUPER_CLASSES = rules_and_concepts.get_super_classes()
-
-super_class_member_indices = {
-    sc: [ALL_BUILDING_CLASSES.index(c) for c in members]
-    for sc, members in SUPER_CLASS_MAPPING.items()
-}
-
-assert CLASSES[:building_classes] == rules_and_concepts.get_all_building_classes(), \
-    f"Building classes mismatch: {CLASSES[:building_classes]}"
-assert len(CLASSES) <= building_classes + len(ALL_CONCEPTS) + 5, \
-    f"CLASSES too long for model output: {len(CLASSES)} vs {building_classes + len(ALL_CONCEPTS) + 5}"
-print(f"[DEBUG] CLASSES order: {CLASSES}")
-print(f"[DEBUG] Building classes (first {building_classes}): {CLASSES[:building_classes]}")
-print(f"[DEBUG] Super classes (from {building_classes} to {super_classes_pos}): {CLASSES[building_classes:super_classes_pos]}")
-print(f"[DEBUG] Concept classes (after): {CLASSES[super_classes_pos:]}")
-
-
-'''
 
 CLASSES = rules_and_concepts.get_all_classes() #era get_classes
 
@@ -157,7 +134,7 @@ super_classes_pos = concepts_pos + super_classes
 assert CLASSES[:building_classes] == rules_and_concepts.get_all_building_classes(), \
     f"Building classes mismatch: {CLASSES[:building_classes]}"
 assert len(CLASSES) <= building_classes + len(ALL_CONCEPTS) + 5, \
-    f"CLASSES too long for model output: {len(CLASSES)} vs {building_classes + len(ALL_CONCEPTS) + 5}"
+    f"CLASSES too long for model output: {len(CLASSES)} vs {building_classes + len(ALL_CONCEPTS)}"
 print(f"[DEBUG] CLASSES order: {CLASSES}")
 print(f"[DEBUG] Building classes (first {building_classes}): {CLASSES[:building_classes]}")
 print(f"[DEBUG] Concepts (from {building_classes} to {concepts_pos}): {CLASSES[building_classes:concepts_pos]}")
@@ -210,7 +187,10 @@ def stratified_subset(dataset, df, n, stratify_class, seed=42):
     pos = np.where(labels == 1)[0]
     neg = np.where(labels == 0)[0]
 
+
+
     pos_ratio = len(pos) / len(labels)
+    print(f"pos ratio: {pos_ratio}, n = {n}")
     n_pos = int(round(n * pos_ratio))
     n_neg = n - n_pos
 
@@ -293,7 +273,7 @@ class CNN(nn.Module):
 
         #nbr_of_concepts = len(CLASSES) - final_classes
 
-        nbr_of_neurons = min(len(ALL_CONCEPTS) + 5, 48)
+        nbr_of_neurons = min(len(ALL_CONCEPTS), 48) #tinha +5
 
         #layers #era 16,32,64
         self.conv1a = nn.Conv2d(in_channels=3, out_channels=8, kernel_size=3)
@@ -420,57 +400,25 @@ class CNN(nn.Module):
         #x = self.dropout(x)
         #x = F.leaky_relu(self.dense2(x))
 
-        y = F.leaky_relu(self.concept_layer(x))
+        concepts = self.concept_layer(x)
 
-        x = F.leaky_relu(self.suport_layer1(y))
+        concepts_activation = F.leaky_relu(concepts)
 
-        x = F.leaky_relu(self.output_layer(x))#era z  
+        x = F.leaky_relu(self.suport_layer1(concepts_activation))
 
-        x2 = F.leaky_relu(self.suport_layer2(x))
+        buildings = self.output_layer(x) #era z  
 
-        z = self.super_class_layer(x2)
+        buildings_activation = F.leaky_relu(buildings)
 
-        result = torch.cat([x, y, z], dim=1)
+        x2 = F.leaky_relu(self.suport_layer2(buildings_activation))
+
+        super_classes_activation = self.super_class_layer(x2)
+
+        result = torch.cat([buildings, concepts, super_classes_activation], dim=1)
         return result
 
       
-'''
-class CNN(nn.Module):
-    def __init__(self, in_channels, num_classes, name="cnn_model"):
-        super().__init__()
 
-        self.conv1 = nn.Conv2d(3, 16, 3)
-        self.conv2 = nn.Conv2d(16, 32, 3)
-        self.conv3 = nn.Conv2d(32, 64, 3)
-
-        self.pool = nn.MaxPool2d(2)
-
-        self.gap = nn.AdaptiveAvgPool2d((1,1))
-
-        self.fc1 = nn.Linear(64, 128)
-        self.fc2 = nn.Linear(128, 64)
-
-        self.concept_layer = nn.Linear(64, 32)
-        self.output_layer = nn.Linear(32, num_classes)
-
-    def forward(self, x):
-
-        x = self.pool(F.relu(self.conv1(x)))
-        x = self.pool(F.relu(self.conv2(x)))
-        x = self.pool(F.relu(self.conv3(x)))
-
-        x = self.gap(x)
-        x = torch.flatten(x, 1)
-
-        x = F.relu(self.fc1(x))
-        x = F.relu(self.fc2(x))
-
-        y = F.relu(self.concept_layer(x))
-        x = self.output_layer(y)
-
-        return torch.cat([x, y], dim=1)
-
-'''
 class PredicateModel(nn.Module):
     def __init__(self):
         super().__init__()
@@ -749,6 +697,19 @@ def test_step(features_param, *labels_list, logits_model, classification_loss_fn
 
 
 '''conf matrix '''
+
+@torch.no_grad()
+def record_conf_matrix_for_loader(logits_model, loader, phase, device):
+    logits_model.eval()
+    for batch_elements in loader:
+        features_param, labels_list = __get_elements_from_batch(batch_elements)
+        features_param = features_param.to(device)
+        labels_list = [lbl.to(device) for lbl in labels_list]
+        logits = logits_model(features_param)
+        complete_lables_tensor = torch.stack(labels_list, dim=1).float()
+        update_confusion_matrix(phase, logits, complete_lables_tensor, CLASSES, conf_matrices)
+
+
 
 def update_confusion_matrix(phase, logits, labels, class_names, conf_matrices):
     """
@@ -1313,6 +1274,13 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     print("training finished, starting to save the model")
     txt_file = open(txt_path, "w+")
     txt_file_final_results = open(txt_path_final_results, "w+")
+
+
+    logits_model.load_state_dict(torch.load(best_model_path))
+    reset_conf_matrices(conf_matrices)
+    record_conf_matrix_for_loader(logits_model, train_loader, "train", device)
+    record_conf_matrix_for_loader(logits_model, test_loader, "val", device)
+
     conf_matrix_file = open(conf_matrix_path, "w+")
     outputs_and_prints.write_results_description_in_txt(txt_file, logits_model, epochs_completed,warmup_epochs, final_epochs, final_alpha, starting_alpha, patience, constant_alpha, subset_class_pos_rates, info_about_dataset, seed, best_epoch, TRAIN_TEST_LIMIT)
     #txt_file.write("\n\n\n\n")
@@ -1352,7 +1320,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
 ensure_run_name_is_valid(run_name=RUN_NAME) #<-- crash if invalid name
  
-for i in range(0,3):
+for i in range(0,2):
     run_output_dir = Path("outputs") / Path(RUN_NAME) / f"run{i}_outputs"
 
     if (run_output_dir / "DONE").exists():
@@ -1372,13 +1340,12 @@ for i in range(0,3):
 
     starting_alpha = 1.0
     if i== 0:
-        starting_alpha = 1.0
+        starting_alpha = 0.8 #era 0.95
     if i ==1:
-        starting_alpha = 0.5
+        starting_alpha = 0.8
     if i ==2:
-        starting_alpha = 0.1
-    if i ==3:
-        starting_alpha = 0.0
+        starting_alpha = 0.5
+
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
 

@@ -1,0 +1,1754 @@
+
+
+========= ACTIVE RULES =========
+
+residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+
+
+========= CONISTENCY PER RULE =========
+
+residential_no_chimney_pipe | consistency=1.0000 | rule_holds=1340 | rule_vac_holds=2660 | violations=0 | total=4000
+
+cafe | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=1.0000 | rule_holds=1443 | rule_vac_holds=2557 | violations=0 | total=4000
+
+countryhouse | consistency=0.9978 | rule_holds=3991 | rule_vac_holds=0 | violations=9 | total=4000
+    - left_holds_right_fails: 9
+
+hotel | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+store | consistency=0.9992 | rule_holds=2649 | rule_vac_holds=1349 | violations=2 | total=4000
+    - left_holds_right_fails: 1
+    - left_fails_right_holds: 1
+
+watertreatment | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+building_impl_complex | consistency=0.7930 | rule_holds=3172 | rule_vac_holds=0 | violations=828 | total=4000
+    - left_holds_right_fails: 828
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+residential | consistency=0.3350 | rule_holds=1340 | rule_vac_holds=0 | violations=2660 | total=4000
+    - left_fails_right_holds: 2660
+
+restaurant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+commercial | consistency=0.4921 | rule_holds=1304 | rule_vac_holds=1350 | violations=1346 | total=4000
+    - left_fails_right_holds: 1346
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+industrial | consistency=0.9948 | rule_holds=1350 | rule_vac_holds=2643 | violations=7 | total=4000
+    - left_holds_right_fails: 6
+    - left_fails_right_holds: 1
+
+industrial_not_table | consistency=1.0000 | rule_holds=1356 | rule_vac_holds=2644 | violations=0 | total=4000
+
+suburban | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+building_no_car_truck | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+constructionsite | consistency=0.6195 | rule_holds=837 | rule_vac_holds=2649 | violations=514 | total=4000
+    - left_holds_right_fails: 514
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+miscresidential | consistency=0.9990 | rule_holds=3996 | rule_vac_holds=0 | violations=4 | total=4000
+    - left_fails_right_holds: 4
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+building_no_chimney_statue: 1.000
+industrial_not_table: 1.000
+building_no_car_truck: 1.000
+misccommercial      : 1.000
+watertreatment      : 1.000
+powerplant          : 1.000
+cafe                : 1.000
+hotel               : 1.000
+restaurant          : 1.000
+miscindustrial      : 0.999
+residential_no_chimney_pipe: 0.999
+building_nodoorornowindow_impl_noawning: 0.998
+suburban            : 0.997
+miscresidential     : 0.989
+industrial          : 0.984
+countryhouse        : 0.957
+constructionsite    : 0.721
+building_impl_complex: 0.715
+store               : 0.714
+commercial          : 0.708
+residential         : 0.188
+
+Axiom satisfaction: validation 
+
+building_no_chimney_statue: 1.000
+industrial_not_table: 1.000
+building_no_car_truck: 1.000
+misccommercial      : 1.000
+cafe                : 1.000
+powerplant          : 1.000
+watertreatment      : 1.000
+miscindustrial      : 0.999
+restaurant          : 0.999
+hotel               : 0.999
+residential_no_chimney_pipe: 0.999
+building_nodoorornowindow_impl_noawning: 0.997
+suburban            : 0.995
+industrial          : 0.984
+miscresidential     : 0.975
+countryhouse        : 0.946
+store               : 0.741
+building_impl_complex: 0.719
+constructionsite    : 0.713
+commercial          : 0.679
+residential         : 0.185
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+building_no_chimney_statue: {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial_not_table: {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_no_car_truck: {'agree': 4000, 'disagree': 0, 'missing': 0}
+misccommercial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+cafe                : {'agree': 4000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+watertreatment      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+restaurant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential_no_chimney_pipe: {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_nodoorornowindow_impl_noawning: {}
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 3995, 'disagree': 5, 'missing': 0}
+miscresidential     : {'agree': 4000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 4000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_impl_complex: {'agree': 3727, 'disagree': 273, 'missing': 0}
+constructionsite    : {'agree': 3998, 'disagree': 2, 'missing': 0}
+commercial          : {'agree': 3979, 'disagree': 21, 'missing': 0}
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- building_impl_complex (273 disagreements) ---
+  s_16003_jpg
+    ltn=1 clingo=0 body=0.5058
+    Machine         = 0.5164  (|d-0.5|=0.0164)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9570  (|d-0.5|=0.4570)
+  s_16009_jpg
+    ltn=1 clingo=0 body=0.5049
+    Machine         = 0.5038  (|d-0.5|=0.0038)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9827  (|d-0.5|=0.4827)
+  s_16024_jpg
+    ltn=1 clingo=0 body=0.5099
+    Machine         = 0.5452  (|d-0.5|=0.0452)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8990  (|d-0.5|=0.3990)
+  s_16030_jpg
+    ltn=1 clingo=0 body=0.5693
+    Machine         = 0.5837  (|d-0.5|=0.0837)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7380  (|d-0.5|=0.2380)
+  s_16033_jpg
+    ltn=1 clingo=0 body=0.5006
+    Machine         = 0.5096  (|d-0.5|=0.0096)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9799  (|d-0.5|=0.4799)
+  s_16039_jpg
+    ltn=1 clingo=0 body=0.5004
+    Machine         = 0.5007  (|d-0.5|=0.0007)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9977  (|d-0.5|=0.4977)
+  s_16066_jpg
+    ltn=1 clingo=0 body=0.5017
+    Machine         = 0.5006  (|d-0.5|=0.0006)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9954  (|d-0.5|=0.4954)
+  s_16084_jpg
+    ltn=1 clingo=0 body=0.5066
+    Machine         = 0.5029  (|d-0.5|=0.0029)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9810  (|d-0.5|=0.4810)
+  s_16096_jpg
+    ltn=1 clingo=0 body=0.5921
+    Machine         = 0.5828  (|d-0.5|=0.0828)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7000  (|d-0.5|=0.2000)
+  s_16111_jpg
+    ltn=1 clingo=0 body=0.5304
+    Machine         = 0.5765  (|d-0.5|=0.0765)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8146  (|d-0.5|=0.3146)
+  s_16129_jpg
+    ltn=1 clingo=0 body=0.5284
+    Machine         = 0.5838  (|d-0.5|=0.0838)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8079  (|d-0.5|=0.3079)
+  s_16135_jpg
+    ltn=1 clingo=0 body=0.5110
+    Machine         = 0.5752  (|d-0.5|=0.0752)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8502  (|d-0.5|=0.3502)
+  s_16141_jpg
+    ltn=1 clingo=0 body=0.5768
+    Machine         = 0.5876  (|d-0.5|=0.0876)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7202  (|d-0.5|=0.2202)
+  s_16147_jpg
+    ltn=1 clingo=0 body=0.6063  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5854  (|d-0.5|=0.0854)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6725  (|d-0.5|=0.1725)
+  s_16165_jpg
+    ltn=1 clingo=0 body=0.5163
+    Machine         = 0.5547  (|d-0.5|=0.0547)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8720  (|d-0.5|=0.3720)
+  s_16168_jpg
+    ltn=1 clingo=0 body=0.5024
+    Machine         = 0.5615  (|d-0.5|=0.0615)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8863  (|d-0.5|=0.3863)
+  s_16180_jpg
+    ltn=1 clingo=0 body=0.5521
+    Machine         = 0.5765  (|d-0.5|=0.0765)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7770  (|d-0.5|=0.2770)
+  s_16189_jpg
+    ltn=1 clingo=0 body=0.5031
+    Machine         = 0.5577  (|d-0.5|=0.0577)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8911  (|d-0.5|=0.3911)
+  s_16207_jpg
+    ltn=1 clingo=0 body=0.5083
+    Machine         = 0.5276  (|d-0.5|=0.0276)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9320  (|d-0.5|=0.4320)
+  s_16225_jpg
+    ltn=1 clingo=0 body=0.5824
+    Machine         = 0.5969  (|d-0.5|=0.0969)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6996  (|d-0.5|=0.1996)
+  s_16240_jpg
+    ltn=1 clingo=0 body=0.5650
+    Machine         = 0.6010  (|d-0.5|=0.1010)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7238  (|d-0.5|=0.2238)
+  s_16246_jpg
+    ltn=1 clingo=0 body=0.5007
+    Machine         = 0.5522  (|d-0.5|=0.0522)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9042  (|d-0.5|=0.4042)
+  s_16252_jpg
+    ltn=1 clingo=0 body=0.5009
+    Machine         = 0.5354  (|d-0.5|=0.0354)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9323  (|d-0.5|=0.4323)
+  s_16312_jpg
+    ltn=1 clingo=0 body=0.5216
+    Machine         = 0.5351  (|d-0.5|=0.0351)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8940  (|d-0.5|=0.3940)
+  s_16324_jpg
+    ltn=1 clingo=0 body=0.5100
+    Machine         = 0.5329  (|d-0.5|=0.0329)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9194  (|d-0.5|=0.4194)
+  s_16327_jpg
+    ltn=1 clingo=0 body=0.5129
+    Machine         = 0.5595  (|d-0.5|=0.0595)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8705  (|d-0.5|=0.3705)
+  s_16345_jpg
+    ltn=1 clingo=0 body=0.5280
+    Machine         = 0.5510  (|d-0.5|=0.0510)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8566  (|d-0.5|=0.3566)
+  s_16351_jpg
+    ltn=1 clingo=0 body=0.5057
+    Machine         = 0.5744  (|d-0.5|=0.0744)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8606  (|d-0.5|=0.3606)
+  s_16366_jpg
+    ltn=1 clingo=0 body=0.5036
+    Machine         = 0.5555  (|d-0.5|=0.0555)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8935  (|d-0.5|=0.3935)
+  s_16378_jpg
+    ltn=1 clingo=0 body=0.5363
+    Machine         = 0.5756  (|d-0.5|=0.0756)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8056  (|d-0.5|=0.3056)
+  s_16393_jpg
+    ltn=1 clingo=0 body=0.5154
+    Machine         = 0.5538  (|d-0.5|=0.0538)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8750  (|d-0.5|=0.3750)
+  s_16408_jpg
+    ltn=1 clingo=0 body=0.6490  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5941  (|d-0.5|=0.0941)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5909  (|d-0.5|=0.0909)
+  s_16411_jpg
+    ltn=1 clingo=0 body=0.6006  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5946  (|d-0.5|=0.0946)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6717  (|d-0.5|=0.1717)
+  s_16426_jpg
+    ltn=1 clingo=0 body=0.5030
+    Machine         = 0.5168  (|d-0.5|=0.0168)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9617  (|d-0.5|=0.4617)
+  s_16441_jpg
+    ltn=1 clingo=0 body=0.5009
+    Machine         = 0.5652  (|d-0.5|=0.0652)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8831  (|d-0.5|=0.3831)
+  s_16444_jpg
+    ltn=1 clingo=0 body=0.5178
+    Machine         = 0.5789  (|d-0.5|=0.0789)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8329  (|d-0.5|=0.3329)
+  s_16447_jpg
+    ltn=1 clingo=0 body=0.5325
+    Machine         = 0.5807  (|d-0.5|=0.0807)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8050  (|d-0.5|=0.3050)
+  s_16456_jpg
+    ltn=1 clingo=0 body=0.5272
+    Machine         = 0.5173  (|d-0.5|=0.0173)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9139  (|d-0.5|=0.4139)
+  s_16483_jpg
+    ltn=1 clingo=0 body=0.5029
+    Machine         = 0.5100  (|d-0.5|=0.0100)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9748  (|d-0.5|=0.4748)
+  s_16489_jpg
+    ltn=1 clingo=0 body=0.5537
+    Machine         = 0.5832  (|d-0.5|=0.0832)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7653  (|d-0.5|=0.2653)
+  s_16498_jpg
+    ltn=1 clingo=0 body=0.6481  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5988  (|d-0.5|=0.0988)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5876  (|d-0.5|=0.0876)
+  s_16510_jpg
+    ltn=1 clingo=0 body=0.5010
+    Machine         = 0.5535  (|d-0.5|=0.0535)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9014  (|d-0.5|=0.4014)
+  s_16519_jpg
+    ltn=1 clingo=0 body=0.6065  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5909  (|d-0.5|=0.0909)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6659  (|d-0.5|=0.1659)
+  s_16524_jpg
+    ltn=1 clingo=0 body=0.5718
+    Machine         = 0.5617  (|d-0.5|=0.0617)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7623  (|d-0.5|=0.2623)
+  s_16525_jpg
+    ltn=1 clingo=0 body=0.5203
+    Machine         = 0.5128  (|d-0.5|=0.0128)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9356  (|d-0.5|=0.4356)
+  s_16570_jpg
+    ltn=1 clingo=0 body=0.5042
+    Machine         = 0.5295  (|d-0.5|=0.0295)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9364  (|d-0.5|=0.4364)
+  s_16579_jpg
+    ltn=1 clingo=0 body=0.5010
+    Machine         = 0.5016  (|d-0.5|=0.0016)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9948  (|d-0.5|=0.4948)
+  s_16585_jpg
+    ltn=1 clingo=0 body=0.5138
+    Machine         = 0.5172  (|d-0.5|=0.0172)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9401  (|d-0.5|=0.4401)
+  s_16588_jpg
+    ltn=1 clingo=0 body=0.5032
+    Machine         = 0.5365  (|d-0.5|=0.0365)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9261  (|d-0.5|=0.4261)
+  s_16600_jpg
+    ltn=1 clingo=0 body=0.6566  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5954  (|d-0.5|=0.0954)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5767  (|d-0.5|=0.0767)
+  s_16603_jpg
+    ltn=1 clingo=0 body=0.5248
+    Machine         = 0.5627  (|d-0.5|=0.0627)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8445  (|d-0.5|=0.3445)
+  s_16648_jpg
+    ltn=1 clingo=0 body=0.6727  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5951  (|d-0.5|=0.0951)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5500  (|d-0.5|=0.0500)
+  s_16657_jpg
+    ltn=1 clingo=0 body=0.5010
+    Machine         = 0.5026  (|d-0.5|=0.0026)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9927  (|d-0.5|=0.4927)
+  s_16672_jpg
+    ltn=1 clingo=0 body=0.6303  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5720  (|d-0.5|=0.0720)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6463  (|d-0.5|=0.1463)
+  s_16699_jpg
+    ltn=1 clingo=0 body=0.5151
+    Machine         = 0.5482  (|d-0.5|=0.0482)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8845  (|d-0.5|=0.3845)
+  s_16711_jpg
+    ltn=1 clingo=0 body=0.5897
+    Machine         = 0.5747  (|d-0.5|=0.0747)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7140  (|d-0.5|=0.2140)
+  s_16720_jpg
+    ltn=1 clingo=0 body=0.5049
+    Machine         = 0.5676  (|d-0.5|=0.0676)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8722  (|d-0.5|=0.3722)
+  s_16726_jpg
+    ltn=1 clingo=0 body=0.5614
+    Machine         = 0.5878  (|d-0.5|=0.0878)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7461  (|d-0.5|=0.2461)
+  s_16738_jpg
+    ltn=1 clingo=0 body=0.5018
+    Machine         = 0.5110  (|d-0.5|=0.0110)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9750  (|d-0.5|=0.4750)
+  s_16747_jpg
+    ltn=1 clingo=0 body=0.5050
+    Machine         = 0.5041  (|d-0.5|=0.0041)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9819  (|d-0.5|=0.4819)
+  s_16750_jpg
+    ltn=1 clingo=0 body=0.5546
+    Machine         = 0.6440  (|d-0.5|=0.1440)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6915  (|d-0.5|=0.1915)
+  s_16759_jpg
+    ltn=1 clingo=0 body=0.5029
+    Machine         = 0.5003  (|d-0.5|=0.0003)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9936  (|d-0.5|=0.4936)
+  s_16765_jpg
+    ltn=1 clingo=0 body=0.5709
+    Machine         = 0.5776  (|d-0.5|=0.0776)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7428  (|d-0.5|=0.2428)
+  s_16777_jpg
+    ltn=1 clingo=0 body=0.5431
+    Machine         = 0.5778  (|d-0.5|=0.0778)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7907  (|d-0.5|=0.2907)
+  s_16804_jpg
+    ltn=1 clingo=0 body=0.5293
+    Machine         = 0.5762  (|d-0.5|=0.0762)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8170  (|d-0.5|=0.3170)
+  s_16807_jpg
+    ltn=1 clingo=0 body=0.5050
+    Machine         = 0.5484  (|d-0.5|=0.0484)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9027  (|d-0.5|=0.4027)
+  s_16819_jpg
+    ltn=1 clingo=0 body=0.5209
+    Machine         = 0.5494  (|d-0.5|=0.0494)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8722  (|d-0.5|=0.3722)
+  s_16834_jpg
+    ltn=1 clingo=0 body=0.5042
+    Machine         = 0.5144  (|d-0.5|=0.0144)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9639  (|d-0.5|=0.4639)
+  s_16837_jpg
+    ltn=1 clingo=0 body=0.5323
+    Machine         = 0.6082  (|d-0.5|=0.1082)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7690  (|d-0.5|=0.2690)
+  s_16858_jpg
+    ltn=1 clingo=0 body=0.6428  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5914  (|d-0.5|=0.0914)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6040  (|d-0.5|=0.1040)
+  s_16891_jpg
+    ltn=1 clingo=0 body=0.5017
+    Machine         = 0.5131  (|d-0.5|=0.0131)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9712  (|d-0.5|=0.4712)
+  s_16906_jpg
+    ltn=1 clingo=0 body=0.5030
+    Machine         = 0.5106  (|d-0.5|=0.0106)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9735  (|d-0.5|=0.4735)
+  s_16909_jpg
+    ltn=1 clingo=0 body=0.5347
+    Machine         = 0.5811  (|d-0.5|=0.0811)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8007  (|d-0.5|=0.3007)
+  s_16918_jpg
+    ltn=1 clingo=0 body=0.5206
+    Machine         = 0.5864  (|d-0.5|=0.0864)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8175  (|d-0.5|=0.3175)
+  s_16942_jpg
+    ltn=1 clingo=0 body=0.5297
+    Machine         = 0.5677  (|d-0.5|=0.0677)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8285  (|d-0.5|=0.3285)
+  s_16957_jpg
+    ltn=1 clingo=0 body=0.5201
+    Machine         = 0.5993  (|d-0.5|=0.0993)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8008  (|d-0.5|=0.3008)
+  s_16959_jpg
+    ltn=1 clingo=0 body=0.5034
+    Machine         = 0.5078  (|d-0.5|=0.0078)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9779  (|d-0.5|=0.4779)
+  s_16993_jpg
+    ltn=1 clingo=0 body=0.5182
+    Machine         = 0.5590  (|d-0.5|=0.0590)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8620  (|d-0.5|=0.3620)
+  s_16996_jpg
+    ltn=1 clingo=0 body=0.5104
+    Machine         = 0.5615  (|d-0.5|=0.0615)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8719  (|d-0.5|=0.3719)
+  s_17017_jpg
+    ltn=1 clingo=0 body=0.6455  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5839  (|d-0.5|=0.0839)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6071  (|d-0.5|=0.1071)
+  s_17032_jpg
+    ltn=1 clingo=0 body=0.5069
+    Machine         = 0.5296  (|d-0.5|=0.0296)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9311  (|d-0.5|=0.4311)
+  s_17044_jpg
+    ltn=1 clingo=0 body=0.5009
+    Machine         = 0.5023  (|d-0.5|=0.0023)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9935  (|d-0.5|=0.4935)
+  s_17056_jpg
+    ltn=1 clingo=0 body=0.5225
+    Machine         = 0.5582  (|d-0.5|=0.0582)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8553  (|d-0.5|=0.3553)
+  s_17068_jpg
+    ltn=1 clingo=0 body=0.5850
+    Machine         = 0.5779  (|d-0.5|=0.0779)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7180  (|d-0.5|=0.2180)
+  s_17080_jpg
+    ltn=1 clingo=0 body=0.5089
+    Machine         = 0.5392  (|d-0.5|=0.0392)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9108  (|d-0.5|=0.4108)
+  s_17095_jpg
+    ltn=1 clingo=0 body=0.5015
+    Machine         = 0.5129  (|d-0.5|=0.0129)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9719  (|d-0.5|=0.4719)
+  s_17098_jpg
+    ltn=1 clingo=0 body=0.5171
+    Machine         = 0.5709  (|d-0.5|=0.0709)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8459  (|d-0.5|=0.3459)
+  s_17110_jpg
+    ltn=1 clingo=0 body=0.5218
+    Machine         = 0.5463  (|d-0.5|=0.0463)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8753  (|d-0.5|=0.3753)
+  s_17122_jpg
+    ltn=1 clingo=0 body=0.6902  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.6014  (|d-0.5|=0.1014)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5151  (|d-0.5|=0.0151)
+  s_17128_jpg
+    ltn=1 clingo=0 body=0.5135
+    Machine         = 0.5122  (|d-0.5|=0.0122)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9498  (|d-0.5|=0.4498)
+  s_17191_jpg
+    ltn=1 clingo=0 body=0.5030
+    Machine         = 0.5098  (|d-0.5|=0.0098)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9747  (|d-0.5|=0.4747)
+  s_17203_jpg
+    ltn=1 clingo=0 body=0.5110
+    Machine         = 0.5560  (|d-0.5|=0.0560)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8796  (|d-0.5|=0.3796)
+  s_17221_jpg
+    ltn=1 clingo=0 body=0.6180  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.6012  (|d-0.5|=0.1012)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6353  (|d-0.5|=0.1353)
+  s_17229_jpg
+    ltn=1 clingo=0 body=0.6759  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5635  (|d-0.5|=0.0635)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5751  (|d-0.5|=0.0751)
+  s_17230_jpg
+    ltn=1 clingo=0 body=0.5379
+    Machine         = 0.5833  (|d-0.5|=0.0833)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7923  (|d-0.5|=0.2923)
+  s_17239_jpg
+    ltn=1 clingo=0 body=0.5538
+    Machine         = 0.5802  (|d-0.5|=0.0802)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7690  (|d-0.5|=0.2690)
+  s_17272_jpg
+    ltn=1 clingo=0 body=0.5167
+    Machine         = 0.5521  (|d-0.5|=0.0521)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8754  (|d-0.5|=0.3754)
+  s_17281_jpg
+    ltn=1 clingo=0 body=0.5617
+    Machine         = 0.5729  (|d-0.5|=0.0729)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7651  (|d-0.5|=0.2651)
+  s_17302_jpg
+    ltn=1 clingo=0 body=0.5293
+    Machine         = 0.5509  (|d-0.5|=0.0509)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8544  (|d-0.5|=0.3544)
+  s_17314_jpg
+    ltn=1 clingo=0 body=0.5298
+    Machine         = 0.5710  (|d-0.5|=0.0710)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8235  (|d-0.5|=0.3235)
+  s_17317_jpg
+    ltn=1 clingo=0 body=0.5028
+    Machine         = 0.5021  (|d-0.5|=0.0021)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9904  (|d-0.5|=0.4904)
+  s_17326_jpg
+    ltn=1 clingo=0 body=0.5221
+    Machine         = 0.5596  (|d-0.5|=0.0596)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8541  (|d-0.5|=0.3541)
+  s_17329_jpg
+    ltn=1 clingo=0 body=0.5150
+    Machine         = 0.5230  (|d-0.5|=0.0230)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9273  (|d-0.5|=0.4273)
+  s_17356_jpg
+    ltn=1 clingo=0 body=0.5005
+    Machine         = 0.5009  (|d-0.5|=0.0009)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9973  (|d-0.5|=0.4973)
+  s_17359_jpg
+    ltn=1 clingo=0 body=0.5167
+    Machine         = 0.5707  (|d-0.5|=0.0707)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8469  (|d-0.5|=0.3469)
+  s_17365_jpg
+    ltn=1 clingo=0 body=0.5130
+    Machine         = 0.5413  (|d-0.5|=0.0413)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8996  (|d-0.5|=0.3996)
+  s_17389_jpg
+    ltn=1 clingo=0 body=0.5218
+    Machine         = 0.5671  (|d-0.5|=0.0671)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8433  (|d-0.5|=0.3433)
+  s_17410_jpg
+    ltn=1 clingo=0 body=0.5235
+    Machine         = 0.5514  (|d-0.5|=0.0514)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8640  (|d-0.5|=0.3640)
+  s_17422_jpg
+    ltn=1 clingo=0 body=0.5143
+    Machine         = 0.5475  (|d-0.5|=0.0475)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8872  (|d-0.5|=0.3872)
+  s_17431_jpg
+    ltn=1 clingo=0 body=0.5400
+    Machine         = 0.5894  (|d-0.5|=0.0894)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7805  (|d-0.5|=0.2805)
+  s_17443_jpg
+    ltn=1 clingo=0 body=0.5016
+    Machine         = 0.5002  (|d-0.5|=0.0002)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9965  (|d-0.5|=0.4965)
+  s_17455_jpg
+    ltn=1 clingo=0 body=0.6485  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5912  (|d-0.5|=0.0912)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5946  (|d-0.5|=0.0946)
+  s_17458_jpg
+    ltn=1 clingo=0 body=0.5002
+    Machine         = 0.5021  (|d-0.5|=0.0021)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9954  (|d-0.5|=0.4954)
+  s_17491_jpg
+    ltn=1 clingo=0 body=0.5143
+    Machine         = 0.5726  (|d-0.5|=0.0726)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8481  (|d-0.5|=0.3481)
+  s_17500_jpg
+    ltn=1 clingo=0 body=0.5004
+    Machine         = 0.5546  (|d-0.5|=0.0546)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9009  (|d-0.5|=0.4009)
+  s_17506_jpg
+    ltn=1 clingo=0 body=0.5023
+    Machine         = 0.5637  (|d-0.5|=0.0637)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8830  (|d-0.5|=0.3830)
+  s_17590_jpg
+    ltn=1 clingo=0 body=0.5196
+    Machine         = 0.5132  (|d-0.5|=0.0132)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9360  (|d-0.5|=0.4360)
+  s_17602_jpg
+    ltn=1 clingo=0 body=0.5630
+    Machine         = 0.5861  (|d-0.5|=0.0861)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7456  (|d-0.5|=0.2456)
+  s_17620_jpg
+    ltn=1 clingo=0 body=0.5008
+    Machine         = 0.5000  (|d-0.5|=0.0000)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9984  (|d-0.5|=0.4984)
+  s_17629_jpg
+    ltn=1 clingo=0 body=0.5368
+    Machine         = 0.5862  (|d-0.5|=0.0862)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7902  (|d-0.5|=0.2902)
+  s_17638_jpg
+    ltn=1 clingo=0 body=0.5691
+    Machine         = 0.5683  (|d-0.5|=0.0683)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7582  (|d-0.5|=0.2582)
+  s_17656_jpg
+    ltn=1 clingo=0 body=0.5929
+    Machine         = 0.6006  (|d-0.5|=0.1006)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6779  (|d-0.5|=0.1779)
+  s_17683_jpg
+    ltn=1 clingo=0 body=0.5117
+    Machine         = 0.5007  (|d-0.5|=0.0007)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9752  (|d-0.5|=0.4752)
+  s_17698_jpg
+    ltn=1 clingo=0 body=0.5326
+    Machine         = 0.5555  (|d-0.5|=0.0555)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8414  (|d-0.5|=0.3414)
+  s_17716_jpg
+    ltn=1 clingo=0 body=0.5196
+    Machine         = 0.5736  (|d-0.5|=0.0736)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8376  (|d-0.5|=0.3376)
+  s_17728_jpg
+    ltn=1 clingo=0 body=0.5562
+    Machine         = 0.5885  (|d-0.5|=0.0885)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7542  (|d-0.5|=0.2542)
+  s_17734_jpg
+    ltn=1 clingo=0 body=0.5004
+    Machine         = 0.5143  (|d-0.5|=0.0143)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9714  (|d-0.5|=0.4714)
+  s_17737_jpg
+    ltn=1 clingo=0 body=0.5773
+    Machine         = 0.5815  (|d-0.5|=0.0815)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7269  (|d-0.5|=0.2269)
+  s_17758_jpg
+    ltn=1 clingo=0 body=0.5901
+    Machine         = 0.5830  (|d-0.5|=0.0830)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7030  (|d-0.5|=0.2030)
+  s_17782_jpg
+    ltn=1 clingo=0 body=0.5658
+    Machine         = 0.5829  (|d-0.5|=0.0829)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7449  (|d-0.5|=0.2449)
+  s_17785_jpg
+    ltn=1 clingo=0 body=0.5021
+    Machine         = 0.5005  (|d-0.5|=0.0005)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9948  (|d-0.5|=0.4948)
+  s_17797_jpg
+    ltn=1 clingo=0 body=0.5388
+    Machine         = 0.5627  (|d-0.5|=0.0627)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8196  (|d-0.5|=0.3196)
+  s_17806_jpg
+    ltn=1 clingo=0 body=0.5149
+    Machine         = 0.5560  (|d-0.5|=0.0560)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8724  (|d-0.5|=0.3724)
+  s_17815_jpg
+    ltn=1 clingo=0 body=0.5023
+    Machine         = 0.5014  (|d-0.5|=0.0014)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9927  (|d-0.5|=0.4927)
+  s_17821_jpg
+    ltn=1 clingo=0 body=0.5022
+    Machine         = 0.5235  (|d-0.5|=0.0235)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9508  (|d-0.5|=0.4508)
+  s_17845_jpg
+    ltn=1 clingo=0 body=0.5021
+    Machine         = 0.5036  (|d-0.5|=0.0036)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9886  (|d-0.5|=0.4886)
+  s_17854_jpg
+    ltn=1 clingo=0 body=0.6430  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.6005  (|d-0.5|=0.1005)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5945  (|d-0.5|=0.0945)
+  s_17884_jpg
+    ltn=1 clingo=0 body=0.6153  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5939  (|d-0.5|=0.0939)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6478  (|d-0.5|=0.1478)
+  s_17896_jpg
+    ltn=1 clingo=0 body=0.5558
+    Machine         = 0.5878  (|d-0.5|=0.0878)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7556  (|d-0.5|=0.2556)
+  s_17902_jpg
+    ltn=1 clingo=0 body=0.5108
+    Machine         = 0.6107  (|d-0.5|=0.1107)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8010  (|d-0.5|=0.3010)
+  s_17917_jpg
+    ltn=1 clingo=0 body=0.5941
+    Machine         = 0.5892  (|d-0.5|=0.0892)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6890  (|d-0.5|=0.1890)
+  s_17926_jpg
+    ltn=1 clingo=0 body=0.5010
+    Machine         = 0.5697  (|d-0.5|=0.0697)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8758  (|d-0.5|=0.3758)
+  s_17935_jpg
+    ltn=1 clingo=0 body=0.5141
+    Machine         = 0.5113  (|d-0.5|=0.0113)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9502  (|d-0.5|=0.4502)
+  s_17980_jpg
+    ltn=1 clingo=0 body=0.5104
+    Machine         = 0.5499  (|d-0.5|=0.0499)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8903  (|d-0.5|=0.3903)
+  s_18013_jpg
+    ltn=1 clingo=0 body=0.6367  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.6012  (|d-0.5|=0.1012)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6042  (|d-0.5|=0.1042)
+  s_18019_jpg
+    ltn=1 clingo=0 body=0.5030
+    Machine         = 0.5429  (|d-0.5|=0.0429)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9155  (|d-0.5|=0.4155)
+  s_18046_jpg
+    ltn=1 clingo=0 body=0.5142
+    Machine         = 0.5899  (|d-0.5|=0.0899)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8235  (|d-0.5|=0.3235)
+  s_18094_jpg
+    ltn=1 clingo=0 body=0.5076
+    Machine         = 0.6226  (|d-0.5|=0.1226)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7908  (|d-0.5|=0.2908)
+  s_18115_jpg
+    ltn=1 clingo=0 body=0.5836
+    Machine         = 0.6094  (|d-0.5|=0.1094)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6833  (|d-0.5|=0.1833)
+  s_18139_jpg
+    ltn=1 clingo=0 body=0.5877
+    Machine         = 0.5813  (|d-0.5|=0.0813)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7093  (|d-0.5|=0.2093)
+  s_18184_jpg
+    ltn=1 clingo=0 body=0.5082
+    Machine         = 0.5602  (|d-0.5|=0.0602)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8780  (|d-0.5|=0.3780)
+  s_18208_jpg
+    ltn=1 clingo=0 body=0.5167
+    Machine         = 0.5610  (|d-0.5|=0.0610)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8616  (|d-0.5|=0.3616)
+  s_18214_jpg
+    ltn=1 clingo=0 body=0.5513
+    Machine         = 0.5731  (|d-0.5|=0.0731)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7829  (|d-0.5|=0.2829)
+  s_18262_jpg
+    ltn=1 clingo=0 body=0.5103
+    Machine         = 0.5689  (|d-0.5|=0.0689)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8608  (|d-0.5|=0.3608)
+  s_18265_jpg
+    ltn=1 clingo=0 body=0.5025
+    Machine         = 0.5555  (|d-0.5|=0.0555)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8956  (|d-0.5|=0.3956)
+  s_18268_jpg
+    ltn=1 clingo=0 body=0.5392
+    Machine         = 0.5973  (|d-0.5|=0.0973)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7714  (|d-0.5|=0.2714)
+  s_18274_jpg
+    ltn=1 clingo=0 body=0.5053
+    Machine         = 0.5311  (|d-0.5|=0.0311)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9315  (|d-0.5|=0.4315)
+  s_18298_jpg
+    ltn=1 clingo=0 body=0.5358
+    Machine         = 0.5774  (|d-0.5|=0.0774)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8040  (|d-0.5|=0.3040)
+  s_18310_jpg
+    ltn=1 clingo=0 body=0.5011
+    Machine         = 0.5597  (|d-0.5|=0.0597)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8914  (|d-0.5|=0.3914)
+  s_18316_jpg
+    ltn=1 clingo=0 body=0.5172
+    Machine         = 0.5457  (|d-0.5|=0.0457)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8847  (|d-0.5|=0.3847)
+  s_18319_jpg
+    ltn=1 clingo=0 body=0.5083
+    Machine         = 0.6204  (|d-0.5|=0.1204)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7925  (|d-0.5|=0.2925)
+  s_18325_jpg
+    ltn=1 clingo=0 body=0.5507
+    Machine         = 0.5653  (|d-0.5|=0.0653)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7948  (|d-0.5|=0.2948)
+  s_18388_jpg
+    ltn=1 clingo=0 body=0.5075
+    Machine         = 0.5471  (|d-0.5|=0.0471)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9003  (|d-0.5|=0.4003)
+  s_18391_jpg
+    ltn=1 clingo=0 body=0.6117  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5936  (|d-0.5|=0.0936)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6543  (|d-0.5|=0.1543)
+  s_18445_jpg
+    ltn=1 clingo=0 body=0.5587
+    Machine         = 0.5886  (|d-0.5|=0.0886)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7497  (|d-0.5|=0.2497)
+  s_18451_jpg
+    ltn=1 clingo=0 body=0.5539
+    Machine         = 0.5389  (|d-0.5|=0.0389)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8277  (|d-0.5|=0.3277)
+  s_18454_jpg
+    ltn=1 clingo=0 body=0.5382
+    Machine         = 0.5747  (|d-0.5|=0.0747)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8035  (|d-0.5|=0.3035)
+  s_18469_jpg
+    ltn=1 clingo=0 body=0.5599
+    Machine         = 0.5735  (|d-0.5|=0.0735)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7673  (|d-0.5|=0.2673)
+  s_18481_jpg
+    ltn=1 clingo=0 body=0.5830
+    Machine         = 0.5793  (|d-0.5|=0.0793)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7199  (|d-0.5|=0.2199)
+  s_18490_jpg
+    ltn=1 clingo=0 body=0.6270  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.6005  (|d-0.5|=0.1005)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6211  (|d-0.5|=0.1211)
+  s_18508_jpg
+    ltn=1 clingo=0 body=0.5362
+    Machine         = 0.5271  (|d-0.5|=0.0271)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8798  (|d-0.5|=0.3798)
+  s_18511_jpg
+    ltn=1 clingo=0 body=0.5573
+    Machine         = 0.5811  (|d-0.5|=0.0811)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7619  (|d-0.5|=0.2619)
+  s_18514_jpg
+    ltn=1 clingo=0 body=0.5942
+    Machine         = 0.5846  (|d-0.5|=0.0846)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6941  (|d-0.5|=0.1941)
+  s_18523_jpg
+    ltn=1 clingo=0 body=0.5024
+    Machine         = 0.5429  (|d-0.5|=0.0429)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9165  (|d-0.5|=0.4165)
+  s_18535_jpg
+    ltn=1 clingo=0 body=0.5511
+    Machine         = 0.5925  (|d-0.5|=0.0925)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7576  (|d-0.5|=0.2576)
+  s_18538_jpg
+    ltn=1 clingo=0 body=0.5462
+    Machine         = 0.5788  (|d-0.5|=0.0788)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7840  (|d-0.5|=0.2840)
+  s_18544_jpg
+    ltn=1 clingo=0 body=0.5258
+    Machine         = 0.5900  (|d-0.5|=0.0900)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8036  (|d-0.5|=0.3036)
+  s_18559_jpg
+    ltn=1 clingo=0 body=0.5611
+    Machine         = 0.6246  (|d-0.5|=0.1246)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7027  (|d-0.5|=0.2027)
+  s_18565_jpg
+    ltn=1 clingo=0 body=0.5043
+    Machine         = 0.5816  (|d-0.5|=0.0816)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8524  (|d-0.5|=0.3524)
+  s_18574_jpg
+    ltn=1 clingo=0 body=0.5294
+    Machine         = 0.5870  (|d-0.5|=0.0870)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8017  (|d-0.5|=0.3017)
+  s_18589_jpg
+    ltn=1 clingo=0 body=0.5143
+    Machine         = 0.5863  (|d-0.5|=0.0863)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8285  (|d-0.5|=0.3285)
+  s_18604_jpg
+    ltn=1 clingo=0 body=0.6037  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5730  (|d-0.5|=0.0730)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6916  (|d-0.5|=0.1916)
+  s_18640_jpg
+    ltn=1 clingo=0 body=0.5033
+    Machine         = 0.5501  (|d-0.5|=0.0501)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9028  (|d-0.5|=0.4028)
+  s_18646_jpg
+    ltn=1 clingo=0 body=0.5476
+    Machine         = 0.5973  (|d-0.5|=0.0973)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7574  (|d-0.5|=0.2574)
+  s_18649_jpg
+    ltn=1 clingo=0 body=0.5397
+    Machine         = 0.5818  (|d-0.5|=0.0818)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7910  (|d-0.5|=0.2910)
+  s_18652_jpg
+    ltn=1 clingo=0 body=0.5938
+    Machine         = 0.5818  (|d-0.5|=0.0818)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6981  (|d-0.5|=0.1981)
+  s_18712_jpg
+    ltn=1 clingo=0 body=0.6021  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5767  (|d-0.5|=0.0767)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6900  (|d-0.5|=0.1900)
+  s_18715_jpg
+    ltn=1 clingo=0 body=0.5045
+    Machine         = 0.5706  (|d-0.5|=0.0706)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8683  (|d-0.5|=0.3683)
+  s_18730_jpg
+    ltn=1 clingo=0 body=0.5258
+    Machine         = 0.5833  (|d-0.5|=0.0833)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8130  (|d-0.5|=0.3130)
+  s_18775_jpg
+    ltn=1 clingo=0 body=0.5834
+    Machine         = 0.5756  (|d-0.5|=0.0756)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7239  (|d-0.5|=0.2239)
+  s_18784_jpg
+    ltn=1 clingo=0 body=0.5621
+    Machine         = 0.5726  (|d-0.5|=0.0726)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7647  (|d-0.5|=0.2647)
+  s_18793_jpg
+    ltn=1 clingo=0 body=0.5149
+    Machine         = 0.5704  (|d-0.5|=0.0704)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8503  (|d-0.5|=0.3503)
+  s_18805_jpg
+    ltn=1 clingo=0 body=0.5071
+    Machine         = 0.5019  (|d-0.5|=0.0019)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9820  (|d-0.5|=0.4820)
+  s_18808_jpg
+    ltn=1 clingo=0 body=0.5100
+    Machine         = 0.5760  (|d-0.5|=0.0760)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8507  (|d-0.5|=0.3507)
+  s_18811_jpg
+    ltn=1 clingo=0 body=0.5025
+    Machine         = 0.5013  (|d-0.5|=0.0013)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9923  (|d-0.5|=0.4923)
+  s_18817_jpg
+    ltn=1 clingo=0 body=0.5283
+    Machine         = 0.5506  (|d-0.5|=0.0506)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8566  (|d-0.5|=0.3566)
+  s_18841_jpg
+    ltn=1 clingo=0 body=0.5024
+    Machine         = 0.5457  (|d-0.5|=0.0457)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9119  (|d-0.5|=0.4119)
+  s_18847_jpg
+    ltn=1 clingo=0 body=0.5014
+    Machine         = 0.5008  (|d-0.5|=0.0008)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9956  (|d-0.5|=0.4956)
+  s_18880_jpg
+    ltn=1 clingo=0 body=0.5449
+    Machine         = 0.5795  (|d-0.5|=0.0795)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7853  (|d-0.5|=0.2853)
+  s_18913_jpg
+    ltn=1 clingo=0 body=0.5612
+    Machine         = 0.5546  (|d-0.5|=0.0546)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7912  (|d-0.5|=0.2912)
+  s_18940_jpg
+    ltn=1 clingo=0 body=0.5435
+    Machine         = 0.5761  (|d-0.5|=0.0761)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7924  (|d-0.5|=0.2924)
+  s_18952_jpg
+    ltn=1 clingo=0 body=0.5567
+    Machine         = 0.5738  (|d-0.5|=0.0738)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7725  (|d-0.5|=0.2725)
+  s_18958_jpg
+    ltn=1 clingo=0 body=0.5165
+    Machine         = 0.5741  (|d-0.5|=0.0741)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8423  (|d-0.5|=0.3423)
+  s_18985_jpg
+    ltn=1 clingo=0 body=0.5022
+    Machine         = 0.5301  (|d-0.5|=0.0301)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9390  (|d-0.5|=0.4390)
+  s_18994_jpg
+    ltn=1 clingo=0 body=0.5149
+    Machine         = 0.5560  (|d-0.5|=0.0560)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8724  (|d-0.5|=0.3724)
+  s_18997_jpg
+    ltn=1 clingo=0 body=0.5314
+    Machine         = 0.6218  (|d-0.5|=0.1218)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7536  (|d-0.5|=0.2536)
+  s_19000_jpg
+    ltn=1 clingo=0 body=0.5210
+    Machine         = 0.5210  (|d-0.5|=0.0210)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9194  (|d-0.5|=0.4194)
+  s_19011_jpg
+    ltn=1 clingo=0 body=0.5197
+    Machine         = 0.5330  (|d-0.5|=0.0330)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9010  (|d-0.5|=0.4010)
+  s_19033_jpg
+    ltn=1 clingo=0 body=0.5017
+    Machine         = 0.5272  (|d-0.5|=0.0272)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9452  (|d-0.5|=0.4452)
+  s_19063_jpg
+    ltn=1 clingo=0 body=0.5243
+    Machine         = 0.5222  (|d-0.5|=0.0222)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9109  (|d-0.5|=0.4109)
+  s_19084_jpg
+    ltn=1 clingo=0 body=0.5031
+    Machine         = 0.5050  (|d-0.5|=0.0050)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9838  (|d-0.5|=0.4838)
+  s_19087_jpg
+    ltn=1 clingo=0 body=0.5256
+    Machine         = 0.6105  (|d-0.5|=0.1105)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7770  (|d-0.5|=0.2770)
+  s_19090_jpg
+    ltn=1 clingo=0 body=0.5119
+    Machine         = 0.5647  (|d-0.5|=0.0647)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8643  (|d-0.5|=0.3643)
+  s_19093_jpg
+    ltn=1 clingo=0 body=0.6328  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5693  (|d-0.5|=0.0693)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6450  (|d-0.5|=0.1450)
+  s_19099_jpg
+    ltn=1 clingo=0 body=0.5245
+    Machine         = 0.5837  (|d-0.5|=0.0837)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8147  (|d-0.5|=0.3147)
+  s_19105_jpg
+    ltn=1 clingo=0 body=0.5031
+    Machine         = 0.5002  (|d-0.5|=0.0002)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9935  (|d-0.5|=0.4935)
+  s_19108_jpg
+    ltn=1 clingo=0 body=0.6441  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5950  (|d-0.5|=0.0950)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5982  (|d-0.5|=0.0982)
+  s_19129_jpg
+    ltn=1 clingo=0 body=0.5305
+    Machine         = 0.5921  (|d-0.5|=0.0921)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7930  (|d-0.5|=0.2930)
+  s_19135_jpg
+    ltn=1 clingo=0 body=0.5045
+    Machine         = 0.5113  (|d-0.5|=0.0113)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9691  (|d-0.5|=0.4691)
+  s_19153_jpg
+    ltn=1 clingo=0 body=0.5096
+    Machine         = 0.5661  (|d-0.5|=0.0661)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8663  (|d-0.5|=0.3663)
+  s_19171_jpg
+    ltn=1 clingo=0 body=0.5091
+    Machine         = 0.5016  (|d-0.5|=0.0016)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9788  (|d-0.5|=0.4788)
+  s_19174_jpg
+    ltn=1 clingo=0 body=0.5014
+    Machine         = 0.5004  (|d-0.5|=0.0004)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9963  (|d-0.5|=0.4963)
+  s_19198_jpg
+    ltn=1 clingo=0 body=0.5217
+    Machine         = 0.5404  (|d-0.5|=0.0404)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8851  (|d-0.5|=0.3851)
+  s_19204_jpg
+    ltn=1 clingo=0 body=0.5208
+    Machine         = 0.5907  (|d-0.5|=0.0907)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8112  (|d-0.5|=0.3112)
+  s_19225_jpg
+    ltn=1 clingo=0 body=0.5624
+    Machine         = 0.5779  (|d-0.5|=0.0779)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7573  (|d-0.5|=0.2573)
+  s_19255_jpg
+    ltn=1 clingo=0 body=0.5565
+    Machine         = 0.5729  (|d-0.5|=0.0729)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7741  (|d-0.5|=0.2741)
+  s_19264_jpg
+    ltn=1 clingo=0 body=0.5004
+    Machine         = 0.5000  (|d-0.5|=0.0000)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9991  (|d-0.5|=0.4991)
+  s_19294_jpg
+    ltn=1 clingo=0 body=0.5081
+    Machine         = 0.5576  (|d-0.5|=0.0576)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8822  (|d-0.5|=0.3822)
+  s_19312_jpg
+    ltn=1 clingo=0 body=0.5866
+    Machine         = 0.5939  (|d-0.5|=0.0939)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6961  (|d-0.5|=0.1961)
+  s_19321_jpg
+    ltn=1 clingo=0 body=0.5143
+    Machine         = 0.5816  (|d-0.5|=0.0816)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8351  (|d-0.5|=0.3351)
+  s_19351_jpg
+    ltn=1 clingo=0 body=0.5863
+    Machine         = 0.5945  (|d-0.5|=0.0945)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6959  (|d-0.5|=0.1959)
+  s_19363_jpg
+    ltn=1 clingo=0 body=0.5560
+    Machine         = 0.5791  (|d-0.5|=0.0791)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7666  (|d-0.5|=0.2666)
+  s_19393_jpg
+    ltn=1 clingo=0 body=0.5241
+    Machine         = 0.5920  (|d-0.5|=0.0920)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8039  (|d-0.5|=0.3039)
+  s_19399_jpg
+    ltn=1 clingo=0 body=0.5027
+    Machine         = 0.5323  (|d-0.5|=0.0323)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9343  (|d-0.5|=0.4343)
+  s_19411_jpg
+    ltn=1 clingo=0 body=0.5512
+    Machine         = 0.5505  (|d-0.5|=0.0505)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8153  (|d-0.5|=0.3153)
+  s_19423_jpg
+    ltn=1 clingo=0 body=0.5917
+    Machine         = 0.5905  (|d-0.5|=0.0905)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6915  (|d-0.5|=0.1915)
+  s_19441_jpg
+    ltn=1 clingo=0 body=0.5140
+    Machine         = 0.5341  (|d-0.5|=0.0341)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9100  (|d-0.5|=0.4100)
+  s_19447_jpg
+    ltn=1 clingo=0 body=0.5234
+    Machine         = 0.5698  (|d-0.5|=0.0698)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8363  (|d-0.5|=0.3363)
+  s_19453_jpg
+    ltn=1 clingo=0 body=0.5068
+    Machine         = 0.5407  (|d-0.5|=0.0407)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9122  (|d-0.5|=0.4122)
+  s_19474_jpg
+    ltn=1 clingo=0 body=0.5008
+    Machine         = 0.5483  (|d-0.5|=0.0483)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9105  (|d-0.5|=0.4105)
+  s_19489_jpg
+    ltn=1 clingo=0 body=0.5715
+    Machine         = 0.6001  (|d-0.5|=0.1001)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7140  (|d-0.5|=0.2140)
+  s_19501_jpg
+    ltn=1 clingo=0 body=0.5156
+    Machine         = 0.5221  (|d-0.5|=0.0221)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9278  (|d-0.5|=0.4278)
+  s_19507_jpg
+    ltn=1 clingo=0 body=0.5335
+    Machine         = 0.5744  (|d-0.5|=0.0744)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8121  (|d-0.5|=0.3121)
+  s_19513_jpg
+    ltn=1 clingo=0 body=0.5807
+    Machine         = 0.5805  (|d-0.5|=0.0805)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7223  (|d-0.5|=0.2223)
+  s_19549_jpg
+    ltn=1 clingo=0 body=0.5109
+    Machine         = 0.5076  (|d-0.5|=0.0076)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9635  (|d-0.5|=0.4635)
+  s_19558_jpg
+    ltn=1 clingo=0 body=0.5251
+    Machine         = 0.5507  (|d-0.5|=0.0507)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8623  (|d-0.5|=0.3623)
+  s_19561_jpg
+    ltn=1 clingo=0 body=0.5449
+    Machine         = 0.5795  (|d-0.5|=0.0795)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7853  (|d-0.5|=0.2853)
+  s_19570_jpg
+    ltn=1 clingo=0 body=0.5025
+    Machine         = 0.5521  (|d-0.5|=0.0521)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9012  (|d-0.5|=0.4012)
+  s_19579_jpg
+    ltn=1 clingo=0 body=0.5216
+    Machine         = 0.5716  (|d-0.5|=0.0716)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8370  (|d-0.5|=0.3370)
+  s_19582_jpg
+    ltn=1 clingo=0 body=0.5050
+    Machine         = 0.5402  (|d-0.5|=0.0402)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9164  (|d-0.5|=0.4164)
+  s_19585_jpg
+    ltn=1 clingo=0 body=0.5248
+    Machine         = 0.5644  (|d-0.5|=0.0644)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8420  (|d-0.5|=0.3420)
+  s_19600_jpg
+    ltn=1 clingo=0 body=0.5015
+    Machine         = 0.5429  (|d-0.5|=0.0429)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9182  (|d-0.5|=0.4182)
+  s_19618_jpg
+    ltn=1 clingo=0 body=0.5173
+    Machine         = 0.5279  (|d-0.5|=0.0279)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9145  (|d-0.5|=0.4145)
+  s_19639_jpg
+    ltn=1 clingo=0 body=0.5328
+    Machine         = 0.5890  (|d-0.5|=0.0890)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.7931  (|d-0.5|=0.2931)
+  s_19642_jpg
+    ltn=1 clingo=0 body=0.5010
+    Machine         = 0.5606  (|d-0.5|=0.0606)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8901  (|d-0.5|=0.3901)
+  s_19645_jpg
+    ltn=1 clingo=0 body=0.5062
+    Machine         = 0.5048  (|d-0.5|=0.0048)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9783  (|d-0.5|=0.4783)
+  s_19672_jpg
+    ltn=1 clingo=0 body=0.5091
+    Machine         = 0.5406  (|d-0.5|=0.0406)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9081  (|d-0.5|=0.4081)
+  s_19741_jpg
+    ltn=1 clingo=0 body=0.5038
+    Machine         = 0.5182  (|d-0.5|=0.0182)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9576  (|d-0.5|=0.4576)
+  s_19756_jpg
+    ltn=1 clingo=0 body=0.5022
+    Machine         = 0.5110  (|d-0.5|=0.0110)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9742  (|d-0.5|=0.4742)
+  s_19771_jpg
+    ltn=1 clingo=0 body=0.5035
+    Machine         = 0.5593  (|d-0.5|=0.0593)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8878  (|d-0.5|=0.3878)
+  s_19780_jpg
+    ltn=1 clingo=0 body=0.5018
+    Machine         = 0.5119  (|d-0.5|=0.0119)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9732  (|d-0.5|=0.4732)
+  s_19783_jpg
+    ltn=1 clingo=0 body=0.5232
+    Machine         = 0.5516  (|d-0.5|=0.0516)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8642  (|d-0.5|=0.3642)
+  s_19792_jpg
+    ltn=1 clingo=0 body=0.5058
+    Machine         = 0.5164  (|d-0.5|=0.0164)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9570  (|d-0.5|=0.4570)
+  s_19795_jpg
+    ltn=1 clingo=0 body=0.6728  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.6303  (|d-0.5|=0.1303)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.5191  (|d-0.5|=0.0191)
+  s_19822_jpg
+    ltn=1 clingo=0 body=0.5066
+    Machine         = 0.5476  (|d-0.5|=0.0476)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9010  (|d-0.5|=0.4010)
+  s_19861_jpg
+    ltn=1 clingo=0 body=0.6104  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Machine         = 0.5894  (|d-0.5|=0.0894)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.6610  (|d-0.5|=0.1610)
+  s_19897_jpg
+    ltn=1 clingo=0 body=0.5075
+    Machine         = 0.5501  (|d-0.5|=0.0501)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8953  (|d-0.5|=0.3953)
+  s_19906_jpg
+    ltn=1 clingo=0 body=0.5221
+    Machine         = 0.5804  (|d-0.5|=0.0804)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8234  (|d-0.5|=0.3234)
+  s_19909_jpg
+    ltn=1 clingo=0 body=0.5306
+    Machine         = 0.5621  (|d-0.5|=0.0621)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8351  (|d-0.5|=0.3351)
+  s_19912_jpg
+    ltn=1 clingo=0 body=0.5043
+    Machine         = 0.5542  (|d-0.5|=0.0542)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8945  (|d-0.5|=0.3945)
+  s_19927_jpg
+    ltn=1 clingo=0 body=0.5287
+    Machine         = 0.5348  (|d-0.5|=0.0348)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8813  (|d-0.5|=0.3813)
+  s_19978_jpg
+    ltn=1 clingo=0 body=0.5045
+    Machine         = 0.5872  (|d-0.5|=0.0872)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.8438  (|d-0.5|=0.3438)
+  s_19999_jpg
+    ltn=1 clingo=0 body=0.5064
+    Machine         = 0.5043  (|d-0.5|=0.0043)
+    Truck           = 0.0000  (|d-0.5|=0.5000)
+    Car             = 0.9788  (|d-0.5|=0.4788)
+
+
+
+--- commercial (21 disagreements) ---
+  s_16010_jpg
+    ltn=1 clingo=0 body=0.5064
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5180  (|d-0.5|=0.0180)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.0930  (|d-0.5|=0.4070)
+  s_16019_jpg
+    ltn=1 clingo=0 body=0.5001
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5346  (|d-0.5|=0.0346)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.1206  (|d-0.5|=0.3794)
+  s_16035_jpg
+    ltn=1 clingo=0 body=0.5201
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0013  (|d-0.5|=0.4987)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.6584  (|d-0.5|=0.1584)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.3945  (|d-0.5|=0.1055)
+  s_16386_jpg
+    ltn=1 clingo=0 body=0.5289
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0019  (|d-0.5|=0.4981)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.8126  (|d-0.5|=0.3126)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4856  (|d-0.5|=0.0144)
+  s_17564_jpg
+    ltn=1 clingo=0 body=0.5025
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5199  (|d-0.5|=0.0199)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.0835  (|d-0.5|=0.4165)
+  s_17843_jpg
+    ltn=1 clingo=0 body=0.5191
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.6519  (|d-0.5|=0.1519)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.3860  (|d-0.5|=0.1140)
+  s_17906_jpg
+    ltn=1 clingo=0 body=0.5043
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5177  (|d-0.5|=0.0177)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.0832  (|d-0.5|=0.4168)
+  s_17939_jpg
+    ltn=1 clingo=0 body=0.5077
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5268  (|d-0.5|=0.0268)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.1273  (|d-0.5|=0.3727)
+  s_18216_jpg
+    ltn=1 clingo=0 body=0.5385
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0015  (|d-0.5|=0.4985)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.6162  (|d-0.5|=0.1162)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4185  (|d-0.5|=0.0815)
+  s_18461_jpg
+    ltn=1 clingo=0 body=0.5171
+    Cafe            = 0.0004  (|d-0.5|=0.4996)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0002  (|d-0.5|=0.4998)
+    Store           = 0.5062  (|d-0.5|=0.0062)
+    MiscCommercial  = 0.0003  (|d-0.5|=0.4997)
+    Commercial      = 0.0992  (|d-0.5|=0.4008)
+  s_18521_jpg
+    ltn=1 clingo=0 body=0.5091
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5121  (|d-0.5|=0.0121)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.0835  (|d-0.5|=0.4165)
+  s_18551_jpg
+    ltn=1 clingo=0 body=0.5018
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5279  (|d-0.5|=0.0279)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.1065  (|d-0.5|=0.3935)
+  s_18597_jpg
+    ltn=1 clingo=0 body=0.5376
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0028  (|d-0.5|=0.4972)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.6702  (|d-0.5|=0.1702)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4503  (|d-0.5|=0.0497)
+  s_18770_jpg
+    ltn=1 clingo=0 body=0.5173
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5363  (|d-0.5|=0.0363)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.1967  (|d-0.5|=0.3033)
+  s_18783_jpg
+    ltn=1 clingo=0 body=0.5243
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5360  (|d-0.5|=0.0360)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.2283  (|d-0.5|=0.2717)
+  s_18861_jpg
+    ltn=1 clingo=0 body=0.5303
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0012  (|d-0.5|=0.4988)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.7719  (|d-0.5|=0.2719)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4752  (|d-0.5|=0.0248)
+  s_19358_jpg
+    ltn=1 clingo=0 body=0.5283
+    Cafe            = 0.0014  (|d-0.5|=0.4986)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0012  (|d-0.5|=0.4988)
+    Store           = 0.5058  (|d-0.5|=0.0058)
+    MiscCommercial  = 0.0008  (|d-0.5|=0.4992)
+    Commercial      = 0.1587  (|d-0.5|=0.3413)
+  s_19494_jpg
+    ltn=1 clingo=0 body=0.5189
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5307  (|d-0.5|=0.0307)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.1884  (|d-0.5|=0.3116)
+  s_19541_jpg
+    ltn=1 clingo=0 body=0.5068
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5178  (|d-0.5|=0.0178)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.0941  (|d-0.5|=0.4059)
+  s_19655_jpg
+    ltn=1 clingo=0 body=0.5027
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.6157  (|d-0.5|=0.1157)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.2979  (|d-0.5|=0.2021)
+  s_19673_jpg
+    ltn=1 clingo=0 body=0.5071
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5568  (|d-0.5|=0.0568)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.2065  (|d-0.5|=0.2935)
+
+
+
+--- industrial (5 disagreements) ---
+  s_16035_jpg
+    ltn=1 clingo=0 body=0.5464
+    ConstructionSite = 0.4767  (|d-0.5|=0.0233)
+    MiscIndustrial  = 0.0004  (|d-0.5|=0.4996)
+    PowerPlant      = 0.0005  (|d-0.5|=0.4995)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.6766  (|d-0.5|=0.1766)
+  s_18216_jpg
+    ltn=1 clingo=0 body=0.5439
+    ConstructionSite = 0.4373  (|d-0.5|=0.0627)
+    MiscIndustrial  = 0.0023  (|d-0.5|=0.4977)
+    PowerPlant      = 0.0007  (|d-0.5|=0.4993)
+    WaterTreatment  = 0.0005  (|d-0.5|=0.4995)
+    Industrial      = 0.6172  (|d-0.5|=0.1172)
+  s_18597_jpg
+    ltn=1 clingo=0 body=0.5399
+    ConstructionSite = 0.4413  (|d-0.5|=0.0587)
+    MiscIndustrial  = 0.0020  (|d-0.5|=0.4980)
+    PowerPlant      = 0.0011  (|d-0.5|=0.4989)
+    WaterTreatment  = 0.0002  (|d-0.5|=0.4998)
+    Industrial      = 0.6454  (|d-0.5|=0.1454)
+  s_18861_jpg
+    ltn=1 clingo=0 body=0.5016
+    ConstructionSite = 0.2620  (|d-0.5|=0.2380)
+    MiscIndustrial  = 0.0005  (|d-0.5|=0.4995)
+    PowerPlant      = 0.0006  (|d-0.5|=0.4994)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5950  (|d-0.5|=0.0950)
+  s_19098_jpg
+    ltn=1 clingo=0 body=0.5099
+    ConstructionSite = 0.3151  (|d-0.5|=0.1849)
+    MiscIndustrial  = 0.0036  (|d-0.5|=0.4964)
+    PowerPlant      = 0.0028  (|d-0.5|=0.4972)
+    WaterTreatment  = 0.0003  (|d-0.5|=0.4997)
+    Industrial      = 0.6151  (|d-0.5|=0.1151)
+
+
+
+--- constructionsite (2 disagreements) ---
+  s_16513_jpg
+    ltn=1 clingo=0 body=0.5544
+    ConstructionSite = 0.5340  (|d-0.5|=0.0340)
+    Machine         = 0.4128  (|d-0.5|=0.0872)
+  s_17620_jpg
+    ltn=0 clingo=1 body=0.5000
+    ConstructionSite = 1.0000  (|d-0.5|=0.5000)
+    Machine         = 0.5000  (|d-0.5|=0.0000)

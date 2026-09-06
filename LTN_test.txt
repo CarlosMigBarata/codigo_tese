@@ -1,30 +1,7 @@
 [SAT CHECK] ground truth mean sat: 0.9673
 
 Per-axiom satisfaction on ground truth:
-  building_impl_complex_train_accuracy    : 0.0000
-  building_no_car_truck_train_accuracy    : 0.0000
-  building_no_chimney_statue_train_accuracy: 0.0000
-  building_nodoorornowindow_impl_noawning_train_accuracy: 0.0000
-  rule_commercialrestrictions_train_accuracy: 0.0000
-  rule_industrialrestrictions_train_accuracy: 0.0000
-  rule_residentialrestrictions_train_accuracy: 0.0000
-  commercial_train_accuracy               : 0.0000
-  hotel_train_accuracy                    : 0.0000
-  store_train_accuracy                    : 0.0000
-  misccommercial_train_accuracy           : 0.0000
-  cafe_train_accuracy                     : 0.0000
-  restaurant_train_accuracy               : 0.0000
-  industrial_train_accuracy               : 0.0000
-  industrial_not_table_train_accuracy     : 0.0000
-  constructionsite_train_accuracy         : 0.0000
-  miscindustrial_train_accuracy           : 0.0000
-  powerplant_train_accuracy               : 0.0000
-  watertreatment_train_accuracy           : 0.0000
-  residential_train_accuracy              : 0.0000
-  suburban_train_accuracy                 : 0.0000
-  countryhouse_train_accuracy             : 0.0000
-  miscresidential_train_accuracy          : 0.0000
-  residential_no_chimney_pipe_train_accuracy: 0.0000
+
   building_impl_complex_val_accuracy      : 0.9995
   building_no_car_truck_val_accuracy      : 0.9996
   building_no_chimney_statue_val_accuracy : 0.9997

@@ -1,3 +1,5 @@
+FAZER UMA RUN alpha 0.0 para a baseline
+
 
 
 verificar a comparação dos ltn vs clingo qnd nn concordam
@@ -15,3 +17,14 @@ averiguar porque é que as implicações estao a ficar esquisitias para certos c
 experimentar com outras formulas, e posso escrever na tese sobre o meu codigo, desde que seja sucinto.
 talvez usar um diagrama? tbm devo mostrar a maneira como eu traduzo os axiomas em logica para o que eu uso no codigo 
 
+
+
+Depois da reunião falamos entre nos orientadores ainda um pouco e para assegurar que durante das férias não houver dúvidas maiores sobre o conjunto mínimo de experiências que deviam ficar para a tese, deixamos aqui esta listagem. Se houver alguma dúvida, por favor, avisem.
+
+1- treinar duas redes classificadoras com a parte convolucional igual mas arquitecturas diferentes na parte densa, uma com uma camada mais larga e outra com várias camadas, mais estreita. Devem ambas conseguir classificar bem os exemplos.
+
+2- treinar duas redes com a mesma arquitectura mas com a parte densa pré treinada (para o Simão) ou com as LTN (Carlos). Para a arquitectura com várias camadas densas deve haver uma distribuição dos conceitos conforme a ontologia (primeiro os básicos, depois noutra camada mais à frente os intermédios). Também devem conseguir classificar bem os exemplos.
+
+3- Medir a correlação com os conceitos e comparar as várias redes. Isto não só avalia se os conceitos são aprendidos como também avalia se vale a pena ter uma arquitectura mais estratificada que corresponda à ontologia.
+
+4- Medir a restrição imposta pela ontologia aos conceitos. Isto pode ser feito mediner feito medindo para a rede pre-treinada ou a LTN quantos exemplos ficam inconsistentes quando se aleatoriza (ou inverte, ou fixa a 0, ou 1) um conceito.do para a rede pre-treinada ou a LTN quantos exemplos ficam inconsistentes quando se aleatoriza (ou inverte, ou fixa a 0, ou 1) um conceito.

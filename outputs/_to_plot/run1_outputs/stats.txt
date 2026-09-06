@@ -1,5 +1,5 @@
 Results Description
-Seed: 3498
+Seed: 26176
 Number of examples: 20000
 Train/Test limit: 16000
 Validation Interval: 3
@@ -8,10 +8,10 @@ Batch size: 32
 Learning rate: 0.00010
 Number of final classes: 12
 Number of concepts: 20
-[subset] using 4000/16000 train samples (stratified=True, seed=42)
-Number of epochs completed: 213
-Best epoch found: 153
-Warmup epochs: 10; final_epochs: 30; constant_alpha: True;  patience: 20.0 cycles, total number of training epochs: 639
+
+Number of epochs completed: 87
+Best epoch found: 72
+Warmup epochs: 10; final_epochs: 30; constant_alpha: True;  patience: 5.0 cycles, total number of training epochs: 261
 
 
 Model Architecture:
@@ -63,40 +63,3 @@ suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
 countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
 miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
 residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
-
-
-
-
-[subset] class positive rates:
-Cafe                0.23875
-Hotel               0.19975
-Restaurant          0.12200
-Store               0.20575
-MiscCommercial      0.19400
-Suburban            0.21650
-MiscResidential     0.27450
-CountryHouse        0.13375
-ConstructionSite    0.09550
-MiscIndustrial      0.15225
-PowerPlant          0.16300
-WaterTreatment      0.14100
-Residential         0.33200
-Commercial          0.33350
-Industrial          0.33450
-Door                0.67725
-Window              0.66500
-Awning              0.45275
-Billboard           0.20575
-Porch               0.21650
-Sign                0.28100
-Table               0.31725
-TiledRoof           0.32975
-TiledRoofTop        0.30525
-VendingMachine      0.18250
-WallSign            0.19975
-Statue              0.12300
-Chimney             0.27100
-Pipe                0.31150
-Machine             0.09550
-Truck               0.32625
-Car                 0.23625

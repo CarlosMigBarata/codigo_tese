@@ -1,0 +1,75 @@
+Results Description
+Seed: 28801
+Number of examples: 20000
+Train/Test limit: 16000
+Validation Interval: 3
+Complexity of the Dataset: 1
+Batch size: 32
+Learning rate: 0.00050
+Number of final classes: 12
+Number of concepts: 20
+trained with building predicates: False; trained with concept predicates: False
+[subset] using 2000/16000 train samples (stratified=True, seed=42)
+Number of epochs completed: 204/400
+Best epoch found: 84
+Warmup epochs: 10; final_epochs: 30; constant_alpha: True;  patience: 40.0 cycles, total number of training epochs: 612
+
+
+Model Architecture:
+CNN(
+  (conv1a): Conv2d(3, 8, kernel_size=(3, 3), stride=(1, 1))
+  (conv1b): Conv2d(8, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2a): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2b): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1))
+  (conv3a): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (conv3b): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (conv4): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
+  (maxpool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (globalAvgPooling): AdaptiveAvgPool2d(output_size=(1, 1))
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (dense1): Linear(in_features=128, out_features=64, bias=True)
+  (concept_layer): Linear(in_features=64, out_features=17, bias=True)
+  (suport_layer1): Linear(in_features=17, out_features=15, bias=True)
+  (output_layer): Linear(in_features=15, out_features=12, bias=True)
+  (suport_layer2): Linear(in_features=12, out_features=8, bias=True)
+  (super_class_layer): Linear(in_features=8, out_features=3, bias=True)
+)
+
+
+
+
+
+[subset] class positive rates:
+Cafe                0.2325
+Hotel               0.2005
+Restaurant          0.1160
+Store               0.1970
+MiscCommercial      0.1920
+Suburban            0.2365
+MiscResidential     0.2885
+CountryHouse        0.1370
+ConstructionSite    0.0955
+MiscIndustrial      0.1415
+PowerPlant          0.1595
+WaterTreatment      0.1265
+Door                0.6575
+Window              0.6595
+Awning              0.4570
+Billboard           0.1970
+Porch               0.2365
+Sign                0.2785
+Table               0.3225
+TiledRoof           0.3465
+TiledRoofTop        0.3285
+VendingMachine      0.1875
+WallSign            0.2005
+Statue              0.0985
+Chimney             0.2725
+Pipe                0.2910
+Machine             0.0955
+Truck               0.3255
+Car                 0.2395
+Residential         0.3545
+Commercial          0.3245
+Industrial          0.3210

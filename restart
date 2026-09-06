@@ -1,3 +1,10 @@
 python3 dissertation_workplace_script.py testRun8000Samples
 
 source venv/bin/activate
+./run_script_3.sh dissertation_workplace_script.py
+
+to compile the texworks, 
+
+pdflatex template
+
+biber template

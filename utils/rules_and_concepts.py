@@ -109,6 +109,29 @@ rule_MiscCommercial_notCarTiledroof = {"left": "MiscCommercial", "right": "OR(NO
 rule_Restaurant_CarVendingMachine = {"left": "Restaurant", "right": "AND(Car, VendingMachine)", "main_op": MainOperations.EQUIVALENCE}
 rule_Store_CarDoor = {"left": "Store", "right": "OR(Car, Door)", "main_op": MainOperations.EQUIVALENCE}
 
+
+'''DATASET test2''' #changin comercials: Cafe, Hotel, MiscCommercial, Restaurant, Store, Billboard
+rule_Cafe_WallSignAndAwning = {"left": "Cafe", "right": "AND(WallSign, Awning)", "main_op": MainOperations.EQUIVALENCE}
+rule_Cafe_WallSignAndBillboard = {"left": "Cafe", "right": "AND(WallSign, Billboard)", "main_op": MainOperations.EQUIVALENCE}
+rule_Hotel_WallSignOrAwning = {"left": "Hotel", "right": "OR(WallSign, Awning)", "main_op": MainOperations.EQUIVALENCE}
+rule_Hotel_WallSignAndBillboard = {"left": "Hotel", "right": "OR(WallSign, Billboard)", "main_op": MainOperations.EQUIVALENCE}
+
+rule_PowerPlant_ChimneyAndPipe = {"left": "PowerPlant", "right": "AND(Chimney, Pipe)", "main_op":  MainOperations.EQUIVALENCE}
+rule_PowerPlant_NotChimneyAndMachine = {"left": "PowerPlant", "right": "AND(NOT(Chimney), Machine)", "main_op":  MainOperations.EQUIVALENCE}
+rule_WaterTreatment_ChimneyAndPipe = {"left": "WaterTreatment", "right": "OR(Chimney, Pipe)", "main_op":  MainOperations.EQUIVALENCE}
+rule_WaterTreatment_NotChimneyAndMachine = {"left": "WaterTreatment", "right": "OR(NOT(Chimney), Machine)", "main_op":  MainOperations.EQUIVALENCE}
+
+rule_CH_NotCarAndTiledroof = {"left": "CountryHouse", "right": "AND(NOT(Car), TiledRoof)", "main_op":  MainOperations.EQUIVALENCE}
+rule_CH_NotCarAndDoor = {"left": "CountryHouse", "right": "AND(NOT(Car), Door)", "main_op":  MainOperations.EQUIVALENCE}
+rule_Suburban_NotCarAndTiledroof = {"left": "Suburban", "right": "OR(NOT(Car), TiledRoof)", "main_op":  MainOperations.EQUIVALENCE}
+rule_Suburban_NotCarAndDoor = {"left": "Suburban", "right": "OR(NOT(Car), Door)", "main_op":  MainOperations.EQUIVALENCE}
+
+rule_DT2_CommercialBuildingType = {"left": "Commercial", "right": "OR(Cafe, Hotel)", "main_op": MainOperations.EQUIVALENCE}
+rule_DT2_IndustrialBuildingType = {"left": "Industrial", "right": "OR(PowerPlant, WaterTreatment)", "main_op":  MainOperations.EQUIVALENCE}
+rule_DT2_ResidentialBuildingType = {"left": "Residential", "right": "OR(CountryHouse, Suburban)", "main_op":  MainOperations.EQUIVALENCE}
+
+
+
 NEW_AXIOMS_EQUIV = [
     {"axiom": rule_Cafe_notCarAwning, "active": True, "name": "rule_Cafe_notCarAwning".lower()}, #high level rules
     {"axiom": rule_Hotel_CarPipe, "active": True, "name": "rule_Hotel_CarPipe".lower()}, #N funciona, pq ainda nao lidei com o Feature. tbm n é relevante
@@ -143,9 +166,9 @@ CLASSIC_ONTOLOGY = [
     {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": True, "name": "building_no_chimney_statue"},
     {"axiom": rule_Building_noDoorOrNoWindow_Impl_noAwning, "active": True, "name": "building_noDoorOrNoWindow_Impl_noAwning"},
 
-    {"axiom": rule_CommercialRestrictions, "active":True, "name":"rule_CommercialRestrictions"},
-    {"axiom": rule_IndustrialRestrictions, "active":True, "name":"rule_IndustrialRestrictions"},
-    {"axiom": rule_ResidentialRestrictions, "active":True, "name":"rule_ResidentialRestrictions"},
+    {"axiom": rule_CommercialRestrictions, "active":False, "name":"rule_CommercialRestrictions"},
+    {"axiom": rule_IndustrialRestrictions, "active":False, "name":"rule_IndustrialRestrictions"},
+    {"axiom": rule_ResidentialRestrictions, "active":False, "name":"rule_ResidentialRestrictions"},
 
 
     {"axiom": rule_CommercialBuildingType, "active": True, "name": "commercial"},
@@ -157,19 +180,115 @@ CLASSIC_ONTOLOGY = [
 
 
     {"axiom": rule_IndustrialBuildingType, "active": True, "name": "industrial"},
-        {"axiom": rule_Industrial_notTable, "active": True, "name":"industrial_not_table"}, #basic equiv
-        {"axiom": rule_ConstructionSite_Machine, "active": True, "name":"constructionsite"}, #basic equiv
-        {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": True, "name":"miscindustrial"}, #conj
-        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": True, "name":"powerplant"}, #conj
-        {"axiom": rule_WaterTreatment_PipeAndTruck, "active": True, "name":"watertreatment"}, #conj
+        {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"}, #basic equiv
+        {"axiom": rule_ConstructionSite_Machine, "active": False, "name":"constructionsite"}, #basic equiv
+        {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": False, "name":"miscindustrial"}, #conj
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"powerplant"}, #conj
+        {"axiom": rule_WaterTreatment_PipeAndTruck, "active": False, "name":"watertreatment"}, #conj
 
 
     {"axiom": rule_ResidentialBuildingType, "active": True, "name": "residential"},
-        {"axiom": rule_Suburban_Porch, "active": True, "name":"suburban"}, #basic equiv
-        {"axiom": rule_CH_CarAndTiledroof, "active": True, "name":"countryhouse"}, #conj
-        {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": True, "name":"miscresidential"},#residential
-        {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": True, "name": "residential_no_chimney_pipe"},#residential    
+        {"axiom": rule_Suburban_Porch, "active": False, "name":"suburban"}, #basic equiv
+        {"axiom": rule_CH_CarAndTiledroof, "active": False, "name":"countryhouse"}, #conj
+        {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": False, "name":"miscresidential"},#residential
+        {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": False, "name": "residential_no_chimney_pipe"},#residential    
 ]
+
+
+'''DATASET test2''' #changin comercials: Cafe, Hotel, MiscCommercial, Restaurant, Store, Billboard
+rule_Cafe_WallSignAndAwning = {"left": "Cafe", "right": "AND(WallSign, Awning)", "main_op": MainOperations.IMPLICATION}
+rule_Cafe_WallSignAndBillboard = {"left": "Cafe", "right": "AND(WallSign, Billboard)", "main_op": MainOperations.IMPLICATION}
+rule_Hotel_WallSignOrAwning = {"left": "Hotel", "right": "OR(WallSign, Awning)", "main_op": MainOperations.IMPLICATION}
+rule_Hotel_WallSignOrBillboard = {"left": "Hotel", "right": "OR(WallSign, Billboard)", "main_op": MainOperations.IMPLICATION}
+
+rule_PowerPlant_ChimneyAndPipe = {"left": "PowerPlant", "right": "AND(Chimney, Pipe)", "main_op":  MainOperations.IMPLICATION}
+#rule_PowerPlant_NotChimneyAndMachine = {"left": "PowerPlant", "right": "AND(NOT(Chimney), Machine)", "main_op":  MainOperations.IMPLICATION}
+rule_WaterTreatment_ChimneyOrPipe = {"left": "WaterTreatment", "right": "OR(Chimney, Pipe)", "main_op":  MainOperations.IMPLICATION}
+rule_WaterTreatment_NotChimneyOrMachine = {"left": "WaterTreatment", "right": "OR(NOT(Chimney), Machine)", "main_op":  MainOperations.IMPLICATION}
+
+rule_CH_NotCarAndTiledroof = {"left": "CountryHouse", "right": "AND(NOT(Car), TiledRoof)", "main_op":  MainOperations.IMPLICATION}
+rule_CH_NotCarAndDoor = {"left": "CountryHouse", "right": "AND(NOT(Car), Door)", "main_op":  MainOperations.IMPLICATION}
+rule_Suburban_NotCarOrTiledroof = {"left": "Suburban", "right": "OR(NOT(Car), TiledRoof)", "main_op":  MainOperations.IMPLICATION}
+rule_Suburban_NotCarOrDoor = {"left": "Suburban", "right": "OR(NOT(Car), Door)", "main_op":  MainOperations.IMPLICATION}
+
+rule_DT2_CommercialBuildingType = {"left": "Commercial", "right": "OR(Cafe, Hotel)", "main_op": MainOperations.EQUIVALENCE}
+rule_DT2_IndustrialBuildingType = {"left": "Industrial", "right": "OR(PowerPlant, WaterTreatment)", "main_op":  MainOperations.EQUIVALENCE}
+rule_DT2_ResidentialBuildingType = {"left": "Residential", "right": "OR(CountryHouse, Suburban)", "main_op":  MainOperations.EQUIVALENCE}
+
+
+
+NEW_ONTOLOGY1 = [    
+
+    {"axiom": rule_DT2_CommercialBuildingType, "active": True, "name": "rule_DT2_CommercialBuildingType"},
+        {"axiom": rule_Cafe_WallSignAndAwning, "active": True, "name":"rule_Cafe_WallSignAndAwning"}, #basic equiv
+        {"axiom": rule_Cafe_WallSignAndBillboard, "active": True, "name":"rule_Cafe_WallSignAndBillboard"}, #basic equiv
+        {"axiom": rule_Hotel_WallSignOrAwning, "active": True, "name":"rule_Hotel_WallSignOrAwning"}, #conj
+        {"axiom": rule_Hotel_WallSignOrBillboard, "active": True, "name":"rule_Hotel_WallSignOrBillboard"}, #disj
+
+
+    {"axiom": rule_DT2_IndustrialBuildingType, "active": True, "name": "rule_DT2_IndustrialBuildingType"},
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": True, "name":"rule_PowerPlant_ChimneyAndPipe"}, #basic equiv
+        
+        {"axiom": rule_WaterTreatment_ChimneyOrPipe, "active": True, "name":"rule_WaterTreatment_ChimneyOrPipe"}, #conj
+        {"axiom": rule_WaterTreatment_NotChimneyOrMachine, "active": True, "name":"rule_WaterTreatment_NotChimneyOrMachine"}, #conj
+
+
+    {"axiom": rule_DT2_ResidentialBuildingType, "active": True, "name": "residential"},
+        {"axiom": rule_CH_NotCarAndTiledroof, "active": True, "name":"rule_CH_NotCarAndTiledroof"}, #basic equiv
+        {"axiom": rule_CH_NotCarAndDoor, "active": True, "name":"rule_CH_NotCarAndDoor"}, #conj
+        {"axiom": rule_Suburban_NotCarOrTiledroof, "active": True, "name":"rule_Suburban_NotCarOrTiledroof"},#residential
+        {"axiom": rule_Suburban_NotCarOrDoor, "active": True, "name": "rule_Suburban_NotCarOrDoor"},#residential    
+]
+
+
+'''DATASET test3''' #changin comercials: Cafe, Hotel, MiscCommercial, Restaurant, Store, Billboard
+rule_Cafe_WallSignAndAwning = {"left": "Cafe", "right": "AND(WallSign, Awning)", "main_op": MainOperations.EQUIVALENCE}
+rule_Hotel_WallSignAndBillboard = {"left": "Hotel", "right": "AND(WallSign, Billboard)", "main_op": MainOperations.EQUIVALENCE}
+rule_MiscCommercial_WallSignAndTable = {"left": "MiscCommercial", "right": "AND(WallSign, Table)", "main_op": MainOperations.EQUIVALENCE}
+rule_Restaurant_NotWallSignAndBillboard = {"left": "Restaurant", "right": "AND(NOT(WallSign), Billboard)", "main_op": MainOperations.EQUIVALENCE}
+rule_Store_NotWallSignAndVendingMachine = {"left": "Store", "right": "AND(NOT(WallSign), VendingMachine)", "main_op": MainOperations.EQUIVALENCE}
+
+rule_PowerPlant_ChimneyAndPipe = {"left": "PowerPlant", "right": "AND(Chimney, Pipe)", "main_op":  MainOperations.EQUIVALENCE}
+rule_WaterTreatment_ChimneyAndMachine = {"left": "WaterTreatment", "right": "AND(Chimney, Machine)", "main_op":  MainOperations.EQUIVALENCE}
+rule_ConstructionSite_NotChimneyAndTruck = {"left": "ConstructionSite", "right": "AND(NOT(Chimney), Truck)", "main_op":  MainOperations.EQUIVALENCE}
+rule_MiscIndustrial_NotChimneyAndCar = {"left": "MiscIndustrial", "right": "AND(NOT(Chimney), Car)", "main_op":  MainOperations.EQUIVALENCE}
+
+
+rule_MiscResidential_PorchAndTiledroof = {"left": "MiscResidential", "right": "AND(Porch, TiledRoof)", "main_op":  MainOperations.EQUIVALENCE}
+rule_CH_NotPorchAndWindow = {"left": "CountryHouse", "right": "AND(NOT(Porch), Window)", "main_op":  MainOperations.EQUIVALENCE}
+rule_Suburban_NotPorchAndDoor = {"left": "Suburban", "right": "AND(NOT(Porch), Door)", "main_op":  MainOperations.EQUIVALENCE}
+
+
+rule_DT3_CommercialBuildingType = {"left": "Commercial", "right": "OR(Cafe, Hotel, MiscCommercial, Restaurant, Store)", "main_op": MainOperations.EQUIVALENCE}
+rule_DT3_IndustrialBuildingType = {"left": "Industrial", "right": "OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment)", "main_op":  MainOperations.EQUIVALENCE}
+rule_DT3_ResidentialBuildingType = {"left": "Residential", "right": "OR(CountryHouse, MiscResidential, Suburban)", "main_op":  MainOperations.EQUIVALENCE}
+
+
+
+NEW_ONTOLOGY3 = [    
+
+    {"axiom": rule_DT3_CommercialBuildingType, "active": True, "name": "rule_DT3_CommercialBuildingType"},
+        {"axiom": rule_Cafe_WallSignAndAwning, "active": True, "name":"rule_Cafe_WallSignAndAwning"}, #basic equiv
+        {"axiom": rule_Hotel_WallSignAndBillboard, "active": True, "name":"rule_Hotel_WallSignAndBillboard"}, #basic equiv
+        {"axiom": rule_MiscCommercial_WallSignAndTable, "active": True, "name":"rule_MiscCommercial_WallSignAndTable"}, #conj
+        {"axiom": rule_Restaurant_NotWallSignAndBillboard, "active": True, "name":"rule_Restaurant_NotWallSignAndBillboard"}, #disj
+        {"axiom": rule_Store_NotWallSignAndVendingMachine, "active": True, "name":"rule_Store_NotWallSignAndVendingMachine"}, #disj
+
+
+    {"axiom": rule_DT3_IndustrialBuildingType, "active": True, "name": "rule_DT3_IndustrialBuildingType"},
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": True, "name":"rule_PowerPlant_ChimneyAndPipe"}, #basic equiv
+        {"axiom": rule_WaterTreatment_ChimneyAndMachine, "active": True, "name":"rule_WaterTreatment_ChimneyAndMachine"}, #basic equiv
+        {"axiom": rule_ConstructionSite_NotChimneyAndTruck, "active": True, "name":"rule_ConstructionSite_NotChimneyAndTruck"}, #conj
+        {"axiom": rule_MiscIndustrial_NotChimneyAndCar, "active": True, "name":"rule_MiscIndustrial_NotChimneyAndCar"}, #conj
+
+
+    {"axiom": rule_DT3_ResidentialBuildingType, "active": True, "name": "rule_DT3_ResidentialBuildingType"},
+        {"axiom": rule_MiscResidential_PorchAndTiledroof, "active": True, "name":"rule_MiscResidential_PorchAndTiledroof"}, #basic equiv
+        {"axiom": rule_CH_NotPorchAndWindow, "active": True, "name":"rule_CH_NotPorchAndWindow"}, #conj
+        {"axiom": rule_Suburban_NotPorchAndDoor, "active": True, "name":"rule_Suburban_NotPorchAndDoor"},#residential
+]
+
+
 
 
 
@@ -393,8 +512,8 @@ def orderClassList(classes, all_final_classes, all_concepts):
     concepts = get_concepts_in_classes(classes, all_concepts)
     #print(f"final concepts {concepts}")
 
-
-    return final_classes , concepts, final_classes + concepts
+    #new
+    return final_classes , concepts, final_classes + concepts + SUPER_CLASSES
 
 
 FINAL_CLASSES, CONCEPTS, CLASSES = orderClassList(getClassesFromRules(ALL_LABELS, AXIOMS), ALL_BUILDING_CLASSES, ALL_CONCEPTS)

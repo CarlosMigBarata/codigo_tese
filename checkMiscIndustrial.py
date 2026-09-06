@@ -4,10 +4,9 @@ def check_conditions(csv_path):
     df = pd.read_csv(csv_path)
 
     conditions = {
-        "MiscIndustrial": 1,
-        "Awning": 0,
+        "Residential": 1,
         "Truck": 1,
-        "Sign": 1,
+        "Sign":1,
     }
 
     mask = pd.Series(True, index=df.index)

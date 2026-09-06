@@ -5,6 +5,7 @@ from collections import defaultdict
 import torch
 import ltn
 import utils.rules_and_concepts as rules_and_concepts
+import utils.constants as constants
 
 AXIOMS = rules_and_concepts.get_active_axioms()
 CLASSES = rules_and_concepts.get_all_classes()
@@ -13,8 +14,10 @@ MainOperations = rules_and_concepts.MainOperations
 #print(f"classes in axioms.py {CLASSES}")
 
 list_of_final_classes = rules_and_concepts.get_all_building_classes()
+list_of_concepts = rules_and_concepts.get_ALL_CONCEPTS()
+
 final_classes = len(list_of_final_classes)
-vacuous_counts = {class_name: 0 for class_name in list_of_final_classes}
+vacuous_counts = {class_name: 0 for class_name in list_of_final_classes + list_of_concepts} #new
 
 def get_vac_counts(): return vacuous_counts
 #vacuous_counts_this_batch = False
@@ -53,7 +56,7 @@ Equiv = ltn.Connective(
 formula_aggregator = ltn.fuzzy_ops.SatAgg(
     ltn.fuzzy_ops.AggregPMeanError(p=2)
 )
-#S=1−(n1​∑(1−s_i​)^2)^1/2
+#S=1−( 1/n(​∑(1−s_i​)^2) )^1/2
 class MeanMetric:
     def __init__(self):
         self.reset_state()
@@ -413,16 +416,6 @@ def evaluate_per_sample_axioms(logits_model, test_loader, p, device, clingo_outp
 
     return results, per_rule, disagreement_values
 
-def recover_axiom_values(rule_name, sid, raw_ltn_output_per_sample, x):
-    classes = rules_and_concepts.get_classes_in_axiom_by_name(rule_name)
-
-    for class_name in classes:
-        idx = CLASS_TO_IDX[class_name]
-
-
-
-
-    return ""
 
 
 def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
@@ -437,9 +430,14 @@ def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
     #print(logits)
     #print(f" args {args}")
 
+    if constants.BUILDING_PREDICATES:
+        for class_name in list_of_final_classes:
+            get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name=class_name, axioms=ltn_axioms, device=device)
 
-    for class_name in list_of_final_classes:
-        get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name=class_name, axioms=ltn_axioms, device=device)
+    if constants.CONCEPT_PREDICATES:
+    #new
+        for class_name in list_of_concepts:   # new
+            get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name=class_name, axioms=ltn_axioms, device=device)
 
 
     for ax in AXIOMS.items():
@@ -449,6 +447,9 @@ def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
 
         ltn_axiom = safe_forall(x, build_axiom(p,x, r["left"], r["right"], r["main_op"], debug_mode), device)
         ltn_axioms.append(ltn_axiom)
+        #ltn_axioms.extend([ltn_axiom] * w) this works by appending w ltn_axiom terms to the list. do this AFTER AFTER AFTER update_rule_sat_metrics
+
+        
         if not validation_mode:
             update_rule_sat_metric(ax, "train", ltn_axiom)
         else:

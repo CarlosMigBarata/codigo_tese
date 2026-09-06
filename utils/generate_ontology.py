@@ -36,10 +36,13 @@ FEATURE_CLASSES = [
 ]
 '''
 
+EXTRA = ["Building", "Feature"]
+
 #to remove possible duplicates, and maintain order. there shouldnt be any duplicates anyways
 BUILDING_CLASSES = list(dict.fromkeys(
     rules_and_concepts.get_all_building_classes()
     + rules_and_concepts.get_super_classes()
+    + EXTRA
 ))
  
 FEATURE_CLASSES = rules_and_concepts.get_concepts()
@@ -47,15 +50,36 @@ FEATURE_CLASSES = rules_and_concepts.get_concepts()
 
 # (child, parent) — generates SubClassOf hierarchy
 #specific da ontology do datasetVCB
+# HIERARCHY = [
+#     ("Awning",        "Feature"),   ("Billboard",  "Feature"),
+#     ("Car",           "Feature"),   ("Chimney",    "Feature"),
+#     ("Door",          "Feature"),   ("Machine",    "Feature"),
+#     ("Pipe",          "Feature"),   ("Porch",      "Feature"),
+#     ("Sign",          "Feature"),   ("Statue",     "Feature"),
+#     ("Table",         "Feature"),   ("TiledRoof",  "Feature"),
+#     ("Truck",         "Feature"),   ("VendingMachine", "Feature"),
+#     ("WallSign",      "Feature"),   ("Window",     "Feature"),
+#     ("Commercial",    "Building"),  ("Industrial", "Building"),
+#     ("Residential",   "Building"),
+#     ("Cafe",          "Commercial"), ("Hotel",          "Commercial"),
+#     ("MiscCommercial","Commercial"), ("Restaurant",     "Commercial"),
+#     ("Store",         "Commercial"),
+#     ("ConstructionSite","Industrial"), ("MiscIndustrial","Industrial"),
+#     ("PowerPlant",    "Industrial"), ("WaterTreatment", "Industrial"),
+#     ("CountryHouse",  "Residential"), ("MiscResidential","Residential"),
+#     ("Suburban",      "Residential"),
+# ]
+
+
 HIERARCHY = [
     ("Awning",        "Feature"),   ("Billboard",  "Feature"),
     ("Car",           "Feature"),   ("Chimney",    "Feature"),
     ("Door",          "Feature"),   ("Machine",    "Feature"),
     ("Pipe",          "Feature"),   ("Porch",      "Feature"),
-    ("Sign",          "Feature"),   ("Statue",     "Feature"),
+    ("Statue",     "Feature"), ("Window",     "Feature"),
     ("Table",         "Feature"),   ("TiledRoof",  "Feature"),
     ("Truck",         "Feature"),   ("VendingMachine", "Feature"),
-    ("WallSign",      "Feature"),   ("Window",     "Feature"),
+    ("WallSign",      "Feature"),   
     ("Commercial",    "Building"),  ("Industrial", "Building"),
     ("Residential",   "Building"),
     ("Cafe",          "Commercial"), ("Hotel",          "Commercial"),
@@ -66,6 +90,7 @@ HIERARCHY = [
     ("CountryHouse",  "Residential"), ("MiscResidential","Residential"),
     ("Suburban",      "Residential"),
 ]
+
 
 ALL_AXIOMS = rules_and_concepts.get_all_axioms()
 
@@ -124,13 +149,22 @@ SUBCLASS_RULES = [
 '''
 # Each tuple becomes one DisjointClasses axiom
 #especifico para o datasetVCB
+# DISJOINT_SETS = [
+#     ("Awning", "Billboard", "Car", "Chimney", "Door", "Machine",
+#      "Pipe", "Porch", "Sign", "Statue", "Table", "TiledRoof",
+#      "Truck", "VendingMachine", "WallSign", "Window", "TiledRoofTop"),
+#     ("Building", "Feature"),
+#     ("Commercial", "Industrial", "Residential"),
+# ]
+
 DISJOINT_SETS = [
     ("Awning", "Billboard", "Car", "Chimney", "Door", "Machine",
-     "Pipe", "Porch", "Sign", "Statue", "Table", "TiledRoof",
+     "Pipe", "Porch", "Statue", "Table", "TiledRoof",
      "Truck", "VendingMachine", "WallSign", "Window"),
     ("Building", "Feature"),
     ("Commercial", "Industrial", "Residential"),
 ]
+
 
 
 def generate_INDIVIDUALS():

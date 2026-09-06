@@ -1,0 +1,75 @@
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+
+
+========= CONISTENCY PER RULE =========
+
+commercial | consistency=1.0000 | rule_holds=1333 | rule_vac_holds=2667 | violations=0 | total=4000
+
+industrial | consistency=1.0000 | rule_holds=1334 | rule_vac_holds=2666 | violations=0 | total=4000
+
+countryhouse | consistency=1.0000 | rule_holds=553 | rule_vac_holds=3447 | violations=0 | total=4000
+
+hotel | consistency=1.0000 | rule_holds=812 | rule_vac_holds=3188 | violations=0 | total=4000
+
+miscindustrial | consistency=0.4209 | rule_holds=274 | rule_vac_holds=3349 | violations=377 | total=4000
+    - left_holds_right_fails: 312
+    - left_fails_right_holds: 65
+
+miscresidential | consistency=1.0000 | rule_holds=1106 | rule_vac_holds=2894 | violations=0 | total=4000
+
+residential | consistency=1.0000 | rule_holds=1333 | rule_vac_holds=2667 | violations=0 | total=4000
+
+suburban | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+restaurant | consistency=0.1727 | rule_holds=242 | rule_vac_holds=2599 | violations=1159 | total=4000
+    - left_fails_right_holds: 905
+    - left_holds_right_fails: 254
+
+residential_no_chimney_pipe | consistency=1.0000 | rule_holds=1333 | rule_vac_holds=2667 | violations=0 | total=4000
+
+constructionsite | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+building_impl_complex | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+industrial_not_table | consistency=1.0000 | rule_holds=1334 | rule_vac_holds=2666 | violations=0 | total=4000
+
+store | consistency=1.0000 | rule_holds=843 | rule_vac_holds=3157 | violations=0 | total=4000
+
+cafe | consistency=1.0000 | rule_holds=948 | rule_vac_holds=3052 | violations=0 | total=4000
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=1.0000 | rule_holds=355 | rule_vac_holds=3645 | violations=0 | total=4000
+
+building_no_car_truck | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+powerplant | consistency=1.0000 | rule_holds=686 | rule_vac_holds=3314 | violations=0 | total=4000
+
+watertreatment | consistency=1.0000 | rule_holds=557 | rule_vac_holds=3443 | violations=0 | total=4000
+
+misccommercial | consistency=1.0000 | rule_holds=782 | rule_vac_holds=3218 | violations=0 | total=4000
+

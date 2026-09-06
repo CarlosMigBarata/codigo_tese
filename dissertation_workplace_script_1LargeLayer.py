@@ -263,7 +263,7 @@ class CNN(nn.Module):
 
         #nbr_of_concepts = len(CLASSES) - final_classes
 
-        nbr_of_neurons = min(len(ALL_CONCEPTS) + 5, 48)
+        nbr_of_neurons = min(len(ALL_CONCEPTS), 48)
 
         #layers #era 16,32,64
         self.conv1a = nn.Conv2d(in_channels=3, out_channels=8, kernel_size=3)
@@ -385,15 +385,41 @@ class CNN(nn.Module):
         #x = self.dropout(x)
         #x = F.leaky_relu(self.dense2(x))
 
-        y = F.leaky_relu(self.all_concepts_layer(x))  
+        concepts = self.all_concepts_layer(x)
 
-        x = F.leaky_relu(self.suport_layer1(y))
+        concepts_activation = F.leaky_relu(concepts)
 
-        x = self.super_class_layer(x)
+        x = F.leaky_relu(self.suport_layer1(concepts_activation))
 
-        result = torch.cat([y, x], dim=1)
+
+        super_classes_activation = self.super_class_layer(x)
+
+        result = torch.cat([concepts, super_classes_activation], dim=1)
         return result
 
+
+
+
+        # x = F.leaky_relu(self.dense1(x))
+        # #x = self.dropout(x)
+        # #x = F.leaky_relu(self.dense2(x))
+
+        # concepts = self.concept_layer(x)
+
+        # concepts_activation = F.leaky_relu(concepts)
+
+        # x = F.leaky_relu(self.suport_layer1(concepts_activation))
+
+        # buildings = self.output_layer(x) #era z  
+
+        # buildings_activation = F.leaky_relu(buildings)
+
+        # x2 = F.leaky_relu(self.suport_layer2(buildings_activation))
+
+        # super_classes = self.super_class_layer(x2)
+
+        # result = torch.cat([buildings, concepts, super_classes], dim=1)
+        # return result
       
 '''
 class CNN(nn.Module):
@@ -710,6 +736,17 @@ def test_step(features_param, *labels_list, logits_model, classification_loss_fn
 
 
 '''conf matrix '''
+
+@torch.no_grad()
+def record_conf_matrix_for_loader(logits_model, loader, phase, device):
+    logits_model.eval()
+    for batch_elements in loader:
+        features_param, labels_list = __get_elements_from_batch(batch_elements)
+        features_param = features_param.to(device)
+        labels_list = [lbl.to(device) for lbl in labels_list]
+        logits = logits_model(features_param)
+        complete_lables_tensor = torch.stack(labels_list, dim=1).float()
+        update_confusion_matrix(phase, logits, complete_lables_tensor, CLASSES, conf_matrices)
 
 def update_confusion_matrix(phase, logits, labels, class_names, conf_matrices):
     """
@@ -1274,6 +1311,12 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     print("training finished, starting to save the model")
     txt_file = open(txt_path, "w+")
     txt_file_final_results = open(txt_path_final_results, "w+")
+
+    logits_model.load_state_dict(torch.load(best_model_path))
+    reset_conf_matrices(conf_matrices)
+    record_conf_matrix_for_loader(logits_model, train_loader, "train", device)
+    record_conf_matrix_for_loader(logits_model, test_loader, "val", device)
+
     conf_matrix_file = open(conf_matrix_path, "w+")
     outputs_and_prints.write_results_description_in_txt(txt_file, logits_model, epochs_completed,warmup_epochs, final_epochs, final_alpha, starting_alpha, patience, constant_alpha, subset_class_pos_rates, info_about_dataset, seed, best_epoch, TRAIN_TEST_LIMIT)
     #txt_file.write("\n\n\n\n")
@@ -1313,7 +1356,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
 ensure_run_name_is_valid(run_name=RUN_NAME) #<-- crash if invalid name
  
-for i in range(0,2):
+for i in range(1,3):
     run_output_dir = Path("outputs") / Path(RUN_NAME) / f"run{i}_outputs"
 
     if (run_output_dir / "DONE").exists():
@@ -1333,13 +1376,15 @@ for i in range(0,2):
 
     starting_alpha = 1.0
     if i== 0:
-        starting_alpha = 1.0
+        starting_alpha = 0.95
     if i ==1:
-        starting_alpha = 0.5
+        starting_alpha = 0.8
     if i ==2:
+        starting_alpha = 0.5
+    if i==3:
+        starting_alpha = 0.3
+    if i==4:
         starting_alpha = 0.1
-    if i ==3:
-        starting_alpha = 0.0
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
 
