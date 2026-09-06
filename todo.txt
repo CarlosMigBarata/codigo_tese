@@ -2,22 +2,12 @@ FAZER UMA RUN alpha 0.0 para a baseline
 
 
 
-verificar a comparação dos ltn vs clingo qnd nn concordam
-talvez fazer um simples script neste aspeto?
+ver da arquitetura do modelo. tirar os dropouts, adicionar camadas de convolucional
+por global pooling.
 
-Concrete example with product t-norm AND: two concepts with probabilities 0.55 and 0.55. 
-Clingo sees True ∧ True = True. LTN computes 0.55 × 0.55 = 0.30, which thresholds to False. 
+validar a ontologia, garantir que as super-classes sao mutualmente exclusivas
 
-
-tbm fazer o consistency validation para o train
-
-averiguar porque é que as implicações estao a ficar esquisitias para certos conceitos, mesmo identificar o problema
-
-
-experimentar com outras formulas, e posso escrever na tese sobre o meu codigo, desde que seja sucinto.
-talvez usar um diagrama? tbm devo mostrar a maneira como eu traduzo os axiomas em logica para o que eu uso no codigo 
-
-
+tirar as building labels da class loss
 
 Depois da reunião falamos entre nos orientadores ainda um pouco e para assegurar que durante das férias não houver dúvidas maiores sobre o conjunto mínimo de experiências que deviam ficar para a tese, deixamos aqui esta listagem. Se houver alguma dúvida, por favor, avisem.
 
