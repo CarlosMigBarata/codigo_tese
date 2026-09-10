@@ -1382,6 +1382,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     model_path = best_model_path
 
     #torch.save(logits_model.state_dict(), model_path)
+    done_marker.write_text("done")
 
     consistency_validation_file = open(consistency_validation_path, "w+")
     consistency_validation_file_train = open(consistency_validation_path_train, "w+")
@@ -1392,8 +1393,8 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     _, _, clingo_ltn_comparison_train, disagreement_values_train = run_consistency_validation(model_path, predictions_csv_path_train, raw_predictions_csv_path_train, output_lp_path_train, consistency_validation_file_train, lp_to_run="utils/rules.lp", sample_loader=train_loader)
     outputs_and_prints.summarize_best_epoch_sat_metrics(satAxiom_csv_path, consistency_validation_file_train, clingo_ltn_comparison_train, disagreement_values_train, best_epoch)
 
-    done_marker.write_text("done")
-    checkpoint_path.unlink(missing_ok=True)  # optional: no longer needed once finished
+    #done_marker.write_text("done")
+    #checkpoint_path.unlink(missing_ok=True)  # optional: no longer needed once finished
 
     if csv_path is not None:
         csv_file.close()
