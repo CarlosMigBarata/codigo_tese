@@ -6,6 +6,7 @@ import torch
 import ltn
 import utils.rules_and_concepts as rules_and_concepts
 import utils.constants as constants
+import time
 
 AXIOMS = rules_and_concepts.get_active_axioms()
 CLASSES = rules_and_concepts.get_all_classes()
@@ -439,14 +440,19 @@ def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
         for class_name in list_of_concepts:   # new
             get_masked_variable_and_append_predicates(logits=logits, p=p, args=args, class_name=class_name, axioms=ltn_axioms, device=device)
 
-
+    start_build_axiom_time = time.time()
     for ax in AXIOMS.items():
 
         r = ax[1]
         #print(f"r in compute ax: {r}")
 
+
+        #start_build_axiom_time = time.time()
         ltn_axiom = safe_forall(x, build_axiom(p,x, r["left"], r["right"], r["main_op"], debug_mode), device)
         ltn_axioms.append(ltn_axiom)
+
+
+
         #ltn_axioms.extend([ltn_axiom] * w) this works by appending w ltn_axiom terms to the list. do this AFTER AFTER AFTER update_rule_sat_metrics
 
         
@@ -456,10 +462,14 @@ def compute_axioms(logits, *args, p, debug_mode=False, validation_mode=False):
             update_rule_sat_metric(ax, "val", ltn_axiom)
     
     sat_level = formula_aggregator(*ltn_axioms)
+    end_build_axiom_time = time.time()
+    time_elapsed = end_build_axiom_time - start_build_axiom_time
+    #print(f"time elapsed in build axiom {time_elapsed}\n")
 
     if debug_mode:
         print(f"sat level: {sat_level}")
         print(f"logits: {logits}")
+        print(f"time elapsed in build axiom {time_elapsed}\n")
 
     return sat_level
 

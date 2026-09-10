@@ -44,6 +44,16 @@ if len(sys.argv) < 2:
 
 RUN_NAME = sys.argv[1]
 
+if len(sys.argv) == 3:
+    ACTIVE_ONTOLOGY = sys.argv[2]
+    constants.active_ontology = ACTIVE_ONTOLOGY
+
+else:
+    ACTIVE_ONTOLOGY = constants.active_ontology
+
+
+print(f"active ontology: {ACTIVE_ONTOLOGY}")
+
 
 """ HYPERPARAMETERS """
 
@@ -226,7 +236,7 @@ if TRAIN_WITH_A_SUBSET:
         #train_set = train_subset
     else:
         train_subset = random_subset(train_dataset, n=SUBSET_SIZE, seed=SUBSET_SEED)
-    train_loader = DataLoader(train_subset, batch_size=BATCH_SIZE, shuffle=True)
+    train_loader = DataLoader(train_subset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4, pin_memory=True)
 
     print(f"[subset] using {len(train_subset)}/{len(train_dataset)} train samples (stratified={STRATIFY}, stratified_class={stratified_class}, seed={SUBSET_SEED})")
     info_about_dataset = f"[subset] using {len(train_subset)}/{len(train_dataset)} train samples (stratified={STRATIFY}, seed={SUBSET_SEED})"
@@ -237,9 +247,9 @@ if TRAIN_WITH_A_SUBSET:
     print(subset_df[CLASSES].mean().to_string())
     subset_class_pos_rates = subset_df[CLASSES].mean().to_string()
 else:
-    train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+    train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4, pin_memory=True)
 
-test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
+test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=4, pin_memory=True)
 
 
 
@@ -668,14 +678,20 @@ def train_step(features_param, *labels_list, optimizer, logits_model, classifica
 
     ltn_loss = 1.0 - sat
 
+    endLTN = time.time()
+
     # ----- Combined loss -----
 
 
 
     loss = alpha * classification_loss + (1 - alpha) * ltn_loss
 
+    loss_time = time.time()
+
     loss.backward()
     optimizer.step()
+
+    loss_time_end = time.time()
 
     print(f"Sat Function Result: {sat.item()}, Class_loss: {classification_loss}, ltn-loss: {ltn_loss}, Combined_loss:{loss} ")
 
@@ -689,11 +705,12 @@ def train_step(features_param, *labels_list, optimizer, logits_model, classifica
     calculate_accuracy_for_each_class("train", logits, labels_list)
     update_confusion_matrix("train", logits.detach(), complete_lables_tensor, CLASSES, conf_matrices)
 
-    endLTN = time.time()
+    #endLTN = time.time()
 
     timeDifLTN = endLTN - startLTN
+    loss_time_dif = loss_time_end - loss_time
 
-    #print(f"logits time: {timeDifLogits}, timeLTN: {timeDifLTN}")
+    #print(f"logits time: {timeDifLogits}, timeLTN: {timeDifLTN} lossTime {loss_time_dif}")
 
     return timeDifLogits, timeDifLTN
 
@@ -1149,6 +1166,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     conf_matrix_path = output_dir / "conf_matrix.txt"
     txt_path_final_results = output_dir / "best_epoch_results.txt"
     patience_tracker_path = output_dir / "patience_tracker.txt"
+    time_tracker_path = output_dir/"time_tracker.txt"
 
 
     optimizer = torch.optim.Adam(logits_model.parameters(), lr=learning_rate)
@@ -1216,7 +1234,9 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     
 
     for epoch in range(start_epoch, LIMIT):
-        print(f"starting epoch {epoch}")
+
+        epoch_start_time = time.time()
+        print(f"starting epoch {epoch} of run {RUN_NAME} ")
         reset_conf_matrices(conf_matrices)
         axioms.reset_rule_sat_metrics()
         #reset metrics
@@ -1263,21 +1283,43 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
             outputs_and_prints.write_to_csv_file(satAxiom_template, satAxiom_csv_template, satAxiom_results, epoch, alpha, satAxiom_csv_file, csv_path)
 
 
-            #early stopping condition
+            # #early stopping condition
+            # current_loss = metrics_dict["combined_val_loss"].result()
+            # new_loss = best_loss - early_stopping_delta #preciso de mudar este nome
+
+            # print(f"best_loss: {best_loss}, current_loss: {current_loss}, number of no improve runs:{epochs_no_improve}/{patience}")
+            # patience_tracker_file = open(patience_tracker_path, "w+")
+            # patience_tracker_file.write(f"best_loss: {best_loss} from epoch {best_epoch}, current_loss: {current_loss} from epoch {epoch}, number of no improve cycles of {VALIDATION_INTERVAL} epochs:{epochs_no_improve}/{patience}\n")
+            # patience_tracker_file.close()
+
+            # if current_loss < new_loss:
+            #     best_loss = current_loss
+            #     best_epoch = epoch
+            #     epochs_no_improve = 0
+            #     torch.save(logits_model.state_dict(), best_model_path)
+            #     print("\n\n\n CHANGED BEST LOSS \n\n\n")
+            # elif epoch > 0:
+            #     #print("\n\n\n CHANGED BEST SAT \n\n\n")
+            #     epochs_no_improve += 1
+
+            
             current_loss = metrics_dict["combined_val_loss"].result()
-            new_loss = best_loss - early_stopping_delta #preciso de mudar este nome
+
+            loss_diff = best_loss - current_loss
+            percentage_diff = (loss_diff / best_loss) * 100
 
             print(f"best_loss: {best_loss}, current_loss: {current_loss}, number of no improve runs:{epochs_no_improve}/{patience}")
             patience_tracker_file = open(patience_tracker_path, "w+")
             patience_tracker_file.write(f"best_loss: {best_loss} from epoch {best_epoch}, current_loss: {current_loss} from epoch {epoch}, number of no improve cycles of {VALIDATION_INTERVAL} epochs:{epochs_no_improve}/{patience}\n")
             patience_tracker_file.close()
 
-            if current_loss < new_loss:
+            if current_loss < best_loss and percentage_diff > early_stopping_delta:
                 best_loss = current_loss
                 best_epoch = epoch
                 epochs_no_improve = 0
                 torch.save(logits_model.state_dict(), best_model_path)
                 print("\n\n\n CHANGED BEST LOSS \n\n\n")
+
             elif epoch > 0:
                 #print("\n\n\n CHANGED BEST SAT \n\n\n")
                 epochs_no_improve += 1
@@ -1300,6 +1342,14 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
             epochs_completed = epoch
             break
 
+
+        epoch_end_time = time.time()
+        time_elapsed = epoch_end_time - epoch_start_time
+
+        print(f"epoch {epoch} took {time_elapsed}\n")
+        time_tracker_file = open(time_tracker_path, "w+")
+        time_tracker_file.write(f"epoch {epoch} took {time_elapsed:.2f} seconds\n")
+        time_tracker_file.close()
 
         #model saving
 
@@ -1356,7 +1406,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
 ensure_run_name_is_valid(run_name=RUN_NAME) #<-- crash if invalid name
  
-for i in range(1,3):
+for i in range(0,5):
     run_output_dir = Path("outputs") / Path(RUN_NAME) / f"run{i}_outputs"
 
     if (run_output_dir / "DONE").exists():
@@ -1382,9 +1432,9 @@ for i in range(1,3):
     if i ==2:
         starting_alpha = 0.5
     if i==3:
-        starting_alpha = 0.3
-    if i==4:
         starting_alpha = 0.1
+    if i==4:
+        starting_alpha = 0.8
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
 

@@ -1,38 +1,35 @@
-conceitos funcionais, validation
+commercial
 
-suburban
-
-predicted positive: 33.950% | actual positive: 22.550% | bias: 11.400%
-precision: 66.421% | recall: 100.000% | f1: 79.823%
-
-
-porch
-
-predicted positive: 33.825% | actual positive: 22.550% | bias: 11.275%
-precision: 66.667% | recall: 100.000% | f1: 80.000%
+Cafe_val confusion matrix:
+tensor([[3052,    0],
+        [ 948,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 23.700% | bias: -23.700%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
 
 
-Door_val confusion matrix:
-tensor([[ 558,  826],
-        [1172, 1444]], dtype=torch.int32)
-predicted positive: 56.750% | actual positive: 65.400% | bias: -8.650%
-precision: 63.612% | recall: 55.199% | f1: 59.108%
+Hotel_val confusion matrix:
+tensor([[1340, 1848],
+        [   9,  803]], dtype=torch.int32)
+predicted positive: 66.275% | actual positive: 20.300% | bias: 45.975%
+precision: 30.290% | recall: 98.892% | f1: 46.376%
 
 
-Awning_val confusion matrix:
-tensor([[1444,  716],
-        [ 742, 1098]], dtype=torch.int32)
-predicted positive: 45.350% | actual positive: 46.000% | bias: -0.650%
-precision: 60.529% | recall: 59.674% | f1: 60.099%
-
-um bocado interchangeable com window e table
+Restaurant_val confusion matrix:
+tensor([[3504,    0],
+        [ 496,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 12.400% | bias: -12.400%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
 
 
-Sign_val confusion matrix:
-tensor([[2320,  498],
-        [ 349,  833]], dtype=torch.int32)
-predicted positive: 33.275% | actual positive: 29.550% | bias: 3.725%
-precision: 62.585% | recall: 70.474% | f1: 66.295%
+Store_val confusion matrix:
+tensor([[3157,    0],
+        [ 843,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 21.075% | bias: -21.075%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
 
 
-apenas conceitos bastante comuns podem ser aprendidos, mas o facto de ser comum nao é guarantia que o sejam.
+MiscCommercial_val confusion matrix:
+tensor([[1328, 1890],
+        [   1,  781]], dtype=torch.int32)
+predicted positive: 66.775% | actual positive: 19.550% | bias: 47.225%
+precision: 29.240% | recall: 99.872% | f1: 45.236%

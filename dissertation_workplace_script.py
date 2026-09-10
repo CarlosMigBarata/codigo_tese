@@ -39,19 +39,29 @@ import utils.constants as constants
 import torchmetrics
 
 if len(sys.argv) < 2:
-    print("Usage: python3 dissertation_workplace_script.py <runName>")
+    print("Usage: python3 dissertation_workplace_script.py <runName> <active_ontology>")
     sys.exit(1)
 
 RUN_NAME = sys.argv[1]
 
+# if len(sys.argv) == 3:
+#     SUBSET_SIZE = int(sys.argv[2])
+
+# else:
+#     SUBSET_SIZE = constants.SUBSET_SIZE
+
 if len(sys.argv) == 3:
-    SUBSET_SIZE = int(sys.argv[2])
+    ACTIVE_ONTOLOGY = sys.argv[2]
+    constants.active_ontology = ACTIVE_ONTOLOGY
 
 else:
-    SUBSET_SIZE = constants.SUBSET_SIZE
+    ACTIVE_ONTOLOGY = constants.active_ontology
 
 
-print(f"subset size: {SUBSET_SIZE}")
+print(f"active ontology: {ACTIVE_ONTOLOGY}")
+
+
+
 
 """ HYPERPARAMETERS """
 
@@ -73,7 +83,7 @@ MODEL_SAVING_INTERVAL = constants.MODEL_SAVING_INTERVAL
 DEBUG_MODE = constants.DEBUG_MODE
 
 TRAIN_WITH_A_SUBSET = constants.TRAIN_WITH_A_SUBSET
-#SUBSET_SIZE = constants.SUBSET_SIZE
+SUBSET_SIZE = constants.SUBSET_SIZE
 STRATIFY = constants.STRATIFY
 SUBSET_SEED = constants.SUBSET_SEED
 VALIDATION_INTERVAL = constants.VALIDATION_INTERVAL
@@ -89,18 +99,20 @@ if TRAIN_WITH_A_SUBSET: print(f"SUBSET SIZE: {SUBSET_SIZE}, SUBSET_SEED: {SUBSET
 #print("pode ser necessario de reiniciar duas vezes apos mudar o conhecimento no dicionario das regras\n")
 
 #from utils.axioms import compute_axioms, get_number_of_final_classes, get_CLASSES
+import utils.constants as constants
+importlib.reload(constants)
+
+
 import utils.axioms as axioms
 import utils.occlusion as occlusion
 import utils.rules_and_concepts as rules_and_concepts
 import utils.test_new_rules as test_new_rules
-import utils.constants as constants
 import utils.outputs_and_prints as outputs_and_prints
 #import charter
 importlib.reload(rules_and_concepts)
 importlib.reload(axioms)
 importlib.reload(occlusion)
 importlib.reload(test_new_rules)
-importlib.reload(constants)
 importlib.reload(outputs_and_prints)
 #importlib.reload(charter)
 
@@ -236,7 +248,7 @@ if TRAIN_WITH_A_SUBSET:
         #train_set = train_subset
     else:
         train_subset = random_subset(train_dataset, n=SUBSET_SIZE, seed=SUBSET_SEED)
-    train_loader = DataLoader(train_subset, batch_size=BATCH_SIZE, shuffle=True)
+    train_loader = DataLoader(train_subset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4, pin_memory=True)
 
     print(f"[subset] using {len(train_subset)}/{len(train_dataset)} train samples (stratified={STRATIFY}, stratified_class={stratified_class}, seed={SUBSET_SEED})")
     info_about_dataset = f"[subset] using {len(train_subset)}/{len(train_dataset)} train samples (stratified={STRATIFY}, seed={SUBSET_SEED})"
@@ -247,9 +259,9 @@ if TRAIN_WITH_A_SUBSET:
     print(subset_df[CLASSES].mean().to_string())
     subset_class_pos_rates = subset_df[CLASSES].mean().to_string()
 else:
-    train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+    train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=4, pin_memory=True)
 
-test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
+test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=4, pin_memory=True)
 
 
 
@@ -597,11 +609,11 @@ def train_step(features_param, *labels_list, optimizer, logits_model, classifica
         logits = logits_model(features_param)
         print(f"[DEBUG] logits shape: {logits.shape}, expected: [batch, {building_classes + min(len(ALL_CONCEPTS)+5, 48)}]")
 
-
+    start = time.time()
     logits_model.train()
     optimizer.zero_grad()
 
-    start = time.time()
+
     logits = logits_model(features_param)
     end = time.time()
 
@@ -1112,6 +1124,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     conf_matrix_path = output_dir / "conf_matrix.txt"
     txt_path_final_results = output_dir / "best_epoch_results.txt"
     patience_tracker_path = output_dir / "patience_tracker.txt"
+    time_tracker_path = output_dir/"time_tracker.txt"
 
 
     optimizer = torch.optim.Adam(logits_model.parameters(), lr=learning_rate)
@@ -1179,7 +1192,8 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     
 
     for epoch in range(start_epoch, LIMIT):
-        print(f"starting epoch {epoch}")
+        epoch_start_time = time.time()
+        print(f"starting epoch {epoch} of run {RUN_NAME}")
         reset_conf_matrices(conf_matrices)
         axioms.reset_rule_sat_metrics()
         #reset metrics
@@ -1227,20 +1241,42 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
 
             #early stopping condition
+            # current_loss = metrics_dict["combined_val_loss"].result()
+            # new_loss = best_loss #preciso de mudar este nome
+
+            # loss_diff = current_loss - best_loss
+            # perctange_diff = (loss_diff / old_best_loss) * 100
+
+            # print(f"best_loss: {best_loss}, current_loss: {current_loss}, number of no improve runs:{epochs_no_improve}/{patience}")
+            # patience_tracker_file = open(patience_tracker_path, "w+")
+            # patience_tracker_file.write(f"best_loss: {best_loss} from epoch {best_epoch}, current_loss: {current_loss} from epoch {epoch}, number of no improve cycles of {VALIDATION_INTERVAL} epochs:{epochs_no_improve}/{patience}\n")
+            # patience_tracker_file.close()
+
+            # if current_loss < new_loss and perctange_diff > early_stopping_delta:
+            #     old_best_loss = best_loss
+            #     best_loss = current_loss
+            #     best_epoch = epoch
+            #     epochs_no_improve = 0
+            #     torch.save(logits_model.state_dict(), best_model_path)
+            #     print("\n\n\n CHANGED BEST LOSS \n\n\n")
+
             current_loss = metrics_dict["combined_val_loss"].result()
-            new_loss = best_loss - early_stopping_delta #preciso de mudar este nome
+
+            loss_diff = best_loss - current_loss
+            percentage_diff = (loss_diff / best_loss) * 100
 
             print(f"best_loss: {best_loss}, current_loss: {current_loss}, number of no improve runs:{epochs_no_improve}/{patience}")
             patience_tracker_file = open(patience_tracker_path, "w+")
             patience_tracker_file.write(f"best_loss: {best_loss} from epoch {best_epoch}, current_loss: {current_loss} from epoch {epoch}, number of no improve cycles of {VALIDATION_INTERVAL} epochs:{epochs_no_improve}/{patience}\n")
             patience_tracker_file.close()
 
-            if current_loss < new_loss:
+            if current_loss < best_loss and percentage_diff > early_stopping_delta:
                 best_loss = current_loss
                 best_epoch = epoch
                 epochs_no_improve = 0
                 torch.save(logits_model.state_dict(), best_model_path)
                 print("\n\n\n CHANGED BEST LOSS \n\n\n")
+
             elif epoch > 0:
                 #print("\n\n\n CHANGED BEST SAT \n\n\n")
                 epochs_no_improve += 1
@@ -1262,6 +1298,15 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
             print("EARLY STOPPING TRIGGERED")
             epochs_completed = epoch
             break
+
+
+        epoch_end_time = time.time()
+        time_elapsed = epoch_end_time - epoch_start_time
+
+        print(f"epoch {epoch} took {time_elapsed}\n")
+        time_tracker_file = open(time_tracker_path, "w+")
+        time_tracker_file.write(f"epoch {epoch} took {time_elapsed:.2f} seconds\n")
+        time_tracker_file.close()
 
 
         #model saving
@@ -1305,7 +1350,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
     outputs_and_prints.summarize_best_epoch_sat_metrics(satAxiom_csv_path, consistency_validation_file_train, clingo_ltn_comparison_train, disagreement_values_train, best_epoch)
 
     done_marker.write_text("done")
-    checkpoint_path.unlink(missing_ok=True)  # optional: no longer needed once finished
+    #checkpoint_path.unlink(missing_ok=True)  # optional: no longer needed once finished
 
     if csv_path is not None:
         csv_file.close()
@@ -1320,7 +1365,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
 ensure_run_name_is_valid(run_name=RUN_NAME) #<-- crash if invalid name
  
-for i in range(0,2):
+for i in range(5,6):
     run_output_dir = Path("outputs") / Path(RUN_NAME) / f"run{i}_outputs"
 
     if (run_output_dir / "DONE").exists():
@@ -1340,16 +1385,22 @@ for i in range(0,2):
 
     starting_alpha = 1.0
     if i== 0:
-        starting_alpha = 0.8 #era 0.95
+        starting_alpha = 0.95 #era 0.95
     if i ==1:
         starting_alpha = 0.8
     if i ==2:
         starting_alpha = 0.5
+    if i==3:
+        starting_alpha = 0.1
+    if i ==4:
+        starting_alpha = 0.0
+    if i ==5:
+            starting_alpha = 0.8
 
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
 
-    train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting_alpha= starting_alpha, patience=patience, early_stopping_delta=0.005, learning_rate=LEARNING_RATE, train_model_number=i, seed=seed)
+    train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting_alpha= starting_alpha, patience=patience, early_stopping_delta=constants.EARLY_STOPPING_DELTA, learning_rate=LEARNING_RATE, train_model_number=i, seed=seed)
 
 
 

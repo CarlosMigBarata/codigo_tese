@@ -3,7 +3,6 @@ holds(s_16000_jpg, building).
 holds(s_16000_jpg, feature).
 holds(s_16000_jpg, hotel).
 holds(s_16000_jpg, store).
-holds(s_16000_jpg, suburban).
 holds(s_16000_jpg, window).
 holds(s_16000_jpg, billboard).
 holds(s_16000_jpg, porch).
@@ -16,7 +15,6 @@ holds(s_16001_jpg, feature).
 holds(s_16001_jpg, hotel).
 holds(s_16001_jpg, store).
 holds(s_16001_jpg, suburban).
-holds(s_16001_jpg, door).
 holds(s_16001_jpg, billboard).
 holds(s_16001_jpg, porch).
 holds(s_16001_jpg, wallsign).
@@ -34,6 +32,7 @@ holds(s_16002_jpg, window).
 holds(s_16002_jpg, billboard).
 holds(s_16002_jpg, porch).
 holds(s_16002_jpg, wallsign).
+holds(s_16002_jpg, pipe).
 holds(s_16002_jpg, commercial).
 
 sample(s_16003_jpg).
@@ -41,7 +40,6 @@ holds(s_16003_jpg, building).
 holds(s_16003_jpg, feature).
 holds(s_16003_jpg, hotel).
 holds(s_16003_jpg, store).
-holds(s_16003_jpg, suburban).
 holds(s_16003_jpg, window).
 holds(s_16003_jpg, billboard).
 holds(s_16003_jpg, porch).
@@ -54,7 +52,6 @@ holds(s_16004_jpg, feature).
 holds(s_16004_jpg, hotel).
 holds(s_16004_jpg, store).
 holds(s_16004_jpg, suburban).
-holds(s_16004_jpg, door).
 holds(s_16004_jpg, billboard).
 holds(s_16004_jpg, porch).
 holds(s_16004_jpg, wallsign).
@@ -80,7 +77,6 @@ holds(s_16006_jpg, building).
 holds(s_16006_jpg, feature).
 holds(s_16006_jpg, hotel).
 holds(s_16006_jpg, store).
-holds(s_16006_jpg, suburban).
 holds(s_16006_jpg, window).
 holds(s_16006_jpg, billboard).
 holds(s_16006_jpg, porch).
@@ -93,7 +89,6 @@ holds(s_16007_jpg, feature).
 holds(s_16007_jpg, hotel).
 holds(s_16007_jpg, store).
 holds(s_16007_jpg, suburban).
-holds(s_16007_jpg, door).
 holds(s_16007_jpg, billboard).
 holds(s_16007_jpg, porch).
 holds(s_16007_jpg, wallsign).
@@ -119,7 +114,6 @@ holds(s_16009_jpg, building).
 holds(s_16009_jpg, feature).
 holds(s_16009_jpg, hotel).
 holds(s_16009_jpg, store).
-holds(s_16009_jpg, suburban).
 holds(s_16009_jpg, window).
 holds(s_16009_jpg, billboard).
 holds(s_16009_jpg, porch).
@@ -132,7 +126,6 @@ holds(s_16010_jpg, feature).
 holds(s_16010_jpg, hotel).
 holds(s_16010_jpg, store).
 holds(s_16010_jpg, suburban).
-holds(s_16010_jpg, door).
 holds(s_16010_jpg, billboard).
 holds(s_16010_jpg, porch).
 holds(s_16010_jpg, wallsign).
@@ -150,6 +143,7 @@ holds(s_16011_jpg, window).
 holds(s_16011_jpg, billboard).
 holds(s_16011_jpg, porch).
 holds(s_16011_jpg, wallsign).
+holds(s_16011_jpg, pipe).
 holds(s_16011_jpg, commercial).
 
 sample(s_16012_jpg).
@@ -157,7 +151,6 @@ holds(s_16012_jpg, building).
 holds(s_16012_jpg, feature).
 holds(s_16012_jpg, hotel).
 holds(s_16012_jpg, store).
-holds(s_16012_jpg, suburban).
 holds(s_16012_jpg, window).
 holds(s_16012_jpg, billboard).
 holds(s_16012_jpg, porch).
@@ -170,7 +163,6 @@ holds(s_16013_jpg, feature).
 holds(s_16013_jpg, hotel).
 holds(s_16013_jpg, store).
 holds(s_16013_jpg, suburban).
-holds(s_16013_jpg, door).
 holds(s_16013_jpg, billboard).
 holds(s_16013_jpg, porch).
 holds(s_16013_jpg, wallsign).
@@ -196,7 +188,6 @@ holds(s_16015_jpg, building).
 holds(s_16015_jpg, feature).
 holds(s_16015_jpg, hotel).
 holds(s_16015_jpg, store).
-holds(s_16015_jpg, suburban).
 holds(s_16015_jpg, window).
 holds(s_16015_jpg, billboard).
 holds(s_16015_jpg, porch).
@@ -234,7 +225,6 @@ holds(s_16018_jpg, building).
 holds(s_16018_jpg, feature).
 holds(s_16018_jpg, hotel).
 holds(s_16018_jpg, store).
-holds(s_16018_jpg, suburban).
 holds(s_16018_jpg, window).
 holds(s_16018_jpg, billboard).
 holds(s_16018_jpg, porch).
@@ -273,7 +263,6 @@ holds(s_16021_jpg, building).
 holds(s_16021_jpg, feature).
 holds(s_16021_jpg, hotel).
 holds(s_16021_jpg, store).
-holds(s_16021_jpg, suburban).
 holds(s_16021_jpg, window).
 holds(s_16021_jpg, billboard).
 holds(s_16021_jpg, porch).
@@ -286,7 +275,6 @@ holds(s_16022_jpg, feature).
 holds(s_16022_jpg, hotel).
 holds(s_16022_jpg, store).
 holds(s_16022_jpg, suburban).
-holds(s_16022_jpg, door).
 holds(s_16022_jpg, billboard).
 holds(s_16022_jpg, porch).
 holds(s_16022_jpg, wallsign).
@@ -312,7 +300,6 @@ holds(s_16024_jpg, building).
 holds(s_16024_jpg, feature).
 holds(s_16024_jpg, hotel).
 holds(s_16024_jpg, store).
-holds(s_16024_jpg, suburban).
 holds(s_16024_jpg, window).
 holds(s_16024_jpg, billboard).
 holds(s_16024_jpg, porch).
@@ -351,7 +338,6 @@ holds(s_16027_jpg, building).
 holds(s_16027_jpg, feature).
 holds(s_16027_jpg, hotel).
 holds(s_16027_jpg, store).
-holds(s_16027_jpg, suburban).
 holds(s_16027_jpg, window).
 holds(s_16027_jpg, billboard).
 holds(s_16027_jpg, porch).
@@ -364,7 +350,6 @@ holds(s_16028_jpg, feature).
 holds(s_16028_jpg, hotel).
 holds(s_16028_jpg, store).
 holds(s_16028_jpg, suburban).
-holds(s_16028_jpg, door).
 holds(s_16028_jpg, billboard).
 holds(s_16028_jpg, porch).
 holds(s_16028_jpg, wallsign).
@@ -390,7 +375,6 @@ holds(s_16030_jpg, building).
 holds(s_16030_jpg, feature).
 holds(s_16030_jpg, hotel).
 holds(s_16030_jpg, store).
-holds(s_16030_jpg, suburban).
 holds(s_16030_jpg, window).
 holds(s_16030_jpg, billboard).
 holds(s_16030_jpg, porch).
@@ -428,7 +412,6 @@ holds(s_16033_jpg, building).
 holds(s_16033_jpg, feature).
 holds(s_16033_jpg, hotel).
 holds(s_16033_jpg, store).
-holds(s_16033_jpg, suburban).
 holds(s_16033_jpg, window).
 holds(s_16033_jpg, billboard).
 holds(s_16033_jpg, porch).
@@ -441,7 +424,6 @@ holds(s_16034_jpg, feature).
 holds(s_16034_jpg, hotel).
 holds(s_16034_jpg, store).
 holds(s_16034_jpg, suburban).
-holds(s_16034_jpg, door).
 holds(s_16034_jpg, billboard).
 holds(s_16034_jpg, porch).
 holds(s_16034_jpg, wallsign).
@@ -454,19 +436,16 @@ holds(s_16035_jpg, feature).
 holds(s_16035_jpg, hotel).
 holds(s_16035_jpg, store).
 holds(s_16035_jpg, suburban).
-holds(s_16035_jpg, door).
-holds(s_16035_jpg, window).
 holds(s_16035_jpg, billboard).
 holds(s_16035_jpg, porch).
 holds(s_16035_jpg, wallsign).
-holds(s_16035_jpg, industrial).
+holds(s_16035_jpg, commercial).
 
 sample(s_16036_jpg).
 holds(s_16036_jpg, building).
 holds(s_16036_jpg, feature).
 holds(s_16036_jpg, hotel).
 holds(s_16036_jpg, store).
-holds(s_16036_jpg, suburban).
 holds(s_16036_jpg, window).
 holds(s_16036_jpg, billboard).
 holds(s_16036_jpg, porch).
@@ -479,7 +458,6 @@ holds(s_16037_jpg, feature).
 holds(s_16037_jpg, hotel).
 holds(s_16037_jpg, store).
 holds(s_16037_jpg, suburban).
-holds(s_16037_jpg, door).
 holds(s_16037_jpg, billboard).
 holds(s_16037_jpg, porch).
 holds(s_16037_jpg, wallsign).
@@ -497,6 +475,7 @@ holds(s_16038_jpg, window).
 holds(s_16038_jpg, billboard).
 holds(s_16038_jpg, porch).
 holds(s_16038_jpg, wallsign).
+holds(s_16038_jpg, pipe).
 holds(s_16038_jpg, commercial).
 
 sample(s_16039_jpg).
@@ -504,7 +483,6 @@ holds(s_16039_jpg, building).
 holds(s_16039_jpg, feature).
 holds(s_16039_jpg, hotel).
 holds(s_16039_jpg, store).
-holds(s_16039_jpg, suburban).
 holds(s_16039_jpg, window).
 holds(s_16039_jpg, billboard).
 holds(s_16039_jpg, porch).
@@ -542,7 +520,6 @@ holds(s_16042_jpg, building).
 holds(s_16042_jpg, feature).
 holds(s_16042_jpg, hotel).
 holds(s_16042_jpg, store).
-holds(s_16042_jpg, suburban).
 holds(s_16042_jpg, window).
 holds(s_16042_jpg, billboard).
 holds(s_16042_jpg, porch).
@@ -572,6 +549,7 @@ holds(s_16044_jpg, window).
 holds(s_16044_jpg, billboard).
 holds(s_16044_jpg, porch).
 holds(s_16044_jpg, wallsign).
+holds(s_16044_jpg, pipe).
 holds(s_16044_jpg, commercial).
 
 sample(s_16045_jpg).
@@ -579,7 +557,6 @@ holds(s_16045_jpg, building).
 holds(s_16045_jpg, feature).
 holds(s_16045_jpg, hotel).
 holds(s_16045_jpg, store).
-holds(s_16045_jpg, suburban).
 holds(s_16045_jpg, window).
 holds(s_16045_jpg, billboard).
 holds(s_16045_jpg, porch).
@@ -592,7 +569,6 @@ holds(s_16046_jpg, feature).
 holds(s_16046_jpg, hotel).
 holds(s_16046_jpg, store).
 holds(s_16046_jpg, suburban).
-holds(s_16046_jpg, door).
 holds(s_16046_jpg, billboard).
 holds(s_16046_jpg, porch).
 holds(s_16046_jpg, wallsign).
@@ -649,6 +625,7 @@ holds(s_16050_jpg, window).
 holds(s_16050_jpg, billboard).
 holds(s_16050_jpg, porch).
 holds(s_16050_jpg, wallsign).
+holds(s_16050_jpg, pipe).
 holds(s_16050_jpg, commercial).
 
 sample(s_16051_jpg).
@@ -656,7 +633,6 @@ holds(s_16051_jpg, building).
 holds(s_16051_jpg, feature).
 holds(s_16051_jpg, hotel).
 holds(s_16051_jpg, store).
-holds(s_16051_jpg, suburban).
 holds(s_16051_jpg, window).
 holds(s_16051_jpg, billboard).
 holds(s_16051_jpg, porch).
@@ -694,7 +670,6 @@ holds(s_16054_jpg, building).
 holds(s_16054_jpg, feature).
 holds(s_16054_jpg, hotel).
 holds(s_16054_jpg, store).
-holds(s_16054_jpg, suburban).
 holds(s_16054_jpg, window).
 holds(s_16054_jpg, billboard).
 holds(s_16054_jpg, porch).
@@ -707,7 +682,6 @@ holds(s_16055_jpg, feature).
 holds(s_16055_jpg, hotel).
 holds(s_16055_jpg, store).
 holds(s_16055_jpg, suburban).
-holds(s_16055_jpg, door).
 holds(s_16055_jpg, billboard).
 holds(s_16055_jpg, porch).
 holds(s_16055_jpg, wallsign).
@@ -725,6 +699,7 @@ holds(s_16056_jpg, window).
 holds(s_16056_jpg, billboard).
 holds(s_16056_jpg, porch).
 holds(s_16056_jpg, wallsign).
+holds(s_16056_jpg, pipe).
 holds(s_16056_jpg, commercial).
 
 sample(s_16057_jpg).
@@ -732,7 +707,6 @@ holds(s_16057_jpg, building).
 holds(s_16057_jpg, feature).
 holds(s_16057_jpg, hotel).
 holds(s_16057_jpg, store).
-holds(s_16057_jpg, suburban).
 holds(s_16057_jpg, window).
 holds(s_16057_jpg, billboard).
 holds(s_16057_jpg, porch).
@@ -745,7 +719,6 @@ holds(s_16058_jpg, feature).
 holds(s_16058_jpg, hotel).
 holds(s_16058_jpg, store).
 holds(s_16058_jpg, suburban).
-holds(s_16058_jpg, door).
 holds(s_16058_jpg, billboard).
 holds(s_16058_jpg, porch).
 holds(s_16058_jpg, wallsign).
@@ -763,6 +736,7 @@ holds(s_16059_jpg, window).
 holds(s_16059_jpg, billboard).
 holds(s_16059_jpg, porch).
 holds(s_16059_jpg, wallsign).
+holds(s_16059_jpg, pipe).
 holds(s_16059_jpg, commercial).
 
 sample(s_16060_jpg).
@@ -770,7 +744,6 @@ holds(s_16060_jpg, building).
 holds(s_16060_jpg, feature).
 holds(s_16060_jpg, hotel).
 holds(s_16060_jpg, store).
-holds(s_16060_jpg, suburban).
 holds(s_16060_jpg, window).
 holds(s_16060_jpg, billboard).
 holds(s_16060_jpg, porch).
@@ -783,7 +756,6 @@ holds(s_16061_jpg, feature).
 holds(s_16061_jpg, hotel).
 holds(s_16061_jpg, store).
 holds(s_16061_jpg, suburban).
-holds(s_16061_jpg, door).
 holds(s_16061_jpg, billboard).
 holds(s_16061_jpg, porch).
 holds(s_16061_jpg, wallsign).
@@ -801,6 +773,7 @@ holds(s_16062_jpg, window).
 holds(s_16062_jpg, billboard).
 holds(s_16062_jpg, porch).
 holds(s_16062_jpg, wallsign).
+holds(s_16062_jpg, pipe).
 holds(s_16062_jpg, commercial).
 
 sample(s_16063_jpg).
@@ -808,7 +781,6 @@ holds(s_16063_jpg, building).
 holds(s_16063_jpg, feature).
 holds(s_16063_jpg, hotel).
 holds(s_16063_jpg, store).
-holds(s_16063_jpg, suburban).
 holds(s_16063_jpg, window).
 holds(s_16063_jpg, billboard).
 holds(s_16063_jpg, porch).
@@ -821,7 +793,6 @@ holds(s_16064_jpg, feature).
 holds(s_16064_jpg, hotel).
 holds(s_16064_jpg, store).
 holds(s_16064_jpg, suburban).
-holds(s_16064_jpg, door).
 holds(s_16064_jpg, billboard).
 holds(s_16064_jpg, porch).
 holds(s_16064_jpg, wallsign).
@@ -839,6 +810,7 @@ holds(s_16065_jpg, window).
 holds(s_16065_jpg, billboard).
 holds(s_16065_jpg, porch).
 holds(s_16065_jpg, wallsign).
+holds(s_16065_jpg, pipe).
 holds(s_16065_jpg, commercial).
 
 sample(s_16066_jpg).
@@ -846,7 +818,6 @@ holds(s_16066_jpg, building).
 holds(s_16066_jpg, feature).
 holds(s_16066_jpg, hotel).
 holds(s_16066_jpg, store).
-holds(s_16066_jpg, suburban).
 holds(s_16066_jpg, window).
 holds(s_16066_jpg, billboard).
 holds(s_16066_jpg, porch).
@@ -885,7 +856,6 @@ holds(s_16069_jpg, building).
 holds(s_16069_jpg, feature).
 holds(s_16069_jpg, hotel).
 holds(s_16069_jpg, store).
-holds(s_16069_jpg, suburban).
 holds(s_16069_jpg, window).
 holds(s_16069_jpg, billboard).
 holds(s_16069_jpg, porch).
@@ -898,7 +868,6 @@ holds(s_16070_jpg, feature).
 holds(s_16070_jpg, hotel).
 holds(s_16070_jpg, store).
 holds(s_16070_jpg, suburban).
-holds(s_16070_jpg, door).
 holds(s_16070_jpg, billboard).
 holds(s_16070_jpg, porch).
 holds(s_16070_jpg, wallsign).
@@ -924,7 +893,6 @@ holds(s_16072_jpg, building).
 holds(s_16072_jpg, feature).
 holds(s_16072_jpg, hotel).
 holds(s_16072_jpg, store).
-holds(s_16072_jpg, suburban).
 holds(s_16072_jpg, window).
 holds(s_16072_jpg, billboard).
 holds(s_16072_jpg, porch).
@@ -937,7 +905,6 @@ holds(s_16073_jpg, feature).
 holds(s_16073_jpg, hotel).
 holds(s_16073_jpg, store).
 holds(s_16073_jpg, suburban).
-holds(s_16073_jpg, door).
 holds(s_16073_jpg, billboard).
 holds(s_16073_jpg, porch).
 holds(s_16073_jpg, wallsign).
@@ -955,6 +922,7 @@ holds(s_16074_jpg, window).
 holds(s_16074_jpg, billboard).
 holds(s_16074_jpg, porch).
 holds(s_16074_jpg, wallsign).
+holds(s_16074_jpg, pipe).
 holds(s_16074_jpg, commercial).
 
 sample(s_16075_jpg).
@@ -962,7 +930,6 @@ holds(s_16075_jpg, building).
 holds(s_16075_jpg, feature).
 holds(s_16075_jpg, hotel).
 holds(s_16075_jpg, store).
-holds(s_16075_jpg, suburban).
 holds(s_16075_jpg, window).
 holds(s_16075_jpg, billboard).
 holds(s_16075_jpg, porch).
@@ -975,7 +942,6 @@ holds(s_16076_jpg, feature).
 holds(s_16076_jpg, hotel).
 holds(s_16076_jpg, store).
 holds(s_16076_jpg, suburban).
-holds(s_16076_jpg, door).
 holds(s_16076_jpg, billboard).
 holds(s_16076_jpg, porch).
 holds(s_16076_jpg, wallsign).
@@ -993,6 +959,7 @@ holds(s_16077_jpg, window).
 holds(s_16077_jpg, billboard).
 holds(s_16077_jpg, porch).
 holds(s_16077_jpg, wallsign).
+holds(s_16077_jpg, pipe).
 holds(s_16077_jpg, commercial).
 
 sample(s_16078_jpg).
@@ -1000,7 +967,6 @@ holds(s_16078_jpg, building).
 holds(s_16078_jpg, feature).
 holds(s_16078_jpg, hotel).
 holds(s_16078_jpg, store).
-holds(s_16078_jpg, suburban).
 holds(s_16078_jpg, window).
 holds(s_16078_jpg, billboard).
 holds(s_16078_jpg, porch).
@@ -1013,7 +979,6 @@ holds(s_16079_jpg, feature).
 holds(s_16079_jpg, hotel).
 holds(s_16079_jpg, store).
 holds(s_16079_jpg, suburban).
-holds(s_16079_jpg, door).
 holds(s_16079_jpg, billboard).
 holds(s_16079_jpg, porch).
 holds(s_16079_jpg, wallsign).
@@ -1039,7 +1004,6 @@ holds(s_16081_jpg, building).
 holds(s_16081_jpg, feature).
 holds(s_16081_jpg, hotel).
 holds(s_16081_jpg, store).
-holds(s_16081_jpg, suburban).
 holds(s_16081_jpg, window).
 holds(s_16081_jpg, billboard).
 holds(s_16081_jpg, porch).
@@ -1077,7 +1041,6 @@ holds(s_16084_jpg, building).
 holds(s_16084_jpg, feature).
 holds(s_16084_jpg, hotel).
 holds(s_16084_jpg, store).
-holds(s_16084_jpg, suburban).
 holds(s_16084_jpg, window).
 holds(s_16084_jpg, billboard).
 holds(s_16084_jpg, porch).
@@ -1090,7 +1053,6 @@ holds(s_16085_jpg, feature).
 holds(s_16085_jpg, hotel).
 holds(s_16085_jpg, store).
 holds(s_16085_jpg, suburban).
-holds(s_16085_jpg, door).
 holds(s_16085_jpg, billboard).
 holds(s_16085_jpg, porch).
 holds(s_16085_jpg, wallsign).
@@ -1108,6 +1070,7 @@ holds(s_16086_jpg, window).
 holds(s_16086_jpg, billboard).
 holds(s_16086_jpg, porch).
 holds(s_16086_jpg, wallsign).
+holds(s_16086_jpg, pipe).
 holds(s_16086_jpg, commercial).
 
 sample(s_16087_jpg).
@@ -1115,7 +1078,6 @@ holds(s_16087_jpg, building).
 holds(s_16087_jpg, feature).
 holds(s_16087_jpg, hotel).
 holds(s_16087_jpg, store).
-holds(s_16087_jpg, suburban).
 holds(s_16087_jpg, window).
 holds(s_16087_jpg, billboard).
 holds(s_16087_jpg, porch).
@@ -1128,7 +1090,6 @@ holds(s_16088_jpg, feature).
 holds(s_16088_jpg, hotel).
 holds(s_16088_jpg, store).
 holds(s_16088_jpg, suburban).
-holds(s_16088_jpg, door).
 holds(s_16088_jpg, billboard).
 holds(s_16088_jpg, porch).
 holds(s_16088_jpg, wallsign).
@@ -1154,7 +1115,6 @@ holds(s_16090_jpg, building).
 holds(s_16090_jpg, feature).
 holds(s_16090_jpg, hotel).
 holds(s_16090_jpg, store).
-holds(s_16090_jpg, suburban).
 holds(s_16090_jpg, window).
 holds(s_16090_jpg, billboard).
 holds(s_16090_jpg, porch).
@@ -1167,7 +1127,6 @@ holds(s_16091_jpg, feature).
 holds(s_16091_jpg, hotel).
 holds(s_16091_jpg, store).
 holds(s_16091_jpg, suburban).
-holds(s_16091_jpg, door).
 holds(s_16091_jpg, billboard).
 holds(s_16091_jpg, porch).
 holds(s_16091_jpg, wallsign).
@@ -1193,7 +1152,6 @@ holds(s_16093_jpg, building).
 holds(s_16093_jpg, feature).
 holds(s_16093_jpg, hotel).
 holds(s_16093_jpg, store).
-holds(s_16093_jpg, suburban).
 holds(s_16093_jpg, window).
 holds(s_16093_jpg, billboard).
 holds(s_16093_jpg, porch).
@@ -1224,6 +1182,7 @@ holds(s_16095_jpg, window).
 holds(s_16095_jpg, billboard).
 holds(s_16095_jpg, porch).
 holds(s_16095_jpg, wallsign).
+holds(s_16095_jpg, pipe).
 holds(s_16095_jpg, commercial).
 
 sample(s_16096_jpg).
@@ -1231,7 +1190,6 @@ holds(s_16096_jpg, building).
 holds(s_16096_jpg, feature).
 holds(s_16096_jpg, hotel).
 holds(s_16096_jpg, store).
-holds(s_16096_jpg, suburban).
 holds(s_16096_jpg, window).
 holds(s_16096_jpg, billboard).
 holds(s_16096_jpg, porch).
@@ -1244,7 +1202,6 @@ holds(s_16097_jpg, feature).
 holds(s_16097_jpg, hotel).
 holds(s_16097_jpg, store).
 holds(s_16097_jpg, suburban).
-holds(s_16097_jpg, door).
 holds(s_16097_jpg, billboard).
 holds(s_16097_jpg, porch).
 holds(s_16097_jpg, wallsign).
@@ -1270,7 +1227,6 @@ holds(s_16099_jpg, building).
 holds(s_16099_jpg, feature).
 holds(s_16099_jpg, hotel).
 holds(s_16099_jpg, store).
-holds(s_16099_jpg, suburban).
 holds(s_16099_jpg, window).
 holds(s_16099_jpg, billboard).
 holds(s_16099_jpg, porch).
@@ -1283,7 +1239,6 @@ holds(s_16100_jpg, feature).
 holds(s_16100_jpg, hotel).
 holds(s_16100_jpg, store).
 holds(s_16100_jpg, suburban).
-holds(s_16100_jpg, door).
 holds(s_16100_jpg, billboard).
 holds(s_16100_jpg, porch).
 holds(s_16100_jpg, wallsign).
@@ -1301,6 +1256,7 @@ holds(s_16101_jpg, window).
 holds(s_16101_jpg, billboard).
 holds(s_16101_jpg, porch).
 holds(s_16101_jpg, wallsign).
+holds(s_16101_jpg, pipe).
 holds(s_16101_jpg, commercial).
 
 sample(s_16102_jpg).
@@ -1308,7 +1264,6 @@ holds(s_16102_jpg, building).
 holds(s_16102_jpg, feature).
 holds(s_16102_jpg, hotel).
 holds(s_16102_jpg, store).
-holds(s_16102_jpg, suburban).
 holds(s_16102_jpg, window).
 holds(s_16102_jpg, billboard).
 holds(s_16102_jpg, porch).
@@ -1321,7 +1276,6 @@ holds(s_16103_jpg, feature).
 holds(s_16103_jpg, hotel).
 holds(s_16103_jpg, store).
 holds(s_16103_jpg, suburban).
-holds(s_16103_jpg, door).
 holds(s_16103_jpg, billboard).
 holds(s_16103_jpg, porch).
 holds(s_16103_jpg, wallsign).
@@ -1347,7 +1301,6 @@ holds(s_16105_jpg, building).
 holds(s_16105_jpg, feature).
 holds(s_16105_jpg, hotel).
 holds(s_16105_jpg, store).
-holds(s_16105_jpg, suburban).
 holds(s_16105_jpg, window).
 holds(s_16105_jpg, billboard).
 holds(s_16105_jpg, porch).
@@ -1360,7 +1313,6 @@ holds(s_16106_jpg, feature).
 holds(s_16106_jpg, hotel).
 holds(s_16106_jpg, store).
 holds(s_16106_jpg, suburban).
-holds(s_16106_jpg, door).
 holds(s_16106_jpg, billboard).
 holds(s_16106_jpg, porch).
 holds(s_16106_jpg, wallsign).
@@ -1378,6 +1330,7 @@ holds(s_16107_jpg, window).
 holds(s_16107_jpg, billboard).
 holds(s_16107_jpg, porch).
 holds(s_16107_jpg, wallsign).
+holds(s_16107_jpg, pipe).
 holds(s_16107_jpg, commercial).
 
 sample(s_16108_jpg).
@@ -1385,7 +1338,6 @@ holds(s_16108_jpg, building).
 holds(s_16108_jpg, feature).
 holds(s_16108_jpg, hotel).
 holds(s_16108_jpg, store).
-holds(s_16108_jpg, suburban).
 holds(s_16108_jpg, window).
 holds(s_16108_jpg, billboard).
 holds(s_16108_jpg, porch).
@@ -1398,7 +1350,6 @@ holds(s_16109_jpg, feature).
 holds(s_16109_jpg, hotel).
 holds(s_16109_jpg, store).
 holds(s_16109_jpg, suburban).
-holds(s_16109_jpg, door).
 holds(s_16109_jpg, billboard).
 holds(s_16109_jpg, porch).
 holds(s_16109_jpg, wallsign).
@@ -1424,7 +1375,6 @@ holds(s_16111_jpg, building).
 holds(s_16111_jpg, feature).
 holds(s_16111_jpg, hotel).
 holds(s_16111_jpg, store).
-holds(s_16111_jpg, suburban).
 holds(s_16111_jpg, window).
 holds(s_16111_jpg, billboard).
 holds(s_16111_jpg, porch).
@@ -1462,7 +1412,6 @@ holds(s_16114_jpg, building).
 holds(s_16114_jpg, feature).
 holds(s_16114_jpg, hotel).
 holds(s_16114_jpg, store).
-holds(s_16114_jpg, suburban).
 holds(s_16114_jpg, window).
 holds(s_16114_jpg, billboard).
 holds(s_16114_jpg, porch).
@@ -1475,7 +1424,6 @@ holds(s_16115_jpg, feature).
 holds(s_16115_jpg, hotel).
 holds(s_16115_jpg, store).
 holds(s_16115_jpg, suburban).
-holds(s_16115_jpg, door).
 holds(s_16115_jpg, billboard).
 holds(s_16115_jpg, porch).
 holds(s_16115_jpg, wallsign).
@@ -1501,7 +1449,6 @@ holds(s_16117_jpg, building).
 holds(s_16117_jpg, feature).
 holds(s_16117_jpg, hotel).
 holds(s_16117_jpg, store).
-holds(s_16117_jpg, suburban).
 holds(s_16117_jpg, window).
 holds(s_16117_jpg, billboard).
 holds(s_16117_jpg, porch).
@@ -1514,7 +1461,6 @@ holds(s_16118_jpg, feature).
 holds(s_16118_jpg, hotel).
 holds(s_16118_jpg, store).
 holds(s_16118_jpg, suburban).
-holds(s_16118_jpg, door).
 holds(s_16118_jpg, billboard).
 holds(s_16118_jpg, porch).
 holds(s_16118_jpg, wallsign).
@@ -1532,6 +1478,7 @@ holds(s_16119_jpg, window).
 holds(s_16119_jpg, billboard).
 holds(s_16119_jpg, porch).
 holds(s_16119_jpg, wallsign).
+holds(s_16119_jpg, pipe).
 holds(s_16119_jpg, commercial).
 
 sample(s_16120_jpg).
@@ -1539,7 +1486,6 @@ holds(s_16120_jpg, building).
 holds(s_16120_jpg, feature).
 holds(s_16120_jpg, hotel).
 holds(s_16120_jpg, store).
-holds(s_16120_jpg, suburban).
 holds(s_16120_jpg, window).
 holds(s_16120_jpg, billboard).
 holds(s_16120_jpg, porch).
@@ -1570,6 +1516,7 @@ holds(s_16122_jpg, window).
 holds(s_16122_jpg, billboard).
 holds(s_16122_jpg, porch).
 holds(s_16122_jpg, wallsign).
+holds(s_16122_jpg, pipe).
 holds(s_16122_jpg, commercial).
 
 sample(s_16123_jpg).
@@ -1577,7 +1524,6 @@ holds(s_16123_jpg, building).
 holds(s_16123_jpg, feature).
 holds(s_16123_jpg, hotel).
 holds(s_16123_jpg, store).
-holds(s_16123_jpg, suburban).
 holds(s_16123_jpg, window).
 holds(s_16123_jpg, billboard).
 holds(s_16123_jpg, porch).
@@ -1608,6 +1554,7 @@ holds(s_16125_jpg, window).
 holds(s_16125_jpg, billboard).
 holds(s_16125_jpg, porch).
 holds(s_16125_jpg, wallsign).
+holds(s_16125_jpg, pipe).
 holds(s_16125_jpg, commercial).
 
 sample(s_16126_jpg).
@@ -1615,7 +1562,6 @@ holds(s_16126_jpg, building).
 holds(s_16126_jpg, feature).
 holds(s_16126_jpg, hotel).
 holds(s_16126_jpg, store).
-holds(s_16126_jpg, suburban).
 holds(s_16126_jpg, window).
 holds(s_16126_jpg, billboard).
 holds(s_16126_jpg, porch).
@@ -1628,7 +1574,6 @@ holds(s_16127_jpg, feature).
 holds(s_16127_jpg, hotel).
 holds(s_16127_jpg, store).
 holds(s_16127_jpg, suburban).
-holds(s_16127_jpg, door).
 holds(s_16127_jpg, billboard).
 holds(s_16127_jpg, porch).
 holds(s_16127_jpg, wallsign).
@@ -1654,7 +1599,6 @@ holds(s_16129_jpg, building).
 holds(s_16129_jpg, feature).
 holds(s_16129_jpg, hotel).
 holds(s_16129_jpg, store).
-holds(s_16129_jpg, suburban).
 holds(s_16129_jpg, window).
 holds(s_16129_jpg, billboard).
 holds(s_16129_jpg, porch).
@@ -1667,7 +1611,6 @@ holds(s_16130_jpg, feature).
 holds(s_16130_jpg, hotel).
 holds(s_16130_jpg, store).
 holds(s_16130_jpg, suburban).
-holds(s_16130_jpg, door).
 holds(s_16130_jpg, billboard).
 holds(s_16130_jpg, porch).
 holds(s_16130_jpg, wallsign).
@@ -1694,12 +1637,10 @@ holds(s_16132_jpg, feature).
 holds(s_16132_jpg, hotel).
 holds(s_16132_jpg, store).
 holds(s_16132_jpg, suburban).
-holds(s_16132_jpg, door).
 holds(s_16132_jpg, window).
 holds(s_16132_jpg, billboard).
 holds(s_16132_jpg, porch).
 holds(s_16132_jpg, wallsign).
-holds(s_16132_jpg, commercial).
 holds(s_16132_jpg, industrial).
 
 sample(s_16133_jpg).
@@ -1708,7 +1649,6 @@ holds(s_16133_jpg, feature).
 holds(s_16133_jpg, hotel).
 holds(s_16133_jpg, store).
 holds(s_16133_jpg, suburban).
-holds(s_16133_jpg, door).
 holds(s_16133_jpg, billboard).
 holds(s_16133_jpg, porch).
 holds(s_16133_jpg, wallsign).
@@ -1726,6 +1666,7 @@ holds(s_16134_jpg, window).
 holds(s_16134_jpg, billboard).
 holds(s_16134_jpg, porch).
 holds(s_16134_jpg, wallsign).
+holds(s_16134_jpg, pipe).
 holds(s_16134_jpg, commercial).
 
 sample(s_16135_jpg).
@@ -1733,7 +1674,6 @@ holds(s_16135_jpg, building).
 holds(s_16135_jpg, feature).
 holds(s_16135_jpg, hotel).
 holds(s_16135_jpg, store).
-holds(s_16135_jpg, suburban).
 holds(s_16135_jpg, window).
 holds(s_16135_jpg, billboard).
 holds(s_16135_jpg, porch).
@@ -1763,6 +1703,7 @@ holds(s_16137_jpg, window).
 holds(s_16137_jpg, billboard).
 holds(s_16137_jpg, porch).
 holds(s_16137_jpg, wallsign).
+holds(s_16137_jpg, pipe).
 holds(s_16137_jpg, commercial).
 
 sample(s_16138_jpg).
@@ -1770,7 +1711,6 @@ holds(s_16138_jpg, building).
 holds(s_16138_jpg, feature).
 holds(s_16138_jpg, hotel).
 holds(s_16138_jpg, store).
-holds(s_16138_jpg, suburban).
 holds(s_16138_jpg, window).
 holds(s_16138_jpg, billboard).
 holds(s_16138_jpg, porch).
@@ -1809,7 +1749,6 @@ holds(s_16141_jpg, building).
 holds(s_16141_jpg, feature).
 holds(s_16141_jpg, hotel).
 holds(s_16141_jpg, store).
-holds(s_16141_jpg, suburban).
 holds(s_16141_jpg, window).
 holds(s_16141_jpg, billboard).
 holds(s_16141_jpg, porch).
@@ -1822,7 +1761,6 @@ holds(s_16142_jpg, feature).
 holds(s_16142_jpg, hotel).
 holds(s_16142_jpg, store).
 holds(s_16142_jpg, suburban).
-holds(s_16142_jpg, door).
 holds(s_16142_jpg, billboard).
 holds(s_16142_jpg, porch).
 holds(s_16142_jpg, wallsign).
@@ -1840,6 +1778,7 @@ holds(s_16143_jpg, window).
 holds(s_16143_jpg, billboard).
 holds(s_16143_jpg, porch).
 holds(s_16143_jpg, wallsign).
+holds(s_16143_jpg, pipe).
 holds(s_16143_jpg, commercial).
 
 sample(s_16144_jpg).
@@ -1847,7 +1786,6 @@ holds(s_16144_jpg, building).
 holds(s_16144_jpg, feature).
 holds(s_16144_jpg, hotel).
 holds(s_16144_jpg, store).
-holds(s_16144_jpg, suburban).
 holds(s_16144_jpg, window).
 holds(s_16144_jpg, billboard).
 holds(s_16144_jpg, porch).
@@ -1860,7 +1798,6 @@ holds(s_16145_jpg, feature).
 holds(s_16145_jpg, hotel).
 holds(s_16145_jpg, store).
 holds(s_16145_jpg, suburban).
-holds(s_16145_jpg, door).
 holds(s_16145_jpg, billboard).
 holds(s_16145_jpg, porch).
 holds(s_16145_jpg, wallsign).
@@ -1878,6 +1815,7 @@ holds(s_16146_jpg, window).
 holds(s_16146_jpg, billboard).
 holds(s_16146_jpg, porch).
 holds(s_16146_jpg, wallsign).
+holds(s_16146_jpg, pipe).
 holds(s_16146_jpg, commercial).
 
 sample(s_16147_jpg).
@@ -1885,7 +1823,6 @@ holds(s_16147_jpg, building).
 holds(s_16147_jpg, feature).
 holds(s_16147_jpg, hotel).
 holds(s_16147_jpg, store).
-holds(s_16147_jpg, suburban).
 holds(s_16147_jpg, window).
 holds(s_16147_jpg, billboard).
 holds(s_16147_jpg, porch).
@@ -1898,7 +1835,6 @@ holds(s_16148_jpg, feature).
 holds(s_16148_jpg, hotel).
 holds(s_16148_jpg, store).
 holds(s_16148_jpg, suburban).
-holds(s_16148_jpg, door).
 holds(s_16148_jpg, billboard).
 holds(s_16148_jpg, porch).
 holds(s_16148_jpg, wallsign).
@@ -1924,7 +1860,6 @@ holds(s_16150_jpg, building).
 holds(s_16150_jpg, feature).
 holds(s_16150_jpg, hotel).
 holds(s_16150_jpg, store).
-holds(s_16150_jpg, suburban).
 holds(s_16150_jpg, window).
 holds(s_16150_jpg, billboard).
 holds(s_16150_jpg, porch).
@@ -1963,7 +1898,6 @@ holds(s_16153_jpg, building).
 holds(s_16153_jpg, feature).
 holds(s_16153_jpg, hotel).
 holds(s_16153_jpg, store).
-holds(s_16153_jpg, suburban).
 holds(s_16153_jpg, window).
 holds(s_16153_jpg, billboard).
 holds(s_16153_jpg, porch).
@@ -1994,6 +1928,7 @@ holds(s_16155_jpg, window).
 holds(s_16155_jpg, billboard).
 holds(s_16155_jpg, porch).
 holds(s_16155_jpg, wallsign).
+holds(s_16155_jpg, pipe).
 holds(s_16155_jpg, commercial).
 
 sample(s_16156_jpg).
@@ -2001,7 +1936,6 @@ holds(s_16156_jpg, building).
 holds(s_16156_jpg, feature).
 holds(s_16156_jpg, hotel).
 holds(s_16156_jpg, store).
-holds(s_16156_jpg, suburban).
 holds(s_16156_jpg, window).
 holds(s_16156_jpg, billboard).
 holds(s_16156_jpg, porch).
@@ -2031,6 +1965,7 @@ holds(s_16158_jpg, window).
 holds(s_16158_jpg, billboard).
 holds(s_16158_jpg, porch).
 holds(s_16158_jpg, wallsign).
+holds(s_16158_jpg, pipe).
 holds(s_16158_jpg, commercial).
 
 sample(s_16159_jpg).
@@ -2038,7 +1973,6 @@ holds(s_16159_jpg, building).
 holds(s_16159_jpg, feature).
 holds(s_16159_jpg, hotel).
 holds(s_16159_jpg, store).
-holds(s_16159_jpg, suburban).
 holds(s_16159_jpg, window).
 holds(s_16159_jpg, billboard).
 holds(s_16159_jpg, porch).
@@ -2077,7 +2011,6 @@ holds(s_16162_jpg, building).
 holds(s_16162_jpg, feature).
 holds(s_16162_jpg, hotel).
 holds(s_16162_jpg, store).
-holds(s_16162_jpg, suburban).
 holds(s_16162_jpg, window).
 holds(s_16162_jpg, billboard).
 holds(s_16162_jpg, porch).
@@ -2116,7 +2049,6 @@ holds(s_16165_jpg, building).
 holds(s_16165_jpg, feature).
 holds(s_16165_jpg, hotel).
 holds(s_16165_jpg, store).
-holds(s_16165_jpg, suburban).
 holds(s_16165_jpg, window).
 holds(s_16165_jpg, billboard).
 holds(s_16165_jpg, porch).
@@ -2155,7 +2087,6 @@ holds(s_16168_jpg, building).
 holds(s_16168_jpg, feature).
 holds(s_16168_jpg, hotel).
 holds(s_16168_jpg, store).
-holds(s_16168_jpg, suburban).
 holds(s_16168_jpg, window).
 holds(s_16168_jpg, billboard).
 holds(s_16168_jpg, porch).
@@ -2168,7 +2099,6 @@ holds(s_16169_jpg, feature).
 holds(s_16169_jpg, hotel).
 holds(s_16169_jpg, store).
 holds(s_16169_jpg, suburban).
-holds(s_16169_jpg, door).
 holds(s_16169_jpg, billboard).
 holds(s_16169_jpg, porch).
 holds(s_16169_jpg, wallsign).
@@ -2194,7 +2124,6 @@ holds(s_16171_jpg, building).
 holds(s_16171_jpg, feature).
 holds(s_16171_jpg, hotel).
 holds(s_16171_jpg, store).
-holds(s_16171_jpg, suburban).
 holds(s_16171_jpg, window).
 holds(s_16171_jpg, billboard).
 holds(s_16171_jpg, porch).
@@ -2207,7 +2136,6 @@ holds(s_16172_jpg, feature).
 holds(s_16172_jpg, hotel).
 holds(s_16172_jpg, store).
 holds(s_16172_jpg, suburban).
-holds(s_16172_jpg, door).
 holds(s_16172_jpg, billboard).
 holds(s_16172_jpg, porch).
 holds(s_16172_jpg, wallsign).
@@ -2233,7 +2161,6 @@ holds(s_16174_jpg, building).
 holds(s_16174_jpg, feature).
 holds(s_16174_jpg, hotel).
 holds(s_16174_jpg, store).
-holds(s_16174_jpg, suburban).
 holds(s_16174_jpg, window).
 holds(s_16174_jpg, billboard).
 holds(s_16174_jpg, porch).
@@ -2271,7 +2198,6 @@ holds(s_16177_jpg, building).
 holds(s_16177_jpg, feature).
 holds(s_16177_jpg, hotel).
 holds(s_16177_jpg, store).
-holds(s_16177_jpg, suburban).
 holds(s_16177_jpg, window).
 holds(s_16177_jpg, billboard).
 holds(s_16177_jpg, porch).
@@ -2284,7 +2210,6 @@ holds(s_16178_jpg, feature).
 holds(s_16178_jpg, hotel).
 holds(s_16178_jpg, store).
 holds(s_16178_jpg, suburban).
-holds(s_16178_jpg, door).
 holds(s_16178_jpg, billboard).
 holds(s_16178_jpg, porch).
 holds(s_16178_jpg, wallsign).
@@ -2302,6 +2227,7 @@ holds(s_16179_jpg, window).
 holds(s_16179_jpg, billboard).
 holds(s_16179_jpg, porch).
 holds(s_16179_jpg, wallsign).
+holds(s_16179_jpg, pipe).
 holds(s_16179_jpg, commercial).
 
 sample(s_16180_jpg).
@@ -2309,7 +2235,6 @@ holds(s_16180_jpg, building).
 holds(s_16180_jpg, feature).
 holds(s_16180_jpg, hotel).
 holds(s_16180_jpg, store).
-holds(s_16180_jpg, suburban).
 holds(s_16180_jpg, window).
 holds(s_16180_jpg, billboard).
 holds(s_16180_jpg, porch).
@@ -2347,7 +2272,6 @@ holds(s_16183_jpg, building).
 holds(s_16183_jpg, feature).
 holds(s_16183_jpg, hotel).
 holds(s_16183_jpg, store).
-holds(s_16183_jpg, suburban).
 holds(s_16183_jpg, window).
 holds(s_16183_jpg, billboard).
 holds(s_16183_jpg, porch).
@@ -2378,6 +2302,7 @@ holds(s_16185_jpg, window).
 holds(s_16185_jpg, billboard).
 holds(s_16185_jpg, porch).
 holds(s_16185_jpg, wallsign).
+holds(s_16185_jpg, pipe).
 holds(s_16185_jpg, commercial).
 
 sample(s_16186_jpg).
@@ -2385,7 +2310,6 @@ holds(s_16186_jpg, building).
 holds(s_16186_jpg, feature).
 holds(s_16186_jpg, hotel).
 holds(s_16186_jpg, store).
-holds(s_16186_jpg, suburban).
 holds(s_16186_jpg, window).
 holds(s_16186_jpg, billboard).
 holds(s_16186_jpg, porch).
@@ -2398,7 +2322,6 @@ holds(s_16187_jpg, feature).
 holds(s_16187_jpg, hotel).
 holds(s_16187_jpg, store).
 holds(s_16187_jpg, suburban).
-holds(s_16187_jpg, door).
 holds(s_16187_jpg, billboard).
 holds(s_16187_jpg, porch).
 holds(s_16187_jpg, wallsign).
@@ -2424,7 +2347,6 @@ holds(s_16189_jpg, building).
 holds(s_16189_jpg, feature).
 holds(s_16189_jpg, hotel).
 holds(s_16189_jpg, store).
-holds(s_16189_jpg, suburban).
 holds(s_16189_jpg, window).
 holds(s_16189_jpg, billboard).
 holds(s_16189_jpg, porch).
@@ -2437,7 +2359,6 @@ holds(s_16190_jpg, feature).
 holds(s_16190_jpg, hotel).
 holds(s_16190_jpg, store).
 holds(s_16190_jpg, suburban).
-holds(s_16190_jpg, door).
 holds(s_16190_jpg, billboard).
 holds(s_16190_jpg, porch).
 holds(s_16190_jpg, wallsign).
@@ -2463,7 +2384,6 @@ holds(s_16192_jpg, building).
 holds(s_16192_jpg, feature).
 holds(s_16192_jpg, hotel).
 holds(s_16192_jpg, store).
-holds(s_16192_jpg, suburban).
 holds(s_16192_jpg, window).
 holds(s_16192_jpg, billboard).
 holds(s_16192_jpg, porch).
@@ -2476,7 +2396,6 @@ holds(s_16193_jpg, feature).
 holds(s_16193_jpg, hotel).
 holds(s_16193_jpg, store).
 holds(s_16193_jpg, suburban).
-holds(s_16193_jpg, door).
 holds(s_16193_jpg, billboard).
 holds(s_16193_jpg, porch).
 holds(s_16193_jpg, wallsign).
@@ -2494,6 +2413,7 @@ holds(s_16194_jpg, window).
 holds(s_16194_jpg, billboard).
 holds(s_16194_jpg, porch).
 holds(s_16194_jpg, wallsign).
+holds(s_16194_jpg, pipe).
 holds(s_16194_jpg, commercial).
 
 sample(s_16195_jpg).
@@ -2501,7 +2421,6 @@ holds(s_16195_jpg, building).
 holds(s_16195_jpg, feature).
 holds(s_16195_jpg, hotel).
 holds(s_16195_jpg, store).
-holds(s_16195_jpg, suburban).
 holds(s_16195_jpg, window).
 holds(s_16195_jpg, billboard).
 holds(s_16195_jpg, porch).
@@ -2514,7 +2433,6 @@ holds(s_16196_jpg, feature).
 holds(s_16196_jpg, hotel).
 holds(s_16196_jpg, store).
 holds(s_16196_jpg, suburban).
-holds(s_16196_jpg, door).
 holds(s_16196_jpg, billboard).
 holds(s_16196_jpg, porch).
 holds(s_16196_jpg, wallsign).
@@ -2540,7 +2458,6 @@ holds(s_16198_jpg, building).
 holds(s_16198_jpg, feature).
 holds(s_16198_jpg, hotel).
 holds(s_16198_jpg, store).
-holds(s_16198_jpg, suburban).
 holds(s_16198_jpg, window).
 holds(s_16198_jpg, billboard).
 holds(s_16198_jpg, porch).
@@ -2553,7 +2470,6 @@ holds(s_16199_jpg, feature).
 holds(s_16199_jpg, hotel).
 holds(s_16199_jpg, store).
 holds(s_16199_jpg, suburban).
-holds(s_16199_jpg, door).
 holds(s_16199_jpg, billboard).
 holds(s_16199_jpg, porch).
 holds(s_16199_jpg, wallsign).
@@ -2571,6 +2487,7 @@ holds(s_16200_jpg, window).
 holds(s_16200_jpg, billboard).
 holds(s_16200_jpg, porch).
 holds(s_16200_jpg, wallsign).
+holds(s_16200_jpg, pipe).
 holds(s_16200_jpg, commercial).
 
 sample(s_16201_jpg).
@@ -2578,7 +2495,6 @@ holds(s_16201_jpg, building).
 holds(s_16201_jpg, feature).
 holds(s_16201_jpg, hotel).
 holds(s_16201_jpg, store).
-holds(s_16201_jpg, suburban).
 holds(s_16201_jpg, window).
 holds(s_16201_jpg, billboard).
 holds(s_16201_jpg, porch).
@@ -2591,7 +2507,6 @@ holds(s_16202_jpg, feature).
 holds(s_16202_jpg, hotel).
 holds(s_16202_jpg, store).
 holds(s_16202_jpg, suburban).
-holds(s_16202_jpg, door).
 holds(s_16202_jpg, billboard).
 holds(s_16202_jpg, porch).
 holds(s_16202_jpg, wallsign).
@@ -2617,7 +2532,6 @@ holds(s_16204_jpg, building).
 holds(s_16204_jpg, feature).
 holds(s_16204_jpg, hotel).
 holds(s_16204_jpg, store).
-holds(s_16204_jpg, suburban).
 holds(s_16204_jpg, window).
 holds(s_16204_jpg, billboard).
 holds(s_16204_jpg, porch).
@@ -2647,6 +2561,7 @@ holds(s_16206_jpg, window).
 holds(s_16206_jpg, billboard).
 holds(s_16206_jpg, porch).
 holds(s_16206_jpg, wallsign).
+holds(s_16206_jpg, pipe).
 holds(s_16206_jpg, commercial).
 
 sample(s_16207_jpg).
@@ -2654,7 +2569,6 @@ holds(s_16207_jpg, building).
 holds(s_16207_jpg, feature).
 holds(s_16207_jpg, hotel).
 holds(s_16207_jpg, store).
-holds(s_16207_jpg, suburban).
 holds(s_16207_jpg, window).
 holds(s_16207_jpg, billboard).
 holds(s_16207_jpg, porch).
@@ -2667,7 +2581,6 @@ holds(s_16208_jpg, feature).
 holds(s_16208_jpg, hotel).
 holds(s_16208_jpg, store).
 holds(s_16208_jpg, suburban).
-holds(s_16208_jpg, door).
 holds(s_16208_jpg, billboard).
 holds(s_16208_jpg, porch).
 holds(s_16208_jpg, wallsign).
@@ -2685,14 +2598,14 @@ holds(s_16209_jpg, window).
 holds(s_16209_jpg, billboard).
 holds(s_16209_jpg, porch).
 holds(s_16209_jpg, wallsign).
-holds(s_16209_jpg, industrial).
+holds(s_16209_jpg, pipe).
+holds(s_16209_jpg, commercial).
 
 sample(s_16210_jpg).
 holds(s_16210_jpg, building).
 holds(s_16210_jpg, feature).
 holds(s_16210_jpg, hotel).
 holds(s_16210_jpg, store).
-holds(s_16210_jpg, suburban).
 holds(s_16210_jpg, window).
 holds(s_16210_jpg, billboard).
 holds(s_16210_jpg, porch).
@@ -2730,7 +2643,6 @@ holds(s_16213_jpg, building).
 holds(s_16213_jpg, feature).
 holds(s_16213_jpg, hotel).
 holds(s_16213_jpg, store).
-holds(s_16213_jpg, suburban).
 holds(s_16213_jpg, window).
 holds(s_16213_jpg, billboard).
 holds(s_16213_jpg, porch).
@@ -2743,7 +2655,6 @@ holds(s_16214_jpg, feature).
 holds(s_16214_jpg, hotel).
 holds(s_16214_jpg, store).
 holds(s_16214_jpg, suburban).
-holds(s_16214_jpg, door).
 holds(s_16214_jpg, billboard).
 holds(s_16214_jpg, porch).
 holds(s_16214_jpg, wallsign).
@@ -2769,7 +2680,6 @@ holds(s_16216_jpg, building).
 holds(s_16216_jpg, feature).
 holds(s_16216_jpg, hotel).
 holds(s_16216_jpg, store).
-holds(s_16216_jpg, suburban).
 holds(s_16216_jpg, window).
 holds(s_16216_jpg, billboard).
 holds(s_16216_jpg, porch).
@@ -2782,7 +2692,6 @@ holds(s_16217_jpg, feature).
 holds(s_16217_jpg, hotel).
 holds(s_16217_jpg, store).
 holds(s_16217_jpg, suburban).
-holds(s_16217_jpg, door).
 holds(s_16217_jpg, billboard).
 holds(s_16217_jpg, porch).
 holds(s_16217_jpg, wallsign).
@@ -2808,7 +2717,6 @@ holds(s_16219_jpg, building).
 holds(s_16219_jpg, feature).
 holds(s_16219_jpg, hotel).
 holds(s_16219_jpg, store).
-holds(s_16219_jpg, suburban).
 holds(s_16219_jpg, window).
 holds(s_16219_jpg, billboard).
 holds(s_16219_jpg, porch).
@@ -2821,7 +2729,6 @@ holds(s_16220_jpg, feature).
 holds(s_16220_jpg, hotel).
 holds(s_16220_jpg, store).
 holds(s_16220_jpg, suburban).
-holds(s_16220_jpg, door).
 holds(s_16220_jpg, billboard).
 holds(s_16220_jpg, porch).
 holds(s_16220_jpg, wallsign).
@@ -2847,7 +2754,6 @@ holds(s_16222_jpg, building).
 holds(s_16222_jpg, feature).
 holds(s_16222_jpg, hotel).
 holds(s_16222_jpg, store).
-holds(s_16222_jpg, suburban).
 holds(s_16222_jpg, window).
 holds(s_16222_jpg, billboard).
 holds(s_16222_jpg, porch).
@@ -2860,7 +2766,6 @@ holds(s_16223_jpg, feature).
 holds(s_16223_jpg, hotel).
 holds(s_16223_jpg, store).
 holds(s_16223_jpg, suburban).
-holds(s_16223_jpg, door).
 holds(s_16223_jpg, billboard).
 holds(s_16223_jpg, porch).
 holds(s_16223_jpg, wallsign).
@@ -2886,7 +2791,6 @@ holds(s_16225_jpg, building).
 holds(s_16225_jpg, feature).
 holds(s_16225_jpg, hotel).
 holds(s_16225_jpg, store).
-holds(s_16225_jpg, suburban).
 holds(s_16225_jpg, window).
 holds(s_16225_jpg, billboard).
 holds(s_16225_jpg, porch).
@@ -2899,7 +2803,6 @@ holds(s_16226_jpg, feature).
 holds(s_16226_jpg, hotel).
 holds(s_16226_jpg, store).
 holds(s_16226_jpg, suburban).
-holds(s_16226_jpg, door).
 holds(s_16226_jpg, billboard).
 holds(s_16226_jpg, porch).
 holds(s_16226_jpg, wallsign).
@@ -2924,7 +2827,6 @@ holds(s_16228_jpg, building).
 holds(s_16228_jpg, feature).
 holds(s_16228_jpg, hotel).
 holds(s_16228_jpg, store).
-holds(s_16228_jpg, suburban).
 holds(s_16228_jpg, window).
 holds(s_16228_jpg, billboard).
 holds(s_16228_jpg, porch).
@@ -2954,6 +2856,7 @@ holds(s_16230_jpg, window).
 holds(s_16230_jpg, billboard).
 holds(s_16230_jpg, porch).
 holds(s_16230_jpg, wallsign).
+holds(s_16230_jpg, pipe).
 holds(s_16230_jpg, commercial).
 
 sample(s_16231_jpg).
@@ -2961,7 +2864,6 @@ holds(s_16231_jpg, building).
 holds(s_16231_jpg, feature).
 holds(s_16231_jpg, hotel).
 holds(s_16231_jpg, store).
-holds(s_16231_jpg, suburban).
 holds(s_16231_jpg, window).
 holds(s_16231_jpg, billboard).
 holds(s_16231_jpg, porch).
@@ -2992,6 +2894,7 @@ holds(s_16233_jpg, window).
 holds(s_16233_jpg, billboard).
 holds(s_16233_jpg, porch).
 holds(s_16233_jpg, wallsign).
+holds(s_16233_jpg, pipe).
 holds(s_16233_jpg, commercial).
 
 sample(s_16234_jpg).
@@ -2999,7 +2902,6 @@ holds(s_16234_jpg, building).
 holds(s_16234_jpg, feature).
 holds(s_16234_jpg, hotel).
 holds(s_16234_jpg, store).
-holds(s_16234_jpg, suburban).
 holds(s_16234_jpg, window).
 holds(s_16234_jpg, billboard).
 holds(s_16234_jpg, porch).
@@ -3037,7 +2939,6 @@ holds(s_16237_jpg, building).
 holds(s_16237_jpg, feature).
 holds(s_16237_jpg, hotel).
 holds(s_16237_jpg, store).
-holds(s_16237_jpg, suburban).
 holds(s_16237_jpg, window).
 holds(s_16237_jpg, billboard).
 holds(s_16237_jpg, porch).
@@ -3076,7 +2977,6 @@ holds(s_16240_jpg, building).
 holds(s_16240_jpg, feature).
 holds(s_16240_jpg, hotel).
 holds(s_16240_jpg, store).
-holds(s_16240_jpg, suburban).
 holds(s_16240_jpg, window).
 holds(s_16240_jpg, billboard).
 holds(s_16240_jpg, porch).
@@ -3089,7 +2989,6 @@ holds(s_16241_jpg, feature).
 holds(s_16241_jpg, hotel).
 holds(s_16241_jpg, store).
 holds(s_16241_jpg, suburban).
-holds(s_16241_jpg, door).
 holds(s_16241_jpg, billboard).
 holds(s_16241_jpg, porch).
 holds(s_16241_jpg, wallsign).
@@ -3129,12 +3028,11 @@ holds(s_16244_jpg, hotel).
 holds(s_16244_jpg, store).
 holds(s_16244_jpg, suburban).
 holds(s_16244_jpg, door).
-holds(s_16244_jpg, window).
 holds(s_16244_jpg, billboard).
 holds(s_16244_jpg, porch).
 holds(s_16244_jpg, wallsign).
 holds(s_16244_jpg, car).
-holds(s_16244_jpg, residential).
+holds(s_16244_jpg, commercial).
 
 sample(s_16245_jpg).
 holds(s_16245_jpg, building).
@@ -3155,7 +3053,6 @@ holds(s_16246_jpg, building).
 holds(s_16246_jpg, feature).
 holds(s_16246_jpg, hotel).
 holds(s_16246_jpg, store).
-holds(s_16246_jpg, suburban).
 holds(s_16246_jpg, window).
 holds(s_16246_jpg, billboard).
 holds(s_16246_jpg, porch).
@@ -3193,7 +3090,6 @@ holds(s_16249_jpg, building).
 holds(s_16249_jpg, feature).
 holds(s_16249_jpg, hotel).
 holds(s_16249_jpg, store).
-holds(s_16249_jpg, suburban).
 holds(s_16249_jpg, window).
 holds(s_16249_jpg, billboard).
 holds(s_16249_jpg, porch).
@@ -3206,7 +3102,6 @@ holds(s_16250_jpg, feature).
 holds(s_16250_jpg, hotel).
 holds(s_16250_jpg, store).
 holds(s_16250_jpg, suburban).
-holds(s_16250_jpg, door).
 holds(s_16250_jpg, billboard).
 holds(s_16250_jpg, porch).
 holds(s_16250_jpg, wallsign).
@@ -3224,6 +3119,7 @@ holds(s_16251_jpg, window).
 holds(s_16251_jpg, billboard).
 holds(s_16251_jpg, porch).
 holds(s_16251_jpg, wallsign).
+holds(s_16251_jpg, pipe).
 holds(s_16251_jpg, commercial).
 
 sample(s_16252_jpg).
@@ -3231,7 +3127,6 @@ holds(s_16252_jpg, building).
 holds(s_16252_jpg, feature).
 holds(s_16252_jpg, hotel).
 holds(s_16252_jpg, store).
-holds(s_16252_jpg, suburban).
 holds(s_16252_jpg, window).
 holds(s_16252_jpg, billboard).
 holds(s_16252_jpg, porch).
@@ -3244,7 +3139,6 @@ holds(s_16253_jpg, feature).
 holds(s_16253_jpg, hotel).
 holds(s_16253_jpg, store).
 holds(s_16253_jpg, suburban).
-holds(s_16253_jpg, door).
 holds(s_16253_jpg, billboard).
 holds(s_16253_jpg, porch).
 holds(s_16253_jpg, wallsign).
@@ -3262,6 +3156,7 @@ holds(s_16254_jpg, window).
 holds(s_16254_jpg, billboard).
 holds(s_16254_jpg, porch).
 holds(s_16254_jpg, wallsign).
+holds(s_16254_jpg, pipe).
 holds(s_16254_jpg, commercial).
 
 sample(s_16255_jpg).
@@ -3269,7 +3164,6 @@ holds(s_16255_jpg, building).
 holds(s_16255_jpg, feature).
 holds(s_16255_jpg, hotel).
 holds(s_16255_jpg, store).
-holds(s_16255_jpg, suburban).
 holds(s_16255_jpg, window).
 holds(s_16255_jpg, billboard).
 holds(s_16255_jpg, porch).
@@ -3299,6 +3193,7 @@ holds(s_16257_jpg, window).
 holds(s_16257_jpg, billboard).
 holds(s_16257_jpg, porch).
 holds(s_16257_jpg, wallsign).
+holds(s_16257_jpg, pipe).
 holds(s_16257_jpg, commercial).
 
 sample(s_16258_jpg).
@@ -3306,7 +3201,6 @@ holds(s_16258_jpg, building).
 holds(s_16258_jpg, feature).
 holds(s_16258_jpg, hotel).
 holds(s_16258_jpg, store).
-holds(s_16258_jpg, suburban).
 holds(s_16258_jpg, window).
 holds(s_16258_jpg, billboard).
 holds(s_16258_jpg, porch).
@@ -3319,7 +3213,6 @@ holds(s_16259_jpg, feature).
 holds(s_16259_jpg, hotel).
 holds(s_16259_jpg, store).
 holds(s_16259_jpg, suburban).
-holds(s_16259_jpg, door).
 holds(s_16259_jpg, billboard).
 holds(s_16259_jpg, porch).
 holds(s_16259_jpg, wallsign).
@@ -3345,7 +3238,6 @@ holds(s_16261_jpg, building).
 holds(s_16261_jpg, feature).
 holds(s_16261_jpg, hotel).
 holds(s_16261_jpg, store).
-holds(s_16261_jpg, suburban).
 holds(s_16261_jpg, window).
 holds(s_16261_jpg, billboard).
 holds(s_16261_jpg, porch).
@@ -3383,7 +3275,6 @@ holds(s_16264_jpg, building).
 holds(s_16264_jpg, feature).
 holds(s_16264_jpg, hotel).
 holds(s_16264_jpg, store).
-holds(s_16264_jpg, suburban).
 holds(s_16264_jpg, window).
 holds(s_16264_jpg, billboard).
 holds(s_16264_jpg, porch).
@@ -3396,7 +3287,6 @@ holds(s_16265_jpg, feature).
 holds(s_16265_jpg, hotel).
 holds(s_16265_jpg, store).
 holds(s_16265_jpg, suburban).
-holds(s_16265_jpg, door).
 holds(s_16265_jpg, billboard).
 holds(s_16265_jpg, porch).
 holds(s_16265_jpg, wallsign).
@@ -3422,7 +3312,6 @@ holds(s_16267_jpg, building).
 holds(s_16267_jpg, feature).
 holds(s_16267_jpg, hotel).
 holds(s_16267_jpg, store).
-holds(s_16267_jpg, suburban).
 holds(s_16267_jpg, window).
 holds(s_16267_jpg, billboard).
 holds(s_16267_jpg, porch).
@@ -3452,6 +3341,7 @@ holds(s_16269_jpg, window).
 holds(s_16269_jpg, billboard).
 holds(s_16269_jpg, porch).
 holds(s_16269_jpg, wallsign).
+holds(s_16269_jpg, pipe).
 holds(s_16269_jpg, commercial).
 
 sample(s_16270_jpg).
@@ -3459,7 +3349,6 @@ holds(s_16270_jpg, building).
 holds(s_16270_jpg, feature).
 holds(s_16270_jpg, hotel).
 holds(s_16270_jpg, store).
-holds(s_16270_jpg, suburban).
 holds(s_16270_jpg, window).
 holds(s_16270_jpg, billboard).
 holds(s_16270_jpg, porch).
@@ -3472,7 +3361,6 @@ holds(s_16271_jpg, feature).
 holds(s_16271_jpg, hotel).
 holds(s_16271_jpg, store).
 holds(s_16271_jpg, suburban).
-holds(s_16271_jpg, door).
 holds(s_16271_jpg, billboard).
 holds(s_16271_jpg, porch).
 holds(s_16271_jpg, wallsign).
@@ -3484,7 +3372,6 @@ holds(s_16272_jpg, building).
 holds(s_16272_jpg, feature).
 holds(s_16272_jpg, hotel).
 holds(s_16272_jpg, store).
-holds(s_16272_jpg, suburban).
 holds(s_16272_jpg, window).
 holds(s_16272_jpg, billboard).
 holds(s_16272_jpg, porch).
@@ -3496,8 +3383,6 @@ holds(s_16273_jpg, building).
 holds(s_16273_jpg, feature).
 holds(s_16273_jpg, hotel).
 holds(s_16273_jpg, store).
-holds(s_16273_jpg, suburban).
-holds(s_16273_jpg, door).
 holds(s_16273_jpg, window).
 holds(s_16273_jpg, billboard).
 holds(s_16273_jpg, porch).
@@ -3528,6 +3413,7 @@ holds(s_16275_jpg, window).
 holds(s_16275_jpg, billboard).
 holds(s_16275_jpg, porch).
 holds(s_16275_jpg, wallsign).
+holds(s_16275_jpg, pipe).
 holds(s_16275_jpg, commercial).
 
 sample(s_16276_jpg).
@@ -3535,7 +3421,6 @@ holds(s_16276_jpg, building).
 holds(s_16276_jpg, feature).
 holds(s_16276_jpg, hotel).
 holds(s_16276_jpg, store).
-holds(s_16276_jpg, suburban).
 holds(s_16276_jpg, window).
 holds(s_16276_jpg, billboard).
 holds(s_16276_jpg, porch).
@@ -3548,7 +3433,6 @@ holds(s_16277_jpg, feature).
 holds(s_16277_jpg, hotel).
 holds(s_16277_jpg, store).
 holds(s_16277_jpg, suburban).
-holds(s_16277_jpg, door).
 holds(s_16277_jpg, billboard).
 holds(s_16277_jpg, porch).
 holds(s_16277_jpg, wallsign).
@@ -3574,7 +3458,6 @@ holds(s_16279_jpg, building).
 holds(s_16279_jpg, feature).
 holds(s_16279_jpg, hotel).
 holds(s_16279_jpg, store).
-holds(s_16279_jpg, suburban).
 holds(s_16279_jpg, window).
 holds(s_16279_jpg, billboard).
 holds(s_16279_jpg, porch).
@@ -3613,7 +3496,6 @@ holds(s_16282_jpg, building).
 holds(s_16282_jpg, feature).
 holds(s_16282_jpg, hotel).
 holds(s_16282_jpg, store).
-holds(s_16282_jpg, suburban).
 holds(s_16282_jpg, window).
 holds(s_16282_jpg, billboard).
 holds(s_16282_jpg, porch).
@@ -3626,7 +3508,6 @@ holds(s_16283_jpg, feature).
 holds(s_16283_jpg, hotel).
 holds(s_16283_jpg, store).
 holds(s_16283_jpg, suburban).
-holds(s_16283_jpg, door).
 holds(s_16283_jpg, billboard).
 holds(s_16283_jpg, porch).
 holds(s_16283_jpg, wallsign).
@@ -3644,6 +3525,7 @@ holds(s_16284_jpg, window).
 holds(s_16284_jpg, billboard).
 holds(s_16284_jpg, porch).
 holds(s_16284_jpg, wallsign).
+holds(s_16284_jpg, pipe).
 holds(s_16284_jpg, commercial).
 
 sample(s_16285_jpg).
@@ -3651,7 +3533,6 @@ holds(s_16285_jpg, building).
 holds(s_16285_jpg, feature).
 holds(s_16285_jpg, hotel).
 holds(s_16285_jpg, store).
-holds(s_16285_jpg, suburban).
 holds(s_16285_jpg, window).
 holds(s_16285_jpg, billboard).
 holds(s_16285_jpg, porch).
@@ -3664,7 +3545,6 @@ holds(s_16286_jpg, feature).
 holds(s_16286_jpg, hotel).
 holds(s_16286_jpg, store).
 holds(s_16286_jpg, suburban).
-holds(s_16286_jpg, door).
 holds(s_16286_jpg, billboard).
 holds(s_16286_jpg, porch).
 holds(s_16286_jpg, wallsign).
@@ -3690,7 +3570,6 @@ holds(s_16288_jpg, building).
 holds(s_16288_jpg, feature).
 holds(s_16288_jpg, hotel).
 holds(s_16288_jpg, store).
-holds(s_16288_jpg, suburban).
 holds(s_16288_jpg, window).
 holds(s_16288_jpg, billboard).
 holds(s_16288_jpg, porch).
@@ -3703,7 +3582,6 @@ holds(s_16289_jpg, feature).
 holds(s_16289_jpg, hotel).
 holds(s_16289_jpg, store).
 holds(s_16289_jpg, suburban).
-holds(s_16289_jpg, door).
 holds(s_16289_jpg, billboard).
 holds(s_16289_jpg, porch).
 holds(s_16289_jpg, wallsign).
@@ -3721,6 +3599,7 @@ holds(s_16290_jpg, window).
 holds(s_16290_jpg, billboard).
 holds(s_16290_jpg, porch).
 holds(s_16290_jpg, wallsign).
+holds(s_16290_jpg, pipe).
 holds(s_16290_jpg, commercial).
 
 sample(s_16291_jpg).
@@ -3728,7 +3607,6 @@ holds(s_16291_jpg, building).
 holds(s_16291_jpg, feature).
 holds(s_16291_jpg, hotel).
 holds(s_16291_jpg, store).
-holds(s_16291_jpg, suburban).
 holds(s_16291_jpg, window).
 holds(s_16291_jpg, billboard).
 holds(s_16291_jpg, porch).
@@ -3741,7 +3619,6 @@ holds(s_16292_jpg, feature).
 holds(s_16292_jpg, hotel).
 holds(s_16292_jpg, store).
 holds(s_16292_jpg, suburban).
-holds(s_16292_jpg, door).
 holds(s_16292_jpg, billboard).
 holds(s_16292_jpg, porch).
 holds(s_16292_jpg, wallsign).
@@ -3767,7 +3644,6 @@ holds(s_16294_jpg, building).
 holds(s_16294_jpg, feature).
 holds(s_16294_jpg, hotel).
 holds(s_16294_jpg, store).
-holds(s_16294_jpg, suburban).
 holds(s_16294_jpg, window).
 holds(s_16294_jpg, billboard).
 holds(s_16294_jpg, porch).
@@ -3805,7 +3681,6 @@ holds(s_16297_jpg, building).
 holds(s_16297_jpg, feature).
 holds(s_16297_jpg, hotel).
 holds(s_16297_jpg, store).
-holds(s_16297_jpg, suburban).
 holds(s_16297_jpg, window).
 holds(s_16297_jpg, billboard).
 holds(s_16297_jpg, porch).
@@ -3818,7 +3693,6 @@ holds(s_16298_jpg, feature).
 holds(s_16298_jpg, hotel).
 holds(s_16298_jpg, store).
 holds(s_16298_jpg, suburban).
-holds(s_16298_jpg, door).
 holds(s_16298_jpg, billboard).
 holds(s_16298_jpg, porch).
 holds(s_16298_jpg, wallsign).
@@ -3844,7 +3718,6 @@ holds(s_16300_jpg, building).
 holds(s_16300_jpg, feature).
 holds(s_16300_jpg, hotel).
 holds(s_16300_jpg, store).
-holds(s_16300_jpg, suburban).
 holds(s_16300_jpg, window).
 holds(s_16300_jpg, billboard).
 holds(s_16300_jpg, porch).
@@ -3857,7 +3730,6 @@ holds(s_16301_jpg, feature).
 holds(s_16301_jpg, hotel).
 holds(s_16301_jpg, store).
 holds(s_16301_jpg, suburban).
-holds(s_16301_jpg, door).
 holds(s_16301_jpg, billboard).
 holds(s_16301_jpg, porch).
 holds(s_16301_jpg, wallsign).
@@ -3883,7 +3755,6 @@ holds(s_16303_jpg, building).
 holds(s_16303_jpg, feature).
 holds(s_16303_jpg, hotel).
 holds(s_16303_jpg, store).
-holds(s_16303_jpg, suburban).
 holds(s_16303_jpg, window).
 holds(s_16303_jpg, billboard).
 holds(s_16303_jpg, porch).
@@ -3896,7 +3767,6 @@ holds(s_16304_jpg, feature).
 holds(s_16304_jpg, hotel).
 holds(s_16304_jpg, store).
 holds(s_16304_jpg, suburban).
-holds(s_16304_jpg, door).
 holds(s_16304_jpg, billboard).
 holds(s_16304_jpg, porch).
 holds(s_16304_jpg, wallsign).
@@ -3922,7 +3792,6 @@ holds(s_16306_jpg, building).
 holds(s_16306_jpg, feature).
 holds(s_16306_jpg, hotel).
 holds(s_16306_jpg, store).
-holds(s_16306_jpg, suburban).
 holds(s_16306_jpg, window).
 holds(s_16306_jpg, billboard).
 holds(s_16306_jpg, porch).
@@ -3935,7 +3804,6 @@ holds(s_16307_jpg, feature).
 holds(s_16307_jpg, hotel).
 holds(s_16307_jpg, store).
 holds(s_16307_jpg, suburban).
-holds(s_16307_jpg, door).
 holds(s_16307_jpg, billboard).
 holds(s_16307_jpg, porch).
 holds(s_16307_jpg, wallsign).
@@ -3953,6 +3821,7 @@ holds(s_16308_jpg, window).
 holds(s_16308_jpg, billboard).
 holds(s_16308_jpg, porch).
 holds(s_16308_jpg, wallsign).
+holds(s_16308_jpg, pipe).
 holds(s_16308_jpg, commercial).
 
 sample(s_16309_jpg).
@@ -3960,7 +3829,6 @@ holds(s_16309_jpg, building).
 holds(s_16309_jpg, feature).
 holds(s_16309_jpg, hotel).
 holds(s_16309_jpg, store).
-holds(s_16309_jpg, suburban).
 holds(s_16309_jpg, window).
 holds(s_16309_jpg, billboard).
 holds(s_16309_jpg, porch).
@@ -3999,7 +3867,6 @@ holds(s_16312_jpg, building).
 holds(s_16312_jpg, feature).
 holds(s_16312_jpg, hotel).
 holds(s_16312_jpg, store).
-holds(s_16312_jpg, suburban).
 holds(s_16312_jpg, window).
 holds(s_16312_jpg, billboard).
 holds(s_16312_jpg, porch).
@@ -4012,7 +3879,6 @@ holds(s_16313_jpg, feature).
 holds(s_16313_jpg, hotel).
 holds(s_16313_jpg, store).
 holds(s_16313_jpg, suburban).
-holds(s_16313_jpg, door).
 holds(s_16313_jpg, billboard).
 holds(s_16313_jpg, porch).
 holds(s_16313_jpg, wallsign).
@@ -4030,6 +3896,7 @@ holds(s_16314_jpg, window).
 holds(s_16314_jpg, billboard).
 holds(s_16314_jpg, porch).
 holds(s_16314_jpg, wallsign).
+holds(s_16314_jpg, pipe).
 holds(s_16314_jpg, commercial).
 
 sample(s_16315_jpg).
@@ -4037,7 +3904,6 @@ holds(s_16315_jpg, building).
 holds(s_16315_jpg, feature).
 holds(s_16315_jpg, hotel).
 holds(s_16315_jpg, store).
-holds(s_16315_jpg, suburban).
 holds(s_16315_jpg, window).
 holds(s_16315_jpg, billboard).
 holds(s_16315_jpg, porch).
@@ -4076,7 +3942,6 @@ holds(s_16318_jpg, building).
 holds(s_16318_jpg, feature).
 holds(s_16318_jpg, hotel).
 holds(s_16318_jpg, store).
-holds(s_16318_jpg, suburban).
 holds(s_16318_jpg, window).
 holds(s_16318_jpg, billboard).
 holds(s_16318_jpg, porch).
@@ -4089,7 +3954,6 @@ holds(s_16319_jpg, feature).
 holds(s_16319_jpg, hotel).
 holds(s_16319_jpg, store).
 holds(s_16319_jpg, suburban).
-holds(s_16319_jpg, door).
 holds(s_16319_jpg, billboard).
 holds(s_16319_jpg, porch).
 holds(s_16319_jpg, wallsign).
@@ -4107,6 +3971,7 @@ holds(s_16320_jpg, window).
 holds(s_16320_jpg, billboard).
 holds(s_16320_jpg, porch).
 holds(s_16320_jpg, wallsign).
+holds(s_16320_jpg, pipe).
 holds(s_16320_jpg, commercial).
 
 sample(s_16321_jpg).
@@ -4114,7 +3979,6 @@ holds(s_16321_jpg, building).
 holds(s_16321_jpg, feature).
 holds(s_16321_jpg, hotel).
 holds(s_16321_jpg, store).
-holds(s_16321_jpg, suburban).
 holds(s_16321_jpg, window).
 holds(s_16321_jpg, billboard).
 holds(s_16321_jpg, porch).
@@ -4127,7 +3991,6 @@ holds(s_16322_jpg, feature).
 holds(s_16322_jpg, hotel).
 holds(s_16322_jpg, store).
 holds(s_16322_jpg, suburban).
-holds(s_16322_jpg, door).
 holds(s_16322_jpg, billboard).
 holds(s_16322_jpg, porch).
 holds(s_16322_jpg, wallsign).
@@ -4153,7 +4016,6 @@ holds(s_16324_jpg, building).
 holds(s_16324_jpg, feature).
 holds(s_16324_jpg, hotel).
 holds(s_16324_jpg, store).
-holds(s_16324_jpg, suburban).
 holds(s_16324_jpg, window).
 holds(s_16324_jpg, billboard).
 holds(s_16324_jpg, porch).
@@ -4183,6 +4045,7 @@ holds(s_16326_jpg, window).
 holds(s_16326_jpg, billboard).
 holds(s_16326_jpg, porch).
 holds(s_16326_jpg, wallsign).
+holds(s_16326_jpg, pipe).
 holds(s_16326_jpg, commercial).
 
 sample(s_16327_jpg).
@@ -4190,7 +4053,6 @@ holds(s_16327_jpg, building).
 holds(s_16327_jpg, feature).
 holds(s_16327_jpg, hotel).
 holds(s_16327_jpg, store).
-holds(s_16327_jpg, suburban).
 holds(s_16327_jpg, window).
 holds(s_16327_jpg, billboard).
 holds(s_16327_jpg, porch).
@@ -4203,7 +4065,6 @@ holds(s_16328_jpg, feature).
 holds(s_16328_jpg, hotel).
 holds(s_16328_jpg, store).
 holds(s_16328_jpg, suburban).
-holds(s_16328_jpg, door).
 holds(s_16328_jpg, billboard).
 holds(s_16328_jpg, porch).
 holds(s_16328_jpg, wallsign).
@@ -4229,7 +4090,6 @@ holds(s_16330_jpg, building).
 holds(s_16330_jpg, feature).
 holds(s_16330_jpg, hotel).
 holds(s_16330_jpg, store).
-holds(s_16330_jpg, suburban).
 holds(s_16330_jpg, window).
 holds(s_16330_jpg, billboard).
 holds(s_16330_jpg, porch).
@@ -4242,7 +4102,6 @@ holds(s_16331_jpg, feature).
 holds(s_16331_jpg, hotel).
 holds(s_16331_jpg, store).
 holds(s_16331_jpg, suburban).
-holds(s_16331_jpg, door).
 holds(s_16331_jpg, billboard).
 holds(s_16331_jpg, porch).
 holds(s_16331_jpg, wallsign).
@@ -4268,7 +4127,6 @@ holds(s_16333_jpg, building).
 holds(s_16333_jpg, feature).
 holds(s_16333_jpg, hotel).
 holds(s_16333_jpg, store).
-holds(s_16333_jpg, suburban).
 holds(s_16333_jpg, window).
 holds(s_16333_jpg, billboard).
 holds(s_16333_jpg, porch).
@@ -4281,7 +4139,6 @@ holds(s_16334_jpg, feature).
 holds(s_16334_jpg, hotel).
 holds(s_16334_jpg, store).
 holds(s_16334_jpg, suburban).
-holds(s_16334_jpg, door).
 holds(s_16334_jpg, billboard).
 holds(s_16334_jpg, porch).
 holds(s_16334_jpg, wallsign).
@@ -4338,6 +4195,7 @@ holds(s_16338_jpg, window).
 holds(s_16338_jpg, billboard).
 holds(s_16338_jpg, porch).
 holds(s_16338_jpg, wallsign).
+holds(s_16338_jpg, pipe).
 holds(s_16338_jpg, commercial).
 
 sample(s_16339_jpg).
@@ -4345,7 +4203,6 @@ holds(s_16339_jpg, building).
 holds(s_16339_jpg, feature).
 holds(s_16339_jpg, hotel).
 holds(s_16339_jpg, store).
-holds(s_16339_jpg, suburban).
 holds(s_16339_jpg, window).
 holds(s_16339_jpg, billboard).
 holds(s_16339_jpg, porch).
@@ -4358,7 +4215,6 @@ holds(s_16340_jpg, feature).
 holds(s_16340_jpg, hotel).
 holds(s_16340_jpg, store).
 holds(s_16340_jpg, suburban).
-holds(s_16340_jpg, door).
 holds(s_16340_jpg, billboard).
 holds(s_16340_jpg, porch).
 holds(s_16340_jpg, wallsign).
@@ -4376,6 +4232,7 @@ holds(s_16341_jpg, window).
 holds(s_16341_jpg, billboard).
 holds(s_16341_jpg, porch).
 holds(s_16341_jpg, wallsign).
+holds(s_16341_jpg, pipe).
 holds(s_16341_jpg, commercial).
 
 sample(s_16342_jpg).
@@ -4383,7 +4240,6 @@ holds(s_16342_jpg, building).
 holds(s_16342_jpg, feature).
 holds(s_16342_jpg, hotel).
 holds(s_16342_jpg, store).
-holds(s_16342_jpg, suburban).
 holds(s_16342_jpg, window).
 holds(s_16342_jpg, billboard).
 holds(s_16342_jpg, porch).
@@ -4409,7 +4265,6 @@ holds(s_16344_jpg, feature).
 holds(s_16344_jpg, hotel).
 holds(s_16344_jpg, store).
 holds(s_16344_jpg, suburban).
-holds(s_16344_jpg, door).
 holds(s_16344_jpg, window).
 holds(s_16344_jpg, billboard).
 holds(s_16344_jpg, porch).
@@ -4421,7 +4276,6 @@ holds(s_16345_jpg, building).
 holds(s_16345_jpg, feature).
 holds(s_16345_jpg, hotel).
 holds(s_16345_jpg, store).
-holds(s_16345_jpg, suburban).
 holds(s_16345_jpg, window).
 holds(s_16345_jpg, billboard).
 holds(s_16345_jpg, porch).
@@ -4434,7 +4288,6 @@ holds(s_16346_jpg, feature).
 holds(s_16346_jpg, hotel).
 holds(s_16346_jpg, store).
 holds(s_16346_jpg, suburban).
-holds(s_16346_jpg, door).
 holds(s_16346_jpg, billboard).
 holds(s_16346_jpg, porch).
 holds(s_16346_jpg, wallsign).
@@ -4452,6 +4305,7 @@ holds(s_16347_jpg, window).
 holds(s_16347_jpg, billboard).
 holds(s_16347_jpg, porch).
 holds(s_16347_jpg, wallsign).
+holds(s_16347_jpg, pipe).
 holds(s_16347_jpg, commercial).
 
 sample(s_16348_jpg).
@@ -4459,7 +4313,6 @@ holds(s_16348_jpg, building).
 holds(s_16348_jpg, feature).
 holds(s_16348_jpg, hotel).
 holds(s_16348_jpg, store).
-holds(s_16348_jpg, suburban).
 holds(s_16348_jpg, window).
 holds(s_16348_jpg, billboard).
 holds(s_16348_jpg, porch).
@@ -4472,7 +4325,6 @@ holds(s_16349_jpg, feature).
 holds(s_16349_jpg, hotel).
 holds(s_16349_jpg, store).
 holds(s_16349_jpg, suburban).
-holds(s_16349_jpg, door).
 holds(s_16349_jpg, billboard).
 holds(s_16349_jpg, porch).
 holds(s_16349_jpg, wallsign).
@@ -4490,6 +4342,7 @@ holds(s_16350_jpg, window).
 holds(s_16350_jpg, billboard).
 holds(s_16350_jpg, porch).
 holds(s_16350_jpg, wallsign).
+holds(s_16350_jpg, pipe).
 holds(s_16350_jpg, commercial).
 
 sample(s_16351_jpg).
@@ -4497,7 +4350,6 @@ holds(s_16351_jpg, building).
 holds(s_16351_jpg, feature).
 holds(s_16351_jpg, hotel).
 holds(s_16351_jpg, store).
-holds(s_16351_jpg, suburban).
 holds(s_16351_jpg, window).
 holds(s_16351_jpg, billboard).
 holds(s_16351_jpg, porch).
@@ -4510,7 +4362,6 @@ holds(s_16352_jpg, feature).
 holds(s_16352_jpg, hotel).
 holds(s_16352_jpg, store).
 holds(s_16352_jpg, suburban).
-holds(s_16352_jpg, door).
 holds(s_16352_jpg, billboard).
 holds(s_16352_jpg, porch).
 holds(s_16352_jpg, wallsign).
@@ -4536,7 +4387,6 @@ holds(s_16354_jpg, building).
 holds(s_16354_jpg, feature).
 holds(s_16354_jpg, hotel).
 holds(s_16354_jpg, store).
-holds(s_16354_jpg, suburban).
 holds(s_16354_jpg, window).
 holds(s_16354_jpg, billboard).
 holds(s_16354_jpg, porch).
@@ -4549,7 +4399,6 @@ holds(s_16355_jpg, feature).
 holds(s_16355_jpg, hotel).
 holds(s_16355_jpg, store).
 holds(s_16355_jpg, suburban).
-holds(s_16355_jpg, door).
 holds(s_16355_jpg, billboard).
 holds(s_16355_jpg, porch).
 holds(s_16355_jpg, wallsign).
@@ -4567,6 +4416,7 @@ holds(s_16356_jpg, window).
 holds(s_16356_jpg, billboard).
 holds(s_16356_jpg, porch).
 holds(s_16356_jpg, wallsign).
+holds(s_16356_jpg, pipe).
 holds(s_16356_jpg, commercial).
 
 sample(s_16357_jpg).
@@ -4574,7 +4424,6 @@ holds(s_16357_jpg, building).
 holds(s_16357_jpg, feature).
 holds(s_16357_jpg, hotel).
 holds(s_16357_jpg, store).
-holds(s_16357_jpg, suburban).
 holds(s_16357_jpg, window).
 holds(s_16357_jpg, billboard).
 holds(s_16357_jpg, porch).
@@ -4587,7 +4436,6 @@ holds(s_16358_jpg, feature).
 holds(s_16358_jpg, hotel).
 holds(s_16358_jpg, store).
 holds(s_16358_jpg, suburban).
-holds(s_16358_jpg, door).
 holds(s_16358_jpg, billboard).
 holds(s_16358_jpg, porch).
 holds(s_16358_jpg, wallsign).
@@ -4605,6 +4453,7 @@ holds(s_16359_jpg, window).
 holds(s_16359_jpg, billboard).
 holds(s_16359_jpg, porch).
 holds(s_16359_jpg, wallsign).
+holds(s_16359_jpg, pipe).
 holds(s_16359_jpg, commercial).
 
 sample(s_16360_jpg).
@@ -4612,8 +4461,6 @@ holds(s_16360_jpg, building).
 holds(s_16360_jpg, feature).
 holds(s_16360_jpg, hotel).
 holds(s_16360_jpg, store).
-holds(s_16360_jpg, suburban).
-holds(s_16360_jpg, door).
 holds(s_16360_jpg, window).
 holds(s_16360_jpg, billboard).
 holds(s_16360_jpg, porch).
@@ -4626,7 +4473,6 @@ holds(s_16361_jpg, feature).
 holds(s_16361_jpg, hotel).
 holds(s_16361_jpg, store).
 holds(s_16361_jpg, suburban).
-holds(s_16361_jpg, door).
 holds(s_16361_jpg, billboard).
 holds(s_16361_jpg, porch).
 holds(s_16361_jpg, wallsign).
@@ -4652,7 +4498,6 @@ holds(s_16363_jpg, building).
 holds(s_16363_jpg, feature).
 holds(s_16363_jpg, hotel).
 holds(s_16363_jpg, store).
-holds(s_16363_jpg, suburban).
 holds(s_16363_jpg, window).
 holds(s_16363_jpg, billboard).
 holds(s_16363_jpg, porch).
@@ -4665,7 +4510,6 @@ holds(s_16364_jpg, feature).
 holds(s_16364_jpg, hotel).
 holds(s_16364_jpg, store).
 holds(s_16364_jpg, suburban).
-holds(s_16364_jpg, door).
 holds(s_16364_jpg, billboard).
 holds(s_16364_jpg, porch).
 holds(s_16364_jpg, wallsign).
@@ -4683,6 +4527,7 @@ holds(s_16365_jpg, window).
 holds(s_16365_jpg, billboard).
 holds(s_16365_jpg, porch).
 holds(s_16365_jpg, wallsign).
+holds(s_16365_jpg, pipe).
 holds(s_16365_jpg, commercial).
 
 sample(s_16366_jpg).
@@ -4690,7 +4535,6 @@ holds(s_16366_jpg, building).
 holds(s_16366_jpg, feature).
 holds(s_16366_jpg, hotel).
 holds(s_16366_jpg, store).
-holds(s_16366_jpg, suburban).
 holds(s_16366_jpg, window).
 holds(s_16366_jpg, billboard).
 holds(s_16366_jpg, porch).
@@ -4703,7 +4547,6 @@ holds(s_16367_jpg, feature).
 holds(s_16367_jpg, hotel).
 holds(s_16367_jpg, store).
 holds(s_16367_jpg, suburban).
-holds(s_16367_jpg, door).
 holds(s_16367_jpg, billboard).
 holds(s_16367_jpg, porch).
 holds(s_16367_jpg, wallsign).
@@ -4729,7 +4572,6 @@ holds(s_16369_jpg, building).
 holds(s_16369_jpg, feature).
 holds(s_16369_jpg, hotel).
 holds(s_16369_jpg, store).
-holds(s_16369_jpg, suburban).
 holds(s_16369_jpg, window).
 holds(s_16369_jpg, billboard).
 holds(s_16369_jpg, porch).
@@ -4759,6 +4601,7 @@ holds(s_16371_jpg, window).
 holds(s_16371_jpg, billboard).
 holds(s_16371_jpg, porch).
 holds(s_16371_jpg, wallsign).
+holds(s_16371_jpg, pipe).
 holds(s_16371_jpg, commercial).
 
 sample(s_16372_jpg).
@@ -4766,7 +4609,6 @@ holds(s_16372_jpg, building).
 holds(s_16372_jpg, feature).
 holds(s_16372_jpg, hotel).
 holds(s_16372_jpg, store).
-holds(s_16372_jpg, suburban).
 holds(s_16372_jpg, window).
 holds(s_16372_jpg, billboard).
 holds(s_16372_jpg, porch).
@@ -4796,6 +4638,7 @@ holds(s_16374_jpg, window).
 holds(s_16374_jpg, billboard).
 holds(s_16374_jpg, porch).
 holds(s_16374_jpg, wallsign).
+holds(s_16374_jpg, pipe).
 holds(s_16374_jpg, commercial).
 
 sample(s_16375_jpg).
@@ -4803,8 +4646,6 @@ holds(s_16375_jpg, building).
 holds(s_16375_jpg, feature).
 holds(s_16375_jpg, hotel).
 holds(s_16375_jpg, store).
-holds(s_16375_jpg, suburban).
-holds(s_16375_jpg, door).
 holds(s_16375_jpg, window).
 holds(s_16375_jpg, billboard).
 holds(s_16375_jpg, porch).
@@ -4817,7 +4658,6 @@ holds(s_16376_jpg, feature).
 holds(s_16376_jpg, hotel).
 holds(s_16376_jpg, store).
 holds(s_16376_jpg, suburban).
-holds(s_16376_jpg, door).
 holds(s_16376_jpg, billboard).
 holds(s_16376_jpg, porch).
 holds(s_16376_jpg, wallsign).
@@ -4835,6 +4675,7 @@ holds(s_16377_jpg, window).
 holds(s_16377_jpg, billboard).
 holds(s_16377_jpg, porch).
 holds(s_16377_jpg, wallsign).
+holds(s_16377_jpg, pipe).
 holds(s_16377_jpg, commercial).
 
 sample(s_16378_jpg).
@@ -4842,7 +4683,6 @@ holds(s_16378_jpg, building).
 holds(s_16378_jpg, feature).
 holds(s_16378_jpg, hotel).
 holds(s_16378_jpg, store).
-holds(s_16378_jpg, suburban).
 holds(s_16378_jpg, window).
 holds(s_16378_jpg, billboard).
 holds(s_16378_jpg, porch).
@@ -4855,7 +4695,6 @@ holds(s_16379_jpg, feature).
 holds(s_16379_jpg, hotel).
 holds(s_16379_jpg, store).
 holds(s_16379_jpg, suburban).
-holds(s_16379_jpg, door).
 holds(s_16379_jpg, billboard).
 holds(s_16379_jpg, porch).
 holds(s_16379_jpg, wallsign).
@@ -4881,7 +4720,6 @@ holds(s_16381_jpg, building).
 holds(s_16381_jpg, feature).
 holds(s_16381_jpg, hotel).
 holds(s_16381_jpg, store).
-holds(s_16381_jpg, suburban).
 holds(s_16381_jpg, window).
 holds(s_16381_jpg, billboard).
 holds(s_16381_jpg, porch).
@@ -4894,7 +4732,6 @@ holds(s_16382_jpg, feature).
 holds(s_16382_jpg, hotel).
 holds(s_16382_jpg, store).
 holds(s_16382_jpg, suburban).
-holds(s_16382_jpg, door).
 holds(s_16382_jpg, billboard).
 holds(s_16382_jpg, porch).
 holds(s_16382_jpg, wallsign).
@@ -4912,6 +4749,7 @@ holds(s_16383_jpg, window).
 holds(s_16383_jpg, billboard).
 holds(s_16383_jpg, porch).
 holds(s_16383_jpg, wallsign).
+holds(s_16383_jpg, pipe).
 holds(s_16383_jpg, commercial).
 
 sample(s_16384_jpg).
@@ -4919,7 +4757,6 @@ holds(s_16384_jpg, building).
 holds(s_16384_jpg, feature).
 holds(s_16384_jpg, hotel).
 holds(s_16384_jpg, store).
-holds(s_16384_jpg, suburban).
 holds(s_16384_jpg, window).
 holds(s_16384_jpg, billboard).
 holds(s_16384_jpg, porch).
@@ -4932,7 +4769,6 @@ holds(s_16385_jpg, feature).
 holds(s_16385_jpg, hotel).
 holds(s_16385_jpg, store).
 holds(s_16385_jpg, suburban).
-holds(s_16385_jpg, door).
 holds(s_16385_jpg, billboard).
 holds(s_16385_jpg, porch).
 holds(s_16385_jpg, wallsign).
@@ -4950,6 +4786,7 @@ holds(s_16386_jpg, window).
 holds(s_16386_jpg, billboard).
 holds(s_16386_jpg, porch).
 holds(s_16386_jpg, wallsign).
+holds(s_16386_jpg, pipe).
 holds(s_16386_jpg, commercial).
 
 sample(s_16387_jpg).
@@ -4957,7 +4794,6 @@ holds(s_16387_jpg, building).
 holds(s_16387_jpg, feature).
 holds(s_16387_jpg, hotel).
 holds(s_16387_jpg, store).
-holds(s_16387_jpg, suburban).
 holds(s_16387_jpg, window).
 holds(s_16387_jpg, billboard).
 holds(s_16387_jpg, porch).
@@ -4988,6 +4824,7 @@ holds(s_16389_jpg, window).
 holds(s_16389_jpg, billboard).
 holds(s_16389_jpg, porch).
 holds(s_16389_jpg, wallsign).
+holds(s_16389_jpg, pipe).
 holds(s_16389_jpg, commercial).
 
 sample(s_16390_jpg).
@@ -4995,7 +4832,6 @@ holds(s_16390_jpg, building).
 holds(s_16390_jpg, feature).
 holds(s_16390_jpg, hotel).
 holds(s_16390_jpg, store).
-holds(s_16390_jpg, suburban).
 holds(s_16390_jpg, window).
 holds(s_16390_jpg, billboard).
 holds(s_16390_jpg, porch).
@@ -5008,7 +4844,6 @@ holds(s_16391_jpg, feature).
 holds(s_16391_jpg, hotel).
 holds(s_16391_jpg, store).
 holds(s_16391_jpg, suburban).
-holds(s_16391_jpg, door).
 holds(s_16391_jpg, billboard).
 holds(s_16391_jpg, porch).
 holds(s_16391_jpg, wallsign).
@@ -5026,6 +4861,7 @@ holds(s_16392_jpg, window).
 holds(s_16392_jpg, billboard).
 holds(s_16392_jpg, porch).
 holds(s_16392_jpg, wallsign).
+holds(s_16392_jpg, pipe).
 holds(s_16392_jpg, commercial).
 
 sample(s_16393_jpg).
@@ -5033,7 +4869,6 @@ holds(s_16393_jpg, building).
 holds(s_16393_jpg, feature).
 holds(s_16393_jpg, hotel).
 holds(s_16393_jpg, store).
-holds(s_16393_jpg, suburban).
 holds(s_16393_jpg, window).
 holds(s_16393_jpg, billboard).
 holds(s_16393_jpg, porch).
@@ -5046,7 +4881,6 @@ holds(s_16394_jpg, feature).
 holds(s_16394_jpg, hotel).
 holds(s_16394_jpg, store).
 holds(s_16394_jpg, suburban).
-holds(s_16394_jpg, door).
 holds(s_16394_jpg, billboard).
 holds(s_16394_jpg, porch).
 holds(s_16394_jpg, wallsign).
@@ -5072,7 +4906,6 @@ holds(s_16396_jpg, building).
 holds(s_16396_jpg, feature).
 holds(s_16396_jpg, hotel).
 holds(s_16396_jpg, store).
-holds(s_16396_jpg, suburban).
 holds(s_16396_jpg, window).
 holds(s_16396_jpg, billboard).
 holds(s_16396_jpg, porch).
@@ -5110,7 +4943,6 @@ holds(s_16399_jpg, building).
 holds(s_16399_jpg, feature).
 holds(s_16399_jpg, hotel).
 holds(s_16399_jpg, store).
-holds(s_16399_jpg, suburban).
 holds(s_16399_jpg, window).
 holds(s_16399_jpg, billboard).
 holds(s_16399_jpg, porch).
@@ -5123,7 +4955,6 @@ holds(s_16400_jpg, feature).
 holds(s_16400_jpg, hotel).
 holds(s_16400_jpg, store).
 holds(s_16400_jpg, suburban).
-holds(s_16400_jpg, door).
 holds(s_16400_jpg, billboard).
 holds(s_16400_jpg, porch).
 holds(s_16400_jpg, wallsign).
@@ -5141,6 +4972,7 @@ holds(s_16401_jpg, window).
 holds(s_16401_jpg, billboard).
 holds(s_16401_jpg, porch).
 holds(s_16401_jpg, wallsign).
+holds(s_16401_jpg, pipe).
 holds(s_16401_jpg, commercial).
 
 sample(s_16402_jpg).
@@ -5148,7 +4980,6 @@ holds(s_16402_jpg, building).
 holds(s_16402_jpg, feature).
 holds(s_16402_jpg, hotel).
 holds(s_16402_jpg, store).
-holds(s_16402_jpg, suburban).
 holds(s_16402_jpg, window).
 holds(s_16402_jpg, billboard).
 holds(s_16402_jpg, porch).
@@ -5161,7 +4992,6 @@ holds(s_16403_jpg, feature).
 holds(s_16403_jpg, hotel).
 holds(s_16403_jpg, store).
 holds(s_16403_jpg, suburban).
-holds(s_16403_jpg, door).
 holds(s_16403_jpg, billboard).
 holds(s_16403_jpg, porch).
 holds(s_16403_jpg, wallsign).
@@ -5179,6 +5009,7 @@ holds(s_16404_jpg, window).
 holds(s_16404_jpg, billboard).
 holds(s_16404_jpg, porch).
 holds(s_16404_jpg, wallsign).
+holds(s_16404_jpg, pipe).
 holds(s_16404_jpg, commercial).
 
 sample(s_16405_jpg).
@@ -5186,7 +5017,6 @@ holds(s_16405_jpg, building).
 holds(s_16405_jpg, feature).
 holds(s_16405_jpg, hotel).
 holds(s_16405_jpg, store).
-holds(s_16405_jpg, suburban).
 holds(s_16405_jpg, window).
 holds(s_16405_jpg, billboard).
 holds(s_16405_jpg, porch).
@@ -5199,7 +5029,6 @@ holds(s_16406_jpg, feature).
 holds(s_16406_jpg, hotel).
 holds(s_16406_jpg, store).
 holds(s_16406_jpg, suburban).
-holds(s_16406_jpg, door).
 holds(s_16406_jpg, billboard).
 holds(s_16406_jpg, porch).
 holds(s_16406_jpg, wallsign).
@@ -5225,7 +5054,6 @@ holds(s_16408_jpg, building).
 holds(s_16408_jpg, feature).
 holds(s_16408_jpg, hotel).
 holds(s_16408_jpg, store).
-holds(s_16408_jpg, suburban).
 holds(s_16408_jpg, window).
 holds(s_16408_jpg, billboard).
 holds(s_16408_jpg, porch).
@@ -5238,7 +5066,6 @@ holds(s_16409_jpg, feature).
 holds(s_16409_jpg, hotel).
 holds(s_16409_jpg, store).
 holds(s_16409_jpg, suburban).
-holds(s_16409_jpg, door).
 holds(s_16409_jpg, billboard).
 holds(s_16409_jpg, porch).
 holds(s_16409_jpg, wallsign).
@@ -5264,7 +5091,6 @@ holds(s_16411_jpg, building).
 holds(s_16411_jpg, feature).
 holds(s_16411_jpg, hotel).
 holds(s_16411_jpg, store).
-holds(s_16411_jpg, suburban).
 holds(s_16411_jpg, window).
 holds(s_16411_jpg, billboard).
 holds(s_16411_jpg, porch).
@@ -5277,7 +5103,6 @@ holds(s_16412_jpg, feature).
 holds(s_16412_jpg, hotel).
 holds(s_16412_jpg, store).
 holds(s_16412_jpg, suburban).
-holds(s_16412_jpg, door).
 holds(s_16412_jpg, billboard).
 holds(s_16412_jpg, porch).
 holds(s_16412_jpg, wallsign).
@@ -5303,7 +5128,6 @@ holds(s_16414_jpg, building).
 holds(s_16414_jpg, feature).
 holds(s_16414_jpg, hotel).
 holds(s_16414_jpg, store).
-holds(s_16414_jpg, suburban).
 holds(s_16414_jpg, window).
 holds(s_16414_jpg, billboard).
 holds(s_16414_jpg, porch).
@@ -5316,7 +5140,6 @@ holds(s_16415_jpg, feature).
 holds(s_16415_jpg, hotel).
 holds(s_16415_jpg, store).
 holds(s_16415_jpg, suburban).
-holds(s_16415_jpg, door).
 holds(s_16415_jpg, billboard).
 holds(s_16415_jpg, porch).
 holds(s_16415_jpg, wallsign).
@@ -5334,6 +5157,7 @@ holds(s_16416_jpg, window).
 holds(s_16416_jpg, billboard).
 holds(s_16416_jpg, porch).
 holds(s_16416_jpg, wallsign).
+holds(s_16416_jpg, pipe).
 holds(s_16416_jpg, commercial).
 
 sample(s_16417_jpg).
@@ -5341,7 +5165,6 @@ holds(s_16417_jpg, building).
 holds(s_16417_jpg, feature).
 holds(s_16417_jpg, hotel).
 holds(s_16417_jpg, store).
-holds(s_16417_jpg, suburban).
 holds(s_16417_jpg, window).
 holds(s_16417_jpg, billboard).
 holds(s_16417_jpg, porch).
@@ -5354,7 +5177,6 @@ holds(s_16418_jpg, feature).
 holds(s_16418_jpg, hotel).
 holds(s_16418_jpg, store).
 holds(s_16418_jpg, suburban).
-holds(s_16418_jpg, door).
 holds(s_16418_jpg, billboard).
 holds(s_16418_jpg, porch).
 holds(s_16418_jpg, wallsign).
@@ -5380,7 +5202,6 @@ holds(s_16420_jpg, building).
 holds(s_16420_jpg, feature).
 holds(s_16420_jpg, hotel).
 holds(s_16420_jpg, store).
-holds(s_16420_jpg, suburban).
 holds(s_16420_jpg, window).
 holds(s_16420_jpg, billboard).
 holds(s_16420_jpg, porch).
@@ -5418,7 +5239,6 @@ holds(s_16423_jpg, building).
 holds(s_16423_jpg, feature).
 holds(s_16423_jpg, hotel).
 holds(s_16423_jpg, store).
-holds(s_16423_jpg, suburban).
 holds(s_16423_jpg, window).
 holds(s_16423_jpg, billboard).
 holds(s_16423_jpg, porch).
@@ -5456,7 +5276,6 @@ holds(s_16426_jpg, building).
 holds(s_16426_jpg, feature).
 holds(s_16426_jpg, hotel).
 holds(s_16426_jpg, store).
-holds(s_16426_jpg, suburban).
 holds(s_16426_jpg, window).
 holds(s_16426_jpg, billboard).
 holds(s_16426_jpg, porch).
@@ -5494,7 +5313,6 @@ holds(s_16429_jpg, building).
 holds(s_16429_jpg, feature).
 holds(s_16429_jpg, hotel).
 holds(s_16429_jpg, store).
-holds(s_16429_jpg, suburban).
 holds(s_16429_jpg, window).
 holds(s_16429_jpg, billboard).
 holds(s_16429_jpg, porch).
@@ -5507,6 +5325,7 @@ holds(s_16430_jpg, feature).
 holds(s_16430_jpg, hotel).
 holds(s_16430_jpg, store).
 holds(s_16430_jpg, suburban).
+holds(s_16430_jpg, door).
 holds(s_16430_jpg, billboard).
 holds(s_16430_jpg, porch).
 holds(s_16430_jpg, wallsign).
@@ -5524,6 +5343,7 @@ holds(s_16431_jpg, window).
 holds(s_16431_jpg, billboard).
 holds(s_16431_jpg, porch).
 holds(s_16431_jpg, wallsign).
+holds(s_16431_jpg, pipe).
 holds(s_16431_jpg, commercial).
 
 sample(s_16432_jpg).
@@ -5531,7 +5351,6 @@ holds(s_16432_jpg, building).
 holds(s_16432_jpg, feature).
 holds(s_16432_jpg, hotel).
 holds(s_16432_jpg, store).
-holds(s_16432_jpg, suburban).
 holds(s_16432_jpg, window).
 holds(s_16432_jpg, billboard).
 holds(s_16432_jpg, porch).
@@ -5570,8 +5389,6 @@ holds(s_16435_jpg, building).
 holds(s_16435_jpg, feature).
 holds(s_16435_jpg, hotel).
 holds(s_16435_jpg, store).
-holds(s_16435_jpg, suburban).
-holds(s_16435_jpg, door).
 holds(s_16435_jpg, window).
 holds(s_16435_jpg, billboard).
 holds(s_16435_jpg, porch).
@@ -5610,7 +5427,6 @@ holds(s_16438_jpg, building).
 holds(s_16438_jpg, feature).
 holds(s_16438_jpg, hotel).
 holds(s_16438_jpg, store).
-holds(s_16438_jpg, suburban).
 holds(s_16438_jpg, window).
 holds(s_16438_jpg, billboard).
 holds(s_16438_jpg, porch).
@@ -5648,7 +5464,6 @@ holds(s_16441_jpg, building).
 holds(s_16441_jpg, feature).
 holds(s_16441_jpg, hotel).
 holds(s_16441_jpg, store).
-holds(s_16441_jpg, suburban).
 holds(s_16441_jpg, window).
 holds(s_16441_jpg, billboard).
 holds(s_16441_jpg, porch).
@@ -5661,7 +5476,6 @@ holds(s_16442_jpg, feature).
 holds(s_16442_jpg, hotel).
 holds(s_16442_jpg, store).
 holds(s_16442_jpg, suburban).
-holds(s_16442_jpg, door).
 holds(s_16442_jpg, billboard).
 holds(s_16442_jpg, porch).
 holds(s_16442_jpg, wallsign).
@@ -5687,7 +5501,6 @@ holds(s_16444_jpg, building).
 holds(s_16444_jpg, feature).
 holds(s_16444_jpg, hotel).
 holds(s_16444_jpg, store).
-holds(s_16444_jpg, suburban).
 holds(s_16444_jpg, window).
 holds(s_16444_jpg, billboard).
 holds(s_16444_jpg, porch).
@@ -5700,7 +5513,6 @@ holds(s_16445_jpg, feature).
 holds(s_16445_jpg, hotel).
 holds(s_16445_jpg, store).
 holds(s_16445_jpg, suburban).
-holds(s_16445_jpg, door).
 holds(s_16445_jpg, billboard).
 holds(s_16445_jpg, porch).
 holds(s_16445_jpg, wallsign).
@@ -5726,7 +5538,6 @@ holds(s_16447_jpg, building).
 holds(s_16447_jpg, feature).
 holds(s_16447_jpg, hotel).
 holds(s_16447_jpg, store).
-holds(s_16447_jpg, suburban).
 holds(s_16447_jpg, window).
 holds(s_16447_jpg, billboard).
 holds(s_16447_jpg, porch).
@@ -5739,7 +5550,6 @@ holds(s_16448_jpg, feature).
 holds(s_16448_jpg, hotel).
 holds(s_16448_jpg, store).
 holds(s_16448_jpg, suburban).
-holds(s_16448_jpg, door).
 holds(s_16448_jpg, billboard).
 holds(s_16448_jpg, porch).
 holds(s_16448_jpg, wallsign).
@@ -5765,7 +5575,6 @@ holds(s_16450_jpg, building).
 holds(s_16450_jpg, feature).
 holds(s_16450_jpg, hotel).
 holds(s_16450_jpg, store).
-holds(s_16450_jpg, suburban).
 holds(s_16450_jpg, window).
 holds(s_16450_jpg, billboard).
 holds(s_16450_jpg, porch).
@@ -5778,7 +5587,6 @@ holds(s_16451_jpg, feature).
 holds(s_16451_jpg, hotel).
 holds(s_16451_jpg, store).
 holds(s_16451_jpg, suburban).
-holds(s_16451_jpg, door).
 holds(s_16451_jpg, billboard).
 holds(s_16451_jpg, porch).
 holds(s_16451_jpg, wallsign).
@@ -5804,7 +5612,6 @@ holds(s_16453_jpg, building).
 holds(s_16453_jpg, feature).
 holds(s_16453_jpg, hotel).
 holds(s_16453_jpg, store).
-holds(s_16453_jpg, suburban).
 holds(s_16453_jpg, window).
 holds(s_16453_jpg, billboard).
 holds(s_16453_jpg, porch).
@@ -5835,6 +5642,7 @@ holds(s_16455_jpg, window).
 holds(s_16455_jpg, billboard).
 holds(s_16455_jpg, porch).
 holds(s_16455_jpg, wallsign).
+holds(s_16455_jpg, pipe).
 holds(s_16455_jpg, commercial).
 
 sample(s_16456_jpg).
@@ -5842,7 +5650,6 @@ holds(s_16456_jpg, building).
 holds(s_16456_jpg, feature).
 holds(s_16456_jpg, hotel).
 holds(s_16456_jpg, store).
-holds(s_16456_jpg, suburban).
 holds(s_16456_jpg, window).
 holds(s_16456_jpg, billboard).
 holds(s_16456_jpg, porch).
@@ -5855,7 +5662,6 @@ holds(s_16457_jpg, feature).
 holds(s_16457_jpg, hotel).
 holds(s_16457_jpg, store).
 holds(s_16457_jpg, suburban).
-holds(s_16457_jpg, door).
 holds(s_16457_jpg, billboard).
 holds(s_16457_jpg, porch).
 holds(s_16457_jpg, wallsign).
@@ -5881,7 +5687,6 @@ holds(s_16459_jpg, building).
 holds(s_16459_jpg, feature).
 holds(s_16459_jpg, hotel).
 holds(s_16459_jpg, store).
-holds(s_16459_jpg, suburban).
 holds(s_16459_jpg, window).
 holds(s_16459_jpg, billboard).
 holds(s_16459_jpg, porch).
@@ -5894,7 +5699,6 @@ holds(s_16460_jpg, feature).
 holds(s_16460_jpg, hotel).
 holds(s_16460_jpg, store).
 holds(s_16460_jpg, suburban).
-holds(s_16460_jpg, door).
 holds(s_16460_jpg, billboard).
 holds(s_16460_jpg, porch).
 holds(s_16460_jpg, wallsign).
@@ -5920,7 +5724,6 @@ holds(s_16462_jpg, building).
 holds(s_16462_jpg, feature).
 holds(s_16462_jpg, hotel).
 holds(s_16462_jpg, store).
-holds(s_16462_jpg, suburban).
 holds(s_16462_jpg, window).
 holds(s_16462_jpg, billboard).
 holds(s_16462_jpg, porch).
@@ -5958,7 +5761,6 @@ holds(s_16465_jpg, building).
 holds(s_16465_jpg, feature).
 holds(s_16465_jpg, hotel).
 holds(s_16465_jpg, store).
-holds(s_16465_jpg, suburban).
 holds(s_16465_jpg, window).
 holds(s_16465_jpg, billboard).
 holds(s_16465_jpg, porch).
@@ -5971,7 +5773,6 @@ holds(s_16466_jpg, feature).
 holds(s_16466_jpg, hotel).
 holds(s_16466_jpg, store).
 holds(s_16466_jpg, suburban).
-holds(s_16466_jpg, door).
 holds(s_16466_jpg, billboard).
 holds(s_16466_jpg, porch).
 holds(s_16466_jpg, wallsign).
@@ -5997,7 +5798,6 @@ holds(s_16468_jpg, building).
 holds(s_16468_jpg, feature).
 holds(s_16468_jpg, hotel).
 holds(s_16468_jpg, store).
-holds(s_16468_jpg, suburban).
 holds(s_16468_jpg, window).
 holds(s_16468_jpg, billboard).
 holds(s_16468_jpg, porch).
@@ -6035,7 +5835,6 @@ holds(s_16471_jpg, building).
 holds(s_16471_jpg, feature).
 holds(s_16471_jpg, hotel).
 holds(s_16471_jpg, store).
-holds(s_16471_jpg, suburban).
 holds(s_16471_jpg, window).
 holds(s_16471_jpg, billboard).
 holds(s_16471_jpg, porch).
@@ -6074,7 +5873,6 @@ holds(s_16474_jpg, building).
 holds(s_16474_jpg, feature).
 holds(s_16474_jpg, hotel).
 holds(s_16474_jpg, store).
-holds(s_16474_jpg, suburban).
 holds(s_16474_jpg, window).
 holds(s_16474_jpg, billboard).
 holds(s_16474_jpg, porch).
@@ -6100,10 +5898,10 @@ holds(s_16476_jpg, hotel).
 holds(s_16476_jpg, store).
 holds(s_16476_jpg, suburban).
 holds(s_16476_jpg, door).
-holds(s_16476_jpg, window).
 holds(s_16476_jpg, billboard).
 holds(s_16476_jpg, porch).
 holds(s_16476_jpg, wallsign).
+holds(s_16476_jpg, car).
 holds(s_16476_jpg, commercial).
 
 sample(s_16477_jpg).
@@ -6111,7 +5909,6 @@ holds(s_16477_jpg, building).
 holds(s_16477_jpg, feature).
 holds(s_16477_jpg, hotel).
 holds(s_16477_jpg, store).
-holds(s_16477_jpg, suburban).
 holds(s_16477_jpg, window).
 holds(s_16477_jpg, billboard).
 holds(s_16477_jpg, porch).
@@ -6124,7 +5921,6 @@ holds(s_16478_jpg, feature).
 holds(s_16478_jpg, hotel).
 holds(s_16478_jpg, store).
 holds(s_16478_jpg, suburban).
-holds(s_16478_jpg, door).
 holds(s_16478_jpg, billboard).
 holds(s_16478_jpg, porch).
 holds(s_16478_jpg, wallsign).
@@ -6142,6 +5938,7 @@ holds(s_16479_jpg, window).
 holds(s_16479_jpg, billboard).
 holds(s_16479_jpg, porch).
 holds(s_16479_jpg, wallsign).
+holds(s_16479_jpg, pipe).
 holds(s_16479_jpg, commercial).
 
 sample(s_16480_jpg).
@@ -6149,7 +5946,6 @@ holds(s_16480_jpg, building).
 holds(s_16480_jpg, feature).
 holds(s_16480_jpg, hotel).
 holds(s_16480_jpg, store).
-holds(s_16480_jpg, suburban).
 holds(s_16480_jpg, window).
 holds(s_16480_jpg, billboard).
 holds(s_16480_jpg, porch).
@@ -6162,7 +5958,6 @@ holds(s_16481_jpg, feature).
 holds(s_16481_jpg, hotel).
 holds(s_16481_jpg, store).
 holds(s_16481_jpg, suburban).
-holds(s_16481_jpg, door).
 holds(s_16481_jpg, billboard).
 holds(s_16481_jpg, porch).
 holds(s_16481_jpg, wallsign).
@@ -6180,6 +5975,7 @@ holds(s_16482_jpg, window).
 holds(s_16482_jpg, billboard).
 holds(s_16482_jpg, porch).
 holds(s_16482_jpg, wallsign).
+holds(s_16482_jpg, pipe).
 holds(s_16482_jpg, commercial).
 
 sample(s_16483_jpg).
@@ -6187,7 +5983,6 @@ holds(s_16483_jpg, building).
 holds(s_16483_jpg, feature).
 holds(s_16483_jpg, hotel).
 holds(s_16483_jpg, store).
-holds(s_16483_jpg, suburban).
 holds(s_16483_jpg, window).
 holds(s_16483_jpg, billboard).
 holds(s_16483_jpg, porch).
@@ -6225,7 +6020,6 @@ holds(s_16486_jpg, building).
 holds(s_16486_jpg, feature).
 holds(s_16486_jpg, hotel).
 holds(s_16486_jpg, store).
-holds(s_16486_jpg, suburban).
 holds(s_16486_jpg, window).
 holds(s_16486_jpg, billboard).
 holds(s_16486_jpg, porch).
@@ -6238,7 +6032,6 @@ holds(s_16487_jpg, feature).
 holds(s_16487_jpg, hotel).
 holds(s_16487_jpg, store).
 holds(s_16487_jpg, suburban).
-holds(s_16487_jpg, door).
 holds(s_16487_jpg, billboard).
 holds(s_16487_jpg, porch).
 holds(s_16487_jpg, wallsign).
@@ -6264,7 +6057,6 @@ holds(s_16489_jpg, building).
 holds(s_16489_jpg, feature).
 holds(s_16489_jpg, hotel).
 holds(s_16489_jpg, store).
-holds(s_16489_jpg, suburban).
 holds(s_16489_jpg, window).
 holds(s_16489_jpg, billboard).
 holds(s_16489_jpg, porch).
@@ -6277,7 +6069,6 @@ holds(s_16490_jpg, feature).
 holds(s_16490_jpg, hotel).
 holds(s_16490_jpg, store).
 holds(s_16490_jpg, suburban).
-holds(s_16490_jpg, door).
 holds(s_16490_jpg, billboard).
 holds(s_16490_jpg, porch).
 holds(s_16490_jpg, wallsign).
@@ -6303,7 +6094,6 @@ holds(s_16492_jpg, building).
 holds(s_16492_jpg, feature).
 holds(s_16492_jpg, hotel).
 holds(s_16492_jpg, store).
-holds(s_16492_jpg, suburban).
 holds(s_16492_jpg, window).
 holds(s_16492_jpg, billboard).
 holds(s_16492_jpg, porch).
@@ -6316,7 +6106,6 @@ holds(s_16493_jpg, feature).
 holds(s_16493_jpg, hotel).
 holds(s_16493_jpg, store).
 holds(s_16493_jpg, suburban).
-holds(s_16493_jpg, door).
 holds(s_16493_jpg, billboard).
 holds(s_16493_jpg, porch).
 holds(s_16493_jpg, wallsign).
@@ -6334,6 +6123,7 @@ holds(s_16494_jpg, window).
 holds(s_16494_jpg, billboard).
 holds(s_16494_jpg, porch).
 holds(s_16494_jpg, wallsign).
+holds(s_16494_jpg, pipe).
 holds(s_16494_jpg, commercial).
 
 sample(s_16495_jpg).
@@ -6341,7 +6131,6 @@ holds(s_16495_jpg, building).
 holds(s_16495_jpg, feature).
 holds(s_16495_jpg, hotel).
 holds(s_16495_jpg, store).
-holds(s_16495_jpg, suburban).
 holds(s_16495_jpg, window).
 holds(s_16495_jpg, billboard).
 holds(s_16495_jpg, porch).
@@ -6372,7 +6161,7 @@ holds(s_16497_jpg, window).
 holds(s_16497_jpg, billboard).
 holds(s_16497_jpg, porch).
 holds(s_16497_jpg, wallsign).
-holds(s_16497_jpg, car).
+holds(s_16497_jpg, pipe).
 holds(s_16497_jpg, commercial).
 
 sample(s_16498_jpg).
@@ -6380,7 +6169,6 @@ holds(s_16498_jpg, building).
 holds(s_16498_jpg, feature).
 holds(s_16498_jpg, hotel).
 holds(s_16498_jpg, store).
-holds(s_16498_jpg, suburban).
 holds(s_16498_jpg, window).
 holds(s_16498_jpg, billboard).
 holds(s_16498_jpg, porch).
@@ -6411,6 +6199,7 @@ holds(s_16500_jpg, window).
 holds(s_16500_jpg, billboard).
 holds(s_16500_jpg, porch).
 holds(s_16500_jpg, wallsign).
+holds(s_16500_jpg, pipe).
 holds(s_16500_jpg, commercial).
 
 sample(s_16501_jpg).
@@ -6431,7 +6220,6 @@ holds(s_16502_jpg, feature).
 holds(s_16502_jpg, hotel).
 holds(s_16502_jpg, store).
 holds(s_16502_jpg, suburban).
-holds(s_16502_jpg, door).
 holds(s_16502_jpg, billboard).
 holds(s_16502_jpg, porch).
 holds(s_16502_jpg, wallsign).
@@ -6449,6 +6237,7 @@ holds(s_16503_jpg, window).
 holds(s_16503_jpg, billboard).
 holds(s_16503_jpg, porch).
 holds(s_16503_jpg, wallsign).
+holds(s_16503_jpg, pipe).
 holds(s_16503_jpg, commercial).
 
 sample(s_16504_jpg).
@@ -6456,7 +6245,6 @@ holds(s_16504_jpg, building).
 holds(s_16504_jpg, feature).
 holds(s_16504_jpg, hotel).
 holds(s_16504_jpg, store).
-holds(s_16504_jpg, suburban).
 holds(s_16504_jpg, window).
 holds(s_16504_jpg, billboard).
 holds(s_16504_jpg, porch).
@@ -6469,7 +6257,6 @@ holds(s_16505_jpg, feature).
 holds(s_16505_jpg, hotel).
 holds(s_16505_jpg, store).
 holds(s_16505_jpg, suburban).
-holds(s_16505_jpg, door).
 holds(s_16505_jpg, billboard).
 holds(s_16505_jpg, porch).
 holds(s_16505_jpg, wallsign).
@@ -6495,7 +6282,6 @@ holds(s_16507_jpg, building).
 holds(s_16507_jpg, feature).
 holds(s_16507_jpg, hotel).
 holds(s_16507_jpg, store).
-holds(s_16507_jpg, suburban).
 holds(s_16507_jpg, window).
 holds(s_16507_jpg, billboard).
 holds(s_16507_jpg, porch).
@@ -6534,7 +6320,6 @@ holds(s_16510_jpg, building).
 holds(s_16510_jpg, feature).
 holds(s_16510_jpg, hotel).
 holds(s_16510_jpg, store).
-holds(s_16510_jpg, suburban).
 holds(s_16510_jpg, window).
 holds(s_16510_jpg, billboard).
 holds(s_16510_jpg, porch).
@@ -6547,7 +6332,6 @@ holds(s_16511_jpg, feature).
 holds(s_16511_jpg, hotel).
 holds(s_16511_jpg, store).
 holds(s_16511_jpg, suburban).
-holds(s_16511_jpg, door).
 holds(s_16511_jpg, billboard).
 holds(s_16511_jpg, porch).
 holds(s_16511_jpg, wallsign).
@@ -6565,6 +6349,7 @@ holds(s_16512_jpg, window).
 holds(s_16512_jpg, billboard).
 holds(s_16512_jpg, porch).
 holds(s_16512_jpg, wallsign).
+holds(s_16512_jpg, pipe).
 holds(s_16512_jpg, commercial).
 
 sample(s_16513_jpg).
@@ -6572,7 +6357,6 @@ holds(s_16513_jpg, building).
 holds(s_16513_jpg, feature).
 holds(s_16513_jpg, hotel).
 holds(s_16513_jpg, store).
-holds(s_16513_jpg, suburban).
 holds(s_16513_jpg, window).
 holds(s_16513_jpg, billboard).
 holds(s_16513_jpg, porch).
@@ -6603,6 +6387,7 @@ holds(s_16515_jpg, window).
 holds(s_16515_jpg, billboard).
 holds(s_16515_jpg, porch).
 holds(s_16515_jpg, wallsign).
+holds(s_16515_jpg, pipe).
 holds(s_16515_jpg, commercial).
 
 sample(s_16516_jpg).
@@ -6610,7 +6395,6 @@ holds(s_16516_jpg, building).
 holds(s_16516_jpg, feature).
 holds(s_16516_jpg, hotel).
 holds(s_16516_jpg, store).
-holds(s_16516_jpg, suburban).
 holds(s_16516_jpg, window).
 holds(s_16516_jpg, billboard).
 holds(s_16516_jpg, porch).
@@ -6623,7 +6407,6 @@ holds(s_16517_jpg, feature).
 holds(s_16517_jpg, hotel).
 holds(s_16517_jpg, store).
 holds(s_16517_jpg, suburban).
-holds(s_16517_jpg, door).
 holds(s_16517_jpg, billboard).
 holds(s_16517_jpg, porch).
 holds(s_16517_jpg, wallsign).
@@ -6649,7 +6432,6 @@ holds(s_16519_jpg, building).
 holds(s_16519_jpg, feature).
 holds(s_16519_jpg, hotel).
 holds(s_16519_jpg, store).
-holds(s_16519_jpg, suburban).
 holds(s_16519_jpg, window).
 holds(s_16519_jpg, billboard).
 holds(s_16519_jpg, porch).
@@ -6679,6 +6461,7 @@ holds(s_16521_jpg, window).
 holds(s_16521_jpg, billboard).
 holds(s_16521_jpg, porch).
 holds(s_16521_jpg, wallsign).
+holds(s_16521_jpg, pipe).
 holds(s_16521_jpg, commercial).
 
 sample(s_16522_jpg).
@@ -6686,7 +6469,6 @@ holds(s_16522_jpg, building).
 holds(s_16522_jpg, feature).
 holds(s_16522_jpg, hotel).
 holds(s_16522_jpg, store).
-holds(s_16522_jpg, suburban).
 holds(s_16522_jpg, window).
 holds(s_16522_jpg, billboard).
 holds(s_16522_jpg, porch).
@@ -6710,7 +6492,6 @@ holds(s_16524_jpg, building).
 holds(s_16524_jpg, feature).
 holds(s_16524_jpg, hotel).
 holds(s_16524_jpg, store).
-holds(s_16524_jpg, suburban).
 holds(s_16524_jpg, window).
 holds(s_16524_jpg, billboard).
 holds(s_16524_jpg, porch).
@@ -6722,7 +6503,6 @@ holds(s_16525_jpg, building).
 holds(s_16525_jpg, feature).
 holds(s_16525_jpg, hotel).
 holds(s_16525_jpg, store).
-holds(s_16525_jpg, suburban).
 holds(s_16525_jpg, window).
 holds(s_16525_jpg, billboard).
 holds(s_16525_jpg, porch).
@@ -6760,7 +6540,6 @@ holds(s_16528_jpg, building).
 holds(s_16528_jpg, feature).
 holds(s_16528_jpg, hotel).
 holds(s_16528_jpg, store).
-holds(s_16528_jpg, suburban).
 holds(s_16528_jpg, window).
 holds(s_16528_jpg, billboard).
 holds(s_16528_jpg, porch).
@@ -6773,7 +6552,6 @@ holds(s_16529_jpg, feature).
 holds(s_16529_jpg, hotel).
 holds(s_16529_jpg, store).
 holds(s_16529_jpg, suburban).
-holds(s_16529_jpg, door).
 holds(s_16529_jpg, billboard).
 holds(s_16529_jpg, porch).
 holds(s_16529_jpg, wallsign).
@@ -6799,7 +6577,6 @@ holds(s_16531_jpg, building).
 holds(s_16531_jpg, feature).
 holds(s_16531_jpg, hotel).
 holds(s_16531_jpg, store).
-holds(s_16531_jpg, suburban).
 holds(s_16531_jpg, window).
 holds(s_16531_jpg, billboard).
 holds(s_16531_jpg, porch).
@@ -6838,7 +6615,6 @@ holds(s_16534_jpg, building).
 holds(s_16534_jpg, feature).
 holds(s_16534_jpg, hotel).
 holds(s_16534_jpg, store).
-holds(s_16534_jpg, suburban).
 holds(s_16534_jpg, window).
 holds(s_16534_jpg, billboard).
 holds(s_16534_jpg, porch).
@@ -6851,7 +6627,6 @@ holds(s_16535_jpg, feature).
 holds(s_16535_jpg, hotel).
 holds(s_16535_jpg, store).
 holds(s_16535_jpg, suburban).
-holds(s_16535_jpg, door).
 holds(s_16535_jpg, billboard).
 holds(s_16535_jpg, porch).
 holds(s_16535_jpg, wallsign).
@@ -6877,7 +6652,6 @@ holds(s_16537_jpg, building).
 holds(s_16537_jpg, feature).
 holds(s_16537_jpg, hotel).
 holds(s_16537_jpg, store).
-holds(s_16537_jpg, suburban).
 holds(s_16537_jpg, window).
 holds(s_16537_jpg, billboard).
 holds(s_16537_jpg, porch).
@@ -6890,7 +6664,6 @@ holds(s_16538_jpg, feature).
 holds(s_16538_jpg, hotel).
 holds(s_16538_jpg, store).
 holds(s_16538_jpg, suburban).
-holds(s_16538_jpg, door).
 holds(s_16538_jpg, billboard).
 holds(s_16538_jpg, porch).
 holds(s_16538_jpg, wallsign).
@@ -6908,6 +6681,7 @@ holds(s_16539_jpg, window).
 holds(s_16539_jpg, billboard).
 holds(s_16539_jpg, porch).
 holds(s_16539_jpg, wallsign).
+holds(s_16539_jpg, pipe).
 holds(s_16539_jpg, commercial).
 
 sample(s_16540_jpg).
@@ -6915,7 +6689,6 @@ holds(s_16540_jpg, building).
 holds(s_16540_jpg, feature).
 holds(s_16540_jpg, hotel).
 holds(s_16540_jpg, store).
-holds(s_16540_jpg, suburban).
 holds(s_16540_jpg, window).
 holds(s_16540_jpg, billboard).
 holds(s_16540_jpg, porch).
@@ -6928,7 +6701,6 @@ holds(s_16541_jpg, feature).
 holds(s_16541_jpg, hotel).
 holds(s_16541_jpg, store).
 holds(s_16541_jpg, suburban).
-holds(s_16541_jpg, door).
 holds(s_16541_jpg, billboard).
 holds(s_16541_jpg, porch).
 holds(s_16541_jpg, wallsign).
@@ -6954,7 +6726,6 @@ holds(s_16543_jpg, building).
 holds(s_16543_jpg, feature).
 holds(s_16543_jpg, hotel).
 holds(s_16543_jpg, store).
-holds(s_16543_jpg, suburban).
 holds(s_16543_jpg, window).
 holds(s_16543_jpg, billboard).
 holds(s_16543_jpg, porch).
@@ -6967,7 +6738,6 @@ holds(s_16544_jpg, feature).
 holds(s_16544_jpg, hotel).
 holds(s_16544_jpg, store).
 holds(s_16544_jpg, suburban).
-holds(s_16544_jpg, door).
 holds(s_16544_jpg, billboard).
 holds(s_16544_jpg, porch).
 holds(s_16544_jpg, wallsign).
@@ -6985,6 +6755,7 @@ holds(s_16545_jpg, window).
 holds(s_16545_jpg, billboard).
 holds(s_16545_jpg, porch).
 holds(s_16545_jpg, wallsign).
+holds(s_16545_jpg, pipe).
 holds(s_16545_jpg, commercial).
 
 sample(s_16546_jpg).
@@ -6992,7 +6763,6 @@ holds(s_16546_jpg, building).
 holds(s_16546_jpg, feature).
 holds(s_16546_jpg, hotel).
 holds(s_16546_jpg, store).
-holds(s_16546_jpg, suburban).
 holds(s_16546_jpg, window).
 holds(s_16546_jpg, billboard).
 holds(s_16546_jpg, porch).
@@ -7005,7 +6775,6 @@ holds(s_16547_jpg, feature).
 holds(s_16547_jpg, hotel).
 holds(s_16547_jpg, store).
 holds(s_16547_jpg, suburban).
-holds(s_16547_jpg, door).
 holds(s_16547_jpg, billboard).
 holds(s_16547_jpg, porch).
 holds(s_16547_jpg, wallsign).
@@ -7023,6 +6792,7 @@ holds(s_16548_jpg, window).
 holds(s_16548_jpg, billboard).
 holds(s_16548_jpg, porch).
 holds(s_16548_jpg, wallsign).
+holds(s_16548_jpg, pipe).
 holds(s_16548_jpg, commercial).
 
 sample(s_16549_jpg).
@@ -7043,7 +6813,6 @@ holds(s_16550_jpg, feature).
 holds(s_16550_jpg, hotel).
 holds(s_16550_jpg, store).
 holds(s_16550_jpg, suburban).
-holds(s_16550_jpg, door).
 holds(s_16550_jpg, billboard).
 holds(s_16550_jpg, porch).
 holds(s_16550_jpg, wallsign).
@@ -7061,6 +6830,7 @@ holds(s_16551_jpg, window).
 holds(s_16551_jpg, billboard).
 holds(s_16551_jpg, porch).
 holds(s_16551_jpg, wallsign).
+holds(s_16551_jpg, pipe).
 holds(s_16551_jpg, commercial).
 
 sample(s_16552_jpg).
@@ -7068,7 +6838,6 @@ holds(s_16552_jpg, building).
 holds(s_16552_jpg, feature).
 holds(s_16552_jpg, hotel).
 holds(s_16552_jpg, store).
-holds(s_16552_jpg, suburban).
 holds(s_16552_jpg, window).
 holds(s_16552_jpg, billboard).
 holds(s_16552_jpg, porch).
@@ -7081,7 +6850,6 @@ holds(s_16553_jpg, feature).
 holds(s_16553_jpg, hotel).
 holds(s_16553_jpg, store).
 holds(s_16553_jpg, suburban).
-holds(s_16553_jpg, door).
 holds(s_16553_jpg, billboard).
 holds(s_16553_jpg, porch).
 holds(s_16553_jpg, wallsign).
@@ -7107,7 +6875,6 @@ holds(s_16555_jpg, building).
 holds(s_16555_jpg, feature).
 holds(s_16555_jpg, hotel).
 holds(s_16555_jpg, store).
-holds(s_16555_jpg, suburban).
 holds(s_16555_jpg, window).
 holds(s_16555_jpg, billboard).
 holds(s_16555_jpg, porch).
@@ -7137,6 +6904,7 @@ holds(s_16557_jpg, window).
 holds(s_16557_jpg, billboard).
 holds(s_16557_jpg, porch).
 holds(s_16557_jpg, wallsign).
+holds(s_16557_jpg, pipe).
 holds(s_16557_jpg, commercial).
 
 sample(s_16558_jpg).
@@ -7183,7 +6951,6 @@ holds(s_16561_jpg, building).
 holds(s_16561_jpg, feature).
 holds(s_16561_jpg, hotel).
 holds(s_16561_jpg, store).
-holds(s_16561_jpg, suburban).
 holds(s_16561_jpg, window).
 holds(s_16561_jpg, billboard).
 holds(s_16561_jpg, porch).
@@ -7196,7 +6963,6 @@ holds(s_16562_jpg, feature).
 holds(s_16562_jpg, hotel).
 holds(s_16562_jpg, store).
 holds(s_16562_jpg, suburban).
-holds(s_16562_jpg, door).
 holds(s_16562_jpg, billboard).
 holds(s_16562_jpg, porch).
 holds(s_16562_jpg, wallsign).
@@ -7214,7 +6980,7 @@ holds(s_16563_jpg, window).
 holds(s_16563_jpg, billboard).
 holds(s_16563_jpg, porch).
 holds(s_16563_jpg, wallsign).
-holds(s_16563_jpg, car).
+holds(s_16563_jpg, pipe).
 holds(s_16563_jpg, commercial).
 
 sample(s_16564_jpg).
@@ -7222,7 +6988,6 @@ holds(s_16564_jpg, building).
 holds(s_16564_jpg, feature).
 holds(s_16564_jpg, hotel).
 holds(s_16564_jpg, store).
-holds(s_16564_jpg, suburban).
 holds(s_16564_jpg, window).
 holds(s_16564_jpg, billboard).
 holds(s_16564_jpg, porch).
@@ -7300,7 +7065,6 @@ holds(s_16570_jpg, building).
 holds(s_16570_jpg, feature).
 holds(s_16570_jpg, hotel).
 holds(s_16570_jpg, store).
-holds(s_16570_jpg, suburban).
 holds(s_16570_jpg, window).
 holds(s_16570_jpg, billboard).
 holds(s_16570_jpg, porch).
@@ -7313,7 +7077,6 @@ holds(s_16571_jpg, feature).
 holds(s_16571_jpg, hotel).
 holds(s_16571_jpg, store).
 holds(s_16571_jpg, suburban).
-holds(s_16571_jpg, door).
 holds(s_16571_jpg, billboard).
 holds(s_16571_jpg, porch).
 holds(s_16571_jpg, wallsign).
@@ -7331,6 +7094,7 @@ holds(s_16572_jpg, window).
 holds(s_16572_jpg, billboard).
 holds(s_16572_jpg, porch).
 holds(s_16572_jpg, wallsign).
+holds(s_16572_jpg, pipe).
 holds(s_16572_jpg, commercial).
 
 sample(s_16573_jpg).
@@ -7338,7 +7102,6 @@ holds(s_16573_jpg, building).
 holds(s_16573_jpg, feature).
 holds(s_16573_jpg, hotel).
 holds(s_16573_jpg, store).
-holds(s_16573_jpg, suburban).
 holds(s_16573_jpg, window).
 holds(s_16573_jpg, billboard).
 holds(s_16573_jpg, porch).
@@ -7351,7 +7114,6 @@ holds(s_16574_jpg, feature).
 holds(s_16574_jpg, hotel).
 holds(s_16574_jpg, store).
 holds(s_16574_jpg, suburban).
-holds(s_16574_jpg, door).
 holds(s_16574_jpg, billboard).
 holds(s_16574_jpg, porch).
 holds(s_16574_jpg, wallsign).
@@ -7369,6 +7131,7 @@ holds(s_16575_jpg, window).
 holds(s_16575_jpg, billboard).
 holds(s_16575_jpg, porch).
 holds(s_16575_jpg, wallsign).
+holds(s_16575_jpg, pipe).
 holds(s_16575_jpg, commercial).
 
 sample(s_16576_jpg).
@@ -7376,7 +7139,6 @@ holds(s_16576_jpg, building).
 holds(s_16576_jpg, feature).
 holds(s_16576_jpg, hotel).
 holds(s_16576_jpg, store).
-holds(s_16576_jpg, suburban).
 holds(s_16576_jpg, window).
 holds(s_16576_jpg, billboard).
 holds(s_16576_jpg, porch).
@@ -7415,7 +7177,6 @@ holds(s_16579_jpg, building).
 holds(s_16579_jpg, feature).
 holds(s_16579_jpg, hotel).
 holds(s_16579_jpg, store).
-holds(s_16579_jpg, suburban).
 holds(s_16579_jpg, window).
 holds(s_16579_jpg, billboard).
 holds(s_16579_jpg, porch).
@@ -7428,7 +7189,6 @@ holds(s_16580_jpg, feature).
 holds(s_16580_jpg, hotel).
 holds(s_16580_jpg, store).
 holds(s_16580_jpg, suburban).
-holds(s_16580_jpg, door).
 holds(s_16580_jpg, billboard).
 holds(s_16580_jpg, porch).
 holds(s_16580_jpg, wallsign).
@@ -7446,6 +7206,7 @@ holds(s_16581_jpg, window).
 holds(s_16581_jpg, billboard).
 holds(s_16581_jpg, porch).
 holds(s_16581_jpg, wallsign).
+holds(s_16581_jpg, pipe).
 holds(s_16581_jpg, commercial).
 
 sample(s_16582_jpg).
@@ -7453,7 +7214,6 @@ holds(s_16582_jpg, building).
 holds(s_16582_jpg, feature).
 holds(s_16582_jpg, hotel).
 holds(s_16582_jpg, store).
-holds(s_16582_jpg, suburban).
 holds(s_16582_jpg, window).
 holds(s_16582_jpg, billboard).
 holds(s_16582_jpg, porch).
@@ -7492,7 +7252,6 @@ holds(s_16585_jpg, building).
 holds(s_16585_jpg, feature).
 holds(s_16585_jpg, hotel).
 holds(s_16585_jpg, store).
-holds(s_16585_jpg, suburban).
 holds(s_16585_jpg, window).
 holds(s_16585_jpg, billboard).
 holds(s_16585_jpg, porch).
@@ -7531,7 +7290,6 @@ holds(s_16588_jpg, building).
 holds(s_16588_jpg, feature).
 holds(s_16588_jpg, hotel).
 holds(s_16588_jpg, store).
-holds(s_16588_jpg, suburban).
 holds(s_16588_jpg, window).
 holds(s_16588_jpg, billboard).
 holds(s_16588_jpg, porch).
@@ -7544,7 +7302,6 @@ holds(s_16589_jpg, feature).
 holds(s_16589_jpg, hotel).
 holds(s_16589_jpg, store).
 holds(s_16589_jpg, suburban).
-holds(s_16589_jpg, door).
 holds(s_16589_jpg, billboard).
 holds(s_16589_jpg, porch).
 holds(s_16589_jpg, wallsign).
@@ -7562,6 +7319,7 @@ holds(s_16590_jpg, window).
 holds(s_16590_jpg, billboard).
 holds(s_16590_jpg, porch).
 holds(s_16590_jpg, wallsign).
+holds(s_16590_jpg, pipe).
 holds(s_16590_jpg, commercial).
 
 sample(s_16591_jpg).
@@ -7569,7 +7327,6 @@ holds(s_16591_jpg, building).
 holds(s_16591_jpg, feature).
 holds(s_16591_jpg, hotel).
 holds(s_16591_jpg, store).
-holds(s_16591_jpg, suburban).
 holds(s_16591_jpg, window).
 holds(s_16591_jpg, billboard).
 holds(s_16591_jpg, porch).
@@ -7582,7 +7339,6 @@ holds(s_16592_jpg, feature).
 holds(s_16592_jpg, hotel).
 holds(s_16592_jpg, store).
 holds(s_16592_jpg, suburban).
-holds(s_16592_jpg, door).
 holds(s_16592_jpg, billboard).
 holds(s_16592_jpg, porch).
 holds(s_16592_jpg, wallsign).
@@ -7600,6 +7356,7 @@ holds(s_16593_jpg, window).
 holds(s_16593_jpg, billboard).
 holds(s_16593_jpg, porch).
 holds(s_16593_jpg, wallsign).
+holds(s_16593_jpg, pipe).
 holds(s_16593_jpg, commercial).
 
 sample(s_16594_jpg).
@@ -7607,7 +7364,6 @@ holds(s_16594_jpg, building).
 holds(s_16594_jpg, feature).
 holds(s_16594_jpg, hotel).
 holds(s_16594_jpg, store).
-holds(s_16594_jpg, suburban).
 holds(s_16594_jpg, window).
 holds(s_16594_jpg, billboard).
 holds(s_16594_jpg, porch).
@@ -7620,7 +7376,6 @@ holds(s_16595_jpg, feature).
 holds(s_16595_jpg, hotel).
 holds(s_16595_jpg, store).
 holds(s_16595_jpg, suburban).
-holds(s_16595_jpg, door).
 holds(s_16595_jpg, billboard).
 holds(s_16595_jpg, porch).
 holds(s_16595_jpg, wallsign).
@@ -7646,7 +7401,6 @@ holds(s_16597_jpg, building).
 holds(s_16597_jpg, feature).
 holds(s_16597_jpg, hotel).
 holds(s_16597_jpg, store).
-holds(s_16597_jpg, suburban).
 holds(s_16597_jpg, window).
 holds(s_16597_jpg, billboard).
 holds(s_16597_jpg, porch).
@@ -7659,7 +7413,6 @@ holds(s_16598_jpg, feature).
 holds(s_16598_jpg, hotel).
 holds(s_16598_jpg, store).
 holds(s_16598_jpg, suburban).
-holds(s_16598_jpg, door).
 holds(s_16598_jpg, billboard).
 holds(s_16598_jpg, porch).
 holds(s_16598_jpg, wallsign).
@@ -7685,7 +7438,6 @@ holds(s_16600_jpg, building).
 holds(s_16600_jpg, feature).
 holds(s_16600_jpg, hotel).
 holds(s_16600_jpg, store).
-holds(s_16600_jpg, suburban).
 holds(s_16600_jpg, window).
 holds(s_16600_jpg, billboard).
 holds(s_16600_jpg, porch).
@@ -7698,7 +7450,6 @@ holds(s_16601_jpg, feature).
 holds(s_16601_jpg, hotel).
 holds(s_16601_jpg, store).
 holds(s_16601_jpg, suburban).
-holds(s_16601_jpg, door).
 holds(s_16601_jpg, billboard).
 holds(s_16601_jpg, porch).
 holds(s_16601_jpg, wallsign).
@@ -7724,7 +7475,6 @@ holds(s_16603_jpg, building).
 holds(s_16603_jpg, feature).
 holds(s_16603_jpg, hotel).
 holds(s_16603_jpg, store).
-holds(s_16603_jpg, suburban).
 holds(s_16603_jpg, window).
 holds(s_16603_jpg, billboard).
 holds(s_16603_jpg, porch).
@@ -7763,7 +7513,6 @@ holds(s_16606_jpg, building).
 holds(s_16606_jpg, feature).
 holds(s_16606_jpg, hotel).
 holds(s_16606_jpg, store).
-holds(s_16606_jpg, suburban).
 holds(s_16606_jpg, window).
 holds(s_16606_jpg, billboard).
 holds(s_16606_jpg, porch).
@@ -7776,7 +7525,6 @@ holds(s_16607_jpg, feature).
 holds(s_16607_jpg, hotel).
 holds(s_16607_jpg, store).
 holds(s_16607_jpg, suburban).
-holds(s_16607_jpg, door).
 holds(s_16607_jpg, billboard).
 holds(s_16607_jpg, porch).
 holds(s_16607_jpg, wallsign).
@@ -7794,6 +7542,7 @@ holds(s_16608_jpg, window).
 holds(s_16608_jpg, billboard).
 holds(s_16608_jpg, porch).
 holds(s_16608_jpg, wallsign).
+holds(s_16608_jpg, pipe).
 holds(s_16608_jpg, commercial).
 
 sample(s_16609_jpg).
@@ -7801,8 +7550,6 @@ holds(s_16609_jpg, building).
 holds(s_16609_jpg, feature).
 holds(s_16609_jpg, hotel).
 holds(s_16609_jpg, store).
-holds(s_16609_jpg, suburban).
-holds(s_16609_jpg, door).
 holds(s_16609_jpg, window).
 holds(s_16609_jpg, billboard).
 holds(s_16609_jpg, porch).
@@ -7815,7 +7562,6 @@ holds(s_16610_jpg, feature).
 holds(s_16610_jpg, hotel).
 holds(s_16610_jpg, store).
 holds(s_16610_jpg, suburban).
-holds(s_16610_jpg, door).
 holds(s_16610_jpg, billboard).
 holds(s_16610_jpg, porch).
 holds(s_16610_jpg, wallsign).
@@ -7833,6 +7579,7 @@ holds(s_16611_jpg, window).
 holds(s_16611_jpg, billboard).
 holds(s_16611_jpg, porch).
 holds(s_16611_jpg, wallsign).
+holds(s_16611_jpg, pipe).
 holds(s_16611_jpg, commercial).
 
 sample(s_16612_jpg).
@@ -7840,7 +7587,6 @@ holds(s_16612_jpg, building).
 holds(s_16612_jpg, feature).
 holds(s_16612_jpg, hotel).
 holds(s_16612_jpg, store).
-holds(s_16612_jpg, suburban).
 holds(s_16612_jpg, window).
 holds(s_16612_jpg, billboard).
 holds(s_16612_jpg, porch).
@@ -7853,7 +7599,6 @@ holds(s_16613_jpg, feature).
 holds(s_16613_jpg, hotel).
 holds(s_16613_jpg, store).
 holds(s_16613_jpg, suburban).
-holds(s_16613_jpg, door).
 holds(s_16613_jpg, billboard).
 holds(s_16613_jpg, porch).
 holds(s_16613_jpg, wallsign).
@@ -7871,6 +7616,7 @@ holds(s_16614_jpg, window).
 holds(s_16614_jpg, billboard).
 holds(s_16614_jpg, porch).
 holds(s_16614_jpg, wallsign).
+holds(s_16614_jpg, pipe).
 holds(s_16614_jpg, commercial).
 
 sample(s_16615_jpg).
@@ -7878,7 +7624,6 @@ holds(s_16615_jpg, building).
 holds(s_16615_jpg, feature).
 holds(s_16615_jpg, hotel).
 holds(s_16615_jpg, store).
-holds(s_16615_jpg, suburban).
 holds(s_16615_jpg, window).
 holds(s_16615_jpg, billboard).
 holds(s_16615_jpg, porch).
@@ -7891,7 +7636,6 @@ holds(s_16616_jpg, feature).
 holds(s_16616_jpg, hotel).
 holds(s_16616_jpg, store).
 holds(s_16616_jpg, suburban).
-holds(s_16616_jpg, door).
 holds(s_16616_jpg, billboard).
 holds(s_16616_jpg, porch).
 holds(s_16616_jpg, wallsign).
@@ -7917,7 +7661,6 @@ holds(s_16618_jpg, building).
 holds(s_16618_jpg, feature).
 holds(s_16618_jpg, hotel).
 holds(s_16618_jpg, store).
-holds(s_16618_jpg, suburban).
 holds(s_16618_jpg, window).
 holds(s_16618_jpg, billboard).
 holds(s_16618_jpg, porch).
@@ -7955,7 +7698,6 @@ holds(s_16621_jpg, building).
 holds(s_16621_jpg, feature).
 holds(s_16621_jpg, hotel).
 holds(s_16621_jpg, store).
-holds(s_16621_jpg, suburban).
 holds(s_16621_jpg, window).
 holds(s_16621_jpg, billboard).
 holds(s_16621_jpg, porch).
@@ -7968,7 +7710,6 @@ holds(s_16622_jpg, feature).
 holds(s_16622_jpg, hotel).
 holds(s_16622_jpg, store).
 holds(s_16622_jpg, suburban).
-holds(s_16622_jpg, door).
 holds(s_16622_jpg, billboard).
 holds(s_16622_jpg, porch).
 holds(s_16622_jpg, wallsign).
@@ -7994,7 +7735,6 @@ holds(s_16624_jpg, building).
 holds(s_16624_jpg, feature).
 holds(s_16624_jpg, hotel).
 holds(s_16624_jpg, store).
-holds(s_16624_jpg, suburban).
 holds(s_16624_jpg, window).
 holds(s_16624_jpg, billboard).
 holds(s_16624_jpg, porch).
@@ -8045,7 +7785,6 @@ holds(s_16628_jpg, feature).
 holds(s_16628_jpg, hotel).
 holds(s_16628_jpg, store).
 holds(s_16628_jpg, suburban).
-holds(s_16628_jpg, door).
 holds(s_16628_jpg, billboard).
 holds(s_16628_jpg, porch).
 holds(s_16628_jpg, wallsign).
@@ -8063,6 +7802,7 @@ holds(s_16629_jpg, window).
 holds(s_16629_jpg, billboard).
 holds(s_16629_jpg, porch).
 holds(s_16629_jpg, wallsign).
+holds(s_16629_jpg, pipe).
 holds(s_16629_jpg, commercial).
 
 sample(s_16630_jpg).
@@ -8070,7 +7810,6 @@ holds(s_16630_jpg, building).
 holds(s_16630_jpg, feature).
 holds(s_16630_jpg, hotel).
 holds(s_16630_jpg, store).
-holds(s_16630_jpg, suburban).
 holds(s_16630_jpg, window).
 holds(s_16630_jpg, billboard).
 holds(s_16630_jpg, porch).
@@ -8083,7 +7822,6 @@ holds(s_16631_jpg, feature).
 holds(s_16631_jpg, hotel).
 holds(s_16631_jpg, store).
 holds(s_16631_jpg, suburban).
-holds(s_16631_jpg, door).
 holds(s_16631_jpg, billboard).
 holds(s_16631_jpg, porch).
 holds(s_16631_jpg, wallsign).
@@ -8109,7 +7847,6 @@ holds(s_16633_jpg, building).
 holds(s_16633_jpg, feature).
 holds(s_16633_jpg, hotel).
 holds(s_16633_jpg, store).
-holds(s_16633_jpg, suburban).
 holds(s_16633_jpg, window).
 holds(s_16633_jpg, billboard).
 holds(s_16633_jpg, porch).
@@ -8140,6 +7877,7 @@ holds(s_16635_jpg, window).
 holds(s_16635_jpg, billboard).
 holds(s_16635_jpg, porch).
 holds(s_16635_jpg, wallsign).
+holds(s_16635_jpg, pipe).
 holds(s_16635_jpg, commercial).
 
 sample(s_16636_jpg).
@@ -8147,7 +7885,6 @@ holds(s_16636_jpg, building).
 holds(s_16636_jpg, feature).
 holds(s_16636_jpg, hotel).
 holds(s_16636_jpg, store).
-holds(s_16636_jpg, suburban).
 holds(s_16636_jpg, window).
 holds(s_16636_jpg, billboard).
 holds(s_16636_jpg, porch).
@@ -8160,7 +7897,6 @@ holds(s_16637_jpg, feature).
 holds(s_16637_jpg, hotel).
 holds(s_16637_jpg, store).
 holds(s_16637_jpg, suburban).
-holds(s_16637_jpg, door).
 holds(s_16637_jpg, billboard).
 holds(s_16637_jpg, porch).
 holds(s_16637_jpg, wallsign).
@@ -8178,6 +7914,7 @@ holds(s_16638_jpg, window).
 holds(s_16638_jpg, billboard).
 holds(s_16638_jpg, porch).
 holds(s_16638_jpg, wallsign).
+holds(s_16638_jpg, pipe).
 holds(s_16638_jpg, commercial).
 
 sample(s_16639_jpg).
@@ -8185,8 +7922,6 @@ holds(s_16639_jpg, building).
 holds(s_16639_jpg, feature).
 holds(s_16639_jpg, hotel).
 holds(s_16639_jpg, store).
-holds(s_16639_jpg, suburban).
-holds(s_16639_jpg, door).
 holds(s_16639_jpg, window).
 holds(s_16639_jpg, billboard).
 holds(s_16639_jpg, porch).
@@ -8217,6 +7952,7 @@ holds(s_16641_jpg, window).
 holds(s_16641_jpg, billboard).
 holds(s_16641_jpg, porch).
 holds(s_16641_jpg, wallsign).
+holds(s_16641_jpg, pipe).
 holds(s_16641_jpg, commercial).
 
 sample(s_16642_jpg).
@@ -8224,7 +7960,6 @@ holds(s_16642_jpg, building).
 holds(s_16642_jpg, feature).
 holds(s_16642_jpg, hotel).
 holds(s_16642_jpg, store).
-holds(s_16642_jpg, suburban).
 holds(s_16642_jpg, window).
 holds(s_16642_jpg, billboard).
 holds(s_16642_jpg, porch).
@@ -8237,7 +7972,6 @@ holds(s_16643_jpg, feature).
 holds(s_16643_jpg, hotel).
 holds(s_16643_jpg, store).
 holds(s_16643_jpg, suburban).
-holds(s_16643_jpg, door).
 holds(s_16643_jpg, billboard).
 holds(s_16643_jpg, porch).
 holds(s_16643_jpg, wallsign).
@@ -8263,7 +7997,6 @@ holds(s_16645_jpg, building).
 holds(s_16645_jpg, feature).
 holds(s_16645_jpg, hotel).
 holds(s_16645_jpg, store).
-holds(s_16645_jpg, suburban).
 holds(s_16645_jpg, window).
 holds(s_16645_jpg, billboard).
 holds(s_16645_jpg, porch).
@@ -8276,7 +8009,6 @@ holds(s_16646_jpg, feature).
 holds(s_16646_jpg, hotel).
 holds(s_16646_jpg, store).
 holds(s_16646_jpg, suburban).
-holds(s_16646_jpg, door).
 holds(s_16646_jpg, billboard).
 holds(s_16646_jpg, porch).
 holds(s_16646_jpg, wallsign).
@@ -8302,7 +8034,6 @@ holds(s_16648_jpg, building).
 holds(s_16648_jpg, feature).
 holds(s_16648_jpg, hotel).
 holds(s_16648_jpg, store).
-holds(s_16648_jpg, suburban).
 holds(s_16648_jpg, window).
 holds(s_16648_jpg, billboard).
 holds(s_16648_jpg, porch).
@@ -8332,6 +8063,7 @@ holds(s_16650_jpg, window).
 holds(s_16650_jpg, billboard).
 holds(s_16650_jpg, porch).
 holds(s_16650_jpg, wallsign).
+holds(s_16650_jpg, pipe).
 holds(s_16650_jpg, commercial).
 
 sample(s_16651_jpg).
@@ -8339,7 +8071,6 @@ holds(s_16651_jpg, building).
 holds(s_16651_jpg, feature).
 holds(s_16651_jpg, hotel).
 holds(s_16651_jpg, store).
-holds(s_16651_jpg, suburban).
 holds(s_16651_jpg, window).
 holds(s_16651_jpg, billboard).
 holds(s_16651_jpg, porch).
@@ -8352,7 +8083,6 @@ holds(s_16652_jpg, feature).
 holds(s_16652_jpg, hotel).
 holds(s_16652_jpg, store).
 holds(s_16652_jpg, suburban).
-holds(s_16652_jpg, door).
 holds(s_16652_jpg, billboard).
 holds(s_16652_jpg, porch).
 holds(s_16652_jpg, wallsign).
@@ -8370,7 +8100,7 @@ holds(s_16653_jpg, window).
 holds(s_16653_jpg, billboard).
 holds(s_16653_jpg, porch).
 holds(s_16653_jpg, wallsign).
-holds(s_16653_jpg, car).
+holds(s_16653_jpg, pipe).
 holds(s_16653_jpg, commercial).
 
 sample(s_16654_jpg).
@@ -8378,8 +8108,6 @@ holds(s_16654_jpg, building).
 holds(s_16654_jpg, feature).
 holds(s_16654_jpg, hotel).
 holds(s_16654_jpg, store).
-holds(s_16654_jpg, suburban).
-holds(s_16654_jpg, door).
 holds(s_16654_jpg, window).
 holds(s_16654_jpg, billboard).
 holds(s_16654_jpg, porch).
@@ -8392,7 +8120,6 @@ holds(s_16655_jpg, feature).
 holds(s_16655_jpg, hotel).
 holds(s_16655_jpg, store).
 holds(s_16655_jpg, suburban).
-holds(s_16655_jpg, door).
 holds(s_16655_jpg, billboard).
 holds(s_16655_jpg, porch).
 holds(s_16655_jpg, wallsign).
@@ -8410,6 +8137,7 @@ holds(s_16656_jpg, window).
 holds(s_16656_jpg, billboard).
 holds(s_16656_jpg, porch).
 holds(s_16656_jpg, wallsign).
+holds(s_16656_jpg, pipe).
 holds(s_16656_jpg, commercial).
 
 sample(s_16657_jpg).
@@ -8417,7 +8145,6 @@ holds(s_16657_jpg, building).
 holds(s_16657_jpg, feature).
 holds(s_16657_jpg, hotel).
 holds(s_16657_jpg, store).
-holds(s_16657_jpg, suburban).
 holds(s_16657_jpg, window).
 holds(s_16657_jpg, billboard).
 holds(s_16657_jpg, porch).
@@ -8430,7 +8157,6 @@ holds(s_16658_jpg, feature).
 holds(s_16658_jpg, hotel).
 holds(s_16658_jpg, store).
 holds(s_16658_jpg, suburban).
-holds(s_16658_jpg, door).
 holds(s_16658_jpg, billboard).
 holds(s_16658_jpg, porch).
 holds(s_16658_jpg, wallsign).
@@ -8448,6 +8174,7 @@ holds(s_16659_jpg, window).
 holds(s_16659_jpg, billboard).
 holds(s_16659_jpg, porch).
 holds(s_16659_jpg, wallsign).
+holds(s_16659_jpg, pipe).
 holds(s_16659_jpg, commercial).
 
 sample(s_16660_jpg).
@@ -8455,7 +8182,6 @@ holds(s_16660_jpg, building).
 holds(s_16660_jpg, feature).
 holds(s_16660_jpg, hotel).
 holds(s_16660_jpg, store).
-holds(s_16660_jpg, suburban).
 holds(s_16660_jpg, window).
 holds(s_16660_jpg, billboard).
 holds(s_16660_jpg, porch).
@@ -8468,7 +8194,6 @@ holds(s_16661_jpg, feature).
 holds(s_16661_jpg, hotel).
 holds(s_16661_jpg, store).
 holds(s_16661_jpg, suburban).
-holds(s_16661_jpg, door).
 holds(s_16661_jpg, billboard).
 holds(s_16661_jpg, porch).
 holds(s_16661_jpg, wallsign).
@@ -8494,7 +8219,6 @@ holds(s_16663_jpg, building).
 holds(s_16663_jpg, feature).
 holds(s_16663_jpg, hotel).
 holds(s_16663_jpg, store).
-holds(s_16663_jpg, suburban).
 holds(s_16663_jpg, window).
 holds(s_16663_jpg, billboard).
 holds(s_16663_jpg, porch).
@@ -8507,7 +8231,6 @@ holds(s_16664_jpg, feature).
 holds(s_16664_jpg, hotel).
 holds(s_16664_jpg, store).
 holds(s_16664_jpg, suburban).
-holds(s_16664_jpg, door).
 holds(s_16664_jpg, billboard).
 holds(s_16664_jpg, porch).
 holds(s_16664_jpg, wallsign).
@@ -8525,6 +8248,7 @@ holds(s_16665_jpg, window).
 holds(s_16665_jpg, billboard).
 holds(s_16665_jpg, porch).
 holds(s_16665_jpg, wallsign).
+holds(s_16665_jpg, pipe).
 holds(s_16665_jpg, commercial).
 
 sample(s_16666_jpg).
@@ -8532,7 +8256,6 @@ holds(s_16666_jpg, building).
 holds(s_16666_jpg, feature).
 holds(s_16666_jpg, hotel).
 holds(s_16666_jpg, store).
-holds(s_16666_jpg, suburban).
 holds(s_16666_jpg, window).
 holds(s_16666_jpg, billboard).
 holds(s_16666_jpg, porch).
@@ -8563,6 +8286,7 @@ holds(s_16668_jpg, window).
 holds(s_16668_jpg, billboard).
 holds(s_16668_jpg, porch).
 holds(s_16668_jpg, wallsign).
+holds(s_16668_jpg, pipe).
 holds(s_16668_jpg, commercial).
 
 sample(s_16669_jpg).
@@ -8570,7 +8294,6 @@ holds(s_16669_jpg, building).
 holds(s_16669_jpg, feature).
 holds(s_16669_jpg, hotel).
 holds(s_16669_jpg, store).
-holds(s_16669_jpg, suburban).
 holds(s_16669_jpg, window).
 holds(s_16669_jpg, billboard).
 holds(s_16669_jpg, porch).
@@ -8583,7 +8306,6 @@ holds(s_16670_jpg, feature).
 holds(s_16670_jpg, hotel).
 holds(s_16670_jpg, store).
 holds(s_16670_jpg, suburban).
-holds(s_16670_jpg, door).
 holds(s_16670_jpg, billboard).
 holds(s_16670_jpg, porch).
 holds(s_16670_jpg, wallsign).
@@ -8601,6 +8323,7 @@ holds(s_16671_jpg, window).
 holds(s_16671_jpg, billboard).
 holds(s_16671_jpg, porch).
 holds(s_16671_jpg, wallsign).
+holds(s_16671_jpg, pipe).
 holds(s_16671_jpg, commercial).
 
 sample(s_16672_jpg).
@@ -8608,7 +8331,6 @@ holds(s_16672_jpg, building).
 holds(s_16672_jpg, feature).
 holds(s_16672_jpg, hotel).
 holds(s_16672_jpg, store).
-holds(s_16672_jpg, suburban).
 holds(s_16672_jpg, window).
 holds(s_16672_jpg, billboard).
 holds(s_16672_jpg, porch).
@@ -8621,7 +8343,6 @@ holds(s_16673_jpg, feature).
 holds(s_16673_jpg, hotel).
 holds(s_16673_jpg, store).
 holds(s_16673_jpg, suburban).
-holds(s_16673_jpg, door).
 holds(s_16673_jpg, billboard).
 holds(s_16673_jpg, porch).
 holds(s_16673_jpg, wallsign).
@@ -8639,6 +8360,7 @@ holds(s_16674_jpg, window).
 holds(s_16674_jpg, billboard).
 holds(s_16674_jpg, porch).
 holds(s_16674_jpg, wallsign).
+holds(s_16674_jpg, pipe).
 holds(s_16674_jpg, commercial).
 
 sample(s_16675_jpg).
@@ -8646,7 +8368,6 @@ holds(s_16675_jpg, building).
 holds(s_16675_jpg, feature).
 holds(s_16675_jpg, hotel).
 holds(s_16675_jpg, store).
-holds(s_16675_jpg, suburban).
 holds(s_16675_jpg, window).
 holds(s_16675_jpg, billboard).
 holds(s_16675_jpg, porch).
@@ -8676,6 +8397,7 @@ holds(s_16677_jpg, window).
 holds(s_16677_jpg, billboard).
 holds(s_16677_jpg, porch).
 holds(s_16677_jpg, wallsign).
+holds(s_16677_jpg, pipe).
 holds(s_16677_jpg, commercial).
 
 sample(s_16678_jpg).
@@ -8683,7 +8405,6 @@ holds(s_16678_jpg, building).
 holds(s_16678_jpg, feature).
 holds(s_16678_jpg, hotel).
 holds(s_16678_jpg, store).
-holds(s_16678_jpg, suburban).
 holds(s_16678_jpg, window).
 holds(s_16678_jpg, billboard).
 holds(s_16678_jpg, porch).
@@ -8696,7 +8417,6 @@ holds(s_16679_jpg, feature).
 holds(s_16679_jpg, hotel).
 holds(s_16679_jpg, store).
 holds(s_16679_jpg, suburban).
-holds(s_16679_jpg, door).
 holds(s_16679_jpg, billboard).
 holds(s_16679_jpg, porch).
 holds(s_16679_jpg, wallsign).
@@ -8722,7 +8442,6 @@ holds(s_16681_jpg, building).
 holds(s_16681_jpg, feature).
 holds(s_16681_jpg, hotel).
 holds(s_16681_jpg, store).
-holds(s_16681_jpg, suburban).
 holds(s_16681_jpg, window).
 holds(s_16681_jpg, billboard).
 holds(s_16681_jpg, porch).
@@ -8753,6 +8472,7 @@ holds(s_16683_jpg, window).
 holds(s_16683_jpg, billboard).
 holds(s_16683_jpg, porch).
 holds(s_16683_jpg, wallsign).
+holds(s_16683_jpg, pipe).
 holds(s_16683_jpg, commercial).
 
 sample(s_16684_jpg).
@@ -8760,7 +8480,6 @@ holds(s_16684_jpg, building).
 holds(s_16684_jpg, feature).
 holds(s_16684_jpg, hotel).
 holds(s_16684_jpg, store).
-holds(s_16684_jpg, suburban).
 holds(s_16684_jpg, window).
 holds(s_16684_jpg, billboard).
 holds(s_16684_jpg, porch).
@@ -8790,6 +8509,7 @@ holds(s_16686_jpg, window).
 holds(s_16686_jpg, billboard).
 holds(s_16686_jpg, porch).
 holds(s_16686_jpg, wallsign).
+holds(s_16686_jpg, pipe).
 holds(s_16686_jpg, commercial).
 
 sample(s_16687_jpg).
@@ -8797,7 +8517,6 @@ holds(s_16687_jpg, building).
 holds(s_16687_jpg, feature).
 holds(s_16687_jpg, hotel).
 holds(s_16687_jpg, store).
-holds(s_16687_jpg, suburban).
 holds(s_16687_jpg, window).
 holds(s_16687_jpg, billboard).
 holds(s_16687_jpg, porch).
@@ -8810,7 +8529,6 @@ holds(s_16688_jpg, feature).
 holds(s_16688_jpg, hotel).
 holds(s_16688_jpg, store).
 holds(s_16688_jpg, suburban).
-holds(s_16688_jpg, door).
 holds(s_16688_jpg, billboard).
 holds(s_16688_jpg, porch).
 holds(s_16688_jpg, wallsign).
@@ -8836,7 +8554,6 @@ holds(s_16690_jpg, building).
 holds(s_16690_jpg, feature).
 holds(s_16690_jpg, hotel).
 holds(s_16690_jpg, store).
-holds(s_16690_jpg, suburban).
 holds(s_16690_jpg, window).
 holds(s_16690_jpg, billboard).
 holds(s_16690_jpg, porch).
@@ -8849,7 +8566,6 @@ holds(s_16691_jpg, feature).
 holds(s_16691_jpg, hotel).
 holds(s_16691_jpg, store).
 holds(s_16691_jpg, suburban).
-holds(s_16691_jpg, door).
 holds(s_16691_jpg, billboard).
 holds(s_16691_jpg, porch).
 holds(s_16691_jpg, wallsign).
@@ -8875,7 +8591,6 @@ holds(s_16693_jpg, building).
 holds(s_16693_jpg, feature).
 holds(s_16693_jpg, hotel).
 holds(s_16693_jpg, store).
-holds(s_16693_jpg, suburban).
 holds(s_16693_jpg, window).
 holds(s_16693_jpg, billboard).
 holds(s_16693_jpg, porch).
@@ -8913,7 +8628,6 @@ holds(s_16696_jpg, building).
 holds(s_16696_jpg, feature).
 holds(s_16696_jpg, hotel).
 holds(s_16696_jpg, store).
-holds(s_16696_jpg, suburban).
 holds(s_16696_jpg, window).
 holds(s_16696_jpg, billboard).
 holds(s_16696_jpg, porch).
@@ -8926,7 +8640,6 @@ holds(s_16697_jpg, feature).
 holds(s_16697_jpg, hotel).
 holds(s_16697_jpg, store).
 holds(s_16697_jpg, suburban).
-holds(s_16697_jpg, door).
 holds(s_16697_jpg, billboard).
 holds(s_16697_jpg, porch).
 holds(s_16697_jpg, wallsign).
@@ -8939,18 +8652,18 @@ holds(s_16698_jpg, feature).
 holds(s_16698_jpg, hotel).
 holds(s_16698_jpg, store).
 holds(s_16698_jpg, suburban).
+holds(s_16698_jpg, door).
 holds(s_16698_jpg, window).
 holds(s_16698_jpg, billboard).
 holds(s_16698_jpg, porch).
 holds(s_16698_jpg, wallsign).
-holds(s_16698_jpg, industrial).
+holds(s_16698_jpg, commercial).
 
 sample(s_16699_jpg).
 holds(s_16699_jpg, building).
 holds(s_16699_jpg, feature).
 holds(s_16699_jpg, hotel).
 holds(s_16699_jpg, store).
-holds(s_16699_jpg, suburban).
 holds(s_16699_jpg, window).
 holds(s_16699_jpg, billboard).
 holds(s_16699_jpg, porch).
@@ -8981,6 +8694,7 @@ holds(s_16701_jpg, window).
 holds(s_16701_jpg, billboard).
 holds(s_16701_jpg, porch).
 holds(s_16701_jpg, wallsign).
+holds(s_16701_jpg, pipe).
 holds(s_16701_jpg, commercial).
 
 sample(s_16702_jpg).
@@ -8988,7 +8702,6 @@ holds(s_16702_jpg, building).
 holds(s_16702_jpg, feature).
 holds(s_16702_jpg, hotel).
 holds(s_16702_jpg, store).
-holds(s_16702_jpg, suburban).
 holds(s_16702_jpg, window).
 holds(s_16702_jpg, billboard).
 holds(s_16702_jpg, porch).
@@ -9026,7 +8739,6 @@ holds(s_16705_jpg, building).
 holds(s_16705_jpg, feature).
 holds(s_16705_jpg, hotel).
 holds(s_16705_jpg, store).
-holds(s_16705_jpg, suburban).
 holds(s_16705_jpg, window).
 holds(s_16705_jpg, billboard).
 holds(s_16705_jpg, porch).
@@ -9039,7 +8751,6 @@ holds(s_16706_jpg, feature).
 holds(s_16706_jpg, hotel).
 holds(s_16706_jpg, store).
 holds(s_16706_jpg, suburban).
-holds(s_16706_jpg, door).
 holds(s_16706_jpg, billboard).
 holds(s_16706_jpg, porch).
 holds(s_16706_jpg, wallsign).
@@ -9065,7 +8776,6 @@ holds(s_16708_jpg, building).
 holds(s_16708_jpg, feature).
 holds(s_16708_jpg, hotel).
 holds(s_16708_jpg, store).
-holds(s_16708_jpg, suburban).
 holds(s_16708_jpg, window).
 holds(s_16708_jpg, billboard).
 holds(s_16708_jpg, porch).
@@ -9078,7 +8788,6 @@ holds(s_16709_jpg, feature).
 holds(s_16709_jpg, hotel).
 holds(s_16709_jpg, store).
 holds(s_16709_jpg, suburban).
-holds(s_16709_jpg, door).
 holds(s_16709_jpg, billboard).
 holds(s_16709_jpg, porch).
 holds(s_16709_jpg, wallsign).
@@ -9104,7 +8813,6 @@ holds(s_16711_jpg, building).
 holds(s_16711_jpg, feature).
 holds(s_16711_jpg, hotel).
 holds(s_16711_jpg, store).
-holds(s_16711_jpg, suburban).
 holds(s_16711_jpg, window).
 holds(s_16711_jpg, billboard).
 holds(s_16711_jpg, porch).
@@ -9117,7 +8825,6 @@ holds(s_16712_jpg, feature).
 holds(s_16712_jpg, hotel).
 holds(s_16712_jpg, store).
 holds(s_16712_jpg, suburban).
-holds(s_16712_jpg, door).
 holds(s_16712_jpg, billboard).
 holds(s_16712_jpg, porch).
 holds(s_16712_jpg, wallsign).
@@ -9136,14 +8843,12 @@ holds(s_16713_jpg, porch).
 holds(s_16713_jpg, wallsign).
 holds(s_16713_jpg, car).
 holds(s_16713_jpg, residential).
-holds(s_16713_jpg, commercial).
 
 sample(s_16714_jpg).
 holds(s_16714_jpg, building).
 holds(s_16714_jpg, feature).
 holds(s_16714_jpg, hotel).
 holds(s_16714_jpg, store).
-holds(s_16714_jpg, suburban).
 holds(s_16714_jpg, window).
 holds(s_16714_jpg, billboard).
 holds(s_16714_jpg, porch).
@@ -9173,6 +8878,7 @@ holds(s_16716_jpg, window).
 holds(s_16716_jpg, billboard).
 holds(s_16716_jpg, porch).
 holds(s_16716_jpg, wallsign).
+holds(s_16716_jpg, pipe).
 holds(s_16716_jpg, commercial).
 
 sample(s_16717_jpg).
@@ -9180,7 +8886,6 @@ holds(s_16717_jpg, building).
 holds(s_16717_jpg, feature).
 holds(s_16717_jpg, hotel).
 holds(s_16717_jpg, store).
-holds(s_16717_jpg, suburban).
 holds(s_16717_jpg, window).
 holds(s_16717_jpg, billboard).
 holds(s_16717_jpg, porch).
@@ -9211,6 +8916,7 @@ holds(s_16719_jpg, window).
 holds(s_16719_jpg, billboard).
 holds(s_16719_jpg, porch).
 holds(s_16719_jpg, wallsign).
+holds(s_16719_jpg, pipe).
 holds(s_16719_jpg, commercial).
 
 sample(s_16720_jpg).
@@ -9218,7 +8924,6 @@ holds(s_16720_jpg, building).
 holds(s_16720_jpg, feature).
 holds(s_16720_jpg, hotel).
 holds(s_16720_jpg, store).
-holds(s_16720_jpg, suburban).
 holds(s_16720_jpg, window).
 holds(s_16720_jpg, billboard).
 holds(s_16720_jpg, porch).
@@ -9231,7 +8936,6 @@ holds(s_16721_jpg, feature).
 holds(s_16721_jpg, hotel).
 holds(s_16721_jpg, store).
 holds(s_16721_jpg, suburban).
-holds(s_16721_jpg, door).
 holds(s_16721_jpg, billboard).
 holds(s_16721_jpg, porch).
 holds(s_16721_jpg, wallsign).
@@ -9257,7 +8961,6 @@ holds(s_16723_jpg, building).
 holds(s_16723_jpg, feature).
 holds(s_16723_jpg, hotel).
 holds(s_16723_jpg, store).
-holds(s_16723_jpg, suburban).
 holds(s_16723_jpg, window).
 holds(s_16723_jpg, billboard).
 holds(s_16723_jpg, porch).
@@ -9270,7 +8973,6 @@ holds(s_16724_jpg, feature).
 holds(s_16724_jpg, hotel).
 holds(s_16724_jpg, store).
 holds(s_16724_jpg, suburban).
-holds(s_16724_jpg, door).
 holds(s_16724_jpg, billboard).
 holds(s_16724_jpg, porch).
 holds(s_16724_jpg, wallsign).
@@ -9288,6 +8990,7 @@ holds(s_16725_jpg, window).
 holds(s_16725_jpg, billboard).
 holds(s_16725_jpg, porch).
 holds(s_16725_jpg, wallsign).
+holds(s_16725_jpg, pipe).
 holds(s_16725_jpg, commercial).
 
 sample(s_16726_jpg).
@@ -9295,7 +8998,6 @@ holds(s_16726_jpg, building).
 holds(s_16726_jpg, feature).
 holds(s_16726_jpg, hotel).
 holds(s_16726_jpg, store).
-holds(s_16726_jpg, suburban).
 holds(s_16726_jpg, window).
 holds(s_16726_jpg, billboard).
 holds(s_16726_jpg, porch).
@@ -9308,7 +9010,6 @@ holds(s_16727_jpg, feature).
 holds(s_16727_jpg, hotel).
 holds(s_16727_jpg, store).
 holds(s_16727_jpg, suburban).
-holds(s_16727_jpg, door).
 holds(s_16727_jpg, billboard).
 holds(s_16727_jpg, porch).
 holds(s_16727_jpg, wallsign).
@@ -9334,7 +9035,6 @@ holds(s_16729_jpg, building).
 holds(s_16729_jpg, feature).
 holds(s_16729_jpg, hotel).
 holds(s_16729_jpg, store).
-holds(s_16729_jpg, suburban).
 holds(s_16729_jpg, window).
 holds(s_16729_jpg, billboard).
 holds(s_16729_jpg, porch).
@@ -9347,7 +9047,6 @@ holds(s_16730_jpg, feature).
 holds(s_16730_jpg, hotel).
 holds(s_16730_jpg, store).
 holds(s_16730_jpg, suburban).
-holds(s_16730_jpg, door).
 holds(s_16730_jpg, billboard).
 holds(s_16730_jpg, porch).
 holds(s_16730_jpg, wallsign).
@@ -9365,6 +9064,7 @@ holds(s_16731_jpg, window).
 holds(s_16731_jpg, billboard).
 holds(s_16731_jpg, porch).
 holds(s_16731_jpg, wallsign).
+holds(s_16731_jpg, pipe).
 holds(s_16731_jpg, commercial).
 
 sample(s_16732_jpg).
@@ -9372,7 +9072,6 @@ holds(s_16732_jpg, building).
 holds(s_16732_jpg, feature).
 holds(s_16732_jpg, hotel).
 holds(s_16732_jpg, store).
-holds(s_16732_jpg, suburban).
 holds(s_16732_jpg, window).
 holds(s_16732_jpg, billboard).
 holds(s_16732_jpg, porch).
@@ -9385,7 +9084,6 @@ holds(s_16733_jpg, feature).
 holds(s_16733_jpg, hotel).
 holds(s_16733_jpg, store).
 holds(s_16733_jpg, suburban).
-holds(s_16733_jpg, door).
 holds(s_16733_jpg, billboard).
 holds(s_16733_jpg, porch).
 holds(s_16733_jpg, wallsign).
@@ -9403,6 +9101,7 @@ holds(s_16734_jpg, window).
 holds(s_16734_jpg, billboard).
 holds(s_16734_jpg, porch).
 holds(s_16734_jpg, wallsign).
+holds(s_16734_jpg, pipe).
 holds(s_16734_jpg, commercial).
 
 sample(s_16735_jpg).
@@ -9410,7 +9109,6 @@ holds(s_16735_jpg, building).
 holds(s_16735_jpg, feature).
 holds(s_16735_jpg, hotel).
 holds(s_16735_jpg, store).
-holds(s_16735_jpg, suburban).
 holds(s_16735_jpg, window).
 holds(s_16735_jpg, billboard).
 holds(s_16735_jpg, porch).
@@ -9423,7 +9121,6 @@ holds(s_16736_jpg, feature).
 holds(s_16736_jpg, hotel).
 holds(s_16736_jpg, store).
 holds(s_16736_jpg, suburban).
-holds(s_16736_jpg, door).
 holds(s_16736_jpg, billboard).
 holds(s_16736_jpg, porch).
 holds(s_16736_jpg, wallsign).
@@ -9441,6 +9138,7 @@ holds(s_16737_jpg, window).
 holds(s_16737_jpg, billboard).
 holds(s_16737_jpg, porch).
 holds(s_16737_jpg, wallsign).
+holds(s_16737_jpg, pipe).
 holds(s_16737_jpg, commercial).
 
 sample(s_16738_jpg).
@@ -9448,7 +9146,6 @@ holds(s_16738_jpg, building).
 holds(s_16738_jpg, feature).
 holds(s_16738_jpg, hotel).
 holds(s_16738_jpg, store).
-holds(s_16738_jpg, suburban).
 holds(s_16738_jpg, window).
 holds(s_16738_jpg, billboard).
 holds(s_16738_jpg, porch).
@@ -9461,7 +9158,6 @@ holds(s_16739_jpg, feature).
 holds(s_16739_jpg, hotel).
 holds(s_16739_jpg, store).
 holds(s_16739_jpg, suburban).
-holds(s_16739_jpg, door).
 holds(s_16739_jpg, billboard).
 holds(s_16739_jpg, porch).
 holds(s_16739_jpg, wallsign).
@@ -9500,7 +9196,6 @@ holds(s_16742_jpg, feature).
 holds(s_16742_jpg, hotel).
 holds(s_16742_jpg, store).
 holds(s_16742_jpg, suburban).
-holds(s_16742_jpg, door).
 holds(s_16742_jpg, billboard).
 holds(s_16742_jpg, porch).
 holds(s_16742_jpg, wallsign).
@@ -9526,7 +9221,6 @@ holds(s_16744_jpg, building).
 holds(s_16744_jpg, feature).
 holds(s_16744_jpg, hotel).
 holds(s_16744_jpg, store).
-holds(s_16744_jpg, suburban).
 holds(s_16744_jpg, window).
 holds(s_16744_jpg, billboard).
 holds(s_16744_jpg, porch).
@@ -9564,7 +9258,6 @@ holds(s_16747_jpg, building).
 holds(s_16747_jpg, feature).
 holds(s_16747_jpg, hotel).
 holds(s_16747_jpg, store).
-holds(s_16747_jpg, suburban).
 holds(s_16747_jpg, window).
 holds(s_16747_jpg, billboard).
 holds(s_16747_jpg, porch).
@@ -9577,7 +9270,6 @@ holds(s_16748_jpg, feature).
 holds(s_16748_jpg, hotel).
 holds(s_16748_jpg, store).
 holds(s_16748_jpg, suburban).
-holds(s_16748_jpg, door).
 holds(s_16748_jpg, billboard).
 holds(s_16748_jpg, porch).
 holds(s_16748_jpg, wallsign).
@@ -9603,7 +9295,6 @@ holds(s_16750_jpg, building).
 holds(s_16750_jpg, feature).
 holds(s_16750_jpg, hotel).
 holds(s_16750_jpg, store).
-holds(s_16750_jpg, suburban).
 holds(s_16750_jpg, window).
 holds(s_16750_jpg, billboard).
 holds(s_16750_jpg, porch).
@@ -9641,7 +9332,6 @@ holds(s_16753_jpg, building).
 holds(s_16753_jpg, feature).
 holds(s_16753_jpg, hotel).
 holds(s_16753_jpg, store).
-holds(s_16753_jpg, suburban).
 holds(s_16753_jpg, window).
 holds(s_16753_jpg, billboard).
 holds(s_16753_jpg, porch).
@@ -9654,7 +9344,6 @@ holds(s_16754_jpg, feature).
 holds(s_16754_jpg, hotel).
 holds(s_16754_jpg, store).
 holds(s_16754_jpg, suburban).
-holds(s_16754_jpg, door).
 holds(s_16754_jpg, billboard).
 holds(s_16754_jpg, porch).
 holds(s_16754_jpg, wallsign).
@@ -9680,7 +9369,6 @@ holds(s_16756_jpg, building).
 holds(s_16756_jpg, feature).
 holds(s_16756_jpg, hotel).
 holds(s_16756_jpg, store).
-holds(s_16756_jpg, suburban).
 holds(s_16756_jpg, window).
 holds(s_16756_jpg, billboard).
 holds(s_16756_jpg, porch).
@@ -9711,6 +9399,7 @@ holds(s_16758_jpg, window).
 holds(s_16758_jpg, billboard).
 holds(s_16758_jpg, porch).
 holds(s_16758_jpg, wallsign).
+holds(s_16758_jpg, pipe).
 holds(s_16758_jpg, commercial).
 
 sample(s_16759_jpg).
@@ -9718,7 +9407,6 @@ holds(s_16759_jpg, building).
 holds(s_16759_jpg, feature).
 holds(s_16759_jpg, hotel).
 holds(s_16759_jpg, store).
-holds(s_16759_jpg, suburban).
 holds(s_16759_jpg, window).
 holds(s_16759_jpg, billboard).
 holds(s_16759_jpg, porch).
@@ -9731,7 +9419,6 @@ holds(s_16760_jpg, feature).
 holds(s_16760_jpg, hotel).
 holds(s_16760_jpg, store).
 holds(s_16760_jpg, suburban).
-holds(s_16760_jpg, door).
 holds(s_16760_jpg, billboard).
 holds(s_16760_jpg, porch).
 holds(s_16760_jpg, wallsign).
@@ -9757,7 +9444,6 @@ holds(s_16762_jpg, building).
 holds(s_16762_jpg, feature).
 holds(s_16762_jpg, hotel).
 holds(s_16762_jpg, store).
-holds(s_16762_jpg, suburban).
 holds(s_16762_jpg, window).
 holds(s_16762_jpg, billboard).
 holds(s_16762_jpg, porch).
@@ -9770,7 +9456,6 @@ holds(s_16763_jpg, feature).
 holds(s_16763_jpg, hotel).
 holds(s_16763_jpg, store).
 holds(s_16763_jpg, suburban).
-holds(s_16763_jpg, door).
 holds(s_16763_jpg, billboard).
 holds(s_16763_jpg, porch).
 holds(s_16763_jpg, wallsign).
@@ -9796,7 +9481,6 @@ holds(s_16765_jpg, building).
 holds(s_16765_jpg, feature).
 holds(s_16765_jpg, hotel).
 holds(s_16765_jpg, store).
-holds(s_16765_jpg, suburban).
 holds(s_16765_jpg, window).
 holds(s_16765_jpg, billboard).
 holds(s_16765_jpg, porch).
@@ -9809,7 +9493,6 @@ holds(s_16766_jpg, feature).
 holds(s_16766_jpg, hotel).
 holds(s_16766_jpg, store).
 holds(s_16766_jpg, suburban).
-holds(s_16766_jpg, door).
 holds(s_16766_jpg, billboard).
 holds(s_16766_jpg, porch).
 holds(s_16766_jpg, wallsign).
@@ -9835,7 +9518,6 @@ holds(s_16768_jpg, building).
 holds(s_16768_jpg, feature).
 holds(s_16768_jpg, hotel).
 holds(s_16768_jpg, store).
-holds(s_16768_jpg, suburban).
 holds(s_16768_jpg, window).
 holds(s_16768_jpg, billboard).
 holds(s_16768_jpg, porch).
@@ -9866,7 +9548,7 @@ holds(s_16770_jpg, window).
 holds(s_16770_jpg, billboard).
 holds(s_16770_jpg, porch).
 holds(s_16770_jpg, wallsign).
-holds(s_16770_jpg, car).
+holds(s_16770_jpg, pipe).
 holds(s_16770_jpg, commercial).
 
 sample(s_16771_jpg).
@@ -9874,7 +9556,6 @@ holds(s_16771_jpg, building).
 holds(s_16771_jpg, feature).
 holds(s_16771_jpg, hotel).
 holds(s_16771_jpg, store).
-holds(s_16771_jpg, suburban).
 holds(s_16771_jpg, window).
 holds(s_16771_jpg, billboard).
 holds(s_16771_jpg, porch).
@@ -9887,7 +9568,6 @@ holds(s_16772_jpg, feature).
 holds(s_16772_jpg, hotel).
 holds(s_16772_jpg, store).
 holds(s_16772_jpg, suburban).
-holds(s_16772_jpg, door).
 holds(s_16772_jpg, billboard).
 holds(s_16772_jpg, porch).
 holds(s_16772_jpg, wallsign).
@@ -9913,7 +9593,6 @@ holds(s_16774_jpg, building).
 holds(s_16774_jpg, feature).
 holds(s_16774_jpg, hotel).
 holds(s_16774_jpg, store).
-holds(s_16774_jpg, suburban).
 holds(s_16774_jpg, window).
 holds(s_16774_jpg, billboard).
 holds(s_16774_jpg, porch).
@@ -9926,7 +9605,6 @@ holds(s_16775_jpg, feature).
 holds(s_16775_jpg, hotel).
 holds(s_16775_jpg, store).
 holds(s_16775_jpg, suburban).
-holds(s_16775_jpg, door).
 holds(s_16775_jpg, billboard).
 holds(s_16775_jpg, porch).
 holds(s_16775_jpg, wallsign).
@@ -9952,7 +9630,6 @@ holds(s_16777_jpg, building).
 holds(s_16777_jpg, feature).
 holds(s_16777_jpg, hotel).
 holds(s_16777_jpg, store).
-holds(s_16777_jpg, suburban).
 holds(s_16777_jpg, window).
 holds(s_16777_jpg, billboard).
 holds(s_16777_jpg, porch).
@@ -9965,7 +9642,6 @@ holds(s_16778_jpg, feature).
 holds(s_16778_jpg, hotel).
 holds(s_16778_jpg, store).
 holds(s_16778_jpg, suburban).
-holds(s_16778_jpg, door).
 holds(s_16778_jpg, billboard).
 holds(s_16778_jpg, porch).
 holds(s_16778_jpg, wallsign).
@@ -9991,7 +9667,6 @@ holds(s_16780_jpg, building).
 holds(s_16780_jpg, feature).
 holds(s_16780_jpg, hotel).
 holds(s_16780_jpg, store).
-holds(s_16780_jpg, suburban).
 holds(s_16780_jpg, window).
 holds(s_16780_jpg, billboard).
 holds(s_16780_jpg, porch).
@@ -10004,7 +9679,6 @@ holds(s_16781_jpg, feature).
 holds(s_16781_jpg, hotel).
 holds(s_16781_jpg, store).
 holds(s_16781_jpg, suburban).
-holds(s_16781_jpg, door).
 holds(s_16781_jpg, billboard).
 holds(s_16781_jpg, porch).
 holds(s_16781_jpg, wallsign).
@@ -10022,6 +9696,7 @@ holds(s_16782_jpg, window).
 holds(s_16782_jpg, billboard).
 holds(s_16782_jpg, porch).
 holds(s_16782_jpg, wallsign).
+holds(s_16782_jpg, pipe).
 holds(s_16782_jpg, commercial).
 
 sample(s_16783_jpg).
@@ -10029,7 +9704,6 @@ holds(s_16783_jpg, building).
 holds(s_16783_jpg, feature).
 holds(s_16783_jpg, hotel).
 holds(s_16783_jpg, store).
-holds(s_16783_jpg, suburban).
 holds(s_16783_jpg, window).
 holds(s_16783_jpg, billboard).
 holds(s_16783_jpg, porch).
@@ -10042,7 +9716,6 @@ holds(s_16784_jpg, feature).
 holds(s_16784_jpg, hotel).
 holds(s_16784_jpg, store).
 holds(s_16784_jpg, suburban).
-holds(s_16784_jpg, door).
 holds(s_16784_jpg, billboard).
 holds(s_16784_jpg, porch).
 holds(s_16784_jpg, wallsign).
@@ -10068,7 +9741,6 @@ holds(s_16786_jpg, building).
 holds(s_16786_jpg, feature).
 holds(s_16786_jpg, hotel).
 holds(s_16786_jpg, store).
-holds(s_16786_jpg, suburban).
 holds(s_16786_jpg, window).
 holds(s_16786_jpg, billboard).
 holds(s_16786_jpg, porch).
@@ -10081,7 +9753,6 @@ holds(s_16787_jpg, feature).
 holds(s_16787_jpg, hotel).
 holds(s_16787_jpg, store).
 holds(s_16787_jpg, suburban).
-holds(s_16787_jpg, door).
 holds(s_16787_jpg, billboard).
 holds(s_16787_jpg, porch).
 holds(s_16787_jpg, wallsign).
@@ -10099,6 +9770,7 @@ holds(s_16788_jpg, window).
 holds(s_16788_jpg, billboard).
 holds(s_16788_jpg, porch).
 holds(s_16788_jpg, wallsign).
+holds(s_16788_jpg, pipe).
 holds(s_16788_jpg, commercial).
 
 sample(s_16789_jpg).
@@ -10106,7 +9778,6 @@ holds(s_16789_jpg, building).
 holds(s_16789_jpg, feature).
 holds(s_16789_jpg, hotel).
 holds(s_16789_jpg, store).
-holds(s_16789_jpg, suburban).
 holds(s_16789_jpg, window).
 holds(s_16789_jpg, billboard).
 holds(s_16789_jpg, porch).
@@ -10119,7 +9790,6 @@ holds(s_16790_jpg, feature).
 holds(s_16790_jpg, hotel).
 holds(s_16790_jpg, store).
 holds(s_16790_jpg, suburban).
-holds(s_16790_jpg, door).
 holds(s_16790_jpg, billboard).
 holds(s_16790_jpg, porch).
 holds(s_16790_jpg, wallsign).
@@ -10145,7 +9815,6 @@ holds(s_16792_jpg, building).
 holds(s_16792_jpg, feature).
 holds(s_16792_jpg, hotel).
 holds(s_16792_jpg, store).
-holds(s_16792_jpg, suburban).
 holds(s_16792_jpg, window).
 holds(s_16792_jpg, billboard).
 holds(s_16792_jpg, porch).
@@ -10197,7 +9866,6 @@ holds(s_16796_jpg, feature).
 holds(s_16796_jpg, hotel).
 holds(s_16796_jpg, store).
 holds(s_16796_jpg, suburban).
-holds(s_16796_jpg, door).
 holds(s_16796_jpg, billboard).
 holds(s_16796_jpg, porch).
 holds(s_16796_jpg, wallsign).
@@ -10215,6 +9883,7 @@ holds(s_16797_jpg, window).
 holds(s_16797_jpg, billboard).
 holds(s_16797_jpg, porch).
 holds(s_16797_jpg, wallsign).
+holds(s_16797_jpg, pipe).
 holds(s_16797_jpg, commercial).
 
 sample(s_16798_jpg).
@@ -10222,7 +9891,6 @@ holds(s_16798_jpg, building).
 holds(s_16798_jpg, feature).
 holds(s_16798_jpg, hotel).
 holds(s_16798_jpg, store).
-holds(s_16798_jpg, suburban).
 holds(s_16798_jpg, window).
 holds(s_16798_jpg, billboard).
 holds(s_16798_jpg, porch).
@@ -10235,7 +9903,6 @@ holds(s_16799_jpg, feature).
 holds(s_16799_jpg, hotel).
 holds(s_16799_jpg, store).
 holds(s_16799_jpg, suburban).
-holds(s_16799_jpg, door).
 holds(s_16799_jpg, billboard).
 holds(s_16799_jpg, porch).
 holds(s_16799_jpg, wallsign).
@@ -10261,7 +9928,6 @@ holds(s_16801_jpg, building).
 holds(s_16801_jpg, feature).
 holds(s_16801_jpg, hotel).
 holds(s_16801_jpg, store).
-holds(s_16801_jpg, suburban).
 holds(s_16801_jpg, window).
 holds(s_16801_jpg, billboard).
 holds(s_16801_jpg, porch).
@@ -10274,7 +9940,6 @@ holds(s_16802_jpg, feature).
 holds(s_16802_jpg, hotel).
 holds(s_16802_jpg, store).
 holds(s_16802_jpg, suburban).
-holds(s_16802_jpg, door).
 holds(s_16802_jpg, billboard).
 holds(s_16802_jpg, porch).
 holds(s_16802_jpg, wallsign).
@@ -10300,7 +9965,6 @@ holds(s_16804_jpg, building).
 holds(s_16804_jpg, feature).
 holds(s_16804_jpg, hotel).
 holds(s_16804_jpg, store).
-holds(s_16804_jpg, suburban).
 holds(s_16804_jpg, window).
 holds(s_16804_jpg, billboard).
 holds(s_16804_jpg, porch).
@@ -10313,7 +9977,6 @@ holds(s_16805_jpg, feature).
 holds(s_16805_jpg, hotel).
 holds(s_16805_jpg, store).
 holds(s_16805_jpg, suburban).
-holds(s_16805_jpg, door).
 holds(s_16805_jpg, billboard).
 holds(s_16805_jpg, porch).
 holds(s_16805_jpg, wallsign).
@@ -10331,6 +9994,7 @@ holds(s_16806_jpg, window).
 holds(s_16806_jpg, billboard).
 holds(s_16806_jpg, porch).
 holds(s_16806_jpg, wallsign).
+holds(s_16806_jpg, pipe).
 holds(s_16806_jpg, commercial).
 
 sample(s_16807_jpg).
@@ -10338,7 +10002,6 @@ holds(s_16807_jpg, building).
 holds(s_16807_jpg, feature).
 holds(s_16807_jpg, hotel).
 holds(s_16807_jpg, store).
-holds(s_16807_jpg, suburban).
 holds(s_16807_jpg, window).
 holds(s_16807_jpg, billboard).
 holds(s_16807_jpg, porch).
@@ -10377,7 +10040,6 @@ holds(s_16810_jpg, building).
 holds(s_16810_jpg, feature).
 holds(s_16810_jpg, hotel).
 holds(s_16810_jpg, store).
-holds(s_16810_jpg, suburban).
 holds(s_16810_jpg, window).
 holds(s_16810_jpg, billboard).
 holds(s_16810_jpg, porch).
@@ -10390,7 +10052,6 @@ holds(s_16811_jpg, feature).
 holds(s_16811_jpg, hotel).
 holds(s_16811_jpg, store).
 holds(s_16811_jpg, suburban).
-holds(s_16811_jpg, door).
 holds(s_16811_jpg, billboard).
 holds(s_16811_jpg, porch).
 holds(s_16811_jpg, wallsign).
@@ -10408,7 +10069,7 @@ holds(s_16812_jpg, window).
 holds(s_16812_jpg, billboard).
 holds(s_16812_jpg, porch).
 holds(s_16812_jpg, wallsign).
-holds(s_16812_jpg, car).
+holds(s_16812_jpg, pipe).
 holds(s_16812_jpg, commercial).
 
 sample(s_16813_jpg).
@@ -10416,7 +10077,6 @@ holds(s_16813_jpg, building).
 holds(s_16813_jpg, feature).
 holds(s_16813_jpg, hotel).
 holds(s_16813_jpg, store).
-holds(s_16813_jpg, suburban).
 holds(s_16813_jpg, window).
 holds(s_16813_jpg, billboard).
 holds(s_16813_jpg, porch).
@@ -10429,7 +10089,6 @@ holds(s_16814_jpg, feature).
 holds(s_16814_jpg, hotel).
 holds(s_16814_jpg, store).
 holds(s_16814_jpg, suburban).
-holds(s_16814_jpg, door).
 holds(s_16814_jpg, billboard).
 holds(s_16814_jpg, porch).
 holds(s_16814_jpg, wallsign).
@@ -10455,7 +10114,6 @@ holds(s_16816_jpg, building).
 holds(s_16816_jpg, feature).
 holds(s_16816_jpg, hotel).
 holds(s_16816_jpg, store).
-holds(s_16816_jpg, suburban).
 holds(s_16816_jpg, window).
 holds(s_16816_jpg, billboard).
 holds(s_16816_jpg, porch).
@@ -10468,7 +10126,6 @@ holds(s_16817_jpg, feature).
 holds(s_16817_jpg, hotel).
 holds(s_16817_jpg, store).
 holds(s_16817_jpg, suburban).
-holds(s_16817_jpg, door).
 holds(s_16817_jpg, billboard).
 holds(s_16817_jpg, porch).
 holds(s_16817_jpg, wallsign).
@@ -10486,6 +10143,7 @@ holds(s_16818_jpg, window).
 holds(s_16818_jpg, billboard).
 holds(s_16818_jpg, porch).
 holds(s_16818_jpg, wallsign).
+holds(s_16818_jpg, pipe).
 holds(s_16818_jpg, commercial).
 
 sample(s_16819_jpg).
@@ -10493,7 +10151,6 @@ holds(s_16819_jpg, building).
 holds(s_16819_jpg, feature).
 holds(s_16819_jpg, hotel).
 holds(s_16819_jpg, store).
-holds(s_16819_jpg, suburban).
 holds(s_16819_jpg, window).
 holds(s_16819_jpg, billboard).
 holds(s_16819_jpg, porch).
@@ -10506,7 +10163,6 @@ holds(s_16820_jpg, feature).
 holds(s_16820_jpg, hotel).
 holds(s_16820_jpg, store).
 holds(s_16820_jpg, suburban).
-holds(s_16820_jpg, door).
 holds(s_16820_jpg, billboard).
 holds(s_16820_jpg, porch).
 holds(s_16820_jpg, wallsign).
@@ -10532,7 +10188,6 @@ holds(s_16822_jpg, building).
 holds(s_16822_jpg, feature).
 holds(s_16822_jpg, hotel).
 holds(s_16822_jpg, store).
-holds(s_16822_jpg, suburban).
 holds(s_16822_jpg, window).
 holds(s_16822_jpg, billboard).
 holds(s_16822_jpg, porch).
@@ -10545,7 +10200,6 @@ holds(s_16823_jpg, feature).
 holds(s_16823_jpg, hotel).
 holds(s_16823_jpg, store).
 holds(s_16823_jpg, suburban).
-holds(s_16823_jpg, door).
 holds(s_16823_jpg, billboard).
 holds(s_16823_jpg, porch).
 holds(s_16823_jpg, wallsign).
@@ -10563,6 +10217,7 @@ holds(s_16824_jpg, window).
 holds(s_16824_jpg, billboard).
 holds(s_16824_jpg, porch).
 holds(s_16824_jpg, wallsign).
+holds(s_16824_jpg, pipe).
 holds(s_16824_jpg, commercial).
 
 sample(s_16825_jpg).
@@ -10570,7 +10225,6 @@ holds(s_16825_jpg, building).
 holds(s_16825_jpg, feature).
 holds(s_16825_jpg, hotel).
 holds(s_16825_jpg, store).
-holds(s_16825_jpg, suburban).
 holds(s_16825_jpg, window).
 holds(s_16825_jpg, billboard).
 holds(s_16825_jpg, porch).
@@ -10583,7 +10237,6 @@ holds(s_16826_jpg, feature).
 holds(s_16826_jpg, hotel).
 holds(s_16826_jpg, store).
 holds(s_16826_jpg, suburban).
-holds(s_16826_jpg, door).
 holds(s_16826_jpg, billboard).
 holds(s_16826_jpg, porch).
 holds(s_16826_jpg, wallsign).
@@ -10601,6 +10254,7 @@ holds(s_16827_jpg, window).
 holds(s_16827_jpg, billboard).
 holds(s_16827_jpg, porch).
 holds(s_16827_jpg, wallsign).
+holds(s_16827_jpg, pipe).
 holds(s_16827_jpg, commercial).
 
 sample(s_16828_jpg).
@@ -10608,7 +10262,6 @@ holds(s_16828_jpg, building).
 holds(s_16828_jpg, feature).
 holds(s_16828_jpg, hotel).
 holds(s_16828_jpg, store).
-holds(s_16828_jpg, suburban).
 holds(s_16828_jpg, window).
 holds(s_16828_jpg, billboard).
 holds(s_16828_jpg, porch).
@@ -10638,6 +10291,7 @@ holds(s_16830_jpg, window).
 holds(s_16830_jpg, billboard).
 holds(s_16830_jpg, porch).
 holds(s_16830_jpg, wallsign).
+holds(s_16830_jpg, pipe).
 holds(s_16830_jpg, commercial).
 
 sample(s_16831_jpg).
@@ -10645,7 +10299,6 @@ holds(s_16831_jpg, building).
 holds(s_16831_jpg, feature).
 holds(s_16831_jpg, hotel).
 holds(s_16831_jpg, store).
-holds(s_16831_jpg, suburban).
 holds(s_16831_jpg, window).
 holds(s_16831_jpg, billboard).
 holds(s_16831_jpg, porch).
@@ -10658,7 +10311,6 @@ holds(s_16832_jpg, feature).
 holds(s_16832_jpg, hotel).
 holds(s_16832_jpg, store).
 holds(s_16832_jpg, suburban).
-holds(s_16832_jpg, door).
 holds(s_16832_jpg, billboard).
 holds(s_16832_jpg, porch).
 holds(s_16832_jpg, wallsign).
@@ -10684,7 +10336,6 @@ holds(s_16834_jpg, building).
 holds(s_16834_jpg, feature).
 holds(s_16834_jpg, hotel).
 holds(s_16834_jpg, store).
-holds(s_16834_jpg, suburban).
 holds(s_16834_jpg, window).
 holds(s_16834_jpg, billboard).
 holds(s_16834_jpg, porch).
@@ -10697,7 +10348,6 @@ holds(s_16835_jpg, feature).
 holds(s_16835_jpg, hotel).
 holds(s_16835_jpg, store).
 holds(s_16835_jpg, suburban).
-holds(s_16835_jpg, door).
 holds(s_16835_jpg, billboard).
 holds(s_16835_jpg, porch).
 holds(s_16835_jpg, wallsign).
@@ -10723,7 +10373,6 @@ holds(s_16837_jpg, building).
 holds(s_16837_jpg, feature).
 holds(s_16837_jpg, hotel).
 holds(s_16837_jpg, store).
-holds(s_16837_jpg, suburban).
 holds(s_16837_jpg, window).
 holds(s_16837_jpg, billboard).
 holds(s_16837_jpg, porch).
@@ -10754,6 +10403,7 @@ holds(s_16839_jpg, window).
 holds(s_16839_jpg, billboard).
 holds(s_16839_jpg, porch).
 holds(s_16839_jpg, wallsign).
+holds(s_16839_jpg, pipe).
 holds(s_16839_jpg, commercial).
 
 sample(s_16840_jpg).
@@ -10761,7 +10411,6 @@ holds(s_16840_jpg, building).
 holds(s_16840_jpg, feature).
 holds(s_16840_jpg, hotel).
 holds(s_16840_jpg, store).
-holds(s_16840_jpg, suburban).
 holds(s_16840_jpg, window).
 holds(s_16840_jpg, billboard).
 holds(s_16840_jpg, porch).
@@ -10774,7 +10423,6 @@ holds(s_16841_jpg, feature).
 holds(s_16841_jpg, hotel).
 holds(s_16841_jpg, store).
 holds(s_16841_jpg, suburban).
-holds(s_16841_jpg, door).
 holds(s_16841_jpg, billboard).
 holds(s_16841_jpg, porch).
 holds(s_16841_jpg, wallsign).
@@ -10792,7 +10440,7 @@ holds(s_16842_jpg, window).
 holds(s_16842_jpg, billboard).
 holds(s_16842_jpg, porch).
 holds(s_16842_jpg, wallsign).
-holds(s_16842_jpg, car).
+holds(s_16842_jpg, pipe).
 holds(s_16842_jpg, commercial).
 
 sample(s_16843_jpg).
@@ -10800,7 +10448,6 @@ holds(s_16843_jpg, building).
 holds(s_16843_jpg, feature).
 holds(s_16843_jpg, hotel).
 holds(s_16843_jpg, store).
-holds(s_16843_jpg, suburban).
 holds(s_16843_jpg, window).
 holds(s_16843_jpg, billboard).
 holds(s_16843_jpg, porch).
@@ -10813,7 +10460,6 @@ holds(s_16844_jpg, feature).
 holds(s_16844_jpg, hotel).
 holds(s_16844_jpg, store).
 holds(s_16844_jpg, suburban).
-holds(s_16844_jpg, door).
 holds(s_16844_jpg, billboard).
 holds(s_16844_jpg, porch).
 holds(s_16844_jpg, wallsign).
@@ -10839,7 +10485,6 @@ holds(s_16846_jpg, building).
 holds(s_16846_jpg, feature).
 holds(s_16846_jpg, hotel).
 holds(s_16846_jpg, store).
-holds(s_16846_jpg, suburban).
 holds(s_16846_jpg, window).
 holds(s_16846_jpg, billboard).
 holds(s_16846_jpg, porch).
@@ -10852,7 +10497,6 @@ holds(s_16847_jpg, feature).
 holds(s_16847_jpg, hotel).
 holds(s_16847_jpg, store).
 holds(s_16847_jpg, suburban).
-holds(s_16847_jpg, door).
 holds(s_16847_jpg, billboard).
 holds(s_16847_jpg, porch).
 holds(s_16847_jpg, wallsign).
@@ -10878,7 +10522,6 @@ holds(s_16849_jpg, building).
 holds(s_16849_jpg, feature).
 holds(s_16849_jpg, hotel).
 holds(s_16849_jpg, store).
-holds(s_16849_jpg, suburban).
 holds(s_16849_jpg, window).
 holds(s_16849_jpg, billboard).
 holds(s_16849_jpg, porch).
@@ -10891,7 +10534,6 @@ holds(s_16850_jpg, feature).
 holds(s_16850_jpg, hotel).
 holds(s_16850_jpg, store).
 holds(s_16850_jpg, suburban).
-holds(s_16850_jpg, door).
 holds(s_16850_jpg, billboard).
 holds(s_16850_jpg, porch).
 holds(s_16850_jpg, wallsign).
@@ -10917,7 +10559,6 @@ holds(s_16852_jpg, building).
 holds(s_16852_jpg, feature).
 holds(s_16852_jpg, hotel).
 holds(s_16852_jpg, store).
-holds(s_16852_jpg, suburban).
 holds(s_16852_jpg, window).
 holds(s_16852_jpg, billboard).
 holds(s_16852_jpg, porch).
@@ -10947,6 +10588,7 @@ holds(s_16854_jpg, window).
 holds(s_16854_jpg, billboard).
 holds(s_16854_jpg, porch).
 holds(s_16854_jpg, wallsign).
+holds(s_16854_jpg, pipe).
 holds(s_16854_jpg, commercial).
 
 sample(s_16855_jpg).
@@ -10954,7 +10596,6 @@ holds(s_16855_jpg, building).
 holds(s_16855_jpg, feature).
 holds(s_16855_jpg, hotel).
 holds(s_16855_jpg, store).
-holds(s_16855_jpg, suburban).
 holds(s_16855_jpg, window).
 holds(s_16855_jpg, billboard).
 holds(s_16855_jpg, porch).
@@ -10985,6 +10626,7 @@ holds(s_16857_jpg, window).
 holds(s_16857_jpg, billboard).
 holds(s_16857_jpg, porch).
 holds(s_16857_jpg, wallsign).
+holds(s_16857_jpg, pipe).
 holds(s_16857_jpg, commercial).
 
 sample(s_16858_jpg).
@@ -10992,7 +10634,6 @@ holds(s_16858_jpg, building).
 holds(s_16858_jpg, feature).
 holds(s_16858_jpg, hotel).
 holds(s_16858_jpg, store).
-holds(s_16858_jpg, suburban).
 holds(s_16858_jpg, window).
 holds(s_16858_jpg, billboard).
 holds(s_16858_jpg, porch).
@@ -11005,7 +10646,6 @@ holds(s_16859_jpg, feature).
 holds(s_16859_jpg, hotel).
 holds(s_16859_jpg, store).
 holds(s_16859_jpg, suburban).
-holds(s_16859_jpg, door).
 holds(s_16859_jpg, billboard).
 holds(s_16859_jpg, porch).
 holds(s_16859_jpg, wallsign).
@@ -11023,6 +10663,7 @@ holds(s_16860_jpg, window).
 holds(s_16860_jpg, billboard).
 holds(s_16860_jpg, porch).
 holds(s_16860_jpg, wallsign).
+holds(s_16860_jpg, pipe).
 holds(s_16860_jpg, commercial).
 
 sample(s_16861_jpg).
@@ -11030,7 +10671,6 @@ holds(s_16861_jpg, building).
 holds(s_16861_jpg, feature).
 holds(s_16861_jpg, hotel).
 holds(s_16861_jpg, store).
-holds(s_16861_jpg, suburban).
 holds(s_16861_jpg, window).
 holds(s_16861_jpg, billboard).
 holds(s_16861_jpg, porch).
@@ -11043,7 +10683,6 @@ holds(s_16862_jpg, feature).
 holds(s_16862_jpg, hotel).
 holds(s_16862_jpg, store).
 holds(s_16862_jpg, suburban).
-holds(s_16862_jpg, door).
 holds(s_16862_jpg, billboard).
 holds(s_16862_jpg, porch).
 holds(s_16862_jpg, wallsign).
@@ -11069,7 +10708,6 @@ holds(s_16864_jpg, building).
 holds(s_16864_jpg, feature).
 holds(s_16864_jpg, hotel).
 holds(s_16864_jpg, store).
-holds(s_16864_jpg, suburban).
 holds(s_16864_jpg, window).
 holds(s_16864_jpg, billboard).
 holds(s_16864_jpg, porch).
@@ -11082,7 +10720,6 @@ holds(s_16865_jpg, feature).
 holds(s_16865_jpg, hotel).
 holds(s_16865_jpg, store).
 holds(s_16865_jpg, suburban).
-holds(s_16865_jpg, door).
 holds(s_16865_jpg, billboard).
 holds(s_16865_jpg, porch).
 holds(s_16865_jpg, wallsign).
@@ -11108,7 +10745,6 @@ holds(s_16867_jpg, building).
 holds(s_16867_jpg, feature).
 holds(s_16867_jpg, hotel).
 holds(s_16867_jpg, store).
-holds(s_16867_jpg, suburban).
 holds(s_16867_jpg, window).
 holds(s_16867_jpg, billboard).
 holds(s_16867_jpg, porch).
@@ -11147,7 +10783,6 @@ holds(s_16870_jpg, building).
 holds(s_16870_jpg, feature).
 holds(s_16870_jpg, hotel).
 holds(s_16870_jpg, store).
-holds(s_16870_jpg, suburban).
 holds(s_16870_jpg, window).
 holds(s_16870_jpg, billboard).
 holds(s_16870_jpg, porch).
@@ -11160,7 +10795,6 @@ holds(s_16871_jpg, feature).
 holds(s_16871_jpg, hotel).
 holds(s_16871_jpg, store).
 holds(s_16871_jpg, suburban).
-holds(s_16871_jpg, door).
 holds(s_16871_jpg, billboard).
 holds(s_16871_jpg, porch).
 holds(s_16871_jpg, wallsign).
@@ -11186,7 +10820,6 @@ holds(s_16873_jpg, building).
 holds(s_16873_jpg, feature).
 holds(s_16873_jpg, hotel).
 holds(s_16873_jpg, store).
-holds(s_16873_jpg, suburban).
 holds(s_16873_jpg, window).
 holds(s_16873_jpg, billboard).
 holds(s_16873_jpg, porch).
@@ -11216,14 +10849,13 @@ holds(s_16875_jpg, window).
 holds(s_16875_jpg, billboard).
 holds(s_16875_jpg, porch).
 holds(s_16875_jpg, wallsign).
-holds(s_16875_jpg, commercial).
+holds(s_16875_jpg, industrial).
 
 sample(s_16876_jpg).
 holds(s_16876_jpg, building).
 holds(s_16876_jpg, feature).
 holds(s_16876_jpg, hotel).
 holds(s_16876_jpg, store).
-holds(s_16876_jpg, suburban).
 holds(s_16876_jpg, window).
 holds(s_16876_jpg, billboard).
 holds(s_16876_jpg, porch).
@@ -11262,7 +10894,6 @@ holds(s_16879_jpg, building).
 holds(s_16879_jpg, feature).
 holds(s_16879_jpg, hotel).
 holds(s_16879_jpg, store).
-holds(s_16879_jpg, suburban).
 holds(s_16879_jpg, window).
 holds(s_16879_jpg, billboard).
 holds(s_16879_jpg, porch).
@@ -11275,7 +10906,6 @@ holds(s_16880_jpg, feature).
 holds(s_16880_jpg, hotel).
 holds(s_16880_jpg, store).
 holds(s_16880_jpg, suburban).
-holds(s_16880_jpg, door).
 holds(s_16880_jpg, billboard).
 holds(s_16880_jpg, porch).
 holds(s_16880_jpg, wallsign).
@@ -11293,6 +10923,7 @@ holds(s_16881_jpg, window).
 holds(s_16881_jpg, billboard).
 holds(s_16881_jpg, porch).
 holds(s_16881_jpg, wallsign).
+holds(s_16881_jpg, pipe).
 holds(s_16881_jpg, commercial).
 
 sample(s_16882_jpg).
@@ -11313,7 +10944,6 @@ holds(s_16883_jpg, feature).
 holds(s_16883_jpg, hotel).
 holds(s_16883_jpg, store).
 holds(s_16883_jpg, suburban).
-holds(s_16883_jpg, door).
 holds(s_16883_jpg, billboard).
 holds(s_16883_jpg, porch).
 holds(s_16883_jpg, wallsign).
@@ -11331,6 +10961,7 @@ holds(s_16884_jpg, window).
 holds(s_16884_jpg, billboard).
 holds(s_16884_jpg, porch).
 holds(s_16884_jpg, wallsign).
+holds(s_16884_jpg, pipe).
 holds(s_16884_jpg, commercial).
 
 sample(s_16885_jpg).
@@ -11338,7 +10969,6 @@ holds(s_16885_jpg, building).
 holds(s_16885_jpg, feature).
 holds(s_16885_jpg, hotel).
 holds(s_16885_jpg, store).
-holds(s_16885_jpg, suburban).
 holds(s_16885_jpg, window).
 holds(s_16885_jpg, billboard).
 holds(s_16885_jpg, porch).
@@ -11351,7 +10981,6 @@ holds(s_16886_jpg, feature).
 holds(s_16886_jpg, hotel).
 holds(s_16886_jpg, store).
 holds(s_16886_jpg, suburban).
-holds(s_16886_jpg, door).
 holds(s_16886_jpg, billboard).
 holds(s_16886_jpg, porch).
 holds(s_16886_jpg, wallsign).
@@ -11377,7 +11006,6 @@ holds(s_16888_jpg, building).
 holds(s_16888_jpg, feature).
 holds(s_16888_jpg, hotel).
 holds(s_16888_jpg, store).
-holds(s_16888_jpg, suburban).
 holds(s_16888_jpg, window).
 holds(s_16888_jpg, billboard).
 holds(s_16888_jpg, porch).
@@ -11390,7 +11018,6 @@ holds(s_16889_jpg, feature).
 holds(s_16889_jpg, hotel).
 holds(s_16889_jpg, store).
 holds(s_16889_jpg, suburban).
-holds(s_16889_jpg, door).
 holds(s_16889_jpg, billboard).
 holds(s_16889_jpg, porch).
 holds(s_16889_jpg, wallsign).
@@ -11408,6 +11035,7 @@ holds(s_16890_jpg, window).
 holds(s_16890_jpg, billboard).
 holds(s_16890_jpg, porch).
 holds(s_16890_jpg, wallsign).
+holds(s_16890_jpg, pipe).
 holds(s_16890_jpg, commercial).
 
 sample(s_16891_jpg).
@@ -11415,7 +11043,6 @@ holds(s_16891_jpg, building).
 holds(s_16891_jpg, feature).
 holds(s_16891_jpg, hotel).
 holds(s_16891_jpg, store).
-holds(s_16891_jpg, suburban).
 holds(s_16891_jpg, window).
 holds(s_16891_jpg, billboard).
 holds(s_16891_jpg, porch).
@@ -11428,7 +11055,6 @@ holds(s_16892_jpg, feature).
 holds(s_16892_jpg, hotel).
 holds(s_16892_jpg, store).
 holds(s_16892_jpg, suburban).
-holds(s_16892_jpg, door).
 holds(s_16892_jpg, billboard).
 holds(s_16892_jpg, porch).
 holds(s_16892_jpg, wallsign).
@@ -11446,6 +11072,7 @@ holds(s_16893_jpg, window).
 holds(s_16893_jpg, billboard).
 holds(s_16893_jpg, porch).
 holds(s_16893_jpg, wallsign).
+holds(s_16893_jpg, pipe).
 holds(s_16893_jpg, commercial).
 
 sample(s_16894_jpg).
@@ -11453,8 +11080,6 @@ holds(s_16894_jpg, building).
 holds(s_16894_jpg, feature).
 holds(s_16894_jpg, hotel).
 holds(s_16894_jpg, store).
-holds(s_16894_jpg, suburban).
-holds(s_16894_jpg, door).
 holds(s_16894_jpg, window).
 holds(s_16894_jpg, billboard).
 holds(s_16894_jpg, porch).
@@ -11467,7 +11092,6 @@ holds(s_16895_jpg, feature).
 holds(s_16895_jpg, hotel).
 holds(s_16895_jpg, store).
 holds(s_16895_jpg, suburban).
-holds(s_16895_jpg, door).
 holds(s_16895_jpg, billboard).
 holds(s_16895_jpg, porch).
 holds(s_16895_jpg, wallsign).
@@ -11492,7 +11116,6 @@ holds(s_16897_jpg, building).
 holds(s_16897_jpg, feature).
 holds(s_16897_jpg, hotel).
 holds(s_16897_jpg, store).
-holds(s_16897_jpg, suburban).
 holds(s_16897_jpg, window).
 holds(s_16897_jpg, billboard).
 holds(s_16897_jpg, porch).
@@ -11531,7 +11154,6 @@ holds(s_16900_jpg, building).
 holds(s_16900_jpg, feature).
 holds(s_16900_jpg, hotel).
 holds(s_16900_jpg, store).
-holds(s_16900_jpg, suburban).
 holds(s_16900_jpg, window).
 holds(s_16900_jpg, billboard).
 holds(s_16900_jpg, porch).
@@ -11544,7 +11166,6 @@ holds(s_16901_jpg, feature).
 holds(s_16901_jpg, hotel).
 holds(s_16901_jpg, store).
 holds(s_16901_jpg, suburban).
-holds(s_16901_jpg, door).
 holds(s_16901_jpg, billboard).
 holds(s_16901_jpg, porch).
 holds(s_16901_jpg, wallsign).
@@ -11570,7 +11191,6 @@ holds(s_16903_jpg, building).
 holds(s_16903_jpg, feature).
 holds(s_16903_jpg, hotel).
 holds(s_16903_jpg, store).
-holds(s_16903_jpg, suburban).
 holds(s_16903_jpg, window).
 holds(s_16903_jpg, billboard).
 holds(s_16903_jpg, porch).
@@ -11583,7 +11203,6 @@ holds(s_16904_jpg, feature).
 holds(s_16904_jpg, hotel).
 holds(s_16904_jpg, store).
 holds(s_16904_jpg, suburban).
-holds(s_16904_jpg, door).
 holds(s_16904_jpg, billboard).
 holds(s_16904_jpg, porch).
 holds(s_16904_jpg, wallsign).
@@ -11609,7 +11228,6 @@ holds(s_16906_jpg, building).
 holds(s_16906_jpg, feature).
 holds(s_16906_jpg, hotel).
 holds(s_16906_jpg, store).
-holds(s_16906_jpg, suburban).
 holds(s_16906_jpg, window).
 holds(s_16906_jpg, billboard).
 holds(s_16906_jpg, porch).
@@ -11640,6 +11258,7 @@ holds(s_16908_jpg, window).
 holds(s_16908_jpg, billboard).
 holds(s_16908_jpg, porch).
 holds(s_16908_jpg, wallsign).
+holds(s_16908_jpg, pipe).
 holds(s_16908_jpg, commercial).
 
 sample(s_16909_jpg).
@@ -11647,7 +11266,6 @@ holds(s_16909_jpg, building).
 holds(s_16909_jpg, feature).
 holds(s_16909_jpg, hotel).
 holds(s_16909_jpg, store).
-holds(s_16909_jpg, suburban).
 holds(s_16909_jpg, window).
 holds(s_16909_jpg, billboard).
 holds(s_16909_jpg, porch).
@@ -11686,7 +11304,6 @@ holds(s_16912_jpg, building).
 holds(s_16912_jpg, feature).
 holds(s_16912_jpg, hotel).
 holds(s_16912_jpg, store).
-holds(s_16912_jpg, suburban).
 holds(s_16912_jpg, window).
 holds(s_16912_jpg, billboard).
 holds(s_16912_jpg, porch).
@@ -11699,7 +11316,6 @@ holds(s_16913_jpg, feature).
 holds(s_16913_jpg, hotel).
 holds(s_16913_jpg, store).
 holds(s_16913_jpg, suburban).
-holds(s_16913_jpg, door).
 holds(s_16913_jpg, billboard).
 holds(s_16913_jpg, porch).
 holds(s_16913_jpg, wallsign).
@@ -11725,7 +11341,6 @@ holds(s_16915_jpg, building).
 holds(s_16915_jpg, feature).
 holds(s_16915_jpg, hotel).
 holds(s_16915_jpg, store).
-holds(s_16915_jpg, suburban).
 holds(s_16915_jpg, window).
 holds(s_16915_jpg, billboard).
 holds(s_16915_jpg, porch).
@@ -11755,6 +11370,7 @@ holds(s_16917_jpg, window).
 holds(s_16917_jpg, billboard).
 holds(s_16917_jpg, porch).
 holds(s_16917_jpg, wallsign).
+holds(s_16917_jpg, pipe).
 holds(s_16917_jpg, commercial).
 
 sample(s_16918_jpg).
@@ -11762,7 +11378,6 @@ holds(s_16918_jpg, building).
 holds(s_16918_jpg, feature).
 holds(s_16918_jpg, hotel).
 holds(s_16918_jpg, store).
-holds(s_16918_jpg, suburban).
 holds(s_16918_jpg, window).
 holds(s_16918_jpg, billboard).
 holds(s_16918_jpg, porch).
@@ -11792,6 +11407,7 @@ holds(s_16920_jpg, window).
 holds(s_16920_jpg, billboard).
 holds(s_16920_jpg, porch).
 holds(s_16920_jpg, wallsign).
+holds(s_16920_jpg, pipe).
 holds(s_16920_jpg, commercial).
 
 sample(s_16921_jpg).
@@ -11799,7 +11415,6 @@ holds(s_16921_jpg, building).
 holds(s_16921_jpg, feature).
 holds(s_16921_jpg, hotel).
 holds(s_16921_jpg, store).
-holds(s_16921_jpg, suburban).
 holds(s_16921_jpg, window).
 holds(s_16921_jpg, billboard).
 holds(s_16921_jpg, porch).
@@ -11838,7 +11453,6 @@ holds(s_16924_jpg, building).
 holds(s_16924_jpg, feature).
 holds(s_16924_jpg, hotel).
 holds(s_16924_jpg, store).
-holds(s_16924_jpg, suburban).
 holds(s_16924_jpg, window).
 holds(s_16924_jpg, billboard).
 holds(s_16924_jpg, porch).
@@ -11851,7 +11465,6 @@ holds(s_16925_jpg, feature).
 holds(s_16925_jpg, hotel).
 holds(s_16925_jpg, store).
 holds(s_16925_jpg, suburban).
-holds(s_16925_jpg, door).
 holds(s_16925_jpg, billboard).
 holds(s_16925_jpg, porch).
 holds(s_16925_jpg, wallsign).
@@ -11877,7 +11490,6 @@ holds(s_16927_jpg, building).
 holds(s_16927_jpg, feature).
 holds(s_16927_jpg, hotel).
 holds(s_16927_jpg, store).
-holds(s_16927_jpg, suburban).
 holds(s_16927_jpg, window).
 holds(s_16927_jpg, billboard).
 holds(s_16927_jpg, porch).
@@ -11916,7 +11528,6 @@ holds(s_16930_jpg, building).
 holds(s_16930_jpg, feature).
 holds(s_16930_jpg, hotel).
 holds(s_16930_jpg, store).
-holds(s_16930_jpg, suburban).
 holds(s_16930_jpg, window).
 holds(s_16930_jpg, billboard).
 holds(s_16930_jpg, porch).
@@ -11929,7 +11540,6 @@ holds(s_16931_jpg, feature).
 holds(s_16931_jpg, hotel).
 holds(s_16931_jpg, store).
 holds(s_16931_jpg, suburban).
-holds(s_16931_jpg, door).
 holds(s_16931_jpg, billboard).
 holds(s_16931_jpg, porch).
 holds(s_16931_jpg, wallsign).
@@ -11955,7 +11565,6 @@ holds(s_16933_jpg, building).
 holds(s_16933_jpg, feature).
 holds(s_16933_jpg, hotel).
 holds(s_16933_jpg, store).
-holds(s_16933_jpg, suburban).
 holds(s_16933_jpg, window).
 holds(s_16933_jpg, billboard).
 holds(s_16933_jpg, porch).
@@ -11994,7 +11603,6 @@ holds(s_16936_jpg, building).
 holds(s_16936_jpg, feature).
 holds(s_16936_jpg, hotel).
 holds(s_16936_jpg, store).
-holds(s_16936_jpg, suburban).
 holds(s_16936_jpg, window).
 holds(s_16936_jpg, billboard).
 holds(s_16936_jpg, porch).
@@ -12033,7 +11641,6 @@ holds(s_16939_jpg, building).
 holds(s_16939_jpg, feature).
 holds(s_16939_jpg, hotel).
 holds(s_16939_jpg, store).
-holds(s_16939_jpg, suburban).
 holds(s_16939_jpg, window).
 holds(s_16939_jpg, billboard).
 holds(s_16939_jpg, porch).
@@ -12046,7 +11653,6 @@ holds(s_16940_jpg, feature).
 holds(s_16940_jpg, hotel).
 holds(s_16940_jpg, store).
 holds(s_16940_jpg, suburban).
-holds(s_16940_jpg, door).
 holds(s_16940_jpg, billboard).
 holds(s_16940_jpg, porch).
 holds(s_16940_jpg, wallsign).
@@ -12064,6 +11670,7 @@ holds(s_16941_jpg, window).
 holds(s_16941_jpg, billboard).
 holds(s_16941_jpg, porch).
 holds(s_16941_jpg, wallsign).
+holds(s_16941_jpg, pipe).
 holds(s_16941_jpg, commercial).
 
 sample(s_16942_jpg).
@@ -12071,7 +11678,6 @@ holds(s_16942_jpg, building).
 holds(s_16942_jpg, feature).
 holds(s_16942_jpg, hotel).
 holds(s_16942_jpg, store).
-holds(s_16942_jpg, suburban).
 holds(s_16942_jpg, window).
 holds(s_16942_jpg, billboard).
 holds(s_16942_jpg, porch).
@@ -12084,7 +11690,6 @@ holds(s_16943_jpg, feature).
 holds(s_16943_jpg, hotel).
 holds(s_16943_jpg, store).
 holds(s_16943_jpg, suburban).
-holds(s_16943_jpg, door).
 holds(s_16943_jpg, billboard).
 holds(s_16943_jpg, porch).
 holds(s_16943_jpg, wallsign).
@@ -12110,7 +11715,6 @@ holds(s_16945_jpg, building).
 holds(s_16945_jpg, feature).
 holds(s_16945_jpg, hotel).
 holds(s_16945_jpg, store).
-holds(s_16945_jpg, suburban).
 holds(s_16945_jpg, window).
 holds(s_16945_jpg, billboard).
 holds(s_16945_jpg, porch).
@@ -12123,7 +11727,6 @@ holds(s_16946_jpg, feature).
 holds(s_16946_jpg, hotel).
 holds(s_16946_jpg, store).
 holds(s_16946_jpg, suburban).
-holds(s_16946_jpg, door).
 holds(s_16946_jpg, billboard).
 holds(s_16946_jpg, porch).
 holds(s_16946_jpg, wallsign).
@@ -12141,6 +11744,7 @@ holds(s_16947_jpg, window).
 holds(s_16947_jpg, billboard).
 holds(s_16947_jpg, porch).
 holds(s_16947_jpg, wallsign).
+holds(s_16947_jpg, pipe).
 holds(s_16947_jpg, commercial).
 
 sample(s_16948_jpg).
@@ -12148,7 +11752,6 @@ holds(s_16948_jpg, building).
 holds(s_16948_jpg, feature).
 holds(s_16948_jpg, hotel).
 holds(s_16948_jpg, store).
-holds(s_16948_jpg, suburban).
 holds(s_16948_jpg, window).
 holds(s_16948_jpg, billboard).
 holds(s_16948_jpg, porch).
@@ -12161,7 +11764,6 @@ holds(s_16949_jpg, feature).
 holds(s_16949_jpg, hotel).
 holds(s_16949_jpg, store).
 holds(s_16949_jpg, suburban).
-holds(s_16949_jpg, door).
 holds(s_16949_jpg, billboard).
 holds(s_16949_jpg, porch).
 holds(s_16949_jpg, wallsign).
@@ -12187,7 +11789,6 @@ holds(s_16951_jpg, building).
 holds(s_16951_jpg, feature).
 holds(s_16951_jpg, hotel).
 holds(s_16951_jpg, store).
-holds(s_16951_jpg, suburban).
 holds(s_16951_jpg, window).
 holds(s_16951_jpg, billboard).
 holds(s_16951_jpg, porch).
@@ -12200,6 +11801,7 @@ holds(s_16952_jpg, feature).
 holds(s_16952_jpg, hotel).
 holds(s_16952_jpg, store).
 holds(s_16952_jpg, suburban).
+holds(s_16952_jpg, door).
 holds(s_16952_jpg, billboard).
 holds(s_16952_jpg, porch).
 holds(s_16952_jpg, wallsign).
@@ -12217,6 +11819,7 @@ holds(s_16953_jpg, window).
 holds(s_16953_jpg, billboard).
 holds(s_16953_jpg, porch).
 holds(s_16953_jpg, wallsign).
+holds(s_16953_jpg, pipe).
 holds(s_16953_jpg, commercial).
 
 sample(s_16954_jpg).
@@ -12224,7 +11827,6 @@ holds(s_16954_jpg, building).
 holds(s_16954_jpg, feature).
 holds(s_16954_jpg, hotel).
 holds(s_16954_jpg, store).
-holds(s_16954_jpg, suburban).
 holds(s_16954_jpg, window).
 holds(s_16954_jpg, billboard).
 holds(s_16954_jpg, porch).
@@ -12237,7 +11839,6 @@ holds(s_16955_jpg, feature).
 holds(s_16955_jpg, hotel).
 holds(s_16955_jpg, store).
 holds(s_16955_jpg, suburban).
-holds(s_16955_jpg, door).
 holds(s_16955_jpg, billboard).
 holds(s_16955_jpg, porch).
 holds(s_16955_jpg, wallsign).
@@ -12263,7 +11864,6 @@ holds(s_16957_jpg, building).
 holds(s_16957_jpg, feature).
 holds(s_16957_jpg, hotel).
 holds(s_16957_jpg, store).
-holds(s_16957_jpg, suburban).
 holds(s_16957_jpg, window).
 holds(s_16957_jpg, billboard).
 holds(s_16957_jpg, porch).
@@ -12287,7 +11887,6 @@ holds(s_16959_jpg, building).
 holds(s_16959_jpg, feature).
 holds(s_16959_jpg, hotel).
 holds(s_16959_jpg, store).
-holds(s_16959_jpg, suburban).
 holds(s_16959_jpg, window).
 holds(s_16959_jpg, billboard).
 holds(s_16959_jpg, porch).
@@ -12312,7 +11911,6 @@ holds(s_16961_jpg, feature).
 holds(s_16961_jpg, hotel).
 holds(s_16961_jpg, store).
 holds(s_16961_jpg, suburban).
-holds(s_16961_jpg, door).
 holds(s_16961_jpg, billboard).
 holds(s_16961_jpg, porch).
 holds(s_16961_jpg, wallsign).
@@ -12330,6 +11928,7 @@ holds(s_16962_jpg, window).
 holds(s_16962_jpg, billboard).
 holds(s_16962_jpg, porch).
 holds(s_16962_jpg, wallsign).
+holds(s_16962_jpg, pipe).
 holds(s_16962_jpg, commercial).
 
 sample(s_16963_jpg).
@@ -12337,7 +11936,6 @@ holds(s_16963_jpg, building).
 holds(s_16963_jpg, feature).
 holds(s_16963_jpg, hotel).
 holds(s_16963_jpg, store).
-holds(s_16963_jpg, suburban).
 holds(s_16963_jpg, window).
 holds(s_16963_jpg, billboard).
 holds(s_16963_jpg, porch).
@@ -12367,6 +11965,7 @@ holds(s_16965_jpg, window).
 holds(s_16965_jpg, billboard).
 holds(s_16965_jpg, porch).
 holds(s_16965_jpg, wallsign).
+holds(s_16965_jpg, pipe).
 holds(s_16965_jpg, commercial).
 
 sample(s_16966_jpg).
@@ -12374,7 +11973,6 @@ holds(s_16966_jpg, building).
 holds(s_16966_jpg, feature).
 holds(s_16966_jpg, hotel).
 holds(s_16966_jpg, store).
-holds(s_16966_jpg, suburban).
 holds(s_16966_jpg, window).
 holds(s_16966_jpg, billboard).
 holds(s_16966_jpg, porch).
@@ -12387,7 +11985,6 @@ holds(s_16967_jpg, feature).
 holds(s_16967_jpg, hotel).
 holds(s_16967_jpg, store).
 holds(s_16967_jpg, suburban).
-holds(s_16967_jpg, door).
 holds(s_16967_jpg, billboard).
 holds(s_16967_jpg, porch).
 holds(s_16967_jpg, wallsign).
@@ -12405,6 +12002,7 @@ holds(s_16968_jpg, window).
 holds(s_16968_jpg, billboard).
 holds(s_16968_jpg, porch).
 holds(s_16968_jpg, wallsign).
+holds(s_16968_jpg, pipe).
 holds(s_16968_jpg, commercial).
 
 sample(s_16969_jpg).
@@ -12412,7 +12010,6 @@ holds(s_16969_jpg, building).
 holds(s_16969_jpg, feature).
 holds(s_16969_jpg, hotel).
 holds(s_16969_jpg, store).
-holds(s_16969_jpg, suburban).
 holds(s_16969_jpg, window).
 holds(s_16969_jpg, billboard).
 holds(s_16969_jpg, porch).
@@ -12425,7 +12022,6 @@ holds(s_16970_jpg, feature).
 holds(s_16970_jpg, hotel).
 holds(s_16970_jpg, store).
 holds(s_16970_jpg, suburban).
-holds(s_16970_jpg, door).
 holds(s_16970_jpg, billboard).
 holds(s_16970_jpg, porch).
 holds(s_16970_jpg, wallsign).
@@ -12451,7 +12047,6 @@ holds(s_16972_jpg, building).
 holds(s_16972_jpg, feature).
 holds(s_16972_jpg, hotel).
 holds(s_16972_jpg, store).
-holds(s_16972_jpg, suburban).
 holds(s_16972_jpg, window).
 holds(s_16972_jpg, billboard).
 holds(s_16972_jpg, porch).
@@ -12482,6 +12077,7 @@ holds(s_16974_jpg, window).
 holds(s_16974_jpg, billboard).
 holds(s_16974_jpg, porch).
 holds(s_16974_jpg, wallsign).
+holds(s_16974_jpg, pipe).
 holds(s_16974_jpg, commercial).
 
 sample(s_16975_jpg).
@@ -12489,7 +12085,6 @@ holds(s_16975_jpg, building).
 holds(s_16975_jpg, feature).
 holds(s_16975_jpg, hotel).
 holds(s_16975_jpg, store).
-holds(s_16975_jpg, suburban).
 holds(s_16975_jpg, window).
 holds(s_16975_jpg, billboard).
 holds(s_16975_jpg, porch).
@@ -12527,7 +12122,6 @@ holds(s_16978_jpg, building).
 holds(s_16978_jpg, feature).
 holds(s_16978_jpg, hotel).
 holds(s_16978_jpg, store).
-holds(s_16978_jpg, suburban).
 holds(s_16978_jpg, window).
 holds(s_16978_jpg, billboard).
 holds(s_16978_jpg, porch).
@@ -12540,7 +12134,6 @@ holds(s_16979_jpg, feature).
 holds(s_16979_jpg, hotel).
 holds(s_16979_jpg, store).
 holds(s_16979_jpg, suburban).
-holds(s_16979_jpg, door).
 holds(s_16979_jpg, billboard).
 holds(s_16979_jpg, porch).
 holds(s_16979_jpg, wallsign).
@@ -12554,10 +12147,10 @@ holds(s_16980_jpg, hotel).
 holds(s_16980_jpg, store).
 holds(s_16980_jpg, suburban).
 holds(s_16980_jpg, door).
-holds(s_16980_jpg, window).
 holds(s_16980_jpg, billboard).
 holds(s_16980_jpg, porch).
 holds(s_16980_jpg, wallsign).
+holds(s_16980_jpg, pipe).
 holds(s_16980_jpg, car).
 holds(s_16980_jpg, commercial).
 
@@ -12566,7 +12159,6 @@ holds(s_16981_jpg, building).
 holds(s_16981_jpg, feature).
 holds(s_16981_jpg, hotel).
 holds(s_16981_jpg, store).
-holds(s_16981_jpg, suburban).
 holds(s_16981_jpg, window).
 holds(s_16981_jpg, billboard).
 holds(s_16981_jpg, porch).
@@ -12579,7 +12171,6 @@ holds(s_16982_jpg, feature).
 holds(s_16982_jpg, hotel).
 holds(s_16982_jpg, store).
 holds(s_16982_jpg, suburban).
-holds(s_16982_jpg, door).
 holds(s_16982_jpg, billboard).
 holds(s_16982_jpg, porch).
 holds(s_16982_jpg, wallsign).
@@ -12597,6 +12188,7 @@ holds(s_16983_jpg, window).
 holds(s_16983_jpg, billboard).
 holds(s_16983_jpg, porch).
 holds(s_16983_jpg, wallsign).
+holds(s_16983_jpg, pipe).
 holds(s_16983_jpg, commercial).
 
 sample(s_16984_jpg).
@@ -12604,7 +12196,6 @@ holds(s_16984_jpg, building).
 holds(s_16984_jpg, feature).
 holds(s_16984_jpg, hotel).
 holds(s_16984_jpg, store).
-holds(s_16984_jpg, suburban).
 holds(s_16984_jpg, window).
 holds(s_16984_jpg, billboard).
 holds(s_16984_jpg, porch).
@@ -12617,7 +12208,6 @@ holds(s_16985_jpg, feature).
 holds(s_16985_jpg, hotel).
 holds(s_16985_jpg, store).
 holds(s_16985_jpg, suburban).
-holds(s_16985_jpg, door).
 holds(s_16985_jpg, billboard).
 holds(s_16985_jpg, porch).
 holds(s_16985_jpg, wallsign).
@@ -12635,6 +12225,7 @@ holds(s_16986_jpg, window).
 holds(s_16986_jpg, billboard).
 holds(s_16986_jpg, porch).
 holds(s_16986_jpg, wallsign).
+holds(s_16986_jpg, pipe).
 holds(s_16986_jpg, commercial).
 
 sample(s_16987_jpg).
@@ -12643,12 +12234,11 @@ holds(s_16987_jpg, feature).
 holds(s_16987_jpg, hotel).
 holds(s_16987_jpg, store).
 holds(s_16987_jpg, suburban).
-holds(s_16987_jpg, door).
 holds(s_16987_jpg, window).
 holds(s_16987_jpg, billboard).
 holds(s_16987_jpg, porch).
 holds(s_16987_jpg, wallsign).
-holds(s_16987_jpg, commercial).
+holds(s_16987_jpg, industrial).
 
 sample(s_16988_jpg).
 holds(s_16988_jpg, building).
@@ -12656,7 +12246,6 @@ holds(s_16988_jpg, feature).
 holds(s_16988_jpg, hotel).
 holds(s_16988_jpg, store).
 holds(s_16988_jpg, suburban).
-holds(s_16988_jpg, door).
 holds(s_16988_jpg, billboard).
 holds(s_16988_jpg, porch).
 holds(s_16988_jpg, wallsign).
@@ -12682,7 +12271,6 @@ holds(s_16990_jpg, building).
 holds(s_16990_jpg, feature).
 holds(s_16990_jpg, hotel).
 holds(s_16990_jpg, store).
-holds(s_16990_jpg, suburban).
 holds(s_16990_jpg, window).
 holds(s_16990_jpg, billboard).
 holds(s_16990_jpg, porch).
@@ -12695,7 +12283,6 @@ holds(s_16991_jpg, feature).
 holds(s_16991_jpg, hotel).
 holds(s_16991_jpg, store).
 holds(s_16991_jpg, suburban).
-holds(s_16991_jpg, door).
 holds(s_16991_jpg, billboard).
 holds(s_16991_jpg, porch).
 holds(s_16991_jpg, wallsign).
@@ -12713,6 +12300,7 @@ holds(s_16992_jpg, window).
 holds(s_16992_jpg, billboard).
 holds(s_16992_jpg, porch).
 holds(s_16992_jpg, wallsign).
+holds(s_16992_jpg, pipe).
 holds(s_16992_jpg, commercial).
 
 sample(s_16993_jpg).
@@ -12720,7 +12308,6 @@ holds(s_16993_jpg, building).
 holds(s_16993_jpg, feature).
 holds(s_16993_jpg, hotel).
 holds(s_16993_jpg, store).
-holds(s_16993_jpg, suburban).
 holds(s_16993_jpg, window).
 holds(s_16993_jpg, billboard).
 holds(s_16993_jpg, porch).
@@ -12733,7 +12320,6 @@ holds(s_16994_jpg, feature).
 holds(s_16994_jpg, hotel).
 holds(s_16994_jpg, store).
 holds(s_16994_jpg, suburban).
-holds(s_16994_jpg, door).
 holds(s_16994_jpg, billboard).
 holds(s_16994_jpg, porch).
 holds(s_16994_jpg, wallsign).
@@ -12759,7 +12345,6 @@ holds(s_16996_jpg, building).
 holds(s_16996_jpg, feature).
 holds(s_16996_jpg, hotel).
 holds(s_16996_jpg, store).
-holds(s_16996_jpg, suburban).
 holds(s_16996_jpg, window).
 holds(s_16996_jpg, billboard).
 holds(s_16996_jpg, porch).
@@ -12790,6 +12375,7 @@ holds(s_16998_jpg, window).
 holds(s_16998_jpg, billboard).
 holds(s_16998_jpg, porch).
 holds(s_16998_jpg, wallsign).
+holds(s_16998_jpg, pipe).
 holds(s_16998_jpg, commercial).
 
 sample(s_16999_jpg).
@@ -12797,7 +12383,6 @@ holds(s_16999_jpg, building).
 holds(s_16999_jpg, feature).
 holds(s_16999_jpg, hotel).
 holds(s_16999_jpg, store).
-holds(s_16999_jpg, suburban).
 holds(s_16999_jpg, window).
 holds(s_16999_jpg, billboard).
 holds(s_16999_jpg, porch).
@@ -12865,6 +12450,7 @@ holds(s_17004_jpg, window).
 holds(s_17004_jpg, billboard).
 holds(s_17004_jpg, porch).
 holds(s_17004_jpg, wallsign).
+holds(s_17004_jpg, pipe).
 holds(s_17004_jpg, commercial).
 
 sample(s_17005_jpg).
@@ -12872,7 +12458,6 @@ holds(s_17005_jpg, building).
 holds(s_17005_jpg, feature).
 holds(s_17005_jpg, hotel).
 holds(s_17005_jpg, store).
-holds(s_17005_jpg, suburban).
 holds(s_17005_jpg, window).
 holds(s_17005_jpg, billboard).
 holds(s_17005_jpg, porch).
@@ -12885,7 +12470,6 @@ holds(s_17006_jpg, feature).
 holds(s_17006_jpg, hotel).
 holds(s_17006_jpg, store).
 holds(s_17006_jpg, suburban).
-holds(s_17006_jpg, door).
 holds(s_17006_jpg, billboard).
 holds(s_17006_jpg, porch).
 holds(s_17006_jpg, wallsign).
@@ -12903,6 +12487,7 @@ holds(s_17007_jpg, window).
 holds(s_17007_jpg, billboard).
 holds(s_17007_jpg, porch).
 holds(s_17007_jpg, wallsign).
+holds(s_17007_jpg, pipe).
 holds(s_17007_jpg, commercial).
 
 sample(s_17008_jpg).
@@ -12910,7 +12495,6 @@ holds(s_17008_jpg, building).
 holds(s_17008_jpg, feature).
 holds(s_17008_jpg, hotel).
 holds(s_17008_jpg, store).
-holds(s_17008_jpg, suburban).
 holds(s_17008_jpg, window).
 holds(s_17008_jpg, billboard).
 holds(s_17008_jpg, porch).
@@ -12923,7 +12507,6 @@ holds(s_17009_jpg, feature).
 holds(s_17009_jpg, hotel).
 holds(s_17009_jpg, store).
 holds(s_17009_jpg, suburban).
-holds(s_17009_jpg, door).
 holds(s_17009_jpg, billboard).
 holds(s_17009_jpg, porch).
 holds(s_17009_jpg, wallsign).
@@ -12941,6 +12524,7 @@ holds(s_17010_jpg, window).
 holds(s_17010_jpg, billboard).
 holds(s_17010_jpg, porch).
 holds(s_17010_jpg, wallsign).
+holds(s_17010_jpg, pipe).
 holds(s_17010_jpg, commercial).
 
 sample(s_17011_jpg).
@@ -12948,7 +12532,6 @@ holds(s_17011_jpg, building).
 holds(s_17011_jpg, feature).
 holds(s_17011_jpg, hotel).
 holds(s_17011_jpg, store).
-holds(s_17011_jpg, suburban).
 holds(s_17011_jpg, window).
 holds(s_17011_jpg, billboard).
 holds(s_17011_jpg, porch).
@@ -12979,6 +12562,7 @@ holds(s_17013_jpg, window).
 holds(s_17013_jpg, billboard).
 holds(s_17013_jpg, porch).
 holds(s_17013_jpg, wallsign).
+holds(s_17013_jpg, pipe).
 holds(s_17013_jpg, commercial).
 
 sample(s_17014_jpg).
@@ -12986,7 +12570,6 @@ holds(s_17014_jpg, building).
 holds(s_17014_jpg, feature).
 holds(s_17014_jpg, hotel).
 holds(s_17014_jpg, store).
-holds(s_17014_jpg, suburban).
 holds(s_17014_jpg, window).
 holds(s_17014_jpg, billboard).
 holds(s_17014_jpg, porch).
@@ -13024,7 +12607,6 @@ holds(s_17017_jpg, building).
 holds(s_17017_jpg, feature).
 holds(s_17017_jpg, hotel).
 holds(s_17017_jpg, store).
-holds(s_17017_jpg, suburban).
 holds(s_17017_jpg, window).
 holds(s_17017_jpg, billboard).
 holds(s_17017_jpg, porch).
@@ -13037,7 +12619,6 @@ holds(s_17018_jpg, feature).
 holds(s_17018_jpg, hotel).
 holds(s_17018_jpg, store).
 holds(s_17018_jpg, suburban).
-holds(s_17018_jpg, door).
 holds(s_17018_jpg, billboard).
 holds(s_17018_jpg, porch).
 holds(s_17018_jpg, wallsign).
@@ -13063,7 +12644,6 @@ holds(s_17020_jpg, building).
 holds(s_17020_jpg, feature).
 holds(s_17020_jpg, hotel).
 holds(s_17020_jpg, store).
-holds(s_17020_jpg, suburban).
 holds(s_17020_jpg, window).
 holds(s_17020_jpg, billboard).
 holds(s_17020_jpg, porch).
@@ -13093,6 +12673,7 @@ holds(s_17022_jpg, window).
 holds(s_17022_jpg, billboard).
 holds(s_17022_jpg, porch).
 holds(s_17022_jpg, wallsign).
+holds(s_17022_jpg, pipe).
 holds(s_17022_jpg, commercial).
 
 sample(s_17023_jpg).
@@ -13100,7 +12681,6 @@ holds(s_17023_jpg, building).
 holds(s_17023_jpg, feature).
 holds(s_17023_jpg, hotel).
 holds(s_17023_jpg, store).
-holds(s_17023_jpg, suburban).
 holds(s_17023_jpg, window).
 holds(s_17023_jpg, billboard).
 holds(s_17023_jpg, porch).
@@ -13113,7 +12693,6 @@ holds(s_17024_jpg, feature).
 holds(s_17024_jpg, hotel).
 holds(s_17024_jpg, store).
 holds(s_17024_jpg, suburban).
-holds(s_17024_jpg, door).
 holds(s_17024_jpg, billboard).
 holds(s_17024_jpg, porch).
 holds(s_17024_jpg, wallsign).
@@ -13131,6 +12710,7 @@ holds(s_17025_jpg, window).
 holds(s_17025_jpg, billboard).
 holds(s_17025_jpg, porch).
 holds(s_17025_jpg, wallsign).
+holds(s_17025_jpg, pipe).
 holds(s_17025_jpg, commercial).
 
 sample(s_17026_jpg).
@@ -13138,7 +12718,6 @@ holds(s_17026_jpg, building).
 holds(s_17026_jpg, feature).
 holds(s_17026_jpg, hotel).
 holds(s_17026_jpg, store).
-holds(s_17026_jpg, suburban).
 holds(s_17026_jpg, window).
 holds(s_17026_jpg, billboard).
 holds(s_17026_jpg, porch).
@@ -13151,7 +12730,6 @@ holds(s_17027_jpg, feature).
 holds(s_17027_jpg, hotel).
 holds(s_17027_jpg, store).
 holds(s_17027_jpg, suburban).
-holds(s_17027_jpg, door).
 holds(s_17027_jpg, billboard).
 holds(s_17027_jpg, porch).
 holds(s_17027_jpg, wallsign).
@@ -13177,7 +12755,6 @@ holds(s_17029_jpg, building).
 holds(s_17029_jpg, feature).
 holds(s_17029_jpg, hotel).
 holds(s_17029_jpg, store).
-holds(s_17029_jpg, suburban).
 holds(s_17029_jpg, window).
 holds(s_17029_jpg, billboard).
 holds(s_17029_jpg, porch).
@@ -13190,7 +12767,6 @@ holds(s_17030_jpg, feature).
 holds(s_17030_jpg, hotel).
 holds(s_17030_jpg, store).
 holds(s_17030_jpg, suburban).
-holds(s_17030_jpg, door).
 holds(s_17030_jpg, billboard).
 holds(s_17030_jpg, porch).
 holds(s_17030_jpg, wallsign).
@@ -13208,6 +12784,7 @@ holds(s_17031_jpg, window).
 holds(s_17031_jpg, billboard).
 holds(s_17031_jpg, porch).
 holds(s_17031_jpg, wallsign).
+holds(s_17031_jpg, pipe).
 holds(s_17031_jpg, commercial).
 
 sample(s_17032_jpg).
@@ -13215,7 +12792,6 @@ holds(s_17032_jpg, building).
 holds(s_17032_jpg, feature).
 holds(s_17032_jpg, hotel).
 holds(s_17032_jpg, store).
-holds(s_17032_jpg, suburban).
 holds(s_17032_jpg, window).
 holds(s_17032_jpg, billboard).
 holds(s_17032_jpg, porch).
@@ -13228,7 +12804,6 @@ holds(s_17033_jpg, feature).
 holds(s_17033_jpg, hotel).
 holds(s_17033_jpg, store).
 holds(s_17033_jpg, suburban).
-holds(s_17033_jpg, door).
 holds(s_17033_jpg, billboard).
 holds(s_17033_jpg, porch).
 holds(s_17033_jpg, wallsign).
@@ -13246,6 +12821,7 @@ holds(s_17034_jpg, window).
 holds(s_17034_jpg, billboard).
 holds(s_17034_jpg, porch).
 holds(s_17034_jpg, wallsign).
+holds(s_17034_jpg, pipe).
 holds(s_17034_jpg, commercial).
 
 sample(s_17035_jpg).
@@ -13253,7 +12829,6 @@ holds(s_17035_jpg, building).
 holds(s_17035_jpg, feature).
 holds(s_17035_jpg, hotel).
 holds(s_17035_jpg, store).
-holds(s_17035_jpg, suburban).
 holds(s_17035_jpg, window).
 holds(s_17035_jpg, billboard).
 holds(s_17035_jpg, porch).
@@ -13266,7 +12841,6 @@ holds(s_17036_jpg, feature).
 holds(s_17036_jpg, hotel).
 holds(s_17036_jpg, store).
 holds(s_17036_jpg, suburban).
-holds(s_17036_jpg, door).
 holds(s_17036_jpg, billboard).
 holds(s_17036_jpg, porch).
 holds(s_17036_jpg, wallsign).
@@ -13292,7 +12866,6 @@ holds(s_17038_jpg, building).
 holds(s_17038_jpg, feature).
 holds(s_17038_jpg, hotel).
 holds(s_17038_jpg, store).
-holds(s_17038_jpg, suburban).
 holds(s_17038_jpg, window).
 holds(s_17038_jpg, billboard).
 holds(s_17038_jpg, porch).
@@ -13305,7 +12878,6 @@ holds(s_17039_jpg, feature).
 holds(s_17039_jpg, hotel).
 holds(s_17039_jpg, store).
 holds(s_17039_jpg, suburban).
-holds(s_17039_jpg, door).
 holds(s_17039_jpg, billboard).
 holds(s_17039_jpg, porch).
 holds(s_17039_jpg, wallsign).
@@ -13323,7 +12895,6 @@ holds(s_17040_jpg, billboard).
 holds(s_17040_jpg, porch).
 holds(s_17040_jpg, wallsign).
 holds(s_17040_jpg, car).
-holds(s_17040_jpg, residential).
 holds(s_17040_jpg, commercial).
 
 sample(s_17041_jpg).
@@ -13331,7 +12902,6 @@ holds(s_17041_jpg, building).
 holds(s_17041_jpg, feature).
 holds(s_17041_jpg, hotel).
 holds(s_17041_jpg, store).
-holds(s_17041_jpg, suburban).
 holds(s_17041_jpg, window).
 holds(s_17041_jpg, billboard).
 holds(s_17041_jpg, porch).
@@ -13369,7 +12939,6 @@ holds(s_17044_jpg, building).
 holds(s_17044_jpg, feature).
 holds(s_17044_jpg, hotel).
 holds(s_17044_jpg, store).
-holds(s_17044_jpg, suburban).
 holds(s_17044_jpg, window).
 holds(s_17044_jpg, billboard).
 holds(s_17044_jpg, porch).
@@ -13382,7 +12951,6 @@ holds(s_17045_jpg, feature).
 holds(s_17045_jpg, hotel).
 holds(s_17045_jpg, store).
 holds(s_17045_jpg, suburban).
-holds(s_17045_jpg, door).
 holds(s_17045_jpg, billboard).
 holds(s_17045_jpg, porch).
 holds(s_17045_jpg, wallsign).
@@ -13400,6 +12968,7 @@ holds(s_17046_jpg, window).
 holds(s_17046_jpg, billboard).
 holds(s_17046_jpg, porch).
 holds(s_17046_jpg, wallsign).
+holds(s_17046_jpg, pipe).
 holds(s_17046_jpg, commercial).
 
 sample(s_17047_jpg).
@@ -13407,7 +12976,6 @@ holds(s_17047_jpg, building).
 holds(s_17047_jpg, feature).
 holds(s_17047_jpg, hotel).
 holds(s_17047_jpg, store).
-holds(s_17047_jpg, suburban).
 holds(s_17047_jpg, window).
 holds(s_17047_jpg, billboard).
 holds(s_17047_jpg, porch).
@@ -13420,7 +12988,6 @@ holds(s_17048_jpg, feature).
 holds(s_17048_jpg, hotel).
 holds(s_17048_jpg, store).
 holds(s_17048_jpg, suburban).
-holds(s_17048_jpg, door).
 holds(s_17048_jpg, billboard).
 holds(s_17048_jpg, porch).
 holds(s_17048_jpg, wallsign).
@@ -13452,7 +13019,6 @@ holds(s_17050_jpg, window).
 holds(s_17050_jpg, billboard).
 holds(s_17050_jpg, porch).
 holds(s_17050_jpg, wallsign).
-holds(s_17050_jpg, commercial).
 holds(s_17050_jpg, industrial).
 
 sample(s_17051_jpg).
@@ -13461,7 +13027,6 @@ holds(s_17051_jpg, feature).
 holds(s_17051_jpg, hotel).
 holds(s_17051_jpg, store).
 holds(s_17051_jpg, suburban).
-holds(s_17051_jpg, door).
 holds(s_17051_jpg, billboard).
 holds(s_17051_jpg, porch).
 holds(s_17051_jpg, wallsign).
@@ -13487,7 +13052,6 @@ holds(s_17053_jpg, building).
 holds(s_17053_jpg, feature).
 holds(s_17053_jpg, hotel).
 holds(s_17053_jpg, store).
-holds(s_17053_jpg, suburban).
 holds(s_17053_jpg, window).
 holds(s_17053_jpg, billboard).
 holds(s_17053_jpg, porch).
@@ -13525,7 +13089,6 @@ holds(s_17056_jpg, building).
 holds(s_17056_jpg, feature).
 holds(s_17056_jpg, hotel).
 holds(s_17056_jpg, store).
-holds(s_17056_jpg, suburban).
 holds(s_17056_jpg, window).
 holds(s_17056_jpg, billboard).
 holds(s_17056_jpg, porch).
@@ -13538,7 +13101,6 @@ holds(s_17057_jpg, feature).
 holds(s_17057_jpg, hotel).
 holds(s_17057_jpg, store).
 holds(s_17057_jpg, suburban).
-holds(s_17057_jpg, door).
 holds(s_17057_jpg, billboard).
 holds(s_17057_jpg, porch).
 holds(s_17057_jpg, wallsign).
@@ -13556,6 +13118,7 @@ holds(s_17058_jpg, window).
 holds(s_17058_jpg, billboard).
 holds(s_17058_jpg, porch).
 holds(s_17058_jpg, wallsign).
+holds(s_17058_jpg, pipe).
 holds(s_17058_jpg, commercial).
 
 sample(s_17059_jpg).
@@ -13563,7 +13126,6 @@ holds(s_17059_jpg, building).
 holds(s_17059_jpg, feature).
 holds(s_17059_jpg, hotel).
 holds(s_17059_jpg, store).
-holds(s_17059_jpg, suburban).
 holds(s_17059_jpg, window).
 holds(s_17059_jpg, billboard).
 holds(s_17059_jpg, porch).
@@ -13576,7 +13138,6 @@ holds(s_17060_jpg, feature).
 holds(s_17060_jpg, hotel).
 holds(s_17060_jpg, store).
 holds(s_17060_jpg, suburban).
-holds(s_17060_jpg, door).
 holds(s_17060_jpg, billboard).
 holds(s_17060_jpg, porch).
 holds(s_17060_jpg, wallsign).
@@ -13602,7 +13163,6 @@ holds(s_17062_jpg, building).
 holds(s_17062_jpg, feature).
 holds(s_17062_jpg, hotel).
 holds(s_17062_jpg, store).
-holds(s_17062_jpg, suburban).
 holds(s_17062_jpg, window).
 holds(s_17062_jpg, billboard).
 holds(s_17062_jpg, porch).
@@ -13641,7 +13201,6 @@ holds(s_17065_jpg, building).
 holds(s_17065_jpg, feature).
 holds(s_17065_jpg, hotel).
 holds(s_17065_jpg, store).
-holds(s_17065_jpg, suburban).
 holds(s_17065_jpg, window).
 holds(s_17065_jpg, billboard).
 holds(s_17065_jpg, porch).
@@ -13654,7 +13213,6 @@ holds(s_17066_jpg, feature).
 holds(s_17066_jpg, hotel).
 holds(s_17066_jpg, store).
 holds(s_17066_jpg, suburban).
-holds(s_17066_jpg, door).
 holds(s_17066_jpg, billboard).
 holds(s_17066_jpg, porch).
 holds(s_17066_jpg, wallsign).
@@ -13680,7 +13238,6 @@ holds(s_17068_jpg, building).
 holds(s_17068_jpg, feature).
 holds(s_17068_jpg, hotel).
 holds(s_17068_jpg, store).
-holds(s_17068_jpg, suburban).
 holds(s_17068_jpg, window).
 holds(s_17068_jpg, billboard).
 holds(s_17068_jpg, porch).
@@ -13719,7 +13276,6 @@ holds(s_17071_jpg, feature).
 holds(s_17071_jpg, hotel).
 holds(s_17071_jpg, store).
 holds(s_17071_jpg, suburban).
-holds(s_17071_jpg, door).
 holds(s_17071_jpg, window).
 holds(s_17071_jpg, billboard).
 holds(s_17071_jpg, porch).
@@ -13732,7 +13288,6 @@ holds(s_17072_jpg, feature).
 holds(s_17072_jpg, hotel).
 holds(s_17072_jpg, store).
 holds(s_17072_jpg, suburban).
-holds(s_17072_jpg, door).
 holds(s_17072_jpg, billboard).
 holds(s_17072_jpg, porch).
 holds(s_17072_jpg, wallsign).
@@ -13750,6 +13305,7 @@ holds(s_17073_jpg, window).
 holds(s_17073_jpg, billboard).
 holds(s_17073_jpg, porch).
 holds(s_17073_jpg, wallsign).
+holds(s_17073_jpg, pipe).
 holds(s_17073_jpg, commercial).
 
 sample(s_17074_jpg).
@@ -13757,7 +13313,6 @@ holds(s_17074_jpg, building).
 holds(s_17074_jpg, feature).
 holds(s_17074_jpg, hotel).
 holds(s_17074_jpg, store).
-holds(s_17074_jpg, suburban).
 holds(s_17074_jpg, window).
 holds(s_17074_jpg, billboard).
 holds(s_17074_jpg, porch).
@@ -13770,7 +13325,6 @@ holds(s_17075_jpg, feature).
 holds(s_17075_jpg, hotel).
 holds(s_17075_jpg, store).
 holds(s_17075_jpg, suburban).
-holds(s_17075_jpg, door).
 holds(s_17075_jpg, billboard).
 holds(s_17075_jpg, porch).
 holds(s_17075_jpg, wallsign).
@@ -13796,7 +13350,6 @@ holds(s_17077_jpg, building).
 holds(s_17077_jpg, feature).
 holds(s_17077_jpg, hotel).
 holds(s_17077_jpg, store).
-holds(s_17077_jpg, suburban).
 holds(s_17077_jpg, window).
 holds(s_17077_jpg, billboard).
 holds(s_17077_jpg, porch).
@@ -13809,7 +13362,6 @@ holds(s_17078_jpg, feature).
 holds(s_17078_jpg, hotel).
 holds(s_17078_jpg, store).
 holds(s_17078_jpg, suburban).
-holds(s_17078_jpg, door).
 holds(s_17078_jpg, billboard).
 holds(s_17078_jpg, porch).
 holds(s_17078_jpg, wallsign).
@@ -13827,6 +13379,7 @@ holds(s_17079_jpg, window).
 holds(s_17079_jpg, billboard).
 holds(s_17079_jpg, porch).
 holds(s_17079_jpg, wallsign).
+holds(s_17079_jpg, pipe).
 holds(s_17079_jpg, commercial).
 
 sample(s_17080_jpg).
@@ -13834,7 +13387,6 @@ holds(s_17080_jpg, building).
 holds(s_17080_jpg, feature).
 holds(s_17080_jpg, hotel).
 holds(s_17080_jpg, store).
-holds(s_17080_jpg, suburban).
 holds(s_17080_jpg, window).
 holds(s_17080_jpg, billboard).
 holds(s_17080_jpg, porch).
@@ -13847,7 +13399,6 @@ holds(s_17081_jpg, feature).
 holds(s_17081_jpg, hotel).
 holds(s_17081_jpg, store).
 holds(s_17081_jpg, suburban).
-holds(s_17081_jpg, door).
 holds(s_17081_jpg, billboard).
 holds(s_17081_jpg, porch).
 holds(s_17081_jpg, wallsign).
@@ -13873,7 +13424,6 @@ holds(s_17083_jpg, building).
 holds(s_17083_jpg, feature).
 holds(s_17083_jpg, hotel).
 holds(s_17083_jpg, store).
-holds(s_17083_jpg, suburban).
 holds(s_17083_jpg, window).
 holds(s_17083_jpg, billboard).
 holds(s_17083_jpg, porch).
@@ -13903,6 +13453,7 @@ holds(s_17085_jpg, window).
 holds(s_17085_jpg, billboard).
 holds(s_17085_jpg, porch).
 holds(s_17085_jpg, wallsign).
+holds(s_17085_jpg, pipe).
 holds(s_17085_jpg, commercial).
 
 sample(s_17086_jpg).
@@ -13910,7 +13461,6 @@ holds(s_17086_jpg, building).
 holds(s_17086_jpg, feature).
 holds(s_17086_jpg, hotel).
 holds(s_17086_jpg, store).
-holds(s_17086_jpg, suburban).
 holds(s_17086_jpg, window).
 holds(s_17086_jpg, billboard).
 holds(s_17086_jpg, porch).
@@ -13923,7 +13473,6 @@ holds(s_17087_jpg, feature).
 holds(s_17087_jpg, hotel).
 holds(s_17087_jpg, store).
 holds(s_17087_jpg, suburban).
-holds(s_17087_jpg, door).
 holds(s_17087_jpg, billboard).
 holds(s_17087_jpg, porch).
 holds(s_17087_jpg, wallsign).
@@ -13949,7 +13498,6 @@ holds(s_17089_jpg, building).
 holds(s_17089_jpg, feature).
 holds(s_17089_jpg, hotel).
 holds(s_17089_jpg, store).
-holds(s_17089_jpg, suburban).
 holds(s_17089_jpg, window).
 holds(s_17089_jpg, billboard).
 holds(s_17089_jpg, porch).
@@ -13979,6 +13527,7 @@ holds(s_17091_jpg, window).
 holds(s_17091_jpg, billboard).
 holds(s_17091_jpg, porch).
 holds(s_17091_jpg, wallsign).
+holds(s_17091_jpg, pipe).
 holds(s_17091_jpg, commercial).
 
 sample(s_17092_jpg).
@@ -13986,7 +13535,6 @@ holds(s_17092_jpg, building).
 holds(s_17092_jpg, feature).
 holds(s_17092_jpg, hotel).
 holds(s_17092_jpg, store).
-holds(s_17092_jpg, suburban).
 holds(s_17092_jpg, window).
 holds(s_17092_jpg, billboard).
 holds(s_17092_jpg, porch).
@@ -13999,7 +13547,6 @@ holds(s_17093_jpg, feature).
 holds(s_17093_jpg, hotel).
 holds(s_17093_jpg, store).
 holds(s_17093_jpg, suburban).
-holds(s_17093_jpg, door).
 holds(s_17093_jpg, billboard).
 holds(s_17093_jpg, porch).
 holds(s_17093_jpg, wallsign).
@@ -14025,7 +13572,6 @@ holds(s_17095_jpg, building).
 holds(s_17095_jpg, feature).
 holds(s_17095_jpg, hotel).
 holds(s_17095_jpg, store).
-holds(s_17095_jpg, suburban).
 holds(s_17095_jpg, window).
 holds(s_17095_jpg, billboard).
 holds(s_17095_jpg, porch).
@@ -14055,6 +13601,7 @@ holds(s_17097_jpg, window).
 holds(s_17097_jpg, billboard).
 holds(s_17097_jpg, porch).
 holds(s_17097_jpg, wallsign).
+holds(s_17097_jpg, pipe).
 holds(s_17097_jpg, commercial).
 
 sample(s_17098_jpg).
@@ -14062,7 +13609,6 @@ holds(s_17098_jpg, building).
 holds(s_17098_jpg, feature).
 holds(s_17098_jpg, hotel).
 holds(s_17098_jpg, store).
-holds(s_17098_jpg, suburban).
 holds(s_17098_jpg, window).
 holds(s_17098_jpg, billboard).
 holds(s_17098_jpg, porch).
@@ -14101,7 +13647,6 @@ holds(s_17101_jpg, building).
 holds(s_17101_jpg, feature).
 holds(s_17101_jpg, hotel).
 holds(s_17101_jpg, store).
-holds(s_17101_jpg, suburban).
 holds(s_17101_jpg, window).
 holds(s_17101_jpg, billboard).
 holds(s_17101_jpg, porch).
@@ -14114,7 +13659,6 @@ holds(s_17102_jpg, feature).
 holds(s_17102_jpg, hotel).
 holds(s_17102_jpg, store).
 holds(s_17102_jpg, suburban).
-holds(s_17102_jpg, door).
 holds(s_17102_jpg, billboard).
 holds(s_17102_jpg, porch).
 holds(s_17102_jpg, wallsign).
@@ -14140,7 +13684,6 @@ holds(s_17104_jpg, building).
 holds(s_17104_jpg, feature).
 holds(s_17104_jpg, hotel).
 holds(s_17104_jpg, store).
-holds(s_17104_jpg, suburban).
 holds(s_17104_jpg, window).
 holds(s_17104_jpg, billboard).
 holds(s_17104_jpg, porch).
@@ -14153,7 +13696,6 @@ holds(s_17105_jpg, feature).
 holds(s_17105_jpg, hotel).
 holds(s_17105_jpg, store).
 holds(s_17105_jpg, suburban).
-holds(s_17105_jpg, door).
 holds(s_17105_jpg, billboard).
 holds(s_17105_jpg, porch).
 holds(s_17105_jpg, wallsign).
@@ -14171,6 +13713,7 @@ holds(s_17106_jpg, window).
 holds(s_17106_jpg, billboard).
 holds(s_17106_jpg, porch).
 holds(s_17106_jpg, wallsign).
+holds(s_17106_jpg, pipe).
 holds(s_17106_jpg, commercial).
 
 sample(s_17107_jpg).
@@ -14178,6 +13721,7 @@ holds(s_17107_jpg, building).
 holds(s_17107_jpg, feature).
 holds(s_17107_jpg, hotel).
 holds(s_17107_jpg, store).
+holds(s_17107_jpg, suburban).
 holds(s_17107_jpg, window).
 holds(s_17107_jpg, billboard).
 holds(s_17107_jpg, porch).
@@ -14190,7 +13734,6 @@ holds(s_17108_jpg, feature).
 holds(s_17108_jpg, hotel).
 holds(s_17108_jpg, store).
 holds(s_17108_jpg, suburban).
-holds(s_17108_jpg, door).
 holds(s_17108_jpg, billboard).
 holds(s_17108_jpg, porch).
 holds(s_17108_jpg, wallsign).
@@ -14216,7 +13759,6 @@ holds(s_17110_jpg, building).
 holds(s_17110_jpg, feature).
 holds(s_17110_jpg, hotel).
 holds(s_17110_jpg, store).
-holds(s_17110_jpg, suburban).
 holds(s_17110_jpg, window).
 holds(s_17110_jpg, billboard).
 holds(s_17110_jpg, porch).
@@ -14229,7 +13771,6 @@ holds(s_17111_jpg, feature).
 holds(s_17111_jpg, hotel).
 holds(s_17111_jpg, store).
 holds(s_17111_jpg, suburban).
-holds(s_17111_jpg, door).
 holds(s_17111_jpg, billboard).
 holds(s_17111_jpg, porch).
 holds(s_17111_jpg, wallsign).
@@ -14255,7 +13796,6 @@ holds(s_17113_jpg, building).
 holds(s_17113_jpg, feature).
 holds(s_17113_jpg, hotel).
 holds(s_17113_jpg, store).
-holds(s_17113_jpg, suburban).
 holds(s_17113_jpg, window).
 holds(s_17113_jpg, billboard).
 holds(s_17113_jpg, porch).
@@ -14268,7 +13808,6 @@ holds(s_17114_jpg, feature).
 holds(s_17114_jpg, hotel).
 holds(s_17114_jpg, store).
 holds(s_17114_jpg, suburban).
-holds(s_17114_jpg, door).
 holds(s_17114_jpg, billboard).
 holds(s_17114_jpg, porch).
 holds(s_17114_jpg, wallsign).
@@ -14286,6 +13825,7 @@ holds(s_17115_jpg, window).
 holds(s_17115_jpg, billboard).
 holds(s_17115_jpg, porch).
 holds(s_17115_jpg, wallsign).
+holds(s_17115_jpg, pipe).
 holds(s_17115_jpg, commercial).
 
 sample(s_17116_jpg).
@@ -14293,7 +13833,6 @@ holds(s_17116_jpg, building).
 holds(s_17116_jpg, feature).
 holds(s_17116_jpg, hotel).
 holds(s_17116_jpg, store).
-holds(s_17116_jpg, suburban).
 holds(s_17116_jpg, window).
 holds(s_17116_jpg, billboard).
 holds(s_17116_jpg, porch).
@@ -14332,7 +13871,6 @@ holds(s_17119_jpg, feature).
 holds(s_17119_jpg, hotel).
 holds(s_17119_jpg, store).
 holds(s_17119_jpg, suburban).
-holds(s_17119_jpg, door).
 holds(s_17119_jpg, window).
 holds(s_17119_jpg, billboard).
 holds(s_17119_jpg, porch).
@@ -14345,7 +13883,6 @@ holds(s_17120_jpg, feature).
 holds(s_17120_jpg, hotel).
 holds(s_17120_jpg, store).
 holds(s_17120_jpg, suburban).
-holds(s_17120_jpg, door).
 holds(s_17120_jpg, billboard).
 holds(s_17120_jpg, porch).
 holds(s_17120_jpg, wallsign).
@@ -14371,7 +13908,6 @@ holds(s_17122_jpg, building).
 holds(s_17122_jpg, feature).
 holds(s_17122_jpg, hotel).
 holds(s_17122_jpg, store).
-holds(s_17122_jpg, suburban).
 holds(s_17122_jpg, window).
 holds(s_17122_jpg, billboard).
 holds(s_17122_jpg, porch).
@@ -14384,7 +13920,6 @@ holds(s_17123_jpg, feature).
 holds(s_17123_jpg, hotel).
 holds(s_17123_jpg, store).
 holds(s_17123_jpg, suburban).
-holds(s_17123_jpg, door).
 holds(s_17123_jpg, billboard).
 holds(s_17123_jpg, porch).
 holds(s_17123_jpg, wallsign).
@@ -14402,6 +13937,7 @@ holds(s_17124_jpg, window).
 holds(s_17124_jpg, billboard).
 holds(s_17124_jpg, porch).
 holds(s_17124_jpg, wallsign).
+holds(s_17124_jpg, pipe).
 holds(s_17124_jpg, commercial).
 
 sample(s_17125_jpg).
@@ -14409,7 +13945,6 @@ holds(s_17125_jpg, building).
 holds(s_17125_jpg, feature).
 holds(s_17125_jpg, hotel).
 holds(s_17125_jpg, store).
-holds(s_17125_jpg, suburban).
 holds(s_17125_jpg, window).
 holds(s_17125_jpg, billboard).
 holds(s_17125_jpg, porch).
@@ -14422,7 +13957,6 @@ holds(s_17126_jpg, feature).
 holds(s_17126_jpg, hotel).
 holds(s_17126_jpg, store).
 holds(s_17126_jpg, suburban).
-holds(s_17126_jpg, door).
 holds(s_17126_jpg, billboard).
 holds(s_17126_jpg, porch).
 holds(s_17126_jpg, wallsign).
@@ -14448,7 +13982,6 @@ holds(s_17128_jpg, building).
 holds(s_17128_jpg, feature).
 holds(s_17128_jpg, hotel).
 holds(s_17128_jpg, store).
-holds(s_17128_jpg, suburban).
 holds(s_17128_jpg, window).
 holds(s_17128_jpg, billboard).
 holds(s_17128_jpg, porch).
@@ -14461,7 +13994,6 @@ holds(s_17129_jpg, feature).
 holds(s_17129_jpg, hotel).
 holds(s_17129_jpg, store).
 holds(s_17129_jpg, suburban).
-holds(s_17129_jpg, door).
 holds(s_17129_jpg, billboard).
 holds(s_17129_jpg, porch).
 holds(s_17129_jpg, wallsign).
@@ -14487,7 +14019,6 @@ holds(s_17131_jpg, building).
 holds(s_17131_jpg, feature).
 holds(s_17131_jpg, hotel).
 holds(s_17131_jpg, store).
-holds(s_17131_jpg, suburban).
 holds(s_17131_jpg, window).
 holds(s_17131_jpg, billboard).
 holds(s_17131_jpg, porch).
@@ -14500,7 +14031,6 @@ holds(s_17132_jpg, feature).
 holds(s_17132_jpg, hotel).
 holds(s_17132_jpg, store).
 holds(s_17132_jpg, suburban).
-holds(s_17132_jpg, door).
 holds(s_17132_jpg, billboard).
 holds(s_17132_jpg, porch).
 holds(s_17132_jpg, wallsign).
@@ -14518,6 +14048,7 @@ holds(s_17133_jpg, window).
 holds(s_17133_jpg, billboard).
 holds(s_17133_jpg, porch).
 holds(s_17133_jpg, wallsign).
+holds(s_17133_jpg, pipe).
 holds(s_17133_jpg, commercial).
 
 sample(s_17134_jpg).
@@ -14525,7 +14056,6 @@ holds(s_17134_jpg, building).
 holds(s_17134_jpg, feature).
 holds(s_17134_jpg, hotel).
 holds(s_17134_jpg, store).
-holds(s_17134_jpg, suburban).
 holds(s_17134_jpg, window).
 holds(s_17134_jpg, billboard).
 holds(s_17134_jpg, porch).
@@ -14555,6 +14085,7 @@ holds(s_17136_jpg, window).
 holds(s_17136_jpg, billboard).
 holds(s_17136_jpg, porch).
 holds(s_17136_jpg, wallsign).
+holds(s_17136_jpg, pipe).
 holds(s_17136_jpg, commercial).
 
 sample(s_17137_jpg).
@@ -14562,7 +14093,6 @@ holds(s_17137_jpg, building).
 holds(s_17137_jpg, feature).
 holds(s_17137_jpg, hotel).
 holds(s_17137_jpg, store).
-holds(s_17137_jpg, suburban).
 holds(s_17137_jpg, window).
 holds(s_17137_jpg, billboard).
 holds(s_17137_jpg, porch).
@@ -14639,7 +14169,6 @@ holds(s_17143_jpg, building).
 holds(s_17143_jpg, feature).
 holds(s_17143_jpg, hotel).
 holds(s_17143_jpg, store).
-holds(s_17143_jpg, suburban).
 holds(s_17143_jpg, window).
 holds(s_17143_jpg, billboard).
 holds(s_17143_jpg, porch).
@@ -14652,7 +14181,6 @@ holds(s_17144_jpg, feature).
 holds(s_17144_jpg, hotel).
 holds(s_17144_jpg, store).
 holds(s_17144_jpg, suburban).
-holds(s_17144_jpg, door).
 holds(s_17144_jpg, billboard).
 holds(s_17144_jpg, porch).
 holds(s_17144_jpg, wallsign).
@@ -14678,7 +14206,6 @@ holds(s_17146_jpg, building).
 holds(s_17146_jpg, feature).
 holds(s_17146_jpg, hotel).
 holds(s_17146_jpg, store).
-holds(s_17146_jpg, suburban).
 holds(s_17146_jpg, window).
 holds(s_17146_jpg, billboard).
 holds(s_17146_jpg, porch).
@@ -14691,7 +14218,6 @@ holds(s_17147_jpg, feature).
 holds(s_17147_jpg, hotel).
 holds(s_17147_jpg, store).
 holds(s_17147_jpg, suburban).
-holds(s_17147_jpg, door).
 holds(s_17147_jpg, billboard).
 holds(s_17147_jpg, porch).
 holds(s_17147_jpg, wallsign).
@@ -14717,7 +14243,6 @@ holds(s_17149_jpg, building).
 holds(s_17149_jpg, feature).
 holds(s_17149_jpg, hotel).
 holds(s_17149_jpg, store).
-holds(s_17149_jpg, suburban).
 holds(s_17149_jpg, window).
 holds(s_17149_jpg, billboard).
 holds(s_17149_jpg, porch).
@@ -14748,6 +14273,7 @@ holds(s_17151_jpg, window).
 holds(s_17151_jpg, billboard).
 holds(s_17151_jpg, porch).
 holds(s_17151_jpg, wallsign).
+holds(s_17151_jpg, pipe).
 holds(s_17151_jpg, commercial).
 
 sample(s_17152_jpg).
@@ -14755,7 +14281,6 @@ holds(s_17152_jpg, building).
 holds(s_17152_jpg, feature).
 holds(s_17152_jpg, hotel).
 holds(s_17152_jpg, store).
-holds(s_17152_jpg, suburban).
 holds(s_17152_jpg, window).
 holds(s_17152_jpg, billboard).
 holds(s_17152_jpg, porch).
@@ -14793,7 +14318,6 @@ holds(s_17155_jpg, building).
 holds(s_17155_jpg, feature).
 holds(s_17155_jpg, hotel).
 holds(s_17155_jpg, store).
-holds(s_17155_jpg, suburban).
 holds(s_17155_jpg, window).
 holds(s_17155_jpg, billboard).
 holds(s_17155_jpg, porch).
@@ -14824,6 +14348,7 @@ holds(s_17157_jpg, window).
 holds(s_17157_jpg, billboard).
 holds(s_17157_jpg, porch).
 holds(s_17157_jpg, wallsign).
+holds(s_17157_jpg, pipe).
 holds(s_17157_jpg, commercial).
 
 sample(s_17158_jpg).
@@ -14831,7 +14356,6 @@ holds(s_17158_jpg, building).
 holds(s_17158_jpg, feature).
 holds(s_17158_jpg, hotel).
 holds(s_17158_jpg, store).
-holds(s_17158_jpg, suburban).
 holds(s_17158_jpg, window).
 holds(s_17158_jpg, billboard).
 holds(s_17158_jpg, porch).
@@ -14861,6 +14385,7 @@ holds(s_17160_jpg, window).
 holds(s_17160_jpg, billboard).
 holds(s_17160_jpg, porch).
 holds(s_17160_jpg, wallsign).
+holds(s_17160_jpg, pipe).
 holds(s_17160_jpg, commercial).
 
 sample(s_17161_jpg).
@@ -14868,7 +14393,6 @@ holds(s_17161_jpg, building).
 holds(s_17161_jpg, feature).
 holds(s_17161_jpg, hotel).
 holds(s_17161_jpg, store).
-holds(s_17161_jpg, suburban).
 holds(s_17161_jpg, window).
 holds(s_17161_jpg, billboard).
 holds(s_17161_jpg, porch).
@@ -14881,7 +14405,6 @@ holds(s_17162_jpg, feature).
 holds(s_17162_jpg, hotel).
 holds(s_17162_jpg, store).
 holds(s_17162_jpg, suburban).
-holds(s_17162_jpg, door).
 holds(s_17162_jpg, billboard).
 holds(s_17162_jpg, porch).
 holds(s_17162_jpg, wallsign).
@@ -14907,7 +14430,6 @@ holds(s_17164_jpg, building).
 holds(s_17164_jpg, feature).
 holds(s_17164_jpg, hotel).
 holds(s_17164_jpg, store).
-holds(s_17164_jpg, suburban).
 holds(s_17164_jpg, window).
 holds(s_17164_jpg, billboard).
 holds(s_17164_jpg, porch).
@@ -14920,7 +14442,6 @@ holds(s_17165_jpg, feature).
 holds(s_17165_jpg, hotel).
 holds(s_17165_jpg, store).
 holds(s_17165_jpg, suburban).
-holds(s_17165_jpg, door).
 holds(s_17165_jpg, billboard).
 holds(s_17165_jpg, porch).
 holds(s_17165_jpg, wallsign).
@@ -14938,14 +14459,13 @@ holds(s_17166_jpg, billboard).
 holds(s_17166_jpg, porch).
 holds(s_17166_jpg, wallsign).
 holds(s_17166_jpg, car).
-holds(s_17166_jpg, residential).
+holds(s_17166_jpg, commercial).
 
 sample(s_17167_jpg).
 holds(s_17167_jpg, building).
 holds(s_17167_jpg, feature).
 holds(s_17167_jpg, hotel).
 holds(s_17167_jpg, store).
-holds(s_17167_jpg, suburban).
 holds(s_17167_jpg, window).
 holds(s_17167_jpg, billboard).
 holds(s_17167_jpg, porch).
@@ -14976,6 +14496,7 @@ holds(s_17169_jpg, window).
 holds(s_17169_jpg, billboard).
 holds(s_17169_jpg, porch).
 holds(s_17169_jpg, wallsign).
+holds(s_17169_jpg, pipe).
 holds(s_17169_jpg, commercial).
 
 sample(s_17170_jpg).
@@ -14983,7 +14504,6 @@ holds(s_17170_jpg, building).
 holds(s_17170_jpg, feature).
 holds(s_17170_jpg, hotel).
 holds(s_17170_jpg, store).
-holds(s_17170_jpg, suburban).
 holds(s_17170_jpg, window).
 holds(s_17170_jpg, billboard).
 holds(s_17170_jpg, porch).
@@ -14996,7 +14516,6 @@ holds(s_17171_jpg, feature).
 holds(s_17171_jpg, hotel).
 holds(s_17171_jpg, store).
 holds(s_17171_jpg, suburban).
-holds(s_17171_jpg, door).
 holds(s_17171_jpg, billboard).
 holds(s_17171_jpg, porch).
 holds(s_17171_jpg, wallsign).
@@ -15014,6 +14533,7 @@ holds(s_17172_jpg, window).
 holds(s_17172_jpg, billboard).
 holds(s_17172_jpg, porch).
 holds(s_17172_jpg, wallsign).
+holds(s_17172_jpg, pipe).
 holds(s_17172_jpg, commercial).
 
 sample(s_17173_jpg).
@@ -15021,7 +14541,6 @@ holds(s_17173_jpg, building).
 holds(s_17173_jpg, feature).
 holds(s_17173_jpg, hotel).
 holds(s_17173_jpg, store).
-holds(s_17173_jpg, suburban).
 holds(s_17173_jpg, window).
 holds(s_17173_jpg, billboard).
 holds(s_17173_jpg, porch).
@@ -15051,6 +14570,7 @@ holds(s_17175_jpg, window).
 holds(s_17175_jpg, billboard).
 holds(s_17175_jpg, porch).
 holds(s_17175_jpg, wallsign).
+holds(s_17175_jpg, pipe).
 holds(s_17175_jpg, commercial).
 
 sample(s_17176_jpg).
@@ -15058,7 +14578,6 @@ holds(s_17176_jpg, building).
 holds(s_17176_jpg, feature).
 holds(s_17176_jpg, hotel).
 holds(s_17176_jpg, store).
-holds(s_17176_jpg, suburban).
 holds(s_17176_jpg, window).
 holds(s_17176_jpg, billboard).
 holds(s_17176_jpg, porch).
@@ -15071,7 +14590,6 @@ holds(s_17177_jpg, feature).
 holds(s_17177_jpg, hotel).
 holds(s_17177_jpg, store).
 holds(s_17177_jpg, suburban).
-holds(s_17177_jpg, door).
 holds(s_17177_jpg, billboard).
 holds(s_17177_jpg, porch).
 holds(s_17177_jpg, wallsign).
@@ -15097,7 +14615,6 @@ holds(s_17179_jpg, building).
 holds(s_17179_jpg, feature).
 holds(s_17179_jpg, hotel).
 holds(s_17179_jpg, store).
-holds(s_17179_jpg, suburban).
 holds(s_17179_jpg, window).
 holds(s_17179_jpg, billboard).
 holds(s_17179_jpg, porch).
@@ -15110,7 +14627,6 @@ holds(s_17180_jpg, feature).
 holds(s_17180_jpg, hotel).
 holds(s_17180_jpg, store).
 holds(s_17180_jpg, suburban).
-holds(s_17180_jpg, door).
 holds(s_17180_jpg, billboard).
 holds(s_17180_jpg, porch).
 holds(s_17180_jpg, wallsign).
@@ -15135,7 +14651,6 @@ holds(s_17182_jpg, building).
 holds(s_17182_jpg, feature).
 holds(s_17182_jpg, hotel).
 holds(s_17182_jpg, store).
-holds(s_17182_jpg, suburban).
 holds(s_17182_jpg, window).
 holds(s_17182_jpg, billboard).
 holds(s_17182_jpg, porch).
@@ -15148,7 +14663,6 @@ holds(s_17183_jpg, feature).
 holds(s_17183_jpg, hotel).
 holds(s_17183_jpg, store).
 holds(s_17183_jpg, suburban).
-holds(s_17183_jpg, door).
 holds(s_17183_jpg, billboard).
 holds(s_17183_jpg, porch).
 holds(s_17183_jpg, wallsign).
@@ -15166,6 +14680,7 @@ holds(s_17184_jpg, window).
 holds(s_17184_jpg, billboard).
 holds(s_17184_jpg, porch).
 holds(s_17184_jpg, wallsign).
+holds(s_17184_jpg, pipe).
 holds(s_17184_jpg, commercial).
 
 sample(s_17185_jpg).
@@ -15173,7 +14688,6 @@ holds(s_17185_jpg, building).
 holds(s_17185_jpg, feature).
 holds(s_17185_jpg, hotel).
 holds(s_17185_jpg, store).
-holds(s_17185_jpg, suburban).
 holds(s_17185_jpg, window).
 holds(s_17185_jpg, billboard).
 holds(s_17185_jpg, porch).
@@ -15186,7 +14700,6 @@ holds(s_17186_jpg, feature).
 holds(s_17186_jpg, hotel).
 holds(s_17186_jpg, store).
 holds(s_17186_jpg, suburban).
-holds(s_17186_jpg, door).
 holds(s_17186_jpg, billboard).
 holds(s_17186_jpg, porch).
 holds(s_17186_jpg, wallsign).
@@ -15212,7 +14725,6 @@ holds(s_17188_jpg, building).
 holds(s_17188_jpg, feature).
 holds(s_17188_jpg, hotel).
 holds(s_17188_jpg, store).
-holds(s_17188_jpg, suburban).
 holds(s_17188_jpg, window).
 holds(s_17188_jpg, billboard).
 holds(s_17188_jpg, porch).
@@ -15250,7 +14762,6 @@ holds(s_17191_jpg, building).
 holds(s_17191_jpg, feature).
 holds(s_17191_jpg, hotel).
 holds(s_17191_jpg, store).
-holds(s_17191_jpg, suburban).
 holds(s_17191_jpg, window).
 holds(s_17191_jpg, billboard).
 holds(s_17191_jpg, porch).
@@ -15263,7 +14774,6 @@ holds(s_17192_jpg, feature).
 holds(s_17192_jpg, hotel).
 holds(s_17192_jpg, store).
 holds(s_17192_jpg, suburban).
-holds(s_17192_jpg, door).
 holds(s_17192_jpg, billboard).
 holds(s_17192_jpg, porch).
 holds(s_17192_jpg, wallsign).
@@ -15281,6 +14791,7 @@ holds(s_17193_jpg, window).
 holds(s_17193_jpg, billboard).
 holds(s_17193_jpg, porch).
 holds(s_17193_jpg, wallsign).
+holds(s_17193_jpg, pipe).
 holds(s_17193_jpg, commercial).
 
 sample(s_17194_jpg).
@@ -15288,7 +14799,6 @@ holds(s_17194_jpg, building).
 holds(s_17194_jpg, feature).
 holds(s_17194_jpg, hotel).
 holds(s_17194_jpg, store).
-holds(s_17194_jpg, suburban).
 holds(s_17194_jpg, window).
 holds(s_17194_jpg, billboard).
 holds(s_17194_jpg, porch).
@@ -15301,7 +14811,6 @@ holds(s_17195_jpg, feature).
 holds(s_17195_jpg, hotel).
 holds(s_17195_jpg, store).
 holds(s_17195_jpg, suburban).
-holds(s_17195_jpg, door).
 holds(s_17195_jpg, billboard).
 holds(s_17195_jpg, porch).
 holds(s_17195_jpg, wallsign).
@@ -15319,6 +14828,7 @@ holds(s_17196_jpg, window).
 holds(s_17196_jpg, billboard).
 holds(s_17196_jpg, porch).
 holds(s_17196_jpg, wallsign).
+holds(s_17196_jpg, pipe).
 holds(s_17196_jpg, commercial).
 
 sample(s_17197_jpg).
@@ -15326,7 +14836,6 @@ holds(s_17197_jpg, building).
 holds(s_17197_jpg, feature).
 holds(s_17197_jpg, hotel).
 holds(s_17197_jpg, store).
-holds(s_17197_jpg, suburban).
 holds(s_17197_jpg, window).
 holds(s_17197_jpg, billboard).
 holds(s_17197_jpg, porch).
@@ -15339,7 +14848,6 @@ holds(s_17198_jpg, feature).
 holds(s_17198_jpg, hotel).
 holds(s_17198_jpg, store).
 holds(s_17198_jpg, suburban).
-holds(s_17198_jpg, door).
 holds(s_17198_jpg, billboard).
 holds(s_17198_jpg, porch).
 holds(s_17198_jpg, wallsign).
@@ -15365,7 +14873,6 @@ holds(s_17200_jpg, building).
 holds(s_17200_jpg, feature).
 holds(s_17200_jpg, hotel).
 holds(s_17200_jpg, store).
-holds(s_17200_jpg, suburban).
 holds(s_17200_jpg, window).
 holds(s_17200_jpg, billboard).
 holds(s_17200_jpg, porch).
@@ -15378,7 +14885,6 @@ holds(s_17201_jpg, feature).
 holds(s_17201_jpg, hotel).
 holds(s_17201_jpg, store).
 holds(s_17201_jpg, suburban).
-holds(s_17201_jpg, door).
 holds(s_17201_jpg, billboard).
 holds(s_17201_jpg, porch).
 holds(s_17201_jpg, wallsign).
@@ -15404,7 +14910,6 @@ holds(s_17203_jpg, building).
 holds(s_17203_jpg, feature).
 holds(s_17203_jpg, hotel).
 holds(s_17203_jpg, store).
-holds(s_17203_jpg, suburban).
 holds(s_17203_jpg, window).
 holds(s_17203_jpg, billboard).
 holds(s_17203_jpg, porch).
@@ -15430,10 +14935,10 @@ holds(s_17205_jpg, hotel).
 holds(s_17205_jpg, store).
 holds(s_17205_jpg, suburban).
 holds(s_17205_jpg, door).
-holds(s_17205_jpg, window).
 holds(s_17205_jpg, billboard).
 holds(s_17205_jpg, porch).
 holds(s_17205_jpg, wallsign).
+holds(s_17205_jpg, car).
 holds(s_17205_jpg, commercial).
 
 sample(s_17206_jpg).
@@ -15441,7 +14946,6 @@ holds(s_17206_jpg, building).
 holds(s_17206_jpg, feature).
 holds(s_17206_jpg, hotel).
 holds(s_17206_jpg, store).
-holds(s_17206_jpg, suburban).
 holds(s_17206_jpg, window).
 holds(s_17206_jpg, billboard).
 holds(s_17206_jpg, porch).
@@ -15454,7 +14958,6 @@ holds(s_17207_jpg, feature).
 holds(s_17207_jpg, hotel).
 holds(s_17207_jpg, store).
 holds(s_17207_jpg, suburban).
-holds(s_17207_jpg, door).
 holds(s_17207_jpg, billboard).
 holds(s_17207_jpg, porch).
 holds(s_17207_jpg, wallsign).
@@ -15472,6 +14975,7 @@ holds(s_17208_jpg, window).
 holds(s_17208_jpg, billboard).
 holds(s_17208_jpg, porch).
 holds(s_17208_jpg, wallsign).
+holds(s_17208_jpg, pipe).
 holds(s_17208_jpg, commercial).
 
 sample(s_17209_jpg).
@@ -15479,7 +14983,6 @@ holds(s_17209_jpg, building).
 holds(s_17209_jpg, feature).
 holds(s_17209_jpg, hotel).
 holds(s_17209_jpg, store).
-holds(s_17209_jpg, suburban).
 holds(s_17209_jpg, window).
 holds(s_17209_jpg, billboard).
 holds(s_17209_jpg, porch).
@@ -15492,7 +14995,6 @@ holds(s_17210_jpg, feature).
 holds(s_17210_jpg, hotel).
 holds(s_17210_jpg, store).
 holds(s_17210_jpg, suburban).
-holds(s_17210_jpg, door).
 holds(s_17210_jpg, billboard).
 holds(s_17210_jpg, porch).
 holds(s_17210_jpg, wallsign).
@@ -15510,6 +15012,7 @@ holds(s_17211_jpg, window).
 holds(s_17211_jpg, billboard).
 holds(s_17211_jpg, porch).
 holds(s_17211_jpg, wallsign).
+holds(s_17211_jpg, pipe).
 holds(s_17211_jpg, commercial).
 
 sample(s_17212_jpg).
@@ -15517,13 +15020,10 @@ holds(s_17212_jpg, building).
 holds(s_17212_jpg, feature).
 holds(s_17212_jpg, hotel).
 holds(s_17212_jpg, store).
-holds(s_17212_jpg, suburban).
-holds(s_17212_jpg, door).
 holds(s_17212_jpg, window).
 holds(s_17212_jpg, billboard).
 holds(s_17212_jpg, porch).
 holds(s_17212_jpg, wallsign).
-holds(s_17212_jpg, commercial).
 holds(s_17212_jpg, industrial).
 
 sample(s_17213_jpg).
@@ -15532,7 +15032,6 @@ holds(s_17213_jpg, feature).
 holds(s_17213_jpg, hotel).
 holds(s_17213_jpg, store).
 holds(s_17213_jpg, suburban).
-holds(s_17213_jpg, door).
 holds(s_17213_jpg, billboard).
 holds(s_17213_jpg, porch).
 holds(s_17213_jpg, wallsign).
@@ -15558,7 +15057,6 @@ holds(s_17215_jpg, building).
 holds(s_17215_jpg, feature).
 holds(s_17215_jpg, hotel).
 holds(s_17215_jpg, store).
-holds(s_17215_jpg, suburban).
 holds(s_17215_jpg, window).
 holds(s_17215_jpg, billboard).
 holds(s_17215_jpg, porch).
@@ -15571,7 +15069,6 @@ holds(s_17216_jpg, feature).
 holds(s_17216_jpg, hotel).
 holds(s_17216_jpg, store).
 holds(s_17216_jpg, suburban).
-holds(s_17216_jpg, door).
 holds(s_17216_jpg, billboard).
 holds(s_17216_jpg, porch).
 holds(s_17216_jpg, wallsign).
@@ -15589,6 +15086,7 @@ holds(s_17217_jpg, window).
 holds(s_17217_jpg, billboard).
 holds(s_17217_jpg, porch).
 holds(s_17217_jpg, wallsign).
+holds(s_17217_jpg, pipe).
 holds(s_17217_jpg, commercial).
 
 sample(s_17218_jpg).
@@ -15596,7 +15094,6 @@ holds(s_17218_jpg, building).
 holds(s_17218_jpg, feature).
 holds(s_17218_jpg, hotel).
 holds(s_17218_jpg, store).
-holds(s_17218_jpg, suburban).
 holds(s_17218_jpg, window).
 holds(s_17218_jpg, billboard).
 holds(s_17218_jpg, porch).
@@ -15609,7 +15106,6 @@ holds(s_17219_jpg, feature).
 holds(s_17219_jpg, hotel).
 holds(s_17219_jpg, store).
 holds(s_17219_jpg, suburban).
-holds(s_17219_jpg, door).
 holds(s_17219_jpg, billboard).
 holds(s_17219_jpg, porch).
 holds(s_17219_jpg, wallsign).
@@ -15635,7 +15131,6 @@ holds(s_17221_jpg, building).
 holds(s_17221_jpg, feature).
 holds(s_17221_jpg, hotel).
 holds(s_17221_jpg, store).
-holds(s_17221_jpg, suburban).
 holds(s_17221_jpg, window).
 holds(s_17221_jpg, billboard).
 holds(s_17221_jpg, porch).
@@ -15665,6 +15160,7 @@ holds(s_17223_jpg, window).
 holds(s_17223_jpg, billboard).
 holds(s_17223_jpg, porch).
 holds(s_17223_jpg, wallsign).
+holds(s_17223_jpg, pipe).
 holds(s_17223_jpg, commercial).
 
 sample(s_17224_jpg).
@@ -15672,7 +15168,6 @@ holds(s_17224_jpg, building).
 holds(s_17224_jpg, feature).
 holds(s_17224_jpg, hotel).
 holds(s_17224_jpg, store).
-holds(s_17224_jpg, suburban).
 holds(s_17224_jpg, window).
 holds(s_17224_jpg, billboard).
 holds(s_17224_jpg, porch).
@@ -15710,7 +15205,6 @@ holds(s_17227_jpg, building).
 holds(s_17227_jpg, feature).
 holds(s_17227_jpg, hotel).
 holds(s_17227_jpg, store).
-holds(s_17227_jpg, suburban).
 holds(s_17227_jpg, window).
 holds(s_17227_jpg, billboard).
 holds(s_17227_jpg, porch).
@@ -15723,7 +15217,6 @@ holds(s_17228_jpg, feature).
 holds(s_17228_jpg, hotel).
 holds(s_17228_jpg, store).
 holds(s_17228_jpg, suburban).
-holds(s_17228_jpg, door).
 holds(s_17228_jpg, billboard).
 holds(s_17228_jpg, porch).
 holds(s_17228_jpg, wallsign).
@@ -15736,18 +15229,17 @@ holds(s_17229_jpg, feature).
 holds(s_17229_jpg, hotel).
 holds(s_17229_jpg, store).
 holds(s_17229_jpg, suburban).
-holds(s_17229_jpg, window).
 holds(s_17229_jpg, billboard).
 holds(s_17229_jpg, porch).
 holds(s_17229_jpg, wallsign).
-holds(s_17229_jpg, industrial).
+holds(s_17229_jpg, car).
+holds(s_17229_jpg, commercial).
 
 sample(s_17230_jpg).
 holds(s_17230_jpg, building).
 holds(s_17230_jpg, feature).
 holds(s_17230_jpg, hotel).
 holds(s_17230_jpg, store).
-holds(s_17230_jpg, suburban).
 holds(s_17230_jpg, window).
 holds(s_17230_jpg, billboard).
 holds(s_17230_jpg, porch).
@@ -15760,7 +15252,6 @@ holds(s_17231_jpg, feature).
 holds(s_17231_jpg, hotel).
 holds(s_17231_jpg, store).
 holds(s_17231_jpg, suburban).
-holds(s_17231_jpg, door).
 holds(s_17231_jpg, billboard).
 holds(s_17231_jpg, porch).
 holds(s_17231_jpg, wallsign).
@@ -15786,7 +15277,6 @@ holds(s_17233_jpg, building).
 holds(s_17233_jpg, feature).
 holds(s_17233_jpg, hotel).
 holds(s_17233_jpg, store).
-holds(s_17233_jpg, suburban).
 holds(s_17233_jpg, window).
 holds(s_17233_jpg, billboard).
 holds(s_17233_jpg, porch).
@@ -15824,7 +15314,6 @@ holds(s_17236_jpg, building).
 holds(s_17236_jpg, feature).
 holds(s_17236_jpg, hotel).
 holds(s_17236_jpg, store).
-holds(s_17236_jpg, suburban).
 holds(s_17236_jpg, window).
 holds(s_17236_jpg, billboard).
 holds(s_17236_jpg, porch).
@@ -15837,7 +15326,6 @@ holds(s_17237_jpg, feature).
 holds(s_17237_jpg, hotel).
 holds(s_17237_jpg, store).
 holds(s_17237_jpg, suburban).
-holds(s_17237_jpg, door).
 holds(s_17237_jpg, billboard).
 holds(s_17237_jpg, porch).
 holds(s_17237_jpg, wallsign).
@@ -15863,7 +15351,6 @@ holds(s_17239_jpg, building).
 holds(s_17239_jpg, feature).
 holds(s_17239_jpg, hotel).
 holds(s_17239_jpg, store).
-holds(s_17239_jpg, suburban).
 holds(s_17239_jpg, window).
 holds(s_17239_jpg, billboard).
 holds(s_17239_jpg, porch).
@@ -15876,7 +15363,6 @@ holds(s_17240_jpg, feature).
 holds(s_17240_jpg, hotel).
 holds(s_17240_jpg, store).
 holds(s_17240_jpg, suburban).
-holds(s_17240_jpg, door).
 holds(s_17240_jpg, billboard).
 holds(s_17240_jpg, porch).
 holds(s_17240_jpg, wallsign).
@@ -15894,6 +15380,7 @@ holds(s_17241_jpg, window).
 holds(s_17241_jpg, billboard).
 holds(s_17241_jpg, porch).
 holds(s_17241_jpg, wallsign).
+holds(s_17241_jpg, pipe).
 holds(s_17241_jpg, commercial).
 
 sample(s_17242_jpg).
@@ -15901,7 +15388,6 @@ holds(s_17242_jpg, building).
 holds(s_17242_jpg, feature).
 holds(s_17242_jpg, hotel).
 holds(s_17242_jpg, store).
-holds(s_17242_jpg, suburban).
 holds(s_17242_jpg, window).
 holds(s_17242_jpg, billboard).
 holds(s_17242_jpg, porch).
@@ -15932,6 +15418,7 @@ holds(s_17244_jpg, window).
 holds(s_17244_jpg, billboard).
 holds(s_17244_jpg, porch).
 holds(s_17244_jpg, wallsign).
+holds(s_17244_jpg, pipe).
 holds(s_17244_jpg, commercial).
 
 sample(s_17245_jpg).
@@ -15939,7 +15426,6 @@ holds(s_17245_jpg, building).
 holds(s_17245_jpg, feature).
 holds(s_17245_jpg, hotel).
 holds(s_17245_jpg, store).
-holds(s_17245_jpg, suburban).
 holds(s_17245_jpg, window).
 holds(s_17245_jpg, billboard).
 holds(s_17245_jpg, porch).
@@ -15952,7 +15438,6 @@ holds(s_17246_jpg, feature).
 holds(s_17246_jpg, hotel).
 holds(s_17246_jpg, store).
 holds(s_17246_jpg, suburban).
-holds(s_17246_jpg, door).
 holds(s_17246_jpg, billboard).
 holds(s_17246_jpg, porch).
 holds(s_17246_jpg, wallsign).
@@ -15970,6 +15455,7 @@ holds(s_17247_jpg, window).
 holds(s_17247_jpg, billboard).
 holds(s_17247_jpg, porch).
 holds(s_17247_jpg, wallsign).
+holds(s_17247_jpg, pipe).
 holds(s_17247_jpg, commercial).
 
 sample(s_17248_jpg).
@@ -15977,7 +15463,6 @@ holds(s_17248_jpg, building).
 holds(s_17248_jpg, feature).
 holds(s_17248_jpg, hotel).
 holds(s_17248_jpg, store).
-holds(s_17248_jpg, suburban).
 holds(s_17248_jpg, window).
 holds(s_17248_jpg, billboard).
 holds(s_17248_jpg, porch).
@@ -15990,7 +15475,6 @@ holds(s_17249_jpg, feature).
 holds(s_17249_jpg, hotel).
 holds(s_17249_jpg, store).
 holds(s_17249_jpg, suburban).
-holds(s_17249_jpg, door).
 holds(s_17249_jpg, billboard).
 holds(s_17249_jpg, porch).
 holds(s_17249_jpg, wallsign).
@@ -16055,7 +15539,6 @@ holds(s_17254_jpg, building).
 holds(s_17254_jpg, feature).
 holds(s_17254_jpg, hotel).
 holds(s_17254_jpg, store).
-holds(s_17254_jpg, suburban).
 holds(s_17254_jpg, window).
 holds(s_17254_jpg, billboard).
 holds(s_17254_jpg, porch).
@@ -16086,6 +15569,7 @@ holds(s_17256_jpg, window).
 holds(s_17256_jpg, billboard).
 holds(s_17256_jpg, porch).
 holds(s_17256_jpg, wallsign).
+holds(s_17256_jpg, pipe).
 holds(s_17256_jpg, commercial).
 
 sample(s_17257_jpg).
@@ -16093,7 +15577,6 @@ holds(s_17257_jpg, building).
 holds(s_17257_jpg, feature).
 holds(s_17257_jpg, hotel).
 holds(s_17257_jpg, store).
-holds(s_17257_jpg, suburban).
 holds(s_17257_jpg, window).
 holds(s_17257_jpg, billboard).
 holds(s_17257_jpg, porch).
@@ -16106,7 +15589,6 @@ holds(s_17258_jpg, feature).
 holds(s_17258_jpg, hotel).
 holds(s_17258_jpg, store).
 holds(s_17258_jpg, suburban).
-holds(s_17258_jpg, door).
 holds(s_17258_jpg, billboard).
 holds(s_17258_jpg, porch).
 holds(s_17258_jpg, wallsign).
@@ -16132,7 +15614,6 @@ holds(s_17260_jpg, building).
 holds(s_17260_jpg, feature).
 holds(s_17260_jpg, hotel).
 holds(s_17260_jpg, store).
-holds(s_17260_jpg, suburban).
 holds(s_17260_jpg, window).
 holds(s_17260_jpg, billboard).
 holds(s_17260_jpg, porch).
@@ -16171,7 +15652,6 @@ holds(s_17263_jpg, building).
 holds(s_17263_jpg, feature).
 holds(s_17263_jpg, hotel).
 holds(s_17263_jpg, store).
-holds(s_17263_jpg, suburban).
 holds(s_17263_jpg, window).
 holds(s_17263_jpg, billboard).
 holds(s_17263_jpg, porch).
@@ -16184,7 +15664,6 @@ holds(s_17264_jpg, feature).
 holds(s_17264_jpg, hotel).
 holds(s_17264_jpg, store).
 holds(s_17264_jpg, suburban).
-holds(s_17264_jpg, door).
 holds(s_17264_jpg, billboard).
 holds(s_17264_jpg, porch).
 holds(s_17264_jpg, wallsign).
@@ -16202,6 +15681,7 @@ holds(s_17265_jpg, window).
 holds(s_17265_jpg, billboard).
 holds(s_17265_jpg, porch).
 holds(s_17265_jpg, wallsign).
+holds(s_17265_jpg, pipe).
 holds(s_17265_jpg, commercial).
 
 sample(s_17266_jpg).
@@ -16209,7 +15689,6 @@ holds(s_17266_jpg, building).
 holds(s_17266_jpg, feature).
 holds(s_17266_jpg, hotel).
 holds(s_17266_jpg, store).
-holds(s_17266_jpg, suburban).
 holds(s_17266_jpg, window).
 holds(s_17266_jpg, billboard).
 holds(s_17266_jpg, porch).
@@ -16247,7 +15726,6 @@ holds(s_17269_jpg, building).
 holds(s_17269_jpg, feature).
 holds(s_17269_jpg, hotel).
 holds(s_17269_jpg, store).
-holds(s_17269_jpg, suburban).
 holds(s_17269_jpg, window).
 holds(s_17269_jpg, billboard).
 holds(s_17269_jpg, porch).
@@ -16260,7 +15738,6 @@ holds(s_17270_jpg, feature).
 holds(s_17270_jpg, hotel).
 holds(s_17270_jpg, store).
 holds(s_17270_jpg, suburban).
-holds(s_17270_jpg, door).
 holds(s_17270_jpg, billboard).
 holds(s_17270_jpg, porch).
 holds(s_17270_jpg, wallsign).
@@ -16286,7 +15763,6 @@ holds(s_17272_jpg, building).
 holds(s_17272_jpg, feature).
 holds(s_17272_jpg, hotel).
 holds(s_17272_jpg, store).
-holds(s_17272_jpg, suburban).
 holds(s_17272_jpg, window).
 holds(s_17272_jpg, billboard).
 holds(s_17272_jpg, porch).
@@ -16316,6 +15792,7 @@ holds(s_17274_jpg, window).
 holds(s_17274_jpg, billboard).
 holds(s_17274_jpg, porch).
 holds(s_17274_jpg, wallsign).
+holds(s_17274_jpg, pipe).
 holds(s_17274_jpg, commercial).
 
 sample(s_17275_jpg).
@@ -16323,7 +15800,6 @@ holds(s_17275_jpg, building).
 holds(s_17275_jpg, feature).
 holds(s_17275_jpg, hotel).
 holds(s_17275_jpg, store).
-holds(s_17275_jpg, suburban).
 holds(s_17275_jpg, window).
 holds(s_17275_jpg, billboard).
 holds(s_17275_jpg, porch).
@@ -16336,7 +15812,6 @@ holds(s_17276_jpg, feature).
 holds(s_17276_jpg, hotel).
 holds(s_17276_jpg, store).
 holds(s_17276_jpg, suburban).
-holds(s_17276_jpg, door).
 holds(s_17276_jpg, billboard).
 holds(s_17276_jpg, porch).
 holds(s_17276_jpg, wallsign).
@@ -16362,7 +15837,6 @@ holds(s_17278_jpg, building).
 holds(s_17278_jpg, feature).
 holds(s_17278_jpg, hotel).
 holds(s_17278_jpg, store).
-holds(s_17278_jpg, suburban).
 holds(s_17278_jpg, window).
 holds(s_17278_jpg, billboard).
 holds(s_17278_jpg, porch).
@@ -16400,7 +15874,6 @@ holds(s_17281_jpg, building).
 holds(s_17281_jpg, feature).
 holds(s_17281_jpg, hotel).
 holds(s_17281_jpg, store).
-holds(s_17281_jpg, suburban).
 holds(s_17281_jpg, window).
 holds(s_17281_jpg, billboard).
 holds(s_17281_jpg, porch).
@@ -16427,7 +15900,6 @@ holds(s_17283_jpg, hotel).
 holds(s_17283_jpg, store).
 holds(s_17283_jpg, suburban).
 holds(s_17283_jpg, door).
-holds(s_17283_jpg, window).
 holds(s_17283_jpg, billboard).
 holds(s_17283_jpg, porch).
 holds(s_17283_jpg, wallsign).
@@ -16439,7 +15911,6 @@ holds(s_17284_jpg, building).
 holds(s_17284_jpg, feature).
 holds(s_17284_jpg, hotel).
 holds(s_17284_jpg, store).
-holds(s_17284_jpg, suburban).
 holds(s_17284_jpg, window).
 holds(s_17284_jpg, billboard).
 holds(s_17284_jpg, porch).
@@ -16452,7 +15923,6 @@ holds(s_17285_jpg, feature).
 holds(s_17285_jpg, hotel).
 holds(s_17285_jpg, store).
 holds(s_17285_jpg, suburban).
-holds(s_17285_jpg, door).
 holds(s_17285_jpg, billboard).
 holds(s_17285_jpg, porch).
 holds(s_17285_jpg, wallsign).
@@ -16478,7 +15948,6 @@ holds(s_17287_jpg, building).
 holds(s_17287_jpg, feature).
 holds(s_17287_jpg, hotel).
 holds(s_17287_jpg, store).
-holds(s_17287_jpg, suburban).
 holds(s_17287_jpg, window).
 holds(s_17287_jpg, billboard).
 holds(s_17287_jpg, porch).
@@ -16491,7 +15960,6 @@ holds(s_17288_jpg, feature).
 holds(s_17288_jpg, hotel).
 holds(s_17288_jpg, store).
 holds(s_17288_jpg, suburban).
-holds(s_17288_jpg, door).
 holds(s_17288_jpg, billboard).
 holds(s_17288_jpg, porch).
 holds(s_17288_jpg, wallsign).
@@ -16517,7 +15985,6 @@ holds(s_17290_jpg, building).
 holds(s_17290_jpg, feature).
 holds(s_17290_jpg, hotel).
 holds(s_17290_jpg, store).
-holds(s_17290_jpg, suburban).
 holds(s_17290_jpg, window).
 holds(s_17290_jpg, billboard).
 holds(s_17290_jpg, porch).
@@ -16556,7 +16023,6 @@ holds(s_17293_jpg, building).
 holds(s_17293_jpg, feature).
 holds(s_17293_jpg, hotel).
 holds(s_17293_jpg, store).
-holds(s_17293_jpg, suburban).
 holds(s_17293_jpg, window).
 holds(s_17293_jpg, billboard).
 holds(s_17293_jpg, porch).
@@ -16594,7 +16060,6 @@ holds(s_17296_jpg, building).
 holds(s_17296_jpg, feature).
 holds(s_17296_jpg, hotel).
 holds(s_17296_jpg, store).
-holds(s_17296_jpg, suburban).
 holds(s_17296_jpg, window).
 holds(s_17296_jpg, billboard).
 holds(s_17296_jpg, porch).
@@ -16632,7 +16097,6 @@ holds(s_17299_jpg, building).
 holds(s_17299_jpg, feature).
 holds(s_17299_jpg, hotel).
 holds(s_17299_jpg, store).
-holds(s_17299_jpg, suburban).
 holds(s_17299_jpg, window).
 holds(s_17299_jpg, billboard).
 holds(s_17299_jpg, porch).
@@ -16645,7 +16109,6 @@ holds(s_17300_jpg, feature).
 holds(s_17300_jpg, hotel).
 holds(s_17300_jpg, store).
 holds(s_17300_jpg, suburban).
-holds(s_17300_jpg, door).
 holds(s_17300_jpg, billboard).
 holds(s_17300_jpg, porch).
 holds(s_17300_jpg, wallsign).
@@ -16671,7 +16134,6 @@ holds(s_17302_jpg, building).
 holds(s_17302_jpg, feature).
 holds(s_17302_jpg, hotel).
 holds(s_17302_jpg, store).
-holds(s_17302_jpg, suburban).
 holds(s_17302_jpg, window).
 holds(s_17302_jpg, billboard).
 holds(s_17302_jpg, porch).
@@ -16702,6 +16164,7 @@ holds(s_17304_jpg, window).
 holds(s_17304_jpg, billboard).
 holds(s_17304_jpg, porch).
 holds(s_17304_jpg, wallsign).
+holds(s_17304_jpg, pipe).
 holds(s_17304_jpg, commercial).
 
 sample(s_17305_jpg).
@@ -16709,7 +16172,6 @@ holds(s_17305_jpg, building).
 holds(s_17305_jpg, feature).
 holds(s_17305_jpg, hotel).
 holds(s_17305_jpg, store).
-holds(s_17305_jpg, suburban).
 holds(s_17305_jpg, window).
 holds(s_17305_jpg, billboard).
 holds(s_17305_jpg, porch).
@@ -16722,7 +16184,6 @@ holds(s_17306_jpg, feature).
 holds(s_17306_jpg, hotel).
 holds(s_17306_jpg, store).
 holds(s_17306_jpg, suburban).
-holds(s_17306_jpg, door).
 holds(s_17306_jpg, billboard).
 holds(s_17306_jpg, porch).
 holds(s_17306_jpg, wallsign).
@@ -16748,7 +16209,6 @@ holds(s_17308_jpg, building).
 holds(s_17308_jpg, feature).
 holds(s_17308_jpg, hotel).
 holds(s_17308_jpg, store).
-holds(s_17308_jpg, suburban).
 holds(s_17308_jpg, window).
 holds(s_17308_jpg, billboard).
 holds(s_17308_jpg, porch).
@@ -16761,7 +16221,6 @@ holds(s_17309_jpg, feature).
 holds(s_17309_jpg, hotel).
 holds(s_17309_jpg, store).
 holds(s_17309_jpg, suburban).
-holds(s_17309_jpg, door).
 holds(s_17309_jpg, billboard).
 holds(s_17309_jpg, porch).
 holds(s_17309_jpg, wallsign).
@@ -16779,6 +16238,7 @@ holds(s_17310_jpg, window).
 holds(s_17310_jpg, billboard).
 holds(s_17310_jpg, porch).
 holds(s_17310_jpg, wallsign).
+holds(s_17310_jpg, pipe).
 holds(s_17310_jpg, commercial).
 
 sample(s_17311_jpg).
@@ -16786,7 +16246,6 @@ holds(s_17311_jpg, building).
 holds(s_17311_jpg, feature).
 holds(s_17311_jpg, hotel).
 holds(s_17311_jpg, store).
-holds(s_17311_jpg, suburban).
 holds(s_17311_jpg, window).
 holds(s_17311_jpg, billboard).
 holds(s_17311_jpg, porch).
@@ -16799,7 +16258,6 @@ holds(s_17312_jpg, feature).
 holds(s_17312_jpg, hotel).
 holds(s_17312_jpg, store).
 holds(s_17312_jpg, suburban).
-holds(s_17312_jpg, door).
 holds(s_17312_jpg, billboard).
 holds(s_17312_jpg, porch).
 holds(s_17312_jpg, wallsign).
@@ -16825,7 +16283,6 @@ holds(s_17314_jpg, building).
 holds(s_17314_jpg, feature).
 holds(s_17314_jpg, hotel).
 holds(s_17314_jpg, store).
-holds(s_17314_jpg, suburban).
 holds(s_17314_jpg, window).
 holds(s_17314_jpg, billboard).
 holds(s_17314_jpg, porch).
@@ -16838,7 +16295,6 @@ holds(s_17315_jpg, feature).
 holds(s_17315_jpg, hotel).
 holds(s_17315_jpg, store).
 holds(s_17315_jpg, suburban).
-holds(s_17315_jpg, door).
 holds(s_17315_jpg, billboard).
 holds(s_17315_jpg, porch).
 holds(s_17315_jpg, wallsign).
@@ -16864,7 +16320,6 @@ holds(s_17317_jpg, building).
 holds(s_17317_jpg, feature).
 holds(s_17317_jpg, hotel).
 holds(s_17317_jpg, store).
-holds(s_17317_jpg, suburban).
 holds(s_17317_jpg, window).
 holds(s_17317_jpg, billboard).
 holds(s_17317_jpg, porch).
@@ -16877,7 +16332,6 @@ holds(s_17318_jpg, feature).
 holds(s_17318_jpg, hotel).
 holds(s_17318_jpg, store).
 holds(s_17318_jpg, suburban).
-holds(s_17318_jpg, door).
 holds(s_17318_jpg, billboard).
 holds(s_17318_jpg, porch).
 holds(s_17318_jpg, wallsign).
@@ -16903,7 +16357,6 @@ holds(s_17320_jpg, building).
 holds(s_17320_jpg, feature).
 holds(s_17320_jpg, hotel).
 holds(s_17320_jpg, store).
-holds(s_17320_jpg, suburban).
 holds(s_17320_jpg, window).
 holds(s_17320_jpg, billboard).
 holds(s_17320_jpg, porch).
@@ -16933,7 +16386,7 @@ holds(s_17322_jpg, window).
 holds(s_17322_jpg, billboard).
 holds(s_17322_jpg, porch).
 holds(s_17322_jpg, wallsign).
-holds(s_17322_jpg, car).
+holds(s_17322_jpg, pipe).
 holds(s_17322_jpg, commercial).
 
 sample(s_17323_jpg).
@@ -16941,7 +16394,6 @@ holds(s_17323_jpg, building).
 holds(s_17323_jpg, feature).
 holds(s_17323_jpg, hotel).
 holds(s_17323_jpg, store).
-holds(s_17323_jpg, suburban).
 holds(s_17323_jpg, window).
 holds(s_17323_jpg, billboard).
 holds(s_17323_jpg, porch).
@@ -16980,7 +16432,6 @@ holds(s_17326_jpg, building).
 holds(s_17326_jpg, feature).
 holds(s_17326_jpg, hotel).
 holds(s_17326_jpg, store).
-holds(s_17326_jpg, suburban).
 holds(s_17326_jpg, window).
 holds(s_17326_jpg, billboard).
 holds(s_17326_jpg, porch).
@@ -17019,7 +16470,6 @@ holds(s_17329_jpg, building).
 holds(s_17329_jpg, feature).
 holds(s_17329_jpg, hotel).
 holds(s_17329_jpg, store).
-holds(s_17329_jpg, suburban).
 holds(s_17329_jpg, window).
 holds(s_17329_jpg, billboard).
 holds(s_17329_jpg, porch).
@@ -17032,7 +16482,6 @@ holds(s_17330_jpg, feature).
 holds(s_17330_jpg, hotel).
 holds(s_17330_jpg, store).
 holds(s_17330_jpg, suburban).
-holds(s_17330_jpg, door).
 holds(s_17330_jpg, billboard).
 holds(s_17330_jpg, porch).
 holds(s_17330_jpg, wallsign).
@@ -17050,6 +16499,7 @@ holds(s_17331_jpg, window).
 holds(s_17331_jpg, billboard).
 holds(s_17331_jpg, porch).
 holds(s_17331_jpg, wallsign).
+holds(s_17331_jpg, pipe).
 holds(s_17331_jpg, commercial).
 
 sample(s_17332_jpg).
@@ -17057,7 +16507,6 @@ holds(s_17332_jpg, building).
 holds(s_17332_jpg, feature).
 holds(s_17332_jpg, hotel).
 holds(s_17332_jpg, store).
-holds(s_17332_jpg, suburban).
 holds(s_17332_jpg, window).
 holds(s_17332_jpg, billboard).
 holds(s_17332_jpg, porch).
@@ -17070,7 +16519,6 @@ holds(s_17333_jpg, feature).
 holds(s_17333_jpg, hotel).
 holds(s_17333_jpg, store).
 holds(s_17333_jpg, suburban).
-holds(s_17333_jpg, door).
 holds(s_17333_jpg, billboard).
 holds(s_17333_jpg, porch).
 holds(s_17333_jpg, wallsign).
@@ -17096,7 +16544,6 @@ holds(s_17335_jpg, building).
 holds(s_17335_jpg, feature).
 holds(s_17335_jpg, hotel).
 holds(s_17335_jpg, store).
-holds(s_17335_jpg, suburban).
 holds(s_17335_jpg, window).
 holds(s_17335_jpg, billboard).
 holds(s_17335_jpg, porch).
@@ -17109,7 +16556,6 @@ holds(s_17336_jpg, feature).
 holds(s_17336_jpg, hotel).
 holds(s_17336_jpg, store).
 holds(s_17336_jpg, suburban).
-holds(s_17336_jpg, door).
 holds(s_17336_jpg, billboard).
 holds(s_17336_jpg, porch).
 holds(s_17336_jpg, wallsign).
@@ -17127,6 +16573,7 @@ holds(s_17337_jpg, window).
 holds(s_17337_jpg, billboard).
 holds(s_17337_jpg, porch).
 holds(s_17337_jpg, wallsign).
+holds(s_17337_jpg, pipe).
 holds(s_17337_jpg, commercial).
 
 sample(s_17338_jpg).
@@ -17134,7 +16581,6 @@ holds(s_17338_jpg, building).
 holds(s_17338_jpg, feature).
 holds(s_17338_jpg, hotel).
 holds(s_17338_jpg, store).
-holds(s_17338_jpg, suburban).
 holds(s_17338_jpg, window).
 holds(s_17338_jpg, billboard).
 holds(s_17338_jpg, porch).
@@ -17173,7 +16619,6 @@ holds(s_17341_jpg, building).
 holds(s_17341_jpg, feature).
 holds(s_17341_jpg, hotel).
 holds(s_17341_jpg, store).
-holds(s_17341_jpg, suburban).
 holds(s_17341_jpg, window).
 holds(s_17341_jpg, billboard).
 holds(s_17341_jpg, porch).
@@ -17186,7 +16631,6 @@ holds(s_17342_jpg, feature).
 holds(s_17342_jpg, hotel).
 holds(s_17342_jpg, store).
 holds(s_17342_jpg, suburban).
-holds(s_17342_jpg, door).
 holds(s_17342_jpg, billboard).
 holds(s_17342_jpg, porch).
 holds(s_17342_jpg, wallsign).
@@ -17204,6 +16648,7 @@ holds(s_17343_jpg, window).
 holds(s_17343_jpg, billboard).
 holds(s_17343_jpg, porch).
 holds(s_17343_jpg, wallsign).
+holds(s_17343_jpg, pipe).
 holds(s_17343_jpg, commercial).
 
 sample(s_17344_jpg).
@@ -17211,7 +16656,6 @@ holds(s_17344_jpg, building).
 holds(s_17344_jpg, feature).
 holds(s_17344_jpg, hotel).
 holds(s_17344_jpg, store).
-holds(s_17344_jpg, suburban).
 holds(s_17344_jpg, window).
 holds(s_17344_jpg, billboard).
 holds(s_17344_jpg, porch).
@@ -17224,7 +16668,6 @@ holds(s_17345_jpg, feature).
 holds(s_17345_jpg, hotel).
 holds(s_17345_jpg, store).
 holds(s_17345_jpg, suburban).
-holds(s_17345_jpg, door).
 holds(s_17345_jpg, billboard).
 holds(s_17345_jpg, porch).
 holds(s_17345_jpg, wallsign).
@@ -17250,7 +16693,6 @@ holds(s_17347_jpg, building).
 holds(s_17347_jpg, feature).
 holds(s_17347_jpg, hotel).
 holds(s_17347_jpg, store).
-holds(s_17347_jpg, suburban).
 holds(s_17347_jpg, window).
 holds(s_17347_jpg, billboard).
 holds(s_17347_jpg, porch).
@@ -17280,6 +16722,7 @@ holds(s_17349_jpg, window).
 holds(s_17349_jpg, billboard).
 holds(s_17349_jpg, porch).
 holds(s_17349_jpg, wallsign).
+holds(s_17349_jpg, pipe).
 holds(s_17349_jpg, commercial).
 
 sample(s_17350_jpg).
@@ -17287,7 +16730,6 @@ holds(s_17350_jpg, building).
 holds(s_17350_jpg, feature).
 holds(s_17350_jpg, hotel).
 holds(s_17350_jpg, store).
-holds(s_17350_jpg, suburban).
 holds(s_17350_jpg, window).
 holds(s_17350_jpg, billboard).
 holds(s_17350_jpg, porch).
@@ -17317,6 +16759,7 @@ holds(s_17352_jpg, window).
 holds(s_17352_jpg, billboard).
 holds(s_17352_jpg, porch).
 holds(s_17352_jpg, wallsign).
+holds(s_17352_jpg, pipe).
 holds(s_17352_jpg, commercial).
 
 sample(s_17353_jpg).
@@ -17324,7 +16767,6 @@ holds(s_17353_jpg, building).
 holds(s_17353_jpg, feature).
 holds(s_17353_jpg, hotel).
 holds(s_17353_jpg, store).
-holds(s_17353_jpg, suburban).
 holds(s_17353_jpg, window).
 holds(s_17353_jpg, billboard).
 holds(s_17353_jpg, porch).
@@ -17337,7 +16779,6 @@ holds(s_17354_jpg, feature).
 holds(s_17354_jpg, hotel).
 holds(s_17354_jpg, store).
 holds(s_17354_jpg, suburban).
-holds(s_17354_jpg, door).
 holds(s_17354_jpg, billboard).
 holds(s_17354_jpg, porch).
 holds(s_17354_jpg, wallsign).
@@ -17363,7 +16804,6 @@ holds(s_17356_jpg, building).
 holds(s_17356_jpg, feature).
 holds(s_17356_jpg, hotel).
 holds(s_17356_jpg, store).
-holds(s_17356_jpg, suburban).
 holds(s_17356_jpg, window).
 holds(s_17356_jpg, billboard).
 holds(s_17356_jpg, porch).
@@ -17376,7 +16816,6 @@ holds(s_17357_jpg, feature).
 holds(s_17357_jpg, hotel).
 holds(s_17357_jpg, store).
 holds(s_17357_jpg, suburban).
-holds(s_17357_jpg, door).
 holds(s_17357_jpg, billboard).
 holds(s_17357_jpg, porch).
 holds(s_17357_jpg, wallsign).
@@ -17402,7 +16841,6 @@ holds(s_17359_jpg, building).
 holds(s_17359_jpg, feature).
 holds(s_17359_jpg, hotel).
 holds(s_17359_jpg, store).
-holds(s_17359_jpg, suburban).
 holds(s_17359_jpg, window).
 holds(s_17359_jpg, billboard).
 holds(s_17359_jpg, porch).
@@ -17439,7 +16877,6 @@ holds(s_17362_jpg, building).
 holds(s_17362_jpg, feature).
 holds(s_17362_jpg, hotel).
 holds(s_17362_jpg, store).
-holds(s_17362_jpg, suburban).
 holds(s_17362_jpg, window).
 holds(s_17362_jpg, billboard).
 holds(s_17362_jpg, porch).
@@ -17478,7 +16915,6 @@ holds(s_17365_jpg, building).
 holds(s_17365_jpg, feature).
 holds(s_17365_jpg, hotel).
 holds(s_17365_jpg, store).
-holds(s_17365_jpg, suburban).
 holds(s_17365_jpg, window).
 holds(s_17365_jpg, billboard).
 holds(s_17365_jpg, porch).
@@ -17491,7 +16927,6 @@ holds(s_17366_jpg, feature).
 holds(s_17366_jpg, hotel).
 holds(s_17366_jpg, store).
 holds(s_17366_jpg, suburban).
-holds(s_17366_jpg, door).
 holds(s_17366_jpg, billboard).
 holds(s_17366_jpg, porch).
 holds(s_17366_jpg, wallsign).
@@ -17509,6 +16944,7 @@ holds(s_17367_jpg, window).
 holds(s_17367_jpg, billboard).
 holds(s_17367_jpg, porch).
 holds(s_17367_jpg, wallsign).
+holds(s_17367_jpg, pipe).
 holds(s_17367_jpg, commercial).
 
 sample(s_17368_jpg).
@@ -17516,7 +16952,6 @@ holds(s_17368_jpg, building).
 holds(s_17368_jpg, feature).
 holds(s_17368_jpg, hotel).
 holds(s_17368_jpg, store).
-holds(s_17368_jpg, suburban).
 holds(s_17368_jpg, window).
 holds(s_17368_jpg, billboard).
 holds(s_17368_jpg, porch).
@@ -17547,6 +16982,7 @@ holds(s_17370_jpg, window).
 holds(s_17370_jpg, billboard).
 holds(s_17370_jpg, porch).
 holds(s_17370_jpg, wallsign).
+holds(s_17370_jpg, pipe).
 holds(s_17370_jpg, commercial).
 
 sample(s_17371_jpg).
@@ -17554,7 +16990,6 @@ holds(s_17371_jpg, building).
 holds(s_17371_jpg, feature).
 holds(s_17371_jpg, hotel).
 holds(s_17371_jpg, store).
-holds(s_17371_jpg, suburban).
 holds(s_17371_jpg, window).
 holds(s_17371_jpg, billboard).
 holds(s_17371_jpg, porch).
@@ -17567,7 +17002,6 @@ holds(s_17372_jpg, feature).
 holds(s_17372_jpg, hotel).
 holds(s_17372_jpg, store).
 holds(s_17372_jpg, suburban).
-holds(s_17372_jpg, door).
 holds(s_17372_jpg, billboard).
 holds(s_17372_jpg, porch).
 holds(s_17372_jpg, wallsign).
@@ -17585,6 +17019,7 @@ holds(s_17373_jpg, window).
 holds(s_17373_jpg, billboard).
 holds(s_17373_jpg, porch).
 holds(s_17373_jpg, wallsign).
+holds(s_17373_jpg, pipe).
 holds(s_17373_jpg, commercial).
 
 sample(s_17374_jpg).
@@ -17592,7 +17027,6 @@ holds(s_17374_jpg, building).
 holds(s_17374_jpg, feature).
 holds(s_17374_jpg, hotel).
 holds(s_17374_jpg, store).
-holds(s_17374_jpg, suburban).
 holds(s_17374_jpg, window).
 holds(s_17374_jpg, billboard).
 holds(s_17374_jpg, porch).
@@ -17630,7 +17064,6 @@ holds(s_17377_jpg, building).
 holds(s_17377_jpg, feature).
 holds(s_17377_jpg, hotel).
 holds(s_17377_jpg, store).
-holds(s_17377_jpg, suburban).
 holds(s_17377_jpg, window).
 holds(s_17377_jpg, billboard).
 holds(s_17377_jpg, porch).
@@ -17660,6 +17093,7 @@ holds(s_17379_jpg, window).
 holds(s_17379_jpg, billboard).
 holds(s_17379_jpg, porch).
 holds(s_17379_jpg, wallsign).
+holds(s_17379_jpg, pipe).
 holds(s_17379_jpg, commercial).
 
 sample(s_17380_jpg).
@@ -17667,7 +17101,6 @@ holds(s_17380_jpg, building).
 holds(s_17380_jpg, feature).
 holds(s_17380_jpg, hotel).
 holds(s_17380_jpg, store).
-holds(s_17380_jpg, suburban).
 holds(s_17380_jpg, window).
 holds(s_17380_jpg, billboard).
 holds(s_17380_jpg, porch).
@@ -17680,7 +17113,6 @@ holds(s_17381_jpg, feature).
 holds(s_17381_jpg, hotel).
 holds(s_17381_jpg, store).
 holds(s_17381_jpg, suburban).
-holds(s_17381_jpg, door).
 holds(s_17381_jpg, billboard).
 holds(s_17381_jpg, porch).
 holds(s_17381_jpg, wallsign).
@@ -17706,7 +17138,6 @@ holds(s_17383_jpg, building).
 holds(s_17383_jpg, feature).
 holds(s_17383_jpg, hotel).
 holds(s_17383_jpg, store).
-holds(s_17383_jpg, suburban).
 holds(s_17383_jpg, window).
 holds(s_17383_jpg, billboard).
 holds(s_17383_jpg, porch).
@@ -17737,6 +17168,7 @@ holds(s_17385_jpg, window).
 holds(s_17385_jpg, billboard).
 holds(s_17385_jpg, porch).
 holds(s_17385_jpg, wallsign).
+holds(s_17385_jpg, pipe).
 holds(s_17385_jpg, commercial).
 
 sample(s_17386_jpg).
@@ -17744,7 +17176,6 @@ holds(s_17386_jpg, building).
 holds(s_17386_jpg, feature).
 holds(s_17386_jpg, hotel).
 holds(s_17386_jpg, store).
-holds(s_17386_jpg, suburban).
 holds(s_17386_jpg, window).
 holds(s_17386_jpg, billboard).
 holds(s_17386_jpg, porch).
@@ -17757,7 +17188,6 @@ holds(s_17387_jpg, feature).
 holds(s_17387_jpg, hotel).
 holds(s_17387_jpg, store).
 holds(s_17387_jpg, suburban).
-holds(s_17387_jpg, door).
 holds(s_17387_jpg, billboard).
 holds(s_17387_jpg, porch).
 holds(s_17387_jpg, wallsign).
@@ -17775,6 +17205,7 @@ holds(s_17388_jpg, window).
 holds(s_17388_jpg, billboard).
 holds(s_17388_jpg, porch).
 holds(s_17388_jpg, wallsign).
+holds(s_17388_jpg, pipe).
 holds(s_17388_jpg, commercial).
 
 sample(s_17389_jpg).
@@ -17782,7 +17213,6 @@ holds(s_17389_jpg, building).
 holds(s_17389_jpg, feature).
 holds(s_17389_jpg, hotel).
 holds(s_17389_jpg, store).
-holds(s_17389_jpg, suburban).
 holds(s_17389_jpg, window).
 holds(s_17389_jpg, billboard).
 holds(s_17389_jpg, porch).
@@ -17795,7 +17225,6 @@ holds(s_17390_jpg, feature).
 holds(s_17390_jpg, hotel).
 holds(s_17390_jpg, store).
 holds(s_17390_jpg, suburban).
-holds(s_17390_jpg, door).
 holds(s_17390_jpg, billboard).
 holds(s_17390_jpg, porch).
 holds(s_17390_jpg, wallsign).
@@ -17821,7 +17250,6 @@ holds(s_17392_jpg, building).
 holds(s_17392_jpg, feature).
 holds(s_17392_jpg, hotel).
 holds(s_17392_jpg, store).
-holds(s_17392_jpg, suburban).
 holds(s_17392_jpg, window).
 holds(s_17392_jpg, billboard).
 holds(s_17392_jpg, porch).
@@ -17834,7 +17262,6 @@ holds(s_17393_jpg, feature).
 holds(s_17393_jpg, hotel).
 holds(s_17393_jpg, store).
 holds(s_17393_jpg, suburban).
-holds(s_17393_jpg, door).
 holds(s_17393_jpg, billboard).
 holds(s_17393_jpg, porch).
 holds(s_17393_jpg, wallsign).
@@ -17860,8 +17287,6 @@ holds(s_17395_jpg, building).
 holds(s_17395_jpg, feature).
 holds(s_17395_jpg, hotel).
 holds(s_17395_jpg, store).
-holds(s_17395_jpg, suburban).
-holds(s_17395_jpg, door).
 holds(s_17395_jpg, window).
 holds(s_17395_jpg, billboard).
 holds(s_17395_jpg, porch).
@@ -17874,7 +17299,6 @@ holds(s_17396_jpg, feature).
 holds(s_17396_jpg, hotel).
 holds(s_17396_jpg, store).
 holds(s_17396_jpg, suburban).
-holds(s_17396_jpg, door).
 holds(s_17396_jpg, billboard).
 holds(s_17396_jpg, porch).
 holds(s_17396_jpg, wallsign).
@@ -17892,6 +17316,7 @@ holds(s_17397_jpg, window).
 holds(s_17397_jpg, billboard).
 holds(s_17397_jpg, porch).
 holds(s_17397_jpg, wallsign).
+holds(s_17397_jpg, pipe).
 holds(s_17397_jpg, commercial).
 
 sample(s_17398_jpg).
@@ -17899,7 +17324,6 @@ holds(s_17398_jpg, building).
 holds(s_17398_jpg, feature).
 holds(s_17398_jpg, hotel).
 holds(s_17398_jpg, store).
-holds(s_17398_jpg, suburban).
 holds(s_17398_jpg, window).
 holds(s_17398_jpg, billboard).
 holds(s_17398_jpg, porch).
@@ -17937,7 +17361,6 @@ holds(s_17401_jpg, building).
 holds(s_17401_jpg, feature).
 holds(s_17401_jpg, hotel).
 holds(s_17401_jpg, store).
-holds(s_17401_jpg, suburban).
 holds(s_17401_jpg, window).
 holds(s_17401_jpg, billboard).
 holds(s_17401_jpg, porch).
@@ -17975,7 +17398,6 @@ holds(s_17404_jpg, building).
 holds(s_17404_jpg, feature).
 holds(s_17404_jpg, hotel).
 holds(s_17404_jpg, store).
-holds(s_17404_jpg, suburban).
 holds(s_17404_jpg, window).
 holds(s_17404_jpg, billboard).
 holds(s_17404_jpg, porch).
@@ -17988,7 +17410,6 @@ holds(s_17405_jpg, feature).
 holds(s_17405_jpg, hotel).
 holds(s_17405_jpg, store).
 holds(s_17405_jpg, suburban).
-holds(s_17405_jpg, door).
 holds(s_17405_jpg, billboard).
 holds(s_17405_jpg, porch).
 holds(s_17405_jpg, wallsign).
@@ -18014,7 +17435,6 @@ holds(s_17407_jpg, building).
 holds(s_17407_jpg, feature).
 holds(s_17407_jpg, hotel).
 holds(s_17407_jpg, store).
-holds(s_17407_jpg, suburban).
 holds(s_17407_jpg, window).
 holds(s_17407_jpg, billboard).
 holds(s_17407_jpg, porch).
@@ -18027,7 +17447,6 @@ holds(s_17408_jpg, feature).
 holds(s_17408_jpg, hotel).
 holds(s_17408_jpg, store).
 holds(s_17408_jpg, suburban).
-holds(s_17408_jpg, door).
 holds(s_17408_jpg, billboard).
 holds(s_17408_jpg, porch).
 holds(s_17408_jpg, wallsign).
@@ -18053,7 +17472,6 @@ holds(s_17410_jpg, building).
 holds(s_17410_jpg, feature).
 holds(s_17410_jpg, hotel).
 holds(s_17410_jpg, store).
-holds(s_17410_jpg, suburban).
 holds(s_17410_jpg, window).
 holds(s_17410_jpg, billboard).
 holds(s_17410_jpg, porch).
@@ -18066,7 +17484,6 @@ holds(s_17411_jpg, feature).
 holds(s_17411_jpg, hotel).
 holds(s_17411_jpg, store).
 holds(s_17411_jpg, suburban).
-holds(s_17411_jpg, door).
 holds(s_17411_jpg, billboard).
 holds(s_17411_jpg, porch).
 holds(s_17411_jpg, wallsign).
@@ -18092,7 +17509,6 @@ holds(s_17413_jpg, building).
 holds(s_17413_jpg, feature).
 holds(s_17413_jpg, hotel).
 holds(s_17413_jpg, store).
-holds(s_17413_jpg, suburban).
 holds(s_17413_jpg, window).
 holds(s_17413_jpg, billboard).
 holds(s_17413_jpg, porch).
@@ -18105,7 +17521,6 @@ holds(s_17414_jpg, feature).
 holds(s_17414_jpg, hotel).
 holds(s_17414_jpg, store).
 holds(s_17414_jpg, suburban).
-holds(s_17414_jpg, door).
 holds(s_17414_jpg, billboard).
 holds(s_17414_jpg, porch).
 holds(s_17414_jpg, wallsign).
@@ -18144,7 +17559,6 @@ holds(s_17417_jpg, feature).
 holds(s_17417_jpg, hotel).
 holds(s_17417_jpg, store).
 holds(s_17417_jpg, suburban).
-holds(s_17417_jpg, door).
 holds(s_17417_jpg, billboard).
 holds(s_17417_jpg, porch).
 holds(s_17417_jpg, wallsign).
@@ -18170,7 +17584,6 @@ holds(s_17419_jpg, building).
 holds(s_17419_jpg, feature).
 holds(s_17419_jpg, hotel).
 holds(s_17419_jpg, store).
-holds(s_17419_jpg, suburban).
 holds(s_17419_jpg, window).
 holds(s_17419_jpg, billboard).
 holds(s_17419_jpg, porch).
@@ -18183,7 +17596,6 @@ holds(s_17420_jpg, feature).
 holds(s_17420_jpg, hotel).
 holds(s_17420_jpg, store).
 holds(s_17420_jpg, suburban).
-holds(s_17420_jpg, door).
 holds(s_17420_jpg, billboard).
 holds(s_17420_jpg, porch).
 holds(s_17420_jpg, wallsign).
@@ -18209,7 +17621,6 @@ holds(s_17422_jpg, building).
 holds(s_17422_jpg, feature).
 holds(s_17422_jpg, hotel).
 holds(s_17422_jpg, store).
-holds(s_17422_jpg, suburban).
 holds(s_17422_jpg, window).
 holds(s_17422_jpg, billboard).
 holds(s_17422_jpg, porch).
@@ -18222,7 +17633,6 @@ holds(s_17423_jpg, feature).
 holds(s_17423_jpg, hotel).
 holds(s_17423_jpg, store).
 holds(s_17423_jpg, suburban).
-holds(s_17423_jpg, door).
 holds(s_17423_jpg, billboard).
 holds(s_17423_jpg, porch).
 holds(s_17423_jpg, wallsign).
@@ -18240,6 +17650,7 @@ holds(s_17424_jpg, window).
 holds(s_17424_jpg, billboard).
 holds(s_17424_jpg, porch).
 holds(s_17424_jpg, wallsign).
+holds(s_17424_jpg, pipe).
 holds(s_17424_jpg, commercial).
 
 sample(s_17425_jpg).
@@ -18247,7 +17658,6 @@ holds(s_17425_jpg, building).
 holds(s_17425_jpg, feature).
 holds(s_17425_jpg, hotel).
 holds(s_17425_jpg, store).
-holds(s_17425_jpg, suburban).
 holds(s_17425_jpg, window).
 holds(s_17425_jpg, billboard).
 holds(s_17425_jpg, porch).
@@ -18260,7 +17670,6 @@ holds(s_17426_jpg, feature).
 holds(s_17426_jpg, hotel).
 holds(s_17426_jpg, store).
 holds(s_17426_jpg, suburban).
-holds(s_17426_jpg, door).
 holds(s_17426_jpg, billboard).
 holds(s_17426_jpg, porch).
 holds(s_17426_jpg, wallsign).
@@ -18286,7 +17695,6 @@ holds(s_17428_jpg, building).
 holds(s_17428_jpg, feature).
 holds(s_17428_jpg, hotel).
 holds(s_17428_jpg, store).
-holds(s_17428_jpg, suburban).
 holds(s_17428_jpg, window).
 holds(s_17428_jpg, billboard).
 holds(s_17428_jpg, porch).
@@ -18299,7 +17707,6 @@ holds(s_17429_jpg, feature).
 holds(s_17429_jpg, hotel).
 holds(s_17429_jpg, store).
 holds(s_17429_jpg, suburban).
-holds(s_17429_jpg, door).
 holds(s_17429_jpg, billboard).
 holds(s_17429_jpg, porch).
 holds(s_17429_jpg, wallsign).
@@ -18325,7 +17732,6 @@ holds(s_17431_jpg, building).
 holds(s_17431_jpg, feature).
 holds(s_17431_jpg, hotel).
 holds(s_17431_jpg, store).
-holds(s_17431_jpg, suburban).
 holds(s_17431_jpg, window).
 holds(s_17431_jpg, billboard).
 holds(s_17431_jpg, porch).
@@ -18338,7 +17744,6 @@ holds(s_17432_jpg, feature).
 holds(s_17432_jpg, hotel).
 holds(s_17432_jpg, store).
 holds(s_17432_jpg, suburban).
-holds(s_17432_jpg, door).
 holds(s_17432_jpg, billboard).
 holds(s_17432_jpg, porch).
 holds(s_17432_jpg, wallsign).
@@ -18364,7 +17769,6 @@ holds(s_17434_jpg, building).
 holds(s_17434_jpg, feature).
 holds(s_17434_jpg, hotel).
 holds(s_17434_jpg, store).
-holds(s_17434_jpg, suburban).
 holds(s_17434_jpg, window).
 holds(s_17434_jpg, billboard).
 holds(s_17434_jpg, porch).
@@ -18395,6 +17799,7 @@ holds(s_17436_jpg, window).
 holds(s_17436_jpg, billboard).
 holds(s_17436_jpg, porch).
 holds(s_17436_jpg, wallsign).
+holds(s_17436_jpg, pipe).
 holds(s_17436_jpg, commercial).
 
 sample(s_17437_jpg).
@@ -18402,7 +17807,6 @@ holds(s_17437_jpg, building).
 holds(s_17437_jpg, feature).
 holds(s_17437_jpg, hotel).
 holds(s_17437_jpg, store).
-holds(s_17437_jpg, suburban).
 holds(s_17437_jpg, window).
 holds(s_17437_jpg, billboard).
 holds(s_17437_jpg, porch).
@@ -18441,7 +17845,6 @@ holds(s_17440_jpg, building).
 holds(s_17440_jpg, feature).
 holds(s_17440_jpg, hotel).
 holds(s_17440_jpg, store).
-holds(s_17440_jpg, suburban).
 holds(s_17440_jpg, window).
 holds(s_17440_jpg, billboard).
 holds(s_17440_jpg, porch).
@@ -18454,7 +17857,6 @@ holds(s_17441_jpg, feature).
 holds(s_17441_jpg, hotel).
 holds(s_17441_jpg, store).
 holds(s_17441_jpg, suburban).
-holds(s_17441_jpg, door).
 holds(s_17441_jpg, billboard).
 holds(s_17441_jpg, porch).
 holds(s_17441_jpg, wallsign).
@@ -18472,7 +17874,7 @@ holds(s_17442_jpg, window).
 holds(s_17442_jpg, billboard).
 holds(s_17442_jpg, porch).
 holds(s_17442_jpg, wallsign).
-holds(s_17442_jpg, car).
+holds(s_17442_jpg, pipe).
 holds(s_17442_jpg, commercial).
 
 sample(s_17443_jpg).
@@ -18480,7 +17882,6 @@ holds(s_17443_jpg, building).
 holds(s_17443_jpg, feature).
 holds(s_17443_jpg, hotel).
 holds(s_17443_jpg, store).
-holds(s_17443_jpg, suburban).
 holds(s_17443_jpg, window).
 holds(s_17443_jpg, billboard).
 holds(s_17443_jpg, porch).
@@ -18493,7 +17894,6 @@ holds(s_17444_jpg, feature).
 holds(s_17444_jpg, hotel).
 holds(s_17444_jpg, store).
 holds(s_17444_jpg, suburban).
-holds(s_17444_jpg, door).
 holds(s_17444_jpg, billboard).
 holds(s_17444_jpg, porch).
 holds(s_17444_jpg, wallsign).
@@ -18511,6 +17911,7 @@ holds(s_17445_jpg, window).
 holds(s_17445_jpg, billboard).
 holds(s_17445_jpg, porch).
 holds(s_17445_jpg, wallsign).
+holds(s_17445_jpg, pipe).
 holds(s_17445_jpg, commercial).
 
 sample(s_17446_jpg).
@@ -18518,7 +17919,6 @@ holds(s_17446_jpg, building).
 holds(s_17446_jpg, feature).
 holds(s_17446_jpg, hotel).
 holds(s_17446_jpg, store).
-holds(s_17446_jpg, suburban).
 holds(s_17446_jpg, window).
 holds(s_17446_jpg, billboard).
 holds(s_17446_jpg, porch).
@@ -18531,7 +17931,6 @@ holds(s_17447_jpg, feature).
 holds(s_17447_jpg, hotel).
 holds(s_17447_jpg, store).
 holds(s_17447_jpg, suburban).
-holds(s_17447_jpg, door).
 holds(s_17447_jpg, billboard).
 holds(s_17447_jpg, porch).
 holds(s_17447_jpg, wallsign).
@@ -18557,7 +17956,6 @@ holds(s_17449_jpg, building).
 holds(s_17449_jpg, feature).
 holds(s_17449_jpg, hotel).
 holds(s_17449_jpg, store).
-holds(s_17449_jpg, suburban).
 holds(s_17449_jpg, window).
 holds(s_17449_jpg, billboard).
 holds(s_17449_jpg, porch).
@@ -18570,7 +17968,6 @@ holds(s_17450_jpg, feature).
 holds(s_17450_jpg, hotel).
 holds(s_17450_jpg, store).
 holds(s_17450_jpg, suburban).
-holds(s_17450_jpg, door).
 holds(s_17450_jpg, billboard).
 holds(s_17450_jpg, porch).
 holds(s_17450_jpg, wallsign).
@@ -18588,6 +17985,7 @@ holds(s_17451_jpg, window).
 holds(s_17451_jpg, billboard).
 holds(s_17451_jpg, porch).
 holds(s_17451_jpg, wallsign).
+holds(s_17451_jpg, pipe).
 holds(s_17451_jpg, commercial).
 
 sample(s_17452_jpg).
@@ -18595,7 +17993,6 @@ holds(s_17452_jpg, building).
 holds(s_17452_jpg, feature).
 holds(s_17452_jpg, hotel).
 holds(s_17452_jpg, store).
-holds(s_17452_jpg, suburban).
 holds(s_17452_jpg, window).
 holds(s_17452_jpg, billboard).
 holds(s_17452_jpg, porch).
@@ -18608,7 +18005,6 @@ holds(s_17453_jpg, feature).
 holds(s_17453_jpg, hotel).
 holds(s_17453_jpg, store).
 holds(s_17453_jpg, suburban).
-holds(s_17453_jpg, door).
 holds(s_17453_jpg, billboard).
 holds(s_17453_jpg, porch).
 holds(s_17453_jpg, wallsign).
@@ -18620,7 +18016,6 @@ holds(s_17454_jpg, building).
 holds(s_17454_jpg, feature).
 holds(s_17454_jpg, hotel).
 holds(s_17454_jpg, store).
-holds(s_17454_jpg, suburban).
 holds(s_17454_jpg, window).
 holds(s_17454_jpg, billboard).
 holds(s_17454_jpg, porch).
@@ -18632,7 +18027,6 @@ holds(s_17455_jpg, building).
 holds(s_17455_jpg, feature).
 holds(s_17455_jpg, hotel).
 holds(s_17455_jpg, store).
-holds(s_17455_jpg, suburban).
 holds(s_17455_jpg, window).
 holds(s_17455_jpg, billboard).
 holds(s_17455_jpg, porch).
@@ -18671,7 +18065,6 @@ holds(s_17458_jpg, building).
 holds(s_17458_jpg, feature).
 holds(s_17458_jpg, hotel).
 holds(s_17458_jpg, store).
-holds(s_17458_jpg, suburban).
 holds(s_17458_jpg, window).
 holds(s_17458_jpg, billboard).
 holds(s_17458_jpg, porch).
@@ -18684,7 +18077,6 @@ holds(s_17459_jpg, feature).
 holds(s_17459_jpg, hotel).
 holds(s_17459_jpg, store).
 holds(s_17459_jpg, suburban).
-holds(s_17459_jpg, door).
 holds(s_17459_jpg, billboard).
 holds(s_17459_jpg, porch).
 holds(s_17459_jpg, wallsign).
@@ -18709,7 +18101,6 @@ holds(s_17461_jpg, building).
 holds(s_17461_jpg, feature).
 holds(s_17461_jpg, hotel).
 holds(s_17461_jpg, store).
-holds(s_17461_jpg, suburban).
 holds(s_17461_jpg, window).
 holds(s_17461_jpg, billboard).
 holds(s_17461_jpg, porch).
@@ -18739,6 +18130,7 @@ holds(s_17463_jpg, window).
 holds(s_17463_jpg, billboard).
 holds(s_17463_jpg, porch).
 holds(s_17463_jpg, wallsign).
+holds(s_17463_jpg, pipe).
 holds(s_17463_jpg, commercial).
 
 sample(s_17464_jpg).
@@ -18746,7 +18138,6 @@ holds(s_17464_jpg, building).
 holds(s_17464_jpg, feature).
 holds(s_17464_jpg, hotel).
 holds(s_17464_jpg, store).
-holds(s_17464_jpg, suburban).
 holds(s_17464_jpg, window).
 holds(s_17464_jpg, billboard).
 holds(s_17464_jpg, porch).
@@ -18759,7 +18150,6 @@ holds(s_17465_jpg, feature).
 holds(s_17465_jpg, hotel).
 holds(s_17465_jpg, store).
 holds(s_17465_jpg, suburban).
-holds(s_17465_jpg, door).
 holds(s_17465_jpg, billboard).
 holds(s_17465_jpg, porch).
 holds(s_17465_jpg, wallsign).
@@ -18777,6 +18167,7 @@ holds(s_17466_jpg, window).
 holds(s_17466_jpg, billboard).
 holds(s_17466_jpg, porch).
 holds(s_17466_jpg, wallsign).
+holds(s_17466_jpg, pipe).
 holds(s_17466_jpg, commercial).
 
 sample(s_17467_jpg).
@@ -18784,8 +18175,6 @@ holds(s_17467_jpg, building).
 holds(s_17467_jpg, feature).
 holds(s_17467_jpg, hotel).
 holds(s_17467_jpg, store).
-holds(s_17467_jpg, suburban).
-holds(s_17467_jpg, door).
 holds(s_17467_jpg, window).
 holds(s_17467_jpg, billboard).
 holds(s_17467_jpg, porch).
@@ -18798,6 +18187,7 @@ holds(s_17468_jpg, feature).
 holds(s_17468_jpg, hotel).
 holds(s_17468_jpg, store).
 holds(s_17468_jpg, suburban).
+holds(s_17468_jpg, door).
 holds(s_17468_jpg, billboard).
 holds(s_17468_jpg, porch).
 holds(s_17468_jpg, wallsign).
@@ -18823,7 +18213,6 @@ holds(s_17470_jpg, building).
 holds(s_17470_jpg, feature).
 holds(s_17470_jpg, hotel).
 holds(s_17470_jpg, store).
-holds(s_17470_jpg, suburban).
 holds(s_17470_jpg, window).
 holds(s_17470_jpg, billboard).
 holds(s_17470_jpg, porch).
@@ -18836,7 +18225,6 @@ holds(s_17471_jpg, feature).
 holds(s_17471_jpg, hotel).
 holds(s_17471_jpg, store).
 holds(s_17471_jpg, suburban).
-holds(s_17471_jpg, door).
 holds(s_17471_jpg, billboard).
 holds(s_17471_jpg, porch).
 holds(s_17471_jpg, wallsign).
@@ -18854,7 +18242,7 @@ holds(s_17472_jpg, window).
 holds(s_17472_jpg, billboard).
 holds(s_17472_jpg, porch).
 holds(s_17472_jpg, wallsign).
-holds(s_17472_jpg, car).
+holds(s_17472_jpg, pipe).
 holds(s_17472_jpg, commercial).
 
 sample(s_17473_jpg).
@@ -18862,7 +18250,6 @@ holds(s_17473_jpg, building).
 holds(s_17473_jpg, feature).
 holds(s_17473_jpg, hotel).
 holds(s_17473_jpg, store).
-holds(s_17473_jpg, suburban).
 holds(s_17473_jpg, window).
 holds(s_17473_jpg, billboard).
 holds(s_17473_jpg, porch).
@@ -18875,7 +18262,6 @@ holds(s_17474_jpg, feature).
 holds(s_17474_jpg, hotel).
 holds(s_17474_jpg, store).
 holds(s_17474_jpg, suburban).
-holds(s_17474_jpg, door).
 holds(s_17474_jpg, billboard).
 holds(s_17474_jpg, porch).
 holds(s_17474_jpg, wallsign).
@@ -18893,6 +18279,7 @@ holds(s_17475_jpg, window).
 holds(s_17475_jpg, billboard).
 holds(s_17475_jpg, porch).
 holds(s_17475_jpg, wallsign).
+holds(s_17475_jpg, pipe).
 holds(s_17475_jpg, commercial).
 
 sample(s_17476_jpg).
@@ -18900,7 +18287,6 @@ holds(s_17476_jpg, building).
 holds(s_17476_jpg, feature).
 holds(s_17476_jpg, hotel).
 holds(s_17476_jpg, store).
-holds(s_17476_jpg, suburban).
 holds(s_17476_jpg, window).
 holds(s_17476_jpg, billboard).
 holds(s_17476_jpg, porch).
@@ -18913,7 +18299,6 @@ holds(s_17477_jpg, feature).
 holds(s_17477_jpg, hotel).
 holds(s_17477_jpg, store).
 holds(s_17477_jpg, suburban).
-holds(s_17477_jpg, door).
 holds(s_17477_jpg, billboard).
 holds(s_17477_jpg, porch).
 holds(s_17477_jpg, wallsign).
@@ -18931,6 +18316,7 @@ holds(s_17478_jpg, window).
 holds(s_17478_jpg, billboard).
 holds(s_17478_jpg, porch).
 holds(s_17478_jpg, wallsign).
+holds(s_17478_jpg, pipe).
 holds(s_17478_jpg, commercial).
 
 sample(s_17479_jpg).
@@ -18938,7 +18324,6 @@ holds(s_17479_jpg, building).
 holds(s_17479_jpg, feature).
 holds(s_17479_jpg, hotel).
 holds(s_17479_jpg, store).
-holds(s_17479_jpg, suburban).
 holds(s_17479_jpg, window).
 holds(s_17479_jpg, billboard).
 holds(s_17479_jpg, porch).
@@ -18951,7 +18336,6 @@ holds(s_17480_jpg, feature).
 holds(s_17480_jpg, hotel).
 holds(s_17480_jpg, store).
 holds(s_17480_jpg, suburban).
-holds(s_17480_jpg, door).
 holds(s_17480_jpg, billboard).
 holds(s_17480_jpg, porch).
 holds(s_17480_jpg, wallsign).
@@ -18969,6 +18353,7 @@ holds(s_17481_jpg, window).
 holds(s_17481_jpg, billboard).
 holds(s_17481_jpg, porch).
 holds(s_17481_jpg, wallsign).
+holds(s_17481_jpg, pipe).
 holds(s_17481_jpg, commercial).
 
 sample(s_17482_jpg).
@@ -18976,7 +18361,6 @@ holds(s_17482_jpg, building).
 holds(s_17482_jpg, feature).
 holds(s_17482_jpg, hotel).
 holds(s_17482_jpg, store).
-holds(s_17482_jpg, suburban).
 holds(s_17482_jpg, window).
 holds(s_17482_jpg, billboard).
 holds(s_17482_jpg, porch).
@@ -19015,7 +18399,6 @@ holds(s_17485_jpg, building).
 holds(s_17485_jpg, feature).
 holds(s_17485_jpg, hotel).
 holds(s_17485_jpg, store).
-holds(s_17485_jpg, suburban).
 holds(s_17485_jpg, window).
 holds(s_17485_jpg, billboard).
 holds(s_17485_jpg, porch).
@@ -19054,7 +18437,6 @@ holds(s_17488_jpg, building).
 holds(s_17488_jpg, feature).
 holds(s_17488_jpg, hotel).
 holds(s_17488_jpg, store).
-holds(s_17488_jpg, suburban).
 holds(s_17488_jpg, window).
 holds(s_17488_jpg, billboard).
 holds(s_17488_jpg, porch).
@@ -19067,7 +18449,6 @@ holds(s_17489_jpg, feature).
 holds(s_17489_jpg, hotel).
 holds(s_17489_jpg, store).
 holds(s_17489_jpg, suburban).
-holds(s_17489_jpg, door).
 holds(s_17489_jpg, billboard).
 holds(s_17489_jpg, porch).
 holds(s_17489_jpg, wallsign).
@@ -19093,7 +18474,6 @@ holds(s_17491_jpg, building).
 holds(s_17491_jpg, feature).
 holds(s_17491_jpg, hotel).
 holds(s_17491_jpg, store).
-holds(s_17491_jpg, suburban).
 holds(s_17491_jpg, window).
 holds(s_17491_jpg, billboard).
 holds(s_17491_jpg, porch).
@@ -19106,7 +18486,6 @@ holds(s_17492_jpg, feature).
 holds(s_17492_jpg, hotel).
 holds(s_17492_jpg, store).
 holds(s_17492_jpg, suburban).
-holds(s_17492_jpg, door).
 holds(s_17492_jpg, billboard).
 holds(s_17492_jpg, porch).
 holds(s_17492_jpg, wallsign).
@@ -19125,14 +18504,12 @@ holds(s_17493_jpg, billboard).
 holds(s_17493_jpg, porch).
 holds(s_17493_jpg, wallsign).
 holds(s_17493_jpg, commercial).
-holds(s_17493_jpg, industrial).
 
 sample(s_17494_jpg).
 holds(s_17494_jpg, building).
 holds(s_17494_jpg, feature).
 holds(s_17494_jpg, hotel).
 holds(s_17494_jpg, store).
-holds(s_17494_jpg, suburban).
 holds(s_17494_jpg, window).
 holds(s_17494_jpg, billboard).
 holds(s_17494_jpg, porch).
@@ -19145,7 +18522,6 @@ holds(s_17495_jpg, feature).
 holds(s_17495_jpg, hotel).
 holds(s_17495_jpg, store).
 holds(s_17495_jpg, suburban).
-holds(s_17495_jpg, door).
 holds(s_17495_jpg, billboard).
 holds(s_17495_jpg, porch).
 holds(s_17495_jpg, wallsign).
@@ -19171,7 +18547,6 @@ holds(s_17497_jpg, building).
 holds(s_17497_jpg, feature).
 holds(s_17497_jpg, hotel).
 holds(s_17497_jpg, store).
-holds(s_17497_jpg, suburban).
 holds(s_17497_jpg, window).
 holds(s_17497_jpg, billboard).
 holds(s_17497_jpg, porch).
@@ -19209,7 +18584,6 @@ holds(s_17500_jpg, building).
 holds(s_17500_jpg, feature).
 holds(s_17500_jpg, hotel).
 holds(s_17500_jpg, store).
-holds(s_17500_jpg, suburban).
 holds(s_17500_jpg, window).
 holds(s_17500_jpg, billboard).
 holds(s_17500_jpg, porch).
@@ -19222,7 +18596,6 @@ holds(s_17501_jpg, feature).
 holds(s_17501_jpg, hotel).
 holds(s_17501_jpg, store).
 holds(s_17501_jpg, suburban).
-holds(s_17501_jpg, door).
 holds(s_17501_jpg, billboard).
 holds(s_17501_jpg, porch).
 holds(s_17501_jpg, wallsign).
@@ -19248,8 +18621,6 @@ holds(s_17503_jpg, building).
 holds(s_17503_jpg, feature).
 holds(s_17503_jpg, hotel).
 holds(s_17503_jpg, store).
-holds(s_17503_jpg, suburban).
-holds(s_17503_jpg, door).
 holds(s_17503_jpg, window).
 holds(s_17503_jpg, billboard).
 holds(s_17503_jpg, porch).
@@ -19262,7 +18633,6 @@ holds(s_17504_jpg, feature).
 holds(s_17504_jpg, hotel).
 holds(s_17504_jpg, store).
 holds(s_17504_jpg, suburban).
-holds(s_17504_jpg, door).
 holds(s_17504_jpg, billboard).
 holds(s_17504_jpg, porch).
 holds(s_17504_jpg, wallsign).
@@ -19288,7 +18658,6 @@ holds(s_17506_jpg, building).
 holds(s_17506_jpg, feature).
 holds(s_17506_jpg, hotel).
 holds(s_17506_jpg, store).
-holds(s_17506_jpg, suburban).
 holds(s_17506_jpg, window).
 holds(s_17506_jpg, billboard).
 holds(s_17506_jpg, porch).
@@ -19301,7 +18670,6 @@ holds(s_17507_jpg, feature).
 holds(s_17507_jpg, hotel).
 holds(s_17507_jpg, store).
 holds(s_17507_jpg, suburban).
-holds(s_17507_jpg, door).
 holds(s_17507_jpg, billboard).
 holds(s_17507_jpg, porch).
 holds(s_17507_jpg, wallsign).
@@ -19319,6 +18687,7 @@ holds(s_17508_jpg, window).
 holds(s_17508_jpg, billboard).
 holds(s_17508_jpg, porch).
 holds(s_17508_jpg, wallsign).
+holds(s_17508_jpg, pipe).
 holds(s_17508_jpg, commercial).
 
 sample(s_17509_jpg).
@@ -19326,7 +18695,6 @@ holds(s_17509_jpg, building).
 holds(s_17509_jpg, feature).
 holds(s_17509_jpg, hotel).
 holds(s_17509_jpg, store).
-holds(s_17509_jpg, suburban).
 holds(s_17509_jpg, window).
 holds(s_17509_jpg, billboard).
 holds(s_17509_jpg, porch).
@@ -19339,7 +18707,6 @@ holds(s_17510_jpg, feature).
 holds(s_17510_jpg, hotel).
 holds(s_17510_jpg, store).
 holds(s_17510_jpg, suburban).
-holds(s_17510_jpg, door).
 holds(s_17510_jpg, billboard).
 holds(s_17510_jpg, porch).
 holds(s_17510_jpg, wallsign).
@@ -19364,7 +18731,6 @@ holds(s_17512_jpg, building).
 holds(s_17512_jpg, feature).
 holds(s_17512_jpg, hotel).
 holds(s_17512_jpg, store).
-holds(s_17512_jpg, suburban).
 holds(s_17512_jpg, window).
 holds(s_17512_jpg, billboard).
 holds(s_17512_jpg, porch).
@@ -19402,7 +18768,6 @@ holds(s_17515_jpg, building).
 holds(s_17515_jpg, feature).
 holds(s_17515_jpg, hotel).
 holds(s_17515_jpg, store).
-holds(s_17515_jpg, suburban).
 holds(s_17515_jpg, window).
 holds(s_17515_jpg, billboard).
 holds(s_17515_jpg, porch).
@@ -19415,7 +18780,6 @@ holds(s_17516_jpg, feature).
 holds(s_17516_jpg, hotel).
 holds(s_17516_jpg, store).
 holds(s_17516_jpg, suburban).
-holds(s_17516_jpg, door).
 holds(s_17516_jpg, billboard).
 holds(s_17516_jpg, porch).
 holds(s_17516_jpg, wallsign).
@@ -19441,7 +18805,6 @@ holds(s_17518_jpg, building).
 holds(s_17518_jpg, feature).
 holds(s_17518_jpg, hotel).
 holds(s_17518_jpg, store).
-holds(s_17518_jpg, suburban).
 holds(s_17518_jpg, window).
 holds(s_17518_jpg, billboard).
 holds(s_17518_jpg, porch).
@@ -19454,7 +18817,6 @@ holds(s_17519_jpg, feature).
 holds(s_17519_jpg, hotel).
 holds(s_17519_jpg, store).
 holds(s_17519_jpg, suburban).
-holds(s_17519_jpg, door).
 holds(s_17519_jpg, billboard).
 holds(s_17519_jpg, porch).
 holds(s_17519_jpg, wallsign).
@@ -19480,7 +18842,6 @@ holds(s_17521_jpg, building).
 holds(s_17521_jpg, feature).
 holds(s_17521_jpg, hotel).
 holds(s_17521_jpg, store).
-holds(s_17521_jpg, suburban).
 holds(s_17521_jpg, window).
 holds(s_17521_jpg, billboard).
 holds(s_17521_jpg, porch).
@@ -19511,6 +18872,7 @@ holds(s_17523_jpg, window).
 holds(s_17523_jpg, billboard).
 holds(s_17523_jpg, porch).
 holds(s_17523_jpg, wallsign).
+holds(s_17523_jpg, pipe).
 holds(s_17523_jpg, commercial).
 
 sample(s_17524_jpg).
@@ -19518,7 +18880,6 @@ holds(s_17524_jpg, building).
 holds(s_17524_jpg, feature).
 holds(s_17524_jpg, hotel).
 holds(s_17524_jpg, store).
-holds(s_17524_jpg, suburban).
 holds(s_17524_jpg, window).
 holds(s_17524_jpg, billboard).
 holds(s_17524_jpg, porch).
@@ -19558,6 +18919,7 @@ holds(s_17527_jpg, feature).
 holds(s_17527_jpg, hotel).
 holds(s_17527_jpg, store).
 holds(s_17527_jpg, suburban).
+holds(s_17527_jpg, door).
 holds(s_17527_jpg, window).
 holds(s_17527_jpg, billboard).
 holds(s_17527_jpg, porch).
@@ -19570,7 +18932,6 @@ holds(s_17528_jpg, feature).
 holds(s_17528_jpg, hotel).
 holds(s_17528_jpg, store).
 holds(s_17528_jpg, suburban).
-holds(s_17528_jpg, door).
 holds(s_17528_jpg, billboard).
 holds(s_17528_jpg, porch).
 holds(s_17528_jpg, wallsign).
@@ -19588,6 +18949,7 @@ holds(s_17529_jpg, window).
 holds(s_17529_jpg, billboard).
 holds(s_17529_jpg, porch).
 holds(s_17529_jpg, wallsign).
+holds(s_17529_jpg, pipe).
 holds(s_17529_jpg, commercial).
 
 sample(s_17530_jpg).
@@ -19595,7 +18957,6 @@ holds(s_17530_jpg, building).
 holds(s_17530_jpg, feature).
 holds(s_17530_jpg, hotel).
 holds(s_17530_jpg, store).
-holds(s_17530_jpg, suburban).
 holds(s_17530_jpg, window).
 holds(s_17530_jpg, billboard).
 holds(s_17530_jpg, porch).
@@ -19608,7 +18969,6 @@ holds(s_17531_jpg, feature).
 holds(s_17531_jpg, hotel).
 holds(s_17531_jpg, store).
 holds(s_17531_jpg, suburban).
-holds(s_17531_jpg, door).
 holds(s_17531_jpg, billboard).
 holds(s_17531_jpg, porch).
 holds(s_17531_jpg, wallsign).
@@ -19634,7 +18994,6 @@ holds(s_17533_jpg, building).
 holds(s_17533_jpg, feature).
 holds(s_17533_jpg, hotel).
 holds(s_17533_jpg, store).
-holds(s_17533_jpg, suburban).
 holds(s_17533_jpg, window).
 holds(s_17533_jpg, billboard).
 holds(s_17533_jpg, porch).
@@ -19647,7 +19006,6 @@ holds(s_17534_jpg, feature).
 holds(s_17534_jpg, hotel).
 holds(s_17534_jpg, store).
 holds(s_17534_jpg, suburban).
-holds(s_17534_jpg, door).
 holds(s_17534_jpg, billboard).
 holds(s_17534_jpg, porch).
 holds(s_17534_jpg, wallsign).
@@ -19673,7 +19031,6 @@ holds(s_17536_jpg, building).
 holds(s_17536_jpg, feature).
 holds(s_17536_jpg, hotel).
 holds(s_17536_jpg, store).
-holds(s_17536_jpg, suburban).
 holds(s_17536_jpg, window).
 holds(s_17536_jpg, billboard).
 holds(s_17536_jpg, porch).
@@ -19686,7 +19043,6 @@ holds(s_17537_jpg, feature).
 holds(s_17537_jpg, hotel).
 holds(s_17537_jpg, store).
 holds(s_17537_jpg, suburban).
-holds(s_17537_jpg, door).
 holds(s_17537_jpg, billboard).
 holds(s_17537_jpg, porch).
 holds(s_17537_jpg, wallsign).
@@ -19704,7 +19060,7 @@ holds(s_17538_jpg, window).
 holds(s_17538_jpg, billboard).
 holds(s_17538_jpg, porch).
 holds(s_17538_jpg, wallsign).
-holds(s_17538_jpg, car).
+holds(s_17538_jpg, pipe).
 holds(s_17538_jpg, commercial).
 
 sample(s_17539_jpg).
@@ -19712,7 +19068,6 @@ holds(s_17539_jpg, building).
 holds(s_17539_jpg, feature).
 holds(s_17539_jpg, hotel).
 holds(s_17539_jpg, store).
-holds(s_17539_jpg, suburban).
 holds(s_17539_jpg, window).
 holds(s_17539_jpg, billboard).
 holds(s_17539_jpg, porch).
@@ -19725,7 +19080,6 @@ holds(s_17540_jpg, feature).
 holds(s_17540_jpg, hotel).
 holds(s_17540_jpg, store).
 holds(s_17540_jpg, suburban).
-holds(s_17540_jpg, door).
 holds(s_17540_jpg, billboard).
 holds(s_17540_jpg, porch).
 holds(s_17540_jpg, wallsign).
@@ -19751,7 +19105,6 @@ holds(s_17542_jpg, building).
 holds(s_17542_jpg, feature).
 holds(s_17542_jpg, hotel).
 holds(s_17542_jpg, store).
-holds(s_17542_jpg, suburban).
 holds(s_17542_jpg, window).
 holds(s_17542_jpg, billboard).
 holds(s_17542_jpg, porch).
@@ -19764,7 +19117,6 @@ holds(s_17543_jpg, feature).
 holds(s_17543_jpg, hotel).
 holds(s_17543_jpg, store).
 holds(s_17543_jpg, suburban).
-holds(s_17543_jpg, door).
 holds(s_17543_jpg, billboard).
 holds(s_17543_jpg, porch).
 holds(s_17543_jpg, wallsign).
@@ -19790,7 +19142,6 @@ holds(s_17545_jpg, building).
 holds(s_17545_jpg, feature).
 holds(s_17545_jpg, hotel).
 holds(s_17545_jpg, store).
-holds(s_17545_jpg, suburban).
 holds(s_17545_jpg, window).
 holds(s_17545_jpg, billboard).
 holds(s_17545_jpg, porch).
@@ -19803,7 +19154,6 @@ holds(s_17546_jpg, feature).
 holds(s_17546_jpg, hotel).
 holds(s_17546_jpg, store).
 holds(s_17546_jpg, suburban).
-holds(s_17546_jpg, door).
 holds(s_17546_jpg, billboard).
 holds(s_17546_jpg, porch).
 holds(s_17546_jpg, wallsign).
@@ -19829,7 +19179,6 @@ holds(s_17548_jpg, building).
 holds(s_17548_jpg, feature).
 holds(s_17548_jpg, hotel).
 holds(s_17548_jpg, store).
-holds(s_17548_jpg, suburban).
 holds(s_17548_jpg, window).
 holds(s_17548_jpg, billboard).
 holds(s_17548_jpg, porch).
@@ -19860,6 +19209,7 @@ holds(s_17550_jpg, window).
 holds(s_17550_jpg, billboard).
 holds(s_17550_jpg, porch).
 holds(s_17550_jpg, wallsign).
+holds(s_17550_jpg, pipe).
 holds(s_17550_jpg, commercial).
 
 sample(s_17551_jpg).
@@ -19868,7 +19218,6 @@ holds(s_17551_jpg, feature).
 holds(s_17551_jpg, hotel).
 holds(s_17551_jpg, store).
 holds(s_17551_jpg, suburban).
-holds(s_17551_jpg, door).
 holds(s_17551_jpg, window).
 holds(s_17551_jpg, billboard).
 holds(s_17551_jpg, porch).
@@ -19881,7 +19230,6 @@ holds(s_17552_jpg, feature).
 holds(s_17552_jpg, hotel).
 holds(s_17552_jpg, store).
 holds(s_17552_jpg, suburban).
-holds(s_17552_jpg, door).
 holds(s_17552_jpg, billboard).
 holds(s_17552_jpg, porch).
 holds(s_17552_jpg, wallsign).
@@ -19906,7 +19254,6 @@ holds(s_17554_jpg, building).
 holds(s_17554_jpg, feature).
 holds(s_17554_jpg, hotel).
 holds(s_17554_jpg, store).
-holds(s_17554_jpg, suburban).
 holds(s_17554_jpg, window).
 holds(s_17554_jpg, billboard).
 holds(s_17554_jpg, porch).
@@ -19944,7 +19291,6 @@ holds(s_17557_jpg, building).
 holds(s_17557_jpg, feature).
 holds(s_17557_jpg, hotel).
 holds(s_17557_jpg, store).
-holds(s_17557_jpg, suburban).
 holds(s_17557_jpg, window).
 holds(s_17557_jpg, billboard).
 holds(s_17557_jpg, porch).
@@ -19995,7 +19341,6 @@ holds(s_17561_jpg, feature).
 holds(s_17561_jpg, hotel).
 holds(s_17561_jpg, store).
 holds(s_17561_jpg, suburban).
-holds(s_17561_jpg, door).
 holds(s_17561_jpg, billboard).
 holds(s_17561_jpg, porch).
 holds(s_17561_jpg, wallsign).
@@ -20021,7 +19366,6 @@ holds(s_17563_jpg, building).
 holds(s_17563_jpg, feature).
 holds(s_17563_jpg, hotel).
 holds(s_17563_jpg, store).
-holds(s_17563_jpg, suburban).
 holds(s_17563_jpg, window).
 holds(s_17563_jpg, billboard).
 holds(s_17563_jpg, porch).
@@ -20060,7 +19404,6 @@ holds(s_17566_jpg, building).
 holds(s_17566_jpg, feature).
 holds(s_17566_jpg, hotel).
 holds(s_17566_jpg, store).
-holds(s_17566_jpg, suburban).
 holds(s_17566_jpg, window).
 holds(s_17566_jpg, billboard).
 holds(s_17566_jpg, porch).
@@ -20073,7 +19416,6 @@ holds(s_17567_jpg, feature).
 holds(s_17567_jpg, hotel).
 holds(s_17567_jpg, store).
 holds(s_17567_jpg, suburban).
-holds(s_17567_jpg, door).
 holds(s_17567_jpg, billboard).
 holds(s_17567_jpg, porch).
 holds(s_17567_jpg, wallsign).
@@ -20091,6 +19433,7 @@ holds(s_17568_jpg, window).
 holds(s_17568_jpg, billboard).
 holds(s_17568_jpg, porch).
 holds(s_17568_jpg, wallsign).
+holds(s_17568_jpg, pipe).
 holds(s_17568_jpg, commercial).
 
 sample(s_17569_jpg).
@@ -20098,8 +19441,6 @@ holds(s_17569_jpg, building).
 holds(s_17569_jpg, feature).
 holds(s_17569_jpg, hotel).
 holds(s_17569_jpg, store).
-holds(s_17569_jpg, suburban).
-holds(s_17569_jpg, door).
 holds(s_17569_jpg, window).
 holds(s_17569_jpg, billboard).
 holds(s_17569_jpg, porch).
@@ -20112,7 +19453,6 @@ holds(s_17570_jpg, feature).
 holds(s_17570_jpg, hotel).
 holds(s_17570_jpg, store).
 holds(s_17570_jpg, suburban).
-holds(s_17570_jpg, door).
 holds(s_17570_jpg, billboard).
 holds(s_17570_jpg, porch).
 holds(s_17570_jpg, wallsign).
@@ -20138,7 +19478,6 @@ holds(s_17572_jpg, building).
 holds(s_17572_jpg, feature).
 holds(s_17572_jpg, hotel).
 holds(s_17572_jpg, store).
-holds(s_17572_jpg, suburban).
 holds(s_17572_jpg, window).
 holds(s_17572_jpg, billboard).
 holds(s_17572_jpg, porch).
@@ -20151,7 +19490,6 @@ holds(s_17573_jpg, feature).
 holds(s_17573_jpg, hotel).
 holds(s_17573_jpg, store).
 holds(s_17573_jpg, suburban).
-holds(s_17573_jpg, door).
 holds(s_17573_jpg, billboard).
 holds(s_17573_jpg, porch).
 holds(s_17573_jpg, wallsign).
@@ -20177,7 +19515,6 @@ holds(s_17575_jpg, building).
 holds(s_17575_jpg, feature).
 holds(s_17575_jpg, hotel).
 holds(s_17575_jpg, store).
-holds(s_17575_jpg, suburban).
 holds(s_17575_jpg, window).
 holds(s_17575_jpg, billboard).
 holds(s_17575_jpg, porch).
@@ -20190,7 +19527,6 @@ holds(s_17576_jpg, feature).
 holds(s_17576_jpg, hotel).
 holds(s_17576_jpg, store).
 holds(s_17576_jpg, suburban).
-holds(s_17576_jpg, door).
 holds(s_17576_jpg, billboard).
 holds(s_17576_jpg, porch).
 holds(s_17576_jpg, wallsign).
@@ -20216,7 +19552,6 @@ holds(s_17578_jpg, building).
 holds(s_17578_jpg, feature).
 holds(s_17578_jpg, hotel).
 holds(s_17578_jpg, store).
-holds(s_17578_jpg, suburban).
 holds(s_17578_jpg, window).
 holds(s_17578_jpg, billboard).
 holds(s_17578_jpg, porch).
@@ -20229,7 +19564,6 @@ holds(s_17579_jpg, feature).
 holds(s_17579_jpg, hotel).
 holds(s_17579_jpg, store).
 holds(s_17579_jpg, suburban).
-holds(s_17579_jpg, door).
 holds(s_17579_jpg, billboard).
 holds(s_17579_jpg, porch).
 holds(s_17579_jpg, wallsign).
@@ -20247,7 +19581,7 @@ holds(s_17580_jpg, window).
 holds(s_17580_jpg, billboard).
 holds(s_17580_jpg, porch).
 holds(s_17580_jpg, wallsign).
-holds(s_17580_jpg, car).
+holds(s_17580_jpg, pipe).
 holds(s_17580_jpg, commercial).
 
 sample(s_17581_jpg).
@@ -20255,7 +19589,6 @@ holds(s_17581_jpg, building).
 holds(s_17581_jpg, feature).
 holds(s_17581_jpg, hotel).
 holds(s_17581_jpg, store).
-holds(s_17581_jpg, suburban).
 holds(s_17581_jpg, window).
 holds(s_17581_jpg, billboard).
 holds(s_17581_jpg, porch).
@@ -20294,7 +19627,6 @@ holds(s_17584_jpg, building).
 holds(s_17584_jpg, feature).
 holds(s_17584_jpg, hotel).
 holds(s_17584_jpg, store).
-holds(s_17584_jpg, suburban).
 holds(s_17584_jpg, window).
 holds(s_17584_jpg, billboard).
 holds(s_17584_jpg, porch).
@@ -20325,6 +19657,7 @@ holds(s_17586_jpg, window).
 holds(s_17586_jpg, billboard).
 holds(s_17586_jpg, porch).
 holds(s_17586_jpg, wallsign).
+holds(s_17586_jpg, pipe).
 holds(s_17586_jpg, commercial).
 
 sample(s_17587_jpg).
@@ -20332,7 +19665,6 @@ holds(s_17587_jpg, building).
 holds(s_17587_jpg, feature).
 holds(s_17587_jpg, hotel).
 holds(s_17587_jpg, store).
-holds(s_17587_jpg, suburban).
 holds(s_17587_jpg, window).
 holds(s_17587_jpg, billboard).
 holds(s_17587_jpg, porch).
@@ -20345,7 +19677,6 @@ holds(s_17588_jpg, feature).
 holds(s_17588_jpg, hotel).
 holds(s_17588_jpg, store).
 holds(s_17588_jpg, suburban).
-holds(s_17588_jpg, door).
 holds(s_17588_jpg, billboard).
 holds(s_17588_jpg, porch).
 holds(s_17588_jpg, wallsign).
@@ -20363,6 +19694,7 @@ holds(s_17589_jpg, window).
 holds(s_17589_jpg, billboard).
 holds(s_17589_jpg, porch).
 holds(s_17589_jpg, wallsign).
+holds(s_17589_jpg, pipe).
 holds(s_17589_jpg, commercial).
 
 sample(s_17590_jpg).
@@ -20370,7 +19702,6 @@ holds(s_17590_jpg, building).
 holds(s_17590_jpg, feature).
 holds(s_17590_jpg, hotel).
 holds(s_17590_jpg, store).
-holds(s_17590_jpg, suburban).
 holds(s_17590_jpg, window).
 holds(s_17590_jpg, billboard).
 holds(s_17590_jpg, porch).
@@ -20383,7 +19714,6 @@ holds(s_17591_jpg, feature).
 holds(s_17591_jpg, hotel).
 holds(s_17591_jpg, store).
 holds(s_17591_jpg, suburban).
-holds(s_17591_jpg, door).
 holds(s_17591_jpg, billboard).
 holds(s_17591_jpg, porch).
 holds(s_17591_jpg, wallsign).
@@ -20395,7 +19725,6 @@ holds(s_17592_jpg, building).
 holds(s_17592_jpg, feature).
 holds(s_17592_jpg, hotel).
 holds(s_17592_jpg, store).
-holds(s_17592_jpg, suburban).
 holds(s_17592_jpg, window).
 holds(s_17592_jpg, billboard).
 holds(s_17592_jpg, porch).
@@ -20407,7 +19736,6 @@ holds(s_17593_jpg, building).
 holds(s_17593_jpg, feature).
 holds(s_17593_jpg, hotel).
 holds(s_17593_jpg, store).
-holds(s_17593_jpg, suburban).
 holds(s_17593_jpg, window).
 holds(s_17593_jpg, billboard).
 holds(s_17593_jpg, porch).
@@ -20420,7 +19748,6 @@ holds(s_17594_jpg, feature).
 holds(s_17594_jpg, hotel).
 holds(s_17594_jpg, store).
 holds(s_17594_jpg, suburban).
-holds(s_17594_jpg, door).
 holds(s_17594_jpg, billboard).
 holds(s_17594_jpg, porch).
 holds(s_17594_jpg, wallsign).
@@ -20446,8 +19773,6 @@ holds(s_17596_jpg, building).
 holds(s_17596_jpg, feature).
 holds(s_17596_jpg, hotel).
 holds(s_17596_jpg, store).
-holds(s_17596_jpg, suburban).
-holds(s_17596_jpg, door).
 holds(s_17596_jpg, window).
 holds(s_17596_jpg, billboard).
 holds(s_17596_jpg, porch).
@@ -20486,7 +19811,6 @@ holds(s_17599_jpg, building).
 holds(s_17599_jpg, feature).
 holds(s_17599_jpg, hotel).
 holds(s_17599_jpg, store).
-holds(s_17599_jpg, suburban).
 holds(s_17599_jpg, window).
 holds(s_17599_jpg, billboard).
 holds(s_17599_jpg, porch).
@@ -20524,7 +19848,6 @@ holds(s_17602_jpg, building).
 holds(s_17602_jpg, feature).
 holds(s_17602_jpg, hotel).
 holds(s_17602_jpg, store).
-holds(s_17602_jpg, suburban).
 holds(s_17602_jpg, window).
 holds(s_17602_jpg, billboard).
 holds(s_17602_jpg, porch).
@@ -20537,7 +19860,6 @@ holds(s_17603_jpg, feature).
 holds(s_17603_jpg, hotel).
 holds(s_17603_jpg, store).
 holds(s_17603_jpg, suburban).
-holds(s_17603_jpg, door).
 holds(s_17603_jpg, billboard).
 holds(s_17603_jpg, porch).
 holds(s_17603_jpg, wallsign).
@@ -20563,7 +19885,6 @@ holds(s_17605_jpg, building).
 holds(s_17605_jpg, feature).
 holds(s_17605_jpg, hotel).
 holds(s_17605_jpg, store).
-holds(s_17605_jpg, suburban).
 holds(s_17605_jpg, window).
 holds(s_17605_jpg, billboard).
 holds(s_17605_jpg, porch).
@@ -20576,7 +19897,6 @@ holds(s_17606_jpg, feature).
 holds(s_17606_jpg, hotel).
 holds(s_17606_jpg, store).
 holds(s_17606_jpg, suburban).
-holds(s_17606_jpg, door).
 holds(s_17606_jpg, billboard).
 holds(s_17606_jpg, porch).
 holds(s_17606_jpg, wallsign).
@@ -20594,6 +19914,7 @@ holds(s_17607_jpg, window).
 holds(s_17607_jpg, billboard).
 holds(s_17607_jpg, porch).
 holds(s_17607_jpg, wallsign).
+holds(s_17607_jpg, pipe).
 holds(s_17607_jpg, commercial).
 
 sample(s_17608_jpg).
@@ -20601,7 +19922,6 @@ holds(s_17608_jpg, building).
 holds(s_17608_jpg, feature).
 holds(s_17608_jpg, hotel).
 holds(s_17608_jpg, store).
-holds(s_17608_jpg, suburban).
 holds(s_17608_jpg, window).
 holds(s_17608_jpg, billboard).
 holds(s_17608_jpg, porch).
@@ -20614,7 +19934,6 @@ holds(s_17609_jpg, feature).
 holds(s_17609_jpg, hotel).
 holds(s_17609_jpg, store).
 holds(s_17609_jpg, suburban).
-holds(s_17609_jpg, door).
 holds(s_17609_jpg, billboard).
 holds(s_17609_jpg, porch).
 holds(s_17609_jpg, wallsign).
@@ -20640,7 +19959,6 @@ holds(s_17611_jpg, building).
 holds(s_17611_jpg, feature).
 holds(s_17611_jpg, hotel).
 holds(s_17611_jpg, store).
-holds(s_17611_jpg, suburban).
 holds(s_17611_jpg, window).
 holds(s_17611_jpg, billboard).
 holds(s_17611_jpg, porch).
@@ -20653,7 +19971,6 @@ holds(s_17612_jpg, feature).
 holds(s_17612_jpg, hotel).
 holds(s_17612_jpg, store).
 holds(s_17612_jpg, suburban).
-holds(s_17612_jpg, door).
 holds(s_17612_jpg, billboard).
 holds(s_17612_jpg, porch).
 holds(s_17612_jpg, wallsign).
@@ -20679,7 +19996,6 @@ holds(s_17614_jpg, building).
 holds(s_17614_jpg, feature).
 holds(s_17614_jpg, hotel).
 holds(s_17614_jpg, store).
-holds(s_17614_jpg, suburban).
 holds(s_17614_jpg, window).
 holds(s_17614_jpg, billboard).
 holds(s_17614_jpg, porch).
@@ -20692,7 +20008,6 @@ holds(s_17615_jpg, feature).
 holds(s_17615_jpg, hotel).
 holds(s_17615_jpg, store).
 holds(s_17615_jpg, suburban).
-holds(s_17615_jpg, door).
 holds(s_17615_jpg, billboard).
 holds(s_17615_jpg, porch).
 holds(s_17615_jpg, wallsign).
@@ -20710,6 +20025,7 @@ holds(s_17616_jpg, window).
 holds(s_17616_jpg, billboard).
 holds(s_17616_jpg, porch).
 holds(s_17616_jpg, wallsign).
+holds(s_17616_jpg, pipe).
 holds(s_17616_jpg, commercial).
 
 sample(s_17617_jpg).
@@ -20717,7 +20033,6 @@ holds(s_17617_jpg, building).
 holds(s_17617_jpg, feature).
 holds(s_17617_jpg, hotel).
 holds(s_17617_jpg, store).
-holds(s_17617_jpg, suburban).
 holds(s_17617_jpg, window).
 holds(s_17617_jpg, billboard).
 holds(s_17617_jpg, porch).
@@ -20730,7 +20045,6 @@ holds(s_17618_jpg, feature).
 holds(s_17618_jpg, hotel).
 holds(s_17618_jpg, store).
 holds(s_17618_jpg, suburban).
-holds(s_17618_jpg, door).
 holds(s_17618_jpg, billboard).
 holds(s_17618_jpg, porch).
 holds(s_17618_jpg, wallsign).
@@ -20748,6 +20062,7 @@ holds(s_17619_jpg, window).
 holds(s_17619_jpg, billboard).
 holds(s_17619_jpg, porch).
 holds(s_17619_jpg, wallsign).
+holds(s_17619_jpg, pipe).
 holds(s_17619_jpg, commercial).
 
 sample(s_17620_jpg).
@@ -20755,7 +20070,6 @@ holds(s_17620_jpg, building).
 holds(s_17620_jpg, feature).
 holds(s_17620_jpg, hotel).
 holds(s_17620_jpg, store).
-holds(s_17620_jpg, suburban).
 holds(s_17620_jpg, window).
 holds(s_17620_jpg, billboard).
 holds(s_17620_jpg, porch).
@@ -20768,7 +20082,6 @@ holds(s_17621_jpg, feature).
 holds(s_17621_jpg, hotel).
 holds(s_17621_jpg, store).
 holds(s_17621_jpg, suburban).
-holds(s_17621_jpg, door).
 holds(s_17621_jpg, billboard).
 holds(s_17621_jpg, porch).
 holds(s_17621_jpg, wallsign).
@@ -20794,13 +20107,11 @@ holds(s_17623_jpg, building).
 holds(s_17623_jpg, feature).
 holds(s_17623_jpg, hotel).
 holds(s_17623_jpg, store).
-holds(s_17623_jpg, suburban).
-holds(s_17623_jpg, door).
 holds(s_17623_jpg, window).
 holds(s_17623_jpg, billboard).
 holds(s_17623_jpg, porch).
 holds(s_17623_jpg, wallsign).
-holds(s_17623_jpg, commercial).
+holds(s_17623_jpg, industrial).
 
 sample(s_17624_jpg).
 holds(s_17624_jpg, building).
@@ -20825,6 +20136,7 @@ holds(s_17625_jpg, window).
 holds(s_17625_jpg, billboard).
 holds(s_17625_jpg, porch).
 holds(s_17625_jpg, wallsign).
+holds(s_17625_jpg, pipe).
 holds(s_17625_jpg, commercial).
 
 sample(s_17626_jpg).
@@ -20832,7 +20144,6 @@ holds(s_17626_jpg, building).
 holds(s_17626_jpg, feature).
 holds(s_17626_jpg, hotel).
 holds(s_17626_jpg, store).
-holds(s_17626_jpg, suburban).
 holds(s_17626_jpg, window).
 holds(s_17626_jpg, billboard).
 holds(s_17626_jpg, porch).
@@ -20862,6 +20173,7 @@ holds(s_17628_jpg, window).
 holds(s_17628_jpg, billboard).
 holds(s_17628_jpg, porch).
 holds(s_17628_jpg, wallsign).
+holds(s_17628_jpg, pipe).
 holds(s_17628_jpg, commercial).
 
 sample(s_17629_jpg).
@@ -20869,7 +20181,6 @@ holds(s_17629_jpg, building).
 holds(s_17629_jpg, feature).
 holds(s_17629_jpg, hotel).
 holds(s_17629_jpg, store).
-holds(s_17629_jpg, suburban).
 holds(s_17629_jpg, window).
 holds(s_17629_jpg, billboard).
 holds(s_17629_jpg, porch).
@@ -20882,7 +20193,6 @@ holds(s_17630_jpg, feature).
 holds(s_17630_jpg, hotel).
 holds(s_17630_jpg, store).
 holds(s_17630_jpg, suburban).
-holds(s_17630_jpg, door).
 holds(s_17630_jpg, billboard).
 holds(s_17630_jpg, porch).
 holds(s_17630_jpg, wallsign).
@@ -20900,6 +20210,7 @@ holds(s_17631_jpg, window).
 holds(s_17631_jpg, billboard).
 holds(s_17631_jpg, porch).
 holds(s_17631_jpg, wallsign).
+holds(s_17631_jpg, pipe).
 holds(s_17631_jpg, commercial).
 
 sample(s_17632_jpg).
@@ -20907,7 +20218,6 @@ holds(s_17632_jpg, building).
 holds(s_17632_jpg, feature).
 holds(s_17632_jpg, hotel).
 holds(s_17632_jpg, store).
-holds(s_17632_jpg, suburban).
 holds(s_17632_jpg, window).
 holds(s_17632_jpg, billboard).
 holds(s_17632_jpg, porch).
@@ -20946,7 +20256,6 @@ holds(s_17635_jpg, building).
 holds(s_17635_jpg, feature).
 holds(s_17635_jpg, hotel).
 holds(s_17635_jpg, store).
-holds(s_17635_jpg, suburban).
 holds(s_17635_jpg, window).
 holds(s_17635_jpg, billboard).
 holds(s_17635_jpg, porch).
@@ -20959,7 +20268,6 @@ holds(s_17636_jpg, feature).
 holds(s_17636_jpg, hotel).
 holds(s_17636_jpg, store).
 holds(s_17636_jpg, suburban).
-holds(s_17636_jpg, door).
 holds(s_17636_jpg, billboard).
 holds(s_17636_jpg, porch).
 holds(s_17636_jpg, wallsign).
@@ -20977,6 +20285,7 @@ holds(s_17637_jpg, window).
 holds(s_17637_jpg, billboard).
 holds(s_17637_jpg, porch).
 holds(s_17637_jpg, wallsign).
+holds(s_17637_jpg, pipe).
 holds(s_17637_jpg, commercial).
 
 sample(s_17638_jpg).
@@ -20984,7 +20293,6 @@ holds(s_17638_jpg, building).
 holds(s_17638_jpg, feature).
 holds(s_17638_jpg, hotel).
 holds(s_17638_jpg, store).
-holds(s_17638_jpg, suburban).
 holds(s_17638_jpg, window).
 holds(s_17638_jpg, billboard).
 holds(s_17638_jpg, porch).
@@ -20997,7 +20305,6 @@ holds(s_17639_jpg, feature).
 holds(s_17639_jpg, hotel).
 holds(s_17639_jpg, store).
 holds(s_17639_jpg, suburban).
-holds(s_17639_jpg, door).
 holds(s_17639_jpg, billboard).
 holds(s_17639_jpg, porch).
 holds(s_17639_jpg, wallsign).
@@ -21015,6 +20322,7 @@ holds(s_17640_jpg, window).
 holds(s_17640_jpg, billboard).
 holds(s_17640_jpg, porch).
 holds(s_17640_jpg, wallsign).
+holds(s_17640_jpg, pipe).
 holds(s_17640_jpg, commercial).
 
 sample(s_17641_jpg).
@@ -21022,7 +20330,6 @@ holds(s_17641_jpg, building).
 holds(s_17641_jpg, feature).
 holds(s_17641_jpg, hotel).
 holds(s_17641_jpg, store).
-holds(s_17641_jpg, suburban).
 holds(s_17641_jpg, window).
 holds(s_17641_jpg, billboard).
 holds(s_17641_jpg, porch).
@@ -21061,7 +20368,6 @@ holds(s_17644_jpg, building).
 holds(s_17644_jpg, feature).
 holds(s_17644_jpg, hotel).
 holds(s_17644_jpg, store).
-holds(s_17644_jpg, suburban).
 holds(s_17644_jpg, window).
 holds(s_17644_jpg, billboard).
 holds(s_17644_jpg, porch).
@@ -21074,7 +20380,6 @@ holds(s_17645_jpg, feature).
 holds(s_17645_jpg, hotel).
 holds(s_17645_jpg, store).
 holds(s_17645_jpg, suburban).
-holds(s_17645_jpg, door).
 holds(s_17645_jpg, billboard).
 holds(s_17645_jpg, porch).
 holds(s_17645_jpg, wallsign).
@@ -21100,7 +20405,6 @@ holds(s_17647_jpg, building).
 holds(s_17647_jpg, feature).
 holds(s_17647_jpg, hotel).
 holds(s_17647_jpg, store).
-holds(s_17647_jpg, suburban).
 holds(s_17647_jpg, window).
 holds(s_17647_jpg, billboard).
 holds(s_17647_jpg, porch).
@@ -21113,7 +20417,6 @@ holds(s_17648_jpg, feature).
 holds(s_17648_jpg, hotel).
 holds(s_17648_jpg, store).
 holds(s_17648_jpg, suburban).
-holds(s_17648_jpg, door).
 holds(s_17648_jpg, billboard).
 holds(s_17648_jpg, porch).
 holds(s_17648_jpg, wallsign).
@@ -21139,7 +20442,6 @@ holds(s_17650_jpg, building).
 holds(s_17650_jpg, feature).
 holds(s_17650_jpg, hotel).
 holds(s_17650_jpg, store).
-holds(s_17650_jpg, suburban).
 holds(s_17650_jpg, window).
 holds(s_17650_jpg, billboard).
 holds(s_17650_jpg, porch).
@@ -21164,18 +20466,19 @@ holds(s_17652_jpg, feature).
 holds(s_17652_jpg, hotel).
 holds(s_17652_jpg, store).
 holds(s_17652_jpg, suburban).
+holds(s_17652_jpg, door).
 holds(s_17652_jpg, window).
 holds(s_17652_jpg, billboard).
 holds(s_17652_jpg, porch).
 holds(s_17652_jpg, wallsign).
-holds(s_17652_jpg, industrial).
+holds(s_17652_jpg, pipe).
+holds(s_17652_jpg, commercial).
 
 sample(s_17653_jpg).
 holds(s_17653_jpg, building).
 holds(s_17653_jpg, feature).
 holds(s_17653_jpg, hotel).
 holds(s_17653_jpg, store).
-holds(s_17653_jpg, suburban).
 holds(s_17653_jpg, window).
 holds(s_17653_jpg, billboard).
 holds(s_17653_jpg, porch).
@@ -21188,7 +20491,6 @@ holds(s_17654_jpg, feature).
 holds(s_17654_jpg, hotel).
 holds(s_17654_jpg, store).
 holds(s_17654_jpg, suburban).
-holds(s_17654_jpg, door).
 holds(s_17654_jpg, billboard).
 holds(s_17654_jpg, porch).
 holds(s_17654_jpg, wallsign).
@@ -21214,7 +20516,6 @@ holds(s_17656_jpg, building).
 holds(s_17656_jpg, feature).
 holds(s_17656_jpg, hotel).
 holds(s_17656_jpg, store).
-holds(s_17656_jpg, suburban).
 holds(s_17656_jpg, window).
 holds(s_17656_jpg, billboard).
 holds(s_17656_jpg, porch).
@@ -21227,7 +20528,6 @@ holds(s_17657_jpg, feature).
 holds(s_17657_jpg, hotel).
 holds(s_17657_jpg, store).
 holds(s_17657_jpg, suburban).
-holds(s_17657_jpg, door).
 holds(s_17657_jpg, billboard).
 holds(s_17657_jpg, porch).
 holds(s_17657_jpg, wallsign).
@@ -21245,6 +20545,7 @@ holds(s_17658_jpg, window).
 holds(s_17658_jpg, billboard).
 holds(s_17658_jpg, porch).
 holds(s_17658_jpg, wallsign).
+holds(s_17658_jpg, pipe).
 holds(s_17658_jpg, commercial).
 
 sample(s_17659_jpg).
@@ -21252,7 +20553,6 @@ holds(s_17659_jpg, building).
 holds(s_17659_jpg, feature).
 holds(s_17659_jpg, hotel).
 holds(s_17659_jpg, store).
-holds(s_17659_jpg, suburban).
 holds(s_17659_jpg, window).
 holds(s_17659_jpg, billboard).
 holds(s_17659_jpg, porch).
@@ -21265,7 +20565,6 @@ holds(s_17660_jpg, feature).
 holds(s_17660_jpg, hotel).
 holds(s_17660_jpg, store).
 holds(s_17660_jpg, suburban).
-holds(s_17660_jpg, door).
 holds(s_17660_jpg, billboard).
 holds(s_17660_jpg, porch).
 holds(s_17660_jpg, wallsign).
@@ -21291,7 +20590,6 @@ holds(s_17662_jpg, building).
 holds(s_17662_jpg, feature).
 holds(s_17662_jpg, hotel).
 holds(s_17662_jpg, store).
-holds(s_17662_jpg, suburban).
 holds(s_17662_jpg, window).
 holds(s_17662_jpg, billboard).
 holds(s_17662_jpg, porch).
@@ -21304,7 +20602,6 @@ holds(s_17663_jpg, feature).
 holds(s_17663_jpg, hotel).
 holds(s_17663_jpg, store).
 holds(s_17663_jpg, suburban).
-holds(s_17663_jpg, door).
 holds(s_17663_jpg, billboard).
 holds(s_17663_jpg, porch).
 holds(s_17663_jpg, wallsign).
@@ -21330,7 +20627,6 @@ holds(s_17665_jpg, building).
 holds(s_17665_jpg, feature).
 holds(s_17665_jpg, hotel).
 holds(s_17665_jpg, store).
-holds(s_17665_jpg, suburban).
 holds(s_17665_jpg, window).
 holds(s_17665_jpg, billboard).
 holds(s_17665_jpg, porch).
@@ -21343,7 +20639,6 @@ holds(s_17666_jpg, feature).
 holds(s_17666_jpg, hotel).
 holds(s_17666_jpg, store).
 holds(s_17666_jpg, suburban).
-holds(s_17666_jpg, door).
 holds(s_17666_jpg, billboard).
 holds(s_17666_jpg, porch).
 holds(s_17666_jpg, wallsign).
@@ -21361,6 +20656,7 @@ holds(s_17667_jpg, window).
 holds(s_17667_jpg, billboard).
 holds(s_17667_jpg, porch).
 holds(s_17667_jpg, wallsign).
+holds(s_17667_jpg, pipe).
 holds(s_17667_jpg, commercial).
 
 sample(s_17668_jpg).
@@ -21368,7 +20664,6 @@ holds(s_17668_jpg, building).
 holds(s_17668_jpg, feature).
 holds(s_17668_jpg, hotel).
 holds(s_17668_jpg, store).
-holds(s_17668_jpg, suburban).
 holds(s_17668_jpg, window).
 holds(s_17668_jpg, billboard).
 holds(s_17668_jpg, porch).
@@ -21381,7 +20676,6 @@ holds(s_17669_jpg, feature).
 holds(s_17669_jpg, hotel).
 holds(s_17669_jpg, store).
 holds(s_17669_jpg, suburban).
-holds(s_17669_jpg, door).
 holds(s_17669_jpg, billboard).
 holds(s_17669_jpg, porch).
 holds(s_17669_jpg, wallsign).
@@ -21419,7 +20713,6 @@ holds(s_17672_jpg, feature).
 holds(s_17672_jpg, hotel).
 holds(s_17672_jpg, store).
 holds(s_17672_jpg, suburban).
-holds(s_17672_jpg, door).
 holds(s_17672_jpg, billboard).
 holds(s_17672_jpg, porch).
 holds(s_17672_jpg, wallsign).
@@ -21437,6 +20730,7 @@ holds(s_17673_jpg, window).
 holds(s_17673_jpg, billboard).
 holds(s_17673_jpg, porch).
 holds(s_17673_jpg, wallsign).
+holds(s_17673_jpg, pipe).
 holds(s_17673_jpg, commercial).
 
 sample(s_17674_jpg).
@@ -21444,7 +20738,6 @@ holds(s_17674_jpg, building).
 holds(s_17674_jpg, feature).
 holds(s_17674_jpg, hotel).
 holds(s_17674_jpg, store).
-holds(s_17674_jpg, suburban).
 holds(s_17674_jpg, window).
 holds(s_17674_jpg, billboard).
 holds(s_17674_jpg, porch).
@@ -21474,6 +20767,7 @@ holds(s_17676_jpg, window).
 holds(s_17676_jpg, billboard).
 holds(s_17676_jpg, porch).
 holds(s_17676_jpg, wallsign).
+holds(s_17676_jpg, pipe).
 holds(s_17676_jpg, commercial).
 
 sample(s_17677_jpg).
@@ -21481,7 +20775,6 @@ holds(s_17677_jpg, building).
 holds(s_17677_jpg, feature).
 holds(s_17677_jpg, hotel).
 holds(s_17677_jpg, store).
-holds(s_17677_jpg, suburban).
 holds(s_17677_jpg, window).
 holds(s_17677_jpg, billboard).
 holds(s_17677_jpg, porch).
@@ -21494,7 +20787,6 @@ holds(s_17678_jpg, feature).
 holds(s_17678_jpg, hotel).
 holds(s_17678_jpg, store).
 holds(s_17678_jpg, suburban).
-holds(s_17678_jpg, door).
 holds(s_17678_jpg, billboard).
 holds(s_17678_jpg, porch).
 holds(s_17678_jpg, wallsign).
@@ -21520,7 +20812,6 @@ holds(s_17680_jpg, building).
 holds(s_17680_jpg, feature).
 holds(s_17680_jpg, hotel).
 holds(s_17680_jpg, store).
-holds(s_17680_jpg, suburban).
 holds(s_17680_jpg, window).
 holds(s_17680_jpg, billboard).
 holds(s_17680_jpg, porch).
@@ -21559,7 +20850,6 @@ holds(s_17683_jpg, building).
 holds(s_17683_jpg, feature).
 holds(s_17683_jpg, hotel).
 holds(s_17683_jpg, store).
-holds(s_17683_jpg, suburban).
 holds(s_17683_jpg, window).
 holds(s_17683_jpg, billboard).
 holds(s_17683_jpg, porch).
@@ -21572,7 +20862,6 @@ holds(s_17684_jpg, feature).
 holds(s_17684_jpg, hotel).
 holds(s_17684_jpg, store).
 holds(s_17684_jpg, suburban).
-holds(s_17684_jpg, door).
 holds(s_17684_jpg, billboard).
 holds(s_17684_jpg, porch).
 holds(s_17684_jpg, wallsign).
@@ -21598,7 +20887,6 @@ holds(s_17686_jpg, building).
 holds(s_17686_jpg, feature).
 holds(s_17686_jpg, hotel).
 holds(s_17686_jpg, store).
-holds(s_17686_jpg, suburban).
 holds(s_17686_jpg, window).
 holds(s_17686_jpg, billboard).
 holds(s_17686_jpg, porch).
@@ -21611,7 +20899,6 @@ holds(s_17687_jpg, feature).
 holds(s_17687_jpg, hotel).
 holds(s_17687_jpg, store).
 holds(s_17687_jpg, suburban).
-holds(s_17687_jpg, door).
 holds(s_17687_jpg, billboard).
 holds(s_17687_jpg, porch).
 holds(s_17687_jpg, wallsign).
@@ -21629,6 +20916,7 @@ holds(s_17688_jpg, window).
 holds(s_17688_jpg, billboard).
 holds(s_17688_jpg, porch).
 holds(s_17688_jpg, wallsign).
+holds(s_17688_jpg, pipe).
 holds(s_17688_jpg, commercial).
 
 sample(s_17689_jpg).
@@ -21636,7 +20924,6 @@ holds(s_17689_jpg, building).
 holds(s_17689_jpg, feature).
 holds(s_17689_jpg, hotel).
 holds(s_17689_jpg, store).
-holds(s_17689_jpg, suburban).
 holds(s_17689_jpg, window).
 holds(s_17689_jpg, billboard).
 holds(s_17689_jpg, porch).
@@ -21649,7 +20936,6 @@ holds(s_17690_jpg, feature).
 holds(s_17690_jpg, hotel).
 holds(s_17690_jpg, store).
 holds(s_17690_jpg, suburban).
-holds(s_17690_jpg, door).
 holds(s_17690_jpg, billboard).
 holds(s_17690_jpg, porch).
 holds(s_17690_jpg, wallsign).
@@ -21667,6 +20953,7 @@ holds(s_17691_jpg, window).
 holds(s_17691_jpg, billboard).
 holds(s_17691_jpg, porch).
 holds(s_17691_jpg, wallsign).
+holds(s_17691_jpg, pipe).
 holds(s_17691_jpg, commercial).
 
 sample(s_17692_jpg).
@@ -21674,7 +20961,6 @@ holds(s_17692_jpg, building).
 holds(s_17692_jpg, feature).
 holds(s_17692_jpg, hotel).
 holds(s_17692_jpg, store).
-holds(s_17692_jpg, suburban).
 holds(s_17692_jpg, window).
 holds(s_17692_jpg, billboard).
 holds(s_17692_jpg, porch).
@@ -21712,7 +20998,6 @@ holds(s_17695_jpg, building).
 holds(s_17695_jpg, feature).
 holds(s_17695_jpg, hotel).
 holds(s_17695_jpg, store).
-holds(s_17695_jpg, suburban).
 holds(s_17695_jpg, window).
 holds(s_17695_jpg, billboard).
 holds(s_17695_jpg, porch).
@@ -21725,7 +21010,6 @@ holds(s_17696_jpg, feature).
 holds(s_17696_jpg, hotel).
 holds(s_17696_jpg, store).
 holds(s_17696_jpg, suburban).
-holds(s_17696_jpg, door).
 holds(s_17696_jpg, billboard).
 holds(s_17696_jpg, porch).
 holds(s_17696_jpg, wallsign).
@@ -21751,7 +21035,6 @@ holds(s_17698_jpg, building).
 holds(s_17698_jpg, feature).
 holds(s_17698_jpg, hotel).
 holds(s_17698_jpg, store).
-holds(s_17698_jpg, suburban).
 holds(s_17698_jpg, window).
 holds(s_17698_jpg, billboard).
 holds(s_17698_jpg, porch).
@@ -21764,7 +21047,6 @@ holds(s_17699_jpg, feature).
 holds(s_17699_jpg, hotel).
 holds(s_17699_jpg, store).
 holds(s_17699_jpg, suburban).
-holds(s_17699_jpg, door).
 holds(s_17699_jpg, billboard).
 holds(s_17699_jpg, porch).
 holds(s_17699_jpg, wallsign).
@@ -21790,7 +21072,6 @@ holds(s_17701_jpg, building).
 holds(s_17701_jpg, feature).
 holds(s_17701_jpg, hotel).
 holds(s_17701_jpg, store).
-holds(s_17701_jpg, suburban).
 holds(s_17701_jpg, window).
 holds(s_17701_jpg, billboard).
 holds(s_17701_jpg, porch).
@@ -21829,7 +21110,6 @@ holds(s_17704_jpg, building).
 holds(s_17704_jpg, feature).
 holds(s_17704_jpg, hotel).
 holds(s_17704_jpg, store).
-holds(s_17704_jpg, suburban).
 holds(s_17704_jpg, window).
 holds(s_17704_jpg, billboard).
 holds(s_17704_jpg, porch).
@@ -21842,7 +21122,6 @@ holds(s_17705_jpg, feature).
 holds(s_17705_jpg, hotel).
 holds(s_17705_jpg, store).
 holds(s_17705_jpg, suburban).
-holds(s_17705_jpg, door).
 holds(s_17705_jpg, billboard).
 holds(s_17705_jpg, porch).
 holds(s_17705_jpg, wallsign).
@@ -21860,6 +21139,7 @@ holds(s_17706_jpg, window).
 holds(s_17706_jpg, billboard).
 holds(s_17706_jpg, porch).
 holds(s_17706_jpg, wallsign).
+holds(s_17706_jpg, pipe).
 holds(s_17706_jpg, commercial).
 
 sample(s_17707_jpg).
@@ -21867,7 +21147,6 @@ holds(s_17707_jpg, building).
 holds(s_17707_jpg, feature).
 holds(s_17707_jpg, hotel).
 holds(s_17707_jpg, store).
-holds(s_17707_jpg, suburban).
 holds(s_17707_jpg, window).
 holds(s_17707_jpg, billboard).
 holds(s_17707_jpg, porch).
@@ -21880,7 +21159,6 @@ holds(s_17708_jpg, feature).
 holds(s_17708_jpg, hotel).
 holds(s_17708_jpg, store).
 holds(s_17708_jpg, suburban).
-holds(s_17708_jpg, door).
 holds(s_17708_jpg, billboard).
 holds(s_17708_jpg, porch).
 holds(s_17708_jpg, wallsign).
@@ -21906,7 +21184,6 @@ holds(s_17710_jpg, building).
 holds(s_17710_jpg, feature).
 holds(s_17710_jpg, hotel).
 holds(s_17710_jpg, store).
-holds(s_17710_jpg, suburban).
 holds(s_17710_jpg, window).
 holds(s_17710_jpg, billboard).
 holds(s_17710_jpg, porch).
@@ -21982,7 +21259,6 @@ holds(s_17716_jpg, building).
 holds(s_17716_jpg, feature).
 holds(s_17716_jpg, hotel).
 holds(s_17716_jpg, store).
-holds(s_17716_jpg, suburban).
 holds(s_17716_jpg, window).
 holds(s_17716_jpg, billboard).
 holds(s_17716_jpg, porch).
@@ -21995,7 +21271,6 @@ holds(s_17717_jpg, feature).
 holds(s_17717_jpg, hotel).
 holds(s_17717_jpg, store).
 holds(s_17717_jpg, suburban).
-holds(s_17717_jpg, door).
 holds(s_17717_jpg, billboard).
 holds(s_17717_jpg, porch).
 holds(s_17717_jpg, wallsign).
@@ -22013,6 +21288,7 @@ holds(s_17718_jpg, window).
 holds(s_17718_jpg, billboard).
 holds(s_17718_jpg, porch).
 holds(s_17718_jpg, wallsign).
+holds(s_17718_jpg, pipe).
 holds(s_17718_jpg, commercial).
 
 sample(s_17719_jpg).
@@ -22020,7 +21296,6 @@ holds(s_17719_jpg, building).
 holds(s_17719_jpg, feature).
 holds(s_17719_jpg, hotel).
 holds(s_17719_jpg, store).
-holds(s_17719_jpg, suburban).
 holds(s_17719_jpg, window).
 holds(s_17719_jpg, billboard).
 holds(s_17719_jpg, porch).
@@ -22051,6 +21326,7 @@ holds(s_17721_jpg, window).
 holds(s_17721_jpg, billboard).
 holds(s_17721_jpg, porch).
 holds(s_17721_jpg, wallsign).
+holds(s_17721_jpg, pipe).
 holds(s_17721_jpg, commercial).
 
 sample(s_17722_jpg).
@@ -22058,7 +21334,6 @@ holds(s_17722_jpg, building).
 holds(s_17722_jpg, feature).
 holds(s_17722_jpg, hotel).
 holds(s_17722_jpg, store).
-holds(s_17722_jpg, suburban).
 holds(s_17722_jpg, window).
 holds(s_17722_jpg, billboard).
 holds(s_17722_jpg, porch).
@@ -22071,7 +21346,6 @@ holds(s_17723_jpg, feature).
 holds(s_17723_jpg, hotel).
 holds(s_17723_jpg, store).
 holds(s_17723_jpg, suburban).
-holds(s_17723_jpg, door).
 holds(s_17723_jpg, billboard).
 holds(s_17723_jpg, porch).
 holds(s_17723_jpg, wallsign).
@@ -22097,7 +21371,6 @@ holds(s_17725_jpg, building).
 holds(s_17725_jpg, feature).
 holds(s_17725_jpg, hotel).
 holds(s_17725_jpg, store).
-holds(s_17725_jpg, suburban).
 holds(s_17725_jpg, window).
 holds(s_17725_jpg, billboard).
 holds(s_17725_jpg, porch).
@@ -22110,7 +21383,6 @@ holds(s_17726_jpg, feature).
 holds(s_17726_jpg, hotel).
 holds(s_17726_jpg, store).
 holds(s_17726_jpg, suburban).
-holds(s_17726_jpg, door).
 holds(s_17726_jpg, billboard).
 holds(s_17726_jpg, porch).
 holds(s_17726_jpg, wallsign).
@@ -22136,7 +21408,6 @@ holds(s_17728_jpg, building).
 holds(s_17728_jpg, feature).
 holds(s_17728_jpg, hotel).
 holds(s_17728_jpg, store).
-holds(s_17728_jpg, suburban).
 holds(s_17728_jpg, window).
 holds(s_17728_jpg, billboard).
 holds(s_17728_jpg, porch).
@@ -22149,7 +21420,6 @@ holds(s_17729_jpg, feature).
 holds(s_17729_jpg, hotel).
 holds(s_17729_jpg, store).
 holds(s_17729_jpg, suburban).
-holds(s_17729_jpg, door).
 holds(s_17729_jpg, billboard).
 holds(s_17729_jpg, porch).
 holds(s_17729_jpg, wallsign).
@@ -22167,6 +21437,7 @@ holds(s_17730_jpg, window).
 holds(s_17730_jpg, billboard).
 holds(s_17730_jpg, porch).
 holds(s_17730_jpg, wallsign).
+holds(s_17730_jpg, pipe).
 holds(s_17730_jpg, commercial).
 
 sample(s_17731_jpg).
@@ -22174,7 +21445,6 @@ holds(s_17731_jpg, building).
 holds(s_17731_jpg, feature).
 holds(s_17731_jpg, hotel).
 holds(s_17731_jpg, store).
-holds(s_17731_jpg, suburban).
 holds(s_17731_jpg, window).
 holds(s_17731_jpg, billboard).
 holds(s_17731_jpg, porch).
@@ -22204,6 +21474,7 @@ holds(s_17733_jpg, window).
 holds(s_17733_jpg, billboard).
 holds(s_17733_jpg, porch).
 holds(s_17733_jpg, wallsign).
+holds(s_17733_jpg, pipe).
 holds(s_17733_jpg, commercial).
 
 sample(s_17734_jpg).
@@ -22211,7 +21482,6 @@ holds(s_17734_jpg, building).
 holds(s_17734_jpg, feature).
 holds(s_17734_jpg, hotel).
 holds(s_17734_jpg, store).
-holds(s_17734_jpg, suburban).
 holds(s_17734_jpg, window).
 holds(s_17734_jpg, billboard).
 holds(s_17734_jpg, porch).
@@ -22224,7 +21494,6 @@ holds(s_17735_jpg, feature).
 holds(s_17735_jpg, hotel).
 holds(s_17735_jpg, store).
 holds(s_17735_jpg, suburban).
-holds(s_17735_jpg, door).
 holds(s_17735_jpg, billboard).
 holds(s_17735_jpg, porch).
 holds(s_17735_jpg, wallsign).
@@ -22250,7 +21519,6 @@ holds(s_17737_jpg, building).
 holds(s_17737_jpg, feature).
 holds(s_17737_jpg, hotel).
 holds(s_17737_jpg, store).
-holds(s_17737_jpg, suburban).
 holds(s_17737_jpg, window).
 holds(s_17737_jpg, billboard).
 holds(s_17737_jpg, porch).
@@ -22263,7 +21531,6 @@ holds(s_17738_jpg, feature).
 holds(s_17738_jpg, hotel).
 holds(s_17738_jpg, store).
 holds(s_17738_jpg, suburban).
-holds(s_17738_jpg, door).
 holds(s_17738_jpg, billboard).
 holds(s_17738_jpg, porch).
 holds(s_17738_jpg, wallsign).
@@ -22281,6 +21548,7 @@ holds(s_17739_jpg, window).
 holds(s_17739_jpg, billboard).
 holds(s_17739_jpg, porch).
 holds(s_17739_jpg, wallsign).
+holds(s_17739_jpg, pipe).
 holds(s_17739_jpg, commercial).
 
 sample(s_17740_jpg).
@@ -22301,7 +21569,6 @@ holds(s_17741_jpg, feature).
 holds(s_17741_jpg, hotel).
 holds(s_17741_jpg, store).
 holds(s_17741_jpg, suburban).
-holds(s_17741_jpg, door).
 holds(s_17741_jpg, billboard).
 holds(s_17741_jpg, porch).
 holds(s_17741_jpg, wallsign).
@@ -22319,6 +21586,7 @@ holds(s_17742_jpg, window).
 holds(s_17742_jpg, billboard).
 holds(s_17742_jpg, porch).
 holds(s_17742_jpg, wallsign).
+holds(s_17742_jpg, pipe).
 holds(s_17742_jpg, commercial).
 
 sample(s_17743_jpg).
@@ -22326,7 +21594,6 @@ holds(s_17743_jpg, building).
 holds(s_17743_jpg, feature).
 holds(s_17743_jpg, hotel).
 holds(s_17743_jpg, store).
-holds(s_17743_jpg, suburban).
 holds(s_17743_jpg, window).
 holds(s_17743_jpg, billboard).
 holds(s_17743_jpg, porch).
@@ -22378,7 +21645,6 @@ holds(s_17747_jpg, feature).
 holds(s_17747_jpg, hotel).
 holds(s_17747_jpg, store).
 holds(s_17747_jpg, suburban).
-holds(s_17747_jpg, door).
 holds(s_17747_jpg, billboard).
 holds(s_17747_jpg, porch).
 holds(s_17747_jpg, wallsign).
@@ -22396,6 +21662,7 @@ holds(s_17748_jpg, window).
 holds(s_17748_jpg, billboard).
 holds(s_17748_jpg, porch).
 holds(s_17748_jpg, wallsign).
+holds(s_17748_jpg, pipe).
 holds(s_17748_jpg, commercial).
 
 sample(s_17749_jpg).
@@ -22403,8 +21670,6 @@ holds(s_17749_jpg, building).
 holds(s_17749_jpg, feature).
 holds(s_17749_jpg, hotel).
 holds(s_17749_jpg, store).
-holds(s_17749_jpg, suburban).
-holds(s_17749_jpg, door).
 holds(s_17749_jpg, window).
 holds(s_17749_jpg, billboard).
 holds(s_17749_jpg, porch).
@@ -22442,7 +21707,6 @@ holds(s_17752_jpg, building).
 holds(s_17752_jpg, feature).
 holds(s_17752_jpg, hotel).
 holds(s_17752_jpg, store).
-holds(s_17752_jpg, suburban).
 holds(s_17752_jpg, window).
 holds(s_17752_jpg, billboard).
 holds(s_17752_jpg, porch).
@@ -22455,7 +21719,6 @@ holds(s_17753_jpg, feature).
 holds(s_17753_jpg, hotel).
 holds(s_17753_jpg, store).
 holds(s_17753_jpg, suburban).
-holds(s_17753_jpg, door).
 holds(s_17753_jpg, billboard).
 holds(s_17753_jpg, porch).
 holds(s_17753_jpg, wallsign).
@@ -22481,7 +21744,6 @@ holds(s_17755_jpg, building).
 holds(s_17755_jpg, feature).
 holds(s_17755_jpg, hotel).
 holds(s_17755_jpg, store).
-holds(s_17755_jpg, suburban).
 holds(s_17755_jpg, window).
 holds(s_17755_jpg, billboard).
 holds(s_17755_jpg, porch).
@@ -22494,7 +21756,6 @@ holds(s_17756_jpg, feature).
 holds(s_17756_jpg, hotel).
 holds(s_17756_jpg, store).
 holds(s_17756_jpg, suburban).
-holds(s_17756_jpg, door).
 holds(s_17756_jpg, billboard).
 holds(s_17756_jpg, porch).
 holds(s_17756_jpg, wallsign).
@@ -22512,6 +21773,7 @@ holds(s_17757_jpg, window).
 holds(s_17757_jpg, billboard).
 holds(s_17757_jpg, porch).
 holds(s_17757_jpg, wallsign).
+holds(s_17757_jpg, pipe).
 holds(s_17757_jpg, commercial).
 
 sample(s_17758_jpg).
@@ -22519,7 +21781,6 @@ holds(s_17758_jpg, building).
 holds(s_17758_jpg, feature).
 holds(s_17758_jpg, hotel).
 holds(s_17758_jpg, store).
-holds(s_17758_jpg, suburban).
 holds(s_17758_jpg, window).
 holds(s_17758_jpg, billboard).
 holds(s_17758_jpg, porch).
@@ -22532,7 +21793,6 @@ holds(s_17759_jpg, feature).
 holds(s_17759_jpg, hotel).
 holds(s_17759_jpg, store).
 holds(s_17759_jpg, suburban).
-holds(s_17759_jpg, door).
 holds(s_17759_jpg, billboard).
 holds(s_17759_jpg, porch).
 holds(s_17759_jpg, wallsign).
@@ -22558,7 +21818,6 @@ holds(s_17761_jpg, building).
 holds(s_17761_jpg, feature).
 holds(s_17761_jpg, hotel).
 holds(s_17761_jpg, store).
-holds(s_17761_jpg, suburban).
 holds(s_17761_jpg, window).
 holds(s_17761_jpg, billboard).
 holds(s_17761_jpg, porch).
@@ -22571,7 +21830,6 @@ holds(s_17762_jpg, feature).
 holds(s_17762_jpg, hotel).
 holds(s_17762_jpg, store).
 holds(s_17762_jpg, suburban).
-holds(s_17762_jpg, door).
 holds(s_17762_jpg, billboard).
 holds(s_17762_jpg, porch).
 holds(s_17762_jpg, wallsign).
@@ -22597,7 +21855,6 @@ holds(s_17764_jpg, building).
 holds(s_17764_jpg, feature).
 holds(s_17764_jpg, hotel).
 holds(s_17764_jpg, store).
-holds(s_17764_jpg, suburban).
 holds(s_17764_jpg, window).
 holds(s_17764_jpg, billboard).
 holds(s_17764_jpg, porch).
@@ -22610,7 +21867,6 @@ holds(s_17765_jpg, feature).
 holds(s_17765_jpg, hotel).
 holds(s_17765_jpg, store).
 holds(s_17765_jpg, suburban).
-holds(s_17765_jpg, door).
 holds(s_17765_jpg, billboard).
 holds(s_17765_jpg, porch).
 holds(s_17765_jpg, wallsign).
@@ -22628,6 +21884,7 @@ holds(s_17766_jpg, window).
 holds(s_17766_jpg, billboard).
 holds(s_17766_jpg, porch).
 holds(s_17766_jpg, wallsign).
+holds(s_17766_jpg, pipe).
 holds(s_17766_jpg, commercial).
 
 sample(s_17767_jpg).
@@ -22635,7 +21892,6 @@ holds(s_17767_jpg, building).
 holds(s_17767_jpg, feature).
 holds(s_17767_jpg, hotel).
 holds(s_17767_jpg, store).
-holds(s_17767_jpg, suburban).
 holds(s_17767_jpg, window).
 holds(s_17767_jpg, billboard).
 holds(s_17767_jpg, porch).
@@ -22648,7 +21904,6 @@ holds(s_17768_jpg, feature).
 holds(s_17768_jpg, hotel).
 holds(s_17768_jpg, store).
 holds(s_17768_jpg, suburban).
-holds(s_17768_jpg, door).
 holds(s_17768_jpg, billboard).
 holds(s_17768_jpg, porch).
 holds(s_17768_jpg, wallsign).
@@ -22674,7 +21929,6 @@ holds(s_17770_jpg, building).
 holds(s_17770_jpg, feature).
 holds(s_17770_jpg, hotel).
 holds(s_17770_jpg, store).
-holds(s_17770_jpg, suburban).
 holds(s_17770_jpg, window).
 holds(s_17770_jpg, billboard).
 holds(s_17770_jpg, porch).
@@ -22704,7 +21958,7 @@ holds(s_17772_jpg, window).
 holds(s_17772_jpg, billboard).
 holds(s_17772_jpg, porch).
 holds(s_17772_jpg, wallsign).
-holds(s_17772_jpg, car).
+holds(s_17772_jpg, pipe).
 holds(s_17772_jpg, commercial).
 
 sample(s_17773_jpg).
@@ -22712,7 +21966,6 @@ holds(s_17773_jpg, building).
 holds(s_17773_jpg, feature).
 holds(s_17773_jpg, hotel).
 holds(s_17773_jpg, store).
-holds(s_17773_jpg, suburban).
 holds(s_17773_jpg, window).
 holds(s_17773_jpg, billboard).
 holds(s_17773_jpg, porch).
@@ -22743,6 +21996,7 @@ holds(s_17775_jpg, window).
 holds(s_17775_jpg, billboard).
 holds(s_17775_jpg, porch).
 holds(s_17775_jpg, wallsign).
+holds(s_17775_jpg, pipe).
 holds(s_17775_jpg, commercial).
 
 sample(s_17776_jpg).
@@ -22750,7 +22004,6 @@ holds(s_17776_jpg, building).
 holds(s_17776_jpg, feature).
 holds(s_17776_jpg, hotel).
 holds(s_17776_jpg, store).
-holds(s_17776_jpg, suburban).
 holds(s_17776_jpg, window).
 holds(s_17776_jpg, billboard).
 holds(s_17776_jpg, porch).
@@ -22763,7 +22016,6 @@ holds(s_17777_jpg, feature).
 holds(s_17777_jpg, hotel).
 holds(s_17777_jpg, store).
 holds(s_17777_jpg, suburban).
-holds(s_17777_jpg, door).
 holds(s_17777_jpg, billboard).
 holds(s_17777_jpg, porch).
 holds(s_17777_jpg, wallsign).
@@ -22781,14 +22033,14 @@ holds(s_17778_jpg, window).
 holds(s_17778_jpg, billboard).
 holds(s_17778_jpg, porch).
 holds(s_17778_jpg, wallsign).
-holds(s_17778_jpg, industrial).
+holds(s_17778_jpg, pipe).
+holds(s_17778_jpg, commercial).
 
 sample(s_17779_jpg).
 holds(s_17779_jpg, building).
 holds(s_17779_jpg, feature).
 holds(s_17779_jpg, hotel).
 holds(s_17779_jpg, store).
-holds(s_17779_jpg, suburban).
 holds(s_17779_jpg, window).
 holds(s_17779_jpg, billboard).
 holds(s_17779_jpg, porch).
@@ -22801,7 +22053,6 @@ holds(s_17780_jpg, feature).
 holds(s_17780_jpg, hotel).
 holds(s_17780_jpg, store).
 holds(s_17780_jpg, suburban).
-holds(s_17780_jpg, door).
 holds(s_17780_jpg, billboard).
 holds(s_17780_jpg, porch).
 holds(s_17780_jpg, wallsign).
@@ -22827,7 +22078,6 @@ holds(s_17782_jpg, building).
 holds(s_17782_jpg, feature).
 holds(s_17782_jpg, hotel).
 holds(s_17782_jpg, store).
-holds(s_17782_jpg, suburban).
 holds(s_17782_jpg, window).
 holds(s_17782_jpg, billboard).
 holds(s_17782_jpg, porch).
@@ -22840,7 +22090,6 @@ holds(s_17783_jpg, feature).
 holds(s_17783_jpg, hotel).
 holds(s_17783_jpg, store).
 holds(s_17783_jpg, suburban).
-holds(s_17783_jpg, door).
 holds(s_17783_jpg, billboard).
 holds(s_17783_jpg, porch).
 holds(s_17783_jpg, wallsign).
@@ -22866,7 +22115,6 @@ holds(s_17785_jpg, building).
 holds(s_17785_jpg, feature).
 holds(s_17785_jpg, hotel).
 holds(s_17785_jpg, store).
-holds(s_17785_jpg, suburban).
 holds(s_17785_jpg, window).
 holds(s_17785_jpg, billboard).
 holds(s_17785_jpg, porch).
@@ -22879,7 +22127,6 @@ holds(s_17786_jpg, feature).
 holds(s_17786_jpg, hotel).
 holds(s_17786_jpg, store).
 holds(s_17786_jpg, suburban).
-holds(s_17786_jpg, door).
 holds(s_17786_jpg, billboard).
 holds(s_17786_jpg, porch).
 holds(s_17786_jpg, wallsign).
@@ -22897,6 +22144,7 @@ holds(s_17787_jpg, window).
 holds(s_17787_jpg, billboard).
 holds(s_17787_jpg, porch).
 holds(s_17787_jpg, wallsign).
+holds(s_17787_jpg, pipe).
 holds(s_17787_jpg, commercial).
 
 sample(s_17788_jpg).
@@ -22904,7 +22152,6 @@ holds(s_17788_jpg, building).
 holds(s_17788_jpg, feature).
 holds(s_17788_jpg, hotel).
 holds(s_17788_jpg, store).
-holds(s_17788_jpg, suburban).
 holds(s_17788_jpg, window).
 holds(s_17788_jpg, billboard).
 holds(s_17788_jpg, porch).
@@ -22917,7 +22164,6 @@ holds(s_17789_jpg, feature).
 holds(s_17789_jpg, hotel).
 holds(s_17789_jpg, store).
 holds(s_17789_jpg, suburban).
-holds(s_17789_jpg, door).
 holds(s_17789_jpg, billboard).
 holds(s_17789_jpg, porch).
 holds(s_17789_jpg, wallsign).
@@ -22935,6 +22181,7 @@ holds(s_17790_jpg, window).
 holds(s_17790_jpg, billboard).
 holds(s_17790_jpg, porch).
 holds(s_17790_jpg, wallsign).
+holds(s_17790_jpg, pipe).
 holds(s_17790_jpg, commercial).
 
 sample(s_17791_jpg).
@@ -22948,7 +22195,7 @@ holds(s_17791_jpg, window).
 holds(s_17791_jpg, billboard).
 holds(s_17791_jpg, porch).
 holds(s_17791_jpg, wallsign).
-holds(s_17791_jpg, commercial).
+holds(s_17791_jpg, industrial).
 
 sample(s_17792_jpg).
 holds(s_17792_jpg, building).
@@ -22956,7 +22203,6 @@ holds(s_17792_jpg, feature).
 holds(s_17792_jpg, hotel).
 holds(s_17792_jpg, store).
 holds(s_17792_jpg, suburban).
-holds(s_17792_jpg, door).
 holds(s_17792_jpg, billboard).
 holds(s_17792_jpg, porch).
 holds(s_17792_jpg, wallsign).
@@ -22974,6 +22220,7 @@ holds(s_17793_jpg, window).
 holds(s_17793_jpg, billboard).
 holds(s_17793_jpg, porch).
 holds(s_17793_jpg, wallsign).
+holds(s_17793_jpg, pipe).
 holds(s_17793_jpg, commercial).
 
 sample(s_17794_jpg).
@@ -22994,7 +22241,6 @@ holds(s_17795_jpg, feature).
 holds(s_17795_jpg, hotel).
 holds(s_17795_jpg, store).
 holds(s_17795_jpg, suburban).
-holds(s_17795_jpg, door).
 holds(s_17795_jpg, billboard).
 holds(s_17795_jpg, porch).
 holds(s_17795_jpg, wallsign).
@@ -23012,6 +22258,7 @@ holds(s_17796_jpg, window).
 holds(s_17796_jpg, billboard).
 holds(s_17796_jpg, porch).
 holds(s_17796_jpg, wallsign).
+holds(s_17796_jpg, pipe).
 holds(s_17796_jpg, commercial).
 
 sample(s_17797_jpg).
@@ -23019,7 +22266,6 @@ holds(s_17797_jpg, building).
 holds(s_17797_jpg, feature).
 holds(s_17797_jpg, hotel).
 holds(s_17797_jpg, store).
-holds(s_17797_jpg, suburban).
 holds(s_17797_jpg, window).
 holds(s_17797_jpg, billboard).
 holds(s_17797_jpg, porch).
@@ -23032,7 +22278,6 @@ holds(s_17798_jpg, feature).
 holds(s_17798_jpg, hotel).
 holds(s_17798_jpg, store).
 holds(s_17798_jpg, suburban).
-holds(s_17798_jpg, door).
 holds(s_17798_jpg, billboard).
 holds(s_17798_jpg, porch).
 holds(s_17798_jpg, wallsign).
@@ -23050,6 +22295,7 @@ holds(s_17799_jpg, window).
 holds(s_17799_jpg, billboard).
 holds(s_17799_jpg, porch).
 holds(s_17799_jpg, wallsign).
+holds(s_17799_jpg, pipe).
 holds(s_17799_jpg, commercial).
 
 sample(s_17800_jpg).
@@ -23057,7 +22303,6 @@ holds(s_17800_jpg, building).
 holds(s_17800_jpg, feature).
 holds(s_17800_jpg, hotel).
 holds(s_17800_jpg, store).
-holds(s_17800_jpg, suburban).
 holds(s_17800_jpg, window).
 holds(s_17800_jpg, billboard).
 holds(s_17800_jpg, porch).
@@ -23070,7 +22315,6 @@ holds(s_17801_jpg, feature).
 holds(s_17801_jpg, hotel).
 holds(s_17801_jpg, store).
 holds(s_17801_jpg, suburban).
-holds(s_17801_jpg, door).
 holds(s_17801_jpg, billboard).
 holds(s_17801_jpg, porch).
 holds(s_17801_jpg, wallsign).
@@ -23096,7 +22340,6 @@ holds(s_17803_jpg, building).
 holds(s_17803_jpg, feature).
 holds(s_17803_jpg, hotel).
 holds(s_17803_jpg, store).
-holds(s_17803_jpg, suburban).
 holds(s_17803_jpg, window).
 holds(s_17803_jpg, billboard).
 holds(s_17803_jpg, porch).
@@ -23109,7 +22352,6 @@ holds(s_17804_jpg, feature).
 holds(s_17804_jpg, hotel).
 holds(s_17804_jpg, store).
 holds(s_17804_jpg, suburban).
-holds(s_17804_jpg, door).
 holds(s_17804_jpg, billboard).
 holds(s_17804_jpg, porch).
 holds(s_17804_jpg, wallsign).
@@ -23135,7 +22377,6 @@ holds(s_17806_jpg, building).
 holds(s_17806_jpg, feature).
 holds(s_17806_jpg, hotel).
 holds(s_17806_jpg, store).
-holds(s_17806_jpg, suburban).
 holds(s_17806_jpg, window).
 holds(s_17806_jpg, billboard).
 holds(s_17806_jpg, porch).
@@ -23148,7 +22389,6 @@ holds(s_17807_jpg, feature).
 holds(s_17807_jpg, hotel).
 holds(s_17807_jpg, store).
 holds(s_17807_jpg, suburban).
-holds(s_17807_jpg, door).
 holds(s_17807_jpg, billboard).
 holds(s_17807_jpg, porch).
 holds(s_17807_jpg, wallsign).
@@ -23174,7 +22414,6 @@ holds(s_17809_jpg, building).
 holds(s_17809_jpg, feature).
 holds(s_17809_jpg, hotel).
 holds(s_17809_jpg, store).
-holds(s_17809_jpg, suburban).
 holds(s_17809_jpg, window).
 holds(s_17809_jpg, billboard).
 holds(s_17809_jpg, porch).
@@ -23187,7 +22426,6 @@ holds(s_17810_jpg, feature).
 holds(s_17810_jpg, hotel).
 holds(s_17810_jpg, store).
 holds(s_17810_jpg, suburban).
-holds(s_17810_jpg, door).
 holds(s_17810_jpg, billboard).
 holds(s_17810_jpg, porch).
 holds(s_17810_jpg, wallsign).
@@ -23213,7 +22451,6 @@ holds(s_17812_jpg, building).
 holds(s_17812_jpg, feature).
 holds(s_17812_jpg, hotel).
 holds(s_17812_jpg, store).
-holds(s_17812_jpg, suburban).
 holds(s_17812_jpg, window).
 holds(s_17812_jpg, billboard).
 holds(s_17812_jpg, porch).
@@ -23251,7 +22488,6 @@ holds(s_17815_jpg, building).
 holds(s_17815_jpg, feature).
 holds(s_17815_jpg, hotel).
 holds(s_17815_jpg, store).
-holds(s_17815_jpg, suburban).
 holds(s_17815_jpg, window).
 holds(s_17815_jpg, billboard).
 holds(s_17815_jpg, porch).
@@ -23264,7 +22500,6 @@ holds(s_17816_jpg, feature).
 holds(s_17816_jpg, hotel).
 holds(s_17816_jpg, store).
 holds(s_17816_jpg, suburban).
-holds(s_17816_jpg, door).
 holds(s_17816_jpg, billboard).
 holds(s_17816_jpg, porch).
 holds(s_17816_jpg, wallsign).
@@ -23290,7 +22525,6 @@ holds(s_17818_jpg, building).
 holds(s_17818_jpg, feature).
 holds(s_17818_jpg, hotel).
 holds(s_17818_jpg, store).
-holds(s_17818_jpg, suburban).
 holds(s_17818_jpg, window).
 holds(s_17818_jpg, billboard).
 holds(s_17818_jpg, porch).
@@ -23303,7 +22537,6 @@ holds(s_17819_jpg, feature).
 holds(s_17819_jpg, hotel).
 holds(s_17819_jpg, store).
 holds(s_17819_jpg, suburban).
-holds(s_17819_jpg, door).
 holds(s_17819_jpg, billboard).
 holds(s_17819_jpg, porch).
 holds(s_17819_jpg, wallsign).
@@ -23321,6 +22554,7 @@ holds(s_17820_jpg, window).
 holds(s_17820_jpg, billboard).
 holds(s_17820_jpg, porch).
 holds(s_17820_jpg, wallsign).
+holds(s_17820_jpg, pipe).
 holds(s_17820_jpg, commercial).
 
 sample(s_17821_jpg).
@@ -23328,7 +22562,6 @@ holds(s_17821_jpg, building).
 holds(s_17821_jpg, feature).
 holds(s_17821_jpg, hotel).
 holds(s_17821_jpg, store).
-holds(s_17821_jpg, suburban).
 holds(s_17821_jpg, window).
 holds(s_17821_jpg, billboard).
 holds(s_17821_jpg, porch).
@@ -23341,7 +22574,6 @@ holds(s_17822_jpg, feature).
 holds(s_17822_jpg, hotel).
 holds(s_17822_jpg, store).
 holds(s_17822_jpg, suburban).
-holds(s_17822_jpg, door).
 holds(s_17822_jpg, billboard).
 holds(s_17822_jpg, porch).
 holds(s_17822_jpg, wallsign).
@@ -23367,7 +22599,6 @@ holds(s_17824_jpg, building).
 holds(s_17824_jpg, feature).
 holds(s_17824_jpg, hotel).
 holds(s_17824_jpg, store).
-holds(s_17824_jpg, suburban).
 holds(s_17824_jpg, window).
 holds(s_17824_jpg, billboard).
 holds(s_17824_jpg, porch).
@@ -23406,7 +22637,6 @@ holds(s_17827_jpg, building).
 holds(s_17827_jpg, feature).
 holds(s_17827_jpg, hotel).
 holds(s_17827_jpg, store).
-holds(s_17827_jpg, suburban).
 holds(s_17827_jpg, window).
 holds(s_17827_jpg, billboard).
 holds(s_17827_jpg, porch).
@@ -23419,7 +22649,6 @@ holds(s_17828_jpg, feature).
 holds(s_17828_jpg, hotel).
 holds(s_17828_jpg, store).
 holds(s_17828_jpg, suburban).
-holds(s_17828_jpg, door).
 holds(s_17828_jpg, billboard).
 holds(s_17828_jpg, porch).
 holds(s_17828_jpg, wallsign).
@@ -23437,6 +22666,7 @@ holds(s_17829_jpg, window).
 holds(s_17829_jpg, billboard).
 holds(s_17829_jpg, porch).
 holds(s_17829_jpg, wallsign).
+holds(s_17829_jpg, pipe).
 holds(s_17829_jpg, commercial).
 
 sample(s_17830_jpg).
@@ -23444,7 +22674,6 @@ holds(s_17830_jpg, building).
 holds(s_17830_jpg, feature).
 holds(s_17830_jpg, hotel).
 holds(s_17830_jpg, store).
-holds(s_17830_jpg, suburban).
 holds(s_17830_jpg, window).
 holds(s_17830_jpg, billboard).
 holds(s_17830_jpg, porch).
@@ -23457,7 +22686,6 @@ holds(s_17831_jpg, feature).
 holds(s_17831_jpg, hotel).
 holds(s_17831_jpg, store).
 holds(s_17831_jpg, suburban).
-holds(s_17831_jpg, door).
 holds(s_17831_jpg, billboard).
 holds(s_17831_jpg, porch).
 holds(s_17831_jpg, wallsign).
@@ -23475,6 +22703,7 @@ holds(s_17832_jpg, window).
 holds(s_17832_jpg, billboard).
 holds(s_17832_jpg, porch).
 holds(s_17832_jpg, wallsign).
+holds(s_17832_jpg, pipe).
 holds(s_17832_jpg, commercial).
 
 sample(s_17833_jpg).
@@ -23482,7 +22711,6 @@ holds(s_17833_jpg, building).
 holds(s_17833_jpg, feature).
 holds(s_17833_jpg, hotel).
 holds(s_17833_jpg, store).
-holds(s_17833_jpg, suburban).
 holds(s_17833_jpg, window).
 holds(s_17833_jpg, billboard).
 holds(s_17833_jpg, porch).
@@ -23495,7 +22723,6 @@ holds(s_17834_jpg, feature).
 holds(s_17834_jpg, hotel).
 holds(s_17834_jpg, store).
 holds(s_17834_jpg, suburban).
-holds(s_17834_jpg, door).
 holds(s_17834_jpg, billboard).
 holds(s_17834_jpg, porch).
 holds(s_17834_jpg, wallsign).
@@ -23513,6 +22740,7 @@ holds(s_17835_jpg, window).
 holds(s_17835_jpg, billboard).
 holds(s_17835_jpg, porch).
 holds(s_17835_jpg, wallsign).
+holds(s_17835_jpg, pipe).
 holds(s_17835_jpg, commercial).
 
 sample(s_17836_jpg).
@@ -23520,7 +22748,6 @@ holds(s_17836_jpg, building).
 holds(s_17836_jpg, feature).
 holds(s_17836_jpg, hotel).
 holds(s_17836_jpg, store).
-holds(s_17836_jpg, suburban).
 holds(s_17836_jpg, window).
 holds(s_17836_jpg, billboard).
 holds(s_17836_jpg, porch).
@@ -23533,7 +22760,6 @@ holds(s_17837_jpg, feature).
 holds(s_17837_jpg, hotel).
 holds(s_17837_jpg, store).
 holds(s_17837_jpg, suburban).
-holds(s_17837_jpg, door).
 holds(s_17837_jpg, billboard).
 holds(s_17837_jpg, porch).
 holds(s_17837_jpg, wallsign).
@@ -23559,7 +22785,6 @@ holds(s_17839_jpg, building).
 holds(s_17839_jpg, feature).
 holds(s_17839_jpg, hotel).
 holds(s_17839_jpg, store).
-holds(s_17839_jpg, suburban).
 holds(s_17839_jpg, window).
 holds(s_17839_jpg, billboard).
 holds(s_17839_jpg, porch).
@@ -23572,7 +22797,6 @@ holds(s_17840_jpg, feature).
 holds(s_17840_jpg, hotel).
 holds(s_17840_jpg, store).
 holds(s_17840_jpg, suburban).
-holds(s_17840_jpg, door).
 holds(s_17840_jpg, billboard).
 holds(s_17840_jpg, porch).
 holds(s_17840_jpg, wallsign).
@@ -23598,7 +22822,6 @@ holds(s_17842_jpg, building).
 holds(s_17842_jpg, feature).
 holds(s_17842_jpg, hotel).
 holds(s_17842_jpg, store).
-holds(s_17842_jpg, suburban).
 holds(s_17842_jpg, window).
 holds(s_17842_jpg, billboard).
 holds(s_17842_jpg, porch).
@@ -23637,7 +22860,6 @@ holds(s_17845_jpg, building).
 holds(s_17845_jpg, feature).
 holds(s_17845_jpg, hotel).
 holds(s_17845_jpg, store).
-holds(s_17845_jpg, suburban).
 holds(s_17845_jpg, window).
 holds(s_17845_jpg, billboard).
 holds(s_17845_jpg, porch).
@@ -23650,7 +22872,6 @@ holds(s_17846_jpg, feature).
 holds(s_17846_jpg, hotel).
 holds(s_17846_jpg, store).
 holds(s_17846_jpg, suburban).
-holds(s_17846_jpg, door).
 holds(s_17846_jpg, billboard).
 holds(s_17846_jpg, porch).
 holds(s_17846_jpg, wallsign).
@@ -23668,6 +22889,7 @@ holds(s_17847_jpg, window).
 holds(s_17847_jpg, billboard).
 holds(s_17847_jpg, porch).
 holds(s_17847_jpg, wallsign).
+holds(s_17847_jpg, pipe).
 holds(s_17847_jpg, commercial).
 
 sample(s_17848_jpg).
@@ -23675,7 +22897,6 @@ holds(s_17848_jpg, building).
 holds(s_17848_jpg, feature).
 holds(s_17848_jpg, hotel).
 holds(s_17848_jpg, store).
-holds(s_17848_jpg, suburban).
 holds(s_17848_jpg, window).
 holds(s_17848_jpg, billboard).
 holds(s_17848_jpg, porch).
@@ -23706,6 +22927,7 @@ holds(s_17850_jpg, window).
 holds(s_17850_jpg, billboard).
 holds(s_17850_jpg, porch).
 holds(s_17850_jpg, wallsign).
+holds(s_17850_jpg, pipe).
 holds(s_17850_jpg, commercial).
 
 sample(s_17851_jpg).
@@ -23713,7 +22935,6 @@ holds(s_17851_jpg, building).
 holds(s_17851_jpg, feature).
 holds(s_17851_jpg, hotel).
 holds(s_17851_jpg, store).
-holds(s_17851_jpg, suburban).
 holds(s_17851_jpg, window).
 holds(s_17851_jpg, billboard).
 holds(s_17851_jpg, porch).
@@ -23726,7 +22947,6 @@ holds(s_17852_jpg, feature).
 holds(s_17852_jpg, hotel).
 holds(s_17852_jpg, store).
 holds(s_17852_jpg, suburban).
-holds(s_17852_jpg, door).
 holds(s_17852_jpg, billboard).
 holds(s_17852_jpg, porch).
 holds(s_17852_jpg, wallsign).
@@ -23752,7 +22972,6 @@ holds(s_17854_jpg, building).
 holds(s_17854_jpg, feature).
 holds(s_17854_jpg, hotel).
 holds(s_17854_jpg, store).
-holds(s_17854_jpg, suburban).
 holds(s_17854_jpg, window).
 holds(s_17854_jpg, billboard).
 holds(s_17854_jpg, porch).
@@ -23782,6 +23001,7 @@ holds(s_17856_jpg, window).
 holds(s_17856_jpg, billboard).
 holds(s_17856_jpg, porch).
 holds(s_17856_jpg, wallsign).
+holds(s_17856_jpg, pipe).
 holds(s_17856_jpg, commercial).
 
 sample(s_17857_jpg).
@@ -23789,7 +23009,6 @@ holds(s_17857_jpg, building).
 holds(s_17857_jpg, feature).
 holds(s_17857_jpg, hotel).
 holds(s_17857_jpg, store).
-holds(s_17857_jpg, suburban).
 holds(s_17857_jpg, window).
 holds(s_17857_jpg, billboard).
 holds(s_17857_jpg, porch).
@@ -23802,7 +23021,6 @@ holds(s_17858_jpg, feature).
 holds(s_17858_jpg, hotel).
 holds(s_17858_jpg, store).
 holds(s_17858_jpg, suburban).
-holds(s_17858_jpg, door).
 holds(s_17858_jpg, billboard).
 holds(s_17858_jpg, porch).
 holds(s_17858_jpg, wallsign).
@@ -23820,6 +23038,7 @@ holds(s_17859_jpg, window).
 holds(s_17859_jpg, billboard).
 holds(s_17859_jpg, porch).
 holds(s_17859_jpg, wallsign).
+holds(s_17859_jpg, pipe).
 holds(s_17859_jpg, commercial).
 
 sample(s_17860_jpg).
@@ -23827,7 +23046,6 @@ holds(s_17860_jpg, building).
 holds(s_17860_jpg, feature).
 holds(s_17860_jpg, hotel).
 holds(s_17860_jpg, store).
-holds(s_17860_jpg, suburban).
 holds(s_17860_jpg, window).
 holds(s_17860_jpg, billboard).
 holds(s_17860_jpg, porch).
@@ -23857,6 +23075,7 @@ holds(s_17862_jpg, window).
 holds(s_17862_jpg, billboard).
 holds(s_17862_jpg, porch).
 holds(s_17862_jpg, wallsign).
+holds(s_17862_jpg, pipe).
 holds(s_17862_jpg, commercial).
 
 sample(s_17863_jpg).
@@ -23864,7 +23083,6 @@ holds(s_17863_jpg, building).
 holds(s_17863_jpg, feature).
 holds(s_17863_jpg, hotel).
 holds(s_17863_jpg, store).
-holds(s_17863_jpg, suburban).
 holds(s_17863_jpg, window).
 holds(s_17863_jpg, billboard).
 holds(s_17863_jpg, porch).
@@ -23877,7 +23095,6 @@ holds(s_17864_jpg, feature).
 holds(s_17864_jpg, hotel).
 holds(s_17864_jpg, store).
 holds(s_17864_jpg, suburban).
-holds(s_17864_jpg, door).
 holds(s_17864_jpg, billboard).
 holds(s_17864_jpg, porch).
 holds(s_17864_jpg, wallsign).
@@ -23903,7 +23120,6 @@ holds(s_17866_jpg, building).
 holds(s_17866_jpg, feature).
 holds(s_17866_jpg, hotel).
 holds(s_17866_jpg, store).
-holds(s_17866_jpg, suburban).
 holds(s_17866_jpg, window).
 holds(s_17866_jpg, billboard).
 holds(s_17866_jpg, porch).
@@ -23916,7 +23132,6 @@ holds(s_17867_jpg, feature).
 holds(s_17867_jpg, hotel).
 holds(s_17867_jpg, store).
 holds(s_17867_jpg, suburban).
-holds(s_17867_jpg, door).
 holds(s_17867_jpg, billboard).
 holds(s_17867_jpg, porch).
 holds(s_17867_jpg, wallsign).
@@ -23942,7 +23157,6 @@ holds(s_17869_jpg, building).
 holds(s_17869_jpg, feature).
 holds(s_17869_jpg, hotel).
 holds(s_17869_jpg, store).
-holds(s_17869_jpg, suburban).
 holds(s_17869_jpg, window).
 holds(s_17869_jpg, billboard).
 holds(s_17869_jpg, porch).
@@ -23981,7 +23195,6 @@ holds(s_17872_jpg, building).
 holds(s_17872_jpg, feature).
 holds(s_17872_jpg, hotel).
 holds(s_17872_jpg, store).
-holds(s_17872_jpg, suburban).
 holds(s_17872_jpg, window).
 holds(s_17872_jpg, billboard).
 holds(s_17872_jpg, porch).
@@ -23994,7 +23207,6 @@ holds(s_17873_jpg, feature).
 holds(s_17873_jpg, hotel).
 holds(s_17873_jpg, store).
 holds(s_17873_jpg, suburban).
-holds(s_17873_jpg, door).
 holds(s_17873_jpg, billboard).
 holds(s_17873_jpg, porch).
 holds(s_17873_jpg, wallsign).
@@ -24020,7 +23232,6 @@ holds(s_17875_jpg, building).
 holds(s_17875_jpg, feature).
 holds(s_17875_jpg, hotel).
 holds(s_17875_jpg, store).
-holds(s_17875_jpg, suburban).
 holds(s_17875_jpg, window).
 holds(s_17875_jpg, billboard).
 holds(s_17875_jpg, porch).
@@ -24033,7 +23244,6 @@ holds(s_17876_jpg, feature).
 holds(s_17876_jpg, hotel).
 holds(s_17876_jpg, store).
 holds(s_17876_jpg, suburban).
-holds(s_17876_jpg, door).
 holds(s_17876_jpg, billboard).
 holds(s_17876_jpg, porch).
 holds(s_17876_jpg, wallsign).
@@ -24059,7 +23269,6 @@ holds(s_17878_jpg, building).
 holds(s_17878_jpg, feature).
 holds(s_17878_jpg, hotel).
 holds(s_17878_jpg, store).
-holds(s_17878_jpg, suburban).
 holds(s_17878_jpg, window).
 holds(s_17878_jpg, billboard).
 holds(s_17878_jpg, porch).
@@ -24072,7 +23281,6 @@ holds(s_17879_jpg, feature).
 holds(s_17879_jpg, hotel).
 holds(s_17879_jpg, store).
 holds(s_17879_jpg, suburban).
-holds(s_17879_jpg, door).
 holds(s_17879_jpg, billboard).
 holds(s_17879_jpg, porch).
 holds(s_17879_jpg, wallsign).
@@ -24090,6 +23298,7 @@ holds(s_17880_jpg, window).
 holds(s_17880_jpg, billboard).
 holds(s_17880_jpg, porch).
 holds(s_17880_jpg, wallsign).
+holds(s_17880_jpg, pipe).
 holds(s_17880_jpg, commercial).
 
 sample(s_17881_jpg).
@@ -24097,7 +23306,6 @@ holds(s_17881_jpg, building).
 holds(s_17881_jpg, feature).
 holds(s_17881_jpg, hotel).
 holds(s_17881_jpg, store).
-holds(s_17881_jpg, suburban).
 holds(s_17881_jpg, window).
 holds(s_17881_jpg, billboard).
 holds(s_17881_jpg, porch).
@@ -24110,7 +23318,6 @@ holds(s_17882_jpg, feature).
 holds(s_17882_jpg, hotel).
 holds(s_17882_jpg, store).
 holds(s_17882_jpg, suburban).
-holds(s_17882_jpg, door).
 holds(s_17882_jpg, billboard).
 holds(s_17882_jpg, porch).
 holds(s_17882_jpg, wallsign).
@@ -24128,6 +23335,7 @@ holds(s_17883_jpg, window).
 holds(s_17883_jpg, billboard).
 holds(s_17883_jpg, porch).
 holds(s_17883_jpg, wallsign).
+holds(s_17883_jpg, pipe).
 holds(s_17883_jpg, commercial).
 
 sample(s_17884_jpg).
@@ -24135,7 +23343,6 @@ holds(s_17884_jpg, building).
 holds(s_17884_jpg, feature).
 holds(s_17884_jpg, hotel).
 holds(s_17884_jpg, store).
-holds(s_17884_jpg, suburban).
 holds(s_17884_jpg, window).
 holds(s_17884_jpg, billboard).
 holds(s_17884_jpg, porch).
@@ -24148,7 +23355,6 @@ holds(s_17885_jpg, feature).
 holds(s_17885_jpg, hotel).
 holds(s_17885_jpg, store).
 holds(s_17885_jpg, suburban).
-holds(s_17885_jpg, door).
 holds(s_17885_jpg, billboard).
 holds(s_17885_jpg, porch).
 holds(s_17885_jpg, wallsign).
@@ -24166,6 +23372,7 @@ holds(s_17886_jpg, window).
 holds(s_17886_jpg, billboard).
 holds(s_17886_jpg, porch).
 holds(s_17886_jpg, wallsign).
+holds(s_17886_jpg, pipe).
 holds(s_17886_jpg, commercial).
 
 sample(s_17887_jpg).
@@ -24173,7 +23380,6 @@ holds(s_17887_jpg, building).
 holds(s_17887_jpg, feature).
 holds(s_17887_jpg, hotel).
 holds(s_17887_jpg, store).
-holds(s_17887_jpg, suburban).
 holds(s_17887_jpg, window).
 holds(s_17887_jpg, billboard).
 holds(s_17887_jpg, porch).
@@ -24186,7 +23392,6 @@ holds(s_17888_jpg, feature).
 holds(s_17888_jpg, hotel).
 holds(s_17888_jpg, store).
 holds(s_17888_jpg, suburban).
-holds(s_17888_jpg, door).
 holds(s_17888_jpg, billboard).
 holds(s_17888_jpg, porch).
 holds(s_17888_jpg, wallsign).
@@ -24212,7 +23417,6 @@ holds(s_17890_jpg, building).
 holds(s_17890_jpg, feature).
 holds(s_17890_jpg, hotel).
 holds(s_17890_jpg, store).
-holds(s_17890_jpg, suburban).
 holds(s_17890_jpg, window).
 holds(s_17890_jpg, billboard).
 holds(s_17890_jpg, porch).
@@ -24225,7 +23429,6 @@ holds(s_17891_jpg, feature).
 holds(s_17891_jpg, hotel).
 holds(s_17891_jpg, store).
 holds(s_17891_jpg, suburban).
-holds(s_17891_jpg, door).
 holds(s_17891_jpg, billboard).
 holds(s_17891_jpg, porch).
 holds(s_17891_jpg, wallsign).
@@ -24243,6 +23446,7 @@ holds(s_17892_jpg, window).
 holds(s_17892_jpg, billboard).
 holds(s_17892_jpg, porch).
 holds(s_17892_jpg, wallsign).
+holds(s_17892_jpg, pipe).
 holds(s_17892_jpg, commercial).
 
 sample(s_17893_jpg).
@@ -24288,7 +23492,6 @@ holds(s_17896_jpg, building).
 holds(s_17896_jpg, feature).
 holds(s_17896_jpg, hotel).
 holds(s_17896_jpg, store).
-holds(s_17896_jpg, suburban).
 holds(s_17896_jpg, window).
 holds(s_17896_jpg, billboard).
 holds(s_17896_jpg, porch).
@@ -24301,7 +23504,6 @@ holds(s_17897_jpg, feature).
 holds(s_17897_jpg, hotel).
 holds(s_17897_jpg, store).
 holds(s_17897_jpg, suburban).
-holds(s_17897_jpg, door).
 holds(s_17897_jpg, billboard).
 holds(s_17897_jpg, porch).
 holds(s_17897_jpg, wallsign).
@@ -24327,7 +23529,6 @@ holds(s_17899_jpg, building).
 holds(s_17899_jpg, feature).
 holds(s_17899_jpg, hotel).
 holds(s_17899_jpg, store).
-holds(s_17899_jpg, suburban).
 holds(s_17899_jpg, window).
 holds(s_17899_jpg, billboard).
 holds(s_17899_jpg, porch).
@@ -24340,7 +23541,6 @@ holds(s_17900_jpg, feature).
 holds(s_17900_jpg, hotel).
 holds(s_17900_jpg, store).
 holds(s_17900_jpg, suburban).
-holds(s_17900_jpg, door).
 holds(s_17900_jpg, billboard).
 holds(s_17900_jpg, porch).
 holds(s_17900_jpg, wallsign).
@@ -24358,14 +23558,14 @@ holds(s_17901_jpg, window).
 holds(s_17901_jpg, billboard).
 holds(s_17901_jpg, porch).
 holds(s_17901_jpg, wallsign).
-holds(s_17901_jpg, industrial).
+holds(s_17901_jpg, pipe).
+holds(s_17901_jpg, commercial).
 
 sample(s_17902_jpg).
 holds(s_17902_jpg, building).
 holds(s_17902_jpg, feature).
 holds(s_17902_jpg, hotel).
 holds(s_17902_jpg, store).
-holds(s_17902_jpg, suburban).
 holds(s_17902_jpg, window).
 holds(s_17902_jpg, billboard).
 holds(s_17902_jpg, porch).
@@ -24378,7 +23578,6 @@ holds(s_17903_jpg, feature).
 holds(s_17903_jpg, hotel).
 holds(s_17903_jpg, store).
 holds(s_17903_jpg, suburban).
-holds(s_17903_jpg, door).
 holds(s_17903_jpg, billboard).
 holds(s_17903_jpg, porch).
 holds(s_17903_jpg, wallsign).
@@ -24396,7 +23595,7 @@ holds(s_17904_jpg, window).
 holds(s_17904_jpg, billboard).
 holds(s_17904_jpg, porch).
 holds(s_17904_jpg, wallsign).
-holds(s_17904_jpg, car).
+holds(s_17904_jpg, pipe).
 holds(s_17904_jpg, commercial).
 
 sample(s_17905_jpg).
@@ -24404,7 +23603,6 @@ holds(s_17905_jpg, building).
 holds(s_17905_jpg, feature).
 holds(s_17905_jpg, hotel).
 holds(s_17905_jpg, store).
-holds(s_17905_jpg, suburban).
 holds(s_17905_jpg, window).
 holds(s_17905_jpg, billboard).
 holds(s_17905_jpg, porch).
@@ -24417,7 +23615,6 @@ holds(s_17906_jpg, feature).
 holds(s_17906_jpg, hotel).
 holds(s_17906_jpg, store).
 holds(s_17906_jpg, suburban).
-holds(s_17906_jpg, door).
 holds(s_17906_jpg, billboard).
 holds(s_17906_jpg, porch).
 holds(s_17906_jpg, wallsign).
@@ -24443,7 +23640,6 @@ holds(s_17908_jpg, building).
 holds(s_17908_jpg, feature).
 holds(s_17908_jpg, hotel).
 holds(s_17908_jpg, store).
-holds(s_17908_jpg, suburban).
 holds(s_17908_jpg, window).
 holds(s_17908_jpg, billboard).
 holds(s_17908_jpg, porch).
@@ -24482,7 +23678,6 @@ holds(s_17911_jpg, building).
 holds(s_17911_jpg, feature).
 holds(s_17911_jpg, hotel).
 holds(s_17911_jpg, store).
-holds(s_17911_jpg, suburban).
 holds(s_17911_jpg, window).
 holds(s_17911_jpg, billboard).
 holds(s_17911_jpg, porch).
@@ -24495,7 +23690,6 @@ holds(s_17912_jpg, feature).
 holds(s_17912_jpg, hotel).
 holds(s_17912_jpg, store).
 holds(s_17912_jpg, suburban).
-holds(s_17912_jpg, door).
 holds(s_17912_jpg, billboard).
 holds(s_17912_jpg, porch).
 holds(s_17912_jpg, wallsign).
@@ -24513,6 +23707,7 @@ holds(s_17913_jpg, window).
 holds(s_17913_jpg, billboard).
 holds(s_17913_jpg, porch).
 holds(s_17913_jpg, wallsign).
+holds(s_17913_jpg, pipe).
 holds(s_17913_jpg, commercial).
 
 sample(s_17914_jpg).
@@ -24520,7 +23715,6 @@ holds(s_17914_jpg, building).
 holds(s_17914_jpg, feature).
 holds(s_17914_jpg, hotel).
 holds(s_17914_jpg, store).
-holds(s_17914_jpg, suburban).
 holds(s_17914_jpg, window).
 holds(s_17914_jpg, billboard).
 holds(s_17914_jpg, porch).
@@ -24533,7 +23727,6 @@ holds(s_17915_jpg, feature).
 holds(s_17915_jpg, hotel).
 holds(s_17915_jpg, store).
 holds(s_17915_jpg, suburban).
-holds(s_17915_jpg, door).
 holds(s_17915_jpg, billboard).
 holds(s_17915_jpg, porch).
 holds(s_17915_jpg, wallsign).
@@ -24559,7 +23752,6 @@ holds(s_17917_jpg, building).
 holds(s_17917_jpg, feature).
 holds(s_17917_jpg, hotel).
 holds(s_17917_jpg, store).
-holds(s_17917_jpg, suburban).
 holds(s_17917_jpg, window).
 holds(s_17917_jpg, billboard).
 holds(s_17917_jpg, porch).
@@ -24572,7 +23764,6 @@ holds(s_17918_jpg, feature).
 holds(s_17918_jpg, hotel).
 holds(s_17918_jpg, store).
 holds(s_17918_jpg, suburban).
-holds(s_17918_jpg, door).
 holds(s_17918_jpg, billboard).
 holds(s_17918_jpg, porch).
 holds(s_17918_jpg, wallsign).
@@ -24597,7 +23788,6 @@ holds(s_17920_jpg, building).
 holds(s_17920_jpg, feature).
 holds(s_17920_jpg, hotel).
 holds(s_17920_jpg, store).
-holds(s_17920_jpg, suburban).
 holds(s_17920_jpg, window).
 holds(s_17920_jpg, billboard).
 holds(s_17920_jpg, porch).
@@ -24610,7 +23800,6 @@ holds(s_17921_jpg, feature).
 holds(s_17921_jpg, hotel).
 holds(s_17921_jpg, store).
 holds(s_17921_jpg, suburban).
-holds(s_17921_jpg, door).
 holds(s_17921_jpg, billboard).
 holds(s_17921_jpg, porch).
 holds(s_17921_jpg, wallsign).
@@ -24636,7 +23825,6 @@ holds(s_17923_jpg, building).
 holds(s_17923_jpg, feature).
 holds(s_17923_jpg, hotel).
 holds(s_17923_jpg, store).
-holds(s_17923_jpg, suburban).
 holds(s_17923_jpg, window).
 holds(s_17923_jpg, billboard).
 holds(s_17923_jpg, porch).
@@ -24649,7 +23837,6 @@ holds(s_17924_jpg, feature).
 holds(s_17924_jpg, hotel).
 holds(s_17924_jpg, store).
 holds(s_17924_jpg, suburban).
-holds(s_17924_jpg, door).
 holds(s_17924_jpg, billboard).
 holds(s_17924_jpg, porch).
 holds(s_17924_jpg, wallsign).
@@ -24675,7 +23862,6 @@ holds(s_17926_jpg, building).
 holds(s_17926_jpg, feature).
 holds(s_17926_jpg, hotel).
 holds(s_17926_jpg, store).
-holds(s_17926_jpg, suburban).
 holds(s_17926_jpg, window).
 holds(s_17926_jpg, billboard).
 holds(s_17926_jpg, porch).
@@ -24688,7 +23874,6 @@ holds(s_17927_jpg, feature).
 holds(s_17927_jpg, hotel).
 holds(s_17927_jpg, store).
 holds(s_17927_jpg, suburban).
-holds(s_17927_jpg, door).
 holds(s_17927_jpg, billboard).
 holds(s_17927_jpg, porch).
 holds(s_17927_jpg, wallsign).
@@ -24706,6 +23891,7 @@ holds(s_17928_jpg, window).
 holds(s_17928_jpg, billboard).
 holds(s_17928_jpg, porch).
 holds(s_17928_jpg, wallsign).
+holds(s_17928_jpg, pipe).
 holds(s_17928_jpg, commercial).
 
 sample(s_17929_jpg).
@@ -24713,7 +23899,6 @@ holds(s_17929_jpg, building).
 holds(s_17929_jpg, feature).
 holds(s_17929_jpg, hotel).
 holds(s_17929_jpg, store).
-holds(s_17929_jpg, suburban).
 holds(s_17929_jpg, window).
 holds(s_17929_jpg, billboard).
 holds(s_17929_jpg, porch).
@@ -24726,7 +23911,6 @@ holds(s_17930_jpg, feature).
 holds(s_17930_jpg, hotel).
 holds(s_17930_jpg, store).
 holds(s_17930_jpg, suburban).
-holds(s_17930_jpg, door).
 holds(s_17930_jpg, billboard).
 holds(s_17930_jpg, porch).
 holds(s_17930_jpg, wallsign).
@@ -24744,6 +23928,7 @@ holds(s_17931_jpg, window).
 holds(s_17931_jpg, billboard).
 holds(s_17931_jpg, porch).
 holds(s_17931_jpg, wallsign).
+holds(s_17931_jpg, pipe).
 holds(s_17931_jpg, commercial).
 
 sample(s_17932_jpg).
@@ -24751,7 +23936,6 @@ holds(s_17932_jpg, building).
 holds(s_17932_jpg, feature).
 holds(s_17932_jpg, hotel).
 holds(s_17932_jpg, store).
-holds(s_17932_jpg, suburban).
 holds(s_17932_jpg, window).
 holds(s_17932_jpg, billboard).
 holds(s_17932_jpg, porch).
@@ -24789,7 +23973,6 @@ holds(s_17935_jpg, building).
 holds(s_17935_jpg, feature).
 holds(s_17935_jpg, hotel).
 holds(s_17935_jpg, store).
-holds(s_17935_jpg, suburban).
 holds(s_17935_jpg, window).
 holds(s_17935_jpg, billboard).
 holds(s_17935_jpg, porch).
@@ -24828,7 +24011,6 @@ holds(s_17938_jpg, building).
 holds(s_17938_jpg, feature).
 holds(s_17938_jpg, hotel).
 holds(s_17938_jpg, store).
-holds(s_17938_jpg, suburban).
 holds(s_17938_jpg, window).
 holds(s_17938_jpg, billboard).
 holds(s_17938_jpg, porch).
@@ -24841,7 +24023,6 @@ holds(s_17939_jpg, feature).
 holds(s_17939_jpg, hotel).
 holds(s_17939_jpg, store).
 holds(s_17939_jpg, suburban).
-holds(s_17939_jpg, door).
 holds(s_17939_jpg, billboard).
 holds(s_17939_jpg, porch).
 holds(s_17939_jpg, wallsign).
@@ -24855,10 +24036,10 @@ holds(s_17940_jpg, hotel).
 holds(s_17940_jpg, store).
 holds(s_17940_jpg, suburban).
 holds(s_17940_jpg, door).
-holds(s_17940_jpg, window).
 holds(s_17940_jpg, billboard).
 holds(s_17940_jpg, porch).
 holds(s_17940_jpg, wallsign).
+holds(s_17940_jpg, car).
 holds(s_17940_jpg, commercial).
 
 sample(s_17941_jpg).
@@ -24866,7 +24047,6 @@ holds(s_17941_jpg, building).
 holds(s_17941_jpg, feature).
 holds(s_17941_jpg, hotel).
 holds(s_17941_jpg, store).
-holds(s_17941_jpg, suburban).
 holds(s_17941_jpg, window).
 holds(s_17941_jpg, billboard).
 holds(s_17941_jpg, porch).
@@ -24905,7 +24085,6 @@ holds(s_17944_jpg, building).
 holds(s_17944_jpg, feature).
 holds(s_17944_jpg, hotel).
 holds(s_17944_jpg, store).
-holds(s_17944_jpg, suburban).
 holds(s_17944_jpg, window).
 holds(s_17944_jpg, billboard).
 holds(s_17944_jpg, porch).
@@ -24936,6 +24115,7 @@ holds(s_17946_jpg, window).
 holds(s_17946_jpg, billboard).
 holds(s_17946_jpg, porch).
 holds(s_17946_jpg, wallsign).
+holds(s_17946_jpg, pipe).
 holds(s_17946_jpg, commercial).
 
 sample(s_17947_jpg).
@@ -24943,7 +24123,6 @@ holds(s_17947_jpg, building).
 holds(s_17947_jpg, feature).
 holds(s_17947_jpg, hotel).
 holds(s_17947_jpg, store).
-holds(s_17947_jpg, suburban).
 holds(s_17947_jpg, window).
 holds(s_17947_jpg, billboard).
 holds(s_17947_jpg, porch).
@@ -24956,7 +24135,6 @@ holds(s_17948_jpg, feature).
 holds(s_17948_jpg, hotel).
 holds(s_17948_jpg, store).
 holds(s_17948_jpg, suburban).
-holds(s_17948_jpg, door).
 holds(s_17948_jpg, billboard).
 holds(s_17948_jpg, porch).
 holds(s_17948_jpg, wallsign).
@@ -24974,6 +24152,7 @@ holds(s_17949_jpg, window).
 holds(s_17949_jpg, billboard).
 holds(s_17949_jpg, porch).
 holds(s_17949_jpg, wallsign).
+holds(s_17949_jpg, pipe).
 holds(s_17949_jpg, commercial).
 
 sample(s_17950_jpg).
@@ -24981,7 +24160,6 @@ holds(s_17950_jpg, building).
 holds(s_17950_jpg, feature).
 holds(s_17950_jpg, hotel).
 holds(s_17950_jpg, store).
-holds(s_17950_jpg, suburban).
 holds(s_17950_jpg, window).
 holds(s_17950_jpg, billboard).
 holds(s_17950_jpg, porch).
@@ -24994,7 +24172,6 @@ holds(s_17951_jpg, feature).
 holds(s_17951_jpg, hotel).
 holds(s_17951_jpg, store).
 holds(s_17951_jpg, suburban).
-holds(s_17951_jpg, door).
 holds(s_17951_jpg, billboard).
 holds(s_17951_jpg, porch).
 holds(s_17951_jpg, wallsign).
@@ -25020,7 +24197,6 @@ holds(s_17953_jpg, building).
 holds(s_17953_jpg, feature).
 holds(s_17953_jpg, hotel).
 holds(s_17953_jpg, store).
-holds(s_17953_jpg, suburban).
 holds(s_17953_jpg, window).
 holds(s_17953_jpg, billboard).
 holds(s_17953_jpg, porch).
@@ -25059,8 +24235,6 @@ holds(s_17956_jpg, building).
 holds(s_17956_jpg, feature).
 holds(s_17956_jpg, hotel).
 holds(s_17956_jpg, store).
-holds(s_17956_jpg, suburban).
-holds(s_17956_jpg, door).
 holds(s_17956_jpg, window).
 holds(s_17956_jpg, billboard).
 holds(s_17956_jpg, porch).
@@ -25073,7 +24247,6 @@ holds(s_17957_jpg, feature).
 holds(s_17957_jpg, hotel).
 holds(s_17957_jpg, store).
 holds(s_17957_jpg, suburban).
-holds(s_17957_jpg, door).
 holds(s_17957_jpg, billboard).
 holds(s_17957_jpg, porch).
 holds(s_17957_jpg, wallsign).
@@ -25091,6 +24264,7 @@ holds(s_17958_jpg, window).
 holds(s_17958_jpg, billboard).
 holds(s_17958_jpg, porch).
 holds(s_17958_jpg, wallsign).
+holds(s_17958_jpg, pipe).
 holds(s_17958_jpg, commercial).
 
 sample(s_17959_jpg).
@@ -25098,7 +24272,6 @@ holds(s_17959_jpg, building).
 holds(s_17959_jpg, feature).
 holds(s_17959_jpg, hotel).
 holds(s_17959_jpg, store).
-holds(s_17959_jpg, suburban).
 holds(s_17959_jpg, window).
 holds(s_17959_jpg, billboard).
 holds(s_17959_jpg, porch).
@@ -25111,7 +24284,6 @@ holds(s_17960_jpg, feature).
 holds(s_17960_jpg, hotel).
 holds(s_17960_jpg, store).
 holds(s_17960_jpg, suburban).
-holds(s_17960_jpg, door).
 holds(s_17960_jpg, billboard).
 holds(s_17960_jpg, porch).
 holds(s_17960_jpg, wallsign).
@@ -25129,6 +24301,7 @@ holds(s_17961_jpg, window).
 holds(s_17961_jpg, billboard).
 holds(s_17961_jpg, porch).
 holds(s_17961_jpg, wallsign).
+holds(s_17961_jpg, pipe).
 holds(s_17961_jpg, commercial).
 
 sample(s_17962_jpg).
@@ -25136,7 +24309,6 @@ holds(s_17962_jpg, building).
 holds(s_17962_jpg, feature).
 holds(s_17962_jpg, hotel).
 holds(s_17962_jpg, store).
-holds(s_17962_jpg, suburban).
 holds(s_17962_jpg, window).
 holds(s_17962_jpg, billboard).
 holds(s_17962_jpg, porch).
@@ -25149,7 +24321,6 @@ holds(s_17963_jpg, feature).
 holds(s_17963_jpg, hotel).
 holds(s_17963_jpg, store).
 holds(s_17963_jpg, suburban).
-holds(s_17963_jpg, door).
 holds(s_17963_jpg, billboard).
 holds(s_17963_jpg, porch).
 holds(s_17963_jpg, wallsign).
@@ -25175,7 +24346,6 @@ holds(s_17965_jpg, building).
 holds(s_17965_jpg, feature).
 holds(s_17965_jpg, hotel).
 holds(s_17965_jpg, store).
-holds(s_17965_jpg, suburban).
 holds(s_17965_jpg, window).
 holds(s_17965_jpg, billboard).
 holds(s_17965_jpg, porch).
@@ -25214,7 +24384,6 @@ holds(s_17968_jpg, building).
 holds(s_17968_jpg, feature).
 holds(s_17968_jpg, hotel).
 holds(s_17968_jpg, store).
-holds(s_17968_jpg, suburban).
 holds(s_17968_jpg, window).
 holds(s_17968_jpg, billboard).
 holds(s_17968_jpg, porch).
@@ -25253,7 +24422,6 @@ holds(s_17971_jpg, building).
 holds(s_17971_jpg, feature).
 holds(s_17971_jpg, hotel).
 holds(s_17971_jpg, store).
-holds(s_17971_jpg, suburban).
 holds(s_17971_jpg, window).
 holds(s_17971_jpg, billboard).
 holds(s_17971_jpg, porch).
@@ -25266,7 +24434,6 @@ holds(s_17972_jpg, feature).
 holds(s_17972_jpg, hotel).
 holds(s_17972_jpg, store).
 holds(s_17972_jpg, suburban).
-holds(s_17972_jpg, door).
 holds(s_17972_jpg, billboard).
 holds(s_17972_jpg, porch).
 holds(s_17972_jpg, wallsign).
@@ -25284,6 +24451,7 @@ holds(s_17973_jpg, window).
 holds(s_17973_jpg, billboard).
 holds(s_17973_jpg, porch).
 holds(s_17973_jpg, wallsign).
+holds(s_17973_jpg, pipe).
 holds(s_17973_jpg, commercial).
 
 sample(s_17974_jpg).
@@ -25291,7 +24459,6 @@ holds(s_17974_jpg, building).
 holds(s_17974_jpg, feature).
 holds(s_17974_jpg, hotel).
 holds(s_17974_jpg, store).
-holds(s_17974_jpg, suburban).
 holds(s_17974_jpg, window).
 holds(s_17974_jpg, billboard).
 holds(s_17974_jpg, porch).
@@ -25304,7 +24471,6 @@ holds(s_17975_jpg, feature).
 holds(s_17975_jpg, hotel).
 holds(s_17975_jpg, store).
 holds(s_17975_jpg, suburban).
-holds(s_17975_jpg, door).
 holds(s_17975_jpg, billboard).
 holds(s_17975_jpg, porch).
 holds(s_17975_jpg, wallsign).
@@ -25330,7 +24496,6 @@ holds(s_17977_jpg, building).
 holds(s_17977_jpg, feature).
 holds(s_17977_jpg, hotel).
 holds(s_17977_jpg, store).
-holds(s_17977_jpg, suburban).
 holds(s_17977_jpg, window).
 holds(s_17977_jpg, billboard).
 holds(s_17977_jpg, porch).
@@ -25343,7 +24508,6 @@ holds(s_17978_jpg, feature).
 holds(s_17978_jpg, hotel).
 holds(s_17978_jpg, store).
 holds(s_17978_jpg, suburban).
-holds(s_17978_jpg, door).
 holds(s_17978_jpg, billboard).
 holds(s_17978_jpg, porch).
 holds(s_17978_jpg, wallsign).
@@ -25369,7 +24533,6 @@ holds(s_17980_jpg, building).
 holds(s_17980_jpg, feature).
 holds(s_17980_jpg, hotel).
 holds(s_17980_jpg, store).
-holds(s_17980_jpg, suburban).
 holds(s_17980_jpg, window).
 holds(s_17980_jpg, billboard).
 holds(s_17980_jpg, porch).
@@ -25399,7 +24562,7 @@ holds(s_17982_jpg, window).
 holds(s_17982_jpg, billboard).
 holds(s_17982_jpg, porch).
 holds(s_17982_jpg, wallsign).
-holds(s_17982_jpg, car).
+holds(s_17982_jpg, pipe).
 holds(s_17982_jpg, commercial).
 
 sample(s_17983_jpg).
@@ -25407,7 +24570,6 @@ holds(s_17983_jpg, building).
 holds(s_17983_jpg, feature).
 holds(s_17983_jpg, hotel).
 holds(s_17983_jpg, store).
-holds(s_17983_jpg, suburban).
 holds(s_17983_jpg, window).
 holds(s_17983_jpg, billboard).
 holds(s_17983_jpg, porch).
@@ -25420,7 +24582,6 @@ holds(s_17984_jpg, feature).
 holds(s_17984_jpg, hotel).
 holds(s_17984_jpg, store).
 holds(s_17984_jpg, suburban).
-holds(s_17984_jpg, door).
 holds(s_17984_jpg, billboard).
 holds(s_17984_jpg, porch).
 holds(s_17984_jpg, wallsign).
@@ -25438,6 +24599,7 @@ holds(s_17985_jpg, window).
 holds(s_17985_jpg, billboard).
 holds(s_17985_jpg, porch).
 holds(s_17985_jpg, wallsign).
+holds(s_17985_jpg, pipe).
 holds(s_17985_jpg, commercial).
 
 sample(s_17986_jpg).
@@ -25445,7 +24607,6 @@ holds(s_17986_jpg, building).
 holds(s_17986_jpg, feature).
 holds(s_17986_jpg, hotel).
 holds(s_17986_jpg, store).
-holds(s_17986_jpg, suburban).
 holds(s_17986_jpg, window).
 holds(s_17986_jpg, billboard).
 holds(s_17986_jpg, porch).
@@ -25458,7 +24619,6 @@ holds(s_17987_jpg, feature).
 holds(s_17987_jpg, hotel).
 holds(s_17987_jpg, store).
 holds(s_17987_jpg, suburban).
-holds(s_17987_jpg, door).
 holds(s_17987_jpg, billboard).
 holds(s_17987_jpg, porch).
 holds(s_17987_jpg, wallsign).
@@ -25496,7 +24656,6 @@ holds(s_17990_jpg, feature).
 holds(s_17990_jpg, hotel).
 holds(s_17990_jpg, store).
 holds(s_17990_jpg, suburban).
-holds(s_17990_jpg, door).
 holds(s_17990_jpg, billboard).
 holds(s_17990_jpg, porch).
 holds(s_17990_jpg, wallsign).
@@ -25514,6 +24673,7 @@ holds(s_17991_jpg, window).
 holds(s_17991_jpg, billboard).
 holds(s_17991_jpg, porch).
 holds(s_17991_jpg, wallsign).
+holds(s_17991_jpg, pipe).
 holds(s_17991_jpg, commercial).
 
 sample(s_17992_jpg).
@@ -25521,7 +24681,6 @@ holds(s_17992_jpg, building).
 holds(s_17992_jpg, feature).
 holds(s_17992_jpg, hotel).
 holds(s_17992_jpg, store).
-holds(s_17992_jpg, suburban).
 holds(s_17992_jpg, window).
 holds(s_17992_jpg, billboard).
 holds(s_17992_jpg, porch).
@@ -25534,7 +24693,6 @@ holds(s_17993_jpg, feature).
 holds(s_17993_jpg, hotel).
 holds(s_17993_jpg, store).
 holds(s_17993_jpg, suburban).
-holds(s_17993_jpg, door).
 holds(s_17993_jpg, billboard).
 holds(s_17993_jpg, porch).
 holds(s_17993_jpg, wallsign).
@@ -25560,7 +24718,6 @@ holds(s_17995_jpg, building).
 holds(s_17995_jpg, feature).
 holds(s_17995_jpg, hotel).
 holds(s_17995_jpg, store).
-holds(s_17995_jpg, suburban).
 holds(s_17995_jpg, window).
 holds(s_17995_jpg, billboard).
 holds(s_17995_jpg, porch).
@@ -25573,7 +24730,6 @@ holds(s_17996_jpg, feature).
 holds(s_17996_jpg, hotel).
 holds(s_17996_jpg, store).
 holds(s_17996_jpg, suburban).
-holds(s_17996_jpg, door).
 holds(s_17996_jpg, billboard).
 holds(s_17996_jpg, porch).
 holds(s_17996_jpg, wallsign).
@@ -25599,7 +24755,6 @@ holds(s_17998_jpg, building).
 holds(s_17998_jpg, feature).
 holds(s_17998_jpg, hotel).
 holds(s_17998_jpg, store).
-holds(s_17998_jpg, suburban).
 holds(s_17998_jpg, window).
 holds(s_17998_jpg, billboard).
 holds(s_17998_jpg, porch).
@@ -25612,7 +24767,6 @@ holds(s_17999_jpg, feature).
 holds(s_17999_jpg, hotel).
 holds(s_17999_jpg, store).
 holds(s_17999_jpg, suburban).
-holds(s_17999_jpg, door).
 holds(s_17999_jpg, billboard).
 holds(s_17999_jpg, porch).
 holds(s_17999_jpg, wallsign).
@@ -25638,7 +24792,6 @@ holds(s_18001_jpg, building).
 holds(s_18001_jpg, feature).
 holds(s_18001_jpg, hotel).
 holds(s_18001_jpg, store).
-holds(s_18001_jpg, suburban).
 holds(s_18001_jpg, window).
 holds(s_18001_jpg, billboard).
 holds(s_18001_jpg, porch).
@@ -25651,7 +24804,6 @@ holds(s_18002_jpg, feature).
 holds(s_18002_jpg, hotel).
 holds(s_18002_jpg, store).
 holds(s_18002_jpg, suburban).
-holds(s_18002_jpg, door).
 holds(s_18002_jpg, billboard).
 holds(s_18002_jpg, porch).
 holds(s_18002_jpg, wallsign).
@@ -25669,6 +24821,7 @@ holds(s_18003_jpg, window).
 holds(s_18003_jpg, billboard).
 holds(s_18003_jpg, porch).
 holds(s_18003_jpg, wallsign).
+holds(s_18003_jpg, pipe).
 holds(s_18003_jpg, commercial).
 
 sample(s_18004_jpg).
@@ -25677,6 +24830,7 @@ holds(s_18004_jpg, feature).
 holds(s_18004_jpg, hotel).
 holds(s_18004_jpg, store).
 holds(s_18004_jpg, suburban).
+holds(s_18004_jpg, door).
 holds(s_18004_jpg, window).
 holds(s_18004_jpg, billboard).
 holds(s_18004_jpg, porch).
@@ -25715,7 +24869,6 @@ holds(s_18007_jpg, building).
 holds(s_18007_jpg, feature).
 holds(s_18007_jpg, hotel).
 holds(s_18007_jpg, store).
-holds(s_18007_jpg, suburban).
 holds(s_18007_jpg, window).
 holds(s_18007_jpg, billboard).
 holds(s_18007_jpg, porch).
@@ -25728,7 +24881,6 @@ holds(s_18008_jpg, feature).
 holds(s_18008_jpg, hotel).
 holds(s_18008_jpg, store).
 holds(s_18008_jpg, suburban).
-holds(s_18008_jpg, door).
 holds(s_18008_jpg, billboard).
 holds(s_18008_jpg, porch).
 holds(s_18008_jpg, wallsign).
@@ -25754,7 +24906,6 @@ holds(s_18010_jpg, building).
 holds(s_18010_jpg, feature).
 holds(s_18010_jpg, hotel).
 holds(s_18010_jpg, store).
-holds(s_18010_jpg, suburban).
 holds(s_18010_jpg, window).
 holds(s_18010_jpg, billboard).
 holds(s_18010_jpg, porch).
@@ -25785,6 +24936,7 @@ holds(s_18012_jpg, window).
 holds(s_18012_jpg, billboard).
 holds(s_18012_jpg, porch).
 holds(s_18012_jpg, wallsign).
+holds(s_18012_jpg, pipe).
 holds(s_18012_jpg, commercial).
 
 sample(s_18013_jpg).
@@ -25792,7 +24944,6 @@ holds(s_18013_jpg, building).
 holds(s_18013_jpg, feature).
 holds(s_18013_jpg, hotel).
 holds(s_18013_jpg, store).
-holds(s_18013_jpg, suburban).
 holds(s_18013_jpg, window).
 holds(s_18013_jpg, billboard).
 holds(s_18013_jpg, porch).
@@ -25822,6 +24973,7 @@ holds(s_18015_jpg, window).
 holds(s_18015_jpg, billboard).
 holds(s_18015_jpg, porch).
 holds(s_18015_jpg, wallsign).
+holds(s_18015_jpg, pipe).
 holds(s_18015_jpg, commercial).
 
 sample(s_18016_jpg).
@@ -25829,7 +24981,6 @@ holds(s_18016_jpg, building).
 holds(s_18016_jpg, feature).
 holds(s_18016_jpg, hotel).
 holds(s_18016_jpg, store).
-holds(s_18016_jpg, suburban).
 holds(s_18016_jpg, window).
 holds(s_18016_jpg, billboard).
 holds(s_18016_jpg, porch).
@@ -25867,7 +25018,6 @@ holds(s_18019_jpg, building).
 holds(s_18019_jpg, feature).
 holds(s_18019_jpg, hotel).
 holds(s_18019_jpg, store).
-holds(s_18019_jpg, suburban).
 holds(s_18019_jpg, window).
 holds(s_18019_jpg, billboard).
 holds(s_18019_jpg, porch).
@@ -25880,7 +25030,6 @@ holds(s_18020_jpg, feature).
 holds(s_18020_jpg, hotel).
 holds(s_18020_jpg, store).
 holds(s_18020_jpg, suburban).
-holds(s_18020_jpg, door).
 holds(s_18020_jpg, billboard).
 holds(s_18020_jpg, porch).
 holds(s_18020_jpg, wallsign).
@@ -25906,7 +25055,6 @@ holds(s_18022_jpg, building).
 holds(s_18022_jpg, feature).
 holds(s_18022_jpg, hotel).
 holds(s_18022_jpg, store).
-holds(s_18022_jpg, suburban).
 holds(s_18022_jpg, window).
 holds(s_18022_jpg, billboard).
 holds(s_18022_jpg, porch).
@@ -25919,7 +25067,6 @@ holds(s_18023_jpg, feature).
 holds(s_18023_jpg, hotel).
 holds(s_18023_jpg, store).
 holds(s_18023_jpg, suburban).
-holds(s_18023_jpg, door).
 holds(s_18023_jpg, billboard).
 holds(s_18023_jpg, porch).
 holds(s_18023_jpg, wallsign).
@@ -25945,7 +25092,6 @@ holds(s_18025_jpg, building).
 holds(s_18025_jpg, feature).
 holds(s_18025_jpg, hotel).
 holds(s_18025_jpg, store).
-holds(s_18025_jpg, suburban).
 holds(s_18025_jpg, window).
 holds(s_18025_jpg, billboard).
 holds(s_18025_jpg, porch).
@@ -25958,7 +25104,6 @@ holds(s_18026_jpg, feature).
 holds(s_18026_jpg, hotel).
 holds(s_18026_jpg, store).
 holds(s_18026_jpg, suburban).
-holds(s_18026_jpg, door).
 holds(s_18026_jpg, billboard).
 holds(s_18026_jpg, porch).
 holds(s_18026_jpg, wallsign).
@@ -25976,6 +25121,7 @@ holds(s_18027_jpg, window).
 holds(s_18027_jpg, billboard).
 holds(s_18027_jpg, porch).
 holds(s_18027_jpg, wallsign).
+holds(s_18027_jpg, pipe).
 holds(s_18027_jpg, commercial).
 
 sample(s_18028_jpg).
@@ -25983,7 +25129,6 @@ holds(s_18028_jpg, building).
 holds(s_18028_jpg, feature).
 holds(s_18028_jpg, hotel).
 holds(s_18028_jpg, store).
-holds(s_18028_jpg, suburban).
 holds(s_18028_jpg, window).
 holds(s_18028_jpg, billboard).
 holds(s_18028_jpg, porch).
@@ -26013,6 +25158,7 @@ holds(s_18030_jpg, window).
 holds(s_18030_jpg, billboard).
 holds(s_18030_jpg, porch).
 holds(s_18030_jpg, wallsign).
+holds(s_18030_jpg, pipe).
 holds(s_18030_jpg, commercial).
 
 sample(s_18031_jpg).
@@ -26020,7 +25166,6 @@ holds(s_18031_jpg, building).
 holds(s_18031_jpg, feature).
 holds(s_18031_jpg, hotel).
 holds(s_18031_jpg, store).
-holds(s_18031_jpg, suburban).
 holds(s_18031_jpg, window).
 holds(s_18031_jpg, billboard).
 holds(s_18031_jpg, porch).
@@ -26033,7 +25178,6 @@ holds(s_18032_jpg, feature).
 holds(s_18032_jpg, hotel).
 holds(s_18032_jpg, store).
 holds(s_18032_jpg, suburban).
-holds(s_18032_jpg, door).
 holds(s_18032_jpg, billboard).
 holds(s_18032_jpg, porch).
 holds(s_18032_jpg, wallsign).
@@ -26051,6 +25195,7 @@ holds(s_18033_jpg, window).
 holds(s_18033_jpg, billboard).
 holds(s_18033_jpg, porch).
 holds(s_18033_jpg, wallsign).
+holds(s_18033_jpg, pipe).
 holds(s_18033_jpg, commercial).
 
 sample(s_18034_jpg).
@@ -26058,7 +25203,6 @@ holds(s_18034_jpg, building).
 holds(s_18034_jpg, feature).
 holds(s_18034_jpg, hotel).
 holds(s_18034_jpg, store).
-holds(s_18034_jpg, suburban).
 holds(s_18034_jpg, window).
 holds(s_18034_jpg, billboard).
 holds(s_18034_jpg, porch).
@@ -26088,6 +25232,7 @@ holds(s_18036_jpg, window).
 holds(s_18036_jpg, billboard).
 holds(s_18036_jpg, porch).
 holds(s_18036_jpg, wallsign).
+holds(s_18036_jpg, pipe).
 holds(s_18036_jpg, commercial).
 
 sample(s_18037_jpg).
@@ -26095,7 +25240,6 @@ holds(s_18037_jpg, building).
 holds(s_18037_jpg, feature).
 holds(s_18037_jpg, hotel).
 holds(s_18037_jpg, store).
-holds(s_18037_jpg, suburban).
 holds(s_18037_jpg, window).
 holds(s_18037_jpg, billboard).
 holds(s_18037_jpg, porch).
@@ -26134,7 +25278,6 @@ holds(s_18040_jpg, building).
 holds(s_18040_jpg, feature).
 holds(s_18040_jpg, hotel).
 holds(s_18040_jpg, store).
-holds(s_18040_jpg, suburban).
 holds(s_18040_jpg, window).
 holds(s_18040_jpg, billboard).
 holds(s_18040_jpg, porch).
@@ -26165,6 +25308,7 @@ holds(s_18042_jpg, window).
 holds(s_18042_jpg, billboard).
 holds(s_18042_jpg, porch).
 holds(s_18042_jpg, wallsign).
+holds(s_18042_jpg, pipe).
 holds(s_18042_jpg, commercial).
 
 sample(s_18043_jpg).
@@ -26172,7 +25316,6 @@ holds(s_18043_jpg, building).
 holds(s_18043_jpg, feature).
 holds(s_18043_jpg, hotel).
 holds(s_18043_jpg, store).
-holds(s_18043_jpg, suburban).
 holds(s_18043_jpg, window).
 holds(s_18043_jpg, billboard).
 holds(s_18043_jpg, porch).
@@ -26185,7 +25328,6 @@ holds(s_18044_jpg, feature).
 holds(s_18044_jpg, hotel).
 holds(s_18044_jpg, store).
 holds(s_18044_jpg, suburban).
-holds(s_18044_jpg, door).
 holds(s_18044_jpg, billboard).
 holds(s_18044_jpg, porch).
 holds(s_18044_jpg, wallsign).
@@ -26211,7 +25353,6 @@ holds(s_18046_jpg, building).
 holds(s_18046_jpg, feature).
 holds(s_18046_jpg, hotel).
 holds(s_18046_jpg, store).
-holds(s_18046_jpg, suburban).
 holds(s_18046_jpg, window).
 holds(s_18046_jpg, billboard).
 holds(s_18046_jpg, porch).
@@ -26242,6 +25383,7 @@ holds(s_18048_jpg, window).
 holds(s_18048_jpg, billboard).
 holds(s_18048_jpg, porch).
 holds(s_18048_jpg, wallsign).
+holds(s_18048_jpg, pipe).
 holds(s_18048_jpg, commercial).
 
 sample(s_18049_jpg).
@@ -26249,7 +25391,6 @@ holds(s_18049_jpg, building).
 holds(s_18049_jpg, feature).
 holds(s_18049_jpg, hotel).
 holds(s_18049_jpg, store).
-holds(s_18049_jpg, suburban).
 holds(s_18049_jpg, window).
 holds(s_18049_jpg, billboard).
 holds(s_18049_jpg, porch).
@@ -26262,7 +25403,6 @@ holds(s_18050_jpg, feature).
 holds(s_18050_jpg, hotel).
 holds(s_18050_jpg, store).
 holds(s_18050_jpg, suburban).
-holds(s_18050_jpg, door).
 holds(s_18050_jpg, billboard).
 holds(s_18050_jpg, porch).
 holds(s_18050_jpg, wallsign).
@@ -26280,6 +25420,7 @@ holds(s_18051_jpg, window).
 holds(s_18051_jpg, billboard).
 holds(s_18051_jpg, porch).
 holds(s_18051_jpg, wallsign).
+holds(s_18051_jpg, pipe).
 holds(s_18051_jpg, commercial).
 
 sample(s_18052_jpg).
@@ -26287,7 +25428,6 @@ holds(s_18052_jpg, building).
 holds(s_18052_jpg, feature).
 holds(s_18052_jpg, hotel).
 holds(s_18052_jpg, store).
-holds(s_18052_jpg, suburban).
 holds(s_18052_jpg, window).
 holds(s_18052_jpg, billboard).
 holds(s_18052_jpg, porch).
@@ -26300,7 +25440,6 @@ holds(s_18053_jpg, feature).
 holds(s_18053_jpg, hotel).
 holds(s_18053_jpg, store).
 holds(s_18053_jpg, suburban).
-holds(s_18053_jpg, door).
 holds(s_18053_jpg, billboard).
 holds(s_18053_jpg, porch).
 holds(s_18053_jpg, wallsign).
@@ -26318,6 +25457,7 @@ holds(s_18054_jpg, window).
 holds(s_18054_jpg, billboard).
 holds(s_18054_jpg, porch).
 holds(s_18054_jpg, wallsign).
+holds(s_18054_jpg, pipe).
 holds(s_18054_jpg, commercial).
 
 sample(s_18055_jpg).
@@ -26325,7 +25465,6 @@ holds(s_18055_jpg, building).
 holds(s_18055_jpg, feature).
 holds(s_18055_jpg, hotel).
 holds(s_18055_jpg, store).
-holds(s_18055_jpg, suburban).
 holds(s_18055_jpg, window).
 holds(s_18055_jpg, billboard).
 holds(s_18055_jpg, porch).
@@ -26338,7 +25477,6 @@ holds(s_18056_jpg, feature).
 holds(s_18056_jpg, hotel).
 holds(s_18056_jpg, store).
 holds(s_18056_jpg, suburban).
-holds(s_18056_jpg, door).
 holds(s_18056_jpg, billboard).
 holds(s_18056_jpg, porch).
 holds(s_18056_jpg, wallsign).
@@ -26364,7 +25502,6 @@ holds(s_18058_jpg, building).
 holds(s_18058_jpg, feature).
 holds(s_18058_jpg, hotel).
 holds(s_18058_jpg, store).
-holds(s_18058_jpg, suburban).
 holds(s_18058_jpg, window).
 holds(s_18058_jpg, billboard).
 holds(s_18058_jpg, porch).
@@ -26403,12 +25540,11 @@ holds(s_18061_jpg, feature).
 holds(s_18061_jpg, hotel).
 holds(s_18061_jpg, store).
 holds(s_18061_jpg, suburban).
-holds(s_18061_jpg, door).
 holds(s_18061_jpg, window).
 holds(s_18061_jpg, billboard).
 holds(s_18061_jpg, porch).
 holds(s_18061_jpg, wallsign).
-holds(s_18061_jpg, commercial).
+holds(s_18061_jpg, industrial).
 
 sample(s_18062_jpg).
 holds(s_18062_jpg, building).
@@ -26416,7 +25552,6 @@ holds(s_18062_jpg, feature).
 holds(s_18062_jpg, hotel).
 holds(s_18062_jpg, store).
 holds(s_18062_jpg, suburban).
-holds(s_18062_jpg, door).
 holds(s_18062_jpg, billboard).
 holds(s_18062_jpg, porch).
 holds(s_18062_jpg, wallsign).
@@ -26442,7 +25577,6 @@ holds(s_18064_jpg, building).
 holds(s_18064_jpg, feature).
 holds(s_18064_jpg, hotel).
 holds(s_18064_jpg, store).
-holds(s_18064_jpg, suburban).
 holds(s_18064_jpg, window).
 holds(s_18064_jpg, billboard).
 holds(s_18064_jpg, porch).
@@ -26481,7 +25615,6 @@ holds(s_18067_jpg, building).
 holds(s_18067_jpg, feature).
 holds(s_18067_jpg, hotel).
 holds(s_18067_jpg, store).
-holds(s_18067_jpg, suburban).
 holds(s_18067_jpg, window).
 holds(s_18067_jpg, billboard).
 holds(s_18067_jpg, porch).
@@ -26512,6 +25645,7 @@ holds(s_18069_jpg, window).
 holds(s_18069_jpg, billboard).
 holds(s_18069_jpg, porch).
 holds(s_18069_jpg, wallsign).
+holds(s_18069_jpg, pipe).
 holds(s_18069_jpg, commercial).
 
 sample(s_18070_jpg).
@@ -26519,7 +25653,6 @@ holds(s_18070_jpg, building).
 holds(s_18070_jpg, feature).
 holds(s_18070_jpg, hotel).
 holds(s_18070_jpg, store).
-holds(s_18070_jpg, suburban).
 holds(s_18070_jpg, window).
 holds(s_18070_jpg, billboard).
 holds(s_18070_jpg, porch).
@@ -26532,7 +25665,6 @@ holds(s_18071_jpg, feature).
 holds(s_18071_jpg, hotel).
 holds(s_18071_jpg, store).
 holds(s_18071_jpg, suburban).
-holds(s_18071_jpg, door).
 holds(s_18071_jpg, billboard).
 holds(s_18071_jpg, porch).
 holds(s_18071_jpg, wallsign).
@@ -26550,6 +25682,7 @@ holds(s_18072_jpg, window).
 holds(s_18072_jpg, billboard).
 holds(s_18072_jpg, porch).
 holds(s_18072_jpg, wallsign).
+holds(s_18072_jpg, pipe).
 holds(s_18072_jpg, commercial).
 
 sample(s_18073_jpg).
@@ -26557,7 +25690,6 @@ holds(s_18073_jpg, building).
 holds(s_18073_jpg, feature).
 holds(s_18073_jpg, hotel).
 holds(s_18073_jpg, store).
-holds(s_18073_jpg, suburban).
 holds(s_18073_jpg, window).
 holds(s_18073_jpg, billboard).
 holds(s_18073_jpg, porch).
@@ -26570,7 +25702,6 @@ holds(s_18074_jpg, feature).
 holds(s_18074_jpg, hotel).
 holds(s_18074_jpg, store).
 holds(s_18074_jpg, suburban).
-holds(s_18074_jpg, door).
 holds(s_18074_jpg, billboard).
 holds(s_18074_jpg, porch).
 holds(s_18074_jpg, wallsign).
@@ -26596,7 +25727,6 @@ holds(s_18076_jpg, building).
 holds(s_18076_jpg, feature).
 holds(s_18076_jpg, hotel).
 holds(s_18076_jpg, store).
-holds(s_18076_jpg, suburban).
 holds(s_18076_jpg, window).
 holds(s_18076_jpg, billboard).
 holds(s_18076_jpg, porch).
@@ -26626,6 +25756,7 @@ holds(s_18078_jpg, window).
 holds(s_18078_jpg, billboard).
 holds(s_18078_jpg, porch).
 holds(s_18078_jpg, wallsign).
+holds(s_18078_jpg, pipe).
 holds(s_18078_jpg, commercial).
 
 sample(s_18079_jpg).
@@ -26633,7 +25764,6 @@ holds(s_18079_jpg, building).
 holds(s_18079_jpg, feature).
 holds(s_18079_jpg, hotel).
 holds(s_18079_jpg, store).
-holds(s_18079_jpg, suburban).
 holds(s_18079_jpg, window).
 holds(s_18079_jpg, billboard).
 holds(s_18079_jpg, porch).
@@ -26646,7 +25776,6 @@ holds(s_18080_jpg, feature).
 holds(s_18080_jpg, hotel).
 holds(s_18080_jpg, store).
 holds(s_18080_jpg, suburban).
-holds(s_18080_jpg, door).
 holds(s_18080_jpg, billboard).
 holds(s_18080_jpg, porch).
 holds(s_18080_jpg, wallsign).
@@ -26664,6 +25793,7 @@ holds(s_18081_jpg, window).
 holds(s_18081_jpg, billboard).
 holds(s_18081_jpg, porch).
 holds(s_18081_jpg, wallsign).
+holds(s_18081_jpg, pipe).
 holds(s_18081_jpg, commercial).
 
 sample(s_18082_jpg).
@@ -26671,7 +25801,6 @@ holds(s_18082_jpg, building).
 holds(s_18082_jpg, feature).
 holds(s_18082_jpg, hotel).
 holds(s_18082_jpg, store).
-holds(s_18082_jpg, suburban).
 holds(s_18082_jpg, window).
 holds(s_18082_jpg, billboard).
 holds(s_18082_jpg, porch).
@@ -26701,6 +25830,7 @@ holds(s_18084_jpg, window).
 holds(s_18084_jpg, billboard).
 holds(s_18084_jpg, porch).
 holds(s_18084_jpg, wallsign).
+holds(s_18084_jpg, pipe).
 holds(s_18084_jpg, commercial).
 
 sample(s_18085_jpg).
@@ -26708,7 +25838,6 @@ holds(s_18085_jpg, building).
 holds(s_18085_jpg, feature).
 holds(s_18085_jpg, hotel).
 holds(s_18085_jpg, store).
-holds(s_18085_jpg, suburban).
 holds(s_18085_jpg, window).
 holds(s_18085_jpg, billboard).
 holds(s_18085_jpg, porch).
@@ -26721,7 +25850,6 @@ holds(s_18086_jpg, feature).
 holds(s_18086_jpg, hotel).
 holds(s_18086_jpg, store).
 holds(s_18086_jpg, suburban).
-holds(s_18086_jpg, door).
 holds(s_18086_jpg, billboard).
 holds(s_18086_jpg, porch).
 holds(s_18086_jpg, wallsign).
@@ -26747,7 +25875,6 @@ holds(s_18088_jpg, building).
 holds(s_18088_jpg, feature).
 holds(s_18088_jpg, hotel).
 holds(s_18088_jpg, store).
-holds(s_18088_jpg, suburban).
 holds(s_18088_jpg, window).
 holds(s_18088_jpg, billboard).
 holds(s_18088_jpg, porch).
@@ -26786,8 +25913,6 @@ holds(s_18091_jpg, building).
 holds(s_18091_jpg, feature).
 holds(s_18091_jpg, hotel).
 holds(s_18091_jpg, store).
-holds(s_18091_jpg, suburban).
-holds(s_18091_jpg, door).
 holds(s_18091_jpg, window).
 holds(s_18091_jpg, billboard).
 holds(s_18091_jpg, porch).
@@ -26800,7 +25925,6 @@ holds(s_18092_jpg, feature).
 holds(s_18092_jpg, hotel).
 holds(s_18092_jpg, store).
 holds(s_18092_jpg, suburban).
-holds(s_18092_jpg, door).
 holds(s_18092_jpg, billboard).
 holds(s_18092_jpg, porch).
 holds(s_18092_jpg, wallsign).
@@ -26826,7 +25950,6 @@ holds(s_18094_jpg, building).
 holds(s_18094_jpg, feature).
 holds(s_18094_jpg, hotel).
 holds(s_18094_jpg, store).
-holds(s_18094_jpg, suburban).
 holds(s_18094_jpg, window).
 holds(s_18094_jpg, billboard).
 holds(s_18094_jpg, porch).
@@ -26839,7 +25962,6 @@ holds(s_18095_jpg, feature).
 holds(s_18095_jpg, hotel).
 holds(s_18095_jpg, store).
 holds(s_18095_jpg, suburban).
-holds(s_18095_jpg, door).
 holds(s_18095_jpg, billboard).
 holds(s_18095_jpg, porch).
 holds(s_18095_jpg, wallsign).
@@ -26857,6 +25979,7 @@ holds(s_18096_jpg, window).
 holds(s_18096_jpg, billboard).
 holds(s_18096_jpg, porch).
 holds(s_18096_jpg, wallsign).
+holds(s_18096_jpg, pipe).
 holds(s_18096_jpg, commercial).
 
 sample(s_18097_jpg).
@@ -26864,7 +25987,6 @@ holds(s_18097_jpg, building).
 holds(s_18097_jpg, feature).
 holds(s_18097_jpg, hotel).
 holds(s_18097_jpg, store).
-holds(s_18097_jpg, suburban).
 holds(s_18097_jpg, window).
 holds(s_18097_jpg, billboard).
 holds(s_18097_jpg, porch).
@@ -26877,7 +25999,6 @@ holds(s_18098_jpg, feature).
 holds(s_18098_jpg, hotel).
 holds(s_18098_jpg, store).
 holds(s_18098_jpg, suburban).
-holds(s_18098_jpg, door).
 holds(s_18098_jpg, billboard).
 holds(s_18098_jpg, porch).
 holds(s_18098_jpg, wallsign).
@@ -26895,6 +26016,7 @@ holds(s_18099_jpg, window).
 holds(s_18099_jpg, billboard).
 holds(s_18099_jpg, porch).
 holds(s_18099_jpg, wallsign).
+holds(s_18099_jpg, pipe).
 holds(s_18099_jpg, commercial).
 
 sample(s_18100_jpg).
@@ -26902,7 +26024,6 @@ holds(s_18100_jpg, building).
 holds(s_18100_jpg, feature).
 holds(s_18100_jpg, hotel).
 holds(s_18100_jpg, store).
-holds(s_18100_jpg, suburban).
 holds(s_18100_jpg, window).
 holds(s_18100_jpg, billboard).
 holds(s_18100_jpg, porch).
@@ -26915,7 +26036,6 @@ holds(s_18101_jpg, feature).
 holds(s_18101_jpg, hotel).
 holds(s_18101_jpg, store).
 holds(s_18101_jpg, suburban).
-holds(s_18101_jpg, door).
 holds(s_18101_jpg, billboard).
 holds(s_18101_jpg, porch).
 holds(s_18101_jpg, wallsign).
@@ -26933,6 +26053,7 @@ holds(s_18102_jpg, window).
 holds(s_18102_jpg, billboard).
 holds(s_18102_jpg, porch).
 holds(s_18102_jpg, wallsign).
+holds(s_18102_jpg, pipe).
 holds(s_18102_jpg, commercial).
 
 sample(s_18103_jpg).
@@ -26940,7 +26061,6 @@ holds(s_18103_jpg, building).
 holds(s_18103_jpg, feature).
 holds(s_18103_jpg, hotel).
 holds(s_18103_jpg, store).
-holds(s_18103_jpg, suburban).
 holds(s_18103_jpg, window).
 holds(s_18103_jpg, billboard).
 holds(s_18103_jpg, porch).
@@ -26970,6 +26090,7 @@ holds(s_18105_jpg, window).
 holds(s_18105_jpg, billboard).
 holds(s_18105_jpg, porch).
 holds(s_18105_jpg, wallsign).
+holds(s_18105_jpg, pipe).
 holds(s_18105_jpg, commercial).
 
 sample(s_18106_jpg).
@@ -26977,7 +26098,6 @@ holds(s_18106_jpg, building).
 holds(s_18106_jpg, feature).
 holds(s_18106_jpg, hotel).
 holds(s_18106_jpg, store).
-holds(s_18106_jpg, suburban).
 holds(s_18106_jpg, window).
 holds(s_18106_jpg, billboard).
 holds(s_18106_jpg, porch).
@@ -26990,7 +26110,6 @@ holds(s_18107_jpg, feature).
 holds(s_18107_jpg, hotel).
 holds(s_18107_jpg, store).
 holds(s_18107_jpg, suburban).
-holds(s_18107_jpg, door).
 holds(s_18107_jpg, billboard).
 holds(s_18107_jpg, porch).
 holds(s_18107_jpg, wallsign).
@@ -27016,7 +26135,6 @@ holds(s_18109_jpg, building).
 holds(s_18109_jpg, feature).
 holds(s_18109_jpg, hotel).
 holds(s_18109_jpg, store).
-holds(s_18109_jpg, suburban).
 holds(s_18109_jpg, window).
 holds(s_18109_jpg, billboard).
 holds(s_18109_jpg, porch).
@@ -27046,6 +26164,7 @@ holds(s_18111_jpg, window).
 holds(s_18111_jpg, billboard).
 holds(s_18111_jpg, porch).
 holds(s_18111_jpg, wallsign).
+holds(s_18111_jpg, car).
 holds(s_18111_jpg, commercial).
 
 sample(s_18112_jpg).
@@ -27053,7 +26172,6 @@ holds(s_18112_jpg, building).
 holds(s_18112_jpg, feature).
 holds(s_18112_jpg, hotel).
 holds(s_18112_jpg, store).
-holds(s_18112_jpg, suburban).
 holds(s_18112_jpg, window).
 holds(s_18112_jpg, billboard).
 holds(s_18112_jpg, porch).
@@ -27066,7 +26184,6 @@ holds(s_18113_jpg, feature).
 holds(s_18113_jpg, hotel).
 holds(s_18113_jpg, store).
 holds(s_18113_jpg, suburban).
-holds(s_18113_jpg, door).
 holds(s_18113_jpg, billboard).
 holds(s_18113_jpg, porch).
 holds(s_18113_jpg, wallsign).
@@ -27092,7 +26209,6 @@ holds(s_18115_jpg, building).
 holds(s_18115_jpg, feature).
 holds(s_18115_jpg, hotel).
 holds(s_18115_jpg, store).
-holds(s_18115_jpg, suburban).
 holds(s_18115_jpg, window).
 holds(s_18115_jpg, billboard).
 holds(s_18115_jpg, porch).
@@ -27122,6 +26238,7 @@ holds(s_18117_jpg, window).
 holds(s_18117_jpg, billboard).
 holds(s_18117_jpg, porch).
 holds(s_18117_jpg, wallsign).
+holds(s_18117_jpg, pipe).
 holds(s_18117_jpg, commercial).
 
 sample(s_18118_jpg).
@@ -27129,8 +26246,6 @@ holds(s_18118_jpg, building).
 holds(s_18118_jpg, feature).
 holds(s_18118_jpg, hotel).
 holds(s_18118_jpg, store).
-holds(s_18118_jpg, suburban).
-holds(s_18118_jpg, door).
 holds(s_18118_jpg, window).
 holds(s_18118_jpg, billboard).
 holds(s_18118_jpg, porch).
@@ -27143,7 +26258,6 @@ holds(s_18119_jpg, feature).
 holds(s_18119_jpg, hotel).
 holds(s_18119_jpg, store).
 holds(s_18119_jpg, suburban).
-holds(s_18119_jpg, door).
 holds(s_18119_jpg, billboard).
 holds(s_18119_jpg, porch).
 holds(s_18119_jpg, wallsign).
@@ -27169,7 +26283,6 @@ holds(s_18121_jpg, building).
 holds(s_18121_jpg, feature).
 holds(s_18121_jpg, hotel).
 holds(s_18121_jpg, store).
-holds(s_18121_jpg, suburban).
 holds(s_18121_jpg, window).
 holds(s_18121_jpg, billboard).
 holds(s_18121_jpg, porch).
@@ -27182,7 +26295,6 @@ holds(s_18122_jpg, feature).
 holds(s_18122_jpg, hotel).
 holds(s_18122_jpg, store).
 holds(s_18122_jpg, suburban).
-holds(s_18122_jpg, door).
 holds(s_18122_jpg, billboard).
 holds(s_18122_jpg, porch).
 holds(s_18122_jpg, wallsign).
@@ -27208,7 +26320,6 @@ holds(s_18124_jpg, building).
 holds(s_18124_jpg, feature).
 holds(s_18124_jpg, hotel).
 holds(s_18124_jpg, store).
-holds(s_18124_jpg, suburban).
 holds(s_18124_jpg, window).
 holds(s_18124_jpg, billboard).
 holds(s_18124_jpg, porch).
@@ -27221,7 +26332,6 @@ holds(s_18125_jpg, feature).
 holds(s_18125_jpg, hotel).
 holds(s_18125_jpg, store).
 holds(s_18125_jpg, suburban).
-holds(s_18125_jpg, door).
 holds(s_18125_jpg, billboard).
 holds(s_18125_jpg, porch).
 holds(s_18125_jpg, wallsign).
@@ -27247,7 +26357,6 @@ holds(s_18127_jpg, building).
 holds(s_18127_jpg, feature).
 holds(s_18127_jpg, hotel).
 holds(s_18127_jpg, store).
-holds(s_18127_jpg, suburban).
 holds(s_18127_jpg, window).
 holds(s_18127_jpg, billboard).
 holds(s_18127_jpg, porch).
@@ -27277,6 +26386,7 @@ holds(s_18129_jpg, window).
 holds(s_18129_jpg, billboard).
 holds(s_18129_jpg, porch).
 holds(s_18129_jpg, wallsign).
+holds(s_18129_jpg, pipe).
 holds(s_18129_jpg, commercial).
 
 sample(s_18130_jpg).
@@ -27284,7 +26394,6 @@ holds(s_18130_jpg, building).
 holds(s_18130_jpg, feature).
 holds(s_18130_jpg, hotel).
 holds(s_18130_jpg, store).
-holds(s_18130_jpg, suburban).
 holds(s_18130_jpg, window).
 holds(s_18130_jpg, billboard).
 holds(s_18130_jpg, porch).
@@ -27314,6 +26423,7 @@ holds(s_18132_jpg, window).
 holds(s_18132_jpg, billboard).
 holds(s_18132_jpg, porch).
 holds(s_18132_jpg, wallsign).
+holds(s_18132_jpg, pipe).
 holds(s_18132_jpg, commercial).
 
 sample(s_18133_jpg).
@@ -27321,7 +26431,6 @@ holds(s_18133_jpg, building).
 holds(s_18133_jpg, feature).
 holds(s_18133_jpg, hotel).
 holds(s_18133_jpg, store).
-holds(s_18133_jpg, suburban).
 holds(s_18133_jpg, window).
 holds(s_18133_jpg, billboard).
 holds(s_18133_jpg, porch).
@@ -27334,7 +26443,6 @@ holds(s_18134_jpg, feature).
 holds(s_18134_jpg, hotel).
 holds(s_18134_jpg, store).
 holds(s_18134_jpg, suburban).
-holds(s_18134_jpg, door).
 holds(s_18134_jpg, billboard).
 holds(s_18134_jpg, porch).
 holds(s_18134_jpg, wallsign).
@@ -27352,6 +26460,7 @@ holds(s_18135_jpg, window).
 holds(s_18135_jpg, billboard).
 holds(s_18135_jpg, porch).
 holds(s_18135_jpg, wallsign).
+holds(s_18135_jpg, pipe).
 holds(s_18135_jpg, commercial).
 
 sample(s_18136_jpg).
@@ -27359,7 +26468,6 @@ holds(s_18136_jpg, building).
 holds(s_18136_jpg, feature).
 holds(s_18136_jpg, hotel).
 holds(s_18136_jpg, store).
-holds(s_18136_jpg, suburban).
 holds(s_18136_jpg, window).
 holds(s_18136_jpg, billboard).
 holds(s_18136_jpg, porch).
@@ -27372,7 +26480,6 @@ holds(s_18137_jpg, feature).
 holds(s_18137_jpg, hotel).
 holds(s_18137_jpg, store).
 holds(s_18137_jpg, suburban).
-holds(s_18137_jpg, door).
 holds(s_18137_jpg, billboard).
 holds(s_18137_jpg, porch).
 holds(s_18137_jpg, wallsign).
@@ -27398,7 +26505,6 @@ holds(s_18139_jpg, building).
 holds(s_18139_jpg, feature).
 holds(s_18139_jpg, hotel).
 holds(s_18139_jpg, store).
-holds(s_18139_jpg, suburban).
 holds(s_18139_jpg, window).
 holds(s_18139_jpg, billboard).
 holds(s_18139_jpg, porch).
@@ -27411,7 +26517,6 @@ holds(s_18140_jpg, feature).
 holds(s_18140_jpg, hotel).
 holds(s_18140_jpg, store).
 holds(s_18140_jpg, suburban).
-holds(s_18140_jpg, door).
 holds(s_18140_jpg, billboard).
 holds(s_18140_jpg, porch).
 holds(s_18140_jpg, wallsign).
@@ -27437,7 +26542,6 @@ holds(s_18142_jpg, building).
 holds(s_18142_jpg, feature).
 holds(s_18142_jpg, hotel).
 holds(s_18142_jpg, store).
-holds(s_18142_jpg, suburban).
 holds(s_18142_jpg, window).
 holds(s_18142_jpg, billboard).
 holds(s_18142_jpg, porch).
@@ -27468,6 +26572,7 @@ holds(s_18144_jpg, window).
 holds(s_18144_jpg, billboard).
 holds(s_18144_jpg, porch).
 holds(s_18144_jpg, wallsign).
+holds(s_18144_jpg, pipe).
 holds(s_18144_jpg, commercial).
 
 sample(s_18145_jpg).
@@ -27475,7 +26580,6 @@ holds(s_18145_jpg, building).
 holds(s_18145_jpg, feature).
 holds(s_18145_jpg, hotel).
 holds(s_18145_jpg, store).
-holds(s_18145_jpg, suburban).
 holds(s_18145_jpg, window).
 holds(s_18145_jpg, billboard).
 holds(s_18145_jpg, porch).
@@ -27514,7 +26618,6 @@ holds(s_18148_jpg, building).
 holds(s_18148_jpg, feature).
 holds(s_18148_jpg, hotel).
 holds(s_18148_jpg, store).
-holds(s_18148_jpg, suburban).
 holds(s_18148_jpg, window).
 holds(s_18148_jpg, billboard).
 holds(s_18148_jpg, porch).
@@ -27553,7 +26656,6 @@ holds(s_18151_jpg, building).
 holds(s_18151_jpg, feature).
 holds(s_18151_jpg, hotel).
 holds(s_18151_jpg, store).
-holds(s_18151_jpg, suburban).
 holds(s_18151_jpg, window).
 holds(s_18151_jpg, billboard).
 holds(s_18151_jpg, porch).
@@ -27566,7 +26668,6 @@ holds(s_18152_jpg, feature).
 holds(s_18152_jpg, hotel).
 holds(s_18152_jpg, store).
 holds(s_18152_jpg, suburban).
-holds(s_18152_jpg, door).
 holds(s_18152_jpg, billboard).
 holds(s_18152_jpg, porch).
 holds(s_18152_jpg, wallsign).
@@ -27592,7 +26693,6 @@ holds(s_18154_jpg, building).
 holds(s_18154_jpg, feature).
 holds(s_18154_jpg, hotel).
 holds(s_18154_jpg, store).
-holds(s_18154_jpg, suburban).
 holds(s_18154_jpg, window).
 holds(s_18154_jpg, billboard).
 holds(s_18154_jpg, porch).
@@ -27605,7 +26705,6 @@ holds(s_18155_jpg, feature).
 holds(s_18155_jpg, hotel).
 holds(s_18155_jpg, store).
 holds(s_18155_jpg, suburban).
-holds(s_18155_jpg, door).
 holds(s_18155_jpg, billboard).
 holds(s_18155_jpg, porch).
 holds(s_18155_jpg, wallsign).
@@ -27623,6 +26722,7 @@ holds(s_18156_jpg, window).
 holds(s_18156_jpg, billboard).
 holds(s_18156_jpg, porch).
 holds(s_18156_jpg, wallsign).
+holds(s_18156_jpg, pipe).
 holds(s_18156_jpg, commercial).
 
 sample(s_18157_jpg).
@@ -27630,7 +26730,6 @@ holds(s_18157_jpg, building).
 holds(s_18157_jpg, feature).
 holds(s_18157_jpg, hotel).
 holds(s_18157_jpg, store).
-holds(s_18157_jpg, suburban).
 holds(s_18157_jpg, window).
 holds(s_18157_jpg, billboard).
 holds(s_18157_jpg, porch).
@@ -27643,7 +26742,6 @@ holds(s_18158_jpg, feature).
 holds(s_18158_jpg, hotel).
 holds(s_18158_jpg, store).
 holds(s_18158_jpg, suburban).
-holds(s_18158_jpg, door).
 holds(s_18158_jpg, billboard).
 holds(s_18158_jpg, porch).
 holds(s_18158_jpg, wallsign).
@@ -27669,7 +26767,6 @@ holds(s_18160_jpg, building).
 holds(s_18160_jpg, feature).
 holds(s_18160_jpg, hotel).
 holds(s_18160_jpg, store).
-holds(s_18160_jpg, suburban).
 holds(s_18160_jpg, window).
 holds(s_18160_jpg, billboard).
 holds(s_18160_jpg, porch).
@@ -27682,7 +26779,6 @@ holds(s_18161_jpg, feature).
 holds(s_18161_jpg, hotel).
 holds(s_18161_jpg, store).
 holds(s_18161_jpg, suburban).
-holds(s_18161_jpg, door).
 holds(s_18161_jpg, billboard).
 holds(s_18161_jpg, porch).
 holds(s_18161_jpg, wallsign).
@@ -27708,7 +26804,6 @@ holds(s_18163_jpg, building).
 holds(s_18163_jpg, feature).
 holds(s_18163_jpg, hotel).
 holds(s_18163_jpg, store).
-holds(s_18163_jpg, suburban).
 holds(s_18163_jpg, window).
 holds(s_18163_jpg, billboard).
 holds(s_18163_jpg, porch).
@@ -27721,7 +26816,6 @@ holds(s_18164_jpg, feature).
 holds(s_18164_jpg, hotel).
 holds(s_18164_jpg, store).
 holds(s_18164_jpg, suburban).
-holds(s_18164_jpg, door).
 holds(s_18164_jpg, billboard).
 holds(s_18164_jpg, porch).
 holds(s_18164_jpg, wallsign).
@@ -27739,6 +26833,7 @@ holds(s_18165_jpg, window).
 holds(s_18165_jpg, billboard).
 holds(s_18165_jpg, porch).
 holds(s_18165_jpg, wallsign).
+holds(s_18165_jpg, pipe).
 holds(s_18165_jpg, commercial).
 
 sample(s_18166_jpg).
@@ -27746,7 +26841,6 @@ holds(s_18166_jpg, building).
 holds(s_18166_jpg, feature).
 holds(s_18166_jpg, hotel).
 holds(s_18166_jpg, store).
-holds(s_18166_jpg, suburban).
 holds(s_18166_jpg, window).
 holds(s_18166_jpg, billboard).
 holds(s_18166_jpg, porch).
@@ -27784,7 +26878,6 @@ holds(s_18169_jpg, building).
 holds(s_18169_jpg, feature).
 holds(s_18169_jpg, hotel).
 holds(s_18169_jpg, store).
-holds(s_18169_jpg, suburban).
 holds(s_18169_jpg, window).
 holds(s_18169_jpg, billboard).
 holds(s_18169_jpg, porch).
@@ -27797,7 +26890,6 @@ holds(s_18170_jpg, feature).
 holds(s_18170_jpg, hotel).
 holds(s_18170_jpg, store).
 holds(s_18170_jpg, suburban).
-holds(s_18170_jpg, door).
 holds(s_18170_jpg, billboard).
 holds(s_18170_jpg, porch).
 holds(s_18170_jpg, wallsign).
@@ -27823,7 +26915,6 @@ holds(s_18172_jpg, building).
 holds(s_18172_jpg, feature).
 holds(s_18172_jpg, hotel).
 holds(s_18172_jpg, store).
-holds(s_18172_jpg, suburban).
 holds(s_18172_jpg, window).
 holds(s_18172_jpg, billboard).
 holds(s_18172_jpg, porch).
@@ -27836,7 +26927,6 @@ holds(s_18173_jpg, feature).
 holds(s_18173_jpg, hotel).
 holds(s_18173_jpg, store).
 holds(s_18173_jpg, suburban).
-holds(s_18173_jpg, door).
 holds(s_18173_jpg, billboard).
 holds(s_18173_jpg, porch).
 holds(s_18173_jpg, wallsign).
@@ -27862,7 +26952,6 @@ holds(s_18175_jpg, building).
 holds(s_18175_jpg, feature).
 holds(s_18175_jpg, hotel).
 holds(s_18175_jpg, store).
-holds(s_18175_jpg, suburban).
 holds(s_18175_jpg, window).
 holds(s_18175_jpg, billboard).
 holds(s_18175_jpg, porch).
@@ -27893,6 +26982,7 @@ holds(s_18177_jpg, window).
 holds(s_18177_jpg, billboard).
 holds(s_18177_jpg, porch).
 holds(s_18177_jpg, wallsign).
+holds(s_18177_jpg, pipe).
 holds(s_18177_jpg, commercial).
 
 sample(s_18178_jpg).
@@ -27900,7 +26990,6 @@ holds(s_18178_jpg, building).
 holds(s_18178_jpg, feature).
 holds(s_18178_jpg, hotel).
 holds(s_18178_jpg, store).
-holds(s_18178_jpg, suburban).
 holds(s_18178_jpg, window).
 holds(s_18178_jpg, billboard).
 holds(s_18178_jpg, porch).
@@ -27913,7 +27002,6 @@ holds(s_18179_jpg, feature).
 holds(s_18179_jpg, hotel).
 holds(s_18179_jpg, store).
 holds(s_18179_jpg, suburban).
-holds(s_18179_jpg, door).
 holds(s_18179_jpg, billboard).
 holds(s_18179_jpg, porch).
 holds(s_18179_jpg, wallsign).
@@ -27939,7 +27027,6 @@ holds(s_18181_jpg, building).
 holds(s_18181_jpg, feature).
 holds(s_18181_jpg, hotel).
 holds(s_18181_jpg, store).
-holds(s_18181_jpg, suburban).
 holds(s_18181_jpg, window).
 holds(s_18181_jpg, billboard).
 holds(s_18181_jpg, porch).
@@ -27952,7 +27039,6 @@ holds(s_18182_jpg, feature).
 holds(s_18182_jpg, hotel).
 holds(s_18182_jpg, store).
 holds(s_18182_jpg, suburban).
-holds(s_18182_jpg, door).
 holds(s_18182_jpg, billboard).
 holds(s_18182_jpg, porch).
 holds(s_18182_jpg, wallsign).
@@ -27978,7 +27064,6 @@ holds(s_18184_jpg, building).
 holds(s_18184_jpg, feature).
 holds(s_18184_jpg, hotel).
 holds(s_18184_jpg, store).
-holds(s_18184_jpg, suburban).
 holds(s_18184_jpg, window).
 holds(s_18184_jpg, billboard).
 holds(s_18184_jpg, porch).
@@ -27991,7 +27076,6 @@ holds(s_18185_jpg, feature).
 holds(s_18185_jpg, hotel).
 holds(s_18185_jpg, store).
 holds(s_18185_jpg, suburban).
-holds(s_18185_jpg, door).
 holds(s_18185_jpg, billboard).
 holds(s_18185_jpg, porch).
 holds(s_18185_jpg, wallsign).
@@ -28017,7 +27101,6 @@ holds(s_18187_jpg, building).
 holds(s_18187_jpg, feature).
 holds(s_18187_jpg, hotel).
 holds(s_18187_jpg, store).
-holds(s_18187_jpg, suburban).
 holds(s_18187_jpg, window).
 holds(s_18187_jpg, billboard).
 holds(s_18187_jpg, porch).
@@ -28030,7 +27113,6 @@ holds(s_18188_jpg, feature).
 holds(s_18188_jpg, hotel).
 holds(s_18188_jpg, store).
 holds(s_18188_jpg, suburban).
-holds(s_18188_jpg, door).
 holds(s_18188_jpg, billboard).
 holds(s_18188_jpg, porch).
 holds(s_18188_jpg, wallsign).
@@ -28056,7 +27138,6 @@ holds(s_18190_jpg, building).
 holds(s_18190_jpg, feature).
 holds(s_18190_jpg, hotel).
 holds(s_18190_jpg, store).
-holds(s_18190_jpg, suburban).
 holds(s_18190_jpg, window).
 holds(s_18190_jpg, billboard).
 holds(s_18190_jpg, porch).
@@ -28069,7 +27150,6 @@ holds(s_18191_jpg, feature).
 holds(s_18191_jpg, hotel).
 holds(s_18191_jpg, store).
 holds(s_18191_jpg, suburban).
-holds(s_18191_jpg, door).
 holds(s_18191_jpg, billboard).
 holds(s_18191_jpg, porch).
 holds(s_18191_jpg, wallsign).
@@ -28095,7 +27175,6 @@ holds(s_18193_jpg, building).
 holds(s_18193_jpg, feature).
 holds(s_18193_jpg, hotel).
 holds(s_18193_jpg, store).
-holds(s_18193_jpg, suburban).
 holds(s_18193_jpg, window).
 holds(s_18193_jpg, billboard).
 holds(s_18193_jpg, porch).
@@ -28108,7 +27187,6 @@ holds(s_18194_jpg, feature).
 holds(s_18194_jpg, hotel).
 holds(s_18194_jpg, store).
 holds(s_18194_jpg, suburban).
-holds(s_18194_jpg, door).
 holds(s_18194_jpg, billboard).
 holds(s_18194_jpg, porch).
 holds(s_18194_jpg, wallsign).
@@ -28126,6 +27204,7 @@ holds(s_18195_jpg, window).
 holds(s_18195_jpg, billboard).
 holds(s_18195_jpg, porch).
 holds(s_18195_jpg, wallsign).
+holds(s_18195_jpg, pipe).
 holds(s_18195_jpg, commercial).
 
 sample(s_18196_jpg).
@@ -28133,8 +27212,6 @@ holds(s_18196_jpg, building).
 holds(s_18196_jpg, feature).
 holds(s_18196_jpg, hotel).
 holds(s_18196_jpg, store).
-holds(s_18196_jpg, suburban).
-holds(s_18196_jpg, door).
 holds(s_18196_jpg, window).
 holds(s_18196_jpg, billboard).
 holds(s_18196_jpg, porch).
@@ -28147,7 +27224,6 @@ holds(s_18197_jpg, feature).
 holds(s_18197_jpg, hotel).
 holds(s_18197_jpg, store).
 holds(s_18197_jpg, suburban).
-holds(s_18197_jpg, door).
 holds(s_18197_jpg, billboard).
 holds(s_18197_jpg, porch).
 holds(s_18197_jpg, wallsign).
@@ -28165,6 +27241,7 @@ holds(s_18198_jpg, window).
 holds(s_18198_jpg, billboard).
 holds(s_18198_jpg, porch).
 holds(s_18198_jpg, wallsign).
+holds(s_18198_jpg, pipe).
 holds(s_18198_jpg, commercial).
 
 sample(s_18199_jpg).
@@ -28172,7 +27249,6 @@ holds(s_18199_jpg, building).
 holds(s_18199_jpg, feature).
 holds(s_18199_jpg, hotel).
 holds(s_18199_jpg, store).
-holds(s_18199_jpg, suburban).
 holds(s_18199_jpg, window).
 holds(s_18199_jpg, billboard).
 holds(s_18199_jpg, porch).
@@ -28211,7 +27287,6 @@ holds(s_18202_jpg, building).
 holds(s_18202_jpg, feature).
 holds(s_18202_jpg, hotel).
 holds(s_18202_jpg, store).
-holds(s_18202_jpg, suburban).
 holds(s_18202_jpg, window).
 holds(s_18202_jpg, billboard).
 holds(s_18202_jpg, porch).
@@ -28250,7 +27325,6 @@ holds(s_18205_jpg, building).
 holds(s_18205_jpg, feature).
 holds(s_18205_jpg, hotel).
 holds(s_18205_jpg, store).
-holds(s_18205_jpg, suburban).
 holds(s_18205_jpg, window).
 holds(s_18205_jpg, billboard).
 holds(s_18205_jpg, porch).
@@ -28289,7 +27363,6 @@ holds(s_18208_jpg, building).
 holds(s_18208_jpg, feature).
 holds(s_18208_jpg, hotel).
 holds(s_18208_jpg, store).
-holds(s_18208_jpg, suburban).
 holds(s_18208_jpg, window).
 holds(s_18208_jpg, billboard).
 holds(s_18208_jpg, porch).
@@ -28302,7 +27375,6 @@ holds(s_18209_jpg, feature).
 holds(s_18209_jpg, hotel).
 holds(s_18209_jpg, store).
 holds(s_18209_jpg, suburban).
-holds(s_18209_jpg, door).
 holds(s_18209_jpg, billboard).
 holds(s_18209_jpg, porch).
 holds(s_18209_jpg, wallsign).
@@ -28328,7 +27400,6 @@ holds(s_18211_jpg, building).
 holds(s_18211_jpg, feature).
 holds(s_18211_jpg, hotel).
 holds(s_18211_jpg, store).
-holds(s_18211_jpg, suburban).
 holds(s_18211_jpg, window).
 holds(s_18211_jpg, billboard).
 holds(s_18211_jpg, porch).
@@ -28341,7 +27412,6 @@ holds(s_18212_jpg, feature).
 holds(s_18212_jpg, hotel).
 holds(s_18212_jpg, store).
 holds(s_18212_jpg, suburban).
-holds(s_18212_jpg, door).
 holds(s_18212_jpg, billboard).
 holds(s_18212_jpg, porch).
 holds(s_18212_jpg, wallsign).
@@ -28367,7 +27437,6 @@ holds(s_18214_jpg, building).
 holds(s_18214_jpg, feature).
 holds(s_18214_jpg, hotel).
 holds(s_18214_jpg, store).
-holds(s_18214_jpg, suburban).
 holds(s_18214_jpg, window).
 holds(s_18214_jpg, billboard).
 holds(s_18214_jpg, porch).
@@ -28380,7 +27449,6 @@ holds(s_18215_jpg, feature).
 holds(s_18215_jpg, hotel).
 holds(s_18215_jpg, store).
 holds(s_18215_jpg, suburban).
-holds(s_18215_jpg, door).
 holds(s_18215_jpg, billboard).
 holds(s_18215_jpg, porch).
 holds(s_18215_jpg, wallsign).
@@ -28405,7 +27473,6 @@ holds(s_18217_jpg, building).
 holds(s_18217_jpg, feature).
 holds(s_18217_jpg, hotel).
 holds(s_18217_jpg, store).
-holds(s_18217_jpg, suburban).
 holds(s_18217_jpg, window).
 holds(s_18217_jpg, billboard).
 holds(s_18217_jpg, porch).
@@ -28418,7 +27485,6 @@ holds(s_18218_jpg, feature).
 holds(s_18218_jpg, hotel).
 holds(s_18218_jpg, store).
 holds(s_18218_jpg, suburban).
-holds(s_18218_jpg, door).
 holds(s_18218_jpg, billboard).
 holds(s_18218_jpg, porch).
 holds(s_18218_jpg, wallsign).
@@ -28436,6 +27502,7 @@ holds(s_18219_jpg, window).
 holds(s_18219_jpg, billboard).
 holds(s_18219_jpg, porch).
 holds(s_18219_jpg, wallsign).
+holds(s_18219_jpg, pipe).
 holds(s_18219_jpg, commercial).
 
 sample(s_18220_jpg).
@@ -28443,7 +27510,6 @@ holds(s_18220_jpg, building).
 holds(s_18220_jpg, feature).
 holds(s_18220_jpg, hotel).
 holds(s_18220_jpg, store).
-holds(s_18220_jpg, suburban).
 holds(s_18220_jpg, window).
 holds(s_18220_jpg, billboard).
 holds(s_18220_jpg, porch).
@@ -28456,7 +27522,6 @@ holds(s_18221_jpg, feature).
 holds(s_18221_jpg, hotel).
 holds(s_18221_jpg, store).
 holds(s_18221_jpg, suburban).
-holds(s_18221_jpg, door).
 holds(s_18221_jpg, billboard).
 holds(s_18221_jpg, porch).
 holds(s_18221_jpg, wallsign).
@@ -28482,8 +27547,6 @@ holds(s_18223_jpg, building).
 holds(s_18223_jpg, feature).
 holds(s_18223_jpg, hotel).
 holds(s_18223_jpg, store).
-holds(s_18223_jpg, suburban).
-holds(s_18223_jpg, door).
 holds(s_18223_jpg, window).
 holds(s_18223_jpg, billboard).
 holds(s_18223_jpg, porch).
@@ -28496,7 +27559,6 @@ holds(s_18224_jpg, feature).
 holds(s_18224_jpg, hotel).
 holds(s_18224_jpg, store).
 holds(s_18224_jpg, suburban).
-holds(s_18224_jpg, door).
 holds(s_18224_jpg, billboard).
 holds(s_18224_jpg, porch).
 holds(s_18224_jpg, wallsign).
@@ -28514,6 +27576,7 @@ holds(s_18225_jpg, window).
 holds(s_18225_jpg, billboard).
 holds(s_18225_jpg, porch).
 holds(s_18225_jpg, wallsign).
+holds(s_18225_jpg, pipe).
 holds(s_18225_jpg, commercial).
 
 sample(s_18226_jpg).
@@ -28521,7 +27584,6 @@ holds(s_18226_jpg, building).
 holds(s_18226_jpg, feature).
 holds(s_18226_jpg, hotel).
 holds(s_18226_jpg, store).
-holds(s_18226_jpg, suburban).
 holds(s_18226_jpg, window).
 holds(s_18226_jpg, billboard).
 holds(s_18226_jpg, porch).
@@ -28560,7 +27622,6 @@ holds(s_18229_jpg, building).
 holds(s_18229_jpg, feature).
 holds(s_18229_jpg, hotel).
 holds(s_18229_jpg, store).
-holds(s_18229_jpg, suburban).
 holds(s_18229_jpg, window).
 holds(s_18229_jpg, billboard).
 holds(s_18229_jpg, porch).
@@ -28573,7 +27634,6 @@ holds(s_18230_jpg, feature).
 holds(s_18230_jpg, hotel).
 holds(s_18230_jpg, store).
 holds(s_18230_jpg, suburban).
-holds(s_18230_jpg, door).
 holds(s_18230_jpg, billboard).
 holds(s_18230_jpg, porch).
 holds(s_18230_jpg, wallsign).
@@ -28591,6 +27651,7 @@ holds(s_18231_jpg, window).
 holds(s_18231_jpg, billboard).
 holds(s_18231_jpg, porch).
 holds(s_18231_jpg, wallsign).
+holds(s_18231_jpg, pipe).
 holds(s_18231_jpg, commercial).
 
 sample(s_18232_jpg).
@@ -28628,7 +27689,7 @@ holds(s_18234_jpg, window).
 holds(s_18234_jpg, billboard).
 holds(s_18234_jpg, porch).
 holds(s_18234_jpg, wallsign).
-holds(s_18234_jpg, car).
+holds(s_18234_jpg, pipe).
 holds(s_18234_jpg, commercial).
 
 sample(s_18235_jpg).
@@ -28636,7 +27697,6 @@ holds(s_18235_jpg, building).
 holds(s_18235_jpg, feature).
 holds(s_18235_jpg, hotel).
 holds(s_18235_jpg, store).
-holds(s_18235_jpg, suburban).
 holds(s_18235_jpg, window).
 holds(s_18235_jpg, billboard).
 holds(s_18235_jpg, porch).
@@ -28649,7 +27709,6 @@ holds(s_18236_jpg, feature).
 holds(s_18236_jpg, hotel).
 holds(s_18236_jpg, store).
 holds(s_18236_jpg, suburban).
-holds(s_18236_jpg, door).
 holds(s_18236_jpg, billboard).
 holds(s_18236_jpg, porch).
 holds(s_18236_jpg, wallsign).
@@ -28675,8 +27734,6 @@ holds(s_18238_jpg, building).
 holds(s_18238_jpg, feature).
 holds(s_18238_jpg, hotel).
 holds(s_18238_jpg, store).
-holds(s_18238_jpg, suburban).
-holds(s_18238_jpg, door).
 holds(s_18238_jpg, window).
 holds(s_18238_jpg, billboard).
 holds(s_18238_jpg, porch).
@@ -28689,7 +27746,6 @@ holds(s_18239_jpg, feature).
 holds(s_18239_jpg, hotel).
 holds(s_18239_jpg, store).
 holds(s_18239_jpg, suburban).
-holds(s_18239_jpg, door).
 holds(s_18239_jpg, billboard).
 holds(s_18239_jpg, porch).
 holds(s_18239_jpg, wallsign).
@@ -28707,6 +27763,7 @@ holds(s_18240_jpg, window).
 holds(s_18240_jpg, billboard).
 holds(s_18240_jpg, porch).
 holds(s_18240_jpg, wallsign).
+holds(s_18240_jpg, pipe).
 holds(s_18240_jpg, commercial).
 
 sample(s_18241_jpg).
@@ -28714,7 +27771,6 @@ holds(s_18241_jpg, building).
 holds(s_18241_jpg, feature).
 holds(s_18241_jpg, hotel).
 holds(s_18241_jpg, store).
-holds(s_18241_jpg, suburban).
 holds(s_18241_jpg, window).
 holds(s_18241_jpg, billboard).
 holds(s_18241_jpg, porch).
@@ -28752,7 +27808,6 @@ holds(s_18244_jpg, building).
 holds(s_18244_jpg, feature).
 holds(s_18244_jpg, hotel).
 holds(s_18244_jpg, store).
-holds(s_18244_jpg, suburban).
 holds(s_18244_jpg, window).
 holds(s_18244_jpg, billboard).
 holds(s_18244_jpg, porch).
@@ -28790,7 +27845,6 @@ holds(s_18247_jpg, building).
 holds(s_18247_jpg, feature).
 holds(s_18247_jpg, hotel).
 holds(s_18247_jpg, store).
-holds(s_18247_jpg, suburban).
 holds(s_18247_jpg, window).
 holds(s_18247_jpg, billboard).
 holds(s_18247_jpg, porch).
@@ -28803,7 +27857,6 @@ holds(s_18248_jpg, feature).
 holds(s_18248_jpg, hotel).
 holds(s_18248_jpg, store).
 holds(s_18248_jpg, suburban).
-holds(s_18248_jpg, door).
 holds(s_18248_jpg, billboard).
 holds(s_18248_jpg, porch).
 holds(s_18248_jpg, wallsign).
@@ -28821,6 +27874,7 @@ holds(s_18249_jpg, window).
 holds(s_18249_jpg, billboard).
 holds(s_18249_jpg, porch).
 holds(s_18249_jpg, wallsign).
+holds(s_18249_jpg, pipe).
 holds(s_18249_jpg, commercial).
 
 sample(s_18250_jpg).
@@ -28828,7 +27882,6 @@ holds(s_18250_jpg, building).
 holds(s_18250_jpg, feature).
 holds(s_18250_jpg, hotel).
 holds(s_18250_jpg, store).
-holds(s_18250_jpg, suburban).
 holds(s_18250_jpg, window).
 holds(s_18250_jpg, billboard).
 holds(s_18250_jpg, porch).
@@ -28841,7 +27894,6 @@ holds(s_18251_jpg, feature).
 holds(s_18251_jpg, hotel).
 holds(s_18251_jpg, store).
 holds(s_18251_jpg, suburban).
-holds(s_18251_jpg, door).
 holds(s_18251_jpg, billboard).
 holds(s_18251_jpg, porch).
 holds(s_18251_jpg, wallsign).
@@ -28897,6 +27949,7 @@ holds(s_18255_jpg, window).
 holds(s_18255_jpg, billboard).
 holds(s_18255_jpg, porch).
 holds(s_18255_jpg, wallsign).
+holds(s_18255_jpg, pipe).
 holds(s_18255_jpg, commercial).
 
 sample(s_18256_jpg).
@@ -28904,7 +27957,6 @@ holds(s_18256_jpg, building).
 holds(s_18256_jpg, feature).
 holds(s_18256_jpg, hotel).
 holds(s_18256_jpg, store).
-holds(s_18256_jpg, suburban).
 holds(s_18256_jpg, window).
 holds(s_18256_jpg, billboard).
 holds(s_18256_jpg, porch).
@@ -28917,7 +27969,6 @@ holds(s_18257_jpg, feature).
 holds(s_18257_jpg, hotel).
 holds(s_18257_jpg, store).
 holds(s_18257_jpg, suburban).
-holds(s_18257_jpg, door).
 holds(s_18257_jpg, billboard).
 holds(s_18257_jpg, porch).
 holds(s_18257_jpg, wallsign).
@@ -28935,14 +27986,14 @@ holds(s_18258_jpg, window).
 holds(s_18258_jpg, billboard).
 holds(s_18258_jpg, porch).
 holds(s_18258_jpg, wallsign).
-holds(s_18258_jpg, industrial).
+holds(s_18258_jpg, pipe).
+holds(s_18258_jpg, commercial).
 
 sample(s_18259_jpg).
 holds(s_18259_jpg, building).
 holds(s_18259_jpg, feature).
 holds(s_18259_jpg, hotel).
 holds(s_18259_jpg, store).
-holds(s_18259_jpg, suburban).
 holds(s_18259_jpg, window).
 holds(s_18259_jpg, billboard).
 holds(s_18259_jpg, porch).
@@ -28955,7 +28006,6 @@ holds(s_18260_jpg, feature).
 holds(s_18260_jpg, hotel).
 holds(s_18260_jpg, store).
 holds(s_18260_jpg, suburban).
-holds(s_18260_jpg, door).
 holds(s_18260_jpg, billboard).
 holds(s_18260_jpg, porch).
 holds(s_18260_jpg, wallsign).
@@ -28973,6 +28023,7 @@ holds(s_18261_jpg, window).
 holds(s_18261_jpg, billboard).
 holds(s_18261_jpg, porch).
 holds(s_18261_jpg, wallsign).
+holds(s_18261_jpg, pipe).
 holds(s_18261_jpg, commercial).
 
 sample(s_18262_jpg).
@@ -28980,7 +28031,6 @@ holds(s_18262_jpg, building).
 holds(s_18262_jpg, feature).
 holds(s_18262_jpg, hotel).
 holds(s_18262_jpg, store).
-holds(s_18262_jpg, suburban).
 holds(s_18262_jpg, window).
 holds(s_18262_jpg, billboard).
 holds(s_18262_jpg, porch).
@@ -29019,7 +28069,6 @@ holds(s_18265_jpg, building).
 holds(s_18265_jpg, feature).
 holds(s_18265_jpg, hotel).
 holds(s_18265_jpg, store).
-holds(s_18265_jpg, suburban).
 holds(s_18265_jpg, window).
 holds(s_18265_jpg, billboard).
 holds(s_18265_jpg, porch).
@@ -29032,7 +28081,6 @@ holds(s_18266_jpg, feature).
 holds(s_18266_jpg, hotel).
 holds(s_18266_jpg, store).
 holds(s_18266_jpg, suburban).
-holds(s_18266_jpg, door).
 holds(s_18266_jpg, billboard).
 holds(s_18266_jpg, porch).
 holds(s_18266_jpg, wallsign).
@@ -29058,7 +28106,6 @@ holds(s_18268_jpg, building).
 holds(s_18268_jpg, feature).
 holds(s_18268_jpg, hotel).
 holds(s_18268_jpg, store).
-holds(s_18268_jpg, suburban).
 holds(s_18268_jpg, window).
 holds(s_18268_jpg, billboard).
 holds(s_18268_jpg, porch).
@@ -29071,7 +28118,6 @@ holds(s_18269_jpg, feature).
 holds(s_18269_jpg, hotel).
 holds(s_18269_jpg, store).
 holds(s_18269_jpg, suburban).
-holds(s_18269_jpg, door).
 holds(s_18269_jpg, billboard).
 holds(s_18269_jpg, porch).
 holds(s_18269_jpg, wallsign).
@@ -29097,7 +28143,6 @@ holds(s_18271_jpg, building).
 holds(s_18271_jpg, feature).
 holds(s_18271_jpg, hotel).
 holds(s_18271_jpg, store).
-holds(s_18271_jpg, suburban).
 holds(s_18271_jpg, window).
 holds(s_18271_jpg, billboard).
 holds(s_18271_jpg, porch).
@@ -29110,7 +28155,6 @@ holds(s_18272_jpg, feature).
 holds(s_18272_jpg, hotel).
 holds(s_18272_jpg, store).
 holds(s_18272_jpg, suburban).
-holds(s_18272_jpg, door).
 holds(s_18272_jpg, billboard).
 holds(s_18272_jpg, porch).
 holds(s_18272_jpg, wallsign).
@@ -29128,6 +28172,7 @@ holds(s_18273_jpg, window).
 holds(s_18273_jpg, billboard).
 holds(s_18273_jpg, porch).
 holds(s_18273_jpg, wallsign).
+holds(s_18273_jpg, pipe).
 holds(s_18273_jpg, commercial).
 
 sample(s_18274_jpg).
@@ -29135,7 +28180,6 @@ holds(s_18274_jpg, building).
 holds(s_18274_jpg, feature).
 holds(s_18274_jpg, hotel).
 holds(s_18274_jpg, store).
-holds(s_18274_jpg, suburban).
 holds(s_18274_jpg, window).
 holds(s_18274_jpg, billboard).
 holds(s_18274_jpg, porch).
@@ -29166,6 +28210,7 @@ holds(s_18276_jpg, window).
 holds(s_18276_jpg, billboard).
 holds(s_18276_jpg, porch).
 holds(s_18276_jpg, wallsign).
+holds(s_18276_jpg, pipe).
 holds(s_18276_jpg, commercial).
 
 sample(s_18277_jpg).
@@ -29173,7 +28218,6 @@ holds(s_18277_jpg, building).
 holds(s_18277_jpg, feature).
 holds(s_18277_jpg, hotel).
 holds(s_18277_jpg, store).
-holds(s_18277_jpg, suburban).
 holds(s_18277_jpg, window).
 holds(s_18277_jpg, billboard).
 holds(s_18277_jpg, porch).
@@ -29212,7 +28256,6 @@ holds(s_18280_jpg, building).
 holds(s_18280_jpg, feature).
 holds(s_18280_jpg, hotel).
 holds(s_18280_jpg, store).
-holds(s_18280_jpg, suburban).
 holds(s_18280_jpg, window).
 holds(s_18280_jpg, billboard).
 holds(s_18280_jpg, porch).
@@ -29225,7 +28268,6 @@ holds(s_18281_jpg, feature).
 holds(s_18281_jpg, hotel).
 holds(s_18281_jpg, store).
 holds(s_18281_jpg, suburban).
-holds(s_18281_jpg, door).
 holds(s_18281_jpg, billboard).
 holds(s_18281_jpg, porch).
 holds(s_18281_jpg, wallsign).
@@ -29251,8 +28293,6 @@ holds(s_18283_jpg, building).
 holds(s_18283_jpg, feature).
 holds(s_18283_jpg, hotel).
 holds(s_18283_jpg, store).
-holds(s_18283_jpg, suburban).
-holds(s_18283_jpg, door).
 holds(s_18283_jpg, window).
 holds(s_18283_jpg, billboard).
 holds(s_18283_jpg, porch).
@@ -29265,7 +28305,6 @@ holds(s_18284_jpg, feature).
 holds(s_18284_jpg, hotel).
 holds(s_18284_jpg, store).
 holds(s_18284_jpg, suburban).
-holds(s_18284_jpg, door).
 holds(s_18284_jpg, billboard).
 holds(s_18284_jpg, porch).
 holds(s_18284_jpg, wallsign).
@@ -29291,7 +28330,6 @@ holds(s_18286_jpg, building).
 holds(s_18286_jpg, feature).
 holds(s_18286_jpg, hotel).
 holds(s_18286_jpg, store).
-holds(s_18286_jpg, suburban).
 holds(s_18286_jpg, window).
 holds(s_18286_jpg, billboard).
 holds(s_18286_jpg, porch).
@@ -29304,7 +28342,6 @@ holds(s_18287_jpg, feature).
 holds(s_18287_jpg, hotel).
 holds(s_18287_jpg, store).
 holds(s_18287_jpg, suburban).
-holds(s_18287_jpg, door).
 holds(s_18287_jpg, billboard).
 holds(s_18287_jpg, porch).
 holds(s_18287_jpg, wallsign).
@@ -29322,6 +28359,7 @@ holds(s_18288_jpg, window).
 holds(s_18288_jpg, billboard).
 holds(s_18288_jpg, porch).
 holds(s_18288_jpg, wallsign).
+holds(s_18288_jpg, pipe).
 holds(s_18288_jpg, commercial).
 
 sample(s_18289_jpg).
@@ -29329,7 +28367,6 @@ holds(s_18289_jpg, building).
 holds(s_18289_jpg, feature).
 holds(s_18289_jpg, hotel).
 holds(s_18289_jpg, store).
-holds(s_18289_jpg, suburban).
 holds(s_18289_jpg, window).
 holds(s_18289_jpg, billboard).
 holds(s_18289_jpg, porch).
@@ -29367,7 +28404,6 @@ holds(s_18292_jpg, building).
 holds(s_18292_jpg, feature).
 holds(s_18292_jpg, hotel).
 holds(s_18292_jpg, store).
-holds(s_18292_jpg, suburban).
 holds(s_18292_jpg, window).
 holds(s_18292_jpg, billboard).
 holds(s_18292_jpg, porch).
@@ -29380,7 +28416,6 @@ holds(s_18293_jpg, feature).
 holds(s_18293_jpg, hotel).
 holds(s_18293_jpg, store).
 holds(s_18293_jpg, suburban).
-holds(s_18293_jpg, door).
 holds(s_18293_jpg, billboard).
 holds(s_18293_jpg, porch).
 holds(s_18293_jpg, wallsign).
@@ -29398,6 +28433,7 @@ holds(s_18294_jpg, window).
 holds(s_18294_jpg, billboard).
 holds(s_18294_jpg, porch).
 holds(s_18294_jpg, wallsign).
+holds(s_18294_jpg, pipe).
 holds(s_18294_jpg, commercial).
 
 sample(s_18295_jpg).
@@ -29405,7 +28441,6 @@ holds(s_18295_jpg, building).
 holds(s_18295_jpg, feature).
 holds(s_18295_jpg, hotel).
 holds(s_18295_jpg, store).
-holds(s_18295_jpg, suburban).
 holds(s_18295_jpg, window).
 holds(s_18295_jpg, billboard).
 holds(s_18295_jpg, porch).
@@ -29444,7 +28479,6 @@ holds(s_18298_jpg, building).
 holds(s_18298_jpg, feature).
 holds(s_18298_jpg, hotel).
 holds(s_18298_jpg, store).
-holds(s_18298_jpg, suburban).
 holds(s_18298_jpg, window).
 holds(s_18298_jpg, billboard).
 holds(s_18298_jpg, porch).
@@ -29457,7 +28491,6 @@ holds(s_18299_jpg, feature).
 holds(s_18299_jpg, hotel).
 holds(s_18299_jpg, store).
 holds(s_18299_jpg, suburban).
-holds(s_18299_jpg, door).
 holds(s_18299_jpg, billboard).
 holds(s_18299_jpg, porch).
 holds(s_18299_jpg, wallsign).
@@ -29483,7 +28516,6 @@ holds(s_18301_jpg, building).
 holds(s_18301_jpg, feature).
 holds(s_18301_jpg, hotel).
 holds(s_18301_jpg, store).
-holds(s_18301_jpg, suburban).
 holds(s_18301_jpg, window).
 holds(s_18301_jpg, billboard).
 holds(s_18301_jpg, porch).
@@ -29496,7 +28528,6 @@ holds(s_18302_jpg, feature).
 holds(s_18302_jpg, hotel).
 holds(s_18302_jpg, store).
 holds(s_18302_jpg, suburban).
-holds(s_18302_jpg, door).
 holds(s_18302_jpg, billboard).
 holds(s_18302_jpg, porch).
 holds(s_18302_jpg, wallsign).
@@ -29509,18 +28540,19 @@ holds(s_18303_jpg, feature).
 holds(s_18303_jpg, hotel).
 holds(s_18303_jpg, store).
 holds(s_18303_jpg, suburban).
+holds(s_18303_jpg, door).
 holds(s_18303_jpg, window).
 holds(s_18303_jpg, billboard).
 holds(s_18303_jpg, porch).
 holds(s_18303_jpg, wallsign).
-holds(s_18303_jpg, industrial).
+holds(s_18303_jpg, pipe).
+holds(s_18303_jpg, commercial).
 
 sample(s_18304_jpg).
 holds(s_18304_jpg, building).
 holds(s_18304_jpg, feature).
 holds(s_18304_jpg, hotel).
 holds(s_18304_jpg, store).
-holds(s_18304_jpg, suburban).
 holds(s_18304_jpg, window).
 holds(s_18304_jpg, billboard).
 holds(s_18304_jpg, porch).
@@ -29533,7 +28565,6 @@ holds(s_18305_jpg, feature).
 holds(s_18305_jpg, hotel).
 holds(s_18305_jpg, store).
 holds(s_18305_jpg, suburban).
-holds(s_18305_jpg, door).
 holds(s_18305_jpg, billboard).
 holds(s_18305_jpg, porch).
 holds(s_18305_jpg, wallsign).
@@ -29559,7 +28590,6 @@ holds(s_18307_jpg, building).
 holds(s_18307_jpg, feature).
 holds(s_18307_jpg, hotel).
 holds(s_18307_jpg, store).
-holds(s_18307_jpg, suburban).
 holds(s_18307_jpg, window).
 holds(s_18307_jpg, billboard).
 holds(s_18307_jpg, porch).
@@ -29597,7 +28627,6 @@ holds(s_18310_jpg, building).
 holds(s_18310_jpg, feature).
 holds(s_18310_jpg, hotel).
 holds(s_18310_jpg, store).
-holds(s_18310_jpg, suburban).
 holds(s_18310_jpg, window).
 holds(s_18310_jpg, billboard).
 holds(s_18310_jpg, porch).
@@ -29610,7 +28639,6 @@ holds(s_18311_jpg, feature).
 holds(s_18311_jpg, hotel).
 holds(s_18311_jpg, store).
 holds(s_18311_jpg, suburban).
-holds(s_18311_jpg, door).
 holds(s_18311_jpg, billboard).
 holds(s_18311_jpg, porch).
 holds(s_18311_jpg, wallsign).
@@ -29636,7 +28664,6 @@ holds(s_18313_jpg, building).
 holds(s_18313_jpg, feature).
 holds(s_18313_jpg, hotel).
 holds(s_18313_jpg, store).
-holds(s_18313_jpg, suburban).
 holds(s_18313_jpg, window).
 holds(s_18313_jpg, billboard).
 holds(s_18313_jpg, porch).
@@ -29649,7 +28676,6 @@ holds(s_18314_jpg, feature).
 holds(s_18314_jpg, hotel).
 holds(s_18314_jpg, store).
 holds(s_18314_jpg, suburban).
-holds(s_18314_jpg, door).
 holds(s_18314_jpg, billboard).
 holds(s_18314_jpg, porch).
 holds(s_18314_jpg, wallsign).
@@ -29667,6 +28693,7 @@ holds(s_18315_jpg, window).
 holds(s_18315_jpg, billboard).
 holds(s_18315_jpg, porch).
 holds(s_18315_jpg, wallsign).
+holds(s_18315_jpg, pipe).
 holds(s_18315_jpg, commercial).
 
 sample(s_18316_jpg).
@@ -29674,7 +28701,6 @@ holds(s_18316_jpg, building).
 holds(s_18316_jpg, feature).
 holds(s_18316_jpg, hotel).
 holds(s_18316_jpg, store).
-holds(s_18316_jpg, suburban).
 holds(s_18316_jpg, window).
 holds(s_18316_jpg, billboard).
 holds(s_18316_jpg, porch).
@@ -29713,7 +28739,6 @@ holds(s_18319_jpg, building).
 holds(s_18319_jpg, feature).
 holds(s_18319_jpg, hotel).
 holds(s_18319_jpg, store).
-holds(s_18319_jpg, suburban).
 holds(s_18319_jpg, window).
 holds(s_18319_jpg, billboard).
 holds(s_18319_jpg, porch).
@@ -29726,7 +28751,6 @@ holds(s_18320_jpg, feature).
 holds(s_18320_jpg, hotel).
 holds(s_18320_jpg, store).
 holds(s_18320_jpg, suburban).
-holds(s_18320_jpg, door).
 holds(s_18320_jpg, billboard).
 holds(s_18320_jpg, porch).
 holds(s_18320_jpg, wallsign).
@@ -29744,6 +28768,7 @@ holds(s_18321_jpg, window).
 holds(s_18321_jpg, billboard).
 holds(s_18321_jpg, porch).
 holds(s_18321_jpg, wallsign).
+holds(s_18321_jpg, pipe).
 holds(s_18321_jpg, commercial).
 
 sample(s_18322_jpg).
@@ -29751,7 +28776,6 @@ holds(s_18322_jpg, building).
 holds(s_18322_jpg, feature).
 holds(s_18322_jpg, hotel).
 holds(s_18322_jpg, store).
-holds(s_18322_jpg, suburban).
 holds(s_18322_jpg, window).
 holds(s_18322_jpg, billboard).
 holds(s_18322_jpg, porch).
@@ -29764,7 +28788,6 @@ holds(s_18323_jpg, feature).
 holds(s_18323_jpg, hotel).
 holds(s_18323_jpg, store).
 holds(s_18323_jpg, suburban).
-holds(s_18323_jpg, door).
 holds(s_18323_jpg, billboard).
 holds(s_18323_jpg, porch).
 holds(s_18323_jpg, wallsign).
@@ -29782,6 +28805,7 @@ holds(s_18324_jpg, window).
 holds(s_18324_jpg, billboard).
 holds(s_18324_jpg, porch).
 holds(s_18324_jpg, wallsign).
+holds(s_18324_jpg, pipe).
 holds(s_18324_jpg, commercial).
 
 sample(s_18325_jpg).
@@ -29789,7 +28813,6 @@ holds(s_18325_jpg, building).
 holds(s_18325_jpg, feature).
 holds(s_18325_jpg, hotel).
 holds(s_18325_jpg, store).
-holds(s_18325_jpg, suburban).
 holds(s_18325_jpg, window).
 holds(s_18325_jpg, billboard).
 holds(s_18325_jpg, porch).
@@ -29802,7 +28825,6 @@ holds(s_18326_jpg, feature).
 holds(s_18326_jpg, hotel).
 holds(s_18326_jpg, store).
 holds(s_18326_jpg, suburban).
-holds(s_18326_jpg, door).
 holds(s_18326_jpg, billboard).
 holds(s_18326_jpg, porch).
 holds(s_18326_jpg, wallsign).
@@ -29820,6 +28842,7 @@ holds(s_18327_jpg, window).
 holds(s_18327_jpg, billboard).
 holds(s_18327_jpg, porch).
 holds(s_18327_jpg, wallsign).
+holds(s_18327_jpg, pipe).
 holds(s_18327_jpg, commercial).
 
 sample(s_18328_jpg).
@@ -29827,7 +28850,6 @@ holds(s_18328_jpg, building).
 holds(s_18328_jpg, feature).
 holds(s_18328_jpg, hotel).
 holds(s_18328_jpg, store).
-holds(s_18328_jpg, suburban).
 holds(s_18328_jpg, window).
 holds(s_18328_jpg, billboard).
 holds(s_18328_jpg, porch).
@@ -29840,7 +28862,6 @@ holds(s_18329_jpg, feature).
 holds(s_18329_jpg, hotel).
 holds(s_18329_jpg, store).
 holds(s_18329_jpg, suburban).
-holds(s_18329_jpg, door).
 holds(s_18329_jpg, billboard).
 holds(s_18329_jpg, porch).
 holds(s_18329_jpg, wallsign).
@@ -29866,7 +28887,6 @@ holds(s_18331_jpg, building).
 holds(s_18331_jpg, feature).
 holds(s_18331_jpg, hotel).
 holds(s_18331_jpg, store).
-holds(s_18331_jpg, suburban).
 holds(s_18331_jpg, window).
 holds(s_18331_jpg, billboard).
 holds(s_18331_jpg, porch).
@@ -29879,7 +28899,6 @@ holds(s_18332_jpg, feature).
 holds(s_18332_jpg, hotel).
 holds(s_18332_jpg, store).
 holds(s_18332_jpg, suburban).
-holds(s_18332_jpg, door).
 holds(s_18332_jpg, billboard).
 holds(s_18332_jpg, porch).
 holds(s_18332_jpg, wallsign).
@@ -29905,7 +28924,6 @@ holds(s_18334_jpg, building).
 holds(s_18334_jpg, feature).
 holds(s_18334_jpg, hotel).
 holds(s_18334_jpg, store).
-holds(s_18334_jpg, suburban).
 holds(s_18334_jpg, window).
 holds(s_18334_jpg, billboard).
 holds(s_18334_jpg, porch).
@@ -29918,7 +28936,6 @@ holds(s_18335_jpg, feature).
 holds(s_18335_jpg, hotel).
 holds(s_18335_jpg, store).
 holds(s_18335_jpg, suburban).
-holds(s_18335_jpg, door).
 holds(s_18335_jpg, billboard).
 holds(s_18335_jpg, porch).
 holds(s_18335_jpg, wallsign).
@@ -29936,6 +28953,7 @@ holds(s_18336_jpg, window).
 holds(s_18336_jpg, billboard).
 holds(s_18336_jpg, porch).
 holds(s_18336_jpg, wallsign).
+holds(s_18336_jpg, pipe).
 holds(s_18336_jpg, commercial).
 
 sample(s_18337_jpg).
@@ -29956,7 +28974,6 @@ holds(s_18338_jpg, feature).
 holds(s_18338_jpg, hotel).
 holds(s_18338_jpg, store).
 holds(s_18338_jpg, suburban).
-holds(s_18338_jpg, door).
 holds(s_18338_jpg, billboard).
 holds(s_18338_jpg, porch).
 holds(s_18338_jpg, wallsign).
@@ -29982,7 +28999,6 @@ holds(s_18340_jpg, building).
 holds(s_18340_jpg, feature).
 holds(s_18340_jpg, hotel).
 holds(s_18340_jpg, store).
-holds(s_18340_jpg, suburban).
 holds(s_18340_jpg, window).
 holds(s_18340_jpg, billboard).
 holds(s_18340_jpg, porch).
@@ -30020,7 +29036,6 @@ holds(s_18343_jpg, building).
 holds(s_18343_jpg, feature).
 holds(s_18343_jpg, hotel).
 holds(s_18343_jpg, store).
-holds(s_18343_jpg, suburban).
 holds(s_18343_jpg, window).
 holds(s_18343_jpg, billboard).
 holds(s_18343_jpg, porch).
@@ -30033,7 +29048,6 @@ holds(s_18344_jpg, feature).
 holds(s_18344_jpg, hotel).
 holds(s_18344_jpg, store).
 holds(s_18344_jpg, suburban).
-holds(s_18344_jpg, door).
 holds(s_18344_jpg, billboard).
 holds(s_18344_jpg, porch).
 holds(s_18344_jpg, wallsign).
@@ -30059,7 +29073,6 @@ holds(s_18346_jpg, building).
 holds(s_18346_jpg, feature).
 holds(s_18346_jpg, hotel).
 holds(s_18346_jpg, store).
-holds(s_18346_jpg, suburban).
 holds(s_18346_jpg, window).
 holds(s_18346_jpg, billboard).
 holds(s_18346_jpg, porch).
@@ -30090,6 +29103,7 @@ holds(s_18348_jpg, window).
 holds(s_18348_jpg, billboard).
 holds(s_18348_jpg, porch).
 holds(s_18348_jpg, wallsign).
+holds(s_18348_jpg, pipe).
 holds(s_18348_jpg, commercial).
 
 sample(s_18349_jpg).
@@ -30097,7 +29111,6 @@ holds(s_18349_jpg, building).
 holds(s_18349_jpg, feature).
 holds(s_18349_jpg, hotel).
 holds(s_18349_jpg, store).
-holds(s_18349_jpg, suburban).
 holds(s_18349_jpg, window).
 holds(s_18349_jpg, billboard).
 holds(s_18349_jpg, porch).
@@ -30110,7 +29123,6 @@ holds(s_18350_jpg, feature).
 holds(s_18350_jpg, hotel).
 holds(s_18350_jpg, store).
 holds(s_18350_jpg, suburban).
-holds(s_18350_jpg, door).
 holds(s_18350_jpg, billboard).
 holds(s_18350_jpg, porch).
 holds(s_18350_jpg, wallsign).
@@ -30128,6 +29140,7 @@ holds(s_18351_jpg, window).
 holds(s_18351_jpg, billboard).
 holds(s_18351_jpg, porch).
 holds(s_18351_jpg, wallsign).
+holds(s_18351_jpg, pipe).
 holds(s_18351_jpg, commercial).
 
 sample(s_18352_jpg).
@@ -30135,7 +29148,6 @@ holds(s_18352_jpg, building).
 holds(s_18352_jpg, feature).
 holds(s_18352_jpg, hotel).
 holds(s_18352_jpg, store).
-holds(s_18352_jpg, suburban).
 holds(s_18352_jpg, window).
 holds(s_18352_jpg, billboard).
 holds(s_18352_jpg, porch).
@@ -30148,7 +29160,6 @@ holds(s_18353_jpg, feature).
 holds(s_18353_jpg, hotel).
 holds(s_18353_jpg, store).
 holds(s_18353_jpg, suburban).
-holds(s_18353_jpg, door).
 holds(s_18353_jpg, billboard).
 holds(s_18353_jpg, porch).
 holds(s_18353_jpg, wallsign).
@@ -30174,7 +29185,6 @@ holds(s_18355_jpg, building).
 holds(s_18355_jpg, feature).
 holds(s_18355_jpg, hotel).
 holds(s_18355_jpg, store).
-holds(s_18355_jpg, suburban).
 holds(s_18355_jpg, window).
 holds(s_18355_jpg, billboard).
 holds(s_18355_jpg, porch).
@@ -30187,7 +29197,6 @@ holds(s_18356_jpg, feature).
 holds(s_18356_jpg, hotel).
 holds(s_18356_jpg, store).
 holds(s_18356_jpg, suburban).
-holds(s_18356_jpg, door).
 holds(s_18356_jpg, billboard).
 holds(s_18356_jpg, porch).
 holds(s_18356_jpg, wallsign).
@@ -30213,7 +29222,6 @@ holds(s_18358_jpg, building).
 holds(s_18358_jpg, feature).
 holds(s_18358_jpg, hotel).
 holds(s_18358_jpg, store).
-holds(s_18358_jpg, suburban).
 holds(s_18358_jpg, window).
 holds(s_18358_jpg, billboard).
 holds(s_18358_jpg, porch).
@@ -30226,7 +29234,6 @@ holds(s_18359_jpg, feature).
 holds(s_18359_jpg, hotel).
 holds(s_18359_jpg, store).
 holds(s_18359_jpg, suburban).
-holds(s_18359_jpg, door).
 holds(s_18359_jpg, billboard).
 holds(s_18359_jpg, porch).
 holds(s_18359_jpg, wallsign).
@@ -30252,7 +29259,6 @@ holds(s_18361_jpg, building).
 holds(s_18361_jpg, feature).
 holds(s_18361_jpg, hotel).
 holds(s_18361_jpg, store).
-holds(s_18361_jpg, suburban).
 holds(s_18361_jpg, window).
 holds(s_18361_jpg, billboard).
 holds(s_18361_jpg, porch).
@@ -30265,7 +29271,6 @@ holds(s_18362_jpg, feature).
 holds(s_18362_jpg, hotel).
 holds(s_18362_jpg, store).
 holds(s_18362_jpg, suburban).
-holds(s_18362_jpg, door).
 holds(s_18362_jpg, billboard).
 holds(s_18362_jpg, porch).
 holds(s_18362_jpg, wallsign).
@@ -30283,6 +29288,7 @@ holds(s_18363_jpg, window).
 holds(s_18363_jpg, billboard).
 holds(s_18363_jpg, porch).
 holds(s_18363_jpg, wallsign).
+holds(s_18363_jpg, pipe).
 holds(s_18363_jpg, commercial).
 
 sample(s_18364_jpg).
@@ -30290,7 +29296,6 @@ holds(s_18364_jpg, building).
 holds(s_18364_jpg, feature).
 holds(s_18364_jpg, hotel).
 holds(s_18364_jpg, store).
-holds(s_18364_jpg, suburban).
 holds(s_18364_jpg, window).
 holds(s_18364_jpg, billboard).
 holds(s_18364_jpg, porch).
@@ -30329,7 +29334,6 @@ holds(s_18367_jpg, building).
 holds(s_18367_jpg, feature).
 holds(s_18367_jpg, hotel).
 holds(s_18367_jpg, store).
-holds(s_18367_jpg, suburban).
 holds(s_18367_jpg, window).
 holds(s_18367_jpg, billboard).
 holds(s_18367_jpg, porch).
@@ -30342,7 +29346,6 @@ holds(s_18368_jpg, feature).
 holds(s_18368_jpg, hotel).
 holds(s_18368_jpg, store).
 holds(s_18368_jpg, suburban).
-holds(s_18368_jpg, door).
 holds(s_18368_jpg, billboard).
 holds(s_18368_jpg, porch).
 holds(s_18368_jpg, wallsign).
@@ -30360,6 +29363,7 @@ holds(s_18369_jpg, window).
 holds(s_18369_jpg, billboard).
 holds(s_18369_jpg, porch).
 holds(s_18369_jpg, wallsign).
+holds(s_18369_jpg, pipe).
 holds(s_18369_jpg, commercial).
 
 sample(s_18370_jpg).
@@ -30367,7 +29371,6 @@ holds(s_18370_jpg, building).
 holds(s_18370_jpg, feature).
 holds(s_18370_jpg, hotel).
 holds(s_18370_jpg, store).
-holds(s_18370_jpg, suburban).
 holds(s_18370_jpg, window).
 holds(s_18370_jpg, billboard).
 holds(s_18370_jpg, porch).
@@ -30380,7 +29383,6 @@ holds(s_18371_jpg, feature).
 holds(s_18371_jpg, hotel).
 holds(s_18371_jpg, store).
 holds(s_18371_jpg, suburban).
-holds(s_18371_jpg, door).
 holds(s_18371_jpg, billboard).
 holds(s_18371_jpg, porch).
 holds(s_18371_jpg, wallsign).
@@ -30406,7 +29408,6 @@ holds(s_18373_jpg, building).
 holds(s_18373_jpg, feature).
 holds(s_18373_jpg, hotel).
 holds(s_18373_jpg, store).
-holds(s_18373_jpg, suburban).
 holds(s_18373_jpg, window).
 holds(s_18373_jpg, billboard).
 holds(s_18373_jpg, porch).
@@ -30445,7 +29446,6 @@ holds(s_18376_jpg, building).
 holds(s_18376_jpg, feature).
 holds(s_18376_jpg, hotel).
 holds(s_18376_jpg, store).
-holds(s_18376_jpg, suburban).
 holds(s_18376_jpg, window).
 holds(s_18376_jpg, billboard).
 holds(s_18376_jpg, porch).
@@ -30483,7 +29483,6 @@ holds(s_18379_jpg, building).
 holds(s_18379_jpg, feature).
 holds(s_18379_jpg, hotel).
 holds(s_18379_jpg, store).
-holds(s_18379_jpg, suburban).
 holds(s_18379_jpg, window).
 holds(s_18379_jpg, billboard).
 holds(s_18379_jpg, porch).
@@ -30496,7 +29495,6 @@ holds(s_18380_jpg, feature).
 holds(s_18380_jpg, hotel).
 holds(s_18380_jpg, store).
 holds(s_18380_jpg, suburban).
-holds(s_18380_jpg, door).
 holds(s_18380_jpg, billboard).
 holds(s_18380_jpg, porch).
 holds(s_18380_jpg, wallsign).
@@ -30514,6 +29512,7 @@ holds(s_18381_jpg, window).
 holds(s_18381_jpg, billboard).
 holds(s_18381_jpg, porch).
 holds(s_18381_jpg, wallsign).
+holds(s_18381_jpg, pipe).
 holds(s_18381_jpg, commercial).
 
 sample(s_18382_jpg).
@@ -30534,7 +29533,6 @@ holds(s_18383_jpg, feature).
 holds(s_18383_jpg, hotel).
 holds(s_18383_jpg, store).
 holds(s_18383_jpg, suburban).
-holds(s_18383_jpg, door).
 holds(s_18383_jpg, billboard).
 holds(s_18383_jpg, porch).
 holds(s_18383_jpg, wallsign).
@@ -30573,7 +29571,6 @@ holds(s_18386_jpg, feature).
 holds(s_18386_jpg, hotel).
 holds(s_18386_jpg, store).
 holds(s_18386_jpg, suburban).
-holds(s_18386_jpg, door).
 holds(s_18386_jpg, billboard).
 holds(s_18386_jpg, porch).
 holds(s_18386_jpg, wallsign).
@@ -30591,6 +29588,7 @@ holds(s_18387_jpg, window).
 holds(s_18387_jpg, billboard).
 holds(s_18387_jpg, porch).
 holds(s_18387_jpg, wallsign).
+holds(s_18387_jpg, pipe).
 holds(s_18387_jpg, commercial).
 
 sample(s_18388_jpg).
@@ -30598,7 +29596,6 @@ holds(s_18388_jpg, building).
 holds(s_18388_jpg, feature).
 holds(s_18388_jpg, hotel).
 holds(s_18388_jpg, store).
-holds(s_18388_jpg, suburban).
 holds(s_18388_jpg, window).
 holds(s_18388_jpg, billboard).
 holds(s_18388_jpg, porch).
@@ -30611,7 +29608,6 @@ holds(s_18389_jpg, feature).
 holds(s_18389_jpg, hotel).
 holds(s_18389_jpg, store).
 holds(s_18389_jpg, suburban).
-holds(s_18389_jpg, door).
 holds(s_18389_jpg, billboard).
 holds(s_18389_jpg, porch).
 holds(s_18389_jpg, wallsign).
@@ -30629,6 +29625,7 @@ holds(s_18390_jpg, window).
 holds(s_18390_jpg, billboard).
 holds(s_18390_jpg, porch).
 holds(s_18390_jpg, wallsign).
+holds(s_18390_jpg, pipe).
 holds(s_18390_jpg, commercial).
 
 sample(s_18391_jpg).
@@ -30636,7 +29633,6 @@ holds(s_18391_jpg, building).
 holds(s_18391_jpg, feature).
 holds(s_18391_jpg, hotel).
 holds(s_18391_jpg, store).
-holds(s_18391_jpg, suburban).
 holds(s_18391_jpg, window).
 holds(s_18391_jpg, billboard).
 holds(s_18391_jpg, porch).
@@ -30667,6 +29663,7 @@ holds(s_18393_jpg, window).
 holds(s_18393_jpg, billboard).
 holds(s_18393_jpg, porch).
 holds(s_18393_jpg, wallsign).
+holds(s_18393_jpg, pipe).
 holds(s_18393_jpg, commercial).
 
 sample(s_18394_jpg).
@@ -30674,7 +29671,6 @@ holds(s_18394_jpg, building).
 holds(s_18394_jpg, feature).
 holds(s_18394_jpg, hotel).
 holds(s_18394_jpg, store).
-holds(s_18394_jpg, suburban).
 holds(s_18394_jpg, window).
 holds(s_18394_jpg, billboard).
 holds(s_18394_jpg, porch).
@@ -30687,7 +29683,6 @@ holds(s_18395_jpg, feature).
 holds(s_18395_jpg, hotel).
 holds(s_18395_jpg, store).
 holds(s_18395_jpg, suburban).
-holds(s_18395_jpg, door).
 holds(s_18395_jpg, billboard).
 holds(s_18395_jpg, porch).
 holds(s_18395_jpg, wallsign).
@@ -30713,7 +29708,6 @@ holds(s_18397_jpg, building).
 holds(s_18397_jpg, feature).
 holds(s_18397_jpg, hotel).
 holds(s_18397_jpg, store).
-holds(s_18397_jpg, suburban).
 holds(s_18397_jpg, window).
 holds(s_18397_jpg, billboard).
 holds(s_18397_jpg, porch).
@@ -30726,7 +29720,6 @@ holds(s_18398_jpg, feature).
 holds(s_18398_jpg, hotel).
 holds(s_18398_jpg, store).
 holds(s_18398_jpg, suburban).
-holds(s_18398_jpg, door).
 holds(s_18398_jpg, billboard).
 holds(s_18398_jpg, porch).
 holds(s_18398_jpg, wallsign).
@@ -30744,7 +29737,7 @@ holds(s_18399_jpg, window).
 holds(s_18399_jpg, billboard).
 holds(s_18399_jpg, porch).
 holds(s_18399_jpg, wallsign).
-holds(s_18399_jpg, car).
+holds(s_18399_jpg, pipe).
 holds(s_18399_jpg, commercial).
 
 sample(s_18400_jpg).
@@ -30752,7 +29745,6 @@ holds(s_18400_jpg, building).
 holds(s_18400_jpg, feature).
 holds(s_18400_jpg, hotel).
 holds(s_18400_jpg, store).
-holds(s_18400_jpg, suburban).
 holds(s_18400_jpg, window).
 holds(s_18400_jpg, billboard).
 holds(s_18400_jpg, porch).
@@ -30765,7 +29757,6 @@ holds(s_18401_jpg, feature).
 holds(s_18401_jpg, hotel).
 holds(s_18401_jpg, store).
 holds(s_18401_jpg, suburban).
-holds(s_18401_jpg, door).
 holds(s_18401_jpg, billboard).
 holds(s_18401_jpg, porch).
 holds(s_18401_jpg, wallsign).
@@ -30791,7 +29782,6 @@ holds(s_18403_jpg, building).
 holds(s_18403_jpg, feature).
 holds(s_18403_jpg, hotel).
 holds(s_18403_jpg, store).
-holds(s_18403_jpg, suburban).
 holds(s_18403_jpg, window).
 holds(s_18403_jpg, billboard).
 holds(s_18403_jpg, porch).
@@ -30804,7 +29794,6 @@ holds(s_18404_jpg, feature).
 holds(s_18404_jpg, hotel).
 holds(s_18404_jpg, store).
 holds(s_18404_jpg, suburban).
-holds(s_18404_jpg, door).
 holds(s_18404_jpg, billboard).
 holds(s_18404_jpg, porch).
 holds(s_18404_jpg, wallsign).
@@ -30822,6 +29811,7 @@ holds(s_18405_jpg, window).
 holds(s_18405_jpg, billboard).
 holds(s_18405_jpg, porch).
 holds(s_18405_jpg, wallsign).
+holds(s_18405_jpg, pipe).
 holds(s_18405_jpg, commercial).
 
 sample(s_18406_jpg).
@@ -30829,7 +29819,6 @@ holds(s_18406_jpg, building).
 holds(s_18406_jpg, feature).
 holds(s_18406_jpg, hotel).
 holds(s_18406_jpg, store).
-holds(s_18406_jpg, suburban).
 holds(s_18406_jpg, window).
 holds(s_18406_jpg, billboard).
 holds(s_18406_jpg, porch).
@@ -30842,7 +29831,6 @@ holds(s_18407_jpg, feature).
 holds(s_18407_jpg, hotel).
 holds(s_18407_jpg, store).
 holds(s_18407_jpg, suburban).
-holds(s_18407_jpg, door).
 holds(s_18407_jpg, billboard).
 holds(s_18407_jpg, porch).
 holds(s_18407_jpg, wallsign).
@@ -30868,7 +29856,6 @@ holds(s_18409_jpg, building).
 holds(s_18409_jpg, feature).
 holds(s_18409_jpg, hotel).
 holds(s_18409_jpg, store).
-holds(s_18409_jpg, suburban).
 holds(s_18409_jpg, window).
 holds(s_18409_jpg, billboard).
 holds(s_18409_jpg, porch).
@@ -30881,7 +29868,6 @@ holds(s_18410_jpg, feature).
 holds(s_18410_jpg, hotel).
 holds(s_18410_jpg, store).
 holds(s_18410_jpg, suburban).
-holds(s_18410_jpg, door).
 holds(s_18410_jpg, billboard).
 holds(s_18410_jpg, porch).
 holds(s_18410_jpg, wallsign).
@@ -30907,7 +29893,6 @@ holds(s_18412_jpg, building).
 holds(s_18412_jpg, feature).
 holds(s_18412_jpg, hotel).
 holds(s_18412_jpg, store).
-holds(s_18412_jpg, suburban).
 holds(s_18412_jpg, window).
 holds(s_18412_jpg, billboard).
 holds(s_18412_jpg, porch).
@@ -30920,7 +29905,6 @@ holds(s_18413_jpg, feature).
 holds(s_18413_jpg, hotel).
 holds(s_18413_jpg, store).
 holds(s_18413_jpg, suburban).
-holds(s_18413_jpg, door).
 holds(s_18413_jpg, billboard).
 holds(s_18413_jpg, porch).
 holds(s_18413_jpg, wallsign).
@@ -30946,7 +29930,6 @@ holds(s_18415_jpg, building).
 holds(s_18415_jpg, feature).
 holds(s_18415_jpg, hotel).
 holds(s_18415_jpg, store).
-holds(s_18415_jpg, suburban).
 holds(s_18415_jpg, window).
 holds(s_18415_jpg, billboard).
 holds(s_18415_jpg, porch).
@@ -30959,7 +29942,6 @@ holds(s_18416_jpg, feature).
 holds(s_18416_jpg, hotel).
 holds(s_18416_jpg, store).
 holds(s_18416_jpg, suburban).
-holds(s_18416_jpg, door).
 holds(s_18416_jpg, billboard).
 holds(s_18416_jpg, porch).
 holds(s_18416_jpg, wallsign).
@@ -30977,6 +29959,7 @@ holds(s_18417_jpg, window).
 holds(s_18417_jpg, billboard).
 holds(s_18417_jpg, porch).
 holds(s_18417_jpg, wallsign).
+holds(s_18417_jpg, pipe).
 holds(s_18417_jpg, commercial).
 
 sample(s_18418_jpg).
@@ -30984,7 +29967,6 @@ holds(s_18418_jpg, building).
 holds(s_18418_jpg, feature).
 holds(s_18418_jpg, hotel).
 holds(s_18418_jpg, store).
-holds(s_18418_jpg, suburban).
 holds(s_18418_jpg, window).
 holds(s_18418_jpg, billboard).
 holds(s_18418_jpg, porch).
@@ -30997,7 +29979,6 @@ holds(s_18419_jpg, feature).
 holds(s_18419_jpg, hotel).
 holds(s_18419_jpg, store).
 holds(s_18419_jpg, suburban).
-holds(s_18419_jpg, door).
 holds(s_18419_jpg, billboard).
 holds(s_18419_jpg, porch).
 holds(s_18419_jpg, wallsign).
@@ -31015,6 +29996,7 @@ holds(s_18420_jpg, window).
 holds(s_18420_jpg, billboard).
 holds(s_18420_jpg, porch).
 holds(s_18420_jpg, wallsign).
+holds(s_18420_jpg, pipe).
 holds(s_18420_jpg, commercial).
 
 sample(s_18421_jpg).
@@ -31061,7 +30043,6 @@ holds(s_18424_jpg, building).
 holds(s_18424_jpg, feature).
 holds(s_18424_jpg, hotel).
 holds(s_18424_jpg, store).
-holds(s_18424_jpg, suburban).
 holds(s_18424_jpg, window).
 holds(s_18424_jpg, billboard).
 holds(s_18424_jpg, porch).
@@ -31074,12 +30055,11 @@ holds(s_18425_jpg, feature).
 holds(s_18425_jpg, hotel).
 holds(s_18425_jpg, store).
 holds(s_18425_jpg, suburban).
-holds(s_18425_jpg, door).
 holds(s_18425_jpg, billboard).
 holds(s_18425_jpg, porch).
 holds(s_18425_jpg, wallsign).
 holds(s_18425_jpg, car).
-holds(s_18425_jpg, commercial).
+holds(s_18425_jpg, residential).
 
 sample(s_18426_jpg).
 holds(s_18426_jpg, building).
@@ -31092,7 +30072,7 @@ holds(s_18426_jpg, window).
 holds(s_18426_jpg, billboard).
 holds(s_18426_jpg, porch).
 holds(s_18426_jpg, wallsign).
-holds(s_18426_jpg, car).
+holds(s_18426_jpg, pipe).
 holds(s_18426_jpg, commercial).
 
 sample(s_18427_jpg).
@@ -31100,7 +30080,6 @@ holds(s_18427_jpg, building).
 holds(s_18427_jpg, feature).
 holds(s_18427_jpg, hotel).
 holds(s_18427_jpg, store).
-holds(s_18427_jpg, suburban).
 holds(s_18427_jpg, window).
 holds(s_18427_jpg, billboard).
 holds(s_18427_jpg, porch).
@@ -31113,7 +30092,6 @@ holds(s_18428_jpg, feature).
 holds(s_18428_jpg, hotel).
 holds(s_18428_jpg, store).
 holds(s_18428_jpg, suburban).
-holds(s_18428_jpg, door).
 holds(s_18428_jpg, billboard).
 holds(s_18428_jpg, porch).
 holds(s_18428_jpg, wallsign).
@@ -31139,7 +30117,6 @@ holds(s_18430_jpg, building).
 holds(s_18430_jpg, feature).
 holds(s_18430_jpg, hotel).
 holds(s_18430_jpg, store).
-holds(s_18430_jpg, suburban).
 holds(s_18430_jpg, window).
 holds(s_18430_jpg, billboard).
 holds(s_18430_jpg, porch).
@@ -31152,7 +30129,6 @@ holds(s_18431_jpg, feature).
 holds(s_18431_jpg, hotel).
 holds(s_18431_jpg, store).
 holds(s_18431_jpg, suburban).
-holds(s_18431_jpg, door).
 holds(s_18431_jpg, billboard).
 holds(s_18431_jpg, porch).
 holds(s_18431_jpg, wallsign).
@@ -31170,6 +30146,7 @@ holds(s_18432_jpg, window).
 holds(s_18432_jpg, billboard).
 holds(s_18432_jpg, porch).
 holds(s_18432_jpg, wallsign).
+holds(s_18432_jpg, pipe).
 holds(s_18432_jpg, commercial).
 
 sample(s_18433_jpg).
@@ -31177,7 +30154,6 @@ holds(s_18433_jpg, building).
 holds(s_18433_jpg, feature).
 holds(s_18433_jpg, hotel).
 holds(s_18433_jpg, store).
-holds(s_18433_jpg, suburban).
 holds(s_18433_jpg, window).
 holds(s_18433_jpg, billboard).
 holds(s_18433_jpg, porch).
@@ -31215,7 +30191,6 @@ holds(s_18436_jpg, building).
 holds(s_18436_jpg, feature).
 holds(s_18436_jpg, hotel).
 holds(s_18436_jpg, store).
-holds(s_18436_jpg, suburban).
 holds(s_18436_jpg, window).
 holds(s_18436_jpg, billboard).
 holds(s_18436_jpg, porch).
@@ -31228,7 +30203,6 @@ holds(s_18437_jpg, feature).
 holds(s_18437_jpg, hotel).
 holds(s_18437_jpg, store).
 holds(s_18437_jpg, suburban).
-holds(s_18437_jpg, door).
 holds(s_18437_jpg, billboard).
 holds(s_18437_jpg, porch).
 holds(s_18437_jpg, wallsign).
@@ -31246,6 +30220,7 @@ holds(s_18438_jpg, window).
 holds(s_18438_jpg, billboard).
 holds(s_18438_jpg, porch).
 holds(s_18438_jpg, wallsign).
+holds(s_18438_jpg, pipe).
 holds(s_18438_jpg, commercial).
 
 sample(s_18439_jpg).
@@ -31253,7 +30228,6 @@ holds(s_18439_jpg, building).
 holds(s_18439_jpg, feature).
 holds(s_18439_jpg, hotel).
 holds(s_18439_jpg, store).
-holds(s_18439_jpg, suburban).
 holds(s_18439_jpg, window).
 holds(s_18439_jpg, billboard).
 holds(s_18439_jpg, porch).
@@ -31266,7 +30240,6 @@ holds(s_18440_jpg, feature).
 holds(s_18440_jpg, hotel).
 holds(s_18440_jpg, store).
 holds(s_18440_jpg, suburban).
-holds(s_18440_jpg, door).
 holds(s_18440_jpg, billboard).
 holds(s_18440_jpg, porch).
 holds(s_18440_jpg, wallsign).
@@ -31292,7 +30265,6 @@ holds(s_18442_jpg, building).
 holds(s_18442_jpg, feature).
 holds(s_18442_jpg, hotel).
 holds(s_18442_jpg, store).
-holds(s_18442_jpg, suburban).
 holds(s_18442_jpg, window).
 holds(s_18442_jpg, billboard).
 holds(s_18442_jpg, porch).
@@ -31305,7 +30277,6 @@ holds(s_18443_jpg, feature).
 holds(s_18443_jpg, hotel).
 holds(s_18443_jpg, store).
 holds(s_18443_jpg, suburban).
-holds(s_18443_jpg, door).
 holds(s_18443_jpg, billboard).
 holds(s_18443_jpg, porch).
 holds(s_18443_jpg, wallsign).
@@ -31331,7 +30302,6 @@ holds(s_18445_jpg, building).
 holds(s_18445_jpg, feature).
 holds(s_18445_jpg, hotel).
 holds(s_18445_jpg, store).
-holds(s_18445_jpg, suburban).
 holds(s_18445_jpg, window).
 holds(s_18445_jpg, billboard).
 holds(s_18445_jpg, porch).
@@ -31344,7 +30314,6 @@ holds(s_18446_jpg, feature).
 holds(s_18446_jpg, hotel).
 holds(s_18446_jpg, store).
 holds(s_18446_jpg, suburban).
-holds(s_18446_jpg, door).
 holds(s_18446_jpg, billboard).
 holds(s_18446_jpg, porch).
 holds(s_18446_jpg, wallsign).
@@ -31370,7 +30339,6 @@ holds(s_18448_jpg, building).
 holds(s_18448_jpg, feature).
 holds(s_18448_jpg, hotel).
 holds(s_18448_jpg, store).
-holds(s_18448_jpg, suburban).
 holds(s_18448_jpg, window).
 holds(s_18448_jpg, billboard).
 holds(s_18448_jpg, porch).
@@ -31401,7 +30369,7 @@ holds(s_18450_jpg, window).
 holds(s_18450_jpg, billboard).
 holds(s_18450_jpg, porch).
 holds(s_18450_jpg, wallsign).
-holds(s_18450_jpg, car).
+holds(s_18450_jpg, pipe).
 holds(s_18450_jpg, commercial).
 
 sample(s_18451_jpg).
@@ -31409,7 +30377,6 @@ holds(s_18451_jpg, building).
 holds(s_18451_jpg, feature).
 holds(s_18451_jpg, hotel).
 holds(s_18451_jpg, store).
-holds(s_18451_jpg, suburban).
 holds(s_18451_jpg, window).
 holds(s_18451_jpg, billboard).
 holds(s_18451_jpg, porch).
@@ -31422,7 +30389,6 @@ holds(s_18452_jpg, feature).
 holds(s_18452_jpg, hotel).
 holds(s_18452_jpg, store).
 holds(s_18452_jpg, suburban).
-holds(s_18452_jpg, door).
 holds(s_18452_jpg, billboard).
 holds(s_18452_jpg, porch).
 holds(s_18452_jpg, wallsign).
@@ -31448,7 +30414,6 @@ holds(s_18454_jpg, building).
 holds(s_18454_jpg, feature).
 holds(s_18454_jpg, hotel).
 holds(s_18454_jpg, store).
-holds(s_18454_jpg, suburban).
 holds(s_18454_jpg, window).
 holds(s_18454_jpg, billboard).
 holds(s_18454_jpg, porch).
@@ -31486,7 +30451,6 @@ holds(s_18457_jpg, building).
 holds(s_18457_jpg, feature).
 holds(s_18457_jpg, hotel).
 holds(s_18457_jpg, store).
-holds(s_18457_jpg, suburban).
 holds(s_18457_jpg, window).
 holds(s_18457_jpg, billboard).
 holds(s_18457_jpg, porch).
@@ -31499,7 +30463,6 @@ holds(s_18458_jpg, feature).
 holds(s_18458_jpg, hotel).
 holds(s_18458_jpg, store).
 holds(s_18458_jpg, suburban).
-holds(s_18458_jpg, door).
 holds(s_18458_jpg, billboard).
 holds(s_18458_jpg, porch).
 holds(s_18458_jpg, wallsign).
@@ -31517,6 +30480,7 @@ holds(s_18459_jpg, window).
 holds(s_18459_jpg, billboard).
 holds(s_18459_jpg, porch).
 holds(s_18459_jpg, wallsign).
+holds(s_18459_jpg, pipe).
 holds(s_18459_jpg, commercial).
 
 sample(s_18460_jpg).
@@ -31524,7 +30488,6 @@ holds(s_18460_jpg, building).
 holds(s_18460_jpg, feature).
 holds(s_18460_jpg, hotel).
 holds(s_18460_jpg, store).
-holds(s_18460_jpg, suburban).
 holds(s_18460_jpg, window).
 holds(s_18460_jpg, billboard).
 holds(s_18460_jpg, porch).
@@ -31563,7 +30526,6 @@ holds(s_18463_jpg, building).
 holds(s_18463_jpg, feature).
 holds(s_18463_jpg, hotel).
 holds(s_18463_jpg, store).
-holds(s_18463_jpg, suburban).
 holds(s_18463_jpg, window).
 holds(s_18463_jpg, billboard).
 holds(s_18463_jpg, porch).
@@ -31576,7 +30538,6 @@ holds(s_18464_jpg, feature).
 holds(s_18464_jpg, hotel).
 holds(s_18464_jpg, store).
 holds(s_18464_jpg, suburban).
-holds(s_18464_jpg, door).
 holds(s_18464_jpg, billboard).
 holds(s_18464_jpg, porch).
 holds(s_18464_jpg, wallsign).
@@ -31602,7 +30563,6 @@ holds(s_18466_jpg, building).
 holds(s_18466_jpg, feature).
 holds(s_18466_jpg, hotel).
 holds(s_18466_jpg, store).
-holds(s_18466_jpg, suburban).
 holds(s_18466_jpg, window).
 holds(s_18466_jpg, billboard).
 holds(s_18466_jpg, porch).
@@ -31615,7 +30575,6 @@ holds(s_18467_jpg, feature).
 holds(s_18467_jpg, hotel).
 holds(s_18467_jpg, store).
 holds(s_18467_jpg, suburban).
-holds(s_18467_jpg, door).
 holds(s_18467_jpg, billboard).
 holds(s_18467_jpg, porch).
 holds(s_18467_jpg, wallsign).
@@ -31641,7 +30600,6 @@ holds(s_18469_jpg, building).
 holds(s_18469_jpg, feature).
 holds(s_18469_jpg, hotel).
 holds(s_18469_jpg, store).
-holds(s_18469_jpg, suburban).
 holds(s_18469_jpg, window).
 holds(s_18469_jpg, billboard).
 holds(s_18469_jpg, porch).
@@ -31672,6 +30630,7 @@ holds(s_18471_jpg, window).
 holds(s_18471_jpg, billboard).
 holds(s_18471_jpg, porch).
 holds(s_18471_jpg, wallsign).
+holds(s_18471_jpg, pipe).
 holds(s_18471_jpg, commercial).
 
 sample(s_18472_jpg).
@@ -31679,8 +30638,6 @@ holds(s_18472_jpg, building).
 holds(s_18472_jpg, feature).
 holds(s_18472_jpg, hotel).
 holds(s_18472_jpg, store).
-holds(s_18472_jpg, suburban).
-holds(s_18472_jpg, door).
 holds(s_18472_jpg, window).
 holds(s_18472_jpg, billboard).
 holds(s_18472_jpg, porch).
@@ -31719,7 +30676,6 @@ holds(s_18475_jpg, building).
 holds(s_18475_jpg, feature).
 holds(s_18475_jpg, hotel).
 holds(s_18475_jpg, store).
-holds(s_18475_jpg, suburban).
 holds(s_18475_jpg, window).
 holds(s_18475_jpg, billboard).
 holds(s_18475_jpg, porch).
@@ -31732,7 +30688,6 @@ holds(s_18476_jpg, feature).
 holds(s_18476_jpg, hotel).
 holds(s_18476_jpg, store).
 holds(s_18476_jpg, suburban).
-holds(s_18476_jpg, door).
 holds(s_18476_jpg, billboard).
 holds(s_18476_jpg, porch).
 holds(s_18476_jpg, wallsign).
@@ -31750,6 +30705,7 @@ holds(s_18477_jpg, window).
 holds(s_18477_jpg, billboard).
 holds(s_18477_jpg, porch).
 holds(s_18477_jpg, wallsign).
+holds(s_18477_jpg, pipe).
 holds(s_18477_jpg, commercial).
 
 sample(s_18478_jpg).
@@ -31757,7 +30713,6 @@ holds(s_18478_jpg, building).
 holds(s_18478_jpg, feature).
 holds(s_18478_jpg, hotel).
 holds(s_18478_jpg, store).
-holds(s_18478_jpg, suburban).
 holds(s_18478_jpg, window).
 holds(s_18478_jpg, billboard).
 holds(s_18478_jpg, porch).
@@ -31795,7 +30750,6 @@ holds(s_18481_jpg, building).
 holds(s_18481_jpg, feature).
 holds(s_18481_jpg, hotel).
 holds(s_18481_jpg, store).
-holds(s_18481_jpg, suburban).
 holds(s_18481_jpg, window).
 holds(s_18481_jpg, billboard).
 holds(s_18481_jpg, porch).
@@ -31808,7 +30762,6 @@ holds(s_18482_jpg, feature).
 holds(s_18482_jpg, hotel).
 holds(s_18482_jpg, store).
 holds(s_18482_jpg, suburban).
-holds(s_18482_jpg, door).
 holds(s_18482_jpg, billboard).
 holds(s_18482_jpg, porch).
 holds(s_18482_jpg, wallsign).
@@ -31834,7 +30787,6 @@ holds(s_18484_jpg, building).
 holds(s_18484_jpg, feature).
 holds(s_18484_jpg, hotel).
 holds(s_18484_jpg, store).
-holds(s_18484_jpg, suburban).
 holds(s_18484_jpg, window).
 holds(s_18484_jpg, billboard).
 holds(s_18484_jpg, porch).
@@ -31847,7 +30799,6 @@ holds(s_18485_jpg, feature).
 holds(s_18485_jpg, hotel).
 holds(s_18485_jpg, store).
 holds(s_18485_jpg, suburban).
-holds(s_18485_jpg, door).
 holds(s_18485_jpg, billboard).
 holds(s_18485_jpg, porch).
 holds(s_18485_jpg, wallsign).
@@ -31873,7 +30824,6 @@ holds(s_18487_jpg, building).
 holds(s_18487_jpg, feature).
 holds(s_18487_jpg, hotel).
 holds(s_18487_jpg, store).
-holds(s_18487_jpg, suburban).
 holds(s_18487_jpg, window).
 holds(s_18487_jpg, billboard).
 holds(s_18487_jpg, porch).
@@ -31886,7 +30836,6 @@ holds(s_18488_jpg, feature).
 holds(s_18488_jpg, hotel).
 holds(s_18488_jpg, store).
 holds(s_18488_jpg, suburban).
-holds(s_18488_jpg, door).
 holds(s_18488_jpg, billboard).
 holds(s_18488_jpg, porch).
 holds(s_18488_jpg, wallsign).
@@ -31904,6 +30853,7 @@ holds(s_18489_jpg, window).
 holds(s_18489_jpg, billboard).
 holds(s_18489_jpg, porch).
 holds(s_18489_jpg, wallsign).
+holds(s_18489_jpg, pipe).
 holds(s_18489_jpg, commercial).
 
 sample(s_18490_jpg).
@@ -31911,7 +30861,6 @@ holds(s_18490_jpg, building).
 holds(s_18490_jpg, feature).
 holds(s_18490_jpg, hotel).
 holds(s_18490_jpg, store).
-holds(s_18490_jpg, suburban).
 holds(s_18490_jpg, window).
 holds(s_18490_jpg, billboard).
 holds(s_18490_jpg, porch).
@@ -31924,7 +30873,6 @@ holds(s_18491_jpg, feature).
 holds(s_18491_jpg, hotel).
 holds(s_18491_jpg, store).
 holds(s_18491_jpg, suburban).
-holds(s_18491_jpg, door).
 holds(s_18491_jpg, billboard).
 holds(s_18491_jpg, porch).
 holds(s_18491_jpg, wallsign).
@@ -31942,6 +30890,7 @@ holds(s_18492_jpg, window).
 holds(s_18492_jpg, billboard).
 holds(s_18492_jpg, porch).
 holds(s_18492_jpg, wallsign).
+holds(s_18492_jpg, pipe).
 holds(s_18492_jpg, commercial).
 
 sample(s_18493_jpg).
@@ -31949,7 +30898,6 @@ holds(s_18493_jpg, building).
 holds(s_18493_jpg, feature).
 holds(s_18493_jpg, hotel).
 holds(s_18493_jpg, store).
-holds(s_18493_jpg, suburban).
 holds(s_18493_jpg, window).
 holds(s_18493_jpg, billboard).
 holds(s_18493_jpg, porch).
@@ -31962,7 +30910,6 @@ holds(s_18494_jpg, feature).
 holds(s_18494_jpg, hotel).
 holds(s_18494_jpg, store).
 holds(s_18494_jpg, suburban).
-holds(s_18494_jpg, door).
 holds(s_18494_jpg, billboard).
 holds(s_18494_jpg, porch).
 holds(s_18494_jpg, wallsign).
@@ -31988,7 +30935,6 @@ holds(s_18496_jpg, building).
 holds(s_18496_jpg, feature).
 holds(s_18496_jpg, hotel).
 holds(s_18496_jpg, store).
-holds(s_18496_jpg, suburban).
 holds(s_18496_jpg, window).
 holds(s_18496_jpg, billboard).
 holds(s_18496_jpg, porch).
@@ -32027,7 +30973,6 @@ holds(s_18499_jpg, building).
 holds(s_18499_jpg, feature).
 holds(s_18499_jpg, hotel).
 holds(s_18499_jpg, store).
-holds(s_18499_jpg, suburban).
 holds(s_18499_jpg, window).
 holds(s_18499_jpg, billboard).
 holds(s_18499_jpg, porch).
@@ -32040,7 +30985,6 @@ holds(s_18500_jpg, feature).
 holds(s_18500_jpg, hotel).
 holds(s_18500_jpg, store).
 holds(s_18500_jpg, suburban).
-holds(s_18500_jpg, door).
 holds(s_18500_jpg, billboard).
 holds(s_18500_jpg, porch).
 holds(s_18500_jpg, wallsign).
@@ -32066,7 +31010,6 @@ holds(s_18502_jpg, building).
 holds(s_18502_jpg, feature).
 holds(s_18502_jpg, hotel).
 holds(s_18502_jpg, store).
-holds(s_18502_jpg, suburban).
 holds(s_18502_jpg, window).
 holds(s_18502_jpg, billboard).
 holds(s_18502_jpg, porch).
@@ -32079,7 +31022,6 @@ holds(s_18503_jpg, feature).
 holds(s_18503_jpg, hotel).
 holds(s_18503_jpg, store).
 holds(s_18503_jpg, suburban).
-holds(s_18503_jpg, door).
 holds(s_18503_jpg, billboard).
 holds(s_18503_jpg, porch).
 holds(s_18503_jpg, wallsign).
@@ -32105,7 +31047,6 @@ holds(s_18505_jpg, building).
 holds(s_18505_jpg, feature).
 holds(s_18505_jpg, hotel).
 holds(s_18505_jpg, store).
-holds(s_18505_jpg, suburban).
 holds(s_18505_jpg, window).
 holds(s_18505_jpg, billboard).
 holds(s_18505_jpg, porch).
@@ -32144,7 +31085,6 @@ holds(s_18508_jpg, building).
 holds(s_18508_jpg, feature).
 holds(s_18508_jpg, hotel).
 holds(s_18508_jpg, store).
-holds(s_18508_jpg, suburban).
 holds(s_18508_jpg, window).
 holds(s_18508_jpg, billboard).
 holds(s_18508_jpg, porch).
@@ -32157,7 +31097,6 @@ holds(s_18509_jpg, feature).
 holds(s_18509_jpg, hotel).
 holds(s_18509_jpg, store).
 holds(s_18509_jpg, suburban).
-holds(s_18509_jpg, door).
 holds(s_18509_jpg, billboard).
 holds(s_18509_jpg, porch).
 holds(s_18509_jpg, wallsign).
@@ -32169,7 +31108,6 @@ holds(s_18510_jpg, building).
 holds(s_18510_jpg, feature).
 holds(s_18510_jpg, hotel).
 holds(s_18510_jpg, store).
-holds(s_18510_jpg, suburban).
 holds(s_18510_jpg, window).
 holds(s_18510_jpg, billboard).
 holds(s_18510_jpg, porch).
@@ -32181,7 +31119,6 @@ holds(s_18511_jpg, building).
 holds(s_18511_jpg, feature).
 holds(s_18511_jpg, hotel).
 holds(s_18511_jpg, store).
-holds(s_18511_jpg, suburban).
 holds(s_18511_jpg, window).
 holds(s_18511_jpg, billboard).
 holds(s_18511_jpg, porch).
@@ -32212,14 +31149,13 @@ holds(s_18513_jpg, window).
 holds(s_18513_jpg, billboard).
 holds(s_18513_jpg, porch).
 holds(s_18513_jpg, wallsign).
-holds(s_18513_jpg, commercial).
+holds(s_18513_jpg, industrial).
 
 sample(s_18514_jpg).
 holds(s_18514_jpg, building).
 holds(s_18514_jpg, feature).
 holds(s_18514_jpg, hotel).
 holds(s_18514_jpg, store).
-holds(s_18514_jpg, suburban).
 holds(s_18514_jpg, window).
 holds(s_18514_jpg, billboard).
 holds(s_18514_jpg, porch).
@@ -32232,7 +31168,6 @@ holds(s_18515_jpg, feature).
 holds(s_18515_jpg, hotel).
 holds(s_18515_jpg, store).
 holds(s_18515_jpg, suburban).
-holds(s_18515_jpg, door).
 holds(s_18515_jpg, billboard).
 holds(s_18515_jpg, porch).
 holds(s_18515_jpg, wallsign).
@@ -32258,7 +31193,6 @@ holds(s_18517_jpg, building).
 holds(s_18517_jpg, feature).
 holds(s_18517_jpg, hotel).
 holds(s_18517_jpg, store).
-holds(s_18517_jpg, suburban).
 holds(s_18517_jpg, window).
 holds(s_18517_jpg, billboard).
 holds(s_18517_jpg, porch).
@@ -32271,7 +31205,6 @@ holds(s_18518_jpg, feature).
 holds(s_18518_jpg, hotel).
 holds(s_18518_jpg, store).
 holds(s_18518_jpg, suburban).
-holds(s_18518_jpg, door).
 holds(s_18518_jpg, billboard).
 holds(s_18518_jpg, porch).
 holds(s_18518_jpg, wallsign).
@@ -32297,7 +31230,6 @@ holds(s_18520_jpg, building).
 holds(s_18520_jpg, feature).
 holds(s_18520_jpg, hotel).
 holds(s_18520_jpg, store).
-holds(s_18520_jpg, suburban).
 holds(s_18520_jpg, window).
 holds(s_18520_jpg, billboard).
 holds(s_18520_jpg, porch).
@@ -32336,7 +31268,6 @@ holds(s_18523_jpg, building).
 holds(s_18523_jpg, feature).
 holds(s_18523_jpg, hotel).
 holds(s_18523_jpg, store).
-holds(s_18523_jpg, suburban).
 holds(s_18523_jpg, window).
 holds(s_18523_jpg, billboard).
 holds(s_18523_jpg, porch).
@@ -32349,7 +31280,6 @@ holds(s_18524_jpg, feature).
 holds(s_18524_jpg, hotel).
 holds(s_18524_jpg, store).
 holds(s_18524_jpg, suburban).
-holds(s_18524_jpg, door).
 holds(s_18524_jpg, billboard).
 holds(s_18524_jpg, porch).
 holds(s_18524_jpg, wallsign).
@@ -32367,6 +31297,7 @@ holds(s_18525_jpg, window).
 holds(s_18525_jpg, billboard).
 holds(s_18525_jpg, porch).
 holds(s_18525_jpg, wallsign).
+holds(s_18525_jpg, pipe).
 holds(s_18525_jpg, commercial).
 
 sample(s_18526_jpg).
@@ -32374,7 +31305,6 @@ holds(s_18526_jpg, building).
 holds(s_18526_jpg, feature).
 holds(s_18526_jpg, hotel).
 holds(s_18526_jpg, store).
-holds(s_18526_jpg, suburban).
 holds(s_18526_jpg, window).
 holds(s_18526_jpg, billboard).
 holds(s_18526_jpg, porch).
@@ -32387,7 +31317,6 @@ holds(s_18527_jpg, feature).
 holds(s_18527_jpg, hotel).
 holds(s_18527_jpg, store).
 holds(s_18527_jpg, suburban).
-holds(s_18527_jpg, door).
 holds(s_18527_jpg, billboard).
 holds(s_18527_jpg, porch).
 holds(s_18527_jpg, wallsign).
@@ -32413,7 +31342,6 @@ holds(s_18529_jpg, building).
 holds(s_18529_jpg, feature).
 holds(s_18529_jpg, hotel).
 holds(s_18529_jpg, store).
-holds(s_18529_jpg, suburban).
 holds(s_18529_jpg, window).
 holds(s_18529_jpg, billboard).
 holds(s_18529_jpg, porch).
@@ -32426,7 +31354,6 @@ holds(s_18530_jpg, feature).
 holds(s_18530_jpg, hotel).
 holds(s_18530_jpg, store).
 holds(s_18530_jpg, suburban).
-holds(s_18530_jpg, door).
 holds(s_18530_jpg, billboard).
 holds(s_18530_jpg, porch).
 holds(s_18530_jpg, wallsign).
@@ -32444,6 +31371,7 @@ holds(s_18531_jpg, window).
 holds(s_18531_jpg, billboard).
 holds(s_18531_jpg, porch).
 holds(s_18531_jpg, wallsign).
+holds(s_18531_jpg, pipe).
 holds(s_18531_jpg, commercial).
 
 sample(s_18532_jpg).
@@ -32451,7 +31379,6 @@ holds(s_18532_jpg, building).
 holds(s_18532_jpg, feature).
 holds(s_18532_jpg, hotel).
 holds(s_18532_jpg, store).
-holds(s_18532_jpg, suburban).
 holds(s_18532_jpg, window).
 holds(s_18532_jpg, billboard).
 holds(s_18532_jpg, porch).
@@ -32464,7 +31391,6 @@ holds(s_18533_jpg, feature).
 holds(s_18533_jpg, hotel).
 holds(s_18533_jpg, store).
 holds(s_18533_jpg, suburban).
-holds(s_18533_jpg, door).
 holds(s_18533_jpg, billboard).
 holds(s_18533_jpg, porch).
 holds(s_18533_jpg, wallsign).
@@ -32482,6 +31408,7 @@ holds(s_18534_jpg, window).
 holds(s_18534_jpg, billboard).
 holds(s_18534_jpg, porch).
 holds(s_18534_jpg, wallsign).
+holds(s_18534_jpg, pipe).
 holds(s_18534_jpg, commercial).
 
 sample(s_18535_jpg).
@@ -32489,7 +31416,6 @@ holds(s_18535_jpg, building).
 holds(s_18535_jpg, feature).
 holds(s_18535_jpg, hotel).
 holds(s_18535_jpg, store).
-holds(s_18535_jpg, suburban).
 holds(s_18535_jpg, window).
 holds(s_18535_jpg, billboard).
 holds(s_18535_jpg, porch).
@@ -32502,7 +31428,6 @@ holds(s_18536_jpg, feature).
 holds(s_18536_jpg, hotel).
 holds(s_18536_jpg, store).
 holds(s_18536_jpg, suburban).
-holds(s_18536_jpg, door).
 holds(s_18536_jpg, billboard).
 holds(s_18536_jpg, porch).
 holds(s_18536_jpg, wallsign).
@@ -32520,6 +31445,7 @@ holds(s_18537_jpg, window).
 holds(s_18537_jpg, billboard).
 holds(s_18537_jpg, porch).
 holds(s_18537_jpg, wallsign).
+holds(s_18537_jpg, pipe).
 holds(s_18537_jpg, commercial).
 
 sample(s_18538_jpg).
@@ -32527,7 +31453,6 @@ holds(s_18538_jpg, building).
 holds(s_18538_jpg, feature).
 holds(s_18538_jpg, hotel).
 holds(s_18538_jpg, store).
-holds(s_18538_jpg, suburban).
 holds(s_18538_jpg, window).
 holds(s_18538_jpg, billboard).
 holds(s_18538_jpg, porch).
@@ -32540,7 +31465,6 @@ holds(s_18539_jpg, feature).
 holds(s_18539_jpg, hotel).
 holds(s_18539_jpg, store).
 holds(s_18539_jpg, suburban).
-holds(s_18539_jpg, door).
 holds(s_18539_jpg, billboard).
 holds(s_18539_jpg, porch).
 holds(s_18539_jpg, wallsign).
@@ -32558,6 +31482,7 @@ holds(s_18540_jpg, window).
 holds(s_18540_jpg, billboard).
 holds(s_18540_jpg, porch).
 holds(s_18540_jpg, wallsign).
+holds(s_18540_jpg, pipe).
 holds(s_18540_jpg, commercial).
 
 sample(s_18541_jpg).
@@ -32565,7 +31490,6 @@ holds(s_18541_jpg, building).
 holds(s_18541_jpg, feature).
 holds(s_18541_jpg, hotel).
 holds(s_18541_jpg, store).
-holds(s_18541_jpg, suburban).
 holds(s_18541_jpg, window).
 holds(s_18541_jpg, billboard).
 holds(s_18541_jpg, porch).
@@ -32578,7 +31502,6 @@ holds(s_18542_jpg, feature).
 holds(s_18542_jpg, hotel).
 holds(s_18542_jpg, store).
 holds(s_18542_jpg, suburban).
-holds(s_18542_jpg, door).
 holds(s_18542_jpg, billboard).
 holds(s_18542_jpg, porch).
 holds(s_18542_jpg, wallsign).
@@ -32604,7 +31527,6 @@ holds(s_18544_jpg, building).
 holds(s_18544_jpg, feature).
 holds(s_18544_jpg, hotel).
 holds(s_18544_jpg, store).
-holds(s_18544_jpg, suburban).
 holds(s_18544_jpg, window).
 holds(s_18544_jpg, billboard).
 holds(s_18544_jpg, porch).
@@ -32635,6 +31557,7 @@ holds(s_18546_jpg, window).
 holds(s_18546_jpg, billboard).
 holds(s_18546_jpg, porch).
 holds(s_18546_jpg, wallsign).
+holds(s_18546_jpg, pipe).
 holds(s_18546_jpg, commercial).
 
 sample(s_18547_jpg).
@@ -32642,7 +31565,6 @@ holds(s_18547_jpg, building).
 holds(s_18547_jpg, feature).
 holds(s_18547_jpg, hotel).
 holds(s_18547_jpg, store).
-holds(s_18547_jpg, suburban).
 holds(s_18547_jpg, window).
 holds(s_18547_jpg, billboard).
 holds(s_18547_jpg, porch).
@@ -32680,7 +31602,6 @@ holds(s_18550_jpg, building).
 holds(s_18550_jpg, feature).
 holds(s_18550_jpg, hotel).
 holds(s_18550_jpg, store).
-holds(s_18550_jpg, suburban).
 holds(s_18550_jpg, window).
 holds(s_18550_jpg, billboard).
 holds(s_18550_jpg, porch).
@@ -32711,6 +31632,7 @@ holds(s_18552_jpg, window).
 holds(s_18552_jpg, billboard).
 holds(s_18552_jpg, porch).
 holds(s_18552_jpg, wallsign).
+holds(s_18552_jpg, pipe).
 holds(s_18552_jpg, commercial).
 
 sample(s_18553_jpg).
@@ -32718,7 +31640,6 @@ holds(s_18553_jpg, building).
 holds(s_18553_jpg, feature).
 holds(s_18553_jpg, hotel).
 holds(s_18553_jpg, store).
-holds(s_18553_jpg, suburban).
 holds(s_18553_jpg, window).
 holds(s_18553_jpg, billboard).
 holds(s_18553_jpg, porch).
@@ -32756,7 +31677,6 @@ holds(s_18556_jpg, building).
 holds(s_18556_jpg, feature).
 holds(s_18556_jpg, hotel).
 holds(s_18556_jpg, store).
-holds(s_18556_jpg, suburban).
 holds(s_18556_jpg, window).
 holds(s_18556_jpg, billboard).
 holds(s_18556_jpg, porch).
@@ -32794,7 +31714,6 @@ holds(s_18559_jpg, building).
 holds(s_18559_jpg, feature).
 holds(s_18559_jpg, hotel).
 holds(s_18559_jpg, store).
-holds(s_18559_jpg, suburban).
 holds(s_18559_jpg, window).
 holds(s_18559_jpg, billboard).
 holds(s_18559_jpg, porch).
@@ -32832,7 +31751,6 @@ holds(s_18562_jpg, building).
 holds(s_18562_jpg, feature).
 holds(s_18562_jpg, hotel).
 holds(s_18562_jpg, store).
-holds(s_18562_jpg, suburban).
 holds(s_18562_jpg, window).
 holds(s_18562_jpg, billboard).
 holds(s_18562_jpg, porch).
@@ -32845,7 +31763,6 @@ holds(s_18563_jpg, feature).
 holds(s_18563_jpg, hotel).
 holds(s_18563_jpg, store).
 holds(s_18563_jpg, suburban).
-holds(s_18563_jpg, door).
 holds(s_18563_jpg, billboard).
 holds(s_18563_jpg, porch).
 holds(s_18563_jpg, wallsign).
@@ -32871,7 +31788,6 @@ holds(s_18565_jpg, building).
 holds(s_18565_jpg, feature).
 holds(s_18565_jpg, hotel).
 holds(s_18565_jpg, store).
-holds(s_18565_jpg, suburban).
 holds(s_18565_jpg, window).
 holds(s_18565_jpg, billboard).
 holds(s_18565_jpg, porch).
@@ -32884,7 +31800,6 @@ holds(s_18566_jpg, feature).
 holds(s_18566_jpg, hotel).
 holds(s_18566_jpg, store).
 holds(s_18566_jpg, suburban).
-holds(s_18566_jpg, door).
 holds(s_18566_jpg, billboard).
 holds(s_18566_jpg, porch).
 holds(s_18566_jpg, wallsign).
@@ -32902,14 +31817,13 @@ holds(s_18567_jpg, window).
 holds(s_18567_jpg, billboard).
 holds(s_18567_jpg, porch).
 holds(s_18567_jpg, wallsign).
-holds(s_18567_jpg, industrial).
+holds(s_18567_jpg, commercial).
 
 sample(s_18568_jpg).
 holds(s_18568_jpg, building).
 holds(s_18568_jpg, feature).
 holds(s_18568_jpg, hotel).
 holds(s_18568_jpg, store).
-holds(s_18568_jpg, suburban).
 holds(s_18568_jpg, window).
 holds(s_18568_jpg, billboard).
 holds(s_18568_jpg, porch).
@@ -32948,7 +31862,6 @@ holds(s_18571_jpg, building).
 holds(s_18571_jpg, feature).
 holds(s_18571_jpg, hotel).
 holds(s_18571_jpg, store).
-holds(s_18571_jpg, suburban).
 holds(s_18571_jpg, window).
 holds(s_18571_jpg, billboard).
 holds(s_18571_jpg, porch).
@@ -32961,7 +31874,6 @@ holds(s_18572_jpg, feature).
 holds(s_18572_jpg, hotel).
 holds(s_18572_jpg, store).
 holds(s_18572_jpg, suburban).
-holds(s_18572_jpg, door).
 holds(s_18572_jpg, billboard).
 holds(s_18572_jpg, porch).
 holds(s_18572_jpg, wallsign).
@@ -32987,7 +31899,6 @@ holds(s_18574_jpg, building).
 holds(s_18574_jpg, feature).
 holds(s_18574_jpg, hotel).
 holds(s_18574_jpg, store).
-holds(s_18574_jpg, suburban).
 holds(s_18574_jpg, window).
 holds(s_18574_jpg, billboard).
 holds(s_18574_jpg, porch).
@@ -33018,6 +31929,7 @@ holds(s_18576_jpg, window).
 holds(s_18576_jpg, billboard).
 holds(s_18576_jpg, porch).
 holds(s_18576_jpg, wallsign).
+holds(s_18576_jpg, pipe).
 holds(s_18576_jpg, commercial).
 
 sample(s_18577_jpg).
@@ -33025,7 +31937,6 @@ holds(s_18577_jpg, building).
 holds(s_18577_jpg, feature).
 holds(s_18577_jpg, hotel).
 holds(s_18577_jpg, store).
-holds(s_18577_jpg, suburban).
 holds(s_18577_jpg, window).
 holds(s_18577_jpg, billboard).
 holds(s_18577_jpg, porch).
@@ -33056,6 +31967,7 @@ holds(s_18579_jpg, window).
 holds(s_18579_jpg, billboard).
 holds(s_18579_jpg, porch).
 holds(s_18579_jpg, wallsign).
+holds(s_18579_jpg, pipe).
 holds(s_18579_jpg, commercial).
 
 sample(s_18580_jpg).
@@ -33063,8 +31975,6 @@ holds(s_18580_jpg, building).
 holds(s_18580_jpg, feature).
 holds(s_18580_jpg, hotel).
 holds(s_18580_jpg, store).
-holds(s_18580_jpg, suburban).
-holds(s_18580_jpg, door).
 holds(s_18580_jpg, window).
 holds(s_18580_jpg, billboard).
 holds(s_18580_jpg, porch).
@@ -33077,7 +31987,6 @@ holds(s_18581_jpg, feature).
 holds(s_18581_jpg, hotel).
 holds(s_18581_jpg, store).
 holds(s_18581_jpg, suburban).
-holds(s_18581_jpg, door).
 holds(s_18581_jpg, billboard).
 holds(s_18581_jpg, porch).
 holds(s_18581_jpg, wallsign).
@@ -33095,6 +32004,7 @@ holds(s_18582_jpg, window).
 holds(s_18582_jpg, billboard).
 holds(s_18582_jpg, porch).
 holds(s_18582_jpg, wallsign).
+holds(s_18582_jpg, pipe).
 holds(s_18582_jpg, commercial).
 
 sample(s_18583_jpg).
@@ -33102,7 +32012,6 @@ holds(s_18583_jpg, building).
 holds(s_18583_jpg, feature).
 holds(s_18583_jpg, hotel).
 holds(s_18583_jpg, store).
-holds(s_18583_jpg, suburban).
 holds(s_18583_jpg, window).
 holds(s_18583_jpg, billboard).
 holds(s_18583_jpg, porch).
@@ -33115,7 +32024,6 @@ holds(s_18584_jpg, feature).
 holds(s_18584_jpg, hotel).
 holds(s_18584_jpg, store).
 holds(s_18584_jpg, suburban).
-holds(s_18584_jpg, door).
 holds(s_18584_jpg, billboard).
 holds(s_18584_jpg, porch).
 holds(s_18584_jpg, wallsign).
@@ -33133,6 +32041,7 @@ holds(s_18585_jpg, window).
 holds(s_18585_jpg, billboard).
 holds(s_18585_jpg, porch).
 holds(s_18585_jpg, wallsign).
+holds(s_18585_jpg, pipe).
 holds(s_18585_jpg, commercial).
 
 sample(s_18586_jpg).
@@ -33140,7 +32049,6 @@ holds(s_18586_jpg, building).
 holds(s_18586_jpg, feature).
 holds(s_18586_jpg, hotel).
 holds(s_18586_jpg, store).
-holds(s_18586_jpg, suburban).
 holds(s_18586_jpg, window).
 holds(s_18586_jpg, billboard).
 holds(s_18586_jpg, porch).
@@ -33153,7 +32061,6 @@ holds(s_18587_jpg, feature).
 holds(s_18587_jpg, hotel).
 holds(s_18587_jpg, store).
 holds(s_18587_jpg, suburban).
-holds(s_18587_jpg, door).
 holds(s_18587_jpg, billboard).
 holds(s_18587_jpg, porch).
 holds(s_18587_jpg, wallsign).
@@ -33179,7 +32086,6 @@ holds(s_18589_jpg, building).
 holds(s_18589_jpg, feature).
 holds(s_18589_jpg, hotel).
 holds(s_18589_jpg, store).
-holds(s_18589_jpg, suburban).
 holds(s_18589_jpg, window).
 holds(s_18589_jpg, billboard).
 holds(s_18589_jpg, porch).
@@ -33193,12 +32099,11 @@ holds(s_18590_jpg, hotel).
 holds(s_18590_jpg, store).
 holds(s_18590_jpg, suburban).
 holds(s_18590_jpg, door).
-holds(s_18590_jpg, window).
 holds(s_18590_jpg, billboard).
 holds(s_18590_jpg, porch).
 holds(s_18590_jpg, wallsign).
 holds(s_18590_jpg, car).
-holds(s_18590_jpg, commercial).
+holds(s_18590_jpg, residential).
 
 sample(s_18591_jpg).
 holds(s_18591_jpg, building).
@@ -33211,6 +32116,7 @@ holds(s_18591_jpg, window).
 holds(s_18591_jpg, billboard).
 holds(s_18591_jpg, porch).
 holds(s_18591_jpg, wallsign).
+holds(s_18591_jpg, pipe).
 holds(s_18591_jpg, commercial).
 
 sample(s_18592_jpg).
@@ -33231,7 +32137,6 @@ holds(s_18593_jpg, feature).
 holds(s_18593_jpg, hotel).
 holds(s_18593_jpg, store).
 holds(s_18593_jpg, suburban).
-holds(s_18593_jpg, door).
 holds(s_18593_jpg, billboard).
 holds(s_18593_jpg, porch).
 holds(s_18593_jpg, wallsign).
@@ -33257,8 +32162,6 @@ holds(s_18595_jpg, building).
 holds(s_18595_jpg, feature).
 holds(s_18595_jpg, hotel).
 holds(s_18595_jpg, store).
-holds(s_18595_jpg, suburban).
-holds(s_18595_jpg, door).
 holds(s_18595_jpg, window).
 holds(s_18595_jpg, billboard).
 holds(s_18595_jpg, porch).
@@ -33271,7 +32174,6 @@ holds(s_18596_jpg, feature).
 holds(s_18596_jpg, hotel).
 holds(s_18596_jpg, store).
 holds(s_18596_jpg, suburban).
-holds(s_18596_jpg, door).
 holds(s_18596_jpg, billboard).
 holds(s_18596_jpg, porch).
 holds(s_18596_jpg, wallsign).
@@ -33284,19 +32186,17 @@ holds(s_18597_jpg, feature).
 holds(s_18597_jpg, hotel).
 holds(s_18597_jpg, store).
 holds(s_18597_jpg, suburban).
-holds(s_18597_jpg, door).
 holds(s_18597_jpg, window).
 holds(s_18597_jpg, billboard).
 holds(s_18597_jpg, porch).
 holds(s_18597_jpg, wallsign).
-holds(s_18597_jpg, commercial).
+holds(s_18597_jpg, industrial).
 
 sample(s_18598_jpg).
 holds(s_18598_jpg, building).
 holds(s_18598_jpg, feature).
 holds(s_18598_jpg, hotel).
 holds(s_18598_jpg, store).
-holds(s_18598_jpg, suburban).
 holds(s_18598_jpg, window).
 holds(s_18598_jpg, billboard).
 holds(s_18598_jpg, porch).
@@ -33309,7 +32209,6 @@ holds(s_18599_jpg, feature).
 holds(s_18599_jpg, hotel).
 holds(s_18599_jpg, store).
 holds(s_18599_jpg, suburban).
-holds(s_18599_jpg, door).
 holds(s_18599_jpg, billboard).
 holds(s_18599_jpg, porch).
 holds(s_18599_jpg, wallsign).
@@ -33327,6 +32226,7 @@ holds(s_18600_jpg, window).
 holds(s_18600_jpg, billboard).
 holds(s_18600_jpg, porch).
 holds(s_18600_jpg, wallsign).
+holds(s_18600_jpg, pipe).
 holds(s_18600_jpg, commercial).
 
 sample(s_18601_jpg).
@@ -33334,7 +32234,6 @@ holds(s_18601_jpg, building).
 holds(s_18601_jpg, feature).
 holds(s_18601_jpg, hotel).
 holds(s_18601_jpg, store).
-holds(s_18601_jpg, suburban).
 holds(s_18601_jpg, window).
 holds(s_18601_jpg, billboard).
 holds(s_18601_jpg, porch).
@@ -33347,7 +32246,6 @@ holds(s_18602_jpg, feature).
 holds(s_18602_jpg, hotel).
 holds(s_18602_jpg, store).
 holds(s_18602_jpg, suburban).
-holds(s_18602_jpg, door).
 holds(s_18602_jpg, billboard).
 holds(s_18602_jpg, porch).
 holds(s_18602_jpg, wallsign).
@@ -33373,7 +32271,6 @@ holds(s_18604_jpg, building).
 holds(s_18604_jpg, feature).
 holds(s_18604_jpg, hotel).
 holds(s_18604_jpg, store).
-holds(s_18604_jpg, suburban).
 holds(s_18604_jpg, window).
 holds(s_18604_jpg, billboard).
 holds(s_18604_jpg, porch).
@@ -33386,7 +32283,6 @@ holds(s_18605_jpg, feature).
 holds(s_18605_jpg, hotel).
 holds(s_18605_jpg, store).
 holds(s_18605_jpg, suburban).
-holds(s_18605_jpg, door).
 holds(s_18605_jpg, billboard).
 holds(s_18605_jpg, porch).
 holds(s_18605_jpg, wallsign).
@@ -33412,7 +32308,6 @@ holds(s_18607_jpg, building).
 holds(s_18607_jpg, feature).
 holds(s_18607_jpg, hotel).
 holds(s_18607_jpg, store).
-holds(s_18607_jpg, suburban).
 holds(s_18607_jpg, window).
 holds(s_18607_jpg, billboard).
 holds(s_18607_jpg, porch).
@@ -33425,7 +32320,6 @@ holds(s_18608_jpg, feature).
 holds(s_18608_jpg, hotel).
 holds(s_18608_jpg, store).
 holds(s_18608_jpg, suburban).
-holds(s_18608_jpg, door).
 holds(s_18608_jpg, billboard).
 holds(s_18608_jpg, porch).
 holds(s_18608_jpg, wallsign).
@@ -33443,6 +32337,7 @@ holds(s_18609_jpg, window).
 holds(s_18609_jpg, billboard).
 holds(s_18609_jpg, porch).
 holds(s_18609_jpg, wallsign).
+holds(s_18609_jpg, pipe).
 holds(s_18609_jpg, commercial).
 
 sample(s_18610_jpg).
@@ -33450,7 +32345,6 @@ holds(s_18610_jpg, building).
 holds(s_18610_jpg, feature).
 holds(s_18610_jpg, hotel).
 holds(s_18610_jpg, store).
-holds(s_18610_jpg, suburban).
 holds(s_18610_jpg, window).
 holds(s_18610_jpg, billboard).
 holds(s_18610_jpg, porch).
@@ -33463,7 +32357,6 @@ holds(s_18611_jpg, feature).
 holds(s_18611_jpg, hotel).
 holds(s_18611_jpg, store).
 holds(s_18611_jpg, suburban).
-holds(s_18611_jpg, door).
 holds(s_18611_jpg, billboard).
 holds(s_18611_jpg, porch).
 holds(s_18611_jpg, wallsign).
@@ -33481,6 +32374,7 @@ holds(s_18612_jpg, window).
 holds(s_18612_jpg, billboard).
 holds(s_18612_jpg, porch).
 holds(s_18612_jpg, wallsign).
+holds(s_18612_jpg, pipe).
 holds(s_18612_jpg, commercial).
 
 sample(s_18613_jpg).
@@ -33488,7 +32382,6 @@ holds(s_18613_jpg, building).
 holds(s_18613_jpg, feature).
 holds(s_18613_jpg, hotel).
 holds(s_18613_jpg, store).
-holds(s_18613_jpg, suburban).
 holds(s_18613_jpg, window).
 holds(s_18613_jpg, billboard).
 holds(s_18613_jpg, porch).
@@ -33501,7 +32394,6 @@ holds(s_18614_jpg, feature).
 holds(s_18614_jpg, hotel).
 holds(s_18614_jpg, store).
 holds(s_18614_jpg, suburban).
-holds(s_18614_jpg, door).
 holds(s_18614_jpg, billboard).
 holds(s_18614_jpg, porch).
 holds(s_18614_jpg, wallsign).
@@ -33519,6 +32411,7 @@ holds(s_18615_jpg, window).
 holds(s_18615_jpg, billboard).
 holds(s_18615_jpg, porch).
 holds(s_18615_jpg, wallsign).
+holds(s_18615_jpg, pipe).
 holds(s_18615_jpg, commercial).
 
 sample(s_18616_jpg).
@@ -33526,7 +32419,6 @@ holds(s_18616_jpg, building).
 holds(s_18616_jpg, feature).
 holds(s_18616_jpg, hotel).
 holds(s_18616_jpg, store).
-holds(s_18616_jpg, suburban).
 holds(s_18616_jpg, window).
 holds(s_18616_jpg, billboard).
 holds(s_18616_jpg, porch).
@@ -33539,7 +32431,6 @@ holds(s_18617_jpg, feature).
 holds(s_18617_jpg, hotel).
 holds(s_18617_jpg, store).
 holds(s_18617_jpg, suburban).
-holds(s_18617_jpg, door).
 holds(s_18617_jpg, billboard).
 holds(s_18617_jpg, porch).
 holds(s_18617_jpg, wallsign).
@@ -33565,7 +32456,6 @@ holds(s_18619_jpg, building).
 holds(s_18619_jpg, feature).
 holds(s_18619_jpg, hotel).
 holds(s_18619_jpg, store).
-holds(s_18619_jpg, suburban).
 holds(s_18619_jpg, window).
 holds(s_18619_jpg, billboard).
 holds(s_18619_jpg, porch).
@@ -33578,7 +32468,6 @@ holds(s_18620_jpg, feature).
 holds(s_18620_jpg, hotel).
 holds(s_18620_jpg, store).
 holds(s_18620_jpg, suburban).
-holds(s_18620_jpg, door).
 holds(s_18620_jpg, billboard).
 holds(s_18620_jpg, porch).
 holds(s_18620_jpg, wallsign).
@@ -33604,7 +32493,6 @@ holds(s_18622_jpg, building).
 holds(s_18622_jpg, feature).
 holds(s_18622_jpg, hotel).
 holds(s_18622_jpg, store).
-holds(s_18622_jpg, suburban).
 holds(s_18622_jpg, window).
 holds(s_18622_jpg, billboard).
 holds(s_18622_jpg, porch).
@@ -33617,7 +32505,6 @@ holds(s_18623_jpg, feature).
 holds(s_18623_jpg, hotel).
 holds(s_18623_jpg, store).
 holds(s_18623_jpg, suburban).
-holds(s_18623_jpg, door).
 holds(s_18623_jpg, billboard).
 holds(s_18623_jpg, porch).
 holds(s_18623_jpg, wallsign).
@@ -33635,6 +32522,7 @@ holds(s_18624_jpg, window).
 holds(s_18624_jpg, billboard).
 holds(s_18624_jpg, porch).
 holds(s_18624_jpg, wallsign).
+holds(s_18624_jpg, pipe).
 holds(s_18624_jpg, commercial).
 
 sample(s_18625_jpg).
@@ -33642,7 +32530,6 @@ holds(s_18625_jpg, building).
 holds(s_18625_jpg, feature).
 holds(s_18625_jpg, hotel).
 holds(s_18625_jpg, store).
-holds(s_18625_jpg, suburban).
 holds(s_18625_jpg, window).
 holds(s_18625_jpg, billboard).
 holds(s_18625_jpg, porch).
@@ -33681,7 +32568,6 @@ holds(s_18628_jpg, building).
 holds(s_18628_jpg, feature).
 holds(s_18628_jpg, hotel).
 holds(s_18628_jpg, store).
-holds(s_18628_jpg, suburban).
 holds(s_18628_jpg, window).
 holds(s_18628_jpg, billboard).
 holds(s_18628_jpg, porch).
@@ -33694,7 +32580,6 @@ holds(s_18629_jpg, feature).
 holds(s_18629_jpg, hotel).
 holds(s_18629_jpg, store).
 holds(s_18629_jpg, suburban).
-holds(s_18629_jpg, door).
 holds(s_18629_jpg, billboard).
 holds(s_18629_jpg, porch).
 holds(s_18629_jpg, wallsign).
@@ -33712,6 +32597,7 @@ holds(s_18630_jpg, window).
 holds(s_18630_jpg, billboard).
 holds(s_18630_jpg, porch).
 holds(s_18630_jpg, wallsign).
+holds(s_18630_jpg, pipe).
 holds(s_18630_jpg, commercial).
 
 sample(s_18631_jpg).
@@ -33719,7 +32605,6 @@ holds(s_18631_jpg, building).
 holds(s_18631_jpg, feature).
 holds(s_18631_jpg, hotel).
 holds(s_18631_jpg, store).
-holds(s_18631_jpg, suburban).
 holds(s_18631_jpg, window).
 holds(s_18631_jpg, billboard).
 holds(s_18631_jpg, porch).
@@ -33732,7 +32617,6 @@ holds(s_18632_jpg, feature).
 holds(s_18632_jpg, hotel).
 holds(s_18632_jpg, store).
 holds(s_18632_jpg, suburban).
-holds(s_18632_jpg, door).
 holds(s_18632_jpg, billboard).
 holds(s_18632_jpg, porch).
 holds(s_18632_jpg, wallsign).
@@ -33750,6 +32634,7 @@ holds(s_18633_jpg, window).
 holds(s_18633_jpg, billboard).
 holds(s_18633_jpg, porch).
 holds(s_18633_jpg, wallsign).
+holds(s_18633_jpg, pipe).
 holds(s_18633_jpg, commercial).
 
 sample(s_18634_jpg).
@@ -33757,7 +32642,6 @@ holds(s_18634_jpg, building).
 holds(s_18634_jpg, feature).
 holds(s_18634_jpg, hotel).
 holds(s_18634_jpg, store).
-holds(s_18634_jpg, suburban).
 holds(s_18634_jpg, window).
 holds(s_18634_jpg, billboard).
 holds(s_18634_jpg, porch).
@@ -33770,7 +32654,6 @@ holds(s_18635_jpg, feature).
 holds(s_18635_jpg, hotel).
 holds(s_18635_jpg, store).
 holds(s_18635_jpg, suburban).
-holds(s_18635_jpg, door).
 holds(s_18635_jpg, billboard).
 holds(s_18635_jpg, porch).
 holds(s_18635_jpg, wallsign).
@@ -33796,7 +32679,6 @@ holds(s_18637_jpg, building).
 holds(s_18637_jpg, feature).
 holds(s_18637_jpg, hotel).
 holds(s_18637_jpg, store).
-holds(s_18637_jpg, suburban).
 holds(s_18637_jpg, window).
 holds(s_18637_jpg, billboard).
 holds(s_18637_jpg, porch).
@@ -33826,6 +32708,7 @@ holds(s_18639_jpg, window).
 holds(s_18639_jpg, billboard).
 holds(s_18639_jpg, porch).
 holds(s_18639_jpg, wallsign).
+holds(s_18639_jpg, pipe).
 holds(s_18639_jpg, commercial).
 
 sample(s_18640_jpg).
@@ -33833,7 +32716,6 @@ holds(s_18640_jpg, building).
 holds(s_18640_jpg, feature).
 holds(s_18640_jpg, hotel).
 holds(s_18640_jpg, store).
-holds(s_18640_jpg, suburban).
 holds(s_18640_jpg, window).
 holds(s_18640_jpg, billboard).
 holds(s_18640_jpg, porch).
@@ -33863,6 +32745,7 @@ holds(s_18642_jpg, window).
 holds(s_18642_jpg, billboard).
 holds(s_18642_jpg, porch).
 holds(s_18642_jpg, wallsign).
+holds(s_18642_jpg, pipe).
 holds(s_18642_jpg, commercial).
 
 sample(s_18643_jpg).
@@ -33871,7 +32754,6 @@ holds(s_18643_jpg, feature).
 holds(s_18643_jpg, hotel).
 holds(s_18643_jpg, store).
 holds(s_18643_jpg, suburban).
-holds(s_18643_jpg, door).
 holds(s_18643_jpg, window).
 holds(s_18643_jpg, billboard).
 holds(s_18643_jpg, porch).
@@ -33909,7 +32791,6 @@ holds(s_18646_jpg, building).
 holds(s_18646_jpg, feature).
 holds(s_18646_jpg, hotel).
 holds(s_18646_jpg, store).
-holds(s_18646_jpg, suburban).
 holds(s_18646_jpg, window).
 holds(s_18646_jpg, billboard).
 holds(s_18646_jpg, porch).
@@ -33922,7 +32803,6 @@ holds(s_18647_jpg, feature).
 holds(s_18647_jpg, hotel).
 holds(s_18647_jpg, store).
 holds(s_18647_jpg, suburban).
-holds(s_18647_jpg, door).
 holds(s_18647_jpg, billboard).
 holds(s_18647_jpg, porch).
 holds(s_18647_jpg, wallsign).
@@ -33948,7 +32828,6 @@ holds(s_18649_jpg, building).
 holds(s_18649_jpg, feature).
 holds(s_18649_jpg, hotel).
 holds(s_18649_jpg, store).
-holds(s_18649_jpg, suburban).
 holds(s_18649_jpg, window).
 holds(s_18649_jpg, billboard).
 holds(s_18649_jpg, porch).
@@ -33961,7 +32840,6 @@ holds(s_18650_jpg, feature).
 holds(s_18650_jpg, hotel).
 holds(s_18650_jpg, store).
 holds(s_18650_jpg, suburban).
-holds(s_18650_jpg, door).
 holds(s_18650_jpg, billboard).
 holds(s_18650_jpg, porch).
 holds(s_18650_jpg, wallsign).
@@ -33987,7 +32865,6 @@ holds(s_18652_jpg, building).
 holds(s_18652_jpg, feature).
 holds(s_18652_jpg, hotel).
 holds(s_18652_jpg, store).
-holds(s_18652_jpg, suburban).
 holds(s_18652_jpg, window).
 holds(s_18652_jpg, billboard).
 holds(s_18652_jpg, porch).
@@ -34000,7 +32877,6 @@ holds(s_18653_jpg, feature).
 holds(s_18653_jpg, hotel).
 holds(s_18653_jpg, store).
 holds(s_18653_jpg, suburban).
-holds(s_18653_jpg, door).
 holds(s_18653_jpg, billboard).
 holds(s_18653_jpg, porch).
 holds(s_18653_jpg, wallsign).
@@ -34026,7 +32902,6 @@ holds(s_18655_jpg, building).
 holds(s_18655_jpg, feature).
 holds(s_18655_jpg, hotel).
 holds(s_18655_jpg, store).
-holds(s_18655_jpg, suburban).
 holds(s_18655_jpg, window).
 holds(s_18655_jpg, billboard).
 holds(s_18655_jpg, porch).
@@ -34065,7 +32940,6 @@ holds(s_18658_jpg, building).
 holds(s_18658_jpg, feature).
 holds(s_18658_jpg, hotel).
 holds(s_18658_jpg, store).
-holds(s_18658_jpg, suburban).
 holds(s_18658_jpg, window).
 holds(s_18658_jpg, billboard).
 holds(s_18658_jpg, porch).
@@ -34078,7 +32952,6 @@ holds(s_18659_jpg, feature).
 holds(s_18659_jpg, hotel).
 holds(s_18659_jpg, store).
 holds(s_18659_jpg, suburban).
-holds(s_18659_jpg, door).
 holds(s_18659_jpg, billboard).
 holds(s_18659_jpg, porch).
 holds(s_18659_jpg, wallsign).
@@ -34104,7 +32977,6 @@ holds(s_18661_jpg, building).
 holds(s_18661_jpg, feature).
 holds(s_18661_jpg, hotel).
 holds(s_18661_jpg, store).
-holds(s_18661_jpg, suburban).
 holds(s_18661_jpg, window).
 holds(s_18661_jpg, billboard).
 holds(s_18661_jpg, porch).
@@ -34117,7 +32989,6 @@ holds(s_18662_jpg, feature).
 holds(s_18662_jpg, hotel).
 holds(s_18662_jpg, store).
 holds(s_18662_jpg, suburban).
-holds(s_18662_jpg, door).
 holds(s_18662_jpg, billboard).
 holds(s_18662_jpg, porch).
 holds(s_18662_jpg, wallsign).
@@ -34143,7 +33014,6 @@ holds(s_18664_jpg, building).
 holds(s_18664_jpg, feature).
 holds(s_18664_jpg, hotel).
 holds(s_18664_jpg, store).
-holds(s_18664_jpg, suburban).
 holds(s_18664_jpg, window).
 holds(s_18664_jpg, billboard).
 holds(s_18664_jpg, porch).
@@ -34156,7 +33026,6 @@ holds(s_18665_jpg, feature).
 holds(s_18665_jpg, hotel).
 holds(s_18665_jpg, store).
 holds(s_18665_jpg, suburban).
-holds(s_18665_jpg, door).
 holds(s_18665_jpg, billboard).
 holds(s_18665_jpg, porch).
 holds(s_18665_jpg, wallsign).
@@ -34195,7 +33064,6 @@ holds(s_18668_jpg, feature).
 holds(s_18668_jpg, hotel).
 holds(s_18668_jpg, store).
 holds(s_18668_jpg, suburban).
-holds(s_18668_jpg, door).
 holds(s_18668_jpg, billboard).
 holds(s_18668_jpg, porch).
 holds(s_18668_jpg, wallsign).
@@ -34213,6 +33081,7 @@ holds(s_18669_jpg, window).
 holds(s_18669_jpg, billboard).
 holds(s_18669_jpg, porch).
 holds(s_18669_jpg, wallsign).
+holds(s_18669_jpg, pipe).
 holds(s_18669_jpg, commercial).
 
 sample(s_18670_jpg).
@@ -34220,7 +33089,6 @@ holds(s_18670_jpg, building).
 holds(s_18670_jpg, feature).
 holds(s_18670_jpg, hotel).
 holds(s_18670_jpg, store).
-holds(s_18670_jpg, suburban).
 holds(s_18670_jpg, window).
 holds(s_18670_jpg, billboard).
 holds(s_18670_jpg, porch).
@@ -34233,7 +33101,6 @@ holds(s_18671_jpg, feature).
 holds(s_18671_jpg, hotel).
 holds(s_18671_jpg, store).
 holds(s_18671_jpg, suburban).
-holds(s_18671_jpg, door).
 holds(s_18671_jpg, billboard).
 holds(s_18671_jpg, porch).
 holds(s_18671_jpg, wallsign).
@@ -34251,6 +33118,7 @@ holds(s_18672_jpg, window).
 holds(s_18672_jpg, billboard).
 holds(s_18672_jpg, porch).
 holds(s_18672_jpg, wallsign).
+holds(s_18672_jpg, pipe).
 holds(s_18672_jpg, commercial).
 
 sample(s_18673_jpg).
@@ -34258,7 +33126,6 @@ holds(s_18673_jpg, building).
 holds(s_18673_jpg, feature).
 holds(s_18673_jpg, hotel).
 holds(s_18673_jpg, store).
-holds(s_18673_jpg, suburban).
 holds(s_18673_jpg, window).
 holds(s_18673_jpg, billboard).
 holds(s_18673_jpg, porch).
@@ -34297,7 +33164,6 @@ holds(s_18676_jpg, building).
 holds(s_18676_jpg, feature).
 holds(s_18676_jpg, hotel).
 holds(s_18676_jpg, store).
-holds(s_18676_jpg, suburban).
 holds(s_18676_jpg, window).
 holds(s_18676_jpg, billboard).
 holds(s_18676_jpg, porch).
@@ -34310,7 +33176,6 @@ holds(s_18677_jpg, feature).
 holds(s_18677_jpg, hotel).
 holds(s_18677_jpg, store).
 holds(s_18677_jpg, suburban).
-holds(s_18677_jpg, door).
 holds(s_18677_jpg, billboard).
 holds(s_18677_jpg, porch).
 holds(s_18677_jpg, wallsign).
@@ -34328,14 +33193,13 @@ holds(s_18678_jpg, billboard).
 holds(s_18678_jpg, porch).
 holds(s_18678_jpg, wallsign).
 holds(s_18678_jpg, car).
-holds(s_18678_jpg, residential).
+holds(s_18678_jpg, commercial).
 
 sample(s_18679_jpg).
 holds(s_18679_jpg, building).
 holds(s_18679_jpg, feature).
 holds(s_18679_jpg, hotel).
 holds(s_18679_jpg, store).
-holds(s_18679_jpg, suburban).
 holds(s_18679_jpg, window).
 holds(s_18679_jpg, billboard).
 holds(s_18679_jpg, porch).
@@ -34374,7 +33238,6 @@ holds(s_18682_jpg, building).
 holds(s_18682_jpg, feature).
 holds(s_18682_jpg, hotel).
 holds(s_18682_jpg, store).
-holds(s_18682_jpg, suburban).
 holds(s_18682_jpg, window).
 holds(s_18682_jpg, billboard).
 holds(s_18682_jpg, porch).
@@ -34387,7 +33250,6 @@ holds(s_18683_jpg, feature).
 holds(s_18683_jpg, hotel).
 holds(s_18683_jpg, store).
 holds(s_18683_jpg, suburban).
-holds(s_18683_jpg, door).
 holds(s_18683_jpg, billboard).
 holds(s_18683_jpg, porch).
 holds(s_18683_jpg, wallsign).
@@ -34413,7 +33275,6 @@ holds(s_18685_jpg, building).
 holds(s_18685_jpg, feature).
 holds(s_18685_jpg, hotel).
 holds(s_18685_jpg, store).
-holds(s_18685_jpg, suburban).
 holds(s_18685_jpg, window).
 holds(s_18685_jpg, billboard).
 holds(s_18685_jpg, porch).
@@ -34426,7 +33287,6 @@ holds(s_18686_jpg, feature).
 holds(s_18686_jpg, hotel).
 holds(s_18686_jpg, store).
 holds(s_18686_jpg, suburban).
-holds(s_18686_jpg, door).
 holds(s_18686_jpg, billboard).
 holds(s_18686_jpg, porch).
 holds(s_18686_jpg, wallsign).
@@ -34444,6 +33304,7 @@ holds(s_18687_jpg, window).
 holds(s_18687_jpg, billboard).
 holds(s_18687_jpg, porch).
 holds(s_18687_jpg, wallsign).
+holds(s_18687_jpg, pipe).
 holds(s_18687_jpg, commercial).
 
 sample(s_18688_jpg).
@@ -34451,7 +33312,6 @@ holds(s_18688_jpg, building).
 holds(s_18688_jpg, feature).
 holds(s_18688_jpg, hotel).
 holds(s_18688_jpg, store).
-holds(s_18688_jpg, suburban).
 holds(s_18688_jpg, window).
 holds(s_18688_jpg, billboard).
 holds(s_18688_jpg, porch).
@@ -34464,7 +33324,6 @@ holds(s_18689_jpg, feature).
 holds(s_18689_jpg, hotel).
 holds(s_18689_jpg, store).
 holds(s_18689_jpg, suburban).
-holds(s_18689_jpg, door).
 holds(s_18689_jpg, billboard).
 holds(s_18689_jpg, porch).
 holds(s_18689_jpg, wallsign).
@@ -34482,6 +33341,7 @@ holds(s_18690_jpg, window).
 holds(s_18690_jpg, billboard).
 holds(s_18690_jpg, porch).
 holds(s_18690_jpg, wallsign).
+holds(s_18690_jpg, pipe).
 holds(s_18690_jpg, commercial).
 
 sample(s_18691_jpg).
@@ -34489,7 +33349,6 @@ holds(s_18691_jpg, building).
 holds(s_18691_jpg, feature).
 holds(s_18691_jpg, hotel).
 holds(s_18691_jpg, store).
-holds(s_18691_jpg, suburban).
 holds(s_18691_jpg, window).
 holds(s_18691_jpg, billboard).
 holds(s_18691_jpg, porch).
@@ -34502,7 +33361,6 @@ holds(s_18692_jpg, feature).
 holds(s_18692_jpg, hotel).
 holds(s_18692_jpg, store).
 holds(s_18692_jpg, suburban).
-holds(s_18692_jpg, door).
 holds(s_18692_jpg, billboard).
 holds(s_18692_jpg, porch).
 holds(s_18692_jpg, wallsign).
@@ -34520,6 +33378,7 @@ holds(s_18693_jpg, window).
 holds(s_18693_jpg, billboard).
 holds(s_18693_jpg, porch).
 holds(s_18693_jpg, wallsign).
+holds(s_18693_jpg, pipe).
 holds(s_18693_jpg, commercial).
 
 sample(s_18694_jpg).
@@ -34540,7 +33399,6 @@ holds(s_18695_jpg, feature).
 holds(s_18695_jpg, hotel).
 holds(s_18695_jpg, store).
 holds(s_18695_jpg, suburban).
-holds(s_18695_jpg, door).
 holds(s_18695_jpg, billboard).
 holds(s_18695_jpg, porch).
 holds(s_18695_jpg, wallsign).
@@ -34558,6 +33416,7 @@ holds(s_18696_jpg, window).
 holds(s_18696_jpg, billboard).
 holds(s_18696_jpg, porch).
 holds(s_18696_jpg, wallsign).
+holds(s_18696_jpg, pipe).
 holds(s_18696_jpg, commercial).
 
 sample(s_18697_jpg).
@@ -34565,7 +33424,6 @@ holds(s_18697_jpg, building).
 holds(s_18697_jpg, feature).
 holds(s_18697_jpg, hotel).
 holds(s_18697_jpg, store).
-holds(s_18697_jpg, suburban).
 holds(s_18697_jpg, window).
 holds(s_18697_jpg, billboard).
 holds(s_18697_jpg, porch).
@@ -34578,7 +33436,6 @@ holds(s_18698_jpg, feature).
 holds(s_18698_jpg, hotel).
 holds(s_18698_jpg, store).
 holds(s_18698_jpg, suburban).
-holds(s_18698_jpg, door).
 holds(s_18698_jpg, billboard).
 holds(s_18698_jpg, porch).
 holds(s_18698_jpg, wallsign).
@@ -34604,7 +33461,6 @@ holds(s_18700_jpg, building).
 holds(s_18700_jpg, feature).
 holds(s_18700_jpg, hotel).
 holds(s_18700_jpg, store).
-holds(s_18700_jpg, suburban).
 holds(s_18700_jpg, window).
 holds(s_18700_jpg, billboard).
 holds(s_18700_jpg, porch).
@@ -34635,6 +33491,7 @@ holds(s_18702_jpg, window).
 holds(s_18702_jpg, billboard).
 holds(s_18702_jpg, porch).
 holds(s_18702_jpg, wallsign).
+holds(s_18702_jpg, pipe).
 holds(s_18702_jpg, commercial).
 
 sample(s_18703_jpg).
@@ -34642,7 +33499,6 @@ holds(s_18703_jpg, building).
 holds(s_18703_jpg, feature).
 holds(s_18703_jpg, hotel).
 holds(s_18703_jpg, store).
-holds(s_18703_jpg, suburban).
 holds(s_18703_jpg, window).
 holds(s_18703_jpg, billboard).
 holds(s_18703_jpg, porch).
@@ -34655,7 +33511,6 @@ holds(s_18704_jpg, feature).
 holds(s_18704_jpg, hotel).
 holds(s_18704_jpg, store).
 holds(s_18704_jpg, suburban).
-holds(s_18704_jpg, door).
 holds(s_18704_jpg, billboard).
 holds(s_18704_jpg, porch).
 holds(s_18704_jpg, wallsign).
@@ -34669,7 +33524,6 @@ holds(s_18705_jpg, hotel).
 holds(s_18705_jpg, store).
 holds(s_18705_jpg, suburban).
 holds(s_18705_jpg, door).
-holds(s_18705_jpg, window).
 holds(s_18705_jpg, billboard).
 holds(s_18705_jpg, porch).
 holds(s_18705_jpg, wallsign).
@@ -34680,7 +33534,6 @@ holds(s_18706_jpg, building).
 holds(s_18706_jpg, feature).
 holds(s_18706_jpg, hotel).
 holds(s_18706_jpg, store).
-holds(s_18706_jpg, suburban).
 holds(s_18706_jpg, window).
 holds(s_18706_jpg, billboard).
 holds(s_18706_jpg, porch).
@@ -34693,7 +33546,6 @@ holds(s_18707_jpg, feature).
 holds(s_18707_jpg, hotel).
 holds(s_18707_jpg, store).
 holds(s_18707_jpg, suburban).
-holds(s_18707_jpg, door).
 holds(s_18707_jpg, billboard).
 holds(s_18707_jpg, porch).
 holds(s_18707_jpg, wallsign).
@@ -34719,7 +33571,6 @@ holds(s_18709_jpg, building).
 holds(s_18709_jpg, feature).
 holds(s_18709_jpg, hotel).
 holds(s_18709_jpg, store).
-holds(s_18709_jpg, suburban).
 holds(s_18709_jpg, window).
 holds(s_18709_jpg, billboard).
 holds(s_18709_jpg, porch).
@@ -34732,7 +33583,6 @@ holds(s_18710_jpg, feature).
 holds(s_18710_jpg, hotel).
 holds(s_18710_jpg, store).
 holds(s_18710_jpg, suburban).
-holds(s_18710_jpg, door).
 holds(s_18710_jpg, billboard).
 holds(s_18710_jpg, porch).
 holds(s_18710_jpg, wallsign).
@@ -34750,6 +33600,7 @@ holds(s_18711_jpg, window).
 holds(s_18711_jpg, billboard).
 holds(s_18711_jpg, porch).
 holds(s_18711_jpg, wallsign).
+holds(s_18711_jpg, pipe).
 holds(s_18711_jpg, commercial).
 
 sample(s_18712_jpg).
@@ -34757,7 +33608,6 @@ holds(s_18712_jpg, building).
 holds(s_18712_jpg, feature).
 holds(s_18712_jpg, hotel).
 holds(s_18712_jpg, store).
-holds(s_18712_jpg, suburban).
 holds(s_18712_jpg, window).
 holds(s_18712_jpg, billboard).
 holds(s_18712_jpg, porch).
@@ -34770,7 +33620,6 @@ holds(s_18713_jpg, feature).
 holds(s_18713_jpg, hotel).
 holds(s_18713_jpg, store).
 holds(s_18713_jpg, suburban).
-holds(s_18713_jpg, door).
 holds(s_18713_jpg, billboard).
 holds(s_18713_jpg, porch).
 holds(s_18713_jpg, wallsign).
@@ -34796,7 +33645,6 @@ holds(s_18715_jpg, building).
 holds(s_18715_jpg, feature).
 holds(s_18715_jpg, hotel).
 holds(s_18715_jpg, store).
-holds(s_18715_jpg, suburban).
 holds(s_18715_jpg, window).
 holds(s_18715_jpg, billboard).
 holds(s_18715_jpg, porch).
@@ -34835,7 +33683,6 @@ holds(s_18718_jpg, building).
 holds(s_18718_jpg, feature).
 holds(s_18718_jpg, hotel).
 holds(s_18718_jpg, store).
-holds(s_18718_jpg, suburban).
 holds(s_18718_jpg, window).
 holds(s_18718_jpg, billboard).
 holds(s_18718_jpg, porch).
@@ -34848,7 +33695,6 @@ holds(s_18719_jpg, feature).
 holds(s_18719_jpg, hotel).
 holds(s_18719_jpg, store).
 holds(s_18719_jpg, suburban).
-holds(s_18719_jpg, door).
 holds(s_18719_jpg, billboard).
 holds(s_18719_jpg, porch).
 holds(s_18719_jpg, wallsign).
@@ -34866,6 +33712,7 @@ holds(s_18720_jpg, window).
 holds(s_18720_jpg, billboard).
 holds(s_18720_jpg, porch).
 holds(s_18720_jpg, wallsign).
+holds(s_18720_jpg, pipe).
 holds(s_18720_jpg, commercial).
 
 sample(s_18721_jpg).
@@ -34873,7 +33720,6 @@ holds(s_18721_jpg, building).
 holds(s_18721_jpg, feature).
 holds(s_18721_jpg, hotel).
 holds(s_18721_jpg, store).
-holds(s_18721_jpg, suburban).
 holds(s_18721_jpg, window).
 holds(s_18721_jpg, billboard).
 holds(s_18721_jpg, porch).
@@ -34886,7 +33732,6 @@ holds(s_18722_jpg, feature).
 holds(s_18722_jpg, hotel).
 holds(s_18722_jpg, store).
 holds(s_18722_jpg, suburban).
-holds(s_18722_jpg, door).
 holds(s_18722_jpg, billboard).
 holds(s_18722_jpg, porch).
 holds(s_18722_jpg, wallsign).
@@ -34925,7 +33770,6 @@ holds(s_18725_jpg, feature).
 holds(s_18725_jpg, hotel).
 holds(s_18725_jpg, store).
 holds(s_18725_jpg, suburban).
-holds(s_18725_jpg, door).
 holds(s_18725_jpg, billboard).
 holds(s_18725_jpg, porch).
 holds(s_18725_jpg, wallsign).
@@ -34951,7 +33795,6 @@ holds(s_18727_jpg, building).
 holds(s_18727_jpg, feature).
 holds(s_18727_jpg, hotel).
 holds(s_18727_jpg, store).
-holds(s_18727_jpg, suburban).
 holds(s_18727_jpg, window).
 holds(s_18727_jpg, billboard).
 holds(s_18727_jpg, porch).
@@ -34964,7 +33807,6 @@ holds(s_18728_jpg, feature).
 holds(s_18728_jpg, hotel).
 holds(s_18728_jpg, store).
 holds(s_18728_jpg, suburban).
-holds(s_18728_jpg, door).
 holds(s_18728_jpg, billboard).
 holds(s_18728_jpg, porch).
 holds(s_18728_jpg, wallsign).
@@ -34982,6 +33824,7 @@ holds(s_18729_jpg, window).
 holds(s_18729_jpg, billboard).
 holds(s_18729_jpg, porch).
 holds(s_18729_jpg, wallsign).
+holds(s_18729_jpg, pipe).
 holds(s_18729_jpg, commercial).
 
 sample(s_18730_jpg).
@@ -34989,7 +33832,6 @@ holds(s_18730_jpg, building).
 holds(s_18730_jpg, feature).
 holds(s_18730_jpg, hotel).
 holds(s_18730_jpg, store).
-holds(s_18730_jpg, suburban).
 holds(s_18730_jpg, window).
 holds(s_18730_jpg, billboard).
 holds(s_18730_jpg, porch).
@@ -35027,7 +33869,6 @@ holds(s_18733_jpg, building).
 holds(s_18733_jpg, feature).
 holds(s_18733_jpg, hotel).
 holds(s_18733_jpg, store).
-holds(s_18733_jpg, suburban).
 holds(s_18733_jpg, window).
 holds(s_18733_jpg, billboard).
 holds(s_18733_jpg, porch).
@@ -35040,7 +33881,6 @@ holds(s_18734_jpg, feature).
 holds(s_18734_jpg, hotel).
 holds(s_18734_jpg, store).
 holds(s_18734_jpg, suburban).
-holds(s_18734_jpg, door).
 holds(s_18734_jpg, billboard).
 holds(s_18734_jpg, porch).
 holds(s_18734_jpg, wallsign).
@@ -35066,7 +33906,6 @@ holds(s_18736_jpg, building).
 holds(s_18736_jpg, feature).
 holds(s_18736_jpg, hotel).
 holds(s_18736_jpg, store).
-holds(s_18736_jpg, suburban).
 holds(s_18736_jpg, window).
 holds(s_18736_jpg, billboard).
 holds(s_18736_jpg, porch).
@@ -35104,7 +33943,6 @@ holds(s_18739_jpg, building).
 holds(s_18739_jpg, feature).
 holds(s_18739_jpg, hotel).
 holds(s_18739_jpg, store).
-holds(s_18739_jpg, suburban).
 holds(s_18739_jpg, window).
 holds(s_18739_jpg, billboard).
 holds(s_18739_jpg, porch).
@@ -35117,7 +33955,6 @@ holds(s_18740_jpg, feature).
 holds(s_18740_jpg, hotel).
 holds(s_18740_jpg, store).
 holds(s_18740_jpg, suburban).
-holds(s_18740_jpg, door).
 holds(s_18740_jpg, billboard).
 holds(s_18740_jpg, porch).
 holds(s_18740_jpg, wallsign).
@@ -35143,7 +33980,6 @@ holds(s_18742_jpg, building).
 holds(s_18742_jpg, feature).
 holds(s_18742_jpg, hotel).
 holds(s_18742_jpg, store).
-holds(s_18742_jpg, suburban).
 holds(s_18742_jpg, window).
 holds(s_18742_jpg, billboard).
 holds(s_18742_jpg, porch).
@@ -35195,6 +34031,7 @@ holds(s_18746_jpg, feature).
 holds(s_18746_jpg, hotel).
 holds(s_18746_jpg, store).
 holds(s_18746_jpg, suburban).
+holds(s_18746_jpg, door).
 holds(s_18746_jpg, billboard).
 holds(s_18746_jpg, porch).
 holds(s_18746_jpg, wallsign).
@@ -35220,7 +34057,6 @@ holds(s_18748_jpg, building).
 holds(s_18748_jpg, feature).
 holds(s_18748_jpg, hotel).
 holds(s_18748_jpg, store).
-holds(s_18748_jpg, suburban).
 holds(s_18748_jpg, window).
 holds(s_18748_jpg, billboard).
 holds(s_18748_jpg, porch).
@@ -35233,7 +34069,6 @@ holds(s_18749_jpg, feature).
 holds(s_18749_jpg, hotel).
 holds(s_18749_jpg, store).
 holds(s_18749_jpg, suburban).
-holds(s_18749_jpg, door).
 holds(s_18749_jpg, billboard).
 holds(s_18749_jpg, porch).
 holds(s_18749_jpg, wallsign).
@@ -35251,6 +34086,7 @@ holds(s_18750_jpg, window).
 holds(s_18750_jpg, billboard).
 holds(s_18750_jpg, porch).
 holds(s_18750_jpg, wallsign).
+holds(s_18750_jpg, pipe).
 holds(s_18750_jpg, commercial).
 
 sample(s_18751_jpg).
@@ -35258,7 +34094,6 @@ holds(s_18751_jpg, building).
 holds(s_18751_jpg, feature).
 holds(s_18751_jpg, hotel).
 holds(s_18751_jpg, store).
-holds(s_18751_jpg, suburban).
 holds(s_18751_jpg, window).
 holds(s_18751_jpg, billboard).
 holds(s_18751_jpg, porch).
@@ -35271,7 +34106,6 @@ holds(s_18752_jpg, feature).
 holds(s_18752_jpg, hotel).
 holds(s_18752_jpg, store).
 holds(s_18752_jpg, suburban).
-holds(s_18752_jpg, door).
 holds(s_18752_jpg, billboard).
 holds(s_18752_jpg, porch).
 holds(s_18752_jpg, wallsign).
@@ -35297,7 +34131,6 @@ holds(s_18754_jpg, building).
 holds(s_18754_jpg, feature).
 holds(s_18754_jpg, hotel).
 holds(s_18754_jpg, store).
-holds(s_18754_jpg, suburban).
 holds(s_18754_jpg, window).
 holds(s_18754_jpg, billboard).
 holds(s_18754_jpg, porch).
@@ -35310,7 +34143,6 @@ holds(s_18755_jpg, feature).
 holds(s_18755_jpg, hotel).
 holds(s_18755_jpg, store).
 holds(s_18755_jpg, suburban).
-holds(s_18755_jpg, door).
 holds(s_18755_jpg, billboard).
 holds(s_18755_jpg, porch).
 holds(s_18755_jpg, wallsign).
@@ -35328,6 +34160,7 @@ holds(s_18756_jpg, window).
 holds(s_18756_jpg, billboard).
 holds(s_18756_jpg, porch).
 holds(s_18756_jpg, wallsign).
+holds(s_18756_jpg, pipe).
 holds(s_18756_jpg, commercial).
 
 sample(s_18757_jpg).
@@ -35335,7 +34168,6 @@ holds(s_18757_jpg, building).
 holds(s_18757_jpg, feature).
 holds(s_18757_jpg, hotel).
 holds(s_18757_jpg, store).
-holds(s_18757_jpg, suburban).
 holds(s_18757_jpg, window).
 holds(s_18757_jpg, billboard).
 holds(s_18757_jpg, porch).
@@ -35348,7 +34180,6 @@ holds(s_18758_jpg, feature).
 holds(s_18758_jpg, hotel).
 holds(s_18758_jpg, store).
 holds(s_18758_jpg, suburban).
-holds(s_18758_jpg, door).
 holds(s_18758_jpg, billboard).
 holds(s_18758_jpg, porch).
 holds(s_18758_jpg, wallsign).
@@ -35374,13 +34205,11 @@ holds(s_18760_jpg, building).
 holds(s_18760_jpg, feature).
 holds(s_18760_jpg, hotel).
 holds(s_18760_jpg, store).
-holds(s_18760_jpg, suburban).
-holds(s_18760_jpg, door).
 holds(s_18760_jpg, window).
 holds(s_18760_jpg, billboard).
 holds(s_18760_jpg, porch).
 holds(s_18760_jpg, wallsign).
-holds(s_18760_jpg, commercial).
+holds(s_18760_jpg, industrial).
 
 sample(s_18761_jpg).
 holds(s_18761_jpg, building).
@@ -35388,7 +34217,6 @@ holds(s_18761_jpg, feature).
 holds(s_18761_jpg, hotel).
 holds(s_18761_jpg, store).
 holds(s_18761_jpg, suburban).
-holds(s_18761_jpg, door).
 holds(s_18761_jpg, billboard).
 holds(s_18761_jpg, porch).
 holds(s_18761_jpg, wallsign).
@@ -35406,7 +34234,6 @@ holds(s_18762_jpg, window).
 holds(s_18762_jpg, billboard).
 holds(s_18762_jpg, porch).
 holds(s_18762_jpg, wallsign).
-holds(s_18762_jpg, car).
 holds(s_18762_jpg, commercial).
 
 sample(s_18763_jpg).
@@ -35414,7 +34241,6 @@ holds(s_18763_jpg, building).
 holds(s_18763_jpg, feature).
 holds(s_18763_jpg, hotel).
 holds(s_18763_jpg, store).
-holds(s_18763_jpg, suburban).
 holds(s_18763_jpg, window).
 holds(s_18763_jpg, billboard).
 holds(s_18763_jpg, porch).
@@ -35427,7 +34253,6 @@ holds(s_18764_jpg, feature).
 holds(s_18764_jpg, hotel).
 holds(s_18764_jpg, store).
 holds(s_18764_jpg, suburban).
-holds(s_18764_jpg, door).
 holds(s_18764_jpg, billboard).
 holds(s_18764_jpg, porch).
 holds(s_18764_jpg, wallsign).
@@ -35453,7 +34278,6 @@ holds(s_18766_jpg, building).
 holds(s_18766_jpg, feature).
 holds(s_18766_jpg, hotel).
 holds(s_18766_jpg, store).
-holds(s_18766_jpg, suburban).
 holds(s_18766_jpg, window).
 holds(s_18766_jpg, billboard).
 holds(s_18766_jpg, porch).
@@ -35466,7 +34290,6 @@ holds(s_18767_jpg, feature).
 holds(s_18767_jpg, hotel).
 holds(s_18767_jpg, store).
 holds(s_18767_jpg, suburban).
-holds(s_18767_jpg, door).
 holds(s_18767_jpg, billboard).
 holds(s_18767_jpg, porch).
 holds(s_18767_jpg, wallsign).
@@ -35492,7 +34315,6 @@ holds(s_18769_jpg, building).
 holds(s_18769_jpg, feature).
 holds(s_18769_jpg, hotel).
 holds(s_18769_jpg, store).
-holds(s_18769_jpg, suburban).
 holds(s_18769_jpg, window).
 holds(s_18769_jpg, billboard).
 holds(s_18769_jpg, porch).
@@ -35523,6 +34345,7 @@ holds(s_18771_jpg, window).
 holds(s_18771_jpg, billboard).
 holds(s_18771_jpg, porch).
 holds(s_18771_jpg, wallsign).
+holds(s_18771_jpg, pipe).
 holds(s_18771_jpg, commercial).
 
 sample(s_18772_jpg).
@@ -35530,8 +34353,6 @@ holds(s_18772_jpg, building).
 holds(s_18772_jpg, feature).
 holds(s_18772_jpg, hotel).
 holds(s_18772_jpg, store).
-holds(s_18772_jpg, suburban).
-holds(s_18772_jpg, door).
 holds(s_18772_jpg, window).
 holds(s_18772_jpg, billboard).
 holds(s_18772_jpg, porch).
@@ -35544,7 +34365,6 @@ holds(s_18773_jpg, feature).
 holds(s_18773_jpg, hotel).
 holds(s_18773_jpg, store).
 holds(s_18773_jpg, suburban).
-holds(s_18773_jpg, door).
 holds(s_18773_jpg, billboard).
 holds(s_18773_jpg, porch).
 holds(s_18773_jpg, wallsign).
@@ -35570,7 +34390,6 @@ holds(s_18775_jpg, building).
 holds(s_18775_jpg, feature).
 holds(s_18775_jpg, hotel).
 holds(s_18775_jpg, store).
-holds(s_18775_jpg, suburban).
 holds(s_18775_jpg, window).
 holds(s_18775_jpg, billboard).
 holds(s_18775_jpg, porch).
@@ -35600,6 +34419,7 @@ holds(s_18777_jpg, window).
 holds(s_18777_jpg, billboard).
 holds(s_18777_jpg, porch).
 holds(s_18777_jpg, wallsign).
+holds(s_18777_jpg, pipe).
 holds(s_18777_jpg, commercial).
 
 sample(s_18778_jpg).
@@ -35607,7 +34427,6 @@ holds(s_18778_jpg, building).
 holds(s_18778_jpg, feature).
 holds(s_18778_jpg, hotel).
 holds(s_18778_jpg, store).
-holds(s_18778_jpg, suburban).
 holds(s_18778_jpg, window).
 holds(s_18778_jpg, billboard).
 holds(s_18778_jpg, porch).
@@ -35620,7 +34439,6 @@ holds(s_18779_jpg, feature).
 holds(s_18779_jpg, hotel).
 holds(s_18779_jpg, store).
 holds(s_18779_jpg, suburban).
-holds(s_18779_jpg, door).
 holds(s_18779_jpg, billboard).
 holds(s_18779_jpg, porch).
 holds(s_18779_jpg, wallsign).
@@ -35646,7 +34464,6 @@ holds(s_18781_jpg, building).
 holds(s_18781_jpg, feature).
 holds(s_18781_jpg, hotel).
 holds(s_18781_jpg, store).
-holds(s_18781_jpg, suburban).
 holds(s_18781_jpg, window).
 holds(s_18781_jpg, billboard).
 holds(s_18781_jpg, porch).
@@ -35659,7 +34476,6 @@ holds(s_18782_jpg, feature).
 holds(s_18782_jpg, hotel).
 holds(s_18782_jpg, store).
 holds(s_18782_jpg, suburban).
-holds(s_18782_jpg, door).
 holds(s_18782_jpg, billboard).
 holds(s_18782_jpg, porch).
 holds(s_18782_jpg, wallsign).
@@ -35677,14 +34493,13 @@ holds(s_18783_jpg, billboard).
 holds(s_18783_jpg, porch).
 holds(s_18783_jpg, wallsign).
 holds(s_18783_jpg, car).
-holds(s_18783_jpg, residential).
+holds(s_18783_jpg, commercial).
 
 sample(s_18784_jpg).
 holds(s_18784_jpg, building).
 holds(s_18784_jpg, feature).
 holds(s_18784_jpg, hotel).
 holds(s_18784_jpg, store).
-holds(s_18784_jpg, suburban).
 holds(s_18784_jpg, window).
 holds(s_18784_jpg, billboard).
 holds(s_18784_jpg, porch).
@@ -35697,7 +34512,6 @@ holds(s_18785_jpg, feature).
 holds(s_18785_jpg, hotel).
 holds(s_18785_jpg, store).
 holds(s_18785_jpg, suburban).
-holds(s_18785_jpg, door).
 holds(s_18785_jpg, billboard).
 holds(s_18785_jpg, porch).
 holds(s_18785_jpg, wallsign).
@@ -35723,7 +34537,6 @@ holds(s_18787_jpg, building).
 holds(s_18787_jpg, feature).
 holds(s_18787_jpg, hotel).
 holds(s_18787_jpg, store).
-holds(s_18787_jpg, suburban).
 holds(s_18787_jpg, window).
 holds(s_18787_jpg, billboard).
 holds(s_18787_jpg, porch).
@@ -35736,7 +34549,6 @@ holds(s_18788_jpg, feature).
 holds(s_18788_jpg, hotel).
 holds(s_18788_jpg, store).
 holds(s_18788_jpg, suburban).
-holds(s_18788_jpg, door).
 holds(s_18788_jpg, billboard).
 holds(s_18788_jpg, porch).
 holds(s_18788_jpg, wallsign).
@@ -35762,7 +34574,6 @@ holds(s_18790_jpg, building).
 holds(s_18790_jpg, feature).
 holds(s_18790_jpg, hotel).
 holds(s_18790_jpg, store).
-holds(s_18790_jpg, suburban).
 holds(s_18790_jpg, window).
 holds(s_18790_jpg, billboard).
 holds(s_18790_jpg, porch).
@@ -35800,7 +34611,6 @@ holds(s_18793_jpg, building).
 holds(s_18793_jpg, feature).
 holds(s_18793_jpg, hotel).
 holds(s_18793_jpg, store).
-holds(s_18793_jpg, suburban).
 holds(s_18793_jpg, window).
 holds(s_18793_jpg, billboard).
 holds(s_18793_jpg, porch).
@@ -35813,7 +34623,6 @@ holds(s_18794_jpg, feature).
 holds(s_18794_jpg, hotel).
 holds(s_18794_jpg, store).
 holds(s_18794_jpg, suburban).
-holds(s_18794_jpg, door).
 holds(s_18794_jpg, billboard).
 holds(s_18794_jpg, porch).
 holds(s_18794_jpg, wallsign).
@@ -35839,7 +34648,6 @@ holds(s_18796_jpg, building).
 holds(s_18796_jpg, feature).
 holds(s_18796_jpg, hotel).
 holds(s_18796_jpg, store).
-holds(s_18796_jpg, suburban).
 holds(s_18796_jpg, window).
 holds(s_18796_jpg, billboard).
 holds(s_18796_jpg, porch).
@@ -35869,6 +34677,7 @@ holds(s_18798_jpg, window).
 holds(s_18798_jpg, billboard).
 holds(s_18798_jpg, porch).
 holds(s_18798_jpg, wallsign).
+holds(s_18798_jpg, pipe).
 holds(s_18798_jpg, commercial).
 
 sample(s_18799_jpg).
@@ -35889,7 +34698,6 @@ holds(s_18800_jpg, feature).
 holds(s_18800_jpg, hotel).
 holds(s_18800_jpg, store).
 holds(s_18800_jpg, suburban).
-holds(s_18800_jpg, door).
 holds(s_18800_jpg, billboard).
 holds(s_18800_jpg, porch).
 holds(s_18800_jpg, wallsign).
@@ -35907,6 +34715,7 @@ holds(s_18801_jpg, window).
 holds(s_18801_jpg, billboard).
 holds(s_18801_jpg, porch).
 holds(s_18801_jpg, wallsign).
+holds(s_18801_jpg, pipe).
 holds(s_18801_jpg, commercial).
 
 sample(s_18802_jpg).
@@ -35914,7 +34723,6 @@ holds(s_18802_jpg, building).
 holds(s_18802_jpg, feature).
 holds(s_18802_jpg, hotel).
 holds(s_18802_jpg, store).
-holds(s_18802_jpg, suburban).
 holds(s_18802_jpg, window).
 holds(s_18802_jpg, billboard).
 holds(s_18802_jpg, porch).
@@ -35927,7 +34735,6 @@ holds(s_18803_jpg, feature).
 holds(s_18803_jpg, hotel).
 holds(s_18803_jpg, store).
 holds(s_18803_jpg, suburban).
-holds(s_18803_jpg, door).
 holds(s_18803_jpg, billboard).
 holds(s_18803_jpg, porch).
 holds(s_18803_jpg, wallsign).
@@ -35953,7 +34760,6 @@ holds(s_18805_jpg, building).
 holds(s_18805_jpg, feature).
 holds(s_18805_jpg, hotel).
 holds(s_18805_jpg, store).
-holds(s_18805_jpg, suburban).
 holds(s_18805_jpg, window).
 holds(s_18805_jpg, billboard).
 holds(s_18805_jpg, porch).
@@ -35966,7 +34772,6 @@ holds(s_18806_jpg, feature).
 holds(s_18806_jpg, hotel).
 holds(s_18806_jpg, store).
 holds(s_18806_jpg, suburban).
-holds(s_18806_jpg, door).
 holds(s_18806_jpg, billboard).
 holds(s_18806_jpg, porch).
 holds(s_18806_jpg, wallsign).
@@ -35984,6 +34789,7 @@ holds(s_18807_jpg, window).
 holds(s_18807_jpg, billboard).
 holds(s_18807_jpg, porch).
 holds(s_18807_jpg, wallsign).
+holds(s_18807_jpg, pipe).
 holds(s_18807_jpg, commercial).
 
 sample(s_18808_jpg).
@@ -35991,7 +34797,6 @@ holds(s_18808_jpg, building).
 holds(s_18808_jpg, feature).
 holds(s_18808_jpg, hotel).
 holds(s_18808_jpg, store).
-holds(s_18808_jpg, suburban).
 holds(s_18808_jpg, window).
 holds(s_18808_jpg, billboard).
 holds(s_18808_jpg, porch).
@@ -36030,7 +34835,6 @@ holds(s_18811_jpg, building).
 holds(s_18811_jpg, feature).
 holds(s_18811_jpg, hotel).
 holds(s_18811_jpg, store).
-holds(s_18811_jpg, suburban).
 holds(s_18811_jpg, window).
 holds(s_18811_jpg, billboard).
 holds(s_18811_jpg, porch).
@@ -36069,7 +34873,6 @@ holds(s_18814_jpg, building).
 holds(s_18814_jpg, feature).
 holds(s_18814_jpg, hotel).
 holds(s_18814_jpg, store).
-holds(s_18814_jpg, suburban).
 holds(s_18814_jpg, window).
 holds(s_18814_jpg, billboard).
 holds(s_18814_jpg, porch).
@@ -36082,7 +34885,6 @@ holds(s_18815_jpg, feature).
 holds(s_18815_jpg, hotel).
 holds(s_18815_jpg, store).
 holds(s_18815_jpg, suburban).
-holds(s_18815_jpg, door).
 holds(s_18815_jpg, billboard).
 holds(s_18815_jpg, porch).
 holds(s_18815_jpg, wallsign).
@@ -36108,7 +34910,6 @@ holds(s_18817_jpg, building).
 holds(s_18817_jpg, feature).
 holds(s_18817_jpg, hotel).
 holds(s_18817_jpg, store).
-holds(s_18817_jpg, suburban).
 holds(s_18817_jpg, window).
 holds(s_18817_jpg, billboard).
 holds(s_18817_jpg, porch).
@@ -36121,7 +34922,6 @@ holds(s_18818_jpg, feature).
 holds(s_18818_jpg, hotel).
 holds(s_18818_jpg, store).
 holds(s_18818_jpg, suburban).
-holds(s_18818_jpg, door).
 holds(s_18818_jpg, billboard).
 holds(s_18818_jpg, porch).
 holds(s_18818_jpg, wallsign).
@@ -36147,7 +34947,6 @@ holds(s_18820_jpg, building).
 holds(s_18820_jpg, feature).
 holds(s_18820_jpg, hotel).
 holds(s_18820_jpg, store).
-holds(s_18820_jpg, suburban).
 holds(s_18820_jpg, window).
 holds(s_18820_jpg, billboard).
 holds(s_18820_jpg, porch).
@@ -36160,7 +34959,6 @@ holds(s_18821_jpg, feature).
 holds(s_18821_jpg, hotel).
 holds(s_18821_jpg, store).
 holds(s_18821_jpg, suburban).
-holds(s_18821_jpg, door).
 holds(s_18821_jpg, billboard).
 holds(s_18821_jpg, porch).
 holds(s_18821_jpg, wallsign).
@@ -36186,7 +34984,6 @@ holds(s_18823_jpg, building).
 holds(s_18823_jpg, feature).
 holds(s_18823_jpg, hotel).
 holds(s_18823_jpg, store).
-holds(s_18823_jpg, suburban).
 holds(s_18823_jpg, window).
 holds(s_18823_jpg, billboard).
 holds(s_18823_jpg, porch).
@@ -36199,7 +34996,6 @@ holds(s_18824_jpg, feature).
 holds(s_18824_jpg, hotel).
 holds(s_18824_jpg, store).
 holds(s_18824_jpg, suburban).
-holds(s_18824_jpg, door).
 holds(s_18824_jpg, billboard).
 holds(s_18824_jpg, porch).
 holds(s_18824_jpg, wallsign).
@@ -36225,7 +35021,6 @@ holds(s_18826_jpg, building).
 holds(s_18826_jpg, feature).
 holds(s_18826_jpg, hotel).
 holds(s_18826_jpg, store).
-holds(s_18826_jpg, suburban).
 holds(s_18826_jpg, window).
 holds(s_18826_jpg, billboard).
 holds(s_18826_jpg, porch).
@@ -36238,7 +35033,6 @@ holds(s_18827_jpg, feature).
 holds(s_18827_jpg, hotel).
 holds(s_18827_jpg, store).
 holds(s_18827_jpg, suburban).
-holds(s_18827_jpg, door).
 holds(s_18827_jpg, billboard).
 holds(s_18827_jpg, porch).
 holds(s_18827_jpg, wallsign).
@@ -36264,7 +35058,6 @@ holds(s_18829_jpg, building).
 holds(s_18829_jpg, feature).
 holds(s_18829_jpg, hotel).
 holds(s_18829_jpg, store).
-holds(s_18829_jpg, suburban).
 holds(s_18829_jpg, window).
 holds(s_18829_jpg, billboard).
 holds(s_18829_jpg, porch).
@@ -36277,7 +35070,6 @@ holds(s_18830_jpg, feature).
 holds(s_18830_jpg, hotel).
 holds(s_18830_jpg, store).
 holds(s_18830_jpg, suburban).
-holds(s_18830_jpg, door).
 holds(s_18830_jpg, billboard).
 holds(s_18830_jpg, porch).
 holds(s_18830_jpg, wallsign).
@@ -36303,7 +35095,6 @@ holds(s_18832_jpg, building).
 holds(s_18832_jpg, feature).
 holds(s_18832_jpg, hotel).
 holds(s_18832_jpg, store).
-holds(s_18832_jpg, suburban).
 holds(s_18832_jpg, window).
 holds(s_18832_jpg, billboard).
 holds(s_18832_jpg, porch).
@@ -36316,7 +35107,6 @@ holds(s_18833_jpg, feature).
 holds(s_18833_jpg, hotel).
 holds(s_18833_jpg, store).
 holds(s_18833_jpg, suburban).
-holds(s_18833_jpg, door).
 holds(s_18833_jpg, billboard).
 holds(s_18833_jpg, porch).
 holds(s_18833_jpg, wallsign).
@@ -36334,6 +35124,7 @@ holds(s_18834_jpg, window).
 holds(s_18834_jpg, billboard).
 holds(s_18834_jpg, porch).
 holds(s_18834_jpg, wallsign).
+holds(s_18834_jpg, pipe).
 holds(s_18834_jpg, commercial).
 
 sample(s_18835_jpg).
@@ -36341,7 +35132,6 @@ holds(s_18835_jpg, building).
 holds(s_18835_jpg, feature).
 holds(s_18835_jpg, hotel).
 holds(s_18835_jpg, store).
-holds(s_18835_jpg, suburban).
 holds(s_18835_jpg, window).
 holds(s_18835_jpg, billboard).
 holds(s_18835_jpg, porch).
@@ -36371,6 +35161,7 @@ holds(s_18837_jpg, window).
 holds(s_18837_jpg, billboard).
 holds(s_18837_jpg, porch).
 holds(s_18837_jpg, wallsign).
+holds(s_18837_jpg, pipe).
 holds(s_18837_jpg, commercial).
 
 sample(s_18838_jpg).
@@ -36378,7 +35169,6 @@ holds(s_18838_jpg, building).
 holds(s_18838_jpg, feature).
 holds(s_18838_jpg, hotel).
 holds(s_18838_jpg, store).
-holds(s_18838_jpg, suburban).
 holds(s_18838_jpg, window).
 holds(s_18838_jpg, billboard).
 holds(s_18838_jpg, porch).
@@ -36397,7 +35187,6 @@ holds(s_18839_jpg, porch).
 holds(s_18839_jpg, wallsign).
 holds(s_18839_jpg, car).
 holds(s_18839_jpg, residential).
-holds(s_18839_jpg, commercial).
 
 sample(s_18840_jpg).
 holds(s_18840_jpg, building).
@@ -36410,6 +35199,7 @@ holds(s_18840_jpg, window).
 holds(s_18840_jpg, billboard).
 holds(s_18840_jpg, porch).
 holds(s_18840_jpg, wallsign).
+holds(s_18840_jpg, pipe).
 holds(s_18840_jpg, commercial).
 
 sample(s_18841_jpg).
@@ -36417,7 +35207,6 @@ holds(s_18841_jpg, building).
 holds(s_18841_jpg, feature).
 holds(s_18841_jpg, hotel).
 holds(s_18841_jpg, store).
-holds(s_18841_jpg, suburban).
 holds(s_18841_jpg, window).
 holds(s_18841_jpg, billboard).
 holds(s_18841_jpg, porch).
@@ -36447,6 +35236,7 @@ holds(s_18843_jpg, window).
 holds(s_18843_jpg, billboard).
 holds(s_18843_jpg, porch).
 holds(s_18843_jpg, wallsign).
+holds(s_18843_jpg, pipe).
 holds(s_18843_jpg, commercial).
 
 sample(s_18844_jpg).
@@ -36454,7 +35244,6 @@ holds(s_18844_jpg, building).
 holds(s_18844_jpg, feature).
 holds(s_18844_jpg, hotel).
 holds(s_18844_jpg, store).
-holds(s_18844_jpg, suburban).
 holds(s_18844_jpg, window).
 holds(s_18844_jpg, billboard).
 holds(s_18844_jpg, porch).
@@ -36467,7 +35256,6 @@ holds(s_18845_jpg, feature).
 holds(s_18845_jpg, hotel).
 holds(s_18845_jpg, store).
 holds(s_18845_jpg, suburban).
-holds(s_18845_jpg, door).
 holds(s_18845_jpg, billboard).
 holds(s_18845_jpg, porch).
 holds(s_18845_jpg, wallsign).
@@ -36493,7 +35281,6 @@ holds(s_18847_jpg, building).
 holds(s_18847_jpg, feature).
 holds(s_18847_jpg, hotel).
 holds(s_18847_jpg, store).
-holds(s_18847_jpg, suburban).
 holds(s_18847_jpg, window).
 holds(s_18847_jpg, billboard).
 holds(s_18847_jpg, porch).
@@ -36531,7 +35318,6 @@ holds(s_18850_jpg, building).
 holds(s_18850_jpg, feature).
 holds(s_18850_jpg, hotel).
 holds(s_18850_jpg, store).
-holds(s_18850_jpg, suburban).
 holds(s_18850_jpg, window).
 holds(s_18850_jpg, billboard).
 holds(s_18850_jpg, porch).
@@ -36544,7 +35330,6 @@ holds(s_18851_jpg, feature).
 holds(s_18851_jpg, hotel).
 holds(s_18851_jpg, store).
 holds(s_18851_jpg, suburban).
-holds(s_18851_jpg, door).
 holds(s_18851_jpg, billboard).
 holds(s_18851_jpg, porch).
 holds(s_18851_jpg, wallsign).
@@ -36562,6 +35347,7 @@ holds(s_18852_jpg, window).
 holds(s_18852_jpg, billboard).
 holds(s_18852_jpg, porch).
 holds(s_18852_jpg, wallsign).
+holds(s_18852_jpg, pipe).
 holds(s_18852_jpg, commercial).
 
 sample(s_18853_jpg).
@@ -36569,7 +35355,6 @@ holds(s_18853_jpg, building).
 holds(s_18853_jpg, feature).
 holds(s_18853_jpg, hotel).
 holds(s_18853_jpg, store).
-holds(s_18853_jpg, suburban).
 holds(s_18853_jpg, window).
 holds(s_18853_jpg, billboard).
 holds(s_18853_jpg, porch).
@@ -36582,7 +35367,6 @@ holds(s_18854_jpg, feature).
 holds(s_18854_jpg, hotel).
 holds(s_18854_jpg, store).
 holds(s_18854_jpg, suburban).
-holds(s_18854_jpg, door).
 holds(s_18854_jpg, billboard).
 holds(s_18854_jpg, porch).
 holds(s_18854_jpg, wallsign).
@@ -36600,6 +35384,7 @@ holds(s_18855_jpg, window).
 holds(s_18855_jpg, billboard).
 holds(s_18855_jpg, porch).
 holds(s_18855_jpg, wallsign).
+holds(s_18855_jpg, pipe).
 holds(s_18855_jpg, commercial).
 
 sample(s_18856_jpg).
@@ -36607,7 +35392,6 @@ holds(s_18856_jpg, building).
 holds(s_18856_jpg, feature).
 holds(s_18856_jpg, hotel).
 holds(s_18856_jpg, store).
-holds(s_18856_jpg, suburban).
 holds(s_18856_jpg, window).
 holds(s_18856_jpg, billboard).
 holds(s_18856_jpg, porch).
@@ -36620,7 +35404,6 @@ holds(s_18857_jpg, feature).
 holds(s_18857_jpg, hotel).
 holds(s_18857_jpg, store).
 holds(s_18857_jpg, suburban).
-holds(s_18857_jpg, door).
 holds(s_18857_jpg, billboard).
 holds(s_18857_jpg, porch).
 holds(s_18857_jpg, wallsign).
@@ -36646,7 +35429,6 @@ holds(s_18859_jpg, building).
 holds(s_18859_jpg, feature).
 holds(s_18859_jpg, hotel).
 holds(s_18859_jpg, store).
-holds(s_18859_jpg, suburban).
 holds(s_18859_jpg, window).
 holds(s_18859_jpg, billboard).
 holds(s_18859_jpg, porch).
@@ -36675,14 +35457,13 @@ holds(s_18861_jpg, window).
 holds(s_18861_jpg, billboard).
 holds(s_18861_jpg, porch).
 holds(s_18861_jpg, wallsign).
-holds(s_18861_jpg, industrial).
+holds(s_18861_jpg, commercial).
 
 sample(s_18862_jpg).
 holds(s_18862_jpg, building).
 holds(s_18862_jpg, feature).
 holds(s_18862_jpg, hotel).
 holds(s_18862_jpg, store).
-holds(s_18862_jpg, suburban).
 holds(s_18862_jpg, window).
 holds(s_18862_jpg, billboard).
 holds(s_18862_jpg, porch).
@@ -36713,6 +35494,7 @@ holds(s_18864_jpg, window).
 holds(s_18864_jpg, billboard).
 holds(s_18864_jpg, porch).
 holds(s_18864_jpg, wallsign).
+holds(s_18864_jpg, pipe).
 holds(s_18864_jpg, commercial).
 
 sample(s_18865_jpg).
@@ -36720,7 +35502,6 @@ holds(s_18865_jpg, building).
 holds(s_18865_jpg, feature).
 holds(s_18865_jpg, hotel).
 holds(s_18865_jpg, store).
-holds(s_18865_jpg, suburban).
 holds(s_18865_jpg, window).
 holds(s_18865_jpg, billboard).
 holds(s_18865_jpg, porch).
@@ -36750,6 +35531,7 @@ holds(s_18867_jpg, window).
 holds(s_18867_jpg, billboard).
 holds(s_18867_jpg, porch).
 holds(s_18867_jpg, wallsign).
+holds(s_18867_jpg, pipe).
 holds(s_18867_jpg, commercial).
 
 sample(s_18868_jpg).
@@ -36757,7 +35539,6 @@ holds(s_18868_jpg, building).
 holds(s_18868_jpg, feature).
 holds(s_18868_jpg, hotel).
 holds(s_18868_jpg, store).
-holds(s_18868_jpg, suburban).
 holds(s_18868_jpg, window).
 holds(s_18868_jpg, billboard).
 holds(s_18868_jpg, porch).
@@ -36770,7 +35551,6 @@ holds(s_18869_jpg, feature).
 holds(s_18869_jpg, hotel).
 holds(s_18869_jpg, store).
 holds(s_18869_jpg, suburban).
-holds(s_18869_jpg, door).
 holds(s_18869_jpg, billboard).
 holds(s_18869_jpg, porch).
 holds(s_18869_jpg, wallsign).
@@ -36796,7 +35576,6 @@ holds(s_18871_jpg, building).
 holds(s_18871_jpg, feature).
 holds(s_18871_jpg, hotel).
 holds(s_18871_jpg, store).
-holds(s_18871_jpg, suburban).
 holds(s_18871_jpg, window).
 holds(s_18871_jpg, billboard).
 holds(s_18871_jpg, porch).
@@ -36809,7 +35588,6 @@ holds(s_18872_jpg, feature).
 holds(s_18872_jpg, hotel).
 holds(s_18872_jpg, store).
 holds(s_18872_jpg, suburban).
-holds(s_18872_jpg, door).
 holds(s_18872_jpg, billboard).
 holds(s_18872_jpg, porch).
 holds(s_18872_jpg, wallsign).
@@ -36835,7 +35613,6 @@ holds(s_18874_jpg, building).
 holds(s_18874_jpg, feature).
 holds(s_18874_jpg, hotel).
 holds(s_18874_jpg, store).
-holds(s_18874_jpg, suburban).
 holds(s_18874_jpg, window).
 holds(s_18874_jpg, billboard).
 holds(s_18874_jpg, porch).
@@ -36874,7 +35651,6 @@ holds(s_18877_jpg, building).
 holds(s_18877_jpg, feature).
 holds(s_18877_jpg, hotel).
 holds(s_18877_jpg, store).
-holds(s_18877_jpg, suburban).
 holds(s_18877_jpg, window).
 holds(s_18877_jpg, billboard).
 holds(s_18877_jpg, porch).
@@ -36887,7 +35663,6 @@ holds(s_18878_jpg, feature).
 holds(s_18878_jpg, hotel).
 holds(s_18878_jpg, store).
 holds(s_18878_jpg, suburban).
-holds(s_18878_jpg, door).
 holds(s_18878_jpg, billboard).
 holds(s_18878_jpg, porch).
 holds(s_18878_jpg, wallsign).
@@ -36905,6 +35680,7 @@ holds(s_18879_jpg, window).
 holds(s_18879_jpg, billboard).
 holds(s_18879_jpg, porch).
 holds(s_18879_jpg, wallsign).
+holds(s_18879_jpg, pipe).
 holds(s_18879_jpg, commercial).
 
 sample(s_18880_jpg).
@@ -36912,7 +35688,6 @@ holds(s_18880_jpg, building).
 holds(s_18880_jpg, feature).
 holds(s_18880_jpg, hotel).
 holds(s_18880_jpg, store).
-holds(s_18880_jpg, suburban).
 holds(s_18880_jpg, window).
 holds(s_18880_jpg, billboard).
 holds(s_18880_jpg, porch).
@@ -36925,7 +35700,6 @@ holds(s_18881_jpg, feature).
 holds(s_18881_jpg, hotel).
 holds(s_18881_jpg, store).
 holds(s_18881_jpg, suburban).
-holds(s_18881_jpg, door).
 holds(s_18881_jpg, billboard).
 holds(s_18881_jpg, porch).
 holds(s_18881_jpg, wallsign).
@@ -36951,7 +35725,6 @@ holds(s_18883_jpg, building).
 holds(s_18883_jpg, feature).
 holds(s_18883_jpg, hotel).
 holds(s_18883_jpg, store).
-holds(s_18883_jpg, suburban).
 holds(s_18883_jpg, window).
 holds(s_18883_jpg, billboard).
 holds(s_18883_jpg, porch).
@@ -36964,7 +35737,6 @@ holds(s_18884_jpg, feature).
 holds(s_18884_jpg, hotel).
 holds(s_18884_jpg, store).
 holds(s_18884_jpg, suburban).
-holds(s_18884_jpg, door).
 holds(s_18884_jpg, billboard).
 holds(s_18884_jpg, porch).
 holds(s_18884_jpg, wallsign).
@@ -36982,6 +35754,7 @@ holds(s_18885_jpg, window).
 holds(s_18885_jpg, billboard).
 holds(s_18885_jpg, porch).
 holds(s_18885_jpg, wallsign).
+holds(s_18885_jpg, pipe).
 holds(s_18885_jpg, commercial).
 
 sample(s_18886_jpg).
@@ -36989,7 +35762,6 @@ holds(s_18886_jpg, building).
 holds(s_18886_jpg, feature).
 holds(s_18886_jpg, hotel).
 holds(s_18886_jpg, store).
-holds(s_18886_jpg, suburban).
 holds(s_18886_jpg, window).
 holds(s_18886_jpg, billboard).
 holds(s_18886_jpg, porch).
@@ -37019,6 +35791,7 @@ holds(s_18888_jpg, window).
 holds(s_18888_jpg, billboard).
 holds(s_18888_jpg, porch).
 holds(s_18888_jpg, wallsign).
+holds(s_18888_jpg, pipe).
 holds(s_18888_jpg, commercial).
 
 sample(s_18889_jpg).
@@ -37026,7 +35799,6 @@ holds(s_18889_jpg, building).
 holds(s_18889_jpg, feature).
 holds(s_18889_jpg, hotel).
 holds(s_18889_jpg, store).
-holds(s_18889_jpg, suburban).
 holds(s_18889_jpg, window).
 holds(s_18889_jpg, billboard).
 holds(s_18889_jpg, porch).
@@ -37039,7 +35811,6 @@ holds(s_18890_jpg, feature).
 holds(s_18890_jpg, hotel).
 holds(s_18890_jpg, store).
 holds(s_18890_jpg, suburban).
-holds(s_18890_jpg, door).
 holds(s_18890_jpg, billboard).
 holds(s_18890_jpg, porch).
 holds(s_18890_jpg, wallsign).
@@ -37065,7 +35836,6 @@ holds(s_18892_jpg, building).
 holds(s_18892_jpg, feature).
 holds(s_18892_jpg, hotel).
 holds(s_18892_jpg, store).
-holds(s_18892_jpg, suburban).
 holds(s_18892_jpg, window).
 holds(s_18892_jpg, billboard).
 holds(s_18892_jpg, porch).
@@ -37096,6 +35866,7 @@ holds(s_18894_jpg, window).
 holds(s_18894_jpg, billboard).
 holds(s_18894_jpg, porch).
 holds(s_18894_jpg, wallsign).
+holds(s_18894_jpg, pipe).
 holds(s_18894_jpg, commercial).
 
 sample(s_18895_jpg).
@@ -37103,8 +35874,6 @@ holds(s_18895_jpg, building).
 holds(s_18895_jpg, feature).
 holds(s_18895_jpg, hotel).
 holds(s_18895_jpg, store).
-holds(s_18895_jpg, suburban).
-holds(s_18895_jpg, door).
 holds(s_18895_jpg, window).
 holds(s_18895_jpg, billboard).
 holds(s_18895_jpg, porch).
@@ -37117,7 +35886,6 @@ holds(s_18896_jpg, feature).
 holds(s_18896_jpg, hotel).
 holds(s_18896_jpg, store).
 holds(s_18896_jpg, suburban).
-holds(s_18896_jpg, door).
 holds(s_18896_jpg, billboard).
 holds(s_18896_jpg, porch).
 holds(s_18896_jpg, wallsign).
@@ -37143,7 +35911,6 @@ holds(s_18898_jpg, building).
 holds(s_18898_jpg, feature).
 holds(s_18898_jpg, hotel).
 holds(s_18898_jpg, store).
-holds(s_18898_jpg, suburban).
 holds(s_18898_jpg, window).
 holds(s_18898_jpg, billboard).
 holds(s_18898_jpg, porch).
@@ -37156,7 +35923,6 @@ holds(s_18899_jpg, feature).
 holds(s_18899_jpg, hotel).
 holds(s_18899_jpg, store).
 holds(s_18899_jpg, suburban).
-holds(s_18899_jpg, door).
 holds(s_18899_jpg, billboard).
 holds(s_18899_jpg, porch).
 holds(s_18899_jpg, wallsign).
@@ -37174,6 +35940,7 @@ holds(s_18900_jpg, window).
 holds(s_18900_jpg, billboard).
 holds(s_18900_jpg, porch).
 holds(s_18900_jpg, wallsign).
+holds(s_18900_jpg, pipe).
 holds(s_18900_jpg, commercial).
 
 sample(s_18901_jpg).
@@ -37181,7 +35948,6 @@ holds(s_18901_jpg, building).
 holds(s_18901_jpg, feature).
 holds(s_18901_jpg, hotel).
 holds(s_18901_jpg, store).
-holds(s_18901_jpg, suburban).
 holds(s_18901_jpg, window).
 holds(s_18901_jpg, billboard).
 holds(s_18901_jpg, porch).
@@ -37220,7 +35986,6 @@ holds(s_18904_jpg, building).
 holds(s_18904_jpg, feature).
 holds(s_18904_jpg, hotel).
 holds(s_18904_jpg, store).
-holds(s_18904_jpg, suburban).
 holds(s_18904_jpg, window).
 holds(s_18904_jpg, billboard).
 holds(s_18904_jpg, porch).
@@ -37233,7 +35998,6 @@ holds(s_18905_jpg, feature).
 holds(s_18905_jpg, hotel).
 holds(s_18905_jpg, store).
 holds(s_18905_jpg, suburban).
-holds(s_18905_jpg, door).
 holds(s_18905_jpg, billboard).
 holds(s_18905_jpg, porch).
 holds(s_18905_jpg, wallsign).
@@ -37259,7 +36023,6 @@ holds(s_18907_jpg, building).
 holds(s_18907_jpg, feature).
 holds(s_18907_jpg, hotel).
 holds(s_18907_jpg, store).
-holds(s_18907_jpg, suburban).
 holds(s_18907_jpg, window).
 holds(s_18907_jpg, billboard).
 holds(s_18907_jpg, porch).
@@ -37272,7 +36035,6 @@ holds(s_18908_jpg, feature).
 holds(s_18908_jpg, hotel).
 holds(s_18908_jpg, store).
 holds(s_18908_jpg, suburban).
-holds(s_18908_jpg, door).
 holds(s_18908_jpg, billboard).
 holds(s_18908_jpg, porch).
 holds(s_18908_jpg, wallsign).
@@ -37290,6 +36052,7 @@ holds(s_18909_jpg, window).
 holds(s_18909_jpg, billboard).
 holds(s_18909_jpg, porch).
 holds(s_18909_jpg, wallsign).
+holds(s_18909_jpg, pipe).
 holds(s_18909_jpg, commercial).
 
 sample(s_18910_jpg).
@@ -37297,7 +36060,6 @@ holds(s_18910_jpg, building).
 holds(s_18910_jpg, feature).
 holds(s_18910_jpg, hotel).
 holds(s_18910_jpg, store).
-holds(s_18910_jpg, suburban).
 holds(s_18910_jpg, window).
 holds(s_18910_jpg, billboard).
 holds(s_18910_jpg, porch).
@@ -37310,7 +36072,6 @@ holds(s_18911_jpg, feature).
 holds(s_18911_jpg, hotel).
 holds(s_18911_jpg, store).
 holds(s_18911_jpg, suburban).
-holds(s_18911_jpg, door).
 holds(s_18911_jpg, billboard).
 holds(s_18911_jpg, porch).
 holds(s_18911_jpg, wallsign).
@@ -37328,6 +36089,7 @@ holds(s_18912_jpg, window).
 holds(s_18912_jpg, billboard).
 holds(s_18912_jpg, porch).
 holds(s_18912_jpg, wallsign).
+holds(s_18912_jpg, pipe).
 holds(s_18912_jpg, commercial).
 
 sample(s_18913_jpg).
@@ -37335,7 +36097,6 @@ holds(s_18913_jpg, building).
 holds(s_18913_jpg, feature).
 holds(s_18913_jpg, hotel).
 holds(s_18913_jpg, store).
-holds(s_18913_jpg, suburban).
 holds(s_18913_jpg, window).
 holds(s_18913_jpg, billboard).
 holds(s_18913_jpg, porch).
@@ -37348,7 +36109,6 @@ holds(s_18914_jpg, feature).
 holds(s_18914_jpg, hotel).
 holds(s_18914_jpg, store).
 holds(s_18914_jpg, suburban).
-holds(s_18914_jpg, door).
 holds(s_18914_jpg, billboard).
 holds(s_18914_jpg, porch).
 holds(s_18914_jpg, wallsign).
@@ -37366,6 +36126,7 @@ holds(s_18915_jpg, window).
 holds(s_18915_jpg, billboard).
 holds(s_18915_jpg, porch).
 holds(s_18915_jpg, wallsign).
+holds(s_18915_jpg, pipe).
 holds(s_18915_jpg, commercial).
 
 sample(s_18916_jpg).
@@ -37373,7 +36134,6 @@ holds(s_18916_jpg, building).
 holds(s_18916_jpg, feature).
 holds(s_18916_jpg, hotel).
 holds(s_18916_jpg, store).
-holds(s_18916_jpg, suburban).
 holds(s_18916_jpg, window).
 holds(s_18916_jpg, billboard).
 holds(s_18916_jpg, porch).
@@ -37386,7 +36146,6 @@ holds(s_18917_jpg, feature).
 holds(s_18917_jpg, hotel).
 holds(s_18917_jpg, store).
 holds(s_18917_jpg, suburban).
-holds(s_18917_jpg, door).
 holds(s_18917_jpg, billboard).
 holds(s_18917_jpg, porch).
 holds(s_18917_jpg, wallsign).
@@ -37404,6 +36163,7 @@ holds(s_18918_jpg, window).
 holds(s_18918_jpg, billboard).
 holds(s_18918_jpg, porch).
 holds(s_18918_jpg, wallsign).
+holds(s_18918_jpg, pipe).
 holds(s_18918_jpg, commercial).
 
 sample(s_18919_jpg).
@@ -37411,7 +36171,6 @@ holds(s_18919_jpg, building).
 holds(s_18919_jpg, feature).
 holds(s_18919_jpg, hotel).
 holds(s_18919_jpg, store).
-holds(s_18919_jpg, suburban).
 holds(s_18919_jpg, window).
 holds(s_18919_jpg, billboard).
 holds(s_18919_jpg, porch).
@@ -37424,7 +36183,6 @@ holds(s_18920_jpg, feature).
 holds(s_18920_jpg, hotel).
 holds(s_18920_jpg, store).
 holds(s_18920_jpg, suburban).
-holds(s_18920_jpg, door).
 holds(s_18920_jpg, billboard).
 holds(s_18920_jpg, porch).
 holds(s_18920_jpg, wallsign).
@@ -37442,6 +36200,7 @@ holds(s_18921_jpg, window).
 holds(s_18921_jpg, billboard).
 holds(s_18921_jpg, porch).
 holds(s_18921_jpg, wallsign).
+holds(s_18921_jpg, pipe).
 holds(s_18921_jpg, commercial).
 
 sample(s_18922_jpg).
@@ -37449,7 +36208,6 @@ holds(s_18922_jpg, building).
 holds(s_18922_jpg, feature).
 holds(s_18922_jpg, hotel).
 holds(s_18922_jpg, store).
-holds(s_18922_jpg, suburban).
 holds(s_18922_jpg, window).
 holds(s_18922_jpg, billboard).
 holds(s_18922_jpg, porch).
@@ -37487,7 +36245,6 @@ holds(s_18925_jpg, building).
 holds(s_18925_jpg, feature).
 holds(s_18925_jpg, hotel).
 holds(s_18925_jpg, store).
-holds(s_18925_jpg, suburban).
 holds(s_18925_jpg, window).
 holds(s_18925_jpg, billboard).
 holds(s_18925_jpg, porch).
@@ -37518,6 +36275,7 @@ holds(s_18927_jpg, window).
 holds(s_18927_jpg, billboard).
 holds(s_18927_jpg, porch).
 holds(s_18927_jpg, wallsign).
+holds(s_18927_jpg, pipe).
 holds(s_18927_jpg, commercial).
 
 sample(s_18928_jpg).
@@ -37525,7 +36283,6 @@ holds(s_18928_jpg, building).
 holds(s_18928_jpg, feature).
 holds(s_18928_jpg, hotel).
 holds(s_18928_jpg, store).
-holds(s_18928_jpg, suburban).
 holds(s_18928_jpg, window).
 holds(s_18928_jpg, billboard).
 holds(s_18928_jpg, porch).
@@ -37538,7 +36295,6 @@ holds(s_18929_jpg, feature).
 holds(s_18929_jpg, hotel).
 holds(s_18929_jpg, store).
 holds(s_18929_jpg, suburban).
-holds(s_18929_jpg, door).
 holds(s_18929_jpg, billboard).
 holds(s_18929_jpg, porch).
 holds(s_18929_jpg, wallsign).
@@ -37564,7 +36320,6 @@ holds(s_18931_jpg, building).
 holds(s_18931_jpg, feature).
 holds(s_18931_jpg, hotel).
 holds(s_18931_jpg, store).
-holds(s_18931_jpg, suburban).
 holds(s_18931_jpg, window).
 holds(s_18931_jpg, billboard).
 holds(s_18931_jpg, porch).
@@ -37594,6 +36349,7 @@ holds(s_18933_jpg, window).
 holds(s_18933_jpg, billboard).
 holds(s_18933_jpg, porch).
 holds(s_18933_jpg, wallsign).
+holds(s_18933_jpg, pipe).
 holds(s_18933_jpg, commercial).
 
 sample(s_18934_jpg).
@@ -37601,7 +36357,6 @@ holds(s_18934_jpg, building).
 holds(s_18934_jpg, feature).
 holds(s_18934_jpg, hotel).
 holds(s_18934_jpg, store).
-holds(s_18934_jpg, suburban).
 holds(s_18934_jpg, window).
 holds(s_18934_jpg, billboard).
 holds(s_18934_jpg, porch).
@@ -37632,6 +36387,7 @@ holds(s_18936_jpg, window).
 holds(s_18936_jpg, billboard).
 holds(s_18936_jpg, porch).
 holds(s_18936_jpg, wallsign).
+holds(s_18936_jpg, pipe).
 holds(s_18936_jpg, commercial).
 
 sample(s_18937_jpg).
@@ -37639,7 +36395,6 @@ holds(s_18937_jpg, building).
 holds(s_18937_jpg, feature).
 holds(s_18937_jpg, hotel).
 holds(s_18937_jpg, store).
-holds(s_18937_jpg, suburban).
 holds(s_18937_jpg, window).
 holds(s_18937_jpg, billboard).
 holds(s_18937_jpg, porch).
@@ -37652,7 +36407,6 @@ holds(s_18938_jpg, feature).
 holds(s_18938_jpg, hotel).
 holds(s_18938_jpg, store).
 holds(s_18938_jpg, suburban).
-holds(s_18938_jpg, door).
 holds(s_18938_jpg, billboard).
 holds(s_18938_jpg, porch).
 holds(s_18938_jpg, wallsign).
@@ -37670,6 +36424,7 @@ holds(s_18939_jpg, window).
 holds(s_18939_jpg, billboard).
 holds(s_18939_jpg, porch).
 holds(s_18939_jpg, wallsign).
+holds(s_18939_jpg, pipe).
 holds(s_18939_jpg, commercial).
 
 sample(s_18940_jpg).
@@ -37677,7 +36432,6 @@ holds(s_18940_jpg, building).
 holds(s_18940_jpg, feature).
 holds(s_18940_jpg, hotel).
 holds(s_18940_jpg, store).
-holds(s_18940_jpg, suburban).
 holds(s_18940_jpg, window).
 holds(s_18940_jpg, billboard).
 holds(s_18940_jpg, porch).
@@ -37715,7 +36469,6 @@ holds(s_18943_jpg, building).
 holds(s_18943_jpg, feature).
 holds(s_18943_jpg, hotel).
 holds(s_18943_jpg, store).
-holds(s_18943_jpg, suburban).
 holds(s_18943_jpg, window).
 holds(s_18943_jpg, billboard).
 holds(s_18943_jpg, porch).
@@ -37728,7 +36481,6 @@ holds(s_18944_jpg, feature).
 holds(s_18944_jpg, hotel).
 holds(s_18944_jpg, store).
 holds(s_18944_jpg, suburban).
-holds(s_18944_jpg, door).
 holds(s_18944_jpg, billboard).
 holds(s_18944_jpg, porch).
 holds(s_18944_jpg, wallsign).
@@ -37746,6 +36498,7 @@ holds(s_18945_jpg, window).
 holds(s_18945_jpg, billboard).
 holds(s_18945_jpg, porch).
 holds(s_18945_jpg, wallsign).
+holds(s_18945_jpg, pipe).
 holds(s_18945_jpg, commercial).
 
 sample(s_18946_jpg).
@@ -37753,7 +36506,6 @@ holds(s_18946_jpg, building).
 holds(s_18946_jpg, feature).
 holds(s_18946_jpg, hotel).
 holds(s_18946_jpg, store).
-holds(s_18946_jpg, suburban).
 holds(s_18946_jpg, window).
 holds(s_18946_jpg, billboard).
 holds(s_18946_jpg, porch).
@@ -37766,7 +36518,6 @@ holds(s_18947_jpg, feature).
 holds(s_18947_jpg, hotel).
 holds(s_18947_jpg, store).
 holds(s_18947_jpg, suburban).
-holds(s_18947_jpg, door).
 holds(s_18947_jpg, billboard).
 holds(s_18947_jpg, porch).
 holds(s_18947_jpg, wallsign).
@@ -37792,7 +36543,6 @@ holds(s_18949_jpg, building).
 holds(s_18949_jpg, feature).
 holds(s_18949_jpg, hotel).
 holds(s_18949_jpg, store).
-holds(s_18949_jpg, suburban).
 holds(s_18949_jpg, window).
 holds(s_18949_jpg, billboard).
 holds(s_18949_jpg, porch).
@@ -37830,7 +36580,6 @@ holds(s_18952_jpg, building).
 holds(s_18952_jpg, feature).
 holds(s_18952_jpg, hotel).
 holds(s_18952_jpg, store).
-holds(s_18952_jpg, suburban).
 holds(s_18952_jpg, window).
 holds(s_18952_jpg, billboard).
 holds(s_18952_jpg, porch).
@@ -37843,7 +36592,6 @@ holds(s_18953_jpg, feature).
 holds(s_18953_jpg, hotel).
 holds(s_18953_jpg, store).
 holds(s_18953_jpg, suburban).
-holds(s_18953_jpg, door).
 holds(s_18953_jpg, billboard).
 holds(s_18953_jpg, porch).
 holds(s_18953_jpg, wallsign).
@@ -37869,7 +36617,6 @@ holds(s_18955_jpg, building).
 holds(s_18955_jpg, feature).
 holds(s_18955_jpg, hotel).
 holds(s_18955_jpg, store).
-holds(s_18955_jpg, suburban).
 holds(s_18955_jpg, window).
 holds(s_18955_jpg, billboard).
 holds(s_18955_jpg, porch).
@@ -37882,7 +36629,6 @@ holds(s_18956_jpg, feature).
 holds(s_18956_jpg, hotel).
 holds(s_18956_jpg, store).
 holds(s_18956_jpg, suburban).
-holds(s_18956_jpg, door).
 holds(s_18956_jpg, billboard).
 holds(s_18956_jpg, porch).
 holds(s_18956_jpg, wallsign).
@@ -37908,7 +36654,6 @@ holds(s_18958_jpg, building).
 holds(s_18958_jpg, feature).
 holds(s_18958_jpg, hotel).
 holds(s_18958_jpg, store).
-holds(s_18958_jpg, suburban).
 holds(s_18958_jpg, window).
 holds(s_18958_jpg, billboard).
 holds(s_18958_jpg, porch).
@@ -37921,7 +36666,6 @@ holds(s_18959_jpg, feature).
 holds(s_18959_jpg, hotel).
 holds(s_18959_jpg, store).
 holds(s_18959_jpg, suburban).
-holds(s_18959_jpg, door).
 holds(s_18959_jpg, billboard).
 holds(s_18959_jpg, porch).
 holds(s_18959_jpg, wallsign).
@@ -37947,7 +36691,6 @@ holds(s_18961_jpg, building).
 holds(s_18961_jpg, feature).
 holds(s_18961_jpg, hotel).
 holds(s_18961_jpg, store).
-holds(s_18961_jpg, suburban).
 holds(s_18961_jpg, window).
 holds(s_18961_jpg, billboard).
 holds(s_18961_jpg, porch).
@@ -37960,7 +36703,6 @@ holds(s_18962_jpg, feature).
 holds(s_18962_jpg, hotel).
 holds(s_18962_jpg, store).
 holds(s_18962_jpg, suburban).
-holds(s_18962_jpg, door).
 holds(s_18962_jpg, billboard).
 holds(s_18962_jpg, porch).
 holds(s_18962_jpg, wallsign).
@@ -37978,6 +36720,7 @@ holds(s_18963_jpg, window).
 holds(s_18963_jpg, billboard).
 holds(s_18963_jpg, porch).
 holds(s_18963_jpg, wallsign).
+holds(s_18963_jpg, pipe).
 holds(s_18963_jpg, commercial).
 
 sample(s_18964_jpg).
@@ -37985,8 +36728,6 @@ holds(s_18964_jpg, building).
 holds(s_18964_jpg, feature).
 holds(s_18964_jpg, hotel).
 holds(s_18964_jpg, store).
-holds(s_18964_jpg, suburban).
-holds(s_18964_jpg, door).
 holds(s_18964_jpg, window).
 holds(s_18964_jpg, billboard).
 holds(s_18964_jpg, porch).
@@ -38024,7 +36765,6 @@ holds(s_18967_jpg, building).
 holds(s_18967_jpg, feature).
 holds(s_18967_jpg, hotel).
 holds(s_18967_jpg, store).
-holds(s_18967_jpg, suburban).
 holds(s_18967_jpg, window).
 holds(s_18967_jpg, billboard).
 holds(s_18967_jpg, porch).
@@ -38037,7 +36777,6 @@ holds(s_18968_jpg, feature).
 holds(s_18968_jpg, hotel).
 holds(s_18968_jpg, store).
 holds(s_18968_jpg, suburban).
-holds(s_18968_jpg, door).
 holds(s_18968_jpg, billboard).
 holds(s_18968_jpg, porch).
 holds(s_18968_jpg, wallsign).
@@ -38063,7 +36802,6 @@ holds(s_18970_jpg, building).
 holds(s_18970_jpg, feature).
 holds(s_18970_jpg, hotel).
 holds(s_18970_jpg, store).
-holds(s_18970_jpg, suburban).
 holds(s_18970_jpg, window).
 holds(s_18970_jpg, billboard).
 holds(s_18970_jpg, porch).
@@ -38133,6 +36871,7 @@ holds(s_18975_jpg, window).
 holds(s_18975_jpg, billboard).
 holds(s_18975_jpg, porch).
 holds(s_18975_jpg, wallsign).
+holds(s_18975_jpg, pipe).
 holds(s_18975_jpg, commercial).
 
 sample(s_18976_jpg).
@@ -38140,7 +36879,6 @@ holds(s_18976_jpg, building).
 holds(s_18976_jpg, feature).
 holds(s_18976_jpg, hotel).
 holds(s_18976_jpg, store).
-holds(s_18976_jpg, suburban).
 holds(s_18976_jpg, window).
 holds(s_18976_jpg, billboard).
 holds(s_18976_jpg, porch).
@@ -38153,7 +36891,6 @@ holds(s_18977_jpg, feature).
 holds(s_18977_jpg, hotel).
 holds(s_18977_jpg, store).
 holds(s_18977_jpg, suburban).
-holds(s_18977_jpg, door).
 holds(s_18977_jpg, billboard).
 holds(s_18977_jpg, porch).
 holds(s_18977_jpg, wallsign).
@@ -38179,7 +36916,6 @@ holds(s_18979_jpg, building).
 holds(s_18979_jpg, feature).
 holds(s_18979_jpg, hotel).
 holds(s_18979_jpg, store).
-holds(s_18979_jpg, suburban).
 holds(s_18979_jpg, window).
 holds(s_18979_jpg, billboard).
 holds(s_18979_jpg, porch).
@@ -38217,7 +36953,6 @@ holds(s_18982_jpg, building).
 holds(s_18982_jpg, feature).
 holds(s_18982_jpg, hotel).
 holds(s_18982_jpg, store).
-holds(s_18982_jpg, suburban).
 holds(s_18982_jpg, window).
 holds(s_18982_jpg, billboard).
 holds(s_18982_jpg, porch).
@@ -38255,7 +36990,6 @@ holds(s_18985_jpg, building).
 holds(s_18985_jpg, feature).
 holds(s_18985_jpg, hotel).
 holds(s_18985_jpg, store).
-holds(s_18985_jpg, suburban).
 holds(s_18985_jpg, window).
 holds(s_18985_jpg, billboard).
 holds(s_18985_jpg, porch).
@@ -38294,7 +37028,6 @@ holds(s_18988_jpg, building).
 holds(s_18988_jpg, feature).
 holds(s_18988_jpg, hotel).
 holds(s_18988_jpg, store).
-holds(s_18988_jpg, suburban).
 holds(s_18988_jpg, window).
 holds(s_18988_jpg, billboard).
 holds(s_18988_jpg, porch).
@@ -38307,7 +37040,6 @@ holds(s_18989_jpg, feature).
 holds(s_18989_jpg, hotel).
 holds(s_18989_jpg, store).
 holds(s_18989_jpg, suburban).
-holds(s_18989_jpg, door).
 holds(s_18989_jpg, billboard).
 holds(s_18989_jpg, porch).
 holds(s_18989_jpg, wallsign).
@@ -38346,7 +37078,6 @@ holds(s_18992_jpg, feature).
 holds(s_18992_jpg, hotel).
 holds(s_18992_jpg, store).
 holds(s_18992_jpg, suburban).
-holds(s_18992_jpg, door).
 holds(s_18992_jpg, billboard).
 holds(s_18992_jpg, porch).
 holds(s_18992_jpg, wallsign).
@@ -38364,6 +37095,7 @@ holds(s_18993_jpg, window).
 holds(s_18993_jpg, billboard).
 holds(s_18993_jpg, porch).
 holds(s_18993_jpg, wallsign).
+holds(s_18993_jpg, pipe).
 holds(s_18993_jpg, commercial).
 
 sample(s_18994_jpg).
@@ -38371,7 +37103,6 @@ holds(s_18994_jpg, building).
 holds(s_18994_jpg, feature).
 holds(s_18994_jpg, hotel).
 holds(s_18994_jpg, store).
-holds(s_18994_jpg, suburban).
 holds(s_18994_jpg, window).
 holds(s_18994_jpg, billboard).
 holds(s_18994_jpg, porch).
@@ -38384,7 +37115,6 @@ holds(s_18995_jpg, feature).
 holds(s_18995_jpg, hotel).
 holds(s_18995_jpg, store).
 holds(s_18995_jpg, suburban).
-holds(s_18995_jpg, door).
 holds(s_18995_jpg, billboard).
 holds(s_18995_jpg, porch).
 holds(s_18995_jpg, wallsign).
@@ -38410,7 +37140,6 @@ holds(s_18997_jpg, building).
 holds(s_18997_jpg, feature).
 holds(s_18997_jpg, hotel).
 holds(s_18997_jpg, store).
-holds(s_18997_jpg, suburban).
 holds(s_18997_jpg, window).
 holds(s_18997_jpg, billboard).
 holds(s_18997_jpg, porch).
@@ -38448,7 +37177,6 @@ holds(s_19000_jpg, building).
 holds(s_19000_jpg, feature).
 holds(s_19000_jpg, hotel).
 holds(s_19000_jpg, store).
-holds(s_19000_jpg, suburban).
 holds(s_19000_jpg, window).
 holds(s_19000_jpg, billboard).
 holds(s_19000_jpg, porch).
@@ -38461,7 +37189,6 @@ holds(s_19001_jpg, feature).
 holds(s_19001_jpg, hotel).
 holds(s_19001_jpg, store).
 holds(s_19001_jpg, suburban).
-holds(s_19001_jpg, door).
 holds(s_19001_jpg, billboard).
 holds(s_19001_jpg, porch).
 holds(s_19001_jpg, wallsign).
@@ -38479,6 +37206,7 @@ holds(s_19002_jpg, window).
 holds(s_19002_jpg, billboard).
 holds(s_19002_jpg, porch).
 holds(s_19002_jpg, wallsign).
+holds(s_19002_jpg, pipe).
 holds(s_19002_jpg, commercial).
 
 sample(s_19003_jpg).
@@ -38486,7 +37214,6 @@ holds(s_19003_jpg, building).
 holds(s_19003_jpg, feature).
 holds(s_19003_jpg, hotel).
 holds(s_19003_jpg, store).
-holds(s_19003_jpg, suburban).
 holds(s_19003_jpg, window).
 holds(s_19003_jpg, billboard).
 holds(s_19003_jpg, porch).
@@ -38499,7 +37226,6 @@ holds(s_19004_jpg, feature).
 holds(s_19004_jpg, hotel).
 holds(s_19004_jpg, store).
 holds(s_19004_jpg, suburban).
-holds(s_19004_jpg, door).
 holds(s_19004_jpg, billboard).
 holds(s_19004_jpg, porch).
 holds(s_19004_jpg, wallsign).
@@ -38525,7 +37251,6 @@ holds(s_19006_jpg, building).
 holds(s_19006_jpg, feature).
 holds(s_19006_jpg, hotel).
 holds(s_19006_jpg, store).
-holds(s_19006_jpg, suburban).
 holds(s_19006_jpg, window).
 holds(s_19006_jpg, billboard).
 holds(s_19006_jpg, porch).
@@ -38538,7 +37263,6 @@ holds(s_19007_jpg, feature).
 holds(s_19007_jpg, hotel).
 holds(s_19007_jpg, store).
 holds(s_19007_jpg, suburban).
-holds(s_19007_jpg, door).
 holds(s_19007_jpg, billboard).
 holds(s_19007_jpg, porch).
 holds(s_19007_jpg, wallsign).
@@ -38564,7 +37288,6 @@ holds(s_19009_jpg, building).
 holds(s_19009_jpg, feature).
 holds(s_19009_jpg, hotel).
 holds(s_19009_jpg, store).
-holds(s_19009_jpg, suburban).
 holds(s_19009_jpg, window).
 holds(s_19009_jpg, billboard).
 holds(s_19009_jpg, porch).
@@ -38589,7 +37312,6 @@ holds(s_19011_jpg, building).
 holds(s_19011_jpg, feature).
 holds(s_19011_jpg, hotel).
 holds(s_19011_jpg, store).
-holds(s_19011_jpg, suburban).
 holds(s_19011_jpg, window).
 holds(s_19011_jpg, billboard).
 holds(s_19011_jpg, porch).
@@ -38601,7 +37323,6 @@ holds(s_19012_jpg, building).
 holds(s_19012_jpg, feature).
 holds(s_19012_jpg, hotel).
 holds(s_19012_jpg, store).
-holds(s_19012_jpg, suburban).
 holds(s_19012_jpg, window).
 holds(s_19012_jpg, billboard).
 holds(s_19012_jpg, porch).
@@ -38614,7 +37335,6 @@ holds(s_19013_jpg, feature).
 holds(s_19013_jpg, hotel).
 holds(s_19013_jpg, store).
 holds(s_19013_jpg, suburban).
-holds(s_19013_jpg, door).
 holds(s_19013_jpg, billboard).
 holds(s_19013_jpg, porch).
 holds(s_19013_jpg, wallsign).
@@ -38640,7 +37360,6 @@ holds(s_19015_jpg, building).
 holds(s_19015_jpg, feature).
 holds(s_19015_jpg, hotel).
 holds(s_19015_jpg, store).
-holds(s_19015_jpg, suburban).
 holds(s_19015_jpg, window).
 holds(s_19015_jpg, billboard).
 holds(s_19015_jpg, porch).
@@ -38678,7 +37397,6 @@ holds(s_19018_jpg, building).
 holds(s_19018_jpg, feature).
 holds(s_19018_jpg, hotel).
 holds(s_19018_jpg, store).
-holds(s_19018_jpg, suburban).
 holds(s_19018_jpg, window).
 holds(s_19018_jpg, billboard).
 holds(s_19018_jpg, porch).
@@ -38709,6 +37427,7 @@ holds(s_19020_jpg, window).
 holds(s_19020_jpg, billboard).
 holds(s_19020_jpg, porch).
 holds(s_19020_jpg, wallsign).
+holds(s_19020_jpg, pipe).
 holds(s_19020_jpg, commercial).
 
 sample(s_19021_jpg).
@@ -38716,7 +37435,6 @@ holds(s_19021_jpg, building).
 holds(s_19021_jpg, feature).
 holds(s_19021_jpg, hotel).
 holds(s_19021_jpg, store).
-holds(s_19021_jpg, suburban).
 holds(s_19021_jpg, window).
 holds(s_19021_jpg, billboard).
 holds(s_19021_jpg, porch).
@@ -38729,7 +37447,6 @@ holds(s_19022_jpg, feature).
 holds(s_19022_jpg, hotel).
 holds(s_19022_jpg, store).
 holds(s_19022_jpg, suburban).
-holds(s_19022_jpg, door).
 holds(s_19022_jpg, billboard).
 holds(s_19022_jpg, porch).
 holds(s_19022_jpg, wallsign).
@@ -38768,7 +37485,6 @@ holds(s_19025_jpg, feature).
 holds(s_19025_jpg, hotel).
 holds(s_19025_jpg, store).
 holds(s_19025_jpg, suburban).
-holds(s_19025_jpg, door).
 holds(s_19025_jpg, billboard).
 holds(s_19025_jpg, porch).
 holds(s_19025_jpg, wallsign).
@@ -38794,7 +37510,6 @@ holds(s_19027_jpg, building).
 holds(s_19027_jpg, feature).
 holds(s_19027_jpg, hotel).
 holds(s_19027_jpg, store).
-holds(s_19027_jpg, suburban).
 holds(s_19027_jpg, window).
 holds(s_19027_jpg, billboard).
 holds(s_19027_jpg, porch).
@@ -38832,7 +37547,6 @@ holds(s_19030_jpg, building).
 holds(s_19030_jpg, feature).
 holds(s_19030_jpg, hotel).
 holds(s_19030_jpg, store).
-holds(s_19030_jpg, suburban).
 holds(s_19030_jpg, window).
 holds(s_19030_jpg, billboard).
 holds(s_19030_jpg, porch).
@@ -38845,7 +37559,6 @@ holds(s_19031_jpg, feature).
 holds(s_19031_jpg, hotel).
 holds(s_19031_jpg, store).
 holds(s_19031_jpg, suburban).
-holds(s_19031_jpg, door).
 holds(s_19031_jpg, billboard).
 holds(s_19031_jpg, porch).
 holds(s_19031_jpg, wallsign).
@@ -38871,7 +37584,6 @@ holds(s_19033_jpg, building).
 holds(s_19033_jpg, feature).
 holds(s_19033_jpg, hotel).
 holds(s_19033_jpg, store).
-holds(s_19033_jpg, suburban).
 holds(s_19033_jpg, window).
 holds(s_19033_jpg, billboard).
 holds(s_19033_jpg, porch).
@@ -38884,7 +37596,6 @@ holds(s_19034_jpg, feature).
 holds(s_19034_jpg, hotel).
 holds(s_19034_jpg, store).
 holds(s_19034_jpg, suburban).
-holds(s_19034_jpg, door).
 holds(s_19034_jpg, billboard).
 holds(s_19034_jpg, porch).
 holds(s_19034_jpg, wallsign).
@@ -38902,6 +37613,7 @@ holds(s_19035_jpg, window).
 holds(s_19035_jpg, billboard).
 holds(s_19035_jpg, porch).
 holds(s_19035_jpg, wallsign).
+holds(s_19035_jpg, pipe).
 holds(s_19035_jpg, commercial).
 
 sample(s_19036_jpg).
@@ -38909,7 +37621,6 @@ holds(s_19036_jpg, building).
 holds(s_19036_jpg, feature).
 holds(s_19036_jpg, hotel).
 holds(s_19036_jpg, store).
-holds(s_19036_jpg, suburban).
 holds(s_19036_jpg, window).
 holds(s_19036_jpg, billboard).
 holds(s_19036_jpg, porch).
@@ -38948,7 +37659,6 @@ holds(s_19039_jpg, building).
 holds(s_19039_jpg, feature).
 holds(s_19039_jpg, hotel).
 holds(s_19039_jpg, store).
-holds(s_19039_jpg, suburban).
 holds(s_19039_jpg, window).
 holds(s_19039_jpg, billboard).
 holds(s_19039_jpg, porch).
@@ -38961,7 +37671,6 @@ holds(s_19040_jpg, feature).
 holds(s_19040_jpg, hotel).
 holds(s_19040_jpg, store).
 holds(s_19040_jpg, suburban).
-holds(s_19040_jpg, door).
 holds(s_19040_jpg, billboard).
 holds(s_19040_jpg, porch).
 holds(s_19040_jpg, wallsign).
@@ -38987,7 +37696,6 @@ holds(s_19042_jpg, building).
 holds(s_19042_jpg, feature).
 holds(s_19042_jpg, hotel).
 holds(s_19042_jpg, store).
-holds(s_19042_jpg, suburban).
 holds(s_19042_jpg, window).
 holds(s_19042_jpg, billboard).
 holds(s_19042_jpg, porch).
@@ -39000,7 +37708,6 @@ holds(s_19043_jpg, feature).
 holds(s_19043_jpg, hotel).
 holds(s_19043_jpg, store).
 holds(s_19043_jpg, suburban).
-holds(s_19043_jpg, door).
 holds(s_19043_jpg, billboard).
 holds(s_19043_jpg, porch).
 holds(s_19043_jpg, wallsign).
@@ -39018,6 +37725,7 @@ holds(s_19044_jpg, window).
 holds(s_19044_jpg, billboard).
 holds(s_19044_jpg, porch).
 holds(s_19044_jpg, wallsign).
+holds(s_19044_jpg, pipe).
 holds(s_19044_jpg, commercial).
 
 sample(s_19045_jpg).
@@ -39025,7 +37733,6 @@ holds(s_19045_jpg, building).
 holds(s_19045_jpg, feature).
 holds(s_19045_jpg, hotel).
 holds(s_19045_jpg, store).
-holds(s_19045_jpg, suburban).
 holds(s_19045_jpg, window).
 holds(s_19045_jpg, billboard).
 holds(s_19045_jpg, porch).
@@ -39038,7 +37745,6 @@ holds(s_19046_jpg, feature).
 holds(s_19046_jpg, hotel).
 holds(s_19046_jpg, store).
 holds(s_19046_jpg, suburban).
-holds(s_19046_jpg, door).
 holds(s_19046_jpg, billboard).
 holds(s_19046_jpg, porch).
 holds(s_19046_jpg, wallsign).
@@ -39064,7 +37770,6 @@ holds(s_19048_jpg, building).
 holds(s_19048_jpg, feature).
 holds(s_19048_jpg, hotel).
 holds(s_19048_jpg, store).
-holds(s_19048_jpg, suburban).
 holds(s_19048_jpg, window).
 holds(s_19048_jpg, billboard).
 holds(s_19048_jpg, porch).
@@ -39102,7 +37807,6 @@ holds(s_19051_jpg, building).
 holds(s_19051_jpg, feature).
 holds(s_19051_jpg, hotel).
 holds(s_19051_jpg, store).
-holds(s_19051_jpg, suburban).
 holds(s_19051_jpg, window).
 holds(s_19051_jpg, billboard).
 holds(s_19051_jpg, porch).
@@ -39115,7 +37819,6 @@ holds(s_19052_jpg, feature).
 holds(s_19052_jpg, hotel).
 holds(s_19052_jpg, store).
 holds(s_19052_jpg, suburban).
-holds(s_19052_jpg, door).
 holds(s_19052_jpg, billboard).
 holds(s_19052_jpg, porch).
 holds(s_19052_jpg, wallsign).
@@ -39141,8 +37844,6 @@ holds(s_19054_jpg, building).
 holds(s_19054_jpg, feature).
 holds(s_19054_jpg, hotel).
 holds(s_19054_jpg, store).
-holds(s_19054_jpg, suburban).
-holds(s_19054_jpg, door).
 holds(s_19054_jpg, window).
 holds(s_19054_jpg, billboard).
 holds(s_19054_jpg, porch).
@@ -39155,7 +37856,6 @@ holds(s_19055_jpg, feature).
 holds(s_19055_jpg, hotel).
 holds(s_19055_jpg, store).
 holds(s_19055_jpg, suburban).
-holds(s_19055_jpg, door).
 holds(s_19055_jpg, billboard).
 holds(s_19055_jpg, porch).
 holds(s_19055_jpg, wallsign).
@@ -39173,6 +37873,7 @@ holds(s_19056_jpg, window).
 holds(s_19056_jpg, billboard).
 holds(s_19056_jpg, porch).
 holds(s_19056_jpg, wallsign).
+holds(s_19056_jpg, pipe).
 holds(s_19056_jpg, commercial).
 
 sample(s_19057_jpg).
@@ -39193,7 +37894,6 @@ holds(s_19058_jpg, feature).
 holds(s_19058_jpg, hotel).
 holds(s_19058_jpg, store).
 holds(s_19058_jpg, suburban).
-holds(s_19058_jpg, door).
 holds(s_19058_jpg, billboard).
 holds(s_19058_jpg, porch).
 holds(s_19058_jpg, wallsign).
@@ -39219,7 +37919,6 @@ holds(s_19060_jpg, building).
 holds(s_19060_jpg, feature).
 holds(s_19060_jpg, hotel).
 holds(s_19060_jpg, store).
-holds(s_19060_jpg, suburban).
 holds(s_19060_jpg, window).
 holds(s_19060_jpg, billboard).
 holds(s_19060_jpg, porch).
@@ -39232,7 +37931,6 @@ holds(s_19061_jpg, feature).
 holds(s_19061_jpg, hotel).
 holds(s_19061_jpg, store).
 holds(s_19061_jpg, suburban).
-holds(s_19061_jpg, door).
 holds(s_19061_jpg, billboard).
 holds(s_19061_jpg, porch).
 holds(s_19061_jpg, wallsign).
@@ -39258,7 +37956,6 @@ holds(s_19063_jpg, building).
 holds(s_19063_jpg, feature).
 holds(s_19063_jpg, hotel).
 holds(s_19063_jpg, store).
-holds(s_19063_jpg, suburban).
 holds(s_19063_jpg, window).
 holds(s_19063_jpg, billboard).
 holds(s_19063_jpg, porch).
@@ -39271,7 +37968,6 @@ holds(s_19064_jpg, feature).
 holds(s_19064_jpg, hotel).
 holds(s_19064_jpg, store).
 holds(s_19064_jpg, suburban).
-holds(s_19064_jpg, door).
 holds(s_19064_jpg, billboard).
 holds(s_19064_jpg, porch).
 holds(s_19064_jpg, wallsign).
@@ -39289,6 +37985,7 @@ holds(s_19065_jpg, window).
 holds(s_19065_jpg, billboard).
 holds(s_19065_jpg, porch).
 holds(s_19065_jpg, wallsign).
+holds(s_19065_jpg, pipe).
 holds(s_19065_jpg, commercial).
 
 sample(s_19066_jpg).
@@ -39296,7 +37993,6 @@ holds(s_19066_jpg, building).
 holds(s_19066_jpg, feature).
 holds(s_19066_jpg, hotel).
 holds(s_19066_jpg, store).
-holds(s_19066_jpg, suburban).
 holds(s_19066_jpg, window).
 holds(s_19066_jpg, billboard).
 holds(s_19066_jpg, porch).
@@ -39334,7 +38030,6 @@ holds(s_19069_jpg, building).
 holds(s_19069_jpg, feature).
 holds(s_19069_jpg, hotel).
 holds(s_19069_jpg, store).
-holds(s_19069_jpg, suburban).
 holds(s_19069_jpg, window).
 holds(s_19069_jpg, billboard).
 holds(s_19069_jpg, porch).
@@ -39347,7 +38042,6 @@ holds(s_19070_jpg, feature).
 holds(s_19070_jpg, hotel).
 holds(s_19070_jpg, store).
 holds(s_19070_jpg, suburban).
-holds(s_19070_jpg, door).
 holds(s_19070_jpg, billboard).
 holds(s_19070_jpg, porch).
 holds(s_19070_jpg, wallsign).
@@ -39373,7 +38067,6 @@ holds(s_19072_jpg, building).
 holds(s_19072_jpg, feature).
 holds(s_19072_jpg, hotel).
 holds(s_19072_jpg, store).
-holds(s_19072_jpg, suburban).
 holds(s_19072_jpg, window).
 holds(s_19072_jpg, billboard).
 holds(s_19072_jpg, porch).
@@ -39386,7 +38079,6 @@ holds(s_19073_jpg, feature).
 holds(s_19073_jpg, hotel).
 holds(s_19073_jpg, store).
 holds(s_19073_jpg, suburban).
-holds(s_19073_jpg, door).
 holds(s_19073_jpg, billboard).
 holds(s_19073_jpg, porch).
 holds(s_19073_jpg, wallsign).
@@ -39404,6 +38096,7 @@ holds(s_19074_jpg, window).
 holds(s_19074_jpg, billboard).
 holds(s_19074_jpg, porch).
 holds(s_19074_jpg, wallsign).
+holds(s_19074_jpg, pipe).
 holds(s_19074_jpg, commercial).
 
 sample(s_19075_jpg).
@@ -39411,7 +38104,6 @@ holds(s_19075_jpg, building).
 holds(s_19075_jpg, feature).
 holds(s_19075_jpg, hotel).
 holds(s_19075_jpg, store).
-holds(s_19075_jpg, suburban).
 holds(s_19075_jpg, window).
 holds(s_19075_jpg, billboard).
 holds(s_19075_jpg, porch).
@@ -39424,7 +38116,6 @@ holds(s_19076_jpg, feature).
 holds(s_19076_jpg, hotel).
 holds(s_19076_jpg, store).
 holds(s_19076_jpg, suburban).
-holds(s_19076_jpg, door).
 holds(s_19076_jpg, billboard).
 holds(s_19076_jpg, porch).
 holds(s_19076_jpg, wallsign).
@@ -39450,7 +38141,6 @@ holds(s_19078_jpg, building).
 holds(s_19078_jpg, feature).
 holds(s_19078_jpg, hotel).
 holds(s_19078_jpg, store).
-holds(s_19078_jpg, suburban).
 holds(s_19078_jpg, window).
 holds(s_19078_jpg, billboard).
 holds(s_19078_jpg, porch).
@@ -39463,7 +38153,6 @@ holds(s_19079_jpg, feature).
 holds(s_19079_jpg, hotel).
 holds(s_19079_jpg, store).
 holds(s_19079_jpg, suburban).
-holds(s_19079_jpg, door).
 holds(s_19079_jpg, billboard).
 holds(s_19079_jpg, porch).
 holds(s_19079_jpg, wallsign).
@@ -39489,7 +38178,6 @@ holds(s_19081_jpg, building).
 holds(s_19081_jpg, feature).
 holds(s_19081_jpg, hotel).
 holds(s_19081_jpg, store).
-holds(s_19081_jpg, suburban).
 holds(s_19081_jpg, window).
 holds(s_19081_jpg, billboard).
 holds(s_19081_jpg, porch).
@@ -39502,7 +38190,6 @@ holds(s_19082_jpg, feature).
 holds(s_19082_jpg, hotel).
 holds(s_19082_jpg, store).
 holds(s_19082_jpg, suburban).
-holds(s_19082_jpg, door).
 holds(s_19082_jpg, billboard).
 holds(s_19082_jpg, porch).
 holds(s_19082_jpg, wallsign).
@@ -39526,7 +38213,6 @@ holds(s_19084_jpg, building).
 holds(s_19084_jpg, feature).
 holds(s_19084_jpg, hotel).
 holds(s_19084_jpg, store).
-holds(s_19084_jpg, suburban).
 holds(s_19084_jpg, window).
 holds(s_19084_jpg, billboard).
 holds(s_19084_jpg, porch).
@@ -39539,7 +38225,6 @@ holds(s_19085_jpg, feature).
 holds(s_19085_jpg, hotel).
 holds(s_19085_jpg, store).
 holds(s_19085_jpg, suburban).
-holds(s_19085_jpg, door).
 holds(s_19085_jpg, billboard).
 holds(s_19085_jpg, porch).
 holds(s_19085_jpg, wallsign).
@@ -39565,7 +38250,6 @@ holds(s_19087_jpg, building).
 holds(s_19087_jpg, feature).
 holds(s_19087_jpg, hotel).
 holds(s_19087_jpg, store).
-holds(s_19087_jpg, suburban).
 holds(s_19087_jpg, window).
 holds(s_19087_jpg, billboard).
 holds(s_19087_jpg, porch).
@@ -39596,6 +38280,7 @@ holds(s_19089_jpg, window).
 holds(s_19089_jpg, billboard).
 holds(s_19089_jpg, porch).
 holds(s_19089_jpg, wallsign).
+holds(s_19089_jpg, pipe).
 holds(s_19089_jpg, commercial).
 
 sample(s_19090_jpg).
@@ -39603,7 +38288,6 @@ holds(s_19090_jpg, building).
 holds(s_19090_jpg, feature).
 holds(s_19090_jpg, hotel).
 holds(s_19090_jpg, store).
-holds(s_19090_jpg, suburban).
 holds(s_19090_jpg, window).
 holds(s_19090_jpg, billboard).
 holds(s_19090_jpg, porch).
@@ -39634,6 +38318,7 @@ holds(s_19092_jpg, window).
 holds(s_19092_jpg, billboard).
 holds(s_19092_jpg, porch).
 holds(s_19092_jpg, wallsign).
+holds(s_19092_jpg, pipe).
 holds(s_19092_jpg, commercial).
 
 sample(s_19093_jpg).
@@ -39641,7 +38326,6 @@ holds(s_19093_jpg, building).
 holds(s_19093_jpg, feature).
 holds(s_19093_jpg, hotel).
 holds(s_19093_jpg, store).
-holds(s_19093_jpg, suburban).
 holds(s_19093_jpg, window).
 holds(s_19093_jpg, billboard).
 holds(s_19093_jpg, porch).
@@ -39654,7 +38338,6 @@ holds(s_19094_jpg, feature).
 holds(s_19094_jpg, hotel).
 holds(s_19094_jpg, store).
 holds(s_19094_jpg, suburban).
-holds(s_19094_jpg, door).
 holds(s_19094_jpg, billboard).
 holds(s_19094_jpg, porch).
 holds(s_19094_jpg, wallsign).
@@ -39672,6 +38355,7 @@ holds(s_19095_jpg, window).
 holds(s_19095_jpg, billboard).
 holds(s_19095_jpg, porch).
 holds(s_19095_jpg, wallsign).
+holds(s_19095_jpg, pipe).
 holds(s_19095_jpg, commercial).
 
 sample(s_19096_jpg).
@@ -39679,7 +38363,6 @@ holds(s_19096_jpg, building).
 holds(s_19096_jpg, feature).
 holds(s_19096_jpg, hotel).
 holds(s_19096_jpg, store).
-holds(s_19096_jpg, suburban).
 holds(s_19096_jpg, window).
 holds(s_19096_jpg, billboard).
 holds(s_19096_jpg, porch).
@@ -39692,7 +38375,6 @@ holds(s_19097_jpg, feature).
 holds(s_19097_jpg, hotel).
 holds(s_19097_jpg, store).
 holds(s_19097_jpg, suburban).
-holds(s_19097_jpg, door).
 holds(s_19097_jpg, billboard).
 holds(s_19097_jpg, porch).
 holds(s_19097_jpg, wallsign).
@@ -39710,6 +38392,7 @@ holds(s_19098_jpg, window).
 holds(s_19098_jpg, billboard).
 holds(s_19098_jpg, porch).
 holds(s_19098_jpg, wallsign).
+holds(s_19098_jpg, pipe).
 holds(s_19098_jpg, commercial).
 
 sample(s_19099_jpg).
@@ -39717,7 +38400,6 @@ holds(s_19099_jpg, building).
 holds(s_19099_jpg, feature).
 holds(s_19099_jpg, hotel).
 holds(s_19099_jpg, store).
-holds(s_19099_jpg, suburban).
 holds(s_19099_jpg, window).
 holds(s_19099_jpg, billboard).
 holds(s_19099_jpg, porch).
@@ -39730,7 +38412,6 @@ holds(s_19100_jpg, feature).
 holds(s_19100_jpg, hotel).
 holds(s_19100_jpg, store).
 holds(s_19100_jpg, suburban).
-holds(s_19100_jpg, door).
 holds(s_19100_jpg, billboard).
 holds(s_19100_jpg, porch).
 holds(s_19100_jpg, wallsign).
@@ -39756,7 +38437,6 @@ holds(s_19102_jpg, building).
 holds(s_19102_jpg, feature).
 holds(s_19102_jpg, hotel).
 holds(s_19102_jpg, store).
-holds(s_19102_jpg, suburban).
 holds(s_19102_jpg, window).
 holds(s_19102_jpg, billboard).
 holds(s_19102_jpg, porch).
@@ -39769,7 +38449,6 @@ holds(s_19103_jpg, feature).
 holds(s_19103_jpg, hotel).
 holds(s_19103_jpg, store).
 holds(s_19103_jpg, suburban).
-holds(s_19103_jpg, door).
 holds(s_19103_jpg, billboard).
 holds(s_19103_jpg, porch).
 holds(s_19103_jpg, wallsign).
@@ -39795,7 +38474,6 @@ holds(s_19105_jpg, building).
 holds(s_19105_jpg, feature).
 holds(s_19105_jpg, hotel).
 holds(s_19105_jpg, store).
-holds(s_19105_jpg, suburban).
 holds(s_19105_jpg, window).
 holds(s_19105_jpg, billboard).
 holds(s_19105_jpg, porch).
@@ -39808,7 +38486,6 @@ holds(s_19106_jpg, feature).
 holds(s_19106_jpg, hotel).
 holds(s_19106_jpg, store).
 holds(s_19106_jpg, suburban).
-holds(s_19106_jpg, door).
 holds(s_19106_jpg, billboard).
 holds(s_19106_jpg, porch).
 holds(s_19106_jpg, wallsign).
@@ -39834,7 +38511,6 @@ holds(s_19108_jpg, building).
 holds(s_19108_jpg, feature).
 holds(s_19108_jpg, hotel).
 holds(s_19108_jpg, store).
-holds(s_19108_jpg, suburban).
 holds(s_19108_jpg, window).
 holds(s_19108_jpg, billboard).
 holds(s_19108_jpg, porch).
@@ -39847,7 +38523,6 @@ holds(s_19109_jpg, feature).
 holds(s_19109_jpg, hotel).
 holds(s_19109_jpg, store).
 holds(s_19109_jpg, suburban).
-holds(s_19109_jpg, door).
 holds(s_19109_jpg, billboard).
 holds(s_19109_jpg, porch).
 holds(s_19109_jpg, wallsign).
@@ -39865,6 +38540,7 @@ holds(s_19110_jpg, window).
 holds(s_19110_jpg, billboard).
 holds(s_19110_jpg, porch).
 holds(s_19110_jpg, wallsign).
+holds(s_19110_jpg, pipe).
 holds(s_19110_jpg, commercial).
 
 sample(s_19111_jpg).
@@ -39872,7 +38548,6 @@ holds(s_19111_jpg, building).
 holds(s_19111_jpg, feature).
 holds(s_19111_jpg, hotel).
 holds(s_19111_jpg, store).
-holds(s_19111_jpg, suburban).
 holds(s_19111_jpg, window).
 holds(s_19111_jpg, billboard).
 holds(s_19111_jpg, porch).
@@ -39885,7 +38560,6 @@ holds(s_19112_jpg, feature).
 holds(s_19112_jpg, hotel).
 holds(s_19112_jpg, store).
 holds(s_19112_jpg, suburban).
-holds(s_19112_jpg, door).
 holds(s_19112_jpg, billboard).
 holds(s_19112_jpg, porch).
 holds(s_19112_jpg, wallsign).
@@ -39911,7 +38585,6 @@ holds(s_19114_jpg, building).
 holds(s_19114_jpg, feature).
 holds(s_19114_jpg, hotel).
 holds(s_19114_jpg, store).
-holds(s_19114_jpg, suburban).
 holds(s_19114_jpg, window).
 holds(s_19114_jpg, billboard).
 holds(s_19114_jpg, porch).
@@ -39924,7 +38597,6 @@ holds(s_19115_jpg, feature).
 holds(s_19115_jpg, hotel).
 holds(s_19115_jpg, store).
 holds(s_19115_jpg, suburban).
-holds(s_19115_jpg, door).
 holds(s_19115_jpg, billboard).
 holds(s_19115_jpg, porch).
 holds(s_19115_jpg, wallsign).
@@ -39950,7 +38622,6 @@ holds(s_19117_jpg, building).
 holds(s_19117_jpg, feature).
 holds(s_19117_jpg, hotel).
 holds(s_19117_jpg, store).
-holds(s_19117_jpg, suburban).
 holds(s_19117_jpg, window).
 holds(s_19117_jpg, billboard).
 holds(s_19117_jpg, porch).
@@ -39963,7 +38634,6 @@ holds(s_19118_jpg, feature).
 holds(s_19118_jpg, hotel).
 holds(s_19118_jpg, store).
 holds(s_19118_jpg, suburban).
-holds(s_19118_jpg, door).
 holds(s_19118_jpg, billboard).
 holds(s_19118_jpg, porch).
 holds(s_19118_jpg, wallsign).
@@ -39989,7 +38659,6 @@ holds(s_19120_jpg, building).
 holds(s_19120_jpg, feature).
 holds(s_19120_jpg, hotel).
 holds(s_19120_jpg, store).
-holds(s_19120_jpg, suburban).
 holds(s_19120_jpg, window).
 holds(s_19120_jpg, billboard).
 holds(s_19120_jpg, porch).
@@ -40019,6 +38688,7 @@ holds(s_19122_jpg, window).
 holds(s_19122_jpg, billboard).
 holds(s_19122_jpg, porch).
 holds(s_19122_jpg, wallsign).
+holds(s_19122_jpg, pipe).
 holds(s_19122_jpg, commercial).
 
 sample(s_19123_jpg).
@@ -40026,7 +38696,6 @@ holds(s_19123_jpg, building).
 holds(s_19123_jpg, feature).
 holds(s_19123_jpg, hotel).
 holds(s_19123_jpg, store).
-holds(s_19123_jpg, suburban).
 holds(s_19123_jpg, window).
 holds(s_19123_jpg, billboard).
 holds(s_19123_jpg, porch).
@@ -40057,6 +38726,7 @@ holds(s_19125_jpg, window).
 holds(s_19125_jpg, billboard).
 holds(s_19125_jpg, porch).
 holds(s_19125_jpg, wallsign).
+holds(s_19125_jpg, pipe).
 holds(s_19125_jpg, commercial).
 
 sample(s_19126_jpg).
@@ -40064,7 +38734,6 @@ holds(s_19126_jpg, building).
 holds(s_19126_jpg, feature).
 holds(s_19126_jpg, hotel).
 holds(s_19126_jpg, store).
-holds(s_19126_jpg, suburban).
 holds(s_19126_jpg, window).
 holds(s_19126_jpg, billboard).
 holds(s_19126_jpg, porch).
@@ -40078,7 +38747,6 @@ holds(s_19127_jpg, hotel).
 holds(s_19127_jpg, store).
 holds(s_19127_jpg, suburban).
 holds(s_19127_jpg, door).
-holds(s_19127_jpg, window).
 holds(s_19127_jpg, billboard).
 holds(s_19127_jpg, porch).
 holds(s_19127_jpg, wallsign).
@@ -40096,6 +38764,7 @@ holds(s_19128_jpg, window).
 holds(s_19128_jpg, billboard).
 holds(s_19128_jpg, porch).
 holds(s_19128_jpg, wallsign).
+holds(s_19128_jpg, pipe).
 holds(s_19128_jpg, commercial).
 
 sample(s_19129_jpg).
@@ -40103,7 +38772,6 @@ holds(s_19129_jpg, building).
 holds(s_19129_jpg, feature).
 holds(s_19129_jpg, hotel).
 holds(s_19129_jpg, store).
-holds(s_19129_jpg, suburban).
 holds(s_19129_jpg, window).
 holds(s_19129_jpg, billboard).
 holds(s_19129_jpg, porch).
@@ -40116,7 +38784,6 @@ holds(s_19130_jpg, feature).
 holds(s_19130_jpg, hotel).
 holds(s_19130_jpg, store).
 holds(s_19130_jpg, suburban).
-holds(s_19130_jpg, door).
 holds(s_19130_jpg, billboard).
 holds(s_19130_jpg, porch).
 holds(s_19130_jpg, wallsign).
@@ -40134,6 +38801,7 @@ holds(s_19131_jpg, window).
 holds(s_19131_jpg, billboard).
 holds(s_19131_jpg, porch).
 holds(s_19131_jpg, wallsign).
+holds(s_19131_jpg, pipe).
 holds(s_19131_jpg, commercial).
 
 sample(s_19132_jpg).
@@ -40141,7 +38809,6 @@ holds(s_19132_jpg, building).
 holds(s_19132_jpg, feature).
 holds(s_19132_jpg, hotel).
 holds(s_19132_jpg, store).
-holds(s_19132_jpg, suburban).
 holds(s_19132_jpg, window).
 holds(s_19132_jpg, billboard).
 holds(s_19132_jpg, porch).
@@ -40154,7 +38821,6 @@ holds(s_19133_jpg, feature).
 holds(s_19133_jpg, hotel).
 holds(s_19133_jpg, store).
 holds(s_19133_jpg, suburban).
-holds(s_19133_jpg, door).
 holds(s_19133_jpg, billboard).
 holds(s_19133_jpg, porch).
 holds(s_19133_jpg, wallsign).
@@ -40172,6 +38838,7 @@ holds(s_19134_jpg, window).
 holds(s_19134_jpg, billboard).
 holds(s_19134_jpg, porch).
 holds(s_19134_jpg, wallsign).
+holds(s_19134_jpg, pipe).
 holds(s_19134_jpg, commercial).
 
 sample(s_19135_jpg).
@@ -40179,7 +38846,6 @@ holds(s_19135_jpg, building).
 holds(s_19135_jpg, feature).
 holds(s_19135_jpg, hotel).
 holds(s_19135_jpg, store).
-holds(s_19135_jpg, suburban).
 holds(s_19135_jpg, window).
 holds(s_19135_jpg, billboard).
 holds(s_19135_jpg, porch).
@@ -40218,7 +38884,6 @@ holds(s_19138_jpg, building).
 holds(s_19138_jpg, feature).
 holds(s_19138_jpg, hotel).
 holds(s_19138_jpg, store).
-holds(s_19138_jpg, suburban).
 holds(s_19138_jpg, window).
 holds(s_19138_jpg, billboard).
 holds(s_19138_jpg, porch).
@@ -40231,7 +38896,6 @@ holds(s_19139_jpg, feature).
 holds(s_19139_jpg, hotel).
 holds(s_19139_jpg, store).
 holds(s_19139_jpg, suburban).
-holds(s_19139_jpg, door).
 holds(s_19139_jpg, billboard).
 holds(s_19139_jpg, porch).
 holds(s_19139_jpg, wallsign).
@@ -40257,7 +38921,6 @@ holds(s_19141_jpg, building).
 holds(s_19141_jpg, feature).
 holds(s_19141_jpg, hotel).
 holds(s_19141_jpg, store).
-holds(s_19141_jpg, suburban).
 holds(s_19141_jpg, window).
 holds(s_19141_jpg, billboard).
 holds(s_19141_jpg, porch).
@@ -40270,7 +38933,6 @@ holds(s_19142_jpg, feature).
 holds(s_19142_jpg, hotel).
 holds(s_19142_jpg, store).
 holds(s_19142_jpg, suburban).
-holds(s_19142_jpg, door).
 holds(s_19142_jpg, billboard).
 holds(s_19142_jpg, porch).
 holds(s_19142_jpg, wallsign).
@@ -40288,6 +38950,7 @@ holds(s_19143_jpg, window).
 holds(s_19143_jpg, billboard).
 holds(s_19143_jpg, porch).
 holds(s_19143_jpg, wallsign).
+holds(s_19143_jpg, pipe).
 holds(s_19143_jpg, commercial).
 
 sample(s_19144_jpg).
@@ -40295,7 +38958,6 @@ holds(s_19144_jpg, building).
 holds(s_19144_jpg, feature).
 holds(s_19144_jpg, hotel).
 holds(s_19144_jpg, store).
-holds(s_19144_jpg, suburban).
 holds(s_19144_jpg, window).
 holds(s_19144_jpg, billboard).
 holds(s_19144_jpg, porch).
@@ -40308,7 +38970,6 @@ holds(s_19145_jpg, feature).
 holds(s_19145_jpg, hotel).
 holds(s_19145_jpg, store).
 holds(s_19145_jpg, suburban).
-holds(s_19145_jpg, door).
 holds(s_19145_jpg, billboard).
 holds(s_19145_jpg, porch).
 holds(s_19145_jpg, wallsign).
@@ -40334,7 +38995,6 @@ holds(s_19147_jpg, building).
 holds(s_19147_jpg, feature).
 holds(s_19147_jpg, hotel).
 holds(s_19147_jpg, store).
-holds(s_19147_jpg, suburban).
 holds(s_19147_jpg, window).
 holds(s_19147_jpg, billboard).
 holds(s_19147_jpg, porch).
@@ -40365,6 +39025,7 @@ holds(s_19149_jpg, window).
 holds(s_19149_jpg, billboard).
 holds(s_19149_jpg, porch).
 holds(s_19149_jpg, wallsign).
+holds(s_19149_jpg, pipe).
 holds(s_19149_jpg, commercial).
 
 sample(s_19150_jpg).
@@ -40372,7 +39033,6 @@ holds(s_19150_jpg, building).
 holds(s_19150_jpg, feature).
 holds(s_19150_jpg, hotel).
 holds(s_19150_jpg, store).
-holds(s_19150_jpg, suburban).
 holds(s_19150_jpg, window).
 holds(s_19150_jpg, billboard).
 holds(s_19150_jpg, porch).
@@ -40385,7 +39045,6 @@ holds(s_19151_jpg, feature).
 holds(s_19151_jpg, hotel).
 holds(s_19151_jpg, store).
 holds(s_19151_jpg, suburban).
-holds(s_19151_jpg, door).
 holds(s_19151_jpg, billboard).
 holds(s_19151_jpg, porch).
 holds(s_19151_jpg, wallsign).
@@ -40411,7 +39070,6 @@ holds(s_19153_jpg, building).
 holds(s_19153_jpg, feature).
 holds(s_19153_jpg, hotel).
 holds(s_19153_jpg, store).
-holds(s_19153_jpg, suburban).
 holds(s_19153_jpg, window).
 holds(s_19153_jpg, billboard).
 holds(s_19153_jpg, porch).
@@ -40424,7 +39082,6 @@ holds(s_19154_jpg, feature).
 holds(s_19154_jpg, hotel).
 holds(s_19154_jpg, store).
 holds(s_19154_jpg, suburban).
-holds(s_19154_jpg, door).
 holds(s_19154_jpg, billboard).
 holds(s_19154_jpg, porch).
 holds(s_19154_jpg, wallsign).
@@ -40442,6 +39099,7 @@ holds(s_19155_jpg, window).
 holds(s_19155_jpg, billboard).
 holds(s_19155_jpg, porch).
 holds(s_19155_jpg, wallsign).
+holds(s_19155_jpg, pipe).
 holds(s_19155_jpg, commercial).
 
 sample(s_19156_jpg).
@@ -40480,6 +39138,7 @@ holds(s_19158_jpg, window).
 holds(s_19158_jpg, billboard).
 holds(s_19158_jpg, porch).
 holds(s_19158_jpg, wallsign).
+holds(s_19158_jpg, pipe).
 holds(s_19158_jpg, commercial).
 
 sample(s_19159_jpg).
@@ -40493,7 +39152,7 @@ holds(s_19159_jpg, window).
 holds(s_19159_jpg, billboard).
 holds(s_19159_jpg, porch).
 holds(s_19159_jpg, wallsign).
-holds(s_19159_jpg, commercial).
+holds(s_19159_jpg, industrial).
 
 sample(s_19160_jpg).
 holds(s_19160_jpg, building).
@@ -40501,7 +39160,6 @@ holds(s_19160_jpg, feature).
 holds(s_19160_jpg, hotel).
 holds(s_19160_jpg, store).
 holds(s_19160_jpg, suburban).
-holds(s_19160_jpg, door).
 holds(s_19160_jpg, billboard).
 holds(s_19160_jpg, porch).
 holds(s_19160_jpg, wallsign).
@@ -40527,7 +39185,6 @@ holds(s_19162_jpg, building).
 holds(s_19162_jpg, feature).
 holds(s_19162_jpg, hotel).
 holds(s_19162_jpg, store).
-holds(s_19162_jpg, suburban).
 holds(s_19162_jpg, window).
 holds(s_19162_jpg, billboard).
 holds(s_19162_jpg, porch).
@@ -40540,7 +39197,6 @@ holds(s_19163_jpg, feature).
 holds(s_19163_jpg, hotel).
 holds(s_19163_jpg, store).
 holds(s_19163_jpg, suburban).
-holds(s_19163_jpg, door).
 holds(s_19163_jpg, billboard).
 holds(s_19163_jpg, porch).
 holds(s_19163_jpg, wallsign).
@@ -40566,7 +39222,6 @@ holds(s_19165_jpg, building).
 holds(s_19165_jpg, feature).
 holds(s_19165_jpg, hotel).
 holds(s_19165_jpg, store).
-holds(s_19165_jpg, suburban).
 holds(s_19165_jpg, window).
 holds(s_19165_jpg, billboard).
 holds(s_19165_jpg, porch).
@@ -40605,7 +39260,6 @@ holds(s_19168_jpg, building).
 holds(s_19168_jpg, feature).
 holds(s_19168_jpg, hotel).
 holds(s_19168_jpg, store).
-holds(s_19168_jpg, suburban).
 holds(s_19168_jpg, window).
 holds(s_19168_jpg, billboard).
 holds(s_19168_jpg, porch).
@@ -40618,7 +39272,6 @@ holds(s_19169_jpg, feature).
 holds(s_19169_jpg, hotel).
 holds(s_19169_jpg, store).
 holds(s_19169_jpg, suburban).
-holds(s_19169_jpg, door).
 holds(s_19169_jpg, billboard).
 holds(s_19169_jpg, porch).
 holds(s_19169_jpg, wallsign).
@@ -40636,6 +39289,7 @@ holds(s_19170_jpg, window).
 holds(s_19170_jpg, billboard).
 holds(s_19170_jpg, porch).
 holds(s_19170_jpg, wallsign).
+holds(s_19170_jpg, pipe).
 holds(s_19170_jpg, commercial).
 
 sample(s_19171_jpg).
@@ -40643,7 +39297,6 @@ holds(s_19171_jpg, building).
 holds(s_19171_jpg, feature).
 holds(s_19171_jpg, hotel).
 holds(s_19171_jpg, store).
-holds(s_19171_jpg, suburban).
 holds(s_19171_jpg, window).
 holds(s_19171_jpg, billboard).
 holds(s_19171_jpg, porch).
@@ -40656,7 +39309,6 @@ holds(s_19172_jpg, feature).
 holds(s_19172_jpg, hotel).
 holds(s_19172_jpg, store).
 holds(s_19172_jpg, suburban).
-holds(s_19172_jpg, door).
 holds(s_19172_jpg, billboard).
 holds(s_19172_jpg, porch).
 holds(s_19172_jpg, wallsign).
@@ -40674,6 +39326,7 @@ holds(s_19173_jpg, window).
 holds(s_19173_jpg, billboard).
 holds(s_19173_jpg, porch).
 holds(s_19173_jpg, wallsign).
+holds(s_19173_jpg, pipe).
 holds(s_19173_jpg, commercial).
 
 sample(s_19174_jpg).
@@ -40681,7 +39334,6 @@ holds(s_19174_jpg, building).
 holds(s_19174_jpg, feature).
 holds(s_19174_jpg, hotel).
 holds(s_19174_jpg, store).
-holds(s_19174_jpg, suburban).
 holds(s_19174_jpg, window).
 holds(s_19174_jpg, billboard).
 holds(s_19174_jpg, porch).
@@ -40694,7 +39346,6 @@ holds(s_19175_jpg, feature).
 holds(s_19175_jpg, hotel).
 holds(s_19175_jpg, store).
 holds(s_19175_jpg, suburban).
-holds(s_19175_jpg, door).
 holds(s_19175_jpg, billboard).
 holds(s_19175_jpg, porch).
 holds(s_19175_jpg, wallsign).
@@ -40712,6 +39363,7 @@ holds(s_19176_jpg, window).
 holds(s_19176_jpg, billboard).
 holds(s_19176_jpg, porch).
 holds(s_19176_jpg, wallsign).
+holds(s_19176_jpg, pipe).
 holds(s_19176_jpg, commercial).
 
 sample(s_19177_jpg).
@@ -40719,7 +39371,6 @@ holds(s_19177_jpg, building).
 holds(s_19177_jpg, feature).
 holds(s_19177_jpg, hotel).
 holds(s_19177_jpg, store).
-holds(s_19177_jpg, suburban).
 holds(s_19177_jpg, window).
 holds(s_19177_jpg, billboard).
 holds(s_19177_jpg, porch).
@@ -40732,7 +39383,6 @@ holds(s_19178_jpg, feature).
 holds(s_19178_jpg, hotel).
 holds(s_19178_jpg, store).
 holds(s_19178_jpg, suburban).
-holds(s_19178_jpg, door).
 holds(s_19178_jpg, billboard).
 holds(s_19178_jpg, porch).
 holds(s_19178_jpg, wallsign).
@@ -40750,6 +39400,7 @@ holds(s_19179_jpg, window).
 holds(s_19179_jpg, billboard).
 holds(s_19179_jpg, porch).
 holds(s_19179_jpg, wallsign).
+holds(s_19179_jpg, pipe).
 holds(s_19179_jpg, commercial).
 
 sample(s_19180_jpg).
@@ -40757,7 +39408,6 @@ holds(s_19180_jpg, building).
 holds(s_19180_jpg, feature).
 holds(s_19180_jpg, hotel).
 holds(s_19180_jpg, store).
-holds(s_19180_jpg, suburban).
 holds(s_19180_jpg, window).
 holds(s_19180_jpg, billboard).
 holds(s_19180_jpg, porch).
@@ -40770,7 +39420,6 @@ holds(s_19181_jpg, feature).
 holds(s_19181_jpg, hotel).
 holds(s_19181_jpg, store).
 holds(s_19181_jpg, suburban).
-holds(s_19181_jpg, door).
 holds(s_19181_jpg, billboard).
 holds(s_19181_jpg, porch).
 holds(s_19181_jpg, wallsign).
@@ -40788,6 +39437,7 @@ holds(s_19182_jpg, window).
 holds(s_19182_jpg, billboard).
 holds(s_19182_jpg, porch).
 holds(s_19182_jpg, wallsign).
+holds(s_19182_jpg, pipe).
 holds(s_19182_jpg, commercial).
 
 sample(s_19183_jpg).
@@ -40795,7 +39445,6 @@ holds(s_19183_jpg, building).
 holds(s_19183_jpg, feature).
 holds(s_19183_jpg, hotel).
 holds(s_19183_jpg, store).
-holds(s_19183_jpg, suburban).
 holds(s_19183_jpg, window).
 holds(s_19183_jpg, billboard).
 holds(s_19183_jpg, porch).
@@ -40808,7 +39457,6 @@ holds(s_19184_jpg, feature).
 holds(s_19184_jpg, hotel).
 holds(s_19184_jpg, store).
 holds(s_19184_jpg, suburban).
-holds(s_19184_jpg, door).
 holds(s_19184_jpg, billboard).
 holds(s_19184_jpg, porch).
 holds(s_19184_jpg, wallsign).
@@ -40834,7 +39482,6 @@ holds(s_19186_jpg, building).
 holds(s_19186_jpg, feature).
 holds(s_19186_jpg, hotel).
 holds(s_19186_jpg, store).
-holds(s_19186_jpg, suburban).
 holds(s_19186_jpg, window).
 holds(s_19186_jpg, billboard).
 holds(s_19186_jpg, porch).
@@ -40847,7 +39494,6 @@ holds(s_19187_jpg, feature).
 holds(s_19187_jpg, hotel).
 holds(s_19187_jpg, store).
 holds(s_19187_jpg, suburban).
-holds(s_19187_jpg, door).
 holds(s_19187_jpg, billboard).
 holds(s_19187_jpg, porch).
 holds(s_19187_jpg, wallsign).
@@ -40873,7 +39519,6 @@ holds(s_19189_jpg, building).
 holds(s_19189_jpg, feature).
 holds(s_19189_jpg, hotel).
 holds(s_19189_jpg, store).
-holds(s_19189_jpg, suburban).
 holds(s_19189_jpg, window).
 holds(s_19189_jpg, billboard).
 holds(s_19189_jpg, porch).
@@ -40886,7 +39531,6 @@ holds(s_19190_jpg, feature).
 holds(s_19190_jpg, hotel).
 holds(s_19190_jpg, store).
 holds(s_19190_jpg, suburban).
-holds(s_19190_jpg, door).
 holds(s_19190_jpg, billboard).
 holds(s_19190_jpg, porch).
 holds(s_19190_jpg, wallsign).
@@ -40904,6 +39548,7 @@ holds(s_19191_jpg, window).
 holds(s_19191_jpg, billboard).
 holds(s_19191_jpg, porch).
 holds(s_19191_jpg, wallsign).
+holds(s_19191_jpg, pipe).
 holds(s_19191_jpg, commercial).
 
 sample(s_19192_jpg).
@@ -40911,8 +39556,6 @@ holds(s_19192_jpg, building).
 holds(s_19192_jpg, feature).
 holds(s_19192_jpg, hotel).
 holds(s_19192_jpg, store).
-holds(s_19192_jpg, suburban).
-holds(s_19192_jpg, door).
 holds(s_19192_jpg, window).
 holds(s_19192_jpg, billboard).
 holds(s_19192_jpg, porch).
@@ -40925,7 +39568,6 @@ holds(s_19193_jpg, feature).
 holds(s_19193_jpg, hotel).
 holds(s_19193_jpg, store).
 holds(s_19193_jpg, suburban).
-holds(s_19193_jpg, door).
 holds(s_19193_jpg, billboard).
 holds(s_19193_jpg, porch).
 holds(s_19193_jpg, wallsign).
@@ -40951,7 +39593,6 @@ holds(s_19195_jpg, building).
 holds(s_19195_jpg, feature).
 holds(s_19195_jpg, hotel).
 holds(s_19195_jpg, store).
-holds(s_19195_jpg, suburban).
 holds(s_19195_jpg, window).
 holds(s_19195_jpg, billboard).
 holds(s_19195_jpg, porch).
@@ -40964,7 +39605,6 @@ holds(s_19196_jpg, feature).
 holds(s_19196_jpg, hotel).
 holds(s_19196_jpg, store).
 holds(s_19196_jpg, suburban).
-holds(s_19196_jpg, door).
 holds(s_19196_jpg, billboard).
 holds(s_19196_jpg, porch).
 holds(s_19196_jpg, wallsign).
@@ -40990,7 +39630,6 @@ holds(s_19198_jpg, building).
 holds(s_19198_jpg, feature).
 holds(s_19198_jpg, hotel).
 holds(s_19198_jpg, store).
-holds(s_19198_jpg, suburban).
 holds(s_19198_jpg, window).
 holds(s_19198_jpg, billboard).
 holds(s_19198_jpg, porch).
@@ -41003,7 +39642,6 @@ holds(s_19199_jpg, feature).
 holds(s_19199_jpg, hotel).
 holds(s_19199_jpg, store).
 holds(s_19199_jpg, suburban).
-holds(s_19199_jpg, door).
 holds(s_19199_jpg, billboard).
 holds(s_19199_jpg, porch).
 holds(s_19199_jpg, wallsign).
@@ -41029,7 +39667,6 @@ holds(s_19201_jpg, building).
 holds(s_19201_jpg, feature).
 holds(s_19201_jpg, hotel).
 holds(s_19201_jpg, store).
-holds(s_19201_jpg, suburban).
 holds(s_19201_jpg, window).
 holds(s_19201_jpg, billboard).
 holds(s_19201_jpg, porch).
@@ -41042,7 +39679,6 @@ holds(s_19202_jpg, feature).
 holds(s_19202_jpg, hotel).
 holds(s_19202_jpg, store).
 holds(s_19202_jpg, suburban).
-holds(s_19202_jpg, door).
 holds(s_19202_jpg, billboard).
 holds(s_19202_jpg, porch).
 holds(s_19202_jpg, wallsign).
@@ -41060,6 +39696,7 @@ holds(s_19203_jpg, window).
 holds(s_19203_jpg, billboard).
 holds(s_19203_jpg, porch).
 holds(s_19203_jpg, wallsign).
+holds(s_19203_jpg, pipe).
 holds(s_19203_jpg, commercial).
 
 sample(s_19204_jpg).
@@ -41067,7 +39704,6 @@ holds(s_19204_jpg, building).
 holds(s_19204_jpg, feature).
 holds(s_19204_jpg, hotel).
 holds(s_19204_jpg, store).
-holds(s_19204_jpg, suburban).
 holds(s_19204_jpg, window).
 holds(s_19204_jpg, billboard).
 holds(s_19204_jpg, porch).
@@ -41080,7 +39716,6 @@ holds(s_19205_jpg, feature).
 holds(s_19205_jpg, hotel).
 holds(s_19205_jpg, store).
 holds(s_19205_jpg, suburban).
-holds(s_19205_jpg, door).
 holds(s_19205_jpg, billboard).
 holds(s_19205_jpg, porch).
 holds(s_19205_jpg, wallsign).
@@ -41106,7 +39741,6 @@ holds(s_19207_jpg, building).
 holds(s_19207_jpg, feature).
 holds(s_19207_jpg, hotel).
 holds(s_19207_jpg, store).
-holds(s_19207_jpg, suburban).
 holds(s_19207_jpg, window).
 holds(s_19207_jpg, billboard).
 holds(s_19207_jpg, porch).
@@ -41145,7 +39779,6 @@ holds(s_19210_jpg, building).
 holds(s_19210_jpg, feature).
 holds(s_19210_jpg, hotel).
 holds(s_19210_jpg, store).
-holds(s_19210_jpg, suburban).
 holds(s_19210_jpg, window).
 holds(s_19210_jpg, billboard).
 holds(s_19210_jpg, porch).
@@ -41158,7 +39791,6 @@ holds(s_19211_jpg, feature).
 holds(s_19211_jpg, hotel).
 holds(s_19211_jpg, store).
 holds(s_19211_jpg, suburban).
-holds(s_19211_jpg, door).
 holds(s_19211_jpg, billboard).
 holds(s_19211_jpg, porch).
 holds(s_19211_jpg, wallsign).
@@ -41184,7 +39816,6 @@ holds(s_19213_jpg, building).
 holds(s_19213_jpg, feature).
 holds(s_19213_jpg, hotel).
 holds(s_19213_jpg, store).
-holds(s_19213_jpg, suburban).
 holds(s_19213_jpg, window).
 holds(s_19213_jpg, billboard).
 holds(s_19213_jpg, porch).
@@ -41197,7 +39828,6 @@ holds(s_19214_jpg, feature).
 holds(s_19214_jpg, hotel).
 holds(s_19214_jpg, store).
 holds(s_19214_jpg, suburban).
-holds(s_19214_jpg, door).
 holds(s_19214_jpg, billboard).
 holds(s_19214_jpg, porch).
 holds(s_19214_jpg, wallsign).
@@ -41215,6 +39845,7 @@ holds(s_19215_jpg, window).
 holds(s_19215_jpg, billboard).
 holds(s_19215_jpg, porch).
 holds(s_19215_jpg, wallsign).
+holds(s_19215_jpg, pipe).
 holds(s_19215_jpg, commercial).
 
 sample(s_19216_jpg).
@@ -41222,7 +39853,6 @@ holds(s_19216_jpg, building).
 holds(s_19216_jpg, feature).
 holds(s_19216_jpg, hotel).
 holds(s_19216_jpg, store).
-holds(s_19216_jpg, suburban).
 holds(s_19216_jpg, window).
 holds(s_19216_jpg, billboard).
 holds(s_19216_jpg, porch).
@@ -41260,7 +39890,6 @@ holds(s_19219_jpg, building).
 holds(s_19219_jpg, feature).
 holds(s_19219_jpg, hotel).
 holds(s_19219_jpg, store).
-holds(s_19219_jpg, suburban).
 holds(s_19219_jpg, window).
 holds(s_19219_jpg, billboard).
 holds(s_19219_jpg, porch).
@@ -41273,7 +39902,6 @@ holds(s_19220_jpg, feature).
 holds(s_19220_jpg, hotel).
 holds(s_19220_jpg, store).
 holds(s_19220_jpg, suburban).
-holds(s_19220_jpg, door).
 holds(s_19220_jpg, billboard).
 holds(s_19220_jpg, porch).
 holds(s_19220_jpg, wallsign).
@@ -41291,6 +39919,7 @@ holds(s_19221_jpg, window).
 holds(s_19221_jpg, billboard).
 holds(s_19221_jpg, porch).
 holds(s_19221_jpg, wallsign).
+holds(s_19221_jpg, pipe).
 holds(s_19221_jpg, commercial).
 
 sample(s_19222_jpg).
@@ -41298,7 +39927,6 @@ holds(s_19222_jpg, building).
 holds(s_19222_jpg, feature).
 holds(s_19222_jpg, hotel).
 holds(s_19222_jpg, store).
-holds(s_19222_jpg, suburban).
 holds(s_19222_jpg, window).
 holds(s_19222_jpg, billboard).
 holds(s_19222_jpg, porch).
@@ -41311,7 +39939,6 @@ holds(s_19223_jpg, feature).
 holds(s_19223_jpg, hotel).
 holds(s_19223_jpg, store).
 holds(s_19223_jpg, suburban).
-holds(s_19223_jpg, door).
 holds(s_19223_jpg, billboard).
 holds(s_19223_jpg, porch).
 holds(s_19223_jpg, wallsign).
@@ -41337,7 +39964,6 @@ holds(s_19225_jpg, building).
 holds(s_19225_jpg, feature).
 holds(s_19225_jpg, hotel).
 holds(s_19225_jpg, store).
-holds(s_19225_jpg, suburban).
 holds(s_19225_jpg, window).
 holds(s_19225_jpg, billboard).
 holds(s_19225_jpg, porch).
@@ -41350,7 +39976,6 @@ holds(s_19226_jpg, feature).
 holds(s_19226_jpg, hotel).
 holds(s_19226_jpg, store).
 holds(s_19226_jpg, suburban).
-holds(s_19226_jpg, door).
 holds(s_19226_jpg, billboard).
 holds(s_19226_jpg, porch).
 holds(s_19226_jpg, wallsign).
@@ -41368,6 +39993,7 @@ holds(s_19227_jpg, window).
 holds(s_19227_jpg, billboard).
 holds(s_19227_jpg, porch).
 holds(s_19227_jpg, wallsign).
+holds(s_19227_jpg, pipe).
 holds(s_19227_jpg, commercial).
 
 sample(s_19228_jpg).
@@ -41375,8 +40001,6 @@ holds(s_19228_jpg, building).
 holds(s_19228_jpg, feature).
 holds(s_19228_jpg, hotel).
 holds(s_19228_jpg, store).
-holds(s_19228_jpg, suburban).
-holds(s_19228_jpg, door).
 holds(s_19228_jpg, window).
 holds(s_19228_jpg, billboard).
 holds(s_19228_jpg, porch).
@@ -41389,7 +40013,6 @@ holds(s_19229_jpg, feature).
 holds(s_19229_jpg, hotel).
 holds(s_19229_jpg, store).
 holds(s_19229_jpg, suburban).
-holds(s_19229_jpg, door).
 holds(s_19229_jpg, billboard).
 holds(s_19229_jpg, porch).
 holds(s_19229_jpg, wallsign).
@@ -41415,7 +40038,6 @@ holds(s_19231_jpg, building).
 holds(s_19231_jpg, feature).
 holds(s_19231_jpg, hotel).
 holds(s_19231_jpg, store).
-holds(s_19231_jpg, suburban).
 holds(s_19231_jpg, window).
 holds(s_19231_jpg, billboard).
 holds(s_19231_jpg, porch).
@@ -41428,7 +40050,6 @@ holds(s_19232_jpg, feature).
 holds(s_19232_jpg, hotel).
 holds(s_19232_jpg, store).
 holds(s_19232_jpg, suburban).
-holds(s_19232_jpg, door).
 holds(s_19232_jpg, billboard).
 holds(s_19232_jpg, porch).
 holds(s_19232_jpg, wallsign).
@@ -41454,7 +40075,6 @@ holds(s_19234_jpg, building).
 holds(s_19234_jpg, feature).
 holds(s_19234_jpg, hotel).
 holds(s_19234_jpg, store).
-holds(s_19234_jpg, suburban).
 holds(s_19234_jpg, window).
 holds(s_19234_jpg, billboard).
 holds(s_19234_jpg, porch).
@@ -41485,6 +40105,7 @@ holds(s_19236_jpg, window).
 holds(s_19236_jpg, billboard).
 holds(s_19236_jpg, porch).
 holds(s_19236_jpg, wallsign).
+holds(s_19236_jpg, pipe).
 holds(s_19236_jpg, commercial).
 
 sample(s_19237_jpg).
@@ -41492,7 +40113,6 @@ holds(s_19237_jpg, building).
 holds(s_19237_jpg, feature).
 holds(s_19237_jpg, hotel).
 holds(s_19237_jpg, store).
-holds(s_19237_jpg, suburban).
 holds(s_19237_jpg, window).
 holds(s_19237_jpg, billboard).
 holds(s_19237_jpg, porch).
@@ -41505,7 +40125,6 @@ holds(s_19238_jpg, feature).
 holds(s_19238_jpg, hotel).
 holds(s_19238_jpg, store).
 holds(s_19238_jpg, suburban).
-holds(s_19238_jpg, door).
 holds(s_19238_jpg, billboard).
 holds(s_19238_jpg, porch).
 holds(s_19238_jpg, wallsign).
@@ -41531,7 +40150,6 @@ holds(s_19240_jpg, building).
 holds(s_19240_jpg, feature).
 holds(s_19240_jpg, hotel).
 holds(s_19240_jpg, store).
-holds(s_19240_jpg, suburban).
 holds(s_19240_jpg, window).
 holds(s_19240_jpg, billboard).
 holds(s_19240_jpg, porch).
@@ -41570,7 +40188,6 @@ holds(s_19243_jpg, building).
 holds(s_19243_jpg, feature).
 holds(s_19243_jpg, hotel).
 holds(s_19243_jpg, store).
-holds(s_19243_jpg, suburban).
 holds(s_19243_jpg, window).
 holds(s_19243_jpg, billboard).
 holds(s_19243_jpg, porch).
@@ -41583,7 +40200,6 @@ holds(s_19244_jpg, feature).
 holds(s_19244_jpg, hotel).
 holds(s_19244_jpg, store).
 holds(s_19244_jpg, suburban).
-holds(s_19244_jpg, door).
 holds(s_19244_jpg, billboard).
 holds(s_19244_jpg, porch).
 holds(s_19244_jpg, wallsign).
@@ -41601,6 +40217,7 @@ holds(s_19245_jpg, window).
 holds(s_19245_jpg, billboard).
 holds(s_19245_jpg, porch).
 holds(s_19245_jpg, wallsign).
+holds(s_19245_jpg, pipe).
 holds(s_19245_jpg, commercial).
 
 sample(s_19246_jpg).
@@ -41608,7 +40225,6 @@ holds(s_19246_jpg, building).
 holds(s_19246_jpg, feature).
 holds(s_19246_jpg, hotel).
 holds(s_19246_jpg, store).
-holds(s_19246_jpg, suburban).
 holds(s_19246_jpg, window).
 holds(s_19246_jpg, billboard).
 holds(s_19246_jpg, porch).
@@ -41646,7 +40262,6 @@ holds(s_19249_jpg, building).
 holds(s_19249_jpg, feature).
 holds(s_19249_jpg, hotel).
 holds(s_19249_jpg, store).
-holds(s_19249_jpg, suburban).
 holds(s_19249_jpg, window).
 holds(s_19249_jpg, billboard).
 holds(s_19249_jpg, porch).
@@ -41684,7 +40299,6 @@ holds(s_19252_jpg, building).
 holds(s_19252_jpg, feature).
 holds(s_19252_jpg, hotel).
 holds(s_19252_jpg, store).
-holds(s_19252_jpg, suburban).
 holds(s_19252_jpg, window).
 holds(s_19252_jpg, billboard).
 holds(s_19252_jpg, porch).
@@ -41722,7 +40336,6 @@ holds(s_19255_jpg, building).
 holds(s_19255_jpg, feature).
 holds(s_19255_jpg, hotel).
 holds(s_19255_jpg, store).
-holds(s_19255_jpg, suburban).
 holds(s_19255_jpg, window).
 holds(s_19255_jpg, billboard).
 holds(s_19255_jpg, porch).
@@ -41735,7 +40348,6 @@ holds(s_19256_jpg, feature).
 holds(s_19256_jpg, hotel).
 holds(s_19256_jpg, store).
 holds(s_19256_jpg, suburban).
-holds(s_19256_jpg, door).
 holds(s_19256_jpg, billboard).
 holds(s_19256_jpg, porch).
 holds(s_19256_jpg, wallsign).
@@ -41753,6 +40365,7 @@ holds(s_19257_jpg, window).
 holds(s_19257_jpg, billboard).
 holds(s_19257_jpg, porch).
 holds(s_19257_jpg, wallsign).
+holds(s_19257_jpg, pipe).
 holds(s_19257_jpg, commercial).
 
 sample(s_19258_jpg).
@@ -41760,7 +40373,6 @@ holds(s_19258_jpg, building).
 holds(s_19258_jpg, feature).
 holds(s_19258_jpg, hotel).
 holds(s_19258_jpg, store).
-holds(s_19258_jpg, suburban).
 holds(s_19258_jpg, window).
 holds(s_19258_jpg, billboard).
 holds(s_19258_jpg, porch).
@@ -41773,7 +40385,6 @@ holds(s_19259_jpg, feature).
 holds(s_19259_jpg, hotel).
 holds(s_19259_jpg, store).
 holds(s_19259_jpg, suburban).
-holds(s_19259_jpg, door).
 holds(s_19259_jpg, billboard).
 holds(s_19259_jpg, porch).
 holds(s_19259_jpg, wallsign).
@@ -41799,7 +40410,6 @@ holds(s_19261_jpg, building).
 holds(s_19261_jpg, feature).
 holds(s_19261_jpg, hotel).
 holds(s_19261_jpg, store).
-holds(s_19261_jpg, suburban).
 holds(s_19261_jpg, window).
 holds(s_19261_jpg, billboard).
 holds(s_19261_jpg, porch).
@@ -41838,7 +40448,6 @@ holds(s_19264_jpg, building).
 holds(s_19264_jpg, feature).
 holds(s_19264_jpg, hotel).
 holds(s_19264_jpg, store).
-holds(s_19264_jpg, suburban).
 holds(s_19264_jpg, window).
 holds(s_19264_jpg, billboard).
 holds(s_19264_jpg, porch).
@@ -41851,7 +40460,6 @@ holds(s_19265_jpg, feature).
 holds(s_19265_jpg, hotel).
 holds(s_19265_jpg, store).
 holds(s_19265_jpg, suburban).
-holds(s_19265_jpg, door).
 holds(s_19265_jpg, billboard).
 holds(s_19265_jpg, porch).
 holds(s_19265_jpg, wallsign).
@@ -41915,7 +40523,6 @@ holds(s_19270_jpg, building).
 holds(s_19270_jpg, feature).
 holds(s_19270_jpg, hotel).
 holds(s_19270_jpg, store).
-holds(s_19270_jpg, suburban).
 holds(s_19270_jpg, window).
 holds(s_19270_jpg, billboard).
 holds(s_19270_jpg, porch).
@@ -41928,7 +40535,6 @@ holds(s_19271_jpg, feature).
 holds(s_19271_jpg, hotel).
 holds(s_19271_jpg, store).
 holds(s_19271_jpg, suburban).
-holds(s_19271_jpg, door).
 holds(s_19271_jpg, billboard).
 holds(s_19271_jpg, porch).
 holds(s_19271_jpg, wallsign).
@@ -41946,6 +40552,7 @@ holds(s_19272_jpg, window).
 holds(s_19272_jpg, billboard).
 holds(s_19272_jpg, porch).
 holds(s_19272_jpg, wallsign).
+holds(s_19272_jpg, pipe).
 holds(s_19272_jpg, commercial).
 
 sample(s_19273_jpg).
@@ -41953,7 +40560,6 @@ holds(s_19273_jpg, building).
 holds(s_19273_jpg, feature).
 holds(s_19273_jpg, hotel).
 holds(s_19273_jpg, store).
-holds(s_19273_jpg, suburban).
 holds(s_19273_jpg, window).
 holds(s_19273_jpg, billboard).
 holds(s_19273_jpg, porch).
@@ -41966,7 +40572,6 @@ holds(s_19274_jpg, feature).
 holds(s_19274_jpg, hotel).
 holds(s_19274_jpg, store).
 holds(s_19274_jpg, suburban).
-holds(s_19274_jpg, door).
 holds(s_19274_jpg, billboard).
 holds(s_19274_jpg, porch).
 holds(s_19274_jpg, wallsign).
@@ -41992,7 +40597,6 @@ holds(s_19276_jpg, building).
 holds(s_19276_jpg, feature).
 holds(s_19276_jpg, hotel).
 holds(s_19276_jpg, store).
-holds(s_19276_jpg, suburban).
 holds(s_19276_jpg, window).
 holds(s_19276_jpg, billboard).
 holds(s_19276_jpg, porch).
@@ -42005,7 +40609,6 @@ holds(s_19277_jpg, feature).
 holds(s_19277_jpg, hotel).
 holds(s_19277_jpg, store).
 holds(s_19277_jpg, suburban).
-holds(s_19277_jpg, door).
 holds(s_19277_jpg, billboard).
 holds(s_19277_jpg, porch).
 holds(s_19277_jpg, wallsign).
@@ -42023,6 +40626,7 @@ holds(s_19278_jpg, window).
 holds(s_19278_jpg, billboard).
 holds(s_19278_jpg, porch).
 holds(s_19278_jpg, wallsign).
+holds(s_19278_jpg, pipe).
 holds(s_19278_jpg, commercial).
 
 sample(s_19279_jpg).
@@ -42030,7 +40634,6 @@ holds(s_19279_jpg, building).
 holds(s_19279_jpg, feature).
 holds(s_19279_jpg, hotel).
 holds(s_19279_jpg, store).
-holds(s_19279_jpg, suburban).
 holds(s_19279_jpg, window).
 holds(s_19279_jpg, billboard).
 holds(s_19279_jpg, porch).
@@ -42043,7 +40646,6 @@ holds(s_19280_jpg, feature).
 holds(s_19280_jpg, hotel).
 holds(s_19280_jpg, store).
 holds(s_19280_jpg, suburban).
-holds(s_19280_jpg, door).
 holds(s_19280_jpg, billboard).
 holds(s_19280_jpg, porch).
 holds(s_19280_jpg, wallsign).
@@ -42069,7 +40671,6 @@ holds(s_19282_jpg, building).
 holds(s_19282_jpg, feature).
 holds(s_19282_jpg, hotel).
 holds(s_19282_jpg, store).
-holds(s_19282_jpg, suburban).
 holds(s_19282_jpg, window).
 holds(s_19282_jpg, billboard).
 holds(s_19282_jpg, porch).
@@ -42094,18 +40695,18 @@ holds(s_19284_jpg, feature).
 holds(s_19284_jpg, hotel).
 holds(s_19284_jpg, store).
 holds(s_19284_jpg, suburban).
+holds(s_19284_jpg, door).
 holds(s_19284_jpg, window).
 holds(s_19284_jpg, billboard).
 holds(s_19284_jpg, porch).
 holds(s_19284_jpg, wallsign).
-holds(s_19284_jpg, industrial).
+holds(s_19284_jpg, commercial).
 
 sample(s_19285_jpg).
 holds(s_19285_jpg, building).
 holds(s_19285_jpg, feature).
 holds(s_19285_jpg, hotel).
 holds(s_19285_jpg, store).
-holds(s_19285_jpg, suburban).
 holds(s_19285_jpg, window).
 holds(s_19285_jpg, billboard).
 holds(s_19285_jpg, porch).
@@ -42118,7 +40719,6 @@ holds(s_19286_jpg, feature).
 holds(s_19286_jpg, hotel).
 holds(s_19286_jpg, store).
 holds(s_19286_jpg, suburban).
-holds(s_19286_jpg, door).
 holds(s_19286_jpg, billboard).
 holds(s_19286_jpg, porch).
 holds(s_19286_jpg, wallsign).
@@ -42144,7 +40744,6 @@ holds(s_19288_jpg, building).
 holds(s_19288_jpg, feature).
 holds(s_19288_jpg, hotel).
 holds(s_19288_jpg, store).
-holds(s_19288_jpg, suburban).
 holds(s_19288_jpg, window).
 holds(s_19288_jpg, billboard).
 holds(s_19288_jpg, porch).
@@ -42157,7 +40756,6 @@ holds(s_19289_jpg, feature).
 holds(s_19289_jpg, hotel).
 holds(s_19289_jpg, store).
 holds(s_19289_jpg, suburban).
-holds(s_19289_jpg, door).
 holds(s_19289_jpg, billboard).
 holds(s_19289_jpg, porch).
 holds(s_19289_jpg, wallsign).
@@ -42175,6 +40773,7 @@ holds(s_19290_jpg, window).
 holds(s_19290_jpg, billboard).
 holds(s_19290_jpg, porch).
 holds(s_19290_jpg, wallsign).
+holds(s_19290_jpg, pipe).
 holds(s_19290_jpg, commercial).
 
 sample(s_19291_jpg).
@@ -42182,7 +40781,6 @@ holds(s_19291_jpg, building).
 holds(s_19291_jpg, feature).
 holds(s_19291_jpg, hotel).
 holds(s_19291_jpg, store).
-holds(s_19291_jpg, suburban).
 holds(s_19291_jpg, window).
 holds(s_19291_jpg, billboard).
 holds(s_19291_jpg, porch).
@@ -42195,7 +40793,6 @@ holds(s_19292_jpg, feature).
 holds(s_19292_jpg, hotel).
 holds(s_19292_jpg, store).
 holds(s_19292_jpg, suburban).
-holds(s_19292_jpg, door).
 holds(s_19292_jpg, billboard).
 holds(s_19292_jpg, porch).
 holds(s_19292_jpg, wallsign).
@@ -42213,6 +40810,7 @@ holds(s_19293_jpg, window).
 holds(s_19293_jpg, billboard).
 holds(s_19293_jpg, porch).
 holds(s_19293_jpg, wallsign).
+holds(s_19293_jpg, pipe).
 holds(s_19293_jpg, commercial).
 
 sample(s_19294_jpg).
@@ -42220,7 +40818,6 @@ holds(s_19294_jpg, building).
 holds(s_19294_jpg, feature).
 holds(s_19294_jpg, hotel).
 holds(s_19294_jpg, store).
-holds(s_19294_jpg, suburban).
 holds(s_19294_jpg, window).
 holds(s_19294_jpg, billboard).
 holds(s_19294_jpg, porch).
@@ -42233,7 +40830,6 @@ holds(s_19295_jpg, feature).
 holds(s_19295_jpg, hotel).
 holds(s_19295_jpg, store).
 holds(s_19295_jpg, suburban).
-holds(s_19295_jpg, door).
 holds(s_19295_jpg, billboard).
 holds(s_19295_jpg, porch).
 holds(s_19295_jpg, wallsign).
@@ -42259,7 +40855,6 @@ holds(s_19297_jpg, building).
 holds(s_19297_jpg, feature).
 holds(s_19297_jpg, hotel).
 holds(s_19297_jpg, store).
-holds(s_19297_jpg, suburban).
 holds(s_19297_jpg, window).
 holds(s_19297_jpg, billboard).
 holds(s_19297_jpg, porch).
@@ -42272,7 +40867,6 @@ holds(s_19298_jpg, feature).
 holds(s_19298_jpg, hotel).
 holds(s_19298_jpg, store).
 holds(s_19298_jpg, suburban).
-holds(s_19298_jpg, door).
 holds(s_19298_jpg, billboard).
 holds(s_19298_jpg, porch).
 holds(s_19298_jpg, wallsign).
@@ -42290,6 +40884,7 @@ holds(s_19299_jpg, window).
 holds(s_19299_jpg, billboard).
 holds(s_19299_jpg, porch).
 holds(s_19299_jpg, wallsign).
+holds(s_19299_jpg, pipe).
 holds(s_19299_jpg, commercial).
 
 sample(s_19300_jpg).
@@ -42297,7 +40892,6 @@ holds(s_19300_jpg, building).
 holds(s_19300_jpg, feature).
 holds(s_19300_jpg, hotel).
 holds(s_19300_jpg, store).
-holds(s_19300_jpg, suburban).
 holds(s_19300_jpg, window).
 holds(s_19300_jpg, billboard).
 holds(s_19300_jpg, porch).
@@ -42310,7 +40904,6 @@ holds(s_19301_jpg, feature).
 holds(s_19301_jpg, hotel).
 holds(s_19301_jpg, store).
 holds(s_19301_jpg, suburban).
-holds(s_19301_jpg, door).
 holds(s_19301_jpg, billboard).
 holds(s_19301_jpg, porch).
 holds(s_19301_jpg, wallsign).
@@ -42336,7 +40929,6 @@ holds(s_19303_jpg, building).
 holds(s_19303_jpg, feature).
 holds(s_19303_jpg, hotel).
 holds(s_19303_jpg, store).
-holds(s_19303_jpg, suburban).
 holds(s_19303_jpg, window).
 holds(s_19303_jpg, billboard).
 holds(s_19303_jpg, porch).
@@ -42349,7 +40941,6 @@ holds(s_19304_jpg, feature).
 holds(s_19304_jpg, hotel).
 holds(s_19304_jpg, store).
 holds(s_19304_jpg, suburban).
-holds(s_19304_jpg, door).
 holds(s_19304_jpg, billboard).
 holds(s_19304_jpg, porch).
 holds(s_19304_jpg, wallsign).
@@ -42375,8 +40966,6 @@ holds(s_19306_jpg, building).
 holds(s_19306_jpg, feature).
 holds(s_19306_jpg, hotel).
 holds(s_19306_jpg, store).
-holds(s_19306_jpg, suburban).
-holds(s_19306_jpg, door).
 holds(s_19306_jpg, window).
 holds(s_19306_jpg, billboard).
 holds(s_19306_jpg, porch).
@@ -42389,7 +40978,6 @@ holds(s_19307_jpg, feature).
 holds(s_19307_jpg, hotel).
 holds(s_19307_jpg, store).
 holds(s_19307_jpg, suburban).
-holds(s_19307_jpg, door).
 holds(s_19307_jpg, billboard).
 holds(s_19307_jpg, porch).
 holds(s_19307_jpg, wallsign).
@@ -42415,7 +41003,6 @@ holds(s_19309_jpg, building).
 holds(s_19309_jpg, feature).
 holds(s_19309_jpg, hotel).
 holds(s_19309_jpg, store).
-holds(s_19309_jpg, suburban).
 holds(s_19309_jpg, window).
 holds(s_19309_jpg, billboard).
 holds(s_19309_jpg, porch).
@@ -42428,7 +41015,6 @@ holds(s_19310_jpg, feature).
 holds(s_19310_jpg, hotel).
 holds(s_19310_jpg, store).
 holds(s_19310_jpg, suburban).
-holds(s_19310_jpg, door).
 holds(s_19310_jpg, billboard).
 holds(s_19310_jpg, porch).
 holds(s_19310_jpg, wallsign).
@@ -42454,7 +41040,6 @@ holds(s_19312_jpg, building).
 holds(s_19312_jpg, feature).
 holds(s_19312_jpg, hotel).
 holds(s_19312_jpg, store).
-holds(s_19312_jpg, suburban).
 holds(s_19312_jpg, window).
 holds(s_19312_jpg, billboard).
 holds(s_19312_jpg, porch).
@@ -42467,7 +41052,6 @@ holds(s_19313_jpg, feature).
 holds(s_19313_jpg, hotel).
 holds(s_19313_jpg, store).
 holds(s_19313_jpg, suburban).
-holds(s_19313_jpg, door).
 holds(s_19313_jpg, billboard).
 holds(s_19313_jpg, porch).
 holds(s_19313_jpg, wallsign).
@@ -42493,7 +41077,6 @@ holds(s_19315_jpg, building).
 holds(s_19315_jpg, feature).
 holds(s_19315_jpg, hotel).
 holds(s_19315_jpg, store).
-holds(s_19315_jpg, suburban).
 holds(s_19315_jpg, window).
 holds(s_19315_jpg, billboard).
 holds(s_19315_jpg, porch).
@@ -42506,7 +41089,6 @@ holds(s_19316_jpg, feature).
 holds(s_19316_jpg, hotel).
 holds(s_19316_jpg, store).
 holds(s_19316_jpg, suburban).
-holds(s_19316_jpg, door).
 holds(s_19316_jpg, billboard).
 holds(s_19316_jpg, porch).
 holds(s_19316_jpg, wallsign).
@@ -42532,7 +41114,6 @@ holds(s_19318_jpg, building).
 holds(s_19318_jpg, feature).
 holds(s_19318_jpg, hotel).
 holds(s_19318_jpg, store).
-holds(s_19318_jpg, suburban).
 holds(s_19318_jpg, window).
 holds(s_19318_jpg, billboard).
 holds(s_19318_jpg, porch).
@@ -42571,7 +41152,6 @@ holds(s_19321_jpg, building).
 holds(s_19321_jpg, feature).
 holds(s_19321_jpg, hotel).
 holds(s_19321_jpg, store).
-holds(s_19321_jpg, suburban).
 holds(s_19321_jpg, window).
 holds(s_19321_jpg, billboard).
 holds(s_19321_jpg, porch).
@@ -42601,6 +41181,7 @@ holds(s_19323_jpg, window).
 holds(s_19323_jpg, billboard).
 holds(s_19323_jpg, porch).
 holds(s_19323_jpg, wallsign).
+holds(s_19323_jpg, pipe).
 holds(s_19323_jpg, commercial).
 
 sample(s_19324_jpg).
@@ -42608,7 +41189,6 @@ holds(s_19324_jpg, building).
 holds(s_19324_jpg, feature).
 holds(s_19324_jpg, hotel).
 holds(s_19324_jpg, store).
-holds(s_19324_jpg, suburban).
 holds(s_19324_jpg, window).
 holds(s_19324_jpg, billboard).
 holds(s_19324_jpg, porch).
@@ -42647,7 +41227,6 @@ holds(s_19327_jpg, building).
 holds(s_19327_jpg, feature).
 holds(s_19327_jpg, hotel).
 holds(s_19327_jpg, store).
-holds(s_19327_jpg, suburban).
 holds(s_19327_jpg, window).
 holds(s_19327_jpg, billboard).
 holds(s_19327_jpg, porch).
@@ -42660,7 +41239,6 @@ holds(s_19328_jpg, feature).
 holds(s_19328_jpg, hotel).
 holds(s_19328_jpg, store).
 holds(s_19328_jpg, suburban).
-holds(s_19328_jpg, door).
 holds(s_19328_jpg, billboard).
 holds(s_19328_jpg, porch).
 holds(s_19328_jpg, wallsign).
@@ -42686,7 +41264,6 @@ holds(s_19330_jpg, building).
 holds(s_19330_jpg, feature).
 holds(s_19330_jpg, hotel).
 holds(s_19330_jpg, store).
-holds(s_19330_jpg, suburban).
 holds(s_19330_jpg, window).
 holds(s_19330_jpg, billboard).
 holds(s_19330_jpg, porch).
@@ -42699,7 +41276,6 @@ holds(s_19331_jpg, feature).
 holds(s_19331_jpg, hotel).
 holds(s_19331_jpg, store).
 holds(s_19331_jpg, suburban).
-holds(s_19331_jpg, door).
 holds(s_19331_jpg, billboard).
 holds(s_19331_jpg, porch).
 holds(s_19331_jpg, wallsign).
@@ -42717,6 +41293,7 @@ holds(s_19332_jpg, window).
 holds(s_19332_jpg, billboard).
 holds(s_19332_jpg, porch).
 holds(s_19332_jpg, wallsign).
+holds(s_19332_jpg, pipe).
 holds(s_19332_jpg, commercial).
 
 sample(s_19333_jpg).
@@ -42724,7 +41301,6 @@ holds(s_19333_jpg, building).
 holds(s_19333_jpg, feature).
 holds(s_19333_jpg, hotel).
 holds(s_19333_jpg, store).
-holds(s_19333_jpg, suburban).
 holds(s_19333_jpg, window).
 holds(s_19333_jpg, billboard).
 holds(s_19333_jpg, porch).
@@ -42737,7 +41313,6 @@ holds(s_19334_jpg, feature).
 holds(s_19334_jpg, hotel).
 holds(s_19334_jpg, store).
 holds(s_19334_jpg, suburban).
-holds(s_19334_jpg, door).
 holds(s_19334_jpg, billboard).
 holds(s_19334_jpg, porch).
 holds(s_19334_jpg, wallsign).
@@ -42755,6 +41330,7 @@ holds(s_19335_jpg, window).
 holds(s_19335_jpg, billboard).
 holds(s_19335_jpg, porch).
 holds(s_19335_jpg, wallsign).
+holds(s_19335_jpg, pipe).
 holds(s_19335_jpg, commercial).
 
 sample(s_19336_jpg).
@@ -42762,8 +41338,6 @@ holds(s_19336_jpg, building).
 holds(s_19336_jpg, feature).
 holds(s_19336_jpg, hotel).
 holds(s_19336_jpg, store).
-holds(s_19336_jpg, suburban).
-holds(s_19336_jpg, door).
 holds(s_19336_jpg, window).
 holds(s_19336_jpg, billboard).
 holds(s_19336_jpg, porch).
@@ -42776,6 +41350,7 @@ holds(s_19337_jpg, feature).
 holds(s_19337_jpg, hotel).
 holds(s_19337_jpg, store).
 holds(s_19337_jpg, suburban).
+holds(s_19337_jpg, door).
 holds(s_19337_jpg, billboard).
 holds(s_19337_jpg, porch).
 holds(s_19337_jpg, wallsign).
@@ -42801,7 +41376,6 @@ holds(s_19339_jpg, building).
 holds(s_19339_jpg, feature).
 holds(s_19339_jpg, hotel).
 holds(s_19339_jpg, store).
-holds(s_19339_jpg, suburban).
 holds(s_19339_jpg, window).
 holds(s_19339_jpg, billboard).
 holds(s_19339_jpg, porch).
@@ -42832,7 +41406,7 @@ holds(s_19341_jpg, window).
 holds(s_19341_jpg, billboard).
 holds(s_19341_jpg, porch).
 holds(s_19341_jpg, wallsign).
-holds(s_19341_jpg, car).
+holds(s_19341_jpg, pipe).
 holds(s_19341_jpg, commercial).
 
 sample(s_19342_jpg).
@@ -42840,7 +41414,6 @@ holds(s_19342_jpg, building).
 holds(s_19342_jpg, feature).
 holds(s_19342_jpg, hotel).
 holds(s_19342_jpg, store).
-holds(s_19342_jpg, suburban).
 holds(s_19342_jpg, window).
 holds(s_19342_jpg, billboard).
 holds(s_19342_jpg, porch).
@@ -42853,7 +41426,6 @@ holds(s_19343_jpg, feature).
 holds(s_19343_jpg, hotel).
 holds(s_19343_jpg, store).
 holds(s_19343_jpg, suburban).
-holds(s_19343_jpg, door).
 holds(s_19343_jpg, billboard).
 holds(s_19343_jpg, porch).
 holds(s_19343_jpg, wallsign).
@@ -42871,6 +41443,7 @@ holds(s_19344_jpg, window).
 holds(s_19344_jpg, billboard).
 holds(s_19344_jpg, porch).
 holds(s_19344_jpg, wallsign).
+holds(s_19344_jpg, pipe).
 holds(s_19344_jpg, commercial).
 
 sample(s_19345_jpg).
@@ -42878,7 +41451,6 @@ holds(s_19345_jpg, building).
 holds(s_19345_jpg, feature).
 holds(s_19345_jpg, hotel).
 holds(s_19345_jpg, store).
-holds(s_19345_jpg, suburban).
 holds(s_19345_jpg, window).
 holds(s_19345_jpg, billboard).
 holds(s_19345_jpg, porch).
@@ -42917,7 +41489,6 @@ holds(s_19348_jpg, building).
 holds(s_19348_jpg, feature).
 holds(s_19348_jpg, hotel).
 holds(s_19348_jpg, store).
-holds(s_19348_jpg, suburban).
 holds(s_19348_jpg, window).
 holds(s_19348_jpg, billboard).
 holds(s_19348_jpg, porch).
@@ -42948,6 +41519,7 @@ holds(s_19350_jpg, window).
 holds(s_19350_jpg, billboard).
 holds(s_19350_jpg, porch).
 holds(s_19350_jpg, wallsign).
+holds(s_19350_jpg, pipe).
 holds(s_19350_jpg, commercial).
 
 sample(s_19351_jpg).
@@ -42955,7 +41527,6 @@ holds(s_19351_jpg, building).
 holds(s_19351_jpg, feature).
 holds(s_19351_jpg, hotel).
 holds(s_19351_jpg, store).
-holds(s_19351_jpg, suburban).
 holds(s_19351_jpg, window).
 holds(s_19351_jpg, billboard).
 holds(s_19351_jpg, porch).
@@ -42968,7 +41539,6 @@ holds(s_19352_jpg, feature).
 holds(s_19352_jpg, hotel).
 holds(s_19352_jpg, store).
 holds(s_19352_jpg, suburban).
-holds(s_19352_jpg, door).
 holds(s_19352_jpg, billboard).
 holds(s_19352_jpg, porch).
 holds(s_19352_jpg, wallsign).
@@ -42986,6 +41556,7 @@ holds(s_19353_jpg, window).
 holds(s_19353_jpg, billboard).
 holds(s_19353_jpg, porch).
 holds(s_19353_jpg, wallsign).
+holds(s_19353_jpg, pipe).
 holds(s_19353_jpg, commercial).
 
 sample(s_19354_jpg).
@@ -42993,7 +41564,6 @@ holds(s_19354_jpg, building).
 holds(s_19354_jpg, feature).
 holds(s_19354_jpg, hotel).
 holds(s_19354_jpg, store).
-holds(s_19354_jpg, suburban).
 holds(s_19354_jpg, window).
 holds(s_19354_jpg, billboard).
 holds(s_19354_jpg, porch).
@@ -43032,7 +41602,6 @@ holds(s_19357_jpg, building).
 holds(s_19357_jpg, feature).
 holds(s_19357_jpg, hotel).
 holds(s_19357_jpg, store).
-holds(s_19357_jpg, suburban).
 holds(s_19357_jpg, window).
 holds(s_19357_jpg, billboard).
 holds(s_19357_jpg, porch).
@@ -43045,7 +41614,6 @@ holds(s_19358_jpg, feature).
 holds(s_19358_jpg, hotel).
 holds(s_19358_jpg, store).
 holds(s_19358_jpg, suburban).
-holds(s_19358_jpg, door).
 holds(s_19358_jpg, billboard).
 holds(s_19358_jpg, porch).
 holds(s_19358_jpg, wallsign).
@@ -43063,6 +41631,7 @@ holds(s_19359_jpg, window).
 holds(s_19359_jpg, billboard).
 holds(s_19359_jpg, porch).
 holds(s_19359_jpg, wallsign).
+holds(s_19359_jpg, pipe).
 holds(s_19359_jpg, commercial).
 
 sample(s_19360_jpg).
@@ -43070,7 +41639,6 @@ holds(s_19360_jpg, building).
 holds(s_19360_jpg, feature).
 holds(s_19360_jpg, hotel).
 holds(s_19360_jpg, store).
-holds(s_19360_jpg, suburban).
 holds(s_19360_jpg, window).
 holds(s_19360_jpg, billboard).
 holds(s_19360_jpg, porch).
@@ -43108,7 +41676,6 @@ holds(s_19363_jpg, building).
 holds(s_19363_jpg, feature).
 holds(s_19363_jpg, hotel).
 holds(s_19363_jpg, store).
-holds(s_19363_jpg, suburban).
 holds(s_19363_jpg, window).
 holds(s_19363_jpg, billboard).
 holds(s_19363_jpg, porch).
@@ -43147,7 +41714,6 @@ holds(s_19366_jpg, building).
 holds(s_19366_jpg, feature).
 holds(s_19366_jpg, hotel).
 holds(s_19366_jpg, store).
-holds(s_19366_jpg, suburban).
 holds(s_19366_jpg, window).
 holds(s_19366_jpg, billboard).
 holds(s_19366_jpg, porch).
@@ -43160,7 +41726,6 @@ holds(s_19367_jpg, feature).
 holds(s_19367_jpg, hotel).
 holds(s_19367_jpg, store).
 holds(s_19367_jpg, suburban).
-holds(s_19367_jpg, door).
 holds(s_19367_jpg, billboard).
 holds(s_19367_jpg, porch).
 holds(s_19367_jpg, wallsign).
@@ -43178,14 +41743,14 @@ holds(s_19368_jpg, window).
 holds(s_19368_jpg, billboard).
 holds(s_19368_jpg, porch).
 holds(s_19368_jpg, wallsign).
-holds(s_19368_jpg, industrial).
+holds(s_19368_jpg, pipe).
+holds(s_19368_jpg, commercial).
 
 sample(s_19369_jpg).
 holds(s_19369_jpg, building).
 holds(s_19369_jpg, feature).
 holds(s_19369_jpg, hotel).
 holds(s_19369_jpg, store).
-holds(s_19369_jpg, suburban).
 holds(s_19369_jpg, window).
 holds(s_19369_jpg, billboard).
 holds(s_19369_jpg, porch).
@@ -43198,7 +41763,6 @@ holds(s_19370_jpg, feature).
 holds(s_19370_jpg, hotel).
 holds(s_19370_jpg, store).
 holds(s_19370_jpg, suburban).
-holds(s_19370_jpg, door).
 holds(s_19370_jpg, billboard).
 holds(s_19370_jpg, porch).
 holds(s_19370_jpg, wallsign).
@@ -43224,7 +41788,6 @@ holds(s_19372_jpg, building).
 holds(s_19372_jpg, feature).
 holds(s_19372_jpg, hotel).
 holds(s_19372_jpg, store).
-holds(s_19372_jpg, suburban).
 holds(s_19372_jpg, window).
 holds(s_19372_jpg, billboard).
 holds(s_19372_jpg, porch).
@@ -43263,7 +41826,6 @@ holds(s_19375_jpg, building).
 holds(s_19375_jpg, feature).
 holds(s_19375_jpg, hotel).
 holds(s_19375_jpg, store).
-holds(s_19375_jpg, suburban).
 holds(s_19375_jpg, window).
 holds(s_19375_jpg, billboard).
 holds(s_19375_jpg, porch).
@@ -43276,7 +41838,6 @@ holds(s_19376_jpg, feature).
 holds(s_19376_jpg, hotel).
 holds(s_19376_jpg, store).
 holds(s_19376_jpg, suburban).
-holds(s_19376_jpg, door).
 holds(s_19376_jpg, billboard).
 holds(s_19376_jpg, porch).
 holds(s_19376_jpg, wallsign).
@@ -43302,7 +41863,6 @@ holds(s_19378_jpg, building).
 holds(s_19378_jpg, feature).
 holds(s_19378_jpg, hotel).
 holds(s_19378_jpg, store).
-holds(s_19378_jpg, suburban).
 holds(s_19378_jpg, window).
 holds(s_19378_jpg, billboard).
 holds(s_19378_jpg, porch).
@@ -43315,7 +41875,6 @@ holds(s_19379_jpg, feature).
 holds(s_19379_jpg, hotel).
 holds(s_19379_jpg, store).
 holds(s_19379_jpg, suburban).
-holds(s_19379_jpg, door).
 holds(s_19379_jpg, billboard).
 holds(s_19379_jpg, porch).
 holds(s_19379_jpg, wallsign).
@@ -43341,7 +41900,6 @@ holds(s_19381_jpg, building).
 holds(s_19381_jpg, feature).
 holds(s_19381_jpg, hotel).
 holds(s_19381_jpg, store).
-holds(s_19381_jpg, suburban).
 holds(s_19381_jpg, window).
 holds(s_19381_jpg, billboard).
 holds(s_19381_jpg, porch).
@@ -43380,7 +41938,6 @@ holds(s_19384_jpg, building).
 holds(s_19384_jpg, feature).
 holds(s_19384_jpg, hotel).
 holds(s_19384_jpg, store).
-holds(s_19384_jpg, suburban).
 holds(s_19384_jpg, window).
 holds(s_19384_jpg, billboard).
 holds(s_19384_jpg, porch).
@@ -43393,7 +41950,6 @@ holds(s_19385_jpg, feature).
 holds(s_19385_jpg, hotel).
 holds(s_19385_jpg, store).
 holds(s_19385_jpg, suburban).
-holds(s_19385_jpg, door).
 holds(s_19385_jpg, billboard).
 holds(s_19385_jpg, porch).
 holds(s_19385_jpg, wallsign).
@@ -43411,6 +41967,7 @@ holds(s_19386_jpg, window).
 holds(s_19386_jpg, billboard).
 holds(s_19386_jpg, porch).
 holds(s_19386_jpg, wallsign).
+holds(s_19386_jpg, pipe).
 holds(s_19386_jpg, commercial).
 
 sample(s_19387_jpg).
@@ -43418,7 +41975,6 @@ holds(s_19387_jpg, building).
 holds(s_19387_jpg, feature).
 holds(s_19387_jpg, hotel).
 holds(s_19387_jpg, store).
-holds(s_19387_jpg, suburban).
 holds(s_19387_jpg, window).
 holds(s_19387_jpg, billboard).
 holds(s_19387_jpg, porch).
@@ -43449,6 +42005,7 @@ holds(s_19389_jpg, window).
 holds(s_19389_jpg, billboard).
 holds(s_19389_jpg, porch).
 holds(s_19389_jpg, wallsign).
+holds(s_19389_jpg, pipe).
 holds(s_19389_jpg, commercial).
 
 sample(s_19390_jpg).
@@ -43456,7 +42013,6 @@ holds(s_19390_jpg, building).
 holds(s_19390_jpg, feature).
 holds(s_19390_jpg, hotel).
 holds(s_19390_jpg, store).
-holds(s_19390_jpg, suburban).
 holds(s_19390_jpg, window).
 holds(s_19390_jpg, billboard).
 holds(s_19390_jpg, porch).
@@ -43469,7 +42025,6 @@ holds(s_19391_jpg, feature).
 holds(s_19391_jpg, hotel).
 holds(s_19391_jpg, store).
 holds(s_19391_jpg, suburban).
-holds(s_19391_jpg, door).
 holds(s_19391_jpg, billboard).
 holds(s_19391_jpg, porch).
 holds(s_19391_jpg, wallsign).
@@ -43495,7 +42050,6 @@ holds(s_19393_jpg, building).
 holds(s_19393_jpg, feature).
 holds(s_19393_jpg, hotel).
 holds(s_19393_jpg, store).
-holds(s_19393_jpg, suburban).
 holds(s_19393_jpg, window).
 holds(s_19393_jpg, billboard).
 holds(s_19393_jpg, porch).
@@ -43508,7 +42062,6 @@ holds(s_19394_jpg, feature).
 holds(s_19394_jpg, hotel).
 holds(s_19394_jpg, store).
 holds(s_19394_jpg, suburban).
-holds(s_19394_jpg, door).
 holds(s_19394_jpg, billboard).
 holds(s_19394_jpg, porch).
 holds(s_19394_jpg, wallsign).
@@ -43534,7 +42087,6 @@ holds(s_19396_jpg, building).
 holds(s_19396_jpg, feature).
 holds(s_19396_jpg, hotel).
 holds(s_19396_jpg, store).
-holds(s_19396_jpg, suburban).
 holds(s_19396_jpg, window).
 holds(s_19396_jpg, billboard).
 holds(s_19396_jpg, porch).
@@ -43547,7 +42099,6 @@ holds(s_19397_jpg, feature).
 holds(s_19397_jpg, hotel).
 holds(s_19397_jpg, store).
 holds(s_19397_jpg, suburban).
-holds(s_19397_jpg, door).
 holds(s_19397_jpg, billboard).
 holds(s_19397_jpg, porch).
 holds(s_19397_jpg, wallsign).
@@ -43573,7 +42124,6 @@ holds(s_19399_jpg, building).
 holds(s_19399_jpg, feature).
 holds(s_19399_jpg, hotel).
 holds(s_19399_jpg, store).
-holds(s_19399_jpg, suburban).
 holds(s_19399_jpg, window).
 holds(s_19399_jpg, billboard).
 holds(s_19399_jpg, porch).
@@ -43586,7 +42136,6 @@ holds(s_19400_jpg, feature).
 holds(s_19400_jpg, hotel).
 holds(s_19400_jpg, store).
 holds(s_19400_jpg, suburban).
-holds(s_19400_jpg, door).
 holds(s_19400_jpg, billboard).
 holds(s_19400_jpg, porch).
 holds(s_19400_jpg, wallsign).
@@ -43604,6 +42153,7 @@ holds(s_19401_jpg, window).
 holds(s_19401_jpg, billboard).
 holds(s_19401_jpg, porch).
 holds(s_19401_jpg, wallsign).
+holds(s_19401_jpg, pipe).
 holds(s_19401_jpg, commercial).
 
 sample(s_19402_jpg).
@@ -43611,7 +42161,6 @@ holds(s_19402_jpg, building).
 holds(s_19402_jpg, feature).
 holds(s_19402_jpg, hotel).
 holds(s_19402_jpg, store).
-holds(s_19402_jpg, suburban).
 holds(s_19402_jpg, window).
 holds(s_19402_jpg, billboard).
 holds(s_19402_jpg, porch).
@@ -43624,7 +42173,6 @@ holds(s_19403_jpg, feature).
 holds(s_19403_jpg, hotel).
 holds(s_19403_jpg, store).
 holds(s_19403_jpg, suburban).
-holds(s_19403_jpg, door).
 holds(s_19403_jpg, billboard).
 holds(s_19403_jpg, porch).
 holds(s_19403_jpg, wallsign).
@@ -43642,6 +42190,7 @@ holds(s_19404_jpg, window).
 holds(s_19404_jpg, billboard).
 holds(s_19404_jpg, porch).
 holds(s_19404_jpg, wallsign).
+holds(s_19404_jpg, pipe).
 holds(s_19404_jpg, commercial).
 
 sample(s_19405_jpg).
@@ -43649,7 +42198,6 @@ holds(s_19405_jpg, building).
 holds(s_19405_jpg, feature).
 holds(s_19405_jpg, hotel).
 holds(s_19405_jpg, store).
-holds(s_19405_jpg, suburban).
 holds(s_19405_jpg, window).
 holds(s_19405_jpg, billboard).
 holds(s_19405_jpg, porch).
@@ -43662,7 +42210,6 @@ holds(s_19406_jpg, feature).
 holds(s_19406_jpg, hotel).
 holds(s_19406_jpg, store).
 holds(s_19406_jpg, suburban).
-holds(s_19406_jpg, door).
 holds(s_19406_jpg, billboard).
 holds(s_19406_jpg, porch).
 holds(s_19406_jpg, wallsign).
@@ -43688,7 +42235,6 @@ holds(s_19408_jpg, building).
 holds(s_19408_jpg, feature).
 holds(s_19408_jpg, hotel).
 holds(s_19408_jpg, store).
-holds(s_19408_jpg, suburban).
 holds(s_19408_jpg, window).
 holds(s_19408_jpg, billboard).
 holds(s_19408_jpg, porch).
@@ -43701,7 +42247,6 @@ holds(s_19409_jpg, feature).
 holds(s_19409_jpg, hotel).
 holds(s_19409_jpg, store).
 holds(s_19409_jpg, suburban).
-holds(s_19409_jpg, door).
 holds(s_19409_jpg, billboard).
 holds(s_19409_jpg, porch).
 holds(s_19409_jpg, wallsign).
@@ -43727,7 +42272,6 @@ holds(s_19411_jpg, building).
 holds(s_19411_jpg, feature).
 holds(s_19411_jpg, hotel).
 holds(s_19411_jpg, store).
-holds(s_19411_jpg, suburban).
 holds(s_19411_jpg, window).
 holds(s_19411_jpg, billboard).
 holds(s_19411_jpg, porch).
@@ -43740,7 +42284,6 @@ holds(s_19412_jpg, feature).
 holds(s_19412_jpg, hotel).
 holds(s_19412_jpg, store).
 holds(s_19412_jpg, suburban).
-holds(s_19412_jpg, door).
 holds(s_19412_jpg, billboard).
 holds(s_19412_jpg, porch).
 holds(s_19412_jpg, wallsign).
@@ -43758,6 +42301,7 @@ holds(s_19413_jpg, window).
 holds(s_19413_jpg, billboard).
 holds(s_19413_jpg, porch).
 holds(s_19413_jpg, wallsign).
+holds(s_19413_jpg, pipe).
 holds(s_19413_jpg, commercial).
 
 sample(s_19414_jpg).
@@ -43765,7 +42309,6 @@ holds(s_19414_jpg, building).
 holds(s_19414_jpg, feature).
 holds(s_19414_jpg, hotel).
 holds(s_19414_jpg, store).
-holds(s_19414_jpg, suburban).
 holds(s_19414_jpg, window).
 holds(s_19414_jpg, billboard).
 holds(s_19414_jpg, porch).
@@ -43803,7 +42346,6 @@ holds(s_19417_jpg, building).
 holds(s_19417_jpg, feature).
 holds(s_19417_jpg, hotel).
 holds(s_19417_jpg, store).
-holds(s_19417_jpg, suburban).
 holds(s_19417_jpg, window).
 holds(s_19417_jpg, billboard).
 holds(s_19417_jpg, porch).
@@ -43816,7 +42358,6 @@ holds(s_19418_jpg, feature).
 holds(s_19418_jpg, hotel).
 holds(s_19418_jpg, store).
 holds(s_19418_jpg, suburban).
-holds(s_19418_jpg, door).
 holds(s_19418_jpg, billboard).
 holds(s_19418_jpg, porch).
 holds(s_19418_jpg, wallsign).
@@ -43855,7 +42396,6 @@ holds(s_19421_jpg, feature).
 holds(s_19421_jpg, hotel).
 holds(s_19421_jpg, store).
 holds(s_19421_jpg, suburban).
-holds(s_19421_jpg, door).
 holds(s_19421_jpg, billboard).
 holds(s_19421_jpg, porch).
 holds(s_19421_jpg, wallsign).
@@ -43881,7 +42421,6 @@ holds(s_19423_jpg, building).
 holds(s_19423_jpg, feature).
 holds(s_19423_jpg, hotel).
 holds(s_19423_jpg, store).
-holds(s_19423_jpg, suburban).
 holds(s_19423_jpg, window).
 holds(s_19423_jpg, billboard).
 holds(s_19423_jpg, porch).
@@ -43894,7 +42433,6 @@ holds(s_19424_jpg, feature).
 holds(s_19424_jpg, hotel).
 holds(s_19424_jpg, store).
 holds(s_19424_jpg, suburban).
-holds(s_19424_jpg, door).
 holds(s_19424_jpg, billboard).
 holds(s_19424_jpg, porch).
 holds(s_19424_jpg, wallsign).
@@ -43920,7 +42458,6 @@ holds(s_19426_jpg, building).
 holds(s_19426_jpg, feature).
 holds(s_19426_jpg, hotel).
 holds(s_19426_jpg, store).
-holds(s_19426_jpg, suburban).
 holds(s_19426_jpg, window).
 holds(s_19426_jpg, billboard).
 holds(s_19426_jpg, porch).
@@ -43951,6 +42488,7 @@ holds(s_19428_jpg, window).
 holds(s_19428_jpg, billboard).
 holds(s_19428_jpg, porch).
 holds(s_19428_jpg, wallsign).
+holds(s_19428_jpg, pipe).
 holds(s_19428_jpg, commercial).
 
 sample(s_19429_jpg).
@@ -43958,7 +42496,6 @@ holds(s_19429_jpg, building).
 holds(s_19429_jpg, feature).
 holds(s_19429_jpg, hotel).
 holds(s_19429_jpg, store).
-holds(s_19429_jpg, suburban).
 holds(s_19429_jpg, window).
 holds(s_19429_jpg, billboard).
 holds(s_19429_jpg, porch).
@@ -43971,7 +42508,6 @@ holds(s_19430_jpg, feature).
 holds(s_19430_jpg, hotel).
 holds(s_19430_jpg, store).
 holds(s_19430_jpg, suburban).
-holds(s_19430_jpg, door).
 holds(s_19430_jpg, billboard).
 holds(s_19430_jpg, porch).
 holds(s_19430_jpg, wallsign).
@@ -43997,7 +42533,6 @@ holds(s_19432_jpg, building).
 holds(s_19432_jpg, feature).
 holds(s_19432_jpg, hotel).
 holds(s_19432_jpg, store).
-holds(s_19432_jpg, suburban).
 holds(s_19432_jpg, window).
 holds(s_19432_jpg, billboard).
 holds(s_19432_jpg, porch).
@@ -44010,7 +42545,6 @@ holds(s_19433_jpg, feature).
 holds(s_19433_jpg, hotel).
 holds(s_19433_jpg, store).
 holds(s_19433_jpg, suburban).
-holds(s_19433_jpg, door).
 holds(s_19433_jpg, billboard).
 holds(s_19433_jpg, porch).
 holds(s_19433_jpg, wallsign).
@@ -44028,6 +42562,7 @@ holds(s_19434_jpg, window).
 holds(s_19434_jpg, billboard).
 holds(s_19434_jpg, porch).
 holds(s_19434_jpg, wallsign).
+holds(s_19434_jpg, pipe).
 holds(s_19434_jpg, commercial).
 
 sample(s_19435_jpg).
@@ -44035,7 +42570,6 @@ holds(s_19435_jpg, building).
 holds(s_19435_jpg, feature).
 holds(s_19435_jpg, hotel).
 holds(s_19435_jpg, store).
-holds(s_19435_jpg, suburban).
 holds(s_19435_jpg, window).
 holds(s_19435_jpg, billboard).
 holds(s_19435_jpg, porch).
@@ -44048,7 +42582,6 @@ holds(s_19436_jpg, feature).
 holds(s_19436_jpg, hotel).
 holds(s_19436_jpg, store).
 holds(s_19436_jpg, suburban).
-holds(s_19436_jpg, door).
 holds(s_19436_jpg, billboard).
 holds(s_19436_jpg, porch).
 holds(s_19436_jpg, wallsign).
@@ -44066,6 +42599,7 @@ holds(s_19437_jpg, window).
 holds(s_19437_jpg, billboard).
 holds(s_19437_jpg, porch).
 holds(s_19437_jpg, wallsign).
+holds(s_19437_jpg, pipe).
 holds(s_19437_jpg, commercial).
 
 sample(s_19438_jpg).
@@ -44073,7 +42607,6 @@ holds(s_19438_jpg, building).
 holds(s_19438_jpg, feature).
 holds(s_19438_jpg, hotel).
 holds(s_19438_jpg, store).
-holds(s_19438_jpg, suburban).
 holds(s_19438_jpg, window).
 holds(s_19438_jpg, billboard).
 holds(s_19438_jpg, porch).
@@ -44086,7 +42619,6 @@ holds(s_19439_jpg, feature).
 holds(s_19439_jpg, hotel).
 holds(s_19439_jpg, store).
 holds(s_19439_jpg, suburban).
-holds(s_19439_jpg, door).
 holds(s_19439_jpg, billboard).
 holds(s_19439_jpg, porch).
 holds(s_19439_jpg, wallsign).
@@ -44112,7 +42644,6 @@ holds(s_19441_jpg, building).
 holds(s_19441_jpg, feature).
 holds(s_19441_jpg, hotel).
 holds(s_19441_jpg, store).
-holds(s_19441_jpg, suburban).
 holds(s_19441_jpg, window).
 holds(s_19441_jpg, billboard).
 holds(s_19441_jpg, porch).
@@ -44150,7 +42681,6 @@ holds(s_19444_jpg, building).
 holds(s_19444_jpg, feature).
 holds(s_19444_jpg, hotel).
 holds(s_19444_jpg, store).
-holds(s_19444_jpg, suburban).
 holds(s_19444_jpg, window).
 holds(s_19444_jpg, billboard).
 holds(s_19444_jpg, porch).
@@ -44163,7 +42693,6 @@ holds(s_19445_jpg, feature).
 holds(s_19445_jpg, hotel).
 holds(s_19445_jpg, store).
 holds(s_19445_jpg, suburban).
-holds(s_19445_jpg, door).
 holds(s_19445_jpg, billboard).
 holds(s_19445_jpg, porch).
 holds(s_19445_jpg, wallsign).
@@ -44189,7 +42718,6 @@ holds(s_19447_jpg, building).
 holds(s_19447_jpg, feature).
 holds(s_19447_jpg, hotel).
 holds(s_19447_jpg, store).
-holds(s_19447_jpg, suburban).
 holds(s_19447_jpg, window).
 holds(s_19447_jpg, billboard).
 holds(s_19447_jpg, porch).
@@ -44202,7 +42730,6 @@ holds(s_19448_jpg, feature).
 holds(s_19448_jpg, hotel).
 holds(s_19448_jpg, store).
 holds(s_19448_jpg, suburban).
-holds(s_19448_jpg, door).
 holds(s_19448_jpg, billboard).
 holds(s_19448_jpg, porch).
 holds(s_19448_jpg, wallsign).
@@ -44220,6 +42747,7 @@ holds(s_19449_jpg, window).
 holds(s_19449_jpg, billboard).
 holds(s_19449_jpg, porch).
 holds(s_19449_jpg, wallsign).
+holds(s_19449_jpg, pipe).
 holds(s_19449_jpg, commercial).
 
 sample(s_19450_jpg).
@@ -44227,7 +42755,6 @@ holds(s_19450_jpg, building).
 holds(s_19450_jpg, feature).
 holds(s_19450_jpg, hotel).
 holds(s_19450_jpg, store).
-holds(s_19450_jpg, suburban).
 holds(s_19450_jpg, window).
 holds(s_19450_jpg, billboard).
 holds(s_19450_jpg, porch).
@@ -44240,7 +42767,6 @@ holds(s_19451_jpg, feature).
 holds(s_19451_jpg, hotel).
 holds(s_19451_jpg, store).
 holds(s_19451_jpg, suburban).
-holds(s_19451_jpg, door).
 holds(s_19451_jpg, billboard).
 holds(s_19451_jpg, porch).
 holds(s_19451_jpg, wallsign).
@@ -44258,6 +42784,7 @@ holds(s_19452_jpg, window).
 holds(s_19452_jpg, billboard).
 holds(s_19452_jpg, porch).
 holds(s_19452_jpg, wallsign).
+holds(s_19452_jpg, pipe).
 holds(s_19452_jpg, commercial).
 
 sample(s_19453_jpg).
@@ -44265,7 +42792,6 @@ holds(s_19453_jpg, building).
 holds(s_19453_jpg, feature).
 holds(s_19453_jpg, hotel).
 holds(s_19453_jpg, store).
-holds(s_19453_jpg, suburban).
 holds(s_19453_jpg, window).
 holds(s_19453_jpg, billboard).
 holds(s_19453_jpg, porch).
@@ -44278,7 +42804,6 @@ holds(s_19454_jpg, feature).
 holds(s_19454_jpg, hotel).
 holds(s_19454_jpg, store).
 holds(s_19454_jpg, suburban).
-holds(s_19454_jpg, door).
 holds(s_19454_jpg, billboard).
 holds(s_19454_jpg, porch).
 holds(s_19454_jpg, wallsign).
@@ -44296,6 +42821,7 @@ holds(s_19455_jpg, window).
 holds(s_19455_jpg, billboard).
 holds(s_19455_jpg, porch).
 holds(s_19455_jpg, wallsign).
+holds(s_19455_jpg, pipe).
 holds(s_19455_jpg, commercial).
 
 sample(s_19456_jpg).
@@ -44303,7 +42829,6 @@ holds(s_19456_jpg, building).
 holds(s_19456_jpg, feature).
 holds(s_19456_jpg, hotel).
 holds(s_19456_jpg, store).
-holds(s_19456_jpg, suburban).
 holds(s_19456_jpg, window).
 holds(s_19456_jpg, billboard).
 holds(s_19456_jpg, porch).
@@ -44342,7 +42867,6 @@ holds(s_19459_jpg, building).
 holds(s_19459_jpg, feature).
 holds(s_19459_jpg, hotel).
 holds(s_19459_jpg, store).
-holds(s_19459_jpg, suburban).
 holds(s_19459_jpg, window).
 holds(s_19459_jpg, billboard).
 holds(s_19459_jpg, porch).
@@ -44355,7 +42879,6 @@ holds(s_19460_jpg, feature).
 holds(s_19460_jpg, hotel).
 holds(s_19460_jpg, store).
 holds(s_19460_jpg, suburban).
-holds(s_19460_jpg, door).
 holds(s_19460_jpg, billboard).
 holds(s_19460_jpg, porch).
 holds(s_19460_jpg, wallsign).
@@ -44381,7 +42904,6 @@ holds(s_19462_jpg, building).
 holds(s_19462_jpg, feature).
 holds(s_19462_jpg, hotel).
 holds(s_19462_jpg, store).
-holds(s_19462_jpg, suburban).
 holds(s_19462_jpg, window).
 holds(s_19462_jpg, billboard).
 holds(s_19462_jpg, porch).
@@ -44394,7 +42916,6 @@ holds(s_19463_jpg, feature).
 holds(s_19463_jpg, hotel).
 holds(s_19463_jpg, store).
 holds(s_19463_jpg, suburban).
-holds(s_19463_jpg, door).
 holds(s_19463_jpg, billboard).
 holds(s_19463_jpg, porch).
 holds(s_19463_jpg, wallsign).
@@ -44412,6 +42933,7 @@ holds(s_19464_jpg, window).
 holds(s_19464_jpg, billboard).
 holds(s_19464_jpg, porch).
 holds(s_19464_jpg, wallsign).
+holds(s_19464_jpg, pipe).
 holds(s_19464_jpg, commercial).
 
 sample(s_19465_jpg).
@@ -44419,7 +42941,6 @@ holds(s_19465_jpg, building).
 holds(s_19465_jpg, feature).
 holds(s_19465_jpg, hotel).
 holds(s_19465_jpg, store).
-holds(s_19465_jpg, suburban).
 holds(s_19465_jpg, window).
 holds(s_19465_jpg, billboard).
 holds(s_19465_jpg, porch).
@@ -44432,7 +42953,6 @@ holds(s_19466_jpg, feature).
 holds(s_19466_jpg, hotel).
 holds(s_19466_jpg, store).
 holds(s_19466_jpg, suburban).
-holds(s_19466_jpg, door).
 holds(s_19466_jpg, billboard).
 holds(s_19466_jpg, porch).
 holds(s_19466_jpg, wallsign).
@@ -44458,7 +42978,6 @@ holds(s_19468_jpg, building).
 holds(s_19468_jpg, feature).
 holds(s_19468_jpg, hotel).
 holds(s_19468_jpg, store).
-holds(s_19468_jpg, suburban).
 holds(s_19468_jpg, window).
 holds(s_19468_jpg, billboard).
 holds(s_19468_jpg, porch).
@@ -44471,7 +42990,6 @@ holds(s_19469_jpg, feature).
 holds(s_19469_jpg, hotel).
 holds(s_19469_jpg, store).
 holds(s_19469_jpg, suburban).
-holds(s_19469_jpg, door).
 holds(s_19469_jpg, billboard).
 holds(s_19469_jpg, porch).
 holds(s_19469_jpg, wallsign).
@@ -44489,6 +43007,7 @@ holds(s_19470_jpg, window).
 holds(s_19470_jpg, billboard).
 holds(s_19470_jpg, porch).
 holds(s_19470_jpg, wallsign).
+holds(s_19470_jpg, pipe).
 holds(s_19470_jpg, commercial).
 
 sample(s_19471_jpg).
@@ -44496,7 +43015,6 @@ holds(s_19471_jpg, building).
 holds(s_19471_jpg, feature).
 holds(s_19471_jpg, hotel).
 holds(s_19471_jpg, store).
-holds(s_19471_jpg, suburban).
 holds(s_19471_jpg, window).
 holds(s_19471_jpg, billboard).
 holds(s_19471_jpg, porch).
@@ -44509,7 +43027,6 @@ holds(s_19472_jpg, feature).
 holds(s_19472_jpg, hotel).
 holds(s_19472_jpg, store).
 holds(s_19472_jpg, suburban).
-holds(s_19472_jpg, door).
 holds(s_19472_jpg, billboard).
 holds(s_19472_jpg, porch).
 holds(s_19472_jpg, wallsign).
@@ -44535,7 +43052,6 @@ holds(s_19474_jpg, building).
 holds(s_19474_jpg, feature).
 holds(s_19474_jpg, hotel).
 holds(s_19474_jpg, store).
-holds(s_19474_jpg, suburban).
 holds(s_19474_jpg, window).
 holds(s_19474_jpg, billboard).
 holds(s_19474_jpg, porch).
@@ -44548,7 +43064,6 @@ holds(s_19475_jpg, feature).
 holds(s_19475_jpg, hotel).
 holds(s_19475_jpg, store).
 holds(s_19475_jpg, suburban).
-holds(s_19475_jpg, door).
 holds(s_19475_jpg, billboard).
 holds(s_19475_jpg, porch).
 holds(s_19475_jpg, wallsign).
@@ -44566,6 +43081,7 @@ holds(s_19476_jpg, window).
 holds(s_19476_jpg, billboard).
 holds(s_19476_jpg, porch).
 holds(s_19476_jpg, wallsign).
+holds(s_19476_jpg, pipe).
 holds(s_19476_jpg, commercial).
 
 sample(s_19477_jpg).
@@ -44573,7 +43089,6 @@ holds(s_19477_jpg, building).
 holds(s_19477_jpg, feature).
 holds(s_19477_jpg, hotel).
 holds(s_19477_jpg, store).
-holds(s_19477_jpg, suburban).
 holds(s_19477_jpg, window).
 holds(s_19477_jpg, billboard).
 holds(s_19477_jpg, porch).
@@ -44586,7 +43101,6 @@ holds(s_19478_jpg, feature).
 holds(s_19478_jpg, hotel).
 holds(s_19478_jpg, store).
 holds(s_19478_jpg, suburban).
-holds(s_19478_jpg, door).
 holds(s_19478_jpg, billboard).
 holds(s_19478_jpg, porch).
 holds(s_19478_jpg, wallsign).
@@ -44612,7 +43126,6 @@ holds(s_19480_jpg, building).
 holds(s_19480_jpg, feature).
 holds(s_19480_jpg, hotel).
 holds(s_19480_jpg, store).
-holds(s_19480_jpg, suburban).
 holds(s_19480_jpg, window).
 holds(s_19480_jpg, billboard).
 holds(s_19480_jpg, porch).
@@ -44625,7 +43138,6 @@ holds(s_19481_jpg, feature).
 holds(s_19481_jpg, hotel).
 holds(s_19481_jpg, store).
 holds(s_19481_jpg, suburban).
-holds(s_19481_jpg, door).
 holds(s_19481_jpg, billboard).
 holds(s_19481_jpg, porch).
 holds(s_19481_jpg, wallsign).
@@ -44651,7 +43163,6 @@ holds(s_19483_jpg, building).
 holds(s_19483_jpg, feature).
 holds(s_19483_jpg, hotel).
 holds(s_19483_jpg, store).
-holds(s_19483_jpg, suburban).
 holds(s_19483_jpg, window).
 holds(s_19483_jpg, billboard).
 holds(s_19483_jpg, porch).
@@ -44664,7 +43175,6 @@ holds(s_19484_jpg, feature).
 holds(s_19484_jpg, hotel).
 holds(s_19484_jpg, store).
 holds(s_19484_jpg, suburban).
-holds(s_19484_jpg, door).
 holds(s_19484_jpg, billboard).
 holds(s_19484_jpg, porch).
 holds(s_19484_jpg, wallsign).
@@ -44690,7 +43200,6 @@ holds(s_19486_jpg, building).
 holds(s_19486_jpg, feature).
 holds(s_19486_jpg, hotel).
 holds(s_19486_jpg, store).
-holds(s_19486_jpg, suburban).
 holds(s_19486_jpg, window).
 holds(s_19486_jpg, billboard).
 holds(s_19486_jpg, porch).
@@ -44703,7 +43212,6 @@ holds(s_19487_jpg, feature).
 holds(s_19487_jpg, hotel).
 holds(s_19487_jpg, store).
 holds(s_19487_jpg, suburban).
-holds(s_19487_jpg, door).
 holds(s_19487_jpg, billboard).
 holds(s_19487_jpg, porch).
 holds(s_19487_jpg, wallsign).
@@ -44728,7 +43236,6 @@ holds(s_19489_jpg, building).
 holds(s_19489_jpg, feature).
 holds(s_19489_jpg, hotel).
 holds(s_19489_jpg, store).
-holds(s_19489_jpg, suburban).
 holds(s_19489_jpg, window).
 holds(s_19489_jpg, billboard).
 holds(s_19489_jpg, porch).
@@ -44766,8 +43273,6 @@ holds(s_19492_jpg, building).
 holds(s_19492_jpg, feature).
 holds(s_19492_jpg, hotel).
 holds(s_19492_jpg, store).
-holds(s_19492_jpg, suburban).
-holds(s_19492_jpg, door).
 holds(s_19492_jpg, window).
 holds(s_19492_jpg, billboard).
 holds(s_19492_jpg, porch).
@@ -44780,7 +43285,6 @@ holds(s_19493_jpg, feature).
 holds(s_19493_jpg, hotel).
 holds(s_19493_jpg, store).
 holds(s_19493_jpg, suburban).
-holds(s_19493_jpg, door).
 holds(s_19493_jpg, billboard).
 holds(s_19493_jpg, porch).
 holds(s_19493_jpg, wallsign).
@@ -44805,8 +43309,6 @@ holds(s_19495_jpg, building).
 holds(s_19495_jpg, feature).
 holds(s_19495_jpg, hotel).
 holds(s_19495_jpg, store).
-holds(s_19495_jpg, suburban).
-holds(s_19495_jpg, door).
 holds(s_19495_jpg, window).
 holds(s_19495_jpg, billboard).
 holds(s_19495_jpg, porch).
@@ -44819,7 +43321,6 @@ holds(s_19496_jpg, feature).
 holds(s_19496_jpg, hotel).
 holds(s_19496_jpg, store).
 holds(s_19496_jpg, suburban).
-holds(s_19496_jpg, door).
 holds(s_19496_jpg, billboard).
 holds(s_19496_jpg, porch).
 holds(s_19496_jpg, wallsign).
@@ -44845,7 +43346,6 @@ holds(s_19498_jpg, building).
 holds(s_19498_jpg, feature).
 holds(s_19498_jpg, hotel).
 holds(s_19498_jpg, store).
-holds(s_19498_jpg, suburban).
 holds(s_19498_jpg, window).
 holds(s_19498_jpg, billboard).
 holds(s_19498_jpg, porch).
@@ -44858,7 +43358,6 @@ holds(s_19499_jpg, feature).
 holds(s_19499_jpg, hotel).
 holds(s_19499_jpg, store).
 holds(s_19499_jpg, suburban).
-holds(s_19499_jpg, door).
 holds(s_19499_jpg, billboard).
 holds(s_19499_jpg, porch).
 holds(s_19499_jpg, wallsign).
@@ -44876,6 +43375,7 @@ holds(s_19500_jpg, window).
 holds(s_19500_jpg, billboard).
 holds(s_19500_jpg, porch).
 holds(s_19500_jpg, wallsign).
+holds(s_19500_jpg, pipe).
 holds(s_19500_jpg, commercial).
 
 sample(s_19501_jpg).
@@ -44883,7 +43383,6 @@ holds(s_19501_jpg, building).
 holds(s_19501_jpg, feature).
 holds(s_19501_jpg, hotel).
 holds(s_19501_jpg, store).
-holds(s_19501_jpg, suburban).
 holds(s_19501_jpg, window).
 holds(s_19501_jpg, billboard).
 holds(s_19501_jpg, porch).
@@ -44902,6 +43401,7 @@ holds(s_19502_jpg, porch).
 holds(s_19502_jpg, wallsign).
 holds(s_19502_jpg, car).
 holds(s_19502_jpg, residential).
+holds(s_19502_jpg, commercial).
 
 sample(s_19503_jpg).
 holds(s_19503_jpg, building).
@@ -44922,7 +43422,6 @@ holds(s_19504_jpg, building).
 holds(s_19504_jpg, feature).
 holds(s_19504_jpg, hotel).
 holds(s_19504_jpg, store).
-holds(s_19504_jpg, suburban).
 holds(s_19504_jpg, window).
 holds(s_19504_jpg, billboard).
 holds(s_19504_jpg, porch).
@@ -44953,6 +43452,7 @@ holds(s_19506_jpg, window).
 holds(s_19506_jpg, billboard).
 holds(s_19506_jpg, porch).
 holds(s_19506_jpg, wallsign).
+holds(s_19506_jpg, pipe).
 holds(s_19506_jpg, commercial).
 
 sample(s_19507_jpg).
@@ -44960,7 +43460,6 @@ holds(s_19507_jpg, building).
 holds(s_19507_jpg, feature).
 holds(s_19507_jpg, hotel).
 holds(s_19507_jpg, store).
-holds(s_19507_jpg, suburban).
 holds(s_19507_jpg, window).
 holds(s_19507_jpg, billboard).
 holds(s_19507_jpg, porch).
@@ -44973,7 +43472,6 @@ holds(s_19508_jpg, feature).
 holds(s_19508_jpg, hotel).
 holds(s_19508_jpg, store).
 holds(s_19508_jpg, suburban).
-holds(s_19508_jpg, door).
 holds(s_19508_jpg, billboard).
 holds(s_19508_jpg, porch).
 holds(s_19508_jpg, wallsign).
@@ -44999,7 +43497,6 @@ holds(s_19510_jpg, building).
 holds(s_19510_jpg, feature).
 holds(s_19510_jpg, hotel).
 holds(s_19510_jpg, store).
-holds(s_19510_jpg, suburban).
 holds(s_19510_jpg, window).
 holds(s_19510_jpg, billboard).
 holds(s_19510_jpg, porch).
@@ -45029,6 +43526,7 @@ holds(s_19512_jpg, window).
 holds(s_19512_jpg, billboard).
 holds(s_19512_jpg, porch).
 holds(s_19512_jpg, wallsign).
+holds(s_19512_jpg, pipe).
 holds(s_19512_jpg, commercial).
 
 sample(s_19513_jpg).
@@ -45036,7 +43534,6 @@ holds(s_19513_jpg, building).
 holds(s_19513_jpg, feature).
 holds(s_19513_jpg, hotel).
 holds(s_19513_jpg, store).
-holds(s_19513_jpg, suburban).
 holds(s_19513_jpg, window).
 holds(s_19513_jpg, billboard).
 holds(s_19513_jpg, porch).
@@ -45049,7 +43546,6 @@ holds(s_19514_jpg, feature).
 holds(s_19514_jpg, hotel).
 holds(s_19514_jpg, store).
 holds(s_19514_jpg, suburban).
-holds(s_19514_jpg, door).
 holds(s_19514_jpg, billboard).
 holds(s_19514_jpg, porch).
 holds(s_19514_jpg, wallsign).
@@ -45075,7 +43571,6 @@ holds(s_19516_jpg, building).
 holds(s_19516_jpg, feature).
 holds(s_19516_jpg, hotel).
 holds(s_19516_jpg, store).
-holds(s_19516_jpg, suburban).
 holds(s_19516_jpg, window).
 holds(s_19516_jpg, billboard).
 holds(s_19516_jpg, porch).
@@ -45114,7 +43609,6 @@ holds(s_19519_jpg, building).
 holds(s_19519_jpg, feature).
 holds(s_19519_jpg, hotel).
 holds(s_19519_jpg, store).
-holds(s_19519_jpg, suburban).
 holds(s_19519_jpg, window).
 holds(s_19519_jpg, billboard).
 holds(s_19519_jpg, porch).
@@ -45127,7 +43621,6 @@ holds(s_19520_jpg, feature).
 holds(s_19520_jpg, hotel).
 holds(s_19520_jpg, store).
 holds(s_19520_jpg, suburban).
-holds(s_19520_jpg, door).
 holds(s_19520_jpg, billboard).
 holds(s_19520_jpg, porch).
 holds(s_19520_jpg, wallsign).
@@ -45153,7 +43646,6 @@ holds(s_19522_jpg, building).
 holds(s_19522_jpg, feature).
 holds(s_19522_jpg, hotel).
 holds(s_19522_jpg, store).
-holds(s_19522_jpg, suburban).
 holds(s_19522_jpg, window).
 holds(s_19522_jpg, billboard).
 holds(s_19522_jpg, porch).
@@ -45166,7 +43658,6 @@ holds(s_19523_jpg, feature).
 holds(s_19523_jpg, hotel).
 holds(s_19523_jpg, store).
 holds(s_19523_jpg, suburban).
-holds(s_19523_jpg, door).
 holds(s_19523_jpg, billboard).
 holds(s_19523_jpg, porch).
 holds(s_19523_jpg, wallsign).
@@ -45192,7 +43683,6 @@ holds(s_19525_jpg, building).
 holds(s_19525_jpg, feature).
 holds(s_19525_jpg, hotel).
 holds(s_19525_jpg, store).
-holds(s_19525_jpg, suburban).
 holds(s_19525_jpg, window).
 holds(s_19525_jpg, billboard).
 holds(s_19525_jpg, porch).
@@ -45205,7 +43695,6 @@ holds(s_19526_jpg, feature).
 holds(s_19526_jpg, hotel).
 holds(s_19526_jpg, store).
 holds(s_19526_jpg, suburban).
-holds(s_19526_jpg, door).
 holds(s_19526_jpg, billboard).
 holds(s_19526_jpg, porch).
 holds(s_19526_jpg, wallsign).
@@ -45223,6 +43712,7 @@ holds(s_19527_jpg, window).
 holds(s_19527_jpg, billboard).
 holds(s_19527_jpg, porch).
 holds(s_19527_jpg, wallsign).
+holds(s_19527_jpg, pipe).
 holds(s_19527_jpg, commercial).
 
 sample(s_19528_jpg).
@@ -45230,7 +43720,6 @@ holds(s_19528_jpg, building).
 holds(s_19528_jpg, feature).
 holds(s_19528_jpg, hotel).
 holds(s_19528_jpg, store).
-holds(s_19528_jpg, suburban).
 holds(s_19528_jpg, window).
 holds(s_19528_jpg, billboard).
 holds(s_19528_jpg, porch).
@@ -45243,7 +43732,6 @@ holds(s_19529_jpg, feature).
 holds(s_19529_jpg, hotel).
 holds(s_19529_jpg, store).
 holds(s_19529_jpg, suburban).
-holds(s_19529_jpg, door).
 holds(s_19529_jpg, billboard).
 holds(s_19529_jpg, porch).
 holds(s_19529_jpg, wallsign).
@@ -45261,6 +43749,7 @@ holds(s_19530_jpg, window).
 holds(s_19530_jpg, billboard).
 holds(s_19530_jpg, porch).
 holds(s_19530_jpg, wallsign).
+holds(s_19530_jpg, pipe).
 holds(s_19530_jpg, commercial).
 
 sample(s_19531_jpg).
@@ -45268,7 +43757,6 @@ holds(s_19531_jpg, building).
 holds(s_19531_jpg, feature).
 holds(s_19531_jpg, hotel).
 holds(s_19531_jpg, store).
-holds(s_19531_jpg, suburban).
 holds(s_19531_jpg, window).
 holds(s_19531_jpg, billboard).
 holds(s_19531_jpg, porch).
@@ -45281,7 +43769,6 @@ holds(s_19532_jpg, feature).
 holds(s_19532_jpg, hotel).
 holds(s_19532_jpg, store).
 holds(s_19532_jpg, suburban).
-holds(s_19532_jpg, door).
 holds(s_19532_jpg, billboard).
 holds(s_19532_jpg, porch).
 holds(s_19532_jpg, wallsign).
@@ -45299,6 +43786,7 @@ holds(s_19533_jpg, window).
 holds(s_19533_jpg, billboard).
 holds(s_19533_jpg, porch).
 holds(s_19533_jpg, wallsign).
+holds(s_19533_jpg, pipe).
 holds(s_19533_jpg, commercial).
 
 sample(s_19534_jpg).
@@ -45306,7 +43794,6 @@ holds(s_19534_jpg, building).
 holds(s_19534_jpg, feature).
 holds(s_19534_jpg, hotel).
 holds(s_19534_jpg, store).
-holds(s_19534_jpg, suburban).
 holds(s_19534_jpg, window).
 holds(s_19534_jpg, billboard).
 holds(s_19534_jpg, porch).
@@ -45319,7 +43806,6 @@ holds(s_19535_jpg, feature).
 holds(s_19535_jpg, hotel).
 holds(s_19535_jpg, store).
 holds(s_19535_jpg, suburban).
-holds(s_19535_jpg, door).
 holds(s_19535_jpg, billboard).
 holds(s_19535_jpg, porch).
 holds(s_19535_jpg, wallsign).
@@ -45345,7 +43831,6 @@ holds(s_19537_jpg, building).
 holds(s_19537_jpg, feature).
 holds(s_19537_jpg, hotel).
 holds(s_19537_jpg, store).
-holds(s_19537_jpg, suburban).
 holds(s_19537_jpg, window).
 holds(s_19537_jpg, billboard).
 holds(s_19537_jpg, porch).
@@ -45358,7 +43843,6 @@ holds(s_19538_jpg, feature).
 holds(s_19538_jpg, hotel).
 holds(s_19538_jpg, store).
 holds(s_19538_jpg, suburban).
-holds(s_19538_jpg, door).
 holds(s_19538_jpg, billboard).
 holds(s_19538_jpg, porch).
 holds(s_19538_jpg, wallsign).
@@ -45384,7 +43868,6 @@ holds(s_19540_jpg, building).
 holds(s_19540_jpg, feature).
 holds(s_19540_jpg, hotel).
 holds(s_19540_jpg, store).
-holds(s_19540_jpg, suburban).
 holds(s_19540_jpg, window).
 holds(s_19540_jpg, billboard).
 holds(s_19540_jpg, porch).
@@ -45415,14 +43898,14 @@ holds(s_19542_jpg, window).
 holds(s_19542_jpg, billboard).
 holds(s_19542_jpg, porch).
 holds(s_19542_jpg, wallsign).
-holds(s_19542_jpg, industrial).
+holds(s_19542_jpg, pipe).
+holds(s_19542_jpg, commercial).
 
 sample(s_19543_jpg).
 holds(s_19543_jpg, building).
 holds(s_19543_jpg, feature).
 holds(s_19543_jpg, hotel).
 holds(s_19543_jpg, store).
-holds(s_19543_jpg, suburban).
 holds(s_19543_jpg, window).
 holds(s_19543_jpg, billboard).
 holds(s_19543_jpg, porch).
@@ -45435,7 +43918,6 @@ holds(s_19544_jpg, feature).
 holds(s_19544_jpg, hotel).
 holds(s_19544_jpg, store).
 holds(s_19544_jpg, suburban).
-holds(s_19544_jpg, door).
 holds(s_19544_jpg, billboard).
 holds(s_19544_jpg, porch).
 holds(s_19544_jpg, wallsign).
@@ -45461,7 +43943,6 @@ holds(s_19546_jpg, building).
 holds(s_19546_jpg, feature).
 holds(s_19546_jpg, hotel).
 holds(s_19546_jpg, store).
-holds(s_19546_jpg, suburban).
 holds(s_19546_jpg, window).
 holds(s_19546_jpg, billboard).
 holds(s_19546_jpg, porch).
@@ -45492,6 +43973,7 @@ holds(s_19548_jpg, window).
 holds(s_19548_jpg, billboard).
 holds(s_19548_jpg, porch).
 holds(s_19548_jpg, wallsign).
+holds(s_19548_jpg, pipe).
 holds(s_19548_jpg, commercial).
 
 sample(s_19549_jpg).
@@ -45499,7 +43981,6 @@ holds(s_19549_jpg, building).
 holds(s_19549_jpg, feature).
 holds(s_19549_jpg, hotel).
 holds(s_19549_jpg, store).
-holds(s_19549_jpg, suburban).
 holds(s_19549_jpg, window).
 holds(s_19549_jpg, billboard).
 holds(s_19549_jpg, porch).
@@ -45538,7 +44019,6 @@ holds(s_19552_jpg, building).
 holds(s_19552_jpg, feature).
 holds(s_19552_jpg, hotel).
 holds(s_19552_jpg, store).
-holds(s_19552_jpg, suburban).
 holds(s_19552_jpg, window).
 holds(s_19552_jpg, billboard).
 holds(s_19552_jpg, porch).
@@ -45551,7 +44031,6 @@ holds(s_19553_jpg, feature).
 holds(s_19553_jpg, hotel).
 holds(s_19553_jpg, store).
 holds(s_19553_jpg, suburban).
-holds(s_19553_jpg, door).
 holds(s_19553_jpg, billboard).
 holds(s_19553_jpg, porch).
 holds(s_19553_jpg, wallsign).
@@ -45569,7 +44048,7 @@ holds(s_19554_jpg, window).
 holds(s_19554_jpg, billboard).
 holds(s_19554_jpg, porch).
 holds(s_19554_jpg, wallsign).
-holds(s_19554_jpg, car).
+holds(s_19554_jpg, pipe).
 holds(s_19554_jpg, commercial).
 
 sample(s_19555_jpg).
@@ -45577,7 +44056,6 @@ holds(s_19555_jpg, building).
 holds(s_19555_jpg, feature).
 holds(s_19555_jpg, hotel).
 holds(s_19555_jpg, store).
-holds(s_19555_jpg, suburban).
 holds(s_19555_jpg, window).
 holds(s_19555_jpg, billboard).
 holds(s_19555_jpg, porch).
@@ -45607,6 +44085,7 @@ holds(s_19557_jpg, window).
 holds(s_19557_jpg, billboard).
 holds(s_19557_jpg, porch).
 holds(s_19557_jpg, wallsign).
+holds(s_19557_jpg, pipe).
 holds(s_19557_jpg, commercial).
 
 sample(s_19558_jpg).
@@ -45614,7 +44093,6 @@ holds(s_19558_jpg, building).
 holds(s_19558_jpg, feature).
 holds(s_19558_jpg, hotel).
 holds(s_19558_jpg, store).
-holds(s_19558_jpg, suburban).
 holds(s_19558_jpg, window).
 holds(s_19558_jpg, billboard).
 holds(s_19558_jpg, porch).
@@ -45653,7 +44131,6 @@ holds(s_19561_jpg, building).
 holds(s_19561_jpg, feature).
 holds(s_19561_jpg, hotel).
 holds(s_19561_jpg, store).
-holds(s_19561_jpg, suburban).
 holds(s_19561_jpg, window).
 holds(s_19561_jpg, billboard).
 holds(s_19561_jpg, porch).
@@ -45666,7 +44143,6 @@ holds(s_19562_jpg, feature).
 holds(s_19562_jpg, hotel).
 holds(s_19562_jpg, store).
 holds(s_19562_jpg, suburban).
-holds(s_19562_jpg, door).
 holds(s_19562_jpg, billboard).
 holds(s_19562_jpg, porch).
 holds(s_19562_jpg, wallsign).
@@ -45692,7 +44168,6 @@ holds(s_19564_jpg, building).
 holds(s_19564_jpg, feature).
 holds(s_19564_jpg, hotel).
 holds(s_19564_jpg, store).
-holds(s_19564_jpg, suburban).
 holds(s_19564_jpg, window).
 holds(s_19564_jpg, billboard).
 holds(s_19564_jpg, porch).
@@ -45722,6 +44197,7 @@ holds(s_19566_jpg, window).
 holds(s_19566_jpg, billboard).
 holds(s_19566_jpg, porch).
 holds(s_19566_jpg, wallsign).
+holds(s_19566_jpg, pipe).
 holds(s_19566_jpg, commercial).
 
 sample(s_19567_jpg).
@@ -45729,7 +44205,6 @@ holds(s_19567_jpg, building).
 holds(s_19567_jpg, feature).
 holds(s_19567_jpg, hotel).
 holds(s_19567_jpg, store).
-holds(s_19567_jpg, suburban).
 holds(s_19567_jpg, window).
 holds(s_19567_jpg, billboard).
 holds(s_19567_jpg, porch).
@@ -45767,7 +44242,6 @@ holds(s_19570_jpg, building).
 holds(s_19570_jpg, feature).
 holds(s_19570_jpg, hotel).
 holds(s_19570_jpg, store).
-holds(s_19570_jpg, suburban).
 holds(s_19570_jpg, window).
 holds(s_19570_jpg, billboard).
 holds(s_19570_jpg, porch).
@@ -45780,7 +44254,6 @@ holds(s_19571_jpg, feature).
 holds(s_19571_jpg, hotel).
 holds(s_19571_jpg, store).
 holds(s_19571_jpg, suburban).
-holds(s_19571_jpg, door).
 holds(s_19571_jpg, billboard).
 holds(s_19571_jpg, porch).
 holds(s_19571_jpg, wallsign).
@@ -45798,6 +44271,7 @@ holds(s_19572_jpg, window).
 holds(s_19572_jpg, billboard).
 holds(s_19572_jpg, porch).
 holds(s_19572_jpg, wallsign).
+holds(s_19572_jpg, pipe).
 holds(s_19572_jpg, commercial).
 
 sample(s_19573_jpg).
@@ -45805,7 +44279,6 @@ holds(s_19573_jpg, building).
 holds(s_19573_jpg, feature).
 holds(s_19573_jpg, hotel).
 holds(s_19573_jpg, store).
-holds(s_19573_jpg, suburban).
 holds(s_19573_jpg, window).
 holds(s_19573_jpg, billboard).
 holds(s_19573_jpg, porch).
@@ -45818,7 +44291,6 @@ holds(s_19574_jpg, feature).
 holds(s_19574_jpg, hotel).
 holds(s_19574_jpg, store).
 holds(s_19574_jpg, suburban).
-holds(s_19574_jpg, door).
 holds(s_19574_jpg, billboard).
 holds(s_19574_jpg, porch).
 holds(s_19574_jpg, wallsign).
@@ -45836,6 +44308,7 @@ holds(s_19575_jpg, window).
 holds(s_19575_jpg, billboard).
 holds(s_19575_jpg, porch).
 holds(s_19575_jpg, wallsign).
+holds(s_19575_jpg, pipe).
 holds(s_19575_jpg, commercial).
 
 sample(s_19576_jpg).
@@ -45843,7 +44316,6 @@ holds(s_19576_jpg, building).
 holds(s_19576_jpg, feature).
 holds(s_19576_jpg, hotel).
 holds(s_19576_jpg, store).
-holds(s_19576_jpg, suburban).
 holds(s_19576_jpg, window).
 holds(s_19576_jpg, billboard).
 holds(s_19576_jpg, porch).
@@ -45882,7 +44354,6 @@ holds(s_19579_jpg, building).
 holds(s_19579_jpg, feature).
 holds(s_19579_jpg, hotel).
 holds(s_19579_jpg, store).
-holds(s_19579_jpg, suburban).
 holds(s_19579_jpg, window).
 holds(s_19579_jpg, billboard).
 holds(s_19579_jpg, porch).
@@ -45895,7 +44366,6 @@ holds(s_19580_jpg, feature).
 holds(s_19580_jpg, hotel).
 holds(s_19580_jpg, store).
 holds(s_19580_jpg, suburban).
-holds(s_19580_jpg, door).
 holds(s_19580_jpg, billboard).
 holds(s_19580_jpg, porch).
 holds(s_19580_jpg, wallsign).
@@ -45921,7 +44391,6 @@ holds(s_19582_jpg, building).
 holds(s_19582_jpg, feature).
 holds(s_19582_jpg, hotel).
 holds(s_19582_jpg, store).
-holds(s_19582_jpg, suburban).
 holds(s_19582_jpg, window).
 holds(s_19582_jpg, billboard).
 holds(s_19582_jpg, porch).
@@ -45934,7 +44403,6 @@ holds(s_19583_jpg, feature).
 holds(s_19583_jpg, hotel).
 holds(s_19583_jpg, store).
 holds(s_19583_jpg, suburban).
-holds(s_19583_jpg, door).
 holds(s_19583_jpg, billboard).
 holds(s_19583_jpg, porch).
 holds(s_19583_jpg, wallsign).
@@ -45952,6 +44420,7 @@ holds(s_19584_jpg, window).
 holds(s_19584_jpg, billboard).
 holds(s_19584_jpg, porch).
 holds(s_19584_jpg, wallsign).
+holds(s_19584_jpg, pipe).
 holds(s_19584_jpg, commercial).
 
 sample(s_19585_jpg).
@@ -45959,7 +44428,6 @@ holds(s_19585_jpg, building).
 holds(s_19585_jpg, feature).
 holds(s_19585_jpg, hotel).
 holds(s_19585_jpg, store).
-holds(s_19585_jpg, suburban).
 holds(s_19585_jpg, window).
 holds(s_19585_jpg, billboard).
 holds(s_19585_jpg, porch).
@@ -45998,7 +44466,6 @@ holds(s_19588_jpg, building).
 holds(s_19588_jpg, feature).
 holds(s_19588_jpg, hotel).
 holds(s_19588_jpg, store).
-holds(s_19588_jpg, suburban).
 holds(s_19588_jpg, window).
 holds(s_19588_jpg, billboard).
 holds(s_19588_jpg, porch).
@@ -46011,7 +44478,6 @@ holds(s_19589_jpg, feature).
 holds(s_19589_jpg, hotel).
 holds(s_19589_jpg, store).
 holds(s_19589_jpg, suburban).
-holds(s_19589_jpg, door).
 holds(s_19589_jpg, billboard).
 holds(s_19589_jpg, porch).
 holds(s_19589_jpg, wallsign).
@@ -46037,7 +44503,6 @@ holds(s_19591_jpg, building).
 holds(s_19591_jpg, feature).
 holds(s_19591_jpg, hotel).
 holds(s_19591_jpg, store).
-holds(s_19591_jpg, suburban).
 holds(s_19591_jpg, window).
 holds(s_19591_jpg, billboard).
 holds(s_19591_jpg, porch).
@@ -46050,7 +44515,6 @@ holds(s_19592_jpg, feature).
 holds(s_19592_jpg, hotel).
 holds(s_19592_jpg, store).
 holds(s_19592_jpg, suburban).
-holds(s_19592_jpg, door).
 holds(s_19592_jpg, billboard).
 holds(s_19592_jpg, porch).
 holds(s_19592_jpg, wallsign).
@@ -46068,6 +44532,7 @@ holds(s_19593_jpg, window).
 holds(s_19593_jpg, billboard).
 holds(s_19593_jpg, porch).
 holds(s_19593_jpg, wallsign).
+holds(s_19593_jpg, pipe).
 holds(s_19593_jpg, commercial).
 
 sample(s_19594_jpg).
@@ -46075,7 +44540,6 @@ holds(s_19594_jpg, building).
 holds(s_19594_jpg, feature).
 holds(s_19594_jpg, hotel).
 holds(s_19594_jpg, store).
-holds(s_19594_jpg, suburban).
 holds(s_19594_jpg, window).
 holds(s_19594_jpg, billboard).
 holds(s_19594_jpg, porch).
@@ -46088,7 +44552,6 @@ holds(s_19595_jpg, feature).
 holds(s_19595_jpg, hotel).
 holds(s_19595_jpg, store).
 holds(s_19595_jpg, suburban).
-holds(s_19595_jpg, door).
 holds(s_19595_jpg, billboard).
 holds(s_19595_jpg, porch).
 holds(s_19595_jpg, wallsign).
@@ -46106,6 +44569,7 @@ holds(s_19596_jpg, window).
 holds(s_19596_jpg, billboard).
 holds(s_19596_jpg, porch).
 holds(s_19596_jpg, wallsign).
+holds(s_19596_jpg, pipe).
 holds(s_19596_jpg, commercial).
 
 sample(s_19597_jpg).
@@ -46113,7 +44577,6 @@ holds(s_19597_jpg, building).
 holds(s_19597_jpg, feature).
 holds(s_19597_jpg, hotel).
 holds(s_19597_jpg, store).
-holds(s_19597_jpg, suburban).
 holds(s_19597_jpg, window).
 holds(s_19597_jpg, billboard).
 holds(s_19597_jpg, porch).
@@ -46152,7 +44615,6 @@ holds(s_19600_jpg, building).
 holds(s_19600_jpg, feature).
 holds(s_19600_jpg, hotel).
 holds(s_19600_jpg, store).
-holds(s_19600_jpg, suburban).
 holds(s_19600_jpg, window).
 holds(s_19600_jpg, billboard).
 holds(s_19600_jpg, porch).
@@ -46191,7 +44653,6 @@ holds(s_19603_jpg, building).
 holds(s_19603_jpg, feature).
 holds(s_19603_jpg, hotel).
 holds(s_19603_jpg, store).
-holds(s_19603_jpg, suburban).
 holds(s_19603_jpg, window).
 holds(s_19603_jpg, billboard).
 holds(s_19603_jpg, porch).
@@ -46204,7 +44665,6 @@ holds(s_19604_jpg, feature).
 holds(s_19604_jpg, hotel).
 holds(s_19604_jpg, store).
 holds(s_19604_jpg, suburban).
-holds(s_19604_jpg, door).
 holds(s_19604_jpg, billboard).
 holds(s_19604_jpg, porch).
 holds(s_19604_jpg, wallsign).
@@ -46222,6 +44682,7 @@ holds(s_19605_jpg, window).
 holds(s_19605_jpg, billboard).
 holds(s_19605_jpg, porch).
 holds(s_19605_jpg, wallsign).
+holds(s_19605_jpg, pipe).
 holds(s_19605_jpg, commercial).
 
 sample(s_19606_jpg).
@@ -46242,7 +44703,6 @@ holds(s_19607_jpg, feature).
 holds(s_19607_jpg, hotel).
 holds(s_19607_jpg, store).
 holds(s_19607_jpg, suburban).
-holds(s_19607_jpg, door).
 holds(s_19607_jpg, billboard).
 holds(s_19607_jpg, porch).
 holds(s_19607_jpg, wallsign).
@@ -46268,13 +44728,11 @@ holds(s_19609_jpg, building).
 holds(s_19609_jpg, feature).
 holds(s_19609_jpg, hotel).
 holds(s_19609_jpg, store).
-holds(s_19609_jpg, suburban).
-holds(s_19609_jpg, door).
 holds(s_19609_jpg, window).
 holds(s_19609_jpg, billboard).
 holds(s_19609_jpg, porch).
 holds(s_19609_jpg, wallsign).
-holds(s_19609_jpg, commercial).
+holds(s_19609_jpg, industrial).
 
 sample(s_19610_jpg).
 holds(s_19610_jpg, building).
@@ -46282,7 +44740,6 @@ holds(s_19610_jpg, feature).
 holds(s_19610_jpg, hotel).
 holds(s_19610_jpg, store).
 holds(s_19610_jpg, suburban).
-holds(s_19610_jpg, door).
 holds(s_19610_jpg, billboard).
 holds(s_19610_jpg, porch).
 holds(s_19610_jpg, wallsign).
@@ -46300,6 +44757,7 @@ holds(s_19611_jpg, window).
 holds(s_19611_jpg, billboard).
 holds(s_19611_jpg, porch).
 holds(s_19611_jpg, wallsign).
+holds(s_19611_jpg, pipe).
 holds(s_19611_jpg, commercial).
 
 sample(s_19612_jpg).
@@ -46307,7 +44765,6 @@ holds(s_19612_jpg, building).
 holds(s_19612_jpg, feature).
 holds(s_19612_jpg, hotel).
 holds(s_19612_jpg, store).
-holds(s_19612_jpg, suburban).
 holds(s_19612_jpg, window).
 holds(s_19612_jpg, billboard).
 holds(s_19612_jpg, porch).
@@ -46320,7 +44777,6 @@ holds(s_19613_jpg, feature).
 holds(s_19613_jpg, hotel).
 holds(s_19613_jpg, store).
 holds(s_19613_jpg, suburban).
-holds(s_19613_jpg, door).
 holds(s_19613_jpg, billboard).
 holds(s_19613_jpg, porch).
 holds(s_19613_jpg, wallsign).
@@ -46346,7 +44802,6 @@ holds(s_19615_jpg, building).
 holds(s_19615_jpg, feature).
 holds(s_19615_jpg, hotel).
 holds(s_19615_jpg, store).
-holds(s_19615_jpg, suburban).
 holds(s_19615_jpg, window).
 holds(s_19615_jpg, billboard).
 holds(s_19615_jpg, porch).
@@ -46359,7 +44814,6 @@ holds(s_19616_jpg, feature).
 holds(s_19616_jpg, hotel).
 holds(s_19616_jpg, store).
 holds(s_19616_jpg, suburban).
-holds(s_19616_jpg, door).
 holds(s_19616_jpg, billboard).
 holds(s_19616_jpg, porch).
 holds(s_19616_jpg, wallsign).
@@ -46385,7 +44839,6 @@ holds(s_19618_jpg, building).
 holds(s_19618_jpg, feature).
 holds(s_19618_jpg, hotel).
 holds(s_19618_jpg, store).
-holds(s_19618_jpg, suburban).
 holds(s_19618_jpg, window).
 holds(s_19618_jpg, billboard).
 holds(s_19618_jpg, porch).
@@ -46398,7 +44851,6 @@ holds(s_19619_jpg, feature).
 holds(s_19619_jpg, hotel).
 holds(s_19619_jpg, store).
 holds(s_19619_jpg, suburban).
-holds(s_19619_jpg, door).
 holds(s_19619_jpg, billboard).
 holds(s_19619_jpg, porch).
 holds(s_19619_jpg, wallsign).
@@ -46424,7 +44876,6 @@ holds(s_19621_jpg, building).
 holds(s_19621_jpg, feature).
 holds(s_19621_jpg, hotel).
 holds(s_19621_jpg, store).
-holds(s_19621_jpg, suburban).
 holds(s_19621_jpg, window).
 holds(s_19621_jpg, billboard).
 holds(s_19621_jpg, porch).
@@ -46437,7 +44888,6 @@ holds(s_19622_jpg, feature).
 holds(s_19622_jpg, hotel).
 holds(s_19622_jpg, store).
 holds(s_19622_jpg, suburban).
-holds(s_19622_jpg, door).
 holds(s_19622_jpg, billboard).
 holds(s_19622_jpg, porch).
 holds(s_19622_jpg, wallsign).
@@ -46463,7 +44913,6 @@ holds(s_19624_jpg, building).
 holds(s_19624_jpg, feature).
 holds(s_19624_jpg, hotel).
 holds(s_19624_jpg, store).
-holds(s_19624_jpg, suburban).
 holds(s_19624_jpg, window).
 holds(s_19624_jpg, billboard).
 holds(s_19624_jpg, porch).
@@ -46476,7 +44925,6 @@ holds(s_19625_jpg, feature).
 holds(s_19625_jpg, hotel).
 holds(s_19625_jpg, store).
 holds(s_19625_jpg, suburban).
-holds(s_19625_jpg, door).
 holds(s_19625_jpg, billboard).
 holds(s_19625_jpg, porch).
 holds(s_19625_jpg, wallsign).
@@ -46494,6 +44942,7 @@ holds(s_19626_jpg, window).
 holds(s_19626_jpg, billboard).
 holds(s_19626_jpg, porch).
 holds(s_19626_jpg, wallsign).
+holds(s_19626_jpg, pipe).
 holds(s_19626_jpg, commercial).
 
 sample(s_19627_jpg).
@@ -46501,7 +44950,6 @@ holds(s_19627_jpg, building).
 holds(s_19627_jpg, feature).
 holds(s_19627_jpg, hotel).
 holds(s_19627_jpg, store).
-holds(s_19627_jpg, suburban).
 holds(s_19627_jpg, window).
 holds(s_19627_jpg, billboard).
 holds(s_19627_jpg, porch).
@@ -46540,7 +44988,6 @@ holds(s_19630_jpg, building).
 holds(s_19630_jpg, feature).
 holds(s_19630_jpg, hotel).
 holds(s_19630_jpg, store).
-holds(s_19630_jpg, suburban).
 holds(s_19630_jpg, window).
 holds(s_19630_jpg, billboard).
 holds(s_19630_jpg, porch).
@@ -46553,7 +45000,6 @@ holds(s_19631_jpg, feature).
 holds(s_19631_jpg, hotel).
 holds(s_19631_jpg, store).
 holds(s_19631_jpg, suburban).
-holds(s_19631_jpg, door).
 holds(s_19631_jpg, billboard).
 holds(s_19631_jpg, porch).
 holds(s_19631_jpg, wallsign).
@@ -46579,7 +45025,6 @@ holds(s_19633_jpg, building).
 holds(s_19633_jpg, feature).
 holds(s_19633_jpg, hotel).
 holds(s_19633_jpg, store).
-holds(s_19633_jpg, suburban).
 holds(s_19633_jpg, window).
 holds(s_19633_jpg, billboard).
 holds(s_19633_jpg, porch).
@@ -46592,7 +45037,6 @@ holds(s_19634_jpg, feature).
 holds(s_19634_jpg, hotel).
 holds(s_19634_jpg, store).
 holds(s_19634_jpg, suburban).
-holds(s_19634_jpg, door).
 holds(s_19634_jpg, billboard).
 holds(s_19634_jpg, porch).
 holds(s_19634_jpg, wallsign).
@@ -46618,7 +45062,6 @@ holds(s_19636_jpg, building).
 holds(s_19636_jpg, feature).
 holds(s_19636_jpg, hotel).
 holds(s_19636_jpg, store).
-holds(s_19636_jpg, suburban).
 holds(s_19636_jpg, window).
 holds(s_19636_jpg, billboard).
 holds(s_19636_jpg, porch).
@@ -46631,7 +45074,6 @@ holds(s_19637_jpg, feature).
 holds(s_19637_jpg, hotel).
 holds(s_19637_jpg, store).
 holds(s_19637_jpg, suburban).
-holds(s_19637_jpg, door).
 holds(s_19637_jpg, billboard).
 holds(s_19637_jpg, porch).
 holds(s_19637_jpg, wallsign).
@@ -46657,7 +45099,6 @@ holds(s_19639_jpg, building).
 holds(s_19639_jpg, feature).
 holds(s_19639_jpg, hotel).
 holds(s_19639_jpg, store).
-holds(s_19639_jpg, suburban).
 holds(s_19639_jpg, window).
 holds(s_19639_jpg, billboard).
 holds(s_19639_jpg, porch).
@@ -46670,7 +45111,6 @@ holds(s_19640_jpg, feature).
 holds(s_19640_jpg, hotel).
 holds(s_19640_jpg, store).
 holds(s_19640_jpg, suburban).
-holds(s_19640_jpg, door).
 holds(s_19640_jpg, billboard).
 holds(s_19640_jpg, porch).
 holds(s_19640_jpg, wallsign).
@@ -46688,7 +45128,7 @@ holds(s_19641_jpg, window).
 holds(s_19641_jpg, billboard).
 holds(s_19641_jpg, porch).
 holds(s_19641_jpg, wallsign).
-holds(s_19641_jpg, car).
+holds(s_19641_jpg, pipe).
 holds(s_19641_jpg, commercial).
 
 sample(s_19642_jpg).
@@ -46696,7 +45136,6 @@ holds(s_19642_jpg, building).
 holds(s_19642_jpg, feature).
 holds(s_19642_jpg, hotel).
 holds(s_19642_jpg, store).
-holds(s_19642_jpg, suburban).
 holds(s_19642_jpg, window).
 holds(s_19642_jpg, billboard).
 holds(s_19642_jpg, porch).
@@ -46734,7 +45173,6 @@ holds(s_19645_jpg, building).
 holds(s_19645_jpg, feature).
 holds(s_19645_jpg, hotel).
 holds(s_19645_jpg, store).
-holds(s_19645_jpg, suburban).
 holds(s_19645_jpg, window).
 holds(s_19645_jpg, billboard).
 holds(s_19645_jpg, porch).
@@ -46773,7 +45211,6 @@ holds(s_19648_jpg, building).
 holds(s_19648_jpg, feature).
 holds(s_19648_jpg, hotel).
 holds(s_19648_jpg, store).
-holds(s_19648_jpg, suburban).
 holds(s_19648_jpg, window).
 holds(s_19648_jpg, billboard).
 holds(s_19648_jpg, porch).
@@ -46804,6 +45241,7 @@ holds(s_19650_jpg, window).
 holds(s_19650_jpg, billboard).
 holds(s_19650_jpg, porch).
 holds(s_19650_jpg, wallsign).
+holds(s_19650_jpg, pipe).
 holds(s_19650_jpg, commercial).
 
 sample(s_19651_jpg).
@@ -46811,7 +45249,6 @@ holds(s_19651_jpg, building).
 holds(s_19651_jpg, feature).
 holds(s_19651_jpg, hotel).
 holds(s_19651_jpg, store).
-holds(s_19651_jpg, suburban).
 holds(s_19651_jpg, window).
 holds(s_19651_jpg, billboard).
 holds(s_19651_jpg, porch).
@@ -46824,7 +45261,6 @@ holds(s_19652_jpg, feature).
 holds(s_19652_jpg, hotel).
 holds(s_19652_jpg, store).
 holds(s_19652_jpg, suburban).
-holds(s_19652_jpg, door).
 holds(s_19652_jpg, billboard).
 holds(s_19652_jpg, porch).
 holds(s_19652_jpg, wallsign).
@@ -46842,6 +45278,7 @@ holds(s_19653_jpg, window).
 holds(s_19653_jpg, billboard).
 holds(s_19653_jpg, porch).
 holds(s_19653_jpg, wallsign).
+holds(s_19653_jpg, pipe).
 holds(s_19653_jpg, commercial).
 
 sample(s_19654_jpg).
@@ -46849,7 +45286,6 @@ holds(s_19654_jpg, building).
 holds(s_19654_jpg, feature).
 holds(s_19654_jpg, hotel).
 holds(s_19654_jpg, store).
-holds(s_19654_jpg, suburban).
 holds(s_19654_jpg, window).
 holds(s_19654_jpg, billboard).
 holds(s_19654_jpg, porch).
@@ -46880,7 +45316,7 @@ holds(s_19656_jpg, window).
 holds(s_19656_jpg, billboard).
 holds(s_19656_jpg, porch).
 holds(s_19656_jpg, wallsign).
-holds(s_19656_jpg, car).
+holds(s_19656_jpg, pipe).
 holds(s_19656_jpg, commercial).
 
 sample(s_19657_jpg).
@@ -46888,7 +45324,6 @@ holds(s_19657_jpg, building).
 holds(s_19657_jpg, feature).
 holds(s_19657_jpg, hotel).
 holds(s_19657_jpg, store).
-holds(s_19657_jpg, suburban).
 holds(s_19657_jpg, window).
 holds(s_19657_jpg, billboard).
 holds(s_19657_jpg, porch).
@@ -46901,7 +45336,6 @@ holds(s_19658_jpg, feature).
 holds(s_19658_jpg, hotel).
 holds(s_19658_jpg, store).
 holds(s_19658_jpg, suburban).
-holds(s_19658_jpg, door).
 holds(s_19658_jpg, billboard).
 holds(s_19658_jpg, porch).
 holds(s_19658_jpg, wallsign).
@@ -46919,6 +45353,7 @@ holds(s_19659_jpg, window).
 holds(s_19659_jpg, billboard).
 holds(s_19659_jpg, porch).
 holds(s_19659_jpg, wallsign).
+holds(s_19659_jpg, pipe).
 holds(s_19659_jpg, commercial).
 
 sample(s_19660_jpg).
@@ -46939,7 +45374,6 @@ holds(s_19661_jpg, feature).
 holds(s_19661_jpg, hotel).
 holds(s_19661_jpg, store).
 holds(s_19661_jpg, suburban).
-holds(s_19661_jpg, door).
 holds(s_19661_jpg, billboard).
 holds(s_19661_jpg, porch).
 holds(s_19661_jpg, wallsign).
@@ -46957,6 +45391,7 @@ holds(s_19662_jpg, window).
 holds(s_19662_jpg, billboard).
 holds(s_19662_jpg, porch).
 holds(s_19662_jpg, wallsign).
+holds(s_19662_jpg, pipe).
 holds(s_19662_jpg, commercial).
 
 sample(s_19663_jpg).
@@ -46964,7 +45399,6 @@ holds(s_19663_jpg, building).
 holds(s_19663_jpg, feature).
 holds(s_19663_jpg, hotel).
 holds(s_19663_jpg, store).
-holds(s_19663_jpg, suburban).
 holds(s_19663_jpg, window).
 holds(s_19663_jpg, billboard).
 holds(s_19663_jpg, porch).
@@ -46977,7 +45411,6 @@ holds(s_19664_jpg, feature).
 holds(s_19664_jpg, hotel).
 holds(s_19664_jpg, store).
 holds(s_19664_jpg, suburban).
-holds(s_19664_jpg, door).
 holds(s_19664_jpg, billboard).
 holds(s_19664_jpg, porch).
 holds(s_19664_jpg, wallsign).
@@ -46995,6 +45428,7 @@ holds(s_19665_jpg, window).
 holds(s_19665_jpg, billboard).
 holds(s_19665_jpg, porch).
 holds(s_19665_jpg, wallsign).
+holds(s_19665_jpg, pipe).
 holds(s_19665_jpg, commercial).
 
 sample(s_19666_jpg).
@@ -47002,7 +45436,6 @@ holds(s_19666_jpg, building).
 holds(s_19666_jpg, feature).
 holds(s_19666_jpg, hotel).
 holds(s_19666_jpg, store).
-holds(s_19666_jpg, suburban).
 holds(s_19666_jpg, window).
 holds(s_19666_jpg, billboard).
 holds(s_19666_jpg, porch).
@@ -47015,7 +45448,6 @@ holds(s_19667_jpg, feature).
 holds(s_19667_jpg, hotel).
 holds(s_19667_jpg, store).
 holds(s_19667_jpg, suburban).
-holds(s_19667_jpg, door).
 holds(s_19667_jpg, billboard).
 holds(s_19667_jpg, porch).
 holds(s_19667_jpg, wallsign).
@@ -47071,6 +45503,7 @@ holds(s_19671_jpg, window).
 holds(s_19671_jpg, billboard).
 holds(s_19671_jpg, porch).
 holds(s_19671_jpg, wallsign).
+holds(s_19671_jpg, pipe).
 holds(s_19671_jpg, commercial).
 
 sample(s_19672_jpg).
@@ -47078,7 +45511,6 @@ holds(s_19672_jpg, building).
 holds(s_19672_jpg, feature).
 holds(s_19672_jpg, hotel).
 holds(s_19672_jpg, store).
-holds(s_19672_jpg, suburban).
 holds(s_19672_jpg, window).
 holds(s_19672_jpg, billboard).
 holds(s_19672_jpg, porch).
@@ -47117,7 +45549,6 @@ holds(s_19675_jpg, building).
 holds(s_19675_jpg, feature).
 holds(s_19675_jpg, hotel).
 holds(s_19675_jpg, store).
-holds(s_19675_jpg, suburban).
 holds(s_19675_jpg, window).
 holds(s_19675_jpg, billboard).
 holds(s_19675_jpg, porch).
@@ -47130,7 +45561,6 @@ holds(s_19676_jpg, feature).
 holds(s_19676_jpg, hotel).
 holds(s_19676_jpg, store).
 holds(s_19676_jpg, suburban).
-holds(s_19676_jpg, door).
 holds(s_19676_jpg, billboard).
 holds(s_19676_jpg, porch).
 holds(s_19676_jpg, wallsign).
@@ -47156,7 +45586,6 @@ holds(s_19678_jpg, building).
 holds(s_19678_jpg, feature).
 holds(s_19678_jpg, hotel).
 holds(s_19678_jpg, store).
-holds(s_19678_jpg, suburban).
 holds(s_19678_jpg, window).
 holds(s_19678_jpg, billboard).
 holds(s_19678_jpg, porch).
@@ -47169,6 +45598,7 @@ holds(s_19679_jpg, feature).
 holds(s_19679_jpg, hotel).
 holds(s_19679_jpg, store).
 holds(s_19679_jpg, suburban).
+holds(s_19679_jpg, door).
 holds(s_19679_jpg, billboard).
 holds(s_19679_jpg, porch).
 holds(s_19679_jpg, wallsign).
@@ -47194,7 +45624,6 @@ holds(s_19681_jpg, building).
 holds(s_19681_jpg, feature).
 holds(s_19681_jpg, hotel).
 holds(s_19681_jpg, store).
-holds(s_19681_jpg, suburban).
 holds(s_19681_jpg, window).
 holds(s_19681_jpg, billboard).
 holds(s_19681_jpg, porch).
@@ -47207,7 +45636,6 @@ holds(s_19682_jpg, feature).
 holds(s_19682_jpg, hotel).
 holds(s_19682_jpg, store).
 holds(s_19682_jpg, suburban).
-holds(s_19682_jpg, door).
 holds(s_19682_jpg, billboard).
 holds(s_19682_jpg, porch).
 holds(s_19682_jpg, wallsign).
@@ -47225,6 +45653,7 @@ holds(s_19683_jpg, window).
 holds(s_19683_jpg, billboard).
 holds(s_19683_jpg, porch).
 holds(s_19683_jpg, wallsign).
+holds(s_19683_jpg, pipe).
 holds(s_19683_jpg, commercial).
 
 sample(s_19684_jpg).
@@ -47232,7 +45661,6 @@ holds(s_19684_jpg, building).
 holds(s_19684_jpg, feature).
 holds(s_19684_jpg, hotel).
 holds(s_19684_jpg, store).
-holds(s_19684_jpg, suburban).
 holds(s_19684_jpg, window).
 holds(s_19684_jpg, billboard).
 holds(s_19684_jpg, porch).
@@ -47259,9 +45687,11 @@ holds(s_19686_jpg, hotel).
 holds(s_19686_jpg, store).
 holds(s_19686_jpg, suburban).
 holds(s_19686_jpg, door).
+holds(s_19686_jpg, window).
 holds(s_19686_jpg, billboard).
 holds(s_19686_jpg, porch).
 holds(s_19686_jpg, wallsign).
+holds(s_19686_jpg, pipe).
 holds(s_19686_jpg, car).
 holds(s_19686_jpg, commercial).
 
@@ -47270,7 +45700,6 @@ holds(s_19687_jpg, building).
 holds(s_19687_jpg, feature).
 holds(s_19687_jpg, hotel).
 holds(s_19687_jpg, store).
-holds(s_19687_jpg, suburban).
 holds(s_19687_jpg, window).
 holds(s_19687_jpg, billboard).
 holds(s_19687_jpg, porch).
@@ -47300,6 +45729,7 @@ holds(s_19689_jpg, window).
 holds(s_19689_jpg, billboard).
 holds(s_19689_jpg, porch).
 holds(s_19689_jpg, wallsign).
+holds(s_19689_jpg, pipe).
 holds(s_19689_jpg, commercial).
 
 sample(s_19690_jpg).
@@ -47308,12 +45738,11 @@ holds(s_19690_jpg, feature).
 holds(s_19690_jpg, hotel).
 holds(s_19690_jpg, store).
 holds(s_19690_jpg, suburban).
-holds(s_19690_jpg, door).
 holds(s_19690_jpg, window).
 holds(s_19690_jpg, billboard).
 holds(s_19690_jpg, porch).
 holds(s_19690_jpg, wallsign).
-holds(s_19690_jpg, commercial).
+holds(s_19690_jpg, industrial).
 
 sample(s_19691_jpg).
 holds(s_19691_jpg, building).
@@ -47321,7 +45750,6 @@ holds(s_19691_jpg, feature).
 holds(s_19691_jpg, hotel).
 holds(s_19691_jpg, store).
 holds(s_19691_jpg, suburban).
-holds(s_19691_jpg, door).
 holds(s_19691_jpg, billboard).
 holds(s_19691_jpg, porch).
 holds(s_19691_jpg, wallsign).
@@ -47340,14 +45768,12 @@ holds(s_19692_jpg, porch).
 holds(s_19692_jpg, wallsign).
 holds(s_19692_jpg, car).
 holds(s_19692_jpg, residential).
-holds(s_19692_jpg, commercial).
 
 sample(s_19693_jpg).
 holds(s_19693_jpg, building).
 holds(s_19693_jpg, feature).
 holds(s_19693_jpg, hotel).
 holds(s_19693_jpg, store).
-holds(s_19693_jpg, suburban).
 holds(s_19693_jpg, window).
 holds(s_19693_jpg, billboard).
 holds(s_19693_jpg, porch).
@@ -47360,7 +45786,6 @@ holds(s_19694_jpg, feature).
 holds(s_19694_jpg, hotel).
 holds(s_19694_jpg, store).
 holds(s_19694_jpg, suburban).
-holds(s_19694_jpg, door).
 holds(s_19694_jpg, billboard).
 holds(s_19694_jpg, porch).
 holds(s_19694_jpg, wallsign).
@@ -47386,7 +45811,6 @@ holds(s_19696_jpg, building).
 holds(s_19696_jpg, feature).
 holds(s_19696_jpg, hotel).
 holds(s_19696_jpg, store).
-holds(s_19696_jpg, suburban).
 holds(s_19696_jpg, window).
 holds(s_19696_jpg, billboard).
 holds(s_19696_jpg, porch).
@@ -47399,7 +45823,6 @@ holds(s_19697_jpg, feature).
 holds(s_19697_jpg, hotel).
 holds(s_19697_jpg, store).
 holds(s_19697_jpg, suburban).
-holds(s_19697_jpg, door).
 holds(s_19697_jpg, billboard).
 holds(s_19697_jpg, porch).
 holds(s_19697_jpg, wallsign).
@@ -47417,6 +45840,7 @@ holds(s_19698_jpg, window).
 holds(s_19698_jpg, billboard).
 holds(s_19698_jpg, porch).
 holds(s_19698_jpg, wallsign).
+holds(s_19698_jpg, pipe).
 holds(s_19698_jpg, car).
 holds(s_19698_jpg, commercial).
 
@@ -47425,7 +45849,6 @@ holds(s_19699_jpg, building).
 holds(s_19699_jpg, feature).
 holds(s_19699_jpg, hotel).
 holds(s_19699_jpg, store).
-holds(s_19699_jpg, suburban).
 holds(s_19699_jpg, window).
 holds(s_19699_jpg, billboard).
 holds(s_19699_jpg, porch).
@@ -47456,6 +45879,7 @@ holds(s_19701_jpg, window).
 holds(s_19701_jpg, billboard).
 holds(s_19701_jpg, porch).
 holds(s_19701_jpg, wallsign).
+holds(s_19701_jpg, pipe).
 holds(s_19701_jpg, commercial).
 
 sample(s_19702_jpg).
@@ -47469,7 +45893,7 @@ holds(s_19702_jpg, window).
 holds(s_19702_jpg, billboard).
 holds(s_19702_jpg, porch).
 holds(s_19702_jpg, wallsign).
-holds(s_19702_jpg, commercial).
+holds(s_19702_jpg, industrial).
 
 sample(s_19703_jpg).
 holds(s_19703_jpg, building).
@@ -47477,7 +45901,6 @@ holds(s_19703_jpg, feature).
 holds(s_19703_jpg, hotel).
 holds(s_19703_jpg, store).
 holds(s_19703_jpg, suburban).
-holds(s_19703_jpg, door).
 holds(s_19703_jpg, billboard).
 holds(s_19703_jpg, porch).
 holds(s_19703_jpg, wallsign).
@@ -47503,7 +45926,6 @@ holds(s_19705_jpg, building).
 holds(s_19705_jpg, feature).
 holds(s_19705_jpg, hotel).
 holds(s_19705_jpg, store).
-holds(s_19705_jpg, suburban).
 holds(s_19705_jpg, window).
 holds(s_19705_jpg, billboard).
 holds(s_19705_jpg, porch).
@@ -47516,7 +45938,6 @@ holds(s_19706_jpg, feature).
 holds(s_19706_jpg, hotel).
 holds(s_19706_jpg, store).
 holds(s_19706_jpg, suburban).
-holds(s_19706_jpg, door).
 holds(s_19706_jpg, billboard).
 holds(s_19706_jpg, porch).
 holds(s_19706_jpg, wallsign).
@@ -47534,6 +45955,7 @@ holds(s_19707_jpg, window).
 holds(s_19707_jpg, billboard).
 holds(s_19707_jpg, porch).
 holds(s_19707_jpg, wallsign).
+holds(s_19707_jpg, pipe).
 holds(s_19707_jpg, commercial).
 
 sample(s_19708_jpg).
@@ -47541,7 +45963,6 @@ holds(s_19708_jpg, building).
 holds(s_19708_jpg, feature).
 holds(s_19708_jpg, hotel).
 holds(s_19708_jpg, store).
-holds(s_19708_jpg, suburban).
 holds(s_19708_jpg, window).
 holds(s_19708_jpg, billboard).
 holds(s_19708_jpg, porch).
@@ -47580,7 +46001,6 @@ holds(s_19711_jpg, building).
 holds(s_19711_jpg, feature).
 holds(s_19711_jpg, hotel).
 holds(s_19711_jpg, store).
-holds(s_19711_jpg, suburban).
 holds(s_19711_jpg, window).
 holds(s_19711_jpg, billboard).
 holds(s_19711_jpg, porch).
@@ -47593,7 +46013,6 @@ holds(s_19712_jpg, feature).
 holds(s_19712_jpg, hotel).
 holds(s_19712_jpg, store).
 holds(s_19712_jpg, suburban).
-holds(s_19712_jpg, door).
 holds(s_19712_jpg, billboard).
 holds(s_19712_jpg, porch).
 holds(s_19712_jpg, wallsign).
@@ -47611,6 +46030,7 @@ holds(s_19713_jpg, window).
 holds(s_19713_jpg, billboard).
 holds(s_19713_jpg, porch).
 holds(s_19713_jpg, wallsign).
+holds(s_19713_jpg, pipe).
 holds(s_19713_jpg, commercial).
 
 sample(s_19714_jpg).
@@ -47618,7 +46038,6 @@ holds(s_19714_jpg, building).
 holds(s_19714_jpg, feature).
 holds(s_19714_jpg, hotel).
 holds(s_19714_jpg, store).
-holds(s_19714_jpg, suburban).
 holds(s_19714_jpg, window).
 holds(s_19714_jpg, billboard).
 holds(s_19714_jpg, porch).
@@ -47631,7 +46050,6 @@ holds(s_19715_jpg, feature).
 holds(s_19715_jpg, hotel).
 holds(s_19715_jpg, store).
 holds(s_19715_jpg, suburban).
-holds(s_19715_jpg, door).
 holds(s_19715_jpg, billboard).
 holds(s_19715_jpg, porch).
 holds(s_19715_jpg, wallsign).
@@ -47657,7 +46075,6 @@ holds(s_19717_jpg, building).
 holds(s_19717_jpg, feature).
 holds(s_19717_jpg, hotel).
 holds(s_19717_jpg, store).
-holds(s_19717_jpg, suburban).
 holds(s_19717_jpg, window).
 holds(s_19717_jpg, billboard).
 holds(s_19717_jpg, porch).
@@ -47670,7 +46087,6 @@ holds(s_19718_jpg, feature).
 holds(s_19718_jpg, hotel).
 holds(s_19718_jpg, store).
 holds(s_19718_jpg, suburban).
-holds(s_19718_jpg, door).
 holds(s_19718_jpg, billboard).
 holds(s_19718_jpg, porch).
 holds(s_19718_jpg, wallsign).
@@ -47696,7 +46112,6 @@ holds(s_19720_jpg, building).
 holds(s_19720_jpg, feature).
 holds(s_19720_jpg, hotel).
 holds(s_19720_jpg, store).
-holds(s_19720_jpg, suburban).
 holds(s_19720_jpg, window).
 holds(s_19720_jpg, billboard).
 holds(s_19720_jpg, porch).
@@ -47709,7 +46124,6 @@ holds(s_19721_jpg, feature).
 holds(s_19721_jpg, hotel).
 holds(s_19721_jpg, store).
 holds(s_19721_jpg, suburban).
-holds(s_19721_jpg, door).
 holds(s_19721_jpg, billboard).
 holds(s_19721_jpg, porch).
 holds(s_19721_jpg, wallsign).
@@ -47735,7 +46149,6 @@ holds(s_19723_jpg, building).
 holds(s_19723_jpg, feature).
 holds(s_19723_jpg, hotel).
 holds(s_19723_jpg, store).
-holds(s_19723_jpg, suburban).
 holds(s_19723_jpg, window).
 holds(s_19723_jpg, billboard).
 holds(s_19723_jpg, porch).
@@ -47748,7 +46161,6 @@ holds(s_19724_jpg, feature).
 holds(s_19724_jpg, hotel).
 holds(s_19724_jpg, store).
 holds(s_19724_jpg, suburban).
-holds(s_19724_jpg, door).
 holds(s_19724_jpg, billboard).
 holds(s_19724_jpg, porch).
 holds(s_19724_jpg, wallsign).
@@ -47774,7 +46186,6 @@ holds(s_19726_jpg, building).
 holds(s_19726_jpg, feature).
 holds(s_19726_jpg, hotel).
 holds(s_19726_jpg, store).
-holds(s_19726_jpg, suburban).
 holds(s_19726_jpg, window).
 holds(s_19726_jpg, billboard).
 holds(s_19726_jpg, porch).
@@ -47787,7 +46198,6 @@ holds(s_19727_jpg, feature).
 holds(s_19727_jpg, hotel).
 holds(s_19727_jpg, store).
 holds(s_19727_jpg, suburban).
-holds(s_19727_jpg, door).
 holds(s_19727_jpg, billboard).
 holds(s_19727_jpg, porch).
 holds(s_19727_jpg, wallsign).
@@ -47805,6 +46215,7 @@ holds(s_19728_jpg, window).
 holds(s_19728_jpg, billboard).
 holds(s_19728_jpg, porch).
 holds(s_19728_jpg, wallsign).
+holds(s_19728_jpg, pipe).
 holds(s_19728_jpg, commercial).
 
 sample(s_19729_jpg).
@@ -47812,7 +46223,6 @@ holds(s_19729_jpg, building).
 holds(s_19729_jpg, feature).
 holds(s_19729_jpg, hotel).
 holds(s_19729_jpg, store).
-holds(s_19729_jpg, suburban).
 holds(s_19729_jpg, window).
 holds(s_19729_jpg, billboard).
 holds(s_19729_jpg, porch).
@@ -47825,7 +46235,6 @@ holds(s_19730_jpg, feature).
 holds(s_19730_jpg, hotel).
 holds(s_19730_jpg, store).
 holds(s_19730_jpg, suburban).
-holds(s_19730_jpg, door).
 holds(s_19730_jpg, billboard).
 holds(s_19730_jpg, porch).
 holds(s_19730_jpg, wallsign).
@@ -47843,6 +46252,7 @@ holds(s_19731_jpg, window).
 holds(s_19731_jpg, billboard).
 holds(s_19731_jpg, porch).
 holds(s_19731_jpg, wallsign).
+holds(s_19731_jpg, pipe).
 holds(s_19731_jpg, commercial).
 
 sample(s_19732_jpg).
@@ -47850,7 +46260,6 @@ holds(s_19732_jpg, building).
 holds(s_19732_jpg, feature).
 holds(s_19732_jpg, hotel).
 holds(s_19732_jpg, store).
-holds(s_19732_jpg, suburban).
 holds(s_19732_jpg, window).
 holds(s_19732_jpg, billboard).
 holds(s_19732_jpg, porch).
@@ -47863,7 +46272,6 @@ holds(s_19733_jpg, feature).
 holds(s_19733_jpg, hotel).
 holds(s_19733_jpg, store).
 holds(s_19733_jpg, suburban).
-holds(s_19733_jpg, door).
 holds(s_19733_jpg, billboard).
 holds(s_19733_jpg, porch).
 holds(s_19733_jpg, wallsign).
@@ -47881,6 +46289,7 @@ holds(s_19734_jpg, window).
 holds(s_19734_jpg, billboard).
 holds(s_19734_jpg, porch).
 holds(s_19734_jpg, wallsign).
+holds(s_19734_jpg, pipe).
 holds(s_19734_jpg, commercial).
 
 sample(s_19735_jpg).
@@ -47888,7 +46297,6 @@ holds(s_19735_jpg, building).
 holds(s_19735_jpg, feature).
 holds(s_19735_jpg, hotel).
 holds(s_19735_jpg, store).
-holds(s_19735_jpg, suburban).
 holds(s_19735_jpg, window).
 holds(s_19735_jpg, billboard).
 holds(s_19735_jpg, porch).
@@ -47927,7 +46335,6 @@ holds(s_19738_jpg, building).
 holds(s_19738_jpg, feature).
 holds(s_19738_jpg, hotel).
 holds(s_19738_jpg, store).
-holds(s_19738_jpg, suburban).
 holds(s_19738_jpg, window).
 holds(s_19738_jpg, billboard).
 holds(s_19738_jpg, porch).
@@ -47940,7 +46347,6 @@ holds(s_19739_jpg, feature).
 holds(s_19739_jpg, hotel).
 holds(s_19739_jpg, store).
 holds(s_19739_jpg, suburban).
-holds(s_19739_jpg, door).
 holds(s_19739_jpg, billboard).
 holds(s_19739_jpg, porch).
 holds(s_19739_jpg, wallsign).
@@ -47966,7 +46372,6 @@ holds(s_19741_jpg, building).
 holds(s_19741_jpg, feature).
 holds(s_19741_jpg, hotel).
 holds(s_19741_jpg, store).
-holds(s_19741_jpg, suburban).
 holds(s_19741_jpg, window).
 holds(s_19741_jpg, billboard).
 holds(s_19741_jpg, porch).
@@ -47979,7 +46384,6 @@ holds(s_19742_jpg, feature).
 holds(s_19742_jpg, hotel).
 holds(s_19742_jpg, store).
 holds(s_19742_jpg, suburban).
-holds(s_19742_jpg, door).
 holds(s_19742_jpg, billboard).
 holds(s_19742_jpg, porch).
 holds(s_19742_jpg, wallsign).
@@ -47997,6 +46401,7 @@ holds(s_19743_jpg, window).
 holds(s_19743_jpg, billboard).
 holds(s_19743_jpg, porch).
 holds(s_19743_jpg, wallsign).
+holds(s_19743_jpg, pipe).
 holds(s_19743_jpg, commercial).
 
 sample(s_19744_jpg).
@@ -48004,7 +46409,6 @@ holds(s_19744_jpg, building).
 holds(s_19744_jpg, feature).
 holds(s_19744_jpg, hotel).
 holds(s_19744_jpg, store).
-holds(s_19744_jpg, suburban).
 holds(s_19744_jpg, window).
 holds(s_19744_jpg, billboard).
 holds(s_19744_jpg, porch).
@@ -48042,7 +46446,6 @@ holds(s_19747_jpg, building).
 holds(s_19747_jpg, feature).
 holds(s_19747_jpg, hotel).
 holds(s_19747_jpg, store).
-holds(s_19747_jpg, suburban).
 holds(s_19747_jpg, window).
 holds(s_19747_jpg, billboard).
 holds(s_19747_jpg, porch).
@@ -48080,7 +46483,6 @@ holds(s_19750_jpg, building).
 holds(s_19750_jpg, feature).
 holds(s_19750_jpg, hotel).
 holds(s_19750_jpg, store).
-holds(s_19750_jpg, suburban).
 holds(s_19750_jpg, window).
 holds(s_19750_jpg, billboard).
 holds(s_19750_jpg, porch).
@@ -48093,7 +46495,6 @@ holds(s_19751_jpg, feature).
 holds(s_19751_jpg, hotel).
 holds(s_19751_jpg, store).
 holds(s_19751_jpg, suburban).
-holds(s_19751_jpg, door).
 holds(s_19751_jpg, billboard).
 holds(s_19751_jpg, porch).
 holds(s_19751_jpg, wallsign).
@@ -48119,8 +46520,6 @@ holds(s_19753_jpg, building).
 holds(s_19753_jpg, feature).
 holds(s_19753_jpg, hotel).
 holds(s_19753_jpg, store).
-holds(s_19753_jpg, suburban).
-holds(s_19753_jpg, door).
 holds(s_19753_jpg, window).
 holds(s_19753_jpg, billboard).
 holds(s_19753_jpg, porch).
@@ -48133,7 +46532,6 @@ holds(s_19754_jpg, feature).
 holds(s_19754_jpg, hotel).
 holds(s_19754_jpg, store).
 holds(s_19754_jpg, suburban).
-holds(s_19754_jpg, door).
 holds(s_19754_jpg, billboard).
 holds(s_19754_jpg, porch).
 holds(s_19754_jpg, wallsign).
@@ -48159,7 +46557,6 @@ holds(s_19756_jpg, building).
 holds(s_19756_jpg, feature).
 holds(s_19756_jpg, hotel).
 holds(s_19756_jpg, store).
-holds(s_19756_jpg, suburban).
 holds(s_19756_jpg, window).
 holds(s_19756_jpg, billboard).
 holds(s_19756_jpg, porch).
@@ -48172,7 +46569,6 @@ holds(s_19757_jpg, feature).
 holds(s_19757_jpg, hotel).
 holds(s_19757_jpg, store).
 holds(s_19757_jpg, suburban).
-holds(s_19757_jpg, door).
 holds(s_19757_jpg, billboard).
 holds(s_19757_jpg, porch).
 holds(s_19757_jpg, wallsign).
@@ -48198,7 +46594,6 @@ holds(s_19759_jpg, building).
 holds(s_19759_jpg, feature).
 holds(s_19759_jpg, hotel).
 holds(s_19759_jpg, store).
-holds(s_19759_jpg, suburban).
 holds(s_19759_jpg, window).
 holds(s_19759_jpg, billboard).
 holds(s_19759_jpg, porch).
@@ -48211,7 +46606,6 @@ holds(s_19760_jpg, feature).
 holds(s_19760_jpg, hotel).
 holds(s_19760_jpg, store).
 holds(s_19760_jpg, suburban).
-holds(s_19760_jpg, door).
 holds(s_19760_jpg, billboard).
 holds(s_19760_jpg, porch).
 holds(s_19760_jpg, wallsign).
@@ -48229,6 +46623,7 @@ holds(s_19761_jpg, window).
 holds(s_19761_jpg, billboard).
 holds(s_19761_jpg, porch).
 holds(s_19761_jpg, wallsign).
+holds(s_19761_jpg, pipe).
 holds(s_19761_jpg, commercial).
 
 sample(s_19762_jpg).
@@ -48236,7 +46631,6 @@ holds(s_19762_jpg, building).
 holds(s_19762_jpg, feature).
 holds(s_19762_jpg, hotel).
 holds(s_19762_jpg, store).
-holds(s_19762_jpg, suburban).
 holds(s_19762_jpg, window).
 holds(s_19762_jpg, billboard).
 holds(s_19762_jpg, porch).
@@ -48249,7 +46643,6 @@ holds(s_19763_jpg, feature).
 holds(s_19763_jpg, hotel).
 holds(s_19763_jpg, store).
 holds(s_19763_jpg, suburban).
-holds(s_19763_jpg, door).
 holds(s_19763_jpg, billboard).
 holds(s_19763_jpg, porch).
 holds(s_19763_jpg, wallsign).
@@ -48267,6 +46660,7 @@ holds(s_19764_jpg, window).
 holds(s_19764_jpg, billboard).
 holds(s_19764_jpg, porch).
 holds(s_19764_jpg, wallsign).
+holds(s_19764_jpg, pipe).
 holds(s_19764_jpg, commercial).
 
 sample(s_19765_jpg).
@@ -48274,8 +46668,6 @@ holds(s_19765_jpg, building).
 holds(s_19765_jpg, feature).
 holds(s_19765_jpg, hotel).
 holds(s_19765_jpg, store).
-holds(s_19765_jpg, suburban).
-holds(s_19765_jpg, door).
 holds(s_19765_jpg, window).
 holds(s_19765_jpg, billboard).
 holds(s_19765_jpg, porch).
@@ -48288,7 +46680,6 @@ holds(s_19766_jpg, feature).
 holds(s_19766_jpg, hotel).
 holds(s_19766_jpg, store).
 holds(s_19766_jpg, suburban).
-holds(s_19766_jpg, door).
 holds(s_19766_jpg, billboard).
 holds(s_19766_jpg, porch).
 holds(s_19766_jpg, wallsign).
@@ -48306,6 +46697,7 @@ holds(s_19767_jpg, window).
 holds(s_19767_jpg, billboard).
 holds(s_19767_jpg, porch).
 holds(s_19767_jpg, wallsign).
+holds(s_19767_jpg, pipe).
 holds(s_19767_jpg, commercial).
 
 sample(s_19768_jpg).
@@ -48313,7 +46705,6 @@ holds(s_19768_jpg, building).
 holds(s_19768_jpg, feature).
 holds(s_19768_jpg, hotel).
 holds(s_19768_jpg, store).
-holds(s_19768_jpg, suburban).
 holds(s_19768_jpg, window).
 holds(s_19768_jpg, billboard).
 holds(s_19768_jpg, porch).
@@ -48326,7 +46717,6 @@ holds(s_19769_jpg, feature).
 holds(s_19769_jpg, hotel).
 holds(s_19769_jpg, store).
 holds(s_19769_jpg, suburban).
-holds(s_19769_jpg, door).
 holds(s_19769_jpg, billboard).
 holds(s_19769_jpg, porch).
 holds(s_19769_jpg, wallsign).
@@ -48352,7 +46742,6 @@ holds(s_19771_jpg, building).
 holds(s_19771_jpg, feature).
 holds(s_19771_jpg, hotel).
 holds(s_19771_jpg, store).
-holds(s_19771_jpg, suburban).
 holds(s_19771_jpg, window).
 holds(s_19771_jpg, billboard).
 holds(s_19771_jpg, porch).
@@ -48365,7 +46754,6 @@ holds(s_19772_jpg, feature).
 holds(s_19772_jpg, hotel).
 holds(s_19772_jpg, store).
 holds(s_19772_jpg, suburban).
-holds(s_19772_jpg, door).
 holds(s_19772_jpg, billboard).
 holds(s_19772_jpg, porch).
 holds(s_19772_jpg, wallsign).
@@ -48391,7 +46779,6 @@ holds(s_19774_jpg, building).
 holds(s_19774_jpg, feature).
 holds(s_19774_jpg, hotel).
 holds(s_19774_jpg, store).
-holds(s_19774_jpg, suburban).
 holds(s_19774_jpg, window).
 holds(s_19774_jpg, billboard).
 holds(s_19774_jpg, porch).
@@ -48404,7 +46791,6 @@ holds(s_19775_jpg, feature).
 holds(s_19775_jpg, hotel).
 holds(s_19775_jpg, store).
 holds(s_19775_jpg, suburban).
-holds(s_19775_jpg, door).
 holds(s_19775_jpg, billboard).
 holds(s_19775_jpg, porch).
 holds(s_19775_jpg, wallsign).
@@ -48422,6 +46808,7 @@ holds(s_19776_jpg, window).
 holds(s_19776_jpg, billboard).
 holds(s_19776_jpg, porch).
 holds(s_19776_jpg, wallsign).
+holds(s_19776_jpg, pipe).
 holds(s_19776_jpg, commercial).
 
 sample(s_19777_jpg).
@@ -48429,7 +46816,6 @@ holds(s_19777_jpg, building).
 holds(s_19777_jpg, feature).
 holds(s_19777_jpg, hotel).
 holds(s_19777_jpg, store).
-holds(s_19777_jpg, suburban).
 holds(s_19777_jpg, window).
 holds(s_19777_jpg, billboard).
 holds(s_19777_jpg, porch).
@@ -48442,7 +46828,6 @@ holds(s_19778_jpg, feature).
 holds(s_19778_jpg, hotel).
 holds(s_19778_jpg, store).
 holds(s_19778_jpg, suburban).
-holds(s_19778_jpg, door).
 holds(s_19778_jpg, billboard).
 holds(s_19778_jpg, porch).
 holds(s_19778_jpg, wallsign).
@@ -48468,7 +46853,6 @@ holds(s_19780_jpg, building).
 holds(s_19780_jpg, feature).
 holds(s_19780_jpg, hotel).
 holds(s_19780_jpg, store).
-holds(s_19780_jpg, suburban).
 holds(s_19780_jpg, window).
 holds(s_19780_jpg, billboard).
 holds(s_19780_jpg, porch).
@@ -48481,7 +46865,6 @@ holds(s_19781_jpg, feature).
 holds(s_19781_jpg, hotel).
 holds(s_19781_jpg, store).
 holds(s_19781_jpg, suburban).
-holds(s_19781_jpg, door).
 holds(s_19781_jpg, billboard).
 holds(s_19781_jpg, porch).
 holds(s_19781_jpg, wallsign).
@@ -48499,6 +46882,7 @@ holds(s_19782_jpg, window).
 holds(s_19782_jpg, billboard).
 holds(s_19782_jpg, porch).
 holds(s_19782_jpg, wallsign).
+holds(s_19782_jpg, pipe).
 holds(s_19782_jpg, commercial).
 
 sample(s_19783_jpg).
@@ -48506,7 +46890,6 @@ holds(s_19783_jpg, building).
 holds(s_19783_jpg, feature).
 holds(s_19783_jpg, hotel).
 holds(s_19783_jpg, store).
-holds(s_19783_jpg, suburban).
 holds(s_19783_jpg, window).
 holds(s_19783_jpg, billboard).
 holds(s_19783_jpg, porch).
@@ -48536,6 +46919,7 @@ holds(s_19785_jpg, window).
 holds(s_19785_jpg, billboard).
 holds(s_19785_jpg, porch).
 holds(s_19785_jpg, wallsign).
+holds(s_19785_jpg, pipe).
 holds(s_19785_jpg, commercial).
 
 sample(s_19786_jpg).
@@ -48543,7 +46927,6 @@ holds(s_19786_jpg, building).
 holds(s_19786_jpg, feature).
 holds(s_19786_jpg, hotel).
 holds(s_19786_jpg, store).
-holds(s_19786_jpg, suburban).
 holds(s_19786_jpg, window).
 holds(s_19786_jpg, billboard).
 holds(s_19786_jpg, porch).
@@ -48556,7 +46939,6 @@ holds(s_19787_jpg, feature).
 holds(s_19787_jpg, hotel).
 holds(s_19787_jpg, store).
 holds(s_19787_jpg, suburban).
-holds(s_19787_jpg, door).
 holds(s_19787_jpg, billboard).
 holds(s_19787_jpg, porch).
 holds(s_19787_jpg, wallsign).
@@ -48582,7 +46964,6 @@ holds(s_19789_jpg, building).
 holds(s_19789_jpg, feature).
 holds(s_19789_jpg, hotel).
 holds(s_19789_jpg, store).
-holds(s_19789_jpg, suburban).
 holds(s_19789_jpg, window).
 holds(s_19789_jpg, billboard).
 holds(s_19789_jpg, porch).
@@ -48595,7 +46976,6 @@ holds(s_19790_jpg, feature).
 holds(s_19790_jpg, hotel).
 holds(s_19790_jpg, store).
 holds(s_19790_jpg, suburban).
-holds(s_19790_jpg, door).
 holds(s_19790_jpg, billboard).
 holds(s_19790_jpg, porch).
 holds(s_19790_jpg, wallsign).
@@ -48621,7 +47001,6 @@ holds(s_19792_jpg, building).
 holds(s_19792_jpg, feature).
 holds(s_19792_jpg, hotel).
 holds(s_19792_jpg, store).
-holds(s_19792_jpg, suburban).
 holds(s_19792_jpg, window).
 holds(s_19792_jpg, billboard).
 holds(s_19792_jpg, porch).
@@ -48634,7 +47013,6 @@ holds(s_19793_jpg, feature).
 holds(s_19793_jpg, hotel).
 holds(s_19793_jpg, store).
 holds(s_19793_jpg, suburban).
-holds(s_19793_jpg, door).
 holds(s_19793_jpg, billboard).
 holds(s_19793_jpg, porch).
 holds(s_19793_jpg, wallsign).
@@ -48646,8 +47024,6 @@ holds(s_19794_jpg, building).
 holds(s_19794_jpg, feature).
 holds(s_19794_jpg, hotel).
 holds(s_19794_jpg, store).
-holds(s_19794_jpg, suburban).
-holds(s_19794_jpg, door).
 holds(s_19794_jpg, window).
 holds(s_19794_jpg, billboard).
 holds(s_19794_jpg, porch).
@@ -48659,7 +47035,6 @@ holds(s_19795_jpg, building).
 holds(s_19795_jpg, feature).
 holds(s_19795_jpg, hotel).
 holds(s_19795_jpg, store).
-holds(s_19795_jpg, suburban).
 holds(s_19795_jpg, window).
 holds(s_19795_jpg, billboard).
 holds(s_19795_jpg, porch).
@@ -48672,7 +47047,6 @@ holds(s_19796_jpg, feature).
 holds(s_19796_jpg, hotel).
 holds(s_19796_jpg, store).
 holds(s_19796_jpg, suburban).
-holds(s_19796_jpg, door).
 holds(s_19796_jpg, billboard).
 holds(s_19796_jpg, porch).
 holds(s_19796_jpg, wallsign).
@@ -48690,6 +47064,7 @@ holds(s_19797_jpg, window).
 holds(s_19797_jpg, billboard).
 holds(s_19797_jpg, porch).
 holds(s_19797_jpg, wallsign).
+holds(s_19797_jpg, pipe).
 holds(s_19797_jpg, commercial).
 
 sample(s_19798_jpg).
@@ -48697,7 +47072,6 @@ holds(s_19798_jpg, building).
 holds(s_19798_jpg, feature).
 holds(s_19798_jpg, hotel).
 holds(s_19798_jpg, store).
-holds(s_19798_jpg, suburban).
 holds(s_19798_jpg, window).
 holds(s_19798_jpg, billboard).
 holds(s_19798_jpg, porch).
@@ -48710,7 +47084,6 @@ holds(s_19799_jpg, feature).
 holds(s_19799_jpg, hotel).
 holds(s_19799_jpg, store).
 holds(s_19799_jpg, suburban).
-holds(s_19799_jpg, door).
 holds(s_19799_jpg, billboard).
 holds(s_19799_jpg, porch).
 holds(s_19799_jpg, wallsign).
@@ -48728,6 +47101,7 @@ holds(s_19800_jpg, window).
 holds(s_19800_jpg, billboard).
 holds(s_19800_jpg, porch).
 holds(s_19800_jpg, wallsign).
+holds(s_19800_jpg, pipe).
 holds(s_19800_jpg, commercial).
 
 sample(s_19801_jpg).
@@ -48735,7 +47109,6 @@ holds(s_19801_jpg, building).
 holds(s_19801_jpg, feature).
 holds(s_19801_jpg, hotel).
 holds(s_19801_jpg, store).
-holds(s_19801_jpg, suburban).
 holds(s_19801_jpg, window).
 holds(s_19801_jpg, billboard).
 holds(s_19801_jpg, porch).
@@ -48773,8 +47146,6 @@ holds(s_19804_jpg, building).
 holds(s_19804_jpg, feature).
 holds(s_19804_jpg, hotel).
 holds(s_19804_jpg, store).
-holds(s_19804_jpg, suburban).
-holds(s_19804_jpg, door).
 holds(s_19804_jpg, window).
 holds(s_19804_jpg, billboard).
 holds(s_19804_jpg, porch).
@@ -48787,7 +47158,6 @@ holds(s_19805_jpg, feature).
 holds(s_19805_jpg, hotel).
 holds(s_19805_jpg, store).
 holds(s_19805_jpg, suburban).
-holds(s_19805_jpg, door).
 holds(s_19805_jpg, billboard).
 holds(s_19805_jpg, porch).
 holds(s_19805_jpg, wallsign).
@@ -48813,7 +47183,6 @@ holds(s_19807_jpg, building).
 holds(s_19807_jpg, feature).
 holds(s_19807_jpg, hotel).
 holds(s_19807_jpg, store).
-holds(s_19807_jpg, suburban).
 holds(s_19807_jpg, window).
 holds(s_19807_jpg, billboard).
 holds(s_19807_jpg, porch).
@@ -48826,7 +47195,6 @@ holds(s_19808_jpg, feature).
 holds(s_19808_jpg, hotel).
 holds(s_19808_jpg, store).
 holds(s_19808_jpg, suburban).
-holds(s_19808_jpg, door).
 holds(s_19808_jpg, billboard).
 holds(s_19808_jpg, porch).
 holds(s_19808_jpg, wallsign).
@@ -48852,7 +47220,6 @@ holds(s_19810_jpg, building).
 holds(s_19810_jpg, feature).
 holds(s_19810_jpg, hotel).
 holds(s_19810_jpg, store).
-holds(s_19810_jpg, suburban).
 holds(s_19810_jpg, window).
 holds(s_19810_jpg, billboard).
 holds(s_19810_jpg, porch).
@@ -48882,6 +47249,7 @@ holds(s_19812_jpg, window).
 holds(s_19812_jpg, billboard).
 holds(s_19812_jpg, porch).
 holds(s_19812_jpg, wallsign).
+holds(s_19812_jpg, pipe).
 holds(s_19812_jpg, commercial).
 
 sample(s_19813_jpg).
@@ -48889,7 +47257,6 @@ holds(s_19813_jpg, building).
 holds(s_19813_jpg, feature).
 holds(s_19813_jpg, hotel).
 holds(s_19813_jpg, store).
-holds(s_19813_jpg, suburban).
 holds(s_19813_jpg, window).
 holds(s_19813_jpg, billboard).
 holds(s_19813_jpg, porch).
@@ -48927,8 +47294,6 @@ holds(s_19816_jpg, building).
 holds(s_19816_jpg, feature).
 holds(s_19816_jpg, hotel).
 holds(s_19816_jpg, store).
-holds(s_19816_jpg, suburban).
-holds(s_19816_jpg, door).
 holds(s_19816_jpg, window).
 holds(s_19816_jpg, billboard).
 holds(s_19816_jpg, porch).
@@ -48941,7 +47306,6 @@ holds(s_19817_jpg, feature).
 holds(s_19817_jpg, hotel).
 holds(s_19817_jpg, store).
 holds(s_19817_jpg, suburban).
-holds(s_19817_jpg, door).
 holds(s_19817_jpg, billboard).
 holds(s_19817_jpg, porch).
 holds(s_19817_jpg, wallsign).
@@ -48967,7 +47331,6 @@ holds(s_19819_jpg, building).
 holds(s_19819_jpg, feature).
 holds(s_19819_jpg, hotel).
 holds(s_19819_jpg, store).
-holds(s_19819_jpg, suburban).
 holds(s_19819_jpg, window).
 holds(s_19819_jpg, billboard).
 holds(s_19819_jpg, porch).
@@ -48980,7 +47343,6 @@ holds(s_19820_jpg, feature).
 holds(s_19820_jpg, hotel).
 holds(s_19820_jpg, store).
 holds(s_19820_jpg, suburban).
-holds(s_19820_jpg, door).
 holds(s_19820_jpg, billboard).
 holds(s_19820_jpg, porch).
 holds(s_19820_jpg, wallsign).
@@ -48998,6 +47360,7 @@ holds(s_19821_jpg, window).
 holds(s_19821_jpg, billboard).
 holds(s_19821_jpg, porch).
 holds(s_19821_jpg, wallsign).
+holds(s_19821_jpg, pipe).
 holds(s_19821_jpg, commercial).
 
 sample(s_19822_jpg).
@@ -49005,7 +47368,6 @@ holds(s_19822_jpg, building).
 holds(s_19822_jpg, feature).
 holds(s_19822_jpg, hotel).
 holds(s_19822_jpg, store).
-holds(s_19822_jpg, suburban).
 holds(s_19822_jpg, window).
 holds(s_19822_jpg, billboard).
 holds(s_19822_jpg, porch).
@@ -49036,6 +47398,7 @@ holds(s_19824_jpg, window).
 holds(s_19824_jpg, billboard).
 holds(s_19824_jpg, porch).
 holds(s_19824_jpg, wallsign).
+holds(s_19824_jpg, pipe).
 holds(s_19824_jpg, commercial).
 
 sample(s_19825_jpg).
@@ -49043,7 +47406,6 @@ holds(s_19825_jpg, building).
 holds(s_19825_jpg, feature).
 holds(s_19825_jpg, hotel).
 holds(s_19825_jpg, store).
-holds(s_19825_jpg, suburban).
 holds(s_19825_jpg, window).
 holds(s_19825_jpg, billboard).
 holds(s_19825_jpg, porch).
@@ -49082,7 +47444,6 @@ holds(s_19828_jpg, building).
 holds(s_19828_jpg, feature).
 holds(s_19828_jpg, hotel).
 holds(s_19828_jpg, store).
-holds(s_19828_jpg, suburban).
 holds(s_19828_jpg, window).
 holds(s_19828_jpg, billboard).
 holds(s_19828_jpg, porch).
@@ -49120,7 +47481,6 @@ holds(s_19831_jpg, building).
 holds(s_19831_jpg, feature).
 holds(s_19831_jpg, hotel).
 holds(s_19831_jpg, store).
-holds(s_19831_jpg, suburban).
 holds(s_19831_jpg, window).
 holds(s_19831_jpg, billboard).
 holds(s_19831_jpg, porch).
@@ -49133,7 +47493,6 @@ holds(s_19832_jpg, feature).
 holds(s_19832_jpg, hotel).
 holds(s_19832_jpg, store).
 holds(s_19832_jpg, suburban).
-holds(s_19832_jpg, door).
 holds(s_19832_jpg, billboard).
 holds(s_19832_jpg, porch).
 holds(s_19832_jpg, wallsign).
@@ -49159,7 +47518,6 @@ holds(s_19834_jpg, building).
 holds(s_19834_jpg, feature).
 holds(s_19834_jpg, hotel).
 holds(s_19834_jpg, store).
-holds(s_19834_jpg, suburban).
 holds(s_19834_jpg, window).
 holds(s_19834_jpg, billboard).
 holds(s_19834_jpg, porch).
@@ -49172,7 +47530,6 @@ holds(s_19835_jpg, feature).
 holds(s_19835_jpg, hotel).
 holds(s_19835_jpg, store).
 holds(s_19835_jpg, suburban).
-holds(s_19835_jpg, door).
 holds(s_19835_jpg, billboard).
 holds(s_19835_jpg, porch).
 holds(s_19835_jpg, wallsign).
@@ -49198,7 +47555,6 @@ holds(s_19837_jpg, building).
 holds(s_19837_jpg, feature).
 holds(s_19837_jpg, hotel).
 holds(s_19837_jpg, store).
-holds(s_19837_jpg, suburban).
 holds(s_19837_jpg, window).
 holds(s_19837_jpg, billboard).
 holds(s_19837_jpg, porch).
@@ -49211,7 +47567,6 @@ holds(s_19838_jpg, feature).
 holds(s_19838_jpg, hotel).
 holds(s_19838_jpg, store).
 holds(s_19838_jpg, suburban).
-holds(s_19838_jpg, door).
 holds(s_19838_jpg, billboard).
 holds(s_19838_jpg, porch).
 holds(s_19838_jpg, wallsign).
@@ -49237,7 +47592,6 @@ holds(s_19840_jpg, building).
 holds(s_19840_jpg, feature).
 holds(s_19840_jpg, hotel).
 holds(s_19840_jpg, store).
-holds(s_19840_jpg, suburban).
 holds(s_19840_jpg, window).
 holds(s_19840_jpg, billboard).
 holds(s_19840_jpg, porch).
@@ -49268,6 +47622,7 @@ holds(s_19842_jpg, window).
 holds(s_19842_jpg, billboard).
 holds(s_19842_jpg, porch).
 holds(s_19842_jpg, wallsign).
+holds(s_19842_jpg, pipe).
 holds(s_19842_jpg, commercial).
 
 sample(s_19843_jpg).
@@ -49275,7 +47630,6 @@ holds(s_19843_jpg, building).
 holds(s_19843_jpg, feature).
 holds(s_19843_jpg, hotel).
 holds(s_19843_jpg, store).
-holds(s_19843_jpg, suburban).
 holds(s_19843_jpg, window).
 holds(s_19843_jpg, billboard).
 holds(s_19843_jpg, porch).
@@ -49288,7 +47642,6 @@ holds(s_19844_jpg, feature).
 holds(s_19844_jpg, hotel).
 holds(s_19844_jpg, store).
 holds(s_19844_jpg, suburban).
-holds(s_19844_jpg, door).
 holds(s_19844_jpg, billboard).
 holds(s_19844_jpg, porch).
 holds(s_19844_jpg, wallsign).
@@ -49306,6 +47659,7 @@ holds(s_19845_jpg, window).
 holds(s_19845_jpg, billboard).
 holds(s_19845_jpg, porch).
 holds(s_19845_jpg, wallsign).
+holds(s_19845_jpg, pipe).
 holds(s_19845_jpg, commercial).
 
 sample(s_19846_jpg).
@@ -49313,7 +47667,6 @@ holds(s_19846_jpg, building).
 holds(s_19846_jpg, feature).
 holds(s_19846_jpg, hotel).
 holds(s_19846_jpg, store).
-holds(s_19846_jpg, suburban).
 holds(s_19846_jpg, window).
 holds(s_19846_jpg, billboard).
 holds(s_19846_jpg, porch).
@@ -49326,7 +47679,6 @@ holds(s_19847_jpg, feature).
 holds(s_19847_jpg, hotel).
 holds(s_19847_jpg, store).
 holds(s_19847_jpg, suburban).
-holds(s_19847_jpg, door).
 holds(s_19847_jpg, billboard).
 holds(s_19847_jpg, porch).
 holds(s_19847_jpg, wallsign).
@@ -49344,6 +47696,7 @@ holds(s_19848_jpg, window).
 holds(s_19848_jpg, billboard).
 holds(s_19848_jpg, porch).
 holds(s_19848_jpg, wallsign).
+holds(s_19848_jpg, pipe).
 holds(s_19848_jpg, commercial).
 
 sample(s_19849_jpg).
@@ -49351,7 +47704,6 @@ holds(s_19849_jpg, building).
 holds(s_19849_jpg, feature).
 holds(s_19849_jpg, hotel).
 holds(s_19849_jpg, store).
-holds(s_19849_jpg, suburban).
 holds(s_19849_jpg, window).
 holds(s_19849_jpg, billboard).
 holds(s_19849_jpg, porch).
@@ -49364,7 +47716,6 @@ holds(s_19850_jpg, feature).
 holds(s_19850_jpg, hotel).
 holds(s_19850_jpg, store).
 holds(s_19850_jpg, suburban).
-holds(s_19850_jpg, door).
 holds(s_19850_jpg, billboard).
 holds(s_19850_jpg, porch).
 holds(s_19850_jpg, wallsign).
@@ -49382,6 +47733,7 @@ holds(s_19851_jpg, window).
 holds(s_19851_jpg, billboard).
 holds(s_19851_jpg, porch).
 holds(s_19851_jpg, wallsign).
+holds(s_19851_jpg, pipe).
 holds(s_19851_jpg, commercial).
 
 sample(s_19852_jpg).
@@ -49389,7 +47741,6 @@ holds(s_19852_jpg, building).
 holds(s_19852_jpg, feature).
 holds(s_19852_jpg, hotel).
 holds(s_19852_jpg, store).
-holds(s_19852_jpg, suburban).
 holds(s_19852_jpg, window).
 holds(s_19852_jpg, billboard).
 holds(s_19852_jpg, porch).
@@ -49402,7 +47753,6 @@ holds(s_19853_jpg, feature).
 holds(s_19853_jpg, hotel).
 holds(s_19853_jpg, store).
 holds(s_19853_jpg, suburban).
-holds(s_19853_jpg, door).
 holds(s_19853_jpg, billboard).
 holds(s_19853_jpg, porch).
 holds(s_19853_jpg, wallsign).
@@ -49428,7 +47778,6 @@ holds(s_19855_jpg, building).
 holds(s_19855_jpg, feature).
 holds(s_19855_jpg, hotel).
 holds(s_19855_jpg, store).
-holds(s_19855_jpg, suburban).
 holds(s_19855_jpg, window).
 holds(s_19855_jpg, billboard).
 holds(s_19855_jpg, porch).
@@ -49505,7 +47854,6 @@ holds(s_19861_jpg, building).
 holds(s_19861_jpg, feature).
 holds(s_19861_jpg, hotel).
 holds(s_19861_jpg, store).
-holds(s_19861_jpg, suburban).
 holds(s_19861_jpg, window).
 holds(s_19861_jpg, billboard).
 holds(s_19861_jpg, porch).
@@ -49536,6 +47884,7 @@ holds(s_19863_jpg, window).
 holds(s_19863_jpg, billboard).
 holds(s_19863_jpg, porch).
 holds(s_19863_jpg, wallsign).
+holds(s_19863_jpg, pipe).
 holds(s_19863_jpg, commercial).
 
 sample(s_19864_jpg).
@@ -49543,7 +47892,6 @@ holds(s_19864_jpg, building).
 holds(s_19864_jpg, feature).
 holds(s_19864_jpg, hotel).
 holds(s_19864_jpg, store).
-holds(s_19864_jpg, suburban).
 holds(s_19864_jpg, window).
 holds(s_19864_jpg, billboard).
 holds(s_19864_jpg, porch).
@@ -49574,6 +47922,7 @@ holds(s_19866_jpg, window).
 holds(s_19866_jpg, billboard).
 holds(s_19866_jpg, porch).
 holds(s_19866_jpg, wallsign).
+holds(s_19866_jpg, pipe).
 holds(s_19866_jpg, commercial).
 
 sample(s_19867_jpg).
@@ -49581,7 +47930,6 @@ holds(s_19867_jpg, building).
 holds(s_19867_jpg, feature).
 holds(s_19867_jpg, hotel).
 holds(s_19867_jpg, store).
-holds(s_19867_jpg, suburban).
 holds(s_19867_jpg, window).
 holds(s_19867_jpg, billboard).
 holds(s_19867_jpg, porch).
@@ -49620,7 +47968,6 @@ holds(s_19870_jpg, building).
 holds(s_19870_jpg, feature).
 holds(s_19870_jpg, hotel).
 holds(s_19870_jpg, store).
-holds(s_19870_jpg, suburban).
 holds(s_19870_jpg, window).
 holds(s_19870_jpg, billboard).
 holds(s_19870_jpg, porch).
@@ -49633,7 +47980,6 @@ holds(s_19871_jpg, feature).
 holds(s_19871_jpg, hotel).
 holds(s_19871_jpg, store).
 holds(s_19871_jpg, suburban).
-holds(s_19871_jpg, door).
 holds(s_19871_jpg, billboard).
 holds(s_19871_jpg, porch).
 holds(s_19871_jpg, wallsign).
@@ -49651,6 +47997,7 @@ holds(s_19872_jpg, window).
 holds(s_19872_jpg, billboard).
 holds(s_19872_jpg, porch).
 holds(s_19872_jpg, wallsign).
+holds(s_19872_jpg, pipe).
 holds(s_19872_jpg, commercial).
 
 sample(s_19873_jpg).
@@ -49658,7 +48005,6 @@ holds(s_19873_jpg, building).
 holds(s_19873_jpg, feature).
 holds(s_19873_jpg, hotel).
 holds(s_19873_jpg, store).
-holds(s_19873_jpg, suburban).
 holds(s_19873_jpg, window).
 holds(s_19873_jpg, billboard).
 holds(s_19873_jpg, porch).
@@ -49671,7 +48017,6 @@ holds(s_19874_jpg, feature).
 holds(s_19874_jpg, hotel).
 holds(s_19874_jpg, store).
 holds(s_19874_jpg, suburban).
-holds(s_19874_jpg, door).
 holds(s_19874_jpg, billboard).
 holds(s_19874_jpg, porch).
 holds(s_19874_jpg, wallsign).
@@ -49727,6 +48072,7 @@ holds(s_19878_jpg, window).
 holds(s_19878_jpg, billboard).
 holds(s_19878_jpg, porch).
 holds(s_19878_jpg, wallsign).
+holds(s_19878_jpg, pipe).
 holds(s_19878_jpg, commercial).
 
 sample(s_19879_jpg).
@@ -49734,7 +48080,6 @@ holds(s_19879_jpg, building).
 holds(s_19879_jpg, feature).
 holds(s_19879_jpg, hotel).
 holds(s_19879_jpg, store).
-holds(s_19879_jpg, suburban).
 holds(s_19879_jpg, window).
 holds(s_19879_jpg, billboard).
 holds(s_19879_jpg, porch).
@@ -49773,7 +48118,6 @@ holds(s_19882_jpg, building).
 holds(s_19882_jpg, feature).
 holds(s_19882_jpg, hotel).
 holds(s_19882_jpg, store).
-holds(s_19882_jpg, suburban).
 holds(s_19882_jpg, window).
 holds(s_19882_jpg, billboard).
 holds(s_19882_jpg, porch).
@@ -49786,7 +48130,6 @@ holds(s_19883_jpg, feature).
 holds(s_19883_jpg, hotel).
 holds(s_19883_jpg, store).
 holds(s_19883_jpg, suburban).
-holds(s_19883_jpg, door).
 holds(s_19883_jpg, billboard).
 holds(s_19883_jpg, porch).
 holds(s_19883_jpg, wallsign).
@@ -49804,6 +48147,7 @@ holds(s_19884_jpg, window).
 holds(s_19884_jpg, billboard).
 holds(s_19884_jpg, porch).
 holds(s_19884_jpg, wallsign).
+holds(s_19884_jpg, pipe).
 holds(s_19884_jpg, commercial).
 
 sample(s_19885_jpg).
@@ -49811,7 +48155,6 @@ holds(s_19885_jpg, building).
 holds(s_19885_jpg, feature).
 holds(s_19885_jpg, hotel).
 holds(s_19885_jpg, store).
-holds(s_19885_jpg, suburban).
 holds(s_19885_jpg, window).
 holds(s_19885_jpg, billboard).
 holds(s_19885_jpg, porch).
@@ -49824,7 +48167,6 @@ holds(s_19886_jpg, feature).
 holds(s_19886_jpg, hotel).
 holds(s_19886_jpg, store).
 holds(s_19886_jpg, suburban).
-holds(s_19886_jpg, door).
 holds(s_19886_jpg, billboard).
 holds(s_19886_jpg, porch).
 holds(s_19886_jpg, wallsign).
@@ -49849,7 +48191,6 @@ holds(s_19888_jpg, building).
 holds(s_19888_jpg, feature).
 holds(s_19888_jpg, hotel).
 holds(s_19888_jpg, store).
-holds(s_19888_jpg, suburban).
 holds(s_19888_jpg, window).
 holds(s_19888_jpg, billboard).
 holds(s_19888_jpg, porch).
@@ -49862,7 +48203,6 @@ holds(s_19889_jpg, feature).
 holds(s_19889_jpg, hotel).
 holds(s_19889_jpg, store).
 holds(s_19889_jpg, suburban).
-holds(s_19889_jpg, door).
 holds(s_19889_jpg, billboard).
 holds(s_19889_jpg, porch).
 holds(s_19889_jpg, wallsign).
@@ -49889,12 +48229,10 @@ holds(s_19891_jpg, feature).
 holds(s_19891_jpg, hotel).
 holds(s_19891_jpg, store).
 holds(s_19891_jpg, suburban).
-holds(s_19891_jpg, door).
 holds(s_19891_jpg, window).
 holds(s_19891_jpg, billboard).
 holds(s_19891_jpg, porch).
 holds(s_19891_jpg, wallsign).
-holds(s_19891_jpg, commercial).
 holds(s_19891_jpg, industrial).
 
 sample(s_19892_jpg).
@@ -49903,7 +48241,6 @@ holds(s_19892_jpg, feature).
 holds(s_19892_jpg, hotel).
 holds(s_19892_jpg, store).
 holds(s_19892_jpg, suburban).
-holds(s_19892_jpg, door).
 holds(s_19892_jpg, billboard).
 holds(s_19892_jpg, porch).
 holds(s_19892_jpg, wallsign).
@@ -49929,7 +48266,6 @@ holds(s_19894_jpg, building).
 holds(s_19894_jpg, feature).
 holds(s_19894_jpg, hotel).
 holds(s_19894_jpg, store).
-holds(s_19894_jpg, suburban).
 holds(s_19894_jpg, window).
 holds(s_19894_jpg, billboard).
 holds(s_19894_jpg, porch).
@@ -49942,7 +48278,6 @@ holds(s_19895_jpg, feature).
 holds(s_19895_jpg, hotel).
 holds(s_19895_jpg, store).
 holds(s_19895_jpg, suburban).
-holds(s_19895_jpg, door).
 holds(s_19895_jpg, billboard).
 holds(s_19895_jpg, porch).
 holds(s_19895_jpg, wallsign).
@@ -49968,7 +48303,6 @@ holds(s_19897_jpg, building).
 holds(s_19897_jpg, feature).
 holds(s_19897_jpg, hotel).
 holds(s_19897_jpg, store).
-holds(s_19897_jpg, suburban).
 holds(s_19897_jpg, window).
 holds(s_19897_jpg, billboard).
 holds(s_19897_jpg, porch).
@@ -49981,7 +48315,6 @@ holds(s_19898_jpg, feature).
 holds(s_19898_jpg, hotel).
 holds(s_19898_jpg, store).
 holds(s_19898_jpg, suburban).
-holds(s_19898_jpg, door).
 holds(s_19898_jpg, billboard).
 holds(s_19898_jpg, porch).
 holds(s_19898_jpg, wallsign).
@@ -50007,7 +48340,6 @@ holds(s_19900_jpg, building).
 holds(s_19900_jpg, feature).
 holds(s_19900_jpg, hotel).
 holds(s_19900_jpg, store).
-holds(s_19900_jpg, suburban).
 holds(s_19900_jpg, window).
 holds(s_19900_jpg, billboard).
 holds(s_19900_jpg, porch).
@@ -50020,7 +48352,6 @@ holds(s_19901_jpg, feature).
 holds(s_19901_jpg, hotel).
 holds(s_19901_jpg, store).
 holds(s_19901_jpg, suburban).
-holds(s_19901_jpg, door).
 holds(s_19901_jpg, billboard).
 holds(s_19901_jpg, porch).
 holds(s_19901_jpg, wallsign).
@@ -50038,7 +48369,7 @@ holds(s_19902_jpg, window).
 holds(s_19902_jpg, billboard).
 holds(s_19902_jpg, porch).
 holds(s_19902_jpg, wallsign).
-holds(s_19902_jpg, car).
+holds(s_19902_jpg, pipe).
 holds(s_19902_jpg, commercial).
 
 sample(s_19903_jpg).
@@ -50046,7 +48377,6 @@ holds(s_19903_jpg, building).
 holds(s_19903_jpg, feature).
 holds(s_19903_jpg, hotel).
 holds(s_19903_jpg, store).
-holds(s_19903_jpg, suburban).
 holds(s_19903_jpg, window).
 holds(s_19903_jpg, billboard).
 holds(s_19903_jpg, porch).
@@ -50059,7 +48389,6 @@ holds(s_19904_jpg, feature).
 holds(s_19904_jpg, hotel).
 holds(s_19904_jpg, store).
 holds(s_19904_jpg, suburban).
-holds(s_19904_jpg, door).
 holds(s_19904_jpg, billboard).
 holds(s_19904_jpg, porch).
 holds(s_19904_jpg, wallsign).
@@ -50085,7 +48414,6 @@ holds(s_19906_jpg, building).
 holds(s_19906_jpg, feature).
 holds(s_19906_jpg, hotel).
 holds(s_19906_jpg, store).
-holds(s_19906_jpg, suburban).
 holds(s_19906_jpg, window).
 holds(s_19906_jpg, billboard).
 holds(s_19906_jpg, porch).
@@ -50124,7 +48452,6 @@ holds(s_19909_jpg, building).
 holds(s_19909_jpg, feature).
 holds(s_19909_jpg, hotel).
 holds(s_19909_jpg, store).
-holds(s_19909_jpg, suburban).
 holds(s_19909_jpg, window).
 holds(s_19909_jpg, billboard).
 holds(s_19909_jpg, porch).
@@ -50137,7 +48464,6 @@ holds(s_19910_jpg, feature).
 holds(s_19910_jpg, hotel).
 holds(s_19910_jpg, store).
 holds(s_19910_jpg, suburban).
-holds(s_19910_jpg, door).
 holds(s_19910_jpg, billboard).
 holds(s_19910_jpg, porch).
 holds(s_19910_jpg, wallsign).
@@ -50163,7 +48489,6 @@ holds(s_19912_jpg, building).
 holds(s_19912_jpg, feature).
 holds(s_19912_jpg, hotel).
 holds(s_19912_jpg, store).
-holds(s_19912_jpg, suburban).
 holds(s_19912_jpg, window).
 holds(s_19912_jpg, billboard).
 holds(s_19912_jpg, porch).
@@ -50194,6 +48519,7 @@ holds(s_19914_jpg, window).
 holds(s_19914_jpg, billboard).
 holds(s_19914_jpg, porch).
 holds(s_19914_jpg, wallsign).
+holds(s_19914_jpg, pipe).
 holds(s_19914_jpg, commercial).
 
 sample(s_19915_jpg).
@@ -50201,7 +48527,6 @@ holds(s_19915_jpg, building).
 holds(s_19915_jpg, feature).
 holds(s_19915_jpg, hotel).
 holds(s_19915_jpg, store).
-holds(s_19915_jpg, suburban).
 holds(s_19915_jpg, window).
 holds(s_19915_jpg, billboard).
 holds(s_19915_jpg, porch).
@@ -50214,7 +48539,6 @@ holds(s_19916_jpg, feature).
 holds(s_19916_jpg, hotel).
 holds(s_19916_jpg, store).
 holds(s_19916_jpg, suburban).
-holds(s_19916_jpg, door).
 holds(s_19916_jpg, billboard).
 holds(s_19916_jpg, porch).
 holds(s_19916_jpg, wallsign).
@@ -50232,6 +48556,7 @@ holds(s_19917_jpg, window).
 holds(s_19917_jpg, billboard).
 holds(s_19917_jpg, porch).
 holds(s_19917_jpg, wallsign).
+holds(s_19917_jpg, pipe).
 holds(s_19917_jpg, commercial).
 
 sample(s_19918_jpg).
@@ -50240,12 +48565,11 @@ holds(s_19918_jpg, feature).
 holds(s_19918_jpg, hotel).
 holds(s_19918_jpg, store).
 holds(s_19918_jpg, suburban).
-holds(s_19918_jpg, door).
 holds(s_19918_jpg, window).
 holds(s_19918_jpg, billboard).
 holds(s_19918_jpg, porch).
 holds(s_19918_jpg, wallsign).
-holds(s_19918_jpg, commercial).
+holds(s_19918_jpg, industrial).
 
 sample(s_19919_jpg).
 holds(s_19919_jpg, building).
@@ -50253,7 +48577,6 @@ holds(s_19919_jpg, feature).
 holds(s_19919_jpg, hotel).
 holds(s_19919_jpg, store).
 holds(s_19919_jpg, suburban).
-holds(s_19919_jpg, door).
 holds(s_19919_jpg, billboard).
 holds(s_19919_jpg, porch).
 holds(s_19919_jpg, wallsign).
@@ -50271,6 +48594,7 @@ holds(s_19920_jpg, window).
 holds(s_19920_jpg, billboard).
 holds(s_19920_jpg, porch).
 holds(s_19920_jpg, wallsign).
+holds(s_19920_jpg, pipe).
 holds(s_19920_jpg, commercial).
 
 sample(s_19921_jpg).
@@ -50278,7 +48602,6 @@ holds(s_19921_jpg, building).
 holds(s_19921_jpg, feature).
 holds(s_19921_jpg, hotel).
 holds(s_19921_jpg, store).
-holds(s_19921_jpg, suburban).
 holds(s_19921_jpg, window).
 holds(s_19921_jpg, billboard).
 holds(s_19921_jpg, porch).
@@ -50291,7 +48614,6 @@ holds(s_19922_jpg, feature).
 holds(s_19922_jpg, hotel).
 holds(s_19922_jpg, store).
 holds(s_19922_jpg, suburban).
-holds(s_19922_jpg, door).
 holds(s_19922_jpg, billboard).
 holds(s_19922_jpg, porch).
 holds(s_19922_jpg, wallsign).
@@ -50317,7 +48639,6 @@ holds(s_19924_jpg, building).
 holds(s_19924_jpg, feature).
 holds(s_19924_jpg, hotel).
 holds(s_19924_jpg, store).
-holds(s_19924_jpg, suburban).
 holds(s_19924_jpg, window).
 holds(s_19924_jpg, billboard).
 holds(s_19924_jpg, porch).
@@ -50330,7 +48651,6 @@ holds(s_19925_jpg, feature).
 holds(s_19925_jpg, hotel).
 holds(s_19925_jpg, store).
 holds(s_19925_jpg, suburban).
-holds(s_19925_jpg, door).
 holds(s_19925_jpg, billboard).
 holds(s_19925_jpg, porch).
 holds(s_19925_jpg, wallsign).
@@ -50356,7 +48676,6 @@ holds(s_19927_jpg, building).
 holds(s_19927_jpg, feature).
 holds(s_19927_jpg, hotel).
 holds(s_19927_jpg, store).
-holds(s_19927_jpg, suburban).
 holds(s_19927_jpg, window).
 holds(s_19927_jpg, billboard).
 holds(s_19927_jpg, porch).
@@ -50369,7 +48688,6 @@ holds(s_19928_jpg, feature).
 holds(s_19928_jpg, hotel).
 holds(s_19928_jpg, store).
 holds(s_19928_jpg, suburban).
-holds(s_19928_jpg, door).
 holds(s_19928_jpg, billboard).
 holds(s_19928_jpg, porch).
 holds(s_19928_jpg, wallsign).
@@ -50387,6 +48705,7 @@ holds(s_19929_jpg, window).
 holds(s_19929_jpg, billboard).
 holds(s_19929_jpg, porch).
 holds(s_19929_jpg, wallsign).
+holds(s_19929_jpg, pipe).
 holds(s_19929_jpg, commercial).
 
 sample(s_19930_jpg).
@@ -50394,7 +48713,6 @@ holds(s_19930_jpg, building).
 holds(s_19930_jpg, feature).
 holds(s_19930_jpg, hotel).
 holds(s_19930_jpg, store).
-holds(s_19930_jpg, suburban).
 holds(s_19930_jpg, window).
 holds(s_19930_jpg, billboard).
 holds(s_19930_jpg, porch).
@@ -50407,7 +48725,6 @@ holds(s_19931_jpg, feature).
 holds(s_19931_jpg, hotel).
 holds(s_19931_jpg, store).
 holds(s_19931_jpg, suburban).
-holds(s_19931_jpg, door).
 holds(s_19931_jpg, billboard).
 holds(s_19931_jpg, porch).
 holds(s_19931_jpg, wallsign).
@@ -50433,7 +48750,6 @@ holds(s_19933_jpg, building).
 holds(s_19933_jpg, feature).
 holds(s_19933_jpg, hotel).
 holds(s_19933_jpg, store).
-holds(s_19933_jpg, suburban).
 holds(s_19933_jpg, window).
 holds(s_19933_jpg, billboard).
 holds(s_19933_jpg, porch).
@@ -50446,7 +48762,6 @@ holds(s_19934_jpg, feature).
 holds(s_19934_jpg, hotel).
 holds(s_19934_jpg, store).
 holds(s_19934_jpg, suburban).
-holds(s_19934_jpg, door).
 holds(s_19934_jpg, billboard).
 holds(s_19934_jpg, porch).
 holds(s_19934_jpg, wallsign).
@@ -50472,7 +48787,6 @@ holds(s_19936_jpg, building).
 holds(s_19936_jpg, feature).
 holds(s_19936_jpg, hotel).
 holds(s_19936_jpg, store).
-holds(s_19936_jpg, suburban).
 holds(s_19936_jpg, window).
 holds(s_19936_jpg, billboard).
 holds(s_19936_jpg, porch).
@@ -50485,7 +48799,6 @@ holds(s_19937_jpg, feature).
 holds(s_19937_jpg, hotel).
 holds(s_19937_jpg, store).
 holds(s_19937_jpg, suburban).
-holds(s_19937_jpg, door).
 holds(s_19937_jpg, billboard).
 holds(s_19937_jpg, porch).
 holds(s_19937_jpg, wallsign).
@@ -50511,7 +48824,6 @@ holds(s_19939_jpg, building).
 holds(s_19939_jpg, feature).
 holds(s_19939_jpg, hotel).
 holds(s_19939_jpg, store).
-holds(s_19939_jpg, suburban).
 holds(s_19939_jpg, window).
 holds(s_19939_jpg, billboard).
 holds(s_19939_jpg, porch).
@@ -50549,7 +48861,6 @@ holds(s_19942_jpg, building).
 holds(s_19942_jpg, feature).
 holds(s_19942_jpg, hotel).
 holds(s_19942_jpg, store).
-holds(s_19942_jpg, suburban).
 holds(s_19942_jpg, window).
 holds(s_19942_jpg, billboard).
 holds(s_19942_jpg, porch).
@@ -50588,7 +48899,6 @@ holds(s_19945_jpg, building).
 holds(s_19945_jpg, feature).
 holds(s_19945_jpg, hotel).
 holds(s_19945_jpg, store).
-holds(s_19945_jpg, suburban).
 holds(s_19945_jpg, window).
 holds(s_19945_jpg, billboard).
 holds(s_19945_jpg, porch).
@@ -50619,6 +48929,7 @@ holds(s_19947_jpg, window).
 holds(s_19947_jpg, billboard).
 holds(s_19947_jpg, porch).
 holds(s_19947_jpg, wallsign).
+holds(s_19947_jpg, pipe).
 holds(s_19947_jpg, commercial).
 
 sample(s_19948_jpg).
@@ -50626,7 +48937,6 @@ holds(s_19948_jpg, building).
 holds(s_19948_jpg, feature).
 holds(s_19948_jpg, hotel).
 holds(s_19948_jpg, store).
-holds(s_19948_jpg, suburban).
 holds(s_19948_jpg, window).
 holds(s_19948_jpg, billboard).
 holds(s_19948_jpg, porch).
@@ -50639,7 +48949,6 @@ holds(s_19949_jpg, feature).
 holds(s_19949_jpg, hotel).
 holds(s_19949_jpg, store).
 holds(s_19949_jpg, suburban).
-holds(s_19949_jpg, door).
 holds(s_19949_jpg, billboard).
 holds(s_19949_jpg, porch).
 holds(s_19949_jpg, wallsign).
@@ -50657,6 +48966,7 @@ holds(s_19950_jpg, window).
 holds(s_19950_jpg, billboard).
 holds(s_19950_jpg, porch).
 holds(s_19950_jpg, wallsign).
+holds(s_19950_jpg, pipe).
 holds(s_19950_jpg, commercial).
 
 sample(s_19951_jpg).
@@ -50665,12 +48975,11 @@ holds(s_19951_jpg, feature).
 holds(s_19951_jpg, hotel).
 holds(s_19951_jpg, store).
 holds(s_19951_jpg, suburban).
-holds(s_19951_jpg, door).
 holds(s_19951_jpg, window).
 holds(s_19951_jpg, billboard).
 holds(s_19951_jpg, porch).
 holds(s_19951_jpg, wallsign).
-holds(s_19951_jpg, commercial).
+holds(s_19951_jpg, industrial).
 
 sample(s_19952_jpg).
 holds(s_19952_jpg, building).
@@ -50678,7 +48987,6 @@ holds(s_19952_jpg, feature).
 holds(s_19952_jpg, hotel).
 holds(s_19952_jpg, store).
 holds(s_19952_jpg, suburban).
-holds(s_19952_jpg, door).
 holds(s_19952_jpg, billboard).
 holds(s_19952_jpg, porch).
 holds(s_19952_jpg, wallsign).
@@ -50704,7 +49012,6 @@ holds(s_19954_jpg, building).
 holds(s_19954_jpg, feature).
 holds(s_19954_jpg, hotel).
 holds(s_19954_jpg, store).
-holds(s_19954_jpg, suburban).
 holds(s_19954_jpg, window).
 holds(s_19954_jpg, billboard).
 holds(s_19954_jpg, porch).
@@ -50717,7 +49024,6 @@ holds(s_19955_jpg, feature).
 holds(s_19955_jpg, hotel).
 holds(s_19955_jpg, store).
 holds(s_19955_jpg, suburban).
-holds(s_19955_jpg, door).
 holds(s_19955_jpg, billboard).
 holds(s_19955_jpg, porch).
 holds(s_19955_jpg, wallsign).
@@ -50743,7 +49049,6 @@ holds(s_19957_jpg, building).
 holds(s_19957_jpg, feature).
 holds(s_19957_jpg, hotel).
 holds(s_19957_jpg, store).
-holds(s_19957_jpg, suburban).
 holds(s_19957_jpg, window).
 holds(s_19957_jpg, billboard).
 holds(s_19957_jpg, porch).
@@ -50756,7 +49061,6 @@ holds(s_19958_jpg, feature).
 holds(s_19958_jpg, hotel).
 holds(s_19958_jpg, store).
 holds(s_19958_jpg, suburban).
-holds(s_19958_jpg, door).
 holds(s_19958_jpg, billboard).
 holds(s_19958_jpg, porch).
 holds(s_19958_jpg, wallsign).
@@ -50774,6 +49078,7 @@ holds(s_19959_jpg, window).
 holds(s_19959_jpg, billboard).
 holds(s_19959_jpg, porch).
 holds(s_19959_jpg, wallsign).
+holds(s_19959_jpg, pipe).
 holds(s_19959_jpg, commercial).
 
 sample(s_19960_jpg).
@@ -50781,7 +49086,6 @@ holds(s_19960_jpg, building).
 holds(s_19960_jpg, feature).
 holds(s_19960_jpg, hotel).
 holds(s_19960_jpg, store).
-holds(s_19960_jpg, suburban).
 holds(s_19960_jpg, window).
 holds(s_19960_jpg, billboard).
 holds(s_19960_jpg, porch).
@@ -50794,7 +49098,6 @@ holds(s_19961_jpg, feature).
 holds(s_19961_jpg, hotel).
 holds(s_19961_jpg, store).
 holds(s_19961_jpg, suburban).
-holds(s_19961_jpg, door).
 holds(s_19961_jpg, billboard).
 holds(s_19961_jpg, porch).
 holds(s_19961_jpg, wallsign).
@@ -50812,7 +49115,7 @@ holds(s_19962_jpg, window).
 holds(s_19962_jpg, billboard).
 holds(s_19962_jpg, porch).
 holds(s_19962_jpg, wallsign).
-holds(s_19962_jpg, car).
+holds(s_19962_jpg, pipe).
 holds(s_19962_jpg, commercial).
 
 sample(s_19963_jpg).
@@ -50820,7 +49123,6 @@ holds(s_19963_jpg, building).
 holds(s_19963_jpg, feature).
 holds(s_19963_jpg, hotel).
 holds(s_19963_jpg, store).
-holds(s_19963_jpg, suburban).
 holds(s_19963_jpg, window).
 holds(s_19963_jpg, billboard).
 holds(s_19963_jpg, porch).
@@ -50833,7 +49135,6 @@ holds(s_19964_jpg, feature).
 holds(s_19964_jpg, hotel).
 holds(s_19964_jpg, store).
 holds(s_19964_jpg, suburban).
-holds(s_19964_jpg, door).
 holds(s_19964_jpg, billboard).
 holds(s_19964_jpg, porch).
 holds(s_19964_jpg, wallsign).
@@ -50851,6 +49152,7 @@ holds(s_19965_jpg, window).
 holds(s_19965_jpg, billboard).
 holds(s_19965_jpg, porch).
 holds(s_19965_jpg, wallsign).
+holds(s_19965_jpg, pipe).
 holds(s_19965_jpg, car).
 holds(s_19965_jpg, commercial).
 
@@ -50859,7 +49161,6 @@ holds(s_19966_jpg, building).
 holds(s_19966_jpg, feature).
 holds(s_19966_jpg, hotel).
 holds(s_19966_jpg, store).
-holds(s_19966_jpg, suburban).
 holds(s_19966_jpg, window).
 holds(s_19966_jpg, billboard).
 holds(s_19966_jpg, porch).
@@ -50872,7 +49173,6 @@ holds(s_19967_jpg, feature).
 holds(s_19967_jpg, hotel).
 holds(s_19967_jpg, store).
 holds(s_19967_jpg, suburban).
-holds(s_19967_jpg, door).
 holds(s_19967_jpg, billboard).
 holds(s_19967_jpg, porch).
 holds(s_19967_jpg, wallsign).
@@ -50890,6 +49190,7 @@ holds(s_19968_jpg, window).
 holds(s_19968_jpg, billboard).
 holds(s_19968_jpg, porch).
 holds(s_19968_jpg, wallsign).
+holds(s_19968_jpg, pipe).
 holds(s_19968_jpg, commercial).
 
 sample(s_19969_jpg).
@@ -50897,7 +49198,6 @@ holds(s_19969_jpg, building).
 holds(s_19969_jpg, feature).
 holds(s_19969_jpg, hotel).
 holds(s_19969_jpg, store).
-holds(s_19969_jpg, suburban).
 holds(s_19969_jpg, window).
 holds(s_19969_jpg, billboard).
 holds(s_19969_jpg, porch).
@@ -50935,7 +49235,6 @@ holds(s_19972_jpg, building).
 holds(s_19972_jpg, feature).
 holds(s_19972_jpg, hotel).
 holds(s_19972_jpg, store).
-holds(s_19972_jpg, suburban).
 holds(s_19972_jpg, window).
 holds(s_19972_jpg, billboard).
 holds(s_19972_jpg, porch).
@@ -50948,7 +49247,6 @@ holds(s_19973_jpg, feature).
 holds(s_19973_jpg, hotel).
 holds(s_19973_jpg, store).
 holds(s_19973_jpg, suburban).
-holds(s_19973_jpg, door).
 holds(s_19973_jpg, billboard).
 holds(s_19973_jpg, porch).
 holds(s_19973_jpg, wallsign).
@@ -50974,7 +49272,6 @@ holds(s_19975_jpg, building).
 holds(s_19975_jpg, feature).
 holds(s_19975_jpg, hotel).
 holds(s_19975_jpg, store).
-holds(s_19975_jpg, suburban).
 holds(s_19975_jpg, window).
 holds(s_19975_jpg, billboard).
 holds(s_19975_jpg, porch).
@@ -50987,7 +49284,6 @@ holds(s_19976_jpg, feature).
 holds(s_19976_jpg, hotel).
 holds(s_19976_jpg, store).
 holds(s_19976_jpg, suburban).
-holds(s_19976_jpg, door).
 holds(s_19976_jpg, billboard).
 holds(s_19976_jpg, porch).
 holds(s_19976_jpg, wallsign).
@@ -51013,7 +49309,6 @@ holds(s_19978_jpg, building).
 holds(s_19978_jpg, feature).
 holds(s_19978_jpg, hotel).
 holds(s_19978_jpg, store).
-holds(s_19978_jpg, suburban).
 holds(s_19978_jpg, window).
 holds(s_19978_jpg, billboard).
 holds(s_19978_jpg, porch).
@@ -51026,7 +49321,6 @@ holds(s_19979_jpg, feature).
 holds(s_19979_jpg, hotel).
 holds(s_19979_jpg, store).
 holds(s_19979_jpg, suburban).
-holds(s_19979_jpg, door).
 holds(s_19979_jpg, billboard).
 holds(s_19979_jpg, porch).
 holds(s_19979_jpg, wallsign).
@@ -51044,6 +49338,7 @@ holds(s_19980_jpg, window).
 holds(s_19980_jpg, billboard).
 holds(s_19980_jpg, porch).
 holds(s_19980_jpg, wallsign).
+holds(s_19980_jpg, pipe).
 holds(s_19980_jpg, commercial).
 
 sample(s_19981_jpg).
@@ -51051,7 +49346,6 @@ holds(s_19981_jpg, building).
 holds(s_19981_jpg, feature).
 holds(s_19981_jpg, hotel).
 holds(s_19981_jpg, store).
-holds(s_19981_jpg, suburban).
 holds(s_19981_jpg, window).
 holds(s_19981_jpg, billboard).
 holds(s_19981_jpg, porch).
@@ -51064,7 +49358,6 @@ holds(s_19982_jpg, feature).
 holds(s_19982_jpg, hotel).
 holds(s_19982_jpg, store).
 holds(s_19982_jpg, suburban).
-holds(s_19982_jpg, door).
 holds(s_19982_jpg, billboard).
 holds(s_19982_jpg, porch).
 holds(s_19982_jpg, wallsign).
@@ -51082,6 +49375,7 @@ holds(s_19983_jpg, window).
 holds(s_19983_jpg, billboard).
 holds(s_19983_jpg, porch).
 holds(s_19983_jpg, wallsign).
+holds(s_19983_jpg, pipe).
 holds(s_19983_jpg, commercial).
 
 sample(s_19984_jpg).
@@ -51089,7 +49383,6 @@ holds(s_19984_jpg, building).
 holds(s_19984_jpg, feature).
 holds(s_19984_jpg, hotel).
 holds(s_19984_jpg, store).
-holds(s_19984_jpg, suburban).
 holds(s_19984_jpg, window).
 holds(s_19984_jpg, billboard).
 holds(s_19984_jpg, porch).
@@ -51119,6 +49412,7 @@ holds(s_19986_jpg, window).
 holds(s_19986_jpg, billboard).
 holds(s_19986_jpg, porch).
 holds(s_19986_jpg, wallsign).
+holds(s_19986_jpg, pipe).
 holds(s_19986_jpg, commercial).
 
 sample(s_19987_jpg).
@@ -51126,7 +49420,6 @@ holds(s_19987_jpg, building).
 holds(s_19987_jpg, feature).
 holds(s_19987_jpg, hotel).
 holds(s_19987_jpg, store).
-holds(s_19987_jpg, suburban).
 holds(s_19987_jpg, window).
 holds(s_19987_jpg, billboard).
 holds(s_19987_jpg, porch).
@@ -51139,7 +49432,6 @@ holds(s_19988_jpg, feature).
 holds(s_19988_jpg, hotel).
 holds(s_19988_jpg, store).
 holds(s_19988_jpg, suburban).
-holds(s_19988_jpg, door).
 holds(s_19988_jpg, billboard).
 holds(s_19988_jpg, porch).
 holds(s_19988_jpg, wallsign).
@@ -51164,7 +49456,6 @@ holds(s_19990_jpg, building).
 holds(s_19990_jpg, feature).
 holds(s_19990_jpg, hotel).
 holds(s_19990_jpg, store).
-holds(s_19990_jpg, suburban).
 holds(s_19990_jpg, window).
 holds(s_19990_jpg, billboard).
 holds(s_19990_jpg, porch).
@@ -51177,7 +49468,6 @@ holds(s_19991_jpg, feature).
 holds(s_19991_jpg, hotel).
 holds(s_19991_jpg, store).
 holds(s_19991_jpg, suburban).
-holds(s_19991_jpg, door).
 holds(s_19991_jpg, billboard).
 holds(s_19991_jpg, porch).
 holds(s_19991_jpg, wallsign).
@@ -51203,7 +49493,6 @@ holds(s_19993_jpg, building).
 holds(s_19993_jpg, feature).
 holds(s_19993_jpg, hotel).
 holds(s_19993_jpg, store).
-holds(s_19993_jpg, suburban).
 holds(s_19993_jpg, window).
 holds(s_19993_jpg, billboard).
 holds(s_19993_jpg, porch).
@@ -51216,7 +49505,6 @@ holds(s_19994_jpg, feature).
 holds(s_19994_jpg, hotel).
 holds(s_19994_jpg, store).
 holds(s_19994_jpg, suburban).
-holds(s_19994_jpg, door).
 holds(s_19994_jpg, billboard).
 holds(s_19994_jpg, porch).
 holds(s_19994_jpg, wallsign).
@@ -51234,7 +49522,7 @@ holds(s_19995_jpg, window).
 holds(s_19995_jpg, billboard).
 holds(s_19995_jpg, porch).
 holds(s_19995_jpg, wallsign).
-holds(s_19995_jpg, car).
+holds(s_19995_jpg, pipe).
 holds(s_19995_jpg, commercial).
 
 sample(s_19996_jpg).
@@ -51242,7 +49530,6 @@ holds(s_19996_jpg, building).
 holds(s_19996_jpg, feature).
 holds(s_19996_jpg, hotel).
 holds(s_19996_jpg, store).
-holds(s_19996_jpg, suburban).
 holds(s_19996_jpg, window).
 holds(s_19996_jpg, billboard).
 holds(s_19996_jpg, porch).
@@ -51255,7 +49542,6 @@ holds(s_19997_jpg, feature).
 holds(s_19997_jpg, hotel).
 holds(s_19997_jpg, store).
 holds(s_19997_jpg, suburban).
-holds(s_19997_jpg, door).
 holds(s_19997_jpg, billboard).
 holds(s_19997_jpg, porch).
 holds(s_19997_jpg, wallsign).
@@ -51281,7 +49567,6 @@ holds(s_19999_jpg, building).
 holds(s_19999_jpg, feature).
 holds(s_19999_jpg, hotel).
 holds(s_19999_jpg, store).
-holds(s_19999_jpg, suburban).
 holds(s_19999_jpg, window).
 holds(s_19999_jpg, billboard).
 holds(s_19999_jpg, porch).

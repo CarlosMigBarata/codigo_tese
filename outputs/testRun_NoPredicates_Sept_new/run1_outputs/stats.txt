@@ -6,13 +6,17 @@ Validation Interval: 3
 Complexity of the Dataset: 1
 Batch size: 32
 Learning rate: 0.00050
-Number of final classes: 12
-Number of concepts: 20
 trained with building predicates: False; trained with concept predicates: False
 
-Number of epochs completed: 57/150
-Best epoch found: 42
-Warmup epochs: 10; final_epochs: 30; constant_alpha: True;  patience: 5.0 cycles, total number of training epochs: 171
+Number of epochs completed: 108/150
+Best epoch found: 87
+constant_alpha: True;  patience: 6.666666666666667 cycles
+
+
+[DEBUG] CLASSES order: ['Cafe', 'Hotel', 'Restaurant', 'Store', 'MiscCommercial', 'Suburban', 'MiscResidential', 'CountryHouse', 'ConstructionSite', 'MiscIndustrial', 'PowerPlant', 'WaterTreatment', 'Door', 'Window', 'Awning', 'Billboard', 'Porch', 'Sign', 'Table', 'TiledRoof', 'TiledRoofTop', 'VendingMachine', 'WallSign', 'Statue', 'Chimney', 'Pipe', 'Machine', 'Truck', 'Car', 'Residential', 'Commercial', 'Industrial']
+[DEBUG] Building classes (first 12): ['Cafe', 'Hotel', 'Restaurant', 'Store', 'MiscCommercial', 'Suburban', 'MiscResidential', 'CountryHouse', 'ConstructionSite', 'MiscIndustrial', 'PowerPlant', 'WaterTreatment']
+[DEBUG] Concepts (from 12 to 29): ['Door', 'Window', 'Awning', 'Billboard', 'Porch', 'Sign', 'Table', 'TiledRoof', 'TiledRoofTop', 'VendingMachine', 'WallSign', 'Statue', 'Chimney', 'Pipe', 'Machine', 'Truck', 'Car']
+[DEBUG] Super classes (after): ['Residential', 'Commercial', 'Industrial']
 
 
 Model Architecture:

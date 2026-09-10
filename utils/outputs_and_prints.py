@@ -8,7 +8,16 @@ import utils.axioms as axioms
 CLASSES = rules_and_concepts.get_all_classes() #era get_classes
 ALL_EXISTING_CLASSES = rules_and_concepts.get_all_classes()
 ALL_CONCEPTS = rules_and_concepts.get_ALL_CONCEPTS()
-final_classes = len(rules_and_concepts.get_all_building_classes())
+ALL_BUILDING_CLASSES = rules_and_concepts.get_all_building_classes()
+#final_classes = len(rules_and_concepts.get_all_building_classes())
+
+building_classes = len(ALL_BUILDING_CLASSES)
+super_classes = len(rules_and_concepts.get_super_classes())
+concepts = len(ALL_CONCEPTS)
+
+
+concepts_pos = building_classes + concepts
+super_classes_pos = concepts_pos + super_classes
 
 
 
@@ -23,17 +32,20 @@ def write_results_description_in_txt(txt_file, model, epochs_completed, warmup_e
     txt_file.write("Complexity of the Dataset: %d\n" % constants.COMPLEXITY_DATASET)
     txt_file.write("Batch size: %d\n" % constants.BATCH_SIZE)
     txt_file.write("Learning rate: %.5f\n" % constants.LEARNING_RATE)
-    txt_file.write(f"Number of final classes: {final_classes}\n" )
-    txt_file.write(f"Number of concepts: {len(CLASSES) - final_classes}\n" )
     txt_file.write(f"trained with building predicates: {constants.BUILDING_PREDICATES}; trained with concept predicates: {constants.CONCEPT_PREDICATES}\n")
     if constants.TRAIN_WITH_A_SUBSET: txt_file.write(info_about_dataset)
     txt_file.write("\n")
 
     txt_file.write(f"Number of epochs completed: {epochs_completed}/{constants.LIMIT}\n")
     txt_file.write(f"Best epoch found: {best_epoch}\n")
-    txt_file.write(f"Warmup epochs: {warmup_epochs}; final_epochs: {final_epochs}; constant_alpha: {constant_alpha};  patience: {patience} cycles, total number of training epochs: {epochs_completed * constants.VALIDATION_INTERVAL}\n")
+    txt_file.write(f"constant_alpha: {constant_alpha};  patience: {patience} cycles\n")
     if not constant_alpha: txt_file.write(f"staring alpha:{starting_alpha}; final alpha: {final_alpha};\n")
-    txt_file.write("\n")
+    txt_file.write("\n\n")
+
+    txt_file.write(f"[DEBUG] CLASSES order: {CLASSES}\n")
+    txt_file.write(f"[DEBUG] Building classes (first {building_classes}): {CLASSES[:building_classes]}\n")
+    txt_file.write(f"[DEBUG] Concepts (from {building_classes} to {concepts_pos}): {CLASSES[building_classes:concepts_pos]}\n")
+    txt_file.write(f"[DEBUG] Super classes (after): {CLASSES[concepts_pos:]}\n\n")
 
     if model is not None:
         txt_file.write("\nModel Architecture:\n")
