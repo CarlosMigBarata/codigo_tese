@@ -1281,7 +1281,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
                 #print("\n\n\n CHANGED BEST SAT \n\n\n")
                 epochs_no_improve += 1
 
-
+        tmp_checkpoint_path = checkpoint_path.with_suffix(".tmp")
         torch.save({
             "epoch": epoch,
             "model_state_dict": logits_model.state_dict(),
@@ -1292,7 +1292,8 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
             "torch_rng_state": torch.get_rng_state(),
             "numpy_rng_state": np.random.get_state(),
             "cuda_rng_state": torch.cuda.get_rng_state_all() if torch.cuda.is_available() else None,
-        }, checkpoint_path)
+        }, tmp_checkpoint_path)
+        tmp_checkpoint_path.replace(checkpoint_path)
 
         if epochs_no_improve >= patience:
             print("EARLY STOPPING TRIGGERED")
