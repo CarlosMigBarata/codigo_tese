@@ -1144,6 +1144,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
         best_loss = checkpoint["best_loss"]
         best_epoch = checkpoint["best_epoch"]
         epochs_no_improve = checkpoint["epochs_no_improve"]
+        print(f"\n\n\n\n\n\n rng_state: {checkpoint["torch_rng_state"]} \n\n\n\n\n\n\n")
         torch.set_rng_state(checkpoint["torch_rng_state"])
         np.random.set_state(checkpoint["numpy_rng_state"])
         if torch.cuda.is_available() and checkpoint.get("cuda_rng_state") is not None:
