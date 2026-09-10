@@ -1,4 +1,0 @@
-todos os conceitos q apenas aparecem nas implicacoes o modelo designa como verdadeiro/falso, e nao tenta aprender os conceitos.
-as regras que sofrem mais são as conjuncoes. 
-o pipe, que so aparece negativo uma vez, tem uma taxa de positivos de 0.7% em vex de os 30% que devia
-o TiledRoof, que so aparece positvo tem uma boa taxa de positivos, mas,falha consistentemente a identificar quando está presente. 

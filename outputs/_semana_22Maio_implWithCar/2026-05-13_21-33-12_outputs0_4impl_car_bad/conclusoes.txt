@@ -1,3 +1,0 @@
-todos os conceitos q apenas aparecem nas implicacoes o modelo designa como verdadeiro/falso, e nao tenta aprender os conceitos.
-as regras que sofrem mais são as conjuncoes. neste caso, no teste0 o awning é sempre falso e o car é sempre positivo,
-por isso o rule_hotel_impl_car sofre muito. no teste1, 

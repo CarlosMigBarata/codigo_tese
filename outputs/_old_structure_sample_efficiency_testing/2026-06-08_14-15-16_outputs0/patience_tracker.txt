@@ -1,1 +1,0 @@
-best_loss: 0.04545296402275562, current_loss: 0.0436273742467165, number of no improve runs:14/15

@@ -1,1 +1,0 @@
-best_loss: 0.21374119579792022 from epoch 186, current_loss: 0.211421927690506 from epoch 207, number of no improve cycles of 3 epochs:6/6.666666666666667
