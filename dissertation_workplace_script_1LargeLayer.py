@@ -1349,7 +1349,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
         time_elapsed = epoch_end_time - epoch_start_time
 
         print(f"epoch {epoch} took {time_elapsed}\n")
-        time_tracker_file = open(time_tracker_path, "w+")
+        time_tracker_file = open(time_tracker_path, "a+")
         time_tracker_file.write(f"epoch {epoch} took {time_elapsed:.2f} seconds\n")
         time_tracker_file.close()
 
