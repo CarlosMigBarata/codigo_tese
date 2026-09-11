@@ -1,0 +1,118 @@
+
+==================================================BEST EPOCH SUMMARY (Epoch 33)==================================================
+Training Info
+Alpha: 0.8000
+Classification Train Loss: 0.0194
+Classification Val Loss: 0.0193
+Combined Train Loss: 0.0728
+Combined Val Loss: 0.0726
+
+Logical Consistency: 1- KB
+Train SAT (Loss): 0.2863
+Val SAT (Loss): 0.2857
+
+Train Accuracy per Class, final classes
+restaurant          : 0.878
+watertreatment      : 0.860
+powerplant          : 0.835
+miscindustrial      : 0.814
+misccommercial      : 0.804
+countryhouse        : 0.803
+suburban            : 0.777
+constructionsite    : 0.763
+miscresidential     : 0.725
+cafe                : 0.236
+hotel               : 0.204
+store               : 0.199
+
+Train Accuracy per Class, concepts
+residential         : 0.996
+industrial          : 0.995
+commercial          : 0.992
+car                 : 0.766
+truck               : 0.676
+table               : 0.673
+pipe                : 0.639
+sign                : 0.595
+window              : 0.550
+awning              : 0.484
+vendingmachine      : 0.463
+door                : 0.454
+porch               : 0.429
+machine             : 0.228
+wallsign            : 0.204
+statue              : 0.200
+chimney             : 0.199
+billboard           : 0.199
+tiledroof           : 0.127
+tiledrooftop        : 0.111
+
+Validation Accuracy per Class, final classes
+restaurant          : 0.876
+watertreatment      : 0.861
+powerplant          : 0.829
+miscindustrial      : 0.809
+countryhouse        : 0.805
+misccommercial      : 0.804
+suburban            : 0.774
+constructionsite    : 0.767
+miscresidential     : 0.724
+cafe                : 0.237
+store               : 0.211
+hotel               : 0.203
+
+Validation Accuracy per Class, concepts
+residential         : 0.997
+industrial          : 0.995
+commercial          : 0.993
+car                 : 0.756
+truck               : 0.679
+table               : 0.667
+pipe                : 0.640
+window              : 0.579
+sign                : 0.544
+awning              : 0.484
+porch               : 0.481
+door                : 0.451
+vendingmachine      : 0.426
+machine             : 0.228
+billboard           : 0.211
+statue              : 0.205
+wallsign            : 0.203
+chimney             : 0.190
+tiledroof           : 0.129
+tiledrooftop        : 0.096
+
+==================================================
+
+
+Vacuous Counts per Class, building classes
+  Cafe                : 0
+  Hotel               : 0
+  Restaurant          : 0
+  Store               : 0
+  MiscCommercial      : 0
+  Suburban            : 0
+  MiscResidential     : 0
+  CountryHouse        : 0
+  ConstructionSite    : 0
+  MiscIndustrial      : 0
+  PowerPlant          : 0
+  WaterTreatment      : 0
+  Door                : 0
+  Window              : 0
+  Awning              : 0
+  Billboard           : 0
+  Porch               : 0
+  Sign                : 0
+  Table               : 0
+  TiledRoof           : 0
+  TiledRoofTop        : 0
+  VendingMachine      : 0
+  WallSign            : 0
+  Statue              : 0
+  Chimney             : 0
+  Pipe                : 0
+  Machine             : 0
+  Truck               : 0
+  Car                 : 0
