@@ -1,0 +1,68 @@
+
+
+========= ACTIVE RULES =========
+
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+
+
+========= CONISTENCY PER RULE =========
+
+miscresidential | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+residential | consistency=1.0000 | rule_holds=1335 | rule_vac_holds=2665 | violations=0 | total=4000
+
+industrial | consistency=1.0000 | rule_holds=1353 | rule_vac_holds=2647 | violations=0 | total=4000
+
+commercial | consistency=1.0000 | rule_holds=1312 | rule_vac_holds=2688 | violations=0 | total=4000
+
+residential_no_chimney_pipe | consistency=1.0000 | rule_holds=1335 | rule_vac_holds=2665 | violations=0 | total=4000
+
+countryhouse | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+suburban | consistency=1.0000 | rule_holds=1335 | rule_vac_holds=2665 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+countryhouse        : 1.000
+miscresidential     : 1.000
+residential_no_chimney_pipe: 0.999
+suburban            : 0.996
+residential         : 0.991
+industrial          : 0.991
+commercial          : 0.985
+
+Axiom satisfaction: validation 
+
+countryhouse        : 1.000
+residential_no_chimney_pipe: 1.000
+miscresidential     : 1.000
+suburban            : 0.998
+residential         : 0.995
+industrial          : 0.994
+commercial          : 0.991
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+countryhouse        : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential_no_chimney_pipe: {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscresidential     : {'agree': 4000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+

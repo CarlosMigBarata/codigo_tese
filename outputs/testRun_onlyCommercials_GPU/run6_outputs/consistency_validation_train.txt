@@ -1,0 +1,108 @@
+
+
+========= ACTIVE RULES =========
+
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+
+
+========= CONISTENCY PER RULE =========
+
+cafe | consistency=0.9996 | rule_holds=5290 | rule_vac_holds=10708 | violations=2 | total=16000
+    - left_fails_right_holds: 2
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+residential | consistency=0.9998 | rule_holds=5360 | rule_vac_holds=10639 | violations=1 | total=16000
+    - left_fails_right_holds: 1
+
+store | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+commercial | consistency=0.9998 | rule_holds=5290 | rule_vac_holds=10709 | violations=1 | total=16000
+    - left_holds_right_fails: 1
+
+hotel | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+industrial | consistency=1.0000 | rule_holds=5349 | rule_vac_holds=10651 | violations=0 | total=16000
+
+restaurant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+misccommercial      : 1.000
+store               : 1.000
+hotel               : 1.000
+restaurant          : 1.000
+industrial          : 0.996
+cafe                : 0.996
+residential         : 0.995
+commercial          : 0.992
+
+Axiom satisfaction: validation 
+
+misccommercial      : 1.000
+store               : 1.000
+hotel               : 1.000
+restaurant          : 1.000
+cafe                : 0.997
+residential         : 0.997
+industrial          : 0.996
+commercial          : 0.994
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+misccommercial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+restaurant          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+cafe                : {'agree': 15999, 'disagree': 1, 'missing': 0}
+residential         : {'agree': 15999, 'disagree': 1, 'missing': 0}
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (1 disagreements) ---
+  s_15792_jpg
+    ltn=1 clingo=0 body=0.5618
+    Cafe            = 0.4711  (|d-0.5|=0.0289)
+    Hotel           = 0.0002  (|d-0.5|=0.4998)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0001  (|d-0.5|=0.4999)
+    Commercial      = 0.5080  (|d-0.5|=0.0080)
+
+
+
+--- cafe (1 disagreements) ---
+  s_15792_jpg
+    ltn=1 clingo=0 body=0.5588
+    Cafe            = 0.4711  (|d-0.5|=0.0289)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.5497  (|d-0.5|=0.0497)
+
+
+
+--- residential (1 disagreements) ---
+  s_15792_jpg
+    ltn=1 clingo=0 body=0.5293
+    Suburban        = 0.5936  (|d-0.5|=0.0936)
+    MiscResidential = 0.0008  (|d-0.5|=0.4992)
+    CountryHouse    = 0.1429  (|d-0.5|=0.3571)
+    Residential     = 0.4151  (|d-0.5|=0.0849)

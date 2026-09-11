@@ -1,0 +1,128 @@
+
+
+========= ACTIVE RULES =========
+
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+
+
+========= CONISTENCY PER RULE =========
+
+miscresidential | consistency=0.9994 | rule_holds=5324 | rule_vac_holds=10673 | violations=3 | total=16000
+    - left_fails_right_holds: 3
+
+residential | consistency=1.0000 | rule_holds=5324 | rule_vac_holds=10676 | violations=0 | total=16000
+
+industrial | consistency=1.0000 | rule_holds=5350 | rule_vac_holds=10650 | violations=0 | total=16000
+
+commercial | consistency=0.9992 | rule_holds=5326 | rule_vac_holds=10670 | violations=4 | total=16000
+    - left_fails_right_holds: 4
+
+residential_no_chimney_pipe | consistency=1.0000 | rule_holds=5324 | rule_vac_holds=10676 | violations=0 | total=16000
+
+countryhouse | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+suburban | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+residential_no_chimney_pipe: 1.000
+suburban            : 1.000
+countryhouse        : 1.000
+miscresidential     : 0.995
+residential         : 0.992
+industrial          : 0.992
+commercial          : 0.987
+
+Axiom satisfaction: validation 
+
+residential_no_chimney_pipe: 1.000
+suburban            : 1.000
+countryhouse        : 1.000
+industrial          : 0.996
+residential         : 0.995
+miscresidential     : 0.995
+commercial          : 0.992
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential_no_chimney_pipe: {'agree': 16000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 16000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 16000, 'disagree': 0, 'missing': 0}
+miscresidential     : {'agree': 15997, 'disagree': 3, 'missing': 0}
+commercial          : {'agree': 15996, 'disagree': 4, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (4 disagreements) ---
+  s_14496_jpg
+    ltn=1 clingo=0 body=0.5517
+    Cafe            = 0.0010  (|d-0.5|=0.4990)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5030  (|d-0.5|=0.0030)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.3060  (|d-0.5|=0.1940)
+  s_3857_jpg
+    ltn=1 clingo=0 body=0.5425
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.6472  (|d-0.5|=0.1472)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4524  (|d-0.5|=0.0476)
+  s_1533_jpg
+    ltn=1 clingo=0 body=0.5624
+    Cafe            = 0.0007  (|d-0.5|=0.4993)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.5007  (|d-0.5|=0.0007)
+    MiscCommercial  = 0.0001  (|d-0.5|=0.4999)
+    Commercial      = 0.4934  (|d-0.5|=0.0066)
+  s_10337_jpg
+    ltn=1 clingo=0 body=0.5449
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.5512  (|d-0.5|=0.0512)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.3737  (|d-0.5|=0.1263)
+
+
+
+--- miscresidential (3 disagreements) ---
+  s_13011_jpg
+    ltn=1 clingo=0 body=0.5499
+    MiscResidential = 0.4078  (|d-0.5|=0.0922)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.0000  (|d-0.5|=0.5000)
+    TiledRoof       = 0.5530  (|d-0.5|=0.0530)
+  s_11223_jpg
+    ltn=1 clingo=0 body=0.5519
+    MiscResidential = 0.4409  (|d-0.5|=0.0591)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.0000  (|d-0.5|=0.5000)
+    TiledRoof       = 0.5715  (|d-0.5|=0.0715)
+  s_5642_jpg
+    ltn=1 clingo=0 body=0.5537
+    MiscResidential = 0.4753  (|d-0.5|=0.0247)
+    Awning          = 1.0000  (|d-0.5|=0.5000)
+    Table           = 0.0000  (|d-0.5|=0.5000)
+    TiledRoof       = 0.6114  (|d-0.5|=0.1114)

@@ -1,0 +1,110 @@
+
+
+========= ACTIVE RULES =========
+
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+
+
+========= CONISTENCY PER RULE =========
+
+hotel | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+restaurant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+commercial | consistency=0.3326 | rule_holds=5322 | rule_vac_holds=0 | violations=10678 | total=16000
+    - left_fails_right_holds: 10678
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+residential | consistency=0.9991 | rule_holds=5323 | rule_vac_holds=10672 | violations=5 | total=16000
+    - left_fails_right_holds: 5
+
+cafe | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+store | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+industrial | consistency=1.0000 | rule_holds=5362 | rule_vac_holds=10638 | violations=0 | total=16000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+misccommercial      : 0.999
+restaurant          : 0.999
+cafe                : 0.992
+hotel               : 0.988
+store               : 0.986
+residential         : 0.983
+industrial          : 0.980
+commercial          : 0.192
+
+Axiom satisfaction: validation 
+
+misccommercial      : 0.999
+restaurant          : 0.999
+store               : 0.993
+cafe                : 0.992
+hotel               : 0.990
+residential         : 0.983
+industrial          : 0.976
+commercial          : 0.193
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+misccommercial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+restaurant          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+cafe                : {'agree': 16000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 15995, 'disagree': 5, 'missing': 0}
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- residential (5 disagreements) ---
+  s_13670_jpg
+    ltn=1 clingo=0 body=0.5612
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.5115  (|d-0.5|=0.0115)
+    Residential     = 0.4618  (|d-0.5|=0.0382)
+  s_4238_jpg
+    ltn=1 clingo=0 body=0.5600
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.5325  (|d-0.5|=0.0325)
+    Residential     = 0.4698  (|d-0.5|=0.0302)
+  s_8949_jpg
+    ltn=1 clingo=0 body=0.5620
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.5344  (|d-0.5|=0.0344)
+    Residential     = 0.4970  (|d-0.5|=0.0030)
+  s_47_jpg
+    ltn=1 clingo=0 body=0.5611
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.5578  (|d-0.5|=0.0578)
+    Residential     = 0.4958  (|d-0.5|=0.0042)
+  s_3860_jpg
+    ltn=1 clingo=0 body=0.5621
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.5025  (|d-0.5|=0.0025)
+    Residential     = 0.4688  (|d-0.5|=0.0312)
