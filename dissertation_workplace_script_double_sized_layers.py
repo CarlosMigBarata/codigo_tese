@@ -1283,6 +1283,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
 
         tmp_checkpoint_path = checkpoint_path.with_suffix(".tmp")
+        
         torch.save({
             "epoch": epoch,
             "model_state_dict": logits_model.state_dict(),
@@ -1367,7 +1368,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
 ensure_run_name_is_valid(run_name=RUN_NAME) #<-- crash if invalid name
  
-for i in range(1,3):
+for i in range(0,1):
     run_output_dir = Path("outputs") / Path(RUN_NAME) / f"run{i}_outputs"
 
     if (run_output_dir / "DONE").exists():
@@ -1395,7 +1396,7 @@ for i in range(1,3):
     if i==3:
         starting_alpha = 0.8
     if i ==4:
-        starting_alpha = 0.0
+        starting_alpha = 0.95
 
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
