@@ -1,0 +1,15 @@
+epoch 0 took 255.11 seconds
+epoch 1 took 226.18 seconds
+epoch 2 took 233.58 seconds
+epoch 3 took 298.18 seconds
+epoch 4 took 274.90 seconds
+epoch 5 took 271.76 seconds
+epoch 6 took 307.31 seconds
+epoch 7 took 273.30 seconds
+epoch 8 took 267.58 seconds
+epoch 9 took 303.46 seconds
+epoch 10 took 266.80 seconds
+epoch 11 took 277.07 seconds
+epoch 12 took 360.40 seconds
+epoch 13 took 323.62 seconds
+epoch 14 took 323.41 seconds

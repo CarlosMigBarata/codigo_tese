@@ -1,0 +1,171 @@
+
+
+========= ACTIVE RULES =========
+
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+
+
+========= CONISTENCY PER RULE =========
+
+residential | consistency=0.4989 | rule_holds=5376 | rule_vac_holds=5225 | violations=5399 | total=16000
+    - left_fails_right_holds: 5399
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+commercial | consistency=0.0000 | rule_holds=0 | rule_vac_holds=10747 | violations=5253 | total=16000
+    - left_holds_right_fails: 5253
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+industrial_not_table | consistency=1.0000 | rule_holds=5357 | rule_vac_holds=10643 | violations=0 | total=16000
+
+industrial | consistency=0.3694 | rule_holds=5357 | rule_vac_holds=1500 | violations=9143 | total=16000
+    - left_fails_right_holds: 9143
+
+building_impl_complex | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+building_no_car_truck | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+watertreatment | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=1.0000 | rule_holds=8 | rule_vac_holds=15992 | violations=0 | total=16000
+
+constructionsite | consistency=0.9062 | rule_holds=14500 | rule_vac_holds=0 | violations=1500 | total=16000
+    - left_fails_right_holds: 1500
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+building_no_car_truck: 1.000
+building_no_chimney_statue: 1.000
+building_nodoorornowindow_impl_noawning: 1.000
+building_impl_complex: 0.999
+industrial_not_table: 0.999
+miscindustrial      : 0.999
+watertreatment      : 0.999
+powerplant          : 0.989
+constructionsite    : 0.718
+commercial          : 0.434
+residential         : 0.425
+industrial          : 0.352
+
+Axiom satisfaction: validation 
+
+building_no_car_truck: 1.000
+building_nodoorornowindow_impl_noawning: 1.000
+building_no_chimney_statue: 1.000
+industrial_not_table: 0.999
+building_impl_complex: 0.999
+miscindustrial      : 0.999
+watertreatment      : 0.999
+powerplant          : 0.990
+constructionsite    : 0.726
+commercial          : 0.432
+residential         : 0.422
+industrial          : 0.348
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+building_no_car_truck: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_nodoorornowindow_impl_noawning: {}
+building_no_chimney_statue: {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial_not_table: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_impl_complex: {'agree': 16000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+watertreatment      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 15997, 'disagree': 3, 'missing': 0}
+commercial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 15993, 'disagree': 7, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (7 disagreements) ---
+  s_3389_jpg
+    ltn=1 clingo=0 body=0.5001
+    ConstructionSite = 0.5000  (|d-0.5|=0.0000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+  s_11537_jpg
+    ltn=1 clingo=0 body=0.5000
+    ConstructionSite = 0.5001  (|d-0.5|=0.0001)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+  s_11837_jpg
+    ltn=1 clingo=0 body=0.5001
+    ConstructionSite = 0.5001  (|d-0.5|=0.0001)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+  s_11792_jpg
+    ltn=1 clingo=0 body=0.5001
+    ConstructionSite = 0.5000  (|d-0.5|=0.0000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+  s_9725_jpg
+    ltn=1 clingo=0 body=0.5001
+    ConstructionSite = 0.5000  (|d-0.5|=0.0000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+  s_8816_jpg
+    ltn=1 clingo=0 body=0.5001
+    ConstructionSite = 0.5000  (|d-0.5|=0.0000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+  s_7760_jpg
+    ltn=1 clingo=0 body=0.5001
+    ConstructionSite = 0.5000  (|d-0.5|=0.0000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+
+
+
+--- constructionsite (3 disagreements) ---
+  s_3389_jpg
+    ltn=0 clingo=1 body=0.5000
+    ConstructionSite = 0.5000  (|d-0.5|=0.0000)
+    Machine         = 1.0000  (|d-0.5|=0.5000)
+  s_11792_jpg
+    ltn=0 clingo=1 body=0.5000
+    ConstructionSite = 0.5000  (|d-0.5|=0.0000)
+    Machine         = 1.0000  (|d-0.5|=0.5000)
+  s_7760_jpg
+    ltn=0 clingo=1 body=0.5000
+    ConstructionSite = 0.5000  (|d-0.5|=0.0000)
+    Machine         = 1.0000  (|d-0.5|=0.5000)

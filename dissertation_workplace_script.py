@@ -1367,7 +1367,7 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
 ensure_run_name_is_valid(run_name=RUN_NAME) #<-- crash if invalid name
  
-for i in range(5,6):
+for i in range(0,6):
     run_output_dir = Path("outputs") / Path(RUN_NAME) / f"run{i}_outputs"
 
     if (run_output_dir / "DONE").exists():
@@ -1393,11 +1393,11 @@ for i in range(5,6):
     if i ==2:
         starting_alpha = 0.5
     if i==3:
-        starting_alpha = 0.1
+        starting_alpha = 0.3
     if i ==4:
-        starting_alpha = 0.0
+        starting_alpha = 0.1
     if i ==5:
-            starting_alpha = 0.8
+        starting_alpha = 0.0
 
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL

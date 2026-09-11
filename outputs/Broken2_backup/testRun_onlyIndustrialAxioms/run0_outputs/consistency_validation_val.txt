@@ -1,0 +1,363 @@
+
+
+========= ACTIVE RULES =========
+
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+
+
+========= CONISTENCY PER RULE =========
+
+building_no_car_truck | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+industrial | consistency=0.9340 | rule_holds=1287 | rule_vac_holds=2622 | violations=91 | total=4000
+    - left_holds_right_fails: 91
+
+watertreatment | consistency=0.0000 | rule_holds=0 | rule_vac_holds=2713 | violations=1287 | total=4000
+    - left_holds_right_fails: 1287
+
+industrial_not_table | consistency=0.9993 | rule_holds=1377 | rule_vac_holds=2622 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+constructionsite | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+residential | consistency=0.3327 | rule_holds=1331 | rule_vac_holds=0 | violations=2669 | total=4000
+    - left_fails_right_holds: 2669
+
+commercial | consistency=0.4739 | rule_holds=1280 | rule_vac_holds=1299 | violations=1421 | total=4000
+    - left_fails_right_holds: 1421
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+building_impl_complex | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=1.0000 | rule_holds=1207 | rule_vac_holds=2793 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+building_impl_complex: 1.000
+building_no_chimney_statue: 1.000
+constructionsite    : 0.999
+miscindustrial      : 0.999
+powerplant          : 0.998
+industrial_not_table: 0.998
+building_nodoorornowindow_impl_noawning: 0.997
+building_no_car_truck: 0.831
+industrial          : 0.811
+watertreatment      : 0.696
+commercial          : 0.430
+residential         : 0.191
+
+Axiom satisfaction: validation 
+
+building_impl_complex: 1.000
+building_no_chimney_statue: 1.000
+constructionsite    : 0.999
+miscindustrial      : 0.999
+powerplant          : 0.997
+industrial_not_table: 0.996
+building_nodoorornowindow_impl_noawning: 0.992
+building_no_car_truck: 0.852
+industrial          : 0.828
+watertreatment      : 0.663
+commercial          : 0.422
+residential         : 0.187
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+building_impl_complex: {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_no_chimney_statue: {'agree': 4000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial_not_table: {'agree': 3999, 'disagree': 1, 'missing': 0}
+building_nodoorornowindow_impl_noawning: {}
+building_no_car_truck: {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 3983, 'disagree': 17, 'missing': 0}
+watertreatment      : {'agree': 3975, 'disagree': 25, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- watertreatment (25 disagreements) ---
+  s_16057_jpg
+    ltn=1 clingo=0 body=0.5068
+    WaterTreatment  = 0.5119  (|d-0.5|=0.0119)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0731  (|d-0.5|=0.4269)
+  s_16249_jpg
+    ltn=1 clingo=0 body=0.5017
+    WaterTreatment  = 0.5300  (|d-0.5|=0.0300)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.1128  (|d-0.5|=0.3872)
+  s_16840_jpg
+    ltn=1 clingo=0 body=0.5055
+    WaterTreatment  = 0.5174  (|d-0.5|=0.0174)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0871  (|d-0.5|=0.4129)
+  s_16933_jpg
+    ltn=1 clingo=0 body=0.5212
+    WaterTreatment  = 0.5033  (|d-0.5|=0.0033)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.1063  (|d-0.5|=0.3937)
+  s_17140_jpg
+    ltn=1 clingo=0 body=0.5000
+    WaterTreatment  = 0.5265  (|d-0.5|=0.0265)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0952  (|d-0.5|=0.4048)
+  s_17200_jpg
+    ltn=1 clingo=0 body=0.5102
+    WaterTreatment  = 0.5131  (|d-0.5|=0.0131)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0922  (|d-0.5|=0.4078)
+  s_17212_jpg
+    ltn=1 clingo=0 body=0.5156
+    WaterTreatment  = 0.5029  (|d-0.5|=0.0029)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0783  (|d-0.5|=0.4217)
+  s_17317_jpg
+    ltn=1 clingo=0 body=0.5129
+    WaterTreatment  = 0.5028  (|d-0.5|=0.0028)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0655  (|d-0.5|=0.4345)
+  s_17476_jpg
+    ltn=1 clingo=0 body=0.5098
+    WaterTreatment  = 0.5090  (|d-0.5|=0.0090)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0754  (|d-0.5|=0.4246)
+  s_17686_jpg
+    ltn=1 clingo=0 body=0.5003
+    WaterTreatment  = 0.5117  (|d-0.5|=0.0117)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0460  (|d-0.5|=0.4540)
+  s_17778_jpg
+    ltn=1 clingo=0 body=0.5128
+    WaterTreatment  = 0.5014  (|d-0.5|=0.0014)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0595  (|d-0.5|=0.4405)
+  s_17779_jpg
+    ltn=1 clingo=0 body=0.5004
+    WaterTreatment  = 0.5252  (|d-0.5|=0.0252)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0926  (|d-0.5|=0.4074)
+  s_17983_jpg
+    ltn=1 clingo=0 body=0.5124
+    WaterTreatment  = 0.5072  (|d-0.5|=0.0072)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0803  (|d-0.5|=0.4197)
+  s_18361_jpg
+    ltn=1 clingo=0 body=0.5003
+    WaterTreatment  = 0.5264  (|d-0.5|=0.0264)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0960  (|d-0.5|=0.4040)
+  s_18622_jpg
+    ltn=1 clingo=0 body=0.5234
+    WaterTreatment  = 0.5028  (|d-0.5|=0.0028)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.1155  (|d-0.5|=0.3845)
+  s_18772_jpg
+    ltn=1 clingo=0 body=0.5132
+    WaterTreatment  = 0.5035  (|d-0.5|=0.0035)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0698  (|d-0.5|=0.4302)
+  s_19054_jpg
+    ltn=1 clingo=0 body=0.5139
+    WaterTreatment  = 0.5047  (|d-0.5|=0.0047)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0777  (|d-0.5|=0.4223)
+  s_19372_jpg
+    ltn=1 clingo=0 body=0.5009
+    WaterTreatment  = 0.5370  (|d-0.5|=0.0370)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.1309  (|d-0.5|=0.3691)
+  s_19588_jpg
+    ltn=1 clingo=0 body=0.5077
+    WaterTreatment  = 0.5253  (|d-0.5|=0.0253)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.1225  (|d-0.5|=0.3775)
+  s_19591_jpg
+    ltn=1 clingo=0 body=0.5140
+    WaterTreatment  = 0.5047  (|d-0.5|=0.0047)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0780  (|d-0.5|=0.4220)
+  s_19777_jpg
+    ltn=1 clingo=0 body=0.5131
+    WaterTreatment  = 0.5110  (|d-0.5|=0.0110)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0972  (|d-0.5|=0.4028)
+  s_19846_jpg
+    ltn=1 clingo=0 body=0.5058
+    WaterTreatment  = 0.5224  (|d-0.5|=0.0224)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.1054  (|d-0.5|=0.3946)
+  s_19888_jpg
+    ltn=1 clingo=0 body=0.5000
+    WaterTreatment  = 0.5242  (|d-0.5|=0.0242)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0878  (|d-0.5|=0.4122)
+  s_19900_jpg
+    ltn=1 clingo=0 body=0.5085
+    WaterTreatment  = 0.5235  (|d-0.5|=0.0235)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.1203  (|d-0.5|=0.3797)
+  s_19954_jpg
+    ltn=1 clingo=0 body=0.5073
+    WaterTreatment  = 0.5168  (|d-0.5|=0.0168)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+    Truck           = 0.0927  (|d-0.5|=0.4073)
+
+
+
+--- industrial (17 disagreements) ---
+  s_16338_jpg
+    ltn=1 clingo=0 body=0.5041
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.2752  (|d-0.5|=0.2248)
+    Industrial      = 0.5975  (|d-0.5|=0.0975)
+  s_16402_jpg
+    ltn=1 clingo=0 body=0.5112
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0002  (|d-0.5|=0.4998)
+    WaterTreatment  = 0.4943  (|d-0.5|=0.0057)
+    Industrial      = 0.9307  (|d-0.5|=0.4307)
+  s_16555_jpg
+    ltn=1 clingo=0 body=0.5100
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0019  (|d-0.5|=0.4981)
+    WaterTreatment  = 0.4919  (|d-0.5|=0.0081)
+    Industrial      = 0.9301  (|d-0.5|=0.4301)
+  s_16852_jpg
+    ltn=1 clingo=0 body=0.5053
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.4928  (|d-0.5|=0.0072)
+    Industrial      = 0.9501  (|d-0.5|=0.4501)
+  s_16960_jpg
+    ltn=1 clingo=0 body=0.5329
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.2617  (|d-0.5|=0.2383)
+    Industrial      = 0.5318  (|d-0.5|=0.0318)
+  s_17518_jpg
+    ltn=1 clingo=0 body=0.5041
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0002  (|d-0.5|=0.4998)
+    WaterTreatment  = 0.4864  (|d-0.5|=0.0136)
+    Industrial      = 0.9318  (|d-0.5|=0.4318)
+  s_17551_jpg
+    ltn=1 clingo=0 body=0.5105
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0003  (|d-0.5|=0.4997)
+    WaterTreatment  = 0.4873  (|d-0.5|=0.0127)
+    Industrial      = 0.9083  (|d-0.5|=0.4083)
+  s_17596_jpg
+    ltn=1 clingo=0 body=0.5035
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0002  (|d-0.5|=0.4998)
+    WaterTreatment  = 0.4850  (|d-0.5|=0.0150)
+    Industrial      = 0.9292  (|d-0.5|=0.4292)
+  s_18040_jpg
+    ltn=1 clingo=0 body=0.5095
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.4997  (|d-0.5|=0.0003)
+    Industrial      = 0.9585  (|d-0.5|=0.4585)
+  s_18049_jpg
+    ltn=1 clingo=0 body=0.5068
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.4882  (|d-0.5|=0.0118)
+    Industrial      = 0.9269  (|d-0.5|=0.4269)
+  s_18231_jpg
+    ltn=1 clingo=0 body=0.5020
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.4809  (|d-0.5|=0.0191)
+    Industrial      = 0.9210  (|d-0.5|=0.4210)
+  s_18294_jpg
+    ltn=1 clingo=0 body=0.5143
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.3000  (|d-0.5|=0.2000)
+    Industrial      = 0.5910  (|d-0.5|=0.0910)
+  s_18347_jpg
+    ltn=1 clingo=0 body=0.5031
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0010  (|d-0.5|=0.4990)
+    WaterTreatment  = 0.2842  (|d-0.5|=0.2158)
+    Industrial      = 0.6058  (|d-0.5|=0.1058)
+  s_18964_jpg
+    ltn=1 clingo=0 body=0.5468
+    ConstructionSite = 0.0001  (|d-0.5|=0.4999)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0043  (|d-0.5|=0.4957)
+    WaterTreatment  = 0.2868  (|d-0.5|=0.2132)
+    Industrial      = 0.5109  (|d-0.5|=0.0109)
+  s_19110_jpg
+    ltn=1 clingo=0 body=0.5100
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0005  (|d-0.5|=0.4995)
+    WaterTreatment  = 0.4867  (|d-0.5|=0.0133)
+    Industrial      = 0.9088  (|d-0.5|=0.4088)
+  s_19368_jpg
+    ltn=1 clingo=0 body=0.5281
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.2617  (|d-0.5|=0.2383)
+    Industrial      = 0.5416  (|d-0.5|=0.0416)
+  s_19702_jpg
+    ltn=1 clingo=0 body=0.5246
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.2703  (|d-0.5|=0.2297)
+    Industrial      = 0.5526  (|d-0.5|=0.0526)
+
+
+
+--- industrial_not_table (1 disagreements) ---
+  s_19649_jpg
+    ltn=1 clingo=0 body=0.5237
+    Table           = 0.7080  (|d-0.5|=0.2080)
+    Industrial      = 0.6727  (|d-0.5|=0.1727)

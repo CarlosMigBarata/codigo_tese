@@ -1,0 +1,94 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.9998 | rule_holds=5340 | rule_vac_holds=10659 | violations=1 | total=16000
+    - left_holds_right_fails: 1
+
+building_no_car_truck | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+residential | consistency=0.3332 | rule_holds=5331 | rule_vac_holds=0 | violations=10669 | total=16000
+    - left_fails_right_holds: 10669
+
+building_impl_complex | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=1.0000 | rule_holds=5322 | rule_vac_holds=10678 | violations=0 | total=16000
+
+commercial | consistency=0.9996 | rule_holds=5327 | rule_vac_holds=10671 | violations=2 | total=16000
+    - left_fails_right_holds: 2
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+building_no_car_truck: 1.000
+building_impl_complex: 1.000
+building_nodoorornowindow_impl_noawning: 1.000
+building_no_chimney_statue: 1.000
+industrial          : 0.991
+commercial          : 0.986
+residential         : 0.186
+
+Axiom satisfaction: validation 
+
+building_no_car_truck: 1.000
+building_impl_complex: 1.000
+building_no_chimney_statue: 1.000
+building_nodoorornowindow_impl_noawning: 1.000
+industrial          : 0.988
+commercial          : 0.983
+residential         : 0.184
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+building_no_car_truck: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_impl_complex: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_no_chimney_statue: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_nodoorornowindow_impl_noawning: {}
+industrial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+residential         : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (1 disagreements) ---
+  s_8548_jpg
+    ltn=1 clingo=0 body=0.5308
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.2916  (|d-0.5|=0.2084)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5488  (|d-0.5|=0.0488)
+
+
+
+--- commercial (1 disagreements) ---
+  s_13244_jpg
+    ltn=1 clingo=0 body=0.5128
+    Cafe            = 0.0297  (|d-0.5|=0.4703)
+    Hotel           = 0.0097  (|d-0.5|=0.4903)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.0425  (|d-0.5|=0.4575)
+    MiscCommercial  = 0.6542  (|d-0.5|=0.1542)
+    Commercial      = 0.3928  (|d-0.5|=0.1072)

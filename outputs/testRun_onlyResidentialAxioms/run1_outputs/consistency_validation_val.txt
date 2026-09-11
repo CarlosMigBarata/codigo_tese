@@ -1,0 +1,207 @@
+
+
+========= ACTIVE RULES =========
+
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+
+
+========= CONISTENCY PER RULE =========
+
+building_no_car_truck | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=1.0000 | rule_holds=1440 | rule_vac_holds=2560 | violations=0 | total=4000
+
+residential_no_chimney_pipe | consistency=0.9993 | rule_holds=1346 | rule_vac_holds=2653 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+industrial | consistency=0.3372 | rule_holds=1349 | rule_vac_holds=0 | violations=2651 | total=4000
+    - left_fails_right_holds: 2651
+
+residential | consistency=0.4980 | rule_holds=1347 | rule_vac_holds=1295 | violations=1358 | total=4000
+    - left_fails_right_holds: 1358
+
+commercial | consistency=0.4910 | rule_holds=1303 | rule_vac_holds=1346 | violations=1351 | total=4000
+    - left_fails_right_holds: 1351
+
+countryhouse | consistency=0.9956 | rule_holds=1346 | rule_vac_holds=2648 | violations=6 | total=4000
+    - left_holds_right_fails: 3
+    - left_fails_right_holds: 3
+
+building_impl_complex | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+suburban | consistency=0.9993 | rule_holds=1352 | rule_vac_holds=2647 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+miscresidential | consistency=0.9978 | rule_holds=2700 | rule_vac_holds=1294 | violations=6 | total=4000
+    - left_holds_right_fails: 3
+    - left_fails_right_holds: 3
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+building_nodoorornowindow_impl_noawning: 1.000
+building_no_chimney_statue: 1.000
+building_impl_complex: 1.000
+building_no_car_truck: 0.999
+residential_no_chimney_pipe: 0.999
+countryhouse        : 0.986
+suburban            : 0.976
+miscresidential     : 0.969
+commercial          : 0.431
+residential         : 0.424
+industrial          : 0.188
+
+Axiom satisfaction: validation 
+
+building_nodoorornowindow_impl_noawning: 1.000
+building_no_chimney_statue: 1.000
+building_impl_complex: 0.999
+building_no_car_truck: 0.999
+residential_no_chimney_pipe: 0.997
+countryhouse        : 0.985
+miscresidential     : 0.973
+suburban            : 0.967
+commercial          : 0.424
+residential         : 0.419
+industrial          : 0.187
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+building_nodoorornowindow_impl_noawning: {}
+building_no_chimney_statue: {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_impl_complex: {'agree': 4000, 'disagree': 0, 'missing': 0}
+building_no_car_truck: {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential_no_chimney_pipe: {'agree': 3999, 'disagree': 1, 'missing': 0}
+countryhouse        : {'agree': 3997, 'disagree': 3, 'missing': 0}
+miscresidential     : {'agree': 3998, 'disagree': 2, 'missing': 0}
+suburban            : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 3998, 'disagree': 2, 'missing': 0}
+residential         : {'agree': 3995, 'disagree': 5, 'missing': 0}
+industrial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- residential_no_chimney_pipe (1 disagreements) ---
+  s_16653_jpg
+    ltn=1 clingo=0 body=0.6066  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Chimney         = 0.0000  (|d-0.5|=0.5000)
+    Pipe            = 0.6084  (|d-0.5|=0.1084)
+    Residential     = 0.6466  (|d-0.5|=0.1466)
+
+
+
+--- residential (5 disagreements) ---
+  s_16875_jpg
+    ltn=0 clingo=1 body=0.3932  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3897  (|d-0.5|=0.1103)
+    MiscResidential = 0.3558  (|d-0.5|=0.1442)
+    CountryHouse    = 0.0002  (|d-0.5|=0.4998)
+    Residential     = 0.0001  (|d-0.5|=0.4999)
+  s_17343_jpg
+    ltn=1 clingo=0 body=0.5034
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.4706  (|d-0.5|=0.0294)
+    CountryHouse    = 0.5819  (|d-0.5|=0.0819)
+    Residential     = 0.4303  (|d-0.5|=0.0697)
+  s_18240_jpg
+    ltn=1 clingo=0 body=0.5392
+    Suburban        = 0.0610  (|d-0.5|=0.4390)
+    MiscResidential = 0.5009  (|d-0.5|=0.0009)
+    CountryHouse    = 0.3210  (|d-0.5|=0.1790)
+    Residential     = 0.4595  (|d-0.5|=0.0405)
+  s_19389_jpg
+    ltn=0 clingo=1 body=0.3904  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3882  (|d-0.5|=0.1118)
+    MiscResidential = 0.3620  (|d-0.5|=0.1380)
+    CountryHouse    = 0.0001  (|d-0.5|=0.4999)
+    Residential     = 0.0000  (|d-0.5|=0.5000)
+  s_19902_jpg
+    ltn=1 clingo=0 body=0.5165
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.5357  (|d-0.5|=0.0357)
+    CountryHouse    = 0.6786  (|d-0.5|=0.1786)
+    Residential     = 0.4783  (|d-0.5|=0.0217)
+
+
+
+--- countryhouse (3 disagreements) ---
+  s_17040_jpg
+    ltn=1 clingo=0 body=0.5313
+    CountryHouse    = 0.4317  (|d-0.5|=0.0683)
+    TiledRoof       = 0.7124  (|d-0.5|=0.2124)
+    Car             = 0.9383  (|d-0.5|=0.4383)
+  s_18240_jpg
+    ltn=1 clingo=0 body=0.5462
+    CountryHouse    = 0.3210  (|d-0.5|=0.1790)
+    TiledRoof       = 0.9475  (|d-0.5|=0.4475)
+    Car             = 0.5515  (|d-0.5|=0.0515)
+  s_18364_jpg
+    ltn=1 clingo=0 body=0.5461
+    CountryHouse    = 0.2518  (|d-0.5|=0.2482)
+    TiledRoof       = 0.9998  (|d-0.5|=0.4998)
+    Car             = 0.5019  (|d-0.5|=0.0019)
+
+
+
+--- miscresidential (2 disagreements) ---
+  s_17040_jpg
+    ltn=1 clingo=0 body=0.5110
+    MiscResidential = 0.4094  (|d-0.5|=0.0906)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Table           = 0.0001  (|d-0.5|=0.4999)
+    TiledRoof       = 0.7124  (|d-0.5|=0.2124)
+  s_17347_jpg
+    ltn=1 clingo=0 body=0.5487
+    MiscResidential = 0.5843  (|d-0.5|=0.0843)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Table           = 0.9597  (|d-0.5|=0.4597)
+    TiledRoof       = 0.4349  (|d-0.5|=0.0651)
+
+
+
+--- commercial (2 disagreements) ---
+  s_18240_jpg
+    ltn=1 clingo=0 body=0.5034
+    Cafe            = 0.4833  (|d-0.5|=0.0167)
+    Hotel           = 0.3186  (|d-0.5|=0.1814)
+    Restaurant      = 0.3998  (|d-0.5|=0.1002)
+    Store           = 0.4926  (|d-0.5|=0.0074)
+    MiscCommercial  = 0.8249  (|d-0.5|=0.3249)
+    Commercial      = 0.4987  (|d-0.5|=0.0013)
+  s_19700_jpg
+    ltn=1 clingo=0 body=0.5298
+    Cafe            = 0.0998  (|d-0.5|=0.4002)
+    Hotel           = 0.0483  (|d-0.5|=0.4517)
+    Restaurant      = 0.0168  (|d-0.5|=0.4832)
+    Store           = 0.0120  (|d-0.5|=0.4880)
+    MiscCommercial  = 0.5866  (|d-0.5|=0.0866)
+    Commercial      = 0.4192  (|d-0.5|=0.0808)
+
+
+
+--- suburban (1 disagreements) ---
+  s_19098_jpg
+    ltn=1 clingo=0 body=0.5395
+    Suburban        = 0.5695  (|d-0.5|=0.0695)
+    Porch           = 0.3722  (|d-0.5|=0.1278)
