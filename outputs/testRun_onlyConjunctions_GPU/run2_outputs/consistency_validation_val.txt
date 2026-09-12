@@ -1,0 +1,88 @@
+
+
+========= ACTIVE RULES =========
+
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+residential | consistency=1.0000 | rule_holds=1340 | rule_vac_holds=2660 | violations=0 | total=4000
+
+countryhouse | consistency=0.9993 | rule_holds=1340 | rule_vac_holds=2659 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+watertreatment | consistency=1.0000 | rule_holds=1347 | rule_vac_holds=2653 | violations=0 | total=4000
+
+industrial | consistency=0.9978 | rule_holds=1344 | rule_vac_holds=2653 | violations=3 | total=4000
+    - left_fails_right_holds: 3
+
+commercial | consistency=0.9992 | rule_holds=1317 | rule_vac_holds=2682 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+misccommercial      : 1.000
+powerplant          : 1.000
+miscindustrial      : 0.999
+watertreatment      : 0.997
+countryhouse        : 0.995
+industrial          : 0.992
+residential         : 0.990
+commercial          : 0.986
+
+Axiom satisfaction: validation 
+
+misccommercial      : 1.000
+powerplant          : 1.000
+miscindustrial      : 1.000
+countryhouse        : 0.997
+residential         : 0.997
+watertreatment      : 0.996
+industrial          : 0.992
+commercial          : 0.991
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+misccommercial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+watertreatment      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (1 disagreements) ---
+  s_19690_jpg
+    ltn=1 clingo=0 body=0.5229
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.5371  (|d-0.5|=0.0371)
+    Industrial      = 0.2248  (|d-0.5|=0.2752)
