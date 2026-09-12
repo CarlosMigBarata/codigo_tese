@@ -1,5 +1,5 @@
 Results Description
-Seed: 73569
+Seed: 78138
 Number of examples: 20000
 Train/Test limit: 16000
 Validation Interval: 3
@@ -8,8 +8,8 @@ Batch size: 32
 Learning rate: 0.00050
 trained with building predicates: False; trained with concept predicates: False
 
-Number of epochs completed: 21/150
-Best epoch found: 0
+Number of epochs completed: 69/150
+Best epoch found: 48
 constant_alpha: True;  patience: 6.666666666666667 cycles
 
 

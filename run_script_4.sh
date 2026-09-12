@@ -31,7 +31,7 @@ while [ $exit_code -ne 0 ] && [ $exit_code -ne 130 ]; do
     exit_code=$?
 done
 
-exit_code=$?
+exit_code=1
 
 while [ $exit_code -ne 0 ] && [ $exit_code -ne 130 ]; do
 

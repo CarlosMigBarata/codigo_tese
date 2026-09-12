@@ -1437,6 +1437,8 @@ for i in range(0,5):
     if i==3:
         starting_alpha = 0.3
     if i==4:
+        starting_alpha = 0.2
+    if i==5:
         starting_alpha = 0.1
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
