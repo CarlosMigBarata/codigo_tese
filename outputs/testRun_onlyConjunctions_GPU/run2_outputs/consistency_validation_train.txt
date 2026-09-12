@@ -1,0 +1,111 @@
+
+
+========= ACTIVE RULES =========
+
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+residential | consistency=0.9998 | rule_holds=5343 | rule_vac_holds=10656 | violations=1 | total=16000
+    - left_holds_right_fails: 1
+
+countryhouse | consistency=0.9996 | rule_holds=5343 | rule_vac_holds=10655 | violations=2 | total=16000
+    - left_fails_right_holds: 2
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+watertreatment | consistency=1.0000 | rule_holds=5347 | rule_vac_holds=10653 | violations=0 | total=16000
+
+industrial | consistency=0.9994 | rule_holds=5344 | rule_vac_holds=10653 | violations=3 | total=16000
+    - left_fails_right_holds: 3
+
+commercial | consistency=0.9996 | rule_holds=5314 | rule_vac_holds=10684 | violations=2 | total=16000
+    - left_fails_right_holds: 2
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+misccommercial      : 1.000
+powerplant          : 1.000
+miscindustrial      : 0.999
+watertreatment      : 0.997
+countryhouse        : 0.995
+industrial          : 0.992
+residential         : 0.990
+commercial          : 0.986
+
+Axiom satisfaction: validation 
+
+misccommercial      : 1.000
+powerplant          : 1.000
+miscindustrial      : 1.000
+countryhouse        : 0.997
+residential         : 0.997
+watertreatment      : 0.996
+industrial          : 0.992
+commercial          : 0.991
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+misccommercial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 15999, 'disagree': 1, 'missing': 0}
+watertreatment      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- residential (1 disagreements) ---
+  s_1895_jpg
+    ltn=1 clingo=0 body=0.5175
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.0363  (|d-0.5|=0.4637)
+    CountryHouse    = 0.2308  (|d-0.5|=0.2692)
+    Residential     = 0.5615  (|d-0.5|=0.0615)
+
+
+
+--- commercial (1 disagreements) ---
+  s_3505_jpg
+    ltn=1 clingo=0 body=0.5026
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.8407  (|d-0.5|=0.3407)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4551  (|d-0.5|=0.0449)
+
+
+
+--- industrial (1 disagreements) ---
+  s_4837_jpg
+    ltn=1 clingo=0 body=0.5065
+    ConstructionSite = 0.0002  (|d-0.5|=0.4998)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.7496  (|d-0.5|=0.2496)
+    Industrial      = 0.4213  (|d-0.5|=0.0787)

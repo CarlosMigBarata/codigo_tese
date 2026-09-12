@@ -1,0 +1,68 @@
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+commercial | consistency=0.3315 | rule_holds=1326 | rule_vac_holds=0 | violations=2674 | total=4000
+    - left_fails_right_holds: 2674
+
+industrial | consistency=0.9993 | rule_holds=1344 | rule_vac_holds=2655 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+residential | consistency=0.9992 | rule_holds=1331 | rule_vac_holds=2668 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.986
+residential         : 0.985
+commercial          : 0.191
+
+Axiom satisfaction: validation 
+
+residential         : 0.990
+industrial          : 0.990
+commercial          : 0.187
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 3999, 'disagree': 1, 'missing': 0}
+industrial          : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (1 disagreements) ---
+  s_17107_jpg
+    ltn=1 clingo=0 body=0.5541
+    ConstructionSite = 0.0004  (|d-0.5|=0.4996)
+    MiscIndustrial  = 0.0007  (|d-0.5|=0.4993)
+    PowerPlant      = 0.4680  (|d-0.5|=0.0320)
+    WaterTreatment  = 0.4145  (|d-0.5|=0.0855)
+    Industrial      = 0.5014  (|d-0.5|=0.0014)
+
+
+
+--- residential (1 disagreements) ---
+  s_18974_jpg
+    ltn=1 clingo=0 body=0.5568
+    Suburban        = 0.1527  (|d-0.5|=0.3473)
+    MiscResidential = 0.0025  (|d-0.5|=0.4975)
+    CountryHouse    = 0.3292  (|d-0.5|=0.1708)
+    Residential     = 0.5323  (|d-0.5|=0.0323)
