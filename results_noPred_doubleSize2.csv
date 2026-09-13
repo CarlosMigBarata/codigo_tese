@@ -1,9 +1,0 @@
-run,alpha,split,all,super_classes,building_labels,concepts
-outputs/testRun_NoPredicates_Sept_double_sized_layers/run3_outputs,0.3,train,27.70690322580645,99.88100000000001,13.572916666666666,24.774749999999997
-outputs/testRun_NoPredicates_Sept_double_sized_layers/run3_outputs,0.3,val,27.678709677419352,99.41133333333333,13.602166666666667,24.786250000000003
-outputs/testRun_NoPredicates_Sept_double_sized_layers/run2_outputs,0.5,train,25.912096774193547,99.63766666666668,13.463000000000001,21.425375
-outputs/testRun_NoPredicates_Sept_double_sized_layers/run2_outputs,0.5,val,25.980838709677418,99.226,13.622333333333335,21.51625
-outputs/testRun_NoPredicates_Sept_double_sized_layers/run1_outputs,0.8,train,26.501806451612904,99.61533333333334,13.536000000000001,22.517375
-outputs/testRun_NoPredicates_Sept_double_sized_layers/run1_outputs,0.8,val,26.43974193548387,99.19933333333331,13.529916666666667,22.4796875
-outputs/testRun_NoPredicates_Sept_double_sized_layers/run0_outputs,0.95,train,27.50993548387097,99.74066666666666,15.087416666666668,23.2835625
-outputs/testRun_NoPredicates_Sept_double_sized_layers/run0_outputs,0.95,val,27.695096774193548,99.04966666666667,15.377749999999999,23.554125

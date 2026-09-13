@@ -1,0 +1,9 @@
+run,alpha,split,all,super_classes,building_labels,concepts
+outputs/testRun_NoPredicates_1LargeLayer_Sept_new/run2_outputs,0.5,train,25.660548387096775,99.58800000000001,8.667583333333333,24.543875
+outputs/testRun_NoPredicates_1LargeLayer_Sept_new/run2_outputs,0.5,val,25.711548387096773,99.28866666666666,8.819833333333333,24.584625000000003
+outputs/testRun_NoPredicates_1LargeLayer_Sept_new/run1_outputs,0.8,train,26.93122580645161,99.86566666666666,14.656666666666666,22.4619375
+outputs/testRun_NoPredicates_1LargeLayer_Sept_new/run1_outputs,0.8,val,27.01922580645161,99.44966666666666,14.728583333333335,22.6565
+outputs/testRun_NoPredicates_1LargeLayer_Sept_new/run0_outputs,0.95,train,35.12767741935484,99.78133333333334,24.6675,30.85025
+outputs/testRun_NoPredicates_1LargeLayer_Sept_new/run0_outputs,0.95,val,35.25570967741936,99.085,24.826083333333333,31.1099375
+outputs/testRun_NoPredicates_1LargeLayer_Sept_new/run0_outputs_baseline,1.0,train,35.0078064516129,98.09233333333333,25.479916666666668,30.325375
+outputs/testRun_NoPredicates_1LargeLayer_Sept_new/run0_outputs_baseline,1.0,val,35.36358064516129,98.04,26.437583333333333,30.30625

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SCRIPT1="dissertation_workplace_script.py"
-SCRIPT2="dissertation_workplace_script_1LargeLayer.py"
-SCRIPT3="dissertation_workplace_script_double_sized_layers.py"
+SCRIPT1="../dissertation_workplace_script.py"
+SCRIPT2="../dissertation_workplace_script_1LargeLayer.py"
+SCRIPT3="../dissertation_workplace_script_double_sized_layers.py"
 RUN_NAME1="testRun_onlyCommercials_GPU"
 RUN_NAME2="testRun_onlyResidential_GPU"
 RUN_NAME3="testRun_onlyIndustrial_GPU"
