@@ -1,0 +1,68 @@
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+
+
+========= CONISTENCY PER RULE =========
+
+commercial | consistency=0.9998 | rule_holds=5292 | rule_vac_holds=10707 | violations=1 | total=16000
+    - left_fails_right_holds: 1
+
+residential | consistency=0.9996 | rule_holds=5340 | rule_vac_holds=10658 | violations=2 | total=16000
+    - left_holds_right_fails: 2
+
+industrial | consistency=1.0000 | rule_holds=5366 | rule_vac_holds=10634 | violations=0 | total=16000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.992
+residential         : 0.990
+commercial          : 0.985
+
+Axiom satisfaction: validation 
+
+residential         : 0.993
+industrial          : 0.992
+commercial          : 0.988
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 15999, 'disagree': 1, 'missing': 0}
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (1 disagreements) ---
+  s_1563_jpg
+    ltn=1 clingo=0 body=0.5580
+    Cafe            = 0.0011  (|d-0.5|=0.4989)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.5902  (|d-0.5|=0.0902)
+    Store           = 0.0001  (|d-0.5|=0.4999)
+    MiscCommercial  = 0.0003  (|d-0.5|=0.4997)
+    Commercial      = 0.4870  (|d-0.5|=0.0130)
+
+
+
+--- residential (1 disagreements) ---
+  s_1563_jpg
+    ltn=1 clingo=0 body=0.5574
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.4224  (|d-0.5|=0.0776)
+    Residential     = 0.5222  (|d-0.5|=0.0222)
