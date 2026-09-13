@@ -1392,12 +1392,29 @@ for i in range(4,5):
         starting_alpha = 0.8
     if i ==2:
         starting_alpha = 0.5
+
+
+
     if i==3:
-        starting_alpha = 0.3
-    if i ==4:
+        starting_alpha = 1.0
+    if i==4:
+        starting_alpha = 1.0
+    if i==5:
+        starting_alpha = 1.0
+    if i==6:
+        starting_alpha = 0.8
+    if i==7:
+        starting_alpha = 0.8
+    if i==8:
+        starting_alpha = 0.5
+    if i==9:
+        starting_alpha = 0.5
+    if i==10:
         starting_alpha = 0.2
-    if i ==5:
-        starting_alpha = 0.0
+    if i==11:
+        starting_alpha = 0.2
+    if i==12:
+        starting_alpha = 0.2
 
 
     patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
