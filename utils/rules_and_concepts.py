@@ -431,6 +431,79 @@ BUILDING_TYPES_ONLY = [
         {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": False, "name": "residential_no_chimney_pipe"},#residential    
 ]
 
+
+CONJUNCTIONS_ONLY = [    
+
+    {"axiom": rule_Buiding_Impl_not_carAndTruck_OrMachine, "active": False, "name": "building_impl_complex"}, #implications, more related to the building creation process
+    {"axiom": rule_Building_Impl_not_CarAndTruck, "active": False, "name": "building_no_car_truck"},
+    {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": False, "name": "building_no_chimney_statue"},
+    {"axiom": rule_Building_noDoorOrNoWindow_Impl_noAwning, "active": False, "name": "building_noDoorOrNoWindow_Impl_noAwning"},
+
+    {"axiom": rule_CommercialRestrictions, "active":False, "name":"rule_CommercialRestrictions"},
+    {"axiom": rule_IndustrialRestrictions, "active":False, "name":"rule_IndustrialRestrictions"},
+    {"axiom": rule_ResidentialRestrictions, "active":False, "name":"rule_ResidentialRestrictions"},
+
+
+    {"axiom": rule_CommercialBuildingType, "active": True, "name": "commercial"},
+        {"axiom": rule_Hotel_Wallsign, "active": False, "name":"hotel"}, #basic equiv
+        {"axiom": rule_Store_Billboard, "active": False, "name":"store"}, #basic equiv
+        {"axiom": rule_MiscCommercial_AwningAndTable, "active": True, "name":"misccommercial"}, #conj
+        {"axiom": rule_Cafe_StatueOrVendingMachine, "active": False, "name":"cafe"}, #disj
+        {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": False,"name":"restaurant"},#complex?
+
+
+    {"axiom": rule_IndustrialBuildingType, "active": True, "name": "industrial"},
+        {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"}, #basic equiv
+        {"axiom": rule_ConstructionSite_Machine, "active": False, "name":"constructionsite"}, #basic equiv
+        {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": True, "name":"miscindustrial"}, #conj
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": True, "name":"powerplant"}, #conj
+        {"axiom": rule_WaterTreatment_PipeAndTruck, "active": True, "name":"watertreatment"}, #conj
+
+
+    {"axiom": rule_ResidentialBuildingType, "active": True, "name": "residential"},
+        {"axiom": rule_Suburban_Porch, "active": False, "name":"suburban"}, #basic equiv
+        {"axiom": rule_CH_CarAndTiledroof, "active": True, "name":"countryhouse"}, #conj
+        {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": False, "name":"miscresidential"},#residential
+        {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": False, "name": "residential_no_chimney_pipe"},#residential    
+]
+
+EQUIVALENCES_ONLY = [    
+
+    {"axiom": rule_Buiding_Impl_not_carAndTruck_OrMachine, "active": False, "name": "building_impl_complex"}, #implications, more related to the building creation process
+    {"axiom": rule_Building_Impl_not_CarAndTruck, "active": False, "name": "building_no_car_truck"},
+    {"axiom": rule_Building_Impl_not_ChimneyAndStatue, "active": False, "name": "building_no_chimney_statue"},
+    {"axiom": rule_Building_noDoorOrNoWindow_Impl_noAwning, "active": False, "name": "building_noDoorOrNoWindow_Impl_noAwning"},
+
+    {"axiom": rule_CommercialRestrictions, "active":False, "name":"rule_CommercialRestrictions"},
+    {"axiom": rule_IndustrialRestrictions, "active":False, "name":"rule_IndustrialRestrictions"},
+    {"axiom": rule_ResidentialRestrictions, "active":False, "name":"rule_ResidentialRestrictions"},
+
+
+    {"axiom": rule_CommercialBuildingType, "active": True, "name": "commercial"},
+        {"axiom": rule_Hotel_Wallsign, "active": True, "name":"hotel"}, #basic equiv
+        {"axiom": rule_Store_Billboard, "active": True, "name":"store"}, #basic equiv
+        {"axiom": rule_MiscCommercial_AwningAndTable, "active": False, "name":"misccommercial"}, #conj
+        {"axiom": rule_Cafe_StatueOrVendingMachine, "active": False, "name":"cafe"}, #disj
+        {"axiom": rule_Restaurant_CarOrTruckAndSign, "active": False,"name":"restaurant"},#complex?
+
+
+    {"axiom": rule_IndustrialBuildingType, "active": True, "name": "industrial"},
+        {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"}, #basic equiv
+        {"axiom": rule_ConstructionSite_Machine, "active": True, "name":"constructionsite"}, #basic equiv
+        {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": False, "name":"miscindustrial"}, #conj
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"powerplant"}, #conj
+        {"axiom": rule_WaterTreatment_PipeAndTruck, "active": False, "name":"watertreatment"}, #conj
+
+
+    {"axiom": rule_ResidentialBuildingType, "active": True, "name": "residential"},
+        {"axiom": rule_Suburban_Porch, "active": True, "name":"suburban"}, #basic equiv
+        {"axiom": rule_CH_CarAndTiledroof, "active": False, "name":"countryhouse"}, #conj
+        {"axiom": rule_MiscResidential_not_AwningAndTable_AndTiledRoof, "active": False, "name":"miscresidential"},#residential
+        {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": False, "name": "residential_no_chimney_pipe"},#residential    
+]
+
+
+
 active_ontology = constants.active_ontology
 print(f"active ontology {active_ontology}")
 
@@ -450,6 +523,12 @@ match active_ontology:
 
     case "BUILDING_TYPES_ONLY":
         ALL_AXIOMS = BUILDING_TYPES_ONLY
+
+    case "CONJUNCTIONS_ONLY":
+        ALL_AXIOMS = CONJUNCTIONS_ONLY
+
+    case "EQUIVALENCES_ONLY":
+        ALL_AXIOMS = EQUIVALENCES_ONLY
 
     case _:
         ALL_AXIOMS = CLASSIC_ONTOLOGY

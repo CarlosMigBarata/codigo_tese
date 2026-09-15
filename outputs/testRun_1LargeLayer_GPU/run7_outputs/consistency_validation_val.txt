@@ -1,0 +1,64 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.9970 | rule_holds=1344 | rule_vac_holds=2652 | violations=4 | total=4000
+    - left_fails_right_holds: 4
+
+residential | consistency=0.9985 | rule_holds=1336 | rule_vac_holds=2662 | violations=2 | total=4000
+    - left_holds_right_fails: 2
+
+commercial | consistency=1.0000 | rule_holds=1318 | rule_vac_holds=2682 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.994
+residential         : 0.993
+commercial          : 0.988
+
+Axiom satisfaction: validation 
+
+industrial          : 0.992
+residential         : 0.990
+commercial          : 0.987
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+industrial          : {'agree': 3998, 'disagree': 2, 'missing': 0}
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (2 disagreements) ---
+  s_18238_jpg
+    ltn=1 clingo=0 body=0.5035
+    ConstructionSite = 0.0031  (|d-0.5|=0.4969)
+    MiscIndustrial  = 0.0344  (|d-0.5|=0.4656)
+    PowerPlant      = 0.6876  (|d-0.5|=0.1876)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.3839  (|d-0.5|=0.1161)
+  s_18513_jpg
+    ltn=1 clingo=0 body=0.5028
+    ConstructionSite = 0.0041  (|d-0.5|=0.4959)
+    MiscIndustrial  = 0.0338  (|d-0.5|=0.4662)
+    PowerPlant      = 0.6066  (|d-0.5|=0.1066)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.3058  (|d-0.5|=0.1942)
