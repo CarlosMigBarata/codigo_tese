@@ -1,0 +1,75 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.3332 | rule_holds=5331 | rule_vac_holds=0 | violations=10669 | total=16000
+    - left_fails_right_holds: 10669
+
+commercial | consistency=0.3334 | rule_holds=5335 | rule_vac_holds=0 | violations=10665 | total=16000
+    - left_fails_right_holds: 10665
+
+residential | consistency=0.3334 | rule_holds=5332 | rule_vac_holds=9 | violations=10659 | total=16000
+    - left_fails_right_holds: 10659
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.193
+residential         : 0.189
+commercial          : 0.186
+
+Axiom satisfaction: validation 
+
+industrial          : 0.193
+residential         : 0.186
+commercial          : 0.184
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 15996, 'disagree': 4, 'missing': 0}
+commercial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- residential (4 disagreements) ---
+  s_2355_jpg
+    ltn=0 clingo=1 body=0.3941  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.2448  (|d-0.5|=0.2552)
+    MiscResidential = 0.0005  (|d-0.5|=0.4995)
+    CountryHouse    = 0.4780  (|d-0.5|=0.0220)
+    Residential     = 0.0000  (|d-0.5|=0.5000)
+  s_222_jpg
+    ltn=0 clingo=1 body=0.4405
+    Suburban        = 0.3570  (|d-0.5|=0.1430)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.3149  (|d-0.5|=0.1851)
+    Residential     = 0.0000  (|d-0.5|=0.5000)
+  s_2691_jpg
+    ltn=0 clingo=1 body=0.4227
+    Suburban        = 0.2494  (|d-0.5|=0.2506)
+    MiscResidential = 0.0002  (|d-0.5|=0.4998)
+    CountryHouse    = 0.4368  (|d-0.5|=0.0632)
+    Residential     = 0.0000  (|d-0.5|=0.5000)
+  s_15876_jpg
+    ltn=0 clingo=1 body=0.4201
+    Suburban        = 0.2154  (|d-0.5|=0.2846)
+    MiscResidential = 0.0016  (|d-0.5|=0.4984)
+    CountryHouse    = 0.4639  (|d-0.5|=0.0361)
+    Residential     = 0.0000  (|d-0.5|=0.5000)

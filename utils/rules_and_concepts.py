@@ -455,7 +455,7 @@ CONJUNCTIONS_ONLY = [
     {"axiom": rule_IndustrialBuildingType, "active": True, "name": "industrial"},
         {"axiom": rule_Industrial_notTable, "active": False, "name":"industrial_not_table"}, #basic equiv
         {"axiom": rule_ConstructionSite_Machine, "active": False, "name":"constructionsite"}, #basic equiv
-        {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": False, "name":"miscindustrial"}, #conj
+        {"axiom": rule_MiscIndustrial_notAwningAndTruck, "active": True, "name":"miscindustrial"}, #conj
         {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": True, "name":"powerplant"}, #conj
         {"axiom": rule_WaterTreatment_PipeAndTruck, "active": True, "name":"watertreatment"}, #conj
 

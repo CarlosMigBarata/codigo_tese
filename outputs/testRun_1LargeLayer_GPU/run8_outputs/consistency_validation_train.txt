@@ -1,0 +1,65 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+residential | consistency=1.0000 | rule_holds=5331 | rule_vac_holds=10669 | violations=0 | total=16000
+
+commercial | consistency=0.9996 | rule_holds=5288 | rule_vac_holds=10710 | violations=2 | total=16000
+    - left_fails_right_holds: 2
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+residential         : 0.996
+commercial          : 0.990
+industrial          : 0.807
+
+Axiom satisfaction: validation 
+
+residential         : 0.994
+commercial          : 0.990
+industrial          : 0.800
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 16000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 15998, 'disagree': 2, 'missing': 0}
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (2 disagreements) ---
+  s_1053_jpg
+    ltn=1 clingo=0 body=0.5244
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.5643  (|d-0.5|=0.0643)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.2935  (|d-0.5|=0.2065)
+  s_14493_jpg
+    ltn=1 clingo=0 body=0.5593
+    Cafe            = 0.0003  (|d-0.5|=0.4997)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.5500  (|d-0.5|=0.0500)
+    Store           = 0.0008  (|d-0.5|=0.4992)
+    MiscCommercial  = 0.0010  (|d-0.5|=0.4990)
+    Commercial      = 0.4767  (|d-0.5|=0.0233)
