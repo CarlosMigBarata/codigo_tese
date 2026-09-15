@@ -44,11 +44,12 @@ if len(sys.argv) < 2:
 
 RUN_NAME = sys.argv[1]
 
-# if len(sys.argv) == 3:
-#     SUBSET_SIZE = int(sys.argv[2])
+if len(sys.argv) == 4:
+    constants.TRAIN_WITH_A_SUBSET = True
+    SUBSET_SIZE = int(sys.argv[3])
 
-# else:
-#     SUBSET_SIZE = constants.SUBSET_SIZE
+else:
+    SUBSET_SIZE = constants.SUBSET_SIZE
 
 if len(sys.argv) == 3:
     ACTIVE_ONTOLOGY = sys.argv[2]
@@ -1404,11 +1405,11 @@ for i in range(4,5):
     if i==6:
         starting_alpha = 0.8
     if i==7:
-        starting_alpha = 0.8
+        starting_alpha = 1.0
     if i==8:
-        starting_alpha = 0.5
+        starting_alpha = 1.0
     if i==9:
-        starting_alpha = 0.5
+        starting_alpha = 1.0
     if i==10:
         starting_alpha = 0.2
     if i==11:

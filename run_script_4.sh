@@ -27,7 +27,7 @@ exit_code=1
 while [ $exit_code -ne 0 ] && [ $exit_code -ne 130 ]; do
 
     echo "RETRIES = "$((++RETRIES))""
-    ./venv/bin/python "$SCRIPT3" "$RUN_NAME1" "$ONTOLOGY1"
+    ./venv/bin/python "$SCRIPT3" "$RUN_NAME1" "$ONTOLOGY1" "$SUBSET_SIZE1"
     exit_code=$?
 done
 
