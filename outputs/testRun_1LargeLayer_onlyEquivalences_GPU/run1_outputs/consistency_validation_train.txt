@@ -1,0 +1,69 @@
+
+
+========= ACTIVE RULES =========
+
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+suburban | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+commercial | consistency=1.0000 | rule_holds=5327 | rule_vac_holds=10673 | violations=0 | total=16000
+
+industrial | consistency=1.0000 | rule_holds=5335 | rule_vac_holds=10665 | violations=0 | total=16000
+
+constructionsite | consistency=1.0000 | rule_holds=5335 | rule_vac_holds=10665 | violations=0 | total=16000
+
+hotel | consistency=1.0000 | rule_holds=5327 | rule_vac_holds=10673 | violations=0 | total=16000
+
+store | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+residential | consistency=0.9998 | rule_holds=5338 | rule_vac_holds=10661 | violations=1 | total=16000
+    - left_fails_right_holds: 1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+suburban            : 1.000
+store               : 1.000
+constructionsite    : 0.998
+residential         : 0.997
+hotel               : 0.996
+industrial          : 0.996
+commercial          : 0.992
+
+Axiom satisfaction: validation 
+
+suburban            : 1.000
+store               : 1.000
+residential         : 0.997
+constructionsite    : 0.994
+hotel               : 0.993
+industrial          : 0.993
+commercial          : 0.991
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+suburban            : {'agree': 16000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 16000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 16000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+

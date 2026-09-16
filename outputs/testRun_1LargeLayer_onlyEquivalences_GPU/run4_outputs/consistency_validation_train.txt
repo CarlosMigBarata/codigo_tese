@@ -1,0 +1,95 @@
+
+
+========= ACTIVE RULES =========
+
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+suburban | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+commercial | consistency=1.0000 | rule_holds=5278 | rule_vac_holds=10722 | violations=0 | total=16000
+
+industrial | consistency=0.9994 | rule_holds=5366 | rule_vac_holds=10631 | violations=3 | total=16000
+    - left_fails_right_holds: 3
+
+constructionsite | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+hotel | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+store | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+residential | consistency=0.0000 | rule_holds=0 | rule_vac_holds=10830 | violations=5170 | total=16000
+    - left_holds_right_fails: 5170
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+suburban            : 1.000
+store               : 1.000
+hotel               : 1.000
+constructionsite    : 1.000
+industrial          : 0.989
+commercial          : 0.982
+residential         : 0.705
+
+Axiom satisfaction: validation 
+
+suburban            : 1.000
+store               : 1.000
+hotel               : 1.000
+constructionsite    : 1.000
+industrial          : 0.993
+commercial          : 0.987
+residential         : 0.705
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+suburban            : {'agree': 16000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 15997, 'disagree': 3, 'missing': 0}
+commercial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (3 disagreements) ---
+  s_15828_jpg
+    ltn=1 clingo=0 body=0.5415
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.5502  (|d-0.5|=0.0502)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.3517  (|d-0.5|=0.1483)
+  s_3360_jpg
+    ltn=1 clingo=0 body=0.5208
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.5969  (|d-0.5|=0.0969)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.3318  (|d-0.5|=0.1682)
+  s_6414_jpg
+    ltn=1 clingo=0 body=0.5365
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.5494  (|d-0.5|=0.0494)
+    WaterTreatment  = 0.0001  (|d-0.5|=0.4999)
+    Industrial      = 0.3224  (|d-0.5|=0.1776)
