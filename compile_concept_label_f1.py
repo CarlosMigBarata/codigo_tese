@@ -43,18 +43,18 @@ from pathlib import Path
 # }
 
 BUILDING_CLASSES = {
-    "Cafe":             {"active": False},
+    "Cafe":             {"active": True},
     "Hotel":            {"active": True},
-    "Restaurant":       {"active": False},
+    "Restaurant":       {"active": True},
     "Store":            {"active": True},
-    "MiscCommercial":   {"active": False},
+    "MiscCommercial":   {"active": True},
     "Suburban":         {"active": True},
-    "MiscResidential":  {"active": False},
-    "CountryHouse":     {"active": False},
+    "MiscResidential":  {"active": True},
+    "CountryHouse":     {"active": True},
     "ConstructionSite": {"active": True},
-    "MiscIndustrial":   {"active": False},
-    "PowerPlant":       {"active": False},
-    "WaterTreatment":   {"active": False},
+    "MiscIndustrial":   {"active": True},
+    "PowerPlant":       {"active": True},
+    "WaterTreatment":   {"active": True},
 }
 
 # Toggle "active" to control which concepts are included in the table.

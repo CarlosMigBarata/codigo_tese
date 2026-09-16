@@ -1,0 +1,24 @@
+[SAT CHECK] ground truth mean sat: 0.9207
+
+Per-axiom satisfaction on ground truth:
+  building_impl_complex_val_accuracy      : 0.9995
+  building_no_car_truck_val_accuracy      : 0.9996
+  building_no_chimney_statue_val_accuracy : 0.9997
+  building_nodoorornowindow_impl_noawning_val_accuracy: 0.6636
+  commercial_val_accuracy                 : 0.9981
+  hotel_val_accuracy                      : 0.9990
+  store_val_accuracy                      : 0.9990
+  misccommercial_val_accuracy             : 0.9990
+  cafe_val_accuracy                       : 0.9988
+  restaurant_val_accuracy                 : 0.9989
+  industrial_val_accuracy                 : 0.9983
+  industrial_not_table_val_accuracy       : 0.9996
+  constructionsite_val_accuracy           : 0.9990
+  miscindustrial_val_accuracy             : 0.9100
+  powerplant_val_accuracy                 : 0.9991
+  watertreatment_val_accuracy             : 0.9991
+  residential_val_accuracy                : 0.9986
+  suburban_val_accuracy                   : 0.9990
+  countryhouse_val_accuracy               : 0.9991
+  miscresidential_val_accuracy            : 0.9989
+  residential_no_chimney_pipe_val_accuracy: 0.9994

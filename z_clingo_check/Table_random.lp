@@ -56,7 +56,6 @@ holds(s_16004_jpg, countryhouse).
 holds(s_16004_jpg, door).
 holds(s_16004_jpg, window).
 holds(s_16004_jpg, porch).
-holds(s_16004_jpg, table).
 holds(s_16004_jpg, tiledroof).
 holds(s_16004_jpg, tiledrooftop).
 holds(s_16004_jpg, car).
@@ -110,7 +109,6 @@ holds(s_16008_jpg, hotel).
 holds(s_16008_jpg, store).
 holds(s_16008_jpg, window).
 holds(s_16008_jpg, billboard).
-holds(s_16008_jpg, table).
 holds(s_16008_jpg, vendingmachine).
 holds(s_16008_jpg, wallsign).
 holds(s_16008_jpg, pipe).
@@ -134,6 +132,7 @@ holds(s_16010_jpg, feature).
 holds(s_16010_jpg, suburban).
 holds(s_16010_jpg, door).
 holds(s_16010_jpg, porch).
+holds(s_16010_jpg, table).
 holds(s_16010_jpg, residential).
 
 sample(s_16011_jpg).
@@ -145,6 +144,7 @@ holds(s_16011_jpg, misccommercial).
 holds(s_16011_jpg, door).
 holds(s_16011_jpg, window).
 holds(s_16011_jpg, awning).
+holds(s_16011_jpg, table).
 holds(s_16011_jpg, vendingmachine).
 holds(s_16011_jpg, wallsign).
 holds(s_16011_jpg, car).
@@ -155,7 +155,6 @@ holds(s_16012_jpg, building).
 holds(s_16012_jpg, feature).
 holds(s_16012_jpg, miscindustrial).
 holds(s_16012_jpg, door).
-holds(s_16012_jpg, table).
 holds(s_16012_jpg, truck).
 holds(s_16012_jpg, industrial).
 
@@ -167,7 +166,6 @@ holds(s_16013_jpg, miscresidential).
 holds(s_16013_jpg, window).
 holds(s_16013_jpg, awning).
 holds(s_16013_jpg, porch).
-holds(s_16013_jpg, table).
 holds(s_16013_jpg, tiledroof).
 holds(s_16013_jpg, tiledrooftop).
 holds(s_16013_jpg, residential).
@@ -207,7 +205,6 @@ holds(s_16016_jpg, suburban).
 holds(s_16016_jpg, miscresidential).
 holds(s_16016_jpg, window).
 holds(s_16016_jpg, porch).
-holds(s_16016_jpg, table).
 holds(s_16016_jpg, tiledroof).
 holds(s_16016_jpg, tiledrooftop).
 holds(s_16016_jpg, residential).
@@ -223,7 +220,6 @@ holds(s_16017_jpg, window).
 holds(s_16017_jpg, awning).
 holds(s_16017_jpg, billboard).
 holds(s_16017_jpg, sign).
-holds(s_16017_jpg, table).
 holds(s_16017_jpg, vendingmachine).
 holds(s_16017_jpg, wallsign).
 holds(s_16017_jpg, chimney).
@@ -236,7 +232,6 @@ holds(s_16018_jpg, powerplant).
 holds(s_16018_jpg, watertreatment).
 holds(s_16018_jpg, door).
 holds(s_16018_jpg, awning).
-holds(s_16018_jpg, table).
 holds(s_16018_jpg, chimney).
 holds(s_16018_jpg, pipe).
 holds(s_16018_jpg, truck).
@@ -247,7 +242,6 @@ holds(s_16019_jpg, building).
 holds(s_16019_jpg, feature).
 holds(s_16019_jpg, miscresidential).
 holds(s_16019_jpg, door).
-holds(s_16019_jpg, table).
 holds(s_16019_jpg, tiledroof).
 holds(s_16019_jpg, tiledrooftop).
 holds(s_16019_jpg, truck).
@@ -274,7 +268,6 @@ holds(s_16021_jpg, building).
 holds(s_16021_jpg, feature).
 holds(s_16021_jpg, powerplant).
 holds(s_16021_jpg, window).
-holds(s_16021_jpg, table).
 holds(s_16021_jpg, chimney).
 holds(s_16021_jpg, pipe).
 holds(s_16021_jpg, industrial).
@@ -301,6 +294,7 @@ holds(s_16023_jpg, door).
 holds(s_16023_jpg, window).
 holds(s_16023_jpg, awning).
 holds(s_16023_jpg, billboard).
+holds(s_16023_jpg, table).
 holds(s_16023_jpg, wallsign).
 holds(s_16023_jpg, chimney).
 holds(s_16023_jpg, car).
@@ -350,6 +344,7 @@ holds(s_16027_jpg, feature).
 holds(s_16027_jpg, miscindustrial).
 holds(s_16027_jpg, powerplant).
 holds(s_16027_jpg, watertreatment).
+holds(s_16027_jpg, table).
 holds(s_16027_jpg, chimney).
 holds(s_16027_jpg, pipe).
 holds(s_16027_jpg, truck).
@@ -374,6 +369,7 @@ holds(s_16029_jpg, window).
 holds(s_16029_jpg, awning).
 holds(s_16029_jpg, billboard).
 holds(s_16029_jpg, sign).
+holds(s_16029_jpg, table).
 holds(s_16029_jpg, wallsign).
 holds(s_16029_jpg, truck).
 holds(s_16029_jpg, commercial).
@@ -383,7 +379,6 @@ holds(s_16030_jpg, building).
 holds(s_16030_jpg, feature).
 holds(s_16030_jpg, constructionsite).
 holds(s_16030_jpg, window).
-holds(s_16030_jpg, table).
 holds(s_16030_jpg, pipe).
 holds(s_16030_jpg, machine).
 holds(s_16030_jpg, industrial).
@@ -413,7 +408,6 @@ holds(s_16032_jpg, misccommercial).
 holds(s_16032_jpg, window).
 holds(s_16032_jpg, awning).
 holds(s_16032_jpg, billboard).
-holds(s_16032_jpg, table).
 holds(s_16032_jpg, vendingmachine).
 holds(s_16032_jpg, wallsign).
 holds(s_16032_jpg, statue).
@@ -425,6 +419,7 @@ holds(s_16033_jpg, feature).
 holds(s_16033_jpg, miscindustrial).
 holds(s_16033_jpg, watertreatment).
 holds(s_16033_jpg, window).
+holds(s_16033_jpg, table).
 holds(s_16033_jpg, pipe).
 holds(s_16033_jpg, truck).
 holds(s_16033_jpg, industrial).
@@ -447,6 +442,7 @@ holds(s_16035_jpg, restaurant).
 holds(s_16035_jpg, door).
 holds(s_16035_jpg, awning).
 holds(s_16035_jpg, sign).
+holds(s_16035_jpg, table).
 holds(s_16035_jpg, car).
 holds(s_16035_jpg, commercial).
 
@@ -455,7 +451,6 @@ holds(s_16036_jpg, building).
 holds(s_16036_jpg, feature).
 holds(s_16036_jpg, miscindustrial).
 holds(s_16036_jpg, window).
-holds(s_16036_jpg, table).
 holds(s_16036_jpg, truck).
 holds(s_16036_jpg, industrial).
 
@@ -466,7 +461,6 @@ holds(s_16037_jpg, miscresidential).
 holds(s_16037_jpg, countryhouse).
 holds(s_16037_jpg, door).
 holds(s_16037_jpg, awning).
-holds(s_16037_jpg, table).
 holds(s_16037_jpg, tiledroof).
 holds(s_16037_jpg, tiledrooftop).
 holds(s_16037_jpg, car).
@@ -555,6 +549,7 @@ holds(s_16044_jpg, hotel).
 holds(s_16044_jpg, door).
 holds(s_16044_jpg, window).
 holds(s_16044_jpg, awning).
+holds(s_16044_jpg, table).
 holds(s_16044_jpg, wallsign).
 holds(s_16044_jpg, commercial).
 
@@ -578,6 +573,7 @@ holds(s_16046_jpg, miscresidential).
 holds(s_16046_jpg, window).
 holds(s_16046_jpg, awning).
 holds(s_16046_jpg, porch).
+holds(s_16046_jpg, table).
 holds(s_16046_jpg, tiledroof).
 holds(s_16046_jpg, tiledrooftop).
 holds(s_16046_jpg, truck).
@@ -594,6 +590,7 @@ holds(s_16047_jpg, door).
 holds(s_16047_jpg, awning).
 holds(s_16047_jpg, billboard).
 holds(s_16047_jpg, sign).
+holds(s_16047_jpg, table).
 holds(s_16047_jpg, wallsign).
 holds(s_16047_jpg, chimney).
 holds(s_16047_jpg, truck).
@@ -603,7 +600,6 @@ sample(s_16048_jpg).
 holds(s_16048_jpg, building).
 holds(s_16048_jpg, feature).
 holds(s_16048_jpg, powerplant).
-holds(s_16048_jpg, table).
 holds(s_16048_jpg, chimney).
 holds(s_16048_jpg, pipe).
 holds(s_16048_jpg, car).
@@ -616,7 +612,6 @@ holds(s_16049_jpg, miscresidential).
 holds(s_16049_jpg, countryhouse).
 holds(s_16049_jpg, door).
 holds(s_16049_jpg, window).
-holds(s_16049_jpg, table).
 holds(s_16049_jpg, tiledroof).
 holds(s_16049_jpg, tiledrooftop).
 holds(s_16049_jpg, car).
@@ -631,7 +626,6 @@ holds(s_16050_jpg, misccommercial).
 holds(s_16050_jpg, door).
 holds(s_16050_jpg, window).
 holds(s_16050_jpg, awning).
-holds(s_16050_jpg, table).
 holds(s_16050_jpg, vendingmachine).
 holds(s_16050_jpg, wallsign).
 holds(s_16050_jpg, chimney).
@@ -673,7 +667,6 @@ holds(s_16053_jpg, window).
 holds(s_16053_jpg, awning).
 holds(s_16053_jpg, billboard).
 holds(s_16053_jpg, sign).
-holds(s_16053_jpg, table).
 holds(s_16053_jpg, wallsign).
 holds(s_16053_jpg, statue).
 holds(s_16053_jpg, commercial).
@@ -684,6 +677,7 @@ holds(s_16054_jpg, feature).
 holds(s_16054_jpg, constructionsite).
 holds(s_16054_jpg, powerplant).
 holds(s_16054_jpg, door).
+holds(s_16054_jpg, table).
 holds(s_16054_jpg, chimney).
 holds(s_16054_jpg, pipe).
 holds(s_16054_jpg, machine).
@@ -698,7 +692,6 @@ holds(s_16055_jpg, countryhouse).
 holds(s_16055_jpg, window).
 holds(s_16055_jpg, awning).
 holds(s_16055_jpg, porch).
-holds(s_16055_jpg, table).
 holds(s_16055_jpg, tiledroof).
 holds(s_16055_jpg, tiledrooftop).
 holds(s_16055_jpg, car).
@@ -715,6 +708,7 @@ holds(s_16056_jpg, window).
 holds(s_16056_jpg, awning).
 holds(s_16056_jpg, billboard).
 holds(s_16056_jpg, sign).
+holds(s_16056_jpg, table).
 holds(s_16056_jpg, vendingmachine).
 holds(s_16056_jpg, pipe).
 holds(s_16056_jpg, car).
@@ -739,6 +733,7 @@ holds(s_16058_jpg, suburban).
 holds(s_16058_jpg, window).
 holds(s_16058_jpg, awning).
 holds(s_16058_jpg, porch).
+holds(s_16058_jpg, table).
 holds(s_16058_jpg, residential).
 
 sample(s_16059_jpg).
@@ -749,6 +744,7 @@ holds(s_16059_jpg, restaurant).
 holds(s_16059_jpg, store).
 holds(s_16059_jpg, billboard).
 holds(s_16059_jpg, sign).
+holds(s_16059_jpg, table).
 holds(s_16059_jpg, statue).
 holds(s_16059_jpg, truck).
 holds(s_16059_jpg, commercial).
@@ -761,7 +757,6 @@ holds(s_16060_jpg, powerplant).
 holds(s_16060_jpg, watertreatment).
 holds(s_16060_jpg, door).
 holds(s_16060_jpg, window).
-holds(s_16060_jpg, table).
 holds(s_16060_jpg, chimney).
 holds(s_16060_jpg, pipe).
 holds(s_16060_jpg, truck).
@@ -774,6 +769,7 @@ holds(s_16061_jpg, suburban).
 holds(s_16061_jpg, miscresidential).
 holds(s_16061_jpg, door).
 holds(s_16061_jpg, porch).
+holds(s_16061_jpg, table).
 holds(s_16061_jpg, tiledroof).
 holds(s_16061_jpg, tiledrooftop).
 holds(s_16061_jpg, residential).
@@ -800,7 +796,6 @@ holds(s_16063_jpg, feature).
 holds(s_16063_jpg, constructionsite).
 holds(s_16063_jpg, window).
 holds(s_16063_jpg, sign).
-holds(s_16063_jpg, table).
 holds(s_16063_jpg, machine).
 holds(s_16063_jpg, industrial).
 
@@ -841,6 +836,7 @@ holds(s_16066_jpg, building).
 holds(s_16066_jpg, feature).
 holds(s_16066_jpg, powerplant).
 holds(s_16066_jpg, door).
+holds(s_16066_jpg, table).
 holds(s_16066_jpg, chimney).
 holds(s_16066_jpg, pipe).
 holds(s_16066_jpg, industrial).
@@ -898,6 +894,7 @@ holds(s_16070_jpg, miscresidential).
 holds(s_16070_jpg, window).
 holds(s_16070_jpg, porch).
 holds(s_16070_jpg, sign).
+holds(s_16070_jpg, table).
 holds(s_16070_jpg, tiledroof).
 holds(s_16070_jpg, tiledrooftop).
 holds(s_16070_jpg, residential).
@@ -938,7 +935,6 @@ holds(s_16073_jpg, suburban).
 holds(s_16073_jpg, door).
 holds(s_16073_jpg, awning).
 holds(s_16073_jpg, porch).
-holds(s_16073_jpg, table).
 holds(s_16073_jpg, residential).
 
 sample(s_16074_jpg).
@@ -963,6 +959,7 @@ holds(s_16075_jpg, watertreatment).
 holds(s_16075_jpg, door).
 holds(s_16075_jpg, window).
 holds(s_16075_jpg, awning).
+holds(s_16075_jpg, table).
 holds(s_16075_jpg, chimney).
 holds(s_16075_jpg, pipe).
 holds(s_16075_jpg, truck).
@@ -1002,6 +999,7 @@ holds(s_16078_jpg, constructionsite).
 holds(s_16078_jpg, powerplant).
 holds(s_16078_jpg, door).
 holds(s_16078_jpg, sign).
+holds(s_16078_jpg, table).
 holds(s_16078_jpg, chimney).
 holds(s_16078_jpg, pipe).
 holds(s_16078_jpg, machine).
@@ -1041,6 +1039,7 @@ holds(s_16081_jpg, feature).
 holds(s_16081_jpg, miscindustrial).
 holds(s_16081_jpg, powerplant).
 holds(s_16081_jpg, watertreatment).
+holds(s_16081_jpg, table).
 holds(s_16081_jpg, chimney).
 holds(s_16081_jpg, pipe).
 holds(s_16081_jpg, truck).
@@ -1051,6 +1050,7 @@ holds(s_16082_jpg, building).
 holds(s_16082_jpg, feature).
 holds(s_16082_jpg, miscresidential).
 holds(s_16082_jpg, door).
+holds(s_16082_jpg, table).
 holds(s_16082_jpg, tiledroof).
 holds(s_16082_jpg, tiledrooftop).
 holds(s_16082_jpg, residential).
@@ -1064,6 +1064,7 @@ holds(s_16083_jpg, door).
 holds(s_16083_jpg, window).
 holds(s_16083_jpg, awning).
 holds(s_16083_jpg, sign).
+holds(s_16083_jpg, table).
 holds(s_16083_jpg, wallsign).
 holds(s_16083_jpg, commercial).
 
@@ -1072,7 +1073,6 @@ holds(s_16084_jpg, building).
 holds(s_16084_jpg, feature).
 holds(s_16084_jpg, miscindustrial).
 holds(s_16084_jpg, watertreatment).
-holds(s_16084_jpg, table).
 holds(s_16084_jpg, pipe).
 holds(s_16084_jpg, truck).
 holds(s_16084_jpg, industrial).
@@ -1084,6 +1084,7 @@ holds(s_16085_jpg, suburban).
 holds(s_16085_jpg, window).
 holds(s_16085_jpg, awning).
 holds(s_16085_jpg, porch).
+holds(s_16085_jpg, table).
 holds(s_16085_jpg, residential).
 
 sample(s_16086_jpg).
@@ -1098,6 +1099,7 @@ holds(s_16086_jpg, window).
 holds(s_16086_jpg, awning).
 holds(s_16086_jpg, billboard).
 holds(s_16086_jpg, sign).
+holds(s_16086_jpg, table).
 holds(s_16086_jpg, wallsign).
 holds(s_16086_jpg, truck).
 holds(s_16086_jpg, commercial).
@@ -1116,6 +1118,7 @@ holds(s_16088_jpg, miscresidential).
 holds(s_16088_jpg, countryhouse).
 holds(s_16088_jpg, door).
 holds(s_16088_jpg, window).
+holds(s_16088_jpg, table).
 holds(s_16088_jpg, tiledroof).
 holds(s_16088_jpg, tiledrooftop).
 holds(s_16088_jpg, car).
@@ -1130,7 +1133,6 @@ holds(s_16089_jpg, door).
 holds(s_16089_jpg, window).
 holds(s_16089_jpg, awning).
 holds(s_16089_jpg, billboard).
-holds(s_16089_jpg, table).
 holds(s_16089_jpg, vendingmachine).
 holds(s_16089_jpg, statue).
 holds(s_16089_jpg, commercial).
@@ -1142,6 +1144,7 @@ holds(s_16090_jpg, constructionsite).
 holds(s_16090_jpg, door).
 holds(s_16090_jpg, window).
 holds(s_16090_jpg, awning).
+holds(s_16090_jpg, table).
 holds(s_16090_jpg, machine).
 holds(s_16090_jpg, industrial).
 
@@ -1152,6 +1155,7 @@ holds(s_16091_jpg, suburban).
 holds(s_16091_jpg, miscresidential).
 holds(s_16091_jpg, window).
 holds(s_16091_jpg, porch).
+holds(s_16091_jpg, table).
 holds(s_16091_jpg, tiledroof).
 holds(s_16091_jpg, tiledrooftop).
 holds(s_16091_jpg, truck).
@@ -1192,7 +1196,6 @@ holds(s_16094_jpg, miscresidential).
 holds(s_16094_jpg, door).
 holds(s_16094_jpg, window).
 holds(s_16094_jpg, porch).
-holds(s_16094_jpg, table).
 holds(s_16094_jpg, tiledroof).
 holds(s_16094_jpg, tiledrooftop).
 holds(s_16094_jpg, residential).
@@ -1223,7 +1226,6 @@ holds(s_16096_jpg, constructionsite).
 holds(s_16096_jpg, door).
 holds(s_16096_jpg, window).
 holds(s_16096_jpg, awning).
-holds(s_16096_jpg, table).
 holds(s_16096_jpg, machine).
 holds(s_16096_jpg, industrial).
 
@@ -1234,6 +1236,7 @@ holds(s_16097_jpg, miscresidential).
 holds(s_16097_jpg, countryhouse).
 holds(s_16097_jpg, window).
 holds(s_16097_jpg, awning).
+holds(s_16097_jpg, table).
 holds(s_16097_jpg, tiledroof).
 holds(s_16097_jpg, tiledrooftop).
 holds(s_16097_jpg, car).
@@ -1250,6 +1253,7 @@ holds(s_16098_jpg, door).
 holds(s_16098_jpg, window).
 holds(s_16098_jpg, awning).
 holds(s_16098_jpg, sign).
+holds(s_16098_jpg, table).
 holds(s_16098_jpg, vendingmachine).
 holds(s_16098_jpg, wallsign).
 holds(s_16098_jpg, statue).
@@ -1271,7 +1275,6 @@ holds(s_16100_jpg, feature).
 holds(s_16100_jpg, miscresidential).
 holds(s_16100_jpg, window).
 holds(s_16100_jpg, awning).
-holds(s_16100_jpg, table).
 holds(s_16100_jpg, tiledroof).
 holds(s_16100_jpg, tiledrooftop).
 holds(s_16100_jpg, residential).
@@ -1296,7 +1299,6 @@ holds(s_16102_jpg, powerplant).
 holds(s_16102_jpg, watertreatment).
 holds(s_16102_jpg, door).
 holds(s_16102_jpg, awning).
-holds(s_16102_jpg, table).
 holds(s_16102_jpg, chimney).
 holds(s_16102_jpg, pipe).
 holds(s_16102_jpg, truck).
@@ -1337,6 +1339,7 @@ holds(s_16105_jpg, feature).
 holds(s_16105_jpg, constructionsite).
 holds(s_16105_jpg, window).
 holds(s_16105_jpg, sign).
+holds(s_16105_jpg, table).
 holds(s_16105_jpg, pipe).
 holds(s_16105_jpg, machine).
 holds(s_16105_jpg, industrial).
@@ -1361,7 +1364,6 @@ holds(s_16107_jpg, feature).
 holds(s_16107_jpg, restaurant).
 holds(s_16107_jpg, door).
 holds(s_16107_jpg, sign).
-holds(s_16107_jpg, table).
 holds(s_16107_jpg, chimney).
 holds(s_16107_jpg, car).
 holds(s_16107_jpg, commercial).
@@ -1373,7 +1375,6 @@ holds(s_16108_jpg, constructionsite).
 holds(s_16108_jpg, powerplant).
 holds(s_16108_jpg, window).
 holds(s_16108_jpg, sign).
-holds(s_16108_jpg, table).
 holds(s_16108_jpg, chimney).
 holds(s_16108_jpg, pipe).
 holds(s_16108_jpg, machine).
@@ -1425,6 +1426,7 @@ holds(s_16112_jpg, countryhouse).
 holds(s_16112_jpg, door).
 holds(s_16112_jpg, window).
 holds(s_16112_jpg, porch).
+holds(s_16112_jpg, table).
 holds(s_16112_jpg, tiledroof).
 holds(s_16112_jpg, tiledrooftop).
 holds(s_16112_jpg, car).
@@ -1512,7 +1514,6 @@ holds(s_16119_jpg, store).
 holds(s_16119_jpg, window).
 holds(s_16119_jpg, billboard).
 holds(s_16119_jpg, sign).
-holds(s_16119_jpg, table).
 holds(s_16119_jpg, vendingmachine).
 holds(s_16119_jpg, wallsign).
 holds(s_16119_jpg, truck).
@@ -1524,6 +1525,7 @@ holds(s_16120_jpg, feature).
 holds(s_16120_jpg, miscindustrial).
 holds(s_16120_jpg, powerplant).
 holds(s_16120_jpg, watertreatment).
+holds(s_16120_jpg, table).
 holds(s_16120_jpg, chimney).
 holds(s_16120_jpg, pipe).
 holds(s_16120_jpg, truck).
@@ -1536,7 +1538,6 @@ holds(s_16121_jpg, suburban).
 holds(s_16121_jpg, miscresidential).
 holds(s_16121_jpg, door).
 holds(s_16121_jpg, porch).
-holds(s_16121_jpg, table).
 holds(s_16121_jpg, tiledroof).
 holds(s_16121_jpg, tiledrooftop).
 holds(s_16121_jpg, residential).
@@ -1561,7 +1562,6 @@ holds(s_16123_jpg, powerplant).
 holds(s_16123_jpg, door).
 holds(s_16123_jpg, window).
 holds(s_16123_jpg, sign).
-holds(s_16123_jpg, table).
 holds(s_16123_jpg, chimney).
 holds(s_16123_jpg, pipe).
 holds(s_16123_jpg, machine).
@@ -1573,7 +1573,6 @@ holds(s_16124_jpg, feature).
 holds(s_16124_jpg, suburban).
 holds(s_16124_jpg, window).
 holds(s_16124_jpg, porch).
-holds(s_16124_jpg, table).
 holds(s_16124_jpg, truck).
 holds(s_16124_jpg, residential).
 
@@ -1657,6 +1656,7 @@ holds(s_16131_jpg, feature).
 holds(s_16131_jpg, hotel).
 holds(s_16131_jpg, window).
 holds(s_16131_jpg, sign).
+holds(s_16131_jpg, table).
 holds(s_16131_jpg, wallsign).
 holds(s_16131_jpg, chimney).
 holds(s_16131_jpg, commercial).
@@ -1668,6 +1668,7 @@ holds(s_16132_jpg, constructionsite).
 holds(s_16132_jpg, door).
 holds(s_16132_jpg, window).
 holds(s_16132_jpg, sign).
+holds(s_16132_jpg, table).
 holds(s_16132_jpg, machine).
 holds(s_16132_jpg, industrial).
 
@@ -1680,6 +1681,7 @@ holds(s_16133_jpg, countryhouse).
 holds(s_16133_jpg, door).
 holds(s_16133_jpg, window).
 holds(s_16133_jpg, porch).
+holds(s_16133_jpg, table).
 holds(s_16133_jpg, tiledroof).
 holds(s_16133_jpg, tiledrooftop).
 holds(s_16133_jpg, car).
@@ -1693,6 +1695,7 @@ holds(s_16134_jpg, misccommercial).
 holds(s_16134_jpg, window).
 holds(s_16134_jpg, awning).
 holds(s_16134_jpg, sign).
+holds(s_16134_jpg, table).
 holds(s_16134_jpg, wallsign).
 holds(s_16134_jpg, chimney).
 holds(s_16134_jpg, commercial).
@@ -1701,7 +1704,6 @@ sample(s_16135_jpg).
 holds(s_16135_jpg, building).
 holds(s_16135_jpg, feature).
 holds(s_16135_jpg, powerplant).
-holds(s_16135_jpg, table).
 holds(s_16135_jpg, chimney).
 holds(s_16135_jpg, pipe).
 holds(s_16135_jpg, industrial).
@@ -1727,7 +1729,6 @@ holds(s_16137_jpg, misccommercial).
 holds(s_16137_jpg, window).
 holds(s_16137_jpg, awning).
 holds(s_16137_jpg, sign).
-holds(s_16137_jpg, table).
 holds(s_16137_jpg, wallsign).
 holds(s_16137_jpg, commercial).
 
@@ -1737,6 +1738,7 @@ holds(s_16138_jpg, feature).
 holds(s_16138_jpg, miscindustrial).
 holds(s_16138_jpg, watertreatment).
 holds(s_16138_jpg, door).
+holds(s_16138_jpg, table).
 holds(s_16138_jpg, pipe).
 holds(s_16138_jpg, truck).
 holds(s_16138_jpg, industrial).
@@ -1775,6 +1777,7 @@ holds(s_16141_jpg, feature).
 holds(s_16141_jpg, constructionsite).
 holds(s_16141_jpg, window).
 holds(s_16141_jpg, sign).
+holds(s_16141_jpg, table).
 holds(s_16141_jpg, machine).
 holds(s_16141_jpg, industrial).
 
@@ -1813,6 +1816,7 @@ holds(s_16144_jpg, feature).
 holds(s_16144_jpg, miscindustrial).
 holds(s_16144_jpg, door).
 holds(s_16144_jpg, window).
+holds(s_16144_jpg, table).
 holds(s_16144_jpg, chimney).
 holds(s_16144_jpg, truck).
 holds(s_16144_jpg, industrial).
@@ -1839,7 +1843,6 @@ holds(s_16146_jpg, door).
 holds(s_16146_jpg, window).
 holds(s_16146_jpg, awning).
 holds(s_16146_jpg, billboard).
-holds(s_16146_jpg, table).
 holds(s_16146_jpg, wallsign).
 holds(s_16146_jpg, commercial).
 
@@ -1848,6 +1851,7 @@ holds(s_16147_jpg, building).
 holds(s_16147_jpg, feature).
 holds(s_16147_jpg, constructionsite).
 holds(s_16147_jpg, window).
+holds(s_16147_jpg, table).
 holds(s_16147_jpg, chimney).
 holds(s_16147_jpg, machine).
 holds(s_16147_jpg, industrial).
@@ -1861,6 +1865,7 @@ holds(s_16148_jpg, door).
 holds(s_16148_jpg, window).
 holds(s_16148_jpg, awning).
 holds(s_16148_jpg, porch).
+holds(s_16148_jpg, table).
 holds(s_16148_jpg, tiledroof).
 holds(s_16148_jpg, tiledrooftop).
 holds(s_16148_jpg, residential).
@@ -1875,6 +1880,7 @@ holds(s_16149_jpg, door).
 holds(s_16149_jpg, window).
 holds(s_16149_jpg, awning).
 holds(s_16149_jpg, billboard).
+holds(s_16149_jpg, table).
 holds(s_16149_jpg, tiledroof).
 holds(s_16149_jpg, tiledrooftop).
 holds(s_16149_jpg, wallsign).
@@ -1886,6 +1892,7 @@ holds(s_16150_jpg, feature).
 holds(s_16150_jpg, miscindustrial).
 holds(s_16150_jpg, watertreatment).
 holds(s_16150_jpg, door).
+holds(s_16150_jpg, table).
 holds(s_16150_jpg, pipe).
 holds(s_16150_jpg, truck).
 holds(s_16150_jpg, industrial).
@@ -1898,7 +1905,6 @@ holds(s_16151_jpg, miscresidential).
 holds(s_16151_jpg, door).
 holds(s_16151_jpg, window).
 holds(s_16151_jpg, porch).
-holds(s_16151_jpg, table).
 holds(s_16151_jpg, tiledroof).
 holds(s_16151_jpg, tiledrooftop).
 holds(s_16151_jpg, residential).
@@ -1910,7 +1916,6 @@ holds(s_16152_jpg, cafe).
 holds(s_16152_jpg, store).
 holds(s_16152_jpg, billboard).
 holds(s_16152_jpg, sign).
-holds(s_16152_jpg, table).
 holds(s_16152_jpg, vendingmachine).
 holds(s_16152_jpg, commercial).
 
@@ -1918,7 +1923,6 @@ sample(s_16153_jpg).
 holds(s_16153_jpg, building).
 holds(s_16153_jpg, feature).
 holds(s_16153_jpg, miscindustrial).
-holds(s_16153_jpg, table).
 holds(s_16153_jpg, truck).
 holds(s_16153_jpg, industrial).
 
@@ -1942,7 +1946,6 @@ holds(s_16155_jpg, window).
 holds(s_16155_jpg, awning).
 holds(s_16155_jpg, billboard).
 holds(s_16155_jpg, sign).
-holds(s_16155_jpg, table).
 holds(s_16155_jpg, vendingmachine).
 holds(s_16155_jpg, car).
 holds(s_16155_jpg, commercial).
@@ -1952,6 +1955,7 @@ holds(s_16156_jpg, building).
 holds(s_16156_jpg, feature).
 holds(s_16156_jpg, powerplant).
 holds(s_16156_jpg, sign).
+holds(s_16156_jpg, table).
 holds(s_16156_jpg, chimney).
 holds(s_16156_jpg, pipe).
 holds(s_16156_jpg, industrial).
@@ -1964,7 +1968,6 @@ holds(s_16157_jpg, miscresidential).
 holds(s_16157_jpg, door).
 holds(s_16157_jpg, awning).
 holds(s_16157_jpg, porch).
-holds(s_16157_jpg, table).
 holds(s_16157_jpg, tiledroof).
 holds(s_16157_jpg, tiledrooftop).
 holds(s_16157_jpg, truck).
@@ -1979,7 +1982,6 @@ holds(s_16158_jpg, window).
 holds(s_16158_jpg, awning).
 holds(s_16158_jpg, billboard).
 holds(s_16158_jpg, sign).
-holds(s_16158_jpg, table).
 holds(s_16158_jpg, tiledroof).
 holds(s_16158_jpg, tiledrooftop).
 holds(s_16158_jpg, commercial).
@@ -2017,6 +2019,7 @@ holds(s_16161_jpg, door).
 holds(s_16161_jpg, window).
 holds(s_16161_jpg, awning).
 holds(s_16161_jpg, billboard).
+holds(s_16161_jpg, table).
 holds(s_16161_jpg, wallsign).
 holds(s_16161_jpg, chimney).
 holds(s_16161_jpg, truck).
@@ -2108,7 +2111,6 @@ holds(s_16168_jpg, miscindustrial).
 holds(s_16168_jpg, powerplant).
 holds(s_16168_jpg, watertreatment).
 holds(s_16168_jpg, door).
-holds(s_16168_jpg, table).
 holds(s_16168_jpg, chimney).
 holds(s_16168_jpg, pipe).
 holds(s_16168_jpg, truck).
@@ -2120,6 +2122,7 @@ holds(s_16169_jpg, feature).
 holds(s_16169_jpg, suburban).
 holds(s_16169_jpg, miscresidential).
 holds(s_16169_jpg, porch).
+holds(s_16169_jpg, table).
 holds(s_16169_jpg, tiledroof).
 holds(s_16169_jpg, tiledrooftop).
 holds(s_16169_jpg, truck).
@@ -2158,6 +2161,7 @@ holds(s_16172_jpg, window).
 holds(s_16172_jpg, awning).
 holds(s_16172_jpg, porch).
 holds(s_16172_jpg, sign).
+holds(s_16172_jpg, table).
 holds(s_16172_jpg, tiledroof).
 holds(s_16172_jpg, tiledrooftop).
 holds(s_16172_jpg, residential).
@@ -2169,6 +2173,7 @@ holds(s_16173_jpg, hotel).
 holds(s_16173_jpg, store).
 holds(s_16173_jpg, window).
 holds(s_16173_jpg, billboard).
+holds(s_16173_jpg, table).
 holds(s_16173_jpg, wallsign).
 holds(s_16173_jpg, chimney).
 holds(s_16173_jpg, car).
@@ -2181,6 +2186,7 @@ holds(s_16174_jpg, powerplant).
 holds(s_16174_jpg, door).
 holds(s_16174_jpg, window).
 holds(s_16174_jpg, awning).
+holds(s_16174_jpg, table).
 holds(s_16174_jpg, chimney).
 holds(s_16174_jpg, pipe).
 holds(s_16174_jpg, industrial).
@@ -2228,6 +2234,7 @@ holds(s_16178_jpg, suburban).
 holds(s_16178_jpg, window).
 holds(s_16178_jpg, porch).
 holds(s_16178_jpg, sign).
+holds(s_16178_jpg, table).
 holds(s_16178_jpg, residential).
 
 sample(s_16179_jpg).
@@ -2239,7 +2246,6 @@ holds(s_16179_jpg, door).
 holds(s_16179_jpg, awning).
 holds(s_16179_jpg, billboard).
 holds(s_16179_jpg, sign).
-holds(s_16179_jpg, table).
 holds(s_16179_jpg, wallsign).
 holds(s_16179_jpg, commercial).
 
@@ -2272,7 +2278,6 @@ holds(s_16182_jpg, hotel).
 holds(s_16182_jpg, store).
 holds(s_16182_jpg, window).
 holds(s_16182_jpg, billboard).
-holds(s_16182_jpg, table).
 holds(s_16182_jpg, wallsign).
 holds(s_16182_jpg, chimney).
 holds(s_16182_jpg, car).
@@ -2283,6 +2288,7 @@ holds(s_16183_jpg, building).
 holds(s_16183_jpg, feature).
 holds(s_16183_jpg, constructionsite).
 holds(s_16183_jpg, powerplant).
+holds(s_16183_jpg, table).
 holds(s_16183_jpg, chimney).
 holds(s_16183_jpg, pipe).
 holds(s_16183_jpg, machine).
@@ -2319,7 +2325,6 @@ holds(s_16186_jpg, powerplant).
 holds(s_16186_jpg, watertreatment).
 holds(s_16186_jpg, window).
 holds(s_16186_jpg, awning).
-holds(s_16186_jpg, table).
 holds(s_16186_jpg, chimney).
 holds(s_16186_jpg, pipe).
 holds(s_16186_jpg, truck).
@@ -2348,6 +2353,7 @@ holds(s_16188_jpg, door).
 holds(s_16188_jpg, window).
 holds(s_16188_jpg, billboard).
 holds(s_16188_jpg, sign).
+holds(s_16188_jpg, table).
 holds(s_16188_jpg, vendingmachine).
 holds(s_16188_jpg, wallsign).
 holds(s_16188_jpg, commercial).
@@ -2403,6 +2409,7 @@ holds(s_16192_jpg, feature).
 holds(s_16192_jpg, constructionsite).
 holds(s_16192_jpg, powerplant).
 holds(s_16192_jpg, door).
+holds(s_16192_jpg, table).
 holds(s_16192_jpg, chimney).
 holds(s_16192_jpg, pipe).
 holds(s_16192_jpg, machine).
@@ -2431,7 +2438,6 @@ holds(s_16194_jpg, door).
 holds(s_16194_jpg, window).
 holds(s_16194_jpg, awning).
 holds(s_16194_jpg, billboard).
-holds(s_16194_jpg, table).
 holds(s_16194_jpg, vendingmachine).
 holds(s_16194_jpg, wallsign).
 holds(s_16194_jpg, commercial).
@@ -2443,6 +2449,7 @@ holds(s_16195_jpg, powerplant).
 holds(s_16195_jpg, watertreatment).
 holds(s_16195_jpg, door).
 holds(s_16195_jpg, awning).
+holds(s_16195_jpg, table).
 holds(s_16195_jpg, chimney).
 holds(s_16195_jpg, pipe).
 holds(s_16195_jpg, truck).
@@ -2517,7 +2524,6 @@ holds(s_16201_jpg, feature).
 holds(s_16201_jpg, miscindustrial).
 holds(s_16201_jpg, door).
 holds(s_16201_jpg, window).
-holds(s_16201_jpg, table).
 holds(s_16201_jpg, chimney).
 holds(s_16201_jpg, truck).
 holds(s_16201_jpg, industrial).
@@ -2554,7 +2560,6 @@ holds(s_16204_jpg, feature).
 holds(s_16204_jpg, powerplant).
 holds(s_16204_jpg, door).
 holds(s_16204_jpg, window).
-holds(s_16204_jpg, table).
 holds(s_16204_jpg, chimney).
 holds(s_16204_jpg, pipe).
 holds(s_16204_jpg, industrial).
@@ -2565,7 +2570,6 @@ holds(s_16205_jpg, feature).
 holds(s_16205_jpg, miscresidential).
 holds(s_16205_jpg, door).
 holds(s_16205_jpg, window).
-holds(s_16205_jpg, table).
 holds(s_16205_jpg, tiledroof).
 holds(s_16205_jpg, tiledrooftop).
 holds(s_16205_jpg, residential).
@@ -2581,6 +2585,7 @@ holds(s_16206_jpg, window).
 holds(s_16206_jpg, awning).
 holds(s_16206_jpg, billboard).
 holds(s_16206_jpg, sign).
+holds(s_16206_jpg, table).
 holds(s_16206_jpg, pipe).
 holds(s_16206_jpg, car).
 holds(s_16206_jpg, commercial).
@@ -2614,7 +2619,6 @@ holds(s_16209_jpg, feature).
 holds(s_16209_jpg, cafe).
 holds(s_16209_jpg, hotel).
 holds(s_16209_jpg, door).
-holds(s_16209_jpg, table).
 holds(s_16209_jpg, vendingmachine).
 holds(s_16209_jpg, wallsign).
 holds(s_16209_jpg, chimney).
@@ -2628,6 +2632,7 @@ holds(s_16210_jpg, constructionsite).
 holds(s_16210_jpg, powerplant).
 holds(s_16210_jpg, window).
 holds(s_16210_jpg, sign).
+holds(s_16210_jpg, table).
 holds(s_16210_jpg, chimney).
 holds(s_16210_jpg, pipe).
 holds(s_16210_jpg, machine).
@@ -2670,7 +2675,6 @@ holds(s_16213_jpg, feature).
 holds(s_16213_jpg, powerplant).
 holds(s_16213_jpg, door).
 holds(s_16213_jpg, window).
-holds(s_16213_jpg, table).
 holds(s_16213_jpg, chimney).
 holds(s_16213_jpg, pipe).
 holds(s_16213_jpg, industrial).
@@ -2721,7 +2725,6 @@ holds(s_16217_jpg, miscresidential).
 holds(s_16217_jpg, door).
 holds(s_16217_jpg, awning).
 holds(s_16217_jpg, porch).
-holds(s_16217_jpg, table).
 holds(s_16217_jpg, tiledroof).
 holds(s_16217_jpg, tiledrooftop).
 holds(s_16217_jpg, residential).
@@ -2751,6 +2754,7 @@ holds(s_16219_jpg, miscindustrial).
 holds(s_16219_jpg, powerplant).
 holds(s_16219_jpg, watertreatment).
 holds(s_16219_jpg, window).
+holds(s_16219_jpg, table).
 holds(s_16219_jpg, chimney).
 holds(s_16219_jpg, pipe).
 holds(s_16219_jpg, truck).
@@ -2779,6 +2783,7 @@ holds(s_16221_jpg, store).
 holds(s_16221_jpg, window).
 holds(s_16221_jpg, billboard).
 holds(s_16221_jpg, sign).
+holds(s_16221_jpg, table).
 holds(s_16221_jpg, vendingmachine).
 holds(s_16221_jpg, wallsign).
 holds(s_16221_jpg, car).
@@ -2790,6 +2795,7 @@ holds(s_16222_jpg, feature).
 holds(s_16222_jpg, powerplant).
 holds(s_16222_jpg, window).
 holds(s_16222_jpg, awning).
+holds(s_16222_jpg, table).
 holds(s_16222_jpg, chimney).
 holds(s_16222_jpg, pipe).
 holds(s_16222_jpg, car).
@@ -2864,6 +2870,7 @@ holds(s_16228_jpg, powerplant).
 holds(s_16228_jpg, door).
 holds(s_16228_jpg, window).
 holds(s_16228_jpg, awning).
+holds(s_16228_jpg, table).
 holds(s_16228_jpg, chimney).
 holds(s_16228_jpg, pipe).
 holds(s_16228_jpg, machine).
@@ -2900,7 +2907,6 @@ holds(s_16231_jpg, feature).
 holds(s_16231_jpg, miscindustrial).
 holds(s_16231_jpg, watertreatment).
 holds(s_16231_jpg, door).
-holds(s_16231_jpg, table).
 holds(s_16231_jpg, pipe).
 holds(s_16231_jpg, truck).
 holds(s_16231_jpg, industrial).
@@ -2911,6 +2917,7 @@ holds(s_16232_jpg, feature).
 holds(s_16232_jpg, miscresidential).
 holds(s_16232_jpg, door).
 holds(s_16232_jpg, sign).
+holds(s_16232_jpg, table).
 holds(s_16232_jpg, tiledroof).
 holds(s_16232_jpg, tiledrooftop).
 holds(s_16232_jpg, residential).
@@ -2938,7 +2945,6 @@ holds(s_16234_jpg, watertreatment).
 holds(s_16234_jpg, door).
 holds(s_16234_jpg, window).
 holds(s_16234_jpg, awning).
-holds(s_16234_jpg, table).
 holds(s_16234_jpg, pipe).
 holds(s_16234_jpg, truck).
 holds(s_16234_jpg, industrial).
@@ -2950,7 +2956,6 @@ holds(s_16235_jpg, suburban).
 holds(s_16235_jpg, miscresidential).
 holds(s_16235_jpg, door).
 holds(s_16235_jpg, porch).
-holds(s_16235_jpg, table).
 holds(s_16235_jpg, tiledroof).
 holds(s_16235_jpg, tiledrooftop).
 holds(s_16235_jpg, residential).
@@ -2976,6 +2981,7 @@ holds(s_16237_jpg, feature).
 holds(s_16237_jpg, miscindustrial).
 holds(s_16237_jpg, door).
 holds(s_16237_jpg, window).
+holds(s_16237_jpg, table).
 holds(s_16237_jpg, truck).
 holds(s_16237_jpg, industrial).
 
@@ -3000,6 +3006,7 @@ holds(s_16239_jpg, store).
 holds(s_16239_jpg, window).
 holds(s_16239_jpg, awning).
 holds(s_16239_jpg, billboard).
+holds(s_16239_jpg, table).
 holds(s_16239_jpg, wallsign).
 holds(s_16239_jpg, chimney).
 holds(s_16239_jpg, commercial).
@@ -3026,7 +3033,6 @@ holds(s_16241_jpg, door).
 holds(s_16241_jpg, window).
 holds(s_16241_jpg, awning).
 holds(s_16241_jpg, porch).
-holds(s_16241_jpg, table).
 holds(s_16241_jpg, tiledroof).
 holds(s_16241_jpg, tiledrooftop).
 holds(s_16241_jpg, car).
@@ -3093,7 +3099,6 @@ holds(s_16246_jpg, feature).
 holds(s_16246_jpg, miscindustrial).
 holds(s_16246_jpg, powerplant).
 holds(s_16246_jpg, watertreatment).
-holds(s_16246_jpg, table).
 holds(s_16246_jpg, chimney).
 holds(s_16246_jpg, pipe).
 holds(s_16246_jpg, truck).
@@ -3129,7 +3134,6 @@ holds(s_16249_jpg, feature).
 holds(s_16249_jpg, constructionsite).
 holds(s_16249_jpg, window).
 holds(s_16249_jpg, sign).
-holds(s_16249_jpg, table).
 holds(s_16249_jpg, chimney).
 holds(s_16249_jpg, machine).
 holds(s_16249_jpg, industrial).
@@ -3141,7 +3145,6 @@ holds(s_16250_jpg, miscresidential).
 holds(s_16250_jpg, countryhouse).
 holds(s_16250_jpg, door).
 holds(s_16250_jpg, window).
-holds(s_16250_jpg, table).
 holds(s_16250_jpg, tiledroof).
 holds(s_16250_jpg, tiledrooftop).
 holds(s_16250_jpg, car).
@@ -3165,7 +3168,6 @@ holds(s_16252_jpg, building).
 holds(s_16252_jpg, feature).
 holds(s_16252_jpg, miscindustrial).
 holds(s_16252_jpg, door).
-holds(s_16252_jpg, table).
 holds(s_16252_jpg, truck).
 holds(s_16252_jpg, industrial).
 
@@ -3223,6 +3225,7 @@ holds(s_16257_jpg, store).
 holds(s_16257_jpg, door).
 holds(s_16257_jpg, billboard).
 holds(s_16257_jpg, sign).
+holds(s_16257_jpg, table).
 holds(s_16257_jpg, wallsign).
 holds(s_16257_jpg, commercial).
 
@@ -3241,7 +3244,6 @@ holds(s_16259_jpg, building).
 holds(s_16259_jpg, feature).
 holds(s_16259_jpg, miscresidential).
 holds(s_16259_jpg, countryhouse).
-holds(s_16259_jpg, table).
 holds(s_16259_jpg, tiledroof).
 holds(s_16259_jpg, tiledrooftop).
 holds(s_16259_jpg, car).
@@ -3259,6 +3261,7 @@ holds(s_16260_jpg, window).
 holds(s_16260_jpg, awning).
 holds(s_16260_jpg, billboard).
 holds(s_16260_jpg, sign).
+holds(s_16260_jpg, table).
 holds(s_16260_jpg, vendingmachine).
 holds(s_16260_jpg, truck).
 holds(s_16260_jpg, commercial).
@@ -3297,7 +3300,6 @@ holds(s_16263_jpg, window).
 holds(s_16263_jpg, awning).
 holds(s_16263_jpg, billboard).
 holds(s_16263_jpg, sign).
-holds(s_16263_jpg, table).
 holds(s_16263_jpg, tiledroof).
 holds(s_16263_jpg, vendingmachine).
 holds(s_16263_jpg, statue).
@@ -3312,7 +3314,6 @@ holds(s_16264_jpg, door).
 holds(s_16264_jpg, window).
 holds(s_16264_jpg, awning).
 holds(s_16264_jpg, sign).
-holds(s_16264_jpg, table).
 holds(s_16264_jpg, chimney).
 holds(s_16264_jpg, machine).
 holds(s_16264_jpg, industrial).
@@ -3324,6 +3325,7 @@ holds(s_16265_jpg, miscresidential).
 holds(s_16265_jpg, door).
 holds(s_16265_jpg, window).
 holds(s_16265_jpg, awning).
+holds(s_16265_jpg, table).
 holds(s_16265_jpg, tiledroof).
 holds(s_16265_jpg, tiledrooftop).
 holds(s_16265_jpg, truck).
@@ -3387,6 +3389,7 @@ holds(s_16270_jpg, feature).
 holds(s_16270_jpg, miscindustrial).
 holds(s_16270_jpg, door).
 holds(s_16270_jpg, window).
+holds(s_16270_jpg, table).
 holds(s_16270_jpg, chimney).
 holds(s_16270_jpg, truck).
 holds(s_16270_jpg, industrial).
@@ -3469,6 +3472,7 @@ holds(s_16277_jpg, feature).
 holds(s_16277_jpg, miscresidential).
 holds(s_16277_jpg, countryhouse).
 holds(s_16277_jpg, window).
+holds(s_16277_jpg, table).
 holds(s_16277_jpg, tiledroof).
 holds(s_16277_jpg, tiledrooftop).
 holds(s_16277_jpg, car).
@@ -3484,6 +3488,7 @@ holds(s_16278_jpg, door).
 holds(s_16278_jpg, awning).
 holds(s_16278_jpg, billboard).
 holds(s_16278_jpg, sign).
+holds(s_16278_jpg, table).
 holds(s_16278_jpg, tiledroof).
 holds(s_16278_jpg, tiledrooftop).
 holds(s_16278_jpg, wallsign).
@@ -3498,7 +3503,6 @@ holds(s_16279_jpg, powerplant).
 holds(s_16279_jpg, watertreatment).
 holds(s_16279_jpg, door).
 holds(s_16279_jpg, window).
-holds(s_16279_jpg, table).
 holds(s_16279_jpg, chimney).
 holds(s_16279_jpg, pipe).
 holds(s_16279_jpg, truck).
@@ -3535,7 +3539,6 @@ holds(s_16282_jpg, powerplant).
 holds(s_16282_jpg, door).
 holds(s_16282_jpg, window).
 holds(s_16282_jpg, awning).
-holds(s_16282_jpg, table).
 holds(s_16282_jpg, chimney).
 holds(s_16282_jpg, pipe).
 holds(s_16282_jpg, machine).
@@ -3548,6 +3551,7 @@ holds(s_16283_jpg, suburban).
 holds(s_16283_jpg, miscresidential).
 holds(s_16283_jpg, window).
 holds(s_16283_jpg, porch).
+holds(s_16283_jpg, table).
 holds(s_16283_jpg, tiledroof).
 holds(s_16283_jpg, tiledrooftop).
 holds(s_16283_jpg, residential).
@@ -3569,6 +3573,7 @@ holds(s_16285_jpg, feature).
 holds(s_16285_jpg, powerplant).
 holds(s_16285_jpg, door).
 holds(s_16285_jpg, window).
+holds(s_16285_jpg, table).
 holds(s_16285_jpg, chimney).
 holds(s_16285_jpg, pipe).
 holds(s_16285_jpg, car).
@@ -3583,7 +3588,6 @@ holds(s_16286_jpg, countryhouse).
 holds(s_16286_jpg, door).
 holds(s_16286_jpg, window).
 holds(s_16286_jpg, porch).
-holds(s_16286_jpg, table).
 holds(s_16286_jpg, tiledroof).
 holds(s_16286_jpg, tiledrooftop).
 holds(s_16286_jpg, car).
@@ -3600,6 +3604,7 @@ holds(s_16287_jpg, door).
 holds(s_16287_jpg, window).
 holds(s_16287_jpg, awning).
 holds(s_16287_jpg, billboard).
+holds(s_16287_jpg, table).
 holds(s_16287_jpg, vendingmachine).
 holds(s_16287_jpg, wallsign).
 holds(s_16287_jpg, statue).
@@ -3659,7 +3664,6 @@ holds(s_16292_jpg, miscresidential).
 holds(s_16292_jpg, door).
 holds(s_16292_jpg, window).
 holds(s_16292_jpg, porch).
-holds(s_16292_jpg, table).
 holds(s_16292_jpg, tiledroof).
 holds(s_16292_jpg, tiledrooftop).
 holds(s_16292_jpg, residential).
@@ -3671,6 +3675,7 @@ holds(s_16293_jpg, cafe).
 holds(s_16293_jpg, hotel).
 holds(s_16293_jpg, door).
 holds(s_16293_jpg, sign).
+holds(s_16293_jpg, table).
 holds(s_16293_jpg, vendingmachine).
 holds(s_16293_jpg, wallsign).
 holds(s_16293_jpg, chimney).
@@ -3680,6 +3685,7 @@ sample(s_16294_jpg).
 holds(s_16294_jpg, building).
 holds(s_16294_jpg, feature).
 holds(s_16294_jpg, miscindustrial).
+holds(s_16294_jpg, table).
 holds(s_16294_jpg, truck).
 holds(s_16294_jpg, industrial).
 
@@ -3692,6 +3698,7 @@ holds(s_16295_jpg, countryhouse).
 holds(s_16295_jpg, door).
 holds(s_16295_jpg, awning).
 holds(s_16295_jpg, porch).
+holds(s_16295_jpg, table).
 holds(s_16295_jpg, tiledroof).
 holds(s_16295_jpg, tiledrooftop).
 holds(s_16295_jpg, car).
@@ -3703,7 +3710,6 @@ holds(s_16296_jpg, feature).
 holds(s_16296_jpg, cafe).
 holds(s_16296_jpg, hotel).
 holds(s_16296_jpg, window).
-holds(s_16296_jpg, table).
 holds(s_16296_jpg, vendingmachine).
 holds(s_16296_jpg, wallsign).
 holds(s_16296_jpg, statue).
@@ -3719,6 +3725,7 @@ holds(s_16297_jpg, powerplant).
 holds(s_16297_jpg, watertreatment).
 holds(s_16297_jpg, door).
 holds(s_16297_jpg, window).
+holds(s_16297_jpg, table).
 holds(s_16297_jpg, chimney).
 holds(s_16297_jpg, pipe).
 holds(s_16297_jpg, truck).
@@ -3732,7 +3739,6 @@ holds(s_16298_jpg, miscresidential).
 holds(s_16298_jpg, countryhouse).
 holds(s_16298_jpg, door).
 holds(s_16298_jpg, porch).
-holds(s_16298_jpg, table).
 holds(s_16298_jpg, tiledroof).
 holds(s_16298_jpg, tiledrooftop).
 holds(s_16298_jpg, car).
@@ -3789,6 +3795,7 @@ holds(s_16302_jpg, misccommercial).
 holds(s_16302_jpg, window).
 holds(s_16302_jpg, awning).
 holds(s_16302_jpg, billboard).
+holds(s_16302_jpg, table).
 holds(s_16302_jpg, vendingmachine).
 holds(s_16302_jpg, statue).
 holds(s_16302_jpg, car).
@@ -3800,6 +3807,7 @@ holds(s_16303_jpg, feature).
 holds(s_16303_jpg, miscindustrial).
 holds(s_16303_jpg, door).
 holds(s_16303_jpg, window).
+holds(s_16303_jpg, table).
 holds(s_16303_jpg, truck).
 holds(s_16303_jpg, industrial).
 
@@ -3811,6 +3819,7 @@ holds(s_16304_jpg, miscresidential).
 holds(s_16304_jpg, window).
 holds(s_16304_jpg, awning).
 holds(s_16304_jpg, porch).
+holds(s_16304_jpg, table).
 holds(s_16304_jpg, tiledroof).
 holds(s_16304_jpg, tiledrooftop).
 holds(s_16304_jpg, residential).
@@ -3827,6 +3836,7 @@ holds(s_16305_jpg, window).
 holds(s_16305_jpg, awning).
 holds(s_16305_jpg, billboard).
 holds(s_16305_jpg, sign).
+holds(s_16305_jpg, table).
 holds(s_16305_jpg, vendingmachine).
 holds(s_16305_jpg, wallsign).
 holds(s_16305_jpg, chimney).
@@ -3839,7 +3849,6 @@ holds(s_16306_jpg, feature).
 holds(s_16306_jpg, constructionsite).
 holds(s_16306_jpg, window).
 holds(s_16306_jpg, sign).
-holds(s_16306_jpg, table).
 holds(s_16306_jpg, pipe).
 holds(s_16306_jpg, machine).
 holds(s_16306_jpg, industrial).
@@ -3890,6 +3899,7 @@ holds(s_16310_jpg, feature).
 holds(s_16310_jpg, miscresidential).
 holds(s_16310_jpg, countryhouse).
 holds(s_16310_jpg, door).
+holds(s_16310_jpg, table).
 holds(s_16310_jpg, tiledroof).
 holds(s_16310_jpg, tiledrooftop).
 holds(s_16310_jpg, car).
@@ -3941,6 +3951,7 @@ holds(s_16314_jpg, misccommercial).
 holds(s_16314_jpg, door).
 holds(s_16314_jpg, awning).
 holds(s_16314_jpg, sign).
+holds(s_16314_jpg, table).
 holds(s_16314_jpg, vendingmachine).
 holds(s_16314_jpg, wallsign).
 holds(s_16314_jpg, commercial).
@@ -3963,7 +3974,6 @@ holds(s_16316_jpg, building).
 holds(s_16316_jpg, feature).
 holds(s_16316_jpg, miscresidential).
 holds(s_16316_jpg, countryhouse).
-holds(s_16316_jpg, table).
 holds(s_16316_jpg, tiledroof).
 holds(s_16316_jpg, tiledrooftop).
 holds(s_16316_jpg, car).
@@ -3994,7 +4004,6 @@ holds(s_16318_jpg, miscindustrial).
 holds(s_16318_jpg, watertreatment).
 holds(s_16318_jpg, door).
 holds(s_16318_jpg, window).
-holds(s_16318_jpg, table).
 holds(s_16318_jpg, pipe).
 holds(s_16318_jpg, truck).
 holds(s_16318_jpg, industrial).
@@ -4019,6 +4028,7 @@ holds(s_16320_jpg, door).
 holds(s_16320_jpg, window).
 holds(s_16320_jpg, awning).
 holds(s_16320_jpg, sign).
+holds(s_16320_jpg, table).
 holds(s_16320_jpg, wallsign).
 holds(s_16320_jpg, commercial).
 
@@ -4028,6 +4038,7 @@ holds(s_16321_jpg, feature).
 holds(s_16321_jpg, miscindustrial).
 holds(s_16321_jpg, powerplant).
 holds(s_16321_jpg, watertreatment).
+holds(s_16321_jpg, table).
 holds(s_16321_jpg, chimney).
 holds(s_16321_jpg, pipe).
 holds(s_16321_jpg, truck).
@@ -4057,7 +4068,6 @@ holds(s_16323_jpg, door).
 holds(s_16323_jpg, window).
 holds(s_16323_jpg, awning).
 holds(s_16323_jpg, billboard).
-holds(s_16323_jpg, table).
 holds(s_16323_jpg, vendingmachine).
 holds(s_16323_jpg, wallsign).
 holds(s_16323_jpg, chimney).
@@ -4070,6 +4080,7 @@ holds(s_16324_jpg, feature).
 holds(s_16324_jpg, miscindustrial).
 holds(s_16324_jpg, watertreatment).
 holds(s_16324_jpg, window).
+holds(s_16324_jpg, table).
 holds(s_16324_jpg, pipe).
 holds(s_16324_jpg, truck).
 holds(s_16324_jpg, industrial).
@@ -4163,7 +4174,6 @@ holds(s_16332_jpg, door).
 holds(s_16332_jpg, window).
 holds(s_16332_jpg, awning).
 holds(s_16332_jpg, billboard).
-holds(s_16332_jpg, table).
 holds(s_16332_jpg, wallsign).
 holds(s_16332_jpg, chimney).
 holds(s_16332_jpg, truck).
@@ -4174,7 +4184,6 @@ holds(s_16333_jpg, building).
 holds(s_16333_jpg, feature).
 holds(s_16333_jpg, powerplant).
 holds(s_16333_jpg, window).
-holds(s_16333_jpg, table).
 holds(s_16333_jpg, chimney).
 holds(s_16333_jpg, pipe).
 holds(s_16333_jpg, car).
@@ -4187,7 +4196,6 @@ holds(s_16334_jpg, miscresidential).
 holds(s_16334_jpg, countryhouse).
 holds(s_16334_jpg, window).
 holds(s_16334_jpg, awning).
-holds(s_16334_jpg, table).
 holds(s_16334_jpg, tiledroof).
 holds(s_16334_jpg, tiledrooftop).
 holds(s_16334_jpg, car).
@@ -4284,7 +4292,6 @@ holds(s_16342_jpg, feature).
 holds(s_16342_jpg, constructionsite).
 holds(s_16342_jpg, window).
 holds(s_16342_jpg, sign).
-holds(s_16342_jpg, table).
 holds(s_16342_jpg, machine).
 holds(s_16342_jpg, industrial).
 
@@ -4294,6 +4301,7 @@ holds(s_16343_jpg, feature).
 holds(s_16343_jpg, suburban).
 holds(s_16343_jpg, door).
 holds(s_16343_jpg, porch).
+holds(s_16343_jpg, table).
 holds(s_16343_jpg, residential).
 
 sample(s_16344_jpg).
@@ -4303,7 +4311,6 @@ holds(s_16344_jpg, restaurant).
 holds(s_16344_jpg, door).
 holds(s_16344_jpg, window).
 holds(s_16344_jpg, sign).
-holds(s_16344_jpg, table).
 holds(s_16344_jpg, pipe).
 holds(s_16344_jpg, car).
 holds(s_16344_jpg, commercial).
@@ -4315,6 +4322,7 @@ holds(s_16345_jpg, miscindustrial).
 holds(s_16345_jpg, powerplant).
 holds(s_16345_jpg, watertreatment).
 holds(s_16345_jpg, door).
+holds(s_16345_jpg, table).
 holds(s_16345_jpg, chimney).
 holds(s_16345_jpg, pipe).
 holds(s_16345_jpg, truck).
@@ -4356,6 +4364,7 @@ holds(s_16348_jpg, building).
 holds(s_16348_jpg, feature).
 holds(s_16348_jpg, miscindustrial).
 holds(s_16348_jpg, watertreatment).
+holds(s_16348_jpg, table).
 holds(s_16348_jpg, pipe).
 holds(s_16348_jpg, truck).
 holds(s_16348_jpg, industrial).
@@ -4387,7 +4396,6 @@ sample(s_16351_jpg).
 holds(s_16351_jpg, building).
 holds(s_16351_jpg, feature).
 holds(s_16351_jpg, constructionsite).
-holds(s_16351_jpg, table).
 holds(s_16351_jpg, chimney).
 holds(s_16351_jpg, machine).
 holds(s_16351_jpg, industrial).
@@ -4414,7 +4422,6 @@ holds(s_16353_jpg, window).
 holds(s_16353_jpg, awning).
 holds(s_16353_jpg, billboard).
 holds(s_16353_jpg, sign).
-holds(s_16353_jpg, table).
 holds(s_16353_jpg, vendingmachine).
 holds(s_16353_jpg, statue).
 holds(s_16353_jpg, commercial).
@@ -4426,7 +4433,6 @@ holds(s_16354_jpg, powerplant).
 holds(s_16354_jpg, watertreatment).
 holds(s_16354_jpg, window).
 holds(s_16354_jpg, awning).
-holds(s_16354_jpg, table).
 holds(s_16354_jpg, chimney).
 holds(s_16354_jpg, pipe).
 holds(s_16354_jpg, truck).
@@ -4439,6 +4445,7 @@ holds(s_16355_jpg, suburban).
 holds(s_16355_jpg, window).
 holds(s_16355_jpg, awning).
 holds(s_16355_jpg, porch).
+holds(s_16355_jpg, table).
 holds(s_16355_jpg, car).
 holds(s_16355_jpg, residential).
 
@@ -4453,7 +4460,6 @@ holds(s_16356_jpg, door).
 holds(s_16356_jpg, window).
 holds(s_16356_jpg, awning).
 holds(s_16356_jpg, sign).
-holds(s_16356_jpg, table).
 holds(s_16356_jpg, vendingmachine).
 holds(s_16356_jpg, wallsign).
 holds(s_16356_jpg, truck).
@@ -4478,6 +4484,7 @@ holds(s_16358_jpg, door).
 holds(s_16358_jpg, window).
 holds(s_16358_jpg, awning).
 holds(s_16358_jpg, porch).
+holds(s_16358_jpg, table).
 holds(s_16358_jpg, tiledroof).
 holds(s_16358_jpg, tiledrooftop).
 holds(s_16358_jpg, car).
@@ -4514,7 +4521,6 @@ holds(s_16361_jpg, suburban).
 holds(s_16361_jpg, miscresidential).
 holds(s_16361_jpg, door).
 holds(s_16361_jpg, porch).
-holds(s_16361_jpg, table).
 holds(s_16361_jpg, tiledroof).
 holds(s_16361_jpg, tiledrooftop).
 holds(s_16361_jpg, residential).
@@ -4570,7 +4576,6 @@ holds(s_16365_jpg, store).
 holds(s_16365_jpg, window).
 holds(s_16365_jpg, awning).
 holds(s_16365_jpg, billboard).
-holds(s_16365_jpg, table).
 holds(s_16365_jpg, vendingmachine).
 holds(s_16365_jpg, truck).
 holds(s_16365_jpg, commercial).
@@ -4580,6 +4585,7 @@ holds(s_16366_jpg, building).
 holds(s_16366_jpg, feature).
 holds(s_16366_jpg, powerplant).
 holds(s_16366_jpg, door).
+holds(s_16366_jpg, table).
 holds(s_16366_jpg, chimney).
 holds(s_16366_jpg, pipe).
 holds(s_16366_jpg, industrial).
@@ -4592,6 +4598,7 @@ holds(s_16367_jpg, miscresidential).
 holds(s_16367_jpg, countryhouse).
 holds(s_16367_jpg, door).
 holds(s_16367_jpg, porch).
+holds(s_16367_jpg, table).
 holds(s_16367_jpg, tiledroof).
 holds(s_16367_jpg, tiledrooftop).
 holds(s_16367_jpg, car).
@@ -4643,6 +4650,7 @@ holds(s_16371_jpg, misccommercial).
 holds(s_16371_jpg, window).
 holds(s_16371_jpg, awning).
 holds(s_16371_jpg, sign).
+holds(s_16371_jpg, table).
 holds(s_16371_jpg, wallsign).
 holds(s_16371_jpg, chimney).
 holds(s_16371_jpg, commercial).
@@ -4667,6 +4675,7 @@ holds(s_16373_jpg, countryhouse).
 holds(s_16373_jpg, door).
 holds(s_16373_jpg, window).
 holds(s_16373_jpg, porch).
+holds(s_16373_jpg, table).
 holds(s_16373_jpg, tiledroof).
 holds(s_16373_jpg, tiledrooftop).
 holds(s_16373_jpg, car).
@@ -4691,6 +4700,7 @@ holds(s_16375_jpg, constructionsite).
 holds(s_16375_jpg, door).
 holds(s_16375_jpg, window).
 holds(s_16375_jpg, sign).
+holds(s_16375_jpg, table).
 holds(s_16375_jpg, pipe).
 holds(s_16375_jpg, machine).
 holds(s_16375_jpg, industrial).
@@ -4715,6 +4725,7 @@ holds(s_16377_jpg, misccommercial).
 holds(s_16377_jpg, door).
 holds(s_16377_jpg, window).
 holds(s_16377_jpg, awning).
+holds(s_16377_jpg, table).
 holds(s_16377_jpg, vendingmachine).
 holds(s_16377_jpg, car).
 holds(s_16377_jpg, commercial).
@@ -4737,6 +4748,7 @@ holds(s_16379_jpg, miscresidential).
 holds(s_16379_jpg, countryhouse).
 holds(s_16379_jpg, door).
 holds(s_16379_jpg, window).
+holds(s_16379_jpg, table).
 holds(s_16379_jpg, tiledroof).
 holds(s_16379_jpg, tiledrooftop).
 holds(s_16379_jpg, car).
@@ -4750,6 +4762,7 @@ holds(s_16380_jpg, store).
 holds(s_16380_jpg, door).
 holds(s_16380_jpg, billboard).
 holds(s_16380_jpg, sign).
+holds(s_16380_jpg, table).
 holds(s_16380_jpg, vendingmachine).
 holds(s_16380_jpg, chimney).
 holds(s_16380_jpg, commercial).
@@ -4761,7 +4774,6 @@ holds(s_16381_jpg, powerplant).
 holds(s_16381_jpg, door).
 holds(s_16381_jpg, window).
 holds(s_16381_jpg, awning).
-holds(s_16381_jpg, table).
 holds(s_16381_jpg, chimney).
 holds(s_16381_jpg, pipe).
 holds(s_16381_jpg, industrial).
@@ -4775,6 +4787,7 @@ holds(s_16382_jpg, countryhouse).
 holds(s_16382_jpg, door).
 holds(s_16382_jpg, window).
 holds(s_16382_jpg, porch).
+holds(s_16382_jpg, table).
 holds(s_16382_jpg, tiledroof).
 holds(s_16382_jpg, tiledrooftop).
 holds(s_16382_jpg, car).
@@ -4795,6 +4808,7 @@ holds(s_16384_jpg, constructionsite).
 holds(s_16384_jpg, powerplant).
 holds(s_16384_jpg, door).
 holds(s_16384_jpg, window).
+holds(s_16384_jpg, table).
 holds(s_16384_jpg, chimney).
 holds(s_16384_jpg, pipe).
 holds(s_16384_jpg, machine).
@@ -4838,7 +4852,6 @@ holds(s_16388_jpg, feature).
 holds(s_16388_jpg, miscresidential).
 holds(s_16388_jpg, countryhouse).
 holds(s_16388_jpg, window).
-holds(s_16388_jpg, table).
 holds(s_16388_jpg, tiledroof).
 holds(s_16388_jpg, tiledrooftop).
 holds(s_16388_jpg, car).
@@ -4914,6 +4927,7 @@ holds(s_16394_jpg, miscresidential).
 holds(s_16394_jpg, countryhouse).
 holds(s_16394_jpg, door).
 holds(s_16394_jpg, porch).
+holds(s_16394_jpg, table).
 holds(s_16394_jpg, tiledroof).
 holds(s_16394_jpg, tiledrooftop).
 holds(s_16394_jpg, car).
@@ -4927,6 +4941,7 @@ holds(s_16395_jpg, hotel).
 holds(s_16395_jpg, store).
 holds(s_16395_jpg, window).
 holds(s_16395_jpg, billboard).
+holds(s_16395_jpg, table).
 holds(s_16395_jpg, vendingmachine).
 holds(s_16395_jpg, wallsign).
 holds(s_16395_jpg, car).
@@ -4988,7 +5003,6 @@ holds(s_16400_jpg, countryhouse).
 holds(s_16400_jpg, door).
 holds(s_16400_jpg, window).
 holds(s_16400_jpg, porch).
-holds(s_16400_jpg, table).
 holds(s_16400_jpg, tiledroof).
 holds(s_16400_jpg, tiledrooftop).
 holds(s_16400_jpg, car).
@@ -5001,7 +5015,6 @@ holds(s_16401_jpg, hotel).
 holds(s_16401_jpg, misccommercial).
 holds(s_16401_jpg, window).
 holds(s_16401_jpg, awning).
-holds(s_16401_jpg, table).
 holds(s_16401_jpg, tiledroof).
 holds(s_16401_jpg, tiledrooftop).
 holds(s_16401_jpg, wallsign).
@@ -5014,6 +5027,7 @@ holds(s_16402_jpg, feature).
 holds(s_16402_jpg, constructionsite).
 holds(s_16402_jpg, window).
 holds(s_16402_jpg, sign).
+holds(s_16402_jpg, table).
 holds(s_16402_jpg, pipe).
 holds(s_16402_jpg, machine).
 holds(s_16402_jpg, industrial).
@@ -5025,6 +5039,7 @@ holds(s_16403_jpg, miscresidential).
 holds(s_16403_jpg, door).
 holds(s_16403_jpg, window).
 holds(s_16403_jpg, awning).
+holds(s_16403_jpg, table).
 holds(s_16403_jpg, tiledroof).
 holds(s_16403_jpg, tiledrooftop).
 holds(s_16403_jpg, residential).
@@ -5046,6 +5061,7 @@ holds(s_16405_jpg, building).
 holds(s_16405_jpg, feature).
 holds(s_16405_jpg, powerplant).
 holds(s_16405_jpg, door).
+holds(s_16405_jpg, table).
 holds(s_16405_jpg, chimney).
 holds(s_16405_jpg, pipe).
 holds(s_16405_jpg, industrial).
@@ -5059,6 +5075,7 @@ holds(s_16406_jpg, countryhouse).
 holds(s_16406_jpg, door).
 holds(s_16406_jpg, window).
 holds(s_16406_jpg, porch).
+holds(s_16406_jpg, table).
 holds(s_16406_jpg, tiledroof).
 holds(s_16406_jpg, tiledrooftop).
 holds(s_16406_jpg, car).
@@ -5073,6 +5090,7 @@ holds(s_16407_jpg, misccommercial).
 holds(s_16407_jpg, door).
 holds(s_16407_jpg, window).
 holds(s_16407_jpg, awning).
+holds(s_16407_jpg, table).
 holds(s_16407_jpg, vendingmachine).
 holds(s_16407_jpg, wallsign).
 holds(s_16407_jpg, statue).
@@ -5095,6 +5113,7 @@ holds(s_16409_jpg, suburban).
 holds(s_16409_jpg, window).
 holds(s_16409_jpg, awning).
 holds(s_16409_jpg, porch).
+holds(s_16409_jpg, table).
 holds(s_16409_jpg, car).
 holds(s_16409_jpg, residential).
 
@@ -5120,6 +5139,7 @@ holds(s_16411_jpg, feature).
 holds(s_16411_jpg, powerplant).
 holds(s_16411_jpg, door).
 holds(s_16411_jpg, window).
+holds(s_16411_jpg, table).
 holds(s_16411_jpg, chimney).
 holds(s_16411_jpg, pipe).
 holds(s_16411_jpg, industrial).
@@ -5148,7 +5168,6 @@ holds(s_16413_jpg, door).
 holds(s_16413_jpg, window).
 holds(s_16413_jpg, awning).
 holds(s_16413_jpg, billboard).
-holds(s_16413_jpg, table).
 holds(s_16413_jpg, vendingmachine).
 holds(s_16413_jpg, wallsign).
 holds(s_16413_jpg, statue).
@@ -5161,6 +5180,7 @@ holds(s_16414_jpg, feature).
 holds(s_16414_jpg, constructionsite).
 holds(s_16414_jpg, door).
 holds(s_16414_jpg, awning).
+holds(s_16414_jpg, table).
 holds(s_16414_jpg, machine).
 holds(s_16414_jpg, industrial).
 
@@ -5188,7 +5208,6 @@ holds(s_16416_jpg, door).
 holds(s_16416_jpg, window).
 holds(s_16416_jpg, awning).
 holds(s_16416_jpg, billboard).
-holds(s_16416_jpg, table).
 holds(s_16416_jpg, tiledroof).
 holds(s_16416_jpg, tiledrooftop).
 holds(s_16416_jpg, vendingmachine).
@@ -5201,6 +5220,7 @@ holds(s_16417_jpg, feature).
 holds(s_16417_jpg, miscindustrial).
 holds(s_16417_jpg, powerplant).
 holds(s_16417_jpg, watertreatment).
+holds(s_16417_jpg, table).
 holds(s_16417_jpg, chimney).
 holds(s_16417_jpg, pipe).
 holds(s_16417_jpg, truck).
@@ -5250,6 +5270,7 @@ holds(s_16421_jpg, miscresidential).
 holds(s_16421_jpg, countryhouse).
 holds(s_16421_jpg, door).
 holds(s_16421_jpg, porch).
+holds(s_16421_jpg, table).
 holds(s_16421_jpg, tiledroof).
 holds(s_16421_jpg, tiledrooftop).
 holds(s_16421_jpg, car).
@@ -5263,6 +5284,7 @@ holds(s_16422_jpg, hotel).
 holds(s_16422_jpg, store).
 holds(s_16422_jpg, window).
 holds(s_16422_jpg, billboard).
+holds(s_16422_jpg, table).
 holds(s_16422_jpg, vendingmachine).
 holds(s_16422_jpg, wallsign).
 holds(s_16422_jpg, statue).
@@ -5298,7 +5320,6 @@ holds(s_16425_jpg, feature).
 holds(s_16425_jpg, cafe).
 holds(s_16425_jpg, hotel).
 holds(s_16425_jpg, sign).
-holds(s_16425_jpg, table).
 holds(s_16425_jpg, vendingmachine).
 holds(s_16425_jpg, wallsign).
 holds(s_16425_jpg, statue).
@@ -5310,7 +5331,6 @@ holds(s_16426_jpg, feature).
 holds(s_16426_jpg, miscindustrial).
 holds(s_16426_jpg, watertreatment).
 holds(s_16426_jpg, window).
-holds(s_16426_jpg, table).
 holds(s_16426_jpg, pipe).
 holds(s_16426_jpg, truck).
 holds(s_16426_jpg, industrial).
@@ -5323,7 +5343,6 @@ holds(s_16427_jpg, miscresidential).
 holds(s_16427_jpg, window).
 holds(s_16427_jpg, awning).
 holds(s_16427_jpg, porch).
-holds(s_16427_jpg, table).
 holds(s_16427_jpg, tiledroof).
 holds(s_16427_jpg, tiledrooftop).
 holds(s_16427_jpg, truck).
@@ -5341,6 +5360,7 @@ holds(s_16428_jpg, window).
 holds(s_16428_jpg, awning).
 holds(s_16428_jpg, billboard).
 holds(s_16428_jpg, sign).
+holds(s_16428_jpg, table).
 holds(s_16428_jpg, tiledroof).
 holds(s_16428_jpg, vendingmachine).
 holds(s_16428_jpg, wallsign).
@@ -5364,6 +5384,7 @@ holds(s_16430_jpg, miscresidential).
 holds(s_16430_jpg, door).
 holds(s_16430_jpg, window).
 holds(s_16430_jpg, awning).
+holds(s_16430_jpg, table).
 holds(s_16430_jpg, tiledroof).
 holds(s_16430_jpg, tiledrooftop).
 holds(s_16430_jpg, residential).
@@ -5391,7 +5412,6 @@ holds(s_16432_jpg, feature).
 holds(s_16432_jpg, constructionsite).
 holds(s_16432_jpg, door).
 holds(s_16432_jpg, window).
-holds(s_16432_jpg, table).
 holds(s_16432_jpg, machine).
 holds(s_16432_jpg, industrial).
 
@@ -5416,7 +5436,6 @@ holds(s_16434_jpg, misccommercial).
 holds(s_16434_jpg, door).
 holds(s_16434_jpg, awning).
 holds(s_16434_jpg, billboard).
-holds(s_16434_jpg, table).
 holds(s_16434_jpg, tiledroof).
 holds(s_16434_jpg, vendingmachine).
 holds(s_16434_jpg, wallsign).
@@ -5441,7 +5460,6 @@ holds(s_16436_jpg, suburban).
 holds(s_16436_jpg, miscresidential).
 holds(s_16436_jpg, door).
 holds(s_16436_jpg, porch).
-holds(s_16436_jpg, table).
 holds(s_16436_jpg, tiledroof).
 holds(s_16436_jpg, tiledrooftop).
 holds(s_16436_jpg, residential).
@@ -5472,6 +5490,7 @@ holds(s_16438_jpg, miscindustrial).
 holds(s_16438_jpg, watertreatment).
 holds(s_16438_jpg, door).
 holds(s_16438_jpg, window).
+holds(s_16438_jpg, table).
 holds(s_16438_jpg, pipe).
 holds(s_16438_jpg, truck).
 holds(s_16438_jpg, industrial).
@@ -5500,7 +5519,6 @@ holds(s_16440_jpg, door).
 holds(s_16440_jpg, window).
 holds(s_16440_jpg, awning).
 holds(s_16440_jpg, billboard).
-holds(s_16440_jpg, table).
 holds(s_16440_jpg, statue).
 holds(s_16440_jpg, commercial).
 
@@ -5510,6 +5528,7 @@ holds(s_16441_jpg, feature).
 holds(s_16441_jpg, miscindustrial).
 holds(s_16441_jpg, powerplant).
 holds(s_16441_jpg, watertreatment).
+holds(s_16441_jpg, table).
 holds(s_16441_jpg, chimney).
 holds(s_16441_jpg, pipe).
 holds(s_16441_jpg, truck).
@@ -5535,7 +5554,6 @@ holds(s_16443_jpg, window).
 holds(s_16443_jpg, awning).
 holds(s_16443_jpg, billboard).
 holds(s_16443_jpg, sign).
-holds(s_16443_jpg, table).
 holds(s_16443_jpg, vendingmachine).
 holds(s_16443_jpg, statue).
 holds(s_16443_jpg, commercial).
@@ -5560,7 +5578,6 @@ holds(s_16445_jpg, door).
 holds(s_16445_jpg, window).
 holds(s_16445_jpg, awning).
 holds(s_16445_jpg, porch).
-holds(s_16445_jpg, table).
 holds(s_16445_jpg, tiledroof).
 holds(s_16445_jpg, tiledrooftop).
 holds(s_16445_jpg, car).
@@ -5588,7 +5605,6 @@ holds(s_16447_jpg, feature).
 holds(s_16447_jpg, miscindustrial).
 holds(s_16447_jpg, watertreatment).
 holds(s_16447_jpg, door).
-holds(s_16447_jpg, table).
 holds(s_16447_jpg, pipe).
 holds(s_16447_jpg, truck).
 holds(s_16447_jpg, industrial).
@@ -5617,7 +5633,6 @@ holds(s_16449_jpg, door).
 holds(s_16449_jpg, window).
 holds(s_16449_jpg, awning).
 holds(s_16449_jpg, billboard).
-holds(s_16449_jpg, table).
 holds(s_16449_jpg, vendingmachine).
 holds(s_16449_jpg, wallsign).
 holds(s_16449_jpg, pipe).
@@ -5638,7 +5653,6 @@ holds(s_16451_jpg, feature).
 holds(s_16451_jpg, miscresidential).
 holds(s_16451_jpg, countryhouse).
 holds(s_16451_jpg, door).
-holds(s_16451_jpg, table).
 holds(s_16451_jpg, tiledroof).
 holds(s_16451_jpg, tiledrooftop).
 holds(s_16451_jpg, car).
@@ -5665,6 +5679,7 @@ holds(s_16453_jpg, building).
 holds(s_16453_jpg, feature).
 holds(s_16453_jpg, constructionsite).
 holds(s_16453_jpg, door).
+holds(s_16453_jpg, table).
 holds(s_16453_jpg, chimney).
 holds(s_16453_jpg, machine).
 holds(s_16453_jpg, industrial).
@@ -5675,6 +5690,7 @@ holds(s_16454_jpg, feature).
 holds(s_16454_jpg, suburban).
 holds(s_16454_jpg, window).
 holds(s_16454_jpg, porch).
+holds(s_16454_jpg, table).
 holds(s_16454_jpg, residential).
 
 sample(s_16455_jpg).
@@ -5709,7 +5725,6 @@ holds(s_16457_jpg, miscresidential).
 holds(s_16457_jpg, door).
 holds(s_16457_jpg, window).
 holds(s_16457_jpg, porch).
-holds(s_16457_jpg, table).
 holds(s_16457_jpg, tiledroof).
 holds(s_16457_jpg, tiledrooftop).
 holds(s_16457_jpg, residential).
@@ -5724,6 +5739,7 @@ holds(s_16458_jpg, door).
 holds(s_16458_jpg, window).
 holds(s_16458_jpg, awning).
 holds(s_16458_jpg, billboard).
+holds(s_16458_jpg, table).
 holds(s_16458_jpg, wallsign).
 holds(s_16458_jpg, car).
 holds(s_16458_jpg, commercial).
@@ -5735,6 +5751,7 @@ holds(s_16459_jpg, constructionsite).
 holds(s_16459_jpg, door).
 holds(s_16459_jpg, awning).
 holds(s_16459_jpg, sign).
+holds(s_16459_jpg, table).
 holds(s_16459_jpg, chimney).
 holds(s_16459_jpg, machine).
 holds(s_16459_jpg, industrial).
@@ -5760,6 +5777,7 @@ holds(s_16461_jpg, store).
 holds(s_16461_jpg, door).
 holds(s_16461_jpg, window).
 holds(s_16461_jpg, billboard).
+holds(s_16461_jpg, table).
 holds(s_16461_jpg, vendingmachine).
 holds(s_16461_jpg, statue).
 holds(s_16461_jpg, commercial).
@@ -5805,7 +5823,6 @@ holds(s_16465_jpg, miscindustrial).
 holds(s_16465_jpg, powerplant).
 holds(s_16465_jpg, watertreatment).
 holds(s_16465_jpg, door).
-holds(s_16465_jpg, table).
 holds(s_16465_jpg, chimney).
 holds(s_16465_jpg, pipe).
 holds(s_16465_jpg, truck).
@@ -5820,7 +5837,6 @@ holds(s_16466_jpg, door).
 holds(s_16466_jpg, window).
 holds(s_16466_jpg, awning).
 holds(s_16466_jpg, porch).
-holds(s_16466_jpg, table).
 holds(s_16466_jpg, tiledroof).
 holds(s_16466_jpg, tiledrooftop).
 holds(s_16466_jpg, residential).
@@ -5907,7 +5923,6 @@ holds(s_16473_jpg, store).
 holds(s_16473_jpg, door).
 holds(s_16473_jpg, billboard).
 holds(s_16473_jpg, sign).
-holds(s_16473_jpg, table).
 holds(s_16473_jpg, vendingmachine).
 holds(s_16473_jpg, statue).
 holds(s_16473_jpg, commercial).
@@ -5919,6 +5934,7 @@ holds(s_16474_jpg, miscindustrial).
 holds(s_16474_jpg, powerplant).
 holds(s_16474_jpg, watertreatment).
 holds(s_16474_jpg, window).
+holds(s_16474_jpg, table).
 holds(s_16474_jpg, chimney).
 holds(s_16474_jpg, pipe).
 holds(s_16474_jpg, truck).
@@ -5931,6 +5947,7 @@ holds(s_16475_jpg, suburban).
 holds(s_16475_jpg, miscresidential).
 holds(s_16475_jpg, countryhouse).
 holds(s_16475_jpg, porch).
+holds(s_16475_jpg, table).
 holds(s_16475_jpg, tiledroof).
 holds(s_16475_jpg, tiledrooftop).
 holds(s_16475_jpg, car).
@@ -5998,7 +6015,6 @@ holds(s_16480_jpg, building).
 holds(s_16480_jpg, feature).
 holds(s_16480_jpg, powerplant).
 holds(s_16480_jpg, door).
-holds(s_16480_jpg, table).
 holds(s_16480_jpg, chimney).
 holds(s_16480_jpg, pipe).
 holds(s_16480_jpg, industrial).
@@ -6012,7 +6028,6 @@ holds(s_16481_jpg, countryhouse).
 holds(s_16481_jpg, door).
 holds(s_16481_jpg, window).
 holds(s_16481_jpg, porch).
-holds(s_16481_jpg, table).
 holds(s_16481_jpg, tiledroof).
 holds(s_16481_jpg, tiledrooftop).
 holds(s_16481_jpg, car).
@@ -6024,6 +6039,7 @@ holds(s_16482_jpg, feature).
 holds(s_16482_jpg, cafe).
 holds(s_16482_jpg, hotel).
 holds(s_16482_jpg, window).
+holds(s_16482_jpg, table).
 holds(s_16482_jpg, vendingmachine).
 holds(s_16482_jpg, wallsign).
 holds(s_16482_jpg, car).
@@ -6034,6 +6050,7 @@ holds(s_16483_jpg, building).
 holds(s_16483_jpg, feature).
 holds(s_16483_jpg, miscindustrial).
 holds(s_16483_jpg, door).
+holds(s_16483_jpg, table).
 holds(s_16483_jpg, truck).
 holds(s_16483_jpg, industrial).
 
@@ -6059,7 +6076,6 @@ holds(s_16485_jpg, door).
 holds(s_16485_jpg, awning).
 holds(s_16485_jpg, billboard).
 holds(s_16485_jpg, sign).
-holds(s_16485_jpg, table).
 holds(s_16485_jpg, vendingmachine).
 holds(s_16485_jpg, wallsign).
 holds(s_16485_jpg, statue).
@@ -6072,6 +6088,7 @@ holds(s_16486_jpg, feature).
 holds(s_16486_jpg, miscindustrial).
 holds(s_16486_jpg, door).
 holds(s_16486_jpg, window).
+holds(s_16486_jpg, table).
 holds(s_16486_jpg, chimney).
 holds(s_16486_jpg, truck).
 holds(s_16486_jpg, industrial).
@@ -6085,6 +6102,7 @@ holds(s_16487_jpg, door).
 holds(s_16487_jpg, window).
 holds(s_16487_jpg, awning).
 holds(s_16487_jpg, porch).
+holds(s_16487_jpg, table).
 holds(s_16487_jpg, tiledroof).
 holds(s_16487_jpg, tiledrooftop).
 holds(s_16487_jpg, truck).
@@ -6098,7 +6116,6 @@ holds(s_16488_jpg, hotel).
 holds(s_16488_jpg, restaurant).
 holds(s_16488_jpg, window).
 holds(s_16488_jpg, sign).
-holds(s_16488_jpg, table).
 holds(s_16488_jpg, vendingmachine).
 holds(s_16488_jpg, wallsign).
 holds(s_16488_jpg, chimney).
@@ -6110,7 +6127,6 @@ holds(s_16489_jpg, building).
 holds(s_16489_jpg, feature).
 holds(s_16489_jpg, powerplant).
 holds(s_16489_jpg, door).
-holds(s_16489_jpg, table).
 holds(s_16489_jpg, chimney).
 holds(s_16489_jpg, pipe).
 holds(s_16489_jpg, industrial).
@@ -6122,6 +6138,7 @@ holds(s_16490_jpg, suburban).
 holds(s_16490_jpg, miscresidential).
 holds(s_16490_jpg, porch).
 holds(s_16490_jpg, sign).
+holds(s_16490_jpg, table).
 holds(s_16490_jpg, tiledroof).
 holds(s_16490_jpg, tiledrooftop).
 holds(s_16490_jpg, residential).
@@ -6148,6 +6165,7 @@ holds(s_16492_jpg, feature).
 holds(s_16492_jpg, powerplant).
 holds(s_16492_jpg, door).
 holds(s_16492_jpg, awning).
+holds(s_16492_jpg, table).
 holds(s_16492_jpg, chimney).
 holds(s_16492_jpg, pipe).
 holds(s_16492_jpg, industrial).
@@ -6171,7 +6189,6 @@ holds(s_16494_jpg, misccommercial).
 holds(s_16494_jpg, door).
 holds(s_16494_jpg, awning).
 holds(s_16494_jpg, billboard).
-holds(s_16494_jpg, table).
 holds(s_16494_jpg, tiledroof).
 holds(s_16494_jpg, tiledrooftop).
 holds(s_16494_jpg, chimney).
@@ -6184,7 +6201,6 @@ holds(s_16495_jpg, constructionsite).
 holds(s_16495_jpg, powerplant).
 holds(s_16495_jpg, window).
 holds(s_16495_jpg, sign).
-holds(s_16495_jpg, table).
 holds(s_16495_jpg, chimney).
 holds(s_16495_jpg, pipe).
 holds(s_16495_jpg, machine).
@@ -6198,6 +6214,7 @@ holds(s_16496_jpg, countryhouse).
 holds(s_16496_jpg, door).
 holds(s_16496_jpg, window).
 holds(s_16496_jpg, awning).
+holds(s_16496_jpg, table).
 holds(s_16496_jpg, tiledroof).
 holds(s_16496_jpg, tiledrooftop).
 holds(s_16496_jpg, car).
@@ -6225,7 +6242,6 @@ holds(s_16498_jpg, building).
 holds(s_16498_jpg, feature).
 holds(s_16498_jpg, constructionsite).
 holds(s_16498_jpg, door).
-holds(s_16498_jpg, table).
 holds(s_16498_jpg, pipe).
 holds(s_16498_jpg, machine).
 holds(s_16498_jpg, industrial).
@@ -6306,6 +6322,7 @@ holds(s_16504_jpg, constructionsite).
 holds(s_16504_jpg, powerplant).
 holds(s_16504_jpg, door).
 holds(s_16504_jpg, sign).
+holds(s_16504_jpg, table).
 holds(s_16504_jpg, chimney).
 holds(s_16504_jpg, pipe).
 holds(s_16504_jpg, machine).
@@ -6318,6 +6335,7 @@ holds(s_16505_jpg, suburban).
 holds(s_16505_jpg, miscresidential).
 holds(s_16505_jpg, window).
 holds(s_16505_jpg, porch).
+holds(s_16505_jpg, table).
 holds(s_16505_jpg, tiledroof).
 holds(s_16505_jpg, tiledrooftop).
 holds(s_16505_jpg, residential).
@@ -6331,7 +6349,6 @@ holds(s_16506_jpg, store).
 holds(s_16506_jpg, window).
 holds(s_16506_jpg, billboard).
 holds(s_16506_jpg, sign).
-holds(s_16506_jpg, table).
 holds(s_16506_jpg, vendingmachine).
 holds(s_16506_jpg, wallsign).
 holds(s_16506_jpg, statue).
@@ -6343,7 +6360,6 @@ holds(s_16507_jpg, feature).
 holds(s_16507_jpg, constructionsite).
 holds(s_16507_jpg, powerplant).
 holds(s_16507_jpg, window).
-holds(s_16507_jpg, table).
 holds(s_16507_jpg, chimney).
 holds(s_16507_jpg, pipe).
 holds(s_16507_jpg, machine).
@@ -6368,6 +6384,7 @@ holds(s_16509_jpg, misccommercial).
 holds(s_16509_jpg, window).
 holds(s_16509_jpg, awning).
 holds(s_16509_jpg, billboard).
+holds(s_16509_jpg, table).
 holds(s_16509_jpg, tiledroof).
 holds(s_16509_jpg, tiledrooftop).
 holds(s_16509_jpg, wallsign).
@@ -6416,7 +6433,6 @@ holds(s_16513_jpg, powerplant).
 holds(s_16513_jpg, window).
 holds(s_16513_jpg, awning).
 holds(s_16513_jpg, sign).
-holds(s_16513_jpg, table).
 holds(s_16513_jpg, chimney).
 holds(s_16513_jpg, pipe).
 holds(s_16513_jpg, industrial).
@@ -6438,7 +6454,6 @@ holds(s_16515_jpg, cafe).
 holds(s_16515_jpg, restaurant).
 holds(s_16515_jpg, window).
 holds(s_16515_jpg, sign).
-holds(s_16515_jpg, table).
 holds(s_16515_jpg, vendingmachine).
 holds(s_16515_jpg, car).
 holds(s_16515_jpg, commercial).
@@ -6450,6 +6465,7 @@ holds(s_16516_jpg, constructionsite).
 holds(s_16516_jpg, door).
 holds(s_16516_jpg, window).
 holds(s_16516_jpg, sign).
+holds(s_16516_jpg, table).
 holds(s_16516_jpg, chimney).
 holds(s_16516_jpg, machine).
 holds(s_16516_jpg, industrial).
@@ -6476,6 +6492,7 @@ holds(s_16518_jpg, window).
 holds(s_16518_jpg, awning).
 holds(s_16518_jpg, billboard).
 holds(s_16518_jpg, sign).
+holds(s_16518_jpg, table).
 holds(s_16518_jpg, wallsign).
 holds(s_16518_jpg, statue).
 holds(s_16518_jpg, pipe).
@@ -6487,6 +6504,7 @@ holds(s_16519_jpg, feature).
 holds(s_16519_jpg, powerplant).
 holds(s_16519_jpg, door).
 holds(s_16519_jpg, awning).
+holds(s_16519_jpg, table).
 holds(s_16519_jpg, chimney).
 holds(s_16519_jpg, pipe).
 holds(s_16519_jpg, industrial).
@@ -6498,7 +6516,6 @@ holds(s_16520_jpg, suburban).
 holds(s_16520_jpg, miscresidential).
 holds(s_16520_jpg, window).
 holds(s_16520_jpg, porch).
-holds(s_16520_jpg, table).
 holds(s_16520_jpg, tiledroof).
 holds(s_16520_jpg, tiledrooftop).
 holds(s_16520_jpg, residential).
@@ -6512,6 +6529,7 @@ holds(s_16521_jpg, misccommercial).
 holds(s_16521_jpg, window).
 holds(s_16521_jpg, awning).
 holds(s_16521_jpg, billboard).
+holds(s_16521_jpg, table).
 holds(s_16521_jpg, wallsign).
 holds(s_16521_jpg, pipe).
 holds(s_16521_jpg, commercial).
@@ -6563,7 +6581,6 @@ holds(s_16526_jpg, feature).
 holds(s_16526_jpg, miscresidential).
 holds(s_16526_jpg, door).
 holds(s_16526_jpg, awning).
-holds(s_16526_jpg, table).
 holds(s_16526_jpg, tiledroof).
 holds(s_16526_jpg, tiledrooftop).
 holds(s_16526_jpg, truck).
@@ -6602,7 +6619,6 @@ holds(s_16529_jpg, feature).
 holds(s_16529_jpg, miscresidential).
 holds(s_16529_jpg, countryhouse).
 holds(s_16529_jpg, door).
-holds(s_16529_jpg, table).
 holds(s_16529_jpg, tiledroof).
 holds(s_16529_jpg, tiledrooftop).
 holds(s_16529_jpg, car).
@@ -6615,6 +6631,7 @@ holds(s_16530_jpg, cafe).
 holds(s_16530_jpg, store).
 holds(s_16530_jpg, window).
 holds(s_16530_jpg, billboard).
+holds(s_16530_jpg, table).
 holds(s_16530_jpg, statue).
 holds(s_16530_jpg, car).
 holds(s_16530_jpg, commercial).
@@ -6657,6 +6674,7 @@ holds(s_16533_jpg, door).
 holds(s_16533_jpg, awning).
 holds(s_16533_jpg, billboard).
 holds(s_16533_jpg, sign).
+holds(s_16533_jpg, table).
 holds(s_16533_jpg, tiledroof).
 holds(s_16533_jpg, tiledrooftop).
 holds(s_16533_jpg, wallsign).
@@ -6669,7 +6687,6 @@ holds(s_16534_jpg, feature).
 holds(s_16534_jpg, constructionsite).
 holds(s_16534_jpg, door).
 holds(s_16534_jpg, sign).
-holds(s_16534_jpg, table).
 holds(s_16534_jpg, machine).
 holds(s_16534_jpg, industrial).
 
@@ -6694,6 +6711,7 @@ holds(s_16536_jpg, feature).
 holds(s_16536_jpg, cafe).
 holds(s_16536_jpg, hotel).
 holds(s_16536_jpg, door).
+holds(s_16536_jpg, table).
 holds(s_16536_jpg, vendingmachine).
 holds(s_16536_jpg, wallsign).
 holds(s_16536_jpg, commercial).
@@ -6704,6 +6722,7 @@ holds(s_16537_jpg, feature).
 holds(s_16537_jpg, miscindustrial).
 holds(s_16537_jpg, powerplant).
 holds(s_16537_jpg, watertreatment).
+holds(s_16537_jpg, table).
 holds(s_16537_jpg, chimney).
 holds(s_16537_jpg, pipe).
 holds(s_16537_jpg, truck).
@@ -6731,6 +6750,7 @@ holds(s_16539_jpg, window).
 holds(s_16539_jpg, awning).
 holds(s_16539_jpg, billboard).
 holds(s_16539_jpg, sign).
+holds(s_16539_jpg, table).
 holds(s_16539_jpg, vendingmachine).
 holds(s_16539_jpg, commercial).
 
@@ -6754,6 +6774,7 @@ holds(s_16541_jpg, countryhouse).
 holds(s_16541_jpg, door).
 holds(s_16541_jpg, window).
 holds(s_16541_jpg, awning).
+holds(s_16541_jpg, table).
 holds(s_16541_jpg, tiledroof).
 holds(s_16541_jpg, tiledrooftop).
 holds(s_16541_jpg, car).
@@ -6770,6 +6791,7 @@ holds(s_16542_jpg, window).
 holds(s_16542_jpg, awning).
 holds(s_16542_jpg, billboard).
 holds(s_16542_jpg, sign).
+holds(s_16542_jpg, table).
 holds(s_16542_jpg, tiledroof).
 holds(s_16542_jpg, wallsign).
 holds(s_16542_jpg, statue).
@@ -6815,7 +6837,6 @@ holds(s_16545_jpg, window).
 holds(s_16545_jpg, awning).
 holds(s_16545_jpg, billboard).
 holds(s_16545_jpg, sign).
-holds(s_16545_jpg, table).
 holds(s_16545_jpg, tiledroof).
 holds(s_16545_jpg, tiledrooftop).
 holds(s_16545_jpg, vendingmachine).
@@ -6830,7 +6851,6 @@ holds(s_16546_jpg, miscindustrial).
 holds(s_16546_jpg, watertreatment).
 holds(s_16546_jpg, door).
 holds(s_16546_jpg, window).
-holds(s_16546_jpg, table).
 holds(s_16546_jpg, pipe).
 holds(s_16546_jpg, truck).
 holds(s_16546_jpg, industrial).
@@ -6856,7 +6876,6 @@ holds(s_16548_jpg, misccommercial).
 holds(s_16548_jpg, window).
 holds(s_16548_jpg, awning).
 holds(s_16548_jpg, billboard).
-holds(s_16548_jpg, table).
 holds(s_16548_jpg, tiledroof).
 holds(s_16548_jpg, tiledrooftop).
 holds(s_16548_jpg, commercial).
@@ -6868,6 +6887,7 @@ holds(s_16549_jpg, constructionsite).
 holds(s_16549_jpg, door).
 holds(s_16549_jpg, window).
 holds(s_16549_jpg, sign).
+holds(s_16549_jpg, table).
 holds(s_16549_jpg, machine).
 holds(s_16549_jpg, industrial).
 
@@ -6895,7 +6915,6 @@ holds(s_16551_jpg, door).
 holds(s_16551_jpg, window).
 holds(s_16551_jpg, awning).
 holds(s_16551_jpg, sign).
-holds(s_16551_jpg, table).
 holds(s_16551_jpg, vendingmachine).
 holds(s_16551_jpg, commercial).
 
@@ -6942,6 +6961,7 @@ holds(s_16555_jpg, feature).
 holds(s_16555_jpg, constructionsite).
 holds(s_16555_jpg, door).
 holds(s_16555_jpg, sign).
+holds(s_16555_jpg, table).
 holds(s_16555_jpg, machine).
 holds(s_16555_jpg, industrial).
 
@@ -6964,6 +6984,7 @@ holds(s_16557_jpg, door).
 holds(s_16557_jpg, window).
 holds(s_16557_jpg, awning).
 holds(s_16557_jpg, sign).
+holds(s_16557_jpg, table).
 holds(s_16557_jpg, vendingmachine).
 holds(s_16557_jpg, commercial).
 
@@ -6972,7 +6993,6 @@ holds(s_16558_jpg, building).
 holds(s_16558_jpg, feature).
 holds(s_16558_jpg, powerplant).
 holds(s_16558_jpg, door).
-holds(s_16558_jpg, table).
 holds(s_16558_jpg, chimney).
 holds(s_16558_jpg, pipe).
 holds(s_16558_jpg, car).
@@ -6985,6 +7005,7 @@ holds(s_16559_jpg, suburban).
 holds(s_16559_jpg, door).
 holds(s_16559_jpg, window).
 holds(s_16559_jpg, porch).
+holds(s_16559_jpg, table).
 holds(s_16559_jpg, car).
 holds(s_16559_jpg, residential).
 
@@ -7009,7 +7030,6 @@ holds(s_16561_jpg, feature).
 holds(s_16561_jpg, powerplant).
 holds(s_16561_jpg, door).
 holds(s_16561_jpg, window).
-holds(s_16561_jpg, table).
 holds(s_16561_jpg, chimney).
 holds(s_16561_jpg, pipe).
 holds(s_16561_jpg, industrial).
@@ -7029,6 +7049,7 @@ holds(s_16563_jpg, cafe).
 holds(s_16563_jpg, misccommercial).
 holds(s_16563_jpg, window).
 holds(s_16563_jpg, awning).
+holds(s_16563_jpg, table).
 holds(s_16563_jpg, vendingmachine).
 holds(s_16563_jpg, commercial).
 
@@ -7037,6 +7058,7 @@ holds(s_16564_jpg, building).
 holds(s_16564_jpg, feature).
 holds(s_16564_jpg, powerplant).
 holds(s_16564_jpg, window).
+holds(s_16564_jpg, table).
 holds(s_16564_jpg, chimney).
 holds(s_16564_jpg, pipe).
 holds(s_16564_jpg, industrial).
@@ -7086,7 +7108,6 @@ holds(s_16568_jpg, door).
 holds(s_16568_jpg, window).
 holds(s_16568_jpg, awning).
 holds(s_16568_jpg, sign).
-holds(s_16568_jpg, table).
 holds(s_16568_jpg, tiledroof).
 holds(s_16568_jpg, tiledrooftop).
 holds(s_16568_jpg, residential).
@@ -7112,7 +7133,6 @@ holds(s_16570_jpg, feature).
 holds(s_16570_jpg, miscindustrial).
 holds(s_16570_jpg, watertreatment).
 holds(s_16570_jpg, door).
-holds(s_16570_jpg, table).
 holds(s_16570_jpg, pipe).
 holds(s_16570_jpg, truck).
 holds(s_16570_jpg, industrial).
@@ -7124,6 +7144,7 @@ holds(s_16571_jpg, miscresidential).
 holds(s_16571_jpg, countryhouse).
 holds(s_16571_jpg, door).
 holds(s_16571_jpg, window).
+holds(s_16571_jpg, table).
 holds(s_16571_jpg, tiledroof).
 holds(s_16571_jpg, tiledrooftop).
 holds(s_16571_jpg, car).
@@ -7168,6 +7189,7 @@ holds(s_16575_jpg, feature).
 holds(s_16575_jpg, hotel).
 holds(s_16575_jpg, restaurant).
 holds(s_16575_jpg, sign).
+holds(s_16575_jpg, table).
 holds(s_16575_jpg, wallsign).
 holds(s_16575_jpg, truck).
 holds(s_16575_jpg, commercial).
@@ -7189,7 +7211,6 @@ holds(s_16577_jpg, building).
 holds(s_16577_jpg, feature).
 holds(s_16577_jpg, miscresidential).
 holds(s_16577_jpg, door).
-holds(s_16577_jpg, table).
 holds(s_16577_jpg, tiledroof).
 holds(s_16577_jpg, tiledrooftop).
 holds(s_16577_jpg, residential).
@@ -7229,6 +7250,7 @@ holds(s_16580_jpg, miscresidential).
 holds(s_16580_jpg, countryhouse).
 holds(s_16580_jpg, door).
 holds(s_16580_jpg, porch).
+holds(s_16580_jpg, table).
 holds(s_16580_jpg, tiledroof).
 holds(s_16580_jpg, tiledrooftop).
 holds(s_16580_jpg, car).
@@ -7253,6 +7275,7 @@ holds(s_16582_jpg, miscindustrial).
 holds(s_16582_jpg, powerplant).
 holds(s_16582_jpg, watertreatment).
 holds(s_16582_jpg, window).
+holds(s_16582_jpg, table).
 holds(s_16582_jpg, chimney).
 holds(s_16582_jpg, pipe).
 holds(s_16582_jpg, truck).
@@ -7264,6 +7287,7 @@ holds(s_16583_jpg, feature).
 holds(s_16583_jpg, miscresidential).
 holds(s_16583_jpg, countryhouse).
 holds(s_16583_jpg, door).
+holds(s_16583_jpg, table).
 holds(s_16583_jpg, tiledroof).
 holds(s_16583_jpg, tiledrooftop).
 holds(s_16583_jpg, car).
@@ -7279,6 +7303,7 @@ holds(s_16584_jpg, door).
 holds(s_16584_jpg, awning).
 holds(s_16584_jpg, billboard).
 holds(s_16584_jpg, sign).
+holds(s_16584_jpg, table).
 holds(s_16584_jpg, wallsign).
 holds(s_16584_jpg, truck).
 holds(s_16584_jpg, commercial).
@@ -7301,7 +7326,6 @@ holds(s_16586_jpg, miscresidential).
 holds(s_16586_jpg, door).
 holds(s_16586_jpg, porch).
 holds(s_16586_jpg, sign).
-holds(s_16586_jpg, table).
 holds(s_16586_jpg, tiledroof).
 holds(s_16586_jpg, tiledrooftop).
 holds(s_16586_jpg, residential).
@@ -7327,7 +7351,6 @@ holds(s_16588_jpg, miscindustrial).
 holds(s_16588_jpg, watertreatment).
 holds(s_16588_jpg, door).
 holds(s_16588_jpg, window).
-holds(s_16588_jpg, table).
 holds(s_16588_jpg, pipe).
 holds(s_16588_jpg, truck).
 holds(s_16588_jpg, industrial).
@@ -7411,7 +7434,6 @@ holds(s_16595_jpg, suburban).
 holds(s_16595_jpg, miscresidential).
 holds(s_16595_jpg, door).
 holds(s_16595_jpg, porch).
-holds(s_16595_jpg, table).
 holds(s_16595_jpg, tiledroof).
 holds(s_16595_jpg, tiledrooftop).
 holds(s_16595_jpg, residential).
@@ -7429,7 +7451,6 @@ holds(s_16596_jpg, window).
 holds(s_16596_jpg, awning).
 holds(s_16596_jpg, billboard).
 holds(s_16596_jpg, sign).
-holds(s_16596_jpg, table).
 holds(s_16596_jpg, tiledroof).
 holds(s_16596_jpg, tiledrooftop).
 holds(s_16596_jpg, vendingmachine).
@@ -7455,7 +7476,6 @@ holds(s_16598_jpg, miscresidential).
 holds(s_16598_jpg, door).
 holds(s_16598_jpg, awning).
 holds(s_16598_jpg, porch).
-holds(s_16598_jpg, table).
 holds(s_16598_jpg, tiledroof).
 holds(s_16598_jpg, tiledrooftop).
 holds(s_16598_jpg, truck).
@@ -7472,7 +7492,6 @@ holds(s_16599_jpg, door).
 holds(s_16599_jpg, window).
 holds(s_16599_jpg, awning).
 holds(s_16599_jpg, billboard).
-holds(s_16599_jpg, table).
 holds(s_16599_jpg, tiledroof).
 holds(s_16599_jpg, tiledrooftop).
 holds(s_16599_jpg, vendingmachine).
@@ -7484,7 +7503,6 @@ holds(s_16600_jpg, building).
 holds(s_16600_jpg, feature).
 holds(s_16600_jpg, miscindustrial).
 holds(s_16600_jpg, watertreatment).
-holds(s_16600_jpg, table).
 holds(s_16600_jpg, pipe).
 holds(s_16600_jpg, truck).
 holds(s_16600_jpg, industrial).
@@ -7497,6 +7515,7 @@ holds(s_16601_jpg, miscresidential).
 holds(s_16601_jpg, door).
 holds(s_16601_jpg, window).
 holds(s_16601_jpg, porch).
+holds(s_16601_jpg, table).
 holds(s_16601_jpg, tiledroof).
 holds(s_16601_jpg, tiledrooftop).
 holds(s_16601_jpg, residential).
@@ -7523,7 +7542,6 @@ holds(s_16603_jpg, building).
 holds(s_16603_jpg, feature).
 holds(s_16603_jpg, miscindustrial).
 holds(s_16603_jpg, watertreatment).
-holds(s_16603_jpg, table).
 holds(s_16603_jpg, pipe).
 holds(s_16603_jpg, truck).
 holds(s_16603_jpg, industrial).
@@ -7533,7 +7551,6 @@ holds(s_16604_jpg, building).
 holds(s_16604_jpg, feature).
 holds(s_16604_jpg, miscresidential).
 holds(s_16604_jpg, countryhouse).
-holds(s_16604_jpg, table).
 holds(s_16604_jpg, tiledroof).
 holds(s_16604_jpg, tiledrooftop).
 holds(s_16604_jpg, car).
@@ -7556,6 +7573,7 @@ holds(s_16606_jpg, building).
 holds(s_16606_jpg, feature).
 holds(s_16606_jpg, constructionsite).
 holds(s_16606_jpg, door).
+holds(s_16606_jpg, table).
 holds(s_16606_jpg, chimney).
 holds(s_16606_jpg, machine).
 holds(s_16606_jpg, industrial).
@@ -7568,7 +7586,6 @@ holds(s_16607_jpg, countryhouse).
 holds(s_16607_jpg, door).
 holds(s_16607_jpg, window).
 holds(s_16607_jpg, awning).
-holds(s_16607_jpg, table).
 holds(s_16607_jpg, tiledroof).
 holds(s_16607_jpg, tiledrooftop).
 holds(s_16607_jpg, car).
@@ -7606,7 +7623,6 @@ holds(s_16610_jpg, window).
 holds(s_16610_jpg, awning).
 holds(s_16610_jpg, porch).
 holds(s_16610_jpg, sign).
-holds(s_16610_jpg, table).
 holds(s_16610_jpg, residential).
 
 sample(s_16611_jpg).
@@ -7627,6 +7643,7 @@ holds(s_16612_jpg, watertreatment).
 holds(s_16612_jpg, door).
 holds(s_16612_jpg, window).
 holds(s_16612_jpg, awning).
+holds(s_16612_jpg, table).
 holds(s_16612_jpg, chimney).
 holds(s_16612_jpg, pipe).
 holds(s_16612_jpg, truck).
@@ -7680,6 +7697,7 @@ holds(s_16616_jpg, door).
 holds(s_16616_jpg, window).
 holds(s_16616_jpg, porch).
 holds(s_16616_jpg, sign).
+holds(s_16616_jpg, table).
 holds(s_16616_jpg, tiledroof).
 holds(s_16616_jpg, tiledrooftop).
 holds(s_16616_jpg, residential).
@@ -7695,7 +7713,6 @@ holds(s_16617_jpg, door).
 holds(s_16617_jpg, awning).
 holds(s_16617_jpg, billboard).
 holds(s_16617_jpg, sign).
-holds(s_16617_jpg, table).
 holds(s_16617_jpg, tiledroof).
 holds(s_16617_jpg, tiledrooftop).
 holds(s_16617_jpg, wallsign).
@@ -7746,6 +7763,7 @@ holds(s_16621_jpg, feature).
 holds(s_16621_jpg, miscindustrial).
 holds(s_16621_jpg, watertreatment).
 holds(s_16621_jpg, door).
+holds(s_16621_jpg, table).
 holds(s_16621_jpg, pipe).
 holds(s_16621_jpg, truck).
 holds(s_16621_jpg, industrial).
@@ -7770,7 +7788,6 @@ holds(s_16623_jpg, store).
 holds(s_16623_jpg, door).
 holds(s_16623_jpg, window).
 holds(s_16623_jpg, billboard).
-holds(s_16623_jpg, table).
 holds(s_16623_jpg, statue).
 holds(s_16623_jpg, car).
 holds(s_16623_jpg, commercial).
@@ -7782,7 +7799,6 @@ holds(s_16624_jpg, powerplant).
 holds(s_16624_jpg, door).
 holds(s_16624_jpg, window).
 holds(s_16624_jpg, sign).
-holds(s_16624_jpg, table).
 holds(s_16624_jpg, chimney).
 holds(s_16624_jpg, pipe).
 holds(s_16624_jpg, industrial).
@@ -7809,7 +7825,6 @@ holds(s_16626_jpg, misccommercial).
 holds(s_16626_jpg, window).
 holds(s_16626_jpg, awning).
 holds(s_16626_jpg, billboard).
-holds(s_16626_jpg, table).
 holds(s_16626_jpg, statue).
 holds(s_16626_jpg, pipe).
 holds(s_16626_jpg, car).
@@ -7839,7 +7854,6 @@ holds(s_16628_jpg, door).
 holds(s_16628_jpg, window).
 holds(s_16628_jpg, awning).
 holds(s_16628_jpg, porch).
-holds(s_16628_jpg, table).
 holds(s_16628_jpg, tiledroof).
 holds(s_16628_jpg, tiledrooftop).
 holds(s_16628_jpg, residential).
@@ -7853,7 +7867,6 @@ holds(s_16629_jpg, restaurant).
 holds(s_16629_jpg, window).
 holds(s_16629_jpg, awning).
 holds(s_16629_jpg, sign).
-holds(s_16629_jpg, table).
 holds(s_16629_jpg, vendingmachine).
 holds(s_16629_jpg, wallsign).
 holds(s_16629_jpg, pipe).
@@ -7881,7 +7894,6 @@ holds(s_16631_jpg, countryhouse).
 holds(s_16631_jpg, door).
 holds(s_16631_jpg, awning).
 holds(s_16631_jpg, porch).
-holds(s_16631_jpg, table).
 holds(s_16631_jpg, tiledroof).
 holds(s_16631_jpg, tiledrooftop).
 holds(s_16631_jpg, car).
@@ -7910,6 +7922,7 @@ holds(s_16633_jpg, powerplant).
 holds(s_16633_jpg, door).
 holds(s_16633_jpg, window).
 holds(s_16633_jpg, awning).
+holds(s_16633_jpg, table).
 holds(s_16633_jpg, chimney).
 holds(s_16633_jpg, pipe).
 holds(s_16633_jpg, industrial).
@@ -7919,6 +7932,7 @@ holds(s_16634_jpg, building).
 holds(s_16634_jpg, feature).
 holds(s_16634_jpg, miscresidential).
 holds(s_16634_jpg, countryhouse).
+holds(s_16634_jpg, table).
 holds(s_16634_jpg, tiledroof).
 holds(s_16634_jpg, tiledrooftop).
 holds(s_16634_jpg, car).
@@ -7945,7 +7959,6 @@ holds(s_16636_jpg, miscindustrial).
 holds(s_16636_jpg, powerplant).
 holds(s_16636_jpg, watertreatment).
 holds(s_16636_jpg, window).
-holds(s_16636_jpg, table).
 holds(s_16636_jpg, chimney).
 holds(s_16636_jpg, pipe).
 holds(s_16636_jpg, truck).
@@ -7958,7 +7971,6 @@ holds(s_16637_jpg, miscresidential).
 holds(s_16637_jpg, countryhouse).
 holds(s_16637_jpg, window).
 holds(s_16637_jpg, awning).
-holds(s_16637_jpg, table).
 holds(s_16637_jpg, tiledroof).
 holds(s_16637_jpg, tiledrooftop).
 holds(s_16637_jpg, car).
@@ -8026,6 +8038,7 @@ holds(s_16642_jpg, feature).
 holds(s_16642_jpg, powerplant).
 holds(s_16642_jpg, door).
 holds(s_16642_jpg, window).
+holds(s_16642_jpg, table).
 holds(s_16642_jpg, chimney).
 holds(s_16642_jpg, pipe).
 holds(s_16642_jpg, industrial).
@@ -8047,6 +8060,7 @@ holds(s_16644_jpg, cafe).
 holds(s_16644_jpg, hotel).
 holds(s_16644_jpg, door).
 holds(s_16644_jpg, window).
+holds(s_16644_jpg, table).
 holds(s_16644_jpg, wallsign).
 holds(s_16644_jpg, statue).
 holds(s_16644_jpg, truck).
@@ -8073,6 +8087,7 @@ holds(s_16646_jpg, door).
 holds(s_16646_jpg, window).
 holds(s_16646_jpg, awning).
 holds(s_16646_jpg, porch).
+holds(s_16646_jpg, table).
 holds(s_16646_jpg, tiledroof).
 holds(s_16646_jpg, tiledrooftop).
 holds(s_16646_jpg, residential).
@@ -8098,7 +8113,6 @@ holds(s_16648_jpg, feature).
 holds(s_16648_jpg, miscindustrial).
 holds(s_16648_jpg, watertreatment).
 holds(s_16648_jpg, window).
-holds(s_16648_jpg, table).
 holds(s_16648_jpg, pipe).
 holds(s_16648_jpg, truck).
 holds(s_16648_jpg, industrial).
@@ -8110,6 +8124,7 @@ holds(s_16649_jpg, suburban).
 holds(s_16649_jpg, miscresidential).
 holds(s_16649_jpg, door).
 holds(s_16649_jpg, porch).
+holds(s_16649_jpg, table).
 holds(s_16649_jpg, tiledroof).
 holds(s_16649_jpg, tiledrooftop).
 holds(s_16649_jpg, residential).
@@ -8168,7 +8183,6 @@ holds(s_16654_jpg, feature).
 holds(s_16654_jpg, watertreatment).
 holds(s_16654_jpg, window).
 holds(s_16654_jpg, awning).
-holds(s_16654_jpg, table).
 holds(s_16654_jpg, pipe).
 holds(s_16654_jpg, truck).
 holds(s_16654_jpg, industrial).
@@ -8181,6 +8195,7 @@ holds(s_16655_jpg, countryhouse).
 holds(s_16655_jpg, door).
 holds(s_16655_jpg, window).
 holds(s_16655_jpg, awning).
+holds(s_16655_jpg, table).
 holds(s_16655_jpg, tiledroof).
 holds(s_16655_jpg, tiledrooftop).
 holds(s_16655_jpg, car).
@@ -8199,7 +8214,6 @@ holds(s_16656_jpg, window).
 holds(s_16656_jpg, awning).
 holds(s_16656_jpg, billboard).
 holds(s_16656_jpg, sign).
-holds(s_16656_jpg, table).
 holds(s_16656_jpg, vendingmachine).
 holds(s_16656_jpg, wallsign).
 holds(s_16656_jpg, chimney).
@@ -8212,6 +8226,7 @@ holds(s_16657_jpg, feature).
 holds(s_16657_jpg, powerplant).
 holds(s_16657_jpg, door).
 holds(s_16657_jpg, window).
+holds(s_16657_jpg, table).
 holds(s_16657_jpg, chimney).
 holds(s_16657_jpg, pipe).
 holds(s_16657_jpg, industrial).
@@ -8238,7 +8253,6 @@ holds(s_16659_jpg, door).
 holds(s_16659_jpg, awning).
 holds(s_16659_jpg, billboard).
 holds(s_16659_jpg, sign).
-holds(s_16659_jpg, table).
 holds(s_16659_jpg, statue).
 holds(s_16659_jpg, truck).
 holds(s_16659_jpg, commercial).
@@ -8251,7 +8265,6 @@ holds(s_16660_jpg, powerplant).
 holds(s_16660_jpg, watertreatment).
 holds(s_16660_jpg, door).
 holds(s_16660_jpg, window).
-holds(s_16660_jpg, table).
 holds(s_16660_jpg, chimney).
 holds(s_16660_jpg, pipe).
 holds(s_16660_jpg, truck).
@@ -8263,6 +8276,7 @@ holds(s_16661_jpg, feature).
 holds(s_16661_jpg, miscresidential).
 holds(s_16661_jpg, countryhouse).
 holds(s_16661_jpg, window).
+holds(s_16661_jpg, table).
 holds(s_16661_jpg, tiledroof).
 holds(s_16661_jpg, tiledrooftop).
 holds(s_16661_jpg, car).
@@ -8277,6 +8291,7 @@ holds(s_16662_jpg, store).
 holds(s_16662_jpg, door).
 holds(s_16662_jpg, billboard).
 holds(s_16662_jpg, sign).
+holds(s_16662_jpg, table).
 holds(s_16662_jpg, wallsign).
 holds(s_16662_jpg, chimney).
 holds(s_16662_jpg, truck).
@@ -8320,7 +8335,6 @@ holds(s_16665_jpg, door).
 holds(s_16665_jpg, window).
 holds(s_16665_jpg, awning).
 holds(s_16665_jpg, billboard).
-holds(s_16665_jpg, table).
 holds(s_16665_jpg, vendingmachine).
 holds(s_16665_jpg, commercial).
 
@@ -8343,6 +8357,7 @@ holds(s_16667_jpg, feature).
 holds(s_16667_jpg, suburban).
 holds(s_16667_jpg, window).
 holds(s_16667_jpg, porch).
+holds(s_16667_jpg, table).
 holds(s_16667_jpg, residential).
 
 sample(s_16668_jpg).
@@ -8362,6 +8377,7 @@ holds(s_16669_jpg, building).
 holds(s_16669_jpg, feature).
 holds(s_16669_jpg, constructionsite).
 holds(s_16669_jpg, door).
+holds(s_16669_jpg, table).
 holds(s_16669_jpg, chimney).
 holds(s_16669_jpg, machine).
 holds(s_16669_jpg, industrial).
@@ -8374,6 +8390,7 @@ holds(s_16670_jpg, countryhouse).
 holds(s_16670_jpg, door).
 holds(s_16670_jpg, window).
 holds(s_16670_jpg, awning).
+holds(s_16670_jpg, table).
 holds(s_16670_jpg, tiledroof).
 holds(s_16670_jpg, tiledrooftop).
 holds(s_16670_jpg, car).
@@ -8395,6 +8412,7 @@ holds(s_16672_jpg, feature).
 holds(s_16672_jpg, miscindustrial).
 holds(s_16672_jpg, watertreatment).
 holds(s_16672_jpg, door).
+holds(s_16672_jpg, table).
 holds(s_16672_jpg, pipe).
 holds(s_16672_jpg, truck).
 holds(s_16672_jpg, industrial).
@@ -8407,6 +8425,7 @@ holds(s_16673_jpg, miscresidential).
 holds(s_16673_jpg, countryhouse).
 holds(s_16673_jpg, window).
 holds(s_16673_jpg, porch).
+holds(s_16673_jpg, table).
 holds(s_16673_jpg, tiledroof).
 holds(s_16673_jpg, tiledrooftop).
 holds(s_16673_jpg, car).
@@ -8420,6 +8439,7 @@ holds(s_16674_jpg, hotel).
 holds(s_16674_jpg, misccommercial).
 holds(s_16674_jpg, window).
 holds(s_16674_jpg, awning).
+holds(s_16674_jpg, table).
 holds(s_16674_jpg, vendingmachine).
 holds(s_16674_jpg, wallsign).
 holds(s_16674_jpg, truck).
@@ -8432,6 +8452,7 @@ holds(s_16675_jpg, miscindustrial).
 holds(s_16675_jpg, powerplant).
 holds(s_16675_jpg, watertreatment).
 holds(s_16675_jpg, window).
+holds(s_16675_jpg, table).
 holds(s_16675_jpg, chimney).
 holds(s_16675_jpg, pipe).
 holds(s_16675_jpg, truck).
@@ -8443,6 +8464,7 @@ holds(s_16676_jpg, feature).
 holds(s_16676_jpg, miscresidential).
 holds(s_16676_jpg, window).
 holds(s_16676_jpg, awning).
+holds(s_16676_jpg, table).
 holds(s_16676_jpg, tiledroof).
 holds(s_16676_jpg, tiledrooftop).
 holds(s_16676_jpg, residential).
@@ -8492,7 +8514,6 @@ holds(s_16680_jpg, cafe).
 holds(s_16680_jpg, store).
 holds(s_16680_jpg, window).
 holds(s_16680_jpg, billboard).
-holds(s_16680_jpg, table).
 holds(s_16680_jpg, vendingmachine).
 holds(s_16680_jpg, chimney).
 holds(s_16680_jpg, truck).
@@ -8504,6 +8525,7 @@ holds(s_16681_jpg, feature).
 holds(s_16681_jpg, constructionsite).
 holds(s_16681_jpg, powerplant).
 holds(s_16681_jpg, door).
+holds(s_16681_jpg, table).
 holds(s_16681_jpg, chimney).
 holds(s_16681_jpg, pipe).
 holds(s_16681_jpg, machine).
@@ -8515,7 +8537,6 @@ holds(s_16682_jpg, feature).
 holds(s_16682_jpg, miscresidential).
 holds(s_16682_jpg, door).
 holds(s_16682_jpg, sign).
-holds(s_16682_jpg, table).
 holds(s_16682_jpg, tiledroof).
 holds(s_16682_jpg, tiledrooftop).
 holds(s_16682_jpg, residential).
@@ -8527,7 +8548,6 @@ holds(s_16683_jpg, store).
 holds(s_16683_jpg, window).
 holds(s_16683_jpg, awning).
 holds(s_16683_jpg, billboard).
-holds(s_16683_jpg, table).
 holds(s_16683_jpg, chimney).
 holds(s_16683_jpg, commercial).
 
@@ -8567,6 +8587,7 @@ holds(s_16686_jpg, window).
 holds(s_16686_jpg, awning).
 holds(s_16686_jpg, billboard).
 holds(s_16686_jpg, sign).
+holds(s_16686_jpg, table).
 holds(s_16686_jpg, truck).
 holds(s_16686_jpg, commercial).
 
@@ -8575,6 +8596,7 @@ holds(s_16687_jpg, building).
 holds(s_16687_jpg, feature).
 holds(s_16687_jpg, constructionsite).
 holds(s_16687_jpg, door).
+holds(s_16687_jpg, table).
 holds(s_16687_jpg, pipe).
 holds(s_16687_jpg, machine).
 holds(s_16687_jpg, industrial).
@@ -8604,7 +8626,6 @@ holds(s_16689_jpg, door).
 holds(s_16689_jpg, awning).
 holds(s_16689_jpg, billboard).
 holds(s_16689_jpg, sign).
-holds(s_16689_jpg, table).
 holds(s_16689_jpg, vendingmachine).
 holds(s_16689_jpg, statue).
 holds(s_16689_jpg, commercial).
@@ -8629,7 +8650,6 @@ holds(s_16691_jpg, miscresidential).
 holds(s_16691_jpg, window).
 holds(s_16691_jpg, awning).
 holds(s_16691_jpg, porch).
-holds(s_16691_jpg, table).
 holds(s_16691_jpg, tiledroof).
 holds(s_16691_jpg, tiledrooftop).
 holds(s_16691_jpg, residential).
@@ -8644,7 +8664,6 @@ holds(s_16692_jpg, door).
 holds(s_16692_jpg, window).
 holds(s_16692_jpg, awning).
 holds(s_16692_jpg, billboard).
-holds(s_16692_jpg, table).
 holds(s_16692_jpg, tiledroof).
 holds(s_16692_jpg, vendingmachine).
 holds(s_16692_jpg, statue).
@@ -8669,6 +8688,7 @@ holds(s_16694_jpg, countryhouse).
 holds(s_16694_jpg, door).
 holds(s_16694_jpg, window).
 holds(s_16694_jpg, porch).
+holds(s_16694_jpg, table).
 holds(s_16694_jpg, tiledroof).
 holds(s_16694_jpg, tiledrooftop).
 holds(s_16694_jpg, car).
@@ -8716,6 +8736,7 @@ holds(s_16698_jpg, building).
 holds(s_16698_jpg, feature).
 holds(s_16698_jpg, cafe).
 holds(s_16698_jpg, door).
+holds(s_16698_jpg, table).
 holds(s_16698_jpg, vendingmachine).
 holds(s_16698_jpg, chimney).
 holds(s_16698_jpg, car).
@@ -8727,6 +8748,7 @@ holds(s_16699_jpg, feature).
 holds(s_16699_jpg, powerplant).
 holds(s_16699_jpg, door).
 holds(s_16699_jpg, window).
+holds(s_16699_jpg, table).
 holds(s_16699_jpg, chimney).
 holds(s_16699_jpg, pipe).
 holds(s_16699_jpg, industrial).
@@ -8739,7 +8761,6 @@ holds(s_16700_jpg, countryhouse).
 holds(s_16700_jpg, door).
 holds(s_16700_jpg, window).
 holds(s_16700_jpg, awning).
-holds(s_16700_jpg, table).
 holds(s_16700_jpg, tiledroof).
 holds(s_16700_jpg, tiledrooftop).
 holds(s_16700_jpg, car).
@@ -8754,6 +8775,7 @@ holds(s_16701_jpg, door).
 holds(s_16701_jpg, window).
 holds(s_16701_jpg, awning).
 holds(s_16701_jpg, sign).
+holds(s_16701_jpg, table).
 holds(s_16701_jpg, vendingmachine).
 holds(s_16701_jpg, truck).
 holds(s_16701_jpg, commercial).
@@ -8776,7 +8798,6 @@ holds(s_16703_jpg, countryhouse).
 holds(s_16703_jpg, door).
 holds(s_16703_jpg, window).
 holds(s_16703_jpg, awning).
-holds(s_16703_jpg, table).
 holds(s_16703_jpg, tiledroof).
 holds(s_16703_jpg, tiledrooftop).
 holds(s_16703_jpg, car).
@@ -8792,7 +8813,6 @@ holds(s_16704_jpg, door).
 holds(s_16704_jpg, window).
 holds(s_16704_jpg, awning).
 holds(s_16704_jpg, billboard).
-holds(s_16704_jpg, table).
 holds(s_16704_jpg, tiledroof).
 holds(s_16704_jpg, statue).
 holds(s_16704_jpg, commercial).
@@ -8804,6 +8824,7 @@ holds(s_16705_jpg, constructionsite).
 holds(s_16705_jpg, powerplant).
 holds(s_16705_jpg, window).
 holds(s_16705_jpg, awning).
+holds(s_16705_jpg, table).
 holds(s_16705_jpg, chimney).
 holds(s_16705_jpg, pipe).
 holds(s_16705_jpg, machine).
@@ -8827,6 +8848,7 @@ holds(s_16707_jpg, feature).
 holds(s_16707_jpg, cafe).
 holds(s_16707_jpg, hotel).
 holds(s_16707_jpg, window).
+holds(s_16707_jpg, table).
 holds(s_16707_jpg, vendingmachine).
 holds(s_16707_jpg, wallsign).
 holds(s_16707_jpg, statue).
@@ -8837,6 +8859,7 @@ holds(s_16708_jpg, building).
 holds(s_16708_jpg, feature).
 holds(s_16708_jpg, miscindustrial).
 holds(s_16708_jpg, watertreatment).
+holds(s_16708_jpg, table).
 holds(s_16708_jpg, pipe).
 holds(s_16708_jpg, truck).
 holds(s_16708_jpg, industrial).
@@ -8849,7 +8872,6 @@ holds(s_16709_jpg, miscresidential).
 holds(s_16709_jpg, countryhouse).
 holds(s_16709_jpg, door).
 holds(s_16709_jpg, porch).
-holds(s_16709_jpg, table).
 holds(s_16709_jpg, tiledroof).
 holds(s_16709_jpg, tiledrooftop).
 holds(s_16709_jpg, car).
@@ -8865,7 +8887,6 @@ holds(s_16710_jpg, door).
 holds(s_16710_jpg, window).
 holds(s_16710_jpg, awning).
 holds(s_16710_jpg, billboard).
-holds(s_16710_jpg, table).
 holds(s_16710_jpg, vendingmachine).
 holds(s_16710_jpg, chimney).
 holds(s_16710_jpg, commercial).
@@ -8874,7 +8895,6 @@ sample(s_16711_jpg).
 holds(s_16711_jpg, building).
 holds(s_16711_jpg, feature).
 holds(s_16711_jpg, constructionsite).
-holds(s_16711_jpg, table).
 holds(s_16711_jpg, machine).
 holds(s_16711_jpg, industrial).
 
@@ -8926,6 +8946,7 @@ holds(s_16715_jpg, miscresidential).
 holds(s_16715_jpg, door).
 holds(s_16715_jpg, window).
 holds(s_16715_jpg, porch).
+holds(s_16715_jpg, table).
 holds(s_16715_jpg, tiledroof).
 holds(s_16715_jpg, tiledrooftop).
 holds(s_16715_jpg, residential).
@@ -8941,6 +8962,7 @@ holds(s_16716_jpg, door).
 holds(s_16716_jpg, window).
 holds(s_16716_jpg, awning).
 holds(s_16716_jpg, sign).
+holds(s_16716_jpg, table).
 holds(s_16716_jpg, vendingmachine).
 holds(s_16716_jpg, wallsign).
 holds(s_16716_jpg, pipe).
@@ -8953,6 +8975,7 @@ holds(s_16717_jpg, feature).
 holds(s_16717_jpg, miscindustrial).
 holds(s_16717_jpg, watertreatment).
 holds(s_16717_jpg, window).
+holds(s_16717_jpg, table).
 holds(s_16717_jpg, pipe).
 holds(s_16717_jpg, truck).
 holds(s_16717_jpg, industrial).
@@ -8979,7 +9002,6 @@ holds(s_16719_jpg, window).
 holds(s_16719_jpg, awning).
 holds(s_16719_jpg, billboard).
 holds(s_16719_jpg, sign).
-holds(s_16719_jpg, table).
 holds(s_16719_jpg, tiledroof).
 holds(s_16719_jpg, tiledrooftop).
 holds(s_16719_jpg, chimney).
@@ -9059,7 +9081,6 @@ holds(s_16725_jpg, door).
 holds(s_16725_jpg, window).
 holds(s_16725_jpg, awning).
 holds(s_16725_jpg, billboard).
-holds(s_16725_jpg, table).
 holds(s_16725_jpg, vendingmachine).
 holds(s_16725_jpg, wallsign).
 holds(s_16725_jpg, truck).
@@ -9125,6 +9146,7 @@ holds(s_16730_jpg, window).
 holds(s_16730_jpg, awning).
 holds(s_16730_jpg, porch).
 holds(s_16730_jpg, sign).
+holds(s_16730_jpg, table).
 holds(s_16730_jpg, residential).
 
 sample(s_16731_jpg).
@@ -9135,6 +9157,7 @@ holds(s_16731_jpg, misccommercial).
 holds(s_16731_jpg, door).
 holds(s_16731_jpg, awning).
 holds(s_16731_jpg, sign).
+holds(s_16731_jpg, table).
 holds(s_16731_jpg, wallsign).
 holds(s_16731_jpg, commercial).
 
@@ -9158,6 +9181,7 @@ holds(s_16733_jpg, door).
 holds(s_16733_jpg, window).
 holds(s_16733_jpg, porch).
 holds(s_16733_jpg, sign).
+holds(s_16733_jpg, table).
 holds(s_16733_jpg, residential).
 
 sample(s_16734_jpg).
@@ -9168,7 +9192,6 @@ holds(s_16734_jpg, misccommercial).
 holds(s_16734_jpg, door).
 holds(s_16734_jpg, window).
 holds(s_16734_jpg, awning).
-holds(s_16734_jpg, table).
 holds(s_16734_jpg, vendingmachine).
 holds(s_16734_jpg, chimney).
 holds(s_16734_jpg, truck).
@@ -9181,6 +9204,7 @@ holds(s_16735_jpg, constructionsite).
 holds(s_16735_jpg, powerplant).
 holds(s_16735_jpg, door).
 holds(s_16735_jpg, sign).
+holds(s_16735_jpg, table).
 holds(s_16735_jpg, chimney).
 holds(s_16735_jpg, pipe).
 holds(s_16735_jpg, machine).
@@ -9211,6 +9235,7 @@ holds(s_16737_jpg, door).
 holds(s_16737_jpg, awning).
 holds(s_16737_jpg, billboard).
 holds(s_16737_jpg, sign).
+holds(s_16737_jpg, table).
 holds(s_16737_jpg, tiledroof).
 holds(s_16737_jpg, tiledrooftop).
 holds(s_16737_jpg, vendingmachine).
@@ -9223,7 +9248,6 @@ holds(s_16738_jpg, feature).
 holds(s_16738_jpg, powerplant).
 holds(s_16738_jpg, door).
 holds(s_16738_jpg, awning).
-holds(s_16738_jpg, table).
 holds(s_16738_jpg, chimney).
 holds(s_16738_jpg, pipe).
 holds(s_16738_jpg, industrial).
@@ -9235,6 +9259,7 @@ holds(s_16739_jpg, suburban).
 holds(s_16739_jpg, door).
 holds(s_16739_jpg, porch).
 holds(s_16739_jpg, sign).
+holds(s_16739_jpg, table).
 holds(s_16739_jpg, residential).
 
 sample(s_16740_jpg).
@@ -9257,6 +9282,7 @@ holds(s_16741_jpg, constructionsite).
 holds(s_16741_jpg, door).
 holds(s_16741_jpg, awning).
 holds(s_16741_jpg, sign).
+holds(s_16741_jpg, table).
 holds(s_16741_jpg, machine).
 holds(s_16741_jpg, industrial).
 
@@ -9347,7 +9373,6 @@ holds(s_16748_jpg, suburban).
 holds(s_16748_jpg, miscresidential).
 holds(s_16748_jpg, door).
 holds(s_16748_jpg, porch).
-holds(s_16748_jpg, table).
 holds(s_16748_jpg, tiledroof).
 holds(s_16748_jpg, tiledrooftop).
 holds(s_16748_jpg, residential).
@@ -9362,6 +9387,7 @@ holds(s_16749_jpg, door).
 holds(s_16749_jpg, window).
 holds(s_16749_jpg, awning).
 holds(s_16749_jpg, sign).
+holds(s_16749_jpg, table).
 holds(s_16749_jpg, tiledroof).
 holds(s_16749_jpg, tiledrooftop).
 holds(s_16749_jpg, wallsign).
@@ -9374,7 +9400,6 @@ holds(s_16750_jpg, building).
 holds(s_16750_jpg, feature).
 holds(s_16750_jpg, constructionsite).
 holds(s_16750_jpg, window).
-holds(s_16750_jpg, table).
 holds(s_16750_jpg, pipe).
 holds(s_16750_jpg, machine).
 holds(s_16750_jpg, industrial).
@@ -9384,7 +9409,6 @@ holds(s_16751_jpg, building).
 holds(s_16751_jpg, feature).
 holds(s_16751_jpg, miscresidential).
 holds(s_16751_jpg, door).
-holds(s_16751_jpg, table).
 holds(s_16751_jpg, tiledroof).
 holds(s_16751_jpg, tiledrooftop).
 holds(s_16751_jpg, residential).
@@ -9411,7 +9435,6 @@ holds(s_16753_jpg, miscindustrial).
 holds(s_16753_jpg, watertreatment).
 holds(s_16753_jpg, door).
 holds(s_16753_jpg, window).
-holds(s_16753_jpg, table).
 holds(s_16753_jpg, pipe).
 holds(s_16753_jpg, truck).
 holds(s_16753_jpg, industrial).
@@ -9422,7 +9445,6 @@ holds(s_16754_jpg, feature).
 holds(s_16754_jpg, suburban).
 holds(s_16754_jpg, miscresidential).
 holds(s_16754_jpg, porch).
-holds(s_16754_jpg, table).
 holds(s_16754_jpg, tiledroof).
 holds(s_16754_jpg, tiledrooftop).
 holds(s_16754_jpg, residential).
@@ -9434,7 +9456,6 @@ holds(s_16755_jpg, cafe).
 holds(s_16755_jpg, hotel).
 holds(s_16755_jpg, window).
 holds(s_16755_jpg, sign).
-holds(s_16755_jpg, table).
 holds(s_16755_jpg, vendingmachine).
 holds(s_16755_jpg, wallsign).
 holds(s_16755_jpg, statue).
@@ -9458,7 +9479,6 @@ holds(s_16757_jpg, building).
 holds(s_16757_jpg, feature).
 holds(s_16757_jpg, miscresidential).
 holds(s_16757_jpg, door).
-holds(s_16757_jpg, table).
 holds(s_16757_jpg, tiledroof).
 holds(s_16757_jpg, tiledrooftop).
 holds(s_16757_jpg, residential).
@@ -9483,7 +9503,6 @@ holds(s_16759_jpg, miscindustrial).
 holds(s_16759_jpg, watertreatment).
 holds(s_16759_jpg, door).
 holds(s_16759_jpg, window).
-holds(s_16759_jpg, table).
 holds(s_16759_jpg, pipe).
 holds(s_16759_jpg, truck).
 holds(s_16759_jpg, industrial).
@@ -9495,6 +9514,7 @@ holds(s_16760_jpg, suburban).
 holds(s_16760_jpg, door).
 holds(s_16760_jpg, window).
 holds(s_16760_jpg, porch).
+holds(s_16760_jpg, table).
 holds(s_16760_jpg, residential).
 
 sample(s_16761_jpg).
@@ -9507,6 +9527,7 @@ holds(s_16761_jpg, window).
 holds(s_16761_jpg, awning).
 holds(s_16761_jpg, billboard).
 holds(s_16761_jpg, sign).
+holds(s_16761_jpg, table).
 holds(s_16761_jpg, vendingmachine).
 holds(s_16761_jpg, chimney).
 holds(s_16761_jpg, commercial).
@@ -9519,6 +9540,7 @@ holds(s_16762_jpg, watertreatment).
 holds(s_16762_jpg, door).
 holds(s_16762_jpg, window).
 holds(s_16762_jpg, awning).
+holds(s_16762_jpg, table).
 holds(s_16762_jpg, chimney).
 holds(s_16762_jpg, pipe).
 holds(s_16762_jpg, truck).
@@ -9531,7 +9553,6 @@ holds(s_16763_jpg, suburban).
 holds(s_16763_jpg, door).
 holds(s_16763_jpg, awning).
 holds(s_16763_jpg, porch).
-holds(s_16763_jpg, table).
 holds(s_16763_jpg, residential).
 
 sample(s_16764_jpg).
@@ -9585,6 +9606,7 @@ holds(s_16767_jpg, door).
 holds(s_16767_jpg, window).
 holds(s_16767_jpg, billboard).
 holds(s_16767_jpg, sign).
+holds(s_16767_jpg, table).
 holds(s_16767_jpg, vendingmachine).
 holds(s_16767_jpg, wallsign).
 holds(s_16767_jpg, car).
@@ -9596,7 +9618,6 @@ holds(s_16768_jpg, feature).
 holds(s_16768_jpg, powerplant).
 holds(s_16768_jpg, door).
 holds(s_16768_jpg, awning).
-holds(s_16768_jpg, table).
 holds(s_16768_jpg, chimney).
 holds(s_16768_jpg, pipe).
 holds(s_16768_jpg, car).
@@ -9608,6 +9629,7 @@ holds(s_16769_jpg, feature).
 holds(s_16769_jpg, suburban).
 holds(s_16769_jpg, porch).
 holds(s_16769_jpg, sign).
+holds(s_16769_jpg, table).
 holds(s_16769_jpg, residential).
 
 sample(s_16770_jpg).
@@ -9617,7 +9639,6 @@ holds(s_16770_jpg, cafe).
 holds(s_16770_jpg, misccommercial).
 holds(s_16770_jpg, door).
 holds(s_16770_jpg, awning).
-holds(s_16770_jpg, table).
 holds(s_16770_jpg, tiledroof).
 holds(s_16770_jpg, tiledrooftop).
 holds(s_16770_jpg, vendingmachine).
@@ -9629,6 +9650,7 @@ holds(s_16771_jpg, building).
 holds(s_16771_jpg, feature).
 holds(s_16771_jpg, powerplant).
 holds(s_16771_jpg, window).
+holds(s_16771_jpg, table).
 holds(s_16771_jpg, chimney).
 holds(s_16771_jpg, pipe).
 holds(s_16771_jpg, industrial).
@@ -9640,7 +9662,6 @@ holds(s_16772_jpg, suburban).
 holds(s_16772_jpg, door).
 holds(s_16772_jpg, awning).
 holds(s_16772_jpg, porch).
-holds(s_16772_jpg, table).
 holds(s_16772_jpg, residential).
 
 sample(s_16773_jpg).
@@ -9703,7 +9724,6 @@ holds(s_16777_jpg, building).
 holds(s_16777_jpg, feature).
 holds(s_16777_jpg, miscindustrial).
 holds(s_16777_jpg, watertreatment).
-holds(s_16777_jpg, table).
 holds(s_16777_jpg, pipe).
 holds(s_16777_jpg, truck).
 holds(s_16777_jpg, industrial).
@@ -9769,6 +9789,7 @@ holds(s_16782_jpg, door).
 holds(s_16782_jpg, window).
 holds(s_16782_jpg, awning).
 holds(s_16782_jpg, billboard).
+holds(s_16782_jpg, table).
 holds(s_16782_jpg, vendingmachine).
 holds(s_16782_jpg, chimney).
 holds(s_16782_jpg, truck).
@@ -9781,7 +9802,6 @@ holds(s_16783_jpg, miscindustrial).
 holds(s_16783_jpg, watertreatment).
 holds(s_16783_jpg, door).
 holds(s_16783_jpg, window).
-holds(s_16783_jpg, table).
 holds(s_16783_jpg, pipe).
 holds(s_16783_jpg, truck).
 holds(s_16783_jpg, industrial).
@@ -9838,7 +9858,6 @@ holds(s_16787_jpg, countryhouse).
 holds(s_16787_jpg, door).
 holds(s_16787_jpg, window).
 holds(s_16787_jpg, porch).
-holds(s_16787_jpg, table).
 holds(s_16787_jpg, tiledroof).
 holds(s_16787_jpg, tiledrooftop).
 holds(s_16787_jpg, car).
@@ -9893,7 +9912,6 @@ holds(s_16791_jpg, misccommercial).
 holds(s_16791_jpg, window).
 holds(s_16791_jpg, awning).
 holds(s_16791_jpg, billboard).
-holds(s_16791_jpg, table).
 holds(s_16791_jpg, tiledroof).
 holds(s_16791_jpg, wallsign).
 holds(s_16791_jpg, statue).
@@ -9931,6 +9949,7 @@ holds(s_16794_jpg, misccommercial).
 holds(s_16794_jpg, window).
 holds(s_16794_jpg, awning).
 holds(s_16794_jpg, billboard).
+holds(s_16794_jpg, table).
 holds(s_16794_jpg, tiledroof).
 holds(s_16794_jpg, vendingmachine).
 holds(s_16794_jpg, wallsign).
@@ -9944,6 +9963,7 @@ holds(s_16795_jpg, constructionsite).
 holds(s_16795_jpg, window).
 holds(s_16795_jpg, awning).
 holds(s_16795_jpg, sign).
+holds(s_16795_jpg, table).
 holds(s_16795_jpg, chimney).
 holds(s_16795_jpg, machine).
 holds(s_16795_jpg, industrial).
@@ -9969,6 +9989,7 @@ holds(s_16797_jpg, store).
 holds(s_16797_jpg, door).
 holds(s_16797_jpg, billboard).
 holds(s_16797_jpg, sign).
+holds(s_16797_jpg, table).
 holds(s_16797_jpg, vendingmachine).
 holds(s_16797_jpg, wallsign).
 holds(s_16797_jpg, car).
@@ -9980,7 +10001,6 @@ holds(s_16798_jpg, feature).
 holds(s_16798_jpg, miscindustrial).
 holds(s_16798_jpg, powerplant).
 holds(s_16798_jpg, watertreatment).
-holds(s_16798_jpg, table).
 holds(s_16798_jpg, chimney).
 holds(s_16798_jpg, pipe).
 holds(s_16798_jpg, truck).
@@ -10009,6 +10029,7 @@ holds(s_16800_jpg, restaurant).
 holds(s_16800_jpg, window).
 holds(s_16800_jpg, awning).
 holds(s_16800_jpg, sign).
+holds(s_16800_jpg, table).
 holds(s_16800_jpg, vendingmachine).
 holds(s_16800_jpg, wallsign).
 holds(s_16800_jpg, statue).
@@ -10096,7 +10117,6 @@ holds(s_16807_jpg, building).
 holds(s_16807_jpg, feature).
 holds(s_16807_jpg, powerplant).
 holds(s_16807_jpg, window).
-holds(s_16807_jpg, table).
 holds(s_16807_jpg, chimney).
 holds(s_16807_jpg, pipe).
 holds(s_16807_jpg, industrial).
@@ -10108,6 +10128,7 @@ holds(s_16808_jpg, suburban).
 holds(s_16808_jpg, miscresidential).
 holds(s_16808_jpg, porch).
 holds(s_16808_jpg, sign).
+holds(s_16808_jpg, table).
 holds(s_16808_jpg, tiledroof).
 holds(s_16808_jpg, tiledrooftop).
 holds(s_16808_jpg, residential).
@@ -10123,7 +10144,6 @@ holds(s_16809_jpg, door).
 holds(s_16809_jpg, window).
 holds(s_16809_jpg, awning).
 holds(s_16809_jpg, billboard).
-holds(s_16809_jpg, table).
 holds(s_16809_jpg, vendingmachine).
 holds(s_16809_jpg, wallsign).
 holds(s_16809_jpg, commercial).
@@ -10135,7 +10155,6 @@ holds(s_16810_jpg, powerplant).
 holds(s_16810_jpg, watertreatment).
 holds(s_16810_jpg, window).
 holds(s_16810_jpg, awning).
-holds(s_16810_jpg, table).
 holds(s_16810_jpg, chimney).
 holds(s_16810_jpg, pipe).
 holds(s_16810_jpg, truck).
@@ -10159,6 +10178,7 @@ holds(s_16812_jpg, misccommercial).
 holds(s_16812_jpg, door).
 holds(s_16812_jpg, window).
 holds(s_16812_jpg, awning).
+holds(s_16812_jpg, table).
 holds(s_16812_jpg, wallsign).
 holds(s_16812_jpg, pipe).
 holds(s_16812_jpg, car).
@@ -10172,7 +10192,6 @@ holds(s_16813_jpg, powerplant).
 holds(s_16813_jpg, window).
 holds(s_16813_jpg, awning).
 holds(s_16813_jpg, sign).
-holds(s_16813_jpg, table).
 holds(s_16813_jpg, chimney).
 holds(s_16813_jpg, pipe).
 holds(s_16813_jpg, machine).
@@ -10201,7 +10220,6 @@ holds(s_16815_jpg, door).
 holds(s_16815_jpg, awning).
 holds(s_16815_jpg, billboard).
 holds(s_16815_jpg, sign).
-holds(s_16815_jpg, table).
 holds(s_16815_jpg, vendingmachine).
 holds(s_16815_jpg, truck).
 holds(s_16815_jpg, commercial).
@@ -10212,7 +10230,6 @@ holds(s_16816_jpg, feature).
 holds(s_16816_jpg, constructionsite).
 holds(s_16816_jpg, door).
 holds(s_16816_jpg, window).
-holds(s_16816_jpg, table).
 holds(s_16816_jpg, pipe).
 holds(s_16816_jpg, machine).
 holds(s_16816_jpg, industrial).
@@ -10258,6 +10275,7 @@ holds(s_16820_jpg, suburban).
 holds(s_16820_jpg, miscresidential).
 holds(s_16820_jpg, door).
 holds(s_16820_jpg, porch).
+holds(s_16820_jpg, table).
 holds(s_16820_jpg, tiledroof).
 holds(s_16820_jpg, tiledrooftop).
 holds(s_16820_jpg, residential).
@@ -10280,7 +10298,6 @@ sample(s_16822_jpg).
 holds(s_16822_jpg, building).
 holds(s_16822_jpg, feature).
 holds(s_16822_jpg, miscindustrial).
-holds(s_16822_jpg, table).
 holds(s_16822_jpg, chimney).
 holds(s_16822_jpg, truck).
 holds(s_16822_jpg, industrial).
@@ -10308,6 +10325,7 @@ holds(s_16824_jpg, misccommercial).
 holds(s_16824_jpg, door).
 holds(s_16824_jpg, awning).
 holds(s_16824_jpg, sign).
+holds(s_16824_jpg, table).
 holds(s_16824_jpg, vendingmachine).
 holds(s_16824_jpg, wallsign).
 holds(s_16824_jpg, statue).
@@ -10345,6 +10363,7 @@ holds(s_16827_jpg, misccommercial).
 holds(s_16827_jpg, door).
 holds(s_16827_jpg, window).
 holds(s_16827_jpg, awning).
+holds(s_16827_jpg, table).
 holds(s_16827_jpg, vendingmachine).
 holds(s_16827_jpg, wallsign).
 holds(s_16827_jpg, statue).
@@ -10355,6 +10374,7 @@ holds(s_16828_jpg, building).
 holds(s_16828_jpg, feature).
 holds(s_16828_jpg, constructionsite).
 holds(s_16828_jpg, door).
+holds(s_16828_jpg, table).
 holds(s_16828_jpg, chimney).
 holds(s_16828_jpg, machine).
 holds(s_16828_jpg, industrial).
@@ -10365,7 +10385,6 @@ holds(s_16829_jpg, feature).
 holds(s_16829_jpg, miscresidential).
 holds(s_16829_jpg, door).
 holds(s_16829_jpg, window).
-holds(s_16829_jpg, table).
 holds(s_16829_jpg, tiledroof).
 holds(s_16829_jpg, tiledrooftop).
 holds(s_16829_jpg, residential).
@@ -10395,7 +10414,6 @@ holds(s_16831_jpg, feature).
 holds(s_16831_jpg, miscindustrial).
 holds(s_16831_jpg, watertreatment).
 holds(s_16831_jpg, door).
-holds(s_16831_jpg, table).
 holds(s_16831_jpg, pipe).
 holds(s_16831_jpg, truck).
 holds(s_16831_jpg, industrial).
@@ -10423,7 +10441,6 @@ holds(s_16833_jpg, door).
 holds(s_16833_jpg, awning).
 holds(s_16833_jpg, billboard).
 holds(s_16833_jpg, sign).
-holds(s_16833_jpg, table).
 holds(s_16833_jpg, vendingmachine).
 holds(s_16833_jpg, wallsign).
 holds(s_16833_jpg, statue).
@@ -10437,7 +10454,6 @@ holds(s_16834_jpg, feature).
 holds(s_16834_jpg, miscindustrial).
 holds(s_16834_jpg, door).
 holds(s_16834_jpg, window).
-holds(s_16834_jpg, table).
 holds(s_16834_jpg, truck).
 holds(s_16834_jpg, industrial).
 
@@ -10463,7 +10479,6 @@ holds(s_16836_jpg, misccommercial).
 holds(s_16836_jpg, window).
 holds(s_16836_jpg, awning).
 holds(s_16836_jpg, sign).
-holds(s_16836_jpg, table).
 holds(s_16836_jpg, wallsign).
 holds(s_16836_jpg, statue).
 holds(s_16836_jpg, car).
@@ -10488,6 +10503,7 @@ holds(s_16838_jpg, countryhouse).
 holds(s_16838_jpg, window).
 holds(s_16838_jpg, awning).
 holds(s_16838_jpg, porch).
+holds(s_16838_jpg, table).
 holds(s_16838_jpg, tiledroof).
 holds(s_16838_jpg, tiledrooftop).
 holds(s_16838_jpg, car).
@@ -10502,6 +10518,7 @@ holds(s_16839_jpg, misccommercial).
 holds(s_16839_jpg, door).
 holds(s_16839_jpg, awning).
 holds(s_16839_jpg, billboard).
+holds(s_16839_jpg, table).
 holds(s_16839_jpg, vendingmachine).
 holds(s_16839_jpg, commercial).
 
@@ -10512,6 +10529,7 @@ holds(s_16840_jpg, watertreatment).
 holds(s_16840_jpg, door).
 holds(s_16840_jpg, window).
 holds(s_16840_jpg, awning).
+holds(s_16840_jpg, table).
 holds(s_16840_jpg, pipe).
 holds(s_16840_jpg, truck).
 holds(s_16840_jpg, industrial).
@@ -10547,7 +10565,6 @@ holds(s_16843_jpg, miscindustrial).
 holds(s_16843_jpg, powerplant).
 holds(s_16843_jpg, watertreatment).
 holds(s_16843_jpg, window).
-holds(s_16843_jpg, table).
 holds(s_16843_jpg, chimney).
 holds(s_16843_jpg, pipe).
 holds(s_16843_jpg, truck).
@@ -10591,7 +10608,6 @@ holds(s_16846_jpg, miscindustrial).
 holds(s_16846_jpg, powerplant).
 holds(s_16846_jpg, watertreatment).
 holds(s_16846_jpg, window).
-holds(s_16846_jpg, table).
 holds(s_16846_jpg, chimney).
 holds(s_16846_jpg, pipe).
 holds(s_16846_jpg, truck).
@@ -10605,7 +10621,6 @@ holds(s_16847_jpg, miscresidential).
 holds(s_16847_jpg, door).
 holds(s_16847_jpg, window).
 holds(s_16847_jpg, porch).
-holds(s_16847_jpg, table).
 holds(s_16847_jpg, tiledroof).
 holds(s_16847_jpg, tiledrooftop).
 holds(s_16847_jpg, residential).
@@ -10615,6 +10630,7 @@ holds(s_16848_jpg, building).
 holds(s_16848_jpg, feature).
 holds(s_16848_jpg, cafe).
 holds(s_16848_jpg, hotel).
+holds(s_16848_jpg, table).
 holds(s_16848_jpg, vendingmachine).
 holds(s_16848_jpg, wallsign).
 holds(s_16848_jpg, statue).
@@ -10627,7 +10643,6 @@ holds(s_16849_jpg, miscindustrial).
 holds(s_16849_jpg, powerplant).
 holds(s_16849_jpg, watertreatment).
 holds(s_16849_jpg, door).
-holds(s_16849_jpg, table).
 holds(s_16849_jpg, chimney).
 holds(s_16849_jpg, pipe).
 holds(s_16849_jpg, truck).
@@ -10640,6 +10655,7 @@ holds(s_16850_jpg, suburban).
 holds(s_16850_jpg, door).
 holds(s_16850_jpg, window).
 holds(s_16850_jpg, porch).
+holds(s_16850_jpg, table).
 holds(s_16850_jpg, car).
 holds(s_16850_jpg, residential).
 
@@ -10682,6 +10698,7 @@ holds(s_16853_jpg, miscresidential).
 holds(s_16853_jpg, countryhouse).
 holds(s_16853_jpg, window).
 holds(s_16853_jpg, porch).
+holds(s_16853_jpg, table).
 holds(s_16853_jpg, tiledroof).
 holds(s_16853_jpg, tiledrooftop).
 holds(s_16853_jpg, car).
@@ -10773,6 +10790,7 @@ holds(s_16860_jpg, window).
 holds(s_16860_jpg, awning).
 holds(s_16860_jpg, billboard).
 holds(s_16860_jpg, sign).
+holds(s_16860_jpg, table).
 holds(s_16860_jpg, vendingmachine).
 holds(s_16860_jpg, wallsign).
 holds(s_16860_jpg, truck).
@@ -10807,6 +10825,7 @@ holds(s_16863_jpg, door).
 holds(s_16863_jpg, awning).
 holds(s_16863_jpg, billboard).
 holds(s_16863_jpg, sign).
+holds(s_16863_jpg, table).
 holds(s_16863_jpg, wallsign).
 holds(s_16863_jpg, truck).
 holds(s_16863_jpg, commercial).
@@ -10842,7 +10861,6 @@ holds(s_16866_jpg, misccommercial).
 holds(s_16866_jpg, door).
 holds(s_16866_jpg, awning).
 holds(s_16866_jpg, billboard).
-holds(s_16866_jpg, table).
 holds(s_16866_jpg, tiledroof).
 holds(s_16866_jpg, tiledrooftop).
 holds(s_16866_jpg, vendingmachine).
@@ -10870,6 +10888,7 @@ holds(s_16868_jpg, suburban).
 holds(s_16868_jpg, door).
 holds(s_16868_jpg, window).
 holds(s_16868_jpg, porch).
+holds(s_16868_jpg, table).
 holds(s_16868_jpg, truck).
 holds(s_16868_jpg, residential).
 
@@ -10945,6 +10964,7 @@ holds(s_16874_jpg, feature).
 holds(s_16874_jpg, miscresidential).
 holds(s_16874_jpg, door).
 holds(s_16874_jpg, awning).
+holds(s_16874_jpg, table).
 holds(s_16874_jpg, tiledroof).
 holds(s_16874_jpg, tiledrooftop).
 holds(s_16874_jpg, residential).
@@ -10966,6 +10986,7 @@ holds(s_16876_jpg, powerplant).
 holds(s_16876_jpg, watertreatment).
 holds(s_16876_jpg, door).
 holds(s_16876_jpg, awning).
+holds(s_16876_jpg, table).
 holds(s_16876_jpg, chimney).
 holds(s_16876_jpg, pipe).
 holds(s_16876_jpg, truck).
@@ -10979,6 +11000,7 @@ holds(s_16877_jpg, door).
 holds(s_16877_jpg, window).
 holds(s_16877_jpg, awning).
 holds(s_16877_jpg, porch).
+holds(s_16877_jpg, table).
 holds(s_16877_jpg, residential).
 
 sample(s_16878_jpg).
@@ -11005,7 +11027,6 @@ holds(s_16879_jpg, powerplant).
 holds(s_16879_jpg, watertreatment).
 holds(s_16879_jpg, window).
 holds(s_16879_jpg, awning).
-holds(s_16879_jpg, table).
 holds(s_16879_jpg, chimney).
 holds(s_16879_jpg, pipe).
 holds(s_16879_jpg, truck).
@@ -11031,7 +11052,6 @@ holds(s_16881_jpg, door).
 holds(s_16881_jpg, window).
 holds(s_16881_jpg, awning).
 holds(s_16881_jpg, sign).
-holds(s_16881_jpg, table).
 holds(s_16881_jpg, vendingmachine).
 holds(s_16881_jpg, chimney).
 holds(s_16881_jpg, commercial).
@@ -11081,6 +11101,7 @@ holds(s_16885_jpg, feature).
 holds(s_16885_jpg, miscindustrial).
 holds(s_16885_jpg, powerplant).
 holds(s_16885_jpg, watertreatment).
+holds(s_16885_jpg, table).
 holds(s_16885_jpg, chimney).
 holds(s_16885_jpg, pipe).
 holds(s_16885_jpg, truck).
@@ -11110,6 +11131,7 @@ holds(s_16887_jpg, window).
 holds(s_16887_jpg, awning).
 holds(s_16887_jpg, billboard).
 holds(s_16887_jpg, sign).
+holds(s_16887_jpg, table).
 holds(s_16887_jpg, chimney).
 holds(s_16887_jpg, commercial).
 
@@ -11131,7 +11153,6 @@ holds(s_16889_jpg, feature).
 holds(s_16889_jpg, suburban).
 holds(s_16889_jpg, miscresidential).
 holds(s_16889_jpg, porch).
-holds(s_16889_jpg, table).
 holds(s_16889_jpg, tiledroof).
 holds(s_16889_jpg, tiledrooftop).
 holds(s_16889_jpg, truck).
@@ -11154,7 +11175,6 @@ holds(s_16891_jpg, building).
 holds(s_16891_jpg, feature).
 holds(s_16891_jpg, miscindustrial).
 holds(s_16891_jpg, watertreatment).
-holds(s_16891_jpg, table).
 holds(s_16891_jpg, pipe).
 holds(s_16891_jpg, truck).
 holds(s_16891_jpg, industrial).
@@ -11168,6 +11188,7 @@ holds(s_16892_jpg, countryhouse).
 holds(s_16892_jpg, door).
 holds(s_16892_jpg, window).
 holds(s_16892_jpg, porch).
+holds(s_16892_jpg, table).
 holds(s_16892_jpg, tiledroof).
 holds(s_16892_jpg, tiledrooftop).
 holds(s_16892_jpg, car).
@@ -11200,7 +11221,6 @@ holds(s_16894_jpg, powerplant).
 holds(s_16894_jpg, door).
 holds(s_16894_jpg, window).
 holds(s_16894_jpg, sign).
-holds(s_16894_jpg, table).
 holds(s_16894_jpg, chimney).
 holds(s_16894_jpg, pipe).
 holds(s_16894_jpg, machine).
@@ -11230,7 +11250,6 @@ holds(s_16896_jpg, misccommercial).
 holds(s_16896_jpg, door).
 holds(s_16896_jpg, window).
 holds(s_16896_jpg, awning).
-holds(s_16896_jpg, table).
 holds(s_16896_jpg, tiledroof).
 holds(s_16896_jpg, tiledrooftop).
 holds(s_16896_jpg, vendingmachine).
@@ -11271,6 +11290,7 @@ holds(s_16899_jpg, window).
 holds(s_16899_jpg, awning).
 holds(s_16899_jpg, billboard).
 holds(s_16899_jpg, sign).
+holds(s_16899_jpg, table).
 holds(s_16899_jpg, vendingmachine).
 holds(s_16899_jpg, pipe).
 holds(s_16899_jpg, car).
@@ -11283,6 +11303,7 @@ holds(s_16900_jpg, miscindustrial).
 holds(s_16900_jpg, powerplant).
 holds(s_16900_jpg, watertreatment).
 holds(s_16900_jpg, window).
+holds(s_16900_jpg, table).
 holds(s_16900_jpg, chimney).
 holds(s_16900_jpg, pipe).
 holds(s_16900_jpg, truck).
@@ -11297,7 +11318,6 @@ holds(s_16901_jpg, countryhouse).
 holds(s_16901_jpg, door).
 holds(s_16901_jpg, window).
 holds(s_16901_jpg, porch).
-holds(s_16901_jpg, table).
 holds(s_16901_jpg, tiledroof).
 holds(s_16901_jpg, tiledrooftop).
 holds(s_16901_jpg, car).
@@ -11377,7 +11397,6 @@ holds(s_16907_jpg, miscresidential).
 holds(s_16907_jpg, countryhouse).
 holds(s_16907_jpg, window).
 holds(s_16907_jpg, porch).
-holds(s_16907_jpg, table).
 holds(s_16907_jpg, tiledroof).
 holds(s_16907_jpg, tiledrooftop).
 holds(s_16907_jpg, car).
@@ -11392,6 +11411,7 @@ holds(s_16908_jpg, misccommercial).
 holds(s_16908_jpg, window).
 holds(s_16908_jpg, awning).
 holds(s_16908_jpg, billboard).
+holds(s_16908_jpg, table).
 holds(s_16908_jpg, wallsign).
 holds(s_16908_jpg, commercial).
 
@@ -11400,6 +11420,7 @@ holds(s_16909_jpg, building).
 holds(s_16909_jpg, feature).
 holds(s_16909_jpg, constructionsite).
 holds(s_16909_jpg, door).
+holds(s_16909_jpg, table).
 holds(s_16909_jpg, pipe).
 holds(s_16909_jpg, machine).
 holds(s_16909_jpg, industrial).
@@ -11429,6 +11450,7 @@ holds(s_16911_jpg, window).
 holds(s_16911_jpg, awning).
 holds(s_16911_jpg, billboard).
 holds(s_16911_jpg, sign).
+holds(s_16911_jpg, table).
 holds(s_16911_jpg, vendingmachine).
 holds(s_16911_jpg, wallsign).
 holds(s_16911_jpg, statue).
@@ -11440,6 +11462,7 @@ holds(s_16912_jpg, building).
 holds(s_16912_jpg, feature).
 holds(s_16912_jpg, miscindustrial).
 holds(s_16912_jpg, door).
+holds(s_16912_jpg, table).
 holds(s_16912_jpg, truck).
 holds(s_16912_jpg, industrial).
 
@@ -11507,6 +11530,7 @@ holds(s_16917_jpg, window).
 holds(s_16917_jpg, awning).
 holds(s_16917_jpg, billboard).
 holds(s_16917_jpg, sign).
+holds(s_16917_jpg, table).
 holds(s_16917_jpg, vendingmachine).
 holds(s_16917_jpg, wallsign).
 holds(s_16917_jpg, commercial).
@@ -11519,7 +11543,6 @@ holds(s_16918_jpg, powerplant).
 holds(s_16918_jpg, watertreatment).
 holds(s_16918_jpg, door).
 holds(s_16918_jpg, window).
-holds(s_16918_jpg, table).
 holds(s_16918_jpg, chimney).
 holds(s_16918_jpg, pipe).
 holds(s_16918_jpg, truck).
@@ -11531,7 +11554,6 @@ holds(s_16919_jpg, feature).
 holds(s_16919_jpg, suburban).
 holds(s_16919_jpg, miscresidential).
 holds(s_16919_jpg, porch).
-holds(s_16919_jpg, table).
 holds(s_16919_jpg, tiledroof).
 holds(s_16919_jpg, tiledrooftop).
 holds(s_16919_jpg, residential).
@@ -11546,6 +11568,7 @@ holds(s_16920_jpg, door).
 holds(s_16920_jpg, window).
 holds(s_16920_jpg, awning).
 holds(s_16920_jpg, sign).
+holds(s_16920_jpg, table).
 holds(s_16920_jpg, tiledroof).
 holds(s_16920_jpg, wallsign).
 holds(s_16920_jpg, statue).
@@ -11558,7 +11581,6 @@ holds(s_16921_jpg, feature).
 holds(s_16921_jpg, miscindustrial).
 holds(s_16921_jpg, powerplant).
 holds(s_16921_jpg, watertreatment).
-holds(s_16921_jpg, table).
 holds(s_16921_jpg, chimney).
 holds(s_16921_jpg, pipe).
 holds(s_16921_jpg, truck).
@@ -11609,6 +11631,7 @@ holds(s_16925_jpg, miscresidential).
 holds(s_16925_jpg, countryhouse).
 holds(s_16925_jpg, window).
 holds(s_16925_jpg, porch).
+holds(s_16925_jpg, table).
 holds(s_16925_jpg, tiledroof).
 holds(s_16925_jpg, tiledrooftop).
 holds(s_16925_jpg, car).
@@ -11622,7 +11645,6 @@ holds(s_16926_jpg, hotel).
 holds(s_16926_jpg, door).
 holds(s_16926_jpg, awning).
 holds(s_16926_jpg, sign).
-holds(s_16926_jpg, table).
 holds(s_16926_jpg, wallsign).
 holds(s_16926_jpg, statue).
 holds(s_16926_jpg, commercial).
@@ -11634,7 +11656,6 @@ holds(s_16927_jpg, miscindustrial).
 holds(s_16927_jpg, powerplant).
 holds(s_16927_jpg, watertreatment).
 holds(s_16927_jpg, door).
-holds(s_16927_jpg, table).
 holds(s_16927_jpg, chimney).
 holds(s_16927_jpg, pipe).
 holds(s_16927_jpg, truck).
@@ -11673,6 +11694,7 @@ holds(s_16930_jpg, constructionsite).
 holds(s_16930_jpg, powerplant).
 holds(s_16930_jpg, window).
 holds(s_16930_jpg, sign).
+holds(s_16930_jpg, table).
 holds(s_16930_jpg, chimney).
 holds(s_16930_jpg, pipe).
 holds(s_16930_jpg, machine).
@@ -11686,6 +11708,7 @@ holds(s_16931_jpg, door).
 holds(s_16931_jpg, window).
 holds(s_16931_jpg, awning).
 holds(s_16931_jpg, porch).
+holds(s_16931_jpg, table).
 holds(s_16931_jpg, car).
 holds(s_16931_jpg, residential).
 
@@ -11699,6 +11722,7 @@ holds(s_16932_jpg, door).
 holds(s_16932_jpg, window).
 holds(s_16932_jpg, awning).
 holds(s_16932_jpg, billboard).
+holds(s_16932_jpg, table).
 holds(s_16932_jpg, wallsign).
 holds(s_16932_jpg, commercial).
 
@@ -11709,7 +11733,6 @@ holds(s_16933_jpg, powerplant).
 holds(s_16933_jpg, door).
 holds(s_16933_jpg, window).
 holds(s_16933_jpg, sign).
-holds(s_16933_jpg, table).
 holds(s_16933_jpg, chimney).
 holds(s_16933_jpg, pipe).
 holds(s_16933_jpg, industrial).
@@ -11737,7 +11760,6 @@ holds(s_16935_jpg, window).
 holds(s_16935_jpg, awning).
 holds(s_16935_jpg, billboard).
 holds(s_16935_jpg, sign).
-holds(s_16935_jpg, table).
 holds(s_16935_jpg, vendingmachine).
 holds(s_16935_jpg, wallsign).
 holds(s_16935_jpg, chimney).
@@ -11752,7 +11774,6 @@ holds(s_16936_jpg, door).
 holds(s_16936_jpg, window).
 holds(s_16936_jpg, awning).
 holds(s_16936_jpg, sign).
-holds(s_16936_jpg, table).
 holds(s_16936_jpg, chimney).
 holds(s_16936_jpg, pipe).
 holds(s_16936_jpg, industrial).
@@ -11764,7 +11785,6 @@ holds(s_16937_jpg, suburban).
 holds(s_16937_jpg, door).
 holds(s_16937_jpg, porch).
 holds(s_16937_jpg, sign).
-holds(s_16937_jpg, table).
 holds(s_16937_jpg, residential).
 
 sample(s_16938_jpg).
@@ -11777,7 +11797,6 @@ holds(s_16938_jpg, door).
 holds(s_16938_jpg, window).
 holds(s_16938_jpg, awning).
 holds(s_16938_jpg, billboard).
-holds(s_16938_jpg, table).
 holds(s_16938_jpg, vendingmachine).
 holds(s_16938_jpg, statue).
 holds(s_16938_jpg, pipe).
@@ -11806,6 +11825,7 @@ holds(s_16940_jpg, door).
 holds(s_16940_jpg, window).
 holds(s_16940_jpg, awning).
 holds(s_16940_jpg, porch).
+holds(s_16940_jpg, table).
 holds(s_16940_jpg, tiledroof).
 holds(s_16940_jpg, tiledrooftop).
 holds(s_16940_jpg, truck).
@@ -11822,7 +11842,6 @@ holds(s_16941_jpg, door).
 holds(s_16941_jpg, window).
 holds(s_16941_jpg, awning).
 holds(s_16941_jpg, billboard).
-holds(s_16941_jpg, table).
 holds(s_16941_jpg, vendingmachine).
 holds(s_16941_jpg, wallsign).
 holds(s_16941_jpg, truck).
@@ -11846,6 +11865,7 @@ holds(s_16943_jpg, feature).
 holds(s_16943_jpg, miscresidential).
 holds(s_16943_jpg, window).
 holds(s_16943_jpg, awning).
+holds(s_16943_jpg, table).
 holds(s_16943_jpg, tiledroof).
 holds(s_16943_jpg, tiledrooftop).
 holds(s_16943_jpg, truck).
@@ -11862,6 +11882,7 @@ holds(s_16944_jpg, window).
 holds(s_16944_jpg, awning).
 holds(s_16944_jpg, billboard).
 holds(s_16944_jpg, sign).
+holds(s_16944_jpg, table).
 holds(s_16944_jpg, vendingmachine).
 holds(s_16944_jpg, chimney).
 holds(s_16944_jpg, truck).
@@ -11924,6 +11945,7 @@ holds(s_16949_jpg, countryhouse).
 holds(s_16949_jpg, window).
 holds(s_16949_jpg, awning).
 holds(s_16949_jpg, porch).
+holds(s_16949_jpg, table).
 holds(s_16949_jpg, tiledroof).
 holds(s_16949_jpg, tiledrooftop).
 holds(s_16949_jpg, car).
@@ -11946,7 +11968,6 @@ holds(s_16951_jpg, watertreatment).
 holds(s_16951_jpg, door).
 holds(s_16951_jpg, window).
 holds(s_16951_jpg, awning).
-holds(s_16951_jpg, table).
 holds(s_16951_jpg, pipe).
 holds(s_16951_jpg, truck).
 holds(s_16951_jpg, industrial).
@@ -11967,7 +11988,6 @@ holds(s_16953_jpg, misccommercial).
 holds(s_16953_jpg, window).
 holds(s_16953_jpg, awning).
 holds(s_16953_jpg, sign).
-holds(s_16953_jpg, table).
 holds(s_16953_jpg, chimney).
 holds(s_16953_jpg, commercial).
 
@@ -12024,7 +12044,6 @@ holds(s_16958_jpg, feature).
 holds(s_16958_jpg, miscresidential).
 holds(s_16958_jpg, door).
 holds(s_16958_jpg, awning).
-holds(s_16958_jpg, table).
 holds(s_16958_jpg, tiledroof).
 holds(s_16958_jpg, tiledrooftop).
 holds(s_16958_jpg, residential).
@@ -12048,7 +12067,6 @@ holds(s_16960_jpg, watertreatment).
 holds(s_16960_jpg, door).
 holds(s_16960_jpg, window).
 holds(s_16960_jpg, awning).
-holds(s_16960_jpg, table).
 holds(s_16960_jpg, pipe).
 holds(s_16960_jpg, truck).
 holds(s_16960_jpg, industrial).
@@ -12063,6 +12081,7 @@ holds(s_16961_jpg, door).
 holds(s_16961_jpg, window).
 holds(s_16961_jpg, awning).
 holds(s_16961_jpg, porch).
+holds(s_16961_jpg, table).
 holds(s_16961_jpg, tiledroof).
 holds(s_16961_jpg, tiledrooftop).
 holds(s_16961_jpg, car).
@@ -12101,7 +12120,6 @@ holds(s_16964_jpg, countryhouse).
 holds(s_16964_jpg, door).
 holds(s_16964_jpg, window).
 holds(s_16964_jpg, porch).
-holds(s_16964_jpg, table).
 holds(s_16964_jpg, tiledroof).
 holds(s_16964_jpg, tiledrooftop).
 holds(s_16964_jpg, car).
@@ -12127,6 +12145,7 @@ holds(s_16966_jpg, building).
 holds(s_16966_jpg, feature).
 holds(s_16966_jpg, constructionsite).
 holds(s_16966_jpg, window).
+holds(s_16966_jpg, table).
 holds(s_16966_jpg, chimney).
 holds(s_16966_jpg, machine).
 holds(s_16966_jpg, industrial).
@@ -12179,7 +12198,6 @@ holds(s_16970_jpg, miscresidential).
 holds(s_16970_jpg, countryhouse).
 holds(s_16970_jpg, door).
 holds(s_16970_jpg, porch).
-holds(s_16970_jpg, table).
 holds(s_16970_jpg, tiledroof).
 holds(s_16970_jpg, tiledrooftop).
 holds(s_16970_jpg, car).
@@ -12230,6 +12248,7 @@ holds(s_16974_jpg, misccommercial).
 holds(s_16974_jpg, door).
 holds(s_16974_jpg, window).
 holds(s_16974_jpg, awning).
+holds(s_16974_jpg, table).
 holds(s_16974_jpg, vendingmachine).
 holds(s_16974_jpg, wallsign).
 holds(s_16974_jpg, statue).
@@ -12243,7 +12262,6 @@ holds(s_16975_jpg, constructionsite).
 holds(s_16975_jpg, door).
 holds(s_16975_jpg, window).
 holds(s_16975_jpg, sign).
-holds(s_16975_jpg, table).
 holds(s_16975_jpg, pipe).
 holds(s_16975_jpg, machine).
 holds(s_16975_jpg, industrial).
@@ -12282,7 +12300,6 @@ holds(s_16978_jpg, building).
 holds(s_16978_jpg, feature).
 holds(s_16978_jpg, powerplant).
 holds(s_16978_jpg, sign).
-holds(s_16978_jpg, table).
 holds(s_16978_jpg, chimney).
 holds(s_16978_jpg, pipe).
 holds(s_16978_jpg, industrial).
@@ -12320,6 +12337,7 @@ holds(s_16981_jpg, constructionsite).
 holds(s_16981_jpg, door).
 holds(s_16981_jpg, window).
 holds(s_16981_jpg, sign).
+holds(s_16981_jpg, table).
 holds(s_16981_jpg, machine).
 holds(s_16981_jpg, industrial).
 
@@ -12332,6 +12350,7 @@ holds(s_16982_jpg, countryhouse).
 holds(s_16982_jpg, door).
 holds(s_16982_jpg, window).
 holds(s_16982_jpg, porch).
+holds(s_16982_jpg, table).
 holds(s_16982_jpg, tiledroof).
 holds(s_16982_jpg, tiledrooftop).
 holds(s_16982_jpg, car).
@@ -12383,6 +12402,7 @@ holds(s_16986_jpg, window).
 holds(s_16986_jpg, awning).
 holds(s_16986_jpg, billboard).
 holds(s_16986_jpg, sign).
+holds(s_16986_jpg, table).
 holds(s_16986_jpg, chimney).
 holds(s_16986_jpg, car).
 holds(s_16986_jpg, commercial).
@@ -12393,6 +12413,7 @@ holds(s_16987_jpg, feature).
 holds(s_16987_jpg, constructionsite).
 holds(s_16987_jpg, window).
 holds(s_16987_jpg, sign).
+holds(s_16987_jpg, table).
 holds(s_16987_jpg, pipe).
 holds(s_16987_jpg, machine).
 holds(s_16987_jpg, industrial).
@@ -12407,7 +12428,6 @@ holds(s_16988_jpg, door).
 holds(s_16988_jpg, window).
 holds(s_16988_jpg, awning).
 holds(s_16988_jpg, porch).
-holds(s_16988_jpg, table).
 holds(s_16988_jpg, tiledroof).
 holds(s_16988_jpg, tiledrooftop).
 holds(s_16988_jpg, car).
@@ -12422,7 +12442,6 @@ holds(s_16989_jpg, restaurant).
 holds(s_16989_jpg, store).
 holds(s_16989_jpg, billboard).
 holds(s_16989_jpg, sign).
-holds(s_16989_jpg, table).
 holds(s_16989_jpg, wallsign).
 holds(s_16989_jpg, statue).
 holds(s_16989_jpg, truck).
@@ -12449,6 +12468,7 @@ holds(s_16991_jpg, miscresidential).
 holds(s_16991_jpg, door).
 holds(s_16991_jpg, awning).
 holds(s_16991_jpg, porch).
+holds(s_16991_jpg, table).
 holds(s_16991_jpg, tiledroof).
 holds(s_16991_jpg, tiledrooftop).
 holds(s_16991_jpg, truck).
@@ -12499,7 +12519,6 @@ holds(s_16995_jpg, store).
 holds(s_16995_jpg, door).
 holds(s_16995_jpg, awning).
 holds(s_16995_jpg, billboard).
-holds(s_16995_jpg, table).
 holds(s_16995_jpg, wallsign).
 holds(s_16995_jpg, statue).
 holds(s_16995_jpg, truck).
@@ -12511,6 +12530,7 @@ holds(s_16996_jpg, feature).
 holds(s_16996_jpg, miscindustrial).
 holds(s_16996_jpg, watertreatment).
 holds(s_16996_jpg, door).
+holds(s_16996_jpg, table).
 holds(s_16996_jpg, pipe).
 holds(s_16996_jpg, truck).
 holds(s_16996_jpg, industrial).
@@ -12520,6 +12540,7 @@ holds(s_16997_jpg, building).
 holds(s_16997_jpg, feature).
 holds(s_16997_jpg, miscresidential).
 holds(s_16997_jpg, countryhouse).
+holds(s_16997_jpg, table).
 holds(s_16997_jpg, tiledroof).
 holds(s_16997_jpg, tiledrooftop).
 holds(s_16997_jpg, car).
@@ -12551,7 +12572,6 @@ holds(s_17000_jpg, building).
 holds(s_17000_jpg, feature).
 holds(s_17000_jpg, miscresidential).
 holds(s_17000_jpg, door).
-holds(s_17000_jpg, table).
 holds(s_17000_jpg, tiledroof).
 holds(s_17000_jpg, tiledrooftop).
 holds(s_17000_jpg, residential).
@@ -12636,6 +12656,7 @@ holds(s_17006_jpg, window).
 holds(s_17006_jpg, awning).
 holds(s_17006_jpg, porch).
 holds(s_17006_jpg, sign).
+holds(s_17006_jpg, table).
 holds(s_17006_jpg, tiledroof).
 holds(s_17006_jpg, tiledrooftop).
 holds(s_17006_jpg, residential).
@@ -12652,6 +12673,7 @@ holds(s_17007_jpg, window).
 holds(s_17007_jpg, awning).
 holds(s_17007_jpg, billboard).
 holds(s_17007_jpg, sign).
+holds(s_17007_jpg, table).
 holds(s_17007_jpg, tiledroof).
 holds(s_17007_jpg, tiledrooftop).
 holds(s_17007_jpg, wallsign).
@@ -12681,7 +12703,6 @@ holds(s_17009_jpg, countryhouse).
 holds(s_17009_jpg, window).
 holds(s_17009_jpg, awning).
 holds(s_17009_jpg, porch).
-holds(s_17009_jpg, table).
 holds(s_17009_jpg, tiledroof).
 holds(s_17009_jpg, tiledrooftop).
 holds(s_17009_jpg, car).
@@ -12738,7 +12759,6 @@ holds(s_17013_jpg, door).
 holds(s_17013_jpg, window).
 holds(s_17013_jpg, awning).
 holds(s_17013_jpg, billboard).
-holds(s_17013_jpg, table).
 holds(s_17013_jpg, vendingmachine).
 holds(s_17013_jpg, chimney).
 holds(s_17013_jpg, car).
@@ -12752,6 +12772,7 @@ holds(s_17014_jpg, door).
 holds(s_17014_jpg, window).
 holds(s_17014_jpg, awning).
 holds(s_17014_jpg, sign).
+holds(s_17014_jpg, table).
 holds(s_17014_jpg, chimney).
 holds(s_17014_jpg, machine).
 holds(s_17014_jpg, industrial).
@@ -12764,7 +12785,6 @@ holds(s_17015_jpg, miscresidential).
 holds(s_17015_jpg, door).
 holds(s_17015_jpg, awning).
 holds(s_17015_jpg, porch).
-holds(s_17015_jpg, table).
 holds(s_17015_jpg, tiledroof).
 holds(s_17015_jpg, tiledrooftop).
 holds(s_17015_jpg, truck).
@@ -12781,6 +12801,7 @@ holds(s_17016_jpg, door).
 holds(s_17016_jpg, window).
 holds(s_17016_jpg, billboard).
 holds(s_17016_jpg, sign).
+holds(s_17016_jpg, table).
 holds(s_17016_jpg, vendingmachine).
 holds(s_17016_jpg, wallsign).
 holds(s_17016_jpg, chimney).
@@ -12794,6 +12815,7 @@ holds(s_17017_jpg, constructionsite).
 holds(s_17017_jpg, door).
 holds(s_17017_jpg, window).
 holds(s_17017_jpg, awning).
+holds(s_17017_jpg, table).
 holds(s_17017_jpg, machine).
 holds(s_17017_jpg, industrial).
 
@@ -12804,7 +12826,6 @@ holds(s_17018_jpg, suburban).
 holds(s_17018_jpg, door).
 holds(s_17018_jpg, window).
 holds(s_17018_jpg, porch).
-holds(s_17018_jpg, table).
 holds(s_17018_jpg, car).
 holds(s_17018_jpg, residential).
 
@@ -12818,7 +12839,6 @@ holds(s_17019_jpg, store).
 holds(s_17019_jpg, window).
 holds(s_17019_jpg, billboard).
 holds(s_17019_jpg, sign).
-holds(s_17019_jpg, table).
 holds(s_17019_jpg, vendingmachine).
 holds(s_17019_jpg, wallsign).
 holds(s_17019_jpg, pipe).
@@ -12832,6 +12852,7 @@ holds(s_17020_jpg, constructionsite).
 holds(s_17020_jpg, door).
 holds(s_17020_jpg, awning).
 holds(s_17020_jpg, sign).
+holds(s_17020_jpg, table).
 holds(s_17020_jpg, chimney).
 holds(s_17020_jpg, machine).
 holds(s_17020_jpg, industrial).
@@ -12843,7 +12864,6 @@ holds(s_17021_jpg, miscresidential).
 holds(s_17021_jpg, countryhouse).
 holds(s_17021_jpg, door).
 holds(s_17021_jpg, window).
-holds(s_17021_jpg, table).
 holds(s_17021_jpg, tiledroof).
 holds(s_17021_jpg, tiledrooftop).
 holds(s_17021_jpg, car).
@@ -12948,6 +12968,7 @@ holds(s_17029_jpg, building).
 holds(s_17029_jpg, feature).
 holds(s_17029_jpg, powerplant).
 holds(s_17029_jpg, door).
+holds(s_17029_jpg, table).
 holds(s_17029_jpg, chimney).
 holds(s_17029_jpg, pipe).
 holds(s_17029_jpg, industrial).
@@ -13009,7 +13030,6 @@ holds(s_17034_jpg, window).
 holds(s_17034_jpg, awning).
 holds(s_17034_jpg, billboard).
 holds(s_17034_jpg, sign).
-holds(s_17034_jpg, table).
 holds(s_17034_jpg, tiledroof).
 holds(s_17034_jpg, tiledrooftop).
 holds(s_17034_jpg, pipe).
@@ -13065,7 +13085,6 @@ holds(s_17038_jpg, feature).
 holds(s_17038_jpg, powerplant).
 holds(s_17038_jpg, door).
 holds(s_17038_jpg, window).
-holds(s_17038_jpg, table).
 holds(s_17038_jpg, chimney).
 holds(s_17038_jpg, pipe).
 holds(s_17038_jpg, industrial).
@@ -13091,7 +13110,6 @@ holds(s_17040_jpg, door).
 holds(s_17040_jpg, window).
 holds(s_17040_jpg, awning).
 holds(s_17040_jpg, sign).
-holds(s_17040_jpg, table).
 holds(s_17040_jpg, tiledroof).
 holds(s_17040_jpg, tiledrooftop).
 holds(s_17040_jpg, commercial).
@@ -13115,7 +13133,6 @@ holds(s_17042_jpg, suburban).
 holds(s_17042_jpg, miscresidential).
 holds(s_17042_jpg, door).
 holds(s_17042_jpg, porch).
-holds(s_17042_jpg, table).
 holds(s_17042_jpg, tiledroof).
 holds(s_17042_jpg, tiledrooftop).
 holds(s_17042_jpg, residential).
@@ -13155,6 +13172,7 @@ holds(s_17045_jpg, suburban).
 holds(s_17045_jpg, window).
 holds(s_17045_jpg, awning).
 holds(s_17045_jpg, porch).
+holds(s_17045_jpg, table).
 holds(s_17045_jpg, residential).
 
 sample(s_17046_jpg).
@@ -13242,6 +13260,7 @@ holds(s_17052_jpg, door).
 holds(s_17052_jpg, window).
 holds(s_17052_jpg, awning).
 holds(s_17052_jpg, sign).
+holds(s_17052_jpg, table).
 holds(s_17052_jpg, vendingmachine).
 holds(s_17052_jpg, statue).
 holds(s_17052_jpg, truck).
@@ -13263,6 +13282,7 @@ holds(s_17054_jpg, feature).
 holds(s_17054_jpg, miscresidential).
 holds(s_17054_jpg, countryhouse).
 holds(s_17054_jpg, window).
+holds(s_17054_jpg, table).
 holds(s_17054_jpg, tiledroof).
 holds(s_17054_jpg, tiledrooftop).
 holds(s_17054_jpg, car).
@@ -13326,6 +13346,7 @@ holds(s_17059_jpg, feature).
 holds(s_17059_jpg, miscindustrial).
 holds(s_17059_jpg, watertreatment).
 holds(s_17059_jpg, window).
+holds(s_17059_jpg, table).
 holds(s_17059_jpg, pipe).
 holds(s_17059_jpg, truck).
 holds(s_17059_jpg, industrial).
@@ -13352,6 +13373,7 @@ holds(s_17061_jpg, door).
 holds(s_17061_jpg, window).
 holds(s_17061_jpg, awning).
 holds(s_17061_jpg, billboard).
+holds(s_17061_jpg, table).
 holds(s_17061_jpg, wallsign).
 holds(s_17061_jpg, statue).
 holds(s_17061_jpg, commercial).
@@ -13373,6 +13395,7 @@ holds(s_17063_jpg, suburban).
 holds(s_17063_jpg, door).
 holds(s_17063_jpg, window).
 holds(s_17063_jpg, porch).
+holds(s_17063_jpg, table).
 holds(s_17063_jpg, residential).
 
 sample(s_17064_jpg).
@@ -13432,6 +13455,7 @@ holds(s_17068_jpg, feature).
 holds(s_17068_jpg, powerplant).
 holds(s_17068_jpg, door).
 holds(s_17068_jpg, window).
+holds(s_17068_jpg, table).
 holds(s_17068_jpg, chimney).
 holds(s_17068_jpg, pipe).
 holds(s_17068_jpg, industrial).
@@ -13441,7 +13465,6 @@ holds(s_17069_jpg, building).
 holds(s_17069_jpg, feature).
 holds(s_17069_jpg, miscresidential).
 holds(s_17069_jpg, countryhouse).
-holds(s_17069_jpg, table).
 holds(s_17069_jpg, tiledroof).
 holds(s_17069_jpg, tiledrooftop).
 holds(s_17069_jpg, car).
@@ -13455,6 +13478,7 @@ holds(s_17070_jpg, store).
 holds(s_17070_jpg, door).
 holds(s_17070_jpg, window).
 holds(s_17070_jpg, billboard).
+holds(s_17070_jpg, table).
 holds(s_17070_jpg, wallsign).
 holds(s_17070_jpg, truck).
 holds(s_17070_jpg, commercial).
@@ -13475,6 +13499,7 @@ holds(s_17072_jpg, miscresidential).
 holds(s_17072_jpg, door).
 holds(s_17072_jpg, porch).
 holds(s_17072_jpg, sign).
+holds(s_17072_jpg, table).
 holds(s_17072_jpg, tiledroof).
 holds(s_17072_jpg, tiledrooftop).
 holds(s_17072_jpg, residential).
@@ -13487,6 +13512,7 @@ holds(s_17073_jpg, misccommercial).
 holds(s_17073_jpg, door).
 holds(s_17073_jpg, window).
 holds(s_17073_jpg, awning).
+holds(s_17073_jpg, table).
 holds(s_17073_jpg, wallsign).
 holds(s_17073_jpg, truck).
 holds(s_17073_jpg, commercial).
@@ -13513,6 +13539,7 @@ holds(s_17075_jpg, countryhouse).
 holds(s_17075_jpg, door).
 holds(s_17075_jpg, window).
 holds(s_17075_jpg, porch).
+holds(s_17075_jpg, table).
 holds(s_17075_jpg, tiledroof).
 holds(s_17075_jpg, tiledrooftop).
 holds(s_17075_jpg, car).
@@ -13527,7 +13554,6 @@ holds(s_17076_jpg, store).
 holds(s_17076_jpg, door).
 holds(s_17076_jpg, billboard).
 holds(s_17076_jpg, sign).
-holds(s_17076_jpg, table).
 holds(s_17076_jpg, vendingmachine).
 holds(s_17076_jpg, statue).
 holds(s_17076_jpg, truck).
@@ -13561,6 +13587,7 @@ holds(s_17079_jpg, misccommercial).
 holds(s_17079_jpg, door).
 holds(s_17079_jpg, awning).
 holds(s_17079_jpg, billboard).
+holds(s_17079_jpg, table).
 holds(s_17079_jpg, tiledroof).
 holds(s_17079_jpg, tiledrooftop).
 holds(s_17079_jpg, wallsign).
@@ -13599,6 +13626,7 @@ holds(s_17082_jpg, misccommercial).
 holds(s_17082_jpg, door).
 holds(s_17082_jpg, awning).
 holds(s_17082_jpg, sign).
+holds(s_17082_jpg, table).
 holds(s_17082_jpg, tiledroof).
 holds(s_17082_jpg, vendingmachine).
 holds(s_17082_jpg, statue).
@@ -13612,6 +13640,7 @@ holds(s_17083_jpg, miscindustrial).
 holds(s_17083_jpg, watertreatment).
 holds(s_17083_jpg, door).
 holds(s_17083_jpg, window).
+holds(s_17083_jpg, table).
 holds(s_17083_jpg, pipe).
 holds(s_17083_jpg, truck).
 holds(s_17083_jpg, industrial).
@@ -13621,7 +13650,6 @@ holds(s_17084_jpg, building).
 holds(s_17084_jpg, feature).
 holds(s_17084_jpg, miscresidential).
 holds(s_17084_jpg, door).
-holds(s_17084_jpg, table).
 holds(s_17084_jpg, tiledroof).
 holds(s_17084_jpg, tiledrooftop).
 holds(s_17084_jpg, residential).
@@ -13634,6 +13662,7 @@ holds(s_17085_jpg, misccommercial).
 holds(s_17085_jpg, door).
 holds(s_17085_jpg, window).
 holds(s_17085_jpg, awning).
+holds(s_17085_jpg, table).
 holds(s_17085_jpg, wallsign).
 holds(s_17085_jpg, commercial).
 
@@ -13644,7 +13673,6 @@ holds(s_17086_jpg, miscindustrial).
 holds(s_17086_jpg, powerplant).
 holds(s_17086_jpg, watertreatment).
 holds(s_17086_jpg, door).
-holds(s_17086_jpg, table).
 holds(s_17086_jpg, chimney).
 holds(s_17086_jpg, pipe).
 holds(s_17086_jpg, truck).
@@ -13659,7 +13687,6 @@ holds(s_17087_jpg, door).
 holds(s_17087_jpg, awning).
 holds(s_17087_jpg, porch).
 holds(s_17087_jpg, sign).
-holds(s_17087_jpg, table).
 holds(s_17087_jpg, tiledroof).
 holds(s_17087_jpg, tiledrooftop).
 holds(s_17087_jpg, residential).
@@ -13674,6 +13701,7 @@ holds(s_17088_jpg, door).
 holds(s_17088_jpg, window).
 holds(s_17088_jpg, awning).
 holds(s_17088_jpg, billboard).
+holds(s_17088_jpg, table).
 holds(s_17088_jpg, vendingmachine).
 holds(s_17088_jpg, commercial).
 
@@ -13696,6 +13724,7 @@ holds(s_17090_jpg, countryhouse).
 holds(s_17090_jpg, door).
 holds(s_17090_jpg, window).
 holds(s_17090_jpg, porch).
+holds(s_17090_jpg, table).
 holds(s_17090_jpg, tiledroof).
 holds(s_17090_jpg, tiledrooftop).
 holds(s_17090_jpg, car).
@@ -13711,7 +13740,6 @@ holds(s_17091_jpg, door).
 holds(s_17091_jpg, window).
 holds(s_17091_jpg, awning).
 holds(s_17091_jpg, sign).
-holds(s_17091_jpg, table).
 holds(s_17091_jpg, wallsign).
 holds(s_17091_jpg, chimney).
 holds(s_17091_jpg, truck).
@@ -13723,7 +13751,6 @@ holds(s_17092_jpg, feature).
 holds(s_17092_jpg, watertreatment).
 holds(s_17092_jpg, door).
 holds(s_17092_jpg, awning).
-holds(s_17092_jpg, table).
 holds(s_17092_jpg, pipe).
 holds(s_17092_jpg, truck).
 holds(s_17092_jpg, industrial).
@@ -13751,6 +13778,7 @@ holds(s_17094_jpg, misccommercial).
 holds(s_17094_jpg, window).
 holds(s_17094_jpg, awning).
 holds(s_17094_jpg, sign).
+holds(s_17094_jpg, table).
 holds(s_17094_jpg, vendingmachine).
 holds(s_17094_jpg, chimney).
 holds(s_17094_jpg, car).
@@ -13785,7 +13813,6 @@ holds(s_17097_jpg, misccommercial).
 holds(s_17097_jpg, window).
 holds(s_17097_jpg, awning).
 holds(s_17097_jpg, billboard).
-holds(s_17097_jpg, table).
 holds(s_17097_jpg, vendingmachine).
 holds(s_17097_jpg, chimney).
 holds(s_17097_jpg, truck).
@@ -13823,7 +13850,6 @@ holds(s_17100_jpg, door).
 holds(s_17100_jpg, awning).
 holds(s_17100_jpg, billboard).
 holds(s_17100_jpg, sign).
-holds(s_17100_jpg, table).
 holds(s_17100_jpg, vendingmachine).
 holds(s_17100_jpg, wallsign).
 holds(s_17100_jpg, truck).
@@ -13836,6 +13862,7 @@ holds(s_17101_jpg, powerplant).
 holds(s_17101_jpg, door).
 holds(s_17101_jpg, window).
 holds(s_17101_jpg, awning).
+holds(s_17101_jpg, table).
 holds(s_17101_jpg, chimney).
 holds(s_17101_jpg, pipe).
 holds(s_17101_jpg, industrial).
@@ -13848,6 +13875,7 @@ holds(s_17102_jpg, miscresidential).
 holds(s_17102_jpg, countryhouse).
 holds(s_17102_jpg, door).
 holds(s_17102_jpg, porch).
+holds(s_17102_jpg, table).
 holds(s_17102_jpg, tiledroof).
 holds(s_17102_jpg, tiledrooftop).
 holds(s_17102_jpg, car).
@@ -13862,6 +13890,7 @@ holds(s_17103_jpg, store).
 holds(s_17103_jpg, window).
 holds(s_17103_jpg, billboard).
 holds(s_17103_jpg, sign).
+holds(s_17103_jpg, table).
 holds(s_17103_jpg, vendingmachine).
 holds(s_17103_jpg, car).
 holds(s_17103_jpg, commercial).
@@ -13925,6 +13954,7 @@ holds(s_17108_jpg, miscresidential).
 holds(s_17108_jpg, countryhouse).
 holds(s_17108_jpg, window).
 holds(s_17108_jpg, porch).
+holds(s_17108_jpg, table).
 holds(s_17108_jpg, tiledroof).
 holds(s_17108_jpg, tiledrooftop).
 holds(s_17108_jpg, car).
@@ -13963,6 +13993,7 @@ holds(s_17111_jpg, feature).
 holds(s_17111_jpg, suburban).
 holds(s_17111_jpg, door).
 holds(s_17111_jpg, porch).
+holds(s_17111_jpg, table).
 holds(s_17111_jpg, residential).
 
 sample(s_17112_jpg).
@@ -14073,7 +14104,6 @@ holds(s_17119_jpg, feature).
 holds(s_17119_jpg, constructionsite).
 holds(s_17119_jpg, window).
 holds(s_17119_jpg, sign).
-holds(s_17119_jpg, table).
 holds(s_17119_jpg, pipe).
 holds(s_17119_jpg, machine).
 holds(s_17119_jpg, industrial).
@@ -14100,7 +14130,6 @@ holds(s_17121_jpg, door).
 holds(s_17121_jpg, window).
 holds(s_17121_jpg, awning).
 holds(s_17121_jpg, billboard).
-holds(s_17121_jpg, table).
 holds(s_17121_jpg, wallsign).
 holds(s_17121_jpg, commercial).
 
@@ -14109,6 +14138,7 @@ holds(s_17122_jpg, building).
 holds(s_17122_jpg, feature).
 holds(s_17122_jpg, powerplant).
 holds(s_17122_jpg, window).
+holds(s_17122_jpg, table).
 holds(s_17122_jpg, chimney).
 holds(s_17122_jpg, pipe).
 holds(s_17122_jpg, industrial).
@@ -14120,6 +14150,7 @@ holds(s_17123_jpg, suburban).
 holds(s_17123_jpg, door).
 holds(s_17123_jpg, awning).
 holds(s_17123_jpg, porch).
+holds(s_17123_jpg, table).
 holds(s_17123_jpg, car).
 holds(s_17123_jpg, residential).
 
@@ -14128,7 +14159,6 @@ holds(s_17124_jpg, building).
 holds(s_17124_jpg, feature).
 holds(s_17124_jpg, hotel).
 holds(s_17124_jpg, door).
-holds(s_17124_jpg, table).
 holds(s_17124_jpg, wallsign).
 holds(s_17124_jpg, truck).
 holds(s_17124_jpg, commercial).
@@ -14153,6 +14183,7 @@ holds(s_17126_jpg, countryhouse).
 holds(s_17126_jpg, door).
 holds(s_17126_jpg, window).
 holds(s_17126_jpg, porch).
+holds(s_17126_jpg, table).
 holds(s_17126_jpg, tiledroof).
 holds(s_17126_jpg, tiledrooftop).
 holds(s_17126_jpg, car).
@@ -14167,6 +14198,7 @@ holds(s_17127_jpg, restaurant).
 holds(s_17127_jpg, store).
 holds(s_17127_jpg, billboard).
 holds(s_17127_jpg, sign).
+holds(s_17127_jpg, table).
 holds(s_17127_jpg, wallsign).
 holds(s_17127_jpg, statue).
 holds(s_17127_jpg, pipe).
@@ -14179,7 +14211,6 @@ holds(s_17128_jpg, feature).
 holds(s_17128_jpg, miscindustrial).
 holds(s_17128_jpg, watertreatment).
 holds(s_17128_jpg, window).
-holds(s_17128_jpg, table).
 holds(s_17128_jpg, pipe).
 holds(s_17128_jpg, truck).
 holds(s_17128_jpg, industrial).
@@ -14227,6 +14258,7 @@ holds(s_17132_jpg, building).
 holds(s_17132_jpg, feature).
 holds(s_17132_jpg, miscresidential).
 holds(s_17132_jpg, window).
+holds(s_17132_jpg, table).
 holds(s_17132_jpg, tiledroof).
 holds(s_17132_jpg, tiledrooftop).
 holds(s_17132_jpg, residential).
@@ -14246,7 +14278,6 @@ holds(s_17134_jpg, building).
 holds(s_17134_jpg, feature).
 holds(s_17134_jpg, powerplant).
 holds(s_17134_jpg, window).
-holds(s_17134_jpg, table).
 holds(s_17134_jpg, chimney).
 holds(s_17134_jpg, pipe).
 holds(s_17134_jpg, industrial).
@@ -14260,6 +14291,7 @@ holds(s_17135_jpg, door).
 holds(s_17135_jpg, window).
 holds(s_17135_jpg, awning).
 holds(s_17135_jpg, porch).
+holds(s_17135_jpg, table).
 holds(s_17135_jpg, tiledroof).
 holds(s_17135_jpg, tiledrooftop).
 holds(s_17135_jpg, residential).
@@ -14295,7 +14327,6 @@ holds(s_17138_jpg, miscresidential).
 holds(s_17138_jpg, window).
 holds(s_17138_jpg, awning).
 holds(s_17138_jpg, porch).
-holds(s_17138_jpg, table).
 holds(s_17138_jpg, tiledroof).
 holds(s_17138_jpg, tiledrooftop).
 holds(s_17138_jpg, residential).
@@ -14334,6 +14365,7 @@ holds(s_17141_jpg, feature).
 holds(s_17141_jpg, suburban).
 holds(s_17141_jpg, miscresidential).
 holds(s_17141_jpg, porch).
+holds(s_17141_jpg, table).
 holds(s_17141_jpg, tiledroof).
 holds(s_17141_jpg, tiledrooftop).
 holds(s_17141_jpg, residential).
@@ -14385,7 +14417,6 @@ holds(s_17145_jpg, misccommercial).
 holds(s_17145_jpg, door).
 holds(s_17145_jpg, awning).
 holds(s_17145_jpg, billboard).
-holds(s_17145_jpg, table).
 holds(s_17145_jpg, vendingmachine).
 holds(s_17145_jpg, wallsign).
 holds(s_17145_jpg, car).
@@ -14410,6 +14441,7 @@ holds(s_17147_jpg, door).
 holds(s_17147_jpg, window).
 holds(s_17147_jpg, awning).
 holds(s_17147_jpg, porch).
+holds(s_17147_jpg, table).
 holds(s_17147_jpg, residential).
 
 sample(s_17148_jpg).
@@ -14464,6 +14496,7 @@ holds(s_17151_jpg, window).
 holds(s_17151_jpg, awning).
 holds(s_17151_jpg, billboard).
 holds(s_17151_jpg, sign).
+holds(s_17151_jpg, table).
 holds(s_17151_jpg, vendingmachine).
 holds(s_17151_jpg, wallsign).
 holds(s_17151_jpg, truck).
@@ -14475,6 +14508,7 @@ holds(s_17152_jpg, feature).
 holds(s_17152_jpg, miscindustrial).
 holds(s_17152_jpg, watertreatment).
 holds(s_17152_jpg, window).
+holds(s_17152_jpg, table).
 holds(s_17152_jpg, pipe).
 holds(s_17152_jpg, truck).
 holds(s_17152_jpg, industrial).
@@ -14487,6 +14521,7 @@ holds(s_17153_jpg, miscresidential).
 holds(s_17153_jpg, countryhouse).
 holds(s_17153_jpg, window).
 holds(s_17153_jpg, porch).
+holds(s_17153_jpg, table).
 holds(s_17153_jpg, tiledroof).
 holds(s_17153_jpg, tiledrooftop).
 holds(s_17153_jpg, car).
@@ -14549,7 +14584,6 @@ sample(s_17158_jpg).
 holds(s_17158_jpg, building).
 holds(s_17158_jpg, feature).
 holds(s_17158_jpg, powerplant).
-holds(s_17158_jpg, table).
 holds(s_17158_jpg, chimney).
 holds(s_17158_jpg, pipe).
 holds(s_17158_jpg, car).
@@ -14586,6 +14620,7 @@ holds(s_17161_jpg, miscindustrial).
 holds(s_17161_jpg, powerplant).
 holds(s_17161_jpg, watertreatment).
 holds(s_17161_jpg, window).
+holds(s_17161_jpg, table).
 holds(s_17161_jpg, chimney).
 holds(s_17161_jpg, pipe).
 holds(s_17161_jpg, truck).
@@ -14617,6 +14652,7 @@ holds(s_17163_jpg, window).
 holds(s_17163_jpg, awning).
 holds(s_17163_jpg, billboard).
 holds(s_17163_jpg, sign).
+holds(s_17163_jpg, table).
 holds(s_17163_jpg, vendingmachine).
 holds(s_17163_jpg, wallsign).
 holds(s_17163_jpg, truck).
@@ -14628,6 +14664,7 @@ holds(s_17164_jpg, feature).
 holds(s_17164_jpg, miscindustrial).
 holds(s_17164_jpg, powerplant).
 holds(s_17164_jpg, watertreatment).
+holds(s_17164_jpg, table).
 holds(s_17164_jpg, chimney).
 holds(s_17164_jpg, pipe).
 holds(s_17164_jpg, truck).
@@ -14654,6 +14691,7 @@ holds(s_17166_jpg, misccommercial).
 holds(s_17166_jpg, door).
 holds(s_17166_jpg, window).
 holds(s_17166_jpg, awning).
+holds(s_17166_jpg, table).
 holds(s_17166_jpg, tiledroof).
 holds(s_17166_jpg, tiledrooftop).
 holds(s_17166_jpg, pipe).
@@ -14664,6 +14702,7 @@ holds(s_17167_jpg, building).
 holds(s_17167_jpg, feature).
 holds(s_17167_jpg, powerplant).
 holds(s_17167_jpg, window).
+holds(s_17167_jpg, table).
 holds(s_17167_jpg, chimney).
 holds(s_17167_jpg, pipe).
 holds(s_17167_jpg, car).
@@ -14697,7 +14736,6 @@ holds(s_17170_jpg, feature).
 holds(s_17170_jpg, miscindustrial).
 holds(s_17170_jpg, watertreatment).
 holds(s_17170_jpg, door).
-holds(s_17170_jpg, table).
 holds(s_17170_jpg, pipe).
 holds(s_17170_jpg, truck).
 holds(s_17170_jpg, industrial).
@@ -14733,7 +14771,6 @@ holds(s_17173_jpg, building).
 holds(s_17173_jpg, feature).
 holds(s_17173_jpg, powerplant).
 holds(s_17173_jpg, door).
-holds(s_17173_jpg, table).
 holds(s_17173_jpg, chimney).
 holds(s_17173_jpg, pipe).
 holds(s_17173_jpg, car).
@@ -14760,6 +14797,7 @@ holds(s_17175_jpg, window).
 holds(s_17175_jpg, awning).
 holds(s_17175_jpg, billboard).
 holds(s_17175_jpg, sign).
+holds(s_17175_jpg, table).
 holds(s_17175_jpg, tiledroof).
 holds(s_17175_jpg, tiledrooftop).
 holds(s_17175_jpg, commercial).
@@ -14770,7 +14808,6 @@ holds(s_17176_jpg, feature).
 holds(s_17176_jpg, powerplant).
 holds(s_17176_jpg, window).
 holds(s_17176_jpg, awning).
-holds(s_17176_jpg, table).
 holds(s_17176_jpg, chimney).
 holds(s_17176_jpg, pipe).
 holds(s_17176_jpg, industrial).
@@ -14784,6 +14821,7 @@ holds(s_17177_jpg, door).
 holds(s_17177_jpg, awning).
 holds(s_17177_jpg, porch).
 holds(s_17177_jpg, sign).
+holds(s_17177_jpg, table).
 holds(s_17177_jpg, tiledroof).
 holds(s_17177_jpg, tiledrooftop).
 holds(s_17177_jpg, residential).
@@ -14847,7 +14885,6 @@ holds(s_17182_jpg, constructionsite).
 holds(s_17182_jpg, door).
 holds(s_17182_jpg, window).
 holds(s_17182_jpg, awning).
-holds(s_17182_jpg, table).
 holds(s_17182_jpg, pipe).
 holds(s_17182_jpg, machine).
 holds(s_17182_jpg, industrial).
@@ -14860,7 +14897,6 @@ holds(s_17183_jpg, miscresidential).
 holds(s_17183_jpg, countryhouse).
 holds(s_17183_jpg, door).
 holds(s_17183_jpg, porch).
-holds(s_17183_jpg, table).
 holds(s_17183_jpg, tiledroof).
 holds(s_17183_jpg, tiledrooftop).
 holds(s_17183_jpg, car).
@@ -14885,6 +14921,7 @@ holds(s_17185_jpg, constructionsite).
 holds(s_17185_jpg, powerplant).
 holds(s_17185_jpg, door).
 holds(s_17185_jpg, awning).
+holds(s_17185_jpg, table).
 holds(s_17185_jpg, chimney).
 holds(s_17185_jpg, pipe).
 holds(s_17185_jpg, machine).
@@ -14924,6 +14961,7 @@ holds(s_17188_jpg, powerplant).
 holds(s_17188_jpg, door).
 holds(s_17188_jpg, window).
 holds(s_17188_jpg, awning).
+holds(s_17188_jpg, table).
 holds(s_17188_jpg, chimney).
 holds(s_17188_jpg, pipe).
 holds(s_17188_jpg, industrial).
@@ -14934,7 +14972,6 @@ holds(s_17189_jpg, feature).
 holds(s_17189_jpg, miscresidential).
 holds(s_17189_jpg, door).
 holds(s_17189_jpg, awning).
-holds(s_17189_jpg, table).
 holds(s_17189_jpg, tiledroof).
 holds(s_17189_jpg, tiledrooftop).
 holds(s_17189_jpg, residential).
@@ -14962,6 +14999,7 @@ holds(s_17191_jpg, feature).
 holds(s_17191_jpg, powerplant).
 holds(s_17191_jpg, door).
 holds(s_17191_jpg, window).
+holds(s_17191_jpg, table).
 holds(s_17191_jpg, chimney).
 holds(s_17191_jpg, pipe).
 holds(s_17191_jpg, industrial).
@@ -15042,7 +15080,6 @@ holds(s_17197_jpg, powerplant).
 holds(s_17197_jpg, watertreatment).
 holds(s_17197_jpg, door).
 holds(s_17197_jpg, window).
-holds(s_17197_jpg, table).
 holds(s_17197_jpg, chimney).
 holds(s_17197_jpg, pipe).
 holds(s_17197_jpg, truck).
@@ -15057,6 +15094,7 @@ holds(s_17198_jpg, door).
 holds(s_17198_jpg, window).
 holds(s_17198_jpg, awning).
 holds(s_17198_jpg, porch).
+holds(s_17198_jpg, table).
 holds(s_17198_jpg, tiledroof).
 holds(s_17198_jpg, tiledrooftop).
 holds(s_17198_jpg, truck).
@@ -15081,7 +15119,6 @@ holds(s_17200_jpg, feature).
 holds(s_17200_jpg, watertreatment).
 holds(s_17200_jpg, window).
 holds(s_17200_jpg, awning).
-holds(s_17200_jpg, table).
 holds(s_17200_jpg, pipe).
 holds(s_17200_jpg, truck).
 holds(s_17200_jpg, industrial).
@@ -15091,6 +15128,7 @@ holds(s_17201_jpg, building).
 holds(s_17201_jpg, feature).
 holds(s_17201_jpg, miscresidential).
 holds(s_17201_jpg, sign).
+holds(s_17201_jpg, table).
 holds(s_17201_jpg, tiledroof).
 holds(s_17201_jpg, tiledrooftop).
 holds(s_17201_jpg, residential).
@@ -15141,7 +15179,6 @@ holds(s_17205_jpg, misccommercial).
 holds(s_17205_jpg, door).
 holds(s_17205_jpg, awning).
 holds(s_17205_jpg, sign).
-holds(s_17205_jpg, table).
 holds(s_17205_jpg, tiledroof).
 holds(s_17205_jpg, tiledrooftop).
 holds(s_17205_jpg, vendingmachine).
@@ -15182,6 +15219,7 @@ holds(s_17208_jpg, misccommercial).
 holds(s_17208_jpg, window).
 holds(s_17208_jpg, awning).
 holds(s_17208_jpg, sign).
+holds(s_17208_jpg, table).
 holds(s_17208_jpg, tiledroof).
 holds(s_17208_jpg, tiledrooftop).
 holds(s_17208_jpg, wallsign).
@@ -15195,7 +15233,6 @@ holds(s_17209_jpg, feature).
 holds(s_17209_jpg, powerplant).
 holds(s_17209_jpg, door).
 holds(s_17209_jpg, window).
-holds(s_17209_jpg, table).
 holds(s_17209_jpg, chimney).
 holds(s_17209_jpg, pipe).
 holds(s_17209_jpg, industrial).
@@ -15209,7 +15246,6 @@ holds(s_17210_jpg, countryhouse).
 holds(s_17210_jpg, window).
 holds(s_17210_jpg, awning).
 holds(s_17210_jpg, porch).
-holds(s_17210_jpg, table).
 holds(s_17210_jpg, tiledroof).
 holds(s_17210_jpg, tiledrooftop).
 holds(s_17210_jpg, car).
@@ -15224,7 +15260,6 @@ holds(s_17211_jpg, misccommercial).
 holds(s_17211_jpg, door).
 holds(s_17211_jpg, awning).
 holds(s_17211_jpg, sign).
-holds(s_17211_jpg, table).
 holds(s_17211_jpg, vendingmachine).
 holds(s_17211_jpg, wallsign).
 holds(s_17211_jpg, commercial).
@@ -15278,6 +15313,7 @@ holds(s_17215_jpg, miscindustrial).
 holds(s_17215_jpg, powerplant).
 holds(s_17215_jpg, watertreatment).
 holds(s_17215_jpg, window).
+holds(s_17215_jpg, table).
 holds(s_17215_jpg, chimney).
 holds(s_17215_jpg, pipe).
 holds(s_17215_jpg, truck).
@@ -15304,7 +15340,6 @@ holds(s_17217_jpg, store).
 holds(s_17217_jpg, window).
 holds(s_17217_jpg, awning).
 holds(s_17217_jpg, billboard).
-holds(s_17217_jpg, table).
 holds(s_17217_jpg, chimney).
 holds(s_17217_jpg, commercial).
 
@@ -15326,6 +15361,7 @@ holds(s_17219_jpg, miscresidential).
 holds(s_17219_jpg, countryhouse).
 holds(s_17219_jpg, door).
 holds(s_17219_jpg, window).
+holds(s_17219_jpg, table).
 holds(s_17219_jpg, tiledroof).
 holds(s_17219_jpg, tiledrooftop).
 holds(s_17219_jpg, car).
@@ -15353,7 +15389,6 @@ holds(s_17221_jpg, constructionsite).
 holds(s_17221_jpg, powerplant).
 holds(s_17221_jpg, door).
 holds(s_17221_jpg, window).
-holds(s_17221_jpg, table).
 holds(s_17221_jpg, chimney).
 holds(s_17221_jpg, pipe).
 holds(s_17221_jpg, machine).
@@ -15383,7 +15418,6 @@ holds(s_17223_jpg, door).
 holds(s_17223_jpg, window).
 holds(s_17223_jpg, awning).
 holds(s_17223_jpg, sign).
-holds(s_17223_jpg, table).
 holds(s_17223_jpg, statue).
 holds(s_17223_jpg, commercial).
 
@@ -15406,6 +15440,7 @@ holds(s_17225_jpg, door).
 holds(s_17225_jpg, window).
 holds(s_17225_jpg, awning).
 holds(s_17225_jpg, porch).
+holds(s_17225_jpg, table).
 holds(s_17225_jpg, tiledroof).
 holds(s_17225_jpg, tiledrooftop).
 holds(s_17225_jpg, residential).
@@ -15442,6 +15477,7 @@ holds(s_17228_jpg, miscresidential).
 holds(s_17228_jpg, countryhouse).
 holds(s_17228_jpg, door).
 holds(s_17228_jpg, porch).
+holds(s_17228_jpg, table).
 holds(s_17228_jpg, tiledroof).
 holds(s_17228_jpg, tiledrooftop).
 holds(s_17228_jpg, car).
@@ -15461,6 +15497,7 @@ holds(s_17230_jpg, building).
 holds(s_17230_jpg, feature).
 holds(s_17230_jpg, constructionsite).
 holds(s_17230_jpg, powerplant).
+holds(s_17230_jpg, table).
 holds(s_17230_jpg, chimney).
 holds(s_17230_jpg, pipe).
 holds(s_17230_jpg, machine).
@@ -15472,6 +15509,7 @@ holds(s_17231_jpg, feature).
 holds(s_17231_jpg, miscresidential).
 holds(s_17231_jpg, door).
 holds(s_17231_jpg, sign).
+holds(s_17231_jpg, table).
 holds(s_17231_jpg, tiledroof).
 holds(s_17231_jpg, tiledrooftop).
 holds(s_17231_jpg, residential).
@@ -15489,6 +15527,7 @@ holds(s_17232_jpg, window).
 holds(s_17232_jpg, awning).
 holds(s_17232_jpg, billboard).
 holds(s_17232_jpg, sign).
+holds(s_17232_jpg, table).
 holds(s_17232_jpg, wallsign).
 holds(s_17232_jpg, statue).
 holds(s_17232_jpg, car).
@@ -15499,6 +15538,7 @@ holds(s_17233_jpg, building).
 holds(s_17233_jpg, feature).
 holds(s_17233_jpg, constructionsite).
 holds(s_17233_jpg, window).
+holds(s_17233_jpg, table).
 holds(s_17233_jpg, chimney).
 holds(s_17233_jpg, machine).
 holds(s_17233_jpg, industrial).
@@ -15525,6 +15565,7 @@ holds(s_17235_jpg, window).
 holds(s_17235_jpg, awning).
 holds(s_17235_jpg, billboard).
 holds(s_17235_jpg, sign).
+holds(s_17235_jpg, table).
 holds(s_17235_jpg, vendingmachine).
 holds(s_17235_jpg, wallsign).
 holds(s_17235_jpg, statue).
@@ -15536,7 +15577,6 @@ holds(s_17236_jpg, building).
 holds(s_17236_jpg, feature).
 holds(s_17236_jpg, powerplant).
 holds(s_17236_jpg, door).
-holds(s_17236_jpg, table).
 holds(s_17236_jpg, chimney).
 holds(s_17236_jpg, pipe).
 holds(s_17236_jpg, industrial).
@@ -15605,7 +15645,6 @@ holds(s_17241_jpg, misccommercial).
 holds(s_17241_jpg, door).
 holds(s_17241_jpg, awning).
 holds(s_17241_jpg, billboard).
-holds(s_17241_jpg, table).
 holds(s_17241_jpg, vendingmachine).
 holds(s_17241_jpg, wallsign).
 holds(s_17241_jpg, chimney).
@@ -15641,7 +15680,6 @@ holds(s_17244_jpg, misccommercial).
 holds(s_17244_jpg, door).
 holds(s_17244_jpg, awning).
 holds(s_17244_jpg, sign).
-holds(s_17244_jpg, table).
 holds(s_17244_jpg, wallsign).
 holds(s_17244_jpg, car).
 holds(s_17244_jpg, commercial).
@@ -15695,7 +15733,6 @@ holds(s_17249_jpg, countryhouse).
 holds(s_17249_jpg, door).
 holds(s_17249_jpg, window).
 holds(s_17249_jpg, awning).
-holds(s_17249_jpg, table).
 holds(s_17249_jpg, tiledroof).
 holds(s_17249_jpg, tiledrooftop).
 holds(s_17249_jpg, car).
@@ -15712,7 +15749,6 @@ holds(s_17250_jpg, door).
 holds(s_17250_jpg, window).
 holds(s_17250_jpg, awning).
 holds(s_17250_jpg, sign).
-holds(s_17250_jpg, table).
 holds(s_17250_jpg, wallsign).
 holds(s_17250_jpg, statue).
 holds(s_17250_jpg, truck).
@@ -15738,6 +15774,7 @@ holds(s_17252_jpg, feature).
 holds(s_17252_jpg, miscresidential).
 holds(s_17252_jpg, window).
 holds(s_17252_jpg, awning).
+holds(s_17252_jpg, table).
 holds(s_17252_jpg, tiledroof).
 holds(s_17252_jpg, tiledrooftop).
 holds(s_17252_jpg, truck).
@@ -15767,7 +15804,6 @@ holds(s_17254_jpg, feature).
 holds(s_17254_jpg, powerplant).
 holds(s_17254_jpg, door).
 holds(s_17254_jpg, window).
-holds(s_17254_jpg, table).
 holds(s_17254_jpg, chimney).
 holds(s_17254_jpg, pipe).
 holds(s_17254_jpg, industrial).
@@ -15793,6 +15829,7 @@ holds(s_17256_jpg, door).
 holds(s_17256_jpg, awning).
 holds(s_17256_jpg, billboard).
 holds(s_17256_jpg, sign).
+holds(s_17256_jpg, table).
 holds(s_17256_jpg, commercial).
 
 sample(s_17257_jpg).
@@ -15831,6 +15868,7 @@ holds(s_17259_jpg, door).
 holds(s_17259_jpg, window).
 holds(s_17259_jpg, billboard).
 holds(s_17259_jpg, sign).
+holds(s_17259_jpg, table).
 holds(s_17259_jpg, vendingmachine).
 holds(s_17259_jpg, wallsign).
 holds(s_17259_jpg, statue).
@@ -15922,7 +15960,6 @@ holds(s_17266_jpg, feature).
 holds(s_17266_jpg, powerplant).
 holds(s_17266_jpg, door).
 holds(s_17266_jpg, window).
-holds(s_17266_jpg, table).
 holds(s_17266_jpg, chimney).
 holds(s_17266_jpg, pipe).
 holds(s_17266_jpg, car).
@@ -15953,6 +15990,7 @@ holds(s_17268_jpg, window).
 holds(s_17268_jpg, awning).
 holds(s_17268_jpg, billboard).
 holds(s_17268_jpg, sign).
+holds(s_17268_jpg, table).
 holds(s_17268_jpg, vendingmachine).
 holds(s_17268_jpg, wallsign).
 holds(s_17268_jpg, chimney).
@@ -15977,7 +16015,6 @@ holds(s_17270_jpg, miscresidential).
 holds(s_17270_jpg, door).
 holds(s_17270_jpg, window).
 holds(s_17270_jpg, awning).
-holds(s_17270_jpg, table).
 holds(s_17270_jpg, tiledroof).
 holds(s_17270_jpg, tiledrooftop).
 holds(s_17270_jpg, residential).
@@ -16017,7 +16054,6 @@ holds(s_17273_jpg, miscresidential).
 holds(s_17273_jpg, countryhouse).
 holds(s_17273_jpg, window).
 holds(s_17273_jpg, porch).
-holds(s_17273_jpg, table).
 holds(s_17273_jpg, tiledroof).
 holds(s_17273_jpg, tiledrooftop).
 holds(s_17273_jpg, car).
@@ -16053,6 +16089,7 @@ holds(s_17276_jpg, countryhouse).
 holds(s_17276_jpg, door).
 holds(s_17276_jpg, window).
 holds(s_17276_jpg, awning).
+holds(s_17276_jpg, table).
 holds(s_17276_jpg, tiledroof).
 holds(s_17276_jpg, tiledrooftop).
 holds(s_17276_jpg, car).
@@ -16084,6 +16121,7 @@ sample(s_17279_jpg).
 holds(s_17279_jpg, building).
 holds(s_17279_jpg, feature).
 holds(s_17279_jpg, miscresidential).
+holds(s_17279_jpg, table).
 holds(s_17279_jpg, tiledroof).
 holds(s_17279_jpg, tiledrooftop).
 holds(s_17279_jpg, residential).
@@ -16097,6 +16135,7 @@ holds(s_17280_jpg, store).
 holds(s_17280_jpg, door).
 holds(s_17280_jpg, awning).
 holds(s_17280_jpg, billboard).
+holds(s_17280_jpg, table).
 holds(s_17280_jpg, vendingmachine).
 holds(s_17280_jpg, wallsign).
 holds(s_17280_jpg, statue).
@@ -16119,7 +16158,6 @@ holds(s_17282_jpg, countryhouse).
 holds(s_17282_jpg, door).
 holds(s_17282_jpg, window).
 holds(s_17282_jpg, porch).
-holds(s_17282_jpg, table).
 holds(s_17282_jpg, tiledroof).
 holds(s_17282_jpg, tiledrooftop).
 holds(s_17282_jpg, car).
@@ -16135,7 +16173,6 @@ holds(s_17283_jpg, door).
 holds(s_17283_jpg, window).
 holds(s_17283_jpg, awning).
 holds(s_17283_jpg, sign).
-holds(s_17283_jpg, table).
 holds(s_17283_jpg, tiledroof).
 holds(s_17283_jpg, tiledrooftop).
 holds(s_17283_jpg, wallsign).
@@ -16149,6 +16186,7 @@ holds(s_17284_jpg, constructionsite).
 holds(s_17284_jpg, powerplant).
 holds(s_17284_jpg, door).
 holds(s_17284_jpg, window).
+holds(s_17284_jpg, table).
 holds(s_17284_jpg, chimney).
 holds(s_17284_jpg, pipe).
 holds(s_17284_jpg, machine).
@@ -16161,7 +16199,6 @@ holds(s_17285_jpg, suburban).
 holds(s_17285_jpg, miscresidential).
 holds(s_17285_jpg, door).
 holds(s_17285_jpg, porch).
-holds(s_17285_jpg, table).
 holds(s_17285_jpg, tiledroof).
 holds(s_17285_jpg, tiledrooftop).
 holds(s_17285_jpg, residential).
@@ -16190,7 +16227,6 @@ holds(s_17287_jpg, constructionsite).
 holds(s_17287_jpg, powerplant).
 holds(s_17287_jpg, window).
 holds(s_17287_jpg, sign).
-holds(s_17287_jpg, table).
 holds(s_17287_jpg, chimney).
 holds(s_17287_jpg, pipe).
 holds(s_17287_jpg, machine).
@@ -16206,7 +16242,6 @@ holds(s_17288_jpg, door).
 holds(s_17288_jpg, window).
 holds(s_17288_jpg, awning).
 holds(s_17288_jpg, porch).
-holds(s_17288_jpg, table).
 holds(s_17288_jpg, tiledroof).
 holds(s_17288_jpg, tiledrooftop).
 holds(s_17288_jpg, car).
@@ -16273,6 +16308,7 @@ holds(s_17293_jpg, feature).
 holds(s_17293_jpg, miscindustrial).
 holds(s_17293_jpg, door).
 holds(s_17293_jpg, window).
+holds(s_17293_jpg, table).
 holds(s_17293_jpg, chimney).
 holds(s_17293_jpg, truck).
 holds(s_17293_jpg, industrial).
@@ -16320,6 +16356,7 @@ holds(s_17297_jpg, building).
 holds(s_17297_jpg, feature).
 holds(s_17297_jpg, miscresidential).
 holds(s_17297_jpg, window).
+holds(s_17297_jpg, table).
 holds(s_17297_jpg, tiledroof).
 holds(s_17297_jpg, tiledrooftop).
 holds(s_17297_jpg, residential).
@@ -16343,6 +16380,7 @@ holds(s_17299_jpg, feature).
 holds(s_17299_jpg, miscindustrial).
 holds(s_17299_jpg, door).
 holds(s_17299_jpg, window).
+holds(s_17299_jpg, table).
 holds(s_17299_jpg, truck).
 holds(s_17299_jpg, industrial).
 
@@ -16367,6 +16405,7 @@ holds(s_17301_jpg, misccommercial).
 holds(s_17301_jpg, window).
 holds(s_17301_jpg, awning).
 holds(s_17301_jpg, billboard).
+holds(s_17301_jpg, table).
 holds(s_17301_jpg, tiledroof).
 holds(s_17301_jpg, tiledrooftop).
 holds(s_17301_jpg, vendingmachine).
@@ -16378,6 +16417,7 @@ sample(s_17302_jpg).
 holds(s_17302_jpg, building).
 holds(s_17302_jpg, feature).
 holds(s_17302_jpg, powerplant).
+holds(s_17302_jpg, table).
 holds(s_17302_jpg, chimney).
 holds(s_17302_jpg, pipe).
 holds(s_17302_jpg, industrial).
@@ -16390,7 +16430,6 @@ holds(s_17303_jpg, miscresidential).
 holds(s_17303_jpg, window).
 holds(s_17303_jpg, porch).
 holds(s_17303_jpg, sign).
-holds(s_17303_jpg, table).
 holds(s_17303_jpg, tiledroof).
 holds(s_17303_jpg, tiledrooftop).
 holds(s_17303_jpg, residential).
@@ -16404,7 +16443,6 @@ holds(s_17304_jpg, misccommercial).
 holds(s_17304_jpg, door).
 holds(s_17304_jpg, window).
 holds(s_17304_jpg, awning).
-holds(s_17304_jpg, table).
 holds(s_17304_jpg, tiledroof).
 holds(s_17304_jpg, wallsign).
 holds(s_17304_jpg, statue).
@@ -16428,6 +16466,7 @@ holds(s_17306_jpg, feature).
 holds(s_17306_jpg, miscresidential).
 holds(s_17306_jpg, window).
 holds(s_17306_jpg, awning).
+holds(s_17306_jpg, table).
 holds(s_17306_jpg, tiledroof).
 holds(s_17306_jpg, tiledrooftop).
 holds(s_17306_jpg, residential).
@@ -16442,6 +16481,7 @@ holds(s_17307_jpg, door).
 holds(s_17307_jpg, window).
 holds(s_17307_jpg, awning).
 holds(s_17307_jpg, sign).
+holds(s_17307_jpg, table).
 holds(s_17307_jpg, vendingmachine).
 holds(s_17307_jpg, wallsign).
 holds(s_17307_jpg, statue).
@@ -16486,6 +16526,7 @@ holds(s_17310_jpg, window).
 holds(s_17310_jpg, awning).
 holds(s_17310_jpg, billboard).
 holds(s_17310_jpg, sign).
+holds(s_17310_jpg, table).
 holds(s_17310_jpg, vendingmachine).
 holds(s_17310_jpg, commercial).
 
@@ -16495,7 +16536,6 @@ holds(s_17311_jpg, feature).
 holds(s_17311_jpg, miscindustrial).
 holds(s_17311_jpg, door).
 holds(s_17311_jpg, window).
-holds(s_17311_jpg, table).
 holds(s_17311_jpg, chimney).
 holds(s_17311_jpg, truck).
 holds(s_17311_jpg, industrial).
@@ -16506,6 +16546,7 @@ holds(s_17312_jpg, feature).
 holds(s_17312_jpg, miscresidential).
 holds(s_17312_jpg, countryhouse).
 holds(s_17312_jpg, window).
+holds(s_17312_jpg, table).
 holds(s_17312_jpg, tiledroof).
 holds(s_17312_jpg, tiledrooftop).
 holds(s_17312_jpg, car).
@@ -16572,7 +16613,6 @@ holds(s_17317_jpg, feature).
 holds(s_17317_jpg, watertreatment).
 holds(s_17317_jpg, door).
 holds(s_17317_jpg, awning).
-holds(s_17317_jpg, table).
 holds(s_17317_jpg, pipe).
 holds(s_17317_jpg, truck).
 holds(s_17317_jpg, industrial).
@@ -16596,7 +16636,6 @@ holds(s_17319_jpg, hotel).
 holds(s_17319_jpg, door).
 holds(s_17319_jpg, awning).
 holds(s_17319_jpg, sign).
-holds(s_17319_jpg, table).
 holds(s_17319_jpg, vendingmachine).
 holds(s_17319_jpg, wallsign).
 holds(s_17319_jpg, statue).
@@ -16655,6 +16694,7 @@ holds(s_17324_jpg, suburban).
 holds(s_17324_jpg, door).
 holds(s_17324_jpg, window).
 holds(s_17324_jpg, porch).
+holds(s_17324_jpg, table).
 holds(s_17324_jpg, residential).
 
 sample(s_17325_jpg).
@@ -16668,6 +16708,7 @@ holds(s_17325_jpg, window).
 holds(s_17325_jpg, awning).
 holds(s_17325_jpg, billboard).
 holds(s_17325_jpg, sign).
+holds(s_17325_jpg, table).
 holds(s_17325_jpg, vendingmachine).
 holds(s_17325_jpg, wallsign).
 holds(s_17325_jpg, statue).
@@ -16695,6 +16736,7 @@ holds(s_17327_jpg, door).
 holds(s_17327_jpg, window).
 holds(s_17327_jpg, awning).
 holds(s_17327_jpg, sign).
+holds(s_17327_jpg, table).
 holds(s_17327_jpg, tiledroof).
 holds(s_17327_jpg, tiledrooftop).
 holds(s_17327_jpg, residential).
@@ -16710,7 +16752,6 @@ holds(s_17328_jpg, door).
 holds(s_17328_jpg, awning).
 holds(s_17328_jpg, billboard).
 holds(s_17328_jpg, sign).
-holds(s_17328_jpg, table).
 holds(s_17328_jpg, vendingmachine).
 holds(s_17328_jpg, wallsign).
 holds(s_17328_jpg, chimney).
@@ -16722,6 +16763,7 @@ holds(s_17329_jpg, feature).
 holds(s_17329_jpg, miscindustrial).
 holds(s_17329_jpg, watertreatment).
 holds(s_17329_jpg, window).
+holds(s_17329_jpg, table).
 holds(s_17329_jpg, pipe).
 holds(s_17329_jpg, truck).
 holds(s_17329_jpg, industrial).
@@ -16734,7 +16776,6 @@ holds(s_17330_jpg, miscresidential).
 holds(s_17330_jpg, countryhouse).
 holds(s_17330_jpg, window).
 holds(s_17330_jpg, porch).
-holds(s_17330_jpg, table).
 holds(s_17330_jpg, tiledroof).
 holds(s_17330_jpg, tiledrooftop).
 holds(s_17330_jpg, car).
@@ -16771,6 +16812,7 @@ holds(s_17333_jpg, window).
 holds(s_17333_jpg, awning).
 holds(s_17333_jpg, porch).
 holds(s_17333_jpg, sign).
+holds(s_17333_jpg, table).
 holds(s_17333_jpg, tiledroof).
 holds(s_17333_jpg, tiledrooftop).
 holds(s_17333_jpg, residential).
@@ -16815,6 +16857,7 @@ holds(s_17336_jpg, miscresidential).
 holds(s_17336_jpg, door).
 holds(s_17336_jpg, awning).
 holds(s_17336_jpg, porch).
+holds(s_17336_jpg, table).
 holds(s_17336_jpg, tiledroof).
 holds(s_17336_jpg, tiledrooftop).
 holds(s_17336_jpg, truck).
@@ -16859,6 +16902,7 @@ holds(s_17340_jpg, door).
 holds(s_17340_jpg, window).
 holds(s_17340_jpg, awning).
 holds(s_17340_jpg, billboard).
+holds(s_17340_jpg, table).
 holds(s_17340_jpg, tiledroof).
 holds(s_17340_jpg, tiledrooftop).
 holds(s_17340_jpg, vendingmachine).
@@ -16874,7 +16918,6 @@ holds(s_17341_jpg, door).
 holds(s_17341_jpg, window).
 holds(s_17341_jpg, awning).
 holds(s_17341_jpg, sign).
-holds(s_17341_jpg, table).
 holds(s_17341_jpg, chimney).
 holds(s_17341_jpg, pipe).
 holds(s_17341_jpg, industrial).
@@ -16889,6 +16932,7 @@ holds(s_17342_jpg, door).
 holds(s_17342_jpg, window).
 holds(s_17342_jpg, awning).
 holds(s_17342_jpg, porch).
+holds(s_17342_jpg, table).
 holds(s_17342_jpg, tiledroof).
 holds(s_17342_jpg, tiledrooftop).
 holds(s_17342_jpg, car).
@@ -16915,6 +16959,7 @@ holds(s_17344_jpg, feature).
 holds(s_17344_jpg, miscindustrial).
 holds(s_17344_jpg, door).
 holds(s_17344_jpg, window).
+holds(s_17344_jpg, table).
 holds(s_17344_jpg, chimney).
 holds(s_17344_jpg, truck).
 holds(s_17344_jpg, industrial).
@@ -16943,6 +16988,7 @@ holds(s_17346_jpg, misccommercial).
 holds(s_17346_jpg, window).
 holds(s_17346_jpg, awning).
 holds(s_17346_jpg, billboard).
+holds(s_17346_jpg, table).
 holds(s_17346_jpg, vendingmachine).
 holds(s_17346_jpg, wallsign).
 holds(s_17346_jpg, chimney).
@@ -16956,6 +17002,7 @@ holds(s_17347_jpg, constructionsite).
 holds(s_17347_jpg, window).
 holds(s_17347_jpg, awning).
 holds(s_17347_jpg, sign).
+holds(s_17347_jpg, table).
 holds(s_17347_jpg, chimney).
 holds(s_17347_jpg, machine).
 holds(s_17347_jpg, industrial).
@@ -16969,6 +17016,7 @@ holds(s_17348_jpg, countryhouse).
 holds(s_17348_jpg, door).
 holds(s_17348_jpg, window).
 holds(s_17348_jpg, porch).
+holds(s_17348_jpg, table).
 holds(s_17348_jpg, tiledroof).
 holds(s_17348_jpg, tiledrooftop).
 holds(s_17348_jpg, car).
@@ -17005,7 +17053,6 @@ holds(s_17351_jpg, building).
 holds(s_17351_jpg, feature).
 holds(s_17351_jpg, miscresidential).
 holds(s_17351_jpg, window).
-holds(s_17351_jpg, table).
 holds(s_17351_jpg, tiledroof).
 holds(s_17351_jpg, tiledrooftop).
 holds(s_17351_jpg, residential).
@@ -17046,6 +17093,7 @@ holds(s_17354_jpg, countryhouse).
 holds(s_17354_jpg, door).
 holds(s_17354_jpg, window).
 holds(s_17354_jpg, porch).
+holds(s_17354_jpg, table).
 holds(s_17354_jpg, tiledroof).
 holds(s_17354_jpg, tiledrooftop).
 holds(s_17354_jpg, car).
@@ -17083,6 +17131,7 @@ holds(s_17357_jpg, feature).
 holds(s_17357_jpg, miscresidential).
 holds(s_17357_jpg, window).
 holds(s_17357_jpg, awning).
+holds(s_17357_jpg, table).
 holds(s_17357_jpg, tiledroof).
 holds(s_17357_jpg, tiledrooftop).
 holds(s_17357_jpg, residential).
@@ -17099,6 +17148,7 @@ holds(s_17358_jpg, window).
 holds(s_17358_jpg, awning).
 holds(s_17358_jpg, billboard).
 holds(s_17358_jpg, sign).
+holds(s_17358_jpg, table).
 holds(s_17358_jpg, vendingmachine).
 holds(s_17358_jpg, wallsign).
 holds(s_17358_jpg, statue).
@@ -17110,6 +17160,7 @@ holds(s_17359_jpg, building).
 holds(s_17359_jpg, feature).
 holds(s_17359_jpg, miscindustrial).
 holds(s_17359_jpg, watertreatment).
+holds(s_17359_jpg, table).
 holds(s_17359_jpg, pipe).
 holds(s_17359_jpg, truck).
 holds(s_17359_jpg, industrial).
@@ -17147,6 +17198,7 @@ holds(s_17362_jpg, powerplant).
 holds(s_17362_jpg, window).
 holds(s_17362_jpg, awning).
 holds(s_17362_jpg, sign).
+holds(s_17362_jpg, table).
 holds(s_17362_jpg, chimney).
 holds(s_17362_jpg, pipe).
 holds(s_17362_jpg, machine).
@@ -17159,6 +17211,7 @@ holds(s_17363_jpg, miscresidential).
 holds(s_17363_jpg, door).
 holds(s_17363_jpg, window).
 holds(s_17363_jpg, sign).
+holds(s_17363_jpg, table).
 holds(s_17363_jpg, tiledroof).
 holds(s_17363_jpg, tiledrooftop).
 holds(s_17363_jpg, residential).
@@ -17172,6 +17225,7 @@ holds(s_17364_jpg, store).
 holds(s_17364_jpg, door).
 holds(s_17364_jpg, billboard).
 holds(s_17364_jpg, sign).
+holds(s_17364_jpg, table).
 holds(s_17364_jpg, vendingmachine).
 holds(s_17364_jpg, statue).
 holds(s_17364_jpg, car).
@@ -17233,7 +17287,6 @@ holds(s_17369_jpg, feature).
 holds(s_17369_jpg, miscresidential).
 holds(s_17369_jpg, window).
 holds(s_17369_jpg, awning).
-holds(s_17369_jpg, table).
 holds(s_17369_jpg, tiledroof).
 holds(s_17369_jpg, tiledrooftop).
 holds(s_17369_jpg, residential).
@@ -17247,6 +17300,7 @@ holds(s_17370_jpg, restaurant).
 holds(s_17370_jpg, door).
 holds(s_17370_jpg, window).
 holds(s_17370_jpg, sign).
+holds(s_17370_jpg, table).
 holds(s_17370_jpg, vendingmachine).
 holds(s_17370_jpg, wallsign).
 holds(s_17370_jpg, truck).
@@ -17271,6 +17325,7 @@ holds(s_17372_jpg, miscresidential).
 holds(s_17372_jpg, countryhouse).
 holds(s_17372_jpg, door).
 holds(s_17372_jpg, awning).
+holds(s_17372_jpg, table).
 holds(s_17372_jpg, tiledroof).
 holds(s_17372_jpg, tiledrooftop).
 holds(s_17372_jpg, car).
@@ -17283,7 +17338,6 @@ holds(s_17373_jpg, restaurant).
 holds(s_17373_jpg, door).
 holds(s_17373_jpg, window).
 holds(s_17373_jpg, sign).
-holds(s_17373_jpg, table).
 holds(s_17373_jpg, pipe).
 holds(s_17373_jpg, car).
 holds(s_17373_jpg, commercial).
@@ -17375,7 +17429,6 @@ holds(s_17380_jpg, feature).
 holds(s_17380_jpg, constructionsite).
 holds(s_17380_jpg, door).
 holds(s_17380_jpg, window).
-holds(s_17380_jpg, table).
 holds(s_17380_jpg, machine).
 holds(s_17380_jpg, industrial).
 
@@ -17400,6 +17453,7 @@ holds(s_17382_jpg, door).
 holds(s_17382_jpg, window).
 holds(s_17382_jpg, billboard).
 holds(s_17382_jpg, sign).
+holds(s_17382_jpg, table).
 holds(s_17382_jpg, vendingmachine).
 holds(s_17382_jpg, statue).
 holds(s_17382_jpg, car).
@@ -17420,7 +17474,6 @@ holds(s_17384_jpg, suburban).
 holds(s_17384_jpg, miscresidential).
 holds(s_17384_jpg, window).
 holds(s_17384_jpg, porch).
-holds(s_17384_jpg, table).
 holds(s_17384_jpg, tiledroof).
 holds(s_17384_jpg, tiledrooftop).
 holds(s_17384_jpg, residential).
@@ -17435,7 +17488,6 @@ holds(s_17385_jpg, door).
 holds(s_17385_jpg, awning).
 holds(s_17385_jpg, billboard).
 holds(s_17385_jpg, sign).
-holds(s_17385_jpg, table).
 holds(s_17385_jpg, vendingmachine).
 holds(s_17385_jpg, car).
 holds(s_17385_jpg, commercial).
@@ -17447,7 +17499,6 @@ holds(s_17386_jpg, constructionsite).
 holds(s_17386_jpg, powerplant).
 holds(s_17386_jpg, door).
 holds(s_17386_jpg, sign).
-holds(s_17386_jpg, table).
 holds(s_17386_jpg, chimney).
 holds(s_17386_jpg, pipe).
 holds(s_17386_jpg, machine).
@@ -17487,6 +17538,7 @@ holds(s_17389_jpg, miscindustrial).
 holds(s_17389_jpg, watertreatment).
 holds(s_17389_jpg, door).
 holds(s_17389_jpg, window).
+holds(s_17389_jpg, table).
 holds(s_17389_jpg, pipe).
 holds(s_17389_jpg, truck).
 holds(s_17389_jpg, industrial).
@@ -17498,6 +17550,7 @@ holds(s_17390_jpg, miscresidential).
 holds(s_17390_jpg, countryhouse).
 holds(s_17390_jpg, door).
 holds(s_17390_jpg, window).
+holds(s_17390_jpg, table).
 holds(s_17390_jpg, tiledroof).
 holds(s_17390_jpg, tiledrooftop).
 holds(s_17390_jpg, car).
@@ -17514,6 +17567,7 @@ holds(s_17391_jpg, door).
 holds(s_17391_jpg, window).
 holds(s_17391_jpg, awning).
 holds(s_17391_jpg, billboard).
+holds(s_17391_jpg, table).
 holds(s_17391_jpg, tiledroof).
 holds(s_17391_jpg, wallsign).
 holds(s_17391_jpg, statue).
@@ -17527,6 +17581,7 @@ holds(s_17392_jpg, miscindustrial).
 holds(s_17392_jpg, powerplant).
 holds(s_17392_jpg, watertreatment).
 holds(s_17392_jpg, door).
+holds(s_17392_jpg, table).
 holds(s_17392_jpg, chimney).
 holds(s_17392_jpg, pipe).
 holds(s_17392_jpg, truck).
@@ -17557,7 +17612,6 @@ holds(s_17394_jpg, store).
 holds(s_17394_jpg, door).
 holds(s_17394_jpg, billboard).
 holds(s_17394_jpg, sign).
-holds(s_17394_jpg, table).
 holds(s_17394_jpg, vendingmachine).
 holds(s_17394_jpg, pipe).
 holds(s_17394_jpg, car).
@@ -17592,6 +17646,7 @@ holds(s_17397_jpg, cafe).
 holds(s_17397_jpg, hotel).
 holds(s_17397_jpg, window).
 holds(s_17397_jpg, awning).
+holds(s_17397_jpg, table).
 holds(s_17397_jpg, vendingmachine).
 holds(s_17397_jpg, wallsign).
 holds(s_17397_jpg, statue).
@@ -17604,6 +17659,7 @@ holds(s_17398_jpg, miscindustrial).
 holds(s_17398_jpg, watertreatment).
 holds(s_17398_jpg, door).
 holds(s_17398_jpg, window).
+holds(s_17398_jpg, table).
 holds(s_17398_jpg, pipe).
 holds(s_17398_jpg, truck).
 holds(s_17398_jpg, industrial).
@@ -17615,6 +17671,7 @@ holds(s_17399_jpg, miscresidential).
 holds(s_17399_jpg, door).
 holds(s_17399_jpg, window).
 holds(s_17399_jpg, awning).
+holds(s_17399_jpg, table).
 holds(s_17399_jpg, tiledroof).
 holds(s_17399_jpg, tiledrooftop).
 holds(s_17399_jpg, truck).
@@ -17657,7 +17714,6 @@ holds(s_17402_jpg, countryhouse).
 holds(s_17402_jpg, door).
 holds(s_17402_jpg, window).
 holds(s_17402_jpg, porch).
-holds(s_17402_jpg, table).
 holds(s_17402_jpg, tiledroof).
 holds(s_17402_jpg, tiledrooftop).
 holds(s_17402_jpg, car).
@@ -17711,7 +17767,6 @@ holds(s_17406_jpg, hotel).
 holds(s_17406_jpg, restaurant).
 holds(s_17406_jpg, door).
 holds(s_17406_jpg, sign).
-holds(s_17406_jpg, table).
 holds(s_17406_jpg, vendingmachine).
 holds(s_17406_jpg, wallsign).
 holds(s_17406_jpg, car).
@@ -17724,6 +17779,7 @@ holds(s_17407_jpg, watertreatment).
 holds(s_17407_jpg, door).
 holds(s_17407_jpg, window).
 holds(s_17407_jpg, awning).
+holds(s_17407_jpg, table).
 holds(s_17407_jpg, pipe).
 holds(s_17407_jpg, truck).
 holds(s_17407_jpg, industrial).
@@ -17736,7 +17792,6 @@ holds(s_17408_jpg, door).
 holds(s_17408_jpg, window).
 holds(s_17408_jpg, awning).
 holds(s_17408_jpg, porch).
-holds(s_17408_jpg, table).
 holds(s_17408_jpg, truck).
 holds(s_17408_jpg, residential).
 
@@ -17759,7 +17814,6 @@ holds(s_17410_jpg, feature).
 holds(s_17410_jpg, miscindustrial).
 holds(s_17410_jpg, watertreatment).
 holds(s_17410_jpg, door).
-holds(s_17410_jpg, table).
 holds(s_17410_jpg, pipe).
 holds(s_17410_jpg, truck).
 holds(s_17410_jpg, industrial).
@@ -17773,6 +17827,7 @@ holds(s_17411_jpg, countryhouse).
 holds(s_17411_jpg, window).
 holds(s_17411_jpg, awning).
 holds(s_17411_jpg, porch).
+holds(s_17411_jpg, table).
 holds(s_17411_jpg, tiledroof).
 holds(s_17411_jpg, tiledrooftop).
 holds(s_17411_jpg, car).
@@ -17785,7 +17840,6 @@ holds(s_17412_jpg, hotel).
 holds(s_17412_jpg, store).
 holds(s_17412_jpg, window).
 holds(s_17412_jpg, billboard).
-holds(s_17412_jpg, table).
 holds(s_17412_jpg, wallsign).
 holds(s_17412_jpg, pipe).
 holds(s_17412_jpg, commercial).
@@ -17807,7 +17861,6 @@ holds(s_17414_jpg, feature).
 holds(s_17414_jpg, miscresidential).
 holds(s_17414_jpg, countryhouse).
 holds(s_17414_jpg, door).
-holds(s_17414_jpg, table).
 holds(s_17414_jpg, tiledroof).
 holds(s_17414_jpg, tiledrooftop).
 holds(s_17414_jpg, car).
@@ -17839,7 +17892,6 @@ holds(s_17416_jpg, feature).
 holds(s_17416_jpg, constructionsite).
 holds(s_17416_jpg, door).
 holds(s_17416_jpg, sign).
-holds(s_17416_jpg, table).
 holds(s_17416_jpg, machine).
 holds(s_17416_jpg, industrial).
 
@@ -17874,6 +17926,7 @@ sample(s_17419_jpg).
 holds(s_17419_jpg, building).
 holds(s_17419_jpg, feature).
 holds(s_17419_jpg, powerplant).
+holds(s_17419_jpg, table).
 holds(s_17419_jpg, chimney).
 holds(s_17419_jpg, pipe).
 holds(s_17419_jpg, car).
@@ -17885,6 +17938,7 @@ holds(s_17420_jpg, feature).
 holds(s_17420_jpg, miscresidential).
 holds(s_17420_jpg, countryhouse).
 holds(s_17420_jpg, door).
+holds(s_17420_jpg, table).
 holds(s_17420_jpg, tiledroof).
 holds(s_17420_jpg, tiledrooftop).
 holds(s_17420_jpg, car).
@@ -17902,7 +17956,6 @@ holds(s_17421_jpg, window).
 holds(s_17421_jpg, awning).
 holds(s_17421_jpg, billboard).
 holds(s_17421_jpg, sign).
-holds(s_17421_jpg, table).
 holds(s_17421_jpg, wallsign).
 holds(s_17421_jpg, statue).
 holds(s_17421_jpg, truck).
@@ -17913,6 +17966,7 @@ holds(s_17422_jpg, building).
 holds(s_17422_jpg, feature).
 holds(s_17422_jpg, powerplant).
 holds(s_17422_jpg, window).
+holds(s_17422_jpg, table).
 holds(s_17422_jpg, chimney).
 holds(s_17422_jpg, pipe).
 holds(s_17422_jpg, industrial).
@@ -17954,7 +18008,6 @@ holds(s_17425_jpg, constructionsite).
 holds(s_17425_jpg, powerplant).
 holds(s_17425_jpg, window).
 holds(s_17425_jpg, awning).
-holds(s_17425_jpg, table).
 holds(s_17425_jpg, chimney).
 holds(s_17425_jpg, pipe).
 holds(s_17425_jpg, machine).
@@ -17982,7 +18035,6 @@ holds(s_17427_jpg, hotel).
 holds(s_17427_jpg, store).
 holds(s_17427_jpg, door).
 holds(s_17427_jpg, billboard).
-holds(s_17427_jpg, table).
 holds(s_17427_jpg, vendingmachine).
 holds(s_17427_jpg, wallsign).
 holds(s_17427_jpg, statue).
@@ -18010,7 +18062,6 @@ holds(s_17429_jpg, countryhouse).
 holds(s_17429_jpg, door).
 holds(s_17429_jpg, window).
 holds(s_17429_jpg, porch).
-holds(s_17429_jpg, table).
 holds(s_17429_jpg, tiledroof).
 holds(s_17429_jpg, tiledrooftop).
 holds(s_17429_jpg, car).
@@ -18064,6 +18115,7 @@ holds(s_17433_jpg, window).
 holds(s_17433_jpg, awning).
 holds(s_17433_jpg, billboard).
 holds(s_17433_jpg, sign).
+holds(s_17433_jpg, table).
 holds(s_17433_jpg, car).
 holds(s_17433_jpg, commercial).
 
@@ -18081,7 +18133,6 @@ holds(s_17435_jpg, building).
 holds(s_17435_jpg, feature).
 holds(s_17435_jpg, miscresidential).
 holds(s_17435_jpg, countryhouse).
-holds(s_17435_jpg, table).
 holds(s_17435_jpg, tiledroof).
 holds(s_17435_jpg, tiledrooftop).
 holds(s_17435_jpg, car).
@@ -18097,6 +18148,7 @@ holds(s_17436_jpg, door).
 holds(s_17436_jpg, window).
 holds(s_17436_jpg, awning).
 holds(s_17436_jpg, sign).
+holds(s_17436_jpg, table).
 holds(s_17436_jpg, vendingmachine).
 holds(s_17436_jpg, wallsign).
 holds(s_17436_jpg, statue).
@@ -18107,6 +18159,7 @@ sample(s_17437_jpg).
 holds(s_17437_jpg, building).
 holds(s_17437_jpg, feature).
 holds(s_17437_jpg, miscindustrial).
+holds(s_17437_jpg, table).
 holds(s_17437_jpg, chimney).
 holds(s_17437_jpg, truck).
 holds(s_17437_jpg, industrial).
@@ -18118,6 +18171,7 @@ holds(s_17438_jpg, miscresidential).
 holds(s_17438_jpg, countryhouse).
 holds(s_17438_jpg, door).
 holds(s_17438_jpg, window).
+holds(s_17438_jpg, table).
 holds(s_17438_jpg, tiledroof).
 holds(s_17438_jpg, tiledrooftop).
 holds(s_17438_jpg, car).
@@ -18132,6 +18186,7 @@ holds(s_17439_jpg, misccommercial).
 holds(s_17439_jpg, door).
 holds(s_17439_jpg, awning).
 holds(s_17439_jpg, billboard).
+holds(s_17439_jpg, table).
 holds(s_17439_jpg, wallsign).
 holds(s_17439_jpg, truck).
 holds(s_17439_jpg, commercial).
@@ -18142,6 +18197,7 @@ holds(s_17440_jpg, feature).
 holds(s_17440_jpg, powerplant).
 holds(s_17440_jpg, door).
 holds(s_17440_jpg, awning).
+holds(s_17440_jpg, table).
 holds(s_17440_jpg, chimney).
 holds(s_17440_jpg, pipe).
 holds(s_17440_jpg, industrial).
@@ -18173,6 +18229,7 @@ holds(s_17442_jpg, window).
 holds(s_17442_jpg, awning).
 holds(s_17442_jpg, billboard).
 holds(s_17442_jpg, sign).
+holds(s_17442_jpg, table).
 holds(s_17442_jpg, tiledroof).
 holds(s_17442_jpg, tiledrooftop).
 holds(s_17442_jpg, wallsign).
@@ -18185,6 +18242,7 @@ holds(s_17443_jpg, constructionsite).
 holds(s_17443_jpg, powerplant).
 holds(s_17443_jpg, door).
 holds(s_17443_jpg, awning).
+holds(s_17443_jpg, table).
 holds(s_17443_jpg, chimney).
 holds(s_17443_jpg, pipe).
 holds(s_17443_jpg, machine).
@@ -18198,6 +18256,7 @@ holds(s_17444_jpg, door).
 holds(s_17444_jpg, window).
 holds(s_17444_jpg, awning).
 holds(s_17444_jpg, porch).
+holds(s_17444_jpg, table).
 holds(s_17444_jpg, truck).
 holds(s_17444_jpg, residential).
 
@@ -18221,7 +18280,6 @@ holds(s_17446_jpg, powerplant).
 holds(s_17446_jpg, watertreatment).
 holds(s_17446_jpg, door).
 holds(s_17446_jpg, window).
-holds(s_17446_jpg, table).
 holds(s_17446_jpg, chimney).
 holds(s_17446_jpg, pipe).
 holds(s_17446_jpg, truck).
@@ -18233,6 +18291,7 @@ holds(s_17447_jpg, feature).
 holds(s_17447_jpg, miscresidential).
 holds(s_17447_jpg, countryhouse).
 holds(s_17447_jpg, window).
+holds(s_17447_jpg, table).
 holds(s_17447_jpg, tiledroof).
 holds(s_17447_jpg, tiledrooftop).
 holds(s_17447_jpg, car).
@@ -18262,7 +18321,6 @@ holds(s_17449_jpg, powerplant).
 holds(s_17449_jpg, watertreatment).
 holds(s_17449_jpg, door).
 holds(s_17449_jpg, awning).
-holds(s_17449_jpg, table).
 holds(s_17449_jpg, chimney).
 holds(s_17449_jpg, pipe).
 holds(s_17449_jpg, truck).
@@ -18285,6 +18343,7 @@ holds(s_17451_jpg, store).
 holds(s_17451_jpg, door).
 holds(s_17451_jpg, window).
 holds(s_17451_jpg, billboard).
+holds(s_17451_jpg, table).
 holds(s_17451_jpg, vendingmachine).
 holds(s_17451_jpg, commercial).
 
@@ -18296,7 +18355,6 @@ holds(s_17452_jpg, powerplant).
 holds(s_17452_jpg, watertreatment).
 holds(s_17452_jpg, door).
 holds(s_17452_jpg, window).
-holds(s_17452_jpg, table).
 holds(s_17452_jpg, chimney).
 holds(s_17452_jpg, pipe).
 holds(s_17452_jpg, truck).
@@ -18330,6 +18388,7 @@ holds(s_17455_jpg, feature).
 holds(s_17455_jpg, constructionsite).
 holds(s_17455_jpg, door).
 holds(s_17455_jpg, window).
+holds(s_17455_jpg, table).
 holds(s_17455_jpg, machine).
 holds(s_17455_jpg, industrial).
 
@@ -18341,7 +18400,6 @@ holds(s_17456_jpg, countryhouse).
 holds(s_17456_jpg, door).
 holds(s_17456_jpg, window).
 holds(s_17456_jpg, awning).
-holds(s_17456_jpg, table).
 holds(s_17456_jpg, tiledroof).
 holds(s_17456_jpg, tiledrooftop).
 holds(s_17456_jpg, car).
@@ -18357,7 +18415,6 @@ holds(s_17457_jpg, misccommercial).
 holds(s_17457_jpg, window).
 holds(s_17457_jpg, awning).
 holds(s_17457_jpg, billboard).
-holds(s_17457_jpg, table).
 holds(s_17457_jpg, vendingmachine).
 holds(s_17457_jpg, wallsign).
 holds(s_17457_jpg, statue).
@@ -18370,6 +18427,7 @@ holds(s_17458_jpg, building).
 holds(s_17458_jpg, feature).
 holds(s_17458_jpg, miscindustrial).
 holds(s_17458_jpg, window).
+holds(s_17458_jpg, table).
 holds(s_17458_jpg, chimney).
 holds(s_17458_jpg, truck).
 holds(s_17458_jpg, industrial).
@@ -18383,6 +18441,7 @@ holds(s_17459_jpg, countryhouse).
 holds(s_17459_jpg, window).
 holds(s_17459_jpg, awning).
 holds(s_17459_jpg, porch).
+holds(s_17459_jpg, table).
 holds(s_17459_jpg, tiledroof).
 holds(s_17459_jpg, tiledrooftop).
 holds(s_17459_jpg, car).
@@ -18407,7 +18466,6 @@ holds(s_17461_jpg, constructionsite).
 holds(s_17461_jpg, door).
 holds(s_17461_jpg, window).
 holds(s_17461_jpg, sign).
-holds(s_17461_jpg, table).
 holds(s_17461_jpg, chimney).
 holds(s_17461_jpg, machine).
 holds(s_17461_jpg, industrial).
@@ -18476,7 +18534,6 @@ holds(s_17467_jpg, powerplant).
 holds(s_17467_jpg, door).
 holds(s_17467_jpg, window).
 holds(s_17467_jpg, sign).
-holds(s_17467_jpg, table).
 holds(s_17467_jpg, chimney).
 holds(s_17467_jpg, pipe).
 holds(s_17467_jpg, machine).
@@ -18490,7 +18547,6 @@ holds(s_17468_jpg, countryhouse).
 holds(s_17468_jpg, door).
 holds(s_17468_jpg, window).
 holds(s_17468_jpg, awning).
-holds(s_17468_jpg, table).
 holds(s_17468_jpg, tiledroof).
 holds(s_17468_jpg, tiledrooftop).
 holds(s_17468_jpg, car).
@@ -18506,6 +18562,7 @@ holds(s_17469_jpg, store).
 holds(s_17469_jpg, window).
 holds(s_17469_jpg, billboard).
 holds(s_17469_jpg, sign).
+holds(s_17469_jpg, table).
 holds(s_17469_jpg, vendingmachine).
 holds(s_17469_jpg, wallsign).
 holds(s_17469_jpg, car).
@@ -18517,6 +18574,7 @@ holds(s_17470_jpg, feature).
 holds(s_17470_jpg, powerplant).
 holds(s_17470_jpg, door).
 holds(s_17470_jpg, awning).
+holds(s_17470_jpg, table).
 holds(s_17470_jpg, chimney).
 holds(s_17470_jpg, pipe).
 holds(s_17470_jpg, car).
@@ -18531,6 +18589,7 @@ holds(s_17471_jpg, countryhouse).
 holds(s_17471_jpg, door).
 holds(s_17471_jpg, awning).
 holds(s_17471_jpg, porch).
+holds(s_17471_jpg, table).
 holds(s_17471_jpg, tiledroof).
 holds(s_17471_jpg, tiledrooftop).
 holds(s_17471_jpg, car).
@@ -18544,7 +18603,6 @@ holds(s_17472_jpg, misccommercial).
 holds(s_17472_jpg, window).
 holds(s_17472_jpg, awning).
 holds(s_17472_jpg, billboard).
-holds(s_17472_jpg, table).
 holds(s_17472_jpg, tiledroof).
 holds(s_17472_jpg, tiledrooftop).
 holds(s_17472_jpg, truck).
@@ -18556,6 +18614,7 @@ holds(s_17473_jpg, feature).
 holds(s_17473_jpg, powerplant).
 holds(s_17473_jpg, window).
 holds(s_17473_jpg, awning).
+holds(s_17473_jpg, table).
 holds(s_17473_jpg, chimney).
 holds(s_17473_jpg, pipe).
 holds(s_17473_jpg, industrial).
@@ -18596,6 +18655,7 @@ holds(s_17476_jpg, powerplant).
 holds(s_17476_jpg, door).
 holds(s_17476_jpg, window).
 holds(s_17476_jpg, awning).
+holds(s_17476_jpg, table).
 holds(s_17476_jpg, chimney).
 holds(s_17476_jpg, pipe).
 holds(s_17476_jpg, machine).
@@ -18635,7 +18695,6 @@ holds(s_17479_jpg, powerplant).
 holds(s_17479_jpg, watertreatment).
 holds(s_17479_jpg, door).
 holds(s_17479_jpg, window).
-holds(s_17479_jpg, table).
 holds(s_17479_jpg, chimney).
 holds(s_17479_jpg, pipe).
 holds(s_17479_jpg, truck).
@@ -18664,7 +18723,6 @@ holds(s_17481_jpg, misccommercial).
 holds(s_17481_jpg, door).
 holds(s_17481_jpg, awning).
 holds(s_17481_jpg, billboard).
-holds(s_17481_jpg, table).
 holds(s_17481_jpg, tiledroof).
 holds(s_17481_jpg, tiledrooftop).
 holds(s_17481_jpg, wallsign).
@@ -18689,6 +18747,7 @@ holds(s_17483_jpg, suburban).
 holds(s_17483_jpg, miscresidential).
 holds(s_17483_jpg, countryhouse).
 holds(s_17483_jpg, porch).
+holds(s_17483_jpg, table).
 holds(s_17483_jpg, tiledroof).
 holds(s_17483_jpg, tiledrooftop).
 holds(s_17483_jpg, car).
@@ -18705,7 +18764,6 @@ holds(s_17484_jpg, door).
 holds(s_17484_jpg, window).
 holds(s_17484_jpg, awning).
 holds(s_17484_jpg, sign).
-holds(s_17484_jpg, table).
 holds(s_17484_jpg, wallsign).
 holds(s_17484_jpg, statue).
 holds(s_17484_jpg, pipe).
@@ -18759,7 +18817,6 @@ holds(s_17488_jpg, watertreatment).
 holds(s_17488_jpg, door).
 holds(s_17488_jpg, window).
 holds(s_17488_jpg, awning).
-holds(s_17488_jpg, table).
 holds(s_17488_jpg, chimney).
 holds(s_17488_jpg, pipe).
 holds(s_17488_jpg, truck).
@@ -18783,6 +18840,7 @@ holds(s_17490_jpg, misccommercial).
 holds(s_17490_jpg, door).
 holds(s_17490_jpg, window).
 holds(s_17490_jpg, awning).
+holds(s_17490_jpg, table).
 holds(s_17490_jpg, wallsign).
 holds(s_17490_jpg, statue).
 holds(s_17490_jpg, pipe).
@@ -18804,7 +18862,6 @@ holds(s_17492_jpg, miscresidential).
 holds(s_17492_jpg, door).
 holds(s_17492_jpg, window).
 holds(s_17492_jpg, awning).
-holds(s_17492_jpg, table).
 holds(s_17492_jpg, tiledroof).
 holds(s_17492_jpg, tiledrooftop).
 holds(s_17492_jpg, truck).
@@ -18817,7 +18874,6 @@ holds(s_17493_jpg, cafe).
 holds(s_17493_jpg, hotel).
 holds(s_17493_jpg, door).
 holds(s_17493_jpg, sign).
-holds(s_17493_jpg, table).
 holds(s_17493_jpg, vendingmachine).
 holds(s_17493_jpg, wallsign).
 holds(s_17493_jpg, commercial).
@@ -18827,6 +18883,7 @@ holds(s_17494_jpg, building).
 holds(s_17494_jpg, feature).
 holds(s_17494_jpg, constructionsite).
 holds(s_17494_jpg, window).
+holds(s_17494_jpg, table).
 holds(s_17494_jpg, chimney).
 holds(s_17494_jpg, machine).
 holds(s_17494_jpg, industrial).
@@ -18881,7 +18938,6 @@ holds(s_17498_jpg, miscresidential).
 holds(s_17498_jpg, countryhouse).
 holds(s_17498_jpg, door).
 holds(s_17498_jpg, porch).
-holds(s_17498_jpg, table).
 holds(s_17498_jpg, tiledroof).
 holds(s_17498_jpg, tiledrooftop).
 holds(s_17498_jpg, car).
@@ -18908,7 +18964,6 @@ holds(s_17500_jpg, building).
 holds(s_17500_jpg, feature).
 holds(s_17500_jpg, powerplant).
 holds(s_17500_jpg, window).
-holds(s_17500_jpg, table).
 holds(s_17500_jpg, chimney).
 holds(s_17500_jpg, pipe).
 holds(s_17500_jpg, industrial).
@@ -18976,7 +19031,6 @@ holds(s_17505_jpg, misccommercial).
 holds(s_17505_jpg, door).
 holds(s_17505_jpg, window).
 holds(s_17505_jpg, awning).
-holds(s_17505_jpg, table).
 holds(s_17505_jpg, vendingmachine).
 holds(s_17505_jpg, wallsign).
 holds(s_17505_jpg, truck).
@@ -19027,6 +19081,7 @@ holds(s_17509_jpg, building).
 holds(s_17509_jpg, feature).
 holds(s_17509_jpg, miscindustrial).
 holds(s_17509_jpg, door).
+holds(s_17509_jpg, table).
 holds(s_17509_jpg, chimney).
 holds(s_17509_jpg, truck).
 holds(s_17509_jpg, industrial).
@@ -19041,7 +19096,6 @@ holds(s_17510_jpg, window).
 holds(s_17510_jpg, awning).
 holds(s_17510_jpg, porch).
 holds(s_17510_jpg, sign).
-holds(s_17510_jpg, table).
 holds(s_17510_jpg, tiledroof).
 holds(s_17510_jpg, tiledrooftop).
 holds(s_17510_jpg, residential).
@@ -19081,6 +19135,7 @@ holds(s_17513_jpg, countryhouse).
 holds(s_17513_jpg, door).
 holds(s_17513_jpg, window).
 holds(s_17513_jpg, porch).
+holds(s_17513_jpg, table).
 holds(s_17513_jpg, tiledroof).
 holds(s_17513_jpg, tiledrooftop).
 holds(s_17513_jpg, car).
@@ -19097,7 +19152,6 @@ holds(s_17514_jpg, door).
 holds(s_17514_jpg, awning).
 holds(s_17514_jpg, billboard).
 holds(s_17514_jpg, sign).
-holds(s_17514_jpg, table).
 holds(s_17514_jpg, vendingmachine).
 holds(s_17514_jpg, statue).
 holds(s_17514_jpg, truck).
@@ -19119,7 +19173,6 @@ holds(s_17516_jpg, feature).
 holds(s_17516_jpg, suburban).
 holds(s_17516_jpg, door).
 holds(s_17516_jpg, porch).
-holds(s_17516_jpg, table).
 holds(s_17516_jpg, residential).
 
 sample(s_17517_jpg).
@@ -19129,6 +19182,7 @@ holds(s_17517_jpg, cafe).
 holds(s_17517_jpg, hotel).
 holds(s_17517_jpg, door).
 holds(s_17517_jpg, window).
+holds(s_17517_jpg, table).
 holds(s_17517_jpg, vendingmachine).
 holds(s_17517_jpg, wallsign).
 holds(s_17517_jpg, statue).
@@ -19143,6 +19197,7 @@ holds(s_17518_jpg, miscindustrial).
 holds(s_17518_jpg, watertreatment).
 holds(s_17518_jpg, door).
 holds(s_17518_jpg, window).
+holds(s_17518_jpg, table).
 holds(s_17518_jpg, pipe).
 holds(s_17518_jpg, truck).
 holds(s_17518_jpg, industrial).
@@ -19155,7 +19210,6 @@ holds(s_17519_jpg, door).
 holds(s_17519_jpg, window).
 holds(s_17519_jpg, porch).
 holds(s_17519_jpg, sign).
-holds(s_17519_jpg, table).
 holds(s_17519_jpg, residential).
 
 sample(s_17520_jpg).
@@ -19168,6 +19222,7 @@ holds(s_17520_jpg, misccommercial).
 holds(s_17520_jpg, door).
 holds(s_17520_jpg, awning).
 holds(s_17520_jpg, billboard).
+holds(s_17520_jpg, table).
 holds(s_17520_jpg, wallsign).
 holds(s_17520_jpg, statue).
 holds(s_17520_jpg, commercial).
@@ -19193,6 +19248,7 @@ holds(s_17522_jpg, door).
 holds(s_17522_jpg, window).
 holds(s_17522_jpg, awning).
 holds(s_17522_jpg, porch).
+holds(s_17522_jpg, table).
 holds(s_17522_jpg, residential).
 
 sample(s_17523_jpg).
@@ -19230,7 +19286,6 @@ holds(s_17525_jpg, miscresidential).
 holds(s_17525_jpg, door).
 holds(s_17525_jpg, window).
 holds(s_17525_jpg, sign).
-holds(s_17525_jpg, table).
 holds(s_17525_jpg, tiledroof).
 holds(s_17525_jpg, tiledrooftop).
 holds(s_17525_jpg, residential).
@@ -19259,6 +19314,7 @@ holds(s_17527_jpg, powerplant).
 holds(s_17527_jpg, door).
 holds(s_17527_jpg, window).
 holds(s_17527_jpg, awning).
+holds(s_17527_jpg, table).
 holds(s_17527_jpg, chimney).
 holds(s_17527_jpg, pipe).
 holds(s_17527_jpg, car).
@@ -19285,7 +19341,6 @@ holds(s_17529_jpg, window).
 holds(s_17529_jpg, awning).
 holds(s_17529_jpg, billboard).
 holds(s_17529_jpg, sign).
-holds(s_17529_jpg, table).
 holds(s_17529_jpg, vendingmachine).
 holds(s_17529_jpg, wallsign).
 holds(s_17529_jpg, chimney).
@@ -19297,6 +19352,7 @@ holds(s_17530_jpg, feature).
 holds(s_17530_jpg, miscindustrial).
 holds(s_17530_jpg, powerplant).
 holds(s_17530_jpg, watertreatment).
+holds(s_17530_jpg, table).
 holds(s_17530_jpg, chimney).
 holds(s_17530_jpg, pipe).
 holds(s_17530_jpg, truck).
@@ -19326,6 +19382,7 @@ holds(s_17532_jpg, misccommercial).
 holds(s_17532_jpg, door).
 holds(s_17532_jpg, awning).
 holds(s_17532_jpg, billboard).
+holds(s_17532_jpg, table).
 holds(s_17532_jpg, vendingmachine).
 holds(s_17532_jpg, commercial).
 
@@ -19335,6 +19392,7 @@ holds(s_17533_jpg, feature).
 holds(s_17533_jpg, powerplant).
 holds(s_17533_jpg, door).
 holds(s_17533_jpg, window).
+holds(s_17533_jpg, table).
 holds(s_17533_jpg, chimney).
 holds(s_17533_jpg, pipe).
 holds(s_17533_jpg, car).
@@ -19401,6 +19459,7 @@ holds(s_17538_jpg, door).
 holds(s_17538_jpg, window).
 holds(s_17538_jpg, awning).
 holds(s_17538_jpg, sign).
+holds(s_17538_jpg, table).
 holds(s_17538_jpg, tiledroof).
 holds(s_17538_jpg, tiledrooftop).
 holds(s_17538_jpg, vendingmachine).
@@ -19448,7 +19507,6 @@ holds(s_17542_jpg, powerplant).
 holds(s_17542_jpg, watertreatment).
 holds(s_17542_jpg, door).
 holds(s_17542_jpg, window).
-holds(s_17542_jpg, table).
 holds(s_17542_jpg, chimney).
 holds(s_17542_jpg, pipe).
 holds(s_17542_jpg, truck).
@@ -19502,7 +19560,6 @@ holds(s_17546_jpg, miscresidential).
 holds(s_17546_jpg, door).
 holds(s_17546_jpg, awning).
 holds(s_17546_jpg, porch).
-holds(s_17546_jpg, table).
 holds(s_17546_jpg, tiledroof).
 holds(s_17546_jpg, tiledrooftop).
 holds(s_17546_jpg, residential).
@@ -19520,7 +19577,6 @@ holds(s_17547_jpg, window).
 holds(s_17547_jpg, awning).
 holds(s_17547_jpg, billboard).
 holds(s_17547_jpg, sign).
-holds(s_17547_jpg, table).
 holds(s_17547_jpg, wallsign).
 holds(s_17547_jpg, statue).
 holds(s_17547_jpg, pipe).
@@ -19533,6 +19589,7 @@ holds(s_17548_jpg, feature).
 holds(s_17548_jpg, miscindustrial).
 holds(s_17548_jpg, door).
 holds(s_17548_jpg, window).
+holds(s_17548_jpg, table).
 holds(s_17548_jpg, truck).
 holds(s_17548_jpg, industrial).
 
@@ -19543,6 +19600,7 @@ holds(s_17549_jpg, suburban).
 holds(s_17549_jpg, miscresidential).
 holds(s_17549_jpg, window).
 holds(s_17549_jpg, porch).
+holds(s_17549_jpg, table).
 holds(s_17549_jpg, tiledroof).
 holds(s_17549_jpg, tiledrooftop).
 holds(s_17549_jpg, truck).
@@ -19584,6 +19642,7 @@ holds(s_17552_jpg, countryhouse).
 holds(s_17552_jpg, door).
 holds(s_17552_jpg, window).
 holds(s_17552_jpg, porch).
+holds(s_17552_jpg, table).
 holds(s_17552_jpg, tiledroof).
 holds(s_17552_jpg, tiledrooftop).
 holds(s_17552_jpg, car).
@@ -19597,7 +19656,6 @@ holds(s_17553_jpg, misccommercial).
 holds(s_17553_jpg, door).
 holds(s_17553_jpg, window).
 holds(s_17553_jpg, awning).
-holds(s_17553_jpg, table).
 holds(s_17553_jpg, tiledroof).
 holds(s_17553_jpg, tiledrooftop).
 holds(s_17553_jpg, vendingmachine).
@@ -19610,7 +19668,6 @@ holds(s_17554_jpg, feature).
 holds(s_17554_jpg, powerplant).
 holds(s_17554_jpg, door).
 holds(s_17554_jpg, window).
-holds(s_17554_jpg, table).
 holds(s_17554_jpg, chimney).
 holds(s_17554_jpg, pipe).
 holds(s_17554_jpg, industrial).
@@ -19636,7 +19693,6 @@ holds(s_17556_jpg, door).
 holds(s_17556_jpg, window).
 holds(s_17556_jpg, awning).
 holds(s_17556_jpg, sign).
-holds(s_17556_jpg, table).
 holds(s_17556_jpg, vendingmachine).
 holds(s_17556_jpg, wallsign).
 holds(s_17556_jpg, chimney).
@@ -19677,6 +19733,7 @@ holds(s_17559_jpg, hotel).
 holds(s_17559_jpg, misccommercial).
 holds(s_17559_jpg, window).
 holds(s_17559_jpg, awning).
+holds(s_17559_jpg, table).
 holds(s_17559_jpg, tiledroof).
 holds(s_17559_jpg, wallsign).
 holds(s_17559_jpg, statue).
@@ -19689,6 +19746,7 @@ holds(s_17560_jpg, powerplant).
 holds(s_17560_jpg, door).
 holds(s_17560_jpg, window).
 holds(s_17560_jpg, awning).
+holds(s_17560_jpg, table).
 holds(s_17560_jpg, chimney).
 holds(s_17560_jpg, pipe).
 holds(s_17560_jpg, industrial).
@@ -19700,7 +19758,6 @@ holds(s_17561_jpg, miscresidential).
 holds(s_17561_jpg, countryhouse).
 holds(s_17561_jpg, door).
 holds(s_17561_jpg, awning).
-holds(s_17561_jpg, table).
 holds(s_17561_jpg, tiledroof).
 holds(s_17561_jpg, tiledrooftop).
 holds(s_17561_jpg, car).
@@ -19729,6 +19786,7 @@ holds(s_17563_jpg, feature).
 holds(s_17563_jpg, powerplant).
 holds(s_17563_jpg, window).
 holds(s_17563_jpg, sign).
+holds(s_17563_jpg, table).
 holds(s_17563_jpg, chimney).
 holds(s_17563_jpg, pipe).
 holds(s_17563_jpg, industrial).
@@ -19764,6 +19822,7 @@ holds(s_17566_jpg, building).
 holds(s_17566_jpg, feature).
 holds(s_17566_jpg, powerplant).
 holds(s_17566_jpg, window).
+holds(s_17566_jpg, table).
 holds(s_17566_jpg, chimney).
 holds(s_17566_jpg, pipe).
 holds(s_17566_jpg, car).
@@ -19775,7 +19834,6 @@ holds(s_17567_jpg, feature).
 holds(s_17567_jpg, miscresidential).
 holds(s_17567_jpg, window).
 holds(s_17567_jpg, awning).
-holds(s_17567_jpg, table).
 holds(s_17567_jpg, tiledroof).
 holds(s_17567_jpg, tiledrooftop).
 holds(s_17567_jpg, truck).
@@ -19826,7 +19884,6 @@ holds(s_17571_jpg, store).
 holds(s_17571_jpg, door).
 holds(s_17571_jpg, billboard).
 holds(s_17571_jpg, sign).
-holds(s_17571_jpg, table).
 holds(s_17571_jpg, wallsign).
 holds(s_17571_jpg, commercial).
 
@@ -19848,7 +19905,6 @@ holds(s_17573_jpg, feature).
 holds(s_17573_jpg, miscresidential).
 holds(s_17573_jpg, door).
 holds(s_17573_jpg, awning).
-holds(s_17573_jpg, table).
 holds(s_17573_jpg, tiledroof).
 holds(s_17573_jpg, tiledrooftop).
 holds(s_17573_jpg, residential).
@@ -19866,7 +19922,6 @@ holds(s_17574_jpg, window).
 holds(s_17574_jpg, awning).
 holds(s_17574_jpg, billboard).
 holds(s_17574_jpg, sign).
-holds(s_17574_jpg, table).
 holds(s_17574_jpg, tiledroof).
 holds(s_17574_jpg, wallsign).
 holds(s_17574_jpg, statue).
@@ -19893,6 +19948,7 @@ holds(s_17576_jpg, miscresidential).
 holds(s_17576_jpg, countryhouse).
 holds(s_17576_jpg, window).
 holds(s_17576_jpg, porch).
+holds(s_17576_jpg, table).
 holds(s_17576_jpg, tiledroof).
 holds(s_17576_jpg, tiledrooftop).
 holds(s_17576_jpg, car).
@@ -19946,6 +20002,7 @@ holds(s_17580_jpg, hotel).
 holds(s_17580_jpg, misccommercial).
 holds(s_17580_jpg, door).
 holds(s_17580_jpg, awning).
+holds(s_17580_jpg, table).
 holds(s_17580_jpg, tiledroof).
 holds(s_17580_jpg, tiledrooftop).
 holds(s_17580_jpg, vendingmachine).
@@ -19958,7 +20015,6 @@ holds(s_17581_jpg, building).
 holds(s_17581_jpg, feature).
 holds(s_17581_jpg, constructionsite).
 holds(s_17581_jpg, window).
-holds(s_17581_jpg, table).
 holds(s_17581_jpg, chimney).
 holds(s_17581_jpg, machine).
 holds(s_17581_jpg, industrial).
@@ -20024,6 +20080,7 @@ holds(s_17586_jpg, window).
 holds(s_17586_jpg, awning).
 holds(s_17586_jpg, billboard).
 holds(s_17586_jpg, sign).
+holds(s_17586_jpg, table).
 holds(s_17586_jpg, wallsign).
 holds(s_17586_jpg, statue).
 holds(s_17586_jpg, truck).
@@ -20035,7 +20092,6 @@ holds(s_17587_jpg, feature).
 holds(s_17587_jpg, constructionsite).
 holds(s_17587_jpg, door).
 holds(s_17587_jpg, sign).
-holds(s_17587_jpg, table).
 holds(s_17587_jpg, pipe).
 holds(s_17587_jpg, machine).
 holds(s_17587_jpg, industrial).
@@ -20048,7 +20104,6 @@ holds(s_17588_jpg, miscresidential).
 holds(s_17588_jpg, countryhouse).
 holds(s_17588_jpg, door).
 holds(s_17588_jpg, porch).
-holds(s_17588_jpg, table).
 holds(s_17588_jpg, tiledroof).
 holds(s_17588_jpg, tiledrooftop).
 holds(s_17588_jpg, car).
@@ -20083,7 +20138,6 @@ holds(s_17591_jpg, miscresidential).
 holds(s_17591_jpg, countryhouse).
 holds(s_17591_jpg, window).
 holds(s_17591_jpg, porch).
-holds(s_17591_jpg, table).
 holds(s_17591_jpg, tiledroof).
 holds(s_17591_jpg, tiledrooftop).
 holds(s_17591_jpg, car).
@@ -20095,7 +20149,6 @@ holds(s_17592_jpg, feature).
 holds(s_17592_jpg, hotel).
 holds(s_17592_jpg, window).
 holds(s_17592_jpg, awning).
-holds(s_17592_jpg, table).
 holds(s_17592_jpg, wallsign).
 holds(s_17592_jpg, chimney).
 holds(s_17592_jpg, truck).
@@ -20105,6 +20158,7 @@ sample(s_17593_jpg).
 holds(s_17593_jpg, building).
 holds(s_17593_jpg, feature).
 holds(s_17593_jpg, powerplant).
+holds(s_17593_jpg, table).
 holds(s_17593_jpg, chimney).
 holds(s_17593_jpg, pipe).
 holds(s_17593_jpg, industrial).
@@ -20143,7 +20197,6 @@ holds(s_17596_jpg, door).
 holds(s_17596_jpg, window).
 holds(s_17596_jpg, awning).
 holds(s_17596_jpg, sign).
-holds(s_17596_jpg, table).
 holds(s_17596_jpg, chimney).
 holds(s_17596_jpg, pipe).
 holds(s_17596_jpg, machine).
@@ -20154,7 +20207,6 @@ holds(s_17597_jpg, building).
 holds(s_17597_jpg, feature).
 holds(s_17597_jpg, miscresidential).
 holds(s_17597_jpg, countryhouse).
-holds(s_17597_jpg, table).
 holds(s_17597_jpg, tiledroof).
 holds(s_17597_jpg, tiledrooftop).
 holds(s_17597_jpg, car).
@@ -20167,6 +20219,7 @@ holds(s_17598_jpg, cafe).
 holds(s_17598_jpg, hotel).
 holds(s_17598_jpg, door).
 holds(s_17598_jpg, awning).
+holds(s_17598_jpg, table).
 holds(s_17598_jpg, vendingmachine).
 holds(s_17598_jpg, wallsign).
 holds(s_17598_jpg, chimney).
@@ -20178,6 +20231,7 @@ holds(s_17599_jpg, feature).
 holds(s_17599_jpg, miscindustrial).
 holds(s_17599_jpg, watertreatment).
 holds(s_17599_jpg, window).
+holds(s_17599_jpg, table).
 holds(s_17599_jpg, pipe).
 holds(s_17599_jpg, truck).
 holds(s_17599_jpg, industrial).
@@ -20225,7 +20279,6 @@ holds(s_17603_jpg, door).
 holds(s_17603_jpg, window).
 holds(s_17603_jpg, awning).
 holds(s_17603_jpg, porch).
-holds(s_17603_jpg, table).
 holds(s_17603_jpg, tiledroof).
 holds(s_17603_jpg, tiledrooftop).
 holds(s_17603_jpg, car).
@@ -20241,6 +20294,7 @@ holds(s_17604_jpg, door).
 holds(s_17604_jpg, window).
 holds(s_17604_jpg, awning).
 holds(s_17604_jpg, billboard).
+holds(s_17604_jpg, table).
 holds(s_17604_jpg, wallsign).
 holds(s_17604_jpg, pipe).
 holds(s_17604_jpg, commercial).
@@ -20253,7 +20307,6 @@ holds(s_17605_jpg, powerplant).
 holds(s_17605_jpg, watertreatment).
 holds(s_17605_jpg, door).
 holds(s_17605_jpg, window).
-holds(s_17605_jpg, table).
 holds(s_17605_jpg, chimney).
 holds(s_17605_jpg, pipe).
 holds(s_17605_jpg, truck).
@@ -20310,7 +20363,6 @@ holds(s_17609_jpg, countryhouse).
 holds(s_17609_jpg, window).
 holds(s_17609_jpg, awning).
 holds(s_17609_jpg, porch).
-holds(s_17609_jpg, table).
 holds(s_17609_jpg, tiledroof).
 holds(s_17609_jpg, tiledrooftop).
 holds(s_17609_jpg, car).
@@ -20337,6 +20389,7 @@ holds(s_17611_jpg, constructionsite).
 holds(s_17611_jpg, powerplant).
 holds(s_17611_jpg, door).
 holds(s_17611_jpg, sign).
+holds(s_17611_jpg, table).
 holds(s_17611_jpg, chimney).
 holds(s_17611_jpg, pipe).
 holds(s_17611_jpg, machine).
@@ -20348,7 +20401,6 @@ holds(s_17612_jpg, feature).
 holds(s_17612_jpg, miscresidential).
 holds(s_17612_jpg, door).
 holds(s_17612_jpg, window).
-holds(s_17612_jpg, table).
 holds(s_17612_jpg, tiledroof).
 holds(s_17612_jpg, tiledrooftop).
 holds(s_17612_jpg, residential).
@@ -20365,7 +20417,6 @@ holds(s_17613_jpg, window).
 holds(s_17613_jpg, awning).
 holds(s_17613_jpg, billboard).
 holds(s_17613_jpg, sign).
-holds(s_17613_jpg, table).
 holds(s_17613_jpg, tiledroof).
 holds(s_17613_jpg, wallsign).
 holds(s_17613_jpg, statue).
@@ -20405,6 +20456,7 @@ holds(s_17616_jpg, door).
 holds(s_17616_jpg, window).
 holds(s_17616_jpg, awning).
 holds(s_17616_jpg, sign).
+holds(s_17616_jpg, table).
 holds(s_17616_jpg, vendingmachine).
 holds(s_17616_jpg, truck).
 holds(s_17616_jpg, commercial).
@@ -20416,6 +20468,7 @@ holds(s_17617_jpg, watertreatment).
 holds(s_17617_jpg, door).
 holds(s_17617_jpg, window).
 holds(s_17617_jpg, awning).
+holds(s_17617_jpg, table).
 holds(s_17617_jpg, pipe).
 holds(s_17617_jpg, truck).
 holds(s_17617_jpg, industrial).
@@ -20427,6 +20480,7 @@ holds(s_17618_jpg, suburban).
 holds(s_17618_jpg, door).
 holds(s_17618_jpg, awning).
 holds(s_17618_jpg, porch).
+holds(s_17618_jpg, table).
 holds(s_17618_jpg, truck).
 holds(s_17618_jpg, residential).
 
@@ -20455,7 +20509,6 @@ holds(s_17621_jpg, feature).
 holds(s_17621_jpg, miscresidential).
 holds(s_17621_jpg, door).
 holds(s_17621_jpg, window).
-holds(s_17621_jpg, table).
 holds(s_17621_jpg, tiledroof).
 holds(s_17621_jpg, tiledrooftop).
 holds(s_17621_jpg, residential).
@@ -20471,7 +20524,6 @@ holds(s_17622_jpg, window).
 holds(s_17622_jpg, awning).
 holds(s_17622_jpg, billboard).
 holds(s_17622_jpg, sign).
-holds(s_17622_jpg, table).
 holds(s_17622_jpg, statue).
 holds(s_17622_jpg, car).
 holds(s_17622_jpg, commercial).
@@ -20483,6 +20535,7 @@ holds(s_17623_jpg, constructionsite).
 holds(s_17623_jpg, door).
 holds(s_17623_jpg, window).
 holds(s_17623_jpg, sign).
+holds(s_17623_jpg, table).
 holds(s_17623_jpg, pipe).
 holds(s_17623_jpg, machine).
 holds(s_17623_jpg, industrial).
@@ -20494,7 +20547,6 @@ holds(s_17624_jpg, miscresidential).
 holds(s_17624_jpg, door).
 holds(s_17624_jpg, window).
 holds(s_17624_jpg, awning).
-holds(s_17624_jpg, table).
 holds(s_17624_jpg, tiledroof).
 holds(s_17624_jpg, tiledrooftop).
 holds(s_17624_jpg, residential).
@@ -20509,6 +20561,7 @@ holds(s_17625_jpg, door).
 holds(s_17625_jpg, window).
 holds(s_17625_jpg, awning).
 holds(s_17625_jpg, billboard).
+holds(s_17625_jpg, table).
 holds(s_17625_jpg, vendingmachine).
 holds(s_17625_jpg, car).
 holds(s_17625_jpg, commercial).
@@ -20519,7 +20572,6 @@ holds(s_17626_jpg, feature).
 holds(s_17626_jpg, miscindustrial).
 holds(s_17626_jpg, watertreatment).
 holds(s_17626_jpg, door).
-holds(s_17626_jpg, table).
 holds(s_17626_jpg, pipe).
 holds(s_17626_jpg, truck).
 holds(s_17626_jpg, industrial).
@@ -20543,7 +20595,6 @@ holds(s_17628_jpg, misccommercial).
 holds(s_17628_jpg, door).
 holds(s_17628_jpg, awning).
 holds(s_17628_jpg, sign).
-holds(s_17628_jpg, table).
 holds(s_17628_jpg, vendingmachine).
 holds(s_17628_jpg, commercial).
 
@@ -20552,6 +20603,7 @@ holds(s_17629_jpg, building).
 holds(s_17629_jpg, feature).
 holds(s_17629_jpg, constructionsite).
 holds(s_17629_jpg, window).
+holds(s_17629_jpg, table).
 holds(s_17629_jpg, machine).
 holds(s_17629_jpg, industrial).
 
@@ -20590,6 +20642,7 @@ holds(s_17632_jpg, feature).
 holds(s_17632_jpg, miscindustrial).
 holds(s_17632_jpg, door).
 holds(s_17632_jpg, window).
+holds(s_17632_jpg, table).
 holds(s_17632_jpg, truck).
 holds(s_17632_jpg, industrial).
 
@@ -20612,6 +20665,7 @@ holds(s_17634_jpg, store).
 holds(s_17634_jpg, door).
 holds(s_17634_jpg, awning).
 holds(s_17634_jpg, billboard).
+holds(s_17634_jpg, table).
 holds(s_17634_jpg, wallsign).
 holds(s_17634_jpg, statue).
 holds(s_17634_jpg, truck).
@@ -20622,7 +20676,6 @@ holds(s_17635_jpg, building).
 holds(s_17635_jpg, feature).
 holds(s_17635_jpg, powerplant).
 holds(s_17635_jpg, window).
-holds(s_17635_jpg, table).
 holds(s_17635_jpg, chimney).
 holds(s_17635_jpg, pipe).
 holds(s_17635_jpg, car).
@@ -20635,6 +20688,7 @@ holds(s_17636_jpg, suburban).
 holds(s_17636_jpg, miscresidential).
 holds(s_17636_jpg, window).
 holds(s_17636_jpg, porch).
+holds(s_17636_jpg, table).
 holds(s_17636_jpg, tiledroof).
 holds(s_17636_jpg, tiledrooftop).
 holds(s_17636_jpg, residential).
@@ -20680,7 +20734,6 @@ holds(s_17640_jpg, cafe).
 holds(s_17640_jpg, store).
 holds(s_17640_jpg, billboard).
 holds(s_17640_jpg, sign).
-holds(s_17640_jpg, table).
 holds(s_17640_jpg, vendingmachine).
 holds(s_17640_jpg, commercial).
 
@@ -20717,6 +20770,7 @@ holds(s_17643_jpg, window).
 holds(s_17643_jpg, awning).
 holds(s_17643_jpg, billboard).
 holds(s_17643_jpg, sign).
+holds(s_17643_jpg, table).
 holds(s_17643_jpg, wallsign).
 holds(s_17643_jpg, commercial).
 
@@ -20726,6 +20780,7 @@ holds(s_17644_jpg, feature).
 holds(s_17644_jpg, powerplant).
 holds(s_17644_jpg, door).
 holds(s_17644_jpg, window).
+holds(s_17644_jpg, table).
 holds(s_17644_jpg, chimney).
 holds(s_17644_jpg, pipe).
 holds(s_17644_jpg, industrial).
@@ -20736,6 +20791,7 @@ holds(s_17645_jpg, feature).
 holds(s_17645_jpg, miscresidential).
 holds(s_17645_jpg, countryhouse).
 holds(s_17645_jpg, window).
+holds(s_17645_jpg, table).
 holds(s_17645_jpg, tiledroof).
 holds(s_17645_jpg, tiledrooftop).
 holds(s_17645_jpg, car).
@@ -20751,6 +20807,7 @@ holds(s_17646_jpg, door).
 holds(s_17646_jpg, awning).
 holds(s_17646_jpg, billboard).
 holds(s_17646_jpg, sign).
+holds(s_17646_jpg, table).
 holds(s_17646_jpg, tiledroof).
 holds(s_17646_jpg, vendingmachine).
 holds(s_17646_jpg, statue).
@@ -20791,6 +20848,7 @@ holds(s_17649_jpg, store).
 holds(s_17649_jpg, window).
 holds(s_17649_jpg, awning).
 holds(s_17649_jpg, billboard).
+holds(s_17649_jpg, table).
 holds(s_17649_jpg, wallsign).
 holds(s_17649_jpg, commercial).
 
@@ -20799,6 +20857,7 @@ holds(s_17650_jpg, building).
 holds(s_17650_jpg, feature).
 holds(s_17650_jpg, miscindustrial).
 holds(s_17650_jpg, door).
+holds(s_17650_jpg, table).
 holds(s_17650_jpg, chimney).
 holds(s_17650_jpg, truck).
 holds(s_17650_jpg, industrial).
@@ -20819,6 +20878,7 @@ holds(s_17652_jpg, feature).
 holds(s_17652_jpg, cafe).
 holds(s_17652_jpg, window).
 holds(s_17652_jpg, awning).
+holds(s_17652_jpg, table).
 holds(s_17652_jpg, vendingmachine).
 holds(s_17652_jpg, commercial).
 
@@ -20829,7 +20889,6 @@ holds(s_17653_jpg, miscindustrial).
 holds(s_17653_jpg, watertreatment).
 holds(s_17653_jpg, door).
 holds(s_17653_jpg, window).
-holds(s_17653_jpg, table).
 holds(s_17653_jpg, pipe).
 holds(s_17653_jpg, truck).
 holds(s_17653_jpg, industrial).
@@ -20854,6 +20913,7 @@ holds(s_17655_jpg, restaurant).
 holds(s_17655_jpg, window).
 holds(s_17655_jpg, awning).
 holds(s_17655_jpg, sign).
+holds(s_17655_jpg, table).
 holds(s_17655_jpg, wallsign).
 holds(s_17655_jpg, chimney).
 holds(s_17655_jpg, truck).
@@ -20864,6 +20924,7 @@ holds(s_17656_jpg, building).
 holds(s_17656_jpg, feature).
 holds(s_17656_jpg, constructionsite).
 holds(s_17656_jpg, door).
+holds(s_17656_jpg, table).
 holds(s_17656_jpg, machine).
 holds(s_17656_jpg, industrial).
 
@@ -20903,6 +20964,7 @@ holds(s_17659_jpg, miscindustrial).
 holds(s_17659_jpg, watertreatment).
 holds(s_17659_jpg, door).
 holds(s_17659_jpg, window).
+holds(s_17659_jpg, table).
 holds(s_17659_jpg, pipe).
 holds(s_17659_jpg, truck).
 holds(s_17659_jpg, industrial).
@@ -20941,6 +21003,7 @@ holds(s_17662_jpg, feature).
 holds(s_17662_jpg, miscindustrial).
 holds(s_17662_jpg, watertreatment).
 holds(s_17662_jpg, door).
+holds(s_17662_jpg, table).
 holds(s_17662_jpg, pipe).
 holds(s_17662_jpg, truck).
 holds(s_17662_jpg, industrial).
@@ -20954,7 +21017,6 @@ holds(s_17663_jpg, door).
 holds(s_17663_jpg, awning).
 holds(s_17663_jpg, porch).
 holds(s_17663_jpg, sign).
-holds(s_17663_jpg, table).
 holds(s_17663_jpg, tiledroof).
 holds(s_17663_jpg, tiledrooftop).
 holds(s_17663_jpg, residential).
@@ -20968,7 +21030,6 @@ holds(s_17664_jpg, misccommercial).
 holds(s_17664_jpg, door).
 holds(s_17664_jpg, window).
 holds(s_17664_jpg, awning).
-holds(s_17664_jpg, table).
 holds(s_17664_jpg, tiledroof).
 holds(s_17664_jpg, wallsign).
 holds(s_17664_jpg, statue).
@@ -20991,7 +21052,6 @@ holds(s_17666_jpg, miscresidential).
 holds(s_17666_jpg, countryhouse).
 holds(s_17666_jpg, window).
 holds(s_17666_jpg, awning).
-holds(s_17666_jpg, table).
 holds(s_17666_jpg, tiledroof).
 holds(s_17666_jpg, tiledrooftop).
 holds(s_17666_jpg, car).
@@ -21013,7 +21073,6 @@ holds(s_17668_jpg, building).
 holds(s_17668_jpg, feature).
 holds(s_17668_jpg, powerplant).
 holds(s_17668_jpg, door).
-holds(s_17668_jpg, table).
 holds(s_17668_jpg, chimney).
 holds(s_17668_jpg, pipe).
 holds(s_17668_jpg, car).
@@ -21047,6 +21106,7 @@ holds(s_17671_jpg, miscindustrial).
 holds(s_17671_jpg, powerplant).
 holds(s_17671_jpg, watertreatment).
 holds(s_17671_jpg, door).
+holds(s_17671_jpg, table).
 holds(s_17671_jpg, chimney).
 holds(s_17671_jpg, pipe).
 holds(s_17671_jpg, truck).
@@ -21096,6 +21156,7 @@ holds(s_17675_jpg, miscresidential).
 holds(s_17675_jpg, door).
 holds(s_17675_jpg, window).
 holds(s_17675_jpg, porch).
+holds(s_17675_jpg, table).
 holds(s_17675_jpg, tiledroof).
 holds(s_17675_jpg, tiledrooftop).
 holds(s_17675_jpg, residential).
@@ -21120,6 +21181,7 @@ holds(s_17677_jpg, building).
 holds(s_17677_jpg, feature).
 holds(s_17677_jpg, constructionsite).
 holds(s_17677_jpg, door).
+holds(s_17677_jpg, table).
 holds(s_17677_jpg, machine).
 holds(s_17677_jpg, industrial).
 
@@ -21147,7 +21209,6 @@ holds(s_17679_jpg, store).
 holds(s_17679_jpg, window).
 holds(s_17679_jpg, billboard).
 holds(s_17679_jpg, sign).
-holds(s_17679_jpg, table).
 holds(s_17679_jpg, wallsign).
 holds(s_17679_jpg, truck).
 holds(s_17679_jpg, commercial).
@@ -21171,6 +21232,7 @@ holds(s_17681_jpg, door).
 holds(s_17681_jpg, window).
 holds(s_17681_jpg, awning).
 holds(s_17681_jpg, porch).
+holds(s_17681_jpg, table).
 holds(s_17681_jpg, residential).
 
 sample(s_17682_jpg).
@@ -21235,7 +21297,6 @@ holds(s_17686_jpg, miscindustrial).
 holds(s_17686_jpg, watertreatment).
 holds(s_17686_jpg, door).
 holds(s_17686_jpg, window).
-holds(s_17686_jpg, table).
 holds(s_17686_jpg, pipe).
 holds(s_17686_jpg, truck).
 holds(s_17686_jpg, industrial).
@@ -21247,6 +21308,7 @@ holds(s_17687_jpg, suburban).
 holds(s_17687_jpg, door).
 holds(s_17687_jpg, awning).
 holds(s_17687_jpg, porch).
+holds(s_17687_jpg, table).
 holds(s_17687_jpg, residential).
 
 sample(s_17688_jpg).
@@ -21283,6 +21345,7 @@ holds(s_17690_jpg, countryhouse).
 holds(s_17690_jpg, door).
 holds(s_17690_jpg, window).
 holds(s_17690_jpg, porch).
+holds(s_17690_jpg, table).
 holds(s_17690_jpg, tiledroof).
 holds(s_17690_jpg, tiledrooftop).
 holds(s_17690_jpg, car).
@@ -21296,7 +21359,6 @@ holds(s_17691_jpg, store).
 holds(s_17691_jpg, door).
 holds(s_17691_jpg, window).
 holds(s_17691_jpg, billboard).
-holds(s_17691_jpg, table).
 holds(s_17691_jpg, vendingmachine).
 holds(s_17691_jpg, commercial).
 
@@ -21305,6 +21367,7 @@ holds(s_17692_jpg, building).
 holds(s_17692_jpg, feature).
 holds(s_17692_jpg, miscindustrial).
 holds(s_17692_jpg, window).
+holds(s_17692_jpg, table).
 holds(s_17692_jpg, truck).
 holds(s_17692_jpg, industrial).
 
@@ -21351,6 +21414,7 @@ holds(s_17696_jpg, miscresidential).
 holds(s_17696_jpg, countryhouse).
 holds(s_17696_jpg, door).
 holds(s_17696_jpg, window).
+holds(s_17696_jpg, table).
 holds(s_17696_jpg, tiledroof).
 holds(s_17696_jpg, tiledrooftop).
 holds(s_17696_jpg, car).
@@ -21364,6 +21428,7 @@ holds(s_17697_jpg, hotel).
 holds(s_17697_jpg, misccommercial).
 holds(s_17697_jpg, window).
 holds(s_17697_jpg, awning).
+holds(s_17697_jpg, table).
 holds(s_17697_jpg, vendingmachine).
 holds(s_17697_jpg, wallsign).
 holds(s_17697_jpg, chimney).
@@ -21403,6 +21468,7 @@ holds(s_17700_jpg, misccommercial).
 holds(s_17700_jpg, window).
 holds(s_17700_jpg, awning).
 holds(s_17700_jpg, billboard).
+holds(s_17700_jpg, table).
 holds(s_17700_jpg, tiledroof).
 holds(s_17700_jpg, vendingmachine).
 holds(s_17700_jpg, wallsign).
@@ -21416,7 +21482,6 @@ holds(s_17701_jpg, feature).
 holds(s_17701_jpg, miscindustrial).
 holds(s_17701_jpg, powerplant).
 holds(s_17701_jpg, watertreatment).
-holds(s_17701_jpg, table).
 holds(s_17701_jpg, chimney).
 holds(s_17701_jpg, pipe).
 holds(s_17701_jpg, truck).
@@ -21457,6 +21522,7 @@ holds(s_17704_jpg, feature).
 holds(s_17704_jpg, miscindustrial).
 holds(s_17704_jpg, powerplant).
 holds(s_17704_jpg, watertreatment).
+holds(s_17704_jpg, table).
 holds(s_17704_jpg, chimney).
 holds(s_17704_jpg, pipe).
 holds(s_17704_jpg, truck).
@@ -21469,7 +21535,6 @@ holds(s_17705_jpg, suburban).
 holds(s_17705_jpg, miscresidential).
 holds(s_17705_jpg, door).
 holds(s_17705_jpg, porch).
-holds(s_17705_jpg, table).
 holds(s_17705_jpg, tiledroof).
 holds(s_17705_jpg, tiledrooftop).
 holds(s_17705_jpg, residential).
@@ -21495,7 +21560,6 @@ holds(s_17707_jpg, watertreatment).
 holds(s_17707_jpg, door).
 holds(s_17707_jpg, window).
 holds(s_17707_jpg, awning).
-holds(s_17707_jpg, table).
 holds(s_17707_jpg, pipe).
 holds(s_17707_jpg, truck).
 holds(s_17707_jpg, industrial).
@@ -21526,6 +21590,7 @@ holds(s_17709_jpg, window).
 holds(s_17709_jpg, awning).
 holds(s_17709_jpg, billboard).
 holds(s_17709_jpg, sign).
+holds(s_17709_jpg, table).
 holds(s_17709_jpg, tiledroof).
 holds(s_17709_jpg, tiledrooftop).
 holds(s_17709_jpg, vendingmachine).
@@ -21541,7 +21606,6 @@ holds(s_17710_jpg, miscindustrial).
 holds(s_17710_jpg, powerplant).
 holds(s_17710_jpg, watertreatment).
 holds(s_17710_jpg, door).
-holds(s_17710_jpg, table).
 holds(s_17710_jpg, chimney).
 holds(s_17710_jpg, pipe).
 holds(s_17710_jpg, truck).
@@ -21553,6 +21617,7 @@ holds(s_17711_jpg, feature).
 holds(s_17711_jpg, miscresidential).
 holds(s_17711_jpg, door).
 holds(s_17711_jpg, window).
+holds(s_17711_jpg, table).
 holds(s_17711_jpg, tiledroof).
 holds(s_17711_jpg, tiledrooftop).
 holds(s_17711_jpg, truck).
@@ -21596,7 +21661,6 @@ holds(s_17714_jpg, feature).
 holds(s_17714_jpg, miscresidential).
 holds(s_17714_jpg, door).
 holds(s_17714_jpg, window).
-holds(s_17714_jpg, table).
 holds(s_17714_jpg, tiledroof).
 holds(s_17714_jpg, tiledrooftop).
 holds(s_17714_jpg, residential).
@@ -21685,6 +21749,7 @@ holds(s_17721_jpg, door).
 holds(s_17721_jpg, window).
 holds(s_17721_jpg, billboard).
 holds(s_17721_jpg, sign).
+holds(s_17721_jpg, table).
 holds(s_17721_jpg, commercial).
 
 sample(s_17722_jpg).
@@ -21693,6 +21758,7 @@ holds(s_17722_jpg, feature).
 holds(s_17722_jpg, watertreatment).
 holds(s_17722_jpg, window).
 holds(s_17722_jpg, awning).
+holds(s_17722_jpg, table).
 holds(s_17722_jpg, pipe).
 holds(s_17722_jpg, truck).
 holds(s_17722_jpg, industrial).
@@ -21706,7 +21772,6 @@ holds(s_17723_jpg, door).
 holds(s_17723_jpg, window).
 holds(s_17723_jpg, awning).
 holds(s_17723_jpg, porch).
-holds(s_17723_jpg, table).
 holds(s_17723_jpg, tiledroof).
 holds(s_17723_jpg, tiledrooftop).
 holds(s_17723_jpg, truck).
@@ -21737,7 +21802,6 @@ holds(s_17725_jpg, door).
 holds(s_17725_jpg, window).
 holds(s_17725_jpg, awning).
 holds(s_17725_jpg, sign).
-holds(s_17725_jpg, table).
 holds(s_17725_jpg, chimney).
 holds(s_17725_jpg, machine).
 holds(s_17725_jpg, industrial).
@@ -21781,7 +21845,6 @@ holds(s_17728_jpg, feature).
 holds(s_17728_jpg, miscindustrial).
 holds(s_17728_jpg, watertreatment).
 holds(s_17728_jpg, window).
-holds(s_17728_jpg, table).
 holds(s_17728_jpg, pipe).
 holds(s_17728_jpg, truck).
 holds(s_17728_jpg, industrial).
@@ -21809,7 +21872,6 @@ holds(s_17730_jpg, window).
 holds(s_17730_jpg, awning).
 holds(s_17730_jpg, billboard).
 holds(s_17730_jpg, sign).
-holds(s_17730_jpg, table).
 holds(s_17730_jpg, vendingmachine).
 holds(s_17730_jpg, truck).
 holds(s_17730_jpg, commercial).
@@ -21820,7 +21882,6 @@ holds(s_17731_jpg, feature).
 holds(s_17731_jpg, constructionsite).
 holds(s_17731_jpg, powerplant).
 holds(s_17731_jpg, sign).
-holds(s_17731_jpg, table).
 holds(s_17731_jpg, chimney).
 holds(s_17731_jpg, pipe).
 holds(s_17731_jpg, machine).
@@ -21846,7 +21907,6 @@ holds(s_17733_jpg, feature).
 holds(s_17733_jpg, store).
 holds(s_17733_jpg, billboard).
 holds(s_17733_jpg, sign).
-holds(s_17733_jpg, table).
 holds(s_17733_jpg, commercial).
 
 sample(s_17734_jpg).
@@ -21855,7 +21915,6 @@ holds(s_17734_jpg, feature).
 holds(s_17734_jpg, miscindustrial).
 holds(s_17734_jpg, watertreatment).
 holds(s_17734_jpg, door).
-holds(s_17734_jpg, table).
 holds(s_17734_jpg, pipe).
 holds(s_17734_jpg, truck).
 holds(s_17734_jpg, industrial).
@@ -21882,7 +21941,6 @@ holds(s_17736_jpg, misccommercial).
 holds(s_17736_jpg, window).
 holds(s_17736_jpg, awning).
 holds(s_17736_jpg, billboard).
-holds(s_17736_jpg, table).
 holds(s_17736_jpg, vendingmachine).
 holds(s_17736_jpg, wallsign).
 holds(s_17736_jpg, truck).
@@ -21893,7 +21951,6 @@ holds(s_17737_jpg, building).
 holds(s_17737_jpg, feature).
 holds(s_17737_jpg, constructionsite).
 holds(s_17737_jpg, window).
-holds(s_17737_jpg, table).
 holds(s_17737_jpg, chimney).
 holds(s_17737_jpg, machine).
 holds(s_17737_jpg, industrial).
@@ -21907,7 +21964,6 @@ holds(s_17738_jpg, countryhouse).
 holds(s_17738_jpg, door).
 holds(s_17738_jpg, awning).
 holds(s_17738_jpg, porch).
-holds(s_17738_jpg, table).
 holds(s_17738_jpg, tiledroof).
 holds(s_17738_jpg, tiledrooftop).
 holds(s_17738_jpg, car).
@@ -21935,7 +21991,6 @@ holds(s_17740_jpg, constructionsite).
 holds(s_17740_jpg, door).
 holds(s_17740_jpg, awning).
 holds(s_17740_jpg, sign).
-holds(s_17740_jpg, table).
 holds(s_17740_jpg, pipe).
 holds(s_17740_jpg, machine).
 holds(s_17740_jpg, industrial).
@@ -21984,7 +22039,6 @@ holds(s_17744_jpg, suburban).
 holds(s_17744_jpg, window).
 holds(s_17744_jpg, porch).
 holds(s_17744_jpg, sign).
-holds(s_17744_jpg, table).
 holds(s_17744_jpg, residential).
 
 sample(s_17745_jpg).
@@ -22024,7 +22078,6 @@ holds(s_17747_jpg, countryhouse).
 holds(s_17747_jpg, door).
 holds(s_17747_jpg, window).
 holds(s_17747_jpg, porch).
-holds(s_17747_jpg, table).
 holds(s_17747_jpg, tiledroof).
 holds(s_17747_jpg, tiledrooftop).
 holds(s_17747_jpg, car).
@@ -22036,7 +22089,6 @@ holds(s_17748_jpg, feature).
 holds(s_17748_jpg, store).
 holds(s_17748_jpg, door).
 holds(s_17748_jpg, billboard).
-holds(s_17748_jpg, table).
 holds(s_17748_jpg, car).
 holds(s_17748_jpg, commercial).
 
@@ -22060,6 +22112,7 @@ holds(s_17750_jpg, feature).
 holds(s_17750_jpg, miscresidential).
 holds(s_17750_jpg, door).
 holds(s_17750_jpg, window).
+holds(s_17750_jpg, table).
 holds(s_17750_jpg, tiledroof).
 holds(s_17750_jpg, tiledrooftop).
 holds(s_17750_jpg, residential).
@@ -22085,6 +22138,7 @@ holds(s_17752_jpg, powerplant).
 holds(s_17752_jpg, watertreatment).
 holds(s_17752_jpg, door).
 holds(s_17752_jpg, awning).
+holds(s_17752_jpg, table).
 holds(s_17752_jpg, chimney).
 holds(s_17752_jpg, pipe).
 holds(s_17752_jpg, truck).
@@ -22098,7 +22152,6 @@ holds(s_17753_jpg, door).
 holds(s_17753_jpg, window).
 holds(s_17753_jpg, awning).
 holds(s_17753_jpg, porch).
-holds(s_17753_jpg, table).
 holds(s_17753_jpg, residential).
 
 sample(s_17754_jpg).
@@ -22109,7 +22162,6 @@ holds(s_17754_jpg, hotel).
 holds(s_17754_jpg, store).
 holds(s_17754_jpg, window).
 holds(s_17754_jpg, billboard).
-holds(s_17754_jpg, table).
 holds(s_17754_jpg, vendingmachine).
 holds(s_17754_jpg, wallsign).
 holds(s_17754_jpg, statue).
@@ -22137,7 +22189,6 @@ holds(s_17756_jpg, door).
 holds(s_17756_jpg, window).
 holds(s_17756_jpg, awning).
 holds(s_17756_jpg, porch).
-holds(s_17756_jpg, table).
 holds(s_17756_jpg, tiledroof).
 holds(s_17756_jpg, tiledrooftop).
 holds(s_17756_jpg, residential).
@@ -22152,7 +22203,6 @@ holds(s_17757_jpg, door).
 holds(s_17757_jpg, window).
 holds(s_17757_jpg, awning).
 holds(s_17757_jpg, sign).
-holds(s_17757_jpg, table).
 holds(s_17757_jpg, wallsign).
 holds(s_17757_jpg, car).
 holds(s_17757_jpg, commercial).
@@ -22173,7 +22223,6 @@ holds(s_17759_jpg, miscresidential).
 holds(s_17759_jpg, window).
 holds(s_17759_jpg, awning).
 holds(s_17759_jpg, porch).
-holds(s_17759_jpg, table).
 holds(s_17759_jpg, tiledroof).
 holds(s_17759_jpg, tiledrooftop).
 holds(s_17759_jpg, residential).
@@ -22188,7 +22237,6 @@ holds(s_17760_jpg, door).
 holds(s_17760_jpg, window).
 holds(s_17760_jpg, awning).
 holds(s_17760_jpg, billboard).
-holds(s_17760_jpg, table).
 holds(s_17760_jpg, vendingmachine).
 holds(s_17760_jpg, pipe).
 holds(s_17760_jpg, commercial).
@@ -22224,13 +22272,13 @@ holds(s_17763_jpg, window).
 holds(s_17763_jpg, awning).
 holds(s_17763_jpg, billboard).
 holds(s_17763_jpg, sign).
+holds(s_17763_jpg, table).
 holds(s_17763_jpg, commercial).
 
 sample(s_17764_jpg).
 holds(s_17764_jpg, building).
 holds(s_17764_jpg, feature).
 holds(s_17764_jpg, constructionsite).
-holds(s_17764_jpg, table).
 holds(s_17764_jpg, pipe).
 holds(s_17764_jpg, machine).
 holds(s_17764_jpg, industrial).
@@ -22255,6 +22303,7 @@ holds(s_17766_jpg, cafe).
 holds(s_17766_jpg, store).
 holds(s_17766_jpg, door).
 holds(s_17766_jpg, billboard).
+holds(s_17766_jpg, table).
 holds(s_17766_jpg, vendingmachine).
 holds(s_17766_jpg, chimney).
 holds(s_17766_jpg, truck).
@@ -22274,6 +22323,7 @@ holds(s_17768_jpg, feature).
 holds(s_17768_jpg, miscresidential).
 holds(s_17768_jpg, door).
 holds(s_17768_jpg, awning).
+holds(s_17768_jpg, table).
 holds(s_17768_jpg, tiledroof).
 holds(s_17768_jpg, tiledrooftop).
 holds(s_17768_jpg, truck).
@@ -22314,7 +22364,6 @@ holds(s_17771_jpg, countryhouse).
 holds(s_17771_jpg, door).
 holds(s_17771_jpg, window).
 holds(s_17771_jpg, porch).
-holds(s_17771_jpg, table).
 holds(s_17771_jpg, tiledroof).
 holds(s_17771_jpg, tiledrooftop).
 holds(s_17771_jpg, car).
@@ -22328,7 +22377,6 @@ holds(s_17772_jpg, hotel).
 holds(s_17772_jpg, misccommercial).
 holds(s_17772_jpg, door).
 holds(s_17772_jpg, awning).
-holds(s_17772_jpg, table).
 holds(s_17772_jpg, tiledroof).
 holds(s_17772_jpg, tiledrooftop).
 holds(s_17772_jpg, vendingmachine).
@@ -22341,7 +22389,6 @@ holds(s_17773_jpg, feature).
 holds(s_17773_jpg, constructionsite).
 holds(s_17773_jpg, door).
 holds(s_17773_jpg, window).
-holds(s_17773_jpg, table).
 holds(s_17773_jpg, chimney).
 holds(s_17773_jpg, machine).
 holds(s_17773_jpg, industrial).
@@ -22377,6 +22424,7 @@ holds(s_17776_jpg, feature).
 holds(s_17776_jpg, miscindustrial).
 holds(s_17776_jpg, powerplant).
 holds(s_17776_jpg, watertreatment).
+holds(s_17776_jpg, table).
 holds(s_17776_jpg, chimney).
 holds(s_17776_jpg, pipe).
 holds(s_17776_jpg, truck).
@@ -22400,7 +22448,6 @@ holds(s_17778_jpg, cafe).
 holds(s_17778_jpg, restaurant).
 holds(s_17778_jpg, window).
 holds(s_17778_jpg, sign).
-holds(s_17778_jpg, table).
 holds(s_17778_jpg, vendingmachine).
 holds(s_17778_jpg, chimney).
 holds(s_17778_jpg, car).
@@ -22413,7 +22460,6 @@ holds(s_17779_jpg, watertreatment).
 holds(s_17779_jpg, door).
 holds(s_17779_jpg, window).
 holds(s_17779_jpg, awning).
-holds(s_17779_jpg, table).
 holds(s_17779_jpg, pipe).
 holds(s_17779_jpg, truck).
 holds(s_17779_jpg, industrial).
@@ -22479,7 +22525,6 @@ holds(s_17784_jpg, store).
 holds(s_17784_jpg, window).
 holds(s_17784_jpg, billboard).
 holds(s_17784_jpg, sign).
-holds(s_17784_jpg, table).
 holds(s_17784_jpg, vendingmachine).
 holds(s_17784_jpg, wallsign).
 holds(s_17784_jpg, statue).
@@ -22533,6 +22578,7 @@ holds(s_17788_jpg, building).
 holds(s_17788_jpg, feature).
 holds(s_17788_jpg, miscindustrial).
 holds(s_17788_jpg, window).
+holds(s_17788_jpg, table).
 holds(s_17788_jpg, truck).
 holds(s_17788_jpg, industrial).
 
@@ -22558,7 +22604,6 @@ holds(s_17790_jpg, hotel).
 holds(s_17790_jpg, door).
 holds(s_17790_jpg, window).
 holds(s_17790_jpg, awning).
-holds(s_17790_jpg, table).
 holds(s_17790_jpg, wallsign).
 holds(s_17790_jpg, statue).
 holds(s_17790_jpg, commercial).
@@ -22571,7 +22616,6 @@ holds(s_17791_jpg, door).
 holds(s_17791_jpg, window).
 holds(s_17791_jpg, awning).
 holds(s_17791_jpg, sign).
-holds(s_17791_jpg, table).
 holds(s_17791_jpg, pipe).
 holds(s_17791_jpg, machine).
 holds(s_17791_jpg, industrial).
@@ -22582,6 +22626,7 @@ holds(s_17792_jpg, feature).
 holds(s_17792_jpg, miscresidential).
 holds(s_17792_jpg, countryhouse).
 holds(s_17792_jpg, window).
+holds(s_17792_jpg, table).
 holds(s_17792_jpg, tiledroof).
 holds(s_17792_jpg, tiledrooftop).
 holds(s_17792_jpg, car).
@@ -22676,6 +22721,7 @@ holds(s_17799_jpg, window).
 holds(s_17799_jpg, awning).
 holds(s_17799_jpg, billboard).
 holds(s_17799_jpg, sign).
+holds(s_17799_jpg, table).
 holds(s_17799_jpg, tiledroof).
 holds(s_17799_jpg, tiledrooftop).
 holds(s_17799_jpg, vendingmachine).
@@ -22689,7 +22735,6 @@ holds(s_17800_jpg, miscindustrial).
 holds(s_17800_jpg, powerplant).
 holds(s_17800_jpg, watertreatment).
 holds(s_17800_jpg, door).
-holds(s_17800_jpg, table).
 holds(s_17800_jpg, chimney).
 holds(s_17800_jpg, pipe).
 holds(s_17800_jpg, truck).
@@ -22701,7 +22746,6 @@ holds(s_17801_jpg, feature).
 holds(s_17801_jpg, miscresidential).
 holds(s_17801_jpg, countryhouse).
 holds(s_17801_jpg, door).
-holds(s_17801_jpg, table).
 holds(s_17801_jpg, tiledroof).
 holds(s_17801_jpg, tiledrooftop).
 holds(s_17801_jpg, car).
@@ -22719,6 +22763,7 @@ holds(s_17802_jpg, door).
 holds(s_17802_jpg, awning).
 holds(s_17802_jpg, billboard).
 holds(s_17802_jpg, sign).
+holds(s_17802_jpg, table).
 holds(s_17802_jpg, wallsign).
 holds(s_17802_jpg, statue).
 holds(s_17802_jpg, truck).
@@ -22731,7 +22776,6 @@ holds(s_17803_jpg, miscindustrial).
 holds(s_17803_jpg, powerplant).
 holds(s_17803_jpg, watertreatment).
 holds(s_17803_jpg, window).
-holds(s_17803_jpg, table).
 holds(s_17803_jpg, chimney).
 holds(s_17803_jpg, pipe).
 holds(s_17803_jpg, truck).
@@ -22760,6 +22804,7 @@ holds(s_17805_jpg, hotel).
 holds(s_17805_jpg, restaurant).
 holds(s_17805_jpg, door).
 holds(s_17805_jpg, sign).
+holds(s_17805_jpg, table).
 holds(s_17805_jpg, wallsign).
 holds(s_17805_jpg, statue).
 holds(s_17805_jpg, pipe).
@@ -22795,6 +22840,7 @@ holds(s_17808_jpg, door).
 holds(s_17808_jpg, awning).
 holds(s_17808_jpg, billboard).
 holds(s_17808_jpg, sign).
+holds(s_17808_jpg, table).
 holds(s_17808_jpg, vendingmachine).
 holds(s_17808_jpg, statue).
 holds(s_17808_jpg, car).
@@ -22820,7 +22866,6 @@ holds(s_17810_jpg, countryhouse).
 holds(s_17810_jpg, window).
 holds(s_17810_jpg, awning).
 holds(s_17810_jpg, porch).
-holds(s_17810_jpg, table).
 holds(s_17810_jpg, tiledroof).
 holds(s_17810_jpg, tiledrooftop).
 holds(s_17810_jpg, car).
@@ -22837,6 +22882,7 @@ holds(s_17811_jpg, door).
 holds(s_17811_jpg, window).
 holds(s_17811_jpg, awning).
 holds(s_17811_jpg, billboard).
+holds(s_17811_jpg, table).
 holds(s_17811_jpg, vendingmachine).
 holds(s_17811_jpg, wallsign).
 holds(s_17811_jpg, chimney).
@@ -22849,6 +22895,7 @@ holds(s_17812_jpg, feature).
 holds(s_17812_jpg, powerplant).
 holds(s_17812_jpg, door).
 holds(s_17812_jpg, window).
+holds(s_17812_jpg, table).
 holds(s_17812_jpg, chimney).
 holds(s_17812_jpg, pipe).
 holds(s_17812_jpg, industrial).
@@ -22876,6 +22923,7 @@ holds(s_17814_jpg, window).
 holds(s_17814_jpg, awning).
 holds(s_17814_jpg, billboard).
 holds(s_17814_jpg, sign).
+holds(s_17814_jpg, table).
 holds(s_17814_jpg, tiledroof).
 holds(s_17814_jpg, vendingmachine).
 holds(s_17814_jpg, statue).
@@ -22919,7 +22967,6 @@ holds(s_17817_jpg, window).
 holds(s_17817_jpg, awning).
 holds(s_17817_jpg, billboard).
 holds(s_17817_jpg, sign).
-holds(s_17817_jpg, table).
 holds(s_17817_jpg, vendingmachine).
 holds(s_17817_jpg, wallsign).
 holds(s_17817_jpg, commercial).
@@ -22932,7 +22979,6 @@ holds(s_17818_jpg, door).
 holds(s_17818_jpg, window).
 holds(s_17818_jpg, awning).
 holds(s_17818_jpg, sign).
-holds(s_17818_jpg, table).
 holds(s_17818_jpg, chimney).
 holds(s_17818_jpg, machine).
 holds(s_17818_jpg, industrial).
@@ -22956,6 +23002,7 @@ holds(s_17820_jpg, misccommercial).
 holds(s_17820_jpg, door).
 holds(s_17820_jpg, awning).
 holds(s_17820_jpg, billboard).
+holds(s_17820_jpg, table).
 holds(s_17820_jpg, tiledroof).
 holds(s_17820_jpg, tiledrooftop).
 holds(s_17820_jpg, wallsign).
@@ -23015,6 +23062,7 @@ holds(s_17825_jpg, suburban).
 holds(s_17825_jpg, door).
 holds(s_17825_jpg, porch).
 holds(s_17825_jpg, sign).
+holds(s_17825_jpg, table).
 holds(s_17825_jpg, residential).
 
 sample(s_17826_jpg).
@@ -23048,6 +23096,7 @@ holds(s_17828_jpg, miscresidential).
 holds(s_17828_jpg, door).
 holds(s_17828_jpg, porch).
 holds(s_17828_jpg, sign).
+holds(s_17828_jpg, table).
 holds(s_17828_jpg, tiledroof).
 holds(s_17828_jpg, tiledrooftop).
 holds(s_17828_jpg, residential).
@@ -23123,6 +23172,7 @@ holds(s_17834_jpg, miscresidential).
 holds(s_17834_jpg, door).
 holds(s_17834_jpg, window).
 holds(s_17834_jpg, porch).
+holds(s_17834_jpg, table).
 holds(s_17834_jpg, tiledroof).
 holds(s_17834_jpg, tiledrooftop).
 holds(s_17834_jpg, residential).
@@ -23145,7 +23195,6 @@ holds(s_17836_jpg, watertreatment).
 holds(s_17836_jpg, door).
 holds(s_17836_jpg, window).
 holds(s_17836_jpg, awning).
-holds(s_17836_jpg, table).
 holds(s_17836_jpg, chimney).
 holds(s_17836_jpg, pipe).
 holds(s_17836_jpg, truck).
@@ -23159,6 +23208,7 @@ holds(s_17837_jpg, door).
 holds(s_17837_jpg, window).
 holds(s_17837_jpg, awning).
 holds(s_17837_jpg, porch).
+holds(s_17837_jpg, table).
 holds(s_17837_jpg, truck).
 holds(s_17837_jpg, residential).
 
@@ -23194,7 +23244,6 @@ holds(s_17840_jpg, miscresidential).
 holds(s_17840_jpg, countryhouse).
 holds(s_17840_jpg, window).
 holds(s_17840_jpg, porch).
-holds(s_17840_jpg, table).
 holds(s_17840_jpg, tiledroof).
 holds(s_17840_jpg, tiledrooftop).
 holds(s_17840_jpg, car).
@@ -23207,6 +23256,7 @@ holds(s_17841_jpg, cafe).
 holds(s_17841_jpg, store).
 holds(s_17841_jpg, window).
 holds(s_17841_jpg, billboard).
+holds(s_17841_jpg, table).
 holds(s_17841_jpg, statue).
 holds(s_17841_jpg, pipe).
 holds(s_17841_jpg, commercial).
@@ -23216,7 +23266,6 @@ holds(s_17842_jpg, building).
 holds(s_17842_jpg, feature).
 holds(s_17842_jpg, miscindustrial).
 holds(s_17842_jpg, watertreatment).
-holds(s_17842_jpg, table).
 holds(s_17842_jpg, pipe).
 holds(s_17842_jpg, truck).
 holds(s_17842_jpg, industrial).
@@ -23254,7 +23303,6 @@ holds(s_17845_jpg, powerplant).
 holds(s_17845_jpg, watertreatment).
 holds(s_17845_jpg, door).
 holds(s_17845_jpg, awning).
-holds(s_17845_jpg, table).
 holds(s_17845_jpg, chimney).
 holds(s_17845_jpg, pipe).
 holds(s_17845_jpg, truck).
@@ -23278,6 +23326,7 @@ holds(s_17847_jpg, cafe).
 holds(s_17847_jpg, misccommercial).
 holds(s_17847_jpg, window).
 holds(s_17847_jpg, awning).
+holds(s_17847_jpg, table).
 holds(s_17847_jpg, vendingmachine).
 holds(s_17847_jpg, statue).
 holds(s_17847_jpg, commercial).
@@ -23288,6 +23337,7 @@ holds(s_17848_jpg, feature).
 holds(s_17848_jpg, miscindustrial).
 holds(s_17848_jpg, watertreatment).
 holds(s_17848_jpg, window).
+holds(s_17848_jpg, table).
 holds(s_17848_jpg, pipe).
 holds(s_17848_jpg, truck).
 holds(s_17848_jpg, industrial).
@@ -23323,7 +23373,6 @@ holds(s_17851_jpg, feature).
 holds(s_17851_jpg, constructionsite).
 holds(s_17851_jpg, door).
 holds(s_17851_jpg, sign).
-holds(s_17851_jpg, table).
 holds(s_17851_jpg, machine).
 holds(s_17851_jpg, industrial).
 
@@ -23373,6 +23422,7 @@ holds(s_17855_jpg, miscresidential).
 holds(s_17855_jpg, countryhouse).
 holds(s_17855_jpg, window).
 holds(s_17855_jpg, porch).
+holds(s_17855_jpg, table).
 holds(s_17855_jpg, tiledroof).
 holds(s_17855_jpg, tiledrooftop).
 holds(s_17855_jpg, car).
@@ -23385,7 +23435,6 @@ holds(s_17856_jpg, hotel).
 holds(s_17856_jpg, store).
 holds(s_17856_jpg, window).
 holds(s_17856_jpg, billboard).
-holds(s_17856_jpg, table).
 holds(s_17856_jpg, wallsign).
 holds(s_17856_jpg, truck).
 holds(s_17856_jpg, commercial).
@@ -23397,7 +23446,6 @@ holds(s_17857_jpg, powerplant).
 holds(s_17857_jpg, window).
 holds(s_17857_jpg, awning).
 holds(s_17857_jpg, sign).
-holds(s_17857_jpg, table).
 holds(s_17857_jpg, chimney).
 holds(s_17857_jpg, pipe).
 holds(s_17857_jpg, industrial).
@@ -23409,6 +23457,7 @@ holds(s_17858_jpg, suburban).
 holds(s_17858_jpg, door).
 holds(s_17858_jpg, window).
 holds(s_17858_jpg, porch).
+holds(s_17858_jpg, table).
 holds(s_17858_jpg, residential).
 
 sample(s_17859_jpg).
@@ -23420,6 +23469,7 @@ holds(s_17859_jpg, door).
 holds(s_17859_jpg, window).
 holds(s_17859_jpg, awning).
 holds(s_17859_jpg, sign).
+holds(s_17859_jpg, table).
 holds(s_17859_jpg, tiledroof).
 holds(s_17859_jpg, vendingmachine).
 holds(s_17859_jpg, statue).
@@ -23430,7 +23480,6 @@ holds(s_17860_jpg, building).
 holds(s_17860_jpg, feature).
 holds(s_17860_jpg, powerplant).
 holds(s_17860_jpg, door).
-holds(s_17860_jpg, table).
 holds(s_17860_jpg, chimney).
 holds(s_17860_jpg, pipe).
 holds(s_17860_jpg, industrial).
@@ -23440,6 +23489,7 @@ holds(s_17861_jpg, building).
 holds(s_17861_jpg, feature).
 holds(s_17861_jpg, miscresidential).
 holds(s_17861_jpg, door).
+holds(s_17861_jpg, table).
 holds(s_17861_jpg, tiledroof).
 holds(s_17861_jpg, tiledrooftop).
 holds(s_17861_jpg, residential).
@@ -23461,7 +23511,6 @@ holds(s_17863_jpg, feature).
 holds(s_17863_jpg, powerplant).
 holds(s_17863_jpg, door).
 holds(s_17863_jpg, sign).
-holds(s_17863_jpg, table).
 holds(s_17863_jpg, chimney).
 holds(s_17863_jpg, pipe).
 holds(s_17863_jpg, industrial).
@@ -23502,7 +23551,6 @@ holds(s_17866_jpg, powerplant).
 holds(s_17866_jpg, door).
 holds(s_17866_jpg, window).
 holds(s_17866_jpg, awning).
-holds(s_17866_jpg, table).
 holds(s_17866_jpg, chimney).
 holds(s_17866_jpg, pipe).
 holds(s_17866_jpg, machine).
@@ -23514,6 +23562,7 @@ holds(s_17867_jpg, feature).
 holds(s_17867_jpg, miscresidential).
 holds(s_17867_jpg, door).
 holds(s_17867_jpg, awning).
+holds(s_17867_jpg, table).
 holds(s_17867_jpg, tiledroof).
 holds(s_17867_jpg, tiledrooftop).
 holds(s_17867_jpg, residential).
@@ -23527,6 +23576,7 @@ holds(s_17868_jpg, door).
 holds(s_17868_jpg, window).
 holds(s_17868_jpg, awning).
 holds(s_17868_jpg, billboard).
+holds(s_17868_jpg, table).
 holds(s_17868_jpg, statue).
 holds(s_17868_jpg, truck).
 holds(s_17868_jpg, commercial).
@@ -23589,6 +23639,7 @@ holds(s_17873_jpg, miscresidential).
 holds(s_17873_jpg, door).
 holds(s_17873_jpg, window).
 holds(s_17873_jpg, awning).
+holds(s_17873_jpg, table).
 holds(s_17873_jpg, tiledroof).
 holds(s_17873_jpg, tiledrooftop).
 holds(s_17873_jpg, residential).
@@ -23615,7 +23666,6 @@ holds(s_17875_jpg, powerplant).
 holds(s_17875_jpg, watertreatment).
 holds(s_17875_jpg, door).
 holds(s_17875_jpg, awning).
-holds(s_17875_jpg, table).
 holds(s_17875_jpg, chimney).
 holds(s_17875_jpg, pipe).
 holds(s_17875_jpg, truck).
@@ -23630,6 +23680,7 @@ holds(s_17876_jpg, door).
 holds(s_17876_jpg, window).
 holds(s_17876_jpg, porch).
 holds(s_17876_jpg, sign).
+holds(s_17876_jpg, table).
 holds(s_17876_jpg, tiledroof).
 holds(s_17876_jpg, tiledrooftop).
 holds(s_17876_jpg, residential).
@@ -23652,6 +23703,7 @@ holds(s_17878_jpg, building).
 holds(s_17878_jpg, feature).
 holds(s_17878_jpg, constructionsite).
 holds(s_17878_jpg, window).
+holds(s_17878_jpg, table).
 holds(s_17878_jpg, chimney).
 holds(s_17878_jpg, machine).
 holds(s_17878_jpg, industrial).
@@ -23717,7 +23769,6 @@ holds(s_17883_jpg, hotel).
 holds(s_17883_jpg, restaurant).
 holds(s_17883_jpg, door).
 holds(s_17883_jpg, sign).
-holds(s_17883_jpg, table).
 holds(s_17883_jpg, wallsign).
 holds(s_17883_jpg, truck).
 holds(s_17883_jpg, commercial).
@@ -23755,6 +23806,7 @@ holds(s_17886_jpg, door).
 holds(s_17886_jpg, window).
 holds(s_17886_jpg, awning).
 holds(s_17886_jpg, billboard).
+holds(s_17886_jpg, table).
 holds(s_17886_jpg, tiledroof).
 holds(s_17886_jpg, wallsign).
 holds(s_17886_jpg, statue).
@@ -23764,7 +23816,6 @@ sample(s_17887_jpg).
 holds(s_17887_jpg, building).
 holds(s_17887_jpg, feature).
 holds(s_17887_jpg, miscindustrial).
-holds(s_17887_jpg, table).
 holds(s_17887_jpg, chimney).
 holds(s_17887_jpg, truck).
 holds(s_17887_jpg, industrial).
@@ -23774,7 +23825,6 @@ holds(s_17888_jpg, building).
 holds(s_17888_jpg, feature).
 holds(s_17888_jpg, miscresidential).
 holds(s_17888_jpg, countryhouse).
-holds(s_17888_jpg, table).
 holds(s_17888_jpg, tiledroof).
 holds(s_17888_jpg, tiledrooftop).
 holds(s_17888_jpg, car).
@@ -23789,6 +23839,7 @@ holds(s_17889_jpg, misccommercial).
 holds(s_17889_jpg, door).
 holds(s_17889_jpg, awning).
 holds(s_17889_jpg, billboard).
+holds(s_17889_jpg, table).
 holds(s_17889_jpg, vendingmachine).
 holds(s_17889_jpg, commercial).
 
@@ -23813,7 +23864,6 @@ holds(s_17891_jpg, miscresidential).
 holds(s_17891_jpg, door).
 holds(s_17891_jpg, porch).
 holds(s_17891_jpg, sign).
-holds(s_17891_jpg, table).
 holds(s_17891_jpg, tiledroof).
 holds(s_17891_jpg, tiledrooftop).
 holds(s_17891_jpg, residential).
@@ -23838,7 +23888,6 @@ holds(s_17893_jpg, powerplant).
 holds(s_17893_jpg, door).
 holds(s_17893_jpg, window).
 holds(s_17893_jpg, awning).
-holds(s_17893_jpg, table).
 holds(s_17893_jpg, chimney).
 holds(s_17893_jpg, pipe).
 holds(s_17893_jpg, car).
@@ -23849,7 +23898,6 @@ holds(s_17894_jpg, building).
 holds(s_17894_jpg, feature).
 holds(s_17894_jpg, miscresidential).
 holds(s_17894_jpg, window).
-holds(s_17894_jpg, table).
 holds(s_17894_jpg, tiledroof).
 holds(s_17894_jpg, tiledrooftop).
 holds(s_17894_jpg, residential).
@@ -23862,6 +23910,7 @@ holds(s_17895_jpg, store).
 holds(s_17895_jpg, door).
 holds(s_17895_jpg, billboard).
 holds(s_17895_jpg, sign).
+holds(s_17895_jpg, table).
 holds(s_17895_jpg, vendingmachine).
 holds(s_17895_jpg, chimney).
 holds(s_17895_jpg, commercial).
@@ -23870,7 +23919,6 @@ sample(s_17896_jpg).
 holds(s_17896_jpg, building).
 holds(s_17896_jpg, feature).
 holds(s_17896_jpg, powerplant).
-holds(s_17896_jpg, table).
 holds(s_17896_jpg, chimney).
 holds(s_17896_jpg, pipe).
 holds(s_17896_jpg, industrial).
@@ -23907,7 +23955,6 @@ holds(s_17899_jpg, miscindustrial).
 holds(s_17899_jpg, powerplant).
 holds(s_17899_jpg, watertreatment).
 holds(s_17899_jpg, window).
-holds(s_17899_jpg, table).
 holds(s_17899_jpg, chimney).
 holds(s_17899_jpg, pipe).
 holds(s_17899_jpg, truck).
@@ -23931,6 +23978,7 @@ holds(s_17901_jpg, restaurant).
 holds(s_17901_jpg, door).
 holds(s_17901_jpg, awning).
 holds(s_17901_jpg, sign).
+holds(s_17901_jpg, table).
 holds(s_17901_jpg, vendingmachine).
 holds(s_17901_jpg, chimney).
 holds(s_17901_jpg, truck).
@@ -23943,7 +23991,6 @@ holds(s_17902_jpg, constructionsite).
 holds(s_17902_jpg, powerplant).
 holds(s_17902_jpg, door).
 holds(s_17902_jpg, window).
-holds(s_17902_jpg, table).
 holds(s_17902_jpg, chimney).
 holds(s_17902_jpg, pipe).
 holds(s_17902_jpg, machine).
@@ -23957,7 +24004,6 @@ holds(s_17903_jpg, miscresidential).
 holds(s_17903_jpg, countryhouse).
 holds(s_17903_jpg, door).
 holds(s_17903_jpg, porch).
-holds(s_17903_jpg, table).
 holds(s_17903_jpg, tiledroof).
 holds(s_17903_jpg, tiledrooftop).
 holds(s_17903_jpg, car).
@@ -23972,7 +24018,6 @@ holds(s_17904_jpg, door).
 holds(s_17904_jpg, window).
 holds(s_17904_jpg, awning).
 holds(s_17904_jpg, sign).
-holds(s_17904_jpg, table).
 holds(s_17904_jpg, vendingmachine).
 holds(s_17904_jpg, commercial).
 
@@ -23995,7 +24040,6 @@ holds(s_17906_jpg, door).
 holds(s_17906_jpg, window).
 holds(s_17906_jpg, awning).
 holds(s_17906_jpg, sign).
-holds(s_17906_jpg, table).
 holds(s_17906_jpg, tiledroof).
 holds(s_17906_jpg, tiledrooftop).
 holds(s_17906_jpg, residential).
@@ -24030,7 +24074,6 @@ holds(s_17909_jpg, miscresidential).
 holds(s_17909_jpg, countryhouse).
 holds(s_17909_jpg, door).
 holds(s_17909_jpg, window).
-holds(s_17909_jpg, table).
 holds(s_17909_jpg, tiledroof).
 holds(s_17909_jpg, tiledrooftop).
 holds(s_17909_jpg, car).
@@ -24072,6 +24115,7 @@ holds(s_17912_jpg, miscresidential).
 holds(s_17912_jpg, countryhouse).
 holds(s_17912_jpg, door).
 holds(s_17912_jpg, window).
+holds(s_17912_jpg, table).
 holds(s_17912_jpg, tiledroof).
 holds(s_17912_jpg, tiledrooftop).
 holds(s_17912_jpg, car).
@@ -24085,7 +24129,6 @@ holds(s_17913_jpg, hotel).
 holds(s_17913_jpg, door).
 holds(s_17913_jpg, window).
 holds(s_17913_jpg, sign).
-holds(s_17913_jpg, table).
 holds(s_17913_jpg, vendingmachine).
 holds(s_17913_jpg, wallsign).
 holds(s_17913_jpg, pipe).
@@ -24099,7 +24142,6 @@ holds(s_17914_jpg, watertreatment).
 holds(s_17914_jpg, door).
 holds(s_17914_jpg, window).
 holds(s_17914_jpg, awning).
-holds(s_17914_jpg, table).
 holds(s_17914_jpg, chimney).
 holds(s_17914_jpg, pipe).
 holds(s_17914_jpg, truck).
@@ -24114,7 +24156,6 @@ holds(s_17915_jpg, door).
 holds(s_17915_jpg, window).
 holds(s_17915_jpg, porch).
 holds(s_17915_jpg, sign).
-holds(s_17915_jpg, table).
 holds(s_17915_jpg, tiledroof).
 holds(s_17915_jpg, tiledrooftop).
 holds(s_17915_jpg, residential).
@@ -24130,6 +24171,7 @@ holds(s_17916_jpg, door).
 holds(s_17916_jpg, window).
 holds(s_17916_jpg, awning).
 holds(s_17916_jpg, billboard).
+holds(s_17916_jpg, table).
 holds(s_17916_jpg, vendingmachine).
 holds(s_17916_jpg, wallsign).
 holds(s_17916_jpg, chimney).
@@ -24187,7 +24229,6 @@ holds(s_17921_jpg, suburban).
 holds(s_17921_jpg, door).
 holds(s_17921_jpg, awning).
 holds(s_17921_jpg, porch).
-holds(s_17921_jpg, table).
 holds(s_17921_jpg, truck).
 holds(s_17921_jpg, residential).
 
@@ -24202,6 +24243,7 @@ holds(s_17922_jpg, window).
 holds(s_17922_jpg, awning).
 holds(s_17922_jpg, billboard).
 holds(s_17922_jpg, sign).
+holds(s_17922_jpg, table).
 holds(s_17922_jpg, tiledroof).
 holds(s_17922_jpg, statue).
 holds(s_17922_jpg, pipe).
@@ -24214,7 +24256,6 @@ holds(s_17923_jpg, powerplant).
 holds(s_17923_jpg, watertreatment).
 holds(s_17923_jpg, window).
 holds(s_17923_jpg, awning).
-holds(s_17923_jpg, table).
 holds(s_17923_jpg, chimney).
 holds(s_17923_jpg, pipe).
 holds(s_17923_jpg, truck).
@@ -24239,6 +24280,7 @@ holds(s_17925_jpg, door).
 holds(s_17925_jpg, window).
 holds(s_17925_jpg, billboard).
 holds(s_17925_jpg, sign).
+holds(s_17925_jpg, table).
 holds(s_17925_jpg, statue).
 holds(s_17925_jpg, commercial).
 
@@ -24248,6 +24290,7 @@ holds(s_17926_jpg, feature).
 holds(s_17926_jpg, watertreatment).
 holds(s_17926_jpg, door).
 holds(s_17926_jpg, awning).
+holds(s_17926_jpg, table).
 holds(s_17926_jpg, pipe).
 holds(s_17926_jpg, truck).
 holds(s_17926_jpg, industrial).
@@ -24260,6 +24303,7 @@ holds(s_17927_jpg, miscresidential).
 holds(s_17927_jpg, door).
 holds(s_17927_jpg, porch).
 holds(s_17927_jpg, sign).
+holds(s_17927_jpg, table).
 holds(s_17927_jpg, tiledroof).
 holds(s_17927_jpg, tiledrooftop).
 holds(s_17927_jpg, residential).
@@ -24287,6 +24331,7 @@ holds(s_17929_jpg, miscindustrial).
 holds(s_17929_jpg, powerplant).
 holds(s_17929_jpg, watertreatment).
 holds(s_17929_jpg, door).
+holds(s_17929_jpg, table).
 holds(s_17929_jpg, chimney).
 holds(s_17929_jpg, pipe).
 holds(s_17929_jpg, truck).
@@ -24324,6 +24369,7 @@ holds(s_17932_jpg, feature).
 holds(s_17932_jpg, powerplant).
 holds(s_17932_jpg, door).
 holds(s_17932_jpg, window).
+holds(s_17932_jpg, table).
 holds(s_17932_jpg, chimney).
 holds(s_17932_jpg, pipe).
 holds(s_17932_jpg, industrial).
@@ -24333,6 +24379,7 @@ holds(s_17933_jpg, building).
 holds(s_17933_jpg, feature).
 holds(s_17933_jpg, miscresidential).
 holds(s_17933_jpg, window).
+holds(s_17933_jpg, table).
 holds(s_17933_jpg, tiledroof).
 holds(s_17933_jpg, tiledrooftop).
 holds(s_17933_jpg, residential).
@@ -24360,6 +24407,7 @@ holds(s_17935_jpg, feature).
 holds(s_17935_jpg, miscindustrial).
 holds(s_17935_jpg, watertreatment).
 holds(s_17935_jpg, window).
+holds(s_17935_jpg, table).
 holds(s_17935_jpg, pipe).
 holds(s_17935_jpg, truck).
 holds(s_17935_jpg, industrial).
@@ -24370,6 +24418,7 @@ holds(s_17936_jpg, feature).
 holds(s_17936_jpg, miscresidential).
 holds(s_17936_jpg, countryhouse).
 holds(s_17936_jpg, window).
+holds(s_17936_jpg, table).
 holds(s_17936_jpg, tiledroof).
 holds(s_17936_jpg, tiledrooftop).
 holds(s_17936_jpg, car).
@@ -24385,6 +24434,7 @@ holds(s_17937_jpg, door).
 holds(s_17937_jpg, window).
 holds(s_17937_jpg, awning).
 holds(s_17937_jpg, sign).
+holds(s_17937_jpg, table).
 holds(s_17937_jpg, vendingmachine).
 holds(s_17937_jpg, chimney).
 holds(s_17937_jpg, car).
@@ -24434,6 +24484,7 @@ holds(s_17941_jpg, constructionsite).
 holds(s_17941_jpg, powerplant).
 holds(s_17941_jpg, door).
 holds(s_17941_jpg, awning).
+holds(s_17941_jpg, table).
 holds(s_17941_jpg, chimney).
 holds(s_17941_jpg, pipe).
 holds(s_17941_jpg, machine).
@@ -24460,6 +24511,7 @@ holds(s_17943_jpg, misccommercial).
 holds(s_17943_jpg, window).
 holds(s_17943_jpg, awning).
 holds(s_17943_jpg, billboard).
+holds(s_17943_jpg, table).
 holds(s_17943_jpg, statue).
 holds(s_17943_jpg, pipe).
 holds(s_17943_jpg, commercial).
@@ -24471,7 +24523,6 @@ holds(s_17944_jpg, miscindustrial).
 holds(s_17944_jpg, powerplant).
 holds(s_17944_jpg, watertreatment).
 holds(s_17944_jpg, window).
-holds(s_17944_jpg, table).
 holds(s_17944_jpg, chimney).
 holds(s_17944_jpg, pipe).
 holds(s_17944_jpg, truck).
@@ -24497,7 +24548,6 @@ holds(s_17946_jpg, misccommercial).
 holds(s_17946_jpg, door).
 holds(s_17946_jpg, awning).
 holds(s_17946_jpg, sign).
-holds(s_17946_jpg, table).
 holds(s_17946_jpg, vendingmachine).
 holds(s_17946_jpg, wallsign).
 holds(s_17946_jpg, chimney).
@@ -24573,6 +24623,7 @@ holds(s_17952_jpg, door).
 holds(s_17952_jpg, window).
 holds(s_17952_jpg, billboard).
 holds(s_17952_jpg, sign).
+holds(s_17952_jpg, table).
 holds(s_17952_jpg, statue).
 holds(s_17952_jpg, pipe).
 holds(s_17952_jpg, car).
@@ -24585,6 +24636,7 @@ holds(s_17953_jpg, miscindustrial).
 holds(s_17953_jpg, watertreatment).
 holds(s_17953_jpg, door).
 holds(s_17953_jpg, window).
+holds(s_17953_jpg, table).
 holds(s_17953_jpg, pipe).
 holds(s_17953_jpg, truck).
 holds(s_17953_jpg, industrial).
@@ -24611,7 +24663,6 @@ holds(s_17955_jpg, window).
 holds(s_17955_jpg, awning).
 holds(s_17955_jpg, billboard).
 holds(s_17955_jpg, sign).
-holds(s_17955_jpg, table).
 holds(s_17955_jpg, chimney).
 holds(s_17955_jpg, truck).
 holds(s_17955_jpg, commercial).
@@ -24663,7 +24714,6 @@ holds(s_17959_jpg, miscindustrial).
 holds(s_17959_jpg, watertreatment).
 holds(s_17959_jpg, door).
 holds(s_17959_jpg, window).
-holds(s_17959_jpg, table).
 holds(s_17959_jpg, pipe).
 holds(s_17959_jpg, truck).
 holds(s_17959_jpg, industrial).
@@ -24692,7 +24742,6 @@ holds(s_17961_jpg, door).
 holds(s_17961_jpg, window).
 holds(s_17961_jpg, awning).
 holds(s_17961_jpg, sign).
-holds(s_17961_jpg, table).
 holds(s_17961_jpg, vendingmachine).
 holds(s_17961_jpg, wallsign).
 holds(s_17961_jpg, statue).
@@ -24703,7 +24752,6 @@ sample(s_17962_jpg).
 holds(s_17962_jpg, building).
 holds(s_17962_jpg, feature).
 holds(s_17962_jpg, powerplant).
-holds(s_17962_jpg, table).
 holds(s_17962_jpg, chimney).
 holds(s_17962_jpg, pipe).
 holds(s_17962_jpg, industrial).
@@ -24715,7 +24763,6 @@ holds(s_17963_jpg, suburban).
 holds(s_17963_jpg, door).
 holds(s_17963_jpg, window).
 holds(s_17963_jpg, porch).
-holds(s_17963_jpg, table).
 holds(s_17963_jpg, residential).
 
 sample(s_17964_jpg).
@@ -24728,6 +24775,7 @@ holds(s_17964_jpg, misccommercial).
 holds(s_17964_jpg, window).
 holds(s_17964_jpg, awning).
 holds(s_17964_jpg, billboard).
+holds(s_17964_jpg, table).
 holds(s_17964_jpg, tiledroof).
 holds(s_17964_jpg, tiledrooftop).
 holds(s_17964_jpg, vendingmachine).
@@ -24755,6 +24803,7 @@ holds(s_17966_jpg, feature).
 holds(s_17966_jpg, miscresidential).
 holds(s_17966_jpg, countryhouse).
 holds(s_17966_jpg, door).
+holds(s_17966_jpg, table).
 holds(s_17966_jpg, tiledroof).
 holds(s_17966_jpg, tiledrooftop).
 holds(s_17966_jpg, car).
@@ -24807,6 +24856,7 @@ holds(s_17970_jpg, misccommercial).
 holds(s_17970_jpg, door).
 holds(s_17970_jpg, awning).
 holds(s_17970_jpg, billboard).
+holds(s_17970_jpg, table).
 holds(s_17970_jpg, wallsign).
 holds(s_17970_jpg, statue).
 holds(s_17970_jpg, commercial).
@@ -24830,7 +24880,6 @@ holds(s_17972_jpg, suburban).
 holds(s_17972_jpg, miscresidential).
 holds(s_17972_jpg, window).
 holds(s_17972_jpg, porch).
-holds(s_17972_jpg, table).
 holds(s_17972_jpg, tiledroof).
 holds(s_17972_jpg, tiledrooftop).
 holds(s_17972_jpg, residential).
@@ -24841,6 +24890,7 @@ holds(s_17973_jpg, feature).
 holds(s_17973_jpg, cafe).
 holds(s_17973_jpg, store).
 holds(s_17973_jpg, billboard).
+holds(s_17973_jpg, table).
 holds(s_17973_jpg, vendingmachine).
 holds(s_17973_jpg, truck).
 holds(s_17973_jpg, commercial).
@@ -24864,7 +24914,6 @@ holds(s_17975_jpg, countryhouse).
 holds(s_17975_jpg, window).
 holds(s_17975_jpg, awning).
 holds(s_17975_jpg, porch).
-holds(s_17975_jpg, table).
 holds(s_17975_jpg, tiledroof).
 holds(s_17975_jpg, tiledrooftop).
 holds(s_17975_jpg, car).
@@ -24890,6 +24939,7 @@ holds(s_17977_jpg, door).
 holds(s_17977_jpg, window).
 holds(s_17977_jpg, awning).
 holds(s_17977_jpg, sign).
+holds(s_17977_jpg, table).
 holds(s_17977_jpg, chimney).
 holds(s_17977_jpg, pipe).
 holds(s_17977_jpg, industrial).
@@ -24902,7 +24952,6 @@ holds(s_17978_jpg, miscresidential).
 holds(s_17978_jpg, door).
 holds(s_17978_jpg, window).
 holds(s_17978_jpg, porch).
-holds(s_17978_jpg, table).
 holds(s_17978_jpg, tiledroof).
 holds(s_17978_jpg, tiledrooftop).
 holds(s_17978_jpg, residential).
@@ -24926,6 +24975,7 @@ holds(s_17980_jpg, building).
 holds(s_17980_jpg, feature).
 holds(s_17980_jpg, miscindustrial).
 holds(s_17980_jpg, watertreatment).
+holds(s_17980_jpg, table).
 holds(s_17980_jpg, pipe).
 holds(s_17980_jpg, truck).
 holds(s_17980_jpg, industrial).
@@ -24951,6 +25001,7 @@ holds(s_17982_jpg, door).
 holds(s_17982_jpg, window).
 holds(s_17982_jpg, awning).
 holds(s_17982_jpg, sign).
+holds(s_17982_jpg, table).
 holds(s_17982_jpg, vendingmachine).
 holds(s_17982_jpg, commercial).
 
@@ -24996,7 +25047,6 @@ holds(s_17986_jpg, watertreatment).
 holds(s_17986_jpg, door).
 holds(s_17986_jpg, window).
 holds(s_17986_jpg, awning).
-holds(s_17986_jpg, table).
 holds(s_17986_jpg, chimney).
 holds(s_17986_jpg, pipe).
 holds(s_17986_jpg, truck).
@@ -25011,6 +25061,7 @@ holds(s_17987_jpg, door).
 holds(s_17987_jpg, window).
 holds(s_17987_jpg, awning).
 holds(s_17987_jpg, porch).
+holds(s_17987_jpg, table).
 holds(s_17987_jpg, tiledroof).
 holds(s_17987_jpg, tiledrooftop).
 holds(s_17987_jpg, truck).
@@ -25084,7 +25135,6 @@ holds(s_17993_jpg, miscresidential).
 holds(s_17993_jpg, door).
 holds(s_17993_jpg, window).
 holds(s_17993_jpg, porch).
-holds(s_17993_jpg, table).
 holds(s_17993_jpg, tiledroof).
 holds(s_17993_jpg, tiledrooftop).
 holds(s_17993_jpg, residential).
@@ -25100,7 +25150,6 @@ holds(s_17994_jpg, door).
 holds(s_17994_jpg, awning).
 holds(s_17994_jpg, billboard).
 holds(s_17994_jpg, sign).
-holds(s_17994_jpg, table).
 holds(s_17994_jpg, tiledroof).
 holds(s_17994_jpg, vendingmachine).
 holds(s_17994_jpg, wallsign).
@@ -25113,7 +25162,6 @@ holds(s_17995_jpg, feature).
 holds(s_17995_jpg, miscindustrial).
 holds(s_17995_jpg, door).
 holds(s_17995_jpg, window).
-holds(s_17995_jpg, table).
 holds(s_17995_jpg, truck).
 holds(s_17995_jpg, industrial).
 
@@ -25126,6 +25174,7 @@ holds(s_17996_jpg, countryhouse).
 holds(s_17996_jpg, door).
 holds(s_17996_jpg, window).
 holds(s_17996_jpg, porch).
+holds(s_17996_jpg, table).
 holds(s_17996_jpg, tiledroof).
 holds(s_17996_jpg, tiledrooftop).
 holds(s_17996_jpg, car).
@@ -25142,6 +25191,7 @@ holds(s_17997_jpg, window).
 holds(s_17997_jpg, awning).
 holds(s_17997_jpg, billboard).
 holds(s_17997_jpg, sign).
+holds(s_17997_jpg, table).
 holds(s_17997_jpg, vendingmachine).
 holds(s_17997_jpg, wallsign).
 holds(s_17997_jpg, commercial).
@@ -25166,6 +25216,7 @@ holds(s_17999_jpg, countryhouse).
 holds(s_17999_jpg, door).
 holds(s_17999_jpg, awning).
 holds(s_17999_jpg, porch).
+holds(s_17999_jpg, table).
 holds(s_17999_jpg, tiledroof).
 holds(s_17999_jpg, tiledrooftop).
 holds(s_17999_jpg, car).
@@ -25181,7 +25232,6 @@ holds(s_18000_jpg, door).
 holds(s_18000_jpg, window).
 holds(s_18000_jpg, awning).
 holds(s_18000_jpg, billboard).
-holds(s_18000_jpg, table).
 holds(s_18000_jpg, wallsign).
 holds(s_18000_jpg, statue).
 holds(s_18000_jpg, truck).
@@ -25193,6 +25243,7 @@ holds(s_18001_jpg, feature).
 holds(s_18001_jpg, miscindustrial).
 holds(s_18001_jpg, watertreatment).
 holds(s_18001_jpg, window).
+holds(s_18001_jpg, table).
 holds(s_18001_jpg, pipe).
 holds(s_18001_jpg, truck).
 holds(s_18001_jpg, industrial).
@@ -25215,6 +25266,7 @@ holds(s_18003_jpg, hotel).
 holds(s_18003_jpg, restaurant).
 holds(s_18003_jpg, window).
 holds(s_18003_jpg, sign).
+holds(s_18003_jpg, table).
 holds(s_18003_jpg, vendingmachine).
 holds(s_18003_jpg, wallsign).
 holds(s_18003_jpg, chimney).
@@ -25254,7 +25306,6 @@ holds(s_18006_jpg, misccommercial).
 holds(s_18006_jpg, window).
 holds(s_18006_jpg, awning).
 holds(s_18006_jpg, billboard).
-holds(s_18006_jpg, table).
 holds(s_18006_jpg, vendingmachine).
 holds(s_18006_jpg, statue).
 holds(s_18006_jpg, car).
@@ -25291,7 +25342,6 @@ holds(s_18009_jpg, store).
 holds(s_18009_jpg, door).
 holds(s_18009_jpg, billboard).
 holds(s_18009_jpg, sign).
-holds(s_18009_jpg, table).
 holds(s_18009_jpg, wallsign).
 holds(s_18009_jpg, statue).
 holds(s_18009_jpg, pipe).
@@ -25302,7 +25352,6 @@ holds(s_18010_jpg, building).
 holds(s_18010_jpg, feature).
 holds(s_18010_jpg, miscindustrial).
 holds(s_18010_jpg, watertreatment).
-holds(s_18010_jpg, table).
 holds(s_18010_jpg, pipe).
 holds(s_18010_jpg, truck).
 holds(s_18010_jpg, industrial).
@@ -25316,7 +25365,6 @@ holds(s_18011_jpg, door).
 holds(s_18011_jpg, window).
 holds(s_18011_jpg, awning).
 holds(s_18011_jpg, porch).
-holds(s_18011_jpg, table).
 holds(s_18011_jpg, tiledroof).
 holds(s_18011_jpg, tiledrooftop).
 holds(s_18011_jpg, residential).
@@ -25339,7 +25387,6 @@ holds(s_18013_jpg, building).
 holds(s_18013_jpg, feature).
 holds(s_18013_jpg, constructionsite).
 holds(s_18013_jpg, door).
-holds(s_18013_jpg, table).
 holds(s_18013_jpg, chimney).
 holds(s_18013_jpg, machine).
 holds(s_18013_jpg, industrial).
@@ -25362,6 +25409,7 @@ holds(s_18015_jpg, cafe).
 holds(s_18015_jpg, hotel).
 holds(s_18015_jpg, door).
 holds(s_18015_jpg, sign).
+holds(s_18015_jpg, table).
 holds(s_18015_jpg, vendingmachine).
 holds(s_18015_jpg, wallsign).
 holds(s_18015_jpg, chimney).
@@ -25374,6 +25422,7 @@ holds(s_18016_jpg, constructionsite).
 holds(s_18016_jpg, powerplant).
 holds(s_18016_jpg, door).
 holds(s_18016_jpg, sign).
+holds(s_18016_jpg, table).
 holds(s_18016_jpg, chimney).
 holds(s_18016_jpg, pipe).
 holds(s_18016_jpg, machine).
@@ -25422,6 +25471,7 @@ holds(s_18019_jpg, powerplant).
 holds(s_18019_jpg, watertreatment).
 holds(s_18019_jpg, door).
 holds(s_18019_jpg, window).
+holds(s_18019_jpg, table).
 holds(s_18019_jpg, chimney).
 holds(s_18019_jpg, pipe).
 holds(s_18019_jpg, truck).
@@ -25446,6 +25496,7 @@ holds(s_18021_jpg, feature).
 holds(s_18021_jpg, hotel).
 holds(s_18021_jpg, door).
 holds(s_18021_jpg, sign).
+holds(s_18021_jpg, table).
 holds(s_18021_jpg, wallsign).
 holds(s_18021_jpg, commercial).
 
@@ -25456,6 +25507,7 @@ holds(s_18022_jpg, constructionsite).
 holds(s_18022_jpg, door).
 holds(s_18022_jpg, window).
 holds(s_18022_jpg, awning).
+holds(s_18022_jpg, table).
 holds(s_18022_jpg, chimney).
 holds(s_18022_jpg, machine).
 holds(s_18022_jpg, industrial).
@@ -25497,6 +25549,7 @@ holds(s_18025_jpg, feature).
 holds(s_18025_jpg, miscindustrial).
 holds(s_18025_jpg, door).
 holds(s_18025_jpg, window).
+holds(s_18025_jpg, table).
 holds(s_18025_jpg, truck).
 holds(s_18025_jpg, industrial).
 
@@ -25524,6 +25577,7 @@ holds(s_18027_jpg, window).
 holds(s_18027_jpg, awning).
 holds(s_18027_jpg, billboard).
 holds(s_18027_jpg, sign).
+holds(s_18027_jpg, table).
 holds(s_18027_jpg, vendingmachine).
 holds(s_18027_jpg, wallsign).
 holds(s_18027_jpg, commercial).
@@ -25535,7 +25589,6 @@ holds(s_18028_jpg, miscindustrial).
 holds(s_18028_jpg, powerplant).
 holds(s_18028_jpg, watertreatment).
 holds(s_18028_jpg, door).
-holds(s_18028_jpg, table).
 holds(s_18028_jpg, chimney).
 holds(s_18028_jpg, pipe).
 holds(s_18028_jpg, truck).
@@ -25548,6 +25601,7 @@ holds(s_18029_jpg, miscresidential).
 holds(s_18029_jpg, countryhouse).
 holds(s_18029_jpg, door).
 holds(s_18029_jpg, window).
+holds(s_18029_jpg, table).
 holds(s_18029_jpg, tiledroof).
 holds(s_18029_jpg, tiledrooftop).
 holds(s_18029_jpg, car).
@@ -25561,6 +25615,7 @@ holds(s_18030_jpg, restaurant).
 holds(s_18030_jpg, door).
 holds(s_18030_jpg, awning).
 holds(s_18030_jpg, sign).
+holds(s_18030_jpg, table).
 holds(s_18030_jpg, wallsign).
 holds(s_18030_jpg, car).
 holds(s_18030_jpg, commercial).
@@ -25572,6 +25627,7 @@ holds(s_18031_jpg, watertreatment).
 holds(s_18031_jpg, door).
 holds(s_18031_jpg, window).
 holds(s_18031_jpg, awning).
+holds(s_18031_jpg, table).
 holds(s_18031_jpg, pipe).
 holds(s_18031_jpg, truck).
 holds(s_18031_jpg, industrial).
@@ -25651,7 +25707,6 @@ holds(s_18037_jpg, miscindustrial).
 holds(s_18037_jpg, powerplant).
 holds(s_18037_jpg, watertreatment).
 holds(s_18037_jpg, window).
-holds(s_18037_jpg, table).
 holds(s_18037_jpg, chimney).
 holds(s_18037_jpg, pipe).
 holds(s_18037_jpg, truck).
@@ -25666,6 +25721,7 @@ holds(s_18038_jpg, countryhouse).
 holds(s_18038_jpg, door).
 holds(s_18038_jpg, window).
 holds(s_18038_jpg, porch).
+holds(s_18038_jpg, table).
 holds(s_18038_jpg, tiledroof).
 holds(s_18038_jpg, tiledrooftop).
 holds(s_18038_jpg, car).
@@ -25682,6 +25738,7 @@ holds(s_18039_jpg, door).
 holds(s_18039_jpg, window).
 holds(s_18039_jpg, billboard).
 holds(s_18039_jpg, sign).
+holds(s_18039_jpg, table).
 holds(s_18039_jpg, vendingmachine).
 holds(s_18039_jpg, wallsign).
 holds(s_18039_jpg, statue).
@@ -25707,6 +25764,7 @@ holds(s_18041_jpg, suburban).
 holds(s_18041_jpg, miscresidential).
 holds(s_18041_jpg, door).
 holds(s_18041_jpg, porch).
+holds(s_18041_jpg, table).
 holds(s_18041_jpg, tiledroof).
 holds(s_18041_jpg, tiledrooftop).
 holds(s_18041_jpg, truck).
@@ -25746,7 +25804,6 @@ holds(s_18044_jpg, door).
 holds(s_18044_jpg, window).
 holds(s_18044_jpg, porch).
 holds(s_18044_jpg, sign).
-holds(s_18044_jpg, table).
 holds(s_18044_jpg, tiledroof).
 holds(s_18044_jpg, tiledrooftop).
 holds(s_18044_jpg, residential).
@@ -25761,7 +25818,6 @@ holds(s_18045_jpg, misccommercial).
 holds(s_18045_jpg, window).
 holds(s_18045_jpg, awning).
 holds(s_18045_jpg, billboard).
-holds(s_18045_jpg, table).
 holds(s_18045_jpg, tiledroof).
 holds(s_18045_jpg, vendingmachine).
 holds(s_18045_jpg, wallsign).
@@ -25775,7 +25831,6 @@ holds(s_18046_jpg, feature).
 holds(s_18046_jpg, constructionsite).
 holds(s_18046_jpg, door).
 holds(s_18046_jpg, window).
-holds(s_18046_jpg, table).
 holds(s_18046_jpg, pipe).
 holds(s_18046_jpg, machine).
 holds(s_18046_jpg, industrial).
@@ -25799,6 +25854,7 @@ holds(s_18048_jpg, cafe).
 holds(s_18048_jpg, restaurant).
 holds(s_18048_jpg, door).
 holds(s_18048_jpg, sign).
+holds(s_18048_jpg, table).
 holds(s_18048_jpg, vendingmachine).
 holds(s_18048_jpg, car).
 holds(s_18048_jpg, commercial).
@@ -25846,7 +25902,6 @@ holds(s_18052_jpg, building).
 holds(s_18052_jpg, feature).
 holds(s_18052_jpg, miscindustrial).
 holds(s_18052_jpg, window).
-holds(s_18052_jpg, table).
 holds(s_18052_jpg, chimney).
 holds(s_18052_jpg, truck).
 holds(s_18052_jpg, industrial).
@@ -25857,6 +25912,7 @@ holds(s_18053_jpg, feature).
 holds(s_18053_jpg, miscresidential).
 holds(s_18053_jpg, window).
 holds(s_18053_jpg, awning).
+holds(s_18053_jpg, table).
 holds(s_18053_jpg, tiledroof).
 holds(s_18053_jpg, tiledrooftop).
 holds(s_18053_jpg, truck).
@@ -25871,7 +25927,6 @@ holds(s_18054_jpg, misccommercial).
 holds(s_18054_jpg, door).
 holds(s_18054_jpg, awning).
 holds(s_18054_jpg, sign).
-holds(s_18054_jpg, table).
 holds(s_18054_jpg, wallsign).
 holds(s_18054_jpg, car).
 holds(s_18054_jpg, commercial).
@@ -25896,6 +25951,7 @@ holds(s_18056_jpg, suburban).
 holds(s_18056_jpg, miscresidential).
 holds(s_18056_jpg, porch).
 holds(s_18056_jpg, sign).
+holds(s_18056_jpg, table).
 holds(s_18056_jpg, tiledroof).
 holds(s_18056_jpg, tiledrooftop).
 holds(s_18056_jpg, residential).
@@ -25965,7 +26021,6 @@ holds(s_18061_jpg, feature).
 holds(s_18061_jpg, constructionsite).
 holds(s_18061_jpg, door).
 holds(s_18061_jpg, sign).
-holds(s_18061_jpg, table).
 holds(s_18061_jpg, machine).
 holds(s_18061_jpg, industrial).
 
@@ -25978,6 +26033,7 @@ holds(s_18062_jpg, door).
 holds(s_18062_jpg, window).
 holds(s_18062_jpg, awning).
 holds(s_18062_jpg, porch).
+holds(s_18062_jpg, table).
 holds(s_18062_jpg, tiledroof).
 holds(s_18062_jpg, tiledrooftop).
 holds(s_18062_jpg, residential).
@@ -25990,7 +26046,6 @@ holds(s_18063_jpg, hotel).
 holds(s_18063_jpg, misccommercial).
 holds(s_18063_jpg, door).
 holds(s_18063_jpg, awning).
-holds(s_18063_jpg, table).
 holds(s_18063_jpg, vendingmachine).
 holds(s_18063_jpg, wallsign).
 holds(s_18063_jpg, statue).
@@ -26002,6 +26057,7 @@ holds(s_18064_jpg, feature).
 holds(s_18064_jpg, constructionsite).
 holds(s_18064_jpg, window).
 holds(s_18064_jpg, sign).
+holds(s_18064_jpg, table).
 holds(s_18064_jpg, pipe).
 holds(s_18064_jpg, machine).
 holds(s_18064_jpg, industrial).
@@ -26014,6 +26070,7 @@ holds(s_18065_jpg, miscresidential).
 holds(s_18065_jpg, door).
 holds(s_18065_jpg, window).
 holds(s_18065_jpg, porch).
+holds(s_18065_jpg, table).
 holds(s_18065_jpg, tiledroof).
 holds(s_18065_jpg, tiledrooftop).
 holds(s_18065_jpg, residential).
@@ -26029,7 +26086,6 @@ holds(s_18066_jpg, window).
 holds(s_18066_jpg, awning).
 holds(s_18066_jpg, billboard).
 holds(s_18066_jpg, sign).
-holds(s_18066_jpg, table).
 holds(s_18066_jpg, wallsign).
 holds(s_18066_jpg, chimney).
 holds(s_18066_jpg, car).
@@ -26042,7 +26098,6 @@ holds(s_18067_jpg, powerplant).
 holds(s_18067_jpg, watertreatment).
 holds(s_18067_jpg, window).
 holds(s_18067_jpg, awning).
-holds(s_18067_jpg, table).
 holds(s_18067_jpg, chimney).
 holds(s_18067_jpg, pipe).
 holds(s_18067_jpg, truck).
@@ -26057,7 +26112,6 @@ holds(s_18068_jpg, window).
 holds(s_18068_jpg, awning).
 holds(s_18068_jpg, porch).
 holds(s_18068_jpg, sign).
-holds(s_18068_jpg, table).
 holds(s_18068_jpg, residential).
 
 sample(s_18069_jpg).
@@ -26116,6 +26170,7 @@ holds(s_18073_jpg, miscindustrial).
 holds(s_18073_jpg, powerplant).
 holds(s_18073_jpg, watertreatment).
 holds(s_18073_jpg, door).
+holds(s_18073_jpg, table).
 holds(s_18073_jpg, chimney).
 holds(s_18073_jpg, pipe).
 holds(s_18073_jpg, truck).
@@ -26142,6 +26197,7 @@ holds(s_18075_jpg, window).
 holds(s_18075_jpg, awning).
 holds(s_18075_jpg, billboard).
 holds(s_18075_jpg, sign).
+holds(s_18075_jpg, table).
 holds(s_18075_jpg, statue).
 holds(s_18075_jpg, commercial).
 
@@ -26153,6 +26209,7 @@ holds(s_18076_jpg, watertreatment).
 holds(s_18076_jpg, door).
 holds(s_18076_jpg, window).
 holds(s_18076_jpg, awning).
+holds(s_18076_jpg, table).
 holds(s_18076_jpg, chimney).
 holds(s_18076_jpg, pipe).
 holds(s_18076_jpg, truck).
@@ -26164,7 +26221,6 @@ holds(s_18077_jpg, feature).
 holds(s_18077_jpg, miscresidential).
 holds(s_18077_jpg, countryhouse).
 holds(s_18077_jpg, window).
-holds(s_18077_jpg, table).
 holds(s_18077_jpg, tiledroof).
 holds(s_18077_jpg, tiledrooftop).
 holds(s_18077_jpg, car).
@@ -26179,6 +26235,7 @@ holds(s_18078_jpg, door).
 holds(s_18078_jpg, window).
 holds(s_18078_jpg, awning).
 holds(s_18078_jpg, sign).
+holds(s_18078_jpg, table).
 holds(s_18078_jpg, vendingmachine).
 holds(s_18078_jpg, statue).
 holds(s_18078_jpg, commercial).
@@ -26191,7 +26248,6 @@ holds(s_18079_jpg, powerplant).
 holds(s_18079_jpg, watertreatment).
 holds(s_18079_jpg, door).
 holds(s_18079_jpg, window).
-holds(s_18079_jpg, table).
 holds(s_18079_jpg, chimney).
 holds(s_18079_jpg, pipe).
 holds(s_18079_jpg, truck).
@@ -26205,7 +26261,6 @@ holds(s_18080_jpg, miscresidential).
 holds(s_18080_jpg, window).
 holds(s_18080_jpg, awning).
 holds(s_18080_jpg, porch).
-holds(s_18080_jpg, table).
 holds(s_18080_jpg, tiledroof).
 holds(s_18080_jpg, tiledrooftop).
 holds(s_18080_jpg, truck).
@@ -26222,6 +26277,7 @@ holds(s_18081_jpg, door).
 holds(s_18081_jpg, awning).
 holds(s_18081_jpg, billboard).
 holds(s_18081_jpg, sign).
+holds(s_18081_jpg, table).
 holds(s_18081_jpg, vendingmachine).
 holds(s_18081_jpg, chimney).
 holds(s_18081_jpg, truck).
@@ -26234,7 +26290,6 @@ holds(s_18082_jpg, constructionsite).
 holds(s_18082_jpg, door).
 holds(s_18082_jpg, window).
 holds(s_18082_jpg, sign).
-holds(s_18082_jpg, table).
 holds(s_18082_jpg, pipe).
 holds(s_18082_jpg, machine).
 holds(s_18082_jpg, industrial).
@@ -26263,7 +26318,6 @@ holds(s_18084_jpg, window).
 holds(s_18084_jpg, awning).
 holds(s_18084_jpg, billboard).
 holds(s_18084_jpg, sign).
-holds(s_18084_jpg, table).
 holds(s_18084_jpg, tiledroof).
 holds(s_18084_jpg, tiledrooftop).
 holds(s_18084_jpg, vendingmachine).
@@ -26279,7 +26333,6 @@ holds(s_18085_jpg, watertreatment).
 holds(s_18085_jpg, door).
 holds(s_18085_jpg, window).
 holds(s_18085_jpg, awning).
-holds(s_18085_jpg, table).
 holds(s_18085_jpg, chimney).
 holds(s_18085_jpg, pipe).
 holds(s_18085_jpg, truck).
@@ -26293,6 +26346,7 @@ holds(s_18086_jpg, door).
 holds(s_18086_jpg, window).
 holds(s_18086_jpg, awning).
 holds(s_18086_jpg, porch).
+holds(s_18086_jpg, table).
 holds(s_18086_jpg, residential).
 
 sample(s_18087_jpg).
@@ -26308,6 +26362,7 @@ holds(s_18087_jpg, window).
 holds(s_18087_jpg, awning).
 holds(s_18087_jpg, billboard).
 holds(s_18087_jpg, sign).
+holds(s_18087_jpg, table).
 holds(s_18087_jpg, vendingmachine).
 holds(s_18087_jpg, wallsign).
 holds(s_18087_jpg, statue).
@@ -26319,6 +26374,7 @@ holds(s_18088_jpg, building).
 holds(s_18088_jpg, feature).
 holds(s_18088_jpg, miscindustrial).
 holds(s_18088_jpg, door).
+holds(s_18088_jpg, table).
 holds(s_18088_jpg, chimney).
 holds(s_18088_jpg, truck).
 holds(s_18088_jpg, industrial).
@@ -26347,7 +26403,6 @@ holds(s_18090_jpg, door).
 holds(s_18090_jpg, awning).
 holds(s_18090_jpg, billboard).
 holds(s_18090_jpg, sign).
-holds(s_18090_jpg, table).
 holds(s_18090_jpg, wallsign).
 holds(s_18090_jpg, statue).
 holds(s_18090_jpg, truck).
@@ -26359,6 +26414,7 @@ holds(s_18091_jpg, feature).
 holds(s_18091_jpg, constructionsite).
 holds(s_18091_jpg, door).
 holds(s_18091_jpg, sign).
+holds(s_18091_jpg, table).
 holds(s_18091_jpg, pipe).
 holds(s_18091_jpg, machine).
 holds(s_18091_jpg, industrial).
@@ -26393,7 +26449,6 @@ holds(s_18094_jpg, building).
 holds(s_18094_jpg, feature).
 holds(s_18094_jpg, constructionsite).
 holds(s_18094_jpg, window).
-holds(s_18094_jpg, table).
 holds(s_18094_jpg, machine).
 holds(s_18094_jpg, industrial).
 
@@ -26405,7 +26460,6 @@ holds(s_18095_jpg, miscresidential).
 holds(s_18095_jpg, door).
 holds(s_18095_jpg, window).
 holds(s_18095_jpg, porch).
-holds(s_18095_jpg, table).
 holds(s_18095_jpg, tiledroof).
 holds(s_18095_jpg, tiledrooftop).
 holds(s_18095_jpg, residential).
@@ -26419,6 +26473,7 @@ holds(s_18096_jpg, door).
 holds(s_18096_jpg, window).
 holds(s_18096_jpg, awning).
 holds(s_18096_jpg, sign).
+holds(s_18096_jpg, table).
 holds(s_18096_jpg, vendingmachine).
 holds(s_18096_jpg, commercial).
 
@@ -26429,6 +26484,7 @@ holds(s_18097_jpg, miscindustrial).
 holds(s_18097_jpg, watertreatment).
 holds(s_18097_jpg, door).
 holds(s_18097_jpg, window).
+holds(s_18097_jpg, table).
 holds(s_18097_jpg, pipe).
 holds(s_18097_jpg, truck).
 holds(s_18097_jpg, industrial).
@@ -26441,6 +26497,7 @@ holds(s_18098_jpg, countryhouse).
 holds(s_18098_jpg, door).
 holds(s_18098_jpg, window).
 holds(s_18098_jpg, awning).
+holds(s_18098_jpg, table).
 holds(s_18098_jpg, tiledroof).
 holds(s_18098_jpg, tiledrooftop).
 holds(s_18098_jpg, car).
@@ -26451,7 +26508,6 @@ holds(s_18099_jpg, building).
 holds(s_18099_jpg, feature).
 holds(s_18099_jpg, cafe).
 holds(s_18099_jpg, window).
-holds(s_18099_jpg, table).
 holds(s_18099_jpg, vendingmachine).
 holds(s_18099_jpg, statue).
 holds(s_18099_jpg, commercial).
@@ -26476,7 +26532,6 @@ holds(s_18101_jpg, suburban).
 holds(s_18101_jpg, miscresidential).
 holds(s_18101_jpg, window).
 holds(s_18101_jpg, porch).
-holds(s_18101_jpg, table).
 holds(s_18101_jpg, tiledroof).
 holds(s_18101_jpg, tiledrooftop).
 holds(s_18101_jpg, residential).
@@ -26546,7 +26601,6 @@ holds(s_18107_jpg, suburban).
 holds(s_18107_jpg, door).
 holds(s_18107_jpg, awning).
 holds(s_18107_jpg, porch).
-holds(s_18107_jpg, table).
 holds(s_18107_jpg, residential).
 
 sample(s_18108_jpg).
@@ -26559,6 +26613,7 @@ holds(s_18108_jpg, door).
 holds(s_18108_jpg, window).
 holds(s_18108_jpg, awning).
 holds(s_18108_jpg, billboard).
+holds(s_18108_jpg, table).
 holds(s_18108_jpg, tiledroof).
 holds(s_18108_jpg, vendingmachine).
 holds(s_18108_jpg, statue).
@@ -26597,7 +26652,6 @@ holds(s_18111_jpg, door).
 holds(s_18111_jpg, window).
 holds(s_18111_jpg, awning).
 holds(s_18111_jpg, sign).
-holds(s_18111_jpg, table).
 holds(s_18111_jpg, vendingmachine).
 holds(s_18111_jpg, pipe).
 holds(s_18111_jpg, car).
@@ -26621,6 +26675,7 @@ holds(s_18113_jpg, feature).
 holds(s_18113_jpg, suburban).
 holds(s_18113_jpg, door).
 holds(s_18113_jpg, porch).
+holds(s_18113_jpg, table).
 holds(s_18113_jpg, residential).
 
 sample(s_18114_jpg).
@@ -26664,6 +26719,7 @@ holds(s_18117_jpg, hotel).
 holds(s_18117_jpg, door).
 holds(s_18117_jpg, window).
 holds(s_18117_jpg, awning).
+holds(s_18117_jpg, table).
 holds(s_18117_jpg, vendingmachine).
 holds(s_18117_jpg, wallsign).
 holds(s_18117_jpg, commercial).
@@ -26711,6 +26767,7 @@ holds(s_18121_jpg, powerplant).
 holds(s_18121_jpg, watertreatment).
 holds(s_18121_jpg, door).
 holds(s_18121_jpg, window).
+holds(s_18121_jpg, table).
 holds(s_18121_jpg, chimney).
 holds(s_18121_jpg, pipe).
 holds(s_18121_jpg, truck).
@@ -26755,7 +26812,6 @@ holds(s_18124_jpg, feature).
 holds(s_18124_jpg, miscindustrial).
 holds(s_18124_jpg, watertreatment).
 holds(s_18124_jpg, door).
-holds(s_18124_jpg, table).
 holds(s_18124_jpg, pipe).
 holds(s_18124_jpg, truck).
 holds(s_18124_jpg, industrial).
@@ -26782,7 +26838,6 @@ holds(s_18126_jpg, store).
 holds(s_18126_jpg, door).
 holds(s_18126_jpg, awning).
 holds(s_18126_jpg, billboard).
-holds(s_18126_jpg, table).
 holds(s_18126_jpg, vendingmachine).
 holds(s_18126_jpg, wallsign).
 holds(s_18126_jpg, commercial).
@@ -26794,6 +26849,7 @@ holds(s_18127_jpg, constructionsite).
 holds(s_18127_jpg, powerplant).
 holds(s_18127_jpg, door).
 holds(s_18127_jpg, window).
+holds(s_18127_jpg, table).
 holds(s_18127_jpg, chimney).
 holds(s_18127_jpg, pipe).
 holds(s_18127_jpg, machine).
@@ -26852,6 +26908,7 @@ holds(s_18131_jpg, miscresidential).
 holds(s_18131_jpg, window).
 holds(s_18131_jpg, awning).
 holds(s_18131_jpg, porch).
+holds(s_18131_jpg, table).
 holds(s_18131_jpg, tiledroof).
 holds(s_18131_jpg, tiledrooftop).
 holds(s_18131_jpg, residential).
@@ -26879,7 +26936,6 @@ holds(s_18133_jpg, miscindustrial).
 holds(s_18133_jpg, powerplant).
 holds(s_18133_jpg, watertreatment).
 holds(s_18133_jpg, door).
-holds(s_18133_jpg, table).
 holds(s_18133_jpg, chimney).
 holds(s_18133_jpg, pipe).
 holds(s_18133_jpg, truck).
@@ -26892,6 +26948,7 @@ holds(s_18134_jpg, suburban).
 holds(s_18134_jpg, miscresidential).
 holds(s_18134_jpg, door).
 holds(s_18134_jpg, porch).
+holds(s_18134_jpg, table).
 holds(s_18134_jpg, tiledroof).
 holds(s_18134_jpg, tiledrooftop).
 holds(s_18134_jpg, residential).
@@ -26912,7 +26969,6 @@ holds(s_18136_jpg, building).
 holds(s_18136_jpg, feature).
 holds(s_18136_jpg, miscindustrial).
 holds(s_18136_jpg, door).
-holds(s_18136_jpg, table).
 holds(s_18136_jpg, chimney).
 holds(s_18136_jpg, truck).
 holds(s_18136_jpg, industrial).
@@ -26925,6 +26981,7 @@ holds(s_18137_jpg, miscresidential).
 holds(s_18137_jpg, countryhouse).
 holds(s_18137_jpg, window).
 holds(s_18137_jpg, porch).
+holds(s_18137_jpg, table).
 holds(s_18137_jpg, tiledroof).
 holds(s_18137_jpg, tiledrooftop).
 holds(s_18137_jpg, car).
@@ -26939,7 +26996,6 @@ holds(s_18138_jpg, store).
 holds(s_18138_jpg, door).
 holds(s_18138_jpg, billboard).
 holds(s_18138_jpg, sign).
-holds(s_18138_jpg, table).
 holds(s_18138_jpg, vendingmachine).
 holds(s_18138_jpg, chimney).
 holds(s_18138_jpg, car).
@@ -26960,7 +27016,6 @@ holds(s_18140_jpg, feature).
 holds(s_18140_jpg, suburban).
 holds(s_18140_jpg, door).
 holds(s_18140_jpg, porch).
-holds(s_18140_jpg, table).
 holds(s_18140_jpg, residential).
 
 sample(s_18141_jpg).
@@ -26972,6 +27027,7 @@ holds(s_18141_jpg, store).
 holds(s_18141_jpg, door).
 holds(s_18141_jpg, window).
 holds(s_18141_jpg, billboard).
+holds(s_18141_jpg, table).
 holds(s_18141_jpg, vendingmachine).
 holds(s_18141_jpg, wallsign).
 holds(s_18141_jpg, chimney).
@@ -26998,6 +27054,7 @@ holds(s_18143_jpg, miscresidential).
 holds(s_18143_jpg, countryhouse).
 holds(s_18143_jpg, door).
 holds(s_18143_jpg, porch).
+holds(s_18143_jpg, table).
 holds(s_18143_jpg, tiledroof).
 holds(s_18143_jpg, tiledrooftop).
 holds(s_18143_jpg, car).
@@ -27021,7 +27078,6 @@ sample(s_18145_jpg).
 holds(s_18145_jpg, building).
 holds(s_18145_jpg, feature).
 holds(s_18145_jpg, miscindustrial).
-holds(s_18145_jpg, table).
 holds(s_18145_jpg, chimney).
 holds(s_18145_jpg, truck).
 holds(s_18145_jpg, industrial).
@@ -27034,6 +27090,7 @@ holds(s_18146_jpg, miscresidential).
 holds(s_18146_jpg, countryhouse).
 holds(s_18146_jpg, window).
 holds(s_18146_jpg, porch).
+holds(s_18146_jpg, table).
 holds(s_18146_jpg, tiledroof).
 holds(s_18146_jpg, tiledrooftop).
 holds(s_18146_jpg, car).
@@ -27052,6 +27109,7 @@ holds(s_18147_jpg, window).
 holds(s_18147_jpg, awning).
 holds(s_18147_jpg, billboard).
 holds(s_18147_jpg, sign).
+holds(s_18147_jpg, table).
 holds(s_18147_jpg, vendingmachine).
 holds(s_18147_jpg, wallsign).
 holds(s_18147_jpg, statue).
@@ -27072,7 +27130,6 @@ sample(s_18149_jpg).
 holds(s_18149_jpg, building).
 holds(s_18149_jpg, feature).
 holds(s_18149_jpg, miscresidential).
-holds(s_18149_jpg, table).
 holds(s_18149_jpg, tiledroof).
 holds(s_18149_jpg, tiledrooftop).
 holds(s_18149_jpg, truck).
@@ -27090,7 +27147,6 @@ holds(s_18150_jpg, window).
 holds(s_18150_jpg, awning).
 holds(s_18150_jpg, billboard).
 holds(s_18150_jpg, sign).
-holds(s_18150_jpg, table).
 holds(s_18150_jpg, vendingmachine).
 holds(s_18150_jpg, wallsign).
 holds(s_18150_jpg, statue).
@@ -27156,6 +27212,7 @@ holds(s_18155_jpg, countryhouse).
 holds(s_18155_jpg, door).
 holds(s_18155_jpg, window).
 holds(s_18155_jpg, awning).
+holds(s_18155_jpg, table).
 holds(s_18155_jpg, tiledroof).
 holds(s_18155_jpg, tiledrooftop).
 holds(s_18155_jpg, car).
@@ -27183,6 +27240,7 @@ holds(s_18157_jpg, miscindustrial).
 holds(s_18157_jpg, watertreatment).
 holds(s_18157_jpg, door).
 holds(s_18157_jpg, window).
+holds(s_18157_jpg, table).
 holds(s_18157_jpg, pipe).
 holds(s_18157_jpg, truck).
 holds(s_18157_jpg, industrial).
@@ -27194,7 +27252,6 @@ holds(s_18158_jpg, miscresidential).
 holds(s_18158_jpg, countryhouse).
 holds(s_18158_jpg, door).
 holds(s_18158_jpg, window).
-holds(s_18158_jpg, table).
 holds(s_18158_jpg, tiledroof).
 holds(s_18158_jpg, tiledrooftop).
 holds(s_18158_jpg, car).
@@ -27209,7 +27266,6 @@ holds(s_18159_jpg, store).
 holds(s_18159_jpg, window).
 holds(s_18159_jpg, billboard).
 holds(s_18159_jpg, sign).
-holds(s_18159_jpg, table).
 holds(s_18159_jpg, vendingmachine).
 holds(s_18159_jpg, wallsign).
 holds(s_18159_jpg, commercial).
@@ -27235,6 +27291,7 @@ holds(s_18161_jpg, door).
 holds(s_18161_jpg, window).
 holds(s_18161_jpg, awning).
 holds(s_18161_jpg, porch).
+holds(s_18161_jpg, table).
 holds(s_18161_jpg, tiledroof).
 holds(s_18161_jpg, tiledrooftop).
 holds(s_18161_jpg, car).
@@ -27299,6 +27356,7 @@ holds(s_18166_jpg, powerplant).
 holds(s_18166_jpg, watertreatment).
 holds(s_18166_jpg, door).
 holds(s_18166_jpg, awning).
+holds(s_18166_jpg, table).
 holds(s_18166_jpg, chimney).
 holds(s_18166_jpg, pipe).
 holds(s_18166_jpg, truck).
@@ -27334,7 +27392,6 @@ sample(s_18169_jpg).
 holds(s_18169_jpg, building).
 holds(s_18169_jpg, feature).
 holds(s_18169_jpg, miscindustrial).
-holds(s_18169_jpg, table).
 holds(s_18169_jpg, chimney).
 holds(s_18169_jpg, truck).
 holds(s_18169_jpg, industrial).
@@ -27363,6 +27420,7 @@ holds(s_18171_jpg, window).
 holds(s_18171_jpg, awning).
 holds(s_18171_jpg, billboard).
 holds(s_18171_jpg, sign).
+holds(s_18171_jpg, table).
 holds(s_18171_jpg, vendingmachine).
 holds(s_18171_jpg, statue).
 holds(s_18171_jpg, truck).
@@ -27401,7 +27459,6 @@ holds(s_18174_jpg, misccommercial).
 holds(s_18174_jpg, door).
 holds(s_18174_jpg, awning).
 holds(s_18174_jpg, sign).
-holds(s_18174_jpg, table).
 holds(s_18174_jpg, tiledroof).
 holds(s_18174_jpg, vendingmachine).
 holds(s_18174_jpg, statue).
@@ -27422,7 +27479,6 @@ holds(s_18176_jpg, feature).
 holds(s_18176_jpg, miscresidential).
 holds(s_18176_jpg, countryhouse).
 holds(s_18176_jpg, window).
-holds(s_18176_jpg, table).
 holds(s_18176_jpg, tiledroof).
 holds(s_18176_jpg, tiledrooftop).
 holds(s_18176_jpg, car).
@@ -27436,7 +27492,6 @@ holds(s_18177_jpg, misccommercial).
 holds(s_18177_jpg, window).
 holds(s_18177_jpg, awning).
 holds(s_18177_jpg, billboard).
-holds(s_18177_jpg, table).
 holds(s_18177_jpg, tiledroof).
 holds(s_18177_jpg, tiledrooftop).
 holds(s_18177_jpg, chimney).
@@ -27448,6 +27503,7 @@ holds(s_18178_jpg, feature).
 holds(s_18178_jpg, miscindustrial).
 holds(s_18178_jpg, watertreatment).
 holds(s_18178_jpg, door).
+holds(s_18178_jpg, table).
 holds(s_18178_jpg, pipe).
 holds(s_18178_jpg, truck).
 holds(s_18178_jpg, industrial).
@@ -27460,7 +27516,6 @@ holds(s_18179_jpg, miscresidential).
 holds(s_18179_jpg, countryhouse).
 holds(s_18179_jpg, window).
 holds(s_18179_jpg, porch).
-holds(s_18179_jpg, table).
 holds(s_18179_jpg, tiledroof).
 holds(s_18179_jpg, tiledrooftop).
 holds(s_18179_jpg, car).
@@ -27476,7 +27531,6 @@ holds(s_18180_jpg, door).
 holds(s_18180_jpg, window).
 holds(s_18180_jpg, awning).
 holds(s_18180_jpg, sign).
-holds(s_18180_jpg, table).
 holds(s_18180_jpg, tiledroof).
 holds(s_18180_jpg, vendingmachine).
 holds(s_18180_jpg, wallsign).
@@ -27489,6 +27543,7 @@ holds(s_18181_jpg, feature).
 holds(s_18181_jpg, miscindustrial).
 holds(s_18181_jpg, watertreatment).
 holds(s_18181_jpg, window).
+holds(s_18181_jpg, table).
 holds(s_18181_jpg, pipe).
 holds(s_18181_jpg, truck).
 holds(s_18181_jpg, industrial).
@@ -27501,6 +27556,7 @@ holds(s_18182_jpg, miscresidential).
 holds(s_18182_jpg, countryhouse).
 holds(s_18182_jpg, window).
 holds(s_18182_jpg, porch).
+holds(s_18182_jpg, table).
 holds(s_18182_jpg, tiledroof).
 holds(s_18182_jpg, tiledrooftop).
 holds(s_18182_jpg, car).
@@ -27526,6 +27582,7 @@ holds(s_18184_jpg, building).
 holds(s_18184_jpg, feature).
 holds(s_18184_jpg, constructionsite).
 holds(s_18184_jpg, door).
+holds(s_18184_jpg, table).
 holds(s_18184_jpg, chimney).
 holds(s_18184_jpg, machine).
 holds(s_18184_jpg, industrial).
@@ -27564,7 +27621,6 @@ holds(s_18187_jpg, powerplant).
 holds(s_18187_jpg, watertreatment).
 holds(s_18187_jpg, window).
 holds(s_18187_jpg, awning).
-holds(s_18187_jpg, table).
 holds(s_18187_jpg, chimney).
 holds(s_18187_jpg, pipe).
 holds(s_18187_jpg, truck).
@@ -27576,7 +27632,6 @@ holds(s_18188_jpg, feature).
 holds(s_18188_jpg, miscresidential).
 holds(s_18188_jpg, countryhouse).
 holds(s_18188_jpg, door).
-holds(s_18188_jpg, table).
 holds(s_18188_jpg, tiledroof).
 holds(s_18188_jpg, tiledrooftop).
 holds(s_18188_jpg, car).
@@ -27604,6 +27659,7 @@ holds(s_18190_jpg, miscindustrial).
 holds(s_18190_jpg, watertreatment).
 holds(s_18190_jpg, door).
 holds(s_18190_jpg, window).
+holds(s_18190_jpg, table).
 holds(s_18190_jpg, pipe).
 holds(s_18190_jpg, truck).
 holds(s_18190_jpg, industrial).
@@ -27616,6 +27672,7 @@ holds(s_18191_jpg, miscresidential).
 holds(s_18191_jpg, door).
 holds(s_18191_jpg, awning).
 holds(s_18191_jpg, porch).
+holds(s_18191_jpg, table).
 holds(s_18191_jpg, tiledroof).
 holds(s_18191_jpg, tiledrooftop).
 holds(s_18191_jpg, residential).
@@ -27653,6 +27710,7 @@ holds(s_18194_jpg, feature).
 holds(s_18194_jpg, miscresidential).
 holds(s_18194_jpg, countryhouse).
 holds(s_18194_jpg, window).
+holds(s_18194_jpg, table).
 holds(s_18194_jpg, tiledroof).
 holds(s_18194_jpg, tiledrooftop).
 holds(s_18194_jpg, car).
@@ -27693,6 +27751,7 @@ holds(s_18197_jpg, miscresidential).
 holds(s_18197_jpg, countryhouse).
 holds(s_18197_jpg, door).
 holds(s_18197_jpg, porch).
+holds(s_18197_jpg, table).
 holds(s_18197_jpg, tiledroof).
 holds(s_18197_jpg, tiledrooftop).
 holds(s_18197_jpg, car).
@@ -27709,6 +27768,7 @@ holds(s_18198_jpg, door).
 holds(s_18198_jpg, awning).
 holds(s_18198_jpg, billboard).
 holds(s_18198_jpg, sign).
+holds(s_18198_jpg, table).
 holds(s_18198_jpg, tiledroof).
 holds(s_18198_jpg, vendingmachine).
 holds(s_18198_jpg, wallsign).
@@ -27722,6 +27782,7 @@ holds(s_18199_jpg, miscindustrial).
 holds(s_18199_jpg, powerplant).
 holds(s_18199_jpg, watertreatment).
 holds(s_18199_jpg, door).
+holds(s_18199_jpg, table).
 holds(s_18199_jpg, chimney).
 holds(s_18199_jpg, pipe).
 holds(s_18199_jpg, truck).
@@ -27757,7 +27818,6 @@ holds(s_18202_jpg, powerplant).
 holds(s_18202_jpg, door).
 holds(s_18202_jpg, window).
 holds(s_18202_jpg, sign).
-holds(s_18202_jpg, table).
 holds(s_18202_jpg, chimney).
 holds(s_18202_jpg, pipe).
 holds(s_18202_jpg, machine).
@@ -27831,6 +27891,7 @@ holds(s_18208_jpg, feature).
 holds(s_18208_jpg, constructionsite).
 holds(s_18208_jpg, window).
 holds(s_18208_jpg, awning).
+holds(s_18208_jpg, table).
 holds(s_18208_jpg, machine).
 holds(s_18208_jpg, industrial).
 
@@ -27841,6 +27902,7 @@ holds(s_18209_jpg, miscresidential).
 holds(s_18209_jpg, countryhouse).
 holds(s_18209_jpg, door).
 holds(s_18209_jpg, awning).
+holds(s_18209_jpg, table).
 holds(s_18209_jpg, tiledroof).
 holds(s_18209_jpg, tiledrooftop).
 holds(s_18209_jpg, car).
@@ -27877,7 +27939,6 @@ holds(s_18212_jpg, miscresidential).
 holds(s_18212_jpg, countryhouse).
 holds(s_18212_jpg, window).
 holds(s_18212_jpg, porch).
-holds(s_18212_jpg, table).
 holds(s_18212_jpg, tiledroof).
 holds(s_18212_jpg, tiledrooftop).
 holds(s_18212_jpg, car).
@@ -27905,7 +27966,6 @@ holds(s_18214_jpg, feature).
 holds(s_18214_jpg, miscindustrial).
 holds(s_18214_jpg, watertreatment).
 holds(s_18214_jpg, door).
-holds(s_18214_jpg, table).
 holds(s_18214_jpg, pipe).
 holds(s_18214_jpg, truck).
 holds(s_18214_jpg, industrial).
@@ -27957,7 +28017,6 @@ holds(s_18218_jpg, countryhouse).
 holds(s_18218_jpg, door).
 holds(s_18218_jpg, window).
 holds(s_18218_jpg, awning).
-holds(s_18218_jpg, table).
 holds(s_18218_jpg, tiledroof).
 holds(s_18218_jpg, tiledrooftop).
 holds(s_18218_jpg, car).
@@ -27971,6 +28030,7 @@ holds(s_18219_jpg, hotel).
 holds(s_18219_jpg, restaurant).
 holds(s_18219_jpg, window).
 holds(s_18219_jpg, sign).
+holds(s_18219_jpg, table).
 holds(s_18219_jpg, wallsign).
 holds(s_18219_jpg, statue).
 holds(s_18219_jpg, pipe).
@@ -27984,7 +28044,6 @@ holds(s_18220_jpg, constructionsite).
 holds(s_18220_jpg, door).
 holds(s_18220_jpg, window).
 holds(s_18220_jpg, awning).
-holds(s_18220_jpg, table).
 holds(s_18220_jpg, pipe).
 holds(s_18220_jpg, machine).
 holds(s_18220_jpg, industrial).
@@ -27994,7 +28053,6 @@ holds(s_18221_jpg, building).
 holds(s_18221_jpg, feature).
 holds(s_18221_jpg, miscresidential).
 holds(s_18221_jpg, countryhouse).
-holds(s_18221_jpg, table).
 holds(s_18221_jpg, tiledroof).
 holds(s_18221_jpg, tiledrooftop).
 holds(s_18221_jpg, car).
@@ -28021,7 +28079,6 @@ holds(s_18223_jpg, watertreatment).
 holds(s_18223_jpg, door).
 holds(s_18223_jpg, window).
 holds(s_18223_jpg, awning).
-holds(s_18223_jpg, table).
 holds(s_18223_jpg, pipe).
 holds(s_18223_jpg, truck).
 holds(s_18223_jpg, industrial).
@@ -28103,6 +28160,7 @@ holds(s_18229_jpg, feature).
 holds(s_18229_jpg, miscindustrial).
 holds(s_18229_jpg, door).
 holds(s_18229_jpg, window).
+holds(s_18229_jpg, table).
 holds(s_18229_jpg, chimney).
 holds(s_18229_jpg, truck).
 holds(s_18229_jpg, industrial).
@@ -28124,6 +28182,7 @@ holds(s_18231_jpg, misccommercial).
 holds(s_18231_jpg, door).
 holds(s_18231_jpg, awning).
 holds(s_18231_jpg, sign).
+holds(s_18231_jpg, table).
 holds(s_18231_jpg, truck).
 holds(s_18231_jpg, commercial).
 
@@ -28132,7 +28191,6 @@ holds(s_18232_jpg, building).
 holds(s_18232_jpg, feature).
 holds(s_18232_jpg, constructionsite).
 holds(s_18232_jpg, sign).
-holds(s_18232_jpg, table).
 holds(s_18232_jpg, machine).
 holds(s_18232_jpg, industrial).
 
@@ -28158,7 +28216,6 @@ holds(s_18234_jpg, hotel).
 holds(s_18234_jpg, misccommercial).
 holds(s_18234_jpg, door).
 holds(s_18234_jpg, awning).
-holds(s_18234_jpg, table).
 holds(s_18234_jpg, tiledroof).
 holds(s_18234_jpg, tiledrooftop).
 holds(s_18234_jpg, vendingmachine).
@@ -28213,6 +28270,7 @@ holds(s_18238_jpg, feature).
 holds(s_18238_jpg, powerplant).
 holds(s_18238_jpg, window).
 holds(s_18238_jpg, sign).
+holds(s_18238_jpg, table).
 holds(s_18238_jpg, chimney).
 holds(s_18238_jpg, pipe).
 holds(s_18238_jpg, industrial).
@@ -28240,6 +28298,7 @@ holds(s_18240_jpg, restaurant).
 holds(s_18240_jpg, window).
 holds(s_18240_jpg, awning).
 holds(s_18240_jpg, sign).
+holds(s_18240_jpg, table).
 holds(s_18240_jpg, vendingmachine).
 holds(s_18240_jpg, car).
 holds(s_18240_jpg, commercial).
@@ -28321,7 +28380,6 @@ holds(s_18246_jpg, window).
 holds(s_18246_jpg, awning).
 holds(s_18246_jpg, billboard).
 holds(s_18246_jpg, sign).
-holds(s_18246_jpg, table).
 holds(s_18246_jpg, vendingmachine).
 holds(s_18246_jpg, statue).
 holds(s_18246_jpg, pipe).
@@ -28372,7 +28430,6 @@ holds(s_18250_jpg, feature).
 holds(s_18250_jpg, powerplant).
 holds(s_18250_jpg, window).
 holds(s_18250_jpg, sign).
-holds(s_18250_jpg, table).
 holds(s_18250_jpg, chimney).
 holds(s_18250_jpg, pipe).
 holds(s_18250_jpg, industrial).
@@ -28386,6 +28443,7 @@ holds(s_18251_jpg, door).
 holds(s_18251_jpg, window).
 holds(s_18251_jpg, porch).
 holds(s_18251_jpg, sign).
+holds(s_18251_jpg, table).
 holds(s_18251_jpg, tiledroof).
 holds(s_18251_jpg, tiledrooftop).
 holds(s_18251_jpg, residential).
@@ -28439,6 +28497,7 @@ holds(s_18255_jpg, window).
 holds(s_18255_jpg, awning).
 holds(s_18255_jpg, billboard).
 holds(s_18255_jpg, sign).
+holds(s_18255_jpg, table).
 holds(s_18255_jpg, vendingmachine).
 holds(s_18255_jpg, pipe).
 holds(s_18255_jpg, car).
@@ -28484,6 +28543,7 @@ sample(s_18259_jpg).
 holds(s_18259_jpg, building).
 holds(s_18259_jpg, feature).
 holds(s_18259_jpg, miscindustrial).
+holds(s_18259_jpg, table).
 holds(s_18259_jpg, truck).
 holds(s_18259_jpg, industrial).
 
@@ -28507,7 +28567,6 @@ holds(s_18261_jpg, misccommercial).
 holds(s_18261_jpg, door).
 holds(s_18261_jpg, window).
 holds(s_18261_jpg, awning).
-holds(s_18261_jpg, table).
 holds(s_18261_jpg, vendingmachine).
 holds(s_18261_jpg, wallsign).
 holds(s_18261_jpg, pipe).
@@ -28520,6 +28579,7 @@ holds(s_18262_jpg, miscindustrial).
 holds(s_18262_jpg, powerplant).
 holds(s_18262_jpg, watertreatment).
 holds(s_18262_jpg, door).
+holds(s_18262_jpg, table).
 holds(s_18262_jpg, chimney).
 holds(s_18262_jpg, pipe).
 holds(s_18262_jpg, truck).
@@ -28544,7 +28604,6 @@ holds(s_18264_jpg, door).
 holds(s_18264_jpg, window).
 holds(s_18264_jpg, awning).
 holds(s_18264_jpg, sign).
-holds(s_18264_jpg, table).
 holds(s_18264_jpg, vendingmachine).
 holds(s_18264_jpg, wallsign).
 holds(s_18264_jpg, truck).
@@ -28556,7 +28615,6 @@ holds(s_18265_jpg, feature).
 holds(s_18265_jpg, watertreatment).
 holds(s_18265_jpg, door).
 holds(s_18265_jpg, awning).
-holds(s_18265_jpg, table).
 holds(s_18265_jpg, pipe).
 holds(s_18265_jpg, truck).
 holds(s_18265_jpg, industrial).
@@ -28595,7 +28653,6 @@ holds(s_18268_jpg, feature).
 holds(s_18268_jpg, constructionsite).
 holds(s_18268_jpg, window).
 holds(s_18268_jpg, awning).
-holds(s_18268_jpg, table).
 holds(s_18268_jpg, machine).
 holds(s_18268_jpg, industrial).
 
@@ -28620,6 +28677,7 @@ holds(s_18270_jpg, cafe).
 holds(s_18270_jpg, store).
 holds(s_18270_jpg, door).
 holds(s_18270_jpg, billboard).
+holds(s_18270_jpg, table).
 holds(s_18270_jpg, vendingmachine).
 holds(s_18270_jpg, statue).
 holds(s_18270_jpg, commercial).
@@ -28643,7 +28701,6 @@ holds(s_18272_jpg, miscresidential).
 holds(s_18272_jpg, countryhouse).
 holds(s_18272_jpg, door).
 holds(s_18272_jpg, awning).
-holds(s_18272_jpg, table).
 holds(s_18272_jpg, tiledroof).
 holds(s_18272_jpg, tiledrooftop).
 holds(s_18272_jpg, car).
@@ -28670,7 +28727,6 @@ holds(s_18274_jpg, feature).
 holds(s_18274_jpg, miscindustrial).
 holds(s_18274_jpg, watertreatment).
 holds(s_18274_jpg, window).
-holds(s_18274_jpg, table).
 holds(s_18274_jpg, pipe).
 holds(s_18274_jpg, truck).
 holds(s_18274_jpg, industrial).
@@ -28699,6 +28755,7 @@ holds(s_18276_jpg, misccommercial).
 holds(s_18276_jpg, door).
 holds(s_18276_jpg, awning).
 holds(s_18276_jpg, billboard).
+holds(s_18276_jpg, table).
 holds(s_18276_jpg, vendingmachine).
 holds(s_18276_jpg, wallsign).
 holds(s_18276_jpg, pipe).
@@ -28721,6 +28778,7 @@ holds(s_18278_jpg, building).
 holds(s_18278_jpg, feature).
 holds(s_18278_jpg, miscresidential).
 holds(s_18278_jpg, countryhouse).
+holds(s_18278_jpg, table).
 holds(s_18278_jpg, tiledroof).
 holds(s_18278_jpg, tiledrooftop).
 holds(s_18278_jpg, car).
@@ -28744,6 +28802,7 @@ holds(s_18280_jpg, feature).
 holds(s_18280_jpg, constructionsite).
 holds(s_18280_jpg, door).
 holds(s_18280_jpg, window).
+holds(s_18280_jpg, table).
 holds(s_18280_jpg, pipe).
 holds(s_18280_jpg, machine).
 holds(s_18280_jpg, industrial).
@@ -28757,6 +28816,7 @@ holds(s_18281_jpg, door).
 holds(s_18281_jpg, window).
 holds(s_18281_jpg, awning).
 holds(s_18281_jpg, porch).
+holds(s_18281_jpg, table).
 holds(s_18281_jpg, tiledroof).
 holds(s_18281_jpg, tiledrooftop).
 holds(s_18281_jpg, truck).
@@ -28795,7 +28855,6 @@ holds(s_18284_jpg, miscresidential).
 holds(s_18284_jpg, countryhouse).
 holds(s_18284_jpg, door).
 holds(s_18284_jpg, porch).
-holds(s_18284_jpg, table).
 holds(s_18284_jpg, tiledroof).
 holds(s_18284_jpg, tiledrooftop).
 holds(s_18284_jpg, car).
@@ -28812,6 +28871,7 @@ holds(s_18285_jpg, window).
 holds(s_18285_jpg, awning).
 holds(s_18285_jpg, billboard).
 holds(s_18285_jpg, sign).
+holds(s_18285_jpg, table).
 holds(s_18285_jpg, vendingmachine).
 holds(s_18285_jpg, chimney).
 holds(s_18285_jpg, truck).
@@ -28825,7 +28885,6 @@ holds(s_18286_jpg, powerplant).
 holds(s_18286_jpg, door).
 holds(s_18286_jpg, window).
 holds(s_18286_jpg, sign).
-holds(s_18286_jpg, table).
 holds(s_18286_jpg, chimney).
 holds(s_18286_jpg, pipe).
 holds(s_18286_jpg, machine).
@@ -28916,7 +28975,6 @@ holds(s_18293_jpg, door).
 holds(s_18293_jpg, window).
 holds(s_18293_jpg, awning).
 holds(s_18293_jpg, porch).
-holds(s_18293_jpg, table).
 holds(s_18293_jpg, residential).
 
 sample(s_18294_jpg).
@@ -28927,6 +28985,7 @@ holds(s_18294_jpg, door).
 holds(s_18294_jpg, window).
 holds(s_18294_jpg, awning).
 holds(s_18294_jpg, sign).
+holds(s_18294_jpg, table).
 holds(s_18294_jpg, pipe).
 holds(s_18294_jpg, commercial).
 
@@ -28935,6 +28994,7 @@ holds(s_18295_jpg, building).
 holds(s_18295_jpg, feature).
 holds(s_18295_jpg, miscindustrial).
 holds(s_18295_jpg, watertreatment).
+holds(s_18295_jpg, table).
 holds(s_18295_jpg, pipe).
 holds(s_18295_jpg, truck).
 holds(s_18295_jpg, industrial).
@@ -28961,7 +29021,6 @@ holds(s_18297_jpg, misccommercial).
 holds(s_18297_jpg, window).
 holds(s_18297_jpg, awning).
 holds(s_18297_jpg, sign).
-holds(s_18297_jpg, table).
 holds(s_18297_jpg, vendingmachine).
 holds(s_18297_jpg, wallsign).
 holds(s_18297_jpg, statue).
@@ -28973,7 +29032,6 @@ holds(s_18298_jpg, building).
 holds(s_18298_jpg, feature).
 holds(s_18298_jpg, miscindustrial).
 holds(s_18298_jpg, door).
-holds(s_18298_jpg, table).
 holds(s_18298_jpg, truck).
 holds(s_18298_jpg, industrial).
 
@@ -29009,6 +29067,7 @@ holds(s_18301_jpg, building).
 holds(s_18301_jpg, feature).
 holds(s_18301_jpg, miscindustrial).
 holds(s_18301_jpg, window).
+holds(s_18301_jpg, table).
 holds(s_18301_jpg, truck).
 holds(s_18301_jpg, industrial).
 
@@ -29019,7 +29078,6 @@ holds(s_18302_jpg, miscresidential).
 holds(s_18302_jpg, countryhouse).
 holds(s_18302_jpg, window).
 holds(s_18302_jpg, awning).
-holds(s_18302_jpg, table).
 holds(s_18302_jpg, tiledroof).
 holds(s_18302_jpg, tiledrooftop).
 holds(s_18302_jpg, car).
@@ -29123,7 +29181,6 @@ holds(s_18311_jpg, countryhouse).
 holds(s_18311_jpg, door).
 holds(s_18311_jpg, window).
 holds(s_18311_jpg, awning).
-holds(s_18311_jpg, table).
 holds(s_18311_jpg, tiledroof).
 holds(s_18311_jpg, tiledrooftop).
 holds(s_18311_jpg, car).
@@ -29153,6 +29210,7 @@ holds(s_18313_jpg, powerplant).
 holds(s_18313_jpg, door).
 holds(s_18313_jpg, window).
 holds(s_18313_jpg, sign).
+holds(s_18313_jpg, table).
 holds(s_18313_jpg, chimney).
 holds(s_18313_jpg, pipe).
 holds(s_18313_jpg, machine).
@@ -29165,6 +29223,7 @@ holds(s_18314_jpg, suburban).
 holds(s_18314_jpg, miscresidential).
 holds(s_18314_jpg, door).
 holds(s_18314_jpg, porch).
+holds(s_18314_jpg, table).
 holds(s_18314_jpg, tiledroof).
 holds(s_18314_jpg, tiledrooftop).
 holds(s_18314_jpg, truck).
@@ -29179,7 +29238,6 @@ holds(s_18315_jpg, door).
 holds(s_18315_jpg, window).
 holds(s_18315_jpg, billboard).
 holds(s_18315_jpg, sign).
-holds(s_18315_jpg, table).
 holds(s_18315_jpg, truck).
 holds(s_18315_jpg, commercial).
 
@@ -29229,7 +29287,6 @@ holds(s_18319_jpg, building).
 holds(s_18319_jpg, feature).
 holds(s_18319_jpg, constructionsite).
 holds(s_18319_jpg, window).
-holds(s_18319_jpg, table).
 holds(s_18319_jpg, pipe).
 holds(s_18319_jpg, machine).
 holds(s_18319_jpg, industrial).
@@ -29241,7 +29298,6 @@ holds(s_18320_jpg, suburban).
 holds(s_18320_jpg, window).
 holds(s_18320_jpg, awning).
 holds(s_18320_jpg, porch).
-holds(s_18320_jpg, table).
 holds(s_18320_jpg, residential).
 
 sample(s_18321_jpg).
@@ -29292,7 +29348,6 @@ holds(s_18324_jpg, door).
 holds(s_18324_jpg, window).
 holds(s_18324_jpg, billboard).
 holds(s_18324_jpg, sign).
-holds(s_18324_jpg, table).
 holds(s_18324_jpg, wallsign).
 holds(s_18324_jpg, commercial).
 
@@ -29301,7 +29356,6 @@ holds(s_18325_jpg, building).
 holds(s_18325_jpg, feature).
 holds(s_18325_jpg, constructionsite).
 holds(s_18325_jpg, door).
-holds(s_18325_jpg, table).
 holds(s_18325_jpg, machine).
 holds(s_18325_jpg, industrial).
 
@@ -29313,6 +29367,7 @@ holds(s_18326_jpg, miscresidential).
 holds(s_18326_jpg, window).
 holds(s_18326_jpg, awning).
 holds(s_18326_jpg, porch).
+holds(s_18326_jpg, table).
 holds(s_18326_jpg, tiledroof).
 holds(s_18326_jpg, tiledrooftop).
 holds(s_18326_jpg, truck).
@@ -29326,6 +29381,7 @@ holds(s_18327_jpg, misccommercial).
 holds(s_18327_jpg, door).
 holds(s_18327_jpg, awning).
 holds(s_18327_jpg, billboard).
+holds(s_18327_jpg, table).
 holds(s_18327_jpg, tiledroof).
 holds(s_18327_jpg, tiledrooftop).
 holds(s_18327_jpg, commercial).
@@ -29335,7 +29391,6 @@ holds(s_18328_jpg, building).
 holds(s_18328_jpg, feature).
 holds(s_18328_jpg, miscindustrial).
 holds(s_18328_jpg, watertreatment).
-holds(s_18328_jpg, table).
 holds(s_18328_jpg, pipe).
 holds(s_18328_jpg, truck).
 holds(s_18328_jpg, industrial).
@@ -29373,7 +29428,6 @@ holds(s_18331_jpg, powerplant).
 holds(s_18331_jpg, watertreatment).
 holds(s_18331_jpg, door).
 holds(s_18331_jpg, window).
-holds(s_18331_jpg, table).
 holds(s_18331_jpg, chimney).
 holds(s_18331_jpg, pipe).
 holds(s_18331_jpg, truck).
@@ -29402,7 +29456,6 @@ holds(s_18333_jpg, store).
 holds(s_18333_jpg, door).
 holds(s_18333_jpg, window).
 holds(s_18333_jpg, billboard).
-holds(s_18333_jpg, table).
 holds(s_18333_jpg, wallsign).
 holds(s_18333_jpg, commercial).
 
@@ -29421,6 +29474,7 @@ holds(s_18335_jpg, feature).
 holds(s_18335_jpg, suburban).
 holds(s_18335_jpg, door).
 holds(s_18335_jpg, porch).
+holds(s_18335_jpg, table).
 holds(s_18335_jpg, residential).
 
 sample(s_18336_jpg).
@@ -29432,7 +29486,6 @@ holds(s_18336_jpg, misccommercial).
 holds(s_18336_jpg, door).
 holds(s_18336_jpg, awning).
 holds(s_18336_jpg, sign).
-holds(s_18336_jpg, table).
 holds(s_18336_jpg, vendingmachine).
 holds(s_18336_jpg, truck).
 holds(s_18336_jpg, commercial).
@@ -29458,7 +29511,6 @@ holds(s_18338_jpg, door).
 holds(s_18338_jpg, window).
 holds(s_18338_jpg, awning).
 holds(s_18338_jpg, porch).
-holds(s_18338_jpg, table).
 holds(s_18338_jpg, tiledroof).
 holds(s_18338_jpg, tiledrooftop).
 holds(s_18338_jpg, residential).
@@ -29472,7 +29524,6 @@ holds(s_18339_jpg, store).
 holds(s_18339_jpg, window).
 holds(s_18339_jpg, billboard).
 holds(s_18339_jpg, sign).
-holds(s_18339_jpg, table).
 holds(s_18339_jpg, wallsign).
 holds(s_18339_jpg, chimney).
 holds(s_18339_jpg, car).
@@ -29517,7 +29568,6 @@ holds(s_18343_jpg, building).
 holds(s_18343_jpg, feature).
 holds(s_18343_jpg, constructionsite).
 holds(s_18343_jpg, sign).
-holds(s_18343_jpg, table).
 holds(s_18343_jpg, machine).
 holds(s_18343_jpg, industrial).
 
@@ -29527,6 +29577,7 @@ holds(s_18344_jpg, feature).
 holds(s_18344_jpg, miscresidential).
 holds(s_18344_jpg, countryhouse).
 holds(s_18344_jpg, door).
+holds(s_18344_jpg, table).
 holds(s_18344_jpg, tiledroof).
 holds(s_18344_jpg, tiledrooftop).
 holds(s_18344_jpg, car).
@@ -29556,7 +29607,6 @@ holds(s_18346_jpg, powerplant).
 holds(s_18346_jpg, door).
 holds(s_18346_jpg, window).
 holds(s_18346_jpg, sign).
-holds(s_18346_jpg, table).
 holds(s_18346_jpg, chimney).
 holds(s_18346_jpg, pipe).
 holds(s_18346_jpg, machine).
@@ -29570,6 +29620,7 @@ holds(s_18347_jpg, door).
 holds(s_18347_jpg, awning).
 holds(s_18347_jpg, porch).
 holds(s_18347_jpg, sign).
+holds(s_18347_jpg, table).
 holds(s_18347_jpg, residential).
 
 sample(s_18348_jpg).
@@ -29588,6 +29639,7 @@ holds(s_18349_jpg, building).
 holds(s_18349_jpg, feature).
 holds(s_18349_jpg, miscindustrial).
 holds(s_18349_jpg, window).
+holds(s_18349_jpg, table).
 holds(s_18349_jpg, truck).
 holds(s_18349_jpg, industrial).
 
@@ -29616,6 +29668,7 @@ holds(s_18351_jpg, misccommercial).
 holds(s_18351_jpg, window).
 holds(s_18351_jpg, awning).
 holds(s_18351_jpg, billboard).
+holds(s_18351_jpg, table).
 holds(s_18351_jpg, vendingmachine).
 holds(s_18351_jpg, wallsign).
 holds(s_18351_jpg, commercial).
@@ -29627,7 +29680,6 @@ holds(s_18352_jpg, miscindustrial).
 holds(s_18352_jpg, powerplant).
 holds(s_18352_jpg, watertreatment).
 holds(s_18352_jpg, window).
-holds(s_18352_jpg, table).
 holds(s_18352_jpg, chimney).
 holds(s_18352_jpg, pipe).
 holds(s_18352_jpg, truck).
@@ -29643,6 +29695,7 @@ holds(s_18353_jpg, door).
 holds(s_18353_jpg, window).
 holds(s_18353_jpg, awning).
 holds(s_18353_jpg, porch).
+holds(s_18353_jpg, table).
 holds(s_18353_jpg, tiledroof).
 holds(s_18353_jpg, tiledrooftop).
 holds(s_18353_jpg, car).
@@ -29670,7 +29723,6 @@ holds(s_18355_jpg, miscindustrial).
 holds(s_18355_jpg, powerplant).
 holds(s_18355_jpg, watertreatment).
 holds(s_18355_jpg, window).
-holds(s_18355_jpg, table).
 holds(s_18355_jpg, chimney).
 holds(s_18355_jpg, pipe).
 holds(s_18355_jpg, truck).
@@ -29720,6 +29772,7 @@ holds(s_18359_jpg, miscresidential).
 holds(s_18359_jpg, countryhouse).
 holds(s_18359_jpg, door).
 holds(s_18359_jpg, window).
+holds(s_18359_jpg, table).
 holds(s_18359_jpg, tiledroof).
 holds(s_18359_jpg, tiledrooftop).
 holds(s_18359_jpg, car).
@@ -29774,6 +29827,7 @@ holds(s_18363_jpg, cafe).
 holds(s_18363_jpg, misccommercial).
 holds(s_18363_jpg, door).
 holds(s_18363_jpg, awning).
+holds(s_18363_jpg, table).
 holds(s_18363_jpg, vendingmachine).
 holds(s_18363_jpg, commercial).
 
@@ -29783,7 +29837,6 @@ holds(s_18364_jpg, feature).
 holds(s_18364_jpg, constructionsite).
 holds(s_18364_jpg, door).
 holds(s_18364_jpg, window).
-holds(s_18364_jpg, table).
 holds(s_18364_jpg, machine).
 holds(s_18364_jpg, industrial).
 
@@ -29794,7 +29847,6 @@ holds(s_18365_jpg, miscresidential).
 holds(s_18365_jpg, door).
 holds(s_18365_jpg, window).
 holds(s_18365_jpg, sign).
-holds(s_18365_jpg, table).
 holds(s_18365_jpg, tiledroof).
 holds(s_18365_jpg, tiledrooftop).
 holds(s_18365_jpg, residential).
@@ -29808,7 +29860,6 @@ holds(s_18366_jpg, store).
 holds(s_18366_jpg, window).
 holds(s_18366_jpg, billboard).
 holds(s_18366_jpg, sign).
-holds(s_18366_jpg, table).
 holds(s_18366_jpg, vendingmachine).
 holds(s_18366_jpg, wallsign).
 holds(s_18366_jpg, statue).
@@ -29821,6 +29872,7 @@ holds(s_18367_jpg, miscindustrial).
 holds(s_18367_jpg, powerplant).
 holds(s_18367_jpg, watertreatment).
 holds(s_18367_jpg, door).
+holds(s_18367_jpg, table).
 holds(s_18367_jpg, chimney).
 holds(s_18367_jpg, pipe).
 holds(s_18367_jpg, truck).
@@ -29848,7 +29900,6 @@ holds(s_18369_jpg, door).
 holds(s_18369_jpg, window).
 holds(s_18369_jpg, awning).
 holds(s_18369_jpg, billboard).
-holds(s_18369_jpg, table).
 holds(s_18369_jpg, chimney).
 holds(s_18369_jpg, truck).
 holds(s_18369_jpg, commercial).
@@ -29921,7 +29972,6 @@ holds(s_18375_jpg, door).
 holds(s_18375_jpg, awning).
 holds(s_18375_jpg, billboard).
 holds(s_18375_jpg, sign).
-holds(s_18375_jpg, table).
 holds(s_18375_jpg, vendingmachine).
 holds(s_18375_jpg, statue).
 holds(s_18375_jpg, truck).
@@ -29933,7 +29983,6 @@ holds(s_18376_jpg, feature).
 holds(s_18376_jpg, miscindustrial).
 holds(s_18376_jpg, watertreatment).
 holds(s_18376_jpg, door).
-holds(s_18376_jpg, table).
 holds(s_18376_jpg, pipe).
 holds(s_18376_jpg, truck).
 holds(s_18376_jpg, industrial).
@@ -29959,6 +30008,7 @@ holds(s_18378_jpg, store).
 holds(s_18378_jpg, door).
 holds(s_18378_jpg, window).
 holds(s_18378_jpg, billboard).
+holds(s_18378_jpg, table).
 holds(s_18378_jpg, vendingmachine).
 holds(s_18378_jpg, wallsign).
 holds(s_18378_jpg, commercial).
@@ -29992,7 +30042,6 @@ holds(s_18381_jpg, feature).
 holds(s_18381_jpg, hotel).
 holds(s_18381_jpg, window).
 holds(s_18381_jpg, awning).
-holds(s_18381_jpg, table).
 holds(s_18381_jpg, wallsign).
 holds(s_18381_jpg, car).
 holds(s_18381_jpg, commercial).
@@ -30016,7 +30065,6 @@ holds(s_18383_jpg, door).
 holds(s_18383_jpg, window).
 holds(s_18383_jpg, awning).
 holds(s_18383_jpg, porch).
-holds(s_18383_jpg, table).
 holds(s_18383_jpg, truck).
 holds(s_18383_jpg, residential).
 
@@ -30039,6 +30087,7 @@ holds(s_18385_jpg, feature).
 holds(s_18385_jpg, constructionsite).
 holds(s_18385_jpg, window).
 holds(s_18385_jpg, sign).
+holds(s_18385_jpg, table).
 holds(s_18385_jpg, machine).
 holds(s_18385_jpg, industrial).
 
@@ -30101,6 +30150,7 @@ holds(s_18390_jpg, building).
 holds(s_18390_jpg, feature).
 holds(s_18390_jpg, cafe).
 holds(s_18390_jpg, window).
+holds(s_18390_jpg, table).
 holds(s_18390_jpg, vendingmachine).
 holds(s_18390_jpg, pipe).
 holds(s_18390_jpg, commercial).
@@ -30120,7 +30170,6 @@ sample(s_18392_jpg).
 holds(s_18392_jpg, building).
 holds(s_18392_jpg, feature).
 holds(s_18392_jpg, miscresidential).
-holds(s_18392_jpg, table).
 holds(s_18392_jpg, tiledroof).
 holds(s_18392_jpg, tiledrooftop).
 holds(s_18392_jpg, residential).
@@ -30133,7 +30182,6 @@ holds(s_18393_jpg, hotel).
 holds(s_18393_jpg, restaurant).
 holds(s_18393_jpg, door).
 holds(s_18393_jpg, sign).
-holds(s_18393_jpg, table).
 holds(s_18393_jpg, vendingmachine).
 holds(s_18393_jpg, wallsign).
 holds(s_18393_jpg, chimney).
@@ -30147,7 +30195,6 @@ holds(s_18394_jpg, miscindustrial).
 holds(s_18394_jpg, watertreatment).
 holds(s_18394_jpg, door).
 holds(s_18394_jpg, window).
-holds(s_18394_jpg, table).
 holds(s_18394_jpg, pipe).
 holds(s_18394_jpg, truck).
 holds(s_18394_jpg, industrial).
@@ -30160,7 +30207,6 @@ holds(s_18395_jpg, miscresidential).
 holds(s_18395_jpg, door).
 holds(s_18395_jpg, window).
 holds(s_18395_jpg, porch).
-holds(s_18395_jpg, table).
 holds(s_18395_jpg, tiledroof).
 holds(s_18395_jpg, tiledrooftop).
 holds(s_18395_jpg, residential).
@@ -30172,6 +30218,7 @@ holds(s_18396_jpg, cafe).
 holds(s_18396_jpg, hotel).
 holds(s_18396_jpg, door).
 holds(s_18396_jpg, window).
+holds(s_18396_jpg, table).
 holds(s_18396_jpg, vendingmachine).
 holds(s_18396_jpg, wallsign).
 holds(s_18396_jpg, statue).
@@ -30221,7 +30268,6 @@ holds(s_18400_jpg, feature).
 holds(s_18400_jpg, powerplant).
 holds(s_18400_jpg, window).
 holds(s_18400_jpg, sign).
-holds(s_18400_jpg, table).
 holds(s_18400_jpg, chimney).
 holds(s_18400_jpg, pipe).
 holds(s_18400_jpg, industrial).
@@ -30236,7 +30282,6 @@ holds(s_18401_jpg, window).
 holds(s_18401_jpg, awning).
 holds(s_18401_jpg, porch).
 holds(s_18401_jpg, sign).
-holds(s_18401_jpg, table).
 holds(s_18401_jpg, tiledroof).
 holds(s_18401_jpg, tiledrooftop).
 holds(s_18401_jpg, residential).
@@ -30263,6 +30308,7 @@ holds(s_18403_jpg, miscindustrial).
 holds(s_18403_jpg, watertreatment).
 holds(s_18403_jpg, door).
 holds(s_18403_jpg, window).
+holds(s_18403_jpg, table).
 holds(s_18403_jpg, pipe).
 holds(s_18403_jpg, truck).
 holds(s_18403_jpg, industrial).
@@ -30274,6 +30320,7 @@ holds(s_18404_jpg, suburban).
 holds(s_18404_jpg, window).
 holds(s_18404_jpg, awning).
 holds(s_18404_jpg, porch).
+holds(s_18404_jpg, table).
 holds(s_18404_jpg, residential).
 
 sample(s_18405_jpg).
@@ -30294,6 +30341,7 @@ holds(s_18406_jpg, building).
 holds(s_18406_jpg, feature).
 holds(s_18406_jpg, powerplant).
 holds(s_18406_jpg, window).
+holds(s_18406_jpg, table).
 holds(s_18406_jpg, chimney).
 holds(s_18406_jpg, pipe).
 holds(s_18406_jpg, car).
@@ -30308,6 +30356,7 @@ holds(s_18407_jpg, door).
 holds(s_18407_jpg, window).
 holds(s_18407_jpg, awning).
 holds(s_18407_jpg, porch).
+holds(s_18407_jpg, table).
 holds(s_18407_jpg, tiledroof).
 holds(s_18407_jpg, tiledrooftop).
 holds(s_18407_jpg, residential).
@@ -30322,6 +30371,7 @@ holds(s_18408_jpg, misccommercial).
 holds(s_18408_jpg, window).
 holds(s_18408_jpg, awning).
 holds(s_18408_jpg, billboard).
+holds(s_18408_jpg, table).
 holds(s_18408_jpg, wallsign).
 holds(s_18408_jpg, statue).
 holds(s_18408_jpg, pipe).
@@ -30336,7 +30386,6 @@ holds(s_18409_jpg, powerplant).
 holds(s_18409_jpg, door).
 holds(s_18409_jpg, window).
 holds(s_18409_jpg, awning).
-holds(s_18409_jpg, table).
 holds(s_18409_jpg, chimney).
 holds(s_18409_jpg, pipe).
 holds(s_18409_jpg, machine).
@@ -30350,7 +30399,6 @@ holds(s_18410_jpg, miscresidential).
 holds(s_18410_jpg, door).
 holds(s_18410_jpg, awning).
 holds(s_18410_jpg, porch).
-holds(s_18410_jpg, table).
 holds(s_18410_jpg, tiledroof).
 holds(s_18410_jpg, tiledrooftop).
 holds(s_18410_jpg, truck).
@@ -30367,7 +30415,6 @@ holds(s_18411_jpg, door).
 holds(s_18411_jpg, window).
 holds(s_18411_jpg, awning).
 holds(s_18411_jpg, sign).
-holds(s_18411_jpg, table).
 holds(s_18411_jpg, tiledroof).
 holds(s_18411_jpg, tiledrooftop).
 holds(s_18411_jpg, vendingmachine).
@@ -30383,6 +30430,7 @@ holds(s_18412_jpg, miscindustrial).
 holds(s_18412_jpg, powerplant).
 holds(s_18412_jpg, watertreatment).
 holds(s_18412_jpg, window).
+holds(s_18412_jpg, table).
 holds(s_18412_jpg, chimney).
 holds(s_18412_jpg, pipe).
 holds(s_18412_jpg, truck).
@@ -30396,6 +30444,7 @@ holds(s_18413_jpg, miscresidential).
 holds(s_18413_jpg, door).
 holds(s_18413_jpg, window).
 holds(s_18413_jpg, porch).
+holds(s_18413_jpg, table).
 holds(s_18413_jpg, tiledroof).
 holds(s_18413_jpg, tiledrooftop).
 holds(s_18413_jpg, residential).
@@ -30436,7 +30485,6 @@ holds(s_18416_jpg, countryhouse).
 holds(s_18416_jpg, door).
 holds(s_18416_jpg, awning).
 holds(s_18416_jpg, porch).
-holds(s_18416_jpg, table).
 holds(s_18416_jpg, tiledroof).
 holds(s_18416_jpg, tiledrooftop).
 holds(s_18416_jpg, car).
@@ -30449,6 +30497,7 @@ holds(s_18417_jpg, cafe).
 holds(s_18417_jpg, hotel).
 holds(s_18417_jpg, door).
 holds(s_18417_jpg, sign).
+holds(s_18417_jpg, table).
 holds(s_18417_jpg, vendingmachine).
 holds(s_18417_jpg, wallsign).
 holds(s_18417_jpg, commercial).
@@ -30484,7 +30533,6 @@ holds(s_18420_jpg, door).
 holds(s_18420_jpg, awning).
 holds(s_18420_jpg, billboard).
 holds(s_18420_jpg, sign).
-holds(s_18420_jpg, table).
 holds(s_18420_jpg, truck).
 holds(s_18420_jpg, commercial).
 
@@ -30545,6 +30593,7 @@ holds(s_18425_jpg, window).
 holds(s_18425_jpg, awning).
 holds(s_18425_jpg, porch).
 holds(s_18425_jpg, sign).
+holds(s_18425_jpg, table).
 holds(s_18425_jpg, residential).
 
 sample(s_18426_jpg).
@@ -30597,7 +30646,6 @@ holds(s_18429_jpg, hotel).
 holds(s_18429_jpg, misccommercial).
 holds(s_18429_jpg, window).
 holds(s_18429_jpg, awning).
-holds(s_18429_jpg, table).
 holds(s_18429_jpg, wallsign).
 holds(s_18429_jpg, chimney).
 holds(s_18429_jpg, commercial).
@@ -30609,7 +30657,6 @@ holds(s_18430_jpg, powerplant).
 holds(s_18430_jpg, watertreatment).
 holds(s_18430_jpg, window).
 holds(s_18430_jpg, awning).
-holds(s_18430_jpg, table).
 holds(s_18430_jpg, chimney).
 holds(s_18430_jpg, pipe).
 holds(s_18430_jpg, truck).
@@ -30624,7 +30671,6 @@ holds(s_18431_jpg, countryhouse).
 holds(s_18431_jpg, door).
 holds(s_18431_jpg, window).
 holds(s_18431_jpg, porch).
-holds(s_18431_jpg, table).
 holds(s_18431_jpg, tiledroof).
 holds(s_18431_jpg, tiledrooftop).
 holds(s_18431_jpg, car).
@@ -30638,7 +30684,6 @@ holds(s_18432_jpg, misccommercial).
 holds(s_18432_jpg, door).
 holds(s_18432_jpg, window).
 holds(s_18432_jpg, awning).
-holds(s_18432_jpg, table).
 holds(s_18432_jpg, tiledroof).
 holds(s_18432_jpg, tiledrooftop).
 holds(s_18432_jpg, wallsign).
@@ -30652,7 +30697,6 @@ holds(s_18433_jpg, feature).
 holds(s_18433_jpg, constructionsite).
 holds(s_18433_jpg, powerplant).
 holds(s_18433_jpg, window).
-holds(s_18433_jpg, table).
 holds(s_18433_jpg, chimney).
 holds(s_18433_jpg, pipe).
 holds(s_18433_jpg, machine).
@@ -30685,7 +30729,6 @@ holds(s_18436_jpg, powerplant).
 holds(s_18436_jpg, watertreatment).
 holds(s_18436_jpg, door).
 holds(s_18436_jpg, window).
-holds(s_18436_jpg, table).
 holds(s_18436_jpg, chimney).
 holds(s_18436_jpg, pipe).
 holds(s_18436_jpg, truck).
@@ -30709,7 +30752,6 @@ holds(s_18438_jpg, door).
 holds(s_18438_jpg, window).
 holds(s_18438_jpg, awning).
 holds(s_18438_jpg, sign).
-holds(s_18438_jpg, table).
 holds(s_18438_jpg, vendingmachine).
 holds(s_18438_jpg, truck).
 holds(s_18438_jpg, commercial).
@@ -30809,6 +30851,7 @@ holds(s_18446_jpg, suburban).
 holds(s_18446_jpg, window).
 holds(s_18446_jpg, porch).
 holds(s_18446_jpg, sign).
+holds(s_18446_jpg, table).
 holds(s_18446_jpg, residential).
 
 sample(s_18447_jpg).
@@ -30835,7 +30878,6 @@ holds(s_18448_jpg, feature).
 holds(s_18448_jpg, powerplant).
 holds(s_18448_jpg, door).
 holds(s_18448_jpg, window).
-holds(s_18448_jpg, table).
 holds(s_18448_jpg, chimney).
 holds(s_18448_jpg, pipe).
 holds(s_18448_jpg, industrial).
@@ -30845,7 +30887,6 @@ holds(s_18449_jpg, building).
 holds(s_18449_jpg, feature).
 holds(s_18449_jpg, suburban).
 holds(s_18449_jpg, porch).
-holds(s_18449_jpg, table).
 holds(s_18449_jpg, truck).
 holds(s_18449_jpg, residential).
 
@@ -30893,7 +30934,6 @@ holds(s_18453_jpg, door).
 holds(s_18453_jpg, window).
 holds(s_18453_jpg, billboard).
 holds(s_18453_jpg, sign).
-holds(s_18453_jpg, table).
 holds(s_18453_jpg, vendingmachine).
 holds(s_18453_jpg, wallsign).
 holds(s_18453_jpg, truck).
@@ -30934,6 +30974,7 @@ holds(s_18456_jpg, window).
 holds(s_18456_jpg, awning).
 holds(s_18456_jpg, billboard).
 holds(s_18456_jpg, sign).
+holds(s_18456_jpg, table).
 holds(s_18456_jpg, vendingmachine).
 holds(s_18456_jpg, wallsign).
 holds(s_18456_jpg, statue).
@@ -30946,6 +30987,7 @@ holds(s_18457_jpg, feature).
 holds(s_18457_jpg, constructionsite).
 holds(s_18457_jpg, door).
 holds(s_18457_jpg, sign).
+holds(s_18457_jpg, table).
 holds(s_18457_jpg, chimney).
 holds(s_18457_jpg, machine).
 holds(s_18457_jpg, industrial).
@@ -30987,6 +31029,7 @@ holds(s_18460_jpg, watertreatment).
 holds(s_18460_jpg, door).
 holds(s_18460_jpg, window).
 holds(s_18460_jpg, awning).
+holds(s_18460_jpg, table).
 holds(s_18460_jpg, pipe).
 holds(s_18460_jpg, truck).
 holds(s_18460_jpg, industrial).
@@ -31027,7 +31070,6 @@ holds(s_18463_jpg, building).
 holds(s_18463_jpg, feature).
 holds(s_18463_jpg, miscindustrial).
 holds(s_18463_jpg, window).
-holds(s_18463_jpg, table).
 holds(s_18463_jpg, truck).
 holds(s_18463_jpg, industrial).
 
@@ -31068,7 +31110,6 @@ holds(s_18466_jpg, constructionsite).
 holds(s_18466_jpg, door).
 holds(s_18466_jpg, window).
 holds(s_18466_jpg, sign).
-holds(s_18466_jpg, table).
 holds(s_18466_jpg, pipe).
 holds(s_18466_jpg, machine).
 holds(s_18466_jpg, industrial).
@@ -31079,6 +31120,7 @@ holds(s_18467_jpg, feature).
 holds(s_18467_jpg, suburban).
 holds(s_18467_jpg, miscresidential).
 holds(s_18467_jpg, porch).
+holds(s_18467_jpg, table).
 holds(s_18467_jpg, tiledroof).
 holds(s_18467_jpg, tiledrooftop).
 holds(s_18467_jpg, residential).
@@ -31092,6 +31134,7 @@ holds(s_18468_jpg, store).
 holds(s_18468_jpg, window).
 holds(s_18468_jpg, billboard).
 holds(s_18468_jpg, sign).
+holds(s_18468_jpg, table).
 holds(s_18468_jpg, wallsign).
 holds(s_18468_jpg, car).
 holds(s_18468_jpg, commercial).
@@ -31149,7 +31192,6 @@ holds(s_18473_jpg, feature).
 holds(s_18473_jpg, suburban).
 holds(s_18473_jpg, door).
 holds(s_18473_jpg, porch).
-holds(s_18473_jpg, table).
 holds(s_18473_jpg, residential).
 
 sample(s_18474_jpg).
@@ -31164,6 +31206,7 @@ holds(s_18474_jpg, window).
 holds(s_18474_jpg, awning).
 holds(s_18474_jpg, billboard).
 holds(s_18474_jpg, sign).
+holds(s_18474_jpg, table).
 holds(s_18474_jpg, vendingmachine).
 holds(s_18474_jpg, wallsign).
 holds(s_18474_jpg, statue).
@@ -31175,7 +31218,6 @@ holds(s_18475_jpg, building).
 holds(s_18475_jpg, feature).
 holds(s_18475_jpg, miscindustrial).
 holds(s_18475_jpg, window).
-holds(s_18475_jpg, table).
 holds(s_18475_jpg, truck).
 holds(s_18475_jpg, industrial).
 
@@ -31199,7 +31241,6 @@ holds(s_18477_jpg, misccommercial).
 holds(s_18477_jpg, door).
 holds(s_18477_jpg, awning).
 holds(s_18477_jpg, billboard).
-holds(s_18477_jpg, table).
 holds(s_18477_jpg, tiledroof).
 holds(s_18477_jpg, tiledrooftop).
 holds(s_18477_jpg, wallsign).
@@ -31262,7 +31303,6 @@ holds(s_18482_jpg, miscresidential).
 holds(s_18482_jpg, countryhouse).
 holds(s_18482_jpg, window).
 holds(s_18482_jpg, awning).
-holds(s_18482_jpg, table).
 holds(s_18482_jpg, tiledroof).
 holds(s_18482_jpg, tiledrooftop).
 holds(s_18482_jpg, car).
@@ -31281,6 +31321,7 @@ holds(s_18483_jpg, window).
 holds(s_18483_jpg, awning).
 holds(s_18483_jpg, billboard).
 holds(s_18483_jpg, sign).
+holds(s_18483_jpg, table).
 holds(s_18483_jpg, vendingmachine).
 holds(s_18483_jpg, wallsign).
 holds(s_18483_jpg, truck).
@@ -31293,7 +31334,6 @@ holds(s_18484_jpg, miscindustrial).
 holds(s_18484_jpg, powerplant).
 holds(s_18484_jpg, watertreatment).
 holds(s_18484_jpg, window).
-holds(s_18484_jpg, table).
 holds(s_18484_jpg, chimney).
 holds(s_18484_jpg, pipe).
 holds(s_18484_jpg, truck).
@@ -31307,6 +31347,7 @@ holds(s_18485_jpg, countryhouse).
 holds(s_18485_jpg, door).
 holds(s_18485_jpg, window).
 holds(s_18485_jpg, awning).
+holds(s_18485_jpg, table).
 holds(s_18485_jpg, tiledroof).
 holds(s_18485_jpg, tiledrooftop).
 holds(s_18485_jpg, car).
@@ -31321,6 +31362,7 @@ holds(s_18486_jpg, door).
 holds(s_18486_jpg, window).
 holds(s_18486_jpg, billboard).
 holds(s_18486_jpg, sign).
+holds(s_18486_jpg, table).
 holds(s_18486_jpg, car).
 holds(s_18486_jpg, commercial).
 
@@ -31342,6 +31384,7 @@ holds(s_18488_jpg, suburban).
 holds(s_18488_jpg, miscresidential).
 holds(s_18488_jpg, countryhouse).
 holds(s_18488_jpg, porch).
+holds(s_18488_jpg, table).
 holds(s_18488_jpg, tiledroof).
 holds(s_18488_jpg, tiledrooftop).
 holds(s_18488_jpg, car).
@@ -31379,7 +31422,6 @@ holds(s_18491_jpg, countryhouse).
 holds(s_18491_jpg, door).
 holds(s_18491_jpg, window).
 holds(s_18491_jpg, porch).
-holds(s_18491_jpg, table).
 holds(s_18491_jpg, tiledroof).
 holds(s_18491_jpg, tiledrooftop).
 holds(s_18491_jpg, car).
@@ -31394,6 +31436,7 @@ holds(s_18492_jpg, store).
 holds(s_18492_jpg, window).
 holds(s_18492_jpg, billboard).
 holds(s_18492_jpg, sign).
+holds(s_18492_jpg, table).
 holds(s_18492_jpg, vendingmachine).
 holds(s_18492_jpg, car).
 holds(s_18492_jpg, commercial).
@@ -31405,6 +31448,7 @@ holds(s_18493_jpg, miscindustrial).
 holds(s_18493_jpg, powerplant).
 holds(s_18493_jpg, watertreatment).
 holds(s_18493_jpg, door).
+holds(s_18493_jpg, table).
 holds(s_18493_jpg, chimney).
 holds(s_18493_jpg, pipe).
 holds(s_18493_jpg, truck).
@@ -31457,7 +31501,6 @@ holds(s_18497_jpg, miscresidential).
 holds(s_18497_jpg, window).
 holds(s_18497_jpg, porch).
 holds(s_18497_jpg, sign).
-holds(s_18497_jpg, table).
 holds(s_18497_jpg, tiledroof).
 holds(s_18497_jpg, tiledrooftop).
 holds(s_18497_jpg, residential).
@@ -31494,7 +31537,6 @@ holds(s_18500_jpg, miscresidential).
 holds(s_18500_jpg, door).
 holds(s_18500_jpg, window).
 holds(s_18500_jpg, porch).
-holds(s_18500_jpg, table).
 holds(s_18500_jpg, tiledroof).
 holds(s_18500_jpg, tiledrooftop).
 holds(s_18500_jpg, residential).
@@ -31544,6 +31586,7 @@ holds(s_18504_jpg, door).
 holds(s_18504_jpg, window).
 holds(s_18504_jpg, awning).
 holds(s_18504_jpg, sign).
+holds(s_18504_jpg, table).
 holds(s_18504_jpg, wallsign).
 holds(s_18504_jpg, statue).
 holds(s_18504_jpg, commercial).
@@ -31556,7 +31599,6 @@ holds(s_18505_jpg, watertreatment).
 holds(s_18505_jpg, door).
 holds(s_18505_jpg, window).
 holds(s_18505_jpg, awning).
-holds(s_18505_jpg, table).
 holds(s_18505_jpg, chimney).
 holds(s_18505_jpg, pipe).
 holds(s_18505_jpg, truck).
@@ -31582,6 +31624,7 @@ holds(s_18507_jpg, misccommercial).
 holds(s_18507_jpg, window).
 holds(s_18507_jpg, awning).
 holds(s_18507_jpg, billboard).
+holds(s_18507_jpg, table).
 holds(s_18507_jpg, vendingmachine).
 holds(s_18507_jpg, statue).
 holds(s_18507_jpg, pipe).
@@ -31614,6 +31657,7 @@ holds(s_18510_jpg, building).
 holds(s_18510_jpg, feature).
 holds(s_18510_jpg, cafe).
 holds(s_18510_jpg, window).
+holds(s_18510_jpg, table).
 holds(s_18510_jpg, vendingmachine).
 holds(s_18510_jpg, chimney).
 holds(s_18510_jpg, car).
@@ -31648,7 +31692,6 @@ holds(s_18513_jpg, door).
 holds(s_18513_jpg, window).
 holds(s_18513_jpg, awning).
 holds(s_18513_jpg, sign).
-holds(s_18513_jpg, table).
 holds(s_18513_jpg, chimney).
 holds(s_18513_jpg, car).
 holds(s_18513_jpg, commercial).
@@ -31679,6 +31722,7 @@ holds(s_18516_jpg, hotel).
 holds(s_18516_jpg, door).
 holds(s_18516_jpg, window).
 holds(s_18516_jpg, awning).
+holds(s_18516_jpg, table).
 holds(s_18516_jpg, vendingmachine).
 holds(s_18516_jpg, wallsign).
 holds(s_18516_jpg, car).
@@ -31692,6 +31736,7 @@ holds(s_18517_jpg, watertreatment).
 holds(s_18517_jpg, door).
 holds(s_18517_jpg, window).
 holds(s_18517_jpg, awning).
+holds(s_18517_jpg, table).
 holds(s_18517_jpg, chimney).
 holds(s_18517_jpg, pipe).
 holds(s_18517_jpg, truck).
@@ -31730,7 +31775,6 @@ holds(s_18520_jpg, watertreatment).
 holds(s_18520_jpg, door).
 holds(s_18520_jpg, window).
 holds(s_18520_jpg, awning).
-holds(s_18520_jpg, table).
 holds(s_18520_jpg, chimney).
 holds(s_18520_jpg, pipe).
 holds(s_18520_jpg, truck).
@@ -31792,6 +31836,7 @@ holds(s_18525_jpg, window).
 holds(s_18525_jpg, awning).
 holds(s_18525_jpg, billboard).
 holds(s_18525_jpg, sign).
+holds(s_18525_jpg, table).
 holds(s_18525_jpg, wallsign).
 holds(s_18525_jpg, statue).
 holds(s_18525_jpg, commercial).
@@ -31814,7 +31859,6 @@ holds(s_18527_jpg, countryhouse).
 holds(s_18527_jpg, door).
 holds(s_18527_jpg, window).
 holds(s_18527_jpg, porch).
-holds(s_18527_jpg, table).
 holds(s_18527_jpg, tiledroof).
 holds(s_18527_jpg, tiledrooftop).
 holds(s_18527_jpg, car).
@@ -31854,7 +31898,6 @@ holds(s_18530_jpg, door).
 holds(s_18530_jpg, window).
 holds(s_18530_jpg, awning).
 holds(s_18530_jpg, porch).
-holds(s_18530_jpg, table).
 holds(s_18530_jpg, car).
 holds(s_18530_jpg, residential).
 
@@ -31877,6 +31920,7 @@ holds(s_18532_jpg, miscindustrial).
 holds(s_18532_jpg, powerplant).
 holds(s_18532_jpg, watertreatment).
 holds(s_18532_jpg, window).
+holds(s_18532_jpg, table).
 holds(s_18532_jpg, chimney).
 holds(s_18532_jpg, pipe).
 holds(s_18532_jpg, truck).
@@ -31917,7 +31961,6 @@ holds(s_18535_jpg, feature).
 holds(s_18535_jpg, constructionsite).
 holds(s_18535_jpg, powerplant).
 holds(s_18535_jpg, window).
-holds(s_18535_jpg, table).
 holds(s_18535_jpg, chimney).
 holds(s_18535_jpg, pipe).
 holds(s_18535_jpg, machine).
@@ -31930,7 +31973,6 @@ holds(s_18536_jpg, miscresidential).
 holds(s_18536_jpg, countryhouse).
 holds(s_18536_jpg, door).
 holds(s_18536_jpg, awning).
-holds(s_18536_jpg, table).
 holds(s_18536_jpg, tiledroof).
 holds(s_18536_jpg, tiledrooftop).
 holds(s_18536_jpg, car).
@@ -31943,7 +31985,6 @@ holds(s_18537_jpg, hotel).
 holds(s_18537_jpg, window).
 holds(s_18537_jpg, awning).
 holds(s_18537_jpg, sign).
-holds(s_18537_jpg, table).
 holds(s_18537_jpg, wallsign).
 holds(s_18537_jpg, commercial).
 
@@ -31966,7 +32007,6 @@ holds(s_18539_jpg, door).
 holds(s_18539_jpg, window).
 holds(s_18539_jpg, awning).
 holds(s_18539_jpg, porch).
-holds(s_18539_jpg, table).
 holds(s_18539_jpg, tiledroof).
 holds(s_18539_jpg, tiledrooftop).
 holds(s_18539_jpg, car).
@@ -31982,6 +32022,7 @@ holds(s_18540_jpg, door).
 holds(s_18540_jpg, window).
 holds(s_18540_jpg, awning).
 holds(s_18540_jpg, sign).
+holds(s_18540_jpg, table).
 holds(s_18540_jpg, vendingmachine).
 holds(s_18540_jpg, wallsign).
 holds(s_18540_jpg, commercial).
@@ -31994,6 +32035,7 @@ holds(s_18541_jpg, powerplant).
 holds(s_18541_jpg, door).
 holds(s_18541_jpg, awning).
 holds(s_18541_jpg, sign).
+holds(s_18541_jpg, table).
 holds(s_18541_jpg, chimney).
 holds(s_18541_jpg, pipe).
 holds(s_18541_jpg, machine).
@@ -32030,7 +32072,6 @@ holds(s_18544_jpg, constructionsite).
 holds(s_18544_jpg, powerplant).
 holds(s_18544_jpg, door).
 holds(s_18544_jpg, window).
-holds(s_18544_jpg, table).
 holds(s_18544_jpg, chimney).
 holds(s_18544_jpg, pipe).
 holds(s_18544_jpg, machine).
@@ -32091,7 +32132,6 @@ holds(s_18549_jpg, door).
 holds(s_18549_jpg, window).
 holds(s_18549_jpg, awning).
 holds(s_18549_jpg, billboard).
-holds(s_18549_jpg, table).
 holds(s_18549_jpg, vendingmachine).
 holds(s_18549_jpg, statue).
 holds(s_18549_jpg, truck).
@@ -32104,6 +32144,7 @@ holds(s_18550_jpg, constructionsite).
 holds(s_18550_jpg, powerplant).
 holds(s_18550_jpg, door).
 holds(s_18550_jpg, window).
+holds(s_18550_jpg, table).
 holds(s_18550_jpg, chimney).
 holds(s_18550_jpg, pipe).
 holds(s_18550_jpg, machine).
@@ -32154,7 +32195,6 @@ holds(s_18554_jpg, miscresidential).
 holds(s_18554_jpg, door).
 holds(s_18554_jpg, awning).
 holds(s_18554_jpg, porch).
-holds(s_18554_jpg, table).
 holds(s_18554_jpg, tiledroof).
 holds(s_18554_jpg, tiledrooftop).
 holds(s_18554_jpg, truck).
@@ -32181,7 +32221,6 @@ holds(s_18556_jpg, miscindustrial).
 holds(s_18556_jpg, powerplant).
 holds(s_18556_jpg, watertreatment).
 holds(s_18556_jpg, door).
-holds(s_18556_jpg, table).
 holds(s_18556_jpg, chimney).
 holds(s_18556_jpg, pipe).
 holds(s_18556_jpg, truck).
@@ -32195,6 +32234,7 @@ holds(s_18557_jpg, miscresidential).
 holds(s_18557_jpg, countryhouse).
 holds(s_18557_jpg, window).
 holds(s_18557_jpg, porch).
+holds(s_18557_jpg, table).
 holds(s_18557_jpg, tiledroof).
 holds(s_18557_jpg, tiledrooftop).
 holds(s_18557_jpg, car).
@@ -32212,7 +32252,6 @@ holds(s_18558_jpg, window).
 holds(s_18558_jpg, awning).
 holds(s_18558_jpg, billboard).
 holds(s_18558_jpg, sign).
-holds(s_18558_jpg, table).
 holds(s_18558_jpg, wallsign).
 holds(s_18558_jpg, car).
 holds(s_18558_jpg, commercial).
@@ -32222,6 +32261,7 @@ holds(s_18559_jpg, building).
 holds(s_18559_jpg, feature).
 holds(s_18559_jpg, constructionsite).
 holds(s_18559_jpg, window).
+holds(s_18559_jpg, table).
 holds(s_18559_jpg, pipe).
 holds(s_18559_jpg, machine).
 holds(s_18559_jpg, industrial).
@@ -32249,7 +32289,6 @@ holds(s_18561_jpg, window).
 holds(s_18561_jpg, awning).
 holds(s_18561_jpg, billboard).
 holds(s_18561_jpg, sign).
-holds(s_18561_jpg, table).
 holds(s_18561_jpg, wallsign).
 holds(s_18561_jpg, pipe).
 holds(s_18561_jpg, commercial).
@@ -32259,6 +32298,7 @@ holds(s_18562_jpg, building).
 holds(s_18562_jpg, feature).
 holds(s_18562_jpg, miscindustrial).
 holds(s_18562_jpg, door).
+holds(s_18562_jpg, table).
 holds(s_18562_jpg, truck).
 holds(s_18562_jpg, industrial).
 
@@ -32269,7 +32309,6 @@ holds(s_18563_jpg, suburban).
 holds(s_18563_jpg, door).
 holds(s_18563_jpg, awning).
 holds(s_18563_jpg, porch).
-holds(s_18563_jpg, table).
 holds(s_18563_jpg, residential).
 
 sample(s_18564_jpg).
@@ -32283,7 +32322,6 @@ holds(s_18564_jpg, door).
 holds(s_18564_jpg, awning).
 holds(s_18564_jpg, billboard).
 holds(s_18564_jpg, sign).
-holds(s_18564_jpg, table).
 holds(s_18564_jpg, vendingmachine).
 holds(s_18564_jpg, truck).
 holds(s_18564_jpg, commercial).
@@ -32296,7 +32334,6 @@ holds(s_18565_jpg, powerplant).
 holds(s_18565_jpg, watertreatment).
 holds(s_18565_jpg, door).
 holds(s_18565_jpg, window).
-holds(s_18565_jpg, table).
 holds(s_18565_jpg, chimney).
 holds(s_18565_jpg, pipe).
 holds(s_18565_jpg, truck).
@@ -32324,7 +32361,6 @@ holds(s_18567_jpg, misccommercial).
 holds(s_18567_jpg, door).
 holds(s_18567_jpg, awning).
 holds(s_18567_jpg, sign).
-holds(s_18567_jpg, table).
 holds(s_18567_jpg, vendingmachine).
 holds(s_18567_jpg, commercial).
 
@@ -32342,7 +32378,6 @@ holds(s_18569_jpg, feature).
 holds(s_18569_jpg, suburban).
 holds(s_18569_jpg, miscresidential).
 holds(s_18569_jpg, porch).
-holds(s_18569_jpg, table).
 holds(s_18569_jpg, tiledroof).
 holds(s_18569_jpg, tiledrooftop).
 holds(s_18569_jpg, residential).
@@ -32356,7 +32391,6 @@ holds(s_18570_jpg, store).
 holds(s_18570_jpg, door).
 holds(s_18570_jpg, awning).
 holds(s_18570_jpg, billboard).
-holds(s_18570_jpg, table).
 holds(s_18570_jpg, vendingmachine).
 holds(s_18570_jpg, wallsign).
 holds(s_18570_jpg, statue).
@@ -32367,7 +32401,6 @@ holds(s_18571_jpg, building).
 holds(s_18571_jpg, feature).
 holds(s_18571_jpg, powerplant).
 holds(s_18571_jpg, door).
-holds(s_18571_jpg, table).
 holds(s_18571_jpg, chimney).
 holds(s_18571_jpg, pipe).
 holds(s_18571_jpg, car).
@@ -32405,7 +32438,6 @@ holds(s_18574_jpg, feature).
 holds(s_18574_jpg, constructionsite).
 holds(s_18574_jpg, window).
 holds(s_18574_jpg, awning).
-holds(s_18574_jpg, table).
 holds(s_18574_jpg, chimney).
 holds(s_18574_jpg, machine).
 holds(s_18574_jpg, industrial).
@@ -32429,7 +32461,6 @@ holds(s_18576_jpg, hotel).
 holds(s_18576_jpg, store).
 holds(s_18576_jpg, billboard).
 holds(s_18576_jpg, sign).
-holds(s_18576_jpg, table).
 holds(s_18576_jpg, wallsign).
 holds(s_18576_jpg, chimney).
 holds(s_18576_jpg, commercial).
@@ -32439,6 +32470,7 @@ holds(s_18577_jpg, building).
 holds(s_18577_jpg, feature).
 holds(s_18577_jpg, miscindustrial).
 holds(s_18577_jpg, door).
+holds(s_18577_jpg, table).
 holds(s_18577_jpg, chimney).
 holds(s_18577_jpg, truck).
 holds(s_18577_jpg, industrial).
@@ -32448,7 +32480,6 @@ holds(s_18578_jpg, building).
 holds(s_18578_jpg, feature).
 holds(s_18578_jpg, miscresidential).
 holds(s_18578_jpg, window).
-holds(s_18578_jpg, table).
 holds(s_18578_jpg, tiledroof).
 holds(s_18578_jpg, tiledrooftop).
 holds(s_18578_jpg, residential).
@@ -32481,7 +32512,6 @@ holds(s_18581_jpg, feature).
 holds(s_18581_jpg, suburban).
 holds(s_18581_jpg, window).
 holds(s_18581_jpg, porch).
-holds(s_18581_jpg, table).
 holds(s_18581_jpg, residential).
 
 sample(s_18582_jpg).
@@ -32577,6 +32607,7 @@ holds(s_18589_jpg, building).
 holds(s_18589_jpg, feature).
 holds(s_18589_jpg, miscindustrial).
 holds(s_18589_jpg, window).
+holds(s_18589_jpg, table).
 holds(s_18589_jpg, truck).
 holds(s_18589_jpg, industrial).
 
@@ -32656,7 +32687,6 @@ holds(s_18595_jpg, constructionsite).
 holds(s_18595_jpg, window).
 holds(s_18595_jpg, awning).
 holds(s_18595_jpg, sign).
-holds(s_18595_jpg, table).
 holds(s_18595_jpg, chimney).
 holds(s_18595_jpg, machine).
 holds(s_18595_jpg, industrial).
@@ -32692,6 +32722,7 @@ holds(s_18598_jpg, powerplant).
 holds(s_18598_jpg, watertreatment).
 holds(s_18598_jpg, door).
 holds(s_18598_jpg, window).
+holds(s_18598_jpg, table).
 holds(s_18598_jpg, chimney).
 holds(s_18598_jpg, pipe).
 holds(s_18598_jpg, truck).
@@ -32705,7 +32736,6 @@ holds(s_18599_jpg, door).
 holds(s_18599_jpg, window).
 holds(s_18599_jpg, awning).
 holds(s_18599_jpg, porch).
-holds(s_18599_jpg, table).
 holds(s_18599_jpg, residential).
 
 sample(s_18600_jpg).
@@ -32716,6 +32746,7 @@ holds(s_18600_jpg, store).
 holds(s_18600_jpg, door).
 holds(s_18600_jpg, window).
 holds(s_18600_jpg, billboard).
+holds(s_18600_jpg, table).
 holds(s_18600_jpg, wallsign).
 holds(s_18600_jpg, truck).
 holds(s_18600_jpg, commercial).
@@ -32726,7 +32757,6 @@ holds(s_18601_jpg, feature).
 holds(s_18601_jpg, miscindustrial).
 holds(s_18601_jpg, powerplant).
 holds(s_18601_jpg, watertreatment).
-holds(s_18601_jpg, table).
 holds(s_18601_jpg, chimney).
 holds(s_18601_jpg, pipe).
 holds(s_18601_jpg, truck).
@@ -32778,7 +32808,6 @@ holds(s_18605_jpg, door).
 holds(s_18605_jpg, window).
 holds(s_18605_jpg, awning).
 holds(s_18605_jpg, porch).
-holds(s_18605_jpg, table).
 holds(s_18605_jpg, car).
 holds(s_18605_jpg, residential).
 
@@ -32802,7 +32831,6 @@ holds(s_18607_jpg, feature).
 holds(s_18607_jpg, constructionsite).
 holds(s_18607_jpg, door).
 holds(s_18607_jpg, window).
-holds(s_18607_jpg, table).
 holds(s_18607_jpg, pipe).
 holds(s_18607_jpg, machine).
 holds(s_18607_jpg, industrial).
@@ -32816,7 +32844,6 @@ holds(s_18608_jpg, countryhouse).
 holds(s_18608_jpg, door).
 holds(s_18608_jpg, window).
 holds(s_18608_jpg, porch).
-holds(s_18608_jpg, table).
 holds(s_18608_jpg, tiledroof).
 holds(s_18608_jpg, tiledrooftop).
 holds(s_18608_jpg, car).
@@ -32831,6 +32858,7 @@ holds(s_18609_jpg, window).
 holds(s_18609_jpg, awning).
 holds(s_18609_jpg, billboard).
 holds(s_18609_jpg, sign).
+holds(s_18609_jpg, table).
 holds(s_18609_jpg, commercial).
 
 sample(s_18610_jpg).
@@ -32891,7 +32919,6 @@ holds(s_18614_jpg, suburban).
 holds(s_18614_jpg, miscresidential).
 holds(s_18614_jpg, door).
 holds(s_18614_jpg, porch).
-holds(s_18614_jpg, table).
 holds(s_18614_jpg, tiledroof).
 holds(s_18614_jpg, tiledrooftop).
 holds(s_18614_jpg, residential).
@@ -32916,6 +32943,7 @@ holds(s_18616_jpg, powerplant).
 holds(s_18616_jpg, watertreatment).
 holds(s_18616_jpg, door).
 holds(s_18616_jpg, window).
+holds(s_18616_jpg, table).
 holds(s_18616_jpg, chimney).
 holds(s_18616_jpg, pipe).
 holds(s_18616_jpg, truck).
@@ -32945,7 +32973,6 @@ holds(s_18618_jpg, door).
 holds(s_18618_jpg, window).
 holds(s_18618_jpg, billboard).
 holds(s_18618_jpg, sign).
-holds(s_18618_jpg, table).
 holds(s_18618_jpg, wallsign).
 holds(s_18618_jpg, statue).
 holds(s_18618_jpg, pipe).
@@ -32957,6 +32984,7 @@ holds(s_18619_jpg, building).
 holds(s_18619_jpg, feature).
 holds(s_18619_jpg, miscindustrial).
 holds(s_18619_jpg, door).
+holds(s_18619_jpg, table).
 holds(s_18619_jpg, truck).
 holds(s_18619_jpg, industrial).
 
@@ -32994,6 +33022,7 @@ holds(s_18622_jpg, constructionsite).
 holds(s_18622_jpg, door).
 holds(s_18622_jpg, window).
 holds(s_18622_jpg, awning).
+holds(s_18622_jpg, table).
 holds(s_18622_jpg, machine).
 holds(s_18622_jpg, industrial).
 
@@ -33022,7 +33051,6 @@ holds(s_18624_jpg, door).
 holds(s_18624_jpg, window).
 holds(s_18624_jpg, awning).
 holds(s_18624_jpg, sign).
-holds(s_18624_jpg, table).
 holds(s_18624_jpg, vendingmachine).
 holds(s_18624_jpg, wallsign).
 holds(s_18624_jpg, truck).
@@ -33035,7 +33063,6 @@ holds(s_18625_jpg, miscindustrial).
 holds(s_18625_jpg, powerplant).
 holds(s_18625_jpg, watertreatment).
 holds(s_18625_jpg, door).
-holds(s_18625_jpg, table).
 holds(s_18625_jpg, chimney).
 holds(s_18625_jpg, pipe).
 holds(s_18625_jpg, truck).
@@ -33048,6 +33075,7 @@ holds(s_18626_jpg, suburban).
 holds(s_18626_jpg, door).
 holds(s_18626_jpg, window).
 holds(s_18626_jpg, porch).
+holds(s_18626_jpg, table).
 holds(s_18626_jpg, residential).
 
 sample(s_18627_jpg).
@@ -33059,7 +33087,6 @@ holds(s_18627_jpg, misccommercial).
 holds(s_18627_jpg, window).
 holds(s_18627_jpg, awning).
 holds(s_18627_jpg, sign).
-holds(s_18627_jpg, table).
 holds(s_18627_jpg, vendingmachine).
 holds(s_18627_jpg, statue).
 holds(s_18627_jpg, car).
@@ -33087,6 +33114,7 @@ holds(s_18629_jpg, door).
 holds(s_18629_jpg, window).
 holds(s_18629_jpg, awning).
 holds(s_18629_jpg, porch).
+holds(s_18629_jpg, table).
 holds(s_18629_jpg, tiledroof).
 holds(s_18629_jpg, tiledrooftop).
 holds(s_18629_jpg, car).
@@ -33104,7 +33132,6 @@ holds(s_18630_jpg, window).
 holds(s_18630_jpg, awning).
 holds(s_18630_jpg, billboard).
 holds(s_18630_jpg, sign).
-holds(s_18630_jpg, table).
 holds(s_18630_jpg, vendingmachine).
 holds(s_18630_jpg, wallsign).
 holds(s_18630_jpg, commercial).
@@ -33113,7 +33140,6 @@ sample(s_18631_jpg).
 holds(s_18631_jpg, building).
 holds(s_18631_jpg, feature).
 holds(s_18631_jpg, miscindustrial).
-holds(s_18631_jpg, table).
 holds(s_18631_jpg, chimney).
 holds(s_18631_jpg, truck).
 holds(s_18631_jpg, industrial).
@@ -33141,6 +33167,7 @@ holds(s_18633_jpg, window).
 holds(s_18633_jpg, awning).
 holds(s_18633_jpg, billboard).
 holds(s_18633_jpg, sign).
+holds(s_18633_jpg, table).
 holds(s_18633_jpg, truck).
 holds(s_18633_jpg, commercial).
 
@@ -33152,6 +33179,7 @@ holds(s_18634_jpg, powerplant).
 holds(s_18634_jpg, watertreatment).
 holds(s_18634_jpg, door).
 holds(s_18634_jpg, window).
+holds(s_18634_jpg, table).
 holds(s_18634_jpg, chimney).
 holds(s_18634_jpg, pipe).
 holds(s_18634_jpg, truck).
@@ -33173,7 +33201,6 @@ holds(s_18636_jpg, cafe).
 holds(s_18636_jpg, restaurant).
 holds(s_18636_jpg, door).
 holds(s_18636_jpg, sign).
-holds(s_18636_jpg, table).
 holds(s_18636_jpg, vendingmachine).
 holds(s_18636_jpg, chimney).
 holds(s_18636_jpg, truck).
@@ -33199,6 +33226,7 @@ holds(s_18638_jpg, miscresidential).
 holds(s_18638_jpg, countryhouse).
 holds(s_18638_jpg, window).
 holds(s_18638_jpg, porch).
+holds(s_18638_jpg, table).
 holds(s_18638_jpg, tiledroof).
 holds(s_18638_jpg, tiledrooftop).
 holds(s_18638_jpg, car).
@@ -33241,7 +33269,6 @@ holds(s_18641_jpg, door).
 holds(s_18641_jpg, window).
 holds(s_18641_jpg, awning).
 holds(s_18641_jpg, porch).
-holds(s_18641_jpg, table).
 holds(s_18641_jpg, tiledroof).
 holds(s_18641_jpg, tiledrooftop).
 holds(s_18641_jpg, car).
@@ -33291,7 +33318,6 @@ holds(s_18645_jpg, door).
 holds(s_18645_jpg, window).
 holds(s_18645_jpg, awning).
 holds(s_18645_jpg, billboard).
-holds(s_18645_jpg, table).
 holds(s_18645_jpg, vendingmachine).
 holds(s_18645_jpg, wallsign).
 holds(s_18645_jpg, statue).
@@ -33304,6 +33330,7 @@ holds(s_18646_jpg, feature).
 holds(s_18646_jpg, constructionsite).
 holds(s_18646_jpg, door).
 holds(s_18646_jpg, window).
+holds(s_18646_jpg, table).
 holds(s_18646_jpg, pipe).
 holds(s_18646_jpg, machine).
 holds(s_18646_jpg, industrial).
@@ -33317,7 +33344,6 @@ holds(s_18647_jpg, door).
 holds(s_18647_jpg, window).
 holds(s_18647_jpg, awning).
 holds(s_18647_jpg, porch).
-holds(s_18647_jpg, table).
 holds(s_18647_jpg, tiledroof).
 holds(s_18647_jpg, tiledrooftop).
 holds(s_18647_jpg, truck).
@@ -33342,7 +33368,6 @@ holds(s_18649_jpg, feature).
 holds(s_18649_jpg, constructionsite).
 holds(s_18649_jpg, door).
 holds(s_18649_jpg, window).
-holds(s_18649_jpg, table).
 holds(s_18649_jpg, pipe).
 holds(s_18649_jpg, machine).
 holds(s_18649_jpg, industrial).
@@ -33356,7 +33381,6 @@ holds(s_18650_jpg, door).
 holds(s_18650_jpg, window).
 holds(s_18650_jpg, awning).
 holds(s_18650_jpg, porch).
-holds(s_18650_jpg, table).
 holds(s_18650_jpg, tiledroof).
 holds(s_18650_jpg, tiledrooftop).
 holds(s_18650_jpg, residential).
@@ -33373,6 +33397,7 @@ holds(s_18651_jpg, window).
 holds(s_18651_jpg, awning).
 holds(s_18651_jpg, billboard).
 holds(s_18651_jpg, sign).
+holds(s_18651_jpg, table).
 holds(s_18651_jpg, vendingmachine).
 holds(s_18651_jpg, wallsign).
 holds(s_18651_jpg, truck).
@@ -33397,6 +33422,7 @@ holds(s_18653_jpg, door).
 holds(s_18653_jpg, window).
 holds(s_18653_jpg, awning).
 holds(s_18653_jpg, porch).
+holds(s_18653_jpg, table).
 holds(s_18653_jpg, tiledroof).
 holds(s_18653_jpg, tiledrooftop).
 holds(s_18653_jpg, car).
@@ -33410,7 +33436,6 @@ holds(s_18654_jpg, restaurant).
 holds(s_18654_jpg, store).
 holds(s_18654_jpg, billboard).
 holds(s_18654_jpg, sign).
-holds(s_18654_jpg, table).
 holds(s_18654_jpg, statue).
 holds(s_18654_jpg, truck).
 holds(s_18654_jpg, commercial).
@@ -33488,6 +33513,7 @@ holds(s_18660_jpg, store).
 holds(s_18660_jpg, window).
 holds(s_18660_jpg, billboard).
 holds(s_18660_jpg, sign).
+holds(s_18660_jpg, table).
 holds(s_18660_jpg, wallsign).
 holds(s_18660_jpg, statue).
 holds(s_18660_jpg, commercial).
@@ -33507,6 +33533,7 @@ holds(s_18662_jpg, building).
 holds(s_18662_jpg, feature).
 holds(s_18662_jpg, suburban).
 holds(s_18662_jpg, porch).
+holds(s_18662_jpg, table).
 holds(s_18662_jpg, car).
 holds(s_18662_jpg, residential).
 
@@ -33521,7 +33548,6 @@ holds(s_18663_jpg, window).
 holds(s_18663_jpg, awning).
 holds(s_18663_jpg, billboard).
 holds(s_18663_jpg, sign).
-holds(s_18663_jpg, table).
 holds(s_18663_jpg, vendingmachine).
 holds(s_18663_jpg, wallsign).
 holds(s_18663_jpg, chimney).
@@ -33534,7 +33560,6 @@ holds(s_18664_jpg, feature).
 holds(s_18664_jpg, constructionsite).
 holds(s_18664_jpg, door).
 holds(s_18664_jpg, window).
-holds(s_18664_jpg, table).
 holds(s_18664_jpg, pipe).
 holds(s_18664_jpg, machine).
 holds(s_18664_jpg, industrial).
@@ -33547,7 +33572,6 @@ holds(s_18665_jpg, miscresidential).
 holds(s_18665_jpg, countryhouse).
 holds(s_18665_jpg, door).
 holds(s_18665_jpg, porch).
-holds(s_18665_jpg, table).
 holds(s_18665_jpg, tiledroof).
 holds(s_18665_jpg, tiledrooftop).
 holds(s_18665_jpg, car).
@@ -33560,7 +33584,6 @@ holds(s_18666_jpg, cafe).
 holds(s_18666_jpg, misccommercial).
 holds(s_18666_jpg, door).
 holds(s_18666_jpg, awning).
-holds(s_18666_jpg, table).
 holds(s_18666_jpg, vendingmachine).
 holds(s_18666_jpg, statue).
 holds(s_18666_jpg, pipe).
@@ -33633,6 +33656,7 @@ holds(s_18672_jpg, building).
 holds(s_18672_jpg, feature).
 holds(s_18672_jpg, restaurant).
 holds(s_18672_jpg, sign).
+holds(s_18672_jpg, table).
 holds(s_18672_jpg, chimney).
 holds(s_18672_jpg, truck).
 holds(s_18672_jpg, commercial).
@@ -33654,6 +33678,7 @@ holds(s_18674_jpg, suburban).
 holds(s_18674_jpg, miscresidential).
 holds(s_18674_jpg, countryhouse).
 holds(s_18674_jpg, porch).
+holds(s_18674_jpg, table).
 holds(s_18674_jpg, tiledroof).
 holds(s_18674_jpg, tiledrooftop).
 holds(s_18674_jpg, car).
@@ -33684,6 +33709,7 @@ holds(s_18676_jpg, watertreatment).
 holds(s_18676_jpg, door).
 holds(s_18676_jpg, window).
 holds(s_18676_jpg, awning).
+holds(s_18676_jpg, table).
 holds(s_18676_jpg, pipe).
 holds(s_18676_jpg, truck).
 holds(s_18676_jpg, industrial).
@@ -33708,6 +33734,7 @@ holds(s_18678_jpg, misccommercial).
 holds(s_18678_jpg, door).
 holds(s_18678_jpg, window).
 holds(s_18678_jpg, awning).
+holds(s_18678_jpg, table).
 holds(s_18678_jpg, tiledroof).
 holds(s_18678_jpg, tiledrooftop).
 holds(s_18678_jpg, vendingmachine).
@@ -33731,7 +33758,6 @@ holds(s_18680_jpg, building).
 holds(s_18680_jpg, feature).
 holds(s_18680_jpg, miscresidential).
 holds(s_18680_jpg, countryhouse).
-holds(s_18680_jpg, table).
 holds(s_18680_jpg, tiledroof).
 holds(s_18680_jpg, tiledrooftop).
 holds(s_18680_jpg, car).
@@ -33745,6 +33771,7 @@ holds(s_18681_jpg, restaurant).
 holds(s_18681_jpg, store).
 holds(s_18681_jpg, billboard).
 holds(s_18681_jpg, sign).
+holds(s_18681_jpg, table).
 holds(s_18681_jpg, vendingmachine).
 holds(s_18681_jpg, statue).
 holds(s_18681_jpg, pipe).
@@ -33757,6 +33784,7 @@ holds(s_18682_jpg, feature).
 holds(s_18682_jpg, miscindustrial).
 holds(s_18682_jpg, watertreatment).
 holds(s_18682_jpg, door).
+holds(s_18682_jpg, table).
 holds(s_18682_jpg, pipe).
 holds(s_18682_jpg, truck).
 holds(s_18682_jpg, industrial).
@@ -33770,7 +33798,6 @@ holds(s_18683_jpg, door).
 holds(s_18683_jpg, window).
 holds(s_18683_jpg, awning).
 holds(s_18683_jpg, porch).
-holds(s_18683_jpg, table).
 holds(s_18683_jpg, tiledroof).
 holds(s_18683_jpg, tiledrooftop).
 holds(s_18683_jpg, residential).
@@ -33784,6 +33811,7 @@ holds(s_18684_jpg, store).
 holds(s_18684_jpg, window).
 holds(s_18684_jpg, billboard).
 holds(s_18684_jpg, sign).
+holds(s_18684_jpg, table).
 holds(s_18684_jpg, wallsign).
 holds(s_18684_jpg, statue).
 holds(s_18684_jpg, commercial).
@@ -33795,7 +33823,6 @@ holds(s_18685_jpg, constructionsite).
 holds(s_18685_jpg, door).
 holds(s_18685_jpg, awning).
 holds(s_18685_jpg, sign).
-holds(s_18685_jpg, table).
 holds(s_18685_jpg, chimney).
 holds(s_18685_jpg, machine).
 holds(s_18685_jpg, industrial).
@@ -33835,7 +33862,6 @@ holds(s_18688_jpg, feature).
 holds(s_18688_jpg, miscindustrial).
 holds(s_18688_jpg, watertreatment).
 holds(s_18688_jpg, door).
-holds(s_18688_jpg, table).
 holds(s_18688_jpg, pipe).
 holds(s_18688_jpg, truck).
 holds(s_18688_jpg, industrial).
@@ -33848,6 +33874,7 @@ holds(s_18689_jpg, miscresidential).
 holds(s_18689_jpg, door).
 holds(s_18689_jpg, window).
 holds(s_18689_jpg, porch).
+holds(s_18689_jpg, table).
 holds(s_18689_jpg, tiledroof).
 holds(s_18689_jpg, tiledrooftop).
 holds(s_18689_jpg, residential).
@@ -33904,7 +33931,6 @@ holds(s_18694_jpg, constructionsite).
 holds(s_18694_jpg, door).
 holds(s_18694_jpg, window).
 holds(s_18694_jpg, sign).
-holds(s_18694_jpg, table).
 holds(s_18694_jpg, machine).
 holds(s_18694_jpg, industrial).
 
@@ -33916,6 +33942,7 @@ holds(s_18695_jpg, miscresidential).
 holds(s_18695_jpg, door).
 holds(s_18695_jpg, window).
 holds(s_18695_jpg, porch).
+holds(s_18695_jpg, table).
 holds(s_18695_jpg, tiledroof).
 holds(s_18695_jpg, tiledrooftop).
 holds(s_18695_jpg, residential).
@@ -33938,6 +33965,7 @@ holds(s_18697_jpg, feature).
 holds(s_18697_jpg, watertreatment).
 holds(s_18697_jpg, window).
 holds(s_18697_jpg, awning).
+holds(s_18697_jpg, table).
 holds(s_18697_jpg, pipe).
 holds(s_18697_jpg, truck).
 holds(s_18697_jpg, industrial).
@@ -33949,7 +33977,6 @@ holds(s_18698_jpg, suburban).
 holds(s_18698_jpg, miscresidential).
 holds(s_18698_jpg, door).
 holds(s_18698_jpg, porch).
-holds(s_18698_jpg, table).
 holds(s_18698_jpg, tiledroof).
 holds(s_18698_jpg, tiledrooftop).
 holds(s_18698_jpg, residential).
@@ -33978,6 +34005,7 @@ holds(s_18700_jpg, powerplant).
 holds(s_18700_jpg, watertreatment).
 holds(s_18700_jpg, door).
 holds(s_18700_jpg, awning).
+holds(s_18700_jpg, table).
 holds(s_18700_jpg, chimney).
 holds(s_18700_jpg, pipe).
 holds(s_18700_jpg, truck).
@@ -33990,7 +34018,6 @@ holds(s_18701_jpg, suburban).
 holds(s_18701_jpg, window).
 holds(s_18701_jpg, awning).
 holds(s_18701_jpg, porch).
-holds(s_18701_jpg, table).
 holds(s_18701_jpg, truck).
 holds(s_18701_jpg, residential).
 
@@ -34026,6 +34053,7 @@ holds(s_18704_jpg, door).
 holds(s_18704_jpg, window).
 holds(s_18704_jpg, awning).
 holds(s_18704_jpg, porch).
+holds(s_18704_jpg, table).
 holds(s_18704_jpg, tiledroof).
 holds(s_18704_jpg, tiledrooftop).
 holds(s_18704_jpg, truck).
@@ -34051,7 +34079,6 @@ holds(s_18706_jpg, feature).
 holds(s_18706_jpg, powerplant).
 holds(s_18706_jpg, window).
 holds(s_18706_jpg, sign).
-holds(s_18706_jpg, table).
 holds(s_18706_jpg, chimney).
 holds(s_18706_jpg, pipe).
 holds(s_18706_jpg, industrial).
@@ -34063,7 +34090,6 @@ holds(s_18707_jpg, miscresidential).
 holds(s_18707_jpg, countryhouse).
 holds(s_18707_jpg, door).
 holds(s_18707_jpg, window).
-holds(s_18707_jpg, table).
 holds(s_18707_jpg, tiledroof).
 holds(s_18707_jpg, tiledrooftop).
 holds(s_18707_jpg, car).
@@ -34078,7 +34104,6 @@ holds(s_18708_jpg, restaurant).
 holds(s_18708_jpg, store).
 holds(s_18708_jpg, billboard).
 holds(s_18708_jpg, sign).
-holds(s_18708_jpg, table).
 holds(s_18708_jpg, vendingmachine).
 holds(s_18708_jpg, wallsign).
 holds(s_18708_jpg, car).
@@ -34091,6 +34116,7 @@ holds(s_18709_jpg, miscindustrial).
 holds(s_18709_jpg, powerplant).
 holds(s_18709_jpg, watertreatment).
 holds(s_18709_jpg, window).
+holds(s_18709_jpg, table).
 holds(s_18709_jpg, chimney).
 holds(s_18709_jpg, pipe).
 holds(s_18709_jpg, truck).
@@ -34119,6 +34145,7 @@ holds(s_18711_jpg, door).
 holds(s_18711_jpg, window).
 holds(s_18711_jpg, awning).
 holds(s_18711_jpg, sign).
+holds(s_18711_jpg, table).
 holds(s_18711_jpg, vendingmachine).
 holds(s_18711_jpg, chimney).
 holds(s_18711_jpg, commercial).
@@ -34128,6 +34155,7 @@ holds(s_18712_jpg, building).
 holds(s_18712_jpg, feature).
 holds(s_18712_jpg, constructionsite).
 holds(s_18712_jpg, door).
+holds(s_18712_jpg, table).
 holds(s_18712_jpg, machine).
 holds(s_18712_jpg, industrial).
 
@@ -34163,7 +34191,6 @@ holds(s_18715_jpg, feature).
 holds(s_18715_jpg, powerplant).
 holds(s_18715_jpg, door).
 holds(s_18715_jpg, awning).
-holds(s_18715_jpg, table).
 holds(s_18715_jpg, chimney).
 holds(s_18715_jpg, pipe).
 holds(s_18715_jpg, industrial).
@@ -34173,6 +34200,7 @@ holds(s_18716_jpg, building).
 holds(s_18716_jpg, feature).
 holds(s_18716_jpg, miscresidential).
 holds(s_18716_jpg, countryhouse).
+holds(s_18716_jpg, table).
 holds(s_18716_jpg, tiledroof).
 holds(s_18716_jpg, tiledrooftop).
 holds(s_18716_jpg, car).
@@ -34188,7 +34216,6 @@ holds(s_18717_jpg, misccommercial).
 holds(s_18717_jpg, window).
 holds(s_18717_jpg, awning).
 holds(s_18717_jpg, billboard).
-holds(s_18717_jpg, table).
 holds(s_18717_jpg, tiledroof).
 holds(s_18717_jpg, vendingmachine).
 holds(s_18717_jpg, wallsign).
@@ -34254,7 +34281,6 @@ holds(s_18722_jpg, door).
 holds(s_18722_jpg, window).
 holds(s_18722_jpg, porch).
 holds(s_18722_jpg, sign).
-holds(s_18722_jpg, table).
 holds(s_18722_jpg, tiledroof).
 holds(s_18722_jpg, tiledrooftop).
 holds(s_18722_jpg, residential).
@@ -34269,7 +34295,6 @@ holds(s_18723_jpg, door).
 holds(s_18723_jpg, window).
 holds(s_18723_jpg, awning).
 holds(s_18723_jpg, billboard).
-holds(s_18723_jpg, table).
 holds(s_18723_jpg, wallsign).
 holds(s_18723_jpg, statue).
 holds(s_18723_jpg, commercial).
@@ -34281,6 +34306,7 @@ holds(s_18724_jpg, powerplant).
 holds(s_18724_jpg, door).
 holds(s_18724_jpg, window).
 holds(s_18724_jpg, awning).
+holds(s_18724_jpg, table).
 holds(s_18724_jpg, chimney).
 holds(s_18724_jpg, pipe).
 holds(s_18724_jpg, car).
@@ -34345,6 +34371,7 @@ holds(s_18729_jpg, hotel).
 holds(s_18729_jpg, misccommercial).
 holds(s_18729_jpg, window).
 holds(s_18729_jpg, awning).
+holds(s_18729_jpg, table).
 holds(s_18729_jpg, wallsign).
 holds(s_18729_jpg, truck).
 holds(s_18729_jpg, commercial).
@@ -34355,7 +34382,6 @@ holds(s_18730_jpg, feature).
 holds(s_18730_jpg, constructionsite).
 holds(s_18730_jpg, powerplant).
 holds(s_18730_jpg, window).
-holds(s_18730_jpg, table).
 holds(s_18730_jpg, chimney).
 holds(s_18730_jpg, pipe).
 holds(s_18730_jpg, machine).
@@ -34385,7 +34411,6 @@ holds(s_18732_jpg, door).
 holds(s_18732_jpg, awning).
 holds(s_18732_jpg, billboard).
 holds(s_18732_jpg, sign).
-holds(s_18732_jpg, table).
 holds(s_18732_jpg, wallsign).
 holds(s_18732_jpg, car).
 holds(s_18732_jpg, commercial).
@@ -34420,6 +34445,7 @@ holds(s_18735_jpg, cafe).
 holds(s_18735_jpg, hotel).
 holds(s_18735_jpg, window).
 holds(s_18735_jpg, sign).
+holds(s_18735_jpg, table).
 holds(s_18735_jpg, vendingmachine).
 holds(s_18735_jpg, wallsign).
 holds(s_18735_jpg, statue).
@@ -34432,6 +34458,7 @@ holds(s_18736_jpg, feature).
 holds(s_18736_jpg, miscindustrial).
 holds(s_18736_jpg, powerplant).
 holds(s_18736_jpg, watertreatment).
+holds(s_18736_jpg, table).
 holds(s_18736_jpg, chimney).
 holds(s_18736_jpg, pipe).
 holds(s_18736_jpg, truck).
@@ -34446,7 +34473,6 @@ holds(s_18737_jpg, countryhouse).
 holds(s_18737_jpg, door).
 holds(s_18737_jpg, window).
 holds(s_18737_jpg, porch).
-holds(s_18737_jpg, table).
 holds(s_18737_jpg, tiledroof).
 holds(s_18737_jpg, tiledrooftop).
 holds(s_18737_jpg, car).
@@ -34460,6 +34486,7 @@ holds(s_18738_jpg, restaurant).
 holds(s_18738_jpg, store).
 holds(s_18738_jpg, billboard).
 holds(s_18738_jpg, sign).
+holds(s_18738_jpg, table).
 holds(s_18738_jpg, vendingmachine).
 holds(s_18738_jpg, statue).
 holds(s_18738_jpg, pipe).
@@ -34485,7 +34512,6 @@ holds(s_18740_jpg, window).
 holds(s_18740_jpg, awning).
 holds(s_18740_jpg, porch).
 holds(s_18740_jpg, sign).
-holds(s_18740_jpg, table).
 holds(s_18740_jpg, residential).
 
 sample(s_18741_jpg).
@@ -34498,6 +34524,7 @@ holds(s_18741_jpg, door).
 holds(s_18741_jpg, window).
 holds(s_18741_jpg, awning).
 holds(s_18741_jpg, billboard).
+holds(s_18741_jpg, table).
 holds(s_18741_jpg, tiledroof).
 holds(s_18741_jpg, statue).
 holds(s_18741_jpg, commercial).
@@ -34534,7 +34561,6 @@ holds(s_18744_jpg, door).
 holds(s_18744_jpg, window).
 holds(s_18744_jpg, awning).
 holds(s_18744_jpg, sign).
-holds(s_18744_jpg, table).
 holds(s_18744_jpg, tiledroof).
 holds(s_18744_jpg, tiledrooftop).
 holds(s_18744_jpg, wallsign).
@@ -34597,7 +34623,6 @@ holds(s_18749_jpg, feature).
 holds(s_18749_jpg, suburban).
 holds(s_18749_jpg, miscresidential).
 holds(s_18749_jpg, porch).
-holds(s_18749_jpg, table).
 holds(s_18749_jpg, tiledroof).
 holds(s_18749_jpg, tiledrooftop).
 holds(s_18749_jpg, residential).
@@ -34627,6 +34652,7 @@ holds(s_18751_jpg, miscindustrial).
 holds(s_18751_jpg, powerplant).
 holds(s_18751_jpg, watertreatment).
 holds(s_18751_jpg, door).
+holds(s_18751_jpg, table).
 holds(s_18751_jpg, chimney).
 holds(s_18751_jpg, pipe).
 holds(s_18751_jpg, truck).
@@ -34656,6 +34682,7 @@ holds(s_18753_jpg, door).
 holds(s_18753_jpg, window).
 holds(s_18753_jpg, awning).
 holds(s_18753_jpg, sign).
+holds(s_18753_jpg, table).
 holds(s_18753_jpg, tiledroof).
 holds(s_18753_jpg, statue).
 holds(s_18753_jpg, truck).
@@ -34678,7 +34705,6 @@ holds(s_18755_jpg, building).
 holds(s_18755_jpg, feature).
 holds(s_18755_jpg, suburban).
 holds(s_18755_jpg, porch).
-holds(s_18755_jpg, table).
 holds(s_18755_jpg, truck).
 holds(s_18755_jpg, residential).
 
@@ -34702,6 +34728,7 @@ holds(s_18757_jpg, feature).
 holds(s_18757_jpg, miscindustrial).
 holds(s_18757_jpg, watertreatment).
 holds(s_18757_jpg, door).
+holds(s_18757_jpg, table).
 holds(s_18757_jpg, pipe).
 holds(s_18757_jpg, truck).
 holds(s_18757_jpg, industrial).
@@ -34764,7 +34791,6 @@ holds(s_18762_jpg, cafe).
 holds(s_18762_jpg, misccommercial).
 holds(s_18762_jpg, window).
 holds(s_18762_jpg, awning).
-holds(s_18762_jpg, table).
 holds(s_18762_jpg, tiledroof).
 holds(s_18762_jpg, tiledrooftop).
 holds(s_18762_jpg, vendingmachine).
@@ -34778,6 +34804,7 @@ holds(s_18763_jpg, feature).
 holds(s_18763_jpg, miscindustrial).
 holds(s_18763_jpg, watertreatment).
 holds(s_18763_jpg, window).
+holds(s_18763_jpg, table).
 holds(s_18763_jpg, pipe).
 holds(s_18763_jpg, truck).
 holds(s_18763_jpg, industrial).
@@ -34791,7 +34818,6 @@ holds(s_18764_jpg, countryhouse).
 holds(s_18764_jpg, window).
 holds(s_18764_jpg, awning).
 holds(s_18764_jpg, porch).
-holds(s_18764_jpg, table).
 holds(s_18764_jpg, tiledroof).
 holds(s_18764_jpg, tiledrooftop).
 holds(s_18764_jpg, car).
@@ -34830,7 +34856,6 @@ holds(s_18767_jpg, suburban).
 holds(s_18767_jpg, miscresidential).
 holds(s_18767_jpg, porch).
 holds(s_18767_jpg, sign).
-holds(s_18767_jpg, table).
 holds(s_18767_jpg, tiledroof).
 holds(s_18767_jpg, tiledrooftop).
 holds(s_18767_jpg, residential).
@@ -34862,6 +34887,7 @@ holds(s_18769_jpg, powerplant).
 holds(s_18769_jpg, watertreatment).
 holds(s_18769_jpg, door).
 holds(s_18769_jpg, window).
+holds(s_18769_jpg, table).
 holds(s_18769_jpg, chimney).
 holds(s_18769_jpg, pipe).
 holds(s_18769_jpg, truck).
@@ -34915,6 +34941,7 @@ holds(s_18773_jpg, countryhouse).
 holds(s_18773_jpg, window).
 holds(s_18773_jpg, awning).
 holds(s_18773_jpg, porch).
+holds(s_18773_jpg, table).
 holds(s_18773_jpg, tiledroof).
 holds(s_18773_jpg, tiledrooftop).
 holds(s_18773_jpg, car).
@@ -34950,6 +34977,7 @@ sample(s_18776_jpg).
 holds(s_18776_jpg, building).
 holds(s_18776_jpg, feature).
 holds(s_18776_jpg, miscresidential).
+holds(s_18776_jpg, table).
 holds(s_18776_jpg, tiledroof).
 holds(s_18776_jpg, tiledrooftop).
 holds(s_18776_jpg, residential).
@@ -34971,7 +34999,6 @@ holds(s_18778_jpg, powerplant).
 holds(s_18778_jpg, watertreatment).
 holds(s_18778_jpg, door).
 holds(s_18778_jpg, awning).
-holds(s_18778_jpg, table).
 holds(s_18778_jpg, chimney).
 holds(s_18778_jpg, pipe).
 holds(s_18778_jpg, truck).
@@ -34984,6 +35011,7 @@ holds(s_18779_jpg, suburban).
 holds(s_18779_jpg, door).
 holds(s_18779_jpg, awning).
 holds(s_18779_jpg, porch).
+holds(s_18779_jpg, table).
 holds(s_18779_jpg, car).
 holds(s_18779_jpg, residential).
 
@@ -34998,6 +35026,7 @@ holds(s_18780_jpg, door).
 holds(s_18780_jpg, window).
 holds(s_18780_jpg, awning).
 holds(s_18780_jpg, billboard).
+holds(s_18780_jpg, table).
 holds(s_18780_jpg, wallsign).
 holds(s_18780_jpg, statue).
 holds(s_18780_jpg, commercial).
@@ -35022,6 +35051,7 @@ holds(s_18782_jpg, door).
 holds(s_18782_jpg, window).
 holds(s_18782_jpg, awning).
 holds(s_18782_jpg, porch).
+holds(s_18782_jpg, table).
 holds(s_18782_jpg, tiledroof).
 holds(s_18782_jpg, tiledrooftop).
 holds(s_18782_jpg, residential).
@@ -35033,7 +35063,6 @@ holds(s_18783_jpg, misccommercial).
 holds(s_18783_jpg, door).
 holds(s_18783_jpg, window).
 holds(s_18783_jpg, awning).
-holds(s_18783_jpg, table).
 holds(s_18783_jpg, tiledroof).
 holds(s_18783_jpg, tiledrooftop).
 holds(s_18783_jpg, commercial).
@@ -35055,6 +35084,7 @@ holds(s_18785_jpg, suburban).
 holds(s_18785_jpg, door).
 holds(s_18785_jpg, window).
 holds(s_18785_jpg, porch).
+holds(s_18785_jpg, table).
 holds(s_18785_jpg, residential).
 
 sample(s_18786_jpg).
@@ -35067,7 +35097,6 @@ holds(s_18786_jpg, door).
 holds(s_18786_jpg, window).
 holds(s_18786_jpg, billboard).
 holds(s_18786_jpg, sign).
-holds(s_18786_jpg, table).
 holds(s_18786_jpg, wallsign).
 holds(s_18786_jpg, chimney).
 holds(s_18786_jpg, truck).
@@ -35091,7 +35120,6 @@ holds(s_18788_jpg, feature).
 holds(s_18788_jpg, suburban).
 holds(s_18788_jpg, door).
 holds(s_18788_jpg, porch).
-holds(s_18788_jpg, table).
 holds(s_18788_jpg, car).
 holds(s_18788_jpg, residential).
 
@@ -35102,7 +35130,6 @@ holds(s_18789_jpg, cafe).
 holds(s_18789_jpg, misccommercial).
 holds(s_18789_jpg, window).
 holds(s_18789_jpg, awning).
-holds(s_18789_jpg, table).
 holds(s_18789_jpg, vendingmachine).
 holds(s_18789_jpg, statue).
 holds(s_18789_jpg, pipe).
@@ -35126,7 +35153,6 @@ holds(s_18791_jpg, feature).
 holds(s_18791_jpg, miscresidential).
 holds(s_18791_jpg, countryhouse).
 holds(s_18791_jpg, window).
-holds(s_18791_jpg, table).
 holds(s_18791_jpg, tiledroof).
 holds(s_18791_jpg, tiledrooftop).
 holds(s_18791_jpg, car).
@@ -35142,7 +35168,6 @@ holds(s_18792_jpg, store).
 holds(s_18792_jpg, door).
 holds(s_18792_jpg, billboard).
 holds(s_18792_jpg, sign).
-holds(s_18792_jpg, table).
 holds(s_18792_jpg, vendingmachine).
 holds(s_18792_jpg, wallsign).
 holds(s_18792_jpg, truck).
@@ -35165,6 +35190,7 @@ holds(s_18794_jpg, suburban).
 holds(s_18794_jpg, door).
 holds(s_18794_jpg, window).
 holds(s_18794_jpg, porch).
+holds(s_18794_jpg, table).
 holds(s_18794_jpg, car).
 holds(s_18794_jpg, residential).
 
@@ -35177,6 +35203,7 @@ holds(s_18795_jpg, misccommercial).
 holds(s_18795_jpg, window).
 holds(s_18795_jpg, awning).
 holds(s_18795_jpg, billboard).
+holds(s_18795_jpg, table).
 holds(s_18795_jpg, wallsign).
 holds(s_18795_jpg, truck).
 holds(s_18795_jpg, commercial).
@@ -35186,7 +35213,6 @@ holds(s_18796_jpg, building).
 holds(s_18796_jpg, feature).
 holds(s_18796_jpg, miscindustrial).
 holds(s_18796_jpg, door).
-holds(s_18796_jpg, table).
 holds(s_18796_jpg, truck).
 holds(s_18796_jpg, industrial).
 
@@ -35272,6 +35298,7 @@ holds(s_18803_jpg, door).
 holds(s_18803_jpg, window).
 holds(s_18803_jpg, awning).
 holds(s_18803_jpg, porch).
+holds(s_18803_jpg, table).
 holds(s_18803_jpg, tiledroof).
 holds(s_18803_jpg, tiledrooftop).
 holds(s_18803_jpg, car).
@@ -35294,7 +35321,6 @@ sample(s_18805_jpg).
 holds(s_18805_jpg, building).
 holds(s_18805_jpg, feature).
 holds(s_18805_jpg, miscindustrial).
-holds(s_18805_jpg, table).
 holds(s_18805_jpg, chimney).
 holds(s_18805_jpg, truck).
 holds(s_18805_jpg, industrial).
@@ -35307,7 +35333,6 @@ holds(s_18806_jpg, miscresidential).
 holds(s_18806_jpg, door).
 holds(s_18806_jpg, awning).
 holds(s_18806_jpg, porch).
-holds(s_18806_jpg, table).
 holds(s_18806_jpg, tiledroof).
 holds(s_18806_jpg, tiledrooftop).
 holds(s_18806_jpg, truck).
@@ -35320,7 +35345,6 @@ holds(s_18807_jpg, hotel).
 holds(s_18807_jpg, store).
 holds(s_18807_jpg, window).
 holds(s_18807_jpg, billboard).
-holds(s_18807_jpg, table).
 holds(s_18807_jpg, wallsign).
 holds(s_18807_jpg, car).
 holds(s_18807_jpg, commercial).
@@ -35329,6 +35353,7 @@ sample(s_18808_jpg).
 holds(s_18808_jpg, building).
 holds(s_18808_jpg, feature).
 holds(s_18808_jpg, powerplant).
+holds(s_18808_jpg, table).
 holds(s_18808_jpg, chimney).
 holds(s_18808_jpg, pipe).
 holds(s_18808_jpg, industrial).
@@ -35351,7 +35376,6 @@ holds(s_18810_jpg, door).
 holds(s_18810_jpg, window).
 holds(s_18810_jpg, awning).
 holds(s_18810_jpg, sign).
-holds(s_18810_jpg, table).
 holds(s_18810_jpg, wallsign).
 holds(s_18810_jpg, chimney).
 holds(s_18810_jpg, commercial).
@@ -35371,6 +35395,7 @@ holds(s_18812_jpg, building).
 holds(s_18812_jpg, feature).
 holds(s_18812_jpg, miscresidential).
 holds(s_18812_jpg, door).
+holds(s_18812_jpg, table).
 holds(s_18812_jpg, tiledroof).
 holds(s_18812_jpg, tiledrooftop).
 holds(s_18812_jpg, residential).
@@ -35384,6 +35409,7 @@ holds(s_18813_jpg, restaurant).
 holds(s_18813_jpg, store).
 holds(s_18813_jpg, billboard).
 holds(s_18813_jpg, sign).
+holds(s_18813_jpg, table).
 holds(s_18813_jpg, wallsign).
 holds(s_18813_jpg, statue).
 holds(s_18813_jpg, pipe).
@@ -35396,7 +35422,6 @@ holds(s_18814_jpg, feature).
 holds(s_18814_jpg, miscindustrial).
 holds(s_18814_jpg, watertreatment).
 holds(s_18814_jpg, window).
-holds(s_18814_jpg, table).
 holds(s_18814_jpg, pipe).
 holds(s_18814_jpg, truck).
 holds(s_18814_jpg, industrial).
@@ -35407,6 +35432,7 @@ holds(s_18815_jpg, feature).
 holds(s_18815_jpg, suburban).
 holds(s_18815_jpg, miscresidential).
 holds(s_18815_jpg, porch).
+holds(s_18815_jpg, table).
 holds(s_18815_jpg, tiledroof).
 holds(s_18815_jpg, tiledrooftop).
 holds(s_18815_jpg, residential).
@@ -35458,7 +35484,6 @@ holds(s_18819_jpg, store).
 holds(s_18819_jpg, door).
 holds(s_18819_jpg, window).
 holds(s_18819_jpg, billboard).
-holds(s_18819_jpg, table).
 holds(s_18819_jpg, wallsign).
 holds(s_18819_jpg, statue).
 holds(s_18819_jpg, pipe).
@@ -35471,7 +35496,6 @@ holds(s_18820_jpg, powerplant).
 holds(s_18820_jpg, watertreatment).
 holds(s_18820_jpg, window).
 holds(s_18820_jpg, awning).
-holds(s_18820_jpg, table).
 holds(s_18820_jpg, chimney).
 holds(s_18820_jpg, pipe).
 holds(s_18820_jpg, truck).
@@ -35484,7 +35508,6 @@ holds(s_18821_jpg, miscresidential).
 holds(s_18821_jpg, countryhouse).
 holds(s_18821_jpg, door).
 holds(s_18821_jpg, window).
-holds(s_18821_jpg, table).
 holds(s_18821_jpg, tiledroof).
 holds(s_18821_jpg, tiledrooftop).
 holds(s_18821_jpg, car).
@@ -35508,7 +35531,6 @@ holds(s_18823_jpg, feature).
 holds(s_18823_jpg, powerplant).
 holds(s_18823_jpg, window).
 holds(s_18823_jpg, awning).
-holds(s_18823_jpg, table).
 holds(s_18823_jpg, chimney).
 holds(s_18823_jpg, pipe).
 holds(s_18823_jpg, industrial).
@@ -35519,7 +35541,6 @@ holds(s_18824_jpg, feature).
 holds(s_18824_jpg, miscresidential).
 holds(s_18824_jpg, window).
 holds(s_18824_jpg, awning).
-holds(s_18824_jpg, table).
 holds(s_18824_jpg, tiledroof).
 holds(s_18824_jpg, tiledrooftop).
 holds(s_18824_jpg, residential).
@@ -35560,6 +35581,7 @@ holds(s_18827_jpg, suburban).
 holds(s_18827_jpg, door).
 holds(s_18827_jpg, window).
 holds(s_18827_jpg, porch).
+holds(s_18827_jpg, table).
 holds(s_18827_jpg, car).
 holds(s_18827_jpg, residential).
 
@@ -35615,6 +35637,7 @@ holds(s_18831_jpg, window).
 holds(s_18831_jpg, awning).
 holds(s_18831_jpg, billboard).
 holds(s_18831_jpg, sign).
+holds(s_18831_jpg, table).
 holds(s_18831_jpg, vendingmachine).
 holds(s_18831_jpg, wallsign).
 holds(s_18831_jpg, truck).
@@ -35627,7 +35650,6 @@ holds(s_18832_jpg, miscindustrial).
 holds(s_18832_jpg, watertreatment).
 holds(s_18832_jpg, door).
 holds(s_18832_jpg, window).
-holds(s_18832_jpg, table).
 holds(s_18832_jpg, pipe).
 holds(s_18832_jpg, truck).
 holds(s_18832_jpg, industrial).
@@ -35638,6 +35660,7 @@ holds(s_18833_jpg, feature).
 holds(s_18833_jpg, miscresidential).
 holds(s_18833_jpg, countryhouse).
 holds(s_18833_jpg, door).
+holds(s_18833_jpg, table).
 holds(s_18833_jpg, tiledroof).
 holds(s_18833_jpg, tiledrooftop).
 holds(s_18833_jpg, car).
@@ -35659,6 +35682,7 @@ holds(s_18835_jpg, miscindustrial).
 holds(s_18835_jpg, powerplant).
 holds(s_18835_jpg, watertreatment).
 holds(s_18835_jpg, window).
+holds(s_18835_jpg, table).
 holds(s_18835_jpg, chimney).
 holds(s_18835_jpg, pipe).
 holds(s_18835_jpg, truck).
@@ -35695,6 +35719,7 @@ sample(s_18838_jpg).
 holds(s_18838_jpg, building).
 holds(s_18838_jpg, feature).
 holds(s_18838_jpg, miscindustrial).
+holds(s_18838_jpg, table).
 holds(s_18838_jpg, truck).
 holds(s_18838_jpg, industrial).
 
@@ -35716,6 +35741,7 @@ holds(s_18840_jpg, hotel).
 holds(s_18840_jpg, restaurant).
 holds(s_18840_jpg, door).
 holds(s_18840_jpg, sign).
+holds(s_18840_jpg, table).
 holds(s_18840_jpg, wallsign).
 holds(s_18840_jpg, pipe).
 holds(s_18840_jpg, car).
@@ -35727,7 +35753,6 @@ holds(s_18841_jpg, feature).
 holds(s_18841_jpg, miscindustrial).
 holds(s_18841_jpg, door).
 holds(s_18841_jpg, window).
-holds(s_18841_jpg, table).
 holds(s_18841_jpg, truck).
 holds(s_18841_jpg, industrial).
 
@@ -35738,7 +35763,6 @@ holds(s_18842_jpg, miscresidential).
 holds(s_18842_jpg, countryhouse).
 holds(s_18842_jpg, window).
 holds(s_18842_jpg, awning).
-holds(s_18842_jpg, table).
 holds(s_18842_jpg, tiledroof).
 holds(s_18842_jpg, tiledrooftop).
 holds(s_18842_jpg, car).
@@ -35749,7 +35773,6 @@ holds(s_18843_jpg, building).
 holds(s_18843_jpg, feature).
 holds(s_18843_jpg, hotel).
 holds(s_18843_jpg, window).
-holds(s_18843_jpg, table).
 holds(s_18843_jpg, wallsign).
 holds(s_18843_jpg, car).
 holds(s_18843_jpg, commercial).
@@ -35761,7 +35784,6 @@ holds(s_18844_jpg, miscindustrial).
 holds(s_18844_jpg, powerplant).
 holds(s_18844_jpg, watertreatment).
 holds(s_18844_jpg, door).
-holds(s_18844_jpg, table).
 holds(s_18844_jpg, chimney).
 holds(s_18844_jpg, pipe).
 holds(s_18844_jpg, truck).
@@ -35775,7 +35797,6 @@ holds(s_18845_jpg, door).
 holds(s_18845_jpg, window).
 holds(s_18845_jpg, awning).
 holds(s_18845_jpg, porch).
-holds(s_18845_jpg, table).
 holds(s_18845_jpg, residential).
 
 sample(s_18846_jpg).
@@ -35890,6 +35911,7 @@ holds(s_18854_jpg, countryhouse).
 holds(s_18854_jpg, door).
 holds(s_18854_jpg, window).
 holds(s_18854_jpg, porch).
+holds(s_18854_jpg, table).
 holds(s_18854_jpg, tiledroof).
 holds(s_18854_jpg, tiledrooftop).
 holds(s_18854_jpg, car).
@@ -35925,6 +35947,7 @@ holds(s_18857_jpg, miscresidential).
 holds(s_18857_jpg, countryhouse).
 holds(s_18857_jpg, window).
 holds(s_18857_jpg, porch).
+holds(s_18857_jpg, table).
 holds(s_18857_jpg, tiledroof).
 holds(s_18857_jpg, tiledrooftop).
 holds(s_18857_jpg, car).
@@ -35952,6 +35975,7 @@ holds(s_18859_jpg, building).
 holds(s_18859_jpg, feature).
 holds(s_18859_jpg, miscindustrial).
 holds(s_18859_jpg, window).
+holds(s_18859_jpg, table).
 holds(s_18859_jpg, truck).
 holds(s_18859_jpg, industrial).
 
@@ -35964,6 +35988,7 @@ holds(s_18860_jpg, countryhouse).
 holds(s_18860_jpg, door).
 holds(s_18860_jpg, window).
 holds(s_18860_jpg, porch).
+holds(s_18860_jpg, table).
 holds(s_18860_jpg, tiledroof).
 holds(s_18860_jpg, tiledrooftop).
 holds(s_18860_jpg, car).
@@ -35975,6 +36000,7 @@ holds(s_18861_jpg, feature).
 holds(s_18861_jpg, cafe).
 holds(s_18861_jpg, restaurant).
 holds(s_18861_jpg, sign).
+holds(s_18861_jpg, table).
 holds(s_18861_jpg, vendingmachine).
 holds(s_18861_jpg, car).
 holds(s_18861_jpg, commercial).
@@ -35999,6 +36025,7 @@ holds(s_18863_jpg, countryhouse).
 holds(s_18863_jpg, door).
 holds(s_18863_jpg, window).
 holds(s_18863_jpg, porch).
+holds(s_18863_jpg, table).
 holds(s_18863_jpg, tiledroof).
 holds(s_18863_jpg, tiledrooftop).
 holds(s_18863_jpg, car).
@@ -36047,6 +36074,7 @@ holds(s_18867_jpg, misccommercial).
 holds(s_18867_jpg, door).
 holds(s_18867_jpg, awning).
 holds(s_18867_jpg, sign).
+holds(s_18867_jpg, table).
 holds(s_18867_jpg, vendingmachine).
 holds(s_18867_jpg, truck).
 holds(s_18867_jpg, commercial).
@@ -36058,6 +36086,7 @@ holds(s_18868_jpg, miscindustrial).
 holds(s_18868_jpg, powerplant).
 holds(s_18868_jpg, watertreatment).
 holds(s_18868_jpg, window).
+holds(s_18868_jpg, table).
 holds(s_18868_jpg, chimney).
 holds(s_18868_jpg, pipe).
 holds(s_18868_jpg, truck).
@@ -36099,6 +36128,7 @@ holds(s_18871_jpg, miscindustrial).
 holds(s_18871_jpg, powerplant).
 holds(s_18871_jpg, watertreatment).
 holds(s_18871_jpg, door).
+holds(s_18871_jpg, table).
 holds(s_18871_jpg, chimney).
 holds(s_18871_jpg, pipe).
 holds(s_18871_jpg, truck).
@@ -36112,7 +36142,6 @@ holds(s_18872_jpg, miscresidential).
 holds(s_18872_jpg, door).
 holds(s_18872_jpg, awning).
 holds(s_18872_jpg, porch).
-holds(s_18872_jpg, table).
 holds(s_18872_jpg, tiledroof).
 holds(s_18872_jpg, tiledrooftop).
 holds(s_18872_jpg, residential).
@@ -36142,6 +36171,7 @@ holds(s_18874_jpg, feature).
 holds(s_18874_jpg, constructionsite).
 holds(s_18874_jpg, window).
 holds(s_18874_jpg, awning).
+holds(s_18874_jpg, table).
 holds(s_18874_jpg, chimney).
 holds(s_18874_jpg, machine).
 holds(s_18874_jpg, industrial).
@@ -36166,7 +36196,6 @@ holds(s_18876_jpg, misccommercial).
 holds(s_18876_jpg, door).
 holds(s_18876_jpg, window).
 holds(s_18876_jpg, awning).
-holds(s_18876_jpg, table).
 holds(s_18876_jpg, tiledroof).
 holds(s_18876_jpg, tiledrooftop).
 holds(s_18876_jpg, wallsign).
@@ -36180,6 +36209,7 @@ holds(s_18877_jpg, miscindustrial).
 holds(s_18877_jpg, watertreatment).
 holds(s_18877_jpg, door).
 holds(s_18877_jpg, window).
+holds(s_18877_jpg, table).
 holds(s_18877_jpg, pipe).
 holds(s_18877_jpg, truck).
 holds(s_18877_jpg, industrial).
@@ -36190,6 +36220,7 @@ holds(s_18878_jpg, feature).
 holds(s_18878_jpg, miscresidential).
 holds(s_18878_jpg, door).
 holds(s_18878_jpg, awning).
+holds(s_18878_jpg, table).
 holds(s_18878_jpg, tiledroof).
 holds(s_18878_jpg, tiledrooftop).
 holds(s_18878_jpg, truck).
@@ -36246,6 +36277,7 @@ holds(s_18883_jpg, building).
 holds(s_18883_jpg, feature).
 holds(s_18883_jpg, constructionsite).
 holds(s_18883_jpg, door).
+holds(s_18883_jpg, table).
 holds(s_18883_jpg, pipe).
 holds(s_18883_jpg, machine).
 holds(s_18883_jpg, industrial).
@@ -36286,7 +36318,6 @@ holds(s_18887_jpg, countryhouse).
 holds(s_18887_jpg, door).
 holds(s_18887_jpg, window).
 holds(s_18887_jpg, porch).
-holds(s_18887_jpg, table).
 holds(s_18887_jpg, tiledroof).
 holds(s_18887_jpg, tiledrooftop).
 holds(s_18887_jpg, car).
@@ -36301,6 +36332,7 @@ holds(s_18888_jpg, door).
 holds(s_18888_jpg, window).
 holds(s_18888_jpg, awning).
 holds(s_18888_jpg, sign).
+holds(s_18888_jpg, table).
 holds(s_18888_jpg, statue).
 holds(s_18888_jpg, pipe).
 holds(s_18888_jpg, commercial).
@@ -36328,6 +36360,7 @@ holds(s_18890_jpg, window).
 holds(s_18890_jpg, awning).
 holds(s_18890_jpg, porch).
 holds(s_18890_jpg, sign).
+holds(s_18890_jpg, table).
 holds(s_18890_jpg, tiledroof).
 holds(s_18890_jpg, tiledrooftop).
 holds(s_18890_jpg, residential).
@@ -36344,6 +36377,7 @@ holds(s_18891_jpg, window).
 holds(s_18891_jpg, awning).
 holds(s_18891_jpg, billboard).
 holds(s_18891_jpg, sign).
+holds(s_18891_jpg, table).
 holds(s_18891_jpg, vendingmachine).
 holds(s_18891_jpg, wallsign).
 holds(s_18891_jpg, statue).
@@ -36358,7 +36392,6 @@ holds(s_18892_jpg, watertreatment).
 holds(s_18892_jpg, door).
 holds(s_18892_jpg, window).
 holds(s_18892_jpg, awning).
-holds(s_18892_jpg, table).
 holds(s_18892_jpg, chimney).
 holds(s_18892_jpg, pipe).
 holds(s_18892_jpg, truck).
@@ -36371,6 +36404,7 @@ holds(s_18893_jpg, suburban).
 holds(s_18893_jpg, door).
 holds(s_18893_jpg, window).
 holds(s_18893_jpg, porch).
+holds(s_18893_jpg, table).
 holds(s_18893_jpg, truck).
 holds(s_18893_jpg, residential).
 
@@ -36385,6 +36419,7 @@ holds(s_18894_jpg, window).
 holds(s_18894_jpg, awning).
 holds(s_18894_jpg, billboard).
 holds(s_18894_jpg, sign).
+holds(s_18894_jpg, table).
 holds(s_18894_jpg, tiledroof).
 holds(s_18894_jpg, tiledrooftop).
 holds(s_18894_jpg, vendingmachine).
@@ -36405,7 +36440,6 @@ holds(s_18896_jpg, building).
 holds(s_18896_jpg, feature).
 holds(s_18896_jpg, miscresidential).
 holds(s_18896_jpg, sign).
-holds(s_18896_jpg, table).
 holds(s_18896_jpg, tiledroof).
 holds(s_18896_jpg, tiledrooftop).
 holds(s_18896_jpg, residential).
@@ -36421,6 +36455,7 @@ holds(s_18897_jpg, door).
 holds(s_18897_jpg, window).
 holds(s_18897_jpg, awning).
 holds(s_18897_jpg, billboard).
+holds(s_18897_jpg, table).
 holds(s_18897_jpg, vendingmachine).
 holds(s_18897_jpg, wallsign).
 holds(s_18897_jpg, statue).
@@ -36433,7 +36468,6 @@ holds(s_18898_jpg, feature).
 holds(s_18898_jpg, miscindustrial).
 holds(s_18898_jpg, watertreatment).
 holds(s_18898_jpg, door).
-holds(s_18898_jpg, table).
 holds(s_18898_jpg, pipe).
 holds(s_18898_jpg, truck).
 holds(s_18898_jpg, industrial).
@@ -36473,6 +36507,7 @@ holds(s_18901_jpg, feature).
 holds(s_18901_jpg, constructionsite).
 holds(s_18901_jpg, door).
 holds(s_18901_jpg, awning).
+holds(s_18901_jpg, table).
 holds(s_18901_jpg, chimney).
 holds(s_18901_jpg, machine).
 holds(s_18901_jpg, industrial).
@@ -36501,6 +36536,7 @@ holds(s_18903_jpg, door).
 holds(s_18903_jpg, window).
 holds(s_18903_jpg, awning).
 holds(s_18903_jpg, billboard).
+holds(s_18903_jpg, table).
 holds(s_18903_jpg, tiledroof).
 holds(s_18903_jpg, wallsign).
 holds(s_18903_jpg, statue).
@@ -36551,6 +36587,7 @@ holds(s_18907_jpg, building).
 holds(s_18907_jpg, feature).
 holds(s_18907_jpg, miscindustrial).
 holds(s_18907_jpg, watertreatment).
+holds(s_18907_jpg, table).
 holds(s_18907_jpg, pipe).
 holds(s_18907_jpg, truck).
 holds(s_18907_jpg, industrial).
@@ -36577,6 +36614,7 @@ holds(s_18909_jpg, door).
 holds(s_18909_jpg, window).
 holds(s_18909_jpg, billboard).
 holds(s_18909_jpg, sign).
+holds(s_18909_jpg, table).
 holds(s_18909_jpg, vendingmachine).
 holds(s_18909_jpg, truck).
 holds(s_18909_jpg, commercial).
@@ -36618,7 +36656,6 @@ holds(s_18912_jpg, misccommercial).
 holds(s_18912_jpg, door).
 holds(s_18912_jpg, awning).
 holds(s_18912_jpg, sign).
-holds(s_18912_jpg, table).
 holds(s_18912_jpg, wallsign).
 holds(s_18912_jpg, statue).
 holds(s_18912_jpg, truck).
@@ -36650,7 +36687,6 @@ holds(s_18915_jpg, hotel).
 holds(s_18915_jpg, store).
 holds(s_18915_jpg, billboard).
 holds(s_18915_jpg, sign).
-holds(s_18915_jpg, table).
 holds(s_18915_jpg, vendingmachine).
 holds(s_18915_jpg, wallsign).
 holds(s_18915_jpg, commercial).
@@ -36662,6 +36698,7 @@ holds(s_18916_jpg, constructionsite).
 holds(s_18916_jpg, door).
 holds(s_18916_jpg, window).
 holds(s_18916_jpg, sign).
+holds(s_18916_jpg, table).
 holds(s_18916_jpg, chimney).
 holds(s_18916_jpg, machine).
 holds(s_18916_jpg, industrial).
@@ -36718,7 +36755,6 @@ holds(s_18921_jpg, door).
 holds(s_18921_jpg, window).
 holds(s_18921_jpg, billboard).
 holds(s_18921_jpg, sign).
-holds(s_18921_jpg, table).
 holds(s_18921_jpg, wallsign).
 holds(s_18921_jpg, commercial).
 
@@ -36737,6 +36773,7 @@ holds(s_18923_jpg, feature).
 holds(s_18923_jpg, miscresidential).
 holds(s_18923_jpg, countryhouse).
 holds(s_18923_jpg, window).
+holds(s_18923_jpg, table).
 holds(s_18923_jpg, tiledroof).
 holds(s_18923_jpg, tiledrooftop).
 holds(s_18923_jpg, car).
@@ -36750,7 +36787,6 @@ holds(s_18924_jpg, restaurant).
 holds(s_18924_jpg, door).
 holds(s_18924_jpg, window).
 holds(s_18924_jpg, sign).
-holds(s_18924_jpg, table).
 holds(s_18924_jpg, statue).
 holds(s_18924_jpg, car).
 holds(s_18924_jpg, commercial).
@@ -36760,6 +36796,7 @@ holds(s_18925_jpg, building).
 holds(s_18925_jpg, feature).
 holds(s_18925_jpg, miscindustrial).
 holds(s_18925_jpg, door).
+holds(s_18925_jpg, table).
 holds(s_18925_jpg, truck).
 holds(s_18925_jpg, industrial).
 
@@ -36771,6 +36808,7 @@ holds(s_18926_jpg, miscresidential).
 holds(s_18926_jpg, door).
 holds(s_18926_jpg, window).
 holds(s_18926_jpg, porch).
+holds(s_18926_jpg, table).
 holds(s_18926_jpg, tiledroof).
 holds(s_18926_jpg, tiledrooftop).
 holds(s_18926_jpg, truck).
@@ -36796,6 +36834,7 @@ holds(s_18928_jpg, powerplant).
 holds(s_18928_jpg, watertreatment).
 holds(s_18928_jpg, door).
 holds(s_18928_jpg, window).
+holds(s_18928_jpg, table).
 holds(s_18928_jpg, chimney).
 holds(s_18928_jpg, pipe).
 holds(s_18928_jpg, truck).
@@ -36808,7 +36847,6 @@ holds(s_18929_jpg, suburban).
 holds(s_18929_jpg, miscresidential).
 holds(s_18929_jpg, countryhouse).
 holds(s_18929_jpg, porch).
-holds(s_18929_jpg, table).
 holds(s_18929_jpg, tiledroof).
 holds(s_18929_jpg, tiledrooftop).
 holds(s_18929_jpg, car).
@@ -36821,6 +36859,7 @@ holds(s_18930_jpg, hotel).
 holds(s_18930_jpg, store).
 holds(s_18930_jpg, door).
 holds(s_18930_jpg, billboard).
+holds(s_18930_jpg, table).
 holds(s_18930_jpg, wallsign).
 holds(s_18930_jpg, commercial).
 
@@ -36840,6 +36879,7 @@ holds(s_18932_jpg, feature).
 holds(s_18932_jpg, miscresidential).
 holds(s_18932_jpg, window).
 holds(s_18932_jpg, awning).
+holds(s_18932_jpg, table).
 holds(s_18932_jpg, tiledroof).
 holds(s_18932_jpg, tiledrooftop).
 holds(s_18932_jpg, residential).
@@ -36894,7 +36934,6 @@ holds(s_18937_jpg, feature).
 holds(s_18937_jpg, constructionsite).
 holds(s_18937_jpg, window).
 holds(s_18937_jpg, sign).
-holds(s_18937_jpg, table).
 holds(s_18937_jpg, pipe).
 holds(s_18937_jpg, machine).
 holds(s_18937_jpg, industrial).
@@ -36907,6 +36946,7 @@ holds(s_18938_jpg, miscresidential).
 holds(s_18938_jpg, door).
 holds(s_18938_jpg, window).
 holds(s_18938_jpg, porch).
+holds(s_18938_jpg, table).
 holds(s_18938_jpg, tiledroof).
 holds(s_18938_jpg, tiledrooftop).
 holds(s_18938_jpg, residential).
@@ -36938,7 +36978,6 @@ holds(s_18941_jpg, feature).
 holds(s_18941_jpg, miscresidential).
 holds(s_18941_jpg, door).
 holds(s_18941_jpg, awning).
-holds(s_18941_jpg, table).
 holds(s_18941_jpg, tiledroof).
 holds(s_18941_jpg, tiledrooftop).
 holds(s_18941_jpg, residential).
@@ -36955,6 +36994,7 @@ holds(s_18942_jpg, window).
 holds(s_18942_jpg, awning).
 holds(s_18942_jpg, billboard).
 holds(s_18942_jpg, sign).
+holds(s_18942_jpg, table).
 holds(s_18942_jpg, vendingmachine).
 holds(s_18942_jpg, wallsign).
 holds(s_18942_jpg, car).
@@ -36969,6 +37009,7 @@ holds(s_18943_jpg, door).
 holds(s_18943_jpg, window).
 holds(s_18943_jpg, awning).
 holds(s_18943_jpg, sign).
+holds(s_18943_jpg, table).
 holds(s_18943_jpg, chimney).
 holds(s_18943_jpg, pipe).
 holds(s_18943_jpg, machine).
@@ -36982,6 +37023,7 @@ holds(s_18944_jpg, countryhouse).
 holds(s_18944_jpg, door).
 holds(s_18944_jpg, window).
 holds(s_18944_jpg, awning).
+holds(s_18944_jpg, table).
 holds(s_18944_jpg, tiledroof).
 holds(s_18944_jpg, tiledrooftop).
 holds(s_18944_jpg, car).
@@ -36999,7 +37041,6 @@ holds(s_18945_jpg, window).
 holds(s_18945_jpg, awning).
 holds(s_18945_jpg, billboard).
 holds(s_18945_jpg, sign).
-holds(s_18945_jpg, table).
 holds(s_18945_jpg, wallsign).
 holds(s_18945_jpg, statue).
 holds(s_18945_jpg, commercial).
@@ -37025,6 +37066,7 @@ holds(s_18947_jpg, miscresidential).
 holds(s_18947_jpg, window).
 holds(s_18947_jpg, porch).
 holds(s_18947_jpg, sign).
+holds(s_18947_jpg, table).
 holds(s_18947_jpg, tiledroof).
 holds(s_18947_jpg, tiledrooftop).
 holds(s_18947_jpg, residential).
@@ -37036,7 +37078,6 @@ holds(s_18948_jpg, cafe).
 holds(s_18948_jpg, store).
 holds(s_18948_jpg, window).
 holds(s_18948_jpg, billboard).
-holds(s_18948_jpg, table).
 holds(s_18948_jpg, vendingmachine).
 holds(s_18948_jpg, car).
 holds(s_18948_jpg, commercial).
@@ -37046,6 +37087,7 @@ holds(s_18949_jpg, building).
 holds(s_18949_jpg, feature).
 holds(s_18949_jpg, powerplant).
 holds(s_18949_jpg, window).
+holds(s_18949_jpg, table).
 holds(s_18949_jpg, chimney).
 holds(s_18949_jpg, pipe).
 holds(s_18949_jpg, industrial).
@@ -37056,6 +37098,7 @@ holds(s_18950_jpg, feature).
 holds(s_18950_jpg, miscresidential).
 holds(s_18950_jpg, door).
 holds(s_18950_jpg, window).
+holds(s_18950_jpg, table).
 holds(s_18950_jpg, tiledroof).
 holds(s_18950_jpg, tiledrooftop).
 holds(s_18950_jpg, residential).
@@ -37070,6 +37113,7 @@ holds(s_18951_jpg, door).
 holds(s_18951_jpg, window).
 holds(s_18951_jpg, awning).
 holds(s_18951_jpg, billboard).
+holds(s_18951_jpg, table).
 holds(s_18951_jpg, vendingmachine).
 holds(s_18951_jpg, statue).
 holds(s_18951_jpg, pipe).
@@ -37081,7 +37125,6 @@ holds(s_18952_jpg, feature).
 holds(s_18952_jpg, constructionsite).
 holds(s_18952_jpg, door).
 holds(s_18952_jpg, window).
-holds(s_18952_jpg, table).
 holds(s_18952_jpg, pipe).
 holds(s_18952_jpg, machine).
 holds(s_18952_jpg, industrial).
@@ -37094,7 +37137,6 @@ holds(s_18953_jpg, miscresidential).
 holds(s_18953_jpg, countryhouse).
 holds(s_18953_jpg, door).
 holds(s_18953_jpg, porch).
-holds(s_18953_jpg, table).
 holds(s_18953_jpg, tiledroof).
 holds(s_18953_jpg, tiledrooftop).
 holds(s_18953_jpg, car).
@@ -37113,7 +37155,6 @@ holds(s_18954_jpg, window).
 holds(s_18954_jpg, awning).
 holds(s_18954_jpg, billboard).
 holds(s_18954_jpg, sign).
-holds(s_18954_jpg, table).
 holds(s_18954_jpg, vendingmachine).
 holds(s_18954_jpg, wallsign).
 holds(s_18954_jpg, chimney).
@@ -37157,7 +37198,6 @@ holds(s_18957_jpg, window).
 holds(s_18957_jpg, awning).
 holds(s_18957_jpg, billboard).
 holds(s_18957_jpg, sign).
-holds(s_18957_jpg, table).
 holds(s_18957_jpg, vendingmachine).
 holds(s_18957_jpg, wallsign).
 holds(s_18957_jpg, chimney).
@@ -37169,7 +37209,6 @@ holds(s_18958_jpg, building).
 holds(s_18958_jpg, feature).
 holds(s_18958_jpg, constructionsite).
 holds(s_18958_jpg, window).
-holds(s_18958_jpg, table).
 holds(s_18958_jpg, chimney).
 holds(s_18958_jpg, machine).
 holds(s_18958_jpg, industrial).
@@ -37180,7 +37219,6 @@ holds(s_18959_jpg, feature).
 holds(s_18959_jpg, miscresidential).
 holds(s_18959_jpg, countryhouse).
 holds(s_18959_jpg, door).
-holds(s_18959_jpg, table).
 holds(s_18959_jpg, tiledroof).
 holds(s_18959_jpg, tiledrooftop).
 holds(s_18959_jpg, car).
@@ -37251,7 +37289,6 @@ holds(s_18964_jpg, door).
 holds(s_18964_jpg, window).
 holds(s_18964_jpg, awning).
 holds(s_18964_jpg, sign).
-holds(s_18964_jpg, table).
 holds(s_18964_jpg, machine).
 holds(s_18964_jpg, industrial).
 
@@ -37263,7 +37300,6 @@ holds(s_18965_jpg, miscresidential).
 holds(s_18965_jpg, window).
 holds(s_18965_jpg, awning).
 holds(s_18965_jpg, porch).
-holds(s_18965_jpg, table).
 holds(s_18965_jpg, tiledroof).
 holds(s_18965_jpg, tiledrooftop).
 holds(s_18965_jpg, truck).
@@ -37281,7 +37317,6 @@ holds(s_18966_jpg, window).
 holds(s_18966_jpg, awning).
 holds(s_18966_jpg, billboard).
 holds(s_18966_jpg, sign).
-holds(s_18966_jpg, table).
 holds(s_18966_jpg, vendingmachine).
 holds(s_18966_jpg, wallsign).
 holds(s_18966_jpg, commercial).
@@ -37371,6 +37406,7 @@ holds(s_18973_jpg, building).
 holds(s_18973_jpg, feature).
 holds(s_18973_jpg, powerplant).
 holds(s_18973_jpg, window).
+holds(s_18973_jpg, table).
 holds(s_18973_jpg, chimney).
 holds(s_18973_jpg, pipe).
 holds(s_18973_jpg, car).
@@ -37431,6 +37467,7 @@ holds(s_18978_jpg, feature).
 holds(s_18978_jpg, cafe).
 holds(s_18978_jpg, hotel).
 holds(s_18978_jpg, door).
+holds(s_18978_jpg, table).
 holds(s_18978_jpg, wallsign).
 holds(s_18978_jpg, statue).
 holds(s_18978_jpg, pipe).
@@ -37443,6 +37480,7 @@ holds(s_18979_jpg, feature).
 holds(s_18979_jpg, miscindustrial).
 holds(s_18979_jpg, powerplant).
 holds(s_18979_jpg, watertreatment).
+holds(s_18979_jpg, table).
 holds(s_18979_jpg, chimney).
 holds(s_18979_jpg, pipe).
 holds(s_18979_jpg, truck).
@@ -37457,7 +37495,6 @@ holds(s_18980_jpg, door).
 holds(s_18980_jpg, window).
 holds(s_18980_jpg, awning).
 holds(s_18980_jpg, porch).
-holds(s_18980_jpg, table).
 holds(s_18980_jpg, tiledroof).
 holds(s_18980_jpg, tiledrooftop).
 holds(s_18980_jpg, truck).
@@ -37471,6 +37508,7 @@ holds(s_18981_jpg, hotel).
 holds(s_18981_jpg, restaurant).
 holds(s_18981_jpg, door).
 holds(s_18981_jpg, sign).
+holds(s_18981_jpg, table).
 holds(s_18981_jpg, wallsign).
 holds(s_18981_jpg, statue).
 holds(s_18981_jpg, car).
@@ -37484,6 +37522,7 @@ holds(s_18982_jpg, powerplant).
 holds(s_18982_jpg, watertreatment).
 holds(s_18982_jpg, door).
 holds(s_18982_jpg, window).
+holds(s_18982_jpg, table).
 holds(s_18982_jpg, chimney).
 holds(s_18982_jpg, pipe).
 holds(s_18982_jpg, truck).
@@ -37496,6 +37535,7 @@ holds(s_18983_jpg, suburban).
 holds(s_18983_jpg, miscresidential).
 holds(s_18983_jpg, door).
 holds(s_18983_jpg, porch).
+holds(s_18983_jpg, table).
 holds(s_18983_jpg, tiledroof).
 holds(s_18983_jpg, tiledrooftop).
 holds(s_18983_jpg, residential).
@@ -37522,6 +37562,7 @@ holds(s_18985_jpg, building).
 holds(s_18985_jpg, feature).
 holds(s_18985_jpg, powerplant).
 holds(s_18985_jpg, door).
+holds(s_18985_jpg, table).
 holds(s_18985_jpg, chimney).
 holds(s_18985_jpg, pipe).
 holds(s_18985_jpg, industrial).
@@ -37534,7 +37575,6 @@ holds(s_18986_jpg, door).
 holds(s_18986_jpg, window).
 holds(s_18986_jpg, awning).
 holds(s_18986_jpg, porch).
-holds(s_18986_jpg, table).
 holds(s_18986_jpg, residential).
 
 sample(s_18987_jpg).
@@ -37558,7 +37598,6 @@ holds(s_18988_jpg, feature).
 holds(s_18988_jpg, powerplant).
 holds(s_18988_jpg, door).
 holds(s_18988_jpg, window).
-holds(s_18988_jpg, table).
 holds(s_18988_jpg, chimney).
 holds(s_18988_jpg, pipe).
 holds(s_18988_jpg, car).
@@ -37594,6 +37633,7 @@ holds(s_18991_jpg, watertreatment).
 holds(s_18991_jpg, door).
 holds(s_18991_jpg, window).
 holds(s_18991_jpg, awning).
+holds(s_18991_jpg, table).
 holds(s_18991_jpg, pipe).
 holds(s_18991_jpg, truck).
 holds(s_18991_jpg, industrial).
@@ -37685,6 +37725,7 @@ holds(s_18999_jpg, cafe).
 holds(s_18999_jpg, hotel).
 holds(s_18999_jpg, door).
 holds(s_18999_jpg, sign).
+holds(s_18999_jpg, table).
 holds(s_18999_jpg, vendingmachine).
 holds(s_18999_jpg, wallsign).
 holds(s_18999_jpg, statue).
@@ -37707,6 +37748,7 @@ holds(s_19001_jpg, miscresidential).
 holds(s_19001_jpg, door).
 holds(s_19001_jpg, awning).
 holds(s_19001_jpg, porch).
+holds(s_19001_jpg, table).
 holds(s_19001_jpg, tiledroof).
 holds(s_19001_jpg, tiledrooftop).
 holds(s_19001_jpg, residential).
@@ -37723,7 +37765,6 @@ holds(s_19002_jpg, window).
 holds(s_19002_jpg, awning).
 holds(s_19002_jpg, billboard).
 holds(s_19002_jpg, sign).
-holds(s_19002_jpg, table).
 holds(s_19002_jpg, tiledroof).
 holds(s_19002_jpg, tiledrooftop).
 holds(s_19002_jpg, wallsign).
@@ -37748,7 +37789,6 @@ holds(s_19004_jpg, suburban).
 holds(s_19004_jpg, door).
 holds(s_19004_jpg, awning).
 holds(s_19004_jpg, porch).
-holds(s_19004_jpg, table).
 holds(s_19004_jpg, residential).
 
 sample(s_19005_jpg).
@@ -37802,7 +37842,6 @@ holds(s_19008_jpg, door).
 holds(s_19008_jpg, window).
 holds(s_19008_jpg, awning).
 holds(s_19008_jpg, sign).
-holds(s_19008_jpg, table).
 holds(s_19008_jpg, vendingmachine).
 holds(s_19008_jpg, statue).
 holds(s_19008_jpg, commercial).
@@ -37813,6 +37852,7 @@ holds(s_19009_jpg, feature).
 holds(s_19009_jpg, powerplant).
 holds(s_19009_jpg, door).
 holds(s_19009_jpg, window).
+holds(s_19009_jpg, table).
 holds(s_19009_jpg, chimney).
 holds(s_19009_jpg, pipe).
 holds(s_19009_jpg, industrial).
@@ -37824,6 +37864,7 @@ holds(s_19010_jpg, miscresidential).
 holds(s_19010_jpg, countryhouse).
 holds(s_19010_jpg, door).
 holds(s_19010_jpg, window).
+holds(s_19010_jpg, table).
 holds(s_19010_jpg, tiledroof).
 holds(s_19010_jpg, tiledrooftop).
 holds(s_19010_jpg, car).
@@ -37870,6 +37911,7 @@ holds(s_19014_jpg, restaurant).
 holds(s_19014_jpg, door).
 holds(s_19014_jpg, window).
 holds(s_19014_jpg, sign).
+holds(s_19014_jpg, table).
 holds(s_19014_jpg, vendingmachine).
 holds(s_19014_jpg, wallsign).
 holds(s_19014_jpg, car).
@@ -37880,6 +37922,7 @@ holds(s_19015_jpg, building).
 holds(s_19015_jpg, feature).
 holds(s_19015_jpg, powerplant).
 holds(s_19015_jpg, door).
+holds(s_19015_jpg, table).
 holds(s_19015_jpg, chimney).
 holds(s_19015_jpg, pipe).
 holds(s_19015_jpg, car).
@@ -37905,6 +37948,7 @@ holds(s_19017_jpg, window).
 holds(s_19017_jpg, awning).
 holds(s_19017_jpg, billboard).
 holds(s_19017_jpg, sign).
+holds(s_19017_jpg, table).
 holds(s_19017_jpg, vendingmachine).
 holds(s_19017_jpg, statue).
 holds(s_19017_jpg, commercial).
@@ -37951,6 +37995,7 @@ holds(s_19021_jpg, feature).
 holds(s_19021_jpg, miscindustrial).
 holds(s_19021_jpg, watertreatment).
 holds(s_19021_jpg, window).
+holds(s_19021_jpg, table).
 holds(s_19021_jpg, pipe).
 holds(s_19021_jpg, truck).
 holds(s_19021_jpg, industrial).
@@ -37963,7 +38008,6 @@ holds(s_19022_jpg, miscresidential).
 holds(s_19022_jpg, door).
 holds(s_19022_jpg, window).
 holds(s_19022_jpg, porch).
-holds(s_19022_jpg, table).
 holds(s_19022_jpg, tiledroof).
 holds(s_19022_jpg, tiledrooftop).
 holds(s_19022_jpg, truck).
@@ -37978,6 +38022,7 @@ holds(s_19023_jpg, door).
 holds(s_19023_jpg, window).
 holds(s_19023_jpg, billboard).
 holds(s_19023_jpg, sign).
+holds(s_19023_jpg, table).
 holds(s_19023_jpg, wallsign).
 holds(s_19023_jpg, chimney).
 holds(s_19023_jpg, commercial).
@@ -38000,7 +38045,6 @@ holds(s_19025_jpg, miscresidential).
 holds(s_19025_jpg, door).
 holds(s_19025_jpg, awning).
 holds(s_19025_jpg, porch).
-holds(s_19025_jpg, table).
 holds(s_19025_jpg, tiledroof).
 holds(s_19025_jpg, tiledrooftop).
 holds(s_19025_jpg, truck).
@@ -38018,6 +38062,7 @@ holds(s_19026_jpg, window).
 holds(s_19026_jpg, awning).
 holds(s_19026_jpg, billboard).
 holds(s_19026_jpg, sign).
+holds(s_19026_jpg, table).
 holds(s_19026_jpg, tiledroof).
 holds(s_19026_jpg, wallsign).
 holds(s_19026_jpg, statue).
@@ -38028,6 +38073,7 @@ holds(s_19027_jpg, building).
 holds(s_19027_jpg, feature).
 holds(s_19027_jpg, powerplant).
 holds(s_19027_jpg, window).
+holds(s_19027_jpg, table).
 holds(s_19027_jpg, chimney).
 holds(s_19027_jpg, pipe).
 holds(s_19027_jpg, industrial).
@@ -38076,7 +38122,6 @@ holds(s_19031_jpg, suburban).
 holds(s_19031_jpg, door).
 holds(s_19031_jpg, window).
 holds(s_19031_jpg, porch).
-holds(s_19031_jpg, table).
 holds(s_19031_jpg, residential).
 
 sample(s_19032_jpg).
@@ -38085,6 +38130,7 @@ holds(s_19032_jpg, feature).
 holds(s_19032_jpg, cafe).
 holds(s_19032_jpg, hotel).
 holds(s_19032_jpg, window).
+holds(s_19032_jpg, table).
 holds(s_19032_jpg, wallsign).
 holds(s_19032_jpg, statue).
 holds(s_19032_jpg, commercial).
@@ -38105,6 +38151,7 @@ holds(s_19034_jpg, feature).
 holds(s_19034_jpg, miscresidential).
 holds(s_19034_jpg, countryhouse).
 holds(s_19034_jpg, window).
+holds(s_19034_jpg, table).
 holds(s_19034_jpg, tiledroof).
 holds(s_19034_jpg, tiledrooftop).
 holds(s_19034_jpg, car).
@@ -38199,7 +38246,6 @@ holds(s_19041_jpg, hotel).
 holds(s_19041_jpg, door).
 holds(s_19041_jpg, awning).
 holds(s_19041_jpg, sign).
-holds(s_19041_jpg, table).
 holds(s_19041_jpg, vendingmachine).
 holds(s_19041_jpg, wallsign).
 holds(s_19041_jpg, commercial).
@@ -38209,7 +38255,6 @@ holds(s_19042_jpg, building).
 holds(s_19042_jpg, feature).
 holds(s_19042_jpg, powerplant).
 holds(s_19042_jpg, door).
-holds(s_19042_jpg, table).
 holds(s_19042_jpg, chimney).
 holds(s_19042_jpg, pipe).
 holds(s_19042_jpg, car).
@@ -38223,7 +38268,6 @@ holds(s_19043_jpg, miscresidential).
 holds(s_19043_jpg, door).
 holds(s_19043_jpg, awning).
 holds(s_19043_jpg, porch).
-holds(s_19043_jpg, table).
 holds(s_19043_jpg, tiledroof).
 holds(s_19043_jpg, tiledrooftop).
 holds(s_19043_jpg, residential).
@@ -38252,7 +38296,6 @@ holds(s_19045_jpg, feature).
 holds(s_19045_jpg, miscindustrial).
 holds(s_19045_jpg, watertreatment).
 holds(s_19045_jpg, door).
-holds(s_19045_jpg, table).
 holds(s_19045_jpg, pipe).
 holds(s_19045_jpg, truck).
 holds(s_19045_jpg, industrial).
@@ -38265,6 +38308,7 @@ holds(s_19046_jpg, door).
 holds(s_19046_jpg, window).
 holds(s_19046_jpg, awning).
 holds(s_19046_jpg, porch).
+holds(s_19046_jpg, table).
 holds(s_19046_jpg, residential).
 
 sample(s_19047_jpg).
@@ -38277,6 +38321,7 @@ holds(s_19047_jpg, window).
 holds(s_19047_jpg, awning).
 holds(s_19047_jpg, billboard).
 holds(s_19047_jpg, sign).
+holds(s_19047_jpg, table).
 holds(s_19047_jpg, vendingmachine).
 holds(s_19047_jpg, wallsign).
 holds(s_19047_jpg, statue).
@@ -38301,6 +38346,7 @@ holds(s_19049_jpg, feature).
 holds(s_19049_jpg, miscresidential).
 holds(s_19049_jpg, countryhouse).
 holds(s_19049_jpg, window).
+holds(s_19049_jpg, table).
 holds(s_19049_jpg, tiledroof).
 holds(s_19049_jpg, tiledrooftop).
 holds(s_19049_jpg, car).
@@ -38316,7 +38362,6 @@ holds(s_19050_jpg, door).
 holds(s_19050_jpg, window).
 holds(s_19050_jpg, awning).
 holds(s_19050_jpg, billboard).
-holds(s_19050_jpg, table).
 holds(s_19050_jpg, vendingmachine).
 holds(s_19050_jpg, chimney).
 holds(s_19050_jpg, commercial).
@@ -38340,7 +38385,6 @@ holds(s_19052_jpg, miscresidential).
 holds(s_19052_jpg, countryhouse).
 holds(s_19052_jpg, window).
 holds(s_19052_jpg, awning).
-holds(s_19052_jpg, table).
 holds(s_19052_jpg, tiledroof).
 holds(s_19052_jpg, tiledrooftop).
 holds(s_19052_jpg, car).
@@ -38381,7 +38425,6 @@ holds(s_19055_jpg, miscresidential).
 holds(s_19055_jpg, countryhouse).
 holds(s_19055_jpg, window).
 holds(s_19055_jpg, porch).
-holds(s_19055_jpg, table).
 holds(s_19055_jpg, tiledroof).
 holds(s_19055_jpg, tiledrooftop).
 holds(s_19055_jpg, car).
@@ -38398,7 +38441,6 @@ holds(s_19056_jpg, window).
 holds(s_19056_jpg, awning).
 holds(s_19056_jpg, billboard).
 holds(s_19056_jpg, sign).
-holds(s_19056_jpg, table).
 holds(s_19056_jpg, tiledroof).
 holds(s_19056_jpg, tiledrooftop).
 holds(s_19056_jpg, truck).
@@ -38410,6 +38452,7 @@ holds(s_19057_jpg, feature).
 holds(s_19057_jpg, powerplant).
 holds(s_19057_jpg, window).
 holds(s_19057_jpg, awning).
+holds(s_19057_jpg, table).
 holds(s_19057_jpg, chimney).
 holds(s_19057_jpg, pipe).
 holds(s_19057_jpg, car).
@@ -38467,6 +38510,7 @@ holds(s_19061_jpg, miscresidential).
 holds(s_19061_jpg, countryhouse).
 holds(s_19061_jpg, door).
 holds(s_19061_jpg, window).
+holds(s_19061_jpg, table).
 holds(s_19061_jpg, tiledroof).
 holds(s_19061_jpg, tiledrooftop).
 holds(s_19061_jpg, car).
@@ -38497,7 +38541,6 @@ holds(s_19063_jpg, miscindustrial).
 holds(s_19063_jpg, watertreatment).
 holds(s_19063_jpg, door).
 holds(s_19063_jpg, window).
-holds(s_19063_jpg, table).
 holds(s_19063_jpg, pipe).
 holds(s_19063_jpg, truck).
 holds(s_19063_jpg, industrial).
@@ -38509,6 +38552,7 @@ holds(s_19064_jpg, suburban).
 holds(s_19064_jpg, miscresidential).
 holds(s_19064_jpg, door).
 holds(s_19064_jpg, porch).
+holds(s_19064_jpg, table).
 holds(s_19064_jpg, tiledroof).
 holds(s_19064_jpg, tiledrooftop).
 holds(s_19064_jpg, residential).
@@ -38544,7 +38588,6 @@ holds(s_19067_jpg, miscresidential).
 holds(s_19067_jpg, door).
 holds(s_19067_jpg, window).
 holds(s_19067_jpg, awning).
-holds(s_19067_jpg, table).
 holds(s_19067_jpg, tiledroof).
 holds(s_19067_jpg, tiledrooftop).
 holds(s_19067_jpg, residential).
@@ -38566,6 +38609,7 @@ holds(s_19069_jpg, feature).
 holds(s_19069_jpg, miscindustrial).
 holds(s_19069_jpg, door).
 holds(s_19069_jpg, window).
+holds(s_19069_jpg, table).
 holds(s_19069_jpg, chimney).
 holds(s_19069_jpg, truck).
 holds(s_19069_jpg, industrial).
@@ -38620,6 +38664,7 @@ holds(s_19074_jpg, feature).
 holds(s_19074_jpg, restaurant).
 holds(s_19074_jpg, door).
 holds(s_19074_jpg, sign).
+holds(s_19074_jpg, table).
 holds(s_19074_jpg, car).
 holds(s_19074_jpg, commercial).
 
@@ -38659,7 +38704,6 @@ holds(s_19077_jpg, window).
 holds(s_19077_jpg, awning).
 holds(s_19077_jpg, billboard).
 holds(s_19077_jpg, sign).
-holds(s_19077_jpg, table).
 holds(s_19077_jpg, vendingmachine).
 holds(s_19077_jpg, wallsign).
 holds(s_19077_jpg, statue).
@@ -38673,6 +38717,7 @@ holds(s_19078_jpg, powerplant).
 holds(s_19078_jpg, watertreatment).
 holds(s_19078_jpg, window).
 holds(s_19078_jpg, awning).
+holds(s_19078_jpg, table).
 holds(s_19078_jpg, chimney).
 holds(s_19078_jpg, pipe).
 holds(s_19078_jpg, truck).
@@ -38713,7 +38758,6 @@ holds(s_19081_jpg, watertreatment).
 holds(s_19081_jpg, door).
 holds(s_19081_jpg, window).
 holds(s_19081_jpg, awning).
-holds(s_19081_jpg, table).
 holds(s_19081_jpg, chimney).
 holds(s_19081_jpg, pipe).
 holds(s_19081_jpg, truck).
@@ -38726,7 +38770,6 @@ holds(s_19082_jpg, suburban).
 holds(s_19082_jpg, door).
 holds(s_19082_jpg, awning).
 holds(s_19082_jpg, porch).
-holds(s_19082_jpg, table).
 holds(s_19082_jpg, residential).
 
 sample(s_19083_jpg).
@@ -38777,6 +38820,7 @@ holds(s_19086_jpg, door).
 holds(s_19086_jpg, awning).
 holds(s_19086_jpg, billboard).
 holds(s_19086_jpg, sign).
+holds(s_19086_jpg, table).
 holds(s_19086_jpg, wallsign).
 holds(s_19086_jpg, chimney).
 holds(s_19086_jpg, commercial).
@@ -38798,6 +38842,7 @@ holds(s_19088_jpg, countryhouse).
 holds(s_19088_jpg, door).
 holds(s_19088_jpg, window).
 holds(s_19088_jpg, awning).
+holds(s_19088_jpg, table).
 holds(s_19088_jpg, tiledroof).
 holds(s_19088_jpg, tiledrooftop).
 holds(s_19088_jpg, car).
@@ -38825,6 +38870,7 @@ holds(s_19090_jpg, miscindustrial).
 holds(s_19090_jpg, powerplant).
 holds(s_19090_jpg, watertreatment).
 holds(s_19090_jpg, window).
+holds(s_19090_jpg, table).
 holds(s_19090_jpg, chimney).
 holds(s_19090_jpg, pipe).
 holds(s_19090_jpg, truck).
@@ -38858,7 +38904,6 @@ holds(s_19093_jpg, building).
 holds(s_19093_jpg, feature).
 holds(s_19093_jpg, miscindustrial).
 holds(s_19093_jpg, window).
-holds(s_19093_jpg, table).
 holds(s_19093_jpg, truck).
 holds(s_19093_jpg, industrial).
 
@@ -38870,7 +38915,6 @@ holds(s_19094_jpg, miscresidential).
 holds(s_19094_jpg, window).
 holds(s_19094_jpg, awning).
 holds(s_19094_jpg, porch).
-holds(s_19094_jpg, table).
 holds(s_19094_jpg, tiledroof).
 holds(s_19094_jpg, tiledrooftop).
 holds(s_19094_jpg, residential).
@@ -38954,6 +38998,7 @@ holds(s_19101_jpg, feature).
 holds(s_19101_jpg, hotel).
 holds(s_19101_jpg, store).
 holds(s_19101_jpg, billboard).
+holds(s_19101_jpg, table).
 holds(s_19101_jpg, wallsign).
 holds(s_19101_jpg, commercial).
 
@@ -38990,7 +39035,6 @@ holds(s_19104_jpg, door).
 holds(s_19104_jpg, window).
 holds(s_19104_jpg, awning).
 holds(s_19104_jpg, sign).
-holds(s_19104_jpg, table).
 holds(s_19104_jpg, wallsign).
 holds(s_19104_jpg, chimney).
 holds(s_19104_jpg, truck).
@@ -39034,7 +39078,6 @@ holds(s_19107_jpg, window).
 holds(s_19107_jpg, awning).
 holds(s_19107_jpg, billboard).
 holds(s_19107_jpg, sign).
-holds(s_19107_jpg, table).
 holds(s_19107_jpg, vendingmachine).
 holds(s_19107_jpg, wallsign).
 holds(s_19107_jpg, chimney).
@@ -39048,7 +39091,6 @@ holds(s_19108_jpg, constructionsite).
 holds(s_19108_jpg, door).
 holds(s_19108_jpg, window).
 holds(s_19108_jpg, awning).
-holds(s_19108_jpg, table).
 holds(s_19108_jpg, pipe).
 holds(s_19108_jpg, machine).
 holds(s_19108_jpg, industrial).
@@ -39062,7 +39104,6 @@ holds(s_19109_jpg, door).
 holds(s_19109_jpg, window).
 holds(s_19109_jpg, awning).
 holds(s_19109_jpg, porch).
-holds(s_19109_jpg, table).
 holds(s_19109_jpg, tiledroof).
 holds(s_19109_jpg, tiledrooftop).
 holds(s_19109_jpg, residential).
@@ -39126,7 +39167,6 @@ holds(s_19114_jpg, feature).
 holds(s_19114_jpg, miscindustrial).
 holds(s_19114_jpg, powerplant).
 holds(s_19114_jpg, watertreatment).
-holds(s_19114_jpg, table).
 holds(s_19114_jpg, chimney).
 holds(s_19114_jpg, pipe).
 holds(s_19114_jpg, truck).
@@ -39140,6 +39180,7 @@ holds(s_19115_jpg, miscresidential).
 holds(s_19115_jpg, window).
 holds(s_19115_jpg, awning).
 holds(s_19115_jpg, porch).
+holds(s_19115_jpg, table).
 holds(s_19115_jpg, tiledroof).
 holds(s_19115_jpg, tiledrooftop).
 holds(s_19115_jpg, residential).
@@ -39165,7 +39206,6 @@ holds(s_19117_jpg, constructionsite).
 holds(s_19117_jpg, powerplant).
 holds(s_19117_jpg, door).
 holds(s_19117_jpg, sign).
-holds(s_19117_jpg, table).
 holds(s_19117_jpg, chimney).
 holds(s_19117_jpg, pipe).
 holds(s_19117_jpg, machine).
@@ -39195,6 +39235,7 @@ holds(s_19119_jpg, door).
 holds(s_19119_jpg, window).
 holds(s_19119_jpg, awning).
 holds(s_19119_jpg, billboard).
+holds(s_19119_jpg, table).
 holds(s_19119_jpg, wallsign).
 holds(s_19119_jpg, commercial).
 
@@ -39218,6 +39259,7 @@ holds(s_19121_jpg, feature).
 holds(s_19121_jpg, suburban).
 holds(s_19121_jpg, miscresidential).
 holds(s_19121_jpg, porch).
+holds(s_19121_jpg, table).
 holds(s_19121_jpg, tiledroof).
 holds(s_19121_jpg, tiledrooftop).
 holds(s_19121_jpg, residential).
@@ -39247,6 +39289,7 @@ holds(s_19123_jpg, miscindustrial).
 holds(s_19123_jpg, powerplant).
 holds(s_19123_jpg, watertreatment).
 holds(s_19123_jpg, window).
+holds(s_19123_jpg, table).
 holds(s_19123_jpg, chimney).
 holds(s_19123_jpg, pipe).
 holds(s_19123_jpg, truck).
@@ -39367,7 +39410,6 @@ holds(s_19132_jpg, feature).
 holds(s_19132_jpg, miscindustrial).
 holds(s_19132_jpg, watertreatment).
 holds(s_19132_jpg, door).
-holds(s_19132_jpg, table).
 holds(s_19132_jpg, pipe).
 holds(s_19132_jpg, truck).
 holds(s_19132_jpg, industrial).
@@ -39379,6 +39421,7 @@ holds(s_19133_jpg, suburban).
 holds(s_19133_jpg, window).
 holds(s_19133_jpg, awning).
 holds(s_19133_jpg, porch).
+holds(s_19133_jpg, table).
 holds(s_19133_jpg, car).
 holds(s_19133_jpg, residential).
 
@@ -39399,6 +39442,7 @@ holds(s_19135_jpg, building).
 holds(s_19135_jpg, feature).
 holds(s_19135_jpg, miscindustrial).
 holds(s_19135_jpg, door).
+holds(s_19135_jpg, table).
 holds(s_19135_jpg, truck).
 holds(s_19135_jpg, industrial).
 
@@ -39407,7 +39451,6 @@ holds(s_19136_jpg, building).
 holds(s_19136_jpg, feature).
 holds(s_19136_jpg, miscresidential).
 holds(s_19136_jpg, window).
-holds(s_19136_jpg, table).
 holds(s_19136_jpg, tiledroof).
 holds(s_19136_jpg, tiledrooftop).
 holds(s_19136_jpg, truck).
@@ -39423,7 +39466,6 @@ holds(s_19137_jpg, misccommercial).
 holds(s_19137_jpg, door).
 holds(s_19137_jpg, awning).
 holds(s_19137_jpg, billboard).
-holds(s_19137_jpg, table).
 holds(s_19137_jpg, vendingmachine).
 holds(s_19137_jpg, wallsign).
 holds(s_19137_jpg, pipe).
@@ -39435,6 +39477,7 @@ holds(s_19138_jpg, building).
 holds(s_19138_jpg, feature).
 holds(s_19138_jpg, powerplant).
 holds(s_19138_jpg, door).
+holds(s_19138_jpg, table).
 holds(s_19138_jpg, chimney).
 holds(s_19138_jpg, pipe).
 holds(s_19138_jpg, industrial).
@@ -39446,7 +39489,6 @@ holds(s_19139_jpg, miscresidential).
 holds(s_19139_jpg, countryhouse).
 holds(s_19139_jpg, door).
 holds(s_19139_jpg, window).
-holds(s_19139_jpg, table).
 holds(s_19139_jpg, tiledroof).
 holds(s_19139_jpg, tiledrooftop).
 holds(s_19139_jpg, car).
@@ -39461,6 +39503,7 @@ holds(s_19140_jpg, door).
 holds(s_19140_jpg, window).
 holds(s_19140_jpg, billboard).
 holds(s_19140_jpg, sign).
+holds(s_19140_jpg, table).
 holds(s_19140_jpg, car).
 holds(s_19140_jpg, commercial).
 
@@ -39468,6 +39511,7 @@ sample(s_19141_jpg).
 holds(s_19141_jpg, building).
 holds(s_19141_jpg, feature).
 holds(s_19141_jpg, miscindustrial).
+holds(s_19141_jpg, table).
 holds(s_19141_jpg, chimney).
 holds(s_19141_jpg, truck).
 holds(s_19141_jpg, industrial).
@@ -39490,7 +39534,6 @@ holds(s_19143_jpg, feature).
 holds(s_19143_jpg, misccommercial).
 holds(s_19143_jpg, door).
 holds(s_19143_jpg, awning).
-holds(s_19143_jpg, table).
 holds(s_19143_jpg, chimney).
 holds(s_19143_jpg, commercial).
 
@@ -39501,7 +39544,6 @@ holds(s_19144_jpg, miscindustrial).
 holds(s_19144_jpg, watertreatment).
 holds(s_19144_jpg, door).
 holds(s_19144_jpg, window).
-holds(s_19144_jpg, table).
 holds(s_19144_jpg, pipe).
 holds(s_19144_jpg, truck).
 holds(s_19144_jpg, industrial).
@@ -39515,6 +39557,7 @@ holds(s_19145_jpg, door).
 holds(s_19145_jpg, window).
 holds(s_19145_jpg, awning).
 holds(s_19145_jpg, porch).
+holds(s_19145_jpg, table).
 holds(s_19145_jpg, tiledroof).
 holds(s_19145_jpg, tiledrooftop).
 holds(s_19145_jpg, truck).
@@ -39531,7 +39574,6 @@ holds(s_19146_jpg, window).
 holds(s_19146_jpg, awning).
 holds(s_19146_jpg, billboard).
 holds(s_19146_jpg, sign).
-holds(s_19146_jpg, table).
 holds(s_19146_jpg, tiledroof).
 holds(s_19146_jpg, tiledrooftop).
 holds(s_19146_jpg, vendingmachine).
@@ -39545,6 +39587,7 @@ holds(s_19147_jpg, miscindustrial).
 holds(s_19147_jpg, powerplant).
 holds(s_19147_jpg, watertreatment).
 holds(s_19147_jpg, door).
+holds(s_19147_jpg, table).
 holds(s_19147_jpg, chimney).
 holds(s_19147_jpg, pipe).
 holds(s_19147_jpg, truck).
@@ -39555,7 +39598,6 @@ holds(s_19148_jpg, building).
 holds(s_19148_jpg, feature).
 holds(s_19148_jpg, suburban).
 holds(s_19148_jpg, porch).
-holds(s_19148_jpg, table).
 holds(s_19148_jpg, truck).
 holds(s_19148_jpg, residential).
 
@@ -39567,6 +39609,7 @@ holds(s_19149_jpg, misccommercial).
 holds(s_19149_jpg, door).
 holds(s_19149_jpg, window).
 holds(s_19149_jpg, awning).
+holds(s_19149_jpg, table).
 holds(s_19149_jpg, tiledroof).
 holds(s_19149_jpg, vendingmachine).
 holds(s_19149_jpg, statue).
@@ -39590,7 +39633,6 @@ holds(s_19151_jpg, feature).
 holds(s_19151_jpg, miscresidential).
 holds(s_19151_jpg, countryhouse).
 holds(s_19151_jpg, window).
-holds(s_19151_jpg, table).
 holds(s_19151_jpg, tiledroof).
 holds(s_19151_jpg, tiledrooftop).
 holds(s_19151_jpg, car).
@@ -39601,6 +39643,7 @@ holds(s_19152_jpg, building).
 holds(s_19152_jpg, feature).
 holds(s_19152_jpg, cafe).
 holds(s_19152_jpg, hotel).
+holds(s_19152_jpg, table).
 holds(s_19152_jpg, vendingmachine).
 holds(s_19152_jpg, wallsign).
 holds(s_19152_jpg, chimney).
@@ -39611,7 +39654,6 @@ holds(s_19153_jpg, building).
 holds(s_19153_jpg, feature).
 holds(s_19153_jpg, constructionsite).
 holds(s_19153_jpg, window).
-holds(s_19153_jpg, table).
 holds(s_19153_jpg, pipe).
 holds(s_19153_jpg, machine).
 holds(s_19153_jpg, industrial).
@@ -39653,7 +39695,6 @@ holds(s_19157_jpg, building).
 holds(s_19157_jpg, feature).
 holds(s_19157_jpg, miscresidential).
 holds(s_19157_jpg, countryhouse).
-holds(s_19157_jpg, table).
 holds(s_19157_jpg, tiledroof).
 holds(s_19157_jpg, tiledrooftop).
 holds(s_19157_jpg, car).
@@ -39680,6 +39721,7 @@ holds(s_19159_jpg, constructionsite).
 holds(s_19159_jpg, window).
 holds(s_19159_jpg, awning).
 holds(s_19159_jpg, sign).
+holds(s_19159_jpg, table).
 holds(s_19159_jpg, pipe).
 holds(s_19159_jpg, machine).
 holds(s_19159_jpg, industrial).
@@ -39741,6 +39783,7 @@ holds(s_19164_jpg, misccommercial).
 holds(s_19164_jpg, window).
 holds(s_19164_jpg, awning).
 holds(s_19164_jpg, billboard).
+holds(s_19164_jpg, table).
 holds(s_19164_jpg, tiledroof).
 holds(s_19164_jpg, vendingmachine).
 holds(s_19164_jpg, statue).
@@ -39763,6 +39806,7 @@ holds(s_19166_jpg, feature).
 holds(s_19166_jpg, suburban).
 holds(s_19166_jpg, window).
 holds(s_19166_jpg, porch).
+holds(s_19166_jpg, table).
 holds(s_19166_jpg, truck).
 holds(s_19166_jpg, residential).
 
@@ -39777,7 +39821,6 @@ holds(s_19167_jpg, window).
 holds(s_19167_jpg, awning).
 holds(s_19167_jpg, billboard).
 holds(s_19167_jpg, sign).
-holds(s_19167_jpg, table).
 holds(s_19167_jpg, truck).
 holds(s_19167_jpg, commercial).
 
@@ -39786,7 +39829,6 @@ holds(s_19168_jpg, building).
 holds(s_19168_jpg, feature).
 holds(s_19168_jpg, powerplant).
 holds(s_19168_jpg, door).
-holds(s_19168_jpg, table).
 holds(s_19168_jpg, chimney).
 holds(s_19168_jpg, pipe).
 holds(s_19168_jpg, industrial).
@@ -39839,6 +39881,7 @@ holds(s_19172_jpg, suburban).
 holds(s_19172_jpg, miscresidential).
 holds(s_19172_jpg, porch).
 holds(s_19172_jpg, sign).
+holds(s_19172_jpg, table).
 holds(s_19172_jpg, tiledroof).
 holds(s_19172_jpg, tiledrooftop).
 holds(s_19172_jpg, residential).
@@ -39852,6 +39895,7 @@ holds(s_19173_jpg, door).
 holds(s_19173_jpg, window).
 holds(s_19173_jpg, billboard).
 holds(s_19173_jpg, sign).
+holds(s_19173_jpg, table).
 holds(s_19173_jpg, pipe).
 holds(s_19173_jpg, car).
 holds(s_19173_jpg, commercial).
@@ -39864,7 +39908,6 @@ holds(s_19174_jpg, powerplant).
 holds(s_19174_jpg, watertreatment).
 holds(s_19174_jpg, door).
 holds(s_19174_jpg, window).
-holds(s_19174_jpg, table).
 holds(s_19174_jpg, chimney).
 holds(s_19174_jpg, pipe).
 holds(s_19174_jpg, truck).
@@ -39878,7 +39921,6 @@ holds(s_19175_jpg, miscresidential).
 holds(s_19175_jpg, door).
 holds(s_19175_jpg, window).
 holds(s_19175_jpg, porch).
-holds(s_19175_jpg, table).
 holds(s_19175_jpg, tiledroof).
 holds(s_19175_jpg, tiledrooftop).
 holds(s_19175_jpg, residential).
@@ -39903,7 +39945,6 @@ holds(s_19177_jpg, feature).
 holds(s_19177_jpg, powerplant).
 holds(s_19177_jpg, door).
 holds(s_19177_jpg, window).
-holds(s_19177_jpg, table).
 holds(s_19177_jpg, chimney).
 holds(s_19177_jpg, pipe).
 holds(s_19177_jpg, car).
@@ -39931,6 +39972,7 @@ holds(s_19179_jpg, window).
 holds(s_19179_jpg, awning).
 holds(s_19179_jpg, billboard).
 holds(s_19179_jpg, sign).
+holds(s_19179_jpg, table).
 holds(s_19179_jpg, vendingmachine).
 holds(s_19179_jpg, truck).
 holds(s_19179_jpg, commercial).
@@ -39942,6 +39984,7 @@ holds(s_19180_jpg, miscindustrial).
 holds(s_19180_jpg, watertreatment).
 holds(s_19180_jpg, door).
 holds(s_19180_jpg, window).
+holds(s_19180_jpg, table).
 holds(s_19180_jpg, pipe).
 holds(s_19180_jpg, truck).
 holds(s_19180_jpg, industrial).
@@ -39953,7 +39996,6 @@ holds(s_19181_jpg, suburban).
 holds(s_19181_jpg, window).
 holds(s_19181_jpg, awning).
 holds(s_19181_jpg, porch).
-holds(s_19181_jpg, table).
 holds(s_19181_jpg, residential).
 
 sample(s_19182_jpg).
@@ -39993,7 +40035,6 @@ holds(s_19184_jpg, window).
 holds(s_19184_jpg, awning).
 holds(s_19184_jpg, porch).
 holds(s_19184_jpg, sign).
-holds(s_19184_jpg, table).
 holds(s_19184_jpg, tiledroof).
 holds(s_19184_jpg, tiledrooftop).
 holds(s_19184_jpg, residential).
@@ -40006,7 +40047,6 @@ holds(s_19185_jpg, misccommercial).
 holds(s_19185_jpg, door).
 holds(s_19185_jpg, window).
 holds(s_19185_jpg, awning).
-holds(s_19185_jpg, table).
 holds(s_19185_jpg, statue).
 holds(s_19185_jpg, pipe).
 holds(s_19185_jpg, commercial).
@@ -40030,6 +40070,7 @@ holds(s_19187_jpg, suburban).
 holds(s_19187_jpg, window).
 holds(s_19187_jpg, awning).
 holds(s_19187_jpg, porch).
+holds(s_19187_jpg, table).
 holds(s_19187_jpg, residential).
 
 sample(s_19188_jpg).
@@ -40066,7 +40107,6 @@ holds(s_19190_jpg, miscresidential).
 holds(s_19190_jpg, countryhouse).
 holds(s_19190_jpg, door).
 holds(s_19190_jpg, awning).
-holds(s_19190_jpg, table).
 holds(s_19190_jpg, tiledroof).
 holds(s_19190_jpg, tiledrooftop).
 holds(s_19190_jpg, car).
@@ -40093,7 +40133,6 @@ holds(s_19192_jpg, constructionsite).
 holds(s_19192_jpg, door).
 holds(s_19192_jpg, window).
 holds(s_19192_jpg, sign).
-holds(s_19192_jpg, table).
 holds(s_19192_jpg, pipe).
 holds(s_19192_jpg, machine).
 holds(s_19192_jpg, industrial).
@@ -40240,6 +40279,7 @@ holds(s_19204_jpg, building).
 holds(s_19204_jpg, feature).
 holds(s_19204_jpg, constructionsite).
 holds(s_19204_jpg, door).
+holds(s_19204_jpg, table).
 holds(s_19204_jpg, chimney).
 holds(s_19204_jpg, machine).
 holds(s_19204_jpg, industrial).
@@ -40281,7 +40321,6 @@ holds(s_19207_jpg, constructionsite).
 holds(s_19207_jpg, powerplant).
 holds(s_19207_jpg, window).
 holds(s_19207_jpg, awning).
-holds(s_19207_jpg, table).
 holds(s_19207_jpg, chimney).
 holds(s_19207_jpg, pipe).
 holds(s_19207_jpg, machine).
@@ -40295,6 +40334,7 @@ holds(s_19208_jpg, door).
 holds(s_19208_jpg, window).
 holds(s_19208_jpg, porch).
 holds(s_19208_jpg, sign).
+holds(s_19208_jpg, table).
 holds(s_19208_jpg, residential).
 
 sample(s_19209_jpg).
@@ -40307,6 +40347,7 @@ holds(s_19209_jpg, window).
 holds(s_19209_jpg, awning).
 holds(s_19209_jpg, billboard).
 holds(s_19209_jpg, sign).
+holds(s_19209_jpg, table).
 holds(s_19209_jpg, statue).
 holds(s_19209_jpg, commercial).
 
@@ -40330,7 +40371,6 @@ holds(s_19211_jpg, miscresidential).
 holds(s_19211_jpg, countryhouse).
 holds(s_19211_jpg, door).
 holds(s_19211_jpg, window).
-holds(s_19211_jpg, table).
 holds(s_19211_jpg, tiledroof).
 holds(s_19211_jpg, tiledrooftop).
 holds(s_19211_jpg, car).
@@ -40347,7 +40387,6 @@ holds(s_19212_jpg, door).
 holds(s_19212_jpg, window).
 holds(s_19212_jpg, awning).
 holds(s_19212_jpg, billboard).
-holds(s_19212_jpg, table).
 holds(s_19212_jpg, tiledroof).
 holds(s_19212_jpg, vendingmachine).
 holds(s_19212_jpg, wallsign).
@@ -40369,6 +40408,7 @@ holds(s_19214_jpg, feature).
 holds(s_19214_jpg, miscresidential).
 holds(s_19214_jpg, countryhouse).
 holds(s_19214_jpg, window).
+holds(s_19214_jpg, table).
 holds(s_19214_jpg, tiledroof).
 holds(s_19214_jpg, tiledrooftop).
 holds(s_19214_jpg, car).
@@ -40394,6 +40434,7 @@ holds(s_19216_jpg, building).
 holds(s_19216_jpg, feature).
 holds(s_19216_jpg, miscindustrial).
 holds(s_19216_jpg, door).
+holds(s_19216_jpg, table).
 holds(s_19216_jpg, truck).
 holds(s_19216_jpg, industrial).
 
@@ -40416,7 +40457,6 @@ holds(s_19218_jpg, restaurant).
 holds(s_19218_jpg, door).
 holds(s_19218_jpg, window).
 holds(s_19218_jpg, sign).
-holds(s_19218_jpg, table).
 holds(s_19218_jpg, vendingmachine).
 holds(s_19218_jpg, wallsign).
 holds(s_19218_jpg, chimney).
@@ -40430,7 +40470,6 @@ holds(s_19219_jpg, miscindustrial).
 holds(s_19219_jpg, powerplant).
 holds(s_19219_jpg, watertreatment).
 holds(s_19219_jpg, window).
-holds(s_19219_jpg, table).
 holds(s_19219_jpg, chimney).
 holds(s_19219_jpg, pipe).
 holds(s_19219_jpg, truck).
@@ -40444,6 +40483,7 @@ holds(s_19220_jpg, miscresidential).
 holds(s_19220_jpg, door).
 holds(s_19220_jpg, porch).
 holds(s_19220_jpg, sign).
+holds(s_19220_jpg, table).
 holds(s_19220_jpg, tiledroof).
 holds(s_19220_jpg, tiledrooftop).
 holds(s_19220_jpg, residential).
@@ -40459,6 +40499,7 @@ holds(s_19221_jpg, window).
 holds(s_19221_jpg, awning).
 holds(s_19221_jpg, billboard).
 holds(s_19221_jpg, sign).
+holds(s_19221_jpg, table).
 holds(s_19221_jpg, wallsign).
 holds(s_19221_jpg, truck).
 holds(s_19221_jpg, commercial).
@@ -40469,6 +40510,7 @@ holds(s_19222_jpg, feature).
 holds(s_19222_jpg, constructionsite).
 holds(s_19222_jpg, door).
 holds(s_19222_jpg, window).
+holds(s_19222_jpg, table).
 holds(s_19222_jpg, chimney).
 holds(s_19222_jpg, machine).
 holds(s_19222_jpg, industrial).
@@ -40482,7 +40524,6 @@ holds(s_19223_jpg, door).
 holds(s_19223_jpg, window).
 holds(s_19223_jpg, porch).
 holds(s_19223_jpg, sign).
-holds(s_19223_jpg, table).
 holds(s_19223_jpg, tiledroof).
 holds(s_19223_jpg, tiledrooftop).
 holds(s_19223_jpg, residential).
@@ -40524,6 +40565,7 @@ holds(s_19226_jpg, countryhouse).
 holds(s_19226_jpg, door).
 holds(s_19226_jpg, window).
 holds(s_19226_jpg, porch).
+holds(s_19226_jpg, table).
 holds(s_19226_jpg, tiledroof).
 holds(s_19226_jpg, tiledrooftop).
 holds(s_19226_jpg, car).
@@ -40546,6 +40588,7 @@ holds(s_19228_jpg, building).
 holds(s_19228_jpg, feature).
 holds(s_19228_jpg, constructionsite).
 holds(s_19228_jpg, sign).
+holds(s_19228_jpg, table).
 holds(s_19228_jpg, machine).
 holds(s_19228_jpg, industrial).
 
@@ -40558,6 +40601,7 @@ holds(s_19229_jpg, door).
 holds(s_19229_jpg, window).
 holds(s_19229_jpg, porch).
 holds(s_19229_jpg, sign).
+holds(s_19229_jpg, table).
 holds(s_19229_jpg, tiledroof).
 holds(s_19229_jpg, tiledrooftop).
 holds(s_19229_jpg, residential).
@@ -40586,7 +40630,6 @@ holds(s_19231_jpg, miscindustrial).
 holds(s_19231_jpg, watertreatment).
 holds(s_19231_jpg, door).
 holds(s_19231_jpg, window).
-holds(s_19231_jpg, table).
 holds(s_19231_jpg, pipe).
 holds(s_19231_jpg, truck).
 holds(s_19231_jpg, industrial).
@@ -40597,7 +40640,6 @@ holds(s_19232_jpg, feature).
 holds(s_19232_jpg, suburban).
 holds(s_19232_jpg, miscresidential).
 holds(s_19232_jpg, porch).
-holds(s_19232_jpg, table).
 holds(s_19232_jpg, tiledroof).
 holds(s_19232_jpg, tiledrooftop).
 holds(s_19232_jpg, residential).
@@ -40665,7 +40707,6 @@ holds(s_19237_jpg, constructionsite).
 holds(s_19237_jpg, powerplant).
 holds(s_19237_jpg, window).
 holds(s_19237_jpg, sign).
-holds(s_19237_jpg, table).
 holds(s_19237_jpg, chimney).
 holds(s_19237_jpg, pipe).
 holds(s_19237_jpg, machine).
@@ -40688,7 +40729,6 @@ holds(s_19239_jpg, restaurant).
 holds(s_19239_jpg, door).
 holds(s_19239_jpg, window).
 holds(s_19239_jpg, sign).
-holds(s_19239_jpg, table).
 holds(s_19239_jpg, vendingmachine).
 holds(s_19239_jpg, statue).
 holds(s_19239_jpg, pipe).
@@ -40730,6 +40770,7 @@ holds(s_19242_jpg, window).
 holds(s_19242_jpg, awning).
 holds(s_19242_jpg, billboard).
 holds(s_19242_jpg, sign).
+holds(s_19242_jpg, table).
 holds(s_19242_jpg, wallsign).
 holds(s_19242_jpg, truck).
 holds(s_19242_jpg, commercial).
@@ -40740,6 +40781,7 @@ holds(s_19243_jpg, feature).
 holds(s_19243_jpg, watertreatment).
 holds(s_19243_jpg, window).
 holds(s_19243_jpg, awning).
+holds(s_19243_jpg, table).
 holds(s_19243_jpg, pipe).
 holds(s_19243_jpg, truck).
 holds(s_19243_jpg, industrial).
@@ -40766,6 +40808,7 @@ holds(s_19245_jpg, misccommercial).
 holds(s_19245_jpg, door).
 holds(s_19245_jpg, awning).
 holds(s_19245_jpg, billboard).
+holds(s_19245_jpg, table).
 holds(s_19245_jpg, tiledroof).
 holds(s_19245_jpg, tiledrooftop).
 holds(s_19245_jpg, wallsign).
@@ -40793,7 +40836,6 @@ holds(s_19247_jpg, door).
 holds(s_19247_jpg, window).
 holds(s_19247_jpg, awning).
 holds(s_19247_jpg, porch).
-holds(s_19247_jpg, table).
 holds(s_19247_jpg, tiledroof).
 holds(s_19247_jpg, tiledrooftop).
 holds(s_19247_jpg, car).
@@ -40829,7 +40871,6 @@ holds(s_19250_jpg, miscresidential).
 holds(s_19250_jpg, door).
 holds(s_19250_jpg, window).
 holds(s_19250_jpg, awning).
-holds(s_19250_jpg, table).
 holds(s_19250_jpg, tiledroof).
 holds(s_19250_jpg, tiledrooftop).
 holds(s_19250_jpg, truck).
@@ -40846,6 +40887,7 @@ holds(s_19251_jpg, window).
 holds(s_19251_jpg, awning).
 holds(s_19251_jpg, billboard).
 holds(s_19251_jpg, sign).
+holds(s_19251_jpg, table).
 holds(s_19251_jpg, tiledroof).
 holds(s_19251_jpg, tiledrooftop).
 holds(s_19251_jpg, wallsign).
@@ -40887,7 +40929,6 @@ holds(s_19254_jpg, door).
 holds(s_19254_jpg, awning).
 holds(s_19254_jpg, billboard).
 holds(s_19254_jpg, sign).
-holds(s_19254_jpg, table).
 holds(s_19254_jpg, statue).
 holds(s_19254_jpg, pipe).
 holds(s_19254_jpg, commercial).
@@ -40897,7 +40938,6 @@ holds(s_19255_jpg, building).
 holds(s_19255_jpg, feature).
 holds(s_19255_jpg, constructionsite).
 holds(s_19255_jpg, door).
-holds(s_19255_jpg, table).
 holds(s_19255_jpg, chimney).
 holds(s_19255_jpg, machine).
 holds(s_19255_jpg, industrial).
@@ -40912,6 +40952,7 @@ holds(s_19256_jpg, door).
 holds(s_19256_jpg, window).
 holds(s_19256_jpg, awning).
 holds(s_19256_jpg, porch).
+holds(s_19256_jpg, table).
 holds(s_19256_jpg, tiledroof).
 holds(s_19256_jpg, tiledrooftop).
 holds(s_19256_jpg, car).
@@ -40927,6 +40968,7 @@ holds(s_19257_jpg, door).
 holds(s_19257_jpg, window).
 holds(s_19257_jpg, awning).
 holds(s_19257_jpg, sign).
+holds(s_19257_jpg, table).
 holds(s_19257_jpg, vendingmachine).
 holds(s_19257_jpg, truck).
 holds(s_19257_jpg, commercial).
@@ -40938,6 +40980,7 @@ holds(s_19258_jpg, miscindustrial).
 holds(s_19258_jpg, powerplant).
 holds(s_19258_jpg, watertreatment).
 holds(s_19258_jpg, door).
+holds(s_19258_jpg, table).
 holds(s_19258_jpg, chimney).
 holds(s_19258_jpg, pipe).
 holds(s_19258_jpg, truck).
@@ -40966,7 +41009,6 @@ holds(s_19260_jpg, misccommercial).
 holds(s_19260_jpg, window).
 holds(s_19260_jpg, awning).
 holds(s_19260_jpg, billboard).
-holds(s_19260_jpg, table).
 holds(s_19260_jpg, wallsign).
 holds(s_19260_jpg, commercial).
 
@@ -40984,6 +41026,7 @@ holds(s_19262_jpg, building).
 holds(s_19262_jpg, feature).
 holds(s_19262_jpg, miscresidential).
 holds(s_19262_jpg, door).
+holds(s_19262_jpg, table).
 holds(s_19262_jpg, tiledroof).
 holds(s_19262_jpg, tiledrooftop).
 holds(s_19262_jpg, residential).
@@ -41000,7 +41043,6 @@ holds(s_19263_jpg, door).
 holds(s_19263_jpg, awning).
 holds(s_19263_jpg, billboard).
 holds(s_19263_jpg, sign).
-holds(s_19263_jpg, table).
 holds(s_19263_jpg, wallsign).
 holds(s_19263_jpg, statue).
 holds(s_19263_jpg, truck).
@@ -41012,6 +41054,7 @@ holds(s_19264_jpg, feature).
 holds(s_19264_jpg, powerplant).
 holds(s_19264_jpg, window).
 holds(s_19264_jpg, sign).
+holds(s_19264_jpg, table).
 holds(s_19264_jpg, chimney).
 holds(s_19264_jpg, pipe).
 holds(s_19264_jpg, industrial).
@@ -41053,7 +41096,6 @@ holds(s_19267_jpg, watertreatment).
 holds(s_19267_jpg, door).
 holds(s_19267_jpg, window).
 holds(s_19267_jpg, awning).
-holds(s_19267_jpg, table).
 holds(s_19267_jpg, chimney).
 holds(s_19267_jpg, pipe).
 holds(s_19267_jpg, truck).
@@ -41069,6 +41111,7 @@ holds(s_19268_jpg, door).
 holds(s_19268_jpg, window).
 holds(s_19268_jpg, awning).
 holds(s_19268_jpg, porch).
+holds(s_19268_jpg, table).
 holds(s_19268_jpg, tiledroof).
 holds(s_19268_jpg, tiledrooftop).
 holds(s_19268_jpg, car).
@@ -41094,7 +41137,6 @@ holds(s_19270_jpg, feature).
 holds(s_19270_jpg, miscindustrial).
 holds(s_19270_jpg, watertreatment).
 holds(s_19270_jpg, window).
-holds(s_19270_jpg, table).
 holds(s_19270_jpg, pipe).
 holds(s_19270_jpg, truck).
 holds(s_19270_jpg, industrial).
@@ -41124,7 +41166,6 @@ holds(s_19272_jpg, window).
 holds(s_19272_jpg, awning).
 holds(s_19272_jpg, billboard).
 holds(s_19272_jpg, sign).
-holds(s_19272_jpg, table).
 holds(s_19272_jpg, wallsign).
 holds(s_19272_jpg, commercial).
 
@@ -41150,7 +41191,6 @@ holds(s_19274_jpg, door).
 holds(s_19274_jpg, window).
 holds(s_19274_jpg, awning).
 holds(s_19274_jpg, porch).
-holds(s_19274_jpg, table).
 holds(s_19274_jpg, tiledroof).
 holds(s_19274_jpg, tiledrooftop).
 holds(s_19274_jpg, residential).
@@ -41165,6 +41205,7 @@ holds(s_19275_jpg, door).
 holds(s_19275_jpg, window).
 holds(s_19275_jpg, awning).
 holds(s_19275_jpg, sign).
+holds(s_19275_jpg, table).
 holds(s_19275_jpg, tiledroof).
 holds(s_19275_jpg, vendingmachine).
 holds(s_19275_jpg, wallsign).
@@ -41177,6 +41218,7 @@ holds(s_19276_jpg, feature).
 holds(s_19276_jpg, miscindustrial).
 holds(s_19276_jpg, door).
 holds(s_19276_jpg, window).
+holds(s_19276_jpg, table).
 holds(s_19276_jpg, chimney).
 holds(s_19276_jpg, truck).
 holds(s_19276_jpg, industrial).
@@ -41202,7 +41244,6 @@ holds(s_19278_jpg, hotel).
 holds(s_19278_jpg, misccommercial).
 holds(s_19278_jpg, window).
 holds(s_19278_jpg, awning).
-holds(s_19278_jpg, table).
 holds(s_19278_jpg, wallsign).
 holds(s_19278_jpg, commercial).
 
@@ -41247,7 +41288,6 @@ holds(s_19282_jpg, building).
 holds(s_19282_jpg, feature).
 holds(s_19282_jpg, powerplant).
 holds(s_19282_jpg, window).
-holds(s_19282_jpg, table).
 holds(s_19282_jpg, chimney).
 holds(s_19282_jpg, pipe).
 holds(s_19282_jpg, car).
@@ -41274,7 +41314,6 @@ holds(s_19284_jpg, cafe).
 holds(s_19284_jpg, restaurant).
 holds(s_19284_jpg, window).
 holds(s_19284_jpg, sign).
-holds(s_19284_jpg, table).
 holds(s_19284_jpg, vendingmachine).
 holds(s_19284_jpg, chimney).
 holds(s_19284_jpg, car).
@@ -41287,7 +41326,6 @@ holds(s_19285_jpg, constructionsite).
 holds(s_19285_jpg, powerplant).
 holds(s_19285_jpg, door).
 holds(s_19285_jpg, sign).
-holds(s_19285_jpg, table).
 holds(s_19285_jpg, chimney).
 holds(s_19285_jpg, pipe).
 holds(s_19285_jpg, machine).
@@ -41313,7 +41351,6 @@ holds(s_19287_jpg, hotel).
 holds(s_19287_jpg, restaurant).
 holds(s_19287_jpg, window).
 holds(s_19287_jpg, sign).
-holds(s_19287_jpg, table).
 holds(s_19287_jpg, wallsign).
 holds(s_19287_jpg, car).
 holds(s_19287_jpg, commercial).
@@ -41331,7 +41368,6 @@ holds(s_19289_jpg, building).
 holds(s_19289_jpg, feature).
 holds(s_19289_jpg, miscresidential).
 holds(s_19289_jpg, sign).
-holds(s_19289_jpg, table).
 holds(s_19289_jpg, tiledroof).
 holds(s_19289_jpg, tiledrooftop).
 holds(s_19289_jpg, residential).
@@ -41359,7 +41395,6 @@ holds(s_19291_jpg, miscindustrial).
 holds(s_19291_jpg, watertreatment).
 holds(s_19291_jpg, door).
 holds(s_19291_jpg, window).
-holds(s_19291_jpg, table).
 holds(s_19291_jpg, pipe).
 holds(s_19291_jpg, truck).
 holds(s_19291_jpg, industrial).
@@ -41384,6 +41419,7 @@ holds(s_19293_jpg, misccommercial).
 holds(s_19293_jpg, door).
 holds(s_19293_jpg, awning).
 holds(s_19293_jpg, sign).
+holds(s_19293_jpg, table).
 holds(s_19293_jpg, vendingmachine).
 holds(s_19293_jpg, statue).
 holds(s_19293_jpg, commercial).
@@ -41432,7 +41468,6 @@ holds(s_19297_jpg, building).
 holds(s_19297_jpg, feature).
 holds(s_19297_jpg, constructionsite).
 holds(s_19297_jpg, window).
-holds(s_19297_jpg, table).
 holds(s_19297_jpg, machine).
 holds(s_19297_jpg, industrial).
 
@@ -41497,7 +41532,6 @@ holds(s_19302_jpg, hotel).
 holds(s_19302_jpg, restaurant).
 holds(s_19302_jpg, window).
 holds(s_19302_jpg, sign).
-holds(s_19302_jpg, table).
 holds(s_19302_jpg, vendingmachine).
 holds(s_19302_jpg, wallsign).
 holds(s_19302_jpg, car).
@@ -41521,7 +41555,6 @@ holds(s_19304_jpg, door).
 holds(s_19304_jpg, window).
 holds(s_19304_jpg, awning).
 holds(s_19304_jpg, porch).
-holds(s_19304_jpg, table).
 holds(s_19304_jpg, truck).
 holds(s_19304_jpg, residential).
 
@@ -41548,7 +41581,6 @@ holds(s_19306_jpg, door).
 holds(s_19306_jpg, window).
 holds(s_19306_jpg, awning).
 holds(s_19306_jpg, sign).
-holds(s_19306_jpg, table).
 holds(s_19306_jpg, pipe).
 holds(s_19306_jpg, machine).
 holds(s_19306_jpg, industrial).
@@ -41562,6 +41594,7 @@ holds(s_19307_jpg, countryhouse).
 holds(s_19307_jpg, door).
 holds(s_19307_jpg, window).
 holds(s_19307_jpg, porch).
+holds(s_19307_jpg, table).
 holds(s_19307_jpg, tiledroof).
 holds(s_19307_jpg, tiledrooftop).
 holds(s_19307_jpg, car).
@@ -41576,6 +41609,7 @@ holds(s_19308_jpg, store).
 holds(s_19308_jpg, window).
 holds(s_19308_jpg, billboard).
 holds(s_19308_jpg, sign).
+holds(s_19308_jpg, table).
 holds(s_19308_jpg, vendingmachine).
 holds(s_19308_jpg, chimney).
 holds(s_19308_jpg, car).
@@ -41589,6 +41623,7 @@ holds(s_19309_jpg, watertreatment).
 holds(s_19309_jpg, door).
 holds(s_19309_jpg, window).
 holds(s_19309_jpg, awning).
+holds(s_19309_jpg, table).
 holds(s_19309_jpg, chimney).
 holds(s_19309_jpg, pipe).
 holds(s_19309_jpg, truck).
@@ -41600,7 +41635,6 @@ holds(s_19310_jpg, feature).
 holds(s_19310_jpg, miscresidential).
 holds(s_19310_jpg, countryhouse).
 holds(s_19310_jpg, window).
-holds(s_19310_jpg, table).
 holds(s_19310_jpg, tiledroof).
 holds(s_19310_jpg, tiledrooftop).
 holds(s_19310_jpg, car).
@@ -41652,7 +41686,6 @@ holds(s_19314_jpg, store).
 holds(s_19314_jpg, window).
 holds(s_19314_jpg, billboard).
 holds(s_19314_jpg, sign).
-holds(s_19314_jpg, table).
 holds(s_19314_jpg, vendingmachine).
 holds(s_19314_jpg, wallsign).
 holds(s_19314_jpg, pipe).
@@ -41665,7 +41698,6 @@ holds(s_19315_jpg, feature).
 holds(s_19315_jpg, miscindustrial).
 holds(s_19315_jpg, door).
 holds(s_19315_jpg, window).
-holds(s_19315_jpg, table).
 holds(s_19315_jpg, truck).
 holds(s_19315_jpg, industrial).
 
@@ -41690,6 +41722,7 @@ holds(s_19317_jpg, store).
 holds(s_19317_jpg, door).
 holds(s_19317_jpg, billboard).
 holds(s_19317_jpg, sign).
+holds(s_19317_jpg, table).
 holds(s_19317_jpg, wallsign).
 holds(s_19317_jpg, statue).
 holds(s_19317_jpg, commercial).
@@ -41700,6 +41733,7 @@ holds(s_19318_jpg, feature).
 holds(s_19318_jpg, miscindustrial).
 holds(s_19318_jpg, door).
 holds(s_19318_jpg, window).
+holds(s_19318_jpg, table).
 holds(s_19318_jpg, chimney).
 holds(s_19318_jpg, truck).
 holds(s_19318_jpg, industrial).
@@ -41728,6 +41762,7 @@ holds(s_19320_jpg, door).
 holds(s_19320_jpg, awning).
 holds(s_19320_jpg, billboard).
 holds(s_19320_jpg, sign).
+holds(s_19320_jpg, table).
 holds(s_19320_jpg, statue).
 holds(s_19320_jpg, commercial).
 
@@ -41739,6 +41774,7 @@ holds(s_19321_jpg, powerplant).
 holds(s_19321_jpg, watertreatment).
 holds(s_19321_jpg, door).
 holds(s_19321_jpg, window).
+holds(s_19321_jpg, table).
 holds(s_19321_jpg, chimney).
 holds(s_19321_jpg, pipe).
 holds(s_19321_jpg, truck).
@@ -41782,6 +41818,7 @@ holds(s_19325_jpg, building).
 holds(s_19325_jpg, feature).
 holds(s_19325_jpg, miscresidential).
 holds(s_19325_jpg, window).
+holds(s_19325_jpg, table).
 holds(s_19325_jpg, tiledroof).
 holds(s_19325_jpg, tiledrooftop).
 holds(s_19325_jpg, residential).
@@ -41797,6 +41834,7 @@ holds(s_19326_jpg, door).
 holds(s_19326_jpg, window).
 holds(s_19326_jpg, awning).
 holds(s_19326_jpg, sign).
+holds(s_19326_jpg, table).
 holds(s_19326_jpg, tiledroof).
 holds(s_19326_jpg, wallsign).
 holds(s_19326_jpg, statue).
@@ -41809,7 +41847,6 @@ holds(s_19327_jpg, feature).
 holds(s_19327_jpg, miscindustrial).
 holds(s_19327_jpg, watertreatment).
 holds(s_19327_jpg, window).
-holds(s_19327_jpg, table).
 holds(s_19327_jpg, pipe).
 holds(s_19327_jpg, truck).
 holds(s_19327_jpg, industrial).
@@ -41867,6 +41904,7 @@ holds(s_19332_jpg, window).
 holds(s_19332_jpg, awning).
 holds(s_19332_jpg, billboard).
 holds(s_19332_jpg, sign).
+holds(s_19332_jpg, table).
 holds(s_19332_jpg, truck).
 holds(s_19332_jpg, commercial).
 
@@ -41917,6 +41955,7 @@ holds(s_19336_jpg, powerplant).
 holds(s_19336_jpg, window).
 holds(s_19336_jpg, awning).
 holds(s_19336_jpg, sign).
+holds(s_19336_jpg, table).
 holds(s_19336_jpg, chimney).
 holds(s_19336_jpg, pipe).
 holds(s_19336_jpg, machine).
@@ -41958,7 +41997,6 @@ holds(s_19339_jpg, miscindustrial).
 holds(s_19339_jpg, powerplant).
 holds(s_19339_jpg, watertreatment).
 holds(s_19339_jpg, window).
-holds(s_19339_jpg, table).
 holds(s_19339_jpg, chimney).
 holds(s_19339_jpg, pipe).
 holds(s_19339_jpg, truck).
@@ -41984,6 +42022,7 @@ holds(s_19341_jpg, door).
 holds(s_19341_jpg, window).
 holds(s_19341_jpg, awning).
 holds(s_19341_jpg, sign).
+holds(s_19341_jpg, table).
 holds(s_19341_jpg, tiledroof).
 holds(s_19341_jpg, tiledrooftop).
 holds(s_19341_jpg, chimney).
@@ -41996,6 +42035,7 @@ holds(s_19342_jpg, feature).
 holds(s_19342_jpg, constructionsite).
 holds(s_19342_jpg, door).
 holds(s_19342_jpg, awning).
+holds(s_19342_jpg, table).
 holds(s_19342_jpg, pipe).
 holds(s_19342_jpg, machine).
 holds(s_19342_jpg, industrial).
@@ -42007,6 +42047,7 @@ holds(s_19343_jpg, miscresidential).
 holds(s_19343_jpg, door).
 holds(s_19343_jpg, window).
 holds(s_19343_jpg, awning).
+holds(s_19343_jpg, table).
 holds(s_19343_jpg, tiledroof).
 holds(s_19343_jpg, tiledrooftop).
 holds(s_19343_jpg, residential).
@@ -42021,7 +42062,6 @@ holds(s_19344_jpg, misccommercial).
 holds(s_19344_jpg, window).
 holds(s_19344_jpg, awning).
 holds(s_19344_jpg, billboard).
-holds(s_19344_jpg, table).
 holds(s_19344_jpg, tiledroof).
 holds(s_19344_jpg, tiledrooftop).
 holds(s_19344_jpg, vendingmachine).
@@ -42033,7 +42073,6 @@ holds(s_19345_jpg, building).
 holds(s_19345_jpg, feature).
 holds(s_19345_jpg, constructionsite).
 holds(s_19345_jpg, window).
-holds(s_19345_jpg, table).
 holds(s_19345_jpg, machine).
 holds(s_19345_jpg, industrial).
 
@@ -42072,6 +42111,7 @@ holds(s_19348_jpg, building).
 holds(s_19348_jpg, feature).
 holds(s_19348_jpg, powerplant).
 holds(s_19348_jpg, window).
+holds(s_19348_jpg, table).
 holds(s_19348_jpg, chimney).
 holds(s_19348_jpg, pipe).
 holds(s_19348_jpg, industrial).
@@ -42081,7 +42121,6 @@ holds(s_19349_jpg, building).
 holds(s_19349_jpg, feature).
 holds(s_19349_jpg, miscresidential).
 holds(s_19349_jpg, sign).
-holds(s_19349_jpg, table).
 holds(s_19349_jpg, tiledroof).
 holds(s_19349_jpg, tiledrooftop).
 holds(s_19349_jpg, residential).
@@ -42102,6 +42141,7 @@ sample(s_19351_jpg).
 holds(s_19351_jpg, building).
 holds(s_19351_jpg, feature).
 holds(s_19351_jpg, constructionsite).
+holds(s_19351_jpg, table).
 holds(s_19351_jpg, pipe).
 holds(s_19351_jpg, machine).
 holds(s_19351_jpg, industrial).
@@ -42113,6 +42153,7 @@ holds(s_19352_jpg, suburban).
 holds(s_19352_jpg, door).
 holds(s_19352_jpg, awning).
 holds(s_19352_jpg, porch).
+holds(s_19352_jpg, table).
 holds(s_19352_jpg, residential).
 
 sample(s_19353_jpg).
@@ -42157,6 +42198,7 @@ holds(s_19356_jpg, store).
 holds(s_19356_jpg, window).
 holds(s_19356_jpg, billboard).
 holds(s_19356_jpg, sign).
+holds(s_19356_jpg, table).
 holds(s_19356_jpg, wallsign).
 holds(s_19356_jpg, car).
 holds(s_19356_jpg, commercial).
@@ -42190,6 +42232,7 @@ holds(s_19359_jpg, cafe).
 holds(s_19359_jpg, hotel).
 holds(s_19359_jpg, restaurant).
 holds(s_19359_jpg, sign).
+holds(s_19359_jpg, table).
 holds(s_19359_jpg, vendingmachine).
 holds(s_19359_jpg, wallsign).
 holds(s_19359_jpg, truck).
@@ -42202,7 +42245,6 @@ holds(s_19360_jpg, watertreatment).
 holds(s_19360_jpg, door).
 holds(s_19360_jpg, window).
 holds(s_19360_jpg, awning).
-holds(s_19360_jpg, table).
 holds(s_19360_jpg, pipe).
 holds(s_19360_jpg, truck).
 holds(s_19360_jpg, industrial).
@@ -42212,7 +42254,6 @@ holds(s_19361_jpg, building).
 holds(s_19361_jpg, feature).
 holds(s_19361_jpg, miscresidential).
 holds(s_19361_jpg, window).
-holds(s_19361_jpg, table).
 holds(s_19361_jpg, tiledroof).
 holds(s_19361_jpg, tiledrooftop).
 holds(s_19361_jpg, residential).
@@ -42228,7 +42269,6 @@ holds(s_19362_jpg, window).
 holds(s_19362_jpg, awning).
 holds(s_19362_jpg, billboard).
 holds(s_19362_jpg, sign).
-holds(s_19362_jpg, table).
 holds(s_19362_jpg, vendingmachine).
 holds(s_19362_jpg, commercial).
 
@@ -42238,6 +42278,7 @@ holds(s_19363_jpg, feature).
 holds(s_19363_jpg, miscindustrial).
 holds(s_19363_jpg, door).
 holds(s_19363_jpg, window).
+holds(s_19363_jpg, table).
 holds(s_19363_jpg, truck).
 holds(s_19363_jpg, industrial).
 
@@ -42247,6 +42288,7 @@ holds(s_19364_jpg, feature).
 holds(s_19364_jpg, suburban).
 holds(s_19364_jpg, door).
 holds(s_19364_jpg, porch).
+holds(s_19364_jpg, table).
 holds(s_19364_jpg, truck).
 holds(s_19364_jpg, residential).
 
@@ -42260,7 +42302,6 @@ holds(s_19365_jpg, window).
 holds(s_19365_jpg, awning).
 holds(s_19365_jpg, billboard).
 holds(s_19365_jpg, sign).
-holds(s_19365_jpg, table).
 holds(s_19365_jpg, vendingmachine).
 holds(s_19365_jpg, wallsign).
 holds(s_19365_jpg, commercial).
@@ -42337,7 +42378,6 @@ holds(s_19371_jpg, window).
 holds(s_19371_jpg, awning).
 holds(s_19371_jpg, billboard).
 holds(s_19371_jpg, sign).
-holds(s_19371_jpg, table).
 holds(s_19371_jpg, truck).
 holds(s_19371_jpg, commercial).
 
@@ -42348,7 +42388,6 @@ holds(s_19372_jpg, powerplant).
 holds(s_19372_jpg, door).
 holds(s_19372_jpg, window).
 holds(s_19372_jpg, awning).
-holds(s_19372_jpg, table).
 holds(s_19372_jpg, chimney).
 holds(s_19372_jpg, pipe).
 holds(s_19372_jpg, car).
@@ -42360,7 +42399,6 @@ holds(s_19373_jpg, feature).
 holds(s_19373_jpg, suburban).
 holds(s_19373_jpg, miscresidential).
 holds(s_19373_jpg, porch).
-holds(s_19373_jpg, table).
 holds(s_19373_jpg, tiledroof).
 holds(s_19373_jpg, tiledrooftop).
 holds(s_19373_jpg, residential).
@@ -42386,6 +42424,7 @@ holds(s_19375_jpg, powerplant).
 holds(s_19375_jpg, door).
 holds(s_19375_jpg, window).
 holds(s_19375_jpg, awning).
+holds(s_19375_jpg, table).
 holds(s_19375_jpg, chimney).
 holds(s_19375_jpg, pipe).
 holds(s_19375_jpg, machine).
@@ -42399,6 +42438,7 @@ holds(s_19376_jpg, miscresidential).
 holds(s_19376_jpg, door).
 holds(s_19376_jpg, window).
 holds(s_19376_jpg, porch).
+holds(s_19376_jpg, table).
 holds(s_19376_jpg, tiledroof).
 holds(s_19376_jpg, tiledrooftop).
 holds(s_19376_jpg, residential).
@@ -42437,6 +42477,7 @@ holds(s_19379_jpg, suburban).
 holds(s_19379_jpg, miscresidential).
 holds(s_19379_jpg, door).
 holds(s_19379_jpg, porch).
+holds(s_19379_jpg, table).
 holds(s_19379_jpg, tiledroof).
 holds(s_19379_jpg, tiledrooftop).
 holds(s_19379_jpg, residential).
@@ -42450,6 +42491,7 @@ holds(s_19380_jpg, misccommercial).
 holds(s_19380_jpg, door).
 holds(s_19380_jpg, awning).
 holds(s_19380_jpg, sign).
+holds(s_19380_jpg, table).
 holds(s_19380_jpg, statue).
 holds(s_19380_jpg, truck).
 holds(s_19380_jpg, commercial).
@@ -42459,7 +42501,6 @@ holds(s_19381_jpg, building).
 holds(s_19381_jpg, feature).
 holds(s_19381_jpg, constructionsite).
 holds(s_19381_jpg, door).
-holds(s_19381_jpg, table).
 holds(s_19381_jpg, chimney).
 holds(s_19381_jpg, machine).
 holds(s_19381_jpg, industrial).
@@ -42486,7 +42527,6 @@ holds(s_19383_jpg, window).
 holds(s_19383_jpg, awning).
 holds(s_19383_jpg, billboard).
 holds(s_19383_jpg, sign).
-holds(s_19383_jpg, table).
 holds(s_19383_jpg, vendingmachine).
 holds(s_19383_jpg, wallsign).
 holds(s_19383_jpg, chimney).
@@ -42539,6 +42579,7 @@ holds(s_19387_jpg, watertreatment).
 holds(s_19387_jpg, door).
 holds(s_19387_jpg, window).
 holds(s_19387_jpg, awning).
+holds(s_19387_jpg, table).
 holds(s_19387_jpg, chimney).
 holds(s_19387_jpg, pipe).
 holds(s_19387_jpg, truck).
@@ -42613,6 +42654,7 @@ sample(s_19393_jpg).
 holds(s_19393_jpg, building).
 holds(s_19393_jpg, feature).
 holds(s_19393_jpg, constructionsite).
+holds(s_19393_jpg, table).
 holds(s_19393_jpg, chimney).
 holds(s_19393_jpg, machine).
 holds(s_19393_jpg, industrial).
@@ -42625,7 +42667,6 @@ holds(s_19394_jpg, miscresidential).
 holds(s_19394_jpg, door).
 holds(s_19394_jpg, window).
 holds(s_19394_jpg, porch).
-holds(s_19394_jpg, table).
 holds(s_19394_jpg, tiledroof).
 holds(s_19394_jpg, tiledrooftop).
 holds(s_19394_jpg, residential).
@@ -42641,6 +42682,7 @@ holds(s_19395_jpg, window).
 holds(s_19395_jpg, awning).
 holds(s_19395_jpg, billboard).
 holds(s_19395_jpg, sign).
+holds(s_19395_jpg, table).
 holds(s_19395_jpg, vendingmachine).
 holds(s_19395_jpg, statue).
 holds(s_19395_jpg, commercial).
@@ -42693,7 +42735,6 @@ holds(s_19399_jpg, building).
 holds(s_19399_jpg, feature).
 holds(s_19399_jpg, miscindustrial).
 holds(s_19399_jpg, watertreatment).
-holds(s_19399_jpg, table).
 holds(s_19399_jpg, pipe).
 holds(s_19399_jpg, truck).
 holds(s_19399_jpg, industrial).
@@ -42706,7 +42747,6 @@ holds(s_19400_jpg, miscresidential).
 holds(s_19400_jpg, countryhouse).
 holds(s_19400_jpg, door).
 holds(s_19400_jpg, porch).
-holds(s_19400_jpg, table).
 holds(s_19400_jpg, tiledroof).
 holds(s_19400_jpg, tiledrooftop).
 holds(s_19400_jpg, car).
@@ -42739,6 +42779,7 @@ holds(s_19403_jpg, miscresidential).
 holds(s_19403_jpg, countryhouse).
 holds(s_19403_jpg, door).
 holds(s_19403_jpg, porch).
+holds(s_19403_jpg, table).
 holds(s_19403_jpg, tiledroof).
 holds(s_19403_jpg, tiledrooftop).
 holds(s_19403_jpg, car).
@@ -42797,7 +42838,6 @@ holds(s_19407_jpg, window).
 holds(s_19407_jpg, awning).
 holds(s_19407_jpg, billboard).
 holds(s_19407_jpg, sign).
-holds(s_19407_jpg, table).
 holds(s_19407_jpg, vendingmachine).
 holds(s_19407_jpg, wallsign).
 holds(s_19407_jpg, chimney).
@@ -42811,7 +42851,6 @@ holds(s_19408_jpg, powerplant).
 holds(s_19408_jpg, door).
 holds(s_19408_jpg, awning).
 holds(s_19408_jpg, sign).
-holds(s_19408_jpg, table).
 holds(s_19408_jpg, chimney).
 holds(s_19408_jpg, pipe).
 holds(s_19408_jpg, machine).
@@ -42953,6 +42992,7 @@ holds(s_19419_jpg, window).
 holds(s_19419_jpg, awning).
 holds(s_19419_jpg, billboard).
 holds(s_19419_jpg, sign).
+holds(s_19419_jpg, table).
 holds(s_19419_jpg, wallsign).
 holds(s_19419_jpg, chimney).
 holds(s_19419_jpg, car).
@@ -42964,7 +43004,6 @@ holds(s_19420_jpg, feature).
 holds(s_19420_jpg, constructionsite).
 holds(s_19420_jpg, door).
 holds(s_19420_jpg, sign).
-holds(s_19420_jpg, table).
 holds(s_19420_jpg, pipe).
 holds(s_19420_jpg, machine).
 holds(s_19420_jpg, industrial).
@@ -42993,6 +43032,7 @@ holds(s_19422_jpg, store).
 holds(s_19422_jpg, window).
 holds(s_19422_jpg, billboard).
 holds(s_19422_jpg, sign).
+holds(s_19422_jpg, table).
 holds(s_19422_jpg, vendingmachine).
 holds(s_19422_jpg, chimney).
 holds(s_19422_jpg, car).
@@ -43004,6 +43044,7 @@ holds(s_19423_jpg, feature).
 holds(s_19423_jpg, miscindustrial).
 holds(s_19423_jpg, watertreatment).
 holds(s_19423_jpg, window).
+holds(s_19423_jpg, table).
 holds(s_19423_jpg, pipe).
 holds(s_19423_jpg, truck).
 holds(s_19423_jpg, industrial).
@@ -43043,6 +43084,7 @@ holds(s_19426_jpg, powerplant).
 holds(s_19426_jpg, watertreatment).
 holds(s_19426_jpg, door).
 holds(s_19426_jpg, window).
+holds(s_19426_jpg, table).
 holds(s_19426_jpg, chimney).
 holds(s_19426_jpg, pipe).
 holds(s_19426_jpg, truck).
@@ -43055,7 +43097,6 @@ holds(s_19427_jpg, suburban).
 holds(s_19427_jpg, door).
 holds(s_19427_jpg, window).
 holds(s_19427_jpg, porch).
-holds(s_19427_jpg, table).
 holds(s_19427_jpg, residential).
 
 sample(s_19428_jpg).
@@ -43069,6 +43110,7 @@ holds(s_19428_jpg, door).
 holds(s_19428_jpg, window).
 holds(s_19428_jpg, billboard).
 holds(s_19428_jpg, sign).
+holds(s_19428_jpg, table).
 holds(s_19428_jpg, vendingmachine).
 holds(s_19428_jpg, wallsign).
 holds(s_19428_jpg, chimney).
@@ -43081,7 +43123,6 @@ holds(s_19429_jpg, feature).
 holds(s_19429_jpg, miscindustrial).
 holds(s_19429_jpg, watertreatment).
 holds(s_19429_jpg, window).
-holds(s_19429_jpg, table).
 holds(s_19429_jpg, pipe).
 holds(s_19429_jpg, truck).
 holds(s_19429_jpg, industrial).
@@ -43149,6 +43190,7 @@ holds(s_19434_jpg, door).
 holds(s_19434_jpg, window).
 holds(s_19434_jpg, billboard).
 holds(s_19434_jpg, sign).
+holds(s_19434_jpg, table).
 holds(s_19434_jpg, pipe).
 holds(s_19434_jpg, commercial).
 
@@ -43171,6 +43213,7 @@ holds(s_19436_jpg, suburban).
 holds(s_19436_jpg, door).
 holds(s_19436_jpg, awning).
 holds(s_19436_jpg, porch).
+holds(s_19436_jpg, table).
 holds(s_19436_jpg, truck).
 holds(s_19436_jpg, residential).
 
@@ -43183,7 +43226,6 @@ holds(s_19437_jpg, misccommercial).
 holds(s_19437_jpg, door).
 holds(s_19437_jpg, window).
 holds(s_19437_jpg, awning).
-holds(s_19437_jpg, table).
 holds(s_19437_jpg, tiledroof).
 holds(s_19437_jpg, tiledrooftop).
 holds(s_19437_jpg, vendingmachine).
@@ -43209,7 +43251,6 @@ holds(s_19439_jpg, suburban).
 holds(s_19439_jpg, window).
 holds(s_19439_jpg, awning).
 holds(s_19439_jpg, porch).
-holds(s_19439_jpg, table).
 holds(s_19439_jpg, car).
 holds(s_19439_jpg, residential).
 
@@ -43223,7 +43264,6 @@ holds(s_19440_jpg, door).
 holds(s_19440_jpg, window).
 holds(s_19440_jpg, awning).
 holds(s_19440_jpg, billboard).
-holds(s_19440_jpg, table).
 holds(s_19440_jpg, tiledroof).
 holds(s_19440_jpg, vendingmachine).
 holds(s_19440_jpg, statue).
@@ -43234,7 +43274,6 @@ holds(s_19441_jpg, building).
 holds(s_19441_jpg, feature).
 holds(s_19441_jpg, miscindustrial).
 holds(s_19441_jpg, door).
-holds(s_19441_jpg, table).
 holds(s_19441_jpg, truck).
 holds(s_19441_jpg, industrial).
 
@@ -43244,7 +43283,6 @@ holds(s_19442_jpg, feature).
 holds(s_19442_jpg, miscresidential).
 holds(s_19442_jpg, door).
 holds(s_19442_jpg, window).
-holds(s_19442_jpg, table).
 holds(s_19442_jpg, tiledroof).
 holds(s_19442_jpg, tiledrooftop).
 holds(s_19442_jpg, residential).
@@ -43283,7 +43321,6 @@ holds(s_19445_jpg, suburban).
 holds(s_19445_jpg, door).
 holds(s_19445_jpg, window).
 holds(s_19445_jpg, porch).
-holds(s_19445_jpg, table).
 holds(s_19445_jpg, residential).
 
 sample(s_19446_jpg).
@@ -43296,6 +43333,7 @@ holds(s_19446_jpg, door).
 holds(s_19446_jpg, window).
 holds(s_19446_jpg, awning).
 holds(s_19446_jpg, sign).
+holds(s_19446_jpg, table).
 holds(s_19446_jpg, tiledroof).
 holds(s_19446_jpg, tiledrooftop).
 holds(s_19446_jpg, vendingmachine).
@@ -43318,7 +43356,6 @@ holds(s_19448_jpg, miscresidential).
 holds(s_19448_jpg, window).
 holds(s_19448_jpg, awning).
 holds(s_19448_jpg, porch).
-holds(s_19448_jpg, table).
 holds(s_19448_jpg, tiledroof).
 holds(s_19448_jpg, tiledrooftop).
 holds(s_19448_jpg, truck).
@@ -43352,6 +43389,7 @@ holds(s_19451_jpg, miscresidential).
 holds(s_19451_jpg, door).
 holds(s_19451_jpg, window).
 holds(s_19451_jpg, porch).
+holds(s_19451_jpg, table).
 holds(s_19451_jpg, tiledroof).
 holds(s_19451_jpg, tiledrooftop).
 holds(s_19451_jpg, truck).
@@ -43392,7 +43430,6 @@ holds(s_19454_jpg, door).
 holds(s_19454_jpg, window).
 holds(s_19454_jpg, awning).
 holds(s_19454_jpg, porch).
-holds(s_19454_jpg, table).
 holds(s_19454_jpg, tiledroof).
 holds(s_19454_jpg, tiledrooftop).
 holds(s_19454_jpg, residential).
@@ -43405,6 +43442,7 @@ holds(s_19455_jpg, misccommercial).
 holds(s_19455_jpg, door).
 holds(s_19455_jpg, window).
 holds(s_19455_jpg, awning).
+holds(s_19455_jpg, table).
 holds(s_19455_jpg, vendingmachine).
 holds(s_19455_jpg, commercial).
 
@@ -43413,7 +43451,6 @@ holds(s_19456_jpg, building).
 holds(s_19456_jpg, feature).
 holds(s_19456_jpg, miscindustrial).
 holds(s_19456_jpg, door).
-holds(s_19456_jpg, table).
 holds(s_19456_jpg, chimney).
 holds(s_19456_jpg, truck).
 holds(s_19456_jpg, industrial).
@@ -43449,7 +43486,6 @@ sample(s_19459_jpg).
 holds(s_19459_jpg, building).
 holds(s_19459_jpg, feature).
 holds(s_19459_jpg, miscindustrial).
-holds(s_19459_jpg, table).
 holds(s_19459_jpg, chimney).
 holds(s_19459_jpg, truck).
 holds(s_19459_jpg, industrial).
@@ -43478,7 +43514,6 @@ holds(s_19461_jpg, window).
 holds(s_19461_jpg, awning).
 holds(s_19461_jpg, billboard).
 holds(s_19461_jpg, sign).
-holds(s_19461_jpg, table).
 holds(s_19461_jpg, car).
 holds(s_19461_jpg, commercial).
 
@@ -43488,6 +43523,7 @@ holds(s_19462_jpg, feature).
 holds(s_19462_jpg, powerplant).
 holds(s_19462_jpg, window).
 holds(s_19462_jpg, awning).
+holds(s_19462_jpg, table).
 holds(s_19462_jpg, chimney).
 holds(s_19462_jpg, pipe).
 holds(s_19462_jpg, industrial).
@@ -43582,7 +43618,6 @@ holds(s_19470_jpg, misccommercial).
 holds(s_19470_jpg, window).
 holds(s_19470_jpg, awning).
 holds(s_19470_jpg, sign).
-holds(s_19470_jpg, table).
 holds(s_19470_jpg, wallsign).
 holds(s_19470_jpg, statue).
 holds(s_19470_jpg, truck).
@@ -43596,7 +43631,6 @@ holds(s_19471_jpg, watertreatment).
 holds(s_19471_jpg, door).
 holds(s_19471_jpg, window).
 holds(s_19471_jpg, awning).
-holds(s_19471_jpg, table).
 holds(s_19471_jpg, chimney).
 holds(s_19471_jpg, pipe).
 holds(s_19471_jpg, truck).
@@ -43610,7 +43644,6 @@ holds(s_19472_jpg, countryhouse).
 holds(s_19472_jpg, door).
 holds(s_19472_jpg, window).
 holds(s_19472_jpg, awning).
-holds(s_19472_jpg, table).
 holds(s_19472_jpg, tiledroof).
 holds(s_19472_jpg, tiledrooftop).
 holds(s_19472_jpg, car).
@@ -43637,6 +43670,7 @@ holds(s_19474_jpg, feature).
 holds(s_19474_jpg, powerplant).
 holds(s_19474_jpg, door).
 holds(s_19474_jpg, awning).
+holds(s_19474_jpg, table).
 holds(s_19474_jpg, chimney).
 holds(s_19474_jpg, pipe).
 holds(s_19474_jpg, industrial).
@@ -43664,6 +43698,7 @@ holds(s_19476_jpg, window).
 holds(s_19476_jpg, awning).
 holds(s_19476_jpg, billboard).
 holds(s_19476_jpg, sign).
+holds(s_19476_jpg, table).
 holds(s_19476_jpg, car).
 holds(s_19476_jpg, commercial).
 
@@ -43673,7 +43708,6 @@ holds(s_19477_jpg, feature).
 holds(s_19477_jpg, watertreatment).
 holds(s_19477_jpg, window).
 holds(s_19477_jpg, awning).
-holds(s_19477_jpg, table).
 holds(s_19477_jpg, pipe).
 holds(s_19477_jpg, truck).
 holds(s_19477_jpg, industrial).
@@ -43728,7 +43762,6 @@ holds(s_19481_jpg, door).
 holds(s_19481_jpg, window).
 holds(s_19481_jpg, awning).
 holds(s_19481_jpg, porch).
-holds(s_19481_jpg, table).
 holds(s_19481_jpg, tiledroof).
 holds(s_19481_jpg, tiledrooftop).
 holds(s_19481_jpg, car).
@@ -43758,7 +43791,6 @@ holds(s_19483_jpg, miscindustrial).
 holds(s_19483_jpg, powerplant).
 holds(s_19483_jpg, watertreatment).
 holds(s_19483_jpg, window).
-holds(s_19483_jpg, table).
 holds(s_19483_jpg, chimney).
 holds(s_19483_jpg, pipe).
 holds(s_19483_jpg, truck).
@@ -43773,6 +43805,7 @@ holds(s_19484_jpg, countryhouse).
 holds(s_19484_jpg, door).
 holds(s_19484_jpg, window).
 holds(s_19484_jpg, porch).
+holds(s_19484_jpg, table).
 holds(s_19484_jpg, tiledroof).
 holds(s_19484_jpg, tiledrooftop).
 holds(s_19484_jpg, car).
@@ -43785,7 +43818,6 @@ holds(s_19485_jpg, store).
 holds(s_19485_jpg, door).
 holds(s_19485_jpg, window).
 holds(s_19485_jpg, billboard).
-holds(s_19485_jpg, table).
 holds(s_19485_jpg, chimney).
 holds(s_19485_jpg, commercial).
 
@@ -43806,6 +43838,7 @@ holds(s_19487_jpg, miscresidential).
 holds(s_19487_jpg, countryhouse).
 holds(s_19487_jpg, door).
 holds(s_19487_jpg, awning).
+holds(s_19487_jpg, table).
 holds(s_19487_jpg, tiledroof).
 holds(s_19487_jpg, tiledrooftop).
 holds(s_19487_jpg, car).
@@ -43819,7 +43852,6 @@ holds(s_19488_jpg, misccommercial).
 holds(s_19488_jpg, window).
 holds(s_19488_jpg, awning).
 holds(s_19488_jpg, sign).
-holds(s_19488_jpg, table).
 holds(s_19488_jpg, tiledroof).
 holds(s_19488_jpg, tiledrooftop).
 holds(s_19488_jpg, truck).
@@ -43831,7 +43863,6 @@ holds(s_19489_jpg, feature).
 holds(s_19489_jpg, constructionsite).
 holds(s_19489_jpg, powerplant).
 holds(s_19489_jpg, door).
-holds(s_19489_jpg, table).
 holds(s_19489_jpg, chimney).
 holds(s_19489_jpg, pipe).
 holds(s_19489_jpg, machine).
@@ -43845,6 +43876,7 @@ holds(s_19490_jpg, miscresidential).
 holds(s_19490_jpg, countryhouse).
 holds(s_19490_jpg, window).
 holds(s_19490_jpg, porch).
+holds(s_19490_jpg, table).
 holds(s_19490_jpg, tiledroof).
 holds(s_19490_jpg, tiledrooftop).
 holds(s_19490_jpg, car).
@@ -43857,7 +43889,6 @@ holds(s_19491_jpg, hotel).
 holds(s_19491_jpg, misccommercial).
 holds(s_19491_jpg, window).
 holds(s_19491_jpg, awning).
-holds(s_19491_jpg, table).
 holds(s_19491_jpg, wallsign).
 holds(s_19491_jpg, chimney).
 holds(s_19491_jpg, car).
@@ -43871,7 +43902,6 @@ holds(s_19492_jpg, powerplant).
 holds(s_19492_jpg, door).
 holds(s_19492_jpg, window).
 holds(s_19492_jpg, sign).
-holds(s_19492_jpg, table).
 holds(s_19492_jpg, chimney).
 holds(s_19492_jpg, pipe).
 holds(s_19492_jpg, machine).
@@ -43886,7 +43916,6 @@ holds(s_19493_jpg, countryhouse).
 holds(s_19493_jpg, window).
 holds(s_19493_jpg, awning).
 holds(s_19493_jpg, porch).
-holds(s_19493_jpg, table).
 holds(s_19493_jpg, tiledroof).
 holds(s_19493_jpg, tiledrooftop).
 holds(s_19493_jpg, car).
@@ -43900,6 +43929,7 @@ holds(s_19494_jpg, hotel).
 holds(s_19494_jpg, misccommercial).
 holds(s_19494_jpg, window).
 holds(s_19494_jpg, awning).
+holds(s_19494_jpg, table).
 holds(s_19494_jpg, tiledroof).
 holds(s_19494_jpg, tiledrooftop).
 holds(s_19494_jpg, vendingmachine).
@@ -43924,6 +43954,7 @@ holds(s_19496_jpg, countryhouse).
 holds(s_19496_jpg, door).
 holds(s_19496_jpg, window).
 holds(s_19496_jpg, porch).
+holds(s_19496_jpg, table).
 holds(s_19496_jpg, tiledroof).
 holds(s_19496_jpg, tiledrooftop).
 holds(s_19496_jpg, car).
@@ -43954,6 +43985,7 @@ holds(s_19498_jpg, watertreatment).
 holds(s_19498_jpg, door).
 holds(s_19498_jpg, window).
 holds(s_19498_jpg, awning).
+holds(s_19498_jpg, table).
 holds(s_19498_jpg, pipe).
 holds(s_19498_jpg, truck).
 holds(s_19498_jpg, industrial).
@@ -43979,7 +44011,6 @@ holds(s_19500_jpg, hotel).
 holds(s_19500_jpg, restaurant).
 holds(s_19500_jpg, door).
 holds(s_19500_jpg, sign).
-holds(s_19500_jpg, table).
 holds(s_19500_jpg, wallsign).
 holds(s_19500_jpg, chimney).
 holds(s_19500_jpg, car).
@@ -44012,7 +44043,6 @@ holds(s_19503_jpg, cafe).
 holds(s_19503_jpg, hotel).
 holds(s_19503_jpg, store).
 holds(s_19503_jpg, billboard).
-holds(s_19503_jpg, table).
 holds(s_19503_jpg, wallsign).
 holds(s_19503_jpg, statue).
 holds(s_19503_jpg, commercial).
@@ -44051,6 +44081,7 @@ holds(s_19506_jpg, door).
 holds(s_19506_jpg, window).
 holds(s_19506_jpg, billboard).
 holds(s_19506_jpg, sign).
+holds(s_19506_jpg, table).
 holds(s_19506_jpg, vendingmachine).
 holds(s_19506_jpg, wallsign).
 holds(s_19506_jpg, pipe).
@@ -44061,6 +44092,7 @@ holds(s_19507_jpg, building).
 holds(s_19507_jpg, feature).
 holds(s_19507_jpg, powerplant).
 holds(s_19507_jpg, door).
+holds(s_19507_jpg, table).
 holds(s_19507_jpg, chimney).
 holds(s_19507_jpg, pipe).
 holds(s_19507_jpg, industrial).
@@ -44088,7 +44120,6 @@ holds(s_19509_jpg, misccommercial).
 holds(s_19509_jpg, door).
 holds(s_19509_jpg, awning).
 holds(s_19509_jpg, billboard).
-holds(s_19509_jpg, table).
 holds(s_19509_jpg, vendingmachine).
 holds(s_19509_jpg, chimney).
 holds(s_19509_jpg, truck).
@@ -44100,6 +44131,7 @@ holds(s_19510_jpg, feature).
 holds(s_19510_jpg, powerplant).
 holds(s_19510_jpg, door).
 holds(s_19510_jpg, window).
+holds(s_19510_jpg, table).
 holds(s_19510_jpg, chimney).
 holds(s_19510_jpg, pipe).
 holds(s_19510_jpg, car).
@@ -44113,6 +44145,7 @@ holds(s_19511_jpg, miscresidential).
 holds(s_19511_jpg, countryhouse).
 holds(s_19511_jpg, door).
 holds(s_19511_jpg, porch).
+holds(s_19511_jpg, table).
 holds(s_19511_jpg, tiledroof).
 holds(s_19511_jpg, tiledrooftop).
 holds(s_19511_jpg, car).
@@ -44125,7 +44158,6 @@ holds(s_19512_jpg, cafe).
 holds(s_19512_jpg, hotel).
 holds(s_19512_jpg, door).
 holds(s_19512_jpg, window).
-holds(s_19512_jpg, table).
 holds(s_19512_jpg, vendingmachine).
 holds(s_19512_jpg, wallsign).
 holds(s_19512_jpg, statue).
@@ -44138,6 +44170,7 @@ holds(s_19513_jpg, feature).
 holds(s_19513_jpg, constructionsite).
 holds(s_19513_jpg, door).
 holds(s_19513_jpg, awning).
+holds(s_19513_jpg, table).
 holds(s_19513_jpg, chimney).
 holds(s_19513_jpg, machine).
 holds(s_19513_jpg, industrial).
@@ -44184,6 +44217,7 @@ holds(s_19517_jpg, building).
 holds(s_19517_jpg, feature).
 holds(s_19517_jpg, miscresidential).
 holds(s_19517_jpg, window).
+holds(s_19517_jpg, table).
 holds(s_19517_jpg, tiledroof).
 holds(s_19517_jpg, tiledrooftop).
 holds(s_19517_jpg, residential).
@@ -44220,6 +44254,7 @@ holds(s_19520_jpg, feature).
 holds(s_19520_jpg, miscresidential).
 holds(s_19520_jpg, window).
 holds(s_19520_jpg, awning).
+holds(s_19520_jpg, table).
 holds(s_19520_jpg, tiledroof).
 holds(s_19520_jpg, tiledrooftop).
 holds(s_19520_jpg, residential).
@@ -44235,6 +44270,7 @@ holds(s_19521_jpg, door).
 holds(s_19521_jpg, window).
 holds(s_19521_jpg, billboard).
 holds(s_19521_jpg, sign).
+holds(s_19521_jpg, table).
 holds(s_19521_jpg, vendingmachine).
 holds(s_19521_jpg, wallsign).
 holds(s_19521_jpg, chimney).
@@ -44249,7 +44285,6 @@ holds(s_19522_jpg, powerplant).
 holds(s_19522_jpg, door).
 holds(s_19522_jpg, window).
 holds(s_19522_jpg, sign).
-holds(s_19522_jpg, table).
 holds(s_19522_jpg, chimney).
 holds(s_19522_jpg, pipe).
 holds(s_19522_jpg, machine).
@@ -44292,6 +44327,7 @@ holds(s_19525_jpg, feature).
 holds(s_19525_jpg, constructionsite).
 holds(s_19525_jpg, door).
 holds(s_19525_jpg, sign).
+holds(s_19525_jpg, table).
 holds(s_19525_jpg, pipe).
 holds(s_19525_jpg, machine).
 holds(s_19525_jpg, industrial).
@@ -44404,7 +44440,6 @@ holds(s_19534_jpg, building).
 holds(s_19534_jpg, feature).
 holds(s_19534_jpg, miscindustrial).
 holds(s_19534_jpg, window).
-holds(s_19534_jpg, table).
 holds(s_19534_jpg, chimney).
 holds(s_19534_jpg, truck).
 holds(s_19534_jpg, industrial).
@@ -44417,6 +44452,7 @@ holds(s_19535_jpg, door).
 holds(s_19535_jpg, window).
 holds(s_19535_jpg, awning).
 holds(s_19535_jpg, porch).
+holds(s_19535_jpg, table).
 holds(s_19535_jpg, residential).
 
 sample(s_19536_jpg).
@@ -44445,7 +44481,6 @@ holds(s_19537_jpg, miscindustrial).
 holds(s_19537_jpg, powerplant).
 holds(s_19537_jpg, watertreatment).
 holds(s_19537_jpg, door).
-holds(s_19537_jpg, table).
 holds(s_19537_jpg, chimney).
 holds(s_19537_jpg, pipe).
 holds(s_19537_jpg, truck).
@@ -44476,7 +44511,6 @@ holds(s_19539_jpg, window).
 holds(s_19539_jpg, awning).
 holds(s_19539_jpg, billboard).
 holds(s_19539_jpg, sign).
-holds(s_19539_jpg, table).
 holds(s_19539_jpg, tiledroof).
 holds(s_19539_jpg, statue).
 holds(s_19539_jpg, pipe).
@@ -44488,6 +44522,7 @@ holds(s_19540_jpg, feature).
 holds(s_19540_jpg, miscindustrial).
 holds(s_19540_jpg, watertreatment).
 holds(s_19540_jpg, window).
+holds(s_19540_jpg, table).
 holds(s_19540_jpg, pipe).
 holds(s_19540_jpg, truck).
 holds(s_19540_jpg, industrial).
@@ -44506,6 +44541,7 @@ holds(s_19542_jpg, building).
 holds(s_19542_jpg, feature).
 holds(s_19542_jpg, cafe).
 holds(s_19542_jpg, hotel).
+holds(s_19542_jpg, table).
 holds(s_19542_jpg, vendingmachine).
 holds(s_19542_jpg, wallsign).
 holds(s_19542_jpg, pipe).
@@ -44531,6 +44567,7 @@ holds(s_19544_jpg, window).
 holds(s_19544_jpg, awning).
 holds(s_19544_jpg, porch).
 holds(s_19544_jpg, sign).
+holds(s_19544_jpg, table).
 holds(s_19544_jpg, tiledroof).
 holds(s_19544_jpg, tiledrooftop).
 holds(s_19544_jpg, residential).
@@ -44543,7 +44580,6 @@ holds(s_19545_jpg, hotel).
 holds(s_19545_jpg, misccommercial).
 holds(s_19545_jpg, window).
 holds(s_19545_jpg, awning).
-holds(s_19545_jpg, table).
 holds(s_19545_jpg, tiledroof).
 holds(s_19545_jpg, vendingmachine).
 holds(s_19545_jpg, wallsign).
@@ -44569,7 +44605,6 @@ holds(s_19547_jpg, miscresidential).
 holds(s_19547_jpg, countryhouse).
 holds(s_19547_jpg, window).
 holds(s_19547_jpg, porch).
-holds(s_19547_jpg, table).
 holds(s_19547_jpg, tiledroof).
 holds(s_19547_jpg, tiledrooftop).
 holds(s_19547_jpg, car).
@@ -44595,6 +44630,7 @@ holds(s_19549_jpg, feature).
 holds(s_19549_jpg, miscindustrial).
 holds(s_19549_jpg, watertreatment).
 holds(s_19549_jpg, window).
+holds(s_19549_jpg, table).
 holds(s_19549_jpg, pipe).
 holds(s_19549_jpg, truck).
 holds(s_19549_jpg, industrial).
@@ -44605,6 +44641,7 @@ holds(s_19550_jpg, feature).
 holds(s_19550_jpg, miscresidential).
 holds(s_19550_jpg, door).
 holds(s_19550_jpg, sign).
+holds(s_19550_jpg, table).
 holds(s_19550_jpg, tiledroof).
 holds(s_19550_jpg, tiledrooftop).
 holds(s_19550_jpg, residential).
@@ -44617,7 +44654,6 @@ holds(s_19551_jpg, hotel).
 holds(s_19551_jpg, store).
 holds(s_19551_jpg, window).
 holds(s_19551_jpg, billboard).
-holds(s_19551_jpg, table).
 holds(s_19551_jpg, vendingmachine).
 holds(s_19551_jpg, wallsign).
 holds(s_19551_jpg, chimney).
@@ -44640,6 +44676,7 @@ holds(s_19553_jpg, miscresidential).
 holds(s_19553_jpg, door).
 holds(s_19553_jpg, awning).
 holds(s_19553_jpg, porch).
+holds(s_19553_jpg, table).
 holds(s_19553_jpg, tiledroof).
 holds(s_19553_jpg, tiledrooftop).
 holds(s_19553_jpg, truck).
@@ -44667,7 +44704,6 @@ holds(s_19555_jpg, miscindustrial).
 holds(s_19555_jpg, powerplant).
 holds(s_19555_jpg, watertreatment).
 holds(s_19555_jpg, window).
-holds(s_19555_jpg, table).
 holds(s_19555_jpg, chimney).
 holds(s_19555_jpg, pipe).
 holds(s_19555_jpg, truck).
@@ -44682,7 +44718,6 @@ holds(s_19556_jpg, countryhouse).
 holds(s_19556_jpg, door).
 holds(s_19556_jpg, awning).
 holds(s_19556_jpg, porch).
-holds(s_19556_jpg, table).
 holds(s_19556_jpg, tiledroof).
 holds(s_19556_jpg, tiledrooftop).
 holds(s_19556_jpg, car).
@@ -44715,7 +44750,6 @@ holds(s_19559_jpg, suburban).
 holds(s_19559_jpg, miscresidential).
 holds(s_19559_jpg, window).
 holds(s_19559_jpg, porch).
-holds(s_19559_jpg, table).
 holds(s_19559_jpg, tiledroof).
 holds(s_19559_jpg, tiledrooftop).
 holds(s_19559_jpg, residential).
@@ -44731,6 +44765,7 @@ holds(s_19560_jpg, window).
 holds(s_19560_jpg, awning).
 holds(s_19560_jpg, billboard).
 holds(s_19560_jpg, sign).
+holds(s_19560_jpg, table).
 holds(s_19560_jpg, vendingmachine).
 holds(s_19560_jpg, wallsign).
 holds(s_19560_jpg, chimney).
@@ -44753,7 +44788,6 @@ holds(s_19562_jpg, countryhouse).
 holds(s_19562_jpg, door).
 holds(s_19562_jpg, window).
 holds(s_19562_jpg, awning).
-holds(s_19562_jpg, table).
 holds(s_19562_jpg, tiledroof).
 holds(s_19562_jpg, tiledrooftop).
 holds(s_19562_jpg, car).
@@ -44768,7 +44802,6 @@ holds(s_19563_jpg, restaurant).
 holds(s_19563_jpg, store).
 holds(s_19563_jpg, billboard).
 holds(s_19563_jpg, sign).
-holds(s_19563_jpg, table).
 holds(s_19563_jpg, vendingmachine).
 holds(s_19563_jpg, wallsign).
 holds(s_19563_jpg, car).
@@ -44781,7 +44814,6 @@ holds(s_19564_jpg, miscindustrial).
 holds(s_19564_jpg, powerplant).
 holds(s_19564_jpg, watertreatment).
 holds(s_19564_jpg, door).
-holds(s_19564_jpg, table).
 holds(s_19564_jpg, chimney).
 holds(s_19564_jpg, pipe).
 holds(s_19564_jpg, truck).
@@ -44823,7 +44855,6 @@ holds(s_19567_jpg, feature).
 holds(s_19567_jpg, watertreatment).
 holds(s_19567_jpg, door).
 holds(s_19567_jpg, awning).
-holds(s_19567_jpg, table).
 holds(s_19567_jpg, pipe).
 holds(s_19567_jpg, truck).
 holds(s_19567_jpg, industrial).
@@ -44838,6 +44869,7 @@ holds(s_19568_jpg, door).
 holds(s_19568_jpg, window).
 holds(s_19568_jpg, awning).
 holds(s_19568_jpg, porch).
+holds(s_19568_jpg, table).
 holds(s_19568_jpg, tiledroof).
 holds(s_19568_jpg, tiledrooftop).
 holds(s_19568_jpg, car).
@@ -44861,6 +44893,7 @@ holds(s_19570_jpg, miscindustrial).
 holds(s_19570_jpg, powerplant).
 holds(s_19570_jpg, watertreatment).
 holds(s_19570_jpg, door).
+holds(s_19570_jpg, table).
 holds(s_19570_jpg, chimney).
 holds(s_19570_jpg, pipe).
 holds(s_19570_jpg, truck).
@@ -44875,7 +44908,6 @@ holds(s_19571_jpg, door).
 holds(s_19571_jpg, window).
 holds(s_19571_jpg, awning).
 holds(s_19571_jpg, porch).
-holds(s_19571_jpg, table).
 holds(s_19571_jpg, tiledroof).
 holds(s_19571_jpg, tiledrooftop).
 holds(s_19571_jpg, residential).
@@ -44904,6 +44936,7 @@ holds(s_19573_jpg, powerplant).
 holds(s_19573_jpg, watertreatment).
 holds(s_19573_jpg, door).
 holds(s_19573_jpg, window).
+holds(s_19573_jpg, table).
 holds(s_19573_jpg, chimney).
 holds(s_19573_jpg, pipe).
 holds(s_19573_jpg, truck).
@@ -44917,6 +44950,7 @@ holds(s_19574_jpg, miscresidential).
 holds(s_19574_jpg, countryhouse).
 holds(s_19574_jpg, window).
 holds(s_19574_jpg, porch).
+holds(s_19574_jpg, table).
 holds(s_19574_jpg, tiledroof).
 holds(s_19574_jpg, tiledrooftop).
 holds(s_19574_jpg, car).
@@ -44930,7 +44964,6 @@ holds(s_19575_jpg, misccommercial).
 holds(s_19575_jpg, door).
 holds(s_19575_jpg, window).
 holds(s_19575_jpg, awning).
-holds(s_19575_jpg, table).
 holds(s_19575_jpg, tiledroof).
 holds(s_19575_jpg, tiledrooftop).
 holds(s_19575_jpg, wallsign).
@@ -44943,7 +44976,6 @@ holds(s_19576_jpg, feature).
 holds(s_19576_jpg, watertreatment).
 holds(s_19576_jpg, door).
 holds(s_19576_jpg, awning).
-holds(s_19576_jpg, table).
 holds(s_19576_jpg, pipe).
 holds(s_19576_jpg, truck).
 holds(s_19576_jpg, industrial).
@@ -44968,7 +45000,6 @@ holds(s_19578_jpg, store).
 holds(s_19578_jpg, door).
 holds(s_19578_jpg, window).
 holds(s_19578_jpg, billboard).
-holds(s_19578_jpg, table).
 holds(s_19578_jpg, vendingmachine).
 holds(s_19578_jpg, wallsign).
 holds(s_19578_jpg, statue).
@@ -44992,6 +45023,7 @@ holds(s_19580_jpg, countryhouse).
 holds(s_19580_jpg, door).
 holds(s_19580_jpg, window).
 holds(s_19580_jpg, porch).
+holds(s_19580_jpg, table).
 holds(s_19580_jpg, tiledroof).
 holds(s_19580_jpg, tiledrooftop).
 holds(s_19580_jpg, car).
@@ -45008,6 +45040,7 @@ holds(s_19581_jpg, window).
 holds(s_19581_jpg, awning).
 holds(s_19581_jpg, billboard).
 holds(s_19581_jpg, sign).
+holds(s_19581_jpg, table).
 holds(s_19581_jpg, vendingmachine).
 holds(s_19581_jpg, chimney).
 holds(s_19581_jpg, commercial).
@@ -45017,6 +45050,7 @@ holds(s_19582_jpg, building).
 holds(s_19582_jpg, feature).
 holds(s_19582_jpg, powerplant).
 holds(s_19582_jpg, window).
+holds(s_19582_jpg, table).
 holds(s_19582_jpg, chimney).
 holds(s_19582_jpg, pipe).
 holds(s_19582_jpg, industrial).
@@ -45042,6 +45076,7 @@ holds(s_19584_jpg, window).
 holds(s_19584_jpg, awning).
 holds(s_19584_jpg, billboard).
 holds(s_19584_jpg, sign).
+holds(s_19584_jpg, table).
 holds(s_19584_jpg, wallsign).
 holds(s_19584_jpg, truck).
 holds(s_19584_jpg, commercial).
@@ -45077,6 +45112,7 @@ holds(s_19587_jpg, window).
 holds(s_19587_jpg, awning).
 holds(s_19587_jpg, billboard).
 holds(s_19587_jpg, sign).
+holds(s_19587_jpg, table).
 holds(s_19587_jpg, vendingmachine).
 holds(s_19587_jpg, wallsign).
 holds(s_19587_jpg, statue).
@@ -45118,7 +45154,6 @@ holds(s_19591_jpg, feature).
 holds(s_19591_jpg, constructionsite).
 holds(s_19591_jpg, door).
 holds(s_19591_jpg, sign).
-holds(s_19591_jpg, table).
 holds(s_19591_jpg, machine).
 holds(s_19591_jpg, industrial).
 
@@ -45131,7 +45166,6 @@ holds(s_19592_jpg, door).
 holds(s_19592_jpg, awning).
 holds(s_19592_jpg, porch).
 holds(s_19592_jpg, sign).
-holds(s_19592_jpg, table).
 holds(s_19592_jpg, tiledroof).
 holds(s_19592_jpg, tiledrooftop).
 holds(s_19592_jpg, residential).
@@ -45145,7 +45179,6 @@ holds(s_19593_jpg, store).
 holds(s_19593_jpg, door).
 holds(s_19593_jpg, billboard).
 holds(s_19593_jpg, sign).
-holds(s_19593_jpg, table).
 holds(s_19593_jpg, vendingmachine).
 holds(s_19593_jpg, pipe).
 holds(s_19593_jpg, car).
@@ -45156,6 +45189,7 @@ holds(s_19594_jpg, building).
 holds(s_19594_jpg, feature).
 holds(s_19594_jpg, constructionsite).
 holds(s_19594_jpg, sign).
+holds(s_19594_jpg, table).
 holds(s_19594_jpg, chimney).
 holds(s_19594_jpg, machine).
 holds(s_19594_jpg, industrial).
@@ -45169,6 +45203,7 @@ holds(s_19595_jpg, countryhouse).
 holds(s_19595_jpg, door).
 holds(s_19595_jpg, awning).
 holds(s_19595_jpg, porch).
+holds(s_19595_jpg, table).
 holds(s_19595_jpg, tiledroof).
 holds(s_19595_jpg, tiledrooftop).
 holds(s_19595_jpg, car).
@@ -45194,7 +45229,6 @@ holds(s_19597_jpg, feature).
 holds(s_19597_jpg, miscindustrial).
 holds(s_19597_jpg, powerplant).
 holds(s_19597_jpg, watertreatment).
-holds(s_19597_jpg, table).
 holds(s_19597_jpg, chimney).
 holds(s_19597_jpg, pipe).
 holds(s_19597_jpg, truck).
@@ -45224,7 +45258,6 @@ holds(s_19599_jpg, window).
 holds(s_19599_jpg, awning).
 holds(s_19599_jpg, billboard).
 holds(s_19599_jpg, sign).
-holds(s_19599_jpg, table).
 holds(s_19599_jpg, wallsign).
 holds(s_19599_jpg, statue).
 holds(s_19599_jpg, truck).
@@ -45259,7 +45292,6 @@ holds(s_19602_jpg, misccommercial).
 holds(s_19602_jpg, door).
 holds(s_19602_jpg, window).
 holds(s_19602_jpg, awning).
-holds(s_19602_jpg, table).
 holds(s_19602_jpg, tiledroof).
 holds(s_19602_jpg, tiledrooftop).
 holds(s_19602_jpg, vendingmachine).
@@ -45297,6 +45329,7 @@ holds(s_19605_jpg, hotel).
 holds(s_19605_jpg, misccommercial).
 holds(s_19605_jpg, door).
 holds(s_19605_jpg, awning).
+holds(s_19605_jpg, table).
 holds(s_19605_jpg, wallsign).
 holds(s_19605_jpg, commercial).
 
@@ -45308,6 +45341,7 @@ holds(s_19606_jpg, watertreatment).
 holds(s_19606_jpg, door).
 holds(s_19606_jpg, window).
 holds(s_19606_jpg, awning).
+holds(s_19606_jpg, table).
 holds(s_19606_jpg, chimney).
 holds(s_19606_jpg, pipe).
 holds(s_19606_jpg, truck).
@@ -45320,7 +45354,6 @@ holds(s_19607_jpg, suburban).
 holds(s_19607_jpg, miscresidential).
 holds(s_19607_jpg, door).
 holds(s_19607_jpg, porch).
-holds(s_19607_jpg, table).
 holds(s_19607_jpg, tiledroof).
 holds(s_19607_jpg, tiledrooftop).
 holds(s_19607_jpg, residential).
@@ -45335,6 +45368,7 @@ holds(s_19608_jpg, window).
 holds(s_19608_jpg, awning).
 holds(s_19608_jpg, billboard).
 holds(s_19608_jpg, sign).
+holds(s_19608_jpg, table).
 holds(s_19608_jpg, vendingmachine).
 holds(s_19608_jpg, statue).
 holds(s_19608_jpg, commercial).
@@ -45347,7 +45381,6 @@ holds(s_19609_jpg, door).
 holds(s_19609_jpg, window).
 holds(s_19609_jpg, awning).
 holds(s_19609_jpg, sign).
-holds(s_19609_jpg, table).
 holds(s_19609_jpg, pipe).
 holds(s_19609_jpg, machine).
 holds(s_19609_jpg, industrial).
@@ -45371,6 +45404,7 @@ holds(s_19611_jpg, misccommercial).
 holds(s_19611_jpg, door).
 holds(s_19611_jpg, window).
 holds(s_19611_jpg, awning).
+holds(s_19611_jpg, table).
 holds(s_19611_jpg, tiledroof).
 holds(s_19611_jpg, tiledrooftop).
 holds(s_19611_jpg, wallsign).
@@ -45381,6 +45415,7 @@ sample(s_19612_jpg).
 holds(s_19612_jpg, building).
 holds(s_19612_jpg, feature).
 holds(s_19612_jpg, miscindustrial).
+holds(s_19612_jpg, table).
 holds(s_19612_jpg, chimney).
 holds(s_19612_jpg, truck).
 holds(s_19612_jpg, industrial).
@@ -45392,7 +45427,6 @@ holds(s_19613_jpg, miscresidential).
 holds(s_19613_jpg, door).
 holds(s_19613_jpg, window).
 holds(s_19613_jpg, awning).
-holds(s_19613_jpg, table).
 holds(s_19613_jpg, tiledroof).
 holds(s_19613_jpg, tiledrooftop).
 holds(s_19613_jpg, truck).
@@ -45405,7 +45439,6 @@ holds(s_19614_jpg, cafe).
 holds(s_19614_jpg, hotel).
 holds(s_19614_jpg, restaurant).
 holds(s_19614_jpg, sign).
-holds(s_19614_jpg, table).
 holds(s_19614_jpg, wallsign).
 holds(s_19614_jpg, statue).
 holds(s_19614_jpg, truck).
@@ -45429,6 +45462,7 @@ holds(s_19616_jpg, door).
 holds(s_19616_jpg, window).
 holds(s_19616_jpg, awning).
 holds(s_19616_jpg, porch).
+holds(s_19616_jpg, table).
 holds(s_19616_jpg, truck).
 holds(s_19616_jpg, residential).
 
@@ -45444,6 +45478,7 @@ holds(s_19617_jpg, window).
 holds(s_19617_jpg, awning).
 holds(s_19617_jpg, billboard).
 holds(s_19617_jpg, sign).
+holds(s_19617_jpg, table).
 holds(s_19617_jpg, wallsign).
 holds(s_19617_jpg, chimney).
 holds(s_19617_jpg, truck).
@@ -45455,6 +45490,7 @@ holds(s_19618_jpg, feature).
 holds(s_19618_jpg, miscindustrial).
 holds(s_19618_jpg, door).
 holds(s_19618_jpg, window).
+holds(s_19618_jpg, table).
 holds(s_19618_jpg, truck).
 holds(s_19618_jpg, industrial).
 
@@ -45482,6 +45518,7 @@ holds(s_19620_jpg, window).
 holds(s_19620_jpg, awning).
 holds(s_19620_jpg, billboard).
 holds(s_19620_jpg, sign).
+holds(s_19620_jpg, table).
 holds(s_19620_jpg, vendingmachine).
 holds(s_19620_jpg, commercial).
 
@@ -45493,6 +45530,7 @@ holds(s_19621_jpg, powerplant).
 holds(s_19621_jpg, watertreatment).
 holds(s_19621_jpg, door).
 holds(s_19621_jpg, window).
+holds(s_19621_jpg, table).
 holds(s_19621_jpg, chimney).
 holds(s_19621_jpg, pipe).
 holds(s_19621_jpg, truck).
@@ -45506,7 +45544,6 @@ holds(s_19622_jpg, miscresidential).
 holds(s_19622_jpg, door).
 holds(s_19622_jpg, window).
 holds(s_19622_jpg, porch).
-holds(s_19622_jpg, table).
 holds(s_19622_jpg, tiledroof).
 holds(s_19622_jpg, tiledrooftop).
 holds(s_19622_jpg, residential).
@@ -45547,7 +45584,6 @@ holds(s_19625_jpg, door).
 holds(s_19625_jpg, window).
 holds(s_19625_jpg, awning).
 holds(s_19625_jpg, porch).
-holds(s_19625_jpg, table).
 holds(s_19625_jpg, tiledroof).
 holds(s_19625_jpg, tiledrooftop).
 holds(s_19625_jpg, residential).
@@ -45559,6 +45595,7 @@ holds(s_19626_jpg, store).
 holds(s_19626_jpg, door).
 holds(s_19626_jpg, billboard).
 holds(s_19626_jpg, sign).
+holds(s_19626_jpg, table).
 holds(s_19626_jpg, commercial).
 
 sample(s_19627_jpg).
@@ -45579,6 +45616,7 @@ holds(s_19628_jpg, miscresidential).
 holds(s_19628_jpg, countryhouse).
 holds(s_19628_jpg, door).
 holds(s_19628_jpg, window).
+holds(s_19628_jpg, table).
 holds(s_19628_jpg, tiledroof).
 holds(s_19628_jpg, tiledrooftop).
 holds(s_19628_jpg, car).
@@ -45593,6 +45631,7 @@ holds(s_19629_jpg, misccommercial).
 holds(s_19629_jpg, window).
 holds(s_19629_jpg, awning).
 holds(s_19629_jpg, billboard).
+holds(s_19629_jpg, table).
 holds(s_19629_jpg, tiledroof).
 holds(s_19629_jpg, vendingmachine).
 holds(s_19629_jpg, statue).
@@ -45678,6 +45717,7 @@ holds(s_19635_jpg, door).
 holds(s_19635_jpg, window).
 holds(s_19635_jpg, awning).
 holds(s_19635_jpg, sign).
+holds(s_19635_jpg, table).
 holds(s_19635_jpg, wallsign).
 holds(s_19635_jpg, statue).
 holds(s_19635_jpg, car).
@@ -45713,7 +45753,6 @@ holds(s_19638_jpg, misccommercial).
 holds(s_19638_jpg, door).
 holds(s_19638_jpg, awning).
 holds(s_19638_jpg, billboard).
-holds(s_19638_jpg, table).
 holds(s_19638_jpg, vendingmachine).
 holds(s_19638_jpg, statue).
 holds(s_19638_jpg, commercial).
@@ -45790,7 +45829,6 @@ holds(s_19644_jpg, door).
 holds(s_19644_jpg, awning).
 holds(s_19644_jpg, billboard).
 holds(s_19644_jpg, sign).
-holds(s_19644_jpg, table).
 holds(s_19644_jpg, vendingmachine).
 holds(s_19644_jpg, chimney).
 holds(s_19644_jpg, commercial).
@@ -45823,7 +45861,6 @@ holds(s_19647_jpg, window).
 holds(s_19647_jpg, awning).
 holds(s_19647_jpg, billboard).
 holds(s_19647_jpg, sign).
-holds(s_19647_jpg, table).
 holds(s_19647_jpg, vendingmachine).
 holds(s_19647_jpg, statue).
 holds(s_19647_jpg, commercial).
@@ -45834,7 +45871,6 @@ holds(s_19648_jpg, feature).
 holds(s_19648_jpg, powerplant).
 holds(s_19648_jpg, door).
 holds(s_19648_jpg, awning).
-holds(s_19648_jpg, table).
 holds(s_19648_jpg, chimney).
 holds(s_19648_jpg, pipe).
 holds(s_19648_jpg, industrial).
@@ -45846,6 +45882,7 @@ holds(s_19649_jpg, suburban).
 holds(s_19649_jpg, door).
 holds(s_19649_jpg, awning).
 holds(s_19649_jpg, porch).
+holds(s_19649_jpg, table).
 holds(s_19649_jpg, truck).
 holds(s_19649_jpg, residential).
 
@@ -45857,7 +45894,6 @@ holds(s_19650_jpg, store).
 holds(s_19650_jpg, window).
 holds(s_19650_jpg, awning).
 holds(s_19650_jpg, billboard).
-holds(s_19650_jpg, table).
 holds(s_19650_jpg, vendingmachine).
 holds(s_19650_jpg, truck).
 holds(s_19650_jpg, commercial).
@@ -45881,7 +45917,6 @@ holds(s_19652_jpg, door).
 holds(s_19652_jpg, window).
 holds(s_19652_jpg, awning).
 holds(s_19652_jpg, porch).
-holds(s_19652_jpg, table).
 holds(s_19652_jpg, residential).
 
 sample(s_19653_jpg).
@@ -45926,6 +45961,7 @@ holds(s_19656_jpg, door).
 holds(s_19656_jpg, awning).
 holds(s_19656_jpg, billboard).
 holds(s_19656_jpg, sign).
+holds(s_19656_jpg, table).
 holds(s_19656_jpg, tiledroof).
 holds(s_19656_jpg, tiledrooftop).
 holds(s_19656_jpg, vendingmachine).
@@ -45952,7 +45988,6 @@ holds(s_19658_jpg, miscresidential).
 holds(s_19658_jpg, door).
 holds(s_19658_jpg, window).
 holds(s_19658_jpg, porch).
-holds(s_19658_jpg, table).
 holds(s_19658_jpg, tiledroof).
 holds(s_19658_jpg, tiledrooftop).
 holds(s_19658_jpg, residential).
@@ -45978,6 +46013,7 @@ holds(s_19660_jpg, powerplant).
 holds(s_19660_jpg, door).
 holds(s_19660_jpg, window).
 holds(s_19660_jpg, awning).
+holds(s_19660_jpg, table).
 holds(s_19660_jpg, chimney).
 holds(s_19660_jpg, pipe).
 holds(s_19660_jpg, car).
@@ -46014,7 +46050,6 @@ holds(s_19663_jpg, building).
 holds(s_19663_jpg, feature).
 holds(s_19663_jpg, powerplant).
 holds(s_19663_jpg, window).
-holds(s_19663_jpg, table).
 holds(s_19663_jpg, chimney).
 holds(s_19663_jpg, pipe).
 holds(s_19663_jpg, industrial).
@@ -46060,6 +46095,7 @@ holds(s_19667_jpg, miscresidential).
 holds(s_19667_jpg, countryhouse).
 holds(s_19667_jpg, door).
 holds(s_19667_jpg, window).
+holds(s_19667_jpg, table).
 holds(s_19667_jpg, tiledroof).
 holds(s_19667_jpg, tiledrooftop).
 holds(s_19667_jpg, car).
@@ -46074,7 +46110,6 @@ holds(s_19668_jpg, misccommercial).
 holds(s_19668_jpg, door).
 holds(s_19668_jpg, awning).
 holds(s_19668_jpg, billboard).
-holds(s_19668_jpg, table).
 holds(s_19668_jpg, vendingmachine).
 holds(s_19668_jpg, chimney).
 holds(s_19668_jpg, commercial).
@@ -46084,7 +46119,6 @@ holds(s_19669_jpg, building).
 holds(s_19669_jpg, feature).
 holds(s_19669_jpg, powerplant).
 holds(s_19669_jpg, door).
-holds(s_19669_jpg, table).
 holds(s_19669_jpg, chimney).
 holds(s_19669_jpg, pipe).
 holds(s_19669_jpg, car).
@@ -46098,6 +46132,7 @@ holds(s_19670_jpg, miscresidential).
 holds(s_19670_jpg, countryhouse).
 holds(s_19670_jpg, door).
 holds(s_19670_jpg, porch).
+holds(s_19670_jpg, table).
 holds(s_19670_jpg, tiledroof).
 holds(s_19670_jpg, tiledrooftop).
 holds(s_19670_jpg, car).
@@ -46123,7 +46158,6 @@ holds(s_19672_jpg, feature).
 holds(s_19672_jpg, miscindustrial).
 holds(s_19672_jpg, watertreatment).
 holds(s_19672_jpg, door).
-holds(s_19672_jpg, table).
 holds(s_19672_jpg, pipe).
 holds(s_19672_jpg, truck).
 holds(s_19672_jpg, industrial).
@@ -46198,7 +46232,6 @@ holds(s_19678_jpg, feature).
 holds(s_19678_jpg, miscindustrial).
 holds(s_19678_jpg, door).
 holds(s_19678_jpg, window).
-holds(s_19678_jpg, table).
 holds(s_19678_jpg, truck).
 holds(s_19678_jpg, industrial).
 
@@ -46219,7 +46252,6 @@ holds(s_19680_jpg, door).
 holds(s_19680_jpg, window).
 holds(s_19680_jpg, billboard).
 holds(s_19680_jpg, sign).
-holds(s_19680_jpg, table).
 holds(s_19680_jpg, wallsign).
 holds(s_19680_jpg, chimney).
 holds(s_19680_jpg, commercial).
@@ -46242,6 +46274,7 @@ holds(s_19682_jpg, suburban).
 holds(s_19682_jpg, door).
 holds(s_19682_jpg, awning).
 holds(s_19682_jpg, porch).
+holds(s_19682_jpg, table).
 holds(s_19682_jpg, residential).
 
 sample(s_19683_jpg).
@@ -46263,6 +46296,7 @@ holds(s_19684_jpg, powerplant).
 holds(s_19684_jpg, watertreatment).
 holds(s_19684_jpg, window).
 holds(s_19684_jpg, awning).
+holds(s_19684_jpg, table).
 holds(s_19684_jpg, chimney).
 holds(s_19684_jpg, pipe).
 holds(s_19684_jpg, truck).
@@ -46338,6 +46372,7 @@ holds(s_19690_jpg, door).
 holds(s_19690_jpg, window).
 holds(s_19690_jpg, awning).
 holds(s_19690_jpg, sign).
+holds(s_19690_jpg, table).
 holds(s_19690_jpg, machine).
 holds(s_19690_jpg, industrial).
 
@@ -46348,6 +46383,7 @@ holds(s_19691_jpg, suburban).
 holds(s_19691_jpg, miscresidential).
 holds(s_19691_jpg, door).
 holds(s_19691_jpg, porch).
+holds(s_19691_jpg, table).
 holds(s_19691_jpg, tiledroof).
 holds(s_19691_jpg, tiledrooftop).
 holds(s_19691_jpg, residential).
@@ -46361,6 +46397,7 @@ holds(s_19692_jpg, misccommercial).
 holds(s_19692_jpg, door).
 holds(s_19692_jpg, awning).
 holds(s_19692_jpg, sign).
+holds(s_19692_jpg, table).
 holds(s_19692_jpg, tiledroof).
 holds(s_19692_jpg, tiledrooftop).
 holds(s_19692_jpg, vendingmachine).
@@ -46374,6 +46411,7 @@ holds(s_19693_jpg, constructionsite).
 holds(s_19693_jpg, powerplant).
 holds(s_19693_jpg, door).
 holds(s_19693_jpg, window).
+holds(s_19693_jpg, table).
 holds(s_19693_jpg, chimney).
 holds(s_19693_jpg, pipe).
 holds(s_19693_jpg, machine).
@@ -46385,7 +46423,6 @@ holds(s_19694_jpg, feature).
 holds(s_19694_jpg, miscresidential).
 holds(s_19694_jpg, countryhouse).
 holds(s_19694_jpg, window).
-holds(s_19694_jpg, table).
 holds(s_19694_jpg, tiledroof).
 holds(s_19694_jpg, tiledrooftop).
 holds(s_19694_jpg, car).
@@ -46399,7 +46436,6 @@ holds(s_19695_jpg, store).
 holds(s_19695_jpg, door).
 holds(s_19695_jpg, window).
 holds(s_19695_jpg, billboard).
-holds(s_19695_jpg, table).
 holds(s_19695_jpg, vendingmachine).
 holds(s_19695_jpg, statue).
 holds(s_19695_jpg, commercial).
@@ -46411,6 +46447,7 @@ holds(s_19696_jpg, miscindustrial).
 holds(s_19696_jpg, powerplant).
 holds(s_19696_jpg, watertreatment).
 holds(s_19696_jpg, window).
+holds(s_19696_jpg, table).
 holds(s_19696_jpg, chimney).
 holds(s_19696_jpg, pipe).
 holds(s_19696_jpg, truck).
@@ -46436,7 +46473,6 @@ holds(s_19698_jpg, misccommercial).
 holds(s_19698_jpg, door).
 holds(s_19698_jpg, awning).
 holds(s_19698_jpg, sign).
-holds(s_19698_jpg, table).
 holds(s_19698_jpg, tiledroof).
 holds(s_19698_jpg, tiledrooftop).
 holds(s_19698_jpg, vendingmachine).
@@ -46450,7 +46486,6 @@ holds(s_19699_jpg, miscindustrial).
 holds(s_19699_jpg, powerplant).
 holds(s_19699_jpg, watertreatment).
 holds(s_19699_jpg, window).
-holds(s_19699_jpg, table).
 holds(s_19699_jpg, chimney).
 holds(s_19699_jpg, pipe).
 holds(s_19699_jpg, truck).
@@ -46462,7 +46497,6 @@ holds(s_19700_jpg, feature).
 holds(s_19700_jpg, miscresidential).
 holds(s_19700_jpg, door).
 holds(s_19700_jpg, window).
-holds(s_19700_jpg, table).
 holds(s_19700_jpg, tiledroof).
 holds(s_19700_jpg, tiledrooftop).
 holds(s_19700_jpg, truck).
@@ -46478,6 +46512,7 @@ holds(s_19701_jpg, window).
 holds(s_19701_jpg, awning).
 holds(s_19701_jpg, billboard).
 holds(s_19701_jpg, sign).
+holds(s_19701_jpg, table).
 holds(s_19701_jpg, truck).
 holds(s_19701_jpg, commercial).
 
@@ -46513,7 +46548,6 @@ holds(s_19704_jpg, window).
 holds(s_19704_jpg, awning).
 holds(s_19704_jpg, billboard).
 holds(s_19704_jpg, sign).
-holds(s_19704_jpg, table).
 holds(s_19704_jpg, vendingmachine).
 holds(s_19704_jpg, commercial).
 
@@ -46524,6 +46558,7 @@ holds(s_19705_jpg, constructionsite).
 holds(s_19705_jpg, door).
 holds(s_19705_jpg, window).
 holds(s_19705_jpg, sign).
+holds(s_19705_jpg, table).
 holds(s_19705_jpg, pipe).
 holds(s_19705_jpg, machine).
 holds(s_19705_jpg, industrial).
@@ -46535,6 +46570,7 @@ holds(s_19706_jpg, suburban).
 holds(s_19706_jpg, door).
 holds(s_19706_jpg, awning).
 holds(s_19706_jpg, porch).
+holds(s_19706_jpg, table).
 holds(s_19706_jpg, residential).
 
 sample(s_19707_jpg).
@@ -46584,6 +46620,7 @@ holds(s_19710_jpg, misccommercial).
 holds(s_19710_jpg, window).
 holds(s_19710_jpg, awning).
 holds(s_19710_jpg, sign).
+holds(s_19710_jpg, table).
 holds(s_19710_jpg, vendingmachine).
 holds(s_19710_jpg, wallsign).
 holds(s_19710_jpg, statue).
@@ -46610,7 +46647,6 @@ holds(s_19712_jpg, door).
 holds(s_19712_jpg, window).
 holds(s_19712_jpg, awning).
 holds(s_19712_jpg, porch).
-holds(s_19712_jpg, table).
 holds(s_19712_jpg, tiledroof).
 holds(s_19712_jpg, tiledrooftop).
 holds(s_19712_jpg, car).
@@ -46624,7 +46660,6 @@ holds(s_19713_jpg, hotel).
 holds(s_19713_jpg, door).
 holds(s_19713_jpg, window).
 holds(s_19713_jpg, sign).
-holds(s_19713_jpg, table).
 holds(s_19713_jpg, vendingmachine).
 holds(s_19713_jpg, wallsign).
 holds(s_19713_jpg, commercial).
@@ -46636,6 +46671,7 @@ holds(s_19714_jpg, miscindustrial).
 holds(s_19714_jpg, watertreatment).
 holds(s_19714_jpg, door).
 holds(s_19714_jpg, window).
+holds(s_19714_jpg, table).
 holds(s_19714_jpg, pipe).
 holds(s_19714_jpg, truck).
 holds(s_19714_jpg, industrial).
@@ -46660,7 +46696,6 @@ holds(s_19716_jpg, hotel).
 holds(s_19716_jpg, store).
 holds(s_19716_jpg, window).
 holds(s_19716_jpg, billboard).
-holds(s_19716_jpg, table).
 holds(s_19716_jpg, wallsign).
 holds(s_19716_jpg, pipe).
 holds(s_19716_jpg, commercial).
@@ -46672,6 +46707,7 @@ holds(s_19717_jpg, constructionsite).
 holds(s_19717_jpg, door).
 holds(s_19717_jpg, window).
 holds(s_19717_jpg, sign).
+holds(s_19717_jpg, table).
 holds(s_19717_jpg, chimney).
 holds(s_19717_jpg, machine).
 holds(s_19717_jpg, industrial).
@@ -46696,6 +46732,7 @@ holds(s_19719_jpg, door).
 holds(s_19719_jpg, window).
 holds(s_19719_jpg, billboard).
 holds(s_19719_jpg, sign).
+holds(s_19719_jpg, table).
 holds(s_19719_jpg, statue).
 holds(s_19719_jpg, car).
 holds(s_19719_jpg, commercial).
@@ -46706,7 +46743,6 @@ holds(s_19720_jpg, feature).
 holds(s_19720_jpg, powerplant).
 holds(s_19720_jpg, door).
 holds(s_19720_jpg, window).
-holds(s_19720_jpg, table).
 holds(s_19720_jpg, chimney).
 holds(s_19720_jpg, pipe).
 holds(s_19720_jpg, car).
@@ -46744,7 +46780,6 @@ holds(s_19723_jpg, constructionsite).
 holds(s_19723_jpg, door).
 holds(s_19723_jpg, window).
 holds(s_19723_jpg, awning).
-holds(s_19723_jpg, table).
 holds(s_19723_jpg, pipe).
 holds(s_19723_jpg, machine).
 holds(s_19723_jpg, industrial).
@@ -46782,6 +46817,7 @@ holds(s_19726_jpg, watertreatment).
 holds(s_19726_jpg, door).
 holds(s_19726_jpg, window).
 holds(s_19726_jpg, awning).
+holds(s_19726_jpg, table).
 holds(s_19726_jpg, chimney).
 holds(s_19726_jpg, pipe).
 holds(s_19726_jpg, truck).
@@ -46849,7 +46885,6 @@ holds(s_19731_jpg, door).
 holds(s_19731_jpg, window).
 holds(s_19731_jpg, awning).
 holds(s_19731_jpg, billboard).
-holds(s_19731_jpg, table).
 holds(s_19731_jpg, vendingmachine).
 holds(s_19731_jpg, car).
 holds(s_19731_jpg, commercial).
@@ -46861,6 +46896,7 @@ holds(s_19732_jpg, constructionsite).
 holds(s_19732_jpg, door).
 holds(s_19732_jpg, window).
 holds(s_19732_jpg, awning).
+holds(s_19732_jpg, table).
 holds(s_19732_jpg, pipe).
 holds(s_19732_jpg, machine).
 holds(s_19732_jpg, industrial).
@@ -46872,7 +46908,6 @@ holds(s_19733_jpg, suburban).
 holds(s_19733_jpg, door).
 holds(s_19733_jpg, awning).
 holds(s_19733_jpg, porch).
-holds(s_19733_jpg, table).
 holds(s_19733_jpg, residential).
 
 sample(s_19734_jpg).
@@ -46886,7 +46921,6 @@ holds(s_19734_jpg, door).
 holds(s_19734_jpg, window).
 holds(s_19734_jpg, awning).
 holds(s_19734_jpg, billboard).
-holds(s_19734_jpg, table).
 holds(s_19734_jpg, vendingmachine).
 holds(s_19734_jpg, wallsign).
 holds(s_19734_jpg, truck).
@@ -46913,6 +46947,7 @@ holds(s_19736_jpg, miscresidential).
 holds(s_19736_jpg, countryhouse).
 holds(s_19736_jpg, door).
 holds(s_19736_jpg, window).
+holds(s_19736_jpg, table).
 holds(s_19736_jpg, tiledroof).
 holds(s_19736_jpg, tiledrooftop).
 holds(s_19736_jpg, car).
@@ -46929,7 +46964,6 @@ holds(s_19737_jpg, window).
 holds(s_19737_jpg, awning).
 holds(s_19737_jpg, billboard).
 holds(s_19737_jpg, sign).
-holds(s_19737_jpg, table).
 holds(s_19737_jpg, vendingmachine).
 holds(s_19737_jpg, statue).
 holds(s_19737_jpg, car).
@@ -46955,7 +46989,6 @@ holds(s_19739_jpg, suburban).
 holds(s_19739_jpg, door).
 holds(s_19739_jpg, window).
 holds(s_19739_jpg, porch).
-holds(s_19739_jpg, table).
 holds(s_19739_jpg, residential).
 
 sample(s_19740_jpg).
@@ -46965,6 +46998,7 @@ holds(s_19740_jpg, cafe).
 holds(s_19740_jpg, hotel).
 holds(s_19740_jpg, window).
 holds(s_19740_jpg, sign).
+holds(s_19740_jpg, table).
 holds(s_19740_jpg, vendingmachine).
 holds(s_19740_jpg, wallsign).
 holds(s_19740_jpg, commercial).
@@ -46977,6 +47011,7 @@ holds(s_19741_jpg, powerplant).
 holds(s_19741_jpg, watertreatment).
 holds(s_19741_jpg, door).
 holds(s_19741_jpg, window).
+holds(s_19741_jpg, table).
 holds(s_19741_jpg, chimney).
 holds(s_19741_jpg, pipe).
 holds(s_19741_jpg, truck).
@@ -46990,6 +47025,7 @@ holds(s_19742_jpg, miscresidential).
 holds(s_19742_jpg, door).
 holds(s_19742_jpg, porch).
 holds(s_19742_jpg, sign).
+holds(s_19742_jpg, table).
 holds(s_19742_jpg, tiledroof).
 holds(s_19742_jpg, tiledrooftop).
 holds(s_19742_jpg, residential).
@@ -47014,7 +47050,6 @@ holds(s_19744_jpg, miscindustrial).
 holds(s_19744_jpg, powerplant).
 holds(s_19744_jpg, watertreatment).
 holds(s_19744_jpg, door).
-holds(s_19744_jpg, table).
 holds(s_19744_jpg, chimney).
 holds(s_19744_jpg, pipe).
 holds(s_19744_jpg, truck).
@@ -47028,7 +47063,6 @@ holds(s_19745_jpg, miscresidential).
 holds(s_19745_jpg, countryhouse).
 holds(s_19745_jpg, window).
 holds(s_19745_jpg, porch).
-holds(s_19745_jpg, table).
 holds(s_19745_jpg, tiledroof).
 holds(s_19745_jpg, tiledrooftop).
 holds(s_19745_jpg, car).
@@ -47045,6 +47079,7 @@ holds(s_19746_jpg, door).
 holds(s_19746_jpg, awning).
 holds(s_19746_jpg, billboard).
 holds(s_19746_jpg, sign).
+holds(s_19746_jpg, table).
 holds(s_19746_jpg, wallsign).
 holds(s_19746_jpg, truck).
 holds(s_19746_jpg, commercial).
@@ -47054,7 +47089,6 @@ holds(s_19747_jpg, building).
 holds(s_19747_jpg, feature).
 holds(s_19747_jpg, miscindustrial).
 holds(s_19747_jpg, watertreatment).
-holds(s_19747_jpg, table).
 holds(s_19747_jpg, pipe).
 holds(s_19747_jpg, truck).
 holds(s_19747_jpg, industrial).
@@ -47099,6 +47133,7 @@ holds(s_19751_jpg, miscresidential).
 holds(s_19751_jpg, door).
 holds(s_19751_jpg, window).
 holds(s_19751_jpg, porch).
+holds(s_19751_jpg, table).
 holds(s_19751_jpg, tiledroof).
 holds(s_19751_jpg, tiledrooftop).
 holds(s_19751_jpg, residential).
@@ -47165,7 +47200,6 @@ holds(s_19756_jpg, building).
 holds(s_19756_jpg, feature).
 holds(s_19756_jpg, miscindustrial).
 holds(s_19756_jpg, watertreatment).
-holds(s_19756_jpg, table).
 holds(s_19756_jpg, pipe).
 holds(s_19756_jpg, truck).
 holds(s_19756_jpg, industrial).
@@ -47223,6 +47257,7 @@ holds(s_19760_jpg, countryhouse).
 holds(s_19760_jpg, door).
 holds(s_19760_jpg, window).
 holds(s_19760_jpg, porch).
+holds(s_19760_jpg, table).
 holds(s_19760_jpg, tiledroof).
 holds(s_19760_jpg, tiledrooftop).
 holds(s_19760_jpg, car).
@@ -47235,7 +47270,6 @@ holds(s_19761_jpg, cafe).
 holds(s_19761_jpg, misccommercial).
 holds(s_19761_jpg, window).
 holds(s_19761_jpg, awning).
-holds(s_19761_jpg, table).
 holds(s_19761_jpg, vendingmachine).
 holds(s_19761_jpg, chimney).
 holds(s_19761_jpg, commercial).
@@ -47256,7 +47290,6 @@ holds(s_19763_jpg, miscresidential).
 holds(s_19763_jpg, countryhouse).
 holds(s_19763_jpg, door).
 holds(s_19763_jpg, window).
-holds(s_19763_jpg, table).
 holds(s_19763_jpg, tiledroof).
 holds(s_19763_jpg, tiledrooftop).
 holds(s_19763_jpg, car).
@@ -47281,6 +47314,7 @@ holds(s_19765_jpg, feature).
 holds(s_19765_jpg, constructionsite).
 holds(s_19765_jpg, window).
 holds(s_19765_jpg, sign).
+holds(s_19765_jpg, table).
 holds(s_19765_jpg, pipe).
 holds(s_19765_jpg, machine).
 holds(s_19765_jpg, industrial).
@@ -47292,6 +47326,7 @@ holds(s_19766_jpg, suburban).
 holds(s_19766_jpg, miscresidential).
 holds(s_19766_jpg, countryhouse).
 holds(s_19766_jpg, porch).
+holds(s_19766_jpg, table).
 holds(s_19766_jpg, tiledroof).
 holds(s_19766_jpg, tiledrooftop).
 holds(s_19766_jpg, car).
@@ -47316,6 +47351,7 @@ holds(s_19768_jpg, building).
 holds(s_19768_jpg, feature).
 holds(s_19768_jpg, miscindustrial).
 holds(s_19768_jpg, door).
+holds(s_19768_jpg, table).
 holds(s_19768_jpg, chimney).
 holds(s_19768_jpg, truck).
 holds(s_19768_jpg, industrial).
@@ -47345,7 +47381,6 @@ holds(s_19770_jpg, window).
 holds(s_19770_jpg, awning).
 holds(s_19770_jpg, billboard).
 holds(s_19770_jpg, sign).
-holds(s_19770_jpg, table).
 holds(s_19770_jpg, tiledroof).
 holds(s_19770_jpg, vendingmachine).
 holds(s_19770_jpg, statue).
@@ -47357,6 +47392,7 @@ holds(s_19771_jpg, building).
 holds(s_19771_jpg, feature).
 holds(s_19771_jpg, powerplant).
 holds(s_19771_jpg, door).
+holds(s_19771_jpg, table).
 holds(s_19771_jpg, chimney).
 holds(s_19771_jpg, pipe).
 holds(s_19771_jpg, industrial).
@@ -47368,6 +47404,7 @@ holds(s_19772_jpg, suburban).
 holds(s_19772_jpg, miscresidential).
 holds(s_19772_jpg, countryhouse).
 holds(s_19772_jpg, porch).
+holds(s_19772_jpg, table).
 holds(s_19772_jpg, tiledroof).
 holds(s_19772_jpg, tiledrooftop).
 holds(s_19772_jpg, car).
@@ -47393,6 +47430,7 @@ holds(s_19774_jpg, watertreatment).
 holds(s_19774_jpg, door).
 holds(s_19774_jpg, window).
 holds(s_19774_jpg, awning).
+holds(s_19774_jpg, table).
 holds(s_19774_jpg, chimney).
 holds(s_19774_jpg, pipe).
 holds(s_19774_jpg, truck).
@@ -47404,6 +47442,7 @@ holds(s_19775_jpg, feature).
 holds(s_19775_jpg, miscresidential).
 holds(s_19775_jpg, window).
 holds(s_19775_jpg, awning).
+holds(s_19775_jpg, table).
 holds(s_19775_jpg, tiledroof).
 holds(s_19775_jpg, tiledrooftop).
 holds(s_19775_jpg, truck).
@@ -47418,6 +47457,7 @@ holds(s_19776_jpg, door).
 holds(s_19776_jpg, window).
 holds(s_19776_jpg, awning).
 holds(s_19776_jpg, sign).
+holds(s_19776_jpg, table).
 holds(s_19776_jpg, wallsign).
 holds(s_19776_jpg, truck).
 holds(s_19776_jpg, commercial).
@@ -47456,7 +47496,6 @@ holds(s_19779_jpg, misccommercial).
 holds(s_19779_jpg, door).
 holds(s_19779_jpg, awning).
 holds(s_19779_jpg, billboard).
-holds(s_19779_jpg, table).
 holds(s_19779_jpg, statue).
 holds(s_19779_jpg, car).
 holds(s_19779_jpg, commercial).
@@ -47467,7 +47506,6 @@ holds(s_19780_jpg, feature).
 holds(s_19780_jpg, miscindustrial).
 holds(s_19780_jpg, watertreatment).
 holds(s_19780_jpg, door).
-holds(s_19780_jpg, table).
 holds(s_19780_jpg, pipe).
 holds(s_19780_jpg, truck).
 holds(s_19780_jpg, industrial).
@@ -47478,6 +47516,7 @@ holds(s_19781_jpg, feature).
 holds(s_19781_jpg, miscresidential).
 holds(s_19781_jpg, countryhouse).
 holds(s_19781_jpg, window).
+holds(s_19781_jpg, table).
 holds(s_19781_jpg, tiledroof).
 holds(s_19781_jpg, tiledrooftop).
 holds(s_19781_jpg, car).
@@ -47491,7 +47530,6 @@ holds(s_19782_jpg, misccommercial).
 holds(s_19782_jpg, door).
 holds(s_19782_jpg, awning).
 holds(s_19782_jpg, sign).
-holds(s_19782_jpg, table).
 holds(s_19782_jpg, car).
 holds(s_19782_jpg, commercial).
 
@@ -47511,6 +47549,7 @@ holds(s_19784_jpg, miscresidential).
 holds(s_19784_jpg, countryhouse).
 holds(s_19784_jpg, door).
 holds(s_19784_jpg, porch).
+holds(s_19784_jpg, table).
 holds(s_19784_jpg, tiledroof).
 holds(s_19784_jpg, tiledrooftop).
 holds(s_19784_jpg, car).
@@ -47539,7 +47578,6 @@ holds(s_19786_jpg, miscindustrial).
 holds(s_19786_jpg, watertreatment).
 holds(s_19786_jpg, door).
 holds(s_19786_jpg, window).
-holds(s_19786_jpg, table).
 holds(s_19786_jpg, pipe).
 holds(s_19786_jpg, truck).
 holds(s_19786_jpg, industrial).
@@ -47577,6 +47615,7 @@ holds(s_19789_jpg, constructionsite).
 holds(s_19789_jpg, door).
 holds(s_19789_jpg, window).
 holds(s_19789_jpg, awning).
+holds(s_19789_jpg, table).
 holds(s_19789_jpg, machine).
 holds(s_19789_jpg, industrial).
 
@@ -47603,7 +47642,6 @@ holds(s_19791_jpg, door).
 holds(s_19791_jpg, window).
 holds(s_19791_jpg, awning).
 holds(s_19791_jpg, billboard).
-holds(s_19791_jpg, table).
 holds(s_19791_jpg, vendingmachine).
 holds(s_19791_jpg, commercial).
 
@@ -47632,7 +47670,6 @@ holds(s_19794_jpg, door).
 holds(s_19794_jpg, window).
 holds(s_19794_jpg, awning).
 holds(s_19794_jpg, sign).
-holds(s_19794_jpg, table).
 holds(s_19794_jpg, vendingmachine).
 holds(s_19794_jpg, chimney).
 holds(s_19794_jpg, commercial).
@@ -47694,6 +47731,7 @@ holds(s_19799_jpg, door).
 holds(s_19799_jpg, window).
 holds(s_19799_jpg, porch).
 holds(s_19799_jpg, sign).
+holds(s_19799_jpg, table).
 holds(s_19799_jpg, tiledroof).
 holds(s_19799_jpg, tiledrooftop).
 holds(s_19799_jpg, residential).
@@ -47708,6 +47746,7 @@ holds(s_19800_jpg, door).
 holds(s_19800_jpg, window).
 holds(s_19800_jpg, awning).
 holds(s_19800_jpg, sign).
+holds(s_19800_jpg, table).
 holds(s_19800_jpg, vendingmachine).
 holds(s_19800_jpg, wallsign).
 holds(s_19800_jpg, commercial).
@@ -47747,6 +47786,7 @@ holds(s_19803_jpg, window).
 holds(s_19803_jpg, awning).
 holds(s_19803_jpg, billboard).
 holds(s_19803_jpg, sign).
+holds(s_19803_jpg, table).
 holds(s_19803_jpg, pipe).
 holds(s_19803_jpg, commercial).
 
@@ -47758,7 +47798,6 @@ holds(s_19804_jpg, powerplant).
 holds(s_19804_jpg, door).
 holds(s_19804_jpg, window).
 holds(s_19804_jpg, sign).
-holds(s_19804_jpg, table).
 holds(s_19804_jpg, chimney).
 holds(s_19804_jpg, pipe).
 holds(s_19804_jpg, machine).
@@ -47772,6 +47811,7 @@ holds(s_19805_jpg, door).
 holds(s_19805_jpg, window).
 holds(s_19805_jpg, awning).
 holds(s_19805_jpg, porch).
+holds(s_19805_jpg, table).
 holds(s_19805_jpg, truck).
 holds(s_19805_jpg, residential).
 
@@ -47784,6 +47824,7 @@ holds(s_19806_jpg, restaurant).
 holds(s_19806_jpg, door).
 holds(s_19806_jpg, awning).
 holds(s_19806_jpg, sign).
+holds(s_19806_jpg, table).
 holds(s_19806_jpg, vendingmachine).
 holds(s_19806_jpg, wallsign).
 holds(s_19806_jpg, statue).
@@ -47796,6 +47837,7 @@ holds(s_19807_jpg, feature).
 holds(s_19807_jpg, miscindustrial).
 holds(s_19807_jpg, powerplant).
 holds(s_19807_jpg, watertreatment).
+holds(s_19807_jpg, table).
 holds(s_19807_jpg, chimney).
 holds(s_19807_jpg, pipe).
 holds(s_19807_jpg, truck).
@@ -47807,7 +47849,6 @@ holds(s_19808_jpg, feature).
 holds(s_19808_jpg, suburban).
 holds(s_19808_jpg, miscresidential).
 holds(s_19808_jpg, porch).
-holds(s_19808_jpg, table).
 holds(s_19808_jpg, tiledroof).
 holds(s_19808_jpg, tiledrooftop).
 holds(s_19808_jpg, residential).
@@ -47836,7 +47877,6 @@ holds(s_19810_jpg, miscindustrial).
 holds(s_19810_jpg, powerplant).
 holds(s_19810_jpg, watertreatment).
 holds(s_19810_jpg, window).
-holds(s_19810_jpg, table).
 holds(s_19810_jpg, chimney).
 holds(s_19810_jpg, pipe).
 holds(s_19810_jpg, truck).
@@ -47865,7 +47905,6 @@ holds(s_19812_jpg, door).
 holds(s_19812_jpg, window).
 holds(s_19812_jpg, awning).
 holds(s_19812_jpg, sign).
-holds(s_19812_jpg, table).
 holds(s_19812_jpg, tiledroof).
 holds(s_19812_jpg, statue).
 holds(s_19812_jpg, truck).
@@ -47877,7 +47916,6 @@ holds(s_19813_jpg, feature).
 holds(s_19813_jpg, miscindustrial).
 holds(s_19813_jpg, door).
 holds(s_19813_jpg, window).
-holds(s_19813_jpg, table).
 holds(s_19813_jpg, truck).
 holds(s_19813_jpg, industrial).
 
@@ -47887,7 +47925,6 @@ holds(s_19814_jpg, feature).
 holds(s_19814_jpg, miscresidential).
 holds(s_19814_jpg, window).
 holds(s_19814_jpg, awning).
-holds(s_19814_jpg, table).
 holds(s_19814_jpg, tiledroof).
 holds(s_19814_jpg, tiledrooftop).
 holds(s_19814_jpg, residential).
@@ -47914,6 +47951,7 @@ holds(s_19816_jpg, door).
 holds(s_19816_jpg, window).
 holds(s_19816_jpg, awning).
 holds(s_19816_jpg, sign).
+holds(s_19816_jpg, table).
 holds(s_19816_jpg, pipe).
 holds(s_19816_jpg, machine).
 holds(s_19816_jpg, industrial).
@@ -47990,6 +48028,7 @@ holds(s_19822_jpg, feature).
 holds(s_19822_jpg, miscindustrial).
 holds(s_19822_jpg, door).
 holds(s_19822_jpg, window).
+holds(s_19822_jpg, table).
 holds(s_19822_jpg, chimney).
 holds(s_19822_jpg, truck).
 holds(s_19822_jpg, industrial).
@@ -48000,6 +48039,7 @@ holds(s_19823_jpg, feature).
 holds(s_19823_jpg, suburban).
 holds(s_19823_jpg, window).
 holds(s_19823_jpg, porch).
+holds(s_19823_jpg, table).
 holds(s_19823_jpg, truck).
 holds(s_19823_jpg, residential).
 
@@ -48069,6 +48109,7 @@ holds(s_19828_jpg, feature).
 holds(s_19828_jpg, miscindustrial).
 holds(s_19828_jpg, watertreatment).
 holds(s_19828_jpg, door).
+holds(s_19828_jpg, table).
 holds(s_19828_jpg, pipe).
 holds(s_19828_jpg, truck).
 holds(s_19828_jpg, industrial).
@@ -48079,6 +48120,7 @@ holds(s_19829_jpg, feature).
 holds(s_19829_jpg, miscresidential).
 holds(s_19829_jpg, countryhouse).
 holds(s_19829_jpg, door).
+holds(s_19829_jpg, table).
 holds(s_19829_jpg, tiledroof).
 holds(s_19829_jpg, tiledrooftop).
 holds(s_19829_jpg, car).
@@ -48094,7 +48136,6 @@ holds(s_19830_jpg, window).
 holds(s_19830_jpg, awning).
 holds(s_19830_jpg, billboard).
 holds(s_19830_jpg, sign).
-holds(s_19830_jpg, table).
 holds(s_19830_jpg, chimney).
 holds(s_19830_jpg, truck).
 holds(s_19830_jpg, commercial).
@@ -48105,6 +48146,7 @@ holds(s_19831_jpg, feature).
 holds(s_19831_jpg, miscindustrial).
 holds(s_19831_jpg, watertreatment).
 holds(s_19831_jpg, door).
+holds(s_19831_jpg, table).
 holds(s_19831_jpg, pipe).
 holds(s_19831_jpg, truck).
 holds(s_19831_jpg, industrial).
@@ -48118,7 +48160,6 @@ holds(s_19832_jpg, door).
 holds(s_19832_jpg, window).
 holds(s_19832_jpg, awning).
 holds(s_19832_jpg, porch).
-holds(s_19832_jpg, table).
 holds(s_19832_jpg, tiledroof).
 holds(s_19832_jpg, tiledrooftop).
 holds(s_19832_jpg, residential).
@@ -48134,6 +48175,7 @@ holds(s_19833_jpg, door).
 holds(s_19833_jpg, window).
 holds(s_19833_jpg, awning).
 holds(s_19833_jpg, sign).
+holds(s_19833_jpg, table).
 holds(s_19833_jpg, vendingmachine).
 holds(s_19833_jpg, wallsign).
 holds(s_19833_jpg, statue).
@@ -48146,7 +48188,6 @@ holds(s_19834_jpg, feature).
 holds(s_19834_jpg, constructionsite).
 holds(s_19834_jpg, powerplant).
 holds(s_19834_jpg, door).
-holds(s_19834_jpg, table).
 holds(s_19834_jpg, chimney).
 holds(s_19834_jpg, pipe).
 holds(s_19834_jpg, machine).
@@ -48225,7 +48266,6 @@ holds(s_19840_jpg, powerplant).
 holds(s_19840_jpg, watertreatment).
 holds(s_19840_jpg, door).
 holds(s_19840_jpg, window).
-holds(s_19840_jpg, table).
 holds(s_19840_jpg, chimney).
 holds(s_19840_jpg, pipe).
 holds(s_19840_jpg, truck).
@@ -48273,6 +48313,7 @@ holds(s_19844_jpg, feature).
 holds(s_19844_jpg, miscresidential).
 holds(s_19844_jpg, countryhouse).
 holds(s_19844_jpg, window).
+holds(s_19844_jpg, table).
 holds(s_19844_jpg, tiledroof).
 holds(s_19844_jpg, tiledrooftop).
 holds(s_19844_jpg, car).
@@ -48287,7 +48328,6 @@ holds(s_19845_jpg, door).
 holds(s_19845_jpg, awning).
 holds(s_19845_jpg, billboard).
 holds(s_19845_jpg, sign).
-holds(s_19845_jpg, table).
 holds(s_19845_jpg, commercial).
 
 sample(s_19846_jpg).
@@ -48296,6 +48336,7 @@ holds(s_19846_jpg, feature).
 holds(s_19846_jpg, powerplant).
 holds(s_19846_jpg, door).
 holds(s_19846_jpg, awning).
+holds(s_19846_jpg, table).
 holds(s_19846_jpg, chimney).
 holds(s_19846_jpg, pipe).
 holds(s_19846_jpg, car).
@@ -48308,7 +48349,6 @@ holds(s_19847_jpg, miscresidential).
 holds(s_19847_jpg, countryhouse).
 holds(s_19847_jpg, window).
 holds(s_19847_jpg, awning).
-holds(s_19847_jpg, table).
 holds(s_19847_jpg, tiledroof).
 holds(s_19847_jpg, tiledrooftop).
 holds(s_19847_jpg, car).
@@ -48334,7 +48374,6 @@ holds(s_19849_jpg, feature).
 holds(s_19849_jpg, constructionsite).
 holds(s_19849_jpg, powerplant).
 holds(s_19849_jpg, sign).
-holds(s_19849_jpg, table).
 holds(s_19849_jpg, chimney).
 holds(s_19849_jpg, pipe).
 holds(s_19849_jpg, machine).
@@ -48362,7 +48401,6 @@ holds(s_19851_jpg, window).
 holds(s_19851_jpg, awning).
 holds(s_19851_jpg, billboard).
 holds(s_19851_jpg, sign).
-holds(s_19851_jpg, table).
 holds(s_19851_jpg, vendingmachine).
 holds(s_19851_jpg, chimney).
 holds(s_19851_jpg, commercial).
@@ -48373,7 +48411,6 @@ holds(s_19852_jpg, feature).
 holds(s_19852_jpg, miscindustrial).
 holds(s_19852_jpg, watertreatment).
 holds(s_19852_jpg, window).
-holds(s_19852_jpg, table).
 holds(s_19852_jpg, pipe).
 holds(s_19852_jpg, truck).
 holds(s_19852_jpg, industrial).
@@ -48386,7 +48423,6 @@ holds(s_19853_jpg, countryhouse).
 holds(s_19853_jpg, door).
 holds(s_19853_jpg, window).
 holds(s_19853_jpg, awning).
-holds(s_19853_jpg, table).
 holds(s_19853_jpg, tiledroof).
 holds(s_19853_jpg, tiledrooftop).
 holds(s_19853_jpg, car).
@@ -48404,6 +48440,7 @@ holds(s_19854_jpg, door).
 holds(s_19854_jpg, awning).
 holds(s_19854_jpg, billboard).
 holds(s_19854_jpg, sign).
+holds(s_19854_jpg, table).
 holds(s_19854_jpg, wallsign).
 holds(s_19854_jpg, statue).
 holds(s_19854_jpg, truck).
@@ -48471,6 +48508,7 @@ holds(s_19859_jpg, suburban).
 holds(s_19859_jpg, door).
 holds(s_19859_jpg, awning).
 holds(s_19859_jpg, porch).
+holds(s_19859_jpg, table).
 holds(s_19859_jpg, car).
 holds(s_19859_jpg, residential).
 
@@ -48504,7 +48542,6 @@ holds(s_19862_jpg, suburban).
 holds(s_19862_jpg, miscresidential).
 holds(s_19862_jpg, door).
 holds(s_19862_jpg, porch).
-holds(s_19862_jpg, table).
 holds(s_19862_jpg, tiledroof).
 holds(s_19862_jpg, tiledrooftop).
 holds(s_19862_jpg, residential).
@@ -48521,7 +48558,6 @@ holds(s_19863_jpg, window).
 holds(s_19863_jpg, awning).
 holds(s_19863_jpg, billboard).
 holds(s_19863_jpg, sign).
-holds(s_19863_jpg, table).
 holds(s_19863_jpg, wallsign).
 holds(s_19863_jpg, pipe).
 holds(s_19863_jpg, car).
@@ -48534,6 +48570,7 @@ holds(s_19864_jpg, miscindustrial).
 holds(s_19864_jpg, powerplant).
 holds(s_19864_jpg, watertreatment).
 holds(s_19864_jpg, window).
+holds(s_19864_jpg, table).
 holds(s_19864_jpg, chimney).
 holds(s_19864_jpg, pipe).
 holds(s_19864_jpg, truck).
@@ -48546,6 +48583,7 @@ holds(s_19865_jpg, miscresidential).
 holds(s_19865_jpg, countryhouse).
 holds(s_19865_jpg, door).
 holds(s_19865_jpg, window).
+holds(s_19865_jpg, table).
 holds(s_19865_jpg, tiledroof).
 holds(s_19865_jpg, tiledrooftop).
 holds(s_19865_jpg, car).
@@ -48571,6 +48609,7 @@ holds(s_19867_jpg, miscindustrial).
 holds(s_19867_jpg, powerplant).
 holds(s_19867_jpg, watertreatment).
 holds(s_19867_jpg, door).
+holds(s_19867_jpg, table).
 holds(s_19867_jpg, chimney).
 holds(s_19867_jpg, pipe).
 holds(s_19867_jpg, truck).
@@ -48625,6 +48664,7 @@ holds(s_19871_jpg, suburban).
 holds(s_19871_jpg, miscresidential).
 holds(s_19871_jpg, countryhouse).
 holds(s_19871_jpg, porch).
+holds(s_19871_jpg, table).
 holds(s_19871_jpg, tiledroof).
 holds(s_19871_jpg, tiledrooftop).
 holds(s_19871_jpg, car).
@@ -48651,7 +48691,6 @@ holds(s_19873_jpg, miscindustrial).
 holds(s_19873_jpg, powerplant).
 holds(s_19873_jpg, watertreatment).
 holds(s_19873_jpg, door).
-holds(s_19873_jpg, table).
 holds(s_19873_jpg, chimney).
 holds(s_19873_jpg, pipe).
 holds(s_19873_jpg, truck).
@@ -48678,6 +48717,7 @@ holds(s_19875_jpg, window).
 holds(s_19875_jpg, awning).
 holds(s_19875_jpg, billboard).
 holds(s_19875_jpg, sign).
+holds(s_19875_jpg, table).
 holds(s_19875_jpg, wallsign).
 holds(s_19875_jpg, commercial).
 
@@ -48700,6 +48740,7 @@ holds(s_19877_jpg, miscresidential).
 holds(s_19877_jpg, countryhouse).
 holds(s_19877_jpg, door).
 holds(s_19877_jpg, porch).
+holds(s_19877_jpg, table).
 holds(s_19877_jpg, tiledroof).
 holds(s_19877_jpg, tiledrooftop).
 holds(s_19877_jpg, car).
@@ -48715,6 +48756,7 @@ holds(s_19878_jpg, door).
 holds(s_19878_jpg, awning).
 holds(s_19878_jpg, billboard).
 holds(s_19878_jpg, sign).
+holds(s_19878_jpg, table).
 holds(s_19878_jpg, vendingmachine).
 holds(s_19878_jpg, chimney).
 holds(s_19878_jpg, commercial).
@@ -48735,6 +48777,7 @@ holds(s_19880_jpg, feature).
 holds(s_19880_jpg, miscresidential).
 holds(s_19880_jpg, window).
 holds(s_19880_jpg, sign).
+holds(s_19880_jpg, table).
 holds(s_19880_jpg, tiledroof).
 holds(s_19880_jpg, tiledrooftop).
 holds(s_19880_jpg, residential).
@@ -48748,7 +48791,6 @@ holds(s_19881_jpg, door).
 holds(s_19881_jpg, window).
 holds(s_19881_jpg, awning).
 holds(s_19881_jpg, billboard).
-holds(s_19881_jpg, table).
 holds(s_19881_jpg, tiledroof).
 holds(s_19881_jpg, tiledrooftop).
 holds(s_19881_jpg, pipe).
@@ -48771,7 +48813,6 @@ holds(s_19883_jpg, suburban).
 holds(s_19883_jpg, door).
 holds(s_19883_jpg, awning).
 holds(s_19883_jpg, porch).
-holds(s_19883_jpg, table).
 holds(s_19883_jpg, truck).
 holds(s_19883_jpg, residential).
 
@@ -48783,6 +48824,7 @@ holds(s_19884_jpg, misccommercial).
 holds(s_19884_jpg, window).
 holds(s_19884_jpg, awning).
 holds(s_19884_jpg, billboard).
+holds(s_19884_jpg, table).
 holds(s_19884_jpg, truck).
 holds(s_19884_jpg, commercial).
 
@@ -48794,6 +48836,7 @@ holds(s_19885_jpg, powerplant).
 holds(s_19885_jpg, watertreatment).
 holds(s_19885_jpg, door).
 holds(s_19885_jpg, window).
+holds(s_19885_jpg, table).
 holds(s_19885_jpg, chimney).
 holds(s_19885_jpg, pipe).
 holds(s_19885_jpg, truck).
@@ -48820,7 +48863,6 @@ holds(s_19887_jpg, misccommercial).
 holds(s_19887_jpg, door).
 holds(s_19887_jpg, window).
 holds(s_19887_jpg, awning).
-holds(s_19887_jpg, table).
 holds(s_19887_jpg, tiledroof).
 holds(s_19887_jpg, tiledrooftop).
 holds(s_19887_jpg, commercial).
@@ -48841,6 +48883,7 @@ holds(s_19889_jpg, feature).
 holds(s_19889_jpg, suburban).
 holds(s_19889_jpg, door).
 holds(s_19889_jpg, porch).
+holds(s_19889_jpg, table).
 holds(s_19889_jpg, car).
 holds(s_19889_jpg, residential).
 
@@ -48855,7 +48898,6 @@ holds(s_19890_jpg, window).
 holds(s_19890_jpg, awning).
 holds(s_19890_jpg, billboard).
 holds(s_19890_jpg, sign).
-holds(s_19890_jpg, table).
 holds(s_19890_jpg, tiledroof).
 holds(s_19890_jpg, vendingmachine).
 holds(s_19890_jpg, wallsign).
@@ -48881,7 +48923,6 @@ holds(s_19892_jpg, feature).
 holds(s_19892_jpg, suburban).
 holds(s_19892_jpg, door).
 holds(s_19892_jpg, porch).
-holds(s_19892_jpg, table).
 holds(s_19892_jpg, residential).
 
 sample(s_19893_jpg).
@@ -48895,6 +48936,7 @@ holds(s_19893_jpg, door).
 holds(s_19893_jpg, awning).
 holds(s_19893_jpg, billboard).
 holds(s_19893_jpg, sign).
+holds(s_19893_jpg, table).
 holds(s_19893_jpg, wallsign).
 holds(s_19893_jpg, car).
 holds(s_19893_jpg, commercial).
@@ -48917,7 +48959,6 @@ holds(s_19895_jpg, suburban).
 holds(s_19895_jpg, door).
 holds(s_19895_jpg, window).
 holds(s_19895_jpg, porch).
-holds(s_19895_jpg, table).
 holds(s_19895_jpg, residential).
 
 sample(s_19896_jpg).
@@ -48943,7 +48984,6 @@ holds(s_19897_jpg, miscindustrial).
 holds(s_19897_jpg, powerplant).
 holds(s_19897_jpg, watertreatment).
 holds(s_19897_jpg, window).
-holds(s_19897_jpg, table).
 holds(s_19897_jpg, chimney).
 holds(s_19897_jpg, pipe).
 holds(s_19897_jpg, truck).
@@ -48957,7 +48997,6 @@ holds(s_19898_jpg, countryhouse).
 holds(s_19898_jpg, door).
 holds(s_19898_jpg, window).
 holds(s_19898_jpg, awning).
-holds(s_19898_jpg, table).
 holds(s_19898_jpg, tiledroof).
 holds(s_19898_jpg, tiledrooftop).
 holds(s_19898_jpg, car).
@@ -48974,7 +49013,6 @@ holds(s_19899_jpg, window).
 holds(s_19899_jpg, awning).
 holds(s_19899_jpg, billboard).
 holds(s_19899_jpg, sign).
-holds(s_19899_jpg, table).
 holds(s_19899_jpg, wallsign).
 holds(s_19899_jpg, statue).
 holds(s_19899_jpg, pipe).
@@ -48988,6 +49026,7 @@ holds(s_19900_jpg, watertreatment).
 holds(s_19900_jpg, door).
 holds(s_19900_jpg, window).
 holds(s_19900_jpg, awning).
+holds(s_19900_jpg, table).
 holds(s_19900_jpg, pipe).
 holds(s_19900_jpg, truck).
 holds(s_19900_jpg, industrial).
@@ -49057,7 +49096,6 @@ holds(s_19905_jpg, window).
 holds(s_19905_jpg, awning).
 holds(s_19905_jpg, billboard).
 holds(s_19905_jpg, sign).
-holds(s_19905_jpg, table).
 holds(s_19905_jpg, vendingmachine).
 holds(s_19905_jpg, statue).
 holds(s_19905_jpg, commercial).
@@ -49082,6 +49120,7 @@ holds(s_19907_jpg, door).
 holds(s_19907_jpg, window).
 holds(s_19907_jpg, awning).
 holds(s_19907_jpg, porch).
+holds(s_19907_jpg, table).
 holds(s_19907_jpg, residential).
 
 sample(s_19908_jpg).
@@ -49093,6 +49132,7 @@ holds(s_19908_jpg, door).
 holds(s_19908_jpg, window).
 holds(s_19908_jpg, billboard).
 holds(s_19908_jpg, sign).
+holds(s_19908_jpg, table).
 holds(s_19908_jpg, car).
 holds(s_19908_jpg, commercial).
 
@@ -49103,7 +49143,6 @@ holds(s_19909_jpg, miscindustrial).
 holds(s_19909_jpg, powerplant).
 holds(s_19909_jpg, watertreatment).
 holds(s_19909_jpg, window).
-holds(s_19909_jpg, table).
 holds(s_19909_jpg, chimney).
 holds(s_19909_jpg, pipe).
 holds(s_19909_jpg, truck).
@@ -49128,6 +49167,7 @@ holds(s_19911_jpg, misccommercial).
 holds(s_19911_jpg, door).
 holds(s_19911_jpg, window).
 holds(s_19911_jpg, awning).
+holds(s_19911_jpg, table).
 holds(s_19911_jpg, wallsign).
 holds(s_19911_jpg, commercial).
 
@@ -49139,6 +49179,7 @@ holds(s_19912_jpg, powerplant).
 holds(s_19912_jpg, watertreatment).
 holds(s_19912_jpg, door).
 holds(s_19912_jpg, window).
+holds(s_19912_jpg, table).
 holds(s_19912_jpg, chimney).
 holds(s_19912_jpg, pipe).
 holds(s_19912_jpg, truck).
@@ -49184,6 +49225,7 @@ holds(s_19916_jpg, feature).
 holds(s_19916_jpg, miscresidential).
 holds(s_19916_jpg, door).
 holds(s_19916_jpg, window).
+holds(s_19916_jpg, table).
 holds(s_19916_jpg, tiledroof).
 holds(s_19916_jpg, tiledrooftop).
 holds(s_19916_jpg, residential).
@@ -49222,6 +49264,7 @@ holds(s_19919_jpg, suburban).
 holds(s_19919_jpg, miscresidential).
 holds(s_19919_jpg, window).
 holds(s_19919_jpg, porch).
+holds(s_19919_jpg, table).
 holds(s_19919_jpg, tiledroof).
 holds(s_19919_jpg, tiledrooftop).
 holds(s_19919_jpg, residential).
@@ -49266,6 +49309,7 @@ holds(s_19923_jpg, misccommercial).
 holds(s_19923_jpg, door).
 holds(s_19923_jpg, window).
 holds(s_19923_jpg, awning).
+holds(s_19923_jpg, table).
 holds(s_19923_jpg, wallsign).
 holds(s_19923_jpg, commercial).
 
@@ -49275,6 +49319,7 @@ holds(s_19924_jpg, feature).
 holds(s_19924_jpg, miscindustrial).
 holds(s_19924_jpg, watertreatment).
 holds(s_19924_jpg, window).
+holds(s_19924_jpg, table).
 holds(s_19924_jpg, pipe).
 holds(s_19924_jpg, truck).
 holds(s_19924_jpg, industrial).
@@ -49328,6 +49373,7 @@ holds(s_19928_jpg, door).
 holds(s_19928_jpg, window).
 holds(s_19928_jpg, awning).
 holds(s_19928_jpg, porch).
+holds(s_19928_jpg, table).
 holds(s_19928_jpg, tiledroof).
 holds(s_19928_jpg, tiledrooftop).
 holds(s_19928_jpg, truck).
@@ -49341,6 +49387,7 @@ holds(s_19929_jpg, misccommercial).
 holds(s_19929_jpg, door).
 holds(s_19929_jpg, window).
 holds(s_19929_jpg, awning).
+holds(s_19929_jpg, table).
 holds(s_19929_jpg, tiledroof).
 holds(s_19929_jpg, statue).
 holds(s_19929_jpg, commercial).
@@ -49350,7 +49397,6 @@ holds(s_19930_jpg, building).
 holds(s_19930_jpg, feature).
 holds(s_19930_jpg, miscindustrial).
 holds(s_19930_jpg, window).
-holds(s_19930_jpg, table).
 holds(s_19930_jpg, chimney).
 holds(s_19930_jpg, truck).
 holds(s_19930_jpg, industrial).
@@ -49380,6 +49426,7 @@ holds(s_19932_jpg, door).
 holds(s_19932_jpg, window).
 holds(s_19932_jpg, awning).
 holds(s_19932_jpg, billboard).
+holds(s_19932_jpg, table).
 holds(s_19932_jpg, tiledroof).
 holds(s_19932_jpg, wallsign).
 holds(s_19932_jpg, statue).
@@ -49402,7 +49449,6 @@ holds(s_19934_jpg, feature).
 holds(s_19934_jpg, miscresidential).
 holds(s_19934_jpg, window).
 holds(s_19934_jpg, sign).
-holds(s_19934_jpg, table).
 holds(s_19934_jpg, tiledroof).
 holds(s_19934_jpg, tiledrooftop).
 holds(s_19934_jpg, residential).
@@ -49416,6 +49462,7 @@ holds(s_19935_jpg, door).
 holds(s_19935_jpg, window).
 holds(s_19935_jpg, awning).
 holds(s_19935_jpg, sign).
+holds(s_19935_jpg, table).
 holds(s_19935_jpg, wallsign).
 holds(s_19935_jpg, chimney).
 holds(s_19935_jpg, car).
@@ -49427,7 +49474,6 @@ holds(s_19936_jpg, feature).
 holds(s_19936_jpg, powerplant).
 holds(s_19936_jpg, door).
 holds(s_19936_jpg, window).
-holds(s_19936_jpg, table).
 holds(s_19936_jpg, chimney).
 holds(s_19936_jpg, pipe).
 holds(s_19936_jpg, car).
@@ -49440,6 +49486,7 @@ holds(s_19937_jpg, suburban).
 holds(s_19937_jpg, miscresidential).
 holds(s_19937_jpg, window).
 holds(s_19937_jpg, porch).
+holds(s_19937_jpg, table).
 holds(s_19937_jpg, tiledroof).
 holds(s_19937_jpg, tiledrooftop).
 holds(s_19937_jpg, residential).
@@ -49493,7 +49540,6 @@ holds(s_19941_jpg, door).
 holds(s_19941_jpg, window).
 holds(s_19941_jpg, awning).
 holds(s_19941_jpg, sign).
-holds(s_19941_jpg, table).
 holds(s_19941_jpg, vendingmachine).
 holds(s_19941_jpg, wallsign).
 holds(s_19941_jpg, statue).
@@ -49516,7 +49562,6 @@ holds(s_19943_jpg, suburban).
 holds(s_19943_jpg, door).
 holds(s_19943_jpg, window).
 holds(s_19943_jpg, porch).
-holds(s_19943_jpg, table).
 holds(s_19943_jpg, residential).
 
 sample(s_19944_jpg).
@@ -49530,6 +49575,7 @@ holds(s_19944_jpg, window).
 holds(s_19944_jpg, awning).
 holds(s_19944_jpg, billboard).
 holds(s_19944_jpg, sign).
+holds(s_19944_jpg, table).
 holds(s_19944_jpg, vendingmachine).
 holds(s_19944_jpg, statue).
 holds(s_19944_jpg, pipe).
@@ -49590,6 +49636,7 @@ holds(s_19949_jpg, feature).
 holds(s_19949_jpg, miscresidential).
 holds(s_19949_jpg, door).
 holds(s_19949_jpg, awning).
+holds(s_19949_jpg, table).
 holds(s_19949_jpg, tiledroof).
 holds(s_19949_jpg, tiledrooftop).
 holds(s_19949_jpg, truck).
@@ -49616,6 +49663,7 @@ holds(s_19951_jpg, constructionsite).
 holds(s_19951_jpg, door).
 holds(s_19951_jpg, awning).
 holds(s_19951_jpg, sign).
+holds(s_19951_jpg, table).
 holds(s_19951_jpg, machine).
 holds(s_19951_jpg, industrial).
 
@@ -49679,6 +49727,7 @@ holds(s_19956_jpg, window).
 holds(s_19956_jpg, awning).
 holds(s_19956_jpg, billboard).
 holds(s_19956_jpg, sign).
+holds(s_19956_jpg, table).
 holds(s_19956_jpg, wallsign).
 holds(s_19956_jpg, truck).
 holds(s_19956_jpg, commercial).
@@ -49689,6 +49738,7 @@ holds(s_19957_jpg, feature).
 holds(s_19957_jpg, miscindustrial).
 holds(s_19957_jpg, watertreatment).
 holds(s_19957_jpg, window).
+holds(s_19957_jpg, table).
 holds(s_19957_jpg, pipe).
 holds(s_19957_jpg, truck).
 holds(s_19957_jpg, industrial).
@@ -49702,6 +49752,7 @@ holds(s_19958_jpg, door).
 holds(s_19958_jpg, window).
 holds(s_19958_jpg, awning).
 holds(s_19958_jpg, porch).
+holds(s_19958_jpg, table).
 holds(s_19958_jpg, tiledroof).
 holds(s_19958_jpg, tiledrooftop).
 holds(s_19958_jpg, residential).
@@ -49715,6 +49766,7 @@ holds(s_19959_jpg, door).
 holds(s_19959_jpg, window).
 holds(s_19959_jpg, awning).
 holds(s_19959_jpg, sign).
+holds(s_19959_jpg, table).
 holds(s_19959_jpg, vendingmachine).
 holds(s_19959_jpg, commercial).
 
@@ -49746,7 +49798,6 @@ holds(s_19962_jpg, cafe).
 holds(s_19962_jpg, misccommercial).
 holds(s_19962_jpg, door).
 holds(s_19962_jpg, awning).
-holds(s_19962_jpg, table).
 holds(s_19962_jpg, vendingmachine).
 holds(s_19962_jpg, pipe).
 holds(s_19962_jpg, commercial).
@@ -49756,7 +49807,6 @@ holds(s_19963_jpg, building).
 holds(s_19963_jpg, feature).
 holds(s_19963_jpg, miscindustrial).
 holds(s_19963_jpg, watertreatment).
-holds(s_19963_jpg, table).
 holds(s_19963_jpg, pipe).
 holds(s_19963_jpg, truck).
 holds(s_19963_jpg, industrial).
@@ -49780,6 +49830,7 @@ holds(s_19965_jpg, hotel).
 holds(s_19965_jpg, misccommercial).
 holds(s_19965_jpg, door).
 holds(s_19965_jpg, awning).
+holds(s_19965_jpg, table).
 holds(s_19965_jpg, tiledroof).
 holds(s_19965_jpg, tiledrooftop).
 holds(s_19965_jpg, vendingmachine).
@@ -49793,7 +49844,6 @@ holds(s_19966_jpg, feature).
 holds(s_19966_jpg, constructionsite).
 holds(s_19966_jpg, window).
 holds(s_19966_jpg, sign).
-holds(s_19966_jpg, table).
 holds(s_19966_jpg, machine).
 holds(s_19966_jpg, industrial).
 
@@ -49804,6 +49854,7 @@ holds(s_19967_jpg, miscresidential).
 holds(s_19967_jpg, countryhouse).
 holds(s_19967_jpg, window).
 holds(s_19967_jpg, awning).
+holds(s_19967_jpg, table).
 holds(s_19967_jpg, tiledroof).
 holds(s_19967_jpg, tiledrooftop).
 holds(s_19967_jpg, car).
@@ -49817,7 +49868,6 @@ holds(s_19968_jpg, hotel).
 holds(s_19968_jpg, restaurant).
 holds(s_19968_jpg, door).
 holds(s_19968_jpg, sign).
-holds(s_19968_jpg, table).
 holds(s_19968_jpg, vendingmachine).
 holds(s_19968_jpg, wallsign).
 holds(s_19968_jpg, statue).
@@ -49861,7 +49911,6 @@ holds(s_19971_jpg, door).
 holds(s_19971_jpg, awning).
 holds(s_19971_jpg, billboard).
 holds(s_19971_jpg, sign).
-holds(s_19971_jpg, table).
 holds(s_19971_jpg, tiledroof).
 holds(s_19971_jpg, tiledrooftop).
 holds(s_19971_jpg, vendingmachine).
@@ -49888,6 +49937,7 @@ holds(s_19973_jpg, miscresidential).
 holds(s_19973_jpg, countryhouse).
 holds(s_19973_jpg, window).
 holds(s_19973_jpg, porch).
+holds(s_19973_jpg, table).
 holds(s_19973_jpg, tiledroof).
 holds(s_19973_jpg, tiledrooftop).
 holds(s_19973_jpg, car).
@@ -49903,7 +49953,6 @@ holds(s_19974_jpg, door).
 holds(s_19974_jpg, window).
 holds(s_19974_jpg, awning).
 holds(s_19974_jpg, billboard).
-holds(s_19974_jpg, table).
 holds(s_19974_jpg, vendingmachine).
 holds(s_19974_jpg, wallsign).
 holds(s_19974_jpg, statue).
@@ -49945,7 +49994,6 @@ holds(s_19977_jpg, door).
 holds(s_19977_jpg, window).
 holds(s_19977_jpg, awning).
 holds(s_19977_jpg, billboard).
-holds(s_19977_jpg, table).
 holds(s_19977_jpg, vendingmachine).
 holds(s_19977_jpg, wallsign).
 holds(s_19977_jpg, truck).
@@ -50006,6 +50054,7 @@ holds(s_19982_jpg, miscresidential).
 holds(s_19982_jpg, countryhouse).
 holds(s_19982_jpg, door).
 holds(s_19982_jpg, window).
+holds(s_19982_jpg, table).
 holds(s_19982_jpg, tiledroof).
 holds(s_19982_jpg, tiledrooftop).
 holds(s_19982_jpg, car).
@@ -50058,6 +50107,7 @@ holds(s_19986_jpg, hotel).
 holds(s_19986_jpg, misccommercial).
 holds(s_19986_jpg, window).
 holds(s_19986_jpg, awning).
+holds(s_19986_jpg, table).
 holds(s_19986_jpg, vendingmachine).
 holds(s_19986_jpg, wallsign).
 holds(s_19986_jpg, statue).
@@ -50106,7 +50156,6 @@ holds(s_19990_jpg, constructionsite).
 holds(s_19990_jpg, door).
 holds(s_19990_jpg, window).
 holds(s_19990_jpg, sign).
-holds(s_19990_jpg, table).
 holds(s_19990_jpg, pipe).
 holds(s_19990_jpg, machine).
 holds(s_19990_jpg, industrial).
@@ -50145,7 +50194,6 @@ holds(s_19993_jpg, powerplant).
 holds(s_19993_jpg, door).
 holds(s_19993_jpg, window).
 holds(s_19993_jpg, awning).
-holds(s_19993_jpg, table).
 holds(s_19993_jpg, chimney).
 holds(s_19993_jpg, pipe).
 holds(s_19993_jpg, industrial).
@@ -50188,7 +50236,6 @@ holds(s_19996_jpg, watertreatment).
 holds(s_19996_jpg, door).
 holds(s_19996_jpg, window).
 holds(s_19996_jpg, awning).
-holds(s_19996_jpg, table).
 holds(s_19996_jpg, chimney).
 holds(s_19996_jpg, pipe).
 holds(s_19996_jpg, truck).
@@ -50203,7 +50250,6 @@ holds(s_19997_jpg, door).
 holds(s_19997_jpg, window).
 holds(s_19997_jpg, porch).
 holds(s_19997_jpg, sign).
-holds(s_19997_jpg, table).
 holds(s_19997_jpg, tiledroof).
 holds(s_19997_jpg, tiledrooftop).
 holds(s_19997_jpg, residential).
@@ -50216,7 +50262,6 @@ holds(s_19998_jpg, hotel).
 holds(s_19998_jpg, misccommercial).
 holds(s_19998_jpg, door).
 holds(s_19998_jpg, awning).
-holds(s_19998_jpg, table).
 holds(s_19998_jpg, vendingmachine).
 holds(s_19998_jpg, wallsign).
 holds(s_19998_jpg, chimney).
@@ -50228,7 +50273,6 @@ holds(s_19999_jpg, building).
 holds(s_19999_jpg, feature).
 holds(s_19999_jpg, miscindustrial).
 holds(s_19999_jpg, door).
-holds(s_19999_jpg, table).
 holds(s_19999_jpg, chimney).
 holds(s_19999_jpg, truck).
 holds(s_19999_jpg, industrial).

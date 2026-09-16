@@ -66,3 +66,93 @@
 [SAT CHECK] Car fix1: mean_sat=0.8997 delta=-0.0432 changes=3025 ltn_inconsistent=2563/4000 clingo_inconsistent=2563/4000
 [SAT CHECK] Car invert: mean_sat=0.8881 delta=-0.0547 changes=4000 ltn_inconsistent=3331/4000 clingo_inconsistent=3331/4000
 [SAT CHECK] Car random: mean_sat=0.9207 delta=-0.0221 changes=1982 ltn_inconsistent=1694/4000 clingo_inconsistent=1694/4000
+[SAT CHECK] ground truth mean sat when Cafe is 0: 0.8891 948/4000 changed, 
+[SAT CHECK] ground truth mean sat when Cafe is 1: 0.7377 3052/4000 changed, 
+[SAT CHECK] ground truth mean sat when Hotel is 0: 0.8971 812/4000 changed, 
+[SAT CHECK] ground truth mean sat when Hotel is 1: 0.7346 3188/4000 changed, 
+[SAT CHECK] ground truth mean sat when Restaurant is 0: 0.9186 496/4000 changed, 
+[SAT CHECK] ground truth mean sat when Restaurant is 1: 0.7276 3504/4000 changed, 
+[SAT CHECK] ground truth mean sat when Store is 0: 0.8954 843/4000 changed, 
+[SAT CHECK] ground truth mean sat when Store is 1: 0.7352 3157/4000 changed, 
+[SAT CHECK] ground truth mean sat when MiscCommercial is 0: 0.8992 782/4000 changed, 
+[SAT CHECK] ground truth mean sat when Cafe is 0: 0.8891 948/4000 changed, 
+[SAT CHECK] ground truth mean sat when Cafe is 1: 0.7377 3052/4000 changed, 
+[SAT CHECK] ground truth mean sat when Hotel is 0: 0.8971 812/4000 changed, 
+[SAT CHECK] ground truth mean sat when Hotel is 1: 0.7346 3188/4000 changed, 
+[SAT CHECK] ground truth mean sat when Restaurant is 0: 0.9186 496/4000 changed, 
+[SAT CHECK] ground truth mean sat when Restaurant is 1: 0.7276 3504/4000 changed, 
+[SAT CHECK] ground truth mean sat when Store is 0: 0.8954 843/4000 changed, 
+[SAT CHECK] ground truth mean sat when Store is 1: 0.7352 3157/4000 changed, 
+[SAT CHECK] ground truth mean sat when MiscCommercial is 0: 0.8992 782/4000 changed, 
+[SAT CHECK] ground truth mean sat when MiscCommercial is 1: 0.7339 3218/4000 changed, 
+[SAT CHECK] ground truth mean sat when Suburban is 0: 0.8812 902/4000 changed, 
+[SAT CHECK] ground truth mean sat when Suburban is 1: 0.7366 3098/4000 changed, 
+[SAT CHECK] ground truth mean sat when MiscResidential is 0: 0.8733 1106/4000 changed, 
+[SAT CHECK] ground truth mean sat when MiscResidential is 1: 0.7412 2894/4000 changed, 
+[SAT CHECK] ground truth mean sat when CountryHouse is 0: 0.9153 553/4000 changed, 
+[SAT CHECK] ground truth mean sat when CountryHouse is 1: 0.7288 3447/4000 changed, 
+[SAT CHECK] ground truth mean sat when ConstructionSite is 0: 0.9115 379/4000 changed, 
+[SAT CHECK] ground truth mean sat when ConstructionSite is 1: 0.7251 3621/4000 changed, 
+[SAT CHECK] ground truth mean sat when MiscIndustrial is 0: 0.9033 586/4000 changed, 
+[SAT CHECK] ground truth mean sat when MiscIndustrial is 1: 0.7329 3414/4000 changed, 
+[SAT CHECK] ground truth mean sat when PowerPlant is 0: 0.8927 686/4000 changed, 
+[SAT CHECK] ground truth mean sat when PowerPlant is 1: 0.7317 3314/4000 changed, 
+[SAT CHECK] ground truth mean sat when WaterTreatment is 0: 0.9113 557/4000 changed, 
+[SAT CHECK] ground truth mean sat when WaterTreatment is 1: 0.7289 3443/4000 changed, 
+[SAT CHECK] ground truth mean sat when Door is 0: 0.9225 2616/4000 changed, 
+[SAT CHECK] ground truth mean sat when Door is 1: 0.9799 1384/4000 changed, 
+[SAT CHECK] ground truth mean sat when Window is 0: 0.9207 2656/4000 changed, 
+[SAT CHECK] ground truth mean sat when Window is 1: 0.9799 1344/4000 changed, 
+[SAT CHECK] ground truth mean sat when Awning is 0: 0.8711 1840/4000 changed, 
+[SAT CHECK] Cafe fix0: mean_sat=0.8891 delta=+0.0837 changes=948 ltn_inconsistent=1011/4000 clingo_inconsistent=1011/4000
+[SAT CHECK] Cafe fix1: mean_sat=0.7377 delta=-0.0677 changes=3052 ltn_inconsistent=3065/4000 clingo_inconsistent=3065/4000
+[SAT CHECK] Cafe invert: mean_sat=0.7165 delta=-0.0888 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] Cafe random: mean_sat=0.7980 delta=-0.0074 changes=2026 ltn_inconsistent=2060/4000 clingo_inconsistent=2060/4000
+[SAT CHECK] Hotel fix0: mean_sat=0.8971 delta=+0.0917 changes=812 ltn_inconsistent=875/4000 clingo_inconsistent=875/4000
+[SAT CHECK] Hotel fix1: mean_sat=0.7346 delta=-0.0708 changes=3188 ltn_inconsistent=3201/4000 clingo_inconsistent=3201/4000
+[SAT CHECK] Hotel invert: mean_sat=0.7166 delta=-0.0888 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] Hotel random: mean_sat=0.8006 delta=-0.0047 changes=1964 ltn_inconsistent=2003/4000 clingo_inconsistent=2003/4000
+[SAT CHECK] Restaurant fix0: mean_sat=0.9186 delta=+0.1133 changes=496 ltn_inconsistent=572/4000 clingo_inconsistent=572/4000
+[SAT CHECK] Restaurant fix1: mean_sat=0.7276 delta=-0.0778 changes=3504 ltn_inconsistent=3504/4000 clingo_inconsistent=3504/4000
+[SAT CHECK] Restaurant invert: mean_sat=0.7167 delta=-0.0887 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] Restaurant random: mean_sat=0.7993 delta=-0.0060 changes=2005 ltn_inconsistent=2040/4000 clingo_inconsistent=2040/4000
+[SAT CHECK] Store fix0: mean_sat=0.8954 delta=+0.0901 changes=843 ltn_inconsistent=904/4000 clingo_inconsistent=904/4000
+[SAT CHECK] Store fix1: mean_sat=0.7352 delta=-0.0701 changes=3157 ltn_inconsistent=3172/4000 clingo_inconsistent=3172/4000
+[SAT CHECK] Store invert: mean_sat=0.7166 delta=-0.0888 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] Store random: mean_sat=0.7957 delta=-0.0097 changes=2074 ltn_inconsistent=2108/4000 clingo_inconsistent=2108/4000
+[SAT CHECK] MiscCommercial fix0: mean_sat=0.8992 delta=+0.0939 changes=782 ltn_inconsistent=858/4000 clingo_inconsistent=858/4000
+[SAT CHECK] MiscCommercial fix1: mean_sat=0.7339 delta=-0.0715 changes=3218 ltn_inconsistent=3218/4000 clingo_inconsistent=3218/4000
+[SAT CHECK] MiscCommercial invert: mean_sat=0.7166 delta=-0.0888 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] MiscCommercial random: mean_sat=0.7994 delta=-0.0059 changes=1989 ltn_inconsistent=2028/4000 clingo_inconsistent=2028/4000
+[SAT CHECK] Suburban fix0: mean_sat=0.8812 delta=+0.0758 changes=902 ltn_inconsistent=935/4000 clingo_inconsistent=935/4000
+[SAT CHECK] Suburban fix1: mean_sat=0.7366 delta=-0.0688 changes=3098 ltn_inconsistent=3141/4000 clingo_inconsistent=3141/4000
+[SAT CHECK] Suburban invert: mean_sat=0.7122 delta=-0.0932 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] Suburban random: mean_sat=0.7972 delta=-0.0082 changes=1991 ltn_inconsistent=2028/4000 clingo_inconsistent=2028/4000
+[SAT CHECK] MiscResidential fix0: mean_sat=0.8733 delta=+0.0680 changes=1106 ltn_inconsistent=1139/4000 clingo_inconsistent=1139/4000
+[SAT CHECK] MiscResidential fix1: mean_sat=0.7412 delta=-0.0642 changes=2894 ltn_inconsistent=2937/4000 clingo_inconsistent=2937/4000
+[SAT CHECK] MiscResidential invert: mean_sat=0.7132 delta=-0.0922 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] MiscResidential random: mean_sat=0.8011 delta=-0.0042 changes=1931 ltn_inconsistent=1973/4000 clingo_inconsistent=1973/4000
+[SAT CHECK] CountryHouse fix0: mean_sat=0.9153 delta=+0.1099 changes=553 ltn_inconsistent=629/4000 clingo_inconsistent=629/4000
+[SAT CHECK] CountryHouse fix1: mean_sat=0.7288 delta=-0.0766 changes=3447 ltn_inconsistent=3447/4000 clingo_inconsistent=3447/4000
+[SAT CHECK] CountryHouse invert: mean_sat=0.7169 delta=-0.0885 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] CountryHouse random: mean_sat=0.8021 delta=-0.0032 changes=1956 ltn_inconsistent=1996/4000 clingo_inconsistent=1996/4000
+[SAT CHECK] ConstructionSite fix0: mean_sat=0.9115 delta=+0.1061 changes=379 ltn_inconsistent=455/4000 clingo_inconsistent=455/4000
+[SAT CHECK] ConstructionSite fix1: mean_sat=0.7251 delta=-0.0803 changes=3621 ltn_inconsistent=3621/4000 clingo_inconsistent=3621/4000
+[SAT CHECK] ConstructionSite invert: mean_sat=0.7119 delta=-0.0935 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] ConstructionSite random: mean_sat=0.7921 delta=-0.0132 changes=2053 ltn_inconsistent=2086/4000 clingo_inconsistent=2086/4000
+[SAT CHECK] MiscIndustrial fix0: mean_sat=0.9033 delta=+0.0979 changes=586 ltn_inconsistent=662/4000 clingo_inconsistent=662/4000
+[SAT CHECK] MiscIndustrial fix1: mean_sat=0.7329 delta=-0.0724 changes=3414 ltn_inconsistent=3414/4000 clingo_inconsistent=3414/4000
+[SAT CHECK] MiscIndustrial invert: mean_sat=0.7167 delta=-0.0886 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] MiscIndustrial random: mean_sat=0.7983 delta=-0.0070 changes=2022 ltn_inconsistent=2059/4000 clingo_inconsistent=2059/4000
+[SAT CHECK] PowerPlant fix0: mean_sat=0.8927 delta=+0.0874 changes=686 ltn_inconsistent=762/4000 clingo_inconsistent=762/4000
+[SAT CHECK] PowerPlant fix1: mean_sat=0.7317 delta=-0.0736 changes=3314 ltn_inconsistent=3314/4000 clingo_inconsistent=3314/4000
+[SAT CHECK] PowerPlant invert: mean_sat=0.7121 delta=-0.0933 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] PowerPlant random: mean_sat=0.7959 delta=-0.0095 changes=2002 ltn_inconsistent=2041/4000 clingo_inconsistent=2041/4000
+[SAT CHECK] WaterTreatment fix0: mean_sat=0.9113 delta=+0.1059 changes=557 ltn_inconsistent=633/4000 clingo_inconsistent=633/4000
+[SAT CHECK] WaterTreatment fix1: mean_sat=0.7289 delta=-0.0765 changes=3443 ltn_inconsistent=3443/4000 clingo_inconsistent=3443/4000
+[SAT CHECK] WaterTreatment invert: mean_sat=0.7157 delta=-0.0897 changes=4000 ltn_inconsistent=4000/4000 clingo_inconsistent=4000/4000
+[SAT CHECK] WaterTreatment random: mean_sat=0.7986 delta=-0.0067 changes=1994 ltn_inconsistent=2033/4000 clingo_inconsistent=2033/4000
+[SAT CHECK] Door fix0: mean_sat=0.9225 delta=+0.1172 changes=2616 ltn_inconsistent=534/4000 clingo_inconsistent=534/4000
+[SAT CHECK] Door fix1: mean_sat=0.9799 delta=+0.1745 changes=1384 ltn_inconsistent=76/4000 clingo_inconsistent=76/4000
+[SAT CHECK] Door invert: mean_sat=0.9225 delta=+0.1172 changes=4000 ltn_inconsistent=534/4000 clingo_inconsistent=534/4000
+[SAT CHECK] Door random: mean_sat=0.9456 delta=+0.1403 changes=2002 ltn_inconsistent=298/4000 clingo_inconsistent=298/4000

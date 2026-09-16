@@ -38,28 +38,32 @@ import utils.constants as constants
 # !pip install torchmetrics
 import torchmetrics
 
-if len(sys.argv) < 2:
-    print("Usage: python3 dissertation_workplace_script.py <runName> <active_ontology>")
-    sys.exit(1)
+RUN_NAME = "default_run_name"
 
-RUN_NAME = sys.argv[1]
+if __name__ == "__main__":
 
-if len(sys.argv) == 4:
-    constants.TRAIN_WITH_A_SUBSET = True
-    SUBSET_SIZE = int(sys.argv[3])
+    if len(sys.argv) < 2:
+        print("Usage: python3 dissertation_workplace_script.py <runName> <active_ontology>")
+        sys.exit(1)
 
-else:
-    SUBSET_SIZE = constants.SUBSET_SIZE
+    RUN_NAME = sys.argv[1]
 
-if len(sys.argv) == 3:
-    ACTIVE_ONTOLOGY = sys.argv[2]
-    constants.active_ontology = ACTIVE_ONTOLOGY
+    if len(sys.argv) == 4:
+        constants.TRAIN_WITH_A_SUBSET = True
+        SUBSET_SIZE = int(sys.argv[3])
 
-else:
-    ACTIVE_ONTOLOGY = constants.active_ontology
+    else:
+        SUBSET_SIZE = constants.SUBSET_SIZE
+
+    if len(sys.argv) == 3:
+        ACTIVE_ONTOLOGY = sys.argv[2]
+        constants.active_ontology = ACTIVE_ONTOLOGY
+
+    else:
+        ACTIVE_ONTOLOGY = constants.active_ontology
 
 
-print(f"active ontology: {ACTIVE_ONTOLOGY}")
+    print(f"active ontology: {ACTIVE_ONTOLOGY}")
 
 
 
@@ -489,7 +493,7 @@ def reset_model(in_channels, num_classes, seed=None):
 
     p = ltn.Predicate(PredicateModel())
 
-    return logits_model, device,classification_loss_fn, super_loss_fn, p
+    return logits_model, device, classification_loss_fn, super_loss_fn, p
 
 
 def __get_elements_from_batch(batch_elements):
@@ -1366,64 +1370,69 @@ def train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting
 
     #default 0.7, 0.8, 0.9
 
-ensure_run_name_is_valid(run_name=RUN_NAME) #<-- crash if invalid name
- 
-for i in range(4,5):
-    run_output_dir = Path("outputs") / Path(RUN_NAME) / f"run{i}_outputs"
 
-    if (run_output_dir / "DONE").exists():
-        print(f"Run {i} already completed, skipping")
-        continue
+def main():
+    ensure_run_name_is_valid(run_name=RUN_NAME) #<-- crash if invalid name
+    
+    for i in range(4,5):
+        run_output_dir = Path("outputs") / Path(RUN_NAME) / f"run{i}_outputs"
 
-    seed_path = run_output_dir / "seed.txt"
-    if seed_path.exists():
-        seed = int(seed_path.read_text().strip())
-        print(f"Run {i}: resuming with existing seed {seed}")
-    else:
-        seed = torch.randint(0, 100000, (1,)).item()
-        run_output_dir.mkdir(parents=True, exist_ok=True)
-        seed_path.write_text(str(seed))
-        print(f"Run {i}: new seed {seed}")
+        if (run_output_dir / "DONE").exists():
+            print(f"Run {i} already completed, skipping")
+            continue
 
-
-    starting_alpha = 1.0
-    if i== 0:
-        starting_alpha = 0.95 #era 0.95
-    if i ==1:
-        starting_alpha = 0.8
-    if i ==2:
-        starting_alpha = 0.5
+        seed_path = run_output_dir / "seed.txt"
+        if seed_path.exists():
+            seed = int(seed_path.read_text().strip())
+            print(f"Run {i}: resuming with existing seed {seed}")
+        else:
+            seed = torch.randint(0, 100000, (1,)).item()
+            run_output_dir.mkdir(parents=True, exist_ok=True)
+            seed_path.write_text(str(seed))
+            print(f"Run {i}: new seed {seed}")
 
 
-
-    if i==3:
         starting_alpha = 1.0
-    if i==4:
-        starting_alpha = 1.0
-    if i==5:
-        starting_alpha = 1.0
-    if i==6:
-        starting_alpha = 0.8
-    if i==7:
-        starting_alpha = 1.0
-    if i==8:
-        starting_alpha = 1.0
-    if i==9:
-        starting_alpha = 1.0
-    if i==10:
-        starting_alpha = 0.2
-    if i==11:
-        starting_alpha = 0.2
-    if i==12:
-        starting_alpha = 0.2
-
-
-    patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
-
-    train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting_alpha= starting_alpha, patience=patience, early_stopping_delta=constants.EARLY_STOPPING_DELTA, learning_rate=LEARNING_RATE, train_model_number=i, seed=seed)
+        if i== 0:
+            starting_alpha = 0.95 #era 0.95
+        if i ==1:
+            starting_alpha = 0.8
+        if i ==2:
+            starting_alpha = 0.5
 
 
 
+        if i==3:
+            starting_alpha = 1.0
+        if i==4:
+            starting_alpha = 1.0
+        if i==5:
+            starting_alpha = 1.0
+        if i==6:
+            starting_alpha = 0.8
+
+            
+        if i==7:
+            starting_alpha = 1.0
+        if i==8:
+            starting_alpha = 1.0
+        if i==9:
+            starting_alpha = 1.0
+        if i==10:
+            starting_alpha = 0.2
+        if i==11:
+            starting_alpha = 0.2
+        if i==12:
+            starting_alpha = 0.2
+
+
+        patience = PATIENCE*patience_multiplier/VALIDATION_INTERVAL
+
+        train_loop(warmup_epochs = 10, final_alpha = 0.25, final_epochs=30, starting_alpha= starting_alpha, patience=patience, early_stopping_delta=constants.EARLY_STOPPING_DELTA, learning_rate=LEARNING_RATE, train_model_number=i, seed=seed)
+
+
+if __name__ == "__main__":
+    main()
 
 
     

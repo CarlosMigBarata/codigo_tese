@@ -1,4 +1,4 @@
-[SAT CHECK] mean sat: 0.9601 (baseline 0.9428, delta +0.0172)
+[SAT CHECK] mean sat: 0.9225 (baseline 0.8054, delta +0.1172)
 LTN inconsistent samples: 534/4000
 clingo inconsistent samples: 534/4000
 
