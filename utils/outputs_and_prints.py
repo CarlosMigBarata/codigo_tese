@@ -53,6 +53,7 @@ def write_results_description_in_txt(txt_file, model, epochs_completed, warmup_e
         txt_file.write("\n\n")
 
     if starting_alpha < 1.0:
+        txt_file.write(f"ACTIVE ONTOLOGY: {constants.active_ontology}\n")
         rules_and_concepts.write_active_axioms(txt_file)
 
     if constants.TRAIN_WITH_A_SUBSET:
