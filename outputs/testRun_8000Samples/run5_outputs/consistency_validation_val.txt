@@ -1,0 +1,67 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.9993 | rule_holds=1350 | rule_vac_holds=2649 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+residential | consistency=0.9993 | rule_holds=1336 | rule_vac_holds=2663 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+commercial | consistency=1.0000 | rule_holds=1314 | rule_vac_holds=2686 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+residential         : 0.995
+industrial          : 0.990
+commercial          : 0.988
+
+Axiom satisfaction: validation 
+
+residential         : 0.991
+industrial          : 0.991
+commercial          : 0.984
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 3999, 'disagree': 1, 'missing': 0}
+industrial          : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- residential (1 disagreements) ---
+  s_17063_jpg
+    ltn=1 clingo=0 body=0.5605
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.5566  (|d-0.5|=0.0566)
+    CountryHouse    = 0.0000  (|d-0.5|=0.5000)
+    Residential     = 0.4899  (|d-0.5|=0.0101)
+
+
+
+--- industrial (1 disagreements) ---
+  s_17956_jpg
+    ltn=1 clingo=0 body=0.5662
+    ConstructionSite = 0.0098  (|d-0.5|=0.4902)
+    MiscIndustrial  = 0.2128  (|d-0.5|=0.2872)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.4019  (|d-0.5|=0.0981)
+    Industrial      = 0.5890  (|d-0.5|=0.0890)

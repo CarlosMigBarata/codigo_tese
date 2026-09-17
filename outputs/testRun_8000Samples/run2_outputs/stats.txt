@@ -1,18 +1,22 @@
 Results Description
-Seed: 49160
+Seed: 22419
 Number of examples: 20000
 Train/Test limit: 16000
 Validation Interval: 3
 Complexity of the Dataset: 1
 Batch size: 32
 Learning rate: 0.00050
-Number of final classes: 12
-Number of concepts: 20
 trained with building predicates: False; trained with concept predicates: False
-[subset] using 8000/16000 train samples (stratified=True, seed=42)
-Number of epochs completed: 75/150
-Best epoch found: 45
-Warmup epochs: 10; final_epochs: 30; constant_alpha: True;  patience: 10.0 cycles, total number of training epochs: 225
+
+Number of epochs completed: 0/150
+Best epoch found: 126
+constant_alpha: True;  patience: 13.333333333333334 cycles
+
+
+[DEBUG] CLASSES order: ['Cafe', 'Hotel', 'Restaurant', 'Store', 'MiscCommercial', 'Suburban', 'MiscResidential', 'CountryHouse', 'ConstructionSite', 'MiscIndustrial', 'PowerPlant', 'WaterTreatment', 'Door', 'Window', 'Awning', 'Billboard', 'Porch', 'Sign', 'Table', 'TiledRoof', 'TiledRoofTop', 'VendingMachine', 'WallSign', 'Statue', 'Chimney', 'Pipe', 'Machine', 'Truck', 'Car', 'Residential', 'Commercial', 'Industrial']
+[DEBUG] Building classes (first 12): ['Cafe', 'Hotel', 'Restaurant', 'Store', 'MiscCommercial', 'Suburban', 'MiscResidential', 'CountryHouse', 'ConstructionSite', 'MiscIndustrial', 'PowerPlant', 'WaterTreatment']
+[DEBUG] Concepts (from 12 to 29): ['Door', 'Window', 'Awning', 'Billboard', 'Porch', 'Sign', 'Table', 'TiledRoof', 'TiledRoofTop', 'VendingMachine', 'WallSign', 'Statue', 'Chimney', 'Pipe', 'Machine', 'Truck', 'Car']
+[DEBUG] Super classes (after): ['Residential', 'Commercial', 'Industrial']
 
 
 Model Architecture:
@@ -29,72 +33,10 @@ CNN(
   (flatten): Flatten(start_dim=1, end_dim=-1)
   (dropout): Dropout(p=0.5, inplace=False)
   (dense1): Linear(in_features=128, out_features=64, bias=True)
-  (concept_layer): Linear(in_features=64, out_features=17, bias=True)
-  (suport_layer1): Linear(in_features=17, out_features=15, bias=True)
-  (output_layer): Linear(in_features=15, out_features=12, bias=True)
-  (suport_layer2): Linear(in_features=12, out_features=8, bias=True)
-  (super_class_layer): Linear(in_features=8, out_features=3, bias=True)
+  (concept_layer): Linear(in_features=64, out_features=34, bias=True)
+  (suport_layer1): Linear(in_features=34, out_features=29, bias=True)
+  (output_layer): Linear(in_features=29, out_features=24, bias=True)
+  (suport_layer2): Linear(in_features=24, out_features=14, bias=True)
+  (super_class_layer): Linear(in_features=14, out_features=3, bias=True)
 )
 
-
-
-========= ACTIVE RULES =========
-
-building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
-building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
-building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
-building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
-commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
-hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
-store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
-misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
-cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
-restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
-industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
-industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
-constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
-miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
-powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
-watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
-residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
-suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
-countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
-miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
-residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
-
-
-
-
-[subset] class positive rates:
-Cafe                0.237125
-Hotel               0.206875
-Restaurant          0.123375
-Store               0.199250
-MiscCommercial      0.199375
-Suburban            0.220875
-MiscResidential     0.275375
-CountryHouse        0.137250
-ConstructionSite    0.095625
-MiscIndustrial      0.150500
-PowerPlant          0.160500
-WaterTreatment      0.139625
-Door                0.670125
-Window              0.663250
-Awning              0.465125
-Billboard           0.199250
-Porch               0.220875
-Sign                0.289750
-Table               0.329750
-TiledRoof           0.337875
-TiledRoofTop        0.314625
-VendingMachine      0.184500
-WallSign            0.206875
-Statue              0.111500
-Chimney             0.271000
-Pipe                0.303875
-Machine             0.095625
-Truck               0.326500
-Car                 0.236375
-Residential         0.329875
-Commercial          0.336625
-Industrial          0.333500
