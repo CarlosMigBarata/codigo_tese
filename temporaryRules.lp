@@ -1,0 +1,250 @@
+holds(sample_id, class).
+
+
+%starting rule commercial
+rule(commercial).
+
+left_holds(X, commercial) :-
+    holds(X, commercial).
+
+right_holds(X, commercial) :-
+    holds(X, cafe).
+
+right_holds(X, commercial) :-
+    holds(X, hotel).
+
+right_holds(X, commercial) :-
+    holds(X, misccommercial).
+
+right_holds(X, commercial) :-
+    holds(X, restaurant).
+
+right_holds(X, commercial) :-
+    holds(X, store).
+
+rule_holds(X, commercial) :- 
+    left_holds(X, commercial), 
+    right_holds(X, commercial).
+
+rule_vacuously_holds(X, commercial) :- 
+    holds(X, building),
+    not left_holds(X, commercial), 
+    not right_holds(X, commercial).
+
+rule_not_holds(X, commercial, left_holds_right_fails) :- 
+    left_holds(X, commercial), 
+    not right_holds(X, commercial).
+
+rule_not_holds(X, commercial, left_fails_right_holds) :- 
+    not left_holds(X, commercial), 
+    right_holds(X, commercial).
+
+
+
+
+%starting rule hotel
+rule(hotel).
+
+left_holds(X, hotel) :-
+    holds(X, hotel).
+
+right_holds(X, hotel) :-
+    holds(X, wallsign).
+
+rule_holds(X, hotel) :- 
+    left_holds(X, hotel), 
+    right_holds(X, hotel).
+
+rule_vacuously_holds(X, hotel) :- 
+    holds(X, building),
+    not left_holds(X, hotel), 
+    not right_holds(X, hotel).
+
+rule_not_holds(X, hotel, left_holds_right_fails) :- 
+    left_holds(X, hotel), 
+    not right_holds(X, hotel).
+
+rule_not_holds(X, hotel, left_fails_right_holds) :- 
+    not left_holds(X, hotel), 
+    right_holds(X, hotel).
+
+
+
+
+%starting rule store
+rule(store).
+
+left_holds(X, store) :-
+    holds(X, store).
+
+right_holds(X, store) :-
+    holds(X, billboard).
+
+rule_holds(X, store) :- 
+    left_holds(X, store), 
+    right_holds(X, store).
+
+rule_vacuously_holds(X, store) :- 
+    holds(X, building),
+    not left_holds(X, store), 
+    not right_holds(X, store).
+
+rule_not_holds(X, store, left_holds_right_fails) :- 
+    left_holds(X, store), 
+    not right_holds(X, store).
+
+rule_not_holds(X, store, left_fails_right_holds) :- 
+    not left_holds(X, store), 
+    right_holds(X, store).
+
+
+
+
+%starting rule industrial
+rule(industrial).
+
+left_holds(X, industrial) :-
+    holds(X, industrial).
+
+right_holds(X, industrial) :-
+    holds(X, constructionsite).
+
+right_holds(X, industrial) :-
+    holds(X, miscindustrial).
+
+right_holds(X, industrial) :-
+    holds(X, powerplant).
+
+right_holds(X, industrial) :-
+    holds(X, watertreatment).
+
+rule_holds(X, industrial) :- 
+    left_holds(X, industrial), 
+    right_holds(X, industrial).
+
+rule_vacuously_holds(X, industrial) :- 
+    holds(X, building),
+    not left_holds(X, industrial), 
+    not right_holds(X, industrial).
+
+rule_not_holds(X, industrial, left_holds_right_fails) :- 
+    left_holds(X, industrial), 
+    not right_holds(X, industrial).
+
+rule_not_holds(X, industrial, left_fails_right_holds) :- 
+    not left_holds(X, industrial), 
+    right_holds(X, industrial).
+
+
+
+
+%starting rule constructionsite
+rule(constructionsite).
+
+left_holds(X, constructionsite) :-
+    holds(X, constructionsite).
+
+right_holds(X, constructionsite) :-
+    holds(X, machine).
+
+rule_holds(X, constructionsite) :- 
+    left_holds(X, constructionsite), 
+    right_holds(X, constructionsite).
+
+rule_vacuously_holds(X, constructionsite) :- 
+    holds(X, building),
+    not left_holds(X, constructionsite), 
+    not right_holds(X, constructionsite).
+
+rule_not_holds(X, constructionsite, left_holds_right_fails) :- 
+    left_holds(X, constructionsite), 
+    not right_holds(X, constructionsite).
+
+rule_not_holds(X, constructionsite, left_fails_right_holds) :- 
+    not left_holds(X, constructionsite), 
+    right_holds(X, constructionsite).
+
+
+
+
+%starting rule residential
+rule(residential).
+
+left_holds(X, residential) :-
+    holds(X, residential).
+
+right_holds(X, residential) :-
+    holds(X, countryhouse).
+
+right_holds(X, residential) :-
+    holds(X, miscresidential).
+
+right_holds(X, residential) :-
+    holds(X, suburban).
+
+rule_holds(X, residential) :- 
+    left_holds(X, residential), 
+    right_holds(X, residential).
+
+rule_vacuously_holds(X, residential) :- 
+    holds(X, building),
+    not left_holds(X, residential), 
+    not right_holds(X, residential).
+
+rule_not_holds(X, residential, left_holds_right_fails) :- 
+    left_holds(X, residential), 
+    not right_holds(X, residential).
+
+rule_not_holds(X, residential, left_fails_right_holds) :- 
+    not left_holds(X, residential), 
+    right_holds(X, residential).
+
+
+
+
+%starting rule suburban
+rule(suburban).
+
+left_holds(X, suburban) :-
+    holds(X, suburban).
+
+right_holds(X, suburban) :-
+    holds(X, porch).
+
+rule_holds(X, suburban) :- 
+    left_holds(X, suburban), 
+    right_holds(X, suburban).
+
+rule_vacuously_holds(X, suburban) :- 
+    holds(X, building),
+    not left_holds(X, suburban), 
+    not right_holds(X, suburban).
+
+rule_not_holds(X, suburban, left_holds_right_fails) :- 
+    left_holds(X, suburban), 
+    not right_holds(X, suburban).
+
+rule_not_holds(X, suburban, left_fails_right_holds) :- 
+    not left_holds(X, suburban), 
+    right_holds(X, suburban).
+
+
+
+
+
+
+
+% per-rule aggregate counts
+rule_holds_count(Rule, N) :- rule(Rule), N = #count { X : rule_holds(X, Rule) }.
+
+violation_type_count(Rule, Type, N) :- rule(Rule), rule_not_holds(_, Rule, Type), N = #count { X : rule_not_holds(X, Rule, Type) }.
+
+rule_vacuously_holds_count(Rule, N) :- rule(Rule), N = #count { X : rule_vacuously_holds(X, Rule) }.
+
+% expose both the per-sample data and the aggregates
+#show rule_holds/2.
+#show rule_not_holds/3.
+#show rule_holds_count/2.
+#show violation_type_count/3.
+#show rule_vacuously_holds/2.
+#show rule_vacuously_holds_count/2.

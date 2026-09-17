@@ -21,6 +21,20 @@ BUILDING_FACT -> n muda nada
 
 
 '''
+def generate_active_clingo_rules(new_axioms, new_lp_file, debug_mode=False):
+    new_lp_file.write(f"holds(sample_id, class).\n\n\n")
+
+    for ax in new_axioms:
+
+        if ax["active"]:
+            r = ax["axiom"]
+
+            generate_clingo_rule(r["left"], r["right"], r["main_op"], ax["name"], new_lp_file, debug_mode)
+
+    write_clingo_essentials(new_lp_file)
+
+
+
 def generate_clingo_rules(new_axioms, new_lp_file, debug_mode=False):
     new_lp_file.write(f"holds(sample_id, class).\n\n\n")
 

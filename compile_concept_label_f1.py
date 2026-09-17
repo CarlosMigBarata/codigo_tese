@@ -1,9 +1,11 @@
 import argparse
 import re
+import statistics
 from collections import defaultdict
 from pathlib import Path
 
-#USAGE: python3 compile_concept_label_f1.py path/to/testRun_folder
+
+#USAGE: python3 compile_building_label_f1.py path/to/testRun_folder --with-std --by-alpha
 
 # Toggle "active" to control which building labels are included in the table.
 # BUILDING_CLASSES = {
@@ -43,18 +45,18 @@ from pathlib import Path
 # }
 
 BUILDING_CLASSES = {
-    "Cafe":             {"active": True},
+    "Cafe":             {"active": False},
     "Hotel":            {"active": True},
-    "Restaurant":       {"active": True},
+    "Restaurant":       {"active": False},
     "Store":            {"active": True},
-    "MiscCommercial":   {"active": True},
+    "MiscCommercial":   {"active": False},
     "Suburban":         {"active": True},
-    "MiscResidential":  {"active": True},
-    "CountryHouse":     {"active": True},
+    "MiscResidential":  {"active": False},
+    "CountryHouse":     {"active": False},
     "ConstructionSite": {"active": True},
-    "MiscIndustrial":   {"active": True},
-    "PowerPlant":       {"active": True},
-    "WaterTreatment":   {"active": True},
+    "MiscIndustrial":   {"active": False},
+    "PowerPlant":       {"active": False},
+    "WaterTreatment":   {"active": False},
 }
 
 # Toggle "active" to control which concepts are included in the table.
@@ -124,11 +126,24 @@ def collect_f1(root: Path, active_classes, by_alpha: bool):
     return groups, files
 
 
-def average(values):
-    return sum(values) / len(values) if values else None
+def mean_std(values):
+    if not values:
+        return None, None
+    m = statistics.mean(values)
+    s = statistics.stdev(values) if len(values) > 1 else 0.0
+    return m, s
 
 
-def print_latex_table(values, active_classes, row_label, caption, label):
+def format_cell(values, with_std):
+    m, s = mean_std(values)
+    if m is None:
+        return "-"
+    if with_std:
+        return f"${m:.2f} \\pm {s:.2f}$"
+    return f"{m:.2f}"
+
+
+def print_latex_table(values, active_classes, row_label, caption, label, with_std):
     lines = [
         r"\begin{table}[htbp]",
         r"\centering",
@@ -138,11 +153,9 @@ def print_latex_table(values, active_classes, row_label, caption, label):
         r"\hline",
     ]
     for name in active_classes:
-        train_avg = average(values[name]["train"])
-        val_avg = average(values[name]["val"])
-        train_s = f"{train_avg:.2f}" if train_avg is not None else "-"
-        val_s = f"{val_avg:.2f}" if val_avg is not None else "-"
-        lines.append(f"{name} & {train_s} & {val_s} \\\\")
+        train_s = format_cell(values[name]["train"], with_std)
+        val_s = format_cell(values[name]["val"], with_std)
+        lines.append(f"{name} (Wide Baseline) & {train_s} & {val_s} \\\\")
     lines += [
         r"\hline",
         r"\end{tabular}",
@@ -164,6 +177,8 @@ def main():
     parser.add_argument("--by-alpha", action="store_true",
                          help="Print a separate pair of tables per alpha value, instead of "
                               "averaging all runs together.")
+    parser.add_argument("--with-std", action="store_true",
+                         help="Print mean +/- standard deviation instead of just the mean.")
     args = parser.parse_args()
 
     root = Path(args.path)
@@ -191,7 +206,7 @@ def main():
         if active_buildings and any(values[c]["train"] or values[c]["val"] for c in active_buildings):
             print_latex_table(values, active_buildings, "Building Label",
                                f"Average F1 per building label across runs, train and validation{alpha_note}.",
-                               f"tab:building_labels_f1{suffix}")
+                               f"tab:building_labels_f1{suffix}", args.with_std)
             print()
         else:
             print("No matching building-label data found.\n")
@@ -199,7 +214,7 @@ def main():
         if active_concepts and any(values[c]["train"] or values[c]["val"] for c in active_concepts):
             print_latex_table(values, active_concepts, "Concept",
                                f"Average F1 per concept across runs, train and validation{alpha_note}.",
-                               f"tab:concepts_f1{suffix}")
+                               f"tab:concepts_f1{suffix}", args.with_std)
             print()
         else:
             print("No matching concept data found.\n")
