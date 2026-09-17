@@ -1,0 +1,80 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.9993 | rule_holds=1345 | rule_vac_holds=2654 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+commercial | consistency=0.9992 | rule_holds=1314 | rule_vac_holds=2685 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+residential | consistency=0.9993 | rule_holds=1339 | rule_vac_holds=2660 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+residential         : 0.989
+industrial          : 0.988
+commercial          : 0.982
+
+Axiom satisfaction: validation 
+
+residential         : 0.994
+industrial          : 0.986
+commercial          : 0.982
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 3999, 'disagree': 1, 'missing': 0}
+industrial          : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 3999, 'disagree': 1, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (1 disagreements) ---
+  s_19372_jpg
+    ltn=1 clingo=0 body=0.5242
+    Cafe            = 0.0019  (|d-0.5|=0.4981)
+    Hotel           = 0.0001  (|d-0.5|=0.4999)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.0170  (|d-0.5|=0.4830)
+    MiscCommercial  = 0.6694  (|d-0.5|=0.1694)
+    Commercial      = 0.4173  (|d-0.5|=0.0827)
+
+
+
+--- industrial (1 disagreements) ---
+  s_19372_jpg
+    ltn=1 clingo=0 body=0.5539
+    ConstructionSite = 0.0001  (|d-0.5|=0.4999)
+    MiscIndustrial  = 0.3918  (|d-0.5|=0.1082)
+    PowerPlant      = 0.0002  (|d-0.5|=0.4998)
+    WaterTreatment  = 0.0001  (|d-0.5|=0.4999)
+    Industrial      = 0.5253  (|d-0.5|=0.0253)
+
+
+
+--- residential (1 disagreements) ---
+  s_19488_jpg
+    ltn=1 clingo=0 body=0.5533
+    Suburban        = 0.5576  (|d-0.5|=0.0576)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.0000  (|d-0.5|=0.5000)
+    Residential     = 0.4362  (|d-0.5|=0.0638)

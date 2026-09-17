@@ -1,0 +1,168 @@
+
+
+========= ACTIVE RULES =========
+
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+
+
+========= CONISTENCY PER RULE =========
+
+residential | consistency=0.9970 | rule_holds=1337 | rule_vac_holds=2659 | violations=4 | total=4000
+    - left_fails_right_holds: 4
+
+commercial | consistency=0.9910 | rule_holds=1316 | rule_vac_holds=2672 | violations=12 | total=4000
+    - left_holds_right_fails: 7
+    - left_fails_right_holds: 5
+
+industrial | consistency=0.3347 | rule_holds=1339 | rule_vac_holds=0 | violations=2661 | total=4000
+    - left_fails_right_holds: 2661
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+residential         : 0.973
+commercial          : 0.955
+industrial          : 0.193
+
+Axiom satisfaction: validation 
+
+residential         : 0.971
+commercial          : 0.940
+industrial          : 0.188
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 3996, 'disagree': 4, 'missing': 0}
+commercial          : {'agree': 3989, 'disagree': 11, 'missing': 0}
+industrial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (11 disagreements) ---
+  s_16500_jpg
+    ltn=1 clingo=0 body=0.5554
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.5438  (|d-0.5|=0.0438)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0047  (|d-0.5|=0.4953)
+    MiscCommercial  = 0.0247  (|d-0.5|=0.4753)
+    Commercial      = 0.4502  (|d-0.5|=0.0498)
+  s_16654_jpg
+    ltn=1 clingo=0 body=0.5467
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.3579  (|d-0.5|=0.1421)
+    Restaurant      = 0.0014  (|d-0.5|=0.4986)
+    Store           = 0.0075  (|d-0.5|=0.4925)
+    MiscCommercial  = 0.5471  (|d-0.5|=0.0471)
+    Commercial      = 0.4892  (|d-0.5|=0.0108)
+  s_17181_jpg
+    ltn=1 clingo=0 body=0.5633
+    Cafe            = 0.0003  (|d-0.5|=0.4997)
+    Hotel           = 0.1621  (|d-0.5|=0.3379)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.4208  (|d-0.5|=0.0792)
+    MiscCommercial  = 0.0048  (|d-0.5|=0.4952)
+    Commercial      = 0.5340  (|d-0.5|=0.0340)
+  s_17419_jpg
+    ltn=1 clingo=0 body=0.5516
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.5647  (|d-0.5|=0.0647)
+    Restaurant      = 0.0011  (|d-0.5|=0.4989)
+    Store           = 0.0172  (|d-0.5|=0.4828)
+    MiscCommercial  = 0.2933  (|d-0.5|=0.2067)
+    Commercial      = 0.4972  (|d-0.5|=0.0028)
+  s_17494_jpg
+    ltn=1 clingo=0 body=0.5398
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.1954  (|d-0.5|=0.3046)
+    Restaurant      = 0.0008  (|d-0.5|=0.4992)
+    Store           = 0.0027  (|d-0.5|=0.4973)
+    MiscCommercial  = 0.5210  (|d-0.5|=0.0210)
+    Commercial      = 0.4228  (|d-0.5|=0.0772)
+  s_18457_jpg
+    ltn=1 clingo=0 body=0.5407
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.1172  (|d-0.5|=0.3828)
+    Restaurant      = 0.0003  (|d-0.5|=0.4997)
+    Store           = 0.0009  (|d-0.5|=0.4991)
+    MiscCommercial  = 0.5268  (|d-0.5|=0.0268)
+    Commercial      = 0.3950  (|d-0.5|=0.1050)
+  s_19323_jpg
+    ltn=1 clingo=0 body=0.5592
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3864  (|d-0.5|=0.1136)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0261  (|d-0.5|=0.4739)
+    MiscCommercial  = 0.0004  (|d-0.5|=0.4996)
+    Commercial      = 0.5043  (|d-0.5|=0.0043)
+  s_19437_jpg
+    ltn=1 clingo=0 body=0.5654
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.2288  (|d-0.5|=0.2712)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.3936  (|d-0.5|=0.1064)
+    MiscCommercial  = 0.0023  (|d-0.5|=0.4977)
+    Commercial      = 0.5639  (|d-0.5|=0.0639)
+  s_19686_jpg
+    ltn=1 clingo=0 body=0.6028  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4605  (|d-0.5|=0.0395)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.4041  (|d-0.5|=0.0959)
+    MiscCommercial  = 0.0011  (|d-0.5|=0.4989)
+    Commercial      = 0.6487  (|d-0.5|=0.1487)
+  s_19848_jpg
+    ltn=1 clingo=0 body=0.5603
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4621  (|d-0.5|=0.0379)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.0161  (|d-0.5|=0.4839)
+    MiscCommercial  = 0.0049  (|d-0.5|=0.4951)
+    Commercial      = 0.5324  (|d-0.5|=0.0324)
+  s_19989_jpg
+    ltn=1 clingo=0 body=0.5625
+    Cafe            = 0.0024  (|d-0.5|=0.4976)
+    Hotel           = 0.1625  (|d-0.5|=0.3375)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.4117  (|d-0.5|=0.0883)
+    MiscCommercial  = 0.0188  (|d-0.5|=0.4812)
+    Commercial      = 0.5024  (|d-0.5|=0.0024)
+
+
+
+--- residential (4 disagreements) ---
+  s_17181_jpg
+    ltn=1 clingo=0 body=0.5560
+    Suburban        = 0.0009  (|d-0.5|=0.4991)
+    MiscResidential = 0.5673  (|d-0.5|=0.0673)
+    CountryHouse    = 0.0011  (|d-0.5|=0.4989)
+    Residential     = 0.4635  (|d-0.5|=0.0365)
+  s_18425_jpg
+    ltn=1 clingo=0 body=0.5265
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.7590  (|d-0.5|=0.2590)
+    CountryHouse    = 0.0000  (|d-0.5|=0.5000)
+    Residential     = 0.4633  (|d-0.5|=0.0367)
+  s_19494_jpg
+    ltn=1 clingo=0 body=0.5485
+    Suburban        = 0.0003  (|d-0.5|=0.4997)
+    MiscResidential = 0.6561  (|d-0.5|=0.1561)
+    CountryHouse    = 0.0003  (|d-0.5|=0.4997)
+    Residential     = 0.4752  (|d-0.5|=0.0248)
+  s_19989_jpg
+    ltn=1 clingo=0 body=0.5574
+    Suburban        = 0.0050  (|d-0.5|=0.4950)
+    MiscResidential = 0.5890  (|d-0.5|=0.0890)
+    CountryHouse    = 0.0066  (|d-0.5|=0.4934)
+    Residential     = 0.4851  (|d-0.5|=0.0149)

@@ -1,0 +1,107 @@
+
+
+========= ACTIVE RULES =========
+
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+
+
+========= CONISTENCY PER RULE =========
+
+powerplant | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+miscindustrial | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+residential | consistency=0.9992 | rule_holds=1331 | rule_vac_holds=2668 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+watertreatment | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+industrial_not_table | consistency=1.0000 | rule_holds=1342 | rule_vac_holds=2658 | violations=0 | total=4000
+
+commercial | consistency=0.9985 | rule_holds=1330 | rule_vac_holds=2668 | violations=2 | total=4000
+    - left_holds_right_fails: 2
+
+industrial | consistency=0.3355 | rule_holds=1342 | rule_vac_holds=0 | violations=2658 | total=4000
+    - left_fails_right_holds: 2658
+
+constructionsite | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+constructionsite    : 1.000
+industrial_not_table: 1.000
+miscindustrial      : 0.998
+watertreatment      : 0.996
+powerplant          : 0.994
+residential         : 0.992
+commercial          : 0.982
+industrial          : 0.369
+
+Axiom satisfaction: validation 
+
+industrial_not_table: 1.000
+constructionsite    : 1.000
+miscindustrial      : 0.998
+watertreatment      : 0.996
+powerplant          : 0.994
+residential         : 0.993
+commercial          : 0.981
+industrial          : 0.341
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+industrial_not_table: {'agree': 4000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+watertreatment      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 3998, 'disagree': 2, 'missing': 0}
+industrial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (2 disagreements) ---
+  s_16163_jpg
+    ltn=1 clingo=0 body=0.5532
+    Cafe            = 0.1046  (|d-0.5|=0.3954)
+    Hotel           = 0.0115  (|d-0.5|=0.4885)
+    Restaurant      = 0.2815  (|d-0.5|=0.2185)
+    Store           = 0.0001  (|d-0.5|=0.4999)
+    MiscCommercial  = 0.0622  (|d-0.5|=0.4378)
+    Commercial      = 0.5346  (|d-0.5|=0.0346)
+  s_18974_jpg
+    ltn=1 clingo=0 body=0.5713
+    Cafe            = 0.1419  (|d-0.5|=0.3581)
+    Hotel           = 0.0417  (|d-0.5|=0.4583)
+    Restaurant      = 0.4385  (|d-0.5|=0.0615)
+    Store           = 0.0001  (|d-0.5|=0.4999)
+    MiscCommercial  = 0.1319  (|d-0.5|=0.3681)
+    Commercial      = 0.5614  (|d-0.5|=0.0614)
+
+
+
+--- residential (1 disagreements) ---
+  s_16163_jpg
+    ltn=1 clingo=0 body=0.5707
+    Suburban        = 0.0718  (|d-0.5|=0.4282)
+    MiscResidential = 0.2954  (|d-0.5|=0.2046)
+    CountryHouse    = 0.4465  (|d-0.5|=0.0535)
+    Residential     = 0.5491  (|d-0.5|=0.0491)
