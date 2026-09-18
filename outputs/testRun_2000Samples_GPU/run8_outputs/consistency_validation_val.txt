@@ -1,0 +1,65 @@
+
+
+========= ACTIVE RULES =========
+
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+residential | consistency=1.0000 | rule_holds=1334 | rule_vac_holds=2666 | violations=0 | total=4000
+
+industrial | consistency=1.0000 | rule_holds=1348 | rule_vac_holds=2652 | violations=0 | total=4000
+
+commercial | consistency=0.9985 | rule_holds=1318 | rule_vac_holds=2680 | violations=2 | total=4000
+    - left_fails_right_holds: 2
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+residential         : 0.996
+industrial          : 0.992
+commercial          : 0.990
+
+Axiom satisfaction: validation 
+
+residential         : 0.995
+industrial          : 0.991
+commercial          : 0.988
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 3998, 'disagree': 2, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (2 disagreements) ---
+  s_17660_jpg
+    ltn=1 clingo=0 body=0.5209
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0008  (|d-0.5|=0.4992)
+    Store           = 0.5562  (|d-0.5|=0.0562)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.2622  (|d-0.5|=0.2378)
+  s_18049_jpg
+    ltn=1 clingo=0 body=0.5232
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.0001  (|d-0.5|=0.4999)
+    Restaurant      = 0.0176  (|d-0.5|=0.4824)
+    Store           = 0.5987  (|d-0.5|=0.0987)
+    MiscCommercial  = 0.0077  (|d-0.5|=0.4923)
+    Commercial      = 0.3557  (|d-0.5|=0.1443)

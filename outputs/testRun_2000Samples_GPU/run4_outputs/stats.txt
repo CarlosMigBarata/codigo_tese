@@ -1,0 +1,50 @@
+Results Description
+Seed: 65170
+Number of examples: 20000
+Train/Test limit: 16000
+Validation Interval: 3
+Complexity of the Dataset: 1
+Batch size: 32
+Learning rate: 0.00050
+trained with building predicates: False; trained with concept predicates: False
+
+Number of epochs completed: 282/1500
+Best epoch found: 120
+constant_alpha: True;  patience: 53.333333333333336 cycles
+
+
+[DEBUG] CLASSES order: ['Cafe', 'Hotel', 'Restaurant', 'Store', 'MiscCommercial', 'Suburban', 'MiscResidential', 'CountryHouse', 'ConstructionSite', 'MiscIndustrial', 'PowerPlant', 'WaterTreatment', 'Door', 'Window', 'Awning', 'Billboard', 'Porch', 'Sign', 'Table', 'TiledRoof', 'TiledRoofTop', 'VendingMachine', 'WallSign', 'Statue', 'Chimney', 'Pipe', 'Machine', 'Truck', 'Car', 'Residential', 'Commercial', 'Industrial']
+[DEBUG] Building classes (first 12): ['Cafe', 'Hotel', 'Restaurant', 'Store', 'MiscCommercial', 'Suburban', 'MiscResidential', 'CountryHouse', 'ConstructionSite', 'MiscIndustrial', 'PowerPlant', 'WaterTreatment']
+[DEBUG] Concepts (from 12 to 29): ['Door', 'Window', 'Awning', 'Billboard', 'Porch', 'Sign', 'Table', 'TiledRoof', 'TiledRoofTop', 'VendingMachine', 'WallSign', 'Statue', 'Chimney', 'Pipe', 'Machine', 'Truck', 'Car']
+[DEBUG] Super classes (after): ['Residential', 'Commercial', 'Industrial']
+
+
+Model Architecture:
+CNN(
+  (conv1a): Conv2d(3, 8, kernel_size=(3, 3), stride=(1, 1))
+  (conv1b): Conv2d(8, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2a): Conv2d(16, 16, kernel_size=(3, 3), stride=(1, 1))
+  (conv2b): Conv2d(16, 32, kernel_size=(3, 3), stride=(1, 1))
+  (conv3a): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1))
+  (conv3b): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (conv4): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1))
+  (maxpool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (globalAvgPooling): AdaptiveAvgPool2d(output_size=(1, 1))
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (dense1): Linear(in_features=128, out_features=64, bias=True)
+  (concept_layer): Linear(in_features=64, out_features=34, bias=True)
+  (suport_layer1): Linear(in_features=34, out_features=29, bias=True)
+  (output_layer): Linear(in_features=29, out_features=24, bias=True)
+  (suport_layer2): Linear(in_features=24, out_features=14, bias=True)
+  (super_class_layer): Linear(in_features=14, out_features=3, bias=True)
+)
+
+ACTIVE ONTOLOGY: CLASSIC_ONTOLOGY
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))

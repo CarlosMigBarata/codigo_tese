@@ -1,0 +1,119 @@
+
+
+========= ACTIVE RULES =========
+
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+residential | consistency=0.9986 | rule_holds=705 | rule_vac_holds=1294 | violations=1 | total=2000
+    - left_holds_right_fails: 1
+
+industrial | consistency=0.9954 | rule_holds=649 | rule_vac_holds=1348 | violations=3 | total=2000
+    - left_fails_right_holds: 3
+
+commercial | consistency=0.9922 | rule_holds=634 | rule_vac_holds=1361 | violations=5 | total=2000
+    - left_holds_right_fails: 4
+    - left_fails_right_holds: 1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+residential         : 0.978
+industrial          : 0.973
+commercial          : 0.963
+
+Axiom satisfaction: validation 
+
+residential         : 0.970
+industrial          : 0.955
+commercial          : 0.940
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 1999, 'disagree': 1, 'missing': 0}
+industrial          : {'agree': 1997, 'disagree': 3, 'missing': 0}
+commercial          : {'agree': 1996, 'disagree': 4, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (3 disagreements) ---
+  s_11570_jpg
+    ltn=1 clingo=0 body=0.5502
+    ConstructionSite = 0.6479  (|d-0.5|=0.1479)
+    MiscIndustrial  = 0.0102  (|d-0.5|=0.4898)
+    PowerPlant      = 0.0055  (|d-0.5|=0.4945)
+    WaterTreatment  = 0.0043  (|d-0.5|=0.4957)
+    Industrial      = 0.4801  (|d-0.5|=0.0199)
+  s_12464_jpg
+    ltn=1 clingo=0 body=0.5067
+    ConstructionSite = 0.6024  (|d-0.5|=0.1024)
+    MiscIndustrial  = 0.0116  (|d-0.5|=0.4884)
+    PowerPlant      = 0.0101  (|d-0.5|=0.4899)
+    WaterTreatment  = 0.0058  (|d-0.5|=0.4942)
+    Industrial      = 0.3068  (|d-0.5|=0.1932)
+  s_5068_jpg
+    ltn=1 clingo=0 body=0.5617
+    ConstructionSite = 0.5142  (|d-0.5|=0.0142)
+    MiscIndustrial  = 0.0002  (|d-0.5|=0.4998)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4788  (|d-0.5|=0.0212)
+
+
+
+--- commercial (4 disagreements) ---
+  s_1877_jpg
+    ltn=1 clingo=0 body=0.5596
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4878  (|d-0.5|=0.0122)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.5678  (|d-0.5|=0.0678)
+  s_2076_jpg
+    ltn=1 clingo=0 body=0.5128
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3197  (|d-0.5|=0.1803)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.6082  (|d-0.5|=0.1082)
+  s_5068_jpg
+    ltn=1 clingo=0 body=0.5606
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4461  (|d-0.5|=0.0539)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.5100  (|d-0.5|=0.0100)
+  s_12039_jpg
+    ltn=1 clingo=0 body=0.5063
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0764  (|d-0.5|=0.4236)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.5134  (|d-0.5|=0.0134)
+
+
+
+--- residential (1 disagreements) ---
+  s_6633_jpg
+    ltn=1 clingo=0 body=0.5297
+    Suburban        = 0.2726  (|d-0.5|=0.2274)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.0000  (|d-0.5|=0.5000)
+    Residential     = 0.5427  (|d-0.5|=0.0427)

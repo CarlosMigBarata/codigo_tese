@@ -1,0 +1,117 @@
+
+
+========= ACTIVE RULES =========
+
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+residential | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+industrial | consistency=0.9985 | rule_holds=1337 | rule_vac_holds=2661 | violations=2 | total=4000
+    - left_holds_right_fails: 2
+
+commercial | consistency=0.9939 | rule_holds=1301 | rule_vac_holds=2691 | violations=8 | total=4000
+    - left_holds_right_fails: 4
+    - left_fails_right_holds: 4
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.979
+commercial          : 0.967
+residential         : 0.788
+
+Axiom satisfaction: validation 
+
+industrial          : 0.962
+commercial          : 0.952
+residential         : 0.782
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+industrial          : {'agree': 3998, 'disagree': 2, 'missing': 0}
+commercial          : {'agree': 3994, 'disagree': 6, 'missing': 0}
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (6 disagreements) ---
+  s_17953_jpg
+    ltn=1 clingo=0 body=0.5595
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4528  (|d-0.5|=0.0472)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.0001  (|d-0.5|=0.4999)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.5242  (|d-0.5|=0.0242)
+  s_18783_jpg
+    ltn=1 clingo=0 body=0.5520
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4182  (|d-0.5|=0.0818)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0002  (|d-0.5|=0.4998)
+    Commercial      = 0.5502  (|d-0.5|=0.0502)
+  s_18893_jpg
+    ltn=1 clingo=0 body=0.5415
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3319  (|d-0.5|=0.1681)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.5401  (|d-0.5|=0.0401)
+  s_19257_jpg
+    ltn=1 clingo=0 body=0.5448
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.7467  (|d-0.5|=0.2467)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4949  (|d-0.5|=0.0051)
+  s_19765_jpg
+    ltn=1 clingo=0 body=0.5549
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.5502  (|d-0.5|=0.0502)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4395  (|d-0.5|=0.0605)
+  s_19843_jpg
+    ltn=1 clingo=0 body=0.5058
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.6078  (|d-0.5|=0.1078)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.2960  (|d-0.5|=0.2040)
+
+
+
+--- industrial (2 disagreements) ---
+  s_18472_jpg
+    ltn=1 clingo=0 body=0.5183
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.4143  (|d-0.5|=0.0857)
+    Industrial      = 0.6939  (|d-0.5|=0.1939)
+  s_18867_jpg
+    ltn=1 clingo=0 body=0.5613
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.4750  (|d-0.5|=0.0250)
+    Industrial      = 0.5185  (|d-0.5|=0.0185)

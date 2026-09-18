@@ -1,0 +1,1484 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.3255 | rule_holds=651 | rule_vac_holds=0 | violations=1349 | total=2000
+    - left_fails_right_holds: 1349
+
+commercial | consistency=0.3439 | rule_holds=627 | rule_vac_holds=177 | violations=1196 | total=2000
+    - left_fails_right_holds: 1196
+
+residential | consistency=0.2910 | rule_holds=582 | rule_vac_holds=0 | violations=1418 | total=2000
+    - left_fails_right_holds: 1282
+    - left_holds_right_fails: 136
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+commercial          : 0.267
+industrial          : 0.183
+residential         : 0.168
+
+Axiom satisfaction: validation 
+
+commercial          : 0.263
+industrial          : 0.189
+residential         : 0.164
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+commercial          : {'agree': 1823, 'disagree': 177, 'missing': 0}
+industrial          : {'agree': 2000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 1998, 'disagree': 2, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (177 disagreements) ---
+  s_4168_jpg
+    ltn=0 clingo=1 body=0.3403  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4075  (|d-0.5|=0.0925)
+    Restaurant      = 0.0460  (|d-0.5|=0.4540)
+    Store           = 0.0761  (|d-0.5|=0.4239)
+    MiscCommercial  = 0.3494  (|d-0.5|=0.1506)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_2929_jpg
+    ltn=0 clingo=1 body=0.2823  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4901  (|d-0.5|=0.0099)
+    Restaurant      = 0.0407  (|d-0.5|=0.4593)
+    Store           = 0.0737  (|d-0.5|=0.4263)
+    MiscCommercial  = 0.3790  (|d-0.5|=0.1210)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_15556_jpg
+    ltn=0 clingo=1 body=0.3353  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3966  (|d-0.5|=0.1034)
+    Restaurant      = 0.0503  (|d-0.5|=0.4497)
+    Store           = 0.0709  (|d-0.5|=0.4291)
+    MiscCommercial  = 0.3712  (|d-0.5|=0.1288)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_4066_jpg
+    ltn=0 clingo=1 body=0.3438  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4018  (|d-0.5|=0.0982)
+    Restaurant      = 0.0436  (|d-0.5|=0.4564)
+    Store           = 0.0682  (|d-0.5|=0.4318)
+    MiscCommercial  = 0.3560  (|d-0.5|=0.1440)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_11032_jpg
+    ltn=0 clingo=1 body=0.3548  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4040  (|d-0.5|=0.0960)
+    Restaurant      = 0.0436  (|d-0.5|=0.4564)
+    Store           = 0.0773  (|d-0.5|=0.4227)
+    MiscCommercial  = 0.3265  (|d-0.5|=0.1735)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_15196_jpg
+    ltn=0 clingo=1 body=0.3458  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4510  (|d-0.5|=0.0490)
+    Restaurant      = 0.0311  (|d-0.5|=0.4689)
+    Store           = 0.0766  (|d-0.5|=0.4234)
+    MiscCommercial  = 0.2974  (|d-0.5|=0.2026)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_5938_jpg
+    ltn=0 clingo=1 body=0.3493  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4484  (|d-0.5|=0.0516)
+    Restaurant      = 0.0334  (|d-0.5|=0.4666)
+    Store           = 0.0813  (|d-0.5|=0.4187)
+    MiscCommercial  = 0.2883  (|d-0.5|=0.2117)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_7756_jpg
+    ltn=0 clingo=1 body=0.3434  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3876  (|d-0.5|=0.1124)
+    Restaurant      = 0.0444  (|d-0.5|=0.4556)
+    Store           = 0.0585  (|d-0.5|=0.4415)
+    MiscCommercial  = 0.3774  (|d-0.5|=0.1226)
+    Commercial      = 0.0003  (|d-0.5|=0.4997)
+  s_7609_jpg
+    ltn=0 clingo=1 body=0.3132  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3943  (|d-0.5|=0.1057)
+    Restaurant      = 0.0600  (|d-0.5|=0.4400)
+    Store           = 0.0643  (|d-0.5|=0.4357)
+    MiscCommercial  = 0.4130  (|d-0.5|=0.0870)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_10681_jpg
+    ltn=0 clingo=1 body=0.3330  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3870  (|d-0.5|=0.1130)
+    Restaurant      = 0.0511  (|d-0.5|=0.4489)
+    Store           = 0.0634  (|d-0.5|=0.4366)
+    MiscCommercial  = 0.3895  (|d-0.5|=0.1105)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_7144_jpg
+    ltn=0 clingo=1 body=0.3633  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4251  (|d-0.5|=0.0749)
+    Restaurant      = 0.0291  (|d-0.5|=0.4709)
+    Store           = 0.0668  (|d-0.5|=0.4332)
+    MiscCommercial  = 0.3033  (|d-0.5|=0.1967)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_8866_jpg
+    ltn=0 clingo=1 body=0.3052  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4555  (|d-0.5|=0.0445)
+    Restaurant      = 0.0413  (|d-0.5|=0.4587)
+    Store           = 0.0728  (|d-0.5|=0.4272)
+    MiscCommercial  = 0.3710  (|d-0.5|=0.1290)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_14863_jpg
+    ltn=0 clingo=1 body=0.3540  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4218  (|d-0.5|=0.0782)
+    Restaurant      = 0.0330  (|d-0.5|=0.4670)
+    Store           = 0.0707  (|d-0.5|=0.4293)
+    MiscCommercial  = 0.3197  (|d-0.5|=0.1803)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_13315_jpg
+    ltn=0 clingo=1 body=0.3109  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4782  (|d-0.5|=0.0218)
+    Restaurant      = 0.0307  (|d-0.5|=0.4693)
+    Store           = 0.0783  (|d-0.5|=0.4217)
+    MiscCommercial  = 0.3349  (|d-0.5|=0.1651)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_7462_jpg
+    ltn=0 clingo=1 body=0.3134  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4219  (|d-0.5|=0.0781)
+    Restaurant      = 0.0537  (|d-0.5|=0.4463)
+    Store           = 0.0822  (|d-0.5|=0.4178)
+    MiscCommercial  = 0.3774  (|d-0.5|=0.1226)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_11842_jpg
+    ltn=0 clingo=1 body=0.3197  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4821  (|d-0.5|=0.0179)
+    Restaurant      = 0.0319  (|d-0.5|=0.4681)
+    Store           = 0.0830  (|d-0.5|=0.4170)
+    MiscCommercial  = 0.3066  (|d-0.5|=0.1934)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_1663_jpg
+    ltn=0 clingo=1 body=0.3217  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4107  (|d-0.5|=0.0893)
+    Restaurant      = 0.0535  (|d-0.5|=0.4465)
+    Store           = 0.0764  (|d-0.5|=0.4236)
+    MiscCommercial  = 0.3769  (|d-0.5|=0.1231)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_4798_jpg
+    ltn=0 clingo=1 body=0.2871  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4112  (|d-0.5|=0.0888)
+    Restaurant      = 0.0653  (|d-0.5|=0.4347)
+    Store           = 0.0538  (|d-0.5|=0.4462)
+    MiscCommercial  = 0.4495  (|d-0.5|=0.0505)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_11071_jpg
+    ltn=0 clingo=1 body=0.2673  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4149  (|d-0.5|=0.0851)
+    Restaurant      = 0.0778  (|d-0.5|=0.4222)
+    Store           = 0.0535  (|d-0.5|=0.4465)
+    MiscCommercial  = 0.4777  (|d-0.5|=0.0223)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_1876_jpg
+    ltn=0 clingo=1 body=0.3093  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4851  (|d-0.5|=0.0149)
+    Restaurant      = 0.0293  (|d-0.5|=0.4707)
+    Store           = 0.0696  (|d-0.5|=0.4304)
+    MiscCommercial  = 0.3364  (|d-0.5|=0.1636)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_3724_jpg
+    ltn=0 clingo=1 body=0.3510  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4385  (|d-0.5|=0.0615)
+    Restaurant      = 0.0340  (|d-0.5|=0.4660)
+    Store           = 0.0782  (|d-0.5|=0.4218)
+    MiscCommercial  = 0.2992  (|d-0.5|=0.2008)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_6724_jpg
+    ltn=0 clingo=1 body=0.3422  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4388  (|d-0.5|=0.0612)
+    Restaurant      = 0.0378  (|d-0.5|=0.4622)
+    Store           = 0.0844  (|d-0.5|=0.4156)
+    MiscCommercial  = 0.3094  (|d-0.5|=0.1906)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_14086_jpg
+    ltn=0 clingo=1 body=0.2985  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4717  (|d-0.5|=0.0283)
+    Restaurant      = 0.0436  (|d-0.5|=0.4564)
+    Store           = 0.0867  (|d-0.5|=0.4133)
+    MiscCommercial  = 0.3556  (|d-0.5|=0.1444)
+    Commercial      = 0.0014  (|d-0.5|=0.4986)
+  s_15220_jpg
+    ltn=0 clingo=1 body=0.3353  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4931  (|d-0.5|=0.0069)
+    Restaurant      = 0.0256  (|d-0.5|=0.4744)
+    Store           = 0.0784  (|d-0.5|=0.4216)
+    MiscCommercial  = 0.2650  (|d-0.5|=0.2350)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_6304_jpg
+    ltn=0 clingo=1 body=0.2417  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4407  (|d-0.5|=0.0593)
+    Restaurant      = 0.0865  (|d-0.5|=0.4135)
+    Store           = 0.0613  (|d-0.5|=0.4387)
+    MiscCommercial  = 0.4980  (|d-0.5|=0.0020)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_5635_jpg
+    ltn=0 clingo=1 body=0.2987  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4079  (|d-0.5|=0.0921)
+    Restaurant      = 0.0654  (|d-0.5|=0.4346)
+    Store           = 0.0704  (|d-0.5|=0.4296)
+    MiscCommercial  = 0.4207  (|d-0.5|=0.0793)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_11878_jpg
+    ltn=0 clingo=1 body=0.3397  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4793  (|d-0.5|=0.0207)
+    Restaurant      = 0.0279  (|d-0.5|=0.4721)
+    Store           = 0.0796  (|d-0.5|=0.4204)
+    MiscCommercial  = 0.2723  (|d-0.5|=0.2277)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_10171_jpg
+    ltn=0 clingo=1 body=0.2955  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3999  (|d-0.5|=0.1001)
+    Restaurant      = 0.0737  (|d-0.5|=0.4263)
+    Store           = 0.0768  (|d-0.5|=0.4232)
+    MiscCommercial  = 0.4256  (|d-0.5|=0.0744)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_15085_jpg
+    ltn=0 clingo=1 body=0.3338  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4029  (|d-0.5|=0.0971)
+    Restaurant      = 0.0495  (|d-0.5|=0.4505)
+    Store           = 0.0730  (|d-0.5|=0.4270)
+    MiscCommercial  = 0.3665  (|d-0.5|=0.1335)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_2569_jpg
+    ltn=0 clingo=1 body=0.3435  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4377  (|d-0.5|=0.0623)
+    Restaurant      = 0.0335  (|d-0.5|=0.4665)
+    Store           = 0.0776  (|d-0.5|=0.4224)
+    MiscCommercial  = 0.3160  (|d-0.5|=0.1840)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_7600_jpg
+    ltn=0 clingo=1 body=0.2996  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4091  (|d-0.5|=0.0909)
+    Restaurant      = 0.0546  (|d-0.5|=0.4454)
+    Store           = 0.0536  (|d-0.5|=0.4464)
+    MiscCommercial  = 0.4343  (|d-0.5|=0.0657)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_4720_jpg
+    ltn=0 clingo=1 body=0.2784  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4838  (|d-0.5|=0.0162)
+    Restaurant      = 0.0483  (|d-0.5|=0.4517)
+    Store           = 0.0837  (|d-0.5|=0.4163)
+    MiscCommercial  = 0.3843  (|d-0.5|=0.1157)
+    Commercial      = 0.0016  (|d-0.5|=0.4984)
+  s_11125_jpg
+    ltn=0 clingo=1 body=0.2843  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4935  (|d-0.5|=0.0065)
+    Restaurant      = 0.0407  (|d-0.5|=0.4593)
+    Store           = 0.0728  (|d-0.5|=0.4272)
+    MiscCommercial  = 0.3708  (|d-0.5|=0.1292)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_8797_jpg
+    ltn=0 clingo=1 body=0.3439  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4071  (|d-0.5|=0.0929)
+    Restaurant      = 0.0426  (|d-0.5|=0.4574)
+    Store           = 0.0695  (|d-0.5|=0.4305)
+    MiscCommercial  = 0.3499  (|d-0.5|=0.1501)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_5080_jpg
+    ltn=0 clingo=1 body=0.3393  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3975  (|d-0.5|=0.1025)
+    Restaurant      = 0.0490  (|d-0.5|=0.4510)
+    Store           = 0.0721  (|d-0.5|=0.4279)
+    MiscCommercial  = 0.3627  (|d-0.5|=0.1373)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_3778_jpg
+    ltn=0 clingo=1 body=0.3231  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3904  (|d-0.5|=0.1096)
+    Restaurant      = 0.0544  (|d-0.5|=0.4456)
+    Store           = 0.0623  (|d-0.5|=0.4377)
+    MiscCommercial  = 0.4031  (|d-0.5|=0.0969)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_5473_jpg
+    ltn=0 clingo=1 body=0.3461  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4079  (|d-0.5|=0.0921)
+    Restaurant      = 0.0415  (|d-0.5|=0.4585)
+    Store           = 0.0718  (|d-0.5|=0.4282)
+    MiscCommercial  = 0.3439  (|d-0.5|=0.1561)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_4411_jpg
+    ltn=0 clingo=1 body=0.3464  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4027  (|d-0.5|=0.0973)
+    Restaurant      = 0.0445  (|d-0.5|=0.4555)
+    Store           = 0.0766  (|d-0.5|=0.4234)
+    MiscCommercial  = 0.3438  (|d-0.5|=0.1562)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_1951_jpg
+    ltn=0 clingo=1 body=0.3499  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4649  (|d-0.5|=0.0351)
+    Restaurant      = 0.0273  (|d-0.5|=0.4727)
+    Store           = 0.0742  (|d-0.5|=0.4258)
+    MiscCommercial  = 0.2752  (|d-0.5|=0.2248)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_13771_jpg
+    ltn=0 clingo=1 body=0.3358  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3951  (|d-0.5|=0.1049)
+    Restaurant      = 0.0462  (|d-0.5|=0.4538)
+    Store           = 0.0605  (|d-0.5|=0.4395)
+    MiscCommercial  = 0.3813  (|d-0.5|=0.1187)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_14629_jpg
+    ltn=0 clingo=1 body=0.3578  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4033  (|d-0.5|=0.0967)
+    Restaurant      = 0.0406  (|d-0.5|=0.4594)
+    Store           = 0.0741  (|d-0.5|=0.4259)
+    MiscCommercial  = 0.3261  (|d-0.5|=0.1739)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_6316_jpg
+    ltn=0 clingo=1 body=0.3337  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4781  (|d-0.5|=0.0219)
+    Restaurant      = 0.0296  (|d-0.5|=0.4704)
+    Store           = 0.0805  (|d-0.5|=0.4195)
+    MiscCommercial  = 0.2851  (|d-0.5|=0.2149)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_4771_jpg
+    ltn=0 clingo=1 body=0.3364  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4633  (|d-0.5|=0.0367)
+    Restaurant      = 0.0350  (|d-0.5|=0.4650)
+    Store           = 0.0880  (|d-0.5|=0.4120)
+    MiscCommercial  = 0.2896  (|d-0.5|=0.2104)
+    Commercial      = 0.0013  (|d-0.5|=0.4987)
+  s_6535_jpg
+    ltn=0 clingo=1 body=0.3553  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4202  (|d-0.5|=0.0798)
+    Restaurant      = 0.0345  (|d-0.5|=0.4655)
+    Store           = 0.0743  (|d-0.5|=0.4257)
+    MiscCommercial  = 0.3155  (|d-0.5|=0.1845)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_3784_jpg
+    ltn=0 clingo=1 body=0.2587  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4284  (|d-0.5|=0.0716)
+    Restaurant      = 0.0808  (|d-0.5|=0.4192)
+    Store           = 0.0565  (|d-0.5|=0.4435)
+    MiscCommercial  = 0.4795  (|d-0.5|=0.0205)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_15073_jpg
+    ltn=0 clingo=1 body=0.3462  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4064  (|d-0.5|=0.0936)
+    Restaurant      = 0.0412  (|d-0.5|=0.4588)
+    Store           = 0.0689  (|d-0.5|=0.4311)
+    MiscCommercial  = 0.3476  (|d-0.5|=0.1524)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_2734_jpg
+    ltn=0 clingo=1 body=0.3337  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3990  (|d-0.5|=0.1010)
+    Restaurant      = 0.0507  (|d-0.5|=0.4493)
+    Store           = 0.0695  (|d-0.5|=0.4305)
+    MiscCommercial  = 0.3723  (|d-0.5|=0.1277)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_4174_jpg
+    ltn=0 clingo=1 body=0.3313  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4705  (|d-0.5|=0.0295)
+    Restaurant      = 0.0347  (|d-0.5|=0.4653)
+    Store           = 0.0891  (|d-0.5|=0.4109)
+    MiscCommercial  = 0.2902  (|d-0.5|=0.2098)
+    Commercial      = 0.0014  (|d-0.5|=0.4986)
+  s_14323_jpg
+    ltn=0 clingo=1 body=0.3040  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4127  (|d-0.5|=0.0873)
+    Restaurant      = 0.0594  (|d-0.5|=0.4406)
+    Store           = 0.0720  (|d-0.5|=0.4280)
+    MiscCommercial  = 0.4084  (|d-0.5|=0.0916)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_12211_jpg
+    ltn=0 clingo=1 body=0.3529  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4061  (|d-0.5|=0.0939)
+    Restaurant      = 0.0420  (|d-0.5|=0.4580)
+    Store           = 0.0770  (|d-0.5|=0.4230)
+    MiscCommercial  = 0.3291  (|d-0.5|=0.1709)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_8008_jpg
+    ltn=0 clingo=1 body=0.3371  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3896  (|d-0.5|=0.1104)
+    Restaurant      = 0.0481  (|d-0.5|=0.4519)
+    Store           = 0.0623  (|d-0.5|=0.4377)
+    MiscCommercial  = 0.3821  (|d-0.5|=0.1179)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_8881_jpg
+    ltn=0 clingo=1 body=0.2957  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3942  (|d-0.5|=0.1058)
+    Restaurant      = 0.0670  (|d-0.5|=0.4330)
+    Store           = 0.0558  (|d-0.5|=0.4442)
+    MiscCommercial  = 0.4467  (|d-0.5|=0.0533)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_2614_jpg
+    ltn=0 clingo=1 body=0.3390  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4114  (|d-0.5|=0.0886)
+    Restaurant      = 0.0454  (|d-0.5|=0.4546)
+    Store           = 0.0737  (|d-0.5|=0.4263)
+    MiscCommercial  = 0.3497  (|d-0.5|=0.1503)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_8173_jpg
+    ltn=0 clingo=1 body=0.2872  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3968  (|d-0.5|=0.1032)
+    Restaurant      = 0.0738  (|d-0.5|=0.4262)
+    Store           = 0.0578  (|d-0.5|=0.4422)
+    MiscCommercial  = 0.4554  (|d-0.5|=0.0446)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_15676_jpg
+    ltn=0 clingo=1 body=0.3415  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4551  (|d-0.5|=0.0449)
+    Restaurant      = 0.0341  (|d-0.5|=0.4659)
+    Store           = 0.0837  (|d-0.5|=0.4163)
+    MiscCommercial  = 0.2935  (|d-0.5|=0.2065)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_6688_jpg
+    ltn=0 clingo=1 body=0.2842  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3960  (|d-0.5|=0.1040)
+    Restaurant      = 0.0731  (|d-0.5|=0.4269)
+    Store           = 0.0542  (|d-0.5|=0.4458)
+    MiscCommercial  = 0.4643  (|d-0.5|=0.0357)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_15571_jpg
+    ltn=0 clingo=1 body=0.3179  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4114  (|d-0.5|=0.0886)
+    Restaurant      = 0.0562  (|d-0.5|=0.4438)
+    Store           = 0.0725  (|d-0.5|=0.4275)
+    MiscCommercial  = 0.3842  (|d-0.5|=0.1158)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_10930_jpg
+    ltn=0 clingo=1 body=0.3399  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4763  (|d-0.5|=0.0237)
+    Restaurant      = 0.0295  (|d-0.5|=0.4705)
+    Store           = 0.0823  (|d-0.5|=0.4177)
+    MiscCommercial  = 0.2728  (|d-0.5|=0.2272)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_11914_jpg
+    ltn=0 clingo=1 body=0.3082  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4224  (|d-0.5|=0.0776)
+    Restaurant      = 0.0573  (|d-0.5|=0.4427)
+    Store           = 0.0835  (|d-0.5|=0.4165)
+    MiscCommercial  = 0.3842  (|d-0.5|=0.1158)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_12610_jpg
+    ltn=0 clingo=1 body=0.2969  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4803  (|d-0.5|=0.0197)
+    Restaurant      = 0.0440  (|d-0.5|=0.4560)
+    Store           = 0.0966  (|d-0.5|=0.4034)
+    MiscCommercial  = 0.3414  (|d-0.5|=0.1586)
+    Commercial      = 0.0019  (|d-0.5|=0.4981)
+  s_8779_jpg
+    ltn=0 clingo=1 body=0.2467  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4546  (|d-0.5|=0.0454)
+    Restaurant      = 0.0810  (|d-0.5|=0.4190)
+    Store           = 0.0674  (|d-0.5|=0.4326)
+    MiscCommercial  = 0.4744  (|d-0.5|=0.0256)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_13441_jpg
+    ltn=0 clingo=1 body=0.3379  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4051  (|d-0.5|=0.0949)
+    Restaurant      = 0.0479  (|d-0.5|=0.4521)
+    Store           = 0.0736  (|d-0.5|=0.4264)
+    MiscCommercial  = 0.3571  (|d-0.5|=0.1429)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_4618_jpg
+    ltn=0 clingo=1 body=0.2866  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4698  (|d-0.5|=0.0302)
+    Restaurant      = 0.0494  (|d-0.5|=0.4506)
+    Store           = 0.0876  (|d-0.5|=0.4124)
+    MiscCommercial  = 0.3795  (|d-0.5|=0.1205)
+    Commercial      = 0.0017  (|d-0.5|=0.4983)
+  s_13603_jpg
+    ltn=0 clingo=1 body=0.3184  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4929  (|d-0.5|=0.0071)
+    Restaurant      = 0.0257  (|d-0.5|=0.4743)
+    Store           = 0.0719  (|d-0.5|=0.4281)
+    MiscCommercial  = 0.3071  (|d-0.5|=0.1929)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_10534_jpg
+    ltn=0 clingo=1 body=0.2661  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4572  (|d-0.5|=0.0428)
+    Restaurant      = 0.0734  (|d-0.5|=0.4266)
+    Store           = 0.0907  (|d-0.5|=0.4093)
+    MiscCommercial  = 0.4217  (|d-0.5|=0.0783)
+    Commercial      = 0.0021  (|d-0.5|=0.4979)
+  s_14083_jpg
+    ltn=0 clingo=1 body=0.2741  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4347  (|d-0.5|=0.0653)
+    Restaurant      = 0.0761  (|d-0.5|=0.4239)
+    Store           = 0.0786  (|d-0.5|=0.4214)
+    MiscCommercial  = 0.4328  (|d-0.5|=0.0672)
+    Commercial      = 0.0014  (|d-0.5|=0.4986)
+  s_11689_jpg
+    ltn=0 clingo=1 body=0.3462  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3837  (|d-0.5|=0.1163)
+    Restaurant      = 0.0450  (|d-0.5|=0.4550)
+    Store           = 0.0609  (|d-0.5|=0.4391)
+    MiscCommercial  = 0.3744  (|d-0.5|=0.1256)
+    Commercial      = 0.0003  (|d-0.5|=0.4997)
+  s_6709_jpg
+    ltn=0 clingo=1 body=0.3351  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4477  (|d-0.5|=0.0523)
+    Restaurant      = 0.0363  (|d-0.5|=0.4637)
+    Store           = 0.0843  (|d-0.5|=0.4157)
+    MiscCommercial  = 0.3139  (|d-0.5|=0.1861)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_7057_jpg
+    ltn=0 clingo=1 body=0.3352  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4306  (|d-0.5|=0.0694)
+    Restaurant      = 0.0479  (|d-0.5|=0.4521)
+    Store           = 0.0963  (|d-0.5|=0.4037)
+    MiscCommercial  = 0.3179  (|d-0.5|=0.1821)
+    Commercial      = 0.0016  (|d-0.5|=0.4984)
+  s_8080_jpg
+    ltn=0 clingo=1 body=0.3303  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4044  (|d-0.5|=0.0956)
+    Restaurant      = 0.0528  (|d-0.5|=0.4472)
+    Store           = 0.0753  (|d-0.5|=0.4247)
+    MiscCommercial  = 0.3680  (|d-0.5|=0.1320)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_15430_jpg
+    ltn=0 clingo=1 body=0.3496  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4523  (|d-0.5|=0.0477)
+    Restaurant      = 0.0319  (|d-0.5|=0.4681)
+    Store           = 0.0800  (|d-0.5|=0.4200)
+    MiscCommercial  = 0.2845  (|d-0.5|=0.2155)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_3271_jpg
+    ltn=0 clingo=1 body=0.3359  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4266  (|d-0.5|=0.0734)
+    Restaurant      = 0.0436  (|d-0.5|=0.4564)
+    Store           = 0.0891  (|d-0.5|=0.4109)
+    MiscCommercial  = 0.3293  (|d-0.5|=0.1707)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_9748_jpg
+    ltn=0 clingo=1 body=0.3322  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4494  (|d-0.5|=0.0506)
+    Restaurant      = 0.0346  (|d-0.5|=0.4654)
+    Store           = 0.0772  (|d-0.5|=0.4228)
+    MiscCommercial  = 0.3241  (|d-0.5|=0.1759)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_12595_jpg
+    ltn=0 clingo=1 body=0.2492  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4757  (|d-0.5|=0.0243)
+    Restaurant      = 0.0772  (|d-0.5|=0.4228)
+    Store           = 0.0971  (|d-0.5|=0.4029)
+    MiscCommercial  = 0.4347  (|d-0.5|=0.0653)
+    Commercial      = 0.0030  (|d-0.5|=0.4970)
+  s_10798_jpg
+    ltn=0 clingo=1 body=0.3152  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4611  (|d-0.5|=0.0389)
+    Restaurant      = 0.0373  (|d-0.5|=0.4627)
+    Store           = 0.0785  (|d-0.5|=0.4215)
+    MiscCommercial  = 0.3423  (|d-0.5|=0.1577)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_3040_jpg
+    ltn=0 clingo=1 body=0.3339  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4168  (|d-0.5|=0.0832)
+    Restaurant      = 0.0423  (|d-0.5|=0.4577)
+    Store           = 0.0679  (|d-0.5|=0.4321)
+    MiscCommercial  = 0.3596  (|d-0.5|=0.1404)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_11329_jpg
+    ltn=0 clingo=1 body=0.3290  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4013  (|d-0.5|=0.0987)
+    Restaurant      = 0.0522  (|d-0.5|=0.4478)
+    Store           = 0.0699  (|d-0.5|=0.4301)
+    MiscCommercial  = 0.3777  (|d-0.5|=0.1223)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_12097_jpg
+    ltn=0 clingo=1 body=0.3437  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4040  (|d-0.5|=0.0960)
+    Restaurant      = 0.0459  (|d-0.5|=0.4541)
+    Store           = 0.0777  (|d-0.5|=0.4223)
+    MiscCommercial  = 0.3457  (|d-0.5|=0.1543)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_7729_jpg
+    ltn=0 clingo=1 body=0.3583  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4298  (|d-0.5|=0.0702)
+    Restaurant      = 0.0313  (|d-0.5|=0.4687)
+    Store           = 0.0720  (|d-0.5|=0.4280)
+    MiscCommercial  = 0.3020  (|d-0.5|=0.1980)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_11269_jpg
+    ltn=0 clingo=1 body=0.3119  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4315  (|d-0.5|=0.0685)
+    Restaurant      = 0.0516  (|d-0.5|=0.4484)
+    Store           = 0.0713  (|d-0.5|=0.4287)
+    MiscCommercial  = 0.3785  (|d-0.5|=0.1215)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_8608_jpg
+    ltn=0 clingo=1 body=0.2593  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4855  (|d-0.5|=0.0145)
+    Restaurant      = 0.0618  (|d-0.5|=0.4382)
+    Store           = 0.0717  (|d-0.5|=0.4283)
+    MiscCommercial  = 0.4235  (|d-0.5|=0.0765)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_883_jpg
+    ltn=0 clingo=1 body=0.3641  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4226  (|d-0.5|=0.0774)
+    Restaurant      = 0.0317  (|d-0.5|=0.4683)
+    Store           = 0.0712  (|d-0.5|=0.4288)
+    MiscCommercial  = 0.2997  (|d-0.5|=0.2003)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_15964_jpg
+    ltn=0 clingo=1 body=0.2977  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4161  (|d-0.5|=0.0839)
+    Restaurant      = 0.0689  (|d-0.5|=0.4311)
+    Store           = 0.0745  (|d-0.5|=0.4255)
+    MiscCommercial  = 0.4099  (|d-0.5|=0.0901)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_15160_jpg
+    ltn=0 clingo=1 body=0.2904  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4373  (|d-0.5|=0.0627)
+    Restaurant      = 0.0582  (|d-0.5|=0.4418)
+    Store           = 0.0771  (|d-0.5|=0.4229)
+    MiscCommercial  = 0.4082  (|d-0.5|=0.0918)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_1981_jpg
+    ltn=0 clingo=1 body=0.2928  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3992  (|d-0.5|=0.1008)
+    Restaurant      = 0.0643  (|d-0.5|=0.4357)
+    Store           = 0.0539  (|d-0.5|=0.4461)
+    MiscCommercial  = 0.4505  (|d-0.5|=0.0495)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_5188_jpg
+    ltn=0 clingo=1 body=0.3239  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4234  (|d-0.5|=0.0766)
+    Restaurant      = 0.0481  (|d-0.5|=0.4519)
+    Store           = 0.0863  (|d-0.5|=0.4137)
+    MiscCommercial  = 0.3560  (|d-0.5|=0.1440)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_8245_jpg
+    ltn=0 clingo=1 body=0.2790  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4594  (|d-0.5|=0.0406)
+    Restaurant      = 0.0556  (|d-0.5|=0.4444)
+    Store           = 0.0770  (|d-0.5|=0.4230)
+    MiscCommercial  = 0.4101  (|d-0.5|=0.0899)
+    Commercial      = 0.0013  (|d-0.5|=0.4987)
+  s_7195_jpg
+    ltn=0 clingo=1 body=0.3290  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4634  (|d-0.5|=0.0366)
+    Restaurant      = 0.0321  (|d-0.5|=0.4679)
+    Store           = 0.0800  (|d-0.5|=0.4200)
+    MiscCommercial  = 0.3131  (|d-0.5|=0.1869)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_8674_jpg
+    ltn=0 clingo=1 body=0.3378  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4298  (|d-0.5|=0.0702)
+    Restaurant      = 0.0397  (|d-0.5|=0.4603)
+    Store           = 0.0802  (|d-0.5|=0.4198)
+    MiscCommercial  = 0.3307  (|d-0.5|=0.1693)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_2611_jpg
+    ltn=0 clingo=1 body=0.2772  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4119  (|d-0.5|=0.0881)
+    Restaurant      = 0.0691  (|d-0.5|=0.4309)
+    Store           = 0.0491  (|d-0.5|=0.4509)
+    MiscCommercial  = 0.4685  (|d-0.5|=0.0315)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_14614_jpg
+    ltn=0 clingo=1 body=0.3458  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4127  (|d-0.5|=0.0873)
+    Restaurant      = 0.0409  (|d-0.5|=0.4591)
+    Store           = 0.0755  (|d-0.5|=0.4245)
+    MiscCommercial  = 0.3370  (|d-0.5|=0.1630)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_13786_jpg
+    ltn=0 clingo=1 body=0.3334  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4921  (|d-0.5|=0.0079)
+    Restaurant      = 0.0277  (|d-0.5|=0.4723)
+    Store           = 0.0824  (|d-0.5|=0.4176)
+    MiscCommercial  = 0.2660  (|d-0.5|=0.2340)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_2149_jpg
+    ltn=0 clingo=1 body=0.3122  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4103  (|d-0.5|=0.0897)
+    Restaurant      = 0.0583  (|d-0.5|=0.4417)
+    Store           = 0.0715  (|d-0.5|=0.4285)
+    MiscCommercial  = 0.3958  (|d-0.5|=0.1042)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_11182_jpg
+    ltn=0 clingo=1 body=0.2797  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4150  (|d-0.5|=0.0850)
+    Restaurant      = 0.0735  (|d-0.5|=0.4265)
+    Store           = 0.0703  (|d-0.5|=0.4297)
+    MiscCommercial  = 0.4466  (|d-0.5|=0.0534)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_2335_jpg
+    ltn=0 clingo=1 body=0.3537  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4586  (|d-0.5|=0.0414)
+    Restaurant      = 0.0271  (|d-0.5|=0.4729)
+    Store           = 0.0726  (|d-0.5|=0.4274)
+    MiscCommercial  = 0.2770  (|d-0.5|=0.2230)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_11302_jpg
+    ltn=0 clingo=1 body=0.3522  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4033  (|d-0.5|=0.0967)
+    Restaurant      = 0.0418  (|d-0.5|=0.4582)
+    Store           = 0.0723  (|d-0.5|=0.4277)
+    MiscCommercial  = 0.3370  (|d-0.5|=0.1630)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_3379_jpg
+    ltn=0 clingo=1 body=0.3411  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4180  (|d-0.5|=0.0820)
+    Restaurant      = 0.0409  (|d-0.5|=0.4591)
+    Store           = 0.0765  (|d-0.5|=0.4235)
+    MiscCommercial  = 0.3395  (|d-0.5|=0.1605)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_12766_jpg
+    ltn=0 clingo=1 body=0.3112  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4985  (|d-0.5|=0.0015)
+    Restaurant      = 0.0303  (|d-0.5|=0.4697)
+    Store           = 0.0832  (|d-0.5|=0.4168)
+    MiscCommercial  = 0.3040  (|d-0.5|=0.1960)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_2722_jpg
+    ltn=0 clingo=1 body=0.3334  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4694  (|d-0.5|=0.0306)
+    Restaurant      = 0.0337  (|d-0.5|=0.4663)
+    Store           = 0.0869  (|d-0.5|=0.4131)
+    MiscCommercial  = 0.2896  (|d-0.5|=0.2104)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_1198_jpg
+    ltn=0 clingo=1 body=0.2808  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4512  (|d-0.5|=0.0488)
+    Restaurant      = 0.0584  (|d-0.5|=0.4416)
+    Store           = 0.0773  (|d-0.5|=0.4227)
+    MiscCommercial  = 0.4132  (|d-0.5|=0.0868)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_14812_jpg
+    ltn=0 clingo=1 body=0.3361  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4506  (|d-0.5|=0.0494)
+    Restaurant      = 0.0356  (|d-0.5|=0.4644)
+    Store           = 0.0833  (|d-0.5|=0.4167)
+    MiscCommercial  = 0.3095  (|d-0.5|=0.1905)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_325_jpg
+    ltn=0 clingo=1 body=0.3067  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0003  (|d-0.5|=0.4997)
+    Hotel           = 0.4902  (|d-0.5|=0.0098)
+    Restaurant      = 0.0371  (|d-0.5|=0.4629)
+    Store           = 0.0946  (|d-0.5|=0.4054)
+    MiscCommercial  = 0.3126  (|d-0.5|=0.1874)
+    Commercial      = 0.0018  (|d-0.5|=0.4982)
+  s_11752_jpg
+    ltn=0 clingo=1 body=0.2503  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4489  (|d-0.5|=0.0511)
+    Restaurant      = 0.0859  (|d-0.5|=0.4141)
+    Store           = 0.0742  (|d-0.5|=0.4258)
+    MiscCommercial  = 0.4660  (|d-0.5|=0.0340)
+    Commercial      = 0.0015  (|d-0.5|=0.4985)
+  s_9001_jpg
+    ltn=0 clingo=1 body=0.3209  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4000  (|d-0.5|=0.1000)
+    Restaurant      = 0.0535  (|d-0.5|=0.4465)
+    Store           = 0.0647  (|d-0.5|=0.4353)
+    MiscCommercial  = 0.3968  (|d-0.5|=0.1032)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_9598_jpg
+    ltn=0 clingo=1 body=0.2912  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4116  (|d-0.5|=0.0884)
+    Restaurant      = 0.0719  (|d-0.5|=0.4281)
+    Store           = 0.0789  (|d-0.5|=0.4211)
+    MiscCommercial  = 0.4229  (|d-0.5|=0.0771)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_11545_jpg
+    ltn=0 clingo=1 body=0.3085  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3962  (|d-0.5|=0.1038)
+    Restaurant      = 0.0605  (|d-0.5|=0.4395)
+    Store           = 0.0570  (|d-0.5|=0.4430)
+    MiscCommercial  = 0.4242  (|d-0.5|=0.0758)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_1762_jpg
+    ltn=0 clingo=1 body=0.2765  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4135  (|d-0.5|=0.0865)
+    Restaurant      = 0.0736  (|d-0.5|=0.4264)
+    Store           = 0.0541  (|d-0.5|=0.4459)
+    MiscCommercial  = 0.4630  (|d-0.5|=0.0370)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_9127_jpg
+    ltn=0 clingo=1 body=0.3077  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4077  (|d-0.5|=0.0923)
+    Restaurant      = 0.0603  (|d-0.5|=0.4397)
+    Store           = 0.0718  (|d-0.5|=0.4282)
+    MiscCommercial  = 0.4057  (|d-0.5|=0.0943)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_15760_jpg
+    ltn=0 clingo=1 body=0.3556  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4400  (|d-0.5|=0.0600)
+    Restaurant      = 0.0315  (|d-0.5|=0.4685)
+    Store           = 0.0757  (|d-0.5|=0.4243)
+    MiscCommercial  = 0.2917  (|d-0.5|=0.2083)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_8809_jpg
+    ltn=0 clingo=1 body=0.3469  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4170  (|d-0.5|=0.0830)
+    Restaurant      = 0.0435  (|d-0.5|=0.4565)
+    Store           = 0.0853  (|d-0.5|=0.4147)
+    MiscCommercial  = 0.3213  (|d-0.5|=0.1787)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_13615_jpg
+    ltn=0 clingo=1 body=0.3310  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4107  (|d-0.5|=0.0893)
+    Restaurant      = 0.0507  (|d-0.5|=0.4493)
+    Store           = 0.0749  (|d-0.5|=0.4251)
+    MiscCommercial  = 0.3616  (|d-0.5|=0.1384)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_15427_jpg
+    ltn=0 clingo=1 body=0.3168  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3860  (|d-0.5|=0.1140)
+    Restaurant      = 0.0584  (|d-0.5|=0.4416)
+    Store           = 0.0603  (|d-0.5|=0.4397)
+    MiscCommercial  = 0.4176  (|d-0.5|=0.0824)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_2365_jpg
+    ltn=0 clingo=1 body=0.3332  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4394  (|d-0.5|=0.0606)
+    Restaurant      = 0.0458  (|d-0.5|=0.4542)
+    Store           = 0.0966  (|d-0.5|=0.4034)
+    MiscCommercial  = 0.3127  (|d-0.5|=0.1873)
+    Commercial      = 0.0017  (|d-0.5|=0.4983)
+  s_12937_jpg
+    ltn=0 clingo=1 body=0.3067  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4252  (|d-0.5|=0.0748)
+    Restaurant      = 0.0617  (|d-0.5|=0.4383)
+    Store           = 0.0992  (|d-0.5|=0.4008)
+    MiscCommercial  = 0.3712  (|d-0.5|=0.1288)
+    Commercial      = 0.0019  (|d-0.5|=0.4981)
+  s_1387_jpg
+    ltn=0 clingo=1 body=0.2740  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4384  (|d-0.5|=0.0616)
+    Restaurant      = 0.0748  (|d-0.5|=0.4252)
+    Store           = 0.0899  (|d-0.5|=0.4101)
+    MiscCommercial  = 0.4237  (|d-0.5|=0.0763)
+    Commercial      = 0.0019  (|d-0.5|=0.4981)
+  s_10558_jpg
+    ltn=0 clingo=1 body=0.3214  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3901  (|d-0.5|=0.1099)
+    Restaurant      = 0.0560  (|d-0.5|=0.4440)
+    Store           = 0.0626  (|d-0.5|=0.4374)
+    MiscCommercial  = 0.4052  (|d-0.5|=0.0948)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_9316_jpg
+    ltn=0 clingo=1 body=0.3191  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4401  (|d-0.5|=0.0599)
+    Restaurant      = 0.0400  (|d-0.5|=0.4600)
+    Store           = 0.0784  (|d-0.5|=0.4216)
+    MiscCommercial  = 0.3574  (|d-0.5|=0.1426)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_13057_jpg
+    ltn=0 clingo=1 body=0.3033  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4999  (|d-0.5|=0.0001)
+    Restaurant      = 0.0328  (|d-0.5|=0.4672)
+    Store           = 0.0869  (|d-0.5|=0.4131)
+    MiscCommercial  = 0.3155  (|d-0.5|=0.1845)
+    Commercial      = 0.0014  (|d-0.5|=0.4986)
+  s_9541_jpg
+    ltn=0 clingo=1 body=0.2925  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4137  (|d-0.5|=0.0863)
+    Restaurant      = 0.0709  (|d-0.5|=0.4291)
+    Store           = 0.0770  (|d-0.5|=0.4230)
+    MiscCommercial  = 0.4199  (|d-0.5|=0.0801)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_2755_jpg
+    ltn=0 clingo=1 body=0.2689  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4180  (|d-0.5|=0.0820)
+    Restaurant      = 0.0875  (|d-0.5|=0.4125)
+    Store           = 0.0803  (|d-0.5|=0.4197)
+    MiscCommercial  = 0.4518  (|d-0.5|=0.0482)
+    Commercial      = 0.0015  (|d-0.5|=0.4985)
+  s_8800_jpg
+    ltn=0 clingo=1 body=0.3236  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0004  (|d-0.5|=0.4996)
+    Hotel           = 0.4953  (|d-0.5|=0.0047)
+    Restaurant      = 0.0332  (|d-0.5|=0.4668)
+    Store           = 0.0947  (|d-0.5|=0.4053)
+    MiscCommercial  = 0.2698  (|d-0.5|=0.2302)
+    Commercial      = 0.0017  (|d-0.5|=0.4983)
+  s_7552_jpg
+    ltn=0 clingo=1 body=0.3484  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3959  (|d-0.5|=0.1041)
+    Restaurant      = 0.0408  (|d-0.5|=0.4592)
+    Store           = 0.0610  (|d-0.5|=0.4390)
+    MiscCommercial  = 0.3604  (|d-0.5|=0.1396)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_5770_jpg
+    ltn=0 clingo=1 body=0.2473  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4251  (|d-0.5|=0.0749)
+    Restaurant      = 0.0910  (|d-0.5|=0.4090)
+    Store           = 0.0590  (|d-0.5|=0.4410)
+    MiscCommercial  = 0.4987  (|d-0.5|=0.0013)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_8554_jpg
+    ltn=0 clingo=1 body=0.2862  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4744  (|d-0.5|=0.0256)
+    Restaurant      = 0.0446  (|d-0.5|=0.4554)
+    Store           = 0.0838  (|d-0.5|=0.4162)
+    MiscCommercial  = 0.3803  (|d-0.5|=0.1197)
+    Commercial      = 0.0015  (|d-0.5|=0.4985)
+  s_13144_jpg
+    ltn=0 clingo=1 body=0.2699  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3982  (|d-0.5|=0.1018)
+    Restaurant      = 0.0806  (|d-0.5|=0.4194)
+    Store           = 0.0514  (|d-0.5|=0.4486)
+    MiscCommercial  = 0.4867  (|d-0.5|=0.0133)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_2377_jpg
+    ltn=0 clingo=1 body=0.3475  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4103  (|d-0.5|=0.0897)
+    Restaurant      = 0.0387  (|d-0.5|=0.4613)
+    Store           = 0.0693  (|d-0.5|=0.4307)
+    MiscCommercial  = 0.3423  (|d-0.5|=0.1577)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_6667_jpg
+    ltn=0 clingo=1 body=0.3471  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4179  (|d-0.5|=0.0821)
+    Restaurant      = 0.0420  (|d-0.5|=0.4580)
+    Store           = 0.0838  (|d-0.5|=0.4162)
+    MiscCommercial  = 0.3220  (|d-0.5|=0.1780)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_9061_jpg
+    ltn=0 clingo=1 body=0.2652  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4215  (|d-0.5|=0.0785)
+    Restaurant      = 0.0749  (|d-0.5|=0.4251)
+    Store           = 0.0579  (|d-0.5|=0.4421)
+    MiscCommercial  = 0.4753  (|d-0.5|=0.0247)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_15064_jpg
+    ltn=0 clingo=1 body=0.3333  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3903  (|d-0.5|=0.1097)
+    Restaurant      = 0.0513  (|d-0.5|=0.4487)
+    Store           = 0.0658  (|d-0.5|=0.4342)
+    MiscCommercial  = 0.3840  (|d-0.5|=0.1160)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_10933_jpg
+    ltn=0 clingo=1 body=0.3430  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4306  (|d-0.5|=0.0694)
+    Restaurant      = 0.0372  (|d-0.5|=0.4628)
+    Store           = 0.0811  (|d-0.5|=0.4189)
+    MiscCommercial  = 0.3205  (|d-0.5|=0.1795)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_11464_jpg
+    ltn=0 clingo=1 body=0.3376  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4102  (|d-0.5|=0.0898)
+    Restaurant      = 0.0444  (|d-0.5|=0.4556)
+    Store           = 0.0793  (|d-0.5|=0.4207)
+    MiscCommercial  = 0.3506  (|d-0.5|=0.1494)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_8059_jpg
+    ltn=0 clingo=1 body=0.3135  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4417  (|d-0.5|=0.0583)
+    Restaurant      = 0.0450  (|d-0.5|=0.4550)
+    Store           = 0.0900  (|d-0.5|=0.4100)
+    MiscCommercial  = 0.3560  (|d-0.5|=0.1440)
+    Commercial      = 0.0014  (|d-0.5|=0.4986)
+  s_12445_jpg
+    ltn=0 clingo=1 body=0.3379  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4039  (|d-0.5|=0.0961)
+    Restaurant      = 0.0491  (|d-0.5|=0.4509)
+    Store           = 0.0778  (|d-0.5|=0.4222)
+    MiscCommercial  = 0.3547  (|d-0.5|=0.1453)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_10735_jpg
+    ltn=0 clingo=1 body=0.2563  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4099  (|d-0.5|=0.0901)
+    Restaurant      = 0.0910  (|d-0.5|=0.4090)
+    Store           = 0.0562  (|d-0.5|=0.4438)
+    MiscCommercial  = 0.4950  (|d-0.5|=0.0050)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_10324_jpg
+    ltn=0 clingo=1 body=0.3223  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4720  (|d-0.5|=0.0280)
+    Restaurant      = 0.0330  (|d-0.5|=0.4670)
+    Store           = 0.0827  (|d-0.5|=0.4173)
+    MiscCommercial  = 0.3136  (|d-0.5|=0.1864)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_4693_jpg
+    ltn=0 clingo=1 body=0.2627  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4327  (|d-0.5|=0.0673)
+    Restaurant      = 0.0737  (|d-0.5|=0.4263)
+    Store           = 0.0616  (|d-0.5|=0.4384)
+    MiscCommercial  = 0.4689  (|d-0.5|=0.0311)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_5113_jpg
+    ltn=0 clingo=1 body=0.3541  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4362  (|d-0.5|=0.0638)
+    Restaurant      = 0.0322  (|d-0.5|=0.4678)
+    Store           = 0.0752  (|d-0.5|=0.4248)
+    MiscCommercial  = 0.2995  (|d-0.5|=0.2005)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_12733_jpg
+    ltn=0 clingo=1 body=0.2958  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3983  (|d-0.5|=0.1017)
+    Restaurant      = 0.0714  (|d-0.5|=0.4286)
+    Store           = 0.0681  (|d-0.5|=0.4319)
+    MiscCommercial  = 0.4332  (|d-0.5|=0.0668)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_688_jpg
+    ltn=0 clingo=1 body=0.2466  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4260  (|d-0.5|=0.0740)
+    Restaurant      = 0.0941  (|d-0.5|=0.4059)
+    Store           = 0.0648  (|d-0.5|=0.4352)
+    MiscCommercial  = 0.4948  (|d-0.5|=0.0052)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_10252_jpg
+    ltn=0 clingo=1 body=0.3638  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4230  (|d-0.5|=0.0770)
+    Restaurant      = 0.0319  (|d-0.5|=0.4681)
+    Store           = 0.0715  (|d-0.5|=0.4285)
+    MiscCommercial  = 0.2995  (|d-0.5|=0.2005)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_5014_jpg
+    ltn=0 clingo=1 body=0.3329  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4878  (|d-0.5|=0.0122)
+    Restaurant      = 0.0282  (|d-0.5|=0.4718)
+    Store           = 0.0819  (|d-0.5|=0.4181)
+    MiscCommercial  = 0.2732  (|d-0.5|=0.2268)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_11530_jpg
+    ltn=0 clingo=1 body=0.3071  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4040  (|d-0.5|=0.0960)
+    Restaurant      = 0.0632  (|d-0.5|=0.4368)
+    Store           = 0.0718  (|d-0.5|=0.4282)
+    MiscCommercial  = 0.4087  (|d-0.5|=0.0913)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_10444_jpg
+    ltn=0 clingo=1 body=0.2938  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4440  (|d-0.5|=0.0560)
+    Restaurant      = 0.0577  (|d-0.5|=0.4423)
+    Store           = 0.0780  (|d-0.5|=0.4220)
+    MiscCommercial  = 0.3936  (|d-0.5|=0.1064)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_14188_jpg
+    ltn=0 clingo=1 body=0.3083  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4351  (|d-0.5|=0.0649)
+    Restaurant      = 0.0561  (|d-0.5|=0.4439)
+    Store           = 0.0940  (|d-0.5|=0.4060)
+    MiscCommercial  = 0.3643  (|d-0.5|=0.1357)
+    Commercial      = 0.0016  (|d-0.5|=0.4984)
+  s_13438_jpg
+    ltn=0 clingo=1 body=0.3553  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4123  (|d-0.5|=0.0877)
+    Restaurant      = 0.0395  (|d-0.5|=0.4605)
+    Store           = 0.0789  (|d-0.5|=0.4211)
+    MiscCommercial  = 0.3178  (|d-0.5|=0.1822)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_544_jpg
+    ltn=0 clingo=1 body=0.3227  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4137  (|d-0.5|=0.0863)
+    Restaurant      = 0.0551  (|d-0.5|=0.4449)
+    Store           = 0.0844  (|d-0.5|=0.4156)
+    MiscCommercial  = 0.3655  (|d-0.5|=0.1345)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_10219_jpg
+    ltn=0 clingo=1 body=0.3061  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4951  (|d-0.5|=0.0049)
+    Restaurant      = 0.0298  (|d-0.5|=0.4702)
+    Store           = 0.0794  (|d-0.5|=0.4206)
+    MiscCommercial  = 0.3230  (|d-0.5|=0.1770)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_7615_jpg
+    ltn=0 clingo=1 body=0.3346  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3975  (|d-0.5|=0.1025)
+    Restaurant      = 0.0513  (|d-0.5|=0.4487)
+    Store           = 0.0734  (|d-0.5|=0.4266)
+    MiscCommercial  = 0.3691  (|d-0.5|=0.1309)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_4735_jpg
+    ltn=0 clingo=1 body=0.3039  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4058  (|d-0.5|=0.0942)
+    Restaurant      = 0.0680  (|d-0.5|=0.4320)
+    Store           = 0.0740  (|d-0.5|=0.4260)
+    MiscCommercial  = 0.4088  (|d-0.5|=0.0912)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_2200_jpg
+    ltn=0 clingo=1 body=0.3078  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4109  (|d-0.5|=0.0891)
+    Restaurant      = 0.0573  (|d-0.5|=0.4427)
+    Store           = 0.0725  (|d-0.5|=0.4275)
+    MiscCommercial  = 0.4038  (|d-0.5|=0.0962)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_5644_jpg
+    ltn=0 clingo=1 body=0.3302  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4934  (|d-0.5|=0.0066)
+    Restaurant      = 0.0294  (|d-0.5|=0.4706)
+    Store           = 0.0870  (|d-0.5|=0.4130)
+    MiscCommercial  = 0.2663  (|d-0.5|=0.2337)
+    Commercial      = 0.0013  (|d-0.5|=0.4987)
+  s_11491_jpg
+    ltn=0 clingo=1 body=0.3385  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4572  (|d-0.5|=0.0428)
+    Restaurant      = 0.0362  (|d-0.5|=0.4638)
+    Store           = 0.0883  (|d-0.5|=0.4117)
+    MiscCommercial  = 0.2922  (|d-0.5|=0.2078)
+    Commercial      = 0.0013  (|d-0.5|=0.4987)
+  s_1837_jpg
+    ltn=0 clingo=1 body=0.3386  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4804  (|d-0.5|=0.0196)
+    Restaurant      = 0.0286  (|d-0.5|=0.4714)
+    Store           = 0.0811  (|d-0.5|=0.4189)
+    MiscCommercial  = 0.2716  (|d-0.5|=0.2284)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_6712_jpg
+    ltn=0 clingo=1 body=0.3645  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4360  (|d-0.5|=0.0640)
+    Restaurant      = 0.0283  (|d-0.5|=0.4717)
+    Store           = 0.0693  (|d-0.5|=0.4307)
+    MiscCommercial  = 0.2862  (|d-0.5|=0.2138)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_13249_jpg
+    ltn=0 clingo=1 body=0.3054  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4236  (|d-0.5|=0.0764)
+    Restaurant      = 0.0588  (|d-0.5|=0.4412)
+    Store           = 0.0725  (|d-0.5|=0.4275)
+    MiscCommercial  = 0.3946  (|d-0.5|=0.1054)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_4390_jpg
+    ltn=0 clingo=1 body=0.3437  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3916  (|d-0.5|=0.1084)
+    Restaurant      = 0.0446  (|d-0.5|=0.4554)
+    Store           = 0.0613  (|d-0.5|=0.4387)
+    MiscCommercial  = 0.3709  (|d-0.5|=0.1291)
+    Commercial      = 0.0004  (|d-0.5|=0.4996)
+  s_12136_jpg
+    ltn=0 clingo=1 body=0.3155  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3991  (|d-0.5|=0.1009)
+    Restaurant      = 0.0573  (|d-0.5|=0.4427)
+    Store           = 0.0650  (|d-0.5|=0.4350)
+    MiscCommercial  = 0.4053  (|d-0.5|=0.0947)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_15637_jpg
+    ltn=0 clingo=1 body=0.3512  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3994  (|d-0.5|=0.1006)
+    Restaurant      = 0.0412  (|d-0.5|=0.4588)
+    Store           = 0.0658  (|d-0.5|=0.4342)
+    MiscCommercial  = 0.3480  (|d-0.5|=0.1520)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_121_jpg
+    ltn=0 clingo=1 body=0.2872  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4123  (|d-0.5|=0.0877)
+    Restaurant      = 0.0741  (|d-0.5|=0.4259)
+    Store           = 0.0778  (|d-0.5|=0.4222)
+    MiscCommercial  = 0.4296  (|d-0.5|=0.0704)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_2119_jpg
+    ltn=0 clingo=1 body=0.2653  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4201  (|d-0.5|=0.0799)
+    Restaurant      = 0.0820  (|d-0.5|=0.4180)
+    Store           = 0.0564  (|d-0.5|=0.4436)
+    MiscCommercial  = 0.4730  (|d-0.5|=0.0270)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_2635_jpg
+    ltn=0 clingo=1 body=0.3398  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4133  (|d-0.5|=0.0867)
+    Restaurant      = 0.0450  (|d-0.5|=0.4550)
+    Store           = 0.0813  (|d-0.5|=0.4187)
+    MiscCommercial  = 0.3410  (|d-0.5|=0.1590)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_12568_jpg
+    ltn=0 clingo=1 body=0.2845  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4075  (|d-0.5|=0.0925)
+    Restaurant      = 0.0754  (|d-0.5|=0.4246)
+    Store           = 0.0658  (|d-0.5|=0.4342)
+    MiscCommercial  = 0.4455  (|d-0.5|=0.0545)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_8167_jpg
+    ltn=0 clingo=1 body=0.2643  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4206  (|d-0.5|=0.0794)
+    Restaurant      = 0.0888  (|d-0.5|=0.4112)
+    Store           = 0.0807  (|d-0.5|=0.4193)
+    MiscCommercial  = 0.4580  (|d-0.5|=0.0420)
+    Commercial      = 0.0015  (|d-0.5|=0.4985)
+  s_10099_jpg
+    ltn=0 clingo=1 body=0.2789  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4172  (|d-0.5|=0.0828)
+    Restaurant      = 0.0844  (|d-0.5|=0.4156)
+    Store           = 0.0888  (|d-0.5|=0.4112)
+    MiscCommercial  = 0.4290  (|d-0.5|=0.0710)
+    Commercial      = 0.0016  (|d-0.5|=0.4984)
+  s_1150_jpg
+    ltn=0 clingo=1 body=0.3493  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4484  (|d-0.5|=0.0516)
+    Restaurant      = 0.0334  (|d-0.5|=0.4666)
+    Store           = 0.0813  (|d-0.5|=0.4187)
+    MiscCommercial  = 0.2883  (|d-0.5|=0.2117)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+  s_8023_jpg
+    ltn=0 clingo=1 body=0.2666  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4131  (|d-0.5|=0.0869)
+    Restaurant      = 0.0792  (|d-0.5|=0.4208)
+    Store           = 0.0569  (|d-0.5|=0.4431)
+    MiscCommercial  = 0.4780  (|d-0.5|=0.0220)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_772_jpg
+    ltn=0 clingo=1 body=0.3164  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4057  (|d-0.5|=0.0943)
+    Restaurant      = 0.0589  (|d-0.5|=0.4411)
+    Store           = 0.0766  (|d-0.5|=0.4234)
+    MiscCommercial  = 0.3887  (|d-0.5|=0.1113)
+    Commercial      = 0.0008  (|d-0.5|=0.4992)
+  s_5902_jpg
+    ltn=0 clingo=1 body=0.3435  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4752  (|d-0.5|=0.0248)
+    Restaurant      = 0.0272  (|d-0.5|=0.4728)
+    Store           = 0.0768  (|d-0.5|=0.4232)
+    MiscCommercial  = 0.2725  (|d-0.5|=0.2275)
+    Commercial      = 0.0009  (|d-0.5|=0.4991)
+  s_10066_jpg
+    ltn=0 clingo=1 body=0.3256  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4013  (|d-0.5|=0.0987)
+    Restaurant      = 0.0541  (|d-0.5|=0.4459)
+    Store           = 0.0725  (|d-0.5|=0.4275)
+    MiscCommercial  = 0.3811  (|d-0.5|=0.1189)
+    Commercial      = 0.0007  (|d-0.5|=0.4993)
+  s_4294_jpg
+    ltn=0 clingo=1 body=0.3582  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4131  (|d-0.5|=0.0869)
+    Restaurant      = 0.0371  (|d-0.5|=0.4629)
+    Store           = 0.0720  (|d-0.5|=0.4280)
+    MiscCommercial  = 0.3179  (|d-0.5|=0.1821)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_11641_jpg
+    ltn=0 clingo=1 body=0.2904  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4118  (|d-0.5|=0.0882)
+    Restaurant      = 0.0724  (|d-0.5|=0.4276)
+    Store           = 0.0789  (|d-0.5|=0.4211)
+    MiscCommercial  = 0.4240  (|d-0.5|=0.0760)
+    Commercial      = 0.0011  (|d-0.5|=0.4989)
+  s_3898_jpg
+    ltn=0 clingo=1 body=0.3374  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.3961  (|d-0.5|=0.1039)
+    Restaurant      = 0.0474  (|d-0.5|=0.4526)
+    Store           = 0.0657  (|d-0.5|=0.4343)
+    MiscCommercial  = 0.3732  (|d-0.5|=0.1268)
+    Commercial      = 0.0005  (|d-0.5|=0.4995)
+  s_9097_jpg
+    ltn=0 clingo=1 body=0.2635  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.4145  (|d-0.5|=0.0855)
+    Restaurant      = 0.0810  (|d-0.5|=0.4190)
+    Store           = 0.0570  (|d-0.5|=0.4430)
+    MiscCommercial  = 0.4820  (|d-0.5|=0.0180)
+    Commercial      = 0.0006  (|d-0.5|=0.4994)
+  s_3922_jpg
+    ltn=0 clingo=1 body=0.2937  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0002  (|d-0.5|=0.4998)
+    Hotel           = 0.4677  (|d-0.5|=0.0323)
+    Restaurant      = 0.0453  (|d-0.5|=0.4547)
+    Store           = 0.0932  (|d-0.5|=0.4068)
+    MiscCommercial  = 0.3656  (|d-0.5|=0.1344)
+    Commercial      = 0.0018  (|d-0.5|=0.4982)
+  s_7573_jpg
+    ltn=0 clingo=1 body=0.3090  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4344  (|d-0.5|=0.0656)
+    Restaurant      = 0.0525  (|d-0.5|=0.4475)
+    Store           = 0.0883  (|d-0.5|=0.4117)
+    MiscCommercial  = 0.3695  (|d-0.5|=0.1305)
+    Commercial      = 0.0014  (|d-0.5|=0.4986)
+  s_10615_jpg
+    ltn=0 clingo=1 body=0.3060  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4229  (|d-0.5|=0.0771)
+    Restaurant      = 0.0589  (|d-0.5|=0.4411)
+    Store           = 0.0827  (|d-0.5|=0.4173)
+    MiscCommercial  = 0.3876  (|d-0.5|=0.1124)
+    Commercial      = 0.0012  (|d-0.5|=0.4988)
+  s_16_jpg
+    ltn=0 clingo=1 body=0.3376  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.4331  (|d-0.5|=0.0669)
+    Restaurant      = 0.0390  (|d-0.5|=0.4610)
+    Store           = 0.0851  (|d-0.5|=0.4149)
+    MiscCommercial  = 0.3242  (|d-0.5|=0.1758)
+    Commercial      = 0.0010  (|d-0.5|=0.4990)
+
+
+
+--- residential (2 disagreements) ---
+  s_2745_jpg
+    ltn=1 clingo=0 body=0.5136
+    Suburban        = 0.0840  (|d-0.5|=0.4160)
+    MiscResidential = 0.9191  (|d-0.5|=0.4191)
+    CountryHouse    = 0.0002  (|d-0.5|=0.4998)
+    Residential     = 0.4959  (|d-0.5|=0.0041)
+  s_9819_jpg
+    ltn=1 clingo=0 body=0.5053
+    Suburban        = 0.0631  (|d-0.5|=0.4369)
+    MiscResidential = 0.9479  (|d-0.5|=0.4479)
+    CountryHouse    = 0.0024  (|d-0.5|=0.4976)
+    Residential     = 0.4930  (|d-0.5|=0.0070)

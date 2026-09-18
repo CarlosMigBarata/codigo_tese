@@ -1,0 +1,110 @@
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+
+
+========= CONISTENCY PER RULE =========
+
+commercial | consistency=1.0000 | rule_holds=5339 | rule_vac_holds=10661 | violations=0 | total=16000
+
+building_no_car_truck | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=1.0000 | rule_holds=4550 | rule_vac_holds=11450 | violations=0 | total=16000
+
+residential | consistency=0.9994 | rule_holds=5310 | rule_vac_holds=10687 | violations=3 | total=16000
+    - left_fails_right_holds: 3
+
+building_impl_complex | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+industrial | consistency=0.9996 | rule_holds=5345 | rule_vac_holds=10653 | violations=2 | total=16000
+    - left_holds_right_fails: 2
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+building_no_car_truck: 1.000
+building_no_chimney_statue: 1.000
+building_nodoorornowindow_impl_noawning: 1.000
+building_impl_complex: 1.000
+industrial          : 0.992
+residential         : 0.992
+commercial          : 0.987
+
+Axiom satisfaction: validation 
+
+building_no_car_truck: 1.000
+building_no_chimney_statue: 1.000
+building_nodoorornowindow_impl_noawning: 1.000
+building_impl_complex: 1.000
+industrial          : 0.992
+residential         : 0.990
+commercial          : 0.984
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+building_no_car_truck: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_no_chimney_statue: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_nodoorornowindow_impl_noawning: {}
+building_impl_complex: {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 15998, 'disagree': 2, 'missing': 0}
+residential         : {'agree': 15997, 'disagree': 3, 'missing': 0}
+commercial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- residential (3 disagreements) ---
+  s_2399_jpg
+    ltn=1 clingo=0 body=0.5294
+    Suburban        = 0.7148  (|d-0.5|=0.2148)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.0024  (|d-0.5|=0.4976)
+    Residential     = 0.4513  (|d-0.5|=0.0487)
+  s_10529_jpg
+    ltn=1 clingo=0 body=0.5449
+    Suburban        = 0.6212  (|d-0.5|=0.1212)
+    MiscResidential = 0.0001  (|d-0.5|=0.4999)
+    CountryHouse    = 0.0059  (|d-0.5|=0.4941)
+    Residential     = 0.4471  (|d-0.5|=0.0529)
+  s_1239_jpg
+    ltn=1 clingo=0 body=0.5462
+    Suburban        = 0.5948  (|d-0.5|=0.0948)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.0013  (|d-0.5|=0.4987)
+    Residential     = 0.4322  (|d-0.5|=0.0678)
+
+
+
+--- industrial (2 disagreements) ---
+  s_15802_jpg
+    ltn=1 clingo=0 body=0.5721
+    ConstructionSite = 0.3839  (|d-0.5|=0.1161)
+    MiscIndustrial  = 0.0133  (|d-0.5|=0.4867)
+    PowerPlant      = 0.3063  (|d-0.5|=0.1937)
+    WaterTreatment  = 0.0001  (|d-0.5|=0.4999)
+    Industrial      = 0.5817  (|d-0.5|=0.0817)
+  s_4867_jpg
+    ltn=1 clingo=0 body=0.5673
+    ConstructionSite = 0.3711  (|d-0.5|=0.1289)
+    MiscIndustrial  = 0.0997  (|d-0.5|=0.4003)
+    PowerPlant      = 0.2680  (|d-0.5|=0.2320)
+    WaterTreatment  = 0.0074  (|d-0.5|=0.4926)
+    Industrial      = 0.5404  (|d-0.5|=0.0404)
