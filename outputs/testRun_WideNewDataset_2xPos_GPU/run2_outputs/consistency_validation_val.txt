@@ -1,0 +1,517 @@
+
+
+========= ACTIVE RULES =========
+
+rule_DT3_ResidentialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+rule_Cafe_WallSignAndAwning: [AXIOM] MainOperations.EQUIVALENCE(Cafe, AND(WallSign, Awning))
+rule_DT3_CommercialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+rule_Hotel_WallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Hotel, AND(WallSign, Billboard))
+rule_Restaurant_NotWallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(NOT(WallSign), Billboard))
+rule_DT3_IndustrialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_DT3_ResidentialBuildingType | consistency=0.9801 | rule_holds=639 | rule_vac_holds=1348 | violations=13 | total=2000
+    - left_holds_right_fails: 13
+
+rule_Cafe_WallSignAndAwning | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=2000 | violations=0 | total=2000
+
+rule_DT3_CommercialBuildingType | consistency=0.9286 | rule_holds=598 | rule_vac_holds=1356 | violations=46 | total=2000
+    - left_holds_right_fails: 33
+    - left_fails_right_holds: 13
+
+rule_Hotel_WallSignAndBillboard | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=2000 | violations=0 | total=2000
+
+rule_Restaurant_NotWallSignAndBillboard | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=2000 | violations=0 | total=2000
+
+rule_DT3_IndustrialBuildingType | consistency=0.9727 | rule_holds=678 | rule_vac_holds=1303 | violations=19 | total=2000
+    - left_fails_right_holds: 14
+    - left_holds_right_fails: 5
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_hotel_wallsignandbillboard: 1.000
+rule_cafe_wallsignandawning: 1.000
+rule_restaurant_notwallsignandbillboard: 0.999
+rule_dt3_residentialbuildingtype: 0.959
+rule_dt3_industrialbuildingtype: 0.914
+rule_dt3_commercialbuildingtype: 0.910
+
+Axiom satisfaction: validation 
+
+rule_hotel_wallsignandbillboard: 1.000
+rule_cafe_wallsignandawning: 1.000
+rule_restaurant_notwallsignandbillboard: 0.999
+rule_dt3_residentialbuildingtype: 0.940
+rule_dt3_industrialbuildingtype: 0.893
+rule_dt3_commercialbuildingtype: 0.883
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_hotel_wallsignandbillboard: {}
+rule_cafe_wallsignandawning: {}
+rule_restaurant_notwallsignandbillboard: {}
+rule_dt3_residentialbuildingtype: {}
+rule_dt3_industrialbuildingtype: {}
+rule_dt3_commercialbuildingtype: {}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- rule_DT3_CommercialBuildingType (30 disagreements) ---
+  s_8008_jpg
+    ltn=1 clingo=0 body=0.5300
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0070  (|d-0.5|=0.4930)
+    MiscCommercial  = 0.3457  (|d-0.5|=0.1543)
+    Commercial      = 0.5841  (|d-0.5|=0.0841)
+  s_8152_jpg
+    ltn=1 clingo=0 body=0.5620
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0593  (|d-0.5|=0.4407)
+    MiscCommercial  = 0.4637  (|d-0.5|=0.0363)
+    Commercial      = 0.5300  (|d-0.5|=0.0300)
+  s_8208_jpg
+    ltn=1 clingo=0 body=0.5207
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.1210  (|d-0.5|=0.3790)
+    MiscCommercial  = 0.5311  (|d-0.5|=0.0311)
+    Commercial      = 0.3185  (|d-0.5|=0.1815)
+  s_8215_jpg
+    ltn=1 clingo=0 body=0.5635
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.0001  (|d-0.5|=0.4999)
+    Restaurant      = 0.0005  (|d-0.5|=0.4995)
+    Store           = 0.2596  (|d-0.5|=0.2404)
+    MiscCommercial  = 0.3979  (|d-0.5|=0.1021)
+    Commercial      = 0.5173  (|d-0.5|=0.0173)
+  s_8234_jpg
+    ltn=1 clingo=0 body=0.5286
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0222  (|d-0.5|=0.4778)
+    MiscCommercial  = 0.6748  (|d-0.5|=0.1748)
+    Commercial      = 0.4322  (|d-0.5|=0.0678)
+  s_8253_jpg
+    ltn=1 clingo=0 body=0.5151
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0191  (|d-0.5|=0.4809)
+    MiscCommercial  = 0.3527  (|d-0.5|=0.1473)
+    Commercial      = 0.6413  (|d-0.5|=0.1413)
+  s_8307_jpg
+    ltn=1 clingo=0 body=0.5073
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0002  (|d-0.5|=0.4998)
+    Store           = 0.0452  (|d-0.5|=0.4548)
+    MiscCommercial  = 0.2136  (|d-0.5|=0.2864)
+    Commercial      = 0.5765  (|d-0.5|=0.0765)
+  s_8316_jpg
+    ltn=1 clingo=0 body=0.5031
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0046  (|d-0.5|=0.4954)
+    MiscCommercial  = 0.0255  (|d-0.5|=0.4745)
+    Commercial      = 0.5044  (|d-0.5|=0.0044)
+  s_8488_jpg
+    ltn=1 clingo=0 body=0.5600
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0003  (|d-0.5|=0.4997)
+    Store           = 0.2541  (|d-0.5|=0.2459)
+    MiscCommercial  = 0.4975  (|d-0.5|=0.0025)
+    Commercial      = 0.5060  (|d-0.5|=0.0060)
+  s_8596_jpg
+    ltn=1 clingo=0 body=0.5393
+    Cafe            = 0.0003  (|d-0.5|=0.4997)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0007  (|d-0.5|=0.4993)
+    Store           = 0.3777  (|d-0.5|=0.1223)
+    MiscCommercial  = 0.5810  (|d-0.5|=0.0810)
+    Commercial      = 0.4816  (|d-0.5|=0.0184)
+  s_8616_jpg
+    ltn=1 clingo=0 body=0.5709
+    Cafe            = 0.0006  (|d-0.5|=0.4994)
+    Hotel           = 0.0001  (|d-0.5|=0.4999)
+    Restaurant      = 0.0024  (|d-0.5|=0.4976)
+    Store           = 0.2735  (|d-0.5|=0.2265)
+    MiscCommercial  = 0.4576  (|d-0.5|=0.0424)
+    Commercial      = 0.5562  (|d-0.5|=0.0562)
+  s_8640_jpg
+    ltn=1 clingo=0 body=0.5326
+    Cafe            = 0.0011  (|d-0.5|=0.4989)
+    Hotel           = 0.0003  (|d-0.5|=0.4997)
+    Restaurant      = 0.0049  (|d-0.5|=0.4951)
+    Store           = 0.1081  (|d-0.5|=0.3919)
+    MiscCommercial  = 0.2297  (|d-0.5|=0.2703)
+    Commercial      = 0.5569  (|d-0.5|=0.0569)
+  s_8702_jpg
+    ltn=1 clingo=0 body=0.5672
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0005  (|d-0.5|=0.4995)
+    Store           = 0.2204  (|d-0.5|=0.2796)
+    MiscCommercial  = 0.4589  (|d-0.5|=0.0411)
+    Commercial      = 0.5433  (|d-0.5|=0.0433)
+  s_8718_jpg
+    ltn=1 clingo=0 body=0.5736
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.2410  (|d-0.5|=0.2590)
+    MiscCommercial  = 0.4886  (|d-0.5|=0.0114)
+    Commercial      = 0.5690  (|d-0.5|=0.0690)
+  s_8757_jpg
+    ltn=1 clingo=0 body=0.5166
+    Cafe            = 0.0003  (|d-0.5|=0.4997)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0008  (|d-0.5|=0.4992)
+    Store           = 0.3966  (|d-0.5|=0.1034)
+    MiscCommercial  = 0.6317  (|d-0.5|=0.1317)
+    Commercial      = 0.4529  (|d-0.5|=0.0471)
+  s_8956_jpg
+    ltn=1 clingo=0 body=0.5067
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.3362  (|d-0.5|=0.1638)
+    MiscCommercial  = 0.5643  (|d-0.5|=0.0643)
+    Commercial      = 0.3989  (|d-0.5|=0.1011)
+  s_9021_jpg
+    ltn=1 clingo=0 body=0.5271
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0169  (|d-0.5|=0.4831)
+    MiscCommercial  = 0.2987  (|d-0.5|=0.2013)
+    Commercial      = 0.5669  (|d-0.5|=0.0669)
+  s_9037_jpg
+    ltn=1 clingo=0 body=0.5305
+    Cafe            = 0.0004  (|d-0.5|=0.4996)
+    Hotel           = 0.0001  (|d-0.5|=0.4999)
+    Restaurant      = 0.0020  (|d-0.5|=0.4980)
+    Store           = 0.0737  (|d-0.5|=0.4263)
+    MiscCommercial  = 0.2385  (|d-0.5|=0.2615)
+    Commercial      = 0.5515  (|d-0.5|=0.0515)
+  s_9051_jpg
+    ltn=1 clingo=0 body=0.5559
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.0290  (|d-0.5|=0.4710)
+    MiscCommercial  = 0.4398  (|d-0.5|=0.0602)
+    Commercial      = 0.5594  (|d-0.5|=0.0594)
+  s_9104_jpg
+    ltn=1 clingo=0 body=0.5622
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0215  (|d-0.5|=0.4785)
+    MiscCommercial  = 0.4875  (|d-0.5|=0.0125)
+    Commercial      = 0.5234  (|d-0.5|=0.0234)
+  s_9131_jpg
+    ltn=1 clingo=0 body=0.5547
+    Cafe            = 0.0003  (|d-0.5|=0.4997)
+    Hotel           = 0.0001  (|d-0.5|=0.4999)
+    Restaurant      = 0.0023  (|d-0.5|=0.4977)
+    Store           = 0.2244  (|d-0.5|=0.2756)
+    MiscCommercial  = 0.3310  (|d-0.5|=0.1690)
+    Commercial      = 0.6185  (|d-0.5|=0.1185)
+  s_9225_jpg
+    ltn=1 clingo=0 body=0.5610
+    Cafe            = 0.0004  (|d-0.5|=0.4996)
+    Hotel           = 0.0001  (|d-0.5|=0.4999)
+    Restaurant      = 0.0020  (|d-0.5|=0.4980)
+    Store           = 0.1774  (|d-0.5|=0.3226)
+    MiscCommercial  = 0.3900  (|d-0.5|=0.1100)
+    Commercial      = 0.5733  (|d-0.5|=0.0733)
+  s_9267_jpg
+    ltn=1 clingo=0 body=0.5472
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0008  (|d-0.5|=0.4992)
+    Store           = 0.1371  (|d-0.5|=0.3629)
+    MiscCommercial  = 0.3654  (|d-0.5|=0.1346)
+    Commercial      = 0.6187  (|d-0.5|=0.1187)
+  s_9348_jpg
+    ltn=1 clingo=0 body=0.5627
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0004  (|d-0.5|=0.4996)
+    Store           = 0.2020  (|d-0.5|=0.2980)
+    MiscCommercial  = 0.4606  (|d-0.5|=0.0394)
+    Commercial      = 0.5108  (|d-0.5|=0.0108)
+  s_9357_jpg
+    ltn=1 clingo=0 body=0.5464
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.1972  (|d-0.5|=0.3028)
+    MiscCommercial  = 0.3695  (|d-0.5|=0.1305)
+    Commercial      = 0.7296  (|d-0.5|=0.2296)
+  s_9372_jpg
+    ltn=1 clingo=0 body=0.5368
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.1969  (|d-0.5|=0.3031)
+    MiscCommercial  = 0.5155  (|d-0.5|=0.0155)
+    Commercial      = 0.4072  (|d-0.5|=0.0928)
+  s_9558_jpg
+    ltn=1 clingo=0 body=0.5536
+    Cafe            = 0.0012  (|d-0.5|=0.4988)
+    Hotel           = 0.0002  (|d-0.5|=0.4998)
+    Restaurant      = 0.0060  (|d-0.5|=0.4940)
+    Store           = 0.1949  (|d-0.5|=0.3051)
+    MiscCommercial  = 0.3638  (|d-0.5|=0.1362)
+    Commercial      = 0.6568  (|d-0.5|=0.1568)
+  s_9567_jpg
+    ltn=1 clingo=0 body=0.5471
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.1377  (|d-0.5|=0.3623)
+    MiscCommercial  = 0.3039  (|d-0.5|=0.1961)
+    Commercial      = 0.5597  (|d-0.5|=0.0597)
+  s_9720_jpg
+    ltn=1 clingo=0 body=0.5522
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0343  (|d-0.5|=0.4657)
+    MiscCommercial  = 0.4632  (|d-0.5|=0.0368)
+    Commercial      = 0.6408  (|d-0.5|=0.1408)
+  s_9748_jpg
+    ltn=1 clingo=0 body=0.5536
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0597  (|d-0.5|=0.4403)
+    MiscCommercial  = 0.5754  (|d-0.5|=0.0754)
+    Commercial      = 0.4698  (|d-0.5|=0.0302)
+
+
+
+--- rule_DT3_IndustrialBuildingType (18 disagreements) ---
+  s_8008_jpg
+    ltn=1 clingo=0 body=0.5315
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.5798  (|d-0.5|=0.0798)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.3499  (|d-0.5|=0.1501)
+  s_8245_jpg
+    ltn=1 clingo=0 body=0.5588
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.4063  (|d-0.5|=0.0937)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5080  (|d-0.5|=0.0080)
+  s_8316_jpg
+    ltn=1 clingo=0 body=0.5439
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.6327  (|d-0.5|=0.1327)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4488  (|d-0.5|=0.0512)
+  s_8385_jpg
+    ltn=1 clingo=0 body=0.5553
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.6317  (|d-0.5|=0.1317)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4893  (|d-0.5|=0.0107)
+  s_8394_jpg
+    ltn=1 clingo=0 body=0.5618
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.5228  (|d-0.5|=0.0228)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4893  (|d-0.5|=0.0107)
+  s_8539_jpg
+    ltn=1 clingo=0 body=0.5461
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.6952  (|d-0.5|=0.1952)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4826  (|d-0.5|=0.0174)
+  s_8757_jpg
+    ltn=1 clingo=0 body=0.5495
+    ConstructionSite = 0.0001  (|d-0.5|=0.4999)
+    MiscIndustrial  = 0.3329  (|d-0.5|=0.1671)
+    PowerPlant      = 0.0003  (|d-0.5|=0.4997)
+    WaterTreatment  = 0.0001  (|d-0.5|=0.4999)
+    Industrial      = 0.5179  (|d-0.5|=0.0179)
+  s_8822_jpg
+    ltn=1 clingo=0 body=0.5311
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.5729  (|d-0.5|=0.0729)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.3377  (|d-0.5|=0.1623)
+  s_8890_jpg
+    ltn=1 clingo=0 body=0.5308
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.8214  (|d-0.5|=0.3214)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4909  (|d-0.5|=0.0091)
+  s_8956_jpg
+    ltn=1 clingo=0 body=0.5285
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.3257  (|d-0.5|=0.1743)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5723  (|d-0.5|=0.0723)
+  s_9031_jpg
+    ltn=1 clingo=0 body=0.5448
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.7392  (|d-0.5|=0.2392)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4930  (|d-0.5|=0.0070)
+  s_9102_jpg
+    ltn=1 clingo=0 body=0.5436
+    ConstructionSite = 0.0002  (|d-0.5|=0.4998)
+    MiscIndustrial  = 0.5631  (|d-0.5|=0.0631)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.0002  (|d-0.5|=0.4998)
+    Industrial      = 0.3846  (|d-0.5|=0.1154)
+  s_9127_jpg
+    ltn=1 clingo=0 body=0.5501
+    ConstructionSite = 0.0001  (|d-0.5|=0.4999)
+    MiscIndustrial  = 0.3189  (|d-0.5|=0.1811)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.0002  (|d-0.5|=0.4998)
+    Industrial      = 0.5116  (|d-0.5|=0.0116)
+  s_9168_jpg
+    ltn=1 clingo=0 body=0.5194
+    ConstructionSite = 0.0001  (|d-0.5|=0.4999)
+    MiscIndustrial  = 0.7551  (|d-0.5|=0.2551)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0001  (|d-0.5|=0.4999)
+    Industrial      = 0.4483  (|d-0.5|=0.0517)
+  s_9465_jpg
+    ltn=1 clingo=0 body=0.5370
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.5046  (|d-0.5|=0.0046)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.1983  (|d-0.5|=0.3017)
+  s_9567_jpg
+    ltn=1 clingo=0 body=0.5542
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.5481  (|d-0.5|=0.0481)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4319  (|d-0.5|=0.0681)
+  s_9914_jpg
+    ltn=1 clingo=0 body=0.5204
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.8271  (|d-0.5|=0.3271)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4766  (|d-0.5|=0.0234)
+  s_9927_jpg
+    ltn=1 clingo=0 body=0.5328
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.6630  (|d-0.5|=0.1630)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4324  (|d-0.5|=0.0676)
+
+
+
+--- rule_DT3_ResidentialBuildingType (12 disagreements) ---
+  s_8025_jpg
+    ltn=1 clingo=0 body=0.5182
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.1919  (|d-0.5|=0.3081)
+    CountryHouse    = 0.0028  (|d-0.5|=0.4972)
+    Residential     = 0.5339  (|d-0.5|=0.0339)
+  s_8108_jpg
+    ltn=1 clingo=0 body=0.5442
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.3358  (|d-0.5|=0.1642)
+    CountryHouse    = 0.0042  (|d-0.5|=0.4958)
+    Residential     = 0.5355  (|d-0.5|=0.0355)
+  s_8266_jpg
+    ltn=1 clingo=0 body=0.5247
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.1382  (|d-0.5|=0.3618)
+    CountryHouse    = 0.0017  (|d-0.5|=0.4983)
+    Residential     = 0.5073  (|d-0.5|=0.0073)
+  s_8268_jpg
+    ltn=1 clingo=0 body=0.5318
+    Suburban        = 0.0004  (|d-0.5|=0.4996)
+    MiscResidential = 0.1810  (|d-0.5|=0.3190)
+    CountryHouse    = 0.3460  (|d-0.5|=0.1540)
+    Residential     = 0.7344  (|d-0.5|=0.2344)
+  s_8348_jpg
+    ltn=1 clingo=0 body=0.5395
+    Suburban        = 0.0001  (|d-0.5|=0.4999)
+    MiscResidential = 0.2082  (|d-0.5|=0.2918)
+    CountryHouse    = 0.0948  (|d-0.5|=0.4052)
+    Residential     = 0.5256  (|d-0.5|=0.0256)
+  s_8456_jpg
+    ltn=1 clingo=0 body=0.6155  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.0017  (|d-0.5|=0.4983)
+    MiscResidential = 0.3933  (|d-0.5|=0.1067)
+    CountryHouse    = 0.4803  (|d-0.5|=0.0197)
+    Residential     = 0.6868  (|d-0.5|=0.1868)
+  s_8948_jpg
+    ltn=1 clingo=0 body=0.5373
+    Suburban        = 0.0001  (|d-0.5|=0.4999)
+    MiscResidential = 0.2861  (|d-0.5|=0.2139)
+    CountryHouse    = 0.0913  (|d-0.5|=0.4087)
+    Residential     = 0.5631  (|d-0.5|=0.0631)
+  s_8960_jpg
+    ltn=1 clingo=0 body=0.5070
+    Suburban        = 0.0002  (|d-0.5|=0.4998)
+    MiscResidential = 0.0818  (|d-0.5|=0.4182)
+    CountryHouse    = 0.1377  (|d-0.5|=0.3623)
+    Residential     = 0.5576  (|d-0.5|=0.0576)
+  s_8995_jpg
+    ltn=1 clingo=0 body=0.5726
+    Suburban        = 0.0016  (|d-0.5|=0.4984)
+    MiscResidential = 0.4336  (|d-0.5|=0.0664)
+    CountryHouse    = 0.2638  (|d-0.5|=0.2362)
+    Residential     = 0.5807  (|d-0.5|=0.0807)
+  s_9248_jpg
+    ltn=1 clingo=0 body=0.5650
+    Suburban        = 0.0016  (|d-0.5|=0.4984)
+    MiscResidential = 0.3574  (|d-0.5|=0.1426)
+    CountryHouse    = 0.2626  (|d-0.5|=0.2374)
+    Residential     = 0.6295  (|d-0.5|=0.1295)
+  s_9304_jpg
+    ltn=1 clingo=0 body=0.5035
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.1614  (|d-0.5|=0.3386)
+    CountryHouse    = 0.0016  (|d-0.5|=0.4984)
+    Residential     = 0.5448  (|d-0.5|=0.0448)
+  s_9821_jpg
+    ltn=1 clingo=0 body=0.5540
+    Suburban        = 0.0022  (|d-0.5|=0.4978)
+    MiscResidential = 0.2163  (|d-0.5|=0.2837)
+    CountryHouse    = 0.3123  (|d-0.5|=0.1877)
+    Residential     = 0.5838  (|d-0.5|=0.0838)
