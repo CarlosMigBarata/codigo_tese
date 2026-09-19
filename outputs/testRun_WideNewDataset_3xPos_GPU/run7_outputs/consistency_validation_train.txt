@@ -1,0 +1,3082 @@
+
+
+========= ACTIVE RULES =========
+
+rule_Hotel_WallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Hotel, AND(WallSign, Billboard))
+rule_DT3_IndustrialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+rule_Cafe_WallSignAndAwning: [AXIOM] MainOperations.EQUIVALENCE(Cafe, AND(WallSign, Awning))
+rule_MiscCommercial_WallSignAndTable: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(WallSign, Table))
+rule_DT3_CommercialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+rule_DT3_ResidentialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_Hotel_WallSignAndBillboard | consistency=0.0000 | rule_holds=0 | rule_vac_holds=7993 | violations=7 | total=8000
+    - left_holds_right_fails: 7
+
+rule_DT3_IndustrialBuildingType | consistency=0.4118 | rule_holds=2506 | rule_vac_holds=1914 | violations=3580 | total=8000
+    - left_fails_right_holds: 3580
+
+rule_Cafe_WallSignAndAwning | consistency=0.0000 | rule_holds=0 | rule_vac_holds=2139 | violations=5861 | total=8000
+    - left_holds_right_fails: 5861
+
+rule_MiscCommercial_WallSignAndTable | consistency=0.0000 | rule_holds=0 | rule_vac_holds=7996 | violations=4 | total=8000
+    - left_holds_right_fails: 4
+
+rule_DT3_CommercialBuildingType | consistency=0.3425 | rule_holds=2740 | rule_vac_holds=0 | violations=5260 | total=8000
+    - left_fails_right_holds: 5260
+
+rule_DT3_ResidentialBuildingType | consistency=0.2676 | rule_holds=2141 | rule_vac_holds=0 | violations=5859 | total=8000
+    - left_fails_right_holds: 5325
+    - left_holds_right_fails: 534
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_hotel_wallsignandbillboard: 0.754
+rule_misccommercial_wallsignandtable: 0.739
+rule_dt3_industrialbuildingtype: 0.386
+rule_cafe_wallsignandawning: 0.357
+rule_dt3_commercialbuildingtype: 0.212
+rule_dt3_residentialbuildingtype: 0.181
+
+Axiom satisfaction: validation 
+
+rule_hotel_wallsignandbillboard: 0.764
+rule_misccommercial_wallsignandtable: 0.741
+rule_dt3_industrialbuildingtype: 0.374
+rule_cafe_wallsignandawning: 0.363
+rule_dt3_commercialbuildingtype: 0.231
+rule_dt3_residentialbuildingtype: 0.182
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_hotel_wallsignandbillboard: {}
+rule_misccommercial_wallsignandtable: {}
+rule_dt3_industrialbuildingtype: {}
+rule_cafe_wallsignandawning: {}
+rule_dt3_commercialbuildingtype: {}
+rule_dt3_residentialbuildingtype: {}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- rule_Cafe_WallSignAndAwning (60 disagreements) ---
+  s_3186_jpg
+    ltn=1 clingo=0 body=0.5167
+    Cafe            = 0.5046  (|d-0.5|=0.0046)
+    Awning          = 0.6168  (|d-0.5|=0.1168)
+    WallSign        = 0.1467  (|d-0.5|=0.3533)
+  s_5309_jpg
+    ltn=1 clingo=0 body=0.5003
+    Cafe            = 0.5464  (|d-0.5|=0.0464)
+    Awning          = 0.6469  (|d-0.5|=0.1469)
+    WallSign        = 0.2387  (|d-0.5|=0.2613)
+  s_4383_jpg
+    ltn=1 clingo=0 body=0.5240
+    Cafe            = 0.5009  (|d-0.5|=0.0009)
+    Awning          = 0.6037  (|d-0.5|=0.1037)
+    WallSign        = 0.1837  (|d-0.5|=0.3163)
+  s_1413_jpg
+    ltn=1 clingo=0 body=0.5008
+    Cafe            = 0.5491  (|d-0.5|=0.0491)
+    Awning          = 0.7299  (|d-0.5|=0.2299)
+    WallSign        = 0.2239  (|d-0.5|=0.2761)
+  s_5189_jpg
+    ltn=1 clingo=0 body=0.5075
+    Cafe            = 0.5236  (|d-0.5|=0.0236)
+    Awning          = 0.5689  (|d-0.5|=0.0689)
+    WallSign        = 0.2043  (|d-0.5|=0.2957)
+  s_648_jpg
+    ltn=1 clingo=0 body=0.5077
+    Cafe            = 0.5122  (|d-0.5|=0.0122)
+    Awning          = 0.4705  (|d-0.5|=0.0295)
+    WallSign        = 0.1661  (|d-0.5|=0.3339)
+  s_7253_jpg
+    ltn=1 clingo=0 body=0.5150
+    Cafe            = 0.5031  (|d-0.5|=0.0031)
+    Awning          = 0.5609  (|d-0.5|=0.0609)
+    WallSign        = 0.1357  (|d-0.5|=0.3643)
+  s_1926_jpg
+    ltn=1 clingo=0 body=0.5165
+    Cafe            = 0.5136  (|d-0.5|=0.0136)
+    Awning          = 0.6194  (|d-0.5|=0.1194)
+    WallSign        = 0.1974  (|d-0.5|=0.3026)
+  s_6182_jpg
+    ltn=1 clingo=0 body=0.5122
+    Cafe            = 0.5154  (|d-0.5|=0.0154)
+    Awning          = 0.4954  (|d-0.5|=0.0046)
+    WallSign        = 0.2198  (|d-0.5|=0.2802)
+  s_1167_jpg
+    ltn=1 clingo=0 body=0.5189
+    Cafe            = 0.5184  (|d-0.5|=0.0184)
+    Awning          = 0.7933  (|d-0.5|=0.2933)
+    WallSign        = 0.1886  (|d-0.5|=0.3114)
+  s_345_jpg
+    ltn=1 clingo=0 body=0.5005
+    Cafe            = 0.5432  (|d-0.5|=0.0432)
+    Awning          = 0.5181  (|d-0.5|=0.0181)
+    WallSign        = 0.2829  (|d-0.5|=0.2171)
+  s_2610_jpg
+    ltn=1 clingo=0 body=0.5103
+    Cafe            = 0.5059  (|d-0.5|=0.0059)
+    Awning          = 0.4778  (|d-0.5|=0.0222)
+    WallSign        = 0.1385  (|d-0.5|=0.3615)
+  s_2892_jpg
+    ltn=1 clingo=0 body=0.5086
+    Cafe            = 0.5450  (|d-0.5|=0.0450)
+    Awning          = 0.7959  (|d-0.5|=0.2959)
+    WallSign        = 0.2301  (|d-0.5|=0.2699)
+  s_4260_jpg
+    ltn=1 clingo=0 body=0.5087
+    Cafe            = 0.5182  (|d-0.5|=0.0182)
+    Awning          = 0.6678  (|d-0.5|=0.1678)
+    WallSign        = 0.1547  (|d-0.5|=0.3453)
+  s_4026_jpg
+    ltn=1 clingo=0 body=0.5163
+    Cafe            = 0.5174  (|d-0.5|=0.0174)
+    Awning          = 0.6169  (|d-0.5|=0.1169)
+    WallSign        = 0.2179  (|d-0.5|=0.2821)
+  s_1509_jpg
+    ltn=1 clingo=0 body=0.5013
+    Cafe            = 0.5285  (|d-0.5|=0.0285)
+    Awning          = 0.5360  (|d-0.5|=0.0360)
+    WallSign        = 0.1995  (|d-0.5|=0.3005)
+  s_2775_jpg
+    ltn=1 clingo=0 body=0.5037
+    Cafe            = 0.5180  (|d-0.5|=0.0180)
+    Awning          = 0.7196  (|d-0.5|=0.2196)
+    WallSign        = 0.1137  (|d-0.5|=0.3863)
+  s_4029_jpg
+    ltn=1 clingo=0 body=0.5146
+    Cafe            = 0.5222  (|d-0.5|=0.0222)
+    Awning          = 0.6773  (|d-0.5|=0.1773)
+    WallSign        = 0.2103  (|d-0.5|=0.2897)
+  s_7364_jpg
+    ltn=1 clingo=0 body=0.5071
+    Cafe            = 0.5311  (|d-0.5|=0.0311)
+    Awning          = 0.5086  (|d-0.5|=0.0086)
+    WallSign        = 0.2715  (|d-0.5|=0.2285)
+  s_1875_jpg
+    ltn=1 clingo=0 body=0.5037
+    Cafe            = 0.5280  (|d-0.5|=0.0280)
+    Awning          = 0.5393  (|d-0.5|=0.0393)
+    WallSign        = 0.2123  (|d-0.5|=0.2877)
+  s_1134_jpg
+    ltn=1 clingo=0 body=0.5095
+    Cafe            = 0.5206  (|d-0.5|=0.0206)
+    Awning          = 0.5477  (|d-0.5|=0.0477)
+    WallSign        = 0.2093  (|d-0.5|=0.2907)
+  s_5882_jpg
+    ltn=1 clingo=0 body=0.5001
+    Cafe            = 0.5605  (|d-0.5|=0.0605)
+    Awning          = 0.6871  (|d-0.5|=0.1871)
+    WallSign        = 0.2749  (|d-0.5|=0.2251)
+  s_1812_jpg
+    ltn=1 clingo=0 body=0.5211
+    Cafe            = 0.5001  (|d-0.5|=0.0001)
+    Awning          = 0.8006  (|d-0.5|=0.3006)
+    WallSign        = 0.1169  (|d-0.5|=0.3831)
+  s_6038_jpg
+    ltn=1 clingo=0 body=0.5116
+    Cafe            = 0.5062  (|d-0.5|=0.0062)
+    Awning          = 0.5420  (|d-0.5|=0.0420)
+    WallSign        = 0.1349  (|d-0.5|=0.3651)
+  s_9_jpg
+    ltn=1 clingo=0 body=0.5117
+    Cafe            = 0.5173  (|d-0.5|=0.0173)
+    Awning          = 0.5368  (|d-0.5|=0.0368)
+    WallSign        = 0.2112  (|d-0.5|=0.2888)
+  s_975_jpg
+    ltn=1 clingo=0 body=0.5038
+    Cafe            = 0.5146  (|d-0.5|=0.0146)
+    Awning          = 0.4530  (|d-0.5|=0.0470)
+    WallSign        = 0.1560  (|d-0.5|=0.3440)
+  s_5357_jpg
+    ltn=1 clingo=0 body=0.5107
+    Cafe            = 0.5075  (|d-0.5|=0.0075)
+    Awning          = 0.7224  (|d-0.5|=0.2224)
+    WallSign        = 0.1024  (|d-0.5|=0.3976)
+  s_642_jpg
+    ltn=1 clingo=0 body=0.5064
+    Cafe            = 0.5195  (|d-0.5|=0.0195)
+    Awning          = 0.7354  (|d-0.5|=0.2354)
+    WallSign        = 0.1332  (|d-0.5|=0.3668)
+  s_5564_jpg
+    ltn=1 clingo=0 body=0.5005
+    Cafe            = 0.5200  (|d-0.5|=0.0200)
+    Awning          = 0.5713  (|d-0.5|=0.0713)
+    WallSign        = 0.1326  (|d-0.5|=0.3674)
+  s_7217_jpg
+    ltn=1 clingo=0 body=0.5020
+    Cafe            = 0.5466  (|d-0.5|=0.0466)
+    Awning          = 0.6430  (|d-0.5|=0.1430)
+    WallSign        = 0.2510  (|d-0.5|=0.2490)
+  s_7739_jpg
+    ltn=1 clingo=0 body=0.5076
+    Cafe            = 0.5343  (|d-0.5|=0.0343)
+    Awning          = 0.6300  (|d-0.5|=0.1300)
+    WallSign        = 0.2376  (|d-0.5|=0.2624)
+  s_6257_jpg
+    ltn=1 clingo=0 body=0.5271
+    Cafe            = 0.5050  (|d-0.5|=0.0050)
+    Awning          = 0.6944  (|d-0.5|=0.1944)
+    WallSign        = 0.2064  (|d-0.5|=0.2936)
+  s_4269_jpg
+    ltn=1 clingo=0 body=0.5128
+    Cafe            = 0.5201  (|d-0.5|=0.0201)
+    Awning          = 0.6334  (|d-0.5|=0.1334)
+    WallSign        = 0.2015  (|d-0.5|=0.2985)
+  s_3801_jpg
+    ltn=1 clingo=0 body=0.5092
+    Cafe            = 0.5058  (|d-0.5|=0.0058)
+    Awning          = 0.5006  (|d-0.5|=0.0006)
+    WallSign        = 0.1211  (|d-0.5|=0.3789)
+  s_3483_jpg
+    ltn=1 clingo=0 body=0.5083
+    Cafe            = 0.5137  (|d-0.5|=0.0137)
+    Awning          = 0.5982  (|d-0.5|=0.0982)
+    WallSign        = 0.1436  (|d-0.5|=0.3564)
+  s_6914_jpg
+    ltn=1 clingo=0 body=0.5019
+    Cafe            = 0.5268  (|d-0.5|=0.0268)
+    Awning          = 0.7416  (|d-0.5|=0.2416)
+    WallSign        = 0.1396  (|d-0.5|=0.3604)
+  s_4323_jpg
+    ltn=1 clingo=0 body=0.5003
+    Cafe            = 0.5261  (|d-0.5|=0.0261)
+    Awning          = 0.7094  (|d-0.5|=0.2094)
+    WallSign        = 0.1339  (|d-0.5|=0.3661)
+  s_6674_jpg
+    ltn=1 clingo=0 body=0.5063
+    Cafe            = 0.5046  (|d-0.5|=0.0046)
+    Awning          = 0.5209  (|d-0.5|=0.0209)
+    WallSign        = 0.0848  (|d-0.5|=0.4152)
+  s_1245_jpg
+    ltn=1 clingo=0 body=0.5208
+    Cafe            = 0.5318  (|d-0.5|=0.0318)
+    Awning          = 0.6503  (|d-0.5|=0.1503)
+    WallSign        = 0.3075  (|d-0.5|=0.1925)
+  s_2487_jpg
+    ltn=1 clingo=0 body=0.5172
+    Cafe            = 0.5004  (|d-0.5|=0.0004)
+    Awning          = 0.5102  (|d-0.5|=0.0102)
+    WallSign        = 0.1493  (|d-0.5|=0.3507)
+  s_1230_jpg
+    ltn=1 clingo=0 body=0.5022
+    Cafe            = 0.5592  (|d-0.5|=0.0592)
+    Awning          = 0.7093  (|d-0.5|=0.2093)
+    WallSign        = 0.2731  (|d-0.5|=0.2269)
+  s_2826_jpg
+    ltn=1 clingo=0 body=0.5078
+    Cafe            = 0.5189  (|d-0.5|=0.0189)
+    Awning          = 0.6393  (|d-0.5|=0.1393)
+    WallSign        = 0.1595  (|d-0.5|=0.3405)
+  s_4686_jpg
+    ltn=1 clingo=0 body=0.5084
+    Cafe            = 0.5219  (|d-0.5|=0.0219)
+    Awning          = 0.5060  (|d-0.5|=0.0060)
+    WallSign        = 0.2263  (|d-0.5|=0.2737)
+  s_1041_jpg
+    ltn=1 clingo=0 body=0.5189
+    Cafe            = 0.5020  (|d-0.5|=0.0020)
+    Awning          = 0.4343  (|d-0.5|=0.0657)
+    WallSign        = 0.2085  (|d-0.5|=0.2915)
+  s_1401_jpg
+    ltn=1 clingo=0 body=0.5015
+    Cafe            = 0.5172  (|d-0.5|=0.0172)
+    Awning          = 0.5057  (|d-0.5|=0.0057)
+    WallSign        = 0.1387  (|d-0.5|=0.3613)
+  s_2577_jpg
+    ltn=1 clingo=0 body=0.5022
+    Cafe            = 0.5203  (|d-0.5|=0.0203)
+    Awning          = 0.6963  (|d-0.5|=0.1963)
+    WallSign        = 0.1200  (|d-0.5|=0.3800)
+  s_1803_jpg
+    ltn=1 clingo=0 body=0.5173
+    Cafe            = 0.5176  (|d-0.5|=0.0176)
+    Awning          = 0.5777  (|d-0.5|=0.0777)
+    WallSign        = 0.2416  (|d-0.5|=0.2584)
+  s_3066_jpg
+    ltn=1 clingo=0 body=0.5103
+    Cafe            = 0.5350  (|d-0.5|=0.0350)
+    Awning          = 0.8191  (|d-0.5|=0.3191)
+    WallSign        = 0.1986  (|d-0.5|=0.3014)
+  s_2988_jpg
+    ltn=1 clingo=0 body=0.5246
+    Cafe            = 0.5005  (|d-0.5|=0.0005)
+    Awning          = 0.4754  (|d-0.5|=0.0246)
+    WallSign        = 0.2377  (|d-0.5|=0.2623)
+  s_2007_jpg
+    ltn=1 clingo=0 body=0.5156
+    Cafe            = 0.5021  (|d-0.5|=0.0021)
+    Awning          = 0.7773  (|d-0.5|=0.2773)
+    WallSign        = 0.0965  (|d-0.5|=0.4035)
+  s_1002_jpg
+    ltn=1 clingo=0 body=0.5096
+    Cafe            = 0.5344  (|d-0.5|=0.0344)
+    Awning          = 0.5724  (|d-0.5|=0.0724)
+    WallSign        = 0.2762  (|d-0.5|=0.2238)
+  s_3069_jpg
+    ltn=1 clingo=0 body=0.5024
+    Cafe            = 0.5156  (|d-0.5|=0.0156)
+    Awning          = 0.5463  (|d-0.5|=0.0463)
+    WallSign        = 0.1248  (|d-0.5|=0.3752)
+  s_2796_jpg
+    ltn=1 clingo=0 body=0.5035
+    Cafe            = 0.5188  (|d-0.5|=0.0188)
+    Awning          = 0.5363  (|d-0.5|=0.0363)
+    WallSign        = 0.1562  (|d-0.5|=0.3438)
+  s_1590_jpg
+    ltn=1 clingo=0 body=0.5258
+    Cafe            = 0.5082  (|d-0.5|=0.0082)
+    Awning          = 0.5542  (|d-0.5|=0.0542)
+    WallSign        = 0.2675  (|d-0.5|=0.2325)
+  s_4665_jpg
+    ltn=1 clingo=0 body=0.5209
+    Cafe            = 0.5082  (|d-0.5|=0.0082)
+    Awning          = 0.4792  (|d-0.5|=0.0208)
+    WallSign        = 0.2585  (|d-0.5|=0.2415)
+  s_2694_jpg
+    ltn=1 clingo=0 body=0.5245
+    Cafe            = 0.5072  (|d-0.5|=0.0072)
+    Awning          = 0.5954  (|d-0.5|=0.0954)
+    WallSign        = 0.2317  (|d-0.5|=0.2683)
+  s_3114_jpg
+    ltn=1 clingo=0 body=0.5122
+    Cafe            = 0.5168  (|d-0.5|=0.0168)
+    Awning          = 0.5948  (|d-0.5|=0.0948)
+    WallSign        = 0.1912  (|d-0.5|=0.3088)
+  s_7487_jpg
+    ltn=1 clingo=0 body=0.5199
+    Cafe            = 0.5043  (|d-0.5|=0.0043)
+    Awning          = 0.6089  (|d-0.5|=0.1089)
+    WallSign        = 0.1712  (|d-0.5|=0.3288)
+  s_5441_jpg
+    ltn=1 clingo=0 body=0.5221
+    Cafe            = 0.5099  (|d-0.5|=0.0099)
+    Awning          = 0.6584  (|d-0.5|=0.1584)
+    WallSign        = 0.2058  (|d-0.5|=0.2942)
+  s_6506_jpg
+    ltn=1 clingo=0 body=0.5039
+    Cafe            = 0.5167  (|d-0.5|=0.0167)
+    Awning          = 0.4444  (|d-0.5|=0.0556)
+    WallSign        = 0.1758  (|d-0.5|=0.3242)
+
+
+
+--- rule_DT3_ResidentialBuildingType (232 disagreements) ---
+  s_1857_jpg
+    ltn=1 clingo=0 body=0.7780  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4659  (|d-0.5|=0.0341)
+    MiscResidential = 0.2304  (|d-0.5|=0.2696)
+    CountryHouse    = 0.4765  (|d-0.5|=0.0235)
+    Residential     = 0.9837  (|d-0.5|=0.4837)
+  s_1929_jpg
+    ltn=1 clingo=0 body=0.6153  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3840  (|d-0.5|=0.1160)
+    MiscResidential = 0.1529  (|d-0.5|=0.3471)
+    CountryHouse    = 0.2630  (|d-0.5|=0.2370)
+    Residential     = 0.9998  (|d-0.5|=0.4998)
+  s_4083_jpg
+    ltn=1 clingo=0 body=0.5608
+    Suburban        = 0.4267  (|d-0.5|=0.0733)
+    MiscResidential = 0.1046  (|d-0.5|=0.3954)
+    CountryHouse    = 0.1445  (|d-0.5|=0.3555)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3549_jpg
+    ltn=1 clingo=0 body=0.5037
+    Suburban        = 0.6025  (|d-0.5|=0.1025)
+    MiscResidential = 0.3525  (|d-0.5|=0.1475)
+    CountryHouse    = 0.7253  (|d-0.5|=0.2253)
+    Residential     = 0.4852  (|d-0.5|=0.0148)
+  s_2139_jpg
+    ltn=1 clingo=0 body=0.5430
+    Suburban        = 0.3775  (|d-0.5|=0.1225)
+    MiscResidential = 0.1278  (|d-0.5|=0.3722)
+    CountryHouse    = 0.1584  (|d-0.5|=0.3416)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1464_jpg
+    ltn=1 clingo=0 body=0.5819
+    Suburban        = 0.4528  (|d-0.5|=0.0472)
+    MiscResidential = 0.1215  (|d-0.5|=0.3785)
+    CountryHouse    = 0.1306  (|d-0.5|=0.3694)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3393_jpg
+    ltn=1 clingo=0 body=0.6299  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4053  (|d-0.5|=0.0947)
+    MiscResidential = 0.1745  (|d-0.5|=0.3255)
+    CountryHouse    = 0.2465  (|d-0.5|=0.2535)
+    Residential     = 0.9997  (|d-0.5|=0.4997)
+  s_7409_jpg
+    ltn=1 clingo=0 body=0.6129  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4029  (|d-0.5|=0.0971)
+    MiscResidential = 0.0960  (|d-0.5|=0.4040)
+    CountryHouse    = 0.2832  (|d-0.5|=0.2168)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4080_jpg
+    ltn=1 clingo=0 body=0.6566  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3798  (|d-0.5|=0.1202)
+    MiscResidential = 0.1892  (|d-0.5|=0.3108)
+    CountryHouse    = 0.3176  (|d-0.5|=0.1824)
+    Residential     = 0.9988  (|d-0.5|=0.4988)
+  s_4734_jpg
+    ltn=1 clingo=0 body=0.5812
+    Suburban        = 0.3673  (|d-0.5|=0.1327)
+    MiscResidential = 0.1677  (|d-0.5|=0.3323)
+    CountryHouse    = 0.2049  (|d-0.5|=0.2951)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3453_jpg
+    ltn=1 clingo=0 body=0.5202
+    Suburban        = 0.4694  (|d-0.5|=0.0306)
+    MiscResidential = 0.0498  (|d-0.5|=0.4502)
+    CountryHouse    = 0.0485  (|d-0.5|=0.4515)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_291_jpg
+    ltn=1 clingo=0 body=0.7033  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4875  (|d-0.5|=0.0125)
+    MiscResidential = 0.2184  (|d-0.5|=0.2816)
+    CountryHouse    = 0.2598  (|d-0.5|=0.2402)
+    Residential     = 0.9997  (|d-0.5|=0.4997)
+  s_2565_jpg
+    ltn=1 clingo=0 body=0.6203  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4527  (|d-0.5|=0.0473)
+    MiscResidential = 0.1691  (|d-0.5|=0.3309)
+    CountryHouse    = 0.1653  (|d-0.5|=0.3347)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3213_jpg
+    ltn=1 clingo=0 body=0.6040  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4886  (|d-0.5|=0.0114)
+    MiscResidential = 0.0705  (|d-0.5|=0.4295)
+    CountryHouse    = 0.1672  (|d-0.5|=0.3328)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_165_jpg
+    ltn=1 clingo=0 body=0.6379  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3679  (|d-0.5|=0.1321)
+    MiscResidential = 0.1663  (|d-0.5|=0.3337)
+    CountryHouse    = 0.3131  (|d-0.5|=0.1869)
+    Residential     = 0.9992  (|d-0.5|=0.4992)
+  s_1614_jpg
+    ltn=1 clingo=0 body=0.6796  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4696  (|d-0.5|=0.0304)
+    MiscResidential = 0.2098  (|d-0.5|=0.2902)
+    CountryHouse    = 0.2359  (|d-0.5|=0.2641)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_648_jpg
+    ltn=1 clingo=0 body=0.7222  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3979  (|d-0.5|=0.1021)
+    MiscResidential = 0.2077  (|d-0.5|=0.2923)
+    CountryHouse    = 0.4207  (|d-0.5|=0.0793)
+    Residential     = 0.9947  (|d-0.5|=0.4947)
+  s_3756_jpg
+    ltn=1 clingo=0 body=0.5221
+    Suburban        = 0.3655  (|d-0.5|=0.1345)
+    MiscResidential = 0.0770  (|d-0.5|=0.4230)
+    CountryHouse    = 0.1842  (|d-0.5|=0.3158)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_504_jpg
+    ltn=1 clingo=0 body=0.7320  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4545  (|d-0.5|=0.0455)
+    MiscResidential = 0.1569  (|d-0.5|=0.3431)
+    CountryHouse    = 0.4186  (|d-0.5|=0.0814)
+    Residential     = 0.9984  (|d-0.5|=0.4984)
+  s_5366_jpg
+    ltn=1 clingo=0 body=0.5205
+    Suburban        = 0.4682  (|d-0.5|=0.0318)
+    MiscResidential = 0.0611  (|d-0.5|=0.4389)
+    CountryHouse    = 0.0399  (|d-0.5|=0.4601)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6941_jpg
+    ltn=1 clingo=0 body=0.5639
+    Suburban        = 0.4962  (|d-0.5|=0.0038)
+    MiscResidential = 0.0596  (|d-0.5|=0.4404)
+    CountryHouse    = 0.0798  (|d-0.5|=0.4202)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2538_jpg
+    ltn=1 clingo=0 body=0.5981
+    Suburban        = 0.4939  (|d-0.5|=0.0061)
+    MiscResidential = 0.1270  (|d-0.5|=0.3730)
+    CountryHouse    = 0.0905  (|d-0.5|=0.4095)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7895_jpg
+    ltn=1 clingo=0 body=0.5237
+    Suburban        = 0.4731  (|d-0.5|=0.0269)
+    MiscResidential = 0.0603  (|d-0.5|=0.4397)
+    CountryHouse    = 0.0383  (|d-0.5|=0.4617)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4461_jpg
+    ltn=1 clingo=0 body=0.5922
+    Suburban        = 0.4996  (|d-0.5|=0.0004)
+    MiscResidential = 0.0873  (|d-0.5|=0.4127)
+    CountryHouse    = 0.1075  (|d-0.5|=0.3925)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4710_jpg
+    ltn=1 clingo=0 body=0.5799
+    Suburban        = 0.3615  (|d-0.5|=0.1385)
+    MiscResidential = 0.1084  (|d-0.5|=0.3916)
+    CountryHouse    = 0.2622  (|d-0.5|=0.2378)
+    Residential     = 0.9994  (|d-0.5|=0.4994)
+  s_363_jpg
+    ltn=1 clingo=0 body=0.5350
+    Suburban        = 0.4601  (|d-0.5|=0.0399)
+    MiscResidential = 0.0824  (|d-0.5|=0.4176)
+    CountryHouse    = 0.0615  (|d-0.5|=0.4385)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6185_jpg
+    ltn=1 clingo=0 body=0.6713  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4658  (|d-0.5|=0.0342)
+    MiscResidential = 0.1977  (|d-0.5|=0.3023)
+    CountryHouse    = 0.2336  (|d-0.5|=0.2664)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_6071_jpg
+    ltn=1 clingo=0 body=0.5087
+    Suburban        = 0.4007  (|d-0.5|=0.0993)
+    MiscResidential = 0.1037  (|d-0.5|=0.3963)
+    CountryHouse    = 0.0856  (|d-0.5|=0.4144)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4446_jpg
+    ltn=1 clingo=0 body=0.5677
+    Suburban        = 0.4493  (|d-0.5|=0.0507)
+    MiscResidential = 0.0975  (|d-0.5|=0.4025)
+    CountryHouse    = 0.1303  (|d-0.5|=0.3697)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2109_jpg
+    ltn=1 clingo=0 body=0.5134
+    Suburban        = 0.3491  (|d-0.5|=0.1509)
+    MiscResidential = 0.1345  (|d-0.5|=0.3655)
+    CountryHouse    = 0.1363  (|d-0.5|=0.3637)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3978_jpg
+    ltn=1 clingo=0 body=0.5691
+    Suburban        = 0.4716  (|d-0.5|=0.0284)
+    MiscResidential = 0.0809  (|d-0.5|=0.4191)
+    CountryHouse    = 0.1130  (|d-0.5|=0.3870)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4422_jpg
+    ltn=1 clingo=0 body=0.6210  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4827  (|d-0.5|=0.0173)
+    MiscResidential = 0.1342  (|d-0.5|=0.3658)
+    CountryHouse    = 0.1542  (|d-0.5|=0.3458)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_5390_jpg
+    ltn=1 clingo=0 body=0.5713
+    Suburban        = 0.4943  (|d-0.5|=0.0057)
+    MiscResidential = 0.0802  (|d-0.5|=0.4198)
+    CountryHouse    = 0.0785  (|d-0.5|=0.4215)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7757_jpg
+    ltn=1 clingo=0 body=0.6834  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4721  (|d-0.5|=0.0279)
+    MiscResidential = 0.2323  (|d-0.5|=0.2677)
+    CountryHouse    = 0.2193  (|d-0.5|=0.2807)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_4584_jpg
+    ltn=1 clingo=0 body=0.6132  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3269  (|d-0.5|=0.1731)
+    MiscResidential = 0.1696  (|d-0.5|=0.3304)
+    CountryHouse    = 0.3081  (|d-0.5|=0.1919)
+    Residential     = 0.9934  (|d-0.5|=0.4934)
+  s_3750_jpg
+    ltn=1 clingo=0 body=0.6622  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4947  (|d-0.5|=0.0053)
+    MiscResidential = 0.1903  (|d-0.5|=0.3097)
+    CountryHouse    = 0.1746  (|d-0.5|=0.3254)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4992_jpg
+    ltn=1 clingo=0 body=0.5405
+    Suburban        = 0.2918  (|d-0.5|=0.2082)
+    MiscResidential = 0.1019  (|d-0.5|=0.3981)
+    CountryHouse    = 0.2775  (|d-0.5|=0.2225)
+    Residential     = 0.9991  (|d-0.5|=0.4991)
+  s_4305_jpg
+    ltn=1 clingo=0 body=0.5339
+    Suburban        = 0.3745  (|d-0.5|=0.1255)
+    MiscResidential = 0.0992  (|d-0.5|=0.4008)
+    CountryHouse    = 0.1730  (|d-0.5|=0.3270)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3768_jpg
+    ltn=1 clingo=0 body=0.6294  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4205  (|d-0.5|=0.0795)
+    MiscResidential = 0.1095  (|d-0.5|=0.3905)
+    CountryHouse    = 0.2822  (|d-0.5|=0.2178)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2469_jpg
+    ltn=1 clingo=0 body=0.5820
+    Suburban        = 0.3829  (|d-0.5|=0.1171)
+    MiscResidential = 0.0888  (|d-0.5|=0.4112)
+    CountryHouse    = 0.2568  (|d-0.5|=0.2432)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_3930_jpg
+    ltn=1 clingo=0 body=0.6321  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.2890  (|d-0.5|=0.2110)
+    MiscResidential = 0.1254  (|d-0.5|=0.3746)
+    CountryHouse    = 0.4100  (|d-0.5|=0.0900)
+    Residential     = 0.9781  (|d-0.5|=0.4781)
+  s_5336_jpg
+    ltn=1 clingo=0 body=0.5399
+    Suburban        = 0.4624  (|d-0.5|=0.0376)
+    MiscResidential = 0.0922  (|d-0.5|=0.4078)
+    CountryHouse    = 0.0574  (|d-0.5|=0.4426)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2649_jpg
+    ltn=1 clingo=0 body=0.5767
+    Suburban        = 0.3452  (|d-0.5|=0.1548)
+    MiscResidential = 0.1313  (|d-0.5|=0.3687)
+    CountryHouse    = 0.2558  (|d-0.5|=0.2442)
+    Residential     = 0.9986  (|d-0.5|=0.4986)
+  s_6569_jpg
+    ltn=1 clingo=0 body=0.7131  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3548  (|d-0.5|=0.1452)
+    MiscResidential = 0.1682  (|d-0.5|=0.3318)
+    CountryHouse    = 0.4910  (|d-0.5|=0.0090)
+    Residential     = 0.9488  (|d-0.5|=0.4488)
+  s_2772_jpg
+    ltn=1 clingo=0 body=0.6043  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4992  (|d-0.5|=0.0008)
+    MiscResidential = 0.1162  (|d-0.5|=0.3838)
+    CountryHouse    = 0.1063  (|d-0.5|=0.3937)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6464_jpg
+    ltn=1 clingo=0 body=0.5121
+    Suburban        = 0.4053  (|d-0.5|=0.0947)
+    MiscResidential = 0.0847  (|d-0.5|=0.4153)
+    CountryHouse    = 0.1038  (|d-0.5|=0.3962)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3843_jpg
+    ltn=1 clingo=0 body=0.5079
+    Suburban        = 0.4284  (|d-0.5|=0.0716)
+    MiscResidential = 0.0700  (|d-0.5|=0.4300)
+    CountryHouse    = 0.0746  (|d-0.5|=0.4254)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3096_jpg
+    ltn=1 clingo=0 body=0.5023
+    Suburban        = 0.4515  (|d-0.5|=0.0485)
+    MiscResidential = 0.0525  (|d-0.5|=0.4475)
+    CountryHouse    = 0.0423  (|d-0.5|=0.4577)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_159_jpg
+    ltn=1 clingo=0 body=0.5900
+    Suburban        = 0.4722  (|d-0.5|=0.0278)
+    MiscResidential = 0.1415  (|d-0.5|=0.3585)
+    CountryHouse    = 0.0954  (|d-0.5|=0.4046)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4344_jpg
+    ltn=1 clingo=0 body=0.5126
+    Suburban        = 0.3910  (|d-0.5|=0.1090)
+    MiscResidential = 0.0455  (|d-0.5|=0.4545)
+    CountryHouse    = 0.1616  (|d-0.5|=0.3384)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2583_jpg
+    ltn=1 clingo=0 body=0.5277
+    Suburban        = 0.4129  (|d-0.5|=0.0871)
+    MiscResidential = 0.1010  (|d-0.5|=0.3990)
+    CountryHouse    = 0.1054  (|d-0.5|=0.3946)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7877_jpg
+    ltn=1 clingo=0 body=0.6237  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3333  (|d-0.5|=0.1667)
+    MiscResidential = 0.1362  (|d-0.5|=0.3638)
+    CountryHouse    = 0.3469  (|d-0.5|=0.1531)
+    Residential     = 0.9958  (|d-0.5|=0.4958)
+  s_3855_jpg
+    ltn=1 clingo=0 body=0.5848
+    Suburban        = 0.4286  (|d-0.5|=0.0714)
+    MiscResidential = 0.1473  (|d-0.5|=0.3527)
+    CountryHouse    = 0.1481  (|d-0.5|=0.3519)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2340_jpg
+    ltn=1 clingo=0 body=0.6331  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4211  (|d-0.5|=0.0789)
+    MiscResidential = 0.1933  (|d-0.5|=0.3067)
+    CountryHouse    = 0.2147  (|d-0.5|=0.2853)
+    Residential     = 0.9998  (|d-0.5|=0.4998)
+  s_432_jpg
+    ltn=1 clingo=0 body=0.5345
+    Suburban        = 0.3815  (|d-0.5|=0.1185)
+    MiscResidential = 0.0871  (|d-0.5|=0.4129)
+    CountryHouse    = 0.1758  (|d-0.5|=0.3242)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_855_jpg
+    ltn=1 clingo=0 body=0.5676
+    Suburban        = 0.3945  (|d-0.5|=0.1055)
+    MiscResidential = 0.1367  (|d-0.5|=0.3633)
+    CountryHouse    = 0.1730  (|d-0.5|=0.3270)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7664_jpg
+    ltn=1 clingo=0 body=0.7599  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4521  (|d-0.5|=0.0479)
+    MiscResidential = 0.2620  (|d-0.5|=0.2380)
+    CountryHouse    = 0.4186  (|d-0.5|=0.0814)
+    Residential     = 0.9863  (|d-0.5|=0.4863)
+  s_5132_jpg
+    ltn=1 clingo=0 body=0.7258  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4713  (|d-0.5|=0.0287)
+    MiscResidential = 0.2033  (|d-0.5|=0.2967)
+    CountryHouse    = 0.3498  (|d-0.5|=0.1502)
+    Residential     = 0.9994  (|d-0.5|=0.4994)
+  s_6014_jpg
+    ltn=1 clingo=0 body=0.7367  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3898  (|d-0.5|=0.1102)
+    MiscResidential = 0.1635  (|d-0.5|=0.3365)
+    CountryHouse    = 0.4970  (|d-0.5|=0.0030)
+    Residential     = 0.9788  (|d-0.5|=0.4788)
+  s_5057_jpg
+    ltn=1 clingo=0 body=0.5302
+    Suburban        = 0.4214  (|d-0.5|=0.0786)
+    MiscResidential = 0.1151  (|d-0.5|=0.3849)
+    CountryHouse    = 0.0825  (|d-0.5|=0.4175)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3546_jpg
+    ltn=1 clingo=0 body=0.6491  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4299  (|d-0.5|=0.0701)
+    MiscResidential = 0.1240  (|d-0.5|=0.3760)
+    CountryHouse    = 0.2977  (|d-0.5|=0.2023)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2838_jpg
+    ltn=1 clingo=0 body=0.5437
+    Suburban        = 0.4713  (|d-0.5|=0.0287)
+    MiscResidential = 0.0780  (|d-0.5|=0.4220)
+    CountryHouse    = 0.0641  (|d-0.5|=0.4359)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_933_jpg
+    ltn=1 clingo=0 body=0.5396
+    Suburban        = 0.4128  (|d-0.5|=0.0872)
+    MiscResidential = 0.1211  (|d-0.5|=0.3789)
+    CountryHouse    = 0.1082  (|d-0.5|=0.3918)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6563_jpg
+    ltn=1 clingo=0 body=0.6415  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4639  (|d-0.5|=0.0361)
+    MiscResidential = 0.1828  (|d-0.5|=0.3172)
+    CountryHouse    = 0.1820  (|d-0.5|=0.3180)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4932_jpg
+    ltn=1 clingo=0 body=0.5264
+    Suburban        = 0.3323  (|d-0.5|=0.1677)
+    MiscResidential = 0.0540  (|d-0.5|=0.4460)
+    CountryHouse    = 0.2504  (|d-0.5|=0.2496)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3933_jpg
+    ltn=1 clingo=0 body=0.5904
+    Suburban        = 0.4352  (|d-0.5|=0.0648)
+    MiscResidential = 0.1566  (|d-0.5|=0.3434)
+    CountryHouse    = 0.1403  (|d-0.5|=0.3597)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2691_jpg
+    ltn=1 clingo=0 body=0.5003
+    Suburban        = 0.3713  (|d-0.5|=0.1287)
+    MiscResidential = 0.1050  (|d-0.5|=0.3950)
+    CountryHouse    = 0.1119  (|d-0.5|=0.3881)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7874_jpg
+    ltn=1 clingo=0 body=0.5263
+    Suburban        = 0.3186  (|d-0.5|=0.1814)
+    MiscResidential = 0.1713  (|d-0.5|=0.3287)
+    CountryHouse    = 0.1612  (|d-0.5|=0.3388)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_5768_jpg
+    ltn=1 clingo=0 body=0.5345
+    Suburban        = 0.4009  (|d-0.5|=0.0991)
+    MiscResidential = 0.1121  (|d-0.5|=0.3879)
+    CountryHouse    = 0.1251  (|d-0.5|=0.3749)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3219_jpg
+    ltn=1 clingo=0 body=0.6782  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3462  (|d-0.5|=0.1538)
+    MiscResidential = 0.1668  (|d-0.5|=0.3332)
+    CountryHouse    = 0.4111  (|d-0.5|=0.0889)
+    Residential     = 0.9943  (|d-0.5|=0.4943)
+  s_6707_jpg
+    ltn=1 clingo=0 body=0.6508  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3695  (|d-0.5|=0.1305)
+    MiscResidential = 0.1631  (|d-0.5|=0.3369)
+    CountryHouse    = 0.3386  (|d-0.5|=0.1614)
+    Residential     = 0.9984  (|d-0.5|=0.4984)
+  s_2697_jpg
+    ltn=1 clingo=0 body=0.5216
+    Suburban        = 0.3697  (|d-0.5|=0.1303)
+    MiscResidential = 0.1201  (|d-0.5|=0.3799)
+    CountryHouse    = 0.1376  (|d-0.5|=0.3624)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7331_jpg
+    ltn=1 clingo=0 body=0.5668
+    Suburban        = 0.3383  (|d-0.5|=0.1617)
+    MiscResidential = 0.1446  (|d-0.5|=0.3554)
+    CountryHouse    = 0.2347  (|d-0.5|=0.2653)
+    Residential     = 0.9989  (|d-0.5|=0.4989)
+  s_3417_jpg
+    ltn=1 clingo=0 body=0.6663  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4626  (|d-0.5|=0.0374)
+    MiscResidential = 0.1727  (|d-0.5|=0.3273)
+    CountryHouse    = 0.2498  (|d-0.5|=0.2502)
+    Residential     = 0.9998  (|d-0.5|=0.4998)
+  s_2022_jpg
+    ltn=1 clingo=0 body=0.6397  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3684  (|d-0.5|=0.1316)
+    MiscResidential = 0.1973  (|d-0.5|=0.3027)
+    CountryHouse    = 0.2896  (|d-0.5|=0.2104)
+    Residential     = 0.9992  (|d-0.5|=0.4992)
+  s_756_jpg
+    ltn=1 clingo=0 body=0.6737  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4903  (|d-0.5|=0.0097)
+    MiscResidential = 0.1496  (|d-0.5|=0.3504)
+    CountryHouse    = 0.2476  (|d-0.5|=0.2524)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1467_jpg
+    ltn=1 clingo=0 body=0.5081
+    Suburban        = 0.4906  (|d-0.5|=0.0094)
+    MiscResidential = 0.0279  (|d-0.5|=0.4721)
+    CountryHouse    = 0.0068  (|d-0.5|=0.4932)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6188_jpg
+    ltn=1 clingo=0 body=0.5312
+    Suburban        = 0.4253  (|d-0.5|=0.0747)
+    MiscResidential = 0.0983  (|d-0.5|=0.4017)
+    CountryHouse    = 0.0955  (|d-0.5|=0.4045)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_975_jpg
+    ltn=1 clingo=0 body=0.7364  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4497  (|d-0.5|=0.0503)
+    MiscResidential = 0.1947  (|d-0.5|=0.3053)
+    CountryHouse    = 0.4065  (|d-0.5|=0.0935)
+    Residential     = 0.9985  (|d-0.5|=0.4985)
+  s_495_jpg
+    ltn=1 clingo=0 body=0.6209  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4823  (|d-0.5|=0.0177)
+    MiscResidential = 0.1564  (|d-0.5|=0.3436)
+    CountryHouse    = 0.1322  (|d-0.5|=0.3678)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3489_jpg
+    ltn=1 clingo=0 body=0.7113  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4211  (|d-0.5|=0.0789)
+    MiscResidential = 0.2370  (|d-0.5|=0.2630)
+    CountryHouse    = 0.3474  (|d-0.5|=0.1526)
+    Residential     = 0.9989  (|d-0.5|=0.4989)
+  s_1719_jpg
+    ltn=1 clingo=0 body=0.6235  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4640  (|d-0.5|=0.0360)
+    MiscResidential = 0.1571  (|d-0.5|=0.3429)
+    CountryHouse    = 0.1668  (|d-0.5|=0.3332)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4035_jpg
+    ltn=1 clingo=0 body=0.6465  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4232  (|d-0.5|=0.0768)
+    MiscResidential = 0.2017  (|d-0.5|=0.2983)
+    CountryHouse    = 0.2326  (|d-0.5|=0.2674)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_6986_jpg
+    ltn=1 clingo=0 body=0.5533
+    Suburban        = 0.4664  (|d-0.5|=0.0336)
+    MiscResidential = 0.0814  (|d-0.5|=0.4186)
+    CountryHouse    = 0.0889  (|d-0.5|=0.4111)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6281_jpg
+    ltn=1 clingo=0 body=0.5498
+    Suburban        = 0.4817  (|d-0.5|=0.0183)
+    MiscResidential = 0.0707  (|d-0.5|=0.4293)
+    CountryHouse    = 0.0654  (|d-0.5|=0.4346)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_750_jpg
+    ltn=1 clingo=0 body=0.6379  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4587  (|d-0.5|=0.0413)
+    MiscResidential = 0.1326  (|d-0.5|=0.3674)
+    CountryHouse    = 0.2291  (|d-0.5|=0.2709)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1365_jpg
+    ltn=1 clingo=0 body=0.6340  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3743  (|d-0.5|=0.1257)
+    MiscResidential = 0.1845  (|d-0.5|=0.3155)
+    CountryHouse    = 0.2829  (|d-0.5|=0.2171)
+    Residential     = 0.9996  (|d-0.5|=0.4996)
+  s_5585_jpg
+    ltn=1 clingo=0 body=0.6166  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3464  (|d-0.5|=0.1536)
+    MiscResidential = 0.1332  (|d-0.5|=0.3668)
+    CountryHouse    = 0.3235  (|d-0.5|=0.1765)
+    Residential     = 0.9962  (|d-0.5|=0.4962)
+  s_2409_jpg
+    ltn=1 clingo=0 body=0.6317  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3139  (|d-0.5|=0.1861)
+    MiscResidential = 0.1837  (|d-0.5|=0.3163)
+    CountryHouse    = 0.3430  (|d-0.5|=0.1570)
+    Residential     = 0.9936  (|d-0.5|=0.4936)
+  s_3216_jpg
+    ltn=1 clingo=0 body=0.7024  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3948  (|d-0.5|=0.1052)
+    MiscResidential = 0.1635  (|d-0.5|=0.3365)
+    CountryHouse    = 0.4154  (|d-0.5|=0.0846)
+    Residential     = 0.9928  (|d-0.5|=0.4928)
+  s_5930_jpg
+    ltn=1 clingo=0 body=0.5228
+    Suburban        = 0.4582  (|d-0.5|=0.0418)
+    MiscResidential = 0.0597  (|d-0.5|=0.4403)
+    CountryHouse    = 0.0635  (|d-0.5|=0.4365)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6_jpg
+    ltn=1 clingo=0 body=0.5109
+    Suburban        = 0.4627  (|d-0.5|=0.0373)
+    MiscResidential = 0.0528  (|d-0.5|=0.4472)
+    CountryHouse    = 0.0392  (|d-0.5|=0.4608)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_576_jpg
+    ltn=1 clingo=0 body=0.7282  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4188  (|d-0.5|=0.0812)
+    MiscResidential = 0.1536  (|d-0.5|=0.3464)
+    CountryHouse    = 0.4505  (|d-0.5|=0.0495)
+    Residential     = 0.9948  (|d-0.5|=0.4948)
+  s_333_jpg
+    ltn=1 clingo=0 body=0.5341
+    Suburban        = 0.4869  (|d-0.5|=0.0131)
+    MiscResidential = 0.0526  (|d-0.5|=0.4474)
+    CountryHouse    = 0.0417  (|d-0.5|=0.4583)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7181_jpg
+    ltn=1 clingo=0 body=0.6771  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4871  (|d-0.5|=0.0129)
+    MiscResidential = 0.1837  (|d-0.5|=0.3163)
+    CountryHouse    = 0.2291  (|d-0.5|=0.2709)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_5519_jpg
+    ltn=1 clingo=0 body=0.5810
+    Suburban        = 0.4602  (|d-0.5|=0.0398)
+    MiscResidential = 0.1100  (|d-0.5|=0.3900)
+    CountryHouse    = 0.1280  (|d-0.5|=0.3720)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1878_jpg
+    ltn=1 clingo=0 body=0.5245
+    Suburban        = 0.3876  (|d-0.5|=0.1124)
+    MiscResidential = 0.1165  (|d-0.5|=0.3835)
+    CountryHouse    = 0.1213  (|d-0.5|=0.3787)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7292_jpg
+    ltn=1 clingo=0 body=0.6139  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4858  (|d-0.5|=0.0142)
+    MiscResidential = 0.1325  (|d-0.5|=0.3675)
+    CountryHouse    = 0.1348  (|d-0.5|=0.3652)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4560_jpg
+    ltn=1 clingo=0 body=0.5872
+    Suburban        = 0.4170  (|d-0.5|=0.0830)
+    MiscResidential = 0.1626  (|d-0.5|=0.3374)
+    CountryHouse    = 0.1548  (|d-0.5|=0.3452)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7325_jpg
+    ltn=1 clingo=0 body=0.5237
+    Suburban        = 0.4324  (|d-0.5|=0.0676)
+    MiscResidential = 0.0801  (|d-0.5|=0.4199)
+    CountryHouse    = 0.0880  (|d-0.5|=0.4120)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_5936_jpg
+    ltn=1 clingo=0 body=0.5175
+    Suburban        = 0.4201  (|d-0.5|=0.0799)
+    MiscResidential = 0.0703  (|d-0.5|=0.4297)
+    CountryHouse    = 0.1052  (|d-0.5|=0.3948)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7187_jpg
+    ltn=1 clingo=0 body=0.5584
+    Suburban        = 0.4695  (|d-0.5|=0.0305)
+    MiscResidential = 0.0870  (|d-0.5|=0.4130)
+    CountryHouse    = 0.0885  (|d-0.5|=0.4115)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4041_jpg
+    ltn=1 clingo=0 body=0.5630
+    Suburban        = 0.4454  (|d-0.5|=0.0546)
+    MiscResidential = 0.1157  (|d-0.5|=0.3843)
+    CountryHouse    = 0.1092  (|d-0.5|=0.3908)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_237_jpg
+    ltn=1 clingo=0 body=0.5904
+    Suburban        = 0.4035  (|d-0.5|=0.0965)
+    MiscResidential = 0.1090  (|d-0.5|=0.3910)
+    CountryHouse    = 0.2295  (|d-0.5|=0.2705)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3552_jpg
+    ltn=1 clingo=0 body=0.5547
+    Suburban        = 0.4455  (|d-0.5|=0.0545)
+    MiscResidential = 0.1022  (|d-0.5|=0.3978)
+    CountryHouse    = 0.1058  (|d-0.5|=0.3942)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4656_jpg
+    ltn=1 clingo=0 body=0.5066
+    Suburban        = 0.4628  (|d-0.5|=0.0372)
+    MiscResidential = 0.0485  (|d-0.5|=0.4515)
+    CountryHouse    = 0.0350  (|d-0.5|=0.4650)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4629_jpg
+    ltn=1 clingo=0 body=0.6222  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4428  (|d-0.5|=0.0572)
+    MiscResidential = 0.1648  (|d-0.5|=0.3352)
+    CountryHouse    = 0.1885  (|d-0.5|=0.3115)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1050_jpg
+    ltn=1 clingo=0 body=0.6257  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3931  (|d-0.5|=0.1069)
+    MiscResidential = 0.1428  (|d-0.5|=0.3572)
+    CountryHouse    = 0.2807  (|d-0.5|=0.2193)
+    Residential     = 0.9995  (|d-0.5|=0.4995)
+  s_7274_jpg
+    ltn=1 clingo=0 body=0.5401
+    Suburban        = 0.3150  (|d-0.5|=0.1850)
+    MiscResidential = 0.1059  (|d-0.5|=0.3941)
+    CountryHouse    = 0.2492  (|d-0.5|=0.2508)
+    Residential     = 0.9997  (|d-0.5|=0.4997)
+  s_3348_jpg
+    ltn=1 clingo=0 body=0.5261
+    Suburban        = 0.4194  (|d-0.5|=0.0806)
+    MiscResidential = 0.0942  (|d-0.5|=0.4058)
+    CountryHouse    = 0.0990  (|d-0.5|=0.4010)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_87_jpg
+    ltn=1 clingo=0 body=0.7326  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4158  (|d-0.5|=0.0842)
+    MiscResidential = 0.1158  (|d-0.5|=0.3842)
+    CountryHouse    = 0.4840  (|d-0.5|=0.0160)
+    Residential     = 0.9974  (|d-0.5|=0.4974)
+  s_453_jpg
+    ltn=1 clingo=0 body=0.5615
+    Suburban        = 0.3332  (|d-0.5|=0.1668)
+    MiscResidential = 0.1122  (|d-0.5|=0.3878)
+    CountryHouse    = 0.2594  (|d-0.5|=0.2406)
+    Residential     = 0.9996  (|d-0.5|=0.4996)
+  s_4902_jpg
+    ltn=1 clingo=0 body=0.5338
+    Suburban        = 0.3007  (|d-0.5|=0.1993)
+    MiscResidential = 0.1377  (|d-0.5|=0.3623)
+    CountryHouse    = 0.2267  (|d-0.5|=0.2733)
+    Residential     = 0.9991  (|d-0.5|=0.4991)
+  s_3468_jpg
+    ltn=1 clingo=0 body=0.5484
+    Suburban        = 0.4305  (|d-0.5|=0.0695)
+    MiscResidential = 0.1050  (|d-0.5|=0.3950)
+    CountryHouse    = 0.1142  (|d-0.5|=0.3858)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4713_jpg
+    ltn=1 clingo=0 body=0.7974  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4974  (|d-0.5|=0.0026)
+    MiscResidential = 0.2096  (|d-0.5|=0.2904)
+    CountryHouse    = 0.4963  (|d-0.5|=0.0037)
+    Residential     = 0.9946  (|d-0.5|=0.4946)
+  s_3183_jpg
+    ltn=1 clingo=0 body=0.5166
+    Suburban        = 0.4495  (|d-0.5|=0.0505)
+    MiscResidential = 0.0617  (|d-0.5|=0.4383)
+    CountryHouse    = 0.0642  (|d-0.5|=0.4358)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2100_jpg
+    ltn=1 clingo=0 body=0.5398
+    Suburban        = 0.4053  (|d-0.5|=0.0947)
+    MiscResidential = 0.1345  (|d-0.5|=0.3655)
+    CountryHouse    = 0.1062  (|d-0.5|=0.3938)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2919_jpg
+    ltn=1 clingo=0 body=0.5700
+    Suburban        = 0.4837  (|d-0.5|=0.0163)
+    MiscResidential = 0.0960  (|d-0.5|=0.4040)
+    CountryHouse    = 0.0790  (|d-0.5|=0.4210)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_5246_jpg
+    ltn=1 clingo=0 body=0.5385
+    Suburban        = 0.4935  (|d-0.5|=0.0065)
+    MiscResidential = 0.0496  (|d-0.5|=0.4504)
+    CountryHouse    = 0.0416  (|d-0.5|=0.4584)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6995_jpg
+    ltn=1 clingo=0 body=0.5047
+    Suburban        = 0.3546  (|d-0.5|=0.1454)
+    MiscResidential = 0.0620  (|d-0.5|=0.4380)
+    CountryHouse    = 0.1820  (|d-0.5|=0.3180)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6145_jpg
+    ltn=1 clingo=0 body=0.5270
+    Suburban        = 0.4077  (|d-0.5|=0.0923)
+    MiscResidential = 0.1649  (|d-0.5|=0.3351)
+    CountryHouse    = 0.6321  (|d-0.5|=0.1321)
+    Residential     = 0.4840  (|d-0.5|=0.0160)
+  s_1833_jpg
+    ltn=1 clingo=0 body=0.6089  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3656  (|d-0.5|=0.1344)
+    MiscResidential = 0.1697  (|d-0.5|=0.3303)
+    CountryHouse    = 0.2578  (|d-0.5|=0.2422)
+    Residential     = 0.9997  (|d-0.5|=0.4997)
+  s_2154_jpg
+    ltn=1 clingo=0 body=0.6650  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3532  (|d-0.5|=0.1468)
+    MiscResidential = 0.1784  (|d-0.5|=0.3216)
+    CountryHouse    = 0.3721  (|d-0.5|=0.1279)
+    Residential     = 0.9896  (|d-0.5|=0.4896)
+  s_1029_jpg
+    ltn=1 clingo=0 body=0.6233  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4976  (|d-0.5|=0.0024)
+    MiscResidential = 0.1346  (|d-0.5|=0.3654)
+    CountryHouse    = 0.1337  (|d-0.5|=0.3663)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2787_jpg
+    ltn=1 clingo=0 body=0.6616  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3558  (|d-0.5|=0.1442)
+    MiscResidential = 0.1707  (|d-0.5|=0.3293)
+    CountryHouse    = 0.3685  (|d-0.5|=0.1315)
+    Residential     = 0.9910  (|d-0.5|=0.4910)
+  s_6641_jpg
+    ltn=1 clingo=0 body=0.5425
+    Suburban        = 0.4941  (|d-0.5|=0.0059)
+    MiscResidential = 0.0615  (|d-0.5|=0.4385)
+    CountryHouse    = 0.0365  (|d-0.5|=0.4635)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_5614_jpg
+    ltn=1 clingo=0 body=0.5106
+    Suburban        = 0.4141  (|d-0.5|=0.0859)
+    MiscResidential = 0.1843  (|d-0.5|=0.3157)
+    CountryHouse    = 0.6353  (|d-0.5|=0.1353)
+    Residential     = 0.4614  (|d-0.5|=0.0386)
+  s_1626_jpg
+    ltn=1 clingo=0 body=0.5979
+    Suburban        = 0.4392  (|d-0.5|=0.0608)
+    MiscResidential = 0.1401  (|d-0.5|=0.3599)
+    CountryHouse    = 0.1664  (|d-0.5|=0.3336)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2250_jpg
+    ltn=1 clingo=0 body=0.5319
+    Suburban        = 0.4551  (|d-0.5|=0.0449)
+    MiscResidential = 0.0737  (|d-0.5|=0.4263)
+    CountryHouse    = 0.0728  (|d-0.5|=0.4272)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6776_jpg
+    ltn=1 clingo=0 body=0.5258
+    Suburban        = 0.4034  (|d-0.5|=0.0966)
+    MiscResidential = 0.1080  (|d-0.5|=0.3920)
+    CountryHouse    = 0.1090  (|d-0.5|=0.3910)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_5426_jpg
+    ltn=1 clingo=0 body=0.6447  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3858  (|d-0.5|=0.1142)
+    MiscResidential = 0.1987  (|d-0.5|=0.3013)
+    CountryHouse    = 0.2785  (|d-0.5|=0.2215)
+    Residential     = 0.9994  (|d-0.5|=0.4994)
+  s_3399_jpg
+    ltn=1 clingo=0 body=0.5982
+    Suburban        = 0.4649  (|d-0.5|=0.0351)
+    MiscResidential = 0.1400  (|d-0.5|=0.3600)
+    CountryHouse    = 0.1272  (|d-0.5|=0.3728)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3135_jpg
+    ltn=1 clingo=0 body=0.5061
+    Suburban        = 0.2825  (|d-0.5|=0.2175)
+    MiscResidential = 0.1239  (|d-0.5|=0.3761)
+    CountryHouse    = 0.2135  (|d-0.5|=0.2865)
+    Residential     = 0.9977  (|d-0.5|=0.4977)
+  s_7835_jpg
+    ltn=1 clingo=0 body=0.5010
+    Suburban        = 0.4403  (|d-0.5|=0.0597)
+    MiscResidential = 0.0675  (|d-0.5|=0.4325)
+    CountryHouse    = 0.0441  (|d-0.5|=0.4559)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_579_jpg
+    ltn=1 clingo=0 body=0.6857  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4708  (|d-0.5|=0.0292)
+    MiscResidential = 0.2167  (|d-0.5|=0.2833)
+    CountryHouse    = 0.2421  (|d-0.5|=0.2579)
+    Residential     = 0.9998  (|d-0.5|=0.4998)
+  s_7880_jpg
+    ltn=1 clingo=0 body=0.5239
+    Suburban        = 0.3399  (|d-0.5|=0.1601)
+    MiscResidential = 0.1449  (|d-0.5|=0.3551)
+    CountryHouse    = 0.1566  (|d-0.5|=0.3434)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7499_jpg
+    ltn=1 clingo=0 body=0.5820
+    Suburban        = 0.4971  (|d-0.5|=0.0029)
+    MiscResidential = 0.1054  (|d-0.5|=0.3946)
+    CountryHouse    = 0.0713  (|d-0.5|=0.4287)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_5714_jpg
+    ltn=1 clingo=0 body=0.6224  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3893  (|d-0.5|=0.1107)
+    MiscResidential = 0.1102  (|d-0.5|=0.3898)
+    CountryHouse    = 0.3053  (|d-0.5|=0.1947)
+    Residential     = 0.9997  (|d-0.5|=0.4997)
+  s_5696_jpg
+    ltn=1 clingo=0 body=0.5783
+    Suburban        = 0.4794  (|d-0.5|=0.0206)
+    MiscResidential = 0.1273  (|d-0.5|=0.3727)
+    CountryHouse    = 0.0720  (|d-0.5|=0.4280)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7139_jpg
+    ltn=1 clingo=0 body=0.5366
+    Suburban        = 0.4582  (|d-0.5|=0.0418)
+    MiscResidential = 0.0881  (|d-0.5|=0.4119)
+    CountryHouse    = 0.0622  (|d-0.5|=0.4378)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_537_jpg
+    ltn=1 clingo=0 body=0.5986
+    Suburban        = 0.3611  (|d-0.5|=0.1389)
+    MiscResidential = 0.0633  (|d-0.5|=0.4367)
+    CountryHouse    = 0.3295  (|d-0.5|=0.1705)
+    Residential     = 0.9998  (|d-0.5|=0.4998)
+  s_6347_jpg
+    ltn=1 clingo=0 body=0.5701
+    Suburban        = 0.4442  (|d-0.5|=0.0558)
+    MiscResidential = 0.1446  (|d-0.5|=0.3554)
+    CountryHouse    = 0.0960  (|d-0.5|=0.4040)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4731_jpg
+    ltn=1 clingo=0 body=0.7107  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4157  (|d-0.5|=0.0843)
+    MiscResidential = 0.2157  (|d-0.5|=0.2843)
+    CountryHouse    = 0.3706  (|d-0.5|=0.1294)
+    Residential     = 0.9969  (|d-0.5|=0.4969)
+  s_2742_jpg
+    ltn=1 clingo=0 body=0.6415  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4722  (|d-0.5|=0.0278)
+    MiscResidential = 0.1091  (|d-0.5|=0.3909)
+    CountryHouse    = 0.2379  (|d-0.5|=0.2621)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1347_jpg
+    ltn=1 clingo=0 body=0.6956  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4630  (|d-0.5|=0.0370)
+    MiscResidential = 0.1833  (|d-0.5|=0.3167)
+    CountryHouse    = 0.3065  (|d-0.5|=0.1935)
+    Residential     = 0.9994  (|d-0.5|=0.4994)
+  s_7583_jpg
+    ltn=1 clingo=0 body=0.7241  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4928  (|d-0.5|=0.0072)
+    MiscResidential = 0.2274  (|d-0.5|=0.2726)
+    CountryHouse    = 0.2964  (|d-0.5|=0.2036)
+    Residential     = 0.9997  (|d-0.5|=0.4997)
+  s_2724_jpg
+    ltn=1 clingo=0 body=0.6808  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4765  (|d-0.5|=0.0235)
+    MiscResidential = 0.1592  (|d-0.5|=0.3408)
+    CountryHouse    = 0.2753  (|d-0.5|=0.2247)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_5675_jpg
+    ltn=1 clingo=0 body=0.5401
+    Suburban        = 0.3242  (|d-0.5|=0.1758)
+    MiscResidential = 0.1258  (|d-0.5|=0.3742)
+    CountryHouse    = 0.2215  (|d-0.5|=0.2785)
+    Residential     = 0.9996  (|d-0.5|=0.4996)
+  s_3927_jpg
+    ltn=1 clingo=0 body=0.6935  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3853  (|d-0.5|=0.1147)
+    MiscResidential = 0.1499  (|d-0.5|=0.3501)
+    CountryHouse    = 0.4145  (|d-0.5|=0.0855)
+    Residential     = 0.9975  (|d-0.5|=0.4975)
+  s_7502_jpg
+    ltn=1 clingo=0 body=0.6747  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4401  (|d-0.5|=0.0599)
+    MiscResidential = 0.1423  (|d-0.5|=0.3577)
+    CountryHouse    = 0.3231  (|d-0.5|=0.1769)
+    Residential     = 0.9994  (|d-0.5|=0.4994)
+  s_771_jpg
+    ltn=1 clingo=0 body=0.6489  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4714  (|d-0.5|=0.0286)
+    MiscResidential = 0.2052  (|d-0.5|=0.2948)
+    CountryHouse    = 0.1646  (|d-0.5|=0.3354)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7472_jpg
+    ltn=1 clingo=0 body=0.5751
+    Suburban        = 0.4887  (|d-0.5|=0.0113)
+    MiscResidential = 0.1072  (|d-0.5|=0.3928)
+    CountryHouse    = 0.0695  (|d-0.5|=0.4305)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_969_jpg
+    ltn=1 clingo=0 body=0.5563
+    Suburban        = 0.4750  (|d-0.5|=0.0250)
+    MiscResidential = 0.0957  (|d-0.5|=0.4043)
+    CountryHouse    = 0.0656  (|d-0.5|=0.4344)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7913_jpg
+    ltn=1 clingo=0 body=0.5020
+    Suburban        = 0.3672  (|d-0.5|=0.1328)
+    MiscResidential = 0.1008  (|d-0.5|=0.3992)
+    CountryHouse    = 0.1249  (|d-0.5|=0.3751)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4614_jpg
+    ltn=1 clingo=0 body=0.6137  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4543  (|d-0.5|=0.0457)
+    MiscResidential = 0.1713  (|d-0.5|=0.3287)
+    CountryHouse    = 0.1459  (|d-0.5|=0.3541)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6686_jpg
+    ltn=1 clingo=0 body=0.5341
+    Suburban        = 0.4074  (|d-0.5|=0.0926)
+    MiscResidential = 0.1111  (|d-0.5|=0.3889)
+    CountryHouse    = 0.1156  (|d-0.5|=0.3844)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_5393_jpg
+    ltn=1 clingo=0 body=0.5667
+    Suburban        = 0.3825  (|d-0.5|=0.1175)
+    MiscResidential = 0.1201  (|d-0.5|=0.3799)
+    CountryHouse    = 0.2026  (|d-0.5|=0.2974)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2307_jpg
+    ltn=1 clingo=0 body=0.5525
+    Suburban        = 0.3037  (|d-0.5|=0.1963)
+    MiscResidential = 0.1302  (|d-0.5|=0.3698)
+    CountryHouse    = 0.2611  (|d-0.5|=0.2389)
+    Residential     = 0.9991  (|d-0.5|=0.4991)
+  s_1041_jpg
+    ltn=1 clingo=0 body=0.7476  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4520  (|d-0.5|=0.0480)
+    MiscResidential = 0.2222  (|d-0.5|=0.2778)
+    CountryHouse    = 0.4107  (|d-0.5|=0.0893)
+    Residential     = 0.9968  (|d-0.5|=0.4968)
+  s_7313_jpg
+    ltn=1 clingo=0 body=0.6913  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4686  (|d-0.5|=0.0314)
+    MiscResidential = 0.2099  (|d-0.5|=0.2901)
+    CountryHouse    = 0.2653  (|d-0.5|=0.2347)
+    Residential     = 0.9997  (|d-0.5|=0.4997)
+  s_5867_jpg
+    ltn=1 clingo=0 body=0.5075
+    Suburban        = 0.3789  (|d-0.5|=0.1211)
+    MiscResidential = 0.1074  (|d-0.5|=0.3926)
+    CountryHouse    = 0.1118  (|d-0.5|=0.3882)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6359_jpg
+    ltn=1 clingo=0 body=0.6381  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4266  (|d-0.5|=0.0734)
+    MiscResidential = 0.1689  (|d-0.5|=0.3311)
+    CountryHouse    = 0.2408  (|d-0.5|=0.2592)
+    Residential     = 0.9998  (|d-0.5|=0.4998)
+  s_4053_jpg
+    ltn=1 clingo=0 body=0.5862
+    Suburban        = 0.3747  (|d-0.5|=0.1253)
+    MiscResidential = 0.1352  (|d-0.5|=0.3648)
+    CountryHouse    = 0.2350  (|d-0.5|=0.2650)
+    Residential     = 0.9997  (|d-0.5|=0.4997)
+  s_57_jpg
+    ltn=1 clingo=0 body=0.5239
+    Suburban        = 0.3470  (|d-0.5|=0.1530)
+    MiscResidential = 0.1153  (|d-0.5|=0.3847)
+    CountryHouse    = 0.1762  (|d-0.5|=0.3238)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4989_jpg
+    ltn=1 clingo=0 body=0.6085  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3948  (|d-0.5|=0.1052)
+    MiscResidential = 0.1682  (|d-0.5|=0.3318)
+    CountryHouse    = 0.2226  (|d-0.5|=0.2774)
+    Residential     = 0.9998  (|d-0.5|=0.4998)
+  s_4911_jpg
+    ltn=1 clingo=0 body=0.5563
+    Suburban        = 0.4801  (|d-0.5|=0.0199)
+    MiscResidential = 0.0911  (|d-0.5|=0.4089)
+    CountryHouse    = 0.0611  (|d-0.5|=0.4389)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1572_jpg
+    ltn=1 clingo=0 body=0.5429
+    Suburban        = 0.4619  (|d-0.5|=0.0381)
+    MiscResidential = 0.1022  (|d-0.5|=0.3978)
+    CountryHouse    = 0.0541  (|d-0.5|=0.4459)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_954_jpg
+    ltn=1 clingo=0 body=0.5815
+    Suburban        = 0.4756  (|d-0.5|=0.0244)
+    MiscResidential = 0.1173  (|d-0.5|=0.3827)
+    CountryHouse    = 0.0962  (|d-0.5|=0.4038)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_789_jpg
+    ltn=1 clingo=0 body=0.5694
+    Suburban        = 0.4920  (|d-0.5|=0.0080)
+    MiscResidential = 0.0900  (|d-0.5|=0.4100)
+    CountryHouse    = 0.0688  (|d-0.5|=0.4312)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6104_jpg
+    ltn=1 clingo=0 body=0.7739  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4782  (|d-0.5|=0.0218)
+    MiscResidential = 0.2636  (|d-0.5|=0.2364)
+    CountryHouse    = 0.4140  (|d-0.5|=0.0860)
+    Residential     = 0.9980  (|d-0.5|=0.4980)
+  s_804_jpg
+    ltn=1 clingo=0 body=0.6858  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4000  (|d-0.5|=0.1000)
+    MiscResidential = 0.1583  (|d-0.5|=0.3417)
+    CountryHouse    = 0.3792  (|d-0.5|=0.1208)
+    Residential     = 0.9968  (|d-0.5|=0.4968)
+  s_6401_jpg
+    ltn=1 clingo=0 body=0.5694
+    Suburban        = 0.4282  (|d-0.5|=0.0718)
+    MiscResidential = 0.1317  (|d-0.5|=0.3683)
+    CountryHouse    = 0.1329  (|d-0.5|=0.3671)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_693_jpg
+    ltn=1 clingo=0 body=0.6361  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4796  (|d-0.5|=0.0204)
+    MiscResidential = 0.0583  (|d-0.5|=0.4417)
+    CountryHouse    = 0.2578  (|d-0.5|=0.2422)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3882_jpg
+    ltn=1 clingo=0 body=0.7010  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3732  (|d-0.5|=0.1268)
+    MiscResidential = 0.1652  (|d-0.5|=0.3348)
+    CountryHouse    = 0.4349  (|d-0.5|=0.0651)
+    Residential     = 0.9847  (|d-0.5|=0.4847)
+  s_1482_jpg
+    ltn=1 clingo=0 body=0.5259
+    Suburban        = 0.4636  (|d-0.5|=0.0364)
+    MiscResidential = 0.0618  (|d-0.5|=0.4382)
+    CountryHouse    = 0.0580  (|d-0.5|=0.4420)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6389_jpg
+    ltn=1 clingo=0 body=0.7181  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4412  (|d-0.5|=0.0588)
+    MiscResidential = 0.1170  (|d-0.5|=0.3830)
+    CountryHouse    = 0.4294  (|d-0.5|=0.0706)
+    Residential     = 0.9994  (|d-0.5|=0.4994)
+  s_5387_jpg
+    ltn=1 clingo=0 body=0.5346
+    Suburban        = 0.4423  (|d-0.5|=0.0577)
+    MiscResidential = 0.0974  (|d-0.5|=0.4026)
+    CountryHouse    = 0.0757  (|d-0.5|=0.4243)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2874_jpg
+    ltn=1 clingo=0 body=0.7686  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4673  (|d-0.5|=0.0327)
+    MiscResidential = 0.1994  (|d-0.5|=0.3006)
+    CountryHouse    = 0.4782  (|d-0.5|=0.0218)
+    Residential     = 0.9775  (|d-0.5|=0.4775)
+  s_3033_jpg
+    ltn=1 clingo=0 body=0.5832
+    Suburban        = 0.4895  (|d-0.5|=0.0105)
+    MiscResidential = 0.1035  (|d-0.5|=0.3965)
+    CountryHouse    = 0.0895  (|d-0.5|=0.4105)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3909_jpg
+    ltn=1 clingo=0 body=0.6639  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4890  (|d-0.5|=0.0110)
+    MiscResidential = 0.1986  (|d-0.5|=0.3014)
+    CountryHouse    = 0.1799  (|d-0.5|=0.3201)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_7157_jpg
+    ltn=1 clingo=0 body=0.5809
+    Suburban        = 0.4737  (|d-0.5|=0.0263)
+    MiscResidential = 0.1149  (|d-0.5|=0.3851)
+    CountryHouse    = 0.1006  (|d-0.5|=0.3994)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3636_jpg
+    ltn=1 clingo=0 body=0.5465
+    Suburban        = 0.3308  (|d-0.5|=0.1692)
+    MiscResidential = 0.1179  (|d-0.5|=0.3821)
+    CountryHouse    = 0.2318  (|d-0.5|=0.2682)
+    Residential     = 0.9994  (|d-0.5|=0.4994)
+  s_2046_jpg
+    ltn=1 clingo=0 body=0.6026  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3269  (|d-0.5|=0.1731)
+    MiscResidential = 0.1498  (|d-0.5|=0.3502)
+    CountryHouse    = 0.3056  (|d-0.5|=0.1944)
+    Residential     = 0.9990  (|d-0.5|=0.4990)
+  s_6062_jpg
+    ltn=1 clingo=0 body=0.5658
+    Suburban        = 0.3150  (|d-0.5|=0.1850)
+    MiscResidential = 0.1329  (|d-0.5|=0.3671)
+    CountryHouse    = 0.2687  (|d-0.5|=0.2313)
+    Residential     = 0.9976  (|d-0.5|=0.4976)
+  s_1440_jpg
+    ltn=1 clingo=0 body=0.5196
+    Suburban        = 0.4070  (|d-0.5|=0.0930)
+    MiscResidential = 0.1108  (|d-0.5|=0.3892)
+    CountryHouse    = 0.0891  (|d-0.5|=0.4109)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_5210_jpg
+    ltn=1 clingo=0 body=0.5632
+    Suburban        = 0.3843  (|d-0.5|=0.1157)
+    MiscResidential = 0.1459  (|d-0.5|=0.3541)
+    CountryHouse    = 0.1696  (|d-0.5|=0.3304)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4818_jpg
+    ltn=1 clingo=0 body=0.6603  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4640  (|d-0.5|=0.0360)
+    MiscResidential = 0.1737  (|d-0.5|=0.3263)
+    CountryHouse    = 0.2334  (|d-0.5|=0.2666)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_2349_jpg
+    ltn=1 clingo=0 body=0.5090
+    Suburban        = 0.4384  (|d-0.5|=0.0616)
+    MiscResidential = 0.0733  (|d-0.5|=0.4267)
+    CountryHouse    = 0.0567  (|d-0.5|=0.4433)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3858_jpg
+    ltn=1 clingo=0 body=0.5550
+    Suburban        = 0.4808  (|d-0.5|=0.0192)
+    MiscResidential = 0.0807  (|d-0.5|=0.4193)
+    CountryHouse    = 0.0678  (|d-0.5|=0.4322)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3624_jpg
+    ltn=1 clingo=0 body=0.7358  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4730  (|d-0.5|=0.0270)
+    MiscResidential = 0.2394  (|d-0.5|=0.2606)
+    CountryHouse    = 0.3427  (|d-0.5|=0.1573)
+    Residential     = 0.9979  (|d-0.5|=0.4979)
+  s_2997_jpg
+    ltn=1 clingo=0 body=0.6110  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4809  (|d-0.5|=0.0191)
+    MiscResidential = 0.1349  (|d-0.5|=0.3651)
+    CountryHouse    = 0.1340  (|d-0.5|=0.3660)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_3117_jpg
+    ltn=1 clingo=0 body=0.5172
+    Suburban        = 0.3948  (|d-0.5|=0.1052)
+    MiscResidential = 0.1026  (|d-0.5|=0.3974)
+    CountryHouse    = 0.1112  (|d-0.5|=0.3888)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1854_jpg
+    ltn=1 clingo=0 body=0.6141  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4768  (|d-0.5|=0.0232)
+    MiscResidential = 0.1666  (|d-0.5|=0.3334)
+    CountryHouse    = 0.1153  (|d-0.5|=0.3847)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2550_jpg
+    ltn=1 clingo=0 body=0.5283
+    Suburban        = 0.2916  (|d-0.5|=0.2084)
+    MiscResidential = 0.0952  (|d-0.5|=0.4048)
+    CountryHouse    = 0.2640  (|d-0.5|=0.2360)
+    Residential     = 0.9991  (|d-0.5|=0.4991)
+  s_162_jpg
+    ltn=1 clingo=0 body=0.6189  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4593  (|d-0.5|=0.0407)
+    MiscResidential = 0.1481  (|d-0.5|=0.3519)
+    CountryHouse    = 0.1729  (|d-0.5|=0.3271)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1437_jpg
+    ltn=1 clingo=0 body=0.6330  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4120  (|d-0.5|=0.0880)
+    MiscResidential = 0.1198  (|d-0.5|=0.3802)
+    CountryHouse    = 0.2913  (|d-0.5|=0.2087)
+    Residential     = 0.9992  (|d-0.5|=0.4992)
+  s_213_jpg
+    ltn=1 clingo=0 body=0.6679  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3366  (|d-0.5|=0.1634)
+    MiscResidential = 0.1767  (|d-0.5|=0.3233)
+    CountryHouse    = 0.3959  (|d-0.5|=0.1041)
+    Residential     = 0.9834  (|d-0.5|=0.4834)
+  s_7592_jpg
+    ltn=1 clingo=0 body=0.6332  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4979  (|d-0.5|=0.0021)
+    MiscResidential = 0.1243  (|d-0.5|=0.3757)
+    CountryHouse    = 0.1660  (|d-0.5|=0.3340)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2757_jpg
+    ltn=1 clingo=0 body=0.5686
+    Suburban        = 0.3748  (|d-0.5|=0.1252)
+    MiscResidential = 0.1432  (|d-0.5|=0.3568)
+    CountryHouse    = 0.1948  (|d-0.5|=0.3052)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_801_jpg
+    ltn=1 clingo=0 body=0.5198
+    Suburban        = 0.3779  (|d-0.5|=0.1221)
+    MiscResidential = 0.1423  (|d-0.5|=0.3577)
+    CountryHouse    = 0.1001  (|d-0.5|=0.3999)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1707_jpg
+    ltn=1 clingo=0 body=0.6497  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4689  (|d-0.5|=0.0311)
+    MiscResidential = 0.0773  (|d-0.5|=0.4227)
+    CountryHouse    = 0.2854  (|d-0.5|=0.2146)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1374_jpg
+    ltn=1 clingo=0 body=0.5860
+    Suburban        = 0.3585  (|d-0.5|=0.1415)
+    MiscResidential = 0.1763  (|d-0.5|=0.3237)
+    CountryHouse    = 0.2167  (|d-0.5|=0.2833)
+    Residential     = 0.9996  (|d-0.5|=0.4996)
+  s_7991_jpg
+    ltn=1 clingo=0 body=0.6283  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4042  (|d-0.5|=0.0958)
+    MiscResidential = 0.1989  (|d-0.5|=0.3011)
+    CountryHouse    = 0.2216  (|d-0.5|=0.2784)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_5159_jpg
+    ltn=1 clingo=0 body=0.5169
+    Suburban        = 0.3742  (|d-0.5|=0.1258)
+    MiscResidential = 0.1031  (|d-0.5|=0.3969)
+    CountryHouse    = 0.1394  (|d-0.5|=0.3606)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4821_jpg
+    ltn=1 clingo=0 body=0.7366  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4088  (|d-0.5|=0.0912)
+    MiscResidential = 0.1956  (|d-0.5|=0.3044)
+    CountryHouse    = 0.4536  (|d-0.5|=0.0464)
+    Residential     = 0.9885  (|d-0.5|=0.4885)
+  s_2625_jpg
+    ltn=1 clingo=0 body=0.5665
+    Suburban        = 0.4700  (|d-0.5|=0.0300)
+    MiscResidential = 0.0909  (|d-0.5|=0.4091)
+    CountryHouse    = 0.1005  (|d-0.5|=0.3995)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6770_jpg
+    ltn=1 clingo=0 body=0.7236  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4359  (|d-0.5|=0.0641)
+    MiscResidential = 0.1701  (|d-0.5|=0.3299)
+    CountryHouse    = 0.4118  (|d-0.5|=0.0882)
+    Residential     = 0.9964  (|d-0.5|=0.4964)
+  s_6140_jpg
+    ltn=1 clingo=0 body=0.5157
+    Suburban        = 0.3814  (|d-0.5|=0.1186)
+    MiscResidential = 0.1057  (|d-0.5|=0.3943)
+    CountryHouse    = 0.1247  (|d-0.5|=0.3753)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1944_jpg
+    ltn=1 clingo=0 body=0.6138  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4941  (|d-0.5|=0.0059)
+    MiscResidential = 0.1256  (|d-0.5|=0.3744)
+    CountryHouse    = 0.1272  (|d-0.5|=0.3728)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_396_jpg
+    ltn=1 clingo=0 body=0.7372  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4230  (|d-0.5|=0.0770)
+    MiscResidential = 0.2183  (|d-0.5|=0.2817)
+    CountryHouse    = 0.4201  (|d-0.5|=0.0799)
+    Residential     = 0.9962  (|d-0.5|=0.4962)
+  s_117_jpg
+    ltn=1 clingo=0 body=0.5943
+    Suburban        = 0.3187  (|d-0.5|=0.1813)
+    MiscResidential = 0.1420  (|d-0.5|=0.3580)
+    CountryHouse    = 0.3057  (|d-0.5|=0.1943)
+    Residential     = 0.9954  (|d-0.5|=0.4954)
+  s_1470_jpg
+    ltn=1 clingo=0 body=0.7487  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4594  (|d-0.5|=0.0406)
+    MiscResidential = 0.2464  (|d-0.5|=0.2536)
+    CountryHouse    = 0.3841  (|d-0.5|=0.1159)
+    Residential     = 0.9991  (|d-0.5|=0.4991)
+  s_1692_jpg
+    ltn=1 clingo=0 body=0.6128  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4092  (|d-0.5|=0.0908)
+    MiscResidential = 0.1755  (|d-0.5|=0.3245)
+    CountryHouse    = 0.2053  (|d-0.5|=0.2947)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_2220_jpg
+    ltn=1 clingo=0 body=0.5055
+    Suburban        = 0.4966  (|d-0.5|=0.0034)
+    MiscResidential = 0.0150  (|d-0.5|=0.4850)
+    CountryHouse    = 0.0028  (|d-0.5|=0.4972)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_861_jpg
+    ltn=1 clingo=0 body=0.5699
+    Suburban        = 0.3430  (|d-0.5|=0.1570)
+    MiscResidential = 0.0907  (|d-0.5|=0.4093)
+    CountryHouse    = 0.2803  (|d-0.5|=0.2197)
+    Residential     = 0.9998  (|d-0.5|=0.4998)
+  s_7334_jpg
+    ltn=1 clingo=0 body=0.5195
+    Suburban        = 0.4565  (|d-0.5|=0.0435)
+    MiscResidential = 0.0779  (|d-0.5|=0.4221)
+    CountryHouse    = 0.0413  (|d-0.5|=0.4587)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_2685_jpg
+    ltn=1 clingo=0 body=0.7789  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4756  (|d-0.5|=0.0244)
+    MiscResidential = 0.2074  (|d-0.5|=0.2926)
+    CountryHouse    = 0.4732  (|d-0.5|=0.0268)
+    Residential     = 0.9951  (|d-0.5|=0.4951)
+  s_5915_jpg
+    ltn=1 clingo=0 body=0.5238
+    Suburban        = 0.4806  (|d-0.5|=0.0194)
+    MiscResidential = 0.0513  (|d-0.5|=0.4487)
+    CountryHouse    = 0.0338  (|d-0.5|=0.4662)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_810_jpg
+    ltn=1 clingo=0 body=0.6487  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4685  (|d-0.5|=0.0315)
+    MiscResidential = 0.1940  (|d-0.5|=0.3060)
+    CountryHouse    = 0.1804  (|d-0.5|=0.3196)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4677_jpg
+    ltn=1 clingo=0 body=0.7161  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4516  (|d-0.5|=0.0484)
+    MiscResidential = 0.2066  (|d-0.5|=0.2934)
+    CountryHouse    = 0.3503  (|d-0.5|=0.1497)
+    Residential     = 0.9956  (|d-0.5|=0.4956)
+  s_7934_jpg
+    ltn=1 clingo=0 body=0.7840  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4692  (|d-0.5|=0.0308)
+    MiscResidential = 0.2287  (|d-0.5|=0.2713)
+    CountryHouse    = 0.4908  (|d-0.5|=0.0092)
+    Residential     = 0.9826  (|d-0.5|=0.4826)
+  s_4455_jpg
+    ltn=1 clingo=0 body=0.5173
+    Suburban        = 0.4403  (|d-0.5|=0.0597)
+    MiscResidential = 0.0749  (|d-0.5|=0.4251)
+    CountryHouse    = 0.0681  (|d-0.5|=0.4319)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_4845_jpg
+    ltn=1 clingo=0 body=0.6490  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4346  (|d-0.5|=0.0654)
+    MiscResidential = 0.1958  (|d-0.5|=0.3042)
+    CountryHouse    = 0.2284  (|d-0.5|=0.2716)
+    Residential     = 0.9999  (|d-0.5|=0.4999)
+  s_1302_jpg
+    ltn=1 clingo=0 body=0.5222
+    Suburban        = 0.4205  (|d-0.5|=0.0795)
+    MiscResidential = 0.1014  (|d-0.5|=0.3986)
+    CountryHouse    = 0.0826  (|d-0.5|=0.4174)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6506_jpg
+    ltn=1 clingo=0 body=0.6873  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3919  (|d-0.5|=0.1081)
+    MiscResidential = 0.1743  (|d-0.5|=0.3257)
+    CountryHouse    = 0.3786  (|d-0.5|=0.1214)
+    Residential     = 0.9971  (|d-0.5|=0.4971)
+  s_5591_jpg
+    ltn=1 clingo=0 body=0.5997
+    Suburban        = 0.4653  (|d-0.5|=0.0347)
+    MiscResidential = 0.1049  (|d-0.5|=0.3951)
+    CountryHouse    = 0.1640  (|d-0.5|=0.3360)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_1176_jpg
+    ltn=1 clingo=0 body=0.7080  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3871  (|d-0.5|=0.1129)
+    MiscResidential = 0.1591  (|d-0.5|=0.3409)
+    CountryHouse    = 0.4394  (|d-0.5|=0.0606)
+    Residential     = 0.9865  (|d-0.5|=0.4865)
+  s_5597_jpg
+    ltn=1 clingo=0 body=0.7235  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.4275  (|d-0.5|=0.0725)
+    MiscResidential = 0.2132  (|d-0.5|=0.2868)
+    CountryHouse    = 0.3913  (|d-0.5|=0.1087)
+    Residential     = 0.9916  (|d-0.5|=0.4916)
+  s_4752_jpg
+    ltn=1 clingo=0 body=0.5951
+    Suburban        = 0.4290  (|d-0.5|=0.0710)
+    MiscResidential = 0.1522  (|d-0.5|=0.3478)
+    CountryHouse    = 0.1638  (|d-0.5|=0.3362)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+  s_6503_jpg
+    ltn=1 clingo=0 body=0.7170  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Suburban        = 0.3981  (|d-0.5|=0.1019)
+    MiscResidential = 0.1994  (|d-0.5|=0.3006)
+    CountryHouse    = 0.4229  (|d-0.5|=0.0771)
+    Residential     = 0.9807  (|d-0.5|=0.4807)
+  s_2795_jpg
+    ltn=1 clingo=0 body=0.5100
+    Suburban        = 0.4592  (|d-0.5|=0.0408)
+    MiscResidential = 0.2405  (|d-0.5|=0.2595)
+    CountryHouse    = 0.6717  (|d-0.5|=0.1717)
+    Residential     = 0.4739  (|d-0.5|=0.0261)
+  s_5645_jpg
+    ltn=1 clingo=0 body=0.5311
+    Suburban        = 0.4755  (|d-0.5|=0.0245)
+    MiscResidential = 0.0568  (|d-0.5|=0.4432)
+    CountryHouse    = 0.0523  (|d-0.5|=0.4477)
+    Residential     = 1.0000  (|d-0.5|=0.5000)
+
+
+
+--- rule_DT3_IndustrialBuildingType (178 disagreements) ---
+  s_4714_jpg
+    ltn=0 clingo=1 body=0.3473  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2170  (|d-0.5|=0.2830)
+    MiscIndustrial  = 0.1639  (|d-0.5|=0.3361)
+    PowerPlant      = 0.1205  (|d-0.5|=0.3795)
+    WaterTreatment  = 0.4276  (|d-0.5|=0.0724)
+    Industrial      = 0.0318  (|d-0.5|=0.4682)
+  s_7233_jpg
+    ltn=0 clingo=1 body=0.2985  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2525  (|d-0.5|=0.2475)
+    MiscIndustrial  = 0.2274  (|d-0.5|=0.2726)
+    PowerPlant      = 0.1308  (|d-0.5|=0.3692)
+    WaterTreatment  = 0.4096  (|d-0.5|=0.0904)
+    Industrial      = 0.0032  (|d-0.5|=0.4968)
+  s_5701_jpg
+    ltn=1 clingo=0 body=0.5063
+    ConstructionSite = 0.2765  (|d-0.5|=0.2235)
+    MiscIndustrial  = 0.4967  (|d-0.5|=0.0033)
+    PowerPlant      = 0.4058  (|d-0.5|=0.0942)
+    WaterTreatment  = 0.8121  (|d-0.5|=0.3121)
+    Industrial      = 0.4963  (|d-0.5|=0.0037)
+  s_5925_jpg
+    ltn=0 clingo=1 body=0.3849  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2578  (|d-0.5|=0.2422)
+    MiscIndustrial  = 0.1743  (|d-0.5|=0.3257)
+    PowerPlant      = 0.1226  (|d-0.5|=0.3774)
+    WaterTreatment  = 0.3059  (|d-0.5|=0.1941)
+    Industrial      = 0.0242  (|d-0.5|=0.4758)
+  s_3757_jpg
+    ltn=0 clingo=1 body=0.4375
+    ConstructionSite = 0.2669  (|d-0.5|=0.2331)
+    MiscIndustrial  = 0.1283  (|d-0.5|=0.3717)
+    PowerPlant      = 0.0563  (|d-0.5|=0.4437)
+    WaterTreatment  = 0.2747  (|d-0.5|=0.2253)
+    Industrial      = 0.0002  (|d-0.5|=0.4998)
+  s_7059_jpg
+    ltn=0 clingo=1 body=0.3125  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2972  (|d-0.5|=0.2028)
+    MiscIndustrial  = 0.2481  (|d-0.5|=0.2519)
+    PowerPlant      = 0.1882  (|d-0.5|=0.3118)
+    WaterTreatment  = 0.3488  (|d-0.5|=0.1512)
+    Industrial      = 0.0522  (|d-0.5|=0.4478)
+  s_3823_jpg
+    ltn=0 clingo=1 body=0.3013  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2725  (|d-0.5|=0.2275)
+    MiscIndustrial  = 0.2353  (|d-0.5|=0.2647)
+    PowerPlant      = 0.1781  (|d-0.5|=0.3219)
+    WaterTreatment  = 0.4119  (|d-0.5|=0.0881)
+    Industrial      = 0.0498  (|d-0.5|=0.4502)
+  s_431_jpg
+    ltn=1 clingo=0 body=0.5045
+    ConstructionSite = 0.1893  (|d-0.5|=0.3107)
+    MiscIndustrial  = 0.3983  (|d-0.5|=0.1017)
+    PowerPlant      = 0.3682  (|d-0.5|=0.1318)
+    WaterTreatment  = 0.8869  (|d-0.5|=0.3869)
+    Industrial      = 0.4958  (|d-0.5|=0.0042)
+  s_5016_jpg
+    ltn=0 clingo=1 body=0.4633
+    ConstructionSite = 0.2796  (|d-0.5|=0.2204)
+    MiscIndustrial  = 0.1536  (|d-0.5|=0.3464)
+    PowerPlant      = 0.0706  (|d-0.5|=0.4294)
+    WaterTreatment  = 0.1830  (|d-0.5|=0.3170)
+    Industrial      = 0.0006  (|d-0.5|=0.4994)
+  s_6198_jpg
+    ltn=0 clingo=1 body=0.4797
+    ConstructionSite = 0.2087  (|d-0.5|=0.2913)
+    MiscIndustrial  = 0.1068  (|d-0.5|=0.3932)
+    PowerPlant      = 0.0501  (|d-0.5|=0.4499)
+    WaterTreatment  = 0.2860  (|d-0.5|=0.2140)
+    Industrial      = 0.0007  (|d-0.5|=0.4993)
+  s_4537_jpg
+    ltn=0 clingo=1 body=0.2800  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2749  (|d-0.5|=0.2251)
+    MiscIndustrial  = 0.2512  (|d-0.5|=0.2488)
+    PowerPlant      = 0.1900  (|d-0.5|=0.3100)
+    WaterTreatment  = 0.4479  (|d-0.5|=0.0521)
+    Industrial      = 0.0538  (|d-0.5|=0.4462)
+  s_3265_jpg
+    ltn=0 clingo=1 body=0.4245
+    ConstructionSite = 0.2149  (|d-0.5|=0.2851)
+    MiscIndustrial  = 0.1567  (|d-0.5|=0.3433)
+    PowerPlant      = 0.0887  (|d-0.5|=0.4113)
+    WaterTreatment  = 0.2990  (|d-0.5|=0.2010)
+    Industrial      = 0.0035  (|d-0.5|=0.4965)
+  s_4384_jpg
+    ltn=0 clingo=1 body=0.3534  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2357  (|d-0.5|=0.2643)
+    MiscIndustrial  = 0.1937  (|d-0.5|=0.3063)
+    PowerPlant      = 0.1252  (|d-0.5|=0.3748)
+    WaterTreatment  = 0.3702  (|d-0.5|=0.1298)
+    Industrial      = 0.0255  (|d-0.5|=0.4745)
+  s_2891_jpg
+    ltn=0 clingo=1 body=0.2607  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2846  (|d-0.5|=0.2154)
+    MiscIndustrial  = 0.2790  (|d-0.5|=0.2210)
+    PowerPlant      = 0.2462  (|d-0.5|=0.2538)
+    WaterTreatment  = 0.4903  (|d-0.5|=0.0097)
+    Industrial      = 0.0833  (|d-0.5|=0.4167)
+  s_133_jpg
+    ltn=0 clingo=1 body=0.3167  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2322  (|d-0.5|=0.2678)
+    MiscIndustrial  = 0.2076  (|d-0.5|=0.2924)
+    PowerPlant      = 0.1795  (|d-0.5|=0.3205)
+    WaterTreatment  = 0.4358  (|d-0.5|=0.0642)
+    Industrial      = 0.0557  (|d-0.5|=0.4443)
+  s_4693_jpg
+    ltn=0 clingo=1 body=0.4019
+    ConstructionSite = 0.1979  (|d-0.5|=0.3021)
+    MiscIndustrial  = 0.1797  (|d-0.5|=0.3203)
+    PowerPlant      = 0.0387  (|d-0.5|=0.4613)
+    WaterTreatment  = 0.3648  (|d-0.5|=0.1352)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+  s_6879_jpg
+    ltn=0 clingo=1 body=0.4866
+    ConstructionSite = 0.2214  (|d-0.5|=0.2786)
+    MiscIndustrial  = 0.0975  (|d-0.5|=0.4025)
+    PowerPlant      = 0.0538  (|d-0.5|=0.4462)
+    WaterTreatment  = 0.2685  (|d-0.5|=0.2315)
+    Industrial      = 0.0006  (|d-0.5|=0.4994)
+  s_1373_jpg
+    ltn=1 clingo=0 body=0.5005
+    ConstructionSite = 0.2240  (|d-0.5|=0.2760)
+    MiscIndustrial  = 0.4787  (|d-0.5|=0.0213)
+    PowerPlant      = 0.3835  (|d-0.5|=0.1165)
+    WaterTreatment  = 0.8582  (|d-0.5|=0.3582)
+    Industrial      = 0.4914  (|d-0.5|=0.0086)
+  s_4201_jpg
+    ltn=0 clingo=1 body=0.2959  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2411  (|d-0.5|=0.2589)
+    MiscIndustrial  = 0.2211  (|d-0.5|=0.2789)
+    PowerPlant      = 0.1600  (|d-0.5|=0.3400)
+    WaterTreatment  = 0.4766  (|d-0.5|=0.0234)
+    Industrial      = 0.0541  (|d-0.5|=0.4459)
+  s_2530_jpg
+    ltn=0 clingo=1 body=0.2807  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2455  (|d-0.5|=0.2545)
+    MiscIndustrial  = 0.2380  (|d-0.5|=0.2620)
+    PowerPlant      = 0.1845  (|d-0.5|=0.3155)
+    WaterTreatment  = 0.4837  (|d-0.5|=0.0163)
+    Industrial      = 0.0558  (|d-0.5|=0.4442)
+  s_418_jpg
+    ltn=0 clingo=1 body=0.2812  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2680  (|d-0.5|=0.2320)
+    MiscIndustrial  = 0.2512  (|d-0.5|=0.2488)
+    PowerPlant      = 0.2216  (|d-0.5|=0.2784)
+    WaterTreatment  = 0.4512  (|d-0.5|=0.0488)
+    Industrial      = 0.0671  (|d-0.5|=0.4329)
+  s_1231_jpg
+    ltn=0 clingo=1 body=0.3569  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2107  (|d-0.5|=0.2893)
+    MiscIndustrial  = 0.1444  (|d-0.5|=0.3556)
+    PowerPlant      = 0.1312  (|d-0.5|=0.3688)
+    WaterTreatment  = 0.4004  (|d-0.5|=0.0996)
+    Industrial      = 0.0095  (|d-0.5|=0.4905)
+  s_6363_jpg
+    ltn=0 clingo=1 body=0.2978  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2570  (|d-0.5|=0.2430)
+    MiscIndustrial  = 0.2312  (|d-0.5|=0.2688)
+    PowerPlant      = 0.1886  (|d-0.5|=0.3114)
+    WaterTreatment  = 0.4474  (|d-0.5|=0.0526)
+    Industrial      = 0.0625  (|d-0.5|=0.4375)
+  s_4174_jpg
+    ltn=0 clingo=1 body=0.3592  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2677  (|d-0.5|=0.2323)
+    MiscIndustrial  = 0.1910  (|d-0.5|=0.3090)
+    PowerPlant      = 0.1374  (|d-0.5|=0.3626)
+    WaterTreatment  = 0.3377  (|d-0.5|=0.1623)
+    Industrial      = 0.0383  (|d-0.5|=0.4617)
+  s_6165_jpg
+    ltn=0 clingo=1 body=0.2674  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2800  (|d-0.5|=0.2200)
+    MiscIndustrial  = 0.2852  (|d-0.5|=0.2148)
+    PowerPlant      = 0.1973  (|d-0.5|=0.3027)
+    WaterTreatment  = 0.4548  (|d-0.5|=0.0452)
+    Industrial      = 0.0589  (|d-0.5|=0.4411)
+  s_40_jpg
+    ltn=0 clingo=1 body=0.3587  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1791  (|d-0.5|=0.3209)
+    MiscIndustrial  = 0.1072  (|d-0.5|=0.3928)
+    PowerPlant      = 0.0540  (|d-0.5|=0.4460)
+    WaterTreatment  = 0.4831  (|d-0.5|=0.0169)
+    Industrial      = 0.0005  (|d-0.5|=0.4995)
+  s_5010_jpg
+    ltn=0 clingo=1 body=0.3549  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2549  (|d-0.5|=0.2451)
+    MiscIndustrial  = 0.1726  (|d-0.5|=0.3274)
+    PowerPlant      = 0.1494  (|d-0.5|=0.3506)
+    WaterTreatment  = 0.3297  (|d-0.5|=0.1703)
+    Industrial      = 0.0062  (|d-0.5|=0.4938)
+  s_4718_jpg
+    ltn=1 clingo=0 body=0.5071
+    ConstructionSite = 0.2333  (|d-0.5|=0.2667)
+    MiscIndustrial  = 0.4714  (|d-0.5|=0.0286)
+    PowerPlant      = 0.3733  (|d-0.5|=0.1267)
+    WaterTreatment  = 0.8470  (|d-0.5|=0.3470)
+    Industrial      = 0.4976  (|d-0.5|=0.0024)
+  s_3892_jpg
+    ltn=0 clingo=1 body=0.4888
+    ConstructionSite = 0.1654  (|d-0.5|=0.3346)
+    MiscIndustrial  = 0.0672  (|d-0.5|=0.4328)
+    PowerPlant      = 0.0459  (|d-0.5|=0.4541)
+    WaterTreatment  = 0.3422  (|d-0.5|=0.1578)
+    Industrial      = 0.0004  (|d-0.5|=0.4996)
+  s_5775_jpg
+    ltn=0 clingo=1 body=0.4531
+    ConstructionSite = 0.1914  (|d-0.5|=0.3086)
+    MiscIndustrial  = 0.1124  (|d-0.5|=0.3876)
+    PowerPlant      = 0.0732  (|d-0.5|=0.4268)
+    WaterTreatment  = 0.3258  (|d-0.5|=0.1742)
+    Industrial      = 0.0132  (|d-0.5|=0.4868)
+  s_2314_jpg
+    ltn=0 clingo=1 body=0.3014  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2268  (|d-0.5|=0.2732)
+    MiscIndustrial  = 0.1837  (|d-0.5|=0.3163)
+    PowerPlant      = 0.1390  (|d-0.5|=0.3610)
+    WaterTreatment  = 0.4883  (|d-0.5|=0.0117)
+    Industrial      = 0.0364  (|d-0.5|=0.4636)
+  s_6645_jpg
+    ltn=0 clingo=1 body=0.3210  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2213  (|d-0.5|=0.2787)
+    MiscIndustrial  = 0.1922  (|d-0.5|=0.3078)
+    PowerPlant      = 0.1390  (|d-0.5|=0.3610)
+    WaterTreatment  = 0.4590  (|d-0.5|=0.0410)
+    Industrial      = 0.0457  (|d-0.5|=0.4543)
+  s_3079_jpg
+    ltn=0 clingo=1 body=0.4079
+    ConstructionSite = 0.2467  (|d-0.5|=0.2533)
+    MiscIndustrial  = 0.1660  (|d-0.5|=0.3340)
+    PowerPlant      = 0.1177  (|d-0.5|=0.3823)
+    WaterTreatment  = 0.2849  (|d-0.5|=0.2151)
+    Industrial      = 0.0261  (|d-0.5|=0.4739)
+  s_2092_jpg
+    ltn=0 clingo=1 body=0.3468  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2401  (|d-0.5|=0.2599)
+    MiscIndustrial  = 0.1415  (|d-0.5|=0.3585)
+    PowerPlant      = 0.0976  (|d-0.5|=0.4024)
+    WaterTreatment  = 0.4118  (|d-0.5|=0.0882)
+    Industrial      = 0.0008  (|d-0.5|=0.4992)
+  s_1865_jpg
+    ltn=0 clingo=1 body=0.2687  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2926  (|d-0.5|=0.2074)
+    MiscIndustrial  = 0.2901  (|d-0.5|=0.2099)
+    PowerPlant      = 0.2647  (|d-0.5|=0.2353)
+    WaterTreatment  = 0.4925  (|d-0.5|=0.0075)
+    Industrial      = 0.1066  (|d-0.5|=0.3934)
+  s_7044_jpg
+    ltn=0 clingo=1 body=0.4270
+    ConstructionSite = 0.1995  (|d-0.5|=0.3005)
+    MiscIndustrial  = 0.0785  (|d-0.5|=0.4215)
+    PowerPlant      = 0.0398  (|d-0.5|=0.4602)
+    WaterTreatment  = 0.3974  (|d-0.5|=0.1026)
+    Industrial      = 0.0001  (|d-0.5|=0.4999)
+  s_1423_jpg
+    ltn=0 clingo=1 body=0.4096
+    ConstructionSite = 0.2092  (|d-0.5|=0.2908)
+    MiscIndustrial  = 0.1368  (|d-0.5|=0.3632)
+    PowerPlant      = 0.0940  (|d-0.5|=0.4060)
+    WaterTreatment  = 0.3524  (|d-0.5|=0.1476)
+    Industrial      = 0.0207  (|d-0.5|=0.4793)
+  s_2065_jpg
+    ltn=0 clingo=1 body=0.3089  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2631  (|d-0.5|=0.2369)
+    MiscIndustrial  = 0.2338  (|d-0.5|=0.2662)
+    PowerPlant      = 0.1659  (|d-0.5|=0.3341)
+    WaterTreatment  = 0.4008  (|d-0.5|=0.0992)
+    Industrial      = 0.0423  (|d-0.5|=0.4577)
+  s_2230_jpg
+    ltn=0 clingo=1 body=0.4252
+    ConstructionSite = 0.2419  (|d-0.5|=0.2581)
+    MiscIndustrial  = 0.1530  (|d-0.5|=0.3470)
+    PowerPlant      = 0.1039  (|d-0.5|=0.3961)
+    WaterTreatment  = 0.2755  (|d-0.5|=0.2245)
+    Industrial      = 0.0204  (|d-0.5|=0.4796)
+  s_1279_jpg
+    ltn=0 clingo=1 body=0.4518
+    ConstructionSite = 0.2036  (|d-0.5|=0.2964)
+    MiscIndustrial  = 0.1505  (|d-0.5|=0.3495)
+    PowerPlant      = 0.0675  (|d-0.5|=0.4325)
+    WaterTreatment  = 0.2847  (|d-0.5|=0.2153)
+    Industrial      = 0.0014  (|d-0.5|=0.4986)
+  s_3655_jpg
+    ltn=0 clingo=1 body=0.4267
+    ConstructionSite = 0.2219  (|d-0.5|=0.2781)
+    MiscIndustrial  = 0.1393  (|d-0.5|=0.3607)
+    PowerPlant      = 0.1144  (|d-0.5|=0.3856)
+    WaterTreatment  = 0.2964  (|d-0.5|=0.2036)
+    Industrial      = 0.0231  (|d-0.5|=0.4769)
+  s_3853_jpg
+    ltn=0 clingo=1 body=0.3887  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2221  (|d-0.5|=0.2779)
+    MiscIndustrial  = 0.1455  (|d-0.5|=0.3545)
+    PowerPlant      = 0.1090  (|d-0.5|=0.3910)
+    WaterTreatment  = 0.3609  (|d-0.5|=0.1391)
+    Industrial      = 0.0213  (|d-0.5|=0.4787)
+  s_7503_jpg
+    ltn=0 clingo=1 body=0.4526
+    ConstructionSite = 0.2496  (|d-0.5|=0.2504)
+    MiscIndustrial  = 0.1562  (|d-0.5|=0.3438)
+    PowerPlant      = 0.0882  (|d-0.5|=0.4118)
+    WaterTreatment  = 0.2207  (|d-0.5|=0.2793)
+    Industrial      = 0.0074  (|d-0.5|=0.4926)
+  s_4249_jpg
+    ltn=0 clingo=1 body=0.4973
+    ConstructionSite = 0.2333  (|d-0.5|=0.2667)
+    MiscIndustrial  = 0.1029  (|d-0.5|=0.3971)
+    PowerPlant      = 0.0557  (|d-0.5|=0.4443)
+    WaterTreatment  = 0.2350  (|d-0.5|=0.2650)
+    Industrial      = 0.0012  (|d-0.5|=0.4988)
+  s_344_jpg
+    ltn=1 clingo=0 body=0.5023
+    ConstructionSite = 0.2020  (|d-0.5|=0.2980)
+    MiscIndustrial  = 0.4283  (|d-0.5|=0.0717)
+    PowerPlant      = 0.4021  (|d-0.5|=0.0979)
+    WaterTreatment  = 0.8779  (|d-0.5|=0.3779)
+    Industrial      = 0.4939  (|d-0.5|=0.0061)
+  s_4918_jpg
+    ltn=0 clingo=1 body=0.3536  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2764  (|d-0.5|=0.2236)
+    MiscIndustrial  = 0.2084  (|d-0.5|=0.2916)
+    PowerPlant      = 0.1009  (|d-0.5|=0.3991)
+    WaterTreatment  = 0.3151  (|d-0.5|=0.1849)
+    Industrial      = 0.0014  (|d-0.5|=0.4986)
+  s_2800_jpg
+    ltn=0 clingo=1 body=0.3683  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2043  (|d-0.5|=0.2957)
+    MiscIndustrial  = 0.1133  (|d-0.5|=0.3867)
+    PowerPlant      = 0.0591  (|d-0.5|=0.4409)
+    WaterTreatment  = 0.4458  (|d-0.5|=0.0542)
+    Industrial      = 0.0007  (|d-0.5|=0.4993)
+  s_2662_jpg
+    ltn=0 clingo=1 body=0.4421
+    ConstructionSite = 0.2078  (|d-0.5|=0.2922)
+    MiscIndustrial  = 0.1221  (|d-0.5|=0.3779)
+    PowerPlant      = 0.0809  (|d-0.5|=0.4191)
+    WaterTreatment  = 0.3095  (|d-0.5|=0.1905)
+    Industrial      = 0.0018  (|d-0.5|=0.4982)
+  s_2524_jpg
+    ltn=0 clingo=1 body=0.2919  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2673  (|d-0.5|=0.2327)
+    MiscIndustrial  = 0.2465  (|d-0.5|=0.2535)
+    PowerPlant      = 0.1920  (|d-0.5|=0.3080)
+    WaterTreatment  = 0.4528  (|d-0.5|=0.0472)
+    Industrial      = 0.0698  (|d-0.5|=0.4302)
+  s_589_jpg
+    ltn=0 clingo=1 body=0.2509  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2832  (|d-0.5|=0.2168)
+    MiscIndustrial  = 0.2748  (|d-0.5|=0.2252)
+    PowerPlant      = 0.2032  (|d-0.5|=0.2968)
+    WaterTreatment  = 0.4917  (|d-0.5|=0.0083)
+    Industrial      = 0.0546  (|d-0.5|=0.4454)
+  s_7302_jpg
+    ltn=0 clingo=1 body=0.4486
+    ConstructionSite = 0.1702  (|d-0.5|=0.3298)
+    MiscIndustrial  = 0.0960  (|d-0.5|=0.4040)
+    PowerPlant      = 0.0676  (|d-0.5|=0.4324)
+    WaterTreatment  = 0.3606  (|d-0.5|=0.1394)
+    Industrial      = 0.0037  (|d-0.5|=0.4963)
+  s_4732_jpg
+    ltn=0 clingo=1 body=0.3636  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2400  (|d-0.5|=0.2600)
+    MiscIndustrial  = 0.1755  (|d-0.5|=0.3245)
+    PowerPlant      = 0.1128  (|d-0.5|=0.3872)
+    WaterTreatment  = 0.3683  (|d-0.5|=0.1317)
+    Industrial      = 0.0237  (|d-0.5|=0.4763)
+  s_706_jpg
+    ltn=0 clingo=1 body=0.3753  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2831  (|d-0.5|=0.2169)
+    MiscIndustrial  = 0.2022  (|d-0.5|=0.2978)
+    PowerPlant      = 0.1356  (|d-0.5|=0.3644)
+    WaterTreatment  = 0.2659  (|d-0.5|=0.2341)
+    Industrial      = 0.0246  (|d-0.5|=0.4754)
+  s_19_jpg
+    ltn=0 clingo=1 body=0.4877
+    ConstructionSite = 0.2376  (|d-0.5|=0.2624)
+    MiscIndustrial  = 0.1209  (|d-0.5|=0.3791)
+    PowerPlant      = 0.0740  (|d-0.5|=0.4260)
+    WaterTreatment  = 0.2183  (|d-0.5|=0.2817)
+    Industrial      = 0.0087  (|d-0.5|=0.4913)
+  s_4519_jpg
+    ltn=0 clingo=1 body=0.3865  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1994  (|d-0.5|=0.3006)
+    MiscIndustrial  = 0.1467  (|d-0.5|=0.3533)
+    PowerPlant      = 0.0808  (|d-0.5|=0.4192)
+    WaterTreatment  = 0.3856  (|d-0.5|=0.1144)
+    Industrial      = 0.0014  (|d-0.5|=0.4986)
+  s_3391_jpg
+    ltn=0 clingo=1 body=0.4058
+    ConstructionSite = 0.2707  (|d-0.5|=0.2293)
+    MiscIndustrial  = 0.1509  (|d-0.5|=0.3491)
+    PowerPlant      = 0.0854  (|d-0.5|=0.4146)
+    WaterTreatment  = 0.2839  (|d-0.5|=0.2161)
+    Industrial      = 0.0003  (|d-0.5|=0.4997)
+  s_6906_jpg
+    ltn=0 clingo=1 body=0.3177  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2284  (|d-0.5|=0.2716)
+    MiscIndustrial  = 0.2083  (|d-0.5|=0.2917)
+    PowerPlant      = 0.1473  (|d-0.5|=0.3527)
+    WaterTreatment  = 0.4435  (|d-0.5|=0.0565)
+    Industrial      = 0.0449  (|d-0.5|=0.4551)
+  s_3536_jpg
+    ltn=1 clingo=0 body=0.5019
+    ConstructionSite = 0.1872  (|d-0.5|=0.3128)
+    MiscIndustrial  = 0.4632  (|d-0.5|=0.0368)
+    PowerPlant      = 0.3466  (|d-0.5|=0.1534)
+    WaterTreatment  = 0.8875  (|d-0.5|=0.3875)
+    Industrial      = 0.4937  (|d-0.5|=0.0063)
+  s_3361_jpg
+    ltn=0 clingo=1 body=0.2864  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2797  (|d-0.5|=0.2203)
+    MiscIndustrial  = 0.2645  (|d-0.5|=0.2355)
+    PowerPlant      = 0.1908  (|d-0.5|=0.3092)
+    WaterTreatment  = 0.4411  (|d-0.5|=0.0589)
+    Industrial      = 0.0675  (|d-0.5|=0.4325)
+  s_7656_jpg
+    ltn=0 clingo=1 body=0.3329  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2575  (|d-0.5|=0.2425)
+    MiscIndustrial  = 0.2102  (|d-0.5|=0.2898)
+    PowerPlant      = 0.1853  (|d-0.5|=0.3147)
+    WaterTreatment  = 0.3721  (|d-0.5|=0.1279)
+    Industrial      = 0.0548  (|d-0.5|=0.4452)
+  s_5451_jpg
+    ltn=0 clingo=1 body=0.3913  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1711  (|d-0.5|=0.3289)
+    MiscIndustrial  = 0.1117  (|d-0.5|=0.3883)
+    PowerPlant      = 0.0894  (|d-0.5|=0.4106)
+    WaterTreatment  = 0.4272  (|d-0.5|=0.0728)
+    Industrial      = 0.0156  (|d-0.5|=0.4844)
+  s_6636_jpg
+    ltn=0 clingo=1 body=0.3829  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2540  (|d-0.5|=0.2460)
+    MiscIndustrial  = 0.1649  (|d-0.5|=0.3351)
+    PowerPlant      = 0.1165  (|d-0.5|=0.3835)
+    WaterTreatment  = 0.3266  (|d-0.5|=0.1734)
+    Industrial      = 0.0250  (|d-0.5|=0.4750)
+  s_4372_jpg
+    ltn=0 clingo=1 body=0.4558
+    ConstructionSite = 0.1278  (|d-0.5|=0.3722)
+    MiscIndustrial  = 0.0673  (|d-0.5|=0.4327)
+    PowerPlant      = 0.0656  (|d-0.5|=0.4344)
+    WaterTreatment  = 0.4024  (|d-0.5|=0.0976)
+    Industrial      = 0.0043  (|d-0.5|=0.4957)
+  s_1462_jpg
+    ltn=0 clingo=1 body=0.4492
+    ConstructionSite = 0.1726  (|d-0.5|=0.3274)
+    MiscIndustrial  = 0.1014  (|d-0.5|=0.3986)
+    PowerPlant      = 0.0773  (|d-0.5|=0.4227)
+    WaterTreatment  = 0.3474  (|d-0.5|=0.1526)
+    Industrial      = 0.0041  (|d-0.5|=0.4959)
+  s_5545_jpg
+    ltn=0 clingo=1 body=0.3451  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2588  (|d-0.5|=0.2412)
+    MiscIndustrial  = 0.2003  (|d-0.5|=0.2997)
+    PowerPlant      = 0.1708  (|d-0.5|=0.3292)
+    WaterTreatment  = 0.3500  (|d-0.5|=0.1500)
+    Industrial      = 0.0450  (|d-0.5|=0.4550)
+  s_7482_jpg
+    ltn=0 clingo=1 body=0.4143
+    ConstructionSite = 0.2509  (|d-0.5|=0.2491)
+    MiscIndustrial  = 0.1526  (|d-0.5|=0.3474)
+    PowerPlant      = 0.1081  (|d-0.5|=0.3919)
+    WaterTreatment  = 0.2720  (|d-0.5|=0.2280)
+    Industrial      = 0.0049  (|d-0.5|=0.4951)
+  s_2644_jpg
+    ltn=0 clingo=1 body=0.2606  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2509  (|d-0.5|=0.2491)
+    MiscIndustrial  = 0.2409  (|d-0.5|=0.2591)
+    PowerPlant      = 0.1342  (|d-0.5|=0.3658)
+    WaterTreatment  = 0.4756  (|d-0.5|=0.0244)
+    Industrial      = 0.0034  (|d-0.5|=0.4966)
+  s_64_jpg
+    ltn=0 clingo=1 body=0.4213
+    ConstructionSite = 0.2628  (|d-0.5|=0.2372)
+    MiscIndustrial  = 0.1715  (|d-0.5|=0.3285)
+    PowerPlant      = 0.1147  (|d-0.5|=0.3853)
+    WaterTreatment  = 0.2358  (|d-0.5|=0.2642)
+    Industrial      = 0.0195  (|d-0.5|=0.4805)
+  s_826_jpg
+    ltn=0 clingo=1 body=0.4435
+    ConstructionSite = 0.2313  (|d-0.5|=0.2687)
+    MiscIndustrial  = 0.1405  (|d-0.5|=0.3595)
+    PowerPlant      = 0.0766  (|d-0.5|=0.4234)
+    WaterTreatment  = 0.2762  (|d-0.5|=0.2238)
+    Industrial      = 0.0049  (|d-0.5|=0.4951)
+  s_3808_jpg
+    ltn=0 clingo=1 body=0.3326  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2792  (|d-0.5|=0.2208)
+    MiscIndustrial  = 0.2278  (|d-0.5|=0.2722)
+    PowerPlant      = 0.1598  (|d-0.5|=0.3402)
+    WaterTreatment  = 0.3297  (|d-0.5|=0.1703)
+    Industrial      = 0.0327  (|d-0.5|=0.4673)
+  s_1909_jpg
+    ltn=0 clingo=1 body=0.4510
+    ConstructionSite = 0.2000  (|d-0.5|=0.3000)
+    MiscIndustrial  = 0.1132  (|d-0.5|=0.3868)
+    PowerPlant      = 0.0770  (|d-0.5|=0.4230)
+    WaterTreatment  = 0.3127  (|d-0.5|=0.1873)
+    Industrial      = 0.0024  (|d-0.5|=0.4976)
+  s_3109_jpg
+    ltn=0 clingo=1 body=0.4262
+    ConstructionSite = 0.2439  (|d-0.5|=0.2561)
+    MiscIndustrial  = 0.1496  (|d-0.5|=0.3504)
+    PowerPlant      = 0.0484  (|d-0.5|=0.4516)
+    WaterTreatment  = 0.3036  (|d-0.5|=0.1964)
+    Industrial      = 0.0001  (|d-0.5|=0.4999)
+  s_7170_jpg
+    ltn=0 clingo=1 body=0.3525  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1903  (|d-0.5|=0.3097)
+    MiscIndustrial  = 0.1409  (|d-0.5|=0.3591)
+    PowerPlant      = 0.0686  (|d-0.5|=0.4314)
+    WaterTreatment  = 0.4564  (|d-0.5|=0.0436)
+    Industrial      = 0.0004  (|d-0.5|=0.4996)
+  s_3196_jpg
+    ltn=0 clingo=1 body=0.2901  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2753  (|d-0.5|=0.2247)
+    MiscIndustrial  = 0.2538  (|d-0.5|=0.2462)
+    PowerPlant      = 0.2021  (|d-0.5|=0.2979)
+    WaterTreatment  = 0.4628  (|d-0.5|=0.0372)
+    Industrial      = 0.0831  (|d-0.5|=0.4169)
+  s_2167_jpg
+    ltn=0 clingo=1 body=0.3312  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2828  (|d-0.5|=0.2172)
+    MiscIndustrial  = 0.2235  (|d-0.5|=0.2765)
+    PowerPlant      = 0.1633  (|d-0.5|=0.3367)
+    WaterTreatment  = 0.3373  (|d-0.5|=0.1627)
+    Industrial      = 0.0378  (|d-0.5|=0.4622)
+  s_7680_jpg
+    ltn=0 clingo=1 body=0.2745  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2992  (|d-0.5|=0.2008)
+    MiscIndustrial  = 0.2400  (|d-0.5|=0.2600)
+    PowerPlant      = 0.1738  (|d-0.5|=0.3262)
+    WaterTreatment  = 0.4007  (|d-0.5|=0.0993)
+    Industrial      = 0.0160  (|d-0.5|=0.4840)
+  s_6558_jpg
+    ltn=0 clingo=1 body=0.3058  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2365  (|d-0.5|=0.2635)
+    MiscIndustrial  = 0.1897  (|d-0.5|=0.3103)
+    PowerPlant      = 0.1503  (|d-0.5|=0.3497)
+    WaterTreatment  = 0.4720  (|d-0.5|=0.0280)
+    Industrial      = 0.0442  (|d-0.5|=0.4558)
+  s_925_jpg
+    ltn=0 clingo=1 body=0.4927
+    ConstructionSite = 0.1772  (|d-0.5|=0.3228)
+    MiscIndustrial  = 0.0694  (|d-0.5|=0.4306)
+    PowerPlant      = 0.0400  (|d-0.5|=0.4600)
+    WaterTreatment  = 0.3299  (|d-0.5|=0.1701)
+    Industrial      = 0.0001  (|d-0.5|=0.4999)
+  s_1483_jpg
+    ltn=0 clingo=1 body=0.3864  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1282  (|d-0.5|=0.3718)
+    MiscIndustrial  = 0.0686  (|d-0.5|=0.4314)
+    PowerPlant      = 0.0695  (|d-0.5|=0.4305)
+    WaterTreatment  = 0.4895  (|d-0.5|=0.0105)
+    Industrial      = 0.0013  (|d-0.5|=0.4987)
+  s_1525_jpg
+    ltn=0 clingo=1 body=0.2898  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2636  (|d-0.5|=0.2364)
+    MiscIndustrial  = 0.2553  (|d-0.5|=0.2447)
+    PowerPlant      = 0.1954  (|d-0.5|=0.3046)
+    WaterTreatment  = 0.4647  (|d-0.5|=0.0353)
+    Industrial      = 0.0771  (|d-0.5|=0.4229)
+  s_2086_jpg
+    ltn=0 clingo=1 body=0.3939  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2001  (|d-0.5|=0.2999)
+    MiscIndustrial  = 0.1408  (|d-0.5|=0.3592)
+    PowerPlant      = 0.0570  (|d-0.5|=0.4430)
+    WaterTreatment  = 0.3924  (|d-0.5|=0.1076)
+    Industrial      = 0.0001  (|d-0.5|=0.4999)
+  s_1969_jpg
+    ltn=0 clingo=1 body=0.4152
+    ConstructionSite = 0.1942  (|d-0.5|=0.3058)
+    MiscIndustrial  = 0.1102  (|d-0.5|=0.3898)
+    PowerPlant      = 0.0759  (|d-0.5|=0.4241)
+    WaterTreatment  = 0.3754  (|d-0.5|=0.1246)
+    Industrial      = 0.0029  (|d-0.5|=0.4971)
+  s_6288_jpg
+    ltn=0 clingo=1 body=0.3347  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2514  (|d-0.5|=0.2486)
+    MiscIndustrial  = 0.2017  (|d-0.5|=0.2983)
+    PowerPlant      = 0.1525  (|d-0.5|=0.3475)
+    WaterTreatment  = 0.3902  (|d-0.5|=0.1098)
+    Industrial      = 0.0439  (|d-0.5|=0.4561)
+  s_2482_jpg
+    ltn=0 clingo=1 body=0.4757
+    ConstructionSite = 0.1382  (|d-0.5|=0.3618)
+    MiscIndustrial  = 0.0859  (|d-0.5|=0.4141)
+    PowerPlant      = 0.0813  (|d-0.5|=0.4187)
+    WaterTreatment  = 0.3457  (|d-0.5|=0.1543)
+    Industrial      = 0.0070  (|d-0.5|=0.4930)
+  s_3610_jpg
+    ltn=0 clingo=1 body=0.3209  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2753  (|d-0.5|=0.2247)
+    MiscIndustrial  = 0.1875  (|d-0.5|=0.3125)
+    PowerPlant      = 0.1310  (|d-0.5|=0.3690)
+    WaterTreatment  = 0.3801  (|d-0.5|=0.1199)
+    Industrial      = 0.0061  (|d-0.5|=0.4939)
+  s_7017_jpg
+    ltn=0 clingo=1 body=0.4458
+    ConstructionSite = 0.2452  (|d-0.5|=0.2548)
+    MiscIndustrial  = 0.1337  (|d-0.5|=0.3663)
+    PowerPlant      = 0.0772  (|d-0.5|=0.4228)
+    WaterTreatment  = 0.2622  (|d-0.5|=0.2378)
+    Industrial      = 0.0015  (|d-0.5|=0.4985)
+  s_1414_jpg
+    ltn=0 clingo=1 body=0.2844  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2483  (|d-0.5|=0.2517)
+    MiscIndustrial  = 0.2363  (|d-0.5|=0.2637)
+    PowerPlant      = 0.1972  (|d-0.5|=0.3028)
+    WaterTreatment  = 0.4925  (|d-0.5|=0.0075)
+    Industrial      = 0.0722  (|d-0.5|=0.4278)
+  s_3277_jpg
+    ltn=0 clingo=1 body=0.4840
+    ConstructionSite = 0.1663  (|d-0.5|=0.3337)
+    MiscIndustrial  = 0.0637  (|d-0.5|=0.4363)
+    PowerPlant      = 0.0378  (|d-0.5|=0.4622)
+    WaterTreatment  = 0.3557  (|d-0.5|=0.1443)
+    Industrial      = 0.0000  (|d-0.5|=0.5000)
+  s_3835_jpg
+    ltn=0 clingo=1 body=0.3615  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2195  (|d-0.5|=0.2805)
+    MiscIndustrial  = 0.1606  (|d-0.5|=0.3394)
+    PowerPlant      = 0.1115  (|d-0.5|=0.3885)
+    WaterTreatment  = 0.4021  (|d-0.5|=0.0979)
+    Industrial      = 0.0254  (|d-0.5|=0.4746)
+  s_6105_jpg
+    ltn=0 clingo=1 body=0.3096  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2822  (|d-0.5|=0.2178)
+    MiscIndustrial  = 0.1756  (|d-0.5|=0.3244)
+    PowerPlant      = 0.1240  (|d-0.5|=0.3760)
+    WaterTreatment  = 0.4045  (|d-0.5|=0.0955)
+    Industrial      = 0.0013  (|d-0.5|=0.4987)
+  s_5820_jpg
+    ltn=0 clingo=1 body=0.3409  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2413  (|d-0.5|=0.2587)
+    MiscIndustrial  = 0.1945  (|d-0.5|=0.3055)
+    PowerPlant      = 0.1460  (|d-0.5|=0.3540)
+    WaterTreatment  = 0.3992  (|d-0.5|=0.1008)
+    Industrial      = 0.0472  (|d-0.5|=0.4528)
+  s_2263_jpg
+    ltn=0 clingo=1 body=0.4672
+    ConstructionSite = 0.2173  (|d-0.5|=0.2827)
+    MiscIndustrial  = 0.1027  (|d-0.5|=0.3973)
+    PowerPlant      = 0.0614  (|d-0.5|=0.4386)
+    WaterTreatment  = 0.2930  (|d-0.5|=0.2070)
+    Industrial      = 0.0033  (|d-0.5|=0.4967)
+  s_1760_jpg
+    ltn=0 clingo=1 body=0.2583  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2904  (|d-0.5|=0.2096)
+    MiscIndustrial  = 0.2871  (|d-0.5|=0.2129)
+    PowerPlant      = 0.2475  (|d-0.5|=0.2525)
+    WaterTreatment  = 0.4974  (|d-0.5|=0.0026)
+    Industrial      = 0.0882  (|d-0.5|=0.4118)
+  s_5178_jpg
+    ltn=0 clingo=1 body=0.4433
+    ConstructionSite = 0.2158  (|d-0.5|=0.2842)
+    MiscIndustrial  = 0.0951  (|d-0.5|=0.4049)
+    PowerPlant      = 0.0672  (|d-0.5|=0.4328)
+    WaterTreatment  = 0.3306  (|d-0.5|=0.1694)
+    Industrial      = 0.0003  (|d-0.5|=0.4997)
+  s_1744_jpg
+    ltn=0 clingo=1 body=0.3179  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2417  (|d-0.5|=0.2583)
+    MiscIndustrial  = 0.1964  (|d-0.5|=0.3036)
+    PowerPlant      = 0.1724  (|d-0.5|=0.3276)
+    WaterTreatment  = 0.4313  (|d-0.5|=0.0687)
+    Industrial      = 0.0498  (|d-0.5|=0.4502)
+  s_4213_jpg
+    ltn=0 clingo=1 body=0.3271  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2329  (|d-0.5|=0.2671)
+    MiscIndustrial  = 0.1977  (|d-0.5|=0.3023)
+    PowerPlant      = 0.1439  (|d-0.5|=0.3561)
+    WaterTreatment  = 0.4218  (|d-0.5|=0.0782)
+    Industrial      = 0.0377  (|d-0.5|=0.4623)
+  s_3736_jpg
+    ltn=0 clingo=1 body=0.4057
+    ConstructionSite = 0.2883  (|d-0.5|=0.2117)
+    MiscIndustrial  = 0.1756  (|d-0.5|=0.3244)
+    PowerPlant      = 0.0704  (|d-0.5|=0.4296)
+    WaterTreatment  = 0.2565  (|d-0.5|=0.2435)
+    Industrial      = 0.0002  (|d-0.5|=0.4998)
+  s_6063_jpg
+    ltn=0 clingo=1 body=0.2826  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2928  (|d-0.5|=0.2072)
+    MiscIndustrial  = 0.2841  (|d-0.5|=0.2159)
+    PowerPlant      = 0.2259  (|d-0.5|=0.2741)
+    WaterTreatment  = 0.4510  (|d-0.5|=0.0490)
+    Industrial      = 0.0932  (|d-0.5|=0.4068)
+  s_169_jpg
+    ltn=0 clingo=1 body=0.2710  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2232  (|d-0.5|=0.2768)
+    MiscIndustrial  = 0.2337  (|d-0.5|=0.2663)
+    PowerPlant      = 0.1374  (|d-0.5|=0.3626)
+    WaterTreatment  = 0.4879  (|d-0.5|=0.0121)
+    Industrial      = 0.0119  (|d-0.5|=0.4881)
+  s_664_jpg
+    ltn=0 clingo=1 body=0.3214  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2371  (|d-0.5|=0.2629)
+    MiscIndustrial  = 0.1997  (|d-0.5|=0.3003)
+    PowerPlant      = 0.1524  (|d-0.5|=0.3476)
+    WaterTreatment  = 0.4417  (|d-0.5|=0.0583)
+    Industrial      = 0.0524  (|d-0.5|=0.4476)
+  s_1903_jpg
+    ltn=0 clingo=1 body=0.3624  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2966  (|d-0.5|=0.2034)
+    MiscIndustrial  = 0.2011  (|d-0.5|=0.2989)
+    PowerPlant      = 0.1354  (|d-0.5|=0.3646)
+    WaterTreatment  = 0.2725  (|d-0.5|=0.2275)
+    Industrial      = 0.0170  (|d-0.5|=0.4830)
+  s_5868_jpg
+    ltn=0 clingo=1 body=0.3192  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2330  (|d-0.5|=0.2670)
+    MiscIndustrial  = 0.2236  (|d-0.5|=0.2764)
+    PowerPlant      = 0.1322  (|d-0.5|=0.3678)
+    WaterTreatment  = 0.4099  (|d-0.5|=0.0901)
+    Industrial      = 0.0237  (|d-0.5|=0.4763)
+  s_7146_jpg
+    ltn=0 clingo=1 body=0.3478  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2429  (|d-0.5|=0.2571)
+    MiscIndustrial  = 0.1882  (|d-0.5|=0.3118)
+    PowerPlant      = 0.1393  (|d-0.5|=0.3607)
+    WaterTreatment  = 0.3869  (|d-0.5|=0.1131)
+    Industrial      = 0.0417  (|d-0.5|=0.4583)
+  s_6397_jpg
+    ltn=1 clingo=0 body=0.5024
+    ConstructionSite = 0.2485  (|d-0.5|=0.2515)
+    MiscIndustrial  = 0.4825  (|d-0.5|=0.0175)
+    PowerPlant      = 0.4463  (|d-0.5|=0.0537)
+    WaterTreatment  = 0.9184  (|d-0.5|=0.4184)
+    Industrial      = 0.4981  (|d-0.5|=0.0019)
+  s_1210_jpg
+    ltn=0 clingo=1 body=0.4606
+    ConstructionSite = 0.1373  (|d-0.5|=0.3627)
+    MiscIndustrial  = 0.0657  (|d-0.5|=0.4343)
+    PowerPlant      = 0.0512  (|d-0.5|=0.4488)
+    WaterTreatment  = 0.3983  (|d-0.5|=0.1017)
+    Industrial      = 0.0010  (|d-0.5|=0.4990)
+  s_1398_jpg
+    ltn=0 clingo=1 body=0.3858  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1240  (|d-0.5|=0.3760)
+    MiscIndustrial  = 0.1044  (|d-0.5|=0.3956)
+    PowerPlant      = 0.0588  (|d-0.5|=0.4412)
+    WaterTreatment  = 0.4780  (|d-0.5|=0.0220)
+    Industrial      = 0.0006  (|d-0.5|=0.4994)
+  s_502_jpg
+    ltn=0 clingo=1 body=0.3736  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2136  (|d-0.5|=0.2864)
+    MiscIndustrial  = 0.1882  (|d-0.5|=0.3118)
+    PowerPlant      = 0.0915  (|d-0.5|=0.4085)
+    WaterTreatment  = 0.3582  (|d-0.5|=0.1418)
+    Industrial      = 0.0026  (|d-0.5|=0.4974)
+  s_357_jpg
+    ltn=0 clingo=1 body=0.3744  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1640  (|d-0.5|=0.3360)
+    MiscIndustrial  = 0.1311  (|d-0.5|=0.3689)
+    PowerPlant      = 0.0930  (|d-0.5|=0.4070)
+    WaterTreatment  = 0.4348  (|d-0.5|=0.0652)
+    Industrial      = 0.0041  (|d-0.5|=0.4959)
+  s_5511_jpg
+    ltn=0 clingo=1 body=0.3068  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2812  (|d-0.5|=0.2188)
+    MiscIndustrial  = 0.2497  (|d-0.5|=0.2503)
+    PowerPlant      = 0.1842  (|d-0.5|=0.3158)
+    WaterTreatment  = 0.3911  (|d-0.5|=0.1089)
+    Industrial      = 0.0597  (|d-0.5|=0.4403)
+  s_5970_jpg
+    ltn=0 clingo=1 body=0.2895  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.3169  (|d-0.5|=0.1831)
+    MiscIndustrial  = 0.2724  (|d-0.5|=0.2276)
+    PowerPlant      = 0.2140  (|d-0.5|=0.2860)
+    WaterTreatment  = 0.3931  (|d-0.5|=0.1069)
+    Industrial      = 0.0755  (|d-0.5|=0.4245)
+  s_5229_jpg
+    ltn=0 clingo=1 body=0.3116  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2334  (|d-0.5|=0.2666)
+    MiscIndustrial  = 0.2064  (|d-0.5|=0.2936)
+    PowerPlant      = 0.1744  (|d-0.5|=0.3256)
+    WaterTreatment  = 0.4582  (|d-0.5|=0.0418)
+    Industrial      = 0.0614  (|d-0.5|=0.4386)
+  s_5379_jpg
+    ltn=0 clingo=1 body=0.3130  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.3007  (|d-0.5|=0.1993)
+    MiscIndustrial  = 0.2371  (|d-0.5|=0.2629)
+    PowerPlant      = 0.1924  (|d-0.5|=0.3076)
+    WaterTreatment  = 0.3354  (|d-0.5|=0.1646)
+    Industrial      = 0.0426  (|d-0.5|=0.4574)
+  s_2755_jpg
+    ltn=0 clingo=1 body=0.2945  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2672  (|d-0.5|=0.2328)
+    MiscIndustrial  = 0.2602  (|d-0.5|=0.2398)
+    PowerPlant      = 0.1687  (|d-0.5|=0.3313)
+    WaterTreatment  = 0.4183  (|d-0.5|=0.0817)
+    Industrial      = 0.0489  (|d-0.5|=0.4511)
+  s_754_jpg
+    ltn=0 clingo=1 body=0.4363
+    ConstructionSite = 0.2556  (|d-0.5|=0.2444)
+    MiscIndustrial  = 0.1619  (|d-0.5|=0.3381)
+    PowerPlant      = 0.0808  (|d-0.5|=0.4192)
+    WaterTreatment  = 0.2400  (|d-0.5|=0.2600)
+    Industrial      = 0.0012  (|d-0.5|=0.4988)
+  s_148_jpg
+    ltn=0 clingo=1 body=0.2173  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.3067  (|d-0.5|=0.1933)
+    MiscIndustrial  = 0.3167  (|d-0.5|=0.1833)
+    PowerPlant      = 0.1654  (|d-0.5|=0.3346)
+    WaterTreatment  = 0.4554  (|d-0.5|=0.0446)
+    Industrial      = 0.0025  (|d-0.5|=0.4975)
+  s_3058_jpg
+    ltn=0 clingo=1 body=0.3731  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2140  (|d-0.5|=0.2860)
+    MiscIndustrial  = 0.1242  (|d-0.5|=0.3758)
+    PowerPlant      = 0.0899  (|d-0.5|=0.4101)
+    WaterTreatment  = 0.4052  (|d-0.5|=0.0948)
+    Industrial      = 0.0008  (|d-0.5|=0.4992)
+  s_4339_jpg
+    ltn=0 clingo=1 body=0.4734
+    ConstructionSite = 0.2125  (|d-0.5|=0.2875)
+    MiscIndustrial  = 0.1145  (|d-0.5|=0.3855)
+    PowerPlant      = 0.0662  (|d-0.5|=0.4338)
+    WaterTreatment  = 0.2781  (|d-0.5|=0.2219)
+    Industrial      = 0.0107  (|d-0.5|=0.4893)
+  s_7890_jpg
+    ltn=0 clingo=1 body=0.3148  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2511  (|d-0.5|=0.2489)
+    MiscIndustrial  = 0.2240  (|d-0.5|=0.2760)
+    PowerPlant      = 0.2066  (|d-0.5|=0.2934)
+    WaterTreatment  = 0.4186  (|d-0.5|=0.0814)
+    Industrial      = 0.0722  (|d-0.5|=0.4278)
+  s_4628_jpg
+    ltn=0 clingo=1 body=0.3437  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2319  (|d-0.5|=0.2681)
+    MiscIndustrial  = 0.1937  (|d-0.5|=0.3063)
+    PowerPlant      = 0.1478  (|d-0.5|=0.3522)
+    WaterTreatment  = 0.4020  (|d-0.5|=0.0980)
+    Industrial      = 0.0487  (|d-0.5|=0.4513)
+  s_1258_jpg
+    ltn=0 clingo=1 body=0.4192
+    ConstructionSite = 0.1709  (|d-0.5|=0.3291)
+    MiscIndustrial  = 0.0866  (|d-0.5|=0.4134)
+    PowerPlant      = 0.0457  (|d-0.5|=0.4543)
+    WaterTreatment  = 0.4204  (|d-0.5|=0.0796)
+    Industrial      = 0.0007  (|d-0.5|=0.4993)
+  s_3508_jpg
+    ltn=0 clingo=1 body=0.2784  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2486  (|d-0.5|=0.2514)
+    MiscIndustrial  = 0.2023  (|d-0.5|=0.2977)
+    PowerPlant      = 0.1583  (|d-0.5|=0.3417)
+    WaterTreatment  = 0.4762  (|d-0.5|=0.0238)
+    Industrial      = 0.0212  (|d-0.5|=0.4788)
+  s_3406_jpg
+    ltn=1 clingo=0 body=0.5083
+    ConstructionSite = 0.2589  (|d-0.5|=0.2411)
+    MiscIndustrial  = 0.4386  (|d-0.5|=0.0614)
+    PowerPlant      = 0.3964  (|d-0.5|=0.1036)
+    WaterTreatment  = 0.7865  (|d-0.5|=0.2865)
+    Industrial      = 0.4952  (|d-0.5|=0.0048)
+  s_6018_jpg
+    ltn=0 clingo=1 body=0.4218
+    ConstructionSite = 0.1813  (|d-0.5|=0.3187)
+    MiscIndustrial  = 0.1056  (|d-0.5|=0.3944)
+    PowerPlant      = 0.0630  (|d-0.5|=0.4370)
+    WaterTreatment  = 0.3857  (|d-0.5|=0.1143)
+    Industrial      = 0.0008  (|d-0.5|=0.4992)
+  s_4984_jpg
+    ltn=1 clingo=0 body=0.5001
+    ConstructionSite = 0.2161  (|d-0.5|=0.2839)
+    MiscIndustrial  = 0.5011  (|d-0.5|=0.0011)
+    PowerPlant      = 0.4734  (|d-0.5|=0.0266)
+    WaterTreatment  = 0.9117  (|d-0.5|=0.4117)
+    Industrial      = 0.4955  (|d-0.5|=0.0045)
+  s_5466_jpg
+    ltn=0 clingo=1 body=0.3865  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2253  (|d-0.5|=0.2747)
+    MiscIndustrial  = 0.1183  (|d-0.5|=0.3817)
+    PowerPlant      = 0.0747  (|d-0.5|=0.4253)
+    WaterTreatment  = 0.3901  (|d-0.5|=0.1099)
+    Industrial      = 0.0021  (|d-0.5|=0.4979)
+  s_5571_jpg
+    ltn=0 clingo=1 body=0.3311  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2670  (|d-0.5|=0.2330)
+    MiscIndustrial  = 0.2135  (|d-0.5|=0.2865)
+    PowerPlant      = 0.1670  (|d-0.5|=0.3330)
+    WaterTreatment  = 0.3759  (|d-0.5|=0.1241)
+    Industrial      = 0.0522  (|d-0.5|=0.4478)
+  s_3397_jpg
+    ltn=0 clingo=1 body=0.3809  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2411  (|d-0.5|=0.2589)
+    MiscIndustrial  = 0.1500  (|d-0.5|=0.3500)
+    PowerPlant      = 0.1060  (|d-0.5|=0.3940)
+    WaterTreatment  = 0.3476  (|d-0.5|=0.1524)
+    Industrial      = 0.0095  (|d-0.5|=0.4905)
+  s_4012_jpg
+    ltn=0 clingo=1 body=0.3338  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2234  (|d-0.5|=0.2766)
+    MiscIndustrial  = 0.1139  (|d-0.5|=0.3861)
+    PowerPlant      = 0.0766  (|d-0.5|=0.4234)
+    WaterTreatment  = 0.4756  (|d-0.5|=0.0244)
+    Industrial      = 0.0010  (|d-0.5|=0.4990)
+  s_6057_jpg
+    ltn=0 clingo=1 body=0.4567
+    ConstructionSite = 0.1814  (|d-0.5|=0.3186)
+    MiscIndustrial  = 0.1030  (|d-0.5|=0.3970)
+    PowerPlant      = 0.0917  (|d-0.5|=0.4083)
+    WaterTreatment  = 0.3172  (|d-0.5|=0.1828)
+    Industrial      = 0.0036  (|d-0.5|=0.4964)
+  s_6225_jpg
+    ltn=0 clingo=1 body=0.3584  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2450  (|d-0.5|=0.2550)
+    MiscIndustrial  = 0.1589  (|d-0.5|=0.3411)
+    PowerPlant      = 0.0959  (|d-0.5|=0.4041)
+    WaterTreatment  = 0.3768  (|d-0.5|=0.1232)
+    Industrial      = 0.0010  (|d-0.5|=0.4990)
+  s_241_jpg
+    ltn=0 clingo=1 body=0.3520  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2398  (|d-0.5|=0.2602)
+    MiscIndustrial  = 0.1863  (|d-0.5|=0.3137)
+    PowerPlant      = 0.1350  (|d-0.5|=0.3650)
+    WaterTreatment  = 0.3822  (|d-0.5|=0.1178)
+    Industrial      = 0.0387  (|d-0.5|=0.4613)
+  s_5472_jpg
+    ltn=0 clingo=1 body=0.3498  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1756  (|d-0.5|=0.3244)
+    MiscIndustrial  = 0.0980  (|d-0.5|=0.4020)
+    PowerPlant      = 0.0707  (|d-0.5|=0.4293)
+    WaterTreatment  = 0.4982  (|d-0.5|=0.0018)
+    Industrial      = 0.0056  (|d-0.5|=0.4944)
+  s_6217_jpg
+    ltn=1 clingo=0 body=0.5038
+    ConstructionSite = 0.2007  (|d-0.5|=0.2993)
+    MiscIndustrial  = 0.3697  (|d-0.5|=0.1303)
+    PowerPlant      = 0.3650  (|d-0.5|=0.1350)
+    WaterTreatment  = 0.8906  (|d-0.5|=0.3906)
+    Industrial      = 0.4951  (|d-0.5|=0.0049)
+  s_7830_jpg
+    ltn=0 clingo=1 body=0.4381
+    ConstructionSite = 0.2170  (|d-0.5|=0.2830)
+    MiscIndustrial  = 0.1435  (|d-0.5|=0.3565)
+    PowerPlant      = 0.0674  (|d-0.5|=0.4326)
+    WaterTreatment  = 0.2999  (|d-0.5|=0.2001)
+    Industrial      = 0.0005  (|d-0.5|=0.4995)
+  s_2200_jpg
+    ltn=0 clingo=1 body=0.3385  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2710  (|d-0.5|=0.2290)
+    MiscIndustrial  = 0.1997  (|d-0.5|=0.3003)
+    PowerPlant      = 0.1536  (|d-0.5|=0.3464)
+    WaterTreatment  = 0.3640  (|d-0.5|=0.1360)
+    Industrial      = 0.0422  (|d-0.5|=0.4578)
+  s_3307_jpg
+    ltn=0 clingo=1 body=0.4781
+    ConstructionSite = 0.2091  (|d-0.5|=0.2909)
+    MiscIndustrial  = 0.0830  (|d-0.5|=0.4170)
+    PowerPlant      = 0.0478  (|d-0.5|=0.4522)
+    WaterTreatment  = 0.3080  (|d-0.5|=0.1920)
+    Industrial      = 0.0004  (|d-0.5|=0.4996)
+  s_2716_jpg
+    ltn=1 clingo=0 body=0.5008
+    ConstructionSite = 0.2413  (|d-0.5|=0.2587)
+    MiscIndustrial  = 0.4093  (|d-0.5|=0.0907)
+    PowerPlant      = 0.4008  (|d-0.5|=0.0992)
+    WaterTreatment  = 0.8106  (|d-0.5|=0.3106)
+    Industrial      = 0.4875  (|d-0.5|=0.0125)
+  s_298_jpg
+    ltn=0 clingo=1 body=0.3874  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1659  (|d-0.5|=0.3341)
+    MiscIndustrial  = 0.0934  (|d-0.5|=0.4066)
+    PowerPlant      = 0.0783  (|d-0.5|=0.4217)
+    WaterTreatment  = 0.4477  (|d-0.5|=0.0523)
+    Industrial      = 0.0052  (|d-0.5|=0.4948)
+  s_4826_jpg
+    ltn=1 clingo=0 body=0.5053
+    ConstructionSite = 0.2133  (|d-0.5|=0.2867)
+    MiscIndustrial  = 0.3703  (|d-0.5|=0.1297)
+    PowerPlant      = 0.3757  (|d-0.5|=0.1243)
+    WaterTreatment  = 0.8907  (|d-0.5|=0.3907)
+    Industrial      = 0.4969  (|d-0.5|=0.0031)
+  s_1153_jpg
+    ltn=0 clingo=1 body=0.4231
+    ConstructionSite = 0.2368  (|d-0.5|=0.2632)
+    MiscIndustrial  = 0.1553  (|d-0.5|=0.3447)
+    PowerPlant      = 0.1160  (|d-0.5|=0.3840)
+    WaterTreatment  = 0.2772  (|d-0.5|=0.2228)
+    Industrial      = 0.0269  (|d-0.5|=0.4731)
+  s_5640_jpg
+    ltn=0 clingo=1 body=0.4104
+    ConstructionSite = 0.1658  (|d-0.5|=0.3342)
+    MiscIndustrial  = 0.1377  (|d-0.5|=0.3623)
+    PowerPlant      = 0.0649  (|d-0.5|=0.4351)
+    WaterTreatment  = 0.3910  (|d-0.5|=0.1090)
+    Industrial      = 0.0015  (|d-0.5|=0.4985)
+  s_412_jpg
+    ltn=0 clingo=1 body=0.4841
+    ConstructionSite = 0.1486  (|d-0.5|=0.3514)
+    MiscIndustrial  = 0.0688  (|d-0.5|=0.4312)
+    PowerPlant      = 0.0388  (|d-0.5|=0.4612)
+    WaterTreatment  = 0.3651  (|d-0.5|=0.1349)
+    Industrial      = 0.0006  (|d-0.5|=0.4994)
+  s_3643_jpg
+    ltn=0 clingo=1 body=0.3059  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2828  (|d-0.5|=0.2172)
+    MiscIndustrial  = 0.2455  (|d-0.5|=0.2545)
+    PowerPlant      = 0.1860  (|d-0.5|=0.3140)
+    WaterTreatment  = 0.4017  (|d-0.5|=0.0983)
+    Industrial      = 0.0645  (|d-0.5|=0.4355)
+  s_4801_jpg
+    ltn=0 clingo=1 body=0.4772
+    ConstructionSite = 0.1675  (|d-0.5|=0.3325)
+    MiscIndustrial  = 0.0970  (|d-0.5|=0.4030)
+    PowerPlant      = 0.0840  (|d-0.5|=0.4160)
+    WaterTreatment  = 0.3099  (|d-0.5|=0.1901)
+    Industrial      = 0.0063  (|d-0.5|=0.4937)
+  s_2587_jpg
+    ltn=0 clingo=1 body=0.4418
+    ConstructionSite = 0.2678  (|d-0.5|=0.2322)
+    MiscIndustrial  = 0.1734  (|d-0.5|=0.3266)
+    PowerPlant      = 0.0777  (|d-0.5|=0.4223)
+    WaterTreatment  = 0.2092  (|d-0.5|=0.2908)
+    Industrial      = 0.0007  (|d-0.5|=0.4993)
+  s_7467_jpg
+    ltn=0 clingo=1 body=0.4014
+    ConstructionSite = 0.2069  (|d-0.5|=0.2931)
+    MiscIndustrial  = 0.1063  (|d-0.5|=0.3937)
+    PowerPlant      = 0.0524  (|d-0.5|=0.4476)
+    WaterTreatment  = 0.4027  (|d-0.5|=0.0973)
+    Industrial      = 0.0002  (|d-0.5|=0.4998)
+  s_2842_jpg
+    ltn=0 clingo=1 body=0.2879  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2658  (|d-0.5|=0.2342)
+    MiscIndustrial  = 0.2555  (|d-0.5|=0.2445)
+    PowerPlant      = 0.1845  (|d-0.5|=0.3155)
+    WaterTreatment  = 0.4448  (|d-0.5|=0.0552)
+    Industrial      = 0.0593  (|d-0.5|=0.4407)
+  s_7512_jpg
+    ltn=0 clingo=1 body=0.2938  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2375  (|d-0.5|=0.2625)
+    MiscIndustrial  = 0.2267  (|d-0.5|=0.2733)
+    PowerPlant      = 0.1663  (|d-0.5|=0.3337)
+    WaterTreatment  = 0.4699  (|d-0.5|=0.0301)
+    Industrial      = 0.0499  (|d-0.5|=0.4501)
+  s_898_jpg
+    ltn=0 clingo=1 body=0.3291  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2874  (|d-0.5|=0.2126)
+    MiscIndustrial  = 0.2277  (|d-0.5|=0.2723)
+    PowerPlant      = 0.1686  (|d-0.5|=0.3314)
+    WaterTreatment  = 0.3419  (|d-0.5|=0.1581)
+    Industrial      = 0.0466  (|d-0.5|=0.4534)
+  s_3523_jpg
+    ltn=0 clingo=1 body=0.3982  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2179  (|d-0.5|=0.2821)
+    MiscIndustrial  = 0.1360  (|d-0.5|=0.3640)
+    PowerPlant      = 0.0968  (|d-0.5|=0.4032)
+    WaterTreatment  = 0.3610  (|d-0.5|=0.1390)
+    Industrial      = 0.0179  (|d-0.5|=0.4821)
+  s_6210_jpg
+    ltn=0 clingo=1 body=0.2906  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2294  (|d-0.5|=0.2706)
+    MiscIndustrial  = 0.2330  (|d-0.5|=0.2670)
+    PowerPlant      = 0.1643  (|d-0.5|=0.3357)
+    WaterTreatment  = 0.4851  (|d-0.5|=0.0149)
+    Industrial      = 0.0538  (|d-0.5|=0.4462)
+  s_5395_jpg
+    ltn=1 clingo=0 body=0.5079
+    ConstructionSite = 0.2311  (|d-0.5|=0.2689)
+    MiscIndustrial  = 0.4926  (|d-0.5|=0.0074)
+    PowerPlant      = 0.3794  (|d-0.5|=0.1206)
+    WaterTreatment  = 0.8468  (|d-0.5|=0.3468)
+    Industrial      = 0.4989  (|d-0.5|=0.0011)
+  s_7053_jpg
+    ltn=0 clingo=1 body=0.3708  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1852  (|d-0.5|=0.3148)
+    MiscIndustrial  = 0.1704  (|d-0.5|=0.3296)
+    PowerPlant      = 0.0865  (|d-0.5|=0.4135)
+    WaterTreatment  = 0.4045  (|d-0.5|=0.0955)
+    Industrial      = 0.0061  (|d-0.5|=0.4939)
+  s_2191_jpg
+    ltn=0 clingo=1 body=0.4791
+    ConstructionSite = 0.2000  (|d-0.5|=0.3000)
+    MiscIndustrial  = 0.1128  (|d-0.5|=0.3872)
+    PowerPlant      = 0.0556  (|d-0.5|=0.4444)
+    WaterTreatment  = 0.2857  (|d-0.5|=0.2143)
+    Industrial      = 0.0008  (|d-0.5|=0.4992)
+  s_7674_jpg
+    ltn=0 clingo=1 body=0.4532
+    ConstructionSite = 0.2193  (|d-0.5|=0.2807)
+    MiscIndustrial  = 0.1175  (|d-0.5|=0.3825)
+    PowerPlant      = 0.0790  (|d-0.5|=0.4210)
+    WaterTreatment  = 0.2866  (|d-0.5|=0.2134)
+    Industrial      = 0.0011  (|d-0.5|=0.4989)
+  s_2302_jpg
+    ltn=0 clingo=1 body=0.4880
+    ConstructionSite = 0.1413  (|d-0.5|=0.3587)
+    MiscIndustrial  = 0.0690  (|d-0.5|=0.4310)
+    PowerPlant      = 0.0682  (|d-0.5|=0.4318)
+    WaterTreatment  = 0.3457  (|d-0.5|=0.1543)
+    Industrial      = 0.0022  (|d-0.5|=0.4978)
+  s_5424_jpg
+    ltn=0 clingo=1 body=0.2812  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2480  (|d-0.5|=0.2520)
+    MiscIndustrial  = 0.2355  (|d-0.5|=0.2645)
+    PowerPlant      = 0.1726  (|d-0.5|=0.3274)
+    WaterTreatment  = 0.4666  (|d-0.5|=0.0334)
+    Industrial      = 0.0406  (|d-0.5|=0.4594)
+  s_5700_jpg
+    ltn=0 clingo=1 body=0.2875  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2734  (|d-0.5|=0.2266)
+    MiscIndustrial  = 0.2423  (|d-0.5|=0.2577)
+    PowerPlant      = 0.2014  (|d-0.5|=0.2986)
+    WaterTreatment  = 0.4487  (|d-0.5|=0.0513)
+    Industrial      = 0.0656  (|d-0.5|=0.4344)
+  s_7035_jpg
+    ltn=0 clingo=1 body=0.3148  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2275  (|d-0.5|=0.2725)
+    MiscIndustrial  = 0.1712  (|d-0.5|=0.3288)
+    PowerPlant      = 0.1266  (|d-0.5|=0.3734)
+    WaterTreatment  = 0.4637  (|d-0.5|=0.0363)
+    Industrial      = 0.0244  (|d-0.5|=0.4756)
+  s_742_jpg
+    ltn=0 clingo=1 body=0.2853  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2348  (|d-0.5|=0.2652)
+    MiscIndustrial  = 0.1765  (|d-0.5|=0.3235)
+    PowerPlant      = 0.1369  (|d-0.5|=0.3631)
+    WaterTreatment  = 0.4971  (|d-0.5|=0.0029)
+    Industrial      = 0.0181  (|d-0.5|=0.4819)
+  s_7560_jpg
+    ltn=0 clingo=1 body=0.4711
+    ConstructionSite = 0.2063  (|d-0.5|=0.2937)
+    MiscIndustrial  = 0.1309  (|d-0.5|=0.3691)
+    PowerPlant      = 0.0680  (|d-0.5|=0.4320)
+    WaterTreatment  = 0.2700  (|d-0.5|=0.2300)
+    Industrial      = 0.0056  (|d-0.5|=0.4944)
+  s_3472_jpg
+    ltn=0 clingo=1 body=0.2981  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2482  (|d-0.5|=0.2518)
+    MiscIndustrial  = 0.2057  (|d-0.5|=0.2943)
+    PowerPlant      = 0.1706  (|d-0.5|=0.3294)
+    WaterTreatment  = 0.4538  (|d-0.5|=0.0462)
+    Industrial      = 0.0424  (|d-0.5|=0.4576)
+  s_4999_jpg
+    ltn=1 clingo=0 body=0.5055
+    ConstructionSite = 0.2348  (|d-0.5|=0.2652)
+    MiscIndustrial  = 0.4025  (|d-0.5|=0.0975)
+    PowerPlant      = 0.3887  (|d-0.5|=0.1113)
+    WaterTreatment  = 0.8728  (|d-0.5|=0.3728)
+    Industrial      = 0.4967  (|d-0.5|=0.0033)
+  s_7992_jpg
+    ltn=0 clingo=1 body=0.2801  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2439  (|d-0.5|=0.2561)
+    MiscIndustrial  = 0.2035  (|d-0.5|=0.2965)
+    PowerPlant      = 0.1333  (|d-0.5|=0.3667)
+    WaterTreatment  = 0.4743  (|d-0.5|=0.0257)
+    Industrial      = 0.0086  (|d-0.5|=0.4914)
+  s_1537_jpg
+    ltn=0 clingo=1 body=0.4468
+    ConstructionSite = 0.2743  (|d-0.5|=0.2257)
+    MiscIndustrial  = 0.1486  (|d-0.5|=0.3514)
+    PowerPlant      = 0.0966  (|d-0.5|=0.4034)
+    WaterTreatment  = 0.2044  (|d-0.5|=0.2956)
+    Industrial      = 0.0072  (|d-0.5|=0.4928)
+  s_7791_jpg
+    ltn=0 clingo=1 body=0.3074  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2485  (|d-0.5|=0.2515)
+    MiscIndustrial  = 0.2296  (|d-0.5|=0.2704)
+    PowerPlant      = 0.1642  (|d-0.5|=0.3358)
+    WaterTreatment  = 0.4449  (|d-0.5|=0.0551)
+    Industrial      = 0.0597  (|d-0.5|=0.4403)
+  s_6480_jpg
+    ltn=0 clingo=1 body=0.3973  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1690  (|d-0.5|=0.3310)
+    MiscIndustrial  = 0.1007  (|d-0.5|=0.3993)
+    PowerPlant      = 0.0506  (|d-0.5|=0.4494)
+    WaterTreatment  = 0.4408  (|d-0.5|=0.0592)
+    Industrial      = 0.0010  (|d-0.5|=0.4990)
+  s_76_jpg
+    ltn=0 clingo=1 body=0.3243  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2616  (|d-0.5|=0.2384)
+    MiscIndustrial  = 0.2048  (|d-0.5|=0.2952)
+    PowerPlant      = 0.1575  (|d-0.5|=0.3425)
+    WaterTreatment  = 0.3821  (|d-0.5|=0.1179)
+    Industrial      = 0.0311  (|d-0.5|=0.4689)
+  s_1882_jpg
+    ltn=0 clingo=1 body=0.4950
+    ConstructionSite = 0.2426  (|d-0.5|=0.2574)
+    MiscIndustrial  = 0.1077  (|d-0.5|=0.3923)
+    PowerPlant      = 0.0661  (|d-0.5|=0.4339)
+    WaterTreatment  = 0.2162  (|d-0.5|=0.2838)
+    Industrial      = 0.0008  (|d-0.5|=0.4992)
+  s_3037_jpg
+    ltn=0 clingo=1 body=0.4149
+    ConstructionSite = 0.2730  (|d-0.5|=0.2270)
+    MiscIndustrial  = 0.1541  (|d-0.5|=0.3459)
+    PowerPlant      = 0.0776  (|d-0.5|=0.4224)
+    WaterTreatment  = 0.2692  (|d-0.5|=0.2308)
+    Industrial      = 0.0007  (|d-0.5|=0.4993)
+  s_7842_jpg
+    ltn=0 clingo=1 body=0.4634
+    ConstructionSite = 0.2058  (|d-0.5|=0.2942)
+    MiscIndustrial  = 0.1026  (|d-0.5|=0.3974)
+    PowerPlant      = 0.0765  (|d-0.5|=0.4235)
+    WaterTreatment  = 0.2965  (|d-0.5|=0.2035)
+    Industrial      = 0.0010  (|d-0.5|=0.4990)
+  s_1159_jpg
+    ltn=0 clingo=1 body=0.2765  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2701  (|d-0.5|=0.2299)
+    MiscIndustrial  = 0.2434  (|d-0.5|=0.2566)
+    PowerPlant      = 0.2203  (|d-0.5|=0.2797)
+    WaterTreatment  = 0.4987  (|d-0.5|=0.0013)
+    Industrial      = 0.0837  (|d-0.5|=0.4163)
+  s_3430_jpg
+    ltn=0 clingo=1 body=0.3468  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2422  (|d-0.5|=0.2578)
+    MiscIndustrial  = 0.1933  (|d-0.5|=0.3067)
+    PowerPlant      = 0.1263  (|d-0.5|=0.3737)
+    WaterTreatment  = 0.3855  (|d-0.5|=0.1145)
+    Industrial      = 0.0332  (|d-0.5|=0.4668)
+  s_1120_jpg
+    ltn=0 clingo=1 body=0.2966  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.2089  (|d-0.5|=0.2911)
+    MiscIndustrial  = 0.1954  (|d-0.5|=0.3046)
+    PowerPlant      = 0.1213  (|d-0.5|=0.3787)
+    WaterTreatment  = 0.4779  (|d-0.5|=0.0221)
+    Industrial      = 0.0072  (|d-0.5|=0.4928)
+  s_6324_jpg
+    ltn=0 clingo=1 body=0.4374
+    ConstructionSite = 0.1773  (|d-0.5|=0.3227)
+    MiscIndustrial  = 0.1174  (|d-0.5|=0.3826)
+    PowerPlant      = 0.0826  (|d-0.5|=0.4174)
+    WaterTreatment  = 0.3487  (|d-0.5|=0.1513)
+    Industrial      = 0.0092  (|d-0.5|=0.4908)
+  s_2038_jpg
+    ltn=0 clingo=1 body=0.2555  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.3177  (|d-0.5|=0.1823)
+    MiscIndustrial  = 0.3186  (|d-0.5|=0.1814)
+    PowerPlant      = 0.2631  (|d-0.5|=0.2369)
+    WaterTreatment  = 0.4770  (|d-0.5|=0.0230)
+    Industrial      = 0.0984  (|d-0.5|=0.4016)
+  s_1108_jpg
+    ltn=0 clingo=1 body=0.3887  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    ConstructionSite = 0.1647  (|d-0.5|=0.3353)
+    MiscIndustrial  = 0.0942  (|d-0.5|=0.4058)
+    PowerPlant      = 0.0744  (|d-0.5|=0.4256)
+    WaterTreatment  = 0.4463  (|d-0.5|=0.0537)
+    Industrial      = 0.0017  (|d-0.5|=0.4983)
+  s_4411_jpg
+    ltn=0 clingo=1 body=0.4751
+    ConstructionSite = 0.1767  (|d-0.5|=0.3233)
+    MiscIndustrial  = 0.1192  (|d-0.5|=0.3808)
+    PowerPlant      = 0.0571  (|d-0.5|=0.4429)
+    WaterTreatment  = 0.3060  (|d-0.5|=0.1940)
+    Industrial      = 0.0017  (|d-0.5|=0.4983)
+
+
+
+--- rule_Hotel_WallSignAndBillboard (6 disagreements) ---
+  s_6730_jpg
+    ltn=1 clingo=0 body=0.5051
+    Hotel           = 0.5007  (|d-0.5|=0.0007)
+    Billboard       = 0.3211  (|d-0.5|=0.1789)
+    WallSign        = 0.0738  (|d-0.5|=0.4262)
+  s_3140_jpg
+    ltn=1 clingo=0 body=0.5053
+    Hotel           = 0.5042  (|d-0.5|=0.0042)
+    Billboard       = 0.4920  (|d-0.5|=0.0080)
+    WallSign        = 0.0777  (|d-0.5|=0.4223)
+  s_7720_jpg
+    ltn=1 clingo=0 body=0.5071
+    Hotel           = 0.5000  (|d-0.5|=0.0000)
+    Billboard       = 0.3883  (|d-0.5|=0.1117)
+    WallSign        = 0.0758  (|d-0.5|=0.4242)
+  s_2813_jpg
+    ltn=1 clingo=0 body=0.5024
+    Hotel           = 0.5068  (|d-0.5|=0.0068)
+    Billboard       = 0.4910  (|d-0.5|=0.0090)
+    WallSign        = 0.0734  (|d-0.5|=0.4266)
+  s_3737_jpg
+    ltn=1 clingo=0 body=0.5034
+    Hotel           = 0.5058  (|d-0.5|=0.0058)
+    Billboard       = 0.4065  (|d-0.5|=0.0935)
+    WallSign        = 0.0902  (|d-0.5|=0.4098)
+  s_3002_jpg
+    ltn=1 clingo=0 body=0.5040
+    Hotel           = 0.5055  (|d-0.5|=0.0055)
+    Billboard       = 0.3833  (|d-0.5|=0.1167)
+    WallSign        = 0.0981  (|d-0.5|=0.4019)
+
+
+
+--- rule_DT3_CommercialBuildingType (2 disagreements) ---
+  s_2957_jpg
+    ltn=1 clingo=0 body=0.5005
+    Cafe            = 0.9318  (|d-0.5|=0.4318)
+    Hotel           = 0.1145  (|d-0.5|=0.3855)
+    Restaurant      = 0.3440  (|d-0.5|=0.1560)
+    Store           = 0.4091  (|d-0.5|=0.0909)
+    MiscCommercial  = 0.3054  (|d-0.5|=0.1946)
+    Commercial      = 0.4964  (|d-0.5|=0.0036)
+  s_386_jpg
+    ltn=1 clingo=0 body=0.5008
+    Cafe            = 0.8963  (|d-0.5|=0.3963)
+    Hotel           = 0.1204  (|d-0.5|=0.3796)
+    Restaurant      = 0.5775  (|d-0.5|=0.0775)
+    Store           = 0.6259  (|d-0.5|=0.1259)
+    MiscCommercial  = 0.1758  (|d-0.5|=0.3242)
+    Commercial      = 0.4978  (|d-0.5|=0.0022)
+
+
+
+--- rule_MiscCommercial_WallSignAndTable (1 disagreements) ---
+  s_7762_jpg
+    ltn=1 clingo=0 body=0.5072
+    MiscCommercial  = 0.5059  (|d-0.5|=0.0059)
+    Table           = 0.2512  (|d-0.5|=0.2488)
+    WallSign        = 0.2102  (|d-0.5|=0.2898)
