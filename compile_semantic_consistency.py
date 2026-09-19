@@ -67,12 +67,12 @@ def print_latex_table(rows, avg_train, avg_val, alpha, caption, label):
     for name, train_c, val_c in rows:
         train_s = f"{train_c * 100:.2f}" if train_c is not None else "-"
         val_s = f"{val_c * 100:.2f}" if val_c is not None else "-"
-        lines.append(f"{alpha} (DSL) & {train_s} & {val_s} \\\\")
+        lines.append(f"{alpha} (Wide) & {train_s} & {val_s} \\\\")
     lines.append(r"\hline")
     avg_train_s = f"{avg_train * 100:.2f}" if avg_train is not None else "-"
     avg_val_s = f"{avg_val * 100:.2f}" if avg_val is not None else "-"
     #lines.append(f"\\textbf{{Average}} & {avg_train_s} & {avg_val_s} \\\\")
-    lines.append(f"{alpha} (DSL) & {avg_train_s} & {avg_val_s} \\\\")
+    lines.append(f"{alpha} (Wide) & {avg_train_s} & {avg_val_s} \\\\")
     lines += [
         r"\hline",
         r"\end{tabular}",

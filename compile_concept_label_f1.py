@@ -46,7 +46,7 @@ from pathlib import Path
 #     "Car":            {"active": False},
 # }
 
-# # Toggle "active" to control which concepts are included in the table.
+
 CONCEPTS = {
     "Door":           {"active": False},
     "Window":         {"active": False},
@@ -55,29 +55,32 @@ CONCEPTS = {
     "Porch":          {"active": False},
     "Sign":           {"active": True},
     "Table":          {"active": True},
-    "TiledRoof":      {"active": False},
+    "TiledRoof":      {"active": True},
     "TiledRoofTop":   {"active": False},
     "VendingMachine": {"active": False},
     "WallSign":       {"active": False},
     "Statue":         {"active": False},
     "Chimney":        {"active": True},
     "Pipe":           {"active": True},
-    "Machine":        {"active": True},
+    "Machine":        {"active": False},
     "Truck":          {"active": True},
-    "Car":            {"active": False},
+    "Car":            {"active": True},
 }
+
+# # Toggle "active" to control which concepts are included in the table.
+
 
 
 BUILDING_CLASSES = {
-    "Cafe":             {"active": True},
-    "Hotel":            {"active": True},
-    "Restaurant":       {"active": True},
-    "Store":            {"active": True},
+    "Cafe":             {"active": False},
+    "Hotel":            {"active": False},
+    "Restaurant":       {"active": False},
+    "Store":            {"active": False},
     "MiscCommercial":   {"active": True},
-    "Suburban":         {"active": True},
-    "MiscResidential":  {"active": True},
+    "Suburban":         {"active": False},
+    "MiscResidential":  {"active": False},
     "CountryHouse":     {"active": True},
-    "ConstructionSite": {"active": True},
+    "ConstructionSite": {"active": False},
     "MiscIndustrial":   {"active": True},
     "PowerPlant":       {"active": True},
     "WaterTreatment":   {"active": True},
@@ -201,7 +204,7 @@ def print_latex_table(values, active_classes, row_label, caption, label, with_st
     for name in active_classes:
         train_s = format_cell(values[name]["train"], with_std, as_percent)
         val_s = format_cell(values[name]["val"], with_std, as_percent)
-        lines.append(f"{name} & {train_s} & {val_s} \\\\")
+        lines.append(f"{name} (DSL) & {train_s} & {val_s} \\\\")
     lines += [
         r"\hline",
         r"\end{tabular}",

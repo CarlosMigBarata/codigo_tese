@@ -42,6 +42,94 @@ rule_not_holds(X, commercial, left_fails_right_holds) :-
 
 
 
+%starting rule hotel
+rule(hotel).
+
+left_holds(X, hotel) :-
+    holds(X, hotel).
+
+right_holds(X, hotel) :-
+    holds(X, wallsign).
+
+rule_holds(X, hotel) :- 
+    left_holds(X, hotel), 
+    right_holds(X, hotel).
+
+rule_vacuously_holds(X, hotel) :- 
+    holds(X, building),
+    not left_holds(X, hotel), 
+    not right_holds(X, hotel).
+
+rule_not_holds(X, hotel, left_holds_right_fails) :- 
+    left_holds(X, hotel), 
+    not right_holds(X, hotel).
+
+rule_not_holds(X, hotel, left_fails_right_holds) :- 
+    not left_holds(X, hotel), 
+    right_holds(X, hotel).
+
+
+
+
+%starting rule store
+rule(store).
+
+left_holds(X, store) :-
+    holds(X, store).
+
+right_holds(X, store) :-
+    holds(X, billboard).
+
+rule_holds(X, store) :- 
+    left_holds(X, store), 
+    right_holds(X, store).
+
+rule_vacuously_holds(X, store) :- 
+    holds(X, building),
+    not left_holds(X, store), 
+    not right_holds(X, store).
+
+rule_not_holds(X, store, left_holds_right_fails) :- 
+    left_holds(X, store), 
+    not right_holds(X, store).
+
+rule_not_holds(X, store, left_fails_right_holds) :- 
+    not left_holds(X, store), 
+    right_holds(X, store).
+
+
+
+
+%starting rule misccommercial
+rule(misccommercial).
+
+left_holds(X, misccommercial) :-
+    holds(X, misccommercial).
+
+right_holds(X, misccommercial) :-
+    holds(X, awning),
+    holds(X, table).
+
+rule_holds(X, misccommercial) :- 
+    left_holds(X, misccommercial), 
+    right_holds(X, misccommercial).
+
+rule_vacuously_holds(X, misccommercial) :- 
+    holds(X, building),
+    not left_holds(X, misccommercial), 
+    not right_holds(X, misccommercial).
+
+rule_not_holds(X, misccommercial, left_holds_right_fails) :- 
+    left_holds(X, misccommercial), 
+    not right_holds(X, misccommercial).
+
+rule_not_holds(X, misccommercial, left_fails_right_holds) :- 
+    not left_holds(X, misccommercial), 
+    right_holds(X, misccommercial).
+
+
+
+
 %starting rule industrial
 rule(industrial).
 
@@ -76,6 +164,95 @@ rule_not_holds(X, industrial, left_holds_right_fails) :-
 rule_not_holds(X, industrial, left_fails_right_holds) :- 
     not left_holds(X, industrial), 
     right_holds(X, industrial).
+
+
+
+
+%starting rule constructionsite
+rule(constructionsite).
+
+left_holds(X, constructionsite) :-
+    holds(X, constructionsite).
+
+right_holds(X, constructionsite) :-
+    holds(X, machine).
+
+rule_holds(X, constructionsite) :- 
+    left_holds(X, constructionsite), 
+    right_holds(X, constructionsite).
+
+rule_vacuously_holds(X, constructionsite) :- 
+    holds(X, building),
+    not left_holds(X, constructionsite), 
+    not right_holds(X, constructionsite).
+
+rule_not_holds(X, constructionsite, left_holds_right_fails) :- 
+    left_holds(X, constructionsite), 
+    not right_holds(X, constructionsite).
+
+rule_not_holds(X, constructionsite, left_fails_right_holds) :- 
+    not left_holds(X, constructionsite), 
+    right_holds(X, constructionsite).
+
+
+
+
+%starting rule powerplant
+rule(powerplant).
+
+left_holds(X, powerplant) :-
+    holds(X, powerplant).
+
+right_holds(X, powerplant) :-
+    holds(X, chimney),
+    holds(X, pipe).
+
+rule_holds(X, powerplant) :- 
+    left_holds(X, powerplant), 
+    right_holds(X, powerplant).
+
+rule_vacuously_holds(X, powerplant) :- 
+    holds(X, building),
+    not left_holds(X, powerplant), 
+    not right_holds(X, powerplant).
+
+rule_not_holds(X, powerplant, left_holds_right_fails) :- 
+    left_holds(X, powerplant), 
+    not right_holds(X, powerplant).
+
+rule_not_holds(X, powerplant, left_fails_right_holds) :- 
+    not left_holds(X, powerplant), 
+    right_holds(X, powerplant).
+
+
+
+
+%starting rule watertreatment
+rule(watertreatment).
+
+left_holds(X, watertreatment) :-
+    holds(X, watertreatment).
+
+right_holds(X, watertreatment) :-
+    holds(X, pipe),
+    holds(X, truck).
+
+rule_holds(X, watertreatment) :- 
+    left_holds(X, watertreatment), 
+    right_holds(X, watertreatment).
+
+rule_vacuously_holds(X, watertreatment) :- 
+    holds(X, building),
+    not left_holds(X, watertreatment), 
+    not right_holds(X, watertreatment).
+
+rule_not_holds(X, watertreatment, left_holds_right_fails) :- 
+    left_holds(X, watertreatment), 
+    not right_holds(X, watertreatment).
+
+rule_not_holds(X, watertreatment, left_fails_right_holds) :- 
+    not left_holds(X, watertreatment), 
+    right_holds(X, watertreatment).
 
 
 
@@ -170,66 +347,6 @@ rule_not_holds(X, countryhouse, left_holds_right_fails) :-
 rule_not_holds(X, countryhouse, left_fails_right_holds) :- 
     not left_holds(X, countryhouse), 
     right_holds(X, countryhouse).
-
-
-
-
-%starting rule miscresidential
-rule(miscresidential).
-
-left_holds(X, miscresidential) :-
-    holds(X, miscresidential).
-
-right_holds(X, miscresidential) :-
-    not holds(X, awning),
-    holds(X, tiledroof).
-
-right_holds(X, miscresidential) :-
-    not holds(X, table),
-    holds(X, tiledroof).
-
-rule_holds(X, miscresidential) :- 
-    left_holds(X, miscresidential), 
-    right_holds(X, miscresidential).
-
-rule_vacuously_holds(X, miscresidential) :- 
-    holds(X, building),
-    not left_holds(X, miscresidential), 
-    not right_holds(X, miscresidential).
-
-rule_not_holds(X, miscresidential, left_holds_right_fails) :- 
-    left_holds(X, miscresidential), 
-    not right_holds(X, miscresidential).
-
-rule_not_holds(X, miscresidential, left_fails_right_holds) :- 
-    not left_holds(X, miscresidential), 
-    right_holds(X, miscresidential).
-
-
-
-
-%starting rule residential_no_chimney_pipe
-rule(residential_no_chimney_pipe).
-
-left_holds(X, residential_no_chimney_pipe) :-
-    holds(X, residential).
-
-right_holds(X, residential_no_chimney_pipe) :-
-    not holds(X, chimney),
-    not holds(X, pipe),
-    holds(X, building).
-
-rule_holds(X, residential_no_chimney_pipe) :- 
-    left_holds(X, residential_no_chimney_pipe), 
-    right_holds(X, residential_no_chimney_pipe).
-
-rule_vacuously_holds(X, residential_no_chimney_pipe) :- 
-    holds(X, building),
-    not left_holds(X, residential_no_chimney_pipe). 
-
-rule_not_holds(X, residential_no_chimney_pipe, left_holds_right_fails) :- 
-    left_holds(X, residential_no_chimney_pipe), 
-    not right_holds(X, residential_no_chimney_pipe).
 
 
 

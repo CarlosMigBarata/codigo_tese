@@ -607,6 +607,97 @@ NEW_SAMPLE_EFFICIENCY = [
         {"axiom": rule_Residential_Impl_not_ChimneyOrPipe, "active": False, "name": "residential_no_chimney_pipe"},#residential    
 ]
 
+NEW_ONTOLOGY3_BASELINE = [    
+
+    {"axiom": rule_DT3_CommercialBuildingType, "active": True, "name": "rule_DT3_CommercialBuildingType"},
+        {"axiom": rule_Cafe_WallSignAndAwning, "active": False, "name":"rule_Cafe_WallSignAndAwning"}, #basic equiv
+        {"axiom": rule_Hotel_WallSignAndBillboard, "active": True, "name":"rule_Hotel_WallSignAndBillboard"}, #basic equiv
+        {"axiom": rule_MiscCommercial_WallSignAndTable, "active": True, "name":"rule_MiscCommercial_WallSignAndTable"}, #conj
+        {"axiom": rule_Restaurant_NotWallSignAndBillboard, "active": False, "name":"rule_Restaurant_NotWallSignAndBillboard"}, #disj
+        {"axiom": rule_Store_NotWallSignAndVendingMachine, "active": False, "name":"rule_Store_NotWallSignAndVendingMachine"}, #disj
+
+
+    {"axiom": rule_DT3_IndustrialBuildingType, "active": True, "name": "rule_DT3_IndustrialBuildingType"},
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"rule_PowerPlant_ChimneyAndPipe"}, #basic equiv
+        {"axiom": rule_WaterTreatment_ChimneyAndMachine, "active": False, "name":"rule_WaterTreatment_ChimneyAndMachine"}, #basic equiv
+        {"axiom": rule_ConstructionSite_NotChimneyAndTruck, "active": False, "name":"rule_ConstructionSite_NotChimneyAndTruck"}, #conj
+        {"axiom": rule_MiscIndustrial_NotChimneyAndCar, "active": False, "name":"rule_MiscIndustrial_NotChimneyAndCar"}, #conj
+
+
+    {"axiom": rule_DT3_ResidentialBuildingType, "active": True, "name": "rule_DT3_ResidentialBuildingType"},
+        {"axiom": rule_MiscResidential_PorchAndTiledroof, "active": False, "name":"rule_MiscResidential_PorchAndTiledroof"}, #basic equiv
+        {"axiom": rule_CH_NotPorchAndWindow, "active": False, "name":"rule_CH_NotPorchAndWindow"}, #conj
+        {"axiom": rule_Suburban_NotPorchAndDoor, "active": False, "name":"rule_Suburban_NotPorchAndDoor"},#residential
+]
+
+NEW_ONTOLOGY3_3X_WALLSIGN = [    
+
+    {"axiom": rule_DT3_CommercialBuildingType, "active": True, "name": "rule_DT3_CommercialBuildingType"},
+        {"axiom": rule_Cafe_WallSignAndAwning, "active": True, "name":"rule_Cafe_WallSignAndAwning"}, #basic equiv
+        {"axiom": rule_Hotel_WallSignAndBillboard, "active": True, "name":"rule_Hotel_WallSignAndBillboard"}, #basic equiv
+        {"axiom": rule_MiscCommercial_WallSignAndTable, "active": True, "name":"rule_MiscCommercial_WallSignAndTable"}, #conj
+        {"axiom": rule_Restaurant_NotWallSignAndBillboard, "active": False, "name":"rule_Restaurant_NotWallSignAndBillboard"}, #disj
+        {"axiom": rule_Store_NotWallSignAndVendingMachine, "active": False, "name":"rule_Store_NotWallSignAndVendingMachine"}, #disj
+
+
+    {"axiom": rule_DT3_IndustrialBuildingType, "active": True, "name": "rule_DT3_IndustrialBuildingType"},
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"rule_PowerPlant_ChimneyAndPipe"}, #basic equiv
+        {"axiom": rule_WaterTreatment_ChimneyAndMachine, "active": False, "name":"rule_WaterTreatment_ChimneyAndMachine"}, #basic equiv
+        {"axiom": rule_ConstructionSite_NotChimneyAndTruck, "active": False, "name":"rule_ConstructionSite_NotChimneyAndTruck"}, #conj
+        {"axiom": rule_MiscIndustrial_NotChimneyAndCar, "active": False, "name":"rule_MiscIndustrial_NotChimneyAndCar"}, #conj
+
+
+    {"axiom": rule_DT3_ResidentialBuildingType, "active": True, "name": "rule_DT3_ResidentialBuildingType"},
+        {"axiom": rule_MiscResidential_PorchAndTiledroof, "active": False, "name":"rule_MiscResidential_PorchAndTiledroof"}, #basic equiv
+        {"axiom": rule_CH_NotPorchAndWindow, "active": False, "name":"rule_CH_NotPorchAndWindow"}, #conj
+        {"axiom": rule_Suburban_NotPorchAndDoor, "active": False, "name":"rule_Suburban_NotPorchAndDoor"},#residential
+]
+
+NEW_ONTOLOGY3_2XPOS_WALLSIGN = [    
+
+    {"axiom": rule_DT3_CommercialBuildingType, "active": True, "name": "rule_DT3_CommercialBuildingType"},
+        {"axiom": rule_Cafe_WallSignAndAwning, "active": True, "name":"rule_Cafe_WallSignAndAwning"}, #basic equiv
+        {"axiom": rule_Hotel_WallSignAndBillboard, "active": True, "name":"rule_Hotel_WallSignAndBillboard"}, #basic equiv
+        {"axiom": rule_MiscCommercial_WallSignAndTable, "active": False, "name":"rule_MiscCommercial_WallSignAndTable"}, #conj
+        {"axiom": rule_Restaurant_NotWallSignAndBillboard, "active": True, "name":"rule_Restaurant_NotWallSignAndBillboard"}, #disj
+        {"axiom": rule_Store_NotWallSignAndVendingMachine, "active": False, "name":"rule_Store_NotWallSignAndVendingMachine"}, #disj
+
+
+    {"axiom": rule_DT3_IndustrialBuildingType, "active": True, "name": "rule_DT3_IndustrialBuildingType"},
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"rule_PowerPlant_ChimneyAndPipe"}, #basic equiv
+        {"axiom": rule_WaterTreatment_ChimneyAndMachine, "active": False, "name":"rule_WaterTreatment_ChimneyAndMachine"}, #basic equiv
+        {"axiom": rule_ConstructionSite_NotChimneyAndTruck, "active": False, "name":"rule_ConstructionSite_NotChimneyAndTruck"}, #conj
+        {"axiom": rule_MiscIndustrial_NotChimneyAndCar, "active": False, "name":"rule_MiscIndustrial_NotChimneyAndCar"}, #conj
+
+
+    {"axiom": rule_DT3_ResidentialBuildingType, "active": True, "name": "rule_DT3_ResidentialBuildingType"},
+        {"axiom": rule_MiscResidential_PorchAndTiledroof, "active": False, "name":"rule_MiscResidential_PorchAndTiledroof"}, #basic equiv
+        {"axiom": rule_CH_NotPorchAndWindow, "active": False, "name":"rule_CH_NotPorchAndWindow"}, #conj
+        {"axiom": rule_Suburban_NotPorchAndDoor, "active": False, "name":"rule_Suburban_NotPorchAndDoor"},#residential
+]
+
+NEW_ONTOLOGY3_1XPOS_WALLSIGN = [    
+
+    {"axiom": rule_DT3_CommercialBuildingType, "active": True, "name": "rule_DT3_CommercialBuildingType"},
+        {"axiom": rule_Cafe_WallSignAndAwning, "active": True, "name":"rule_Cafe_WallSignAndAwning"}, #basic equiv
+        {"axiom": rule_Hotel_WallSignAndBillboard, "active": False, "name":"rule_Hotel_WallSignAndBillboard"}, #basic equiv
+        {"axiom": rule_MiscCommercial_WallSignAndTable, "active": False, "name":"rule_MiscCommercial_WallSignAndTable"}, #conj
+        {"axiom": rule_Restaurant_NotWallSignAndBillboard, "active": True, "name":"rule_Restaurant_NotWallSignAndBillboard"}, #disj
+        {"axiom": rule_Store_NotWallSignAndVendingMachine, "active": True, "name":"rule_Store_NotWallSignAndVendingMachine"}, #disj
+
+
+    {"axiom": rule_DT3_IndustrialBuildingType, "active": True, "name": "rule_DT3_IndustrialBuildingType"},
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"rule_PowerPlant_ChimneyAndPipe"}, #basic equiv
+        {"axiom": rule_WaterTreatment_ChimneyAndMachine, "active": False, "name":"rule_WaterTreatment_ChimneyAndMachine"}, #basic equiv
+        {"axiom": rule_ConstructionSite_NotChimneyAndTruck, "active": False, "name":"rule_ConstructionSite_NotChimneyAndTruck"}, #conj
+        {"axiom": rule_MiscIndustrial_NotChimneyAndCar, "active": False, "name":"rule_MiscIndustrial_NotChimneyAndCar"}, #conj
+
+
+    {"axiom": rule_DT3_ResidentialBuildingType, "active": True, "name": "rule_DT3_ResidentialBuildingType"},
+        {"axiom": rule_MiscResidential_PorchAndTiledroof, "active": False, "name":"rule_MiscResidential_PorchAndTiledroof"}, #basic equiv
+        {"axiom": rule_CH_NotPorchAndWindow, "active": False, "name":"rule_CH_NotPorchAndWindow"}, #conj
+        {"axiom": rule_Suburban_NotPorchAndDoor, "active": False, "name":"rule_Suburban_NotPorchAndDoor"},#residential
+]
 
 
 active_ontology = constants.active_ontology
@@ -643,6 +734,21 @@ match active_ontology:
 
     case "NEW_SAMPLE_EFFICIENCY":
         ALL_AXIOMS = NEW_SAMPLE_EFFICIENCY
+
+    case "NEW_ONTOLOGY3":
+        ALL_AXIOMS = NEW_ONTOLOGY3
+
+    case "NEW_ONTOLOGY3_3X_WALLSIGN": 
+        ALL_AXIOMS =  NEW_ONTOLOGY3_3X_WALLSIGN
+
+    case "NEW_ONTOLOGY3_BASELINE":
+        ALL_AXIOMS = NEW_ONTOLOGY3_BASELINE
+
+    case "NEW_ONTOLOGY3_2XPOS_WALLSIGN":
+        ALL_AXIOMS = NEW_ONTOLOGY3_2XPOS_WALLSIGN
+
+    case "NEW_ONTOLOGY3_1XPOS_WALLSIGN":
+        ALL_AXIOMS = NEW_ONTOLOGY3_1XPOS_WALLSIGN    
 
     case _:
         ALL_AXIOMS = CLASSIC_ONTOLOGY
