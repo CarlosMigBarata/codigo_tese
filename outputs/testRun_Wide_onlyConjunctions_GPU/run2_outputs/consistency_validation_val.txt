@@ -1,0 +1,110 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.9993 | rule_holds=1345 | rule_vac_holds=2654 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+residential | consistency=0.9993 | rule_holds=1337 | rule_vac_holds=2662 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+commercial | consistency=0.9992 | rule_holds=1317 | rule_vac_holds=2682 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+countryhouse | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+watertreatment | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+watertreatment      : 1.000
+misccommercial      : 1.000
+countryhouse        : 1.000
+powerplant          : 1.000
+miscindustrial      : 1.000
+industrial          : 0.994
+residential         : 0.993
+commercial          : 0.988
+
+Axiom satisfaction: validation 
+
+watertreatment      : 1.000
+misccommercial      : 1.000
+countryhouse        : 1.000
+powerplant          : 1.000
+miscindustrial      : 1.000
+residential         : 0.993
+industrial          : 0.992
+commercial          : 0.986
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+watertreatment      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+misccommercial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 4000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 3999, 'disagree': 1, 'missing': 0}
+industrial          : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 3999, 'disagree': 1, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (1 disagreements) ---
+  s_16572_jpg
+    ltn=1 clingo=0 body=0.5594
+    ConstructionSite = 0.4464  (|d-0.5|=0.0536)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0001  (|d-0.5|=0.4999)
+    Industrial      = 0.5205  (|d-0.5|=0.0205)
+
+
+
+--- residential (1 disagreements) ---
+  s_16713_jpg
+    ltn=1 clingo=0 body=0.5612
+    Suburban        = 0.5417  (|d-0.5|=0.0417)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.0000  (|d-0.5|=0.5000)
+    Residential     = 0.4906  (|d-0.5|=0.0094)
+
+
+
+--- commercial (1 disagreements) ---
+  s_19143_jpg
+    ltn=1 clingo=0 body=0.5560
+    Cafe            = 0.0003  (|d-0.5|=0.4997)
+    Hotel           = 0.5714  (|d-0.5|=0.0714)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4656  (|d-0.5|=0.0344)

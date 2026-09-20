@@ -1,0 +1,107 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=1.0000 | rule_holds=5340 | rule_vac_holds=10660 | violations=0 | total=16000
+
+residential | consistency=0.9998 | rule_holds=5337 | rule_vac_holds=10662 | violations=1 | total=16000
+    - left_fails_right_holds: 1
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+commercial | consistency=0.9994 | rule_holds=5320 | rule_vac_holds=10677 | violations=3 | total=16000
+    - left_fails_right_holds: 2
+    - left_holds_right_fails: 1
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+countryhouse | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+watertreatment | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+watertreatment      : 1.000
+misccommercial      : 1.000
+countryhouse        : 1.000
+powerplant          : 1.000
+miscindustrial      : 1.000
+industrial          : 0.994
+residential         : 0.993
+commercial          : 0.988
+
+Axiom satisfaction: validation 
+
+watertreatment      : 1.000
+misccommercial      : 1.000
+countryhouse        : 1.000
+powerplant          : 1.000
+miscindustrial      : 1.000
+residential         : 0.993
+industrial          : 0.992
+commercial          : 0.986
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+watertreatment      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+misccommercial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 16000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 15999, 'disagree': 1, 'missing': 0}
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 15998, 'disagree': 2, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (2 disagreements) ---
+  s_5048_jpg
+    ltn=1 clingo=0 body=0.5562
+    Cafe            = 0.6203  (|d-0.5|=0.1203)
+    Hotel           = 0.0265  (|d-0.5|=0.4735)
+    Restaurant      = 0.0022  (|d-0.5|=0.4978)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4926  (|d-0.5|=0.0074)
+  s_3834_jpg
+    ltn=1 clingo=0 body=0.5537
+    Cafe            = 0.5489  (|d-0.5|=0.0489)
+    Hotel           = 0.1040  (|d-0.5|=0.3960)
+    Restaurant      = 0.0118  (|d-0.5|=0.4882)
+    Store           = 0.0001  (|d-0.5|=0.4999)
+    MiscCommercial  = 0.0001  (|d-0.5|=0.4999)
+    Commercial      = 0.4700  (|d-0.5|=0.0300)
+
+
+
+--- residential (1 disagreements) ---
+  s_11993_jpg
+    ltn=1 clingo=0 body=0.5624
+    Suburban        = 0.5047  (|d-0.5|=0.0047)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.0001  (|d-0.5|=0.4999)
+    Residential     = 0.4910  (|d-0.5|=0.0090)

@@ -1,0 +1,116 @@
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+commercial | consistency=0.9998 | rule_holds=5276 | rule_vac_holds=10723 | violations=1 | total=16000
+    - left_holds_right_fails: 1
+
+industrial | consistency=0.9994 | rule_holds=5379 | rule_vac_holds=10618 | violations=3 | total=16000
+    - left_fails_right_holds: 3
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+watertreatment | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+countryhouse | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+powerplant | consistency=0.9998 | rule_holds=5381 | rule_vac_holds=10618 | violations=1 | total=16000
+    - left_holds_right_fails: 1
+
+residential | consistency=1.0000 | rule_holds=5344 | rule_vac_holds=10656 | violations=0 | total=16000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+countryhouse        : 1.000
+misccommercial      : 1.000
+watertreatment      : 1.000
+miscindustrial      : 1.000
+powerplant          : 0.998
+residential         : 0.995
+industrial          : 0.993
+commercial          : 0.990
+
+Axiom satisfaction: validation 
+
+countryhouse        : 1.000
+misccommercial      : 1.000
+watertreatment      : 1.000
+miscindustrial      : 1.000
+powerplant          : 0.998
+residential         : 0.996
+industrial          : 0.995
+commercial          : 0.993
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+countryhouse        : {'agree': 16000, 'disagree': 0, 'missing': 0}
+misccommercial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+watertreatment      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+residential         : {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 15998, 'disagree': 2, 'missing': 0}
+commercial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (1 disagreements) ---
+  s_7891_jpg
+    ltn=1 clingo=0 body=0.5216
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.3756  (|d-0.5|=0.1244)
+    MiscCommercial  = 0.0001  (|d-0.5|=0.4999)
+    Commercial      = 0.6325  (|d-0.5|=0.1325)
+
+
+
+--- industrial (2 disagreements) ---
+  s_7891_jpg
+    ltn=1 clingo=0 body=0.5331
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.5506  (|d-0.5|=0.0506)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.3067  (|d-0.5|=0.1933)
+  s_2751_jpg
+    ltn=1 clingo=0 body=0.5265
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.7193  (|d-0.5|=0.2193)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4467  (|d-0.5|=0.0533)
+
+
+
+--- powerplant (1 disagreements) ---
+  s_7891_jpg
+    ltn=1 clingo=0 body=0.5612
+    PowerPlant      = 0.5506  (|d-0.5|=0.0506)
+    Chimney         = 0.4937  (|d-0.5|=0.0063)
+    Pipe            = 0.9999  (|d-0.5|=0.4999)
