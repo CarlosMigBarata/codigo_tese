@@ -1,0 +1,44 @@
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+commercial | consistency=1.0000 | rule_holds=323 | rule_vac_holds=677 | violations=0 | total=1000
+
+industrial | consistency=1.0000 | rule_holds=343 | rule_vac_holds=657 | violations=0 | total=1000
+
+residential | consistency=1.0000 | rule_holds=324 | rule_vac_holds=676 | violations=0 | total=1000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+residential         : 0.983
+industrial          : 0.983
+commercial          : 0.970
+
+Axiom satisfaction: validation 
+
+residential         : 0.979
+industrial          : 0.971
+commercial          : 0.955
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 1000, 'disagree': 0, 'missing': 0}
+industrial          : {'agree': 1000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 1000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
