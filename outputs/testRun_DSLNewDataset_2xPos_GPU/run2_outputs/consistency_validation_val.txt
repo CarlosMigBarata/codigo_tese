@@ -1,0 +1,363 @@
+
+
+========= ACTIVE RULES =========
+
+rule_Restaurant_NotWallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(NOT(WallSign), Billboard))
+rule_DT3_IndustrialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+rule_Hotel_WallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Hotel, AND(WallSign, Billboard))
+rule_DT3_ResidentialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+rule_Cafe_WallSignAndAwning: [AXIOM] MainOperations.EQUIVALENCE(Cafe, AND(WallSign, Awning))
+rule_DT3_CommercialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_Restaurant_NotWallSignAndBillboard | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+rule_DT3_IndustrialBuildingType | consistency=0.9821 | rule_holds=1371 | rule_vac_holds=2604 | violations=25 | total=4000
+    - left_fails_right_holds: 14
+    - left_holds_right_fails: 11
+
+rule_Hotel_WallSignAndBillboard | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+rule_DT3_ResidentialBuildingType | consistency=0.9853 | rule_holds=1337 | rule_vac_holds=2643 | violations=20 | total=4000
+    - left_holds_right_fails: 17
+    - left_fails_right_holds: 3
+
+rule_Cafe_WallSignAndAwning | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+rule_DT3_CommercialBuildingType | consistency=0.3108 | rule_holds=1243 | rule_vac_holds=0 | violations=2757 | total=4000
+    - left_fails_right_holds: 2757
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_restaurant_notwallsignandbillboard: 0.997
+rule_hotel_wallsignandbillboard: 0.981
+rule_cafe_wallsignandawning: 0.975
+rule_dt3_residentialbuildingtype: 0.957
+rule_dt3_industrialbuildingtype: 0.925
+rule_dt3_commercialbuildingtype: 0.198
+
+Axiom satisfaction: validation 
+
+rule_restaurant_notwallsignandbillboard: 0.997
+rule_hotel_wallsignandbillboard: 0.981
+rule_cafe_wallsignandawning: 0.976
+rule_dt3_residentialbuildingtype: 0.947
+rule_dt3_industrialbuildingtype: 0.912
+rule_dt3_commercialbuildingtype: 0.186
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_restaurant_notwallsignandbillboard: {}
+rule_hotel_wallsignandbillboard: {}
+rule_cafe_wallsignandawning: {}
+rule_dt3_residentialbuildingtype: {}
+rule_dt3_industrialbuildingtype: {}
+rule_dt3_commercialbuildingtype: {}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- rule_DT3_IndustrialBuildingType (24 disagreements) ---
+  s_16008_jpg
+    ltn=1 clingo=0 body=0.5154
+    ConstructionSite = 0.0138  (|d-0.5|=0.4862)
+    MiscIndustrial  = 0.0985  (|d-0.5|=0.4015)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.5373  (|d-0.5|=0.0373)
+    Industrial      = 0.2998  (|d-0.5|=0.2002)
+  s_16340_jpg
+    ltn=1 clingo=0 body=0.5767
+    ConstructionSite = 0.0017  (|d-0.5|=0.4983)
+    MiscIndustrial  = 0.1846  (|d-0.5|=0.3154)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.4957  (|d-0.5|=0.0043)
+    Industrial      = 0.6057  (|d-0.5|=0.1057)
+  s_16577_jpg
+    ltn=1 clingo=0 body=0.5275
+    ConstructionSite = 0.0472  (|d-0.5|=0.4528)
+    MiscIndustrial  = 0.2564  (|d-0.5|=0.2436)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.6687  (|d-0.5|=0.1687)
+    Industrial      = 0.4675  (|d-0.5|=0.0325)
+  s_16742_jpg
+    ltn=1 clingo=0 body=0.5625
+    ConstructionSite = 0.0066  (|d-0.5|=0.4934)
+    MiscIndustrial  = 0.1896  (|d-0.5|=0.3104)
+    PowerPlant      = 0.0008  (|d-0.5|=0.4992)
+    WaterTreatment  = 0.4136  (|d-0.5|=0.0864)
+    Industrial      = 0.5045  (|d-0.5|=0.0045)
+  s_16973_jpg
+    ltn=1 clingo=0 body=0.5617
+    ConstructionSite = 0.0010  (|d-0.5|=0.4990)
+    MiscIndustrial  = 0.1577  (|d-0.5|=0.3423)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.3771  (|d-0.5|=0.1229)
+    Industrial      = 0.5122  (|d-0.5|=0.0122)
+  s_17225_jpg
+    ltn=1 clingo=0 body=0.5530
+    ConstructionSite = 0.0258  (|d-0.5|=0.4742)
+    MiscIndustrial  = 0.2083  (|d-0.5|=0.2917)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.5485  (|d-0.5|=0.0485)
+    Industrial      = 0.4880  (|d-0.5|=0.0120)
+  s_17270_jpg
+    ltn=1 clingo=0 body=0.5395
+    ConstructionSite = 0.0060  (|d-0.5|=0.4940)
+    MiscIndustrial  = 0.0971  (|d-0.5|=0.4029)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.5500  (|d-0.5|=0.0500)
+    Industrial      = 0.4042  (|d-0.5|=0.0958)
+  s_17526_jpg
+    ltn=1 clingo=0 body=0.5629
+    ConstructionSite = 0.0031  (|d-0.5|=0.4969)
+    MiscIndustrial  = 0.1707  (|d-0.5|=0.3293)
+    PowerPlant      = 0.0003  (|d-0.5|=0.4997)
+    WaterTreatment  = 0.4102  (|d-0.5|=0.0898)
+    Industrial      = 0.5275  (|d-0.5|=0.0275)
+  s_17676_jpg
+    ltn=1 clingo=0 body=0.5036
+    ConstructionSite = 0.0311  (|d-0.5|=0.4689)
+    MiscIndustrial  = 0.1563  (|d-0.5|=0.3437)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.5666  (|d-0.5|=0.0666)
+    Industrial      = 0.3369  (|d-0.5|=0.1631)
+  s_17787_jpg
+    ltn=1 clingo=0 body=0.5523
+    ConstructionSite = 0.0069  (|d-0.5|=0.4931)
+    MiscIndustrial  = 0.1286  (|d-0.5|=0.3714)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.5778  (|d-0.5|=0.0778)
+    Industrial      = 0.4795  (|d-0.5|=0.0205)
+  s_17888_jpg
+    ltn=1 clingo=0 body=0.5717
+    ConstructionSite = 0.0025  (|d-0.5|=0.4975)
+    MiscIndustrial  = 0.1665  (|d-0.5|=0.3335)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.4804  (|d-0.5|=0.0196)
+    Industrial      = 0.5921  (|d-0.5|=0.0921)
+  s_17934_jpg
+    ltn=1 clingo=0 body=0.5563
+    ConstructionSite = 0.0218  (|d-0.5|=0.4782)
+    MiscIndustrial  = 0.2011  (|d-0.5|=0.2989)
+    PowerPlant      = 0.0002  (|d-0.5|=0.4998)
+    WaterTreatment  = 0.5155  (|d-0.5|=0.0155)
+    Industrial      = 0.4900  (|d-0.5|=0.0100)
+  s_17936_jpg
+    ltn=1 clingo=0 body=0.5365
+    ConstructionSite = 0.0597  (|d-0.5|=0.4403)
+    MiscIndustrial  = 0.2467  (|d-0.5|=0.2533)
+    PowerPlant      = 0.0004  (|d-0.5|=0.4996)
+    WaterTreatment  = 0.5153  (|d-0.5|=0.0153)
+    Industrial      = 0.4393  (|d-0.5|=0.0607)
+  s_17996_jpg
+    ltn=1 clingo=0 body=0.5661
+    ConstructionSite = 0.0027  (|d-0.5|=0.4973)
+    MiscIndustrial  = 0.1984  (|d-0.5|=0.3016)
+    PowerPlant      = 0.0003  (|d-0.5|=0.4997)
+    WaterTreatment  = 0.4368  (|d-0.5|=0.0632)
+    Industrial      = 0.5492  (|d-0.5|=0.0492)
+  s_17999_jpg
+    ltn=1 clingo=0 body=0.5206
+    ConstructionSite = 0.0221  (|d-0.5|=0.4779)
+    MiscIndustrial  = 0.1668  (|d-0.5|=0.3332)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.5998  (|d-0.5|=0.0998)
+    Industrial      = 0.4068  (|d-0.5|=0.0932)
+  s_18287_jpg
+    ltn=1 clingo=0 body=0.5398
+    ConstructionSite = 0.0214  (|d-0.5|=0.4786)
+    MiscIndustrial  = 0.1960  (|d-0.5|=0.3040)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.6500  (|d-0.5|=0.1500)
+    Industrial      = 0.4778  (|d-0.5|=0.0222)
+  s_18335_jpg
+    ltn=1 clingo=0 body=0.5216
+    ConstructionSite = 0.0464  (|d-0.5|=0.4536)
+    MiscIndustrial  = 0.2299  (|d-0.5|=0.2701)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.6182  (|d-0.5|=0.1182)
+    Industrial      = 0.4363  (|d-0.5|=0.0637)
+  s_19136_jpg
+    ltn=1 clingo=0 body=0.5507
+    ConstructionSite = 0.0274  (|d-0.5|=0.4726)
+    MiscIndustrial  = 0.2134  (|d-0.5|=0.2866)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.5700  (|d-0.5|=0.0700)
+    Industrial      = 0.4870  (|d-0.5|=0.0130)
+  s_19354_jpg
+    ltn=1 clingo=0 body=0.5786
+    ConstructionSite = 0.0012  (|d-0.5|=0.4988)
+    MiscIndustrial  = 0.2259  (|d-0.5|=0.2741)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.4966  (|d-0.5|=0.0034)
+    Industrial      = 0.5970  (|d-0.5|=0.0970)
+  s_19517_jpg
+    ltn=1 clingo=0 body=0.5201
+    ConstructionSite = 0.0196  (|d-0.5|=0.4804)
+    MiscIndustrial  = 0.1379  (|d-0.5|=0.3621)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.5596  (|d-0.5|=0.0596)
+    Industrial      = 0.3666  (|d-0.5|=0.1334)
+  s_19651_jpg
+    ltn=1 clingo=0 body=0.5626
+    ConstructionSite = 0.0118  (|d-0.5|=0.4882)
+    MiscIndustrial  = 0.1985  (|d-0.5|=0.3015)
+    PowerPlant      = 0.0005  (|d-0.5|=0.4995)
+    WaterTreatment  = 0.4740  (|d-0.5|=0.0260)
+    Industrial      = 0.5113  (|d-0.5|=0.0113)
+  s_19685_jpg
+    ltn=1 clingo=0 body=0.5568
+    ConstructionSite = 0.0005  (|d-0.5|=0.4995)
+    MiscIndustrial  = 0.0525  (|d-0.5|=0.4475)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.3136  (|d-0.5|=0.1864)
+    Industrial      = 0.5002  (|d-0.5|=0.0002)
+  s_19924_jpg
+    ltn=1 clingo=0 body=0.5595
+    ConstructionSite = 0.0001  (|d-0.5|=0.4999)
+    MiscIndustrial  = 0.0516  (|d-0.5|=0.4484)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.4755  (|d-0.5|=0.0245)
+    Industrial      = 0.6203  (|d-0.5|=0.1203)
+  s_19925_jpg
+    ltn=1 clingo=0 body=0.5267
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0241  (|d-0.5|=0.4759)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.2474  (|d-0.5|=0.2526)
+    Industrial      = 0.5460  (|d-0.5|=0.0460)
+
+
+
+--- rule_DT3_ResidentialBuildingType (20 disagreements) ---
+  s_16045_jpg
+    ltn=1 clingo=0 body=0.5427
+    Suburban        = 0.0634  (|d-0.5|=0.4366)
+    MiscResidential = 0.3505  (|d-0.5|=0.1495)
+    CountryHouse    = 0.0001  (|d-0.5|=0.4999)
+    Residential     = 0.5721  (|d-0.5|=0.0721)
+  s_16225_jpg
+    ltn=1 clingo=0 body=0.5604
+    Suburban        = 0.0563  (|d-0.5|=0.4437)
+    MiscResidential = 0.4620  (|d-0.5|=0.0380)
+    CountryHouse    = 0.0000  (|d-0.5|=0.5000)
+    Residential     = 0.5638  (|d-0.5|=0.0638)
+  s_16991_jpg
+    ltn=1 clingo=0 body=0.5685
+    Suburban        = 0.3339  (|d-0.5|=0.1661)
+    MiscResidential = 0.4429  (|d-0.5|=0.0571)
+    CountryHouse    = 0.0001  (|d-0.5|=0.4999)
+    Residential     = 0.5409  (|d-0.5|=0.0409)
+  s_17072_jpg
+    ltn=1 clingo=0 body=0.5344
+    Suburban        = 0.2061  (|d-0.5|=0.2939)
+    MiscResidential = 0.5247  (|d-0.5|=0.0247)
+    CountryHouse    = 0.0005  (|d-0.5|=0.4995)
+    Residential     = 0.4091  (|d-0.5|=0.0909)
+  s_17294_jpg
+    ltn=1 clingo=0 body=0.5484
+    Suburban        = 0.0745  (|d-0.5|=0.4255)
+    MiscResidential = 0.2944  (|d-0.5|=0.2056)
+    CountryHouse    = 0.0004  (|d-0.5|=0.4996)
+    Residential     = 0.5264  (|d-0.5|=0.0264)
+  s_17352_jpg
+    ltn=1 clingo=0 body=0.5590
+    Suburban        = 0.1660  (|d-0.5|=0.3340)
+    MiscResidential = 0.2739  (|d-0.5|=0.2261)
+    CountryHouse    = 0.0005  (|d-0.5|=0.4995)
+    Residential     = 0.5034  (|d-0.5|=0.0034)
+  s_17362_jpg
+    ltn=1 clingo=0 body=0.5377
+    Suburban        = 0.1858  (|d-0.5|=0.3142)
+    MiscResidential = 0.5263  (|d-0.5|=0.0263)
+    CountryHouse    = 0.0005  (|d-0.5|=0.4995)
+    Residential     = 0.4138  (|d-0.5|=0.0862)
+  s_17736_jpg
+    ltn=1 clingo=0 body=0.5625
+    Suburban        = 0.2585  (|d-0.5|=0.2415)
+    MiscResidential = 0.3390  (|d-0.5|=0.1610)
+    CountryHouse    = 0.0008  (|d-0.5|=0.4992)
+    Residential     = 0.5027  (|d-0.5|=0.0027)
+  s_18059_jpg
+    ltn=1 clingo=0 body=0.5574
+    Suburban        = 0.1670  (|d-0.5|=0.3330)
+    MiscResidential = 0.3011  (|d-0.5|=0.1989)
+    CountryHouse    = 0.0005  (|d-0.5|=0.4995)
+    Residential     = 0.5199  (|d-0.5|=0.0199)
+  s_18444_jpg
+    ltn=1 clingo=0 body=0.5671
+    Suburban        = 0.2676  (|d-0.5|=0.2324)
+    MiscResidential = 0.4140  (|d-0.5|=0.0860)
+    CountryHouse    = 0.0020  (|d-0.5|=0.4980)
+    Residential     = 0.5445  (|d-0.5|=0.0445)
+  s_18634_jpg
+    ltn=1 clingo=0 body=0.5629
+    Suburban        = 0.2067  (|d-0.5|=0.2933)
+    MiscResidential = 0.3842  (|d-0.5|=0.1158)
+    CountryHouse    = 0.0001  (|d-0.5|=0.4999)
+    Residential     = 0.5329  (|d-0.5|=0.0329)
+  s_18712_jpg
+    ltn=1 clingo=0 body=0.5586
+    Suburban        = 0.1792  (|d-0.5|=0.3208)
+    MiscResidential = 0.2827  (|d-0.5|=0.2173)
+    CountryHouse    = 0.0005  (|d-0.5|=0.4995)
+    Residential     = 0.5106  (|d-0.5|=0.0106)
+  s_18932_jpg
+    ltn=1 clingo=0 body=0.5647
+    Suburban        = 0.2535  (|d-0.5|=0.2465)
+    MiscResidential = 0.4469  (|d-0.5|=0.0531)
+    CountryHouse    = 0.0054  (|d-0.5|=0.4946)
+    Residential     = 0.5244  (|d-0.5|=0.0244)
+  s_18975_jpg
+    ltn=1 clingo=0 body=0.5668
+    Suburban        = 0.2761  (|d-0.5|=0.2239)
+    MiscResidential = 0.4010  (|d-0.5|=0.0990)
+    CountryHouse    = 0.0002  (|d-0.5|=0.4998)
+    Residential     = 0.5444  (|d-0.5|=0.0444)
+  s_19129_jpg
+    ltn=1 clingo=0 body=0.5457
+    Suburban        = 0.1207  (|d-0.5|=0.3793)
+    MiscResidential = 0.2222  (|d-0.5|=0.2778)
+    CountryHouse    = 0.0000  (|d-0.5|=0.5000)
+    Residential     = 0.5223  (|d-0.5|=0.0223)
+  s_19399_jpg
+    ltn=1 clingo=0 body=0.5685
+    Suburban        = 0.2540  (|d-0.5|=0.2460)
+    MiscResidential = 0.4158  (|d-0.5|=0.0842)
+    CountryHouse    = 0.0006  (|d-0.5|=0.4994)
+    Residential     = 0.5628  (|d-0.5|=0.0628)
+  s_19409_jpg
+    ltn=1 clingo=0 body=0.5610
+    Suburban        = 0.1949  (|d-0.5|=0.3051)
+    MiscResidential = 0.3063  (|d-0.5|=0.1937)
+    CountryHouse    = 0.0007  (|d-0.5|=0.4993)
+    Residential     = 0.5056  (|d-0.5|=0.0056)
+  s_19442_jpg
+    ltn=1 clingo=0 body=0.5400
+    Suburban        = 0.2366  (|d-0.5|=0.2634)
+    MiscResidential = 0.6147  (|d-0.5|=0.1147)
+    CountryHouse    = 0.0004  (|d-0.5|=0.4996)
+    Residential     = 0.4716  (|d-0.5|=0.0284)
+  s_19446_jpg
+    ltn=1 clingo=0 body=0.5636
+    Suburban        = 0.2843  (|d-0.5|=0.2157)
+    MiscResidential = 0.3938  (|d-0.5|=0.1062)
+    CountryHouse    = 0.0003  (|d-0.5|=0.4997)
+    Residential     = 0.5173  (|d-0.5|=0.0173)
+  s_19737_jpg
+    ltn=1 clingo=0 body=0.5654
+    Suburban        = 0.2825  (|d-0.5|=0.2175)
+    MiscResidential = 0.4008  (|d-0.5|=0.0992)
+    CountryHouse    = 0.0014  (|d-0.5|=0.4986)
+    Residential     = 0.5313  (|d-0.5|=0.0313)

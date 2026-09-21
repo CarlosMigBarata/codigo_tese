@@ -1,0 +1,106 @@
+
+
+========= ACTIVE RULES =========
+
+rule_DT3_IndustrialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+rule_DT3_ResidentialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+rule_Cafe_WallSignAndAwning: [AXIOM] MainOperations.EQUIVALENCE(Cafe, AND(WallSign, Awning))
+rule_DT3_CommercialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+rule_Restaurant_NotWallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(NOT(WallSign), Billboard))
+rule_Store_NotWallSignAndVendingMachine: [AXIOM] MainOperations.EQUIVALENCE(Store, AND(NOT(WallSign), VendingMachine))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_DT3_IndustrialBuildingType | consistency=0.9985 | rule_holds=1310 | rule_vac_holds=2688 | violations=2 | total=4000
+    - left_fails_right_holds: 2
+
+rule_DT3_ResidentialBuildingType | consistency=0.9992 | rule_holds=1297 | rule_vac_holds=2702 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+rule_Cafe_WallSignAndAwning | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+rule_DT3_CommercialBuildingType | consistency=0.9985 | rule_holds=1355 | rule_vac_holds=2643 | violations=2 | total=4000
+    - left_fails_right_holds: 2
+
+rule_Restaurant_NotWallSignAndBillboard | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+rule_Store_NotWallSignAndVendingMachine | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_cafe_wallsignandawning: 1.000
+rule_store_notwallsignandvendingmachine: 1.000
+rule_restaurant_notwallsignandbillboard: 0.999
+rule_dt3_residentialbuildingtype: 0.976
+rule_dt3_industrialbuildingtype: 0.967
+rule_dt3_commercialbuildingtype: 0.962
+
+Axiom satisfaction: validation 
+
+rule_cafe_wallsignandawning: 1.000
+rule_store_notwallsignandvendingmachine: 1.000
+rule_restaurant_notwallsignandbillboard: 1.000
+rule_dt3_residentialbuildingtype: 0.979
+rule_dt3_industrialbuildingtype: 0.970
+rule_dt3_commercialbuildingtype: 0.964
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_cafe_wallsignandawning: {}
+rule_store_notwallsignandvendingmachine: {}
+rule_restaurant_notwallsignandbillboard: {}
+rule_dt3_residentialbuildingtype: {}
+rule_dt3_industrialbuildingtype: {}
+rule_dt3_commercialbuildingtype: {}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- rule_DT3_IndustrialBuildingType (1 disagreements) ---
+  s_16955_jpg
+    ltn=1 clingo=0 body=0.5460
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    PowerPlant      = 0.6015  (|d-0.5|=0.1015)
+    WaterTreatment  = 0.0010  (|d-0.5|=0.4990)
+    Industrial      = 0.4366  (|d-0.5|=0.0634)
+
+
+
+--- rule_DT3_CommercialBuildingType (2 disagreements) ---
+  s_18362_jpg
+    ltn=1 clingo=0 body=0.5470
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.5433  (|d-0.5|=0.0433)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.3727  (|d-0.5|=0.1273)
+  s_18619_jpg
+    ltn=1 clingo=0 body=0.5304
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.7257  (|d-0.5|=0.2257)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4577  (|d-0.5|=0.0423)
+
+
+
+--- rule_DT3_ResidentialBuildingType (1 disagreements) ---
+  s_19399_jpg
+    ltn=1 clingo=0 body=0.5230
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.6061  (|d-0.5|=0.1061)
+    CountryHouse    = 0.0001  (|d-0.5|=0.4999)
+    Residential     = 0.3518  (|d-0.5|=0.1482)
