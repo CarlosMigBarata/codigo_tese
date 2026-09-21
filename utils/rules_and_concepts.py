@@ -699,6 +699,52 @@ NEW_ONTOLOGY3_1XPOS_WALLSIGN = [
         {"axiom": rule_Suburban_NotPorchAndDoor, "active": False, "name":"rule_Suburban_NotPorchAndDoor"},#residential
 ]
 
+NEW_ONTOLOGY3_2XPOS_2XNEG_WALLSIGN = [    
+
+    {"axiom": rule_DT3_CommercialBuildingType, "active": True, "name": "rule_DT3_CommercialBuildingType"},
+        {"axiom": rule_Cafe_WallSignAndAwning, "active": True, "name":"rule_Cafe_WallSignAndAwning"}, #basic equiv
+        {"axiom": rule_Hotel_WallSignAndBillboard, "active": True, "name":"rule_Hotel_WallSignAndBillboard"}, #basic equiv
+        {"axiom": rule_MiscCommercial_WallSignAndTable, "active": False, "name":"rule_MiscCommercial_WallSignAndTable"}, #conj
+        {"axiom": rule_Restaurant_NotWallSignAndBillboard, "active": True, "name":"rule_Restaurant_NotWallSignAndBillboard"}, #disj
+        {"axiom": rule_Store_NotWallSignAndVendingMachine, "active": True, "name":"rule_Store_NotWallSignAndVendingMachine"}, #disj
+
+
+    {"axiom": rule_DT3_IndustrialBuildingType, "active": True, "name": "rule_DT3_IndustrialBuildingType"},
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"rule_PowerPlant_ChimneyAndPipe"}, #basic equiv
+        {"axiom": rule_WaterTreatment_ChimneyAndMachine, "active": False, "name":"rule_WaterTreatment_ChimneyAndMachine"}, #basic equiv
+        {"axiom": rule_ConstructionSite_NotChimneyAndTruck, "active": False, "name":"rule_ConstructionSite_NotChimneyAndTruck"}, #conj
+        {"axiom": rule_MiscIndustrial_NotChimneyAndCar, "active": False, "name":"rule_MiscIndustrial_NotChimneyAndCar"}, #conj
+
+
+    {"axiom": rule_DT3_ResidentialBuildingType, "active": True, "name": "rule_DT3_ResidentialBuildingType"},
+        {"axiom": rule_MiscResidential_PorchAndTiledroof, "active": False, "name":"rule_MiscResidential_PorchAndTiledroof"}, #basic equiv
+        {"axiom": rule_CH_NotPorchAndWindow, "active": False, "name":"rule_CH_NotPorchAndWindow"}, #conj
+        {"axiom": rule_Suburban_NotPorchAndDoor, "active": False, "name":"rule_Suburban_NotPorchAndDoor"},#residential
+]
+
+NEW_ONTOLOGY3_3XPOS_2XNEG_WALLSIGN = [    
+
+    {"axiom": rule_DT3_CommercialBuildingType, "active": True, "name": "rule_DT3_CommercialBuildingType"},
+        {"axiom": rule_Cafe_WallSignAndAwning, "active": True, "name":"rule_Cafe_WallSignAndAwning"}, #basic equiv
+        {"axiom": rule_Hotel_WallSignAndBillboard, "active": True, "name":"rule_Hotel_WallSignAndBillboard"}, #basic equiv
+        {"axiom": rule_MiscCommercial_WallSignAndTable, "active": True, "name":"rule_MiscCommercial_WallSignAndTable"}, #conj
+        {"axiom": rule_Restaurant_NotWallSignAndBillboard, "active": True, "name":"rule_Restaurant_NotWallSignAndBillboard"}, #disj
+        {"axiom": rule_Store_NotWallSignAndVendingMachine, "active": True, "name":"rule_Store_NotWallSignAndVendingMachine"}, #disj
+
+
+    {"axiom": rule_DT3_IndustrialBuildingType, "active": True, "name": "rule_DT3_IndustrialBuildingType"},
+        {"axiom": rule_PowerPlant_ChimneyAndPipe, "active": False, "name":"rule_PowerPlant_ChimneyAndPipe"}, #basic equiv
+        {"axiom": rule_WaterTreatment_ChimneyAndMachine, "active": False, "name":"rule_WaterTreatment_ChimneyAndMachine"}, #basic equiv
+        {"axiom": rule_ConstructionSite_NotChimneyAndTruck, "active": False, "name":"rule_ConstructionSite_NotChimneyAndTruck"}, #conj
+        {"axiom": rule_MiscIndustrial_NotChimneyAndCar, "active": False, "name":"rule_MiscIndustrial_NotChimneyAndCar"}, #conj
+
+
+    {"axiom": rule_DT3_ResidentialBuildingType, "active": True, "name": "rule_DT3_ResidentialBuildingType"},
+        {"axiom": rule_MiscResidential_PorchAndTiledroof, "active": False, "name":"rule_MiscResidential_PorchAndTiledroof"}, #basic equiv
+        {"axiom": rule_CH_NotPorchAndWindow, "active": False, "name":"rule_CH_NotPorchAndWindow"}, #conj
+        {"axiom": rule_Suburban_NotPorchAndDoor, "active": False, "name":"rule_Suburban_NotPorchAndDoor"},#residential
+]
+
 
 active_ontology = constants.active_ontology
 print(f"active ontology {active_ontology}")
@@ -749,6 +795,12 @@ match active_ontology:
 
     case "NEW_ONTOLOGY3_1XPOS_WALLSIGN":
         ALL_AXIOMS = NEW_ONTOLOGY3_1XPOS_WALLSIGN    
+
+    case "NEW_ONTOLOGY3_2XPOS_2XNEG_WALLSIGN":
+        ALL_AXIOMS=NEW_ONTOLOGY3_2XPOS_2XNEG_WALLSIGN
+
+    case "NEW_ONTOLOGY3_3XPOS_2XNEG_WALLSIGN":
+        ALL_AXIOMS=NEW_ONTOLOGY3_3XPOS_2XNEG_WALLSIGN
 
     case _:
         ALL_AXIOMS = CLASSIC_ONTOLOGY
