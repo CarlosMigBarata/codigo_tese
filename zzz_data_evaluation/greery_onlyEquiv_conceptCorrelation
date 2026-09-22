@@ -1,0 +1,172 @@
+
+=== building neuron correlation alpha0.5 ===
+Name                  Designated r    Greedy r  Greedy neuron   Random mean r  Random std r
+Cafe                         0.129       0.442             14          -0.042         0.254
+Hotel                        0.021       0.337              3          -0.040         0.236
+Restaurant                   0.109       0.198             21          -0.021         0.168
+Store                        0.359      -0.436             16          -0.051         0.249
+MiscCommercial               0.129      -0.267             15          -0.037         0.230
+Suburban                     0.497       0.585             13          -0.008         0.294
+MiscResidential              0.299       0.735              7          -0.008         0.327
+CountryHouse                 0.507       0.364              5          -0.005         0.216
+ConstructionSite             0.297       0.297              8           0.024         0.187
+MiscIndustrial               0.400       0.393             22           0.036         0.249
+PowerPlant                   0.637       0.637             10           0.032         0.258
+WaterTreatment               0.359       0.404              9           0.035         0.239
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lcccc}
+\hline
+\textbf{building neuron correlation alpha0.5} & \textbf{Designated $r$} & \textbf{Greedy $r$} & \textbf{Greedy neuron} & \textbf{Random mean $r$ (std)} \\
+\hline
+Cafe & 0.129 & 0.442 & 14 & -0.042 (0.254) \\
+Hotel & 0.021 & 0.337 & 3 & -0.040 (0.236) \\
+Restaurant & 0.109 & 0.198 & 21 & -0.021 (0.168) \\
+Store & 0.359 & -0.436 & 16 & -0.051 (0.249) \\
+MiscCommercial & 0.129 & -0.267 & 15 & -0.037 (0.230) \\
+Suburban & 0.497 & 0.585 & 13 & -0.008 (0.294) \\
+MiscResidential & 0.299 & 0.735 & 7 & -0.008 (0.327) \\
+CountryHouse & 0.507 & 0.364 & 5 & -0.005 (0.216) \\
+ConstructionSite & 0.297 & 0.297 & 8 & 0.024 (0.187) \\
+MiscIndustrial & 0.400 & 0.393 & 22 & 0.036 (0.249) \\
+PowerPlant & 0.637 & 0.637 & 10 & 0.032 (0.258) \\
+WaterTreatment & 0.359 & 0.404 & 9 & 0.035 (0.239) \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_building_neuron_correlation_alpha0.5}
+\end{table}
+
+=== building neuron correlation alpha0.8 ===
+Name                  Designated r    Greedy r  Greedy neuron   Random mean r  Random std r
+Cafe                         0.194       0.514             19          -0.022         0.249
+Hotel                        0.261      -0.301              6          -0.025         0.228
+Restaurant                  -0.050       0.171             13          -0.009         0.166
+Store                       -0.046      -0.363             17          -0.036         0.235
+MiscCommercial               0.158       0.241              1          -0.023         0.220
+Suburban                     0.230       0.493             18          -0.055         0.281
+MiscResidential              0.498      -0.584             14          -0.060         0.314
+CountryHouse                 0.348       0.348              7          -0.040         0.203
+ConstructionSite             0.307       0.300              9           0.031         0.164
+MiscIndustrial               0.392       0.567             10           0.062         0.232
+PowerPlant                   0.478       0.586             11           0.047         0.242
+WaterTreatment               0.524       0.379              8           0.057         0.219
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lcccc}
+\hline
+\textbf{building neuron correlation alpha0.8} & \textbf{Designated $r$} & \textbf{Greedy $r$} & \textbf{Greedy neuron} & \textbf{Random mean $r$ (std)} \\
+\hline
+Cafe & 0.194 & 0.514 & 19 & -0.022 (0.249) \\
+Hotel & 0.261 & -0.301 & 6 & -0.025 (0.228) \\
+Restaurant & -0.050 & 0.171 & 13 & -0.009 (0.166) \\
+Store & -0.046 & -0.363 & 17 & -0.036 (0.235) \\
+MiscCommercial & 0.158 & 0.241 & 1 & -0.023 (0.220) \\
+Suburban & 0.230 & 0.493 & 18 & -0.055 (0.281) \\
+MiscResidential & 0.498 & -0.584 & 14 & -0.060 (0.314) \\
+CountryHouse & 0.348 & 0.348 & 7 & -0.040 (0.203) \\
+ConstructionSite & 0.307 & 0.300 & 9 & 0.031 (0.164) \\
+MiscIndustrial & 0.392 & 0.567 & 10 & 0.062 (0.232) \\
+PowerPlant & 0.478 & 0.586 & 11 & 0.047 (0.242) \\
+WaterTreatment & 0.524 & 0.379 & 8 & 0.057 (0.219) \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_building_neuron_correlation_alpha0.8}
+\end{table}
+
+=== concept neuron correlation alpha0.5 ===
+Name                  Designated r    Greedy r  Greedy neuron   Random mean r  Random std r
+Door                         0.021       0.037             32           0.007         0.029
+Window                       0.071      -0.048             27           0.004         0.030
+Awning                       0.092       0.229             22           0.014         0.153
+Billboard                    0.242       0.616             15          -0.023         0.333
+Porch                        0.494       0.569             26           0.057         0.311
+Sign                        -0.282       0.357              1          -0.003         0.230
+Table                       -0.169       0.644             21           0.013         0.310
+TiledRoof                   -0.362       0.596              0           0.085         0.285
+TiledRoofTop                -0.440       0.796             28           0.088         0.306
+VendingMachine               0.004       0.518              8          -0.014         0.292
+WallSign                     0.090      -0.585             16          -0.017         0.321
+Statue                      -0.012      -0.327              5          -0.024         0.221
+Chimney                     -0.355      -0.355             12          -0.071         0.183
+Pipe                        -0.207       0.454             14          -0.072         0.217
+Machine                      0.295      -0.237             31          -0.037         0.146
+Truck                        0.049       0.250              7          -0.031         0.124
+Car                          0.125       0.222              4           0.038         0.130
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lcccc}
+\hline
+\textbf{concept neuron correlation alpha0.5} & \textbf{Designated $r$} & \textbf{Greedy $r$} & \textbf{Greedy neuron} & \textbf{Random mean $r$ (std)} \\
+\hline
+Door & 0.021 & 0.037 & 32 & 0.007 (0.029) \\
+Window & 0.071 & -0.048 & 27 & 0.004 (0.030) \\
+Awning & 0.092 & 0.229 & 22 & 0.014 (0.153) \\
+Billboard & 0.242 & 0.616 & 15 & -0.023 (0.333) \\
+Porch & 0.494 & 0.569 & 26 & 0.057 (0.311) \\
+Sign & -0.282 & 0.357 & 1 & -0.003 (0.230) \\
+Table & -0.169 & 0.644 & 21 & 0.013 (0.310) \\
+TiledRoof & -0.362 & 0.596 & 0 & 0.085 (0.285) \\
+TiledRoofTop & -0.440 & 0.796 & 28 & 0.088 (0.306) \\
+VendingMachine & 0.004 & 0.518 & 8 & -0.014 (0.292) \\
+WallSign & 0.090 & -0.585 & 16 & -0.017 (0.321) \\
+Statue & -0.012 & -0.327 & 5 & -0.024 (0.221) \\
+Chimney & -0.355 & -0.355 & 12 & -0.071 (0.183) \\
+Pipe & -0.207 & 0.454 & 14 & -0.072 (0.217) \\
+Machine & 0.295 & -0.237 & 31 & -0.037 (0.146) \\
+Truck & 0.049 & 0.250 & 7 & -0.031 (0.124) \\
+Car & 0.125 & 0.222 & 4 & 0.038 (0.130) \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_concept_neuron_correlation_alpha0.5}
+\end{table}
+
+=== concept neuron correlation alpha0.8 ===
+Name                  Designated r    Greedy r  Greedy neuron   Random mean r  Random std r
+Door                        -0.061      -0.057             25          -0.001         0.035
+Window                       0.001       0.088             10          -0.000         0.039
+Awning                      -0.006       0.241             30           0.004         0.181
+Billboard                   -0.122      -0.692             17          -0.007         0.349
+Porch                        0.184      -0.794             26          -0.003         0.353
+Sign                         0.306       0.379             33           0.002         0.241
+Table                       -0.576      -0.643              0          -0.006         0.341
+TiledRoof                    0.080       0.726             29           0.004         0.339
+TiledRoofTop                 0.238      -0.792             19           0.004         0.358
+VendingMachine              -0.015      -0.535             20          -0.004         0.308
+WallSign                     0.321      -0.603              6          -0.007         0.336
+Statue                       0.330       0.330             11          -0.010         0.242
+Chimney                     -0.130      -0.418              2          -0.017         0.267
+Pipe                         0.241      -0.529              5          -0.012         0.300
+Machine                      0.297      -0.358             22          -0.003         0.196
+Truck                        0.080       0.237             14           0.008         0.157
+Car                          0.085       0.259              9           0.004         0.168
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lcccc}
+\hline
+\textbf{concept neuron correlation alpha0.8} & \textbf{Designated $r$} & \textbf{Greedy $r$} & \textbf{Greedy neuron} & \textbf{Random mean $r$ (std)} \\
+\hline
+Door & -0.061 & -0.057 & 25 & -0.001 (0.035) \\
+Window & 0.001 & 0.088 & 10 & -0.000 (0.039) \\
+Awning & -0.006 & 0.241 & 30 & 0.004 (0.181) \\
+Billboard & -0.122 & -0.692 & 17 & -0.007 (0.349) \\
+Porch & 0.184 & -0.794 & 26 & -0.003 (0.353) \\
+Sign & 0.306 & 0.379 & 33 & 0.002 (0.241) \\
+Table & -0.576 & -0.643 & 0 & -0.006 (0.341) \\
+TiledRoof & 0.080 & 0.726 & 29 & 0.004 (0.339) \\
+TiledRoofTop & 0.238 & -0.792 & 19 & 0.004 (0.358) \\
+VendingMachine & -0.015 & -0.535 & 20 & -0.004 (0.308) \\
+WallSign & 0.321 & -0.603 & 6 & -0.007 (0.336) \\
+Statue & 0.330 & 0.330 & 11 & -0.010 (0.242) \\
+Chimney & -0.130 & -0.418 & 2 & -0.017 (0.267) \\
+Pipe & 0.241 & -0.529 & 5 & -0.012 (0.300) \\
+Machine & 0.297 & -0.358 & 22 & -0.003 (0.196) \\
+Truck & 0.080 & 0.237 & 14 & 0.008 (0.157) \\
+Car & 0.085 & 0.259 & 9 & 0.004 (0.168) \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_concept_neuron_correlation_alpha0.8}
+\end{table}
