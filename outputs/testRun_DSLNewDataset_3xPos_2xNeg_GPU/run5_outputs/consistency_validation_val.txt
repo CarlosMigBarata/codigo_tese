@@ -1,0 +1,162 @@
+
+
+========= ACTIVE RULES =========
+
+rule_Restaurant_NotWallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(NOT(WallSign), Billboard))
+rule_Store_NotWallSignAndVendingMachine: [AXIOM] MainOperations.EQUIVALENCE(Store, AND(NOT(WallSign), VendingMachine))
+rule_DT3_ResidentialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+rule_DT3_CommercialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+rule_DT3_IndustrialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+rule_MiscCommercial_WallSignAndTable: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(WallSign, Table))
+rule_Hotel_WallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Hotel, AND(WallSign, Billboard))
+rule_Cafe_WallSignAndAwning: [AXIOM] MainOperations.EQUIVALENCE(Cafe, AND(WallSign, Awning))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_Restaurant_NotWallSignAndBillboard | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+rule_Store_NotWallSignAndVendingMachine | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+rule_DT3_ResidentialBuildingType | consistency=0.9992 | rule_holds=1300 | rule_vac_holds=2699 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+rule_DT3_CommercialBuildingType | consistency=0.3370 | rule_holds=1348 | rule_vac_holds=0 | violations=2652 | total=4000
+    - left_fails_right_holds: 2652
+
+rule_DT3_IndustrialBuildingType | consistency=0.9931 | rule_holds=1444 | rule_vac_holds=2546 | violations=10 | total=4000
+    - left_holds_right_fails: 7
+    - left_fails_right_holds: 3
+
+rule_MiscCommercial_WallSignAndTable | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+rule_Hotel_WallSignAndBillboard | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+rule_Cafe_WallSignAndAwning | consistency=1.0000 | rule_holds=4000 | rule_vac_holds=0 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+rule_misccommercial_wallsignandtable: 0.999
+rule_store_notwallsignandvendingmachine: 0.999
+rule_restaurant_notwallsignandbillboard: 0.998
+rule_hotel_wallsignandbillboard: 0.995
+rule_cafe_wallsignandawning: 0.995
+rule_dt3_residentialbuildingtype: 0.970
+rule_dt3_industrialbuildingtype: 0.914
+rule_dt3_commercialbuildingtype: 0.411
+
+Axiom satisfaction: validation 
+
+rule_misccommercial_wallsignandtable: 0.999
+rule_store_notwallsignandvendingmachine: 0.998
+rule_restaurant_notwallsignandbillboard: 0.998
+rule_hotel_wallsignandbillboard: 0.994
+rule_cafe_wallsignandawning: 0.993
+rule_dt3_residentialbuildingtype: 0.959
+rule_dt3_industrialbuildingtype: 0.904
+rule_dt3_commercialbuildingtype: 0.407
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+rule_misccommercial_wallsignandtable: {}
+rule_store_notwallsignandvendingmachine: {}
+rule_restaurant_notwallsignandbillboard: {}
+rule_hotel_wallsignandbillboard: {}
+rule_cafe_wallsignandawning: {}
+rule_dt3_residentialbuildingtype: {}
+rule_dt3_industrialbuildingtype: {}
+rule_dt3_commercialbuildingtype: {}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- rule_DT3_IndustrialBuildingType (10 disagreements) ---
+  s_16155_jpg
+    ltn=1 clingo=0 body=0.5605
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.4651  (|d-0.5|=0.0349)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5221  (|d-0.5|=0.0221)
+  s_16544_jpg
+    ltn=1 clingo=0 body=0.5463
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.2798  (|d-0.5|=0.2202)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5090  (|d-0.5|=0.0090)
+  s_16577_jpg
+    ltn=1 clingo=0 body=0.5595
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.4282  (|d-0.5|=0.0718)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5116  (|d-0.5|=0.0116)
+  s_16623_jpg
+    ltn=1 clingo=0 body=0.5618
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.4959  (|d-0.5|=0.0041)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5363  (|d-0.5|=0.0363)
+  s_16703_jpg
+    ltn=1 clingo=0 body=0.5619
+    ConstructionSite = 0.0004  (|d-0.5|=0.4996)
+    MiscIndustrial  = 0.4697  (|d-0.5|=0.0303)
+    PowerPlant      = 0.0015  (|d-0.5|=0.4985)
+    WaterTreatment  = 0.0002  (|d-0.5|=0.4998)
+    Industrial      = 0.5050  (|d-0.5|=0.0050)
+  s_16920_jpg
+    ltn=1 clingo=0 body=0.5520
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.3975  (|d-0.5|=0.1025)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5368  (|d-0.5|=0.0368)
+  s_18294_jpg
+    ltn=1 clingo=0 body=0.5605
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.4634  (|d-0.5|=0.0366)
+    PowerPlant      = 0.0002  (|d-0.5|=0.4998)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5212  (|d-0.5|=0.0212)
+  s_18850_jpg
+    ltn=1 clingo=0 body=0.5536
+    ConstructionSite = 0.0015  (|d-0.5|=0.4985)
+    MiscIndustrial  = 0.5953  (|d-0.5|=0.0953)
+    PowerPlant      = 0.0021  (|d-0.5|=0.4979)
+    WaterTreatment  = 0.0006  (|d-0.5|=0.4994)
+    Industrial      = 0.4677  (|d-0.5|=0.0323)
+  s_19920_jpg
+    ltn=1 clingo=0 body=0.5533
+    ConstructionSite = 0.0027  (|d-0.5|=0.4973)
+    MiscIndustrial  = 0.6822  (|d-0.5|=0.1822)
+    PowerPlant      = 0.0017  (|d-0.5|=0.4983)
+    WaterTreatment  = 0.0005  (|d-0.5|=0.4995)
+    Industrial      = 0.4979  (|d-0.5|=0.0021)
+  s_19924_jpg
+    ltn=1 clingo=0 body=0.5601
+    ConstructionSite = 0.0083  (|d-0.5|=0.4917)
+    MiscIndustrial  = 0.5009  (|d-0.5|=0.0009)
+    PowerPlant      = 0.0013  (|d-0.5|=0.4987)
+    WaterTreatment  = 0.0007  (|d-0.5|=0.4993)
+    Industrial      = 0.4241  (|d-0.5|=0.0759)
+
+
+
+--- rule_DT3_ResidentialBuildingType (1 disagreements) ---
+  s_19924_jpg
+    ltn=1 clingo=0 body=0.5604
+    Suburban        = 0.0003  (|d-0.5|=0.4997)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.4534  (|d-0.5|=0.0466)
+    Residential     = 0.5158  (|d-0.5|=0.0158)
