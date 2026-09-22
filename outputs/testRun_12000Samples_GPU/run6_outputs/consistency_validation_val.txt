@@ -1,0 +1,66 @@
+
+
+========= ACTIVE RULES =========
+
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+residential | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+industrial | consistency=1.0000 | rule_holds=1351 | rule_vac_holds=2649 | violations=0 | total=4000
+
+commercial | consistency=0.9985 | rule_holds=1307 | rule_vac_holds=2691 | violations=2 | total=4000
+    - left_holds_right_fails: 1
+    - left_fails_right_holds: 1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.984
+commercial          : 0.975
+residential         : 0.804
+
+Axiom satisfaction: validation 
+
+industrial          : 0.985
+commercial          : 0.975
+residential         : 0.794
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+industrial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 3998, 'disagree': 2, 'missing': 0}
+residential         : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- commercial (2 disagreements) ---
+  s_17040_jpg
+    ltn=1 clingo=0 body=0.5522
+    Cafe            = 0.6084  (|d-0.5|=0.1084)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0001  (|d-0.5|=0.4999)
+    Store           = 0.0006  (|d-0.5|=0.4994)
+    MiscCommercial  = 0.0005  (|d-0.5|=0.4995)
+    Commercial      = 0.4675  (|d-0.5|=0.0325)
+  s_18861_jpg
+    ltn=1 clingo=0 body=0.5515
+    Cafe            = 0.3523  (|d-0.5|=0.1477)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0004  (|d-0.5|=0.4996)
+    Store           = 0.0009  (|d-0.5|=0.4991)
+    MiscCommercial  = 0.0005  (|d-0.5|=0.4995)
+    Commercial      = 0.5189  (|d-0.5|=0.0189)

@@ -1,0 +1,70 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.3355 | rule_holds=1342 | rule_vac_holds=0 | violations=2658 | total=4000
+    - left_fails_right_holds: 2658
+
+commercial | consistency=0.3305 | rule_holds=1322 | rule_vac_holds=0 | violations=2678 | total=4000
+    - left_fails_right_holds: 2678
+
+residential | consistency=0.0063 | rule_holds=25 | rule_vac_holds=0 | violations=3975 | total=4000
+    - left_fails_right_holds: 2665
+    - left_holds_right_fails: 1310
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+commercial          : 0.189
+industrial          : 0.186
+residential         : 0.054
+
+Axiom satisfaction: validation 
+
+industrial          : 0.186
+commercial          : 0.185
+residential         : 0.037
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+industrial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+residential         : {'agree': 3997, 'disagree': 3, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- residential (3 disagreements) ---
+  s_16928_jpg
+    ltn=1 clingo=0 body=0.5354
+    Suburban        = 0.0632  (|d-0.5|=0.4368)
+    MiscResidential = 0.1419  (|d-0.5|=0.3581)
+    CountryHouse    = 0.4170  (|d-0.5|=0.0830)
+    Residential     = 0.9769  (|d-0.5|=0.4769)
+  s_17252_jpg
+    ltn=1 clingo=0 body=0.5067
+    Suburban        = 0.1529  (|d-0.5|=0.3471)
+    MiscResidential = 0.5086  (|d-0.5|=0.0086)
+    CountryHouse    = 0.3281  (|d-0.5|=0.1719)
+    Residential     = 0.4051  (|d-0.5|=0.0949)
+  s_17327_jpg
+    ltn=1 clingo=0 body=0.5779
+    Suburban        = 0.0797  (|d-0.5|=0.4203)
+    MiscResidential = 0.1223  (|d-0.5|=0.3777)
+    CountryHouse    = 0.4730  (|d-0.5|=0.0270)
+    Residential     = 0.9568  (|d-0.5|=0.4568)
