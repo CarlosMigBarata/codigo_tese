@@ -1,0 +1,90 @@
+active ontology CLASSIC_ONTOLOGY
+[loading] outputs/to_send_to_GPU_onlyEquiv/run1_outputs/best_model.pth
+[loading] outputs/to_send_to_GPU_onlyEquiv/run3_outputs/best_model.pth
+[loading] outputs/to_send_to_GPU_onlyEquiv/run5_outputs/best_model.pth
+
+=== Building Label ===
+Name                  Designated (avg)   Random mean   Random std
+Cafe                            27.70%        12.80%       25.18%
+Hotel                           36.48%        19.11%       27.16%
+Restaurant                       0.53%        12.01%       17.46%
+Store                            0.00%        21.91%       28.29%
+MiscCommercial                  24.64%        13.75%       23.59%
+Suburban                        26.79%        18.17%       29.55%
+MiscResidential                 60.26%        21.74%       35.06%
+CountryHouse                    39.08%        19.74%       24.25%
+ConstructionSite                29.23%         8.51%       14.72%
+MiscIndustrial                  40.90%        15.60%       22.94%
+PowerPlant                      39.19%        17.91%       25.49%
+WaterTreatment                  39.46%        11.58%       20.13%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lccc}
+\hline
+\textbf{Building Label} & \textbf{Designated (\%)} & \textbf{Random mean (\%)} & \textbf{Random std (\%)} \\
+\hline
+Cafe & 27.70 & 12.80 & 25.18 \\
+Hotel & 36.48 & 19.11 & 27.16 \\
+Restaurant & 0.53 & 12.01 & 17.46 \\
+Store & 0.00 & 21.91 & 28.29 \\
+MiscCommercial & 24.64 & 13.75 & 23.59 \\
+Suburban & 26.79 & 18.17 & 29.55 \\
+MiscResidential & 60.26 & 21.74 & 35.06 \\
+CountryHouse & 39.08 & 19.74 & 24.25 \\
+ConstructionSite & 29.23 & 8.51 & 14.72 \\
+MiscIndustrial & 40.90 & 15.60 & 22.94 \\
+PowerPlant & 39.19 & 17.91 & 25.49 \\
+WaterTreatment & 39.46 & 11.58 & 20.13 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_building_label}
+\end{table}
+
+=== Concept ===
+Name                  Designated (avg)   Random mean   Random std
+Door                            56.38%        49.27%       19.78%
+Window                          56.82%        51.38%       17.83%
+Awning                          45.50%        40.26%       21.61%
+Billboard                        0.00%        20.79%       27.55%
+Porch                           26.79%        35.68%       30.87%
+Sign                            52.95%        33.97%       23.28%
+Table                           12.12%        35.23%       29.06%
+TiledRoof                       44.85%        37.68%       30.33%
+TiledRoofTop                    49.14%        35.68%       32.89%
+VendingMachine                  21.60%        26.82%       25.50%
+WallSign                        36.46%        27.15%       26.75%
+Statue                          38.37%        15.53%       18.97%
+Chimney                         20.05%        27.77%       25.18%
+Pipe                            48.53%        33.33%       28.36%
+Machine                         29.21%        14.77%       15.71%
+Truck                           38.77%        32.83%       18.62%
+Car                             40.28%        33.62%       14.52%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lccc}
+\hline
+\textbf{Concept} & \textbf{Designated (\%)} & \textbf{Random mean (\%)} & \textbf{Random std (\%)} \\
+\hline
+Door & 56.38 & 49.27 & 19.78 \\
+Window & 56.82 & 51.38 & 17.83 \\
+Awning & 45.50 & 40.26 & 21.61 \\
+Billboard & 0.00 & 20.79 & 27.55 \\
+Porch & 26.79 & 35.68 & 30.87 \\
+Sign & 52.95 & 33.97 & 23.28 \\
+Table & 12.12 & 35.23 & 29.06 \\
+TiledRoof & 44.85 & 37.68 & 30.33 \\
+TiledRoofTop & 49.14 & 35.68 & 32.89 \\
+VendingMachine & 21.60 & 26.82 & 25.50 \\
+WallSign & 36.46 & 27.15 & 26.75 \\
+Statue & 38.37 & 15.53 & 18.97 \\
+Chimney & 20.05 & 27.77 & 25.18 \\
+Pipe & 48.53 & 33.33 & 28.36 \\
+Machine & 29.21 & 14.77 & 15.71 \\
+Truck & 38.77 & 32.83 & 18.62 \\
+Car & 40.28 & 33.62 & 14.52 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_concept}
+\end{table}
