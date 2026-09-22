@@ -134,7 +134,8 @@ class CNN(nn.Module):
         out_buildings = buildings_out[:, :nbr_of_buildings]
         out_concepts = concepts_out[:, :nbr_of_concepts]
 
-        return torch.cat([out_buildings, out_concepts, super_classes_activation], dim=1)
+        result = torch.cat([out_buildings, out_concepts, super_classes_activation], dim=1)
+        return result, buildings_out, concepts_out   # buildings: [batch,24], concepts: [batch,34]
 
 
 def load_val_loader(batch_size):
