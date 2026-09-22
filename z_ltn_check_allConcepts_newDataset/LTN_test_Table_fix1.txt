@@ -1,0 +1,19 @@
+[SAT CHECK] mean sat: 0.5523 (baseline 0.5283, delta +0.0240)
+LTN inconsistent samples: 3971/4000
+clingo inconsistent samples: 3971/4000
+
+  rule_dt3_commercialbuildingtype_val_accuracy: 0.9981
+  rule_cafe_wallsignandawning_val_accuracy: 0.5720
+  rule_hotel_wallsignandbillboard_val_accuracy: 0.7400
+  rule_misccommercial_wallsignandtable_val_accuracy: 0.5894
+  rule_restaurant_notwallsignandbillboard_val_accuracy: 0.6240
+  rule_store_notwallsignandvendingmachine_val_accuracy: 0.5672
+  rule_dt3_industrialbuildingtype_val_accuracy: 0.9983
+  rule_powerplant_chimneyandpipe_val_accuracy: 0.9991
+  rule_watertreatment_chimneyandmachine_val_accuracy: 0.5637
+  rule_constructionsite_notchimneyandtruck_val_accuracy: 0.4668
+  rule_miscindustrial_notchimneyandcar_val_accuracy: 0.4082
+  rule_dt3_residentialbuildingtype_val_accuracy: 0.9986
+  rule_miscresidential_porchandtiledroof_val_accuracy: 0.6804
+  rule_ch_notporchandwindow_val_accuracy  : 0.2504
+  rule_suburban_notporchanddoor_val_accuracy: 0.1501

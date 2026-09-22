@@ -1,0 +1,73 @@
+
+
+========= ACTIVE RULES =========
+
+rule_PowerPlant_ChimneyAndPipe: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+rule_Hotel_WallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Hotel, AND(WallSign, Billboard))
+rule_DT3_CommercialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+rule_Store_NotWallSignAndVendingMachine: [AXIOM] MainOperations.EQUIVALENCE(Store, AND(NOT(WallSign), VendingMachine))
+rule_WaterTreatment_ChimneyAndMachine: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Chimney, Machine))
+rule_ConstructionSite_NotChimneyAndTruck: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, AND(NOT(Chimney), Truck))
+rule_MiscCommercial_WallSignAndTable: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(WallSign, Table))
+rule_DT3_ResidentialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+rule_CH_NotPorchAndWindow: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(NOT(Porch), Window))
+rule_Restaurant_NotWallSignAndBillboard: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(NOT(WallSign), Billboard))
+rule_DT3_IndustrialBuildingType: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+rule_Suburban_NotPorchAndDoor: [AXIOM] MainOperations.EQUIVALENCE(Suburban, AND(NOT(Porch), Door))
+rule_Cafe_WallSignAndAwning: [AXIOM] MainOperations.EQUIVALENCE(Cafe, AND(WallSign, Awning))
+rule_MiscIndustrial_NotChimneyAndCar: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(NOT(Chimney), Car))
+rule_MiscResidential_PorchAndTiledroof: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(Porch, TiledRoof))
+
+
+========= CONISTENCY PER RULE =========
+
+rule_PowerPlant_ChimneyAndPipe | consistency=1.0000 | rule_holds=686 | rule_vac_holds=3314 | violations=0 | total=4000
+
+rule_Hotel_WallSignAndBillboard | consistency=0.6256 | rule_holds=508 | rule_vac_holds=3188 | violations=304 | total=4000
+    - left_holds_right_fails: 304
+
+rule_DT3_CommercialBuildingType | consistency=1.0000 | rule_holds=1333 | rule_vac_holds=2667 | violations=0 | total=4000
+
+rule_Store_NotWallSignAndVendingMachine | consistency=0.2064 | rule_holds=199 | rule_vac_holds=3036 | violations=765 | total=4000
+    - left_holds_right_fails: 644
+    - left_fails_right_holds: 121
+
+rule_WaterTreatment_ChimneyAndMachine | consistency=0.0000 | rule_holds=0 | rule_vac_holds=3224 | violations=776 | total=4000
+    - left_holds_right_fails: 557
+    - left_fails_right_holds: 219
+
+rule_ConstructionSite_NotChimneyAndTruck | consistency=0.0000 | rule_holds=0 | rule_vac_holds=2843 | violations=1157 | total=4000
+    - left_fails_right_holds: 778
+    - left_holds_right_fails: 379
+
+rule_MiscCommercial_WallSignAndTable | consistency=0.4738 | rule_holds=452 | rule_vac_holds=3046 | violations=502 | total=4000
+    - left_holds_right_fails: 330
+    - left_fails_right_holds: 172
+
+rule_DT3_ResidentialBuildingType | consistency=1.0000 | rule_holds=1333 | rule_vac_holds=2667 | violations=0 | total=4000
+
+rule_CH_NotPorchAndWindow | consistency=0.0735 | rule_holds=250 | rule_vac_holds=599 | violations=3151 | total=4000
+    - left_fails_right_holds: 2848
+    - left_holds_right_fails: 303
+
+rule_Restaurant_NotWallSignAndBillboard | consistency=0.1688 | rule_holds=120 | rule_vac_holds=3289 | violations=591 | total=4000
+    - left_holds_right_fails: 376
+    - left_fails_right_holds: 215
+
+rule_DT3_IndustrialBuildingType | consistency=1.0000 | rule_holds=1334 | rule_vac_holds=2666 | violations=0 | total=4000
+
+rule_Suburban_NotPorchAndDoor | consistency=0.0000 | rule_holds=0 | rule_vac_holds=1098 | violations=2902 | total=4000
+    - left_fails_right_holds: 2000
+    - left_holds_right_fails: 902
+
+rule_Cafe_WallSignAndAwning | consistency=0.3398 | rule_holds=386 | rule_vac_holds=2864 | violations=750 | total=4000
+    - left_holds_right_fails: 562
+    - left_fails_right_holds: 188
+
+rule_MiscIndustrial_NotChimneyAndCar | consistency=0.0000 | rule_holds=0 | rule_vac_holds=2574 | violations=1426 | total=4000
+    - left_fails_right_holds: 840
+    - left_holds_right_fails: 586
+
+rule_MiscResidential_PorchAndTiledroof | consistency=0.6103 | rule_holds=675 | rule_vac_holds=2894 | violations=431 | total=4000
+    - left_holds_right_fails: 431
+

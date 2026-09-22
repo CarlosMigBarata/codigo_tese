@@ -22,8 +22,8 @@ concepts = len(ALL_CONCEPTS)
 concepts_pos = building_classes + concepts
 building_classes = len(ALL_BUILDING_CLASSES)
 
-ltn_path = "z_ltn_check_allConcepts_new"
-clingo_path = "z_clingo_check_allConcepts_new"
+ltn_path = "z_ltn_check_allConcepts_newDataset"
+clingo_path = "z_clingo_check_allConcepts_newDataset"
 
 
 Path(ltn_path).mkdir(exist_ok=True)

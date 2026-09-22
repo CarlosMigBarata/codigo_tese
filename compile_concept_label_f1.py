@@ -48,23 +48,23 @@ from pathlib import Path
 
 
 CONCEPTS = {
-    "Door":           {"active": True},
-    "Window":         {"active": True},
+    "Door":           {"active": False},
+    "Window":         {"active": False},
     "Awning":         {"active": True},
     "Billboard":      {"active": True},
-    "Porch":          {"active": True},
-    "Sign":           {"active": True},
-    "Table":          {"active": True},
-    "TiledRoof":      {"active": True},
-    "TiledRoofTop":   {"active": True},
+    "Porch":          {"active": False},
+    "Sign":           {"active": False},
+    "Table":          {"active": False},
+    "TiledRoof":      {"active": False},
+    "TiledRoofTop":   {"active": False},
     "VendingMachine": {"active": True},
     "WallSign":       {"active": True},
-    "Statue":         {"active": True},
-    "Chimney":        {"active": True},
-    "Pipe":           {"active": True},
-    "Machine":        {"active": True},
-    "Truck":          {"active": True},
-    "Car":            {"active": True},
+    "Statue":         {"active": False},
+    "Chimney":        {"active": False},
+    "Pipe":           {"active": False},
+    "Machine":        {"active": False},
+    "Truck":          {"active": False},
+    "Car":            {"active": False},
 }
 
 # # Toggle "active" to control which concepts are included in the table.
@@ -72,18 +72,18 @@ CONCEPTS = {
 
 
 BUILDING_CLASSES = {
-    "Cafe":             {"active": False},
+    "Cafe":             {"active": True},
     "Hotel":            {"active": False},
-    "Restaurant":       {"active": False},
-    "Store":            {"active": False},
-    "MiscCommercial":   {"active": True},
+    "Restaurant":       {"active": True},
+    "Store":            {"active": True},
+    "MiscCommercial":   {"active": False},
     "Suburban":         {"active": False},
     "MiscResidential":  {"active": False},
-    "CountryHouse":     {"active": True},
+    "CountryHouse":     {"active": False},
     "ConstructionSite": {"active": False},
-    "MiscIndustrial":   {"active": True},
-    "PowerPlant":       {"active": True},
-    "WaterTreatment":   {"active": True},
+    "MiscIndustrial":   {"active": False},
+    "PowerPlant":       {"active": False},
+    "WaterTreatment":   {"active": False},
 }
 
 # Toggle "active" to control which concepts are included in the table.
@@ -204,7 +204,7 @@ def print_latex_table(values, active_classes, row_label, caption, label, with_st
     for name in active_classes:
         train_s = format_cell(values[name]["train"], with_std, as_percent)
         val_s = format_cell(values[name]["val"], with_std, as_percent)
-        lines.append(f"{name} (DSL) & {train_s} & {val_s} \\\\")
+        lines.append(f"{name} & {train_s} & {val_s} \\\\")
     lines += [
         r"\hline",
         r"\end{tabular}",

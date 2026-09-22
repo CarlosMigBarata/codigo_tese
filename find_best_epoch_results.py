@@ -31,7 +31,7 @@ def get_latex_line(run_dir: Path, best_epoch: int):
     train_combined_loss = float(matches["combined_train_loss"].item())
     val_combined_loss = float(matches["combined_val_loss"].item())
 
-    line = (f"{alpha:.2f} (DSL) & {train_sat_kb:.4f} & {val_sat_kb:.4f} & "
+    line = (f"{alpha:.2f} & {train_sat_kb:.4f} & {val_sat_kb:.4f} & "
             f"{train_class_loss:.4f} & {val_class_loss:.4f} & "
             f"{train_combined_loss:.4f} & {val_combined_loss:.4f} \\\\")
     return alpha, line
