@@ -1,0 +1,90 @@
+active ontology CLASSIC_ONTOLOGY
+[loading] outputs/to_send_to_GPU/run7_outputs/best_model.pth
+[loading] outputs/to_send_to_GPU/run8_outputs/best_model.pth
+[loading] outputs/to_send_to_GPU/run9_outputs/best_model.pth
+
+=== Building Label ===
+Name                  Designated (avg)
+Cafe                            23.30%
+Hotel                           24.73%
+Restaurant                      20.74%
+Store                           42.04%
+MiscCommercial                  27.77%
+Suburban                        54.73%
+MiscResidential                  4.37%
+CountryHouse                    33.17%
+ConstructionSite                 8.40%
+MiscIndustrial                  21.68%
+PowerPlant                      35.71%
+WaterTreatment                  11.52%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lc}
+\hline
+\textbf{Building Label} & \textbf{Designated (\%)} \\
+\hline
+Cafe & 23.30 \\
+Hotel & 24.73 \\
+Restaurant & 20.74 \\
+Store & 42.04 \\
+MiscCommercial & 27.77 \\
+Suburban & 54.73 \\
+MiscResidential & 4.37 \\
+CountryHouse & 33.17 \\
+ConstructionSite & 8.40 \\
+MiscIndustrial & 21.68 \\
+PowerPlant & 35.71 \\
+WaterTreatment & 11.52 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_building_label}
+\end{table}
+
+=== Concept ===
+Name                  Designated (avg)
+Door                            57.81%
+Window                          58.00%
+Awning                          59.32%
+Billboard                       15.92%
+Porch                           53.42%
+Sign                            40.09%
+Table                           36.98%
+TiledRoof                       10.91%
+TiledRoofTop                    37.80%
+VendingMachine                  24.13%
+WallSign                        42.79%
+Statue                           9.47%
+Chimney                         33.73%
+Pipe                            27.80%
+Machine                         18.94%
+Truck                           42.77%
+Car                             32.33%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lc}
+\hline
+\textbf{Concept} & \textbf{Designated (\%)} \\
+\hline
+Door & 57.81 \\
+Window & 58.00 \\
+Awning & 59.32 \\
+Billboard & 15.92 \\
+Porch & 53.42 \\
+Sign & 40.09 \\
+Table & 36.98 \\
+TiledRoof & 10.91 \\
+TiledRoofTop & 37.80 \\
+VendingMachine & 24.13 \\
+WallSign & 42.79 \\
+Statue & 9.47 \\
+Chimney & 33.73 \\
+Pipe & 27.80 \\
+Machine & 18.94 \\
+Truck & 42.77 \\
+Car & 32.33 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_concept}
+\end{table}
