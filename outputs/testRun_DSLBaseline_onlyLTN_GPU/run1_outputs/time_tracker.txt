@@ -1,0 +1,6 @@
+epoch 0 took 81.24 seconds
+epoch 1 took 70.45 seconds
+epoch 2 took 71.27 seconds
+epoch 3 took 84.13 seconds
+epoch 4 took 73.24 seconds
+epoch 5 took 72.52 seconds
