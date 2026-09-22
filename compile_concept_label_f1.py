@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 #USAGE: python3 compile_building_label_f1.py path/to/testRun_folder --with-std --by-alpha --metric mcc
+#USAGE: python3 compile_building_label_f1.py path/to/testRun_folder --merge-alphas --metric mcc
 
 # Toggle "active" to control which building labels are included in the table.
 
@@ -54,7 +55,7 @@ CONCEPTS = {
     "Billboard":      {"active": True},
     "Porch":          {"active": False},
     "Sign":           {"active": False},
-    "Table":          {"active": False},
+    "Table":          {"active": True},
     "TiledRoof":      {"active": False},
     "TiledRoofTop":   {"active": False},
     "VendingMachine": {"active": True},
@@ -73,10 +74,10 @@ CONCEPTS = {
 
 BUILDING_CLASSES = {
     "Cafe":             {"active": True},
-    "Hotel":            {"active": False},
+    "Hotel":            {"active": True},
     "Restaurant":       {"active": True},
     "Store":            {"active": True},
-    "MiscCommercial":   {"active": False},
+    "MiscCommercial":   {"active": True},
     "Suburban":         {"active": False},
     "MiscResidential":  {"active": False},
     "CountryHouse":     {"active": False},
@@ -215,6 +216,45 @@ def print_latex_table(values, active_classes, row_label, caption, label, with_st
     print("\n".join(lines))
 
 
+def print_latex_table_merged(groups, keys, active_classes, row_label, caption, label, with_std, as_percent):
+    # Like print_latex_table, but with one Train/Val column pair per alpha in `keys`,
+    # instead of printing a separate table per alpha.
+    unit = " (\\%)" if as_percent else ""
+    group_cells = [f"\\multicolumn{{2}}{{c}}{{\\textbf{{$\\alpha={key:g}$}}}}" for key in keys]
+    group_header = " & " + " & ".join(group_cells) + r" \\"
+
+    col_cells = [f"\\textbf{{{row_label}}}"]
+    for _ in keys:
+        col_cells.append(f"\\textbf{{Train{unit}}}")
+        col_cells.append(f"\\textbf{{Val{unit}}}")
+    col_header = " & ".join(col_cells) + r" \\"
+
+    lines = [
+        r"\begin{table}[htbp]",
+        r"\centering",
+        r"\begin{tabular}{l" + "cc" * len(keys) + "}",
+        r"\hline",
+        group_header,
+        col_header,
+        r"\hline",
+    ]
+    for name in active_classes:
+        row_cells = [name]
+        for key in keys:
+            values = groups[key][name]
+            row_cells.append(format_cell(values["train"], with_std, as_percent))
+            row_cells.append(format_cell(values["val"], with_std, as_percent))
+        lines.append(" & ".join(row_cells) + r" \\")
+    lines += [
+        r"\hline",
+        r"\end{tabular}",
+        f"\\caption{{{caption}}}",
+        f"\\label{{{label}}}",
+        r"\end{table}",
+    ]
+    print("\n".join(lines))
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Average metric (F1, balanced accuracy or MCC) per building label and per "
@@ -231,6 +271,11 @@ def main():
     parser.add_argument("--by-alpha", action="store_true",
                          help="Print a separate pair of tables per alpha value, instead of "
                               "averaging all runs together.")
+    parser.add_argument("--merge-alphas", action="store_true",
+                         help="Like --by-alpha, but instead of a separate table per alpha, "
+                              "print one table per building/concept group with each alpha's "
+                              "Train/Val as its own pair of columns (matches the combined-alpha "
+                              "table format used in the thesis).")
     parser.add_argument("--with-std", action="store_true",
                          help="Print mean +/- standard deviation instead of just the mean.")
     args = parser.parse_args()
@@ -243,12 +288,38 @@ def main():
     active_concepts = [name for name, cfg in CONCEPTS.items() if cfg["active"]]
     all_active = active_buildings + active_concepts
 
-    groups, files = collect_metric(root, all_active, args.by_alpha, metric_fn)
+    groups, files = collect_metric(root, all_active, args.by_alpha or args.merge_alphas, metric_fn)
 
     if not files:
         print(f"No conf_matrix.txt found under {root}")
         return
     print(f"Found {len(files)} run(s) under {root}\n")
+
+    if args.merge_alphas:
+        keys = sorted(groups.keys(), reverse=True)
+        if not keys:
+            print(f"No alpha values found under {root}")
+            return
+        alpha_list = " and ".join(f"$\\alpha={k:g}$" for k in keys)
+
+        if active_buildings:
+            print_latex_table_merged(
+                groups, keys, active_buildings, "Building Label",
+                f"Average {display_name} per building label across runs, train and validation, for {alpha_list}.",
+                f"tab:building_labels{metric_suffix}", args.with_std, as_percent)
+            print()
+        else:
+            print("No active building labels configured.\n")
+
+        if active_concepts:
+            print_latex_table_merged(
+                groups, keys, active_concepts, "Concept",
+                f"Average {display_name} per concept across runs, train and validation, for {alpha_list}.",
+                f"tab:concepts{metric_suffix}", args.with_std, as_percent)
+            print()
+        else:
+            print("No active concepts configured.\n")
+        return
 
     keys = sorted(groups.keys(), reverse=True) if args.by_alpha else ["all"]
 
