@@ -1,0 +1,88 @@
+
+
+========= ACTIVE RULES =========
+
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+
+
+========= CONISTENCY PER RULE =========
+
+industrial | consistency=0.9978 | rule_holds=1340 | rule_vac_holds=2657 | violations=3 | total=4000
+    - left_fails_right_holds: 3
+
+residential | consistency=0.9985 | rule_holds=1334 | rule_vac_holds=2664 | violations=2 | total=4000
+    - left_fails_right_holds: 2
+
+commercial | consistency=0.3322 | rule_holds=1329 | rule_vac_holds=0 | violations=2671 | total=4000
+    - left_fails_right_holds: 2671
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.993
+residential         : 0.990
+commercial          : 0.188
+
+Axiom satisfaction: validation 
+
+residential         : 0.991
+industrial          : 0.987
+commercial          : 0.188
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+residential         : {'agree': 3998, 'disagree': 2, 'missing': 0}
+industrial          : {'agree': 3997, 'disagree': 3, 'missing': 0}
+commercial          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- residential (2 disagreements) ---
+  s_16019_jpg
+    ltn=1 clingo=0 body=0.5341
+    Suburban        = 0.0028  (|d-0.5|=0.4972)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.5851  (|d-0.5|=0.0851)
+    Residential     = 0.3698  (|d-0.5|=0.1302)
+  s_16163_jpg
+    ltn=1 clingo=0 body=0.5103
+    Suburban        = 0.0037  (|d-0.5|=0.4963)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.7262  (|d-0.5|=0.2262)
+    Residential     = 0.4166  (|d-0.5|=0.0834)
+
+
+
+--- industrial (3 disagreements) ---
+  s_16639_jpg
+    ltn=1 clingo=0 body=0.5471
+    ConstructionSite = 0.5628  (|d-0.5|=0.0628)
+    MiscIndustrial  = 0.0729  (|d-0.5|=0.4271)
+    PowerPlant      = 0.0249  (|d-0.5|=0.4751)
+    WaterTreatment  = 0.0093  (|d-0.5|=0.4907)
+    Industrial      = 0.4458  (|d-0.5|=0.0542)
+  s_17341_jpg
+    ltn=1 clingo=0 body=0.5512
+    ConstructionSite = 0.5307  (|d-0.5|=0.0307)
+    MiscIndustrial  = 0.0808  (|d-0.5|=0.4192)
+    PowerPlant      = 0.0114  (|d-0.5|=0.4886)
+    WaterTreatment  = 0.0053  (|d-0.5|=0.4947)
+    Industrial      = 0.4404  (|d-0.5|=0.0596)
+  s_19389_jpg
+    ltn=1 clingo=0 body=0.5444
+    ConstructionSite = 0.5765  (|d-0.5|=0.0765)
+    MiscIndustrial  = 0.0565  (|d-0.5|=0.4435)
+    PowerPlant      = 0.0095  (|d-0.5|=0.4905)
+    WaterTreatment  = 0.0035  (|d-0.5|=0.4965)
+    Industrial      = 0.4326  (|d-0.5|=0.0674)
