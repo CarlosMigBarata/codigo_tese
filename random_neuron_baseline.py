@@ -18,11 +18,13 @@ import utils.constants as constants
 
 
 #USAGE
-# # Random-permutation comparison, 40 shuffles per run, pooled to 120 samples
+# Point at a folder containing run*_outputs subfolders; each run's alpha is read
+# from its metrics.csv, runs are grouped by alpha, and one set of results is
+# printed per alpha group.
+# python3 -u random_neuron_baseline.py --root-dir outputs/to_send/to_send_to_GPU_onlyEquiv --trials-per-run 40 --polarity-aware --latex | tee zzz_data_evaluation/output.txt
+#
+# Old explicit-paths mode still works, for a single combined group:
 # python3 random_neuron_baseline.py run0/best_model.pth run1/best_model.pth run2/best_model.pth --trials-per-run 40 --latex
-
-# # Just the normal designated-neuron F1, averaged across the 3 runs, no permutation
-# python3 random_neuron_baseline.py run0/best_model.pth run1/best_model.pth run2/best_model.pth --designated-only --latex
 
 DATA_ROOT = Path("/home/sofia/Desktop/datasets/datasetVCB")
 
@@ -39,8 +41,6 @@ transform = transforms.Compose([
     transforms.Resize((224, 224)),
     transforms.ToTensor(),
 ])
-
-
 
 
 class BuildingsDataset(Dataset):
@@ -85,6 +85,9 @@ class CNN(nn.Module):
 
         nbr_of_neurons = nbr_of_neurons * 2
         cnn_num_classes = num_classes * 2
+
+        # nbr_of_neurons = nbr_of_neurons 
+        # cnn_num_classes = num_classes 
 
         self.concept_layer = nn.Linear(64, nbr_of_neurons)
 
@@ -135,7 +138,7 @@ class CNN(nn.Module):
         out_concepts = concepts_out[:, :nbr_of_concepts]
 
         result = torch.cat([out_buildings, out_concepts, super_classes_activation], dim=1)
-        return result, buildings_out, concepts_out   # buildings: [batch,24], concepts: [batch,34]
+        return result, buildings_out, concepts_out   # buildings_out: [batch,24], concepts_out: [batch,34]
 
 
 def load_val_loader(batch_size):
@@ -168,20 +171,24 @@ def get_predictions_and_labels(model_path, device, batch_size):
 
     val_loader = load_val_loader(batch_size)
 
-    all_preds, all_labels = [], []
+    all_building_preds, all_concept_preds, all_labels = [], [], []
     for images, targets in val_loader:
         images = images.to(device)
-        logits = model(images)
-        probs = torch.sigmoid(logits)
-        preds = (probs > 0.5).int().cpu()
-        all_preds.append(preds)
+        _, buildings_out, concepts_out = model(images)
+
+        all_building_preds.append((torch.sigmoid(buildings_out) > 0.5).int().cpu())
+        all_concept_preds.append((torch.sigmoid(concepts_out) > 0.5).int().cpu())
         all_labels.append(targets.int())
 
-    return torch.cat(all_preds, dim=0), torch.cat(all_labels, dim=0)
+    return (torch.cat(all_building_preds, dim=0),
+            torch.cat(all_concept_preds, dim=0),
+            torch.cat(all_labels, dim=0))
 
 
-def f1_for_index(preds, labels, pred_idx, true_idx):
+def f1_for_index(preds, labels, pred_idx, true_idx, invert=False):
     y_pred = preds[:, pred_idx]
+    if invert:
+        y_pred = 1 - y_pred
     y_true = labels[:, true_idx]
     tp = int(torch.sum((y_true == 1) & (y_pred == 1)))
     tn = int(torch.sum((y_true == 0) & (y_pred == 0)))
@@ -189,62 +196,119 @@ def f1_for_index(preds, labels, pred_idx, true_idx):
     fn = int(torch.sum((y_true == 1) & (y_pred == 0)))
     return compute_f1(tp, tn, fp, fn)
 
-def f1_for_index(preds, labels, pred_idx, true_idx):
-    y_pred = preds[:, pred_idx]
-    y_true = labels[:, true_idx]
-    tp = int(torch.sum((y_true == 1) & (y_pred == 1)))
-    tn = int(torch.sum((y_true == 0) & (y_pred == 0)))
-    fp = int(torch.sum((y_true == 0) & (y_pred == 1)))
-    fn = int(torch.sum((y_true == 1) & (y_pred == 0)))
-    return compute_f1(tp, tn, fp, fn)
 
-def collect_group_results(preds, labels, group_indices, names, trials, rng):
+def best_polarity_f1(preds, labels, pred_idx, true_idx, polarity_aware):
     """
-    designated: {name: f1}       -- single deterministic pass, neuron i -> concept i
-    trial_f1s:  {name: [f1,...]} -- one F1 per permutation trial (empty list if trials=0)
+    Returns (best_f1, polarity) where polarity is "normal" or "inverted".
+    If polarity_aware is False, always uses the normal threshold (old behavior).
     """
-    designated = {name: f1_for_index(preds, labels, idx, idx) for name, idx in zip(names, group_indices)}
+    normal_f1 = f1_for_index(preds, labels, pred_idx, true_idx, invert=False)
+    if not polarity_aware:
+        return normal_f1, "normal"
+    inverted_f1 = f1_for_index(preds, labels, pred_idx, true_idx, invert=True)
+    if inverted_f1 > normal_f1:
+        return inverted_f1, "inverted"
+    return normal_f1, "normal"
+
+
+def collect_group_results(pool_preds, group_labels, names, pool_size, trials, rng, polarity_aware):
+    """
+    designated:          {name: f1}     -- neuron i (i < len(names)) -> label i, normal threshold only
+                                            (kept as the plain, non-polarity-aware reference number).
+    designated_best:     {name: f1}     -- best_polarity_f1 for the SAME designated neuron.
+    designated_polarity: {name: str}    -- "normal" or "inverted", whichever gave designated_best.
+    trial_f1s:           {name: [f1,...]} -- one best_polarity_f1 per trial, neuron drawn from the
+                                              FULL pool. Uses the SAME polarity_aware convention as
+                                              designated_best, so the two are a fair, apples-to-apples
+                                              comparison -- otherwise a polarity-aware designated score
+                                              would be compared against a polarity-blind random one,
+                                              overstating how much better designated looks.
+    """
+    name_indices = list(range(len(names)))
+    designated = {}
+    designated_best = {}
+    designated_polarity = {}
+    for name, idx in zip(names, name_indices):
+        designated[name] = f1_for_index(pool_preds, group_labels, idx, idx, invert=False)
+        best_f1, polarity = best_polarity_f1(pool_preds, group_labels, idx, idx, polarity_aware)
+        designated_best[name] = best_f1
+        designated_polarity[name] = polarity
+
     trial_f1s = {name: [] for name in names}
-
+    pool = list(range(pool_size))
     for _ in range(trials):
-        shuffled = group_indices.copy()
-        rng.shuffle(shuffled)
-        for name, true_idx, pred_idx in zip(names, group_indices, shuffled):
-            trial_f1s[name].append(f1_for_index(preds, labels, pred_idx, true_idx))
+        drawn = rng.sample(pool, len(names))
+        for name, true_idx, pred_idx in zip(names, name_indices, drawn):
+            trial_best_f1, _ = best_polarity_f1(pool_preds, group_labels, pred_idx, true_idx, polarity_aware)
+            trial_f1s[name].append(trial_best_f1)
 
-    return designated, trial_f1s
+    return designated, designated_best, designated_polarity, trial_f1s
 
 
-def print_summary_table(names, designated_per_run, pooled_trials, group_label, args):
+def print_summary_table(names, designated_per_run, designated_best_per_run, polarity_per_run,
+                         pooled_trials, group_label, args):
+    random_label = "Random mean (best pol.)" if args.polarity_aware else "Random mean"
+    random_std_label = "Random std (best pol.)" if args.polarity_aware else "Random std"
+
     print(f"\n=== {group_label} ===")
     header = f"{'Name':<20} {'Designated (avg)':>17}"
+    if args.polarity_aware:
+        header += f" {'Best-polarity (avg)':>20} {'Polarity':>10}"
     if not args.designated_only:
-        header += f" {'Random mean':>13} {'Random std':>12}"
+        header += f" {random_label:>24} {random_std_label:>23}"
     print(header)
     for name in names:
         avg_designated = statistics.mean(designated_per_run[name])
         line = f"{name:<20} {avg_designated*100:>16.2f}%"
+        if args.polarity_aware:
+            avg_best = statistics.mean(designated_best_per_run[name])
+            polarities = polarity_per_run[name]
+            n_inverted = sum(1 for p in polarities if p == "inverted")
+            if n_inverted == 0:
+                polarity_label = "normal"
+            elif n_inverted == len(polarities):
+                polarity_label = "inverted"
+            else:
+                polarity_label = f"mixed ({n_inverted}/{len(polarities)})"
+            line += f" {avg_best*100:>19.2f}% {polarity_label:>10}"
         if not args.designated_only:
             pooled = pooled_trials[name]
             mean_f1 = statistics.mean(pooled)
             std_f1 = statistics.stdev(pooled) if len(pooled) > 1 else 0.0
-            line += f" {mean_f1*100:>12.2f}% {std_f1*100:>11.2f}%"
+            line += f" {mean_f1*100:>23.2f}% {std_f1*100:>22.2f}%"
         print(line)
 
     if args.latex:
         print(r"\begin{table}[htbp]")
         print(r"\centering")
-        cols = "lc" if args.designated_only else "lccc"
+        cols = "lc"
+        if args.polarity_aware:
+            cols += "cc"
+        if not args.designated_only:
+            cols += "cc"
         print(rf"\begin{{tabular}}{{{cols}}}")
         print(r"\hline")
         header_cells = rf"\textbf{{{group_label}}} & \textbf{{Designated (\%)}}"
+        if args.polarity_aware:
+            header_cells += r" & \textbf{Best-polarity (\%)} & \textbf{Polarity}"
         if not args.designated_only:
-            header_cells += r" & \textbf{Random mean (\%)} & \textbf{Random std (\%)}"
+            header_cells += rf" & \textbf{{{random_label} (\%)}} & \textbf{{{random_std_label} (\%)}}"
         print(header_cells + r" \\")
         print(r"\hline")
         for name in names:
             avg_designated = statistics.mean(designated_per_run[name])
             row = f"{name} & {avg_designated*100:.2f}"
+            if args.polarity_aware:
+                avg_best = statistics.mean(designated_best_per_run[name])
+                polarities = polarity_per_run[name]
+                n_inverted = sum(1 for p in polarities if p == "inverted")
+                if n_inverted == 0:
+                    polarity_label = "normal"
+                elif n_inverted == len(polarities):
+                    polarity_label = "inverted"
+                else:
+                    polarity_label = f"mixed ({n_inverted}/{len(polarities)})"
+                row += f" & {avg_best*100:.2f} & {polarity_label}"
             if not args.designated_only:
                 pooled = pooled_trials[name]
                 mean_f1 = statistics.mean(pooled)
@@ -254,56 +318,133 @@ def print_summary_table(names, designated_per_run, pooled_trials, group_label, a
         print(r"\hline")
         print(r"\end{tabular}")
         print(r"\caption{REPLACE ME}")
-        print(rf"\label{{tab:REPLACE_ME_{group_label.lower().replace(' ', '_')}}}")
+        print(rf"\label{{tab:REPLACE_ME_{group_label.lower().replace(' ', '_').replace('(', '').replace(')', '')}}}")
         print(r"\end{table}")
+
+
+def discover_runs_by_alpha(root_dir):
+    """
+    Scans root_dir's immediate subdirectories for run folders containing both
+    best_model.pth and metrics.csv, reads each run's (constant) alpha from the
+    metrics.csv "Alpha" column, and groups run paths by that alpha value.
+    Returns: dict {alpha: [Path(best_model.pth), ...]}, sorted by alpha descending.
+    """
+    root_dir = Path(root_dir)
+    groups = {}
+    for run_dir in sorted(root_dir.iterdir()):
+        if not run_dir.is_dir():
+            continue
+        model_path = run_dir / "best_model.pth"
+        metrics_path = run_dir / "metrics.csv"
+        if not model_path.exists():
+            continue
+        if not metrics_path.exists():
+            print(f"[skip] {run_dir.name}: no metrics.csv found")
+            continue
+        df = pd.read_csv(metrics_path, usecols=["Alpha"])
+        if df.empty:
+            print(f"[skip] {run_dir.name}: metrics.csv has no rows")
+            continue
+        alpha = round(float(df["Alpha"].iloc[0]), 4)
+        groups.setdefault(alpha, []).append(model_path)
+
+    return dict(sorted(groups.items(), reverse=True))
+
+
+def run_group(model_paths, device, trials, rng, args, tag):
+    building_designated_per_run = {name: [] for name in ALL_BUILDING_CLASSES}
+    concept_designated_per_run = {name: [] for name in ALL_CONCEPTS}
+    building_designated_best_per_run = {name: [] for name in ALL_BUILDING_CLASSES}
+    concept_designated_best_per_run = {name: [] for name in ALL_CONCEPTS}
+    building_polarity_per_run = {name: [] for name in ALL_BUILDING_CLASSES}
+    concept_polarity_per_run = {name: [] for name in ALL_CONCEPTS}
+    building_pooled_trials = {name: [] for name in ALL_BUILDING_CLASSES}
+    concept_pooled_trials = {name: [] for name in ALL_CONCEPTS}
+
+    building_pool_size = building_classes * 2                 # 24
+    concept_pool_size = min(len(ALL_CONCEPTS), 48) * 2         # 34
+    
+    # building_pool_size = building_classes                  # 24
+    # concept_pool_size = min(len(ALL_CONCEPTS), 48)   
+
+    for model_path in model_paths:
+        print(f"[loading] {model_path}")
+        building_pool_preds, concept_pool_preds, labels = get_predictions_and_labels(
+            model_path, device, constants.BATCH_SIZE
+        )
+
+        building_labels = labels[:, :building_classes]
+        concept_labels = labels[:, building_classes:concepts_pos]
+
+        b_designated, b_best, b_polarity, b_trials = collect_group_results(
+            building_pool_preds, building_labels, ALL_BUILDING_CLASSES, building_pool_size,
+            trials, rng, args.polarity_aware
+        )
+        c_designated, c_best, c_polarity, c_trials = collect_group_results(
+            concept_pool_preds, concept_labels, ALL_CONCEPTS, concept_pool_size,
+            trials, rng, args.polarity_aware
+        )
+
+        for name in ALL_BUILDING_CLASSES:
+            building_designated_per_run[name].append(b_designated[name])
+            building_designated_best_per_run[name].append(b_best[name])
+            building_polarity_per_run[name].append(b_polarity[name])
+            building_pooled_trials[name].extend(b_trials[name])
+        for name in ALL_CONCEPTS:
+            concept_designated_per_run[name].append(c_designated[name])
+            concept_designated_best_per_run[name].append(c_best[name])
+            concept_polarity_per_run[name].append(c_polarity[name])
+            concept_pooled_trials[name].extend(c_trials[name])
+
+    print_summary_table(ALL_BUILDING_CLASSES, building_designated_per_run, building_designated_best_per_run,
+                         building_polarity_per_run, building_pooled_trials, f"Building Label ({tag})", args)
+    print_summary_table(ALL_CONCEPTS, concept_designated_per_run, concept_designated_best_per_run,
+                         concept_polarity_per_run, concept_pooled_trials, f"Concept ({tag})", args)
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Compare each concept/building label's designated neuron F1 (averaged "
-                    "across the given runs) against F1 under randomly-permuted neuron "
-                    "assignments, pooled across the same runs."
+        description="Compare each concept/building label's designated neuron F1 against F1 "
+                    "under randomly-drawn neuron assignments. With --polarity-aware, both the "
+                    "designated neuron and every random draw are scored at max(normal threshold "
+                    "F1, inverted threshold F1), so the comparison stays fair when a label's "
+                    "true polarity is not reliably anchored (common for equivalence-linked "
+                    "concepts/buildings, since Equiv(a,b) = Equiv(1-a,1-b) is a tautology and "
+                    "nothing in that axiom forces a specific polarity)."
     )
-    parser.add_argument("model_paths", nargs="+",
-                         help="One or more best_model.pth checkpoints, e.g. the 3 seeds of one config.")
+    parser.add_argument("model_paths", nargs="*", help="Explicit best_model.pth paths (single group mode).")
+    parser.add_argument("--root-dir", type=Path, default=None,
+                         help="Folder containing run*_outputs subfolders; grouped by alpha automatically.")
     parser.add_argument("--trials-per-run", type=int, default=40,
-                         help="Number of random permutation shuffles per model (default: 40).")
+                         help="Number of random draws per model (default: 40).")
     parser.add_argument("--designated-only", action="store_true",
-                         help="Skip permutation trials; just report the normal (neuron i -> "
-                              "concept i) F1, averaged across the given runs.")
+                         help="Skip random trials; just report the designated F1.")
+    parser.add_argument("--polarity-aware", action="store_true",
+                         help="Score both the designated neuron and every random draw at "
+                              "max(F1 normal threshold, F1 inverted threshold), and report "
+                              "which polarity won for the designated neuron.")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--latex", action="store_true")
     args = parser.parse_args()
 
+    if not args.root_dir and not args.model_paths:
+        parser.error("Provide either --root-dir or explicit model_paths.")
+    if args.root_dir and args.model_paths:
+        parser.error("Use either --root-dir or explicit model_paths, not both.")
+
     rng = random.Random(args.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-    concept_indices = list(range(building_classes, concepts_pos))
-    building_indices = list(range(0, building_classes))
-
-    building_designated_per_run = {name: [] for name in ALL_BUILDING_CLASSES}
-    concept_designated_per_run = {name: [] for name in ALL_CONCEPTS}
-    building_pooled_trials = {name: [] for name in ALL_BUILDING_CLASSES}
-    concept_pooled_trials = {name: [] for name in ALL_CONCEPTS}
-
     trials = 0 if args.designated_only else args.trials_per_run
 
-    for model_path in args.model_paths:
-        print(f"[loading] {model_path}")
-        preds, labels = get_predictions_and_labels(Path(model_path), device, constants.BATCH_SIZE)
-
-        b_designated, b_trials = collect_group_results(preds, labels, building_indices, ALL_BUILDING_CLASSES, trials, rng)
-        c_designated, c_trials = collect_group_results(preds, labels, concept_indices, ALL_CONCEPTS, trials, rng)
-
-        for name in ALL_BUILDING_CLASSES:
-            building_designated_per_run[name].append(b_designated[name])
-            building_pooled_trials[name].extend(b_trials[name])
-        for name in ALL_CONCEPTS:
-            concept_designated_per_run[name].append(c_designated[name])
-            concept_pooled_trials[name].extend(c_trials[name])
-
-    print_summary_table(ALL_BUILDING_CLASSES, building_designated_per_run, building_pooled_trials, "Building Label", args)
-    print_summary_table(ALL_CONCEPTS, concept_designated_per_run, concept_pooled_trials, "Concept", args)
+    if args.root_dir:
+        groups = discover_runs_by_alpha(args.root_dir)
+        if not groups:
+            parser.error(f"No run folders with best_model.pth + metrics.csv found under {args.root_dir}")
+        for alpha, model_paths in groups.items():
+            print(f"\n########## alpha = {alpha} ({len(model_paths)} run(s)) ##########")
+            run_group(model_paths, device, trials, rng, args, tag=f"alpha{alpha}")
+    else:
+        run_group([Path(p) for p in args.model_paths], device, trials, rng, args, tag="manual")
 
 
 if __name__ == "__main__":
