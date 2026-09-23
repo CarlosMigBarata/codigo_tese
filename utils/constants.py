@@ -20,7 +20,7 @@ VALIDATION_INTERVAL = 3
 
 BUILDING_PREDICATES = False
 CONCEPT_PREDICATES = False
-active_ontology = "NEW_ONTOLOGY3" #it has a default, so check rules_and_concepts.py for the different possibilites
+active_ontology = "CLASSIC_ONTOLOGY" #it has a default, so check rules_and_concepts.py for the different possibilites
 
 
 

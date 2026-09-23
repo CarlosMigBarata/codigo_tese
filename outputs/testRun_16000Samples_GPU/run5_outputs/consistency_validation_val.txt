@@ -1,0 +1,110 @@
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+commercial | consistency=0.9970 | rule_holds=1321 | rule_vac_holds=2675 | violations=4 | total=4000
+    - left_holds_right_fails: 2
+    - left_fails_right_holds: 2
+
+industrial | consistency=0.9970 | rule_holds=1340 | rule_vac_holds=2656 | violations=4 | total=4000
+    - left_holds_right_fails: 4
+
+residential | consistency=0.9993 | rule_holds=1335 | rule_vac_holds=2664 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.996
+residential         : 0.996
+commercial          : 0.993
+
+Axiom satisfaction: validation 
+
+industrial          : 0.991
+residential         : 0.991
+commercial          : 0.984
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+industrial          : {'agree': 3996, 'disagree': 4, 'missing': 0}
+residential         : {'agree': 3999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 3998, 'disagree': 2, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (4 disagreements) ---
+  s_16048_jpg
+    ltn=1 clingo=0 body=0.5527
+    ConstructionSite = 0.0809  (|d-0.5|=0.4191)
+    MiscIndustrial  = 0.4588  (|d-0.5|=0.0412)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.7072  (|d-0.5|=0.2072)
+  s_16654_jpg
+    ltn=1 clingo=0 body=0.5648
+    ConstructionSite = 0.2362  (|d-0.5|=0.2638)
+    MiscIndustrial  = 0.3959  (|d-0.5|=0.1041)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.5408  (|d-0.5|=0.0408)
+  s_18216_jpg
+    ltn=1 clingo=0 body=0.5668
+    ConstructionSite = 0.2510  (|d-0.5|=0.2490)
+    MiscIndustrial  = 0.4956  (|d-0.5|=0.0044)
+    PowerPlant      = 0.0001  (|d-0.5|=0.4999)
+    WaterTreatment  = 0.0001  (|d-0.5|=0.4999)
+    Industrial      = 0.5341  (|d-0.5|=0.0341)
+  s_19372_jpg
+    ltn=1 clingo=0 body=0.5632
+    ConstructionSite = 0.2767  (|d-0.5|=0.2233)
+    MiscIndustrial  = 0.4028  (|d-0.5|=0.0972)
+    PowerPlant      = 0.0003  (|d-0.5|=0.4997)
+    WaterTreatment  = 0.0002  (|d-0.5|=0.4998)
+    Industrial      = 0.5144  (|d-0.5|=0.0144)
+
+
+
+--- commercial (2 disagreements) ---
+  s_18216_jpg
+    ltn=1 clingo=0 body=0.5577
+    Cafe            = 0.0000  (|d-0.5|=0.5000)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.6325  (|d-0.5|=0.1325)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4984  (|d-0.5|=0.0016)
+  s_19372_jpg
+    ltn=1 clingo=0 body=0.5557
+    Cafe            = 0.0001  (|d-0.5|=0.4999)
+    Hotel           = 0.0002  (|d-0.5|=0.4998)
+    Restaurant      = 0.0002  (|d-0.5|=0.4998)
+    Store           = 0.6451  (|d-0.5|=0.1451)
+    MiscCommercial  = 0.0000  (|d-0.5|=0.5000)
+    Commercial      = 0.4948  (|d-0.5|=0.0052)
+
+
+
+--- residential (1 disagreements) ---
+  s_19989_jpg
+    ltn=1 clingo=0 body=0.5607
+    Suburban        = 0.5371  (|d-0.5|=0.0371)
+    MiscResidential = 0.0000  (|d-0.5|=0.5000)
+    CountryHouse    = 0.0000  (|d-0.5|=0.5000)
+    Residential     = 0.4813  (|d-0.5|=0.0187)

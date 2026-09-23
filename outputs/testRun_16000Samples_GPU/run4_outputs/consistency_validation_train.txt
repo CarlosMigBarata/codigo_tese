@@ -1,0 +1,80 @@
+
+
+========= ACTIVE RULES =========
+
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+
+
+========= CONISTENCY PER RULE =========
+
+commercial | consistency=0.9992 | rule_holds=5287 | rule_vac_holds=10709 | violations=4 | total=16000
+    - left_holds_right_fails: 4
+
+industrial | consistency=0.9998 | rule_holds=5346 | rule_vac_holds=10653 | violations=1 | total=16000
+    - left_fails_right_holds: 1
+
+residential | consistency=0.9998 | rule_holds=5362 | rule_vac_holds=10637 | violations=1 | total=16000
+    - left_fails_right_holds: 1
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+industrial          : 0.997
+residential         : 0.996
+commercial          : 0.993
+
+Axiom satisfaction: validation 
+
+industrial          : 0.998
+residential         : 0.997
+commercial          : 0.996
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+industrial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+residential         : {'agree': 15999, 'disagree': 1, 'missing': 0}
+commercial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- industrial (1 disagreements) ---
+  s_3444_jpg
+    ltn=1 clingo=0 body=0.5443
+    ConstructionSite = 0.0000  (|d-0.5|=0.5000)
+    MiscIndustrial  = 0.6098  (|d-0.5|=0.1098)
+    PowerPlant      = 0.0000  (|d-0.5|=0.5000)
+    WaterTreatment  = 0.0000  (|d-0.5|=0.5000)
+    Industrial      = 0.4352  (|d-0.5|=0.0648)
+
+
+
+--- commercial (1 disagreements) ---
+  s_12096_jpg
+    ltn=1 clingo=0 body=0.5950
+    Cafe            = 0.4405  (|d-0.5|=0.0595)
+    Hotel           = 0.0015  (|d-0.5|=0.4985)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.2703  (|d-0.5|=0.2297)
+    Commercial      = 0.8361  (|d-0.5|=0.3361)
+
+
+
+--- residential (1 disagreements) ---
+  s_453_jpg
+    ltn=1 clingo=0 body=0.5110
+    Suburban        = 0.0000  (|d-0.5|=0.5000)
+    MiscResidential = 0.7321  (|d-0.5|=0.2321)
+    CountryHouse    = 0.0225  (|d-0.5|=0.4775)
+    Residential     = 0.4239  (|d-0.5|=0.0761)

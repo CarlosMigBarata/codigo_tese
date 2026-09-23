@@ -1,0 +1,274 @@
+active ontology CLASSIC_ONTOLOGY
+
+########## alpha = 1.0 (3 run(s)) ##########
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run6_outputs/best_model.pth
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run7_outputs/best_model.pth
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run8_outputs/best_model.pth
+
+=== Building Label (alpha1.0) ===
+Name                  Designated (avg)  Best-polarity (avg)   Polarity  Random mean (best pol.)  Random std (best pol.)
+Cafe                            63.53%               63.53%     normal                   61.03%                  14.51%
+Hotel                           41.17%               54.32% mixed (1/3)                   55.11%                  13.80%
+Restaurant                      13.19%               33.29% mixed (2/3)                   38.75%                  10.83%
+Store                           40.26%               66.09% mixed (1/3)                   57.72%                  14.34%
+MiscCommercial                  19.20%               44.13% mixed (2/3)                   54.95%                  14.51%
+Suburban                        40.70%               57.64% mixed (1/3)                   55.45%                  13.05%
+MiscResidential                 55.91%               55.91%     normal                   64.31%                  16.43%
+CountryHouse                    17.21%               31.57% mixed (2/3)                   40.34%                  11.29%
+ConstructionSite                 8.65%               26.44% mixed (2/3)                   26.94%                   8.03%
+MiscIndustrial                  20.54%               44.28% mixed (2/3)                   38.05%                   9.15%
+PowerPlant                      27.85%               39.75% mixed (1/3)                   43.28%                  11.23%
+WaterTreatment                  24.37%               37.08% mixed (2/3)                   36.81%                   8.94%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lccccc}
+\hline
+\textbf{Building Label (alpha1.0)} & \textbf{Designated (\%)} & \textbf{Best-polarity (\%)} & \textbf{Polarity} & \textbf{Random mean (best pol.) (\%)} & \textbf{Random std (best pol.) (\%)} \\
+\hline
+Cafe & 63.53 & 63.53 & normal & 61.03 & 14.51 \\
+Hotel & 41.17 & 54.32 & mixed (1/3) & 55.11 & 13.80 \\
+Restaurant & 13.19 & 33.29 & mixed (2/3) & 38.75 & 10.83 \\
+Store & 40.26 & 66.09 & mixed (1/3) & 57.72 & 14.34 \\
+MiscCommercial & 19.20 & 44.13 & mixed (2/3) & 54.95 & 14.51 \\
+Suburban & 40.70 & 57.64 & mixed (1/3) & 55.45 & 13.05 \\
+MiscResidential & 55.91 & 55.91 & normal & 64.31 & 16.43 \\
+CountryHouse & 17.21 & 31.57 & mixed (2/3) & 40.34 & 11.29 \\
+ConstructionSite & 8.65 & 26.44 & mixed (2/3) & 26.94 & 8.03 \\
+MiscIndustrial & 20.54 & 44.28 & mixed (2/3) & 38.05 & 9.15 \\
+PowerPlant & 27.85 & 39.75 & mixed (1/3) & 43.28 & 11.23 \\
+WaterTreatment & 24.37 & 37.08 & mixed (2/3) & 36.81 & 8.94 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_building_label_alpha1.0}
+\end{table}
+
+=== Concept (alpha1.0) ===
+Name                  Designated (avg)  Best-polarity (avg)   Polarity  Random mean (best pol.)  Random std (best pol.)
+Door                            64.22%               64.22%     normal                   65.68%                   4.54%
+Window                          51.83%               65.42% mixed (2/3)                   66.84%                   5.68%
+Awning                          51.06%               58.11% mixed (1/3)                   59.99%                   3.25%
+Billboard                       16.05%               66.73% mixed (2/3)                   58.87%                  14.09%
+Porch                           17.25%               50.59% mixed (2/3)                   57.62%                  15.03%
+Sign                            46.80%               55.94% mixed (1/3)                   57.93%                   7.83%
+Table                           50.07%               73.73% mixed (1/3)                   65.10%                  11.38%
+TiledRoof                       68.15%               72.34% mixed (1/3)                   62.40%                  12.16%
+TiledRoofTop                    41.07%               56.20% mixed (1/3)                   65.00%                  13.26%
+VendingMachine                  26.16%               40.88% mixed (1/3)                   52.49%                  13.88%
+WallSign                        15.67%               41.38% mixed (2/3)                   56.80%                  14.81%
+Statue                          29.61%               47.39% mixed (1/3)                   38.27%                  11.46%
+Chimney                         29.02%               50.46% mixed (2/3)                   53.08%                  10.11%
+Pipe                            28.18%               57.63% mixed (2/3)                   57.63%                  11.06%
+Machine                         13.46%               21.81% mixed (2/3)                   26.89%                   7.99%
+Truck                           25.24%               45.93%   inverted                   49.61%                   5.13%
+Car                             24.11%               44.38% mixed (2/3)                   42.51%                   6.81%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lccccc}
+\hline
+\textbf{Concept (alpha1.0)} & \textbf{Designated (\%)} & \textbf{Best-polarity (\%)} & \textbf{Polarity} & \textbf{Random mean (best pol.) (\%)} & \textbf{Random std (best pol.) (\%)} \\
+\hline
+Door & 64.22 & 64.22 & normal & 65.68 & 4.54 \\
+Window & 51.83 & 65.42 & mixed (2/3) & 66.84 & 5.68 \\
+Awning & 51.06 & 58.11 & mixed (1/3) & 59.99 & 3.25 \\
+Billboard & 16.05 & 66.73 & mixed (2/3) & 58.87 & 14.09 \\
+Porch & 17.25 & 50.59 & mixed (2/3) & 57.62 & 15.03 \\
+Sign & 46.80 & 55.94 & mixed (1/3) & 57.93 & 7.83 \\
+Table & 50.07 & 73.73 & mixed (1/3) & 65.10 & 11.38 \\
+TiledRoof & 68.15 & 72.34 & mixed (1/3) & 62.40 & 12.16 \\
+TiledRoofTop & 41.07 & 56.20 & mixed (1/3) & 65.00 & 13.26 \\
+VendingMachine & 26.16 & 40.88 & mixed (1/3) & 52.49 & 13.88 \\
+WallSign & 15.67 & 41.38 & mixed (2/3) & 56.80 & 14.81 \\
+Statue & 29.61 & 47.39 & mixed (1/3) & 38.27 & 11.46 \\
+Chimney & 29.02 & 50.46 & mixed (2/3) & 53.08 & 10.11 \\
+Pipe & 28.18 & 57.63 & mixed (2/3) & 57.63 & 11.06 \\
+Machine & 13.46 & 21.81 & mixed (2/3) & 26.89 & 7.99 \\
+Truck & 25.24 & 45.93 & inverted & 49.61 & 5.13 \\
+Car & 24.11 & 44.38 & mixed (2/3) & 42.51 & 6.81 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_concept_alpha1.0}
+\end{table}
+
+########## alpha = 0.8 (3 run(s)) ##########
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run0_outputs/best_model.pth
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run1_outputs/best_model.pth
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run2_outputs/best_model.pth
+
+=== Building Label (alpha0.8) ===
+Name                  Designated (avg)  Best-polarity (avg)   Polarity  Random mean (best pol.)  Random std (best pol.)
+Cafe                             0.20%               53.14%   inverted                   45.03%                  11.39%
+Hotel                           36.51%               47.76% mixed (1/3)                   40.56%                  11.33%
+Restaurant                      28.49%               35.84% mixed (1/3)                   27.92%                   9.28%
+Store                           11.60%               34.81% mixed (2/3)                   41.96%                  12.43%
+MiscCommercial                   0.00%               32.71%   inverted                   39.32%                  11.49%
+Suburban                        26.80%               51.33% mixed (2/3)                   45.69%                  14.70%
+MiscResidential                 60.20%               74.64% mixed (1/3)                   52.21%                  14.08%
+CountryHouse                     0.00%               24.29%   inverted                   31.64%                  11.02%
+ConstructionSite                 0.00%               17.31%   inverted                   22.17%                   8.55%
+MiscIndustrial                  60.67%               60.67%     normal                   32.45%                  11.26%
+PowerPlant                       0.00%               29.28%   inverted                   35.60%                  11.24%
+WaterTreatment                   0.00%               24.45%   inverted                   31.07%                  10.86%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lccccc}
+\hline
+\textbf{Building Label (alpha0.8)} & \textbf{Designated (\%)} & \textbf{Best-polarity (\%)} & \textbf{Polarity} & \textbf{Random mean (best pol.) (\%)} & \textbf{Random std (best pol.) (\%)} \\
+\hline
+Cafe & 0.20 & 53.14 & inverted & 45.03 & 11.39 \\
+Hotel & 36.51 & 47.76 & mixed (1/3) & 40.56 & 11.33 \\
+Restaurant & 28.49 & 35.84 & mixed (1/3) & 27.92 & 9.28 \\
+Store & 11.60 & 34.81 & mixed (2/3) & 41.96 & 12.43 \\
+MiscCommercial & 0.00 & 32.71 & inverted & 39.32 & 11.49 \\
+Suburban & 26.80 & 51.33 & mixed (2/3) & 45.69 & 14.70 \\
+MiscResidential & 60.20 & 74.64 & mixed (1/3) & 52.21 & 14.08 \\
+CountryHouse & 0.00 & 24.29 & inverted & 31.64 & 11.02 \\
+ConstructionSite & 0.00 & 17.31 & inverted & 22.17 & 8.55 \\
+MiscIndustrial & 60.67 & 60.67 & normal & 32.45 & 11.26 \\
+PowerPlant & 0.00 & 29.28 & inverted & 35.60 & 11.24 \\
+WaterTreatment & 0.00 & 24.45 & inverted & 31.07 & 10.86 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_building_label_alpha0.8}
+\end{table}
+
+=== Concept (alpha0.8) ===
+Name                  Designated (avg)  Best-polarity (avg)   Polarity  Random mean (best pol.)  Random std (best pol.)
+Door                            72.65%               72.65%     normal                   72.67%                   7.10%
+Window                          52.07%               66.43% mixed (2/3)                   74.02%                   6.82%
+Awning                           0.00%               63.01%   inverted                   61.97%                   2.33%
+Billboard                       11.60%               34.81% mixed (2/3)                   40.80%                  10.63%
+Porch                           26.79%               51.32% mixed (2/3)                   47.85%                  15.80%
+Sign                            12.19%               49.00%   inverted                   49.70%                   5.91%
+Table                           25.05%               64.14% mixed (2/3)                   55.52%                   8.72%
+TiledRoof                        0.00%               56.21%   inverted                   56.34%                  10.54%
+TiledRoofTop                    30.53%               77.35% mixed (2/3)                   56.05%                  12.74%
+VendingMachine                   1.64%               58.36%   inverted                   38.77%                  10.63%
+WallSign                        36.50%               47.75% mixed (1/3)                   40.69%                  10.91%
+Statue                           0.00%               23.17%   inverted                   26.00%                   9.64%
+Chimney                          0.45%               43.83%   inverted                   48.67%                   9.15%
+Pipe                            25.45%               56.71% mixed (2/3)                   52.14%                   9.73%
+Machine                          0.00%               17.31%   inverted                   22.42%                   8.61%
+Truck                           36.72%               51.83% mixed (1/3)                   50.00%                   3.92%
+Car                             14.93%               45.45%   inverted                   42.05%                   5.40%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lccccc}
+\hline
+\textbf{Concept (alpha0.8)} & \textbf{Designated (\%)} & \textbf{Best-polarity (\%)} & \textbf{Polarity} & \textbf{Random mean (best pol.) (\%)} & \textbf{Random std (best pol.) (\%)} \\
+\hline
+Door & 72.65 & 72.65 & normal & 72.67 & 7.10 \\
+Window & 52.07 & 66.43 & mixed (2/3) & 74.02 & 6.82 \\
+Awning & 0.00 & 63.01 & inverted & 61.97 & 2.33 \\
+Billboard & 11.60 & 34.81 & mixed (2/3) & 40.80 & 10.63 \\
+Porch & 26.79 & 51.32 & mixed (2/3) & 47.85 & 15.80 \\
+Sign & 12.19 & 49.00 & inverted & 49.70 & 5.91 \\
+Table & 25.05 & 64.14 & mixed (2/3) & 55.52 & 8.72 \\
+TiledRoof & 0.00 & 56.21 & inverted & 56.34 & 10.54 \\
+TiledRoofTop & 30.53 & 77.35 & mixed (2/3) & 56.05 & 12.74 \\
+VendingMachine & 1.64 & 58.36 & inverted & 38.77 & 10.63 \\
+WallSign & 36.50 & 47.75 & mixed (1/3) & 40.69 & 10.91 \\
+Statue & 0.00 & 23.17 & inverted & 26.00 & 9.64 \\
+Chimney & 0.45 & 43.83 & inverted & 48.67 & 9.15 \\
+Pipe & 25.45 & 56.71 & mixed (2/3) & 52.14 & 9.73 \\
+Machine & 0.00 & 17.31 & inverted & 22.42 & 8.61 \\
+Truck & 36.72 & 51.83 & mixed (1/3) & 50.00 & 3.92 \\
+Car & 14.93 & 45.45 & inverted & 42.05 & 5.40 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_concept_alpha0.8}
+\end{table}
+
+########## alpha = 0.5 (3 run(s)) ##########
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run3_outputs/best_model.pth
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run4_outputs/best_model.pth
+[loading] outputs/testRun_1LargeLayer_EquivAndConj_GPU/run5_outputs/best_model.pth
+
+=== Building Label (alpha0.5) ===
+Name                  Designated (avg)  Best-polarity (avg)   Polarity  Random mean (best pol.)  Random std (best pol.)
+Cafe                            48.10%               60.87% mixed (1/3)                   47.10%                  13.88%
+Hotel                            0.00%               33.75%   inverted                   44.83%                  13.19%
+Restaurant                      35.46%               42.82% mixed (1/3)                   29.51%                  10.60%
+Store                           25.99%               49.20% mixed (2/3)                   44.00%                  13.99%
+MiscCommercial                   0.00%               32.71%   inverted                   43.55%                  14.65%
+Suburban                         0.00%               36.80%   inverted                   44.20%                  13.16%
+MiscResidential                 90.39%               90.39%     normal                   51.48%                  12.18%
+CountryHouse                     0.00%               24.29%   inverted                   29.83%                   9.13%
+ConstructionSite                29.12%               34.89% mixed (1/3)                   23.41%                   8.75%
+MiscIndustrial                  40.57%               49.09% mixed (1/3)                   33.11%                  10.63%
+PowerPlant                       0.00%               29.28%   inverted                   36.49%                  11.01%
+WaterTreatment                   0.00%               24.45%   inverted                   33.04%                  12.17%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lccccc}
+\hline
+\textbf{Building Label (alpha0.5)} & \textbf{Designated (\%)} & \textbf{Best-polarity (\%)} & \textbf{Polarity} & \textbf{Random mean (best pol.) (\%)} & \textbf{Random std (best pol.) (\%)} \\
+\hline
+Cafe & 48.10 & 60.87 & mixed (1/3) & 47.10 & 13.88 \\
+Hotel & 0.00 & 33.75 & inverted & 44.83 & 13.19 \\
+Restaurant & 35.46 & 42.82 & mixed (1/3) & 29.51 & 10.60 \\
+Store & 25.99 & 49.20 & mixed (2/3) & 44.00 & 13.99 \\
+MiscCommercial & 0.00 & 32.71 & inverted & 43.55 & 14.65 \\
+Suburban & 0.00 & 36.80 & inverted & 44.20 & 13.16 \\
+MiscResidential & 90.39 & 90.39 & normal & 51.48 & 12.18 \\
+CountryHouse & 0.00 & 24.29 & inverted & 29.83 & 9.13 \\
+ConstructionSite & 29.12 & 34.89 & mixed (1/3) & 23.41 & 8.75 \\
+MiscIndustrial & 40.57 & 49.09 & mixed (1/3) & 33.11 & 10.63 \\
+PowerPlant & 0.00 & 29.28 & inverted & 36.49 & 11.01 \\
+WaterTreatment & 0.00 & 24.45 & inverted & 33.04 & 12.17 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_building_label_alpha0.5}
+\end{table}
+
+=== Concept (alpha0.5) ===
+Name                  Designated (avg)  Best-polarity (avg)   Polarity  Random mean (best pol.)  Random std (best pol.)
+Door                            64.22%               67.34% mixed (1/3)                   72.89%                   6.97%
+Window                          54.77%               62.90% mixed (2/3)                   73.41%                   7.17%
+Awning                          11.61%               60.92%   inverted                   62.31%                   2.72%
+Billboard                       25.99%               49.20% mixed (2/3)                   46.13%                  14.73%
+Porch                            0.00%               36.80%   inverted                   44.82%                  13.87%
+Sign                            20.68%               50.19% mixed (2/3)                   49.45%                   5.98%
+Table                            0.70%               66.68%   inverted                   56.64%                  11.91%
+TiledRoof                       24.25%               57.66% mixed (2/3)                   56.20%                  10.14%
+TiledRoofTop                    23.70%               49.97% mixed (2/3)                   54.47%                  12.00%
+VendingMachine                  10.78%               35.64% mixed (2/3)                   39.17%                  11.87%
+WallSign                         0.00%               33.75%   inverted                   42.07%                  12.56%
+Statue                          19.24%               25.92% mixed (1/3)                   28.72%                  11.34%
+Chimney                         23.47%               47.45% mixed (2/3)                   49.35%                   9.03%
+Pipe                             5.32%               49.24%   inverted                   52.49%                   9.00%
+Machine                         29.12%               34.89% mixed (1/3)                   23.26%                   8.84%
+Truck                           31.49%               47.68% mixed (1/3)                   50.06%                   3.72%
+Car                             15.71%               42.57%   inverted                   41.47%                   4.92%
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lccccc}
+\hline
+\textbf{Concept (alpha0.5)} & \textbf{Designated (\%)} & \textbf{Best-polarity (\%)} & \textbf{Polarity} & \textbf{Random mean (best pol.) (\%)} & \textbf{Random std (best pol.) (\%)} \\
+\hline
+Door & 64.22 & 67.34 & mixed (1/3) & 72.89 & 6.97 \\
+Window & 54.77 & 62.90 & mixed (2/3) & 73.41 & 7.17 \\
+Awning & 11.61 & 60.92 & inverted & 62.31 & 2.72 \\
+Billboard & 25.99 & 49.20 & mixed (2/3) & 46.13 & 14.73 \\
+Porch & 0.00 & 36.80 & inverted & 44.82 & 13.87 \\
+Sign & 20.68 & 50.19 & mixed (2/3) & 49.45 & 5.98 \\
+Table & 0.70 & 66.68 & inverted & 56.64 & 11.91 \\
+TiledRoof & 24.25 & 57.66 & mixed (2/3) & 56.20 & 10.14 \\
+TiledRoofTop & 23.70 & 49.97 & mixed (2/3) & 54.47 & 12.00 \\
+VendingMachine & 10.78 & 35.64 & mixed (2/3) & 39.17 & 11.87 \\
+WallSign & 0.00 & 33.75 & inverted & 42.07 & 12.56 \\
+Statue & 19.24 & 25.92 & mixed (1/3) & 28.72 & 11.34 \\
+Chimney & 23.47 & 47.45 & mixed (2/3) & 49.35 & 9.03 \\
+Pipe & 5.32 & 49.24 & inverted & 52.49 & 9.00 \\
+Machine & 29.12 & 34.89 & mixed (1/3) & 23.26 & 8.84 \\
+Truck & 31.49 & 47.68 & mixed (1/3) & 50.06 & 3.72 \\
+Car & 15.71 & 42.57 & inverted & 41.47 & 4.92 \\
+\hline
+\end{tabular}
+\caption{REPLACE ME}
+\label{tab:REPLACE_ME_concept_alpha0.5}
+\end{table}
