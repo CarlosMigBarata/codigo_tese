@@ -1,0 +1,111 @@
+
+
+========= ACTIVE RULES =========
+
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+
+
+========= CONISTENCY PER RULE =========
+
+countryhouse | consistency=0.9982 | rule_holds=553 | rule_vac_holds=3446 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+suburban | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+miscresidential | consistency=1.0000 | rule_holds=1107 | rule_vac_holds=2893 | violations=0 | total=4000
+
+hotel | consistency=0.0000 | rule_holds=0 | rule_vac_holds=3998 | violations=2 | total=4000
+    - left_holds_right_fails: 2
+
+store | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+restaurant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+cafe | consistency=0.0000 | rule_holds=0 | rule_vac_holds=3997 | violations=3 | total=4000
+    - left_holds_right_fails: 3
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+constructionsite | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+misccommercial | consistency=0.0000 | rule_holds=0 | rule_vac_holds=3999 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+watertreatment | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+countryhouse        : 0.999
+miscresidential     : 0.998
+constructionsite    : 0.890
+restaurant          : 0.873
+watertreatment      : 0.867
+miscindustrial      : 0.859
+powerplant          : 0.853
+misccommercial      : 0.841
+hotel               : 0.838
+store               : 0.835
+suburban            : 0.826
+cafe                : 0.823
+
+Axiom satisfaction: validation 
+
+countryhouse        : 0.999
+miscresidential     : 0.996
+constructionsite    : 0.893
+watertreatment      : 0.873
+restaurant          : 0.873
+miscindustrial      : 0.860
+powerplant          : 0.859
+misccommercial      : 0.837
+store               : 0.832
+hotel               : 0.829
+suburban            : 0.828
+cafe                : 0.821
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+countryhouse        : {'agree': 3999, 'disagree': 1, 'missing': 0}
+miscresidential     : {'agree': 4000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 4000, 'disagree': 0, 'missing': 0}
+watertreatment      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+restaurant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+misccommercial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+cafe                : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- countryhouse (1 disagreements) ---
+  s_18275_jpg
+    ltn=1 clingo=0 body=0.5320
+    CountryHouse    = 0.5786  (|d-0.5|=0.0786)
+    TiledRoof       = 1.0000  (|d-0.5|=0.5000)
+    Car             = 0.3506  (|d-0.5|=0.1494)
