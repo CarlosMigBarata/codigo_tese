@@ -1,0 +1,940 @@
+
+
+========= ACTIVE RULES =========
+
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+
+
+========= CONISTENCY PER RULE =========
+
+cafe | consistency=0.9785 | rule_holds=863 | rule_vac_holds=3118 | violations=19 | total=4000
+    - left_holds_right_fails: 16
+    - left_fails_right_holds: 3
+
+constructionsite | consistency=1.0000 | rule_holds=379 | rule_vac_holds=3621 | violations=0 | total=4000
+
+watertreatment | consistency=0.9917 | rule_holds=716 | rule_vac_holds=3278 | violations=6 | total=4000
+    - left_holds_right_fails: 6
+
+powerplant | consistency=0.9910 | rule_holds=662 | rule_vac_holds=3332 | violations=6 | total=4000
+    - left_fails_right_holds: 4
+    - left_holds_right_fails: 2
+
+miscresidential | consistency=0.9991 | rule_holds=1107 | rule_vac_holds=2892 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+countryhouse | consistency=0.9982 | rule_holds=553 | rule_vac_holds=3446 | violations=1 | total=4000
+    - left_fails_right_holds: 1
+
+hotel | consistency=0.9883 | rule_holds=759 | rule_vac_holds=3232 | violations=9 | total=4000
+    - left_fails_right_holds: 5
+    - left_holds_right_fails: 4
+
+suburban | consistency=1.0000 | rule_holds=903 | rule_vac_holds=3097 | violations=0 | total=4000
+
+store | consistency=0.9952 | rule_holds=835 | rule_vac_holds=3161 | violations=4 | total=4000
+    - left_fails_right_holds: 4
+
+misccommercial | consistency=0.9885 | rule_holds=777 | rule_vac_holds=3214 | violations=9 | total=4000
+    - left_fails_right_holds: 5
+    - left_holds_right_fails: 4
+
+restaurant | consistency=0.9136 | rule_holds=497 | rule_vac_holds=3456 | violations=47 | total=4000
+    - left_fails_right_holds: 47
+
+miscindustrial | consistency=0.8896 | rule_holds=596 | rule_vac_holds=3330 | violations=74 | total=4000
+    - left_fails_right_holds: 74
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+countryhouse        : 0.998
+miscresidential     : 0.998
+suburban            : 0.998
+constructionsite    : 0.997
+store               : 0.996
+misccommercial      : 0.972
+powerplant          : 0.969
+hotel               : 0.966
+cafe                : 0.960
+miscindustrial      : 0.947
+restaurant          : 0.946
+watertreatment      : 0.901
+
+Axiom satisfaction: validation 
+
+suburban            : 1.000
+countryhouse        : 0.998
+constructionsite    : 0.998
+miscresidential     : 0.997
+store               : 0.994
+powerplant          : 0.967
+hotel               : 0.957
+misccommercial      : 0.955
+restaurant          : 0.949
+cafe                : 0.949
+miscindustrial      : 0.947
+watertreatment      : 0.916
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 4000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscresidential     : {'agree': 4000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 3999, 'disagree': 1, 'missing': 0}
+powerplant          : {'agree': 3997, 'disagree': 3, 'missing': 0}
+hotel               : {'agree': 3996, 'disagree': 4, 'missing': 0}
+misccommercial      : {'agree': 3994, 'disagree': 6, 'missing': 0}
+restaurant          : {'agree': 3953, 'disagree': 47, 'missing': 0}
+cafe                : {'agree': 3991, 'disagree': 9, 'missing': 0}
+miscindustrial      : {'agree': 3932, 'disagree': 68, 'missing': 0}
+watertreatment      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- restaurant (47 disagreements) ---
+  s_16018_jpg
+    ltn=1 clingo=0 body=0.7350  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5171  (|d-0.5|=0.0171)
+    Truck           = 0.5121  (|d-0.5|=0.0121)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16195_jpg
+    ltn=1 clingo=0 body=0.6127  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5139  (|d-0.5|=0.0139)
+    Truck           = 0.7536  (|d-0.5|=0.2536)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16501_jpg
+    ltn=1 clingo=0 body=0.6126  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5383  (|d-0.5|=0.0383)
+    Truck           = 0.7195  (|d-0.5|=0.2195)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16540_jpg
+    ltn=1 clingo=0 body=0.6195  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5062  (|d-0.5|=0.0062)
+    Truck           = 0.7517  (|d-0.5|=0.2517)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16612_jpg
+    ltn=1 clingo=0 body=0.6568  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5119  (|d-0.5|=0.0119)
+    Truck           = 0.6701  (|d-0.5|=0.1701)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16684_jpg
+    ltn=1 clingo=0 body=0.5824
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5963  (|d-0.5|=0.0963)
+    Truck           = 0.7003  (|d-0.5|=0.2003)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16780_jpg
+    ltn=1 clingo=0 body=0.6761  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5000  (|d-0.5|=0.0000)
+    Truck           = 0.6476  (|d-0.5|=0.1476)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16876_jpg
+    ltn=1 clingo=0 body=0.6547  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5283  (|d-0.5|=0.0283)
+    Truck           = 0.6535  (|d-0.5|=0.1535)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16879_jpg
+    ltn=1 clingo=0 body=0.5730
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5374  (|d-0.5|=0.0374)
+    Truck           = 0.7944  (|d-0.5|=0.2944)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16897_jpg
+    ltn=1 clingo=0 body=0.6090  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5023  (|d-0.5|=0.0023)
+    Truck           = 0.7784  (|d-0.5|=0.2784)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16942_jpg
+    ltn=1 clingo=0 body=0.7107  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5358  (|d-0.5|=0.0358)
+    Truck           = 0.5398  (|d-0.5|=0.0398)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16959_jpg
+    ltn=1 clingo=0 body=0.6250  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5562  (|d-0.5|=0.0562)
+    Truck           = 0.6741  (|d-0.5|=0.1741)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_16969_jpg
+    ltn=1 clingo=0 body=0.5905
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5987  (|d-0.5|=0.0987)
+    Truck           = 0.6839  (|d-0.5|=0.1839)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17092_jpg
+    ltn=1 clingo=0 body=0.5853
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5224  (|d-0.5|=0.0224)
+    Truck           = 0.7938  (|d-0.5|=0.2938)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17488_jpg
+    ltn=1 clingo=0 body=0.6555  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5037  (|d-0.5|=0.0037)
+    Truck           = 0.6837  (|d-0.5|=0.1837)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17578_jpg
+    ltn=1 clingo=0 body=0.6158  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5519  (|d-0.5|=0.0519)
+    Truck           = 0.6961  (|d-0.5|=0.1961)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17647_jpg
+    ltn=1 clingo=0 body=0.5730
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5163  (|d-0.5|=0.0163)
+    Truck           = 0.8270  (|d-0.5|=0.3270)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17809_jpg
+    ltn=1 clingo=0 body=0.5756
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5061  (|d-0.5|=0.0061)
+    Truck           = 0.8384  (|d-0.5|=0.3384)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17836_jpg
+    ltn=1 clingo=0 body=0.6019  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5595  (|d-0.5|=0.0595)
+    Truck           = 0.7113  (|d-0.5|=0.2113)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17875_jpg
+    ltn=1 clingo=0 body=0.5773
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5172  (|d-0.5|=0.0172)
+    Truck           = 0.8172  (|d-0.5|=0.3172)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17914_jpg
+    ltn=1 clingo=0 body=0.6419  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5356  (|d-0.5|=0.0356)
+    Truck           = 0.6685  (|d-0.5|=0.1685)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_17923_jpg
+    ltn=1 clingo=0 body=0.6253  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5341  (|d-0.5|=0.0341)
+    Truck           = 0.7014  (|d-0.5|=0.2014)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18166_jpg
+    ltn=1 clingo=0 body=0.7194  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5211  (|d-0.5|=0.0211)
+    Truck           = 0.5383  (|d-0.5|=0.0383)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18424_jpg
+    ltn=1 clingo=0 body=0.6592  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5028  (|d-0.5|=0.0028)
+    Truck           = 0.6777  (|d-0.5|=0.1777)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18442_jpg
+    ltn=1 clingo=0 body=0.6060  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5028  (|d-0.5|=0.0028)
+    Truck           = 0.7833  (|d-0.5|=0.2833)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18451_jpg
+    ltn=1 clingo=0 body=0.6049  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5392  (|d-0.5|=0.0392)
+    Truck           = 0.7326  (|d-0.5|=0.2326)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18505_jpg
+    ltn=1 clingo=0 body=0.6508  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5061  (|d-0.5|=0.0061)
+    Truck           = 0.6899  (|d-0.5|=0.1899)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18520_jpg
+    ltn=1 clingo=0 body=0.6317  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5473  (|d-0.5|=0.0473)
+    Truck           = 0.6728  (|d-0.5|=0.1728)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18676_jpg
+    ltn=1 clingo=0 body=0.7147  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5285  (|d-0.5|=0.0285)
+    Truck           = 0.5396  (|d-0.5|=0.0396)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18820_jpg
+    ltn=1 clingo=0 body=0.6218  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5787  (|d-0.5|=0.0787)
+    Truck           = 0.6534  (|d-0.5|=0.1534)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18889_jpg
+    ltn=1 clingo=0 body=0.5949
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5175  (|d-0.5|=0.0175)
+    Truck           = 0.7826  (|d-0.5|=0.2826)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18963_jpg
+    ltn=1 clingo=0 body=0.5388
+    Restaurant      = 0.1786  (|d-0.5|=0.3214)
+    Sign            = 0.9898  (|d-0.5|=0.4898)
+    Truck           = 0.5017  (|d-0.5|=0.0017)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_18991_jpg
+    ltn=1 clingo=0 body=0.6216  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5178  (|d-0.5|=0.0178)
+    Truck           = 0.7307  (|d-0.5|=0.2307)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19078_jpg
+    ltn=1 clingo=0 body=0.6335  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5202  (|d-0.5|=0.0202)
+    Truck           = 0.7044  (|d-0.5|=0.2044)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19081_jpg
+    ltn=1 clingo=0 body=0.6140  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5231  (|d-0.5|=0.0231)
+    Truck           = 0.7376  (|d-0.5|=0.2376)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19252_jpg
+    ltn=1 clingo=0 body=0.6297  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5049  (|d-0.5|=0.0049)
+    Truck           = 0.7334  (|d-0.5|=0.2334)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19309_jpg
+    ltn=1 clingo=0 body=0.6194  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5194  (|d-0.5|=0.0194)
+    Truck           = 0.7326  (|d-0.5|=0.2326)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19360_jpg
+    ltn=1 clingo=0 body=0.7438  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5090  (|d-0.5|=0.0090)
+    Truck           = 0.5030  (|d-0.5|=0.0030)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19366_jpg
+    ltn=1 clingo=0 body=0.6880  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5069  (|d-0.5|=0.0069)
+    Truck           = 0.6153  (|d-0.5|=0.1153)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19477_jpg
+    ltn=1 clingo=0 body=0.6326  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5242  (|d-0.5|=0.0242)
+    Truck           = 0.7009  (|d-0.5|=0.2009)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19606_jpg
+    ltn=1 clingo=0 body=0.6197  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5382  (|d-0.5|=0.0382)
+    Truck           = 0.7065  (|d-0.5|=0.2065)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19636_jpg
+    ltn=1 clingo=0 body=0.5902
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5688  (|d-0.5|=0.0688)
+    Truck           = 0.7204  (|d-0.5|=0.2204)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19675_jpg
+    ltn=1 clingo=0 body=0.6503  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5126  (|d-0.5|=0.0126)
+    Truck           = 0.6821  (|d-0.5|=0.1821)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19726_jpg
+    ltn=1 clingo=0 body=0.6326  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5140  (|d-0.5|=0.0140)
+    Truck           = 0.7148  (|d-0.5|=0.2148)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19735_jpg
+    ltn=1 clingo=0 body=0.6330  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5115  (|d-0.5|=0.0115)
+    Truck           = 0.7174  (|d-0.5|=0.2174)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19858_jpg
+    ltn=1 clingo=0 body=0.6407  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5180  (|d-0.5|=0.0180)
+    Truck           = 0.6935  (|d-0.5|=0.1935)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+  s_19876_jpg
+    ltn=1 clingo=0 body=0.6253  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.5190  (|d-0.5|=0.0190)
+    Truck           = 0.7218  (|d-0.5|=0.2218)
+    Car             = 0.0000  (|d-0.5|=0.5000)
+
+
+
+--- misccommercial (6 disagreements) ---
+  s_16056_jpg
+    ltn=1 clingo=0 body=0.5314
+    MiscCommercial  = 0.6984  (|d-0.5|=0.1984)
+    Awning          = 0.4478  (|d-0.5|=0.0522)
+    Table           = 1.0000  (|d-0.5|=0.5000)
+  s_16167_jpg
+    ltn=1 clingo=0 body=0.5296
+    MiscCommercial  = 0.1728  (|d-0.5|=0.3272)
+    Awning          = 0.5092  (|d-0.5|=0.0092)
+    Table           = 1.0000  (|d-0.5|=0.5000)
+  s_16578_jpg
+    ltn=1 clingo=0 body=0.5560
+    MiscCommercial  = 0.4826  (|d-0.5|=0.0174)
+    Awning          = 0.6052  (|d-0.5|=0.1052)
+    Table           = 1.0000  (|d-0.5|=0.5000)
+  s_16716_jpg
+    ltn=1 clingo=0 body=0.5395
+    MiscCommercial  = 0.3997  (|d-0.5|=0.1003)
+    Awning          = 0.5917  (|d-0.5|=0.0917)
+    Table           = 1.0000  (|d-0.5|=0.5000)
+  s_17898_jpg
+    ltn=1 clingo=0 body=0.5616
+    MiscCommercial  = 0.4813  (|d-0.5|=0.0187)
+    Awning          = 0.5188  (|d-0.5|=0.0188)
+    Table           = 1.0000  (|d-0.5|=0.5000)
+  s_18171_jpg
+    ltn=1 clingo=0 body=0.5398
+    MiscCommercial  = 0.7512  (|d-0.5|=0.2512)
+    Awning          = 0.4863  (|d-0.5|=0.0137)
+    Table           = 1.0000  (|d-0.5|=0.5000)
+
+
+
+--- miscindustrial (68 disagreements) ---
+  s_16075_jpg
+    ltn=1 clingo=0 body=0.6646  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0003  (|d-0.5|=0.4997)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4657  (|d-0.5|=0.0343)
+    Truck           = 0.6274  (|d-0.5|=0.1274)
+  s_16186_jpg
+    ltn=1 clingo=0 body=0.6606  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0041  (|d-0.5|=0.4959)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4800  (|d-0.5|=0.0200)
+    Truck           = 0.6517  (|d-0.5|=0.1517)
+  s_16207_jpg
+    ltn=1 clingo=0 body=0.5343
+    MiscIndustrial  = 0.0243  (|d-0.5|=0.4757)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4131  (|d-0.5|=0.0869)
+    Truck           = 0.8010  (|d-0.5|=0.3010)
+  s_16234_jpg
+    ltn=1 clingo=0 body=0.6332  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0037  (|d-0.5|=0.4963)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4707  (|d-0.5|=0.0293)
+    Truck           = 0.6925  (|d-0.5|=0.1925)
+  s_16369_jpg
+    ltn=1 clingo=0 body=0.6716  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4854  (|d-0.5|=0.0146)
+    Truck           = 0.6379  (|d-0.5|=0.1379)
+  s_16567_jpg
+    ltn=1 clingo=0 body=0.6449  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4279  (|d-0.5|=0.0721)
+    Truck           = 0.6204  (|d-0.5|=0.1204)
+  s_16609_jpg
+    ltn=1 clingo=0 body=0.6284  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0031  (|d-0.5|=0.4969)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4939  (|d-0.5|=0.0061)
+    Truck           = 0.7338  (|d-0.5|=0.2338)
+  s_16762_jpg
+    ltn=1 clingo=0 body=0.6395  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0002  (|d-0.5|=0.4998)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4822  (|d-0.5|=0.0178)
+    Truck           = 0.6960  (|d-0.5|=0.1960)
+  s_16792_jpg
+    ltn=1 clingo=0 body=0.5802
+    MiscIndustrial  = 0.0010  (|d-0.5|=0.4990)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4368  (|d-0.5|=0.0632)
+    Truck           = 0.7453  (|d-0.5|=0.2453)
+  s_16810_jpg
+    ltn=1 clingo=0 body=0.5989
+    MiscIndustrial  = 0.0208  (|d-0.5|=0.4792)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4496  (|d-0.5|=0.0504)
+    Truck           = 0.7300  (|d-0.5|=0.2300)
+  s_16840_jpg
+    ltn=1 clingo=0 body=0.5892
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4943  (|d-0.5|=0.0057)
+    Truck           = 0.8121  (|d-0.5|=0.3121)
+  s_16867_jpg
+    ltn=1 clingo=0 body=0.6044  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4772  (|d-0.5|=0.0228)
+    Truck           = 0.7565  (|d-0.5|=0.2565)
+  s_16951_jpg
+    ltn=1 clingo=0 body=0.7159  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0003  (|d-0.5|=0.4997)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4967  (|d-0.5|=0.0033)
+    Truck           = 0.5640  (|d-0.5|=0.0640)
+  s_16960_jpg
+    ltn=1 clingo=0 body=0.6123  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4594  (|d-0.5|=0.0406)
+    Truck           = 0.7169  (|d-0.5|=0.2169)
+  s_16990_jpg
+    ltn=1 clingo=0 body=0.5624
+    MiscIndustrial  = 0.0086  (|d-0.5|=0.4914)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.3863  (|d-0.5|=0.1137)
+    Truck           = 0.7145  (|d-0.5|=0.2145)
+  s_17023_jpg
+    ltn=1 clingo=0 body=0.6021  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0068  (|d-0.5|=0.4932)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4950  (|d-0.5|=0.0050)
+    Truck           = 0.7881  (|d-0.5|=0.2881)
+  s_17047_jpg
+    ltn=1 clingo=0 body=0.7148  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4511  (|d-0.5|=0.0489)
+    Truck           = 0.5192  (|d-0.5|=0.0192)
+  s_17194_jpg
+    ltn=1 clingo=0 body=0.6610  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4441  (|d-0.5|=0.0559)
+    Truck           = 0.6096  (|d-0.5|=0.1096)
+  s_17200_jpg
+    ltn=1 clingo=0 body=0.5949
+    MiscIndustrial  = 0.0002  (|d-0.5|=0.4998)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4506  (|d-0.5|=0.0494)
+    Truck           = 0.7372  (|d-0.5|=0.2372)
+  s_17401_jpg
+    ltn=1 clingo=0 body=0.6036  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0028  (|d-0.5|=0.4972)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4571  (|d-0.5|=0.0429)
+    Truck           = 0.7301  (|d-0.5|=0.2301)
+  s_17404_jpg
+    ltn=1 clingo=0 body=0.5588
+    MiscIndustrial  = 0.0003  (|d-0.5|=0.4997)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4599  (|d-0.5|=0.0401)
+    Truck           = 0.8169  (|d-0.5|=0.3169)
+  s_17407_jpg
+    ltn=1 clingo=0 body=0.6547  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0005  (|d-0.5|=0.4995)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4699  (|d-0.5|=0.0301)
+    Truck           = 0.6511  (|d-0.5|=0.1511)
+  s_17449_jpg
+    ltn=1 clingo=0 body=0.6602  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0172  (|d-0.5|=0.4828)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4937  (|d-0.5|=0.0063)
+    Truck           = 0.6672  (|d-0.5|=0.1672)
+  s_17485_jpg
+    ltn=1 clingo=0 body=0.6164  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4554  (|d-0.5|=0.0446)
+    Truck           = 0.7040  (|d-0.5|=0.2040)
+  s_17515_jpg
+    ltn=1 clingo=0 body=0.5417
+    MiscIndustrial  = 0.1236  (|d-0.5|=0.3764)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.2722  (|d-0.5|=0.2278)
+    Truck           = 0.6600  (|d-0.5|=0.1600)
+  s_17617_jpg
+    ltn=1 clingo=0 body=0.6197  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0030  (|d-0.5|=0.4970)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4183  (|d-0.5|=0.0817)
+    Truck           = 0.6536  (|d-0.5|=0.1536)
+  s_17707_jpg
+    ltn=1 clingo=0 body=0.6114  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4206  (|d-0.5|=0.0794)
+    Truck           = 0.6705  (|d-0.5|=0.1705)
+  s_17752_jpg
+    ltn=1 clingo=0 body=0.5964
+    MiscIndustrial  = 0.0004  (|d-0.5|=0.4996)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4809  (|d-0.5|=0.0191)
+    Truck           = 0.7774  (|d-0.5|=0.2774)
+  s_17779_jpg
+    ltn=1 clingo=0 body=0.7154  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4945  (|d-0.5|=0.0055)
+    Truck           = 0.5626  (|d-0.5|=0.0626)
+  s_17827_jpg
+    ltn=1 clingo=0 body=0.5719
+    MiscIndustrial  = 0.0002  (|d-0.5|=0.4998)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4617  (|d-0.5|=0.0383)
+    Truck           = 0.7950  (|d-0.5|=0.2950)
+  s_17845_jpg
+    ltn=1 clingo=0 body=0.6187  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4815  (|d-0.5|=0.0185)
+    Truck           = 0.7351  (|d-0.5|=0.2351)
+  s_17926_jpg
+    ltn=1 clingo=0 body=0.6122  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4464  (|d-0.5|=0.0536)
+    Truck           = 0.7002  (|d-0.5|=0.2002)
+  s_17974_jpg
+    ltn=1 clingo=0 body=0.5699
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4757  (|d-0.5|=0.0243)
+    Truck           = 0.8202  (|d-0.5|=0.3202)
+  s_18031_jpg
+    ltn=1 clingo=0 body=0.6029  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0002  (|d-0.5|=0.4998)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4690  (|d-0.5|=0.0310)
+    Truck           = 0.7476  (|d-0.5|=0.2476)
+  s_18067_jpg
+    ltn=1 clingo=0 body=0.5850
+    MiscIndustrial  = 0.0012  (|d-0.5|=0.4988)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4580  (|d-0.5|=0.0420)
+    Truck           = 0.7655  (|d-0.5|=0.2655)
+  s_18076_jpg
+    ltn=1 clingo=0 body=0.6443  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0015  (|d-0.5|=0.4985)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4696  (|d-0.5|=0.0304)
+    Truck           = 0.6703  (|d-0.5|=0.1703)
+  s_18085_jpg
+    ltn=1 clingo=0 body=0.6104  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0131  (|d-0.5|=0.4869)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4158  (|d-0.5|=0.0842)
+    Truck           = 0.6671  (|d-0.5|=0.1671)
+  s_18151_jpg
+    ltn=1 clingo=0 body=0.6568  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0007  (|d-0.5|=0.4993)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4996  (|d-0.5|=0.0004)
+    Truck           = 0.6854  (|d-0.5|=0.1854)
+  s_18193_jpg
+    ltn=1 clingo=0 body=0.5827
+    MiscIndustrial  = 0.0018  (|d-0.5|=0.4982)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4454  (|d-0.5|=0.0546)
+    Truck           = 0.7524  (|d-0.5|=0.2524)
+  s_18223_jpg
+    ltn=1 clingo=0 body=0.6356  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4392  (|d-0.5|=0.0608)
+    Truck           = 0.6495  (|d-0.5|=0.1495)
+  s_18265_jpg
+    ltn=1 clingo=0 body=0.5631
+    MiscIndustrial  = 0.0017  (|d-0.5|=0.4983)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4388  (|d-0.5|=0.0612)
+    Truck           = 0.7786  (|d-0.5|=0.2786)
+  s_18283_jpg
+    ltn=1 clingo=0 body=0.5902
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4785  (|d-0.5|=0.0215)
+    Truck           = 0.7855  (|d-0.5|=0.2855)
+  s_18292_jpg
+    ltn=1 clingo=0 body=0.6684  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4816  (|d-0.5|=0.0184)
+    Truck           = 0.6393  (|d-0.5|=0.1393)
+  s_18382_jpg
+    ltn=1 clingo=0 body=0.5809
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4784  (|d-0.5|=0.0216)
+    Truck           = 0.8033  (|d-0.5|=0.3033)
+  s_18430_jpg
+    ltn=1 clingo=0 body=0.5691
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4703  (|d-0.5|=0.0297)
+    Truck           = 0.8133  (|d-0.5|=0.3133)
+  s_18517_jpg
+    ltn=1 clingo=0 body=0.5583
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4526  (|d-0.5|=0.0474)
+    Truck           = 0.8069  (|d-0.5|=0.3069)
+  s_18697_jpg
+    ltn=1 clingo=0 body=0.6377  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0022  (|d-0.5|=0.4978)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4569  (|d-0.5|=0.0431)
+    Truck           = 0.6667  (|d-0.5|=0.1667)
+  s_18700_jpg
+    ltn=1 clingo=0 body=0.6389  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0027  (|d-0.5|=0.4973)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4771  (|d-0.5|=0.0229)
+    Truck           = 0.6901  (|d-0.5|=0.1901)
+  s_18847_jpg
+    ltn=1 clingo=0 body=0.6498  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0086  (|d-0.5|=0.4914)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4685  (|d-0.5|=0.0315)
+    Truck           = 0.6575  (|d-0.5|=0.1575)
+  s_18892_jpg
+    ltn=1 clingo=0 body=0.5636
+    MiscIndustrial  = 0.0025  (|d-0.5|=0.4975)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4550  (|d-0.5|=0.0450)
+    Truck           = 0.8011  (|d-0.5|=0.3011)
+  s_19075_jpg
+    ltn=1 clingo=0 body=0.6352  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0002  (|d-0.5|=0.4998)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4534  (|d-0.5|=0.0466)
+    Truck           = 0.6672  (|d-0.5|=0.1672)
+  s_19150_jpg
+    ltn=1 clingo=0 body=0.6109  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0004  (|d-0.5|=0.4996)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4548  (|d-0.5|=0.0452)
+    Truck           = 0.7135  (|d-0.5|=0.2135)
+  s_19162_jpg
+    ltn=1 clingo=0 body=0.5978
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4740  (|d-0.5|=0.0260)
+    Truck           = 0.7644  (|d-0.5|=0.2644)
+  s_19189_jpg
+    ltn=1 clingo=0 body=0.6332  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0005  (|d-0.5|=0.4995)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4940  (|d-0.5|=0.0060)
+    Truck           = 0.7246  (|d-0.5|=0.2246)
+  s_19234_jpg
+    ltn=1 clingo=0 body=0.6353  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0022  (|d-0.5|=0.4978)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4055  (|d-0.5|=0.0945)
+    Truck           = 0.6131  (|d-0.5|=0.1131)
+  s_19243_jpg
+    ltn=1 clingo=0 body=0.6232  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4494  (|d-0.5|=0.0506)
+    Truck           = 0.6842  (|d-0.5|=0.1842)
+  s_19267_jpg
+    ltn=1 clingo=0 body=0.6260  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4144  (|d-0.5|=0.0856)
+    Truck           = 0.6384  (|d-0.5|=0.1384)
+  s_19387_jpg
+    ltn=1 clingo=0 body=0.6733  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0032  (|d-0.5|=0.4968)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4836  (|d-0.5|=0.0164)
+    Truck           = 0.6316  (|d-0.5|=0.1316)
+  s_19471_jpg
+    ltn=1 clingo=0 body=0.6242  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0194  (|d-0.5|=0.4806)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4782  (|d-0.5|=0.0218)
+    Truck           = 0.7194  (|d-0.5|=0.2194)
+  s_19498_jpg
+    ltn=1 clingo=0 body=0.6751  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4378  (|d-0.5|=0.0622)
+    Truck           = 0.5777  (|d-0.5|=0.0777)
+  s_19519_jpg
+    ltn=1 clingo=0 body=0.5852
+    MiscIndustrial  = 0.0014  (|d-0.5|=0.4986)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4325  (|d-0.5|=0.0675)
+    Truck           = 0.7310  (|d-0.5|=0.2310)
+  s_19567_jpg
+    ltn=1 clingo=0 body=0.6329  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0038  (|d-0.5|=0.4962)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4648  (|d-0.5|=0.0352)
+    Truck           = 0.6855  (|d-0.5|=0.1855)
+  s_19576_jpg
+    ltn=1 clingo=0 body=0.6807  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4960  (|d-0.5|=0.0040)
+    Truck           = 0.6332  (|d-0.5|=0.1332)
+  s_19684_jpg
+    ltn=1 clingo=0 body=0.6955  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0001  (|d-0.5|=0.4999)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4413  (|d-0.5|=0.0587)
+    Truck           = 0.5448  (|d-0.5|=0.0448)
+  s_19774_jpg
+    ltn=1 clingo=0 body=0.6391  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4807  (|d-0.5|=0.0193)
+    Truck           = 0.6947  (|d-0.5|=0.1947)
+  s_19900_jpg
+    ltn=1 clingo=0 body=0.6669  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0000  (|d-0.5|=0.5000)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4926  (|d-0.5|=0.0074)
+    Truck           = 0.6562  (|d-0.5|=0.1562)
+  s_19984_jpg
+    ltn=1 clingo=0 body=0.6144  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0004  (|d-0.5|=0.4996)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4865  (|d-0.5|=0.0135)
+    Truck           = 0.7507  (|d-0.5|=0.2507)
+  s_19996_jpg
+    ltn=1 clingo=0 body=0.6111  PROBLEMATIC RESULT, check for weak antecedent pattern Reisenbarch
+    MiscIndustrial  = 0.0018  (|d-0.5|=0.4982)
+    Awning          = 0.0000  (|d-0.5|=0.5000)
+    Sign            = 0.4752  (|d-0.5|=0.0248)
+    Truck           = 0.7409  (|d-0.5|=0.2409)
+
+
+
+--- cafe (9 disagreements) ---
+  s_16524_jpg
+    ltn=1 clingo=0 body=0.5502
+    Cafe            = 0.3263  (|d-0.5|=0.1737)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.5136  (|d-0.5|=0.0136)
+  s_16725_jpg
+    ltn=1 clingo=0 body=0.5235
+    Cafe            = 0.5373  (|d-0.5|=0.0373)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.2283  (|d-0.5|=0.2717)
+  s_16944_jpg
+    ltn=1 clingo=0 body=0.5027
+    Cafe            = 0.6801  (|d-0.5|=0.1801)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.3673  (|d-0.5|=0.1327)
+  s_17439_jpg
+    ltn=1 clingo=0 body=0.5300
+    Cafe            = 0.5097  (|d-0.5|=0.0097)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.1765  (|d-0.5|=0.3235)
+  s_17697_jpg
+    ltn=1 clingo=0 body=0.5319
+    Cafe            = 0.5550  (|d-0.5|=0.0550)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.3103  (|d-0.5|=0.1897)
+  s_18852_jpg
+    ltn=1 clingo=0 body=0.5591
+    Cafe            = 0.4667  (|d-0.5|=0.0333)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.5401  (|d-0.5|=0.0401)
+  s_19107_jpg
+    ltn=1 clingo=0 body=0.5026
+    Cafe            = 0.5448  (|d-0.5|=0.0448)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.1590  (|d-0.5|=0.3410)
+  s_19560_jpg
+    ltn=1 clingo=0 body=0.5295
+    Cafe            = 0.5221  (|d-0.5|=0.0221)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.2152  (|d-0.5|=0.2848)
+  s_19617_jpg
+    ltn=1 clingo=0 body=0.5419
+    Cafe            = 0.5996  (|d-0.5|=0.0996)
+    VendingMachine  = 0.0000  (|d-0.5|=0.5000)
+    Statue          = 0.4174  (|d-0.5|=0.0826)
+
+
+
+--- powerplant (3 disagreements) ---
+  s_16681_jpg
+    ltn=1 clingo=0 body=0.5441
+    PowerPlant      = 0.4499  (|d-0.5|=0.0501)
+    Chimney         = 0.6333  (|d-0.5|=0.1333)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_18553_jpg
+    ltn=1 clingo=0 body=0.5254
+    PowerPlant      = 0.3680  (|d-0.5|=0.1320)
+    Chimney         = 0.6127  (|d-0.5|=0.1127)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+  s_18730_jpg
+    ltn=1 clingo=0 body=0.5374
+    PowerPlant      = 0.4290  (|d-0.5|=0.0710)
+    Chimney         = 0.6359  (|d-0.5|=0.1359)
+    Pipe            = 1.0000  (|d-0.5|=0.5000)
+
+
+
+--- hotel (4 disagreements) ---
+  s_16737_jpg
+    ltn=1 clingo=0 body=0.5039
+    Hotel           = 0.5343  (|d-0.5|=0.0343)
+    WallSign        = 0.1347  (|d-0.5|=0.3653)
+  s_16938_jpg
+    ltn=1 clingo=0 body=0.5398
+    Hotel           = 0.5423  (|d-0.5|=0.0423)
+    WallSign        = 0.3257  (|d-0.5|=0.1743)
+  s_17004_jpg
+    ltn=1 clingo=0 body=0.5314
+    Hotel           = 0.2315  (|d-0.5|=0.2685)
+    WallSign        = 0.5242  (|d-0.5|=0.0242)
+  s_19701_jpg
+    ltn=1 clingo=0 body=0.5357
+    Hotel           = 0.3922  (|d-0.5|=0.1078)
+    WallSign        = 0.5999  (|d-0.5|=0.0999)
+
+
+
+--- store (1 disagreements) ---
+  s_19827_jpg
+    ltn=1 clingo=0 body=0.5285
+    Store           = 0.2726  (|d-0.5|=0.2274)
+    Billboard       = 0.5455  (|d-0.5|=0.0455)

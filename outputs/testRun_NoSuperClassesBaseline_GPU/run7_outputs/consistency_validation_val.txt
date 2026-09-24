@@ -1,0 +1,99 @@
+
+
+========= ACTIVE RULES =========
+
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+
+
+========= CONISTENCY PER RULE =========
+
+countryhouse | consistency=1.0000 | rule_holds=553 | rule_vac_holds=3447 | violations=0 | total=4000
+
+suburban | consistency=1.0000 | rule_holds=902 | rule_vac_holds=3098 | violations=0 | total=4000
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+miscresidential | consistency=1.0000 | rule_holds=1114 | rule_vac_holds=2886 | violations=0 | total=4000
+
+hotel | consistency=0.9987 | rule_holds=750 | rule_vac_holds=3249 | violations=1 | total=4000
+    - left_holds_right_fails: 1
+
+store | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+restaurant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+cafe | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+powerplant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+constructionsite | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+watertreatment | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=4000 | violations=0 | total=4000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+countryhouse        : 0.999
+suburban            : 0.999
+miscresidential     : 0.997
+hotel               : 0.979
+constructionsite    : 0.905
+restaurant          : 0.890
+watertreatment      : 0.884
+miscindustrial      : 0.878
+powerplant          : 0.873
+misccommercial      : 0.863
+store               : 0.857
+cafe                : 0.848
+
+Axiom satisfaction: validation 
+
+suburban            : 0.999
+countryhouse        : 0.999
+miscresidential     : 0.997
+hotel               : 0.969
+constructionsite    : 0.903
+restaurant          : 0.889
+watertreatment      : 0.887
+miscindustrial      : 0.883
+powerplant          : 0.869
+misccommercial      : 0.864
+store               : 0.854
+cafe                : 0.847
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+suburban            : {'agree': 4000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscresidential     : {'agree': 4000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 4000, 'disagree': 0, 'missing': 0}
+restaurant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+watertreatment      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 4000, 'disagree': 0, 'missing': 0}
+misccommercial      : {'agree': 4000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 4000, 'disagree': 0, 'missing': 0}
+cafe                : {'agree': 4000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+

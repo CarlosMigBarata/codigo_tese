@@ -1,0 +1,594 @@
+------------ FORMATO DA MATRIZ --------
+----------------[TN, FP]------------------
+----------------[FN, TP]------------------
+
+TN: predicted Negative, Reality Negative
+FN: predicted Negative, Reality Positive
+FP: predicted Positive, Reality Negative
+TP: predicted Positive, Reality Positive
+
+------------ METRICAS --------
+precision: TP / (TP + FP) 
+recall: TP / (TP + FN) 
+f1: 2 * precision * recall / (precision + recall) 
+
+
+
+Cafe_train confusion matrix:
+tensor([[12105,   121],
+        [  270,  3504]], dtype=torch.int32)
+predicted positive: 22.656% | actual positive: 23.587% | bias: -0.931%
+precision: 96.662% | recall: 92.846% | f1: 94.715%
+
+
+Hotel_train confusion matrix:
+tensor([[12693,    37],
+        [   79,  3191]], dtype=torch.int32)
+predicted positive: 20.175% | actual positive: 20.438% | bias: -0.263%
+precision: 98.854% | recall: 97.584% | f1: 98.215%
+
+
+Restaurant_train confusion matrix:
+tensor([[14047,     4],
+        [    0,  1949]], dtype=torch.int32)
+predicted positive: 12.206% | actual positive: 12.181% | bias: 0.025%
+precision: 99.795% | recall: 100.000% | f1: 99.897%
+
+
+Store_train confusion matrix:
+tensor([[12822,     2],
+        [    1,  3175]], dtype=torch.int32)
+predicted positive: 19.856% | actual positive: 19.850% | bias: 0.006%
+precision: 99.937% | recall: 99.969% | f1: 99.953%
+
+
+MiscCommercial_train confusion matrix:
+tensor([[12788,    83],
+        [   76,  3053]], dtype=torch.int32)
+predicted positive: 19.600% | actual positive: 19.556% | bias: 0.044%
+precision: 97.353% | recall: 97.571% | f1: 97.462%
+
+
+Suburban_train confusion matrix:
+tensor([[12438,     0],
+        [    0,  3562]], dtype=torch.int32)
+predicted positive: 22.263% | actual positive: 22.263% | bias: 0.000%
+precision: 100.000% | recall: 100.000% | f1: 100.000%
+
+
+MiscResidential_train confusion matrix:
+tensor([[11592,     0],
+        [    1,  4407]], dtype=torch.int32)
+predicted positive: 27.544% | actual positive: 27.550% | bias: -0.006%
+precision: 100.000% | recall: 99.977% | f1: 99.989%
+
+
+CountryHouse_train confusion matrix:
+tensor([[13804,     0],
+        [    0,  2196]], dtype=torch.int32)
+predicted positive: 13.725% | actual positive: 13.725% | bias: 0.000%
+precision: 100.000% | recall: 100.000% | f1: 100.000%
+
+
+ConstructionSite_train confusion matrix:
+tensor([[14470,     0],
+        [   15,  1515]], dtype=torch.int32)
+predicted positive: 9.469% | actual positive: 9.562% | bias: -0.094%
+precision: 100.000% | recall: 99.020% | f1: 99.507%
+
+
+MiscIndustrial_train confusion matrix:
+tensor([[13590,    10],
+        [    0,  2400]], dtype=torch.int32)
+predicted positive: 15.062% | actual positive: 15.000% | bias: 0.062%
+precision: 99.585% | recall: 100.000% | f1: 99.792%
+
+
+PowerPlant_train confusion matrix:
+tensor([[13335,    28],
+        [   32,  2605]], dtype=torch.int32)
+predicted positive: 16.456% | actual positive: 16.481% | bias: -0.025%
+precision: 98.937% | recall: 98.786% | f1: 98.861%
+
+
+WaterTreatment_train confusion matrix:
+tensor([[13734,    24],
+        [   57,  2185]], dtype=torch.int32)
+predicted positive: 13.806% | actual positive: 14.012% | bias: -0.206%
+precision: 98.914% | recall: 97.458% | f1: 98.180%
+
+
+Awning_train confusion matrix:
+tensor([[7093, 1593],
+        [4443, 2871]], dtype=torch.int32)
+predicted positive: 27.900% | actual positive: 45.713% | bias: -17.813%
+precision: 64.315% | recall: 39.253% | f1: 48.752%
+
+
+Billboard_train confusion matrix:
+tensor([[6774, 6050],
+        [  63, 3113]], dtype=torch.int32)
+predicted positive: 57.269% | actual positive: 19.850% | bias: 37.419%
+precision: 33.974% | recall: 98.016% | f1: 50.458%
+
+
+Porch_train confusion matrix:
+tensor([[7581, 4857],
+        [   0, 3562]], dtype=torch.int32)
+predicted positive: 52.619% | actual positive: 22.263% | bias: 30.356%
+precision: 42.309% | recall: 100.000% | f1: 59.461%
+
+
+Sign_train confusion matrix:
+tensor([[9860, 1572],
+        [1423, 3145]], dtype=torch.int32)
+predicted positive: 29.481% | actual positive: 28.550% | bias: 0.931%
+precision: 66.674% | recall: 68.849% | f1: 67.744%
+
+
+Table_train confusion matrix:
+tensor([[2839, 7932],
+        [2150, 3079]], dtype=torch.int32)
+predicted positive: 68.819% | actual positive: 32.681% | bias: 36.137%
+precision: 27.963% | recall: 58.883% | f1: 37.919%
+
+
+TiledRoof_train confusion matrix:
+tensor([[4534, 6093],
+        [3945, 1428]], dtype=torch.int32)
+predicted positive: 47.006% | actual positive: 33.581% | bias: 13.425%
+precision: 18.987% | recall: 26.577% | f1: 22.150%
+
+
+VendingMachine_train confusion matrix:
+tensor([[6605, 6456],
+        [ 140, 2799]], dtype=torch.int32)
+predicted positive: 57.844% | actual positive: 18.369% | bias: 39.475%
+precision: 30.243% | recall: 95.236% | f1: 45.908%
+
+
+WallSign_train confusion matrix:
+tensor([[2860, 9870],
+        [ 868, 2402]], dtype=torch.int32)
+predicted positive: 76.700% | actual positive: 20.438% | bias: 56.262%
+precision: 19.573% | recall: 73.456% | f1: 30.910%
+
+
+Statue_train confusion matrix:
+tensor([[9751, 4481],
+        [ 980,  788]], dtype=torch.int32)
+predicted positive: 32.931% | actual positive: 11.050% | bias: 21.881%
+precision: 14.955% | recall: 44.570% | f1: 22.396%
+
+
+Chimney_train confusion matrix:
+tensor([[7302, 4275],
+        [3612,  811]], dtype=torch.int32)
+predicted positive: 31.788% | actual positive: 27.644% | bias: 4.144%
+precision: 15.946% | recall: 18.336% | f1: 17.058%
+
+
+Pipe_train confusion matrix:
+tensor([[2967, 8155],
+        [2483, 2395]], dtype=torch.int32)
+predicted positive: 65.938% | actual positive: 30.487% | bias: 35.450%
+precision: 22.701% | recall: 49.098% | f1: 31.047%
+
+
+Machine_train confusion matrix:
+tensor([[9270, 5200],
+        [ 508, 1022]], dtype=torch.int32)
+predicted positive: 38.888% | actual positive: 9.562% | bias: 29.325%
+precision: 16.426% | recall: 66.797% | f1: 26.367%
+
+
+Truck_train confusion matrix:
+tensor([[  682, 10127],
+        [ 2149,  3042]], dtype=torch.int32)
+predicted positive: 82.306% | actual positive: 32.444% | bias: 49.863%
+precision: 23.100% | recall: 58.601% | f1: 33.137%
+
+
+Car_train confusion matrix:
+tensor([[10338,  1912],
+        [ 2594,  1156]], dtype=torch.int32)
+predicted positive: 19.175% | actual positive: 23.438% | bias: -4.263%
+precision: 37.679% | recall: 30.827% | f1: 33.910%
+
+
+Residential_train confusion matrix:
+tensor([[10667,     0],
+        [ 5333,     0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.331% | bias: -33.331%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Commercial_train confusion matrix:
+tensor([[10666,     0],
+        [ 5334,     0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.338% | bias: -33.338%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Industrial_train confusion matrix:
+tensor([[10667,     0],
+        [ 5333,     0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.331% | bias: -33.331%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Cafe_val confusion matrix:
+tensor([[2982,   70],
+        [  85,  863]], dtype=torch.int32)
+predicted positive: 23.325% | actual positive: 23.700% | bias: -0.375%
+precision: 92.497% | recall: 91.034% | f1: 91.760%
+
+
+Hotel_val confusion matrix:
+tensor([[3155,   33],
+        [  58,  754]], dtype=torch.int32)
+predicted positive: 19.675% | actual positive: 20.300% | bias: -0.625%
+precision: 95.807% | recall: 92.857% | f1: 94.309%
+
+
+Restaurant_val confusion matrix:
+tensor([[3498,    6],
+        [   2,  494]], dtype=torch.int32)
+predicted positive: 12.500% | actual positive: 12.400% | bias: 0.100%
+precision: 98.800% | recall: 99.597% | f1: 99.197%
+
+
+Store_val confusion matrix:
+tensor([[3153,    4],
+        [   3,  840]], dtype=torch.int32)
+predicted positive: 21.100% | actual positive: 21.075% | bias: 0.025%
+precision: 99.526% | recall: 99.644% | f1: 99.585%
+
+
+MiscCommercial_val confusion matrix:
+tensor([[3148,   70],
+        [  69,  713]], dtype=torch.int32)
+predicted positive: 19.575% | actual positive: 19.550% | bias: 0.025%
+precision: 91.060% | recall: 91.176% | f1: 91.118%
+
+
+Suburban_val confusion matrix:
+tensor([[3098,    0],
+        [   1,  901]], dtype=torch.int32)
+predicted positive: 22.525% | actual positive: 22.550% | bias: -0.025%
+precision: 100.000% | recall: 99.889% | f1: 99.945%
+
+
+MiscResidential_val confusion matrix:
+tensor([[2890,    4],
+        [   2, 1104]], dtype=torch.int32)
+predicted positive: 27.700% | actual positive: 27.650% | bias: 0.050%
+precision: 99.639% | recall: 99.819% | f1: 99.729%
+
+
+CountryHouse_val confusion matrix:
+tensor([[3447,    0],
+        [   0,  553]], dtype=torch.int32)
+predicted positive: 13.825% | actual positive: 13.825% | bias: 0.000%
+precision: 100.000% | recall: 100.000% | f1: 100.000%
+
+
+ConstructionSite_val confusion matrix:
+tensor([[3621,    0],
+        [   9,  370]], dtype=torch.int32)
+predicted positive: 9.250% | actual positive: 9.475% | bias: -0.225%
+precision: 100.000% | recall: 97.625% | f1: 98.798%
+
+
+MiscIndustrial_val confusion matrix:
+tensor([[3401,   13],
+        [   0,  586]], dtype=torch.int32)
+predicted positive: 14.975% | actual positive: 14.650% | bias: 0.325%
+precision: 97.830% | recall: 100.000% | f1: 98.903%
+
+
+PowerPlant_val confusion matrix:
+tensor([[3287,   27],
+        [  23,  663]], dtype=torch.int32)
+predicted positive: 17.250% | actual positive: 17.150% | bias: 0.100%
+precision: 96.087% | recall: 96.647% | f1: 96.366%
+
+
+WaterTreatment_val confusion matrix:
+tensor([[3416,   27],
+        [  32,  525]], dtype=torch.int32)
+predicted positive: 13.800% | actual positive: 13.925% | bias: -0.125%
+precision: 95.109% | recall: 94.255% | f1: 94.680%
+
+
+Awning_val confusion matrix:
+tensor([[1745,  415],
+        [1106,  734]], dtype=torch.int32)
+predicted positive: 28.725% | actual positive: 46.000% | bias: -17.275%
+precision: 63.882% | recall: 39.891% | f1: 49.113%
+
+
+Billboard_val confusion matrix:
+tensor([[1674, 1483],
+        [  17,  826]], dtype=torch.int32)
+predicted positive: 57.725% | actual positive: 21.075% | bias: 36.650%
+precision: 35.773% | recall: 97.983% | f1: 52.411%
+
+
+Porch_val confusion matrix:
+tensor([[1899, 1199],
+        [   0,  902]], dtype=torch.int32)
+predicted positive: 52.525% | actual positive: 22.550% | bias: 29.975%
+precision: 42.932% | recall: 100.000% | f1: 60.073%
+
+
+Sign_val confusion matrix:
+tensor([[2436,  382],
+        [ 370,  812]], dtype=torch.int32)
+predicted positive: 29.850% | actual positive: 29.550% | bias: 0.300%
+precision: 68.007% | recall: 68.697% | f1: 68.350%
+
+
+Table_val confusion matrix:
+tensor([[ 689, 1981],
+        [ 587,  743]], dtype=torch.int32)
+predicted positive: 68.100% | actual positive: 33.250% | bias: 34.850%
+precision: 27.276% | recall: 55.865% | f1: 36.655%
+
+
+TiledRoof_val confusion matrix:
+tensor([[1142, 1521],
+        [ 979,  358]], dtype=torch.int32)
+predicted positive: 46.975% | actual positive: 33.425% | bias: 13.550%
+precision: 19.053% | recall: 26.776% | f1: 22.264%
+
+
+VendingMachine_val confusion matrix:
+tensor([[1621, 1634],
+        [  34,  711]], dtype=torch.int32)
+predicted positive: 58.625% | actual positive: 18.625% | bias: 40.000%
+precision: 30.320% | recall: 95.436% | f1: 46.019%
+
+
+WallSign_val confusion matrix:
+tensor([[ 684, 2504],
+        [ 229,  583]], dtype=torch.int32)
+predicted positive: 77.175% | actual positive: 20.300% | bias: 56.875%
+precision: 18.886% | recall: 71.798% | f1: 29.905%
+
+
+Statue_val confusion matrix:
+tensor([[2450, 1104],
+        [ 232,  214]], dtype=torch.int32)
+predicted positive: 32.950% | actual positive: 11.150% | bias: 21.800%
+precision: 16.237% | recall: 47.982% | f1: 24.263%
+
+
+Chimney_val confusion matrix:
+tensor([[1801, 1078],
+        [ 924,  197]], dtype=torch.int32)
+predicted positive: 31.875% | actual positive: 28.025% | bias: 3.850%
+precision: 15.451% | recall: 17.574% | f1: 16.444%
+
+
+Pipe_val confusion matrix:
+tensor([[ 728, 2047],
+        [ 619,  606]], dtype=torch.int32)
+predicted positive: 66.325% | actual positive: 30.625% | bias: 35.700%
+precision: 22.842% | recall: 49.469% | f1: 31.253%
+
+
+Machine_val confusion matrix:
+tensor([[2318, 1303],
+        [ 115,  264]], dtype=torch.int32)
+predicted positive: 39.175% | actual positive: 9.475% | bias: 29.700%
+precision: 16.847% | recall: 69.657% | f1: 27.133%
+
+
+Truck_val confusion matrix:
+tensor([[ 196, 2522],
+        [ 484,  798]], dtype=torch.int32)
+predicted positive: 83.000% | actual positive: 32.050% | bias: 50.950%
+precision: 24.036% | recall: 62.246% | f1: 34.681%
+
+
+Car_val confusion matrix:
+tensor([[2547,  478],
+        [ 665,  310]], dtype=torch.int32)
+predicted positive: 19.700% | actual positive: 24.375% | bias: -4.675%
+precision: 39.340% | recall: 31.795% | f1: 35.167%
+
+
+Residential_val confusion matrix:
+tensor([[2667,    0],
+        [1333,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.325% | bias: -33.325%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Commercial_val confusion matrix:
+tensor([[2667,    0],
+        [1333,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.325% | bias: -33.325%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Industrial_val confusion matrix:
+tensor([[2666,    0],
+        [1334,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.350% | bias: -33.350%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+
+
+
+------------ HIGH BIAS METRICS --------------------------------------------------------------
+Billboard_train confusion matrix:
+tensor([[6774, 6050],
+        [  63, 3113]], dtype=torch.int32)
+predicted positive: 57.269% | actual positive: 19.850% | bias: 37.419%
+precision: 33.974% | recall: 98.016% | f1: 50.458%
+
+
+Porch_train confusion matrix:
+tensor([[7581, 4857],
+        [   0, 3562]], dtype=torch.int32)
+predicted positive: 52.619% | actual positive: 22.263% | bias: 30.356%
+precision: 42.309% | recall: 100.000% | f1: 59.461%
+
+
+Table_train confusion matrix:
+tensor([[2839, 7932],
+        [2150, 3079]], dtype=torch.int32)
+predicted positive: 68.819% | actual positive: 32.681% | bias: 36.137%
+precision: 27.963% | recall: 58.883% | f1: 37.919%
+
+
+VendingMachine_train confusion matrix:
+tensor([[6605, 6456],
+        [ 140, 2799]], dtype=torch.int32)
+predicted positive: 57.844% | actual positive: 18.369% | bias: 39.475%
+precision: 30.243% | recall: 95.236% | f1: 45.908%
+
+
+WallSign_train confusion matrix:
+tensor([[2860, 9870],
+        [ 868, 2402]], dtype=torch.int32)
+predicted positive: 76.700% | actual positive: 20.438% | bias: 56.262%
+precision: 19.573% | recall: 73.456% | f1: 30.910%
+
+
+Statue_train confusion matrix:
+tensor([[9751, 4481],
+        [ 980,  788]], dtype=torch.int32)
+predicted positive: 32.931% | actual positive: 11.050% | bias: 21.881%
+precision: 14.955% | recall: 44.570% | f1: 22.396%
+
+
+Pipe_train confusion matrix:
+tensor([[2967, 8155],
+        [2483, 2395]], dtype=torch.int32)
+predicted positive: 65.938% | actual positive: 30.487% | bias: 35.450%
+precision: 22.701% | recall: 49.098% | f1: 31.047%
+
+
+Machine_train confusion matrix:
+tensor([[9270, 5200],
+        [ 508, 1022]], dtype=torch.int32)
+predicted positive: 38.888% | actual positive: 9.562% | bias: 29.325%
+precision: 16.426% | recall: 66.797% | f1: 26.367%
+
+
+Truck_train confusion matrix:
+tensor([[  682, 10127],
+        [ 2149,  3042]], dtype=torch.int32)
+predicted positive: 82.306% | actual positive: 32.444% | bias: 49.863%
+precision: 23.100% | recall: 58.601% | f1: 33.137%
+
+
+Residential_train confusion matrix:
+tensor([[10667,     0],
+        [ 5333,     0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.331% | bias: -33.331%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Commercial_train confusion matrix:
+tensor([[10666,     0],
+        [ 5334,     0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.338% | bias: -33.338%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Industrial_train confusion matrix:
+tensor([[10667,     0],
+        [ 5333,     0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.331% | bias: -33.331%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Billboard_val confusion matrix:
+tensor([[1674, 1483],
+        [  17,  826]], dtype=torch.int32)
+predicted positive: 57.725% | actual positive: 21.075% | bias: 36.650%
+precision: 35.773% | recall: 97.983% | f1: 52.411%
+
+
+Porch_val confusion matrix:
+tensor([[1899, 1199],
+        [   0,  902]], dtype=torch.int32)
+predicted positive: 52.525% | actual positive: 22.550% | bias: 29.975%
+precision: 42.932% | recall: 100.000% | f1: 60.073%
+
+
+Table_val confusion matrix:
+tensor([[ 689, 1981],
+        [ 587,  743]], dtype=torch.int32)
+predicted positive: 68.100% | actual positive: 33.250% | bias: 34.850%
+precision: 27.276% | recall: 55.865% | f1: 36.655%
+
+
+VendingMachine_val confusion matrix:
+tensor([[1621, 1634],
+        [  34,  711]], dtype=torch.int32)
+predicted positive: 58.625% | actual positive: 18.625% | bias: 40.000%
+precision: 30.320% | recall: 95.436% | f1: 46.019%
+
+
+WallSign_val confusion matrix:
+tensor([[ 684, 2504],
+        [ 229,  583]], dtype=torch.int32)
+predicted positive: 77.175% | actual positive: 20.300% | bias: 56.875%
+precision: 18.886% | recall: 71.798% | f1: 29.905%
+
+
+Statue_val confusion matrix:
+tensor([[2450, 1104],
+        [ 232,  214]], dtype=torch.int32)
+predicted positive: 32.950% | actual positive: 11.150% | bias: 21.800%
+precision: 16.237% | recall: 47.982% | f1: 24.263%
+
+
+Pipe_val confusion matrix:
+tensor([[ 728, 2047],
+        [ 619,  606]], dtype=torch.int32)
+predicted positive: 66.325% | actual positive: 30.625% | bias: 35.700%
+precision: 22.842% | recall: 49.469% | f1: 31.253%
+
+
+Machine_val confusion matrix:
+tensor([[2318, 1303],
+        [ 115,  264]], dtype=torch.int32)
+predicted positive: 39.175% | actual positive: 9.475% | bias: 29.700%
+precision: 16.847% | recall: 69.657% | f1: 27.133%
+
+
+Truck_val confusion matrix:
+tensor([[ 196, 2522],
+        [ 484,  798]], dtype=torch.int32)
+predicted positive: 83.000% | actual positive: 32.050% | bias: 50.950%
+precision: 24.036% | recall: 62.246% | f1: 34.681%
+
+
+Residential_val confusion matrix:
+tensor([[2667,    0],
+        [1333,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.325% | bias: -33.325%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Commercial_val confusion matrix:
+tensor([[2667,    0],
+        [1333,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.325% | bias: -33.325%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
+Industrial_val confusion matrix:
+tensor([[2666,    0],
+        [1334,    0]], dtype=torch.int32)
+predicted positive: 0.000% | actual positive: 33.350% | bias: -33.350%
+precision: 0.000% | recall: 0.000% | f1: 0.000%
+
+
