@@ -129,7 +129,6 @@ def nearest_value(series, epoch):
     pos = np.abs(series.index.to_numpy() - epoch).argmin()
     return series.iloc[pos]
 
-
 def plot_grid(groups, metrics, alphas, mark_best_epoch, show_individual, out_path):
     n_rows, n_cols = len(metrics), len(alphas)
     fig, axes = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 3.5 * n_rows), squeeze=False)
@@ -163,27 +162,26 @@ def plot_grid(groups, metrics, alphas, mark_best_epoch, show_individual, out_pat
                     ax.fill_between(mean.index, (mean - std).values, (mean + std).values,
                                      color=color, alpha=0.2, linewidth=0)
 
-                if mark_best_epoch != "none":
-                    if show_individual and mark_best_epoch == "each":
-                        # Mark each run's own best epoch on ITS OWN raw line.
-                        for run_idx, path in enumerate(metrics_paths):
-                            best_epoch = get_best_epoch(path)
-                            if best_epoch is None:
-                                continue
-                            run_series = combined[f"run{run_idx}"].dropna()
-                            ax.scatter([best_epoch], [nearest_value(run_series, best_epoch)],
-                                       color=color, edgecolor="black", zorder=5, s=40, marker="o")
-                    else:
-                        # "mean" mode, or "each" without --show-individual-runs: mark on the
-                        # mean line as before.
-                        best_epochs = [get_best_epoch(p) for p in metrics_paths]
-                        best_epochs = [e for e in best_epochs if e is not None]
-                        if not best_epochs:
+                if mark_best_epoch == "each":
+                    # Always read each run's own value here, whether or not its raw
+                    # line is actually drawn -- so with the mean+std band alone
+                    # (show_individual=False), the dots still reflect each run's real
+                    # best-epoch value, not a point interpolated onto the mean.
+                    for run_idx, path in enumerate(metrics_paths):
+                        best_epoch = get_best_epoch(path)
+                        if best_epoch is None:
                             continue
-                        epochs_to_mark = [int(round(np.mean(best_epochs)))] if mark_best_epoch == "mean" else best_epochs
-                        for e in epochs_to_mark:
-                            ax.scatter([e], [nearest_value(mean, e)], color=color,
-                                       edgecolor="black", zorder=5, s=50, marker="o")
+                        run_series = combined[f"run{run_idx}"].dropna()
+                        ax.scatter([best_epoch], [nearest_value(run_series, best_epoch)],
+                                   color=color, edgecolor="black", zorder=5, s=40, marker="o")
+                elif mark_best_epoch == "mean":
+                    best_epochs = [get_best_epoch(p) for p in metrics_paths]
+                    best_epochs = [e for e in best_epochs if e is not None]
+                    if not best_epochs:
+                        continue
+                    epoch_to_mark = int(round(np.mean(best_epochs)))
+                    ax.scatter([epoch_to_mark], [nearest_value(mean, epoch_to_mark)], color=color,
+                               edgecolor="black", zorder=5, s=50, marker="o")
 
             ax.set_title(f"{METRIC_LABELS.get(metric, metric)}  (α={alpha})", fontsize=10)
             if row == n_rows - 1:
