@@ -1,0 +1,183 @@
+
+
+========= ACTIVE RULES =========
+
+cafe: [AXIOM] MainOperations.EQUIVALENCE(Cafe, OR(Statue, VendingMachine))
+countryhouse: [AXIOM] MainOperations.EQUIVALENCE(CountryHouse, AND(Car, TiledRoof))
+constructionsite: [AXIOM] MainOperations.EQUIVALENCE(ConstructionSite, Machine)
+residential_no_chimney_pipe: [AXIOM] MainOperations.IMPLICATION(Residential, NOT(OR(Chimney,Pipe)))
+building_no_car_truck: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Car,Truck)))
+hotel: [AXIOM] MainOperations.EQUIVALENCE(Hotel, WallSign)
+building_noDoorOrNoWindow_Impl_noAwning: [AXIOM] MainOperations.IMPLICATION(NOT(OR(Door,Window)), NOT(Awning))
+powerplant: [AXIOM] MainOperations.EQUIVALENCE(PowerPlant, AND(Chimney, Pipe))
+industrial_not_table: [AXIOM] MainOperations.IMPLICATION(Industrial, NOT(Table))
+store: [AXIOM] MainOperations.EQUIVALENCE(Store, Billboard)
+watertreatment: [AXIOM] MainOperations.EQUIVALENCE(WaterTreatment, AND(Pipe, Truck))
+building_no_chimney_statue: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(Chimney,Statue)))
+restaurant: [AXIOM] MainOperations.EQUIVALENCE(Restaurant, AND(OR(Car,Truck),Sign))
+miscresidential: [AXIOM] MainOperations.EQUIVALENCE(MiscResidential, AND(NOT(AND(Awning,Table)),TiledRoof))
+miscindustrial: [AXIOM] MainOperations.EQUIVALENCE(MiscIndustrial, AND(AND(NOT(Awning), Truck),NOT(Sign)))
+building_impl_complex: [AXIOM] MainOperations.BUILDING_FACT(Building, NOT(AND(OR(Car,Truck),Machine)))
+residential: [AXIOM] MainOperations.EQUIVALENCE(Residential, OR(CountryHouse, MiscResidential, Suburban))
+misccommercial: [AXIOM] MainOperations.EQUIVALENCE(MiscCommercial, AND(Awning, Table))
+commercial: [AXIOM] MainOperations.EQUIVALENCE(Commercial, OR(Cafe, Hotel, MiscCommercial, Restaurant, Store))
+suburban: [AXIOM] MainOperations.EQUIVALENCE(Suburban, Porch)
+industrial: [AXIOM] MainOperations.EQUIVALENCE(Industrial, OR(ConstructionSite, MiscIndustrial, PowerPlant, WaterTreatment))
+
+
+========= CONISTENCY PER RULE =========
+
+cafe | consistency=0.9994 | rule_holds=5331 | rule_vac_holds=10666 | violations=3 | total=16000
+    - left_holds_right_fails: 2
+    - left_fails_right_holds: 1
+
+countryhouse | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+constructionsite | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+residential_no_chimney_pipe | consistency=0.9998 | rule_holds=5331 | rule_vac_holds=10668 | violations=1 | total=16000
+    - left_holds_right_fails: 1
+
+building_no_car_truck | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+hotel | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+building_noDoorOrNoWindow_Impl_noAwning | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+powerplant | consistency=1.0000 | rule_holds=5333 | rule_vac_holds=10667 | violations=0 | total=16000
+
+industrial_not_table | consistency=1.0000 | rule_holds=5333 | rule_vac_holds=10667 | violations=0 | total=16000
+
+store | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+watertreatment | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+building_no_chimney_statue | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+restaurant | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+miscresidential | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+miscindustrial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+building_impl_complex | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+residential | consistency=0.3332 | rule_holds=5332 | rule_vac_holds=0 | violations=10668 | total=16000
+    - left_fails_right_holds: 10668
+
+misccommercial | consistency=-2.0000 | rule_holds=0 | rule_vac_holds=16000 | violations=0 | total=16000
+
+commercial | consistency=0.9996 | rule_holds=5333 | rule_vac_holds=10665 | violations=2 | total=16000
+    - left_holds_right_fails: 2
+
+suburban | consistency=1.0000 | rule_holds=16000 | rule_vac_holds=0 | violations=0 | total=16000
+
+industrial | consistency=1.0000 | rule_holds=5333 | rule_vac_holds=10667 | violations=0 | total=16000
+
+
+========= Rule Satisfaction in LTNs =========
+
+Axiom satisfaction: training
+
+building_no_car_truck: 1.000
+building_impl_complex: 1.000
+industrial_not_table: 1.000
+building_no_chimney_statue: 1.000
+miscindustrial      : 0.999
+misccommercial      : 0.999
+constructionsite    : 0.999
+store               : 0.999
+watertreatment      : 0.999
+hotel               : 0.999
+restaurant          : 0.999
+countryhouse        : 0.999
+residential_no_chimney_pipe: 0.996
+building_nodoorornowindow_impl_noawning: 0.994
+industrial          : 0.992
+miscresidential     : 0.991
+powerplant          : 0.989
+suburban            : 0.987
+cafe                : 0.987
+commercial          : 0.986
+residential         : 0.186
+
+Axiom satisfaction: validation 
+
+building_impl_complex: 1.000
+building_no_car_truck: 1.000
+industrial_not_table: 1.000
+building_no_chimney_statue: 1.000
+store               : 1.000
+misccommercial      : 1.000
+hotel               : 1.000
+watertreatment      : 1.000
+constructionsite    : 1.000
+miscindustrial      : 1.000
+restaurant          : 1.000
+countryhouse        : 0.999
+building_nodoorornowindow_impl_noawning: 0.996
+industrial          : 0.996
+residential_no_chimney_pipe: 0.996
+powerplant          : 0.995
+miscresidential     : 0.995
+suburban            : 0.992
+commercial          : 0.988
+cafe                : 0.988
+residential         : 0.185
+
+==================================================
+========= LTN vs Clingo =========
+
+ agreement per axiom 
+
+building_impl_complex: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_no_car_truck: {'agree': 16000, 'disagree': 0, 'missing': 0}
+industrial_not_table: {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_no_chimney_statue: {'agree': 16000, 'disagree': 0, 'missing': 0}
+store               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+misccommercial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+hotel               : {'agree': 16000, 'disagree': 0, 'missing': 0}
+watertreatment      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+constructionsite    : {'agree': 16000, 'disagree': 0, 'missing': 0}
+miscindustrial      : {'agree': 16000, 'disagree': 0, 'missing': 0}
+restaurant          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+countryhouse        : {'agree': 16000, 'disagree': 0, 'missing': 0}
+building_nodoorornowindow_impl_noawning: {}
+industrial          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+residential_no_chimney_pipe: {'agree': 16000, 'disagree': 0, 'missing': 0}
+powerplant          : {'agree': 16000, 'disagree': 0, 'missing': 0}
+miscresidential     : {'agree': 16000, 'disagree': 0, 'missing': 0}
+suburban            : {'agree': 16000, 'disagree': 0, 'missing': 0}
+commercial          : {'agree': 15999, 'disagree': 1, 'missing': 0}
+cafe                : {'agree': 15998, 'disagree': 2, 'missing': 0}
+residential         : {'agree': 16000, 'disagree': 0, 'missing': 0}
+
+
+ Disagreements between LTN and CLINGO 
+
+
+
+
+--- cafe (2 disagreements) ---
+  s_13299_jpg
+    ltn=1 clingo=0 body=0.5002
+    Cafe            = 0.9167  (|d-0.5|=0.4167)
+    VendingMachine  = 0.4774  (|d-0.5|=0.0226)
+    Statue          = 0.0002  (|d-0.5|=0.4998)
+  s_8187_jpg
+    ltn=1 clingo=0 body=0.5165
+    Cafe            = 0.2928  (|d-0.5|=0.2072)
+    VendingMachine  = 0.5818  (|d-0.5|=0.0818)
+    Statue          = 0.0000  (|d-0.5|=0.5000)
+
+
+
+--- commercial (1 disagreements) ---
+  s_8187_jpg
+    ltn=1 clingo=0 body=0.5427
+    Cafe            = 0.2928  (|d-0.5|=0.2072)
+    Hotel           = 0.0000  (|d-0.5|=0.5000)
+    Restaurant      = 0.0000  (|d-0.5|=0.5000)
+    Store           = 0.0000  (|d-0.5|=0.5000)
+    MiscCommercial  = 0.0001  (|d-0.5|=0.4999)
+    Commercial      = 0.5216  (|d-0.5|=0.0216)
