@@ -129,7 +129,8 @@ def nearest_value(series, epoch):
     pos = np.abs(series.index.to_numpy() - epoch).argmin()
     return series.iloc[pos]
 
-def plot_grid(groups, metrics, alphas, mark_best_epoch, show_individual, out_path):
+def plot_grid(groups, metrics, alphas, mark_best_epoch, show_individual, show_baseline_alpha,
+              baseline_alpha, out_path):
     n_rows, n_cols = len(metrics), len(alphas)
     fig, axes = plt.subplots(n_rows, n_cols, figsize=(5 * n_cols, 3.5 * n_rows), squeeze=False)
 
@@ -162,11 +163,16 @@ def plot_grid(groups, metrics, alphas, mark_best_epoch, show_individual, out_pat
                     ax.fill_between(mean.index, (mean - std).values, (mean + std).values,
                                      color=color, alpha=0.2, linewidth=0)
 
+                if show_baseline_alpha and abs(alpha - baseline_alpha) > 1e-6:
+                    baseline_paths = discover_runs(root_dir, baseline_alpha)
+                    if baseline_paths:
+                        baseline_mean = load_metric_series(baseline_paths, metric).mean(axis=1, skipna=True)
+                        ax.plot(baseline_mean.index, baseline_mean.values, color="black",
+                                linewidth=2, linestyle=":", zorder=4)
+                    else:
+                        print(f"[skip] {label}: no alpha={baseline_alpha} runs found for baseline reference")
+
                 if mark_best_epoch == "each":
-                    # Always read each run's own value here, whether or not its raw
-                    # line is actually drawn -- so with the mean+std band alone
-                    # (show_individual=False), the dots still reflect each run's real
-                    # best-epoch value, not a point interpolated onto the mean.
                     for run_idx, path in enumerate(metrics_paths):
                         best_epoch = get_best_epoch(path)
                         if best_epoch is None:
@@ -194,6 +200,9 @@ def plot_grid(groups, metrics, alphas, mark_best_epoch, show_individual, out_pat
     if show_individual:
         handles.append(mlines.Line2D([0], [0], color="gray", lw=2.5, linestyle="--",
                                       label="mean (dashed)"))
+    if show_baseline_alpha:
+        handles.append(mlines.Line2D([0], [0], color="black", lw=2, linestyle=":",
+                                      label=f"α={baseline_alpha:g} baseline (mean)"))
     if mark_best_epoch != "none":
         handles.append(mlines.Line2D([0], [0], marker="o", color="gray", markeredgecolor="black",
                                       linestyle="None", markersize=7,
@@ -232,6 +241,13 @@ def main():
                               "mean line, instead of the mean +/- std band. Useful for checking "
                               "the data/averaging directly rather than trusting the aggregate.")
     parser.add_argument("--out", type=Path, default=Path("architecture_comparison.png"))
+    parser.add_argument("--show-baseline-alpha", action="store_true",
+                         help="On every subplot except the baseline alpha's own column, draw "
+                              "each group's baseline-alpha mean as a thin dotted reference line "
+                              "(no std band), so you can compare each alpha directly against its "
+                              "own group's baseline without switching subplots.")
+    parser.add_argument("--baseline-alpha", type=float, default=1.0,
+                         help="Which alpha counts as the baseline for --show-baseline-alpha (default: 1.0).")
     args = parser.parse_args()
 
     groups = {label: Path(root_dir) for label, root_dir in args.group}
@@ -241,7 +257,8 @@ def main():
     print(f"Alphas: {alphas}")
     print(f"Metrics: {args.metrics}")
 
-    plot_grid(groups, args.metrics, alphas, args.mark_best_epoch, args.show_individual_runs, args.out)
+    plot_grid(groups, args.metrics, alphas, args.mark_best_epoch, args.show_individual_runs,
+              args.show_baseline_alpha, args.baseline_alpha, args.out)
 
 
 if __name__ == "__main__":
