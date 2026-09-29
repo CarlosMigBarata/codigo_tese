@@ -232,7 +232,7 @@ def main():
     parser.add_argument("--alphas", nargs="+", type=float, default=None,
                          help="Alphas to plot, one column each (default: auto-discover every "
                               "alpha found across all --group folders).")
-    parser.add_argument("--mark-best-epoch", choices=["each", "mean", "none"], default="each",
+    parser.add_argument(" ", choices=["each", "mean", "none"], default="each",
                          help="Mark each run's best epoch ('each', default; on its own raw line "
                               "if --show-individual-runs is set, otherwise interpolated onto the "
                               "mean line), only the average best epoch ('mean'), or none ('none').")

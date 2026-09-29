@@ -19,14 +19,14 @@ import utils.rules_and_concepts as rules_and_concepts
 import utils.constants as constants
 
 
-# USAGE
-# Point at a folder containing run*_outputs subfolders; each run's alpha is read
-# from its metrics.csv, runs are grouped by alpha, and one set of results is
-# produced per alpha group.
-# python3 neuron_concept_correlation.py --root-dir outputs/to_send/to_send_to_GPU_onlyEquiv --out-dir zzz_data_evaluation
-#
-# Old explicit-paths mode still works if you want a single combined group:
-# python3 neuron_concept_correlation.py run0/best_model.pth run1/best_model.pth run2/best_model.pth --out-dir zzz_data_evaluation
+# USAGE (Wide/1LargeLayer architecture)
+# Buildings and concepts share a single 29-neuron layer here, unlike DSL's two
+# separate pools. The designated-vs-random comparison for a building therefore
+# draws its "random" alternatives from ALL 28 other neurons in that shared pool
+# (including concept-slot neurons), not just the other 11 building-slot neurons.
+# Saved CSVs reflect this: building/concept matrices both have 29 rows (the full
+# shared pool), just a different subset of columns (labels).
+# python3 neuron_concept_correlation_AUROC_wide.py --root-dir outputs/... --out-dir zzz_data_evaluation/...
 
 DATA_ROOT = Path("/home/sofia/Desktop/datasets/datasetVCB")
 
@@ -63,10 +63,11 @@ class BuildingsDataset(Dataset):
         return image, target
 
 
-# Same architecture as dissertation_workplace_script_double_sized_layers.py.
+# Same architecture as dissertation_workplace_script_1LargeLayer.py.
 class CNN(nn.Module):
     def __init__(self, in_channels, num_classes):
         super().__init__()
+        super_classes = len(SUPER_CLASSES)
         nbr_of_neurons = min(len(ALL_CONCEPTS), 48)
 
         self.conv1a = nn.Conv2d(in_channels=3, out_channels=8, kernel_size=3)
@@ -80,28 +81,17 @@ class CNN(nn.Module):
         self.maxpool = nn.MaxPool2d(kernel_size=2, stride=2)
         self.globalAvgPooling = nn.AdaptiveAvgPool2d((1, 1))
         self.flatten = nn.Flatten()
-
         self.dense1 = nn.Linear(128, 64)
 
-        nbr_of_neurons = nbr_of_neurons * 2
-        cnn_num_classes = num_classes * 2
+        all_concepts_nbr = nbr_of_neurons + num_classes
+        self.all_concepts_layer = nn.Linear(64, all_concepts_nbr)
 
-        self.concept_layer = nn.Linear(64, nbr_of_neurons)
+        suport_layer1_nbr = math.ceil((all_concepts_nbr + super_classes) / 2)
+        self.suport_layer1 = nn.Linear(all_concepts_nbr, suport_layer1_nbr)
 
-        suport_layer1_nbr = math.ceil((nbr_of_neurons + cnn_num_classes) / 2)
-        self.suport_layer1 = nn.Linear(nbr_of_neurons, suport_layer1_nbr)
-
-        self.output_layer = nn.Linear(suport_layer1_nbr, cnn_num_classes)
-
-        suport_layer2_nbr = math.ceil((cnn_num_classes + len(SUPER_CLASSES)) / 2)
-        self.suport_layer2 = nn.Linear(cnn_num_classes, suport_layer2_nbr)
-
-        self.super_class_layer = nn.Linear(suport_layer2_nbr, len(SUPER_CLASSES))
+        self.super_class_layer = nn.Linear(suport_layer1_nbr, super_classes)
 
     def forward(self, inputs):
-        nbr_of_concepts = len(ALL_CONCEPTS)
-        nbr_of_buildings = len(ALL_BUILDING_CLASSES)
-
         x = F.leaky_relu(self.conv1a(inputs))
         x = F.leaky_relu(self.conv1b(x))
         x = self.maxpool(x)
@@ -121,21 +111,14 @@ class CNN(nn.Module):
         x = self.flatten(x)
         x = F.leaky_relu(self.dense1(x))
 
-        concepts_out = self.concept_layer(x)
-        concepts_activation = F.leaky_relu(concepts_out)
+        concepts = self.all_concepts_layer(x)          # shared pool, width = 29
+        concepts_activation = F.leaky_relu(concepts)
 
         x = F.leaky_relu(self.suport_layer1(concepts_activation))
-        buildings_out = self.output_layer(x)
-        buildings_activation = F.leaky_relu(buildings_out)
+        super_classes_activation = self.super_class_layer(x)
 
-        x2 = F.leaky_relu(self.suport_layer2(buildings_activation))
-        super_classes_activation = self.super_class_layer(x2)
-
-        out_buildings = buildings_out[:, :nbr_of_buildings]
-        out_concepts = concepts_out[:, :nbr_of_concepts]
-
-        result = torch.cat([out_buildings, out_concepts, super_classes_activation], dim=1)
-        return result, buildings_out, concepts_out
+        result = torch.cat([concepts, super_classes_activation], dim=1)
+        return result
 
 
 def load_val_loader(batch_size):
@@ -160,18 +143,16 @@ def get_probabilities_and_labels(model_path, device, batch_size):
 
     val_loader = load_val_loader(batch_size)
 
-    all_building_probs, all_concept_probs, all_labels = [], [], []
+    all_pool_probs, all_labels = [], []
     for images, targets in val_loader:
         images = images.to(device)
-        _, buildings_out, concepts_out = model(images)
+        logits = model(images)
+        pool_logits = logits[:, :concepts_pos]   # buildings+concepts share one layer, no separate slice
 
-        all_building_probs.append(torch.sigmoid(buildings_out).cpu())
-        all_concept_probs.append(torch.sigmoid(concepts_out).cpu())
+        all_pool_probs.append(torch.sigmoid(pool_logits).cpu())
         all_labels.append(targets)
 
-    return (torch.cat(all_building_probs, dim=0),
-            torch.cat(all_concept_probs, dim=0),
-            torch.cat(all_labels, dim=0))
+    return torch.cat(all_pool_probs, dim=0), torch.cat(all_labels, dim=0)
 
 
 def correlation_matrix(pool_probs, group_labels):
@@ -193,27 +174,38 @@ def correlation_matrix(pool_probs, group_labels):
     return matrix
 
 
-def plot_heatmap(matrix, names, title, out_path):
+def auroc_matrix(pool_probs, group_labels):
+    x = pool_probs.numpy()
+    y = group_labels.numpy()
+    pool_size = x.shape[1]
+    n_labels = y.shape[1]
+
+    matrix = np.full((pool_size, n_labels), 0.5)
+    for i in range(pool_size):
+        xi = x[:, i]
+        for j in range(n_labels):
+            yj = y[:, j]
+            if len(np.unique(yj)) < 2:
+                continue
+            matrix[i, j] = roc_auc_score(yj, xi)
+    return matrix
+
+
+def plot_heatmap(matrix, names, title, out_path, vmin=-1, vmax=1, cbar_label="Pearson r"):
     fig, ax = plt.subplots(figsize=(max(6, len(names) * 0.5), max(6, matrix.shape[0] * 0.3)))
-    im = ax.imshow(matrix, aspect="auto", cmap="RdBu_r", vmin=-1, vmax=1)
+    im = ax.imshow(matrix, aspect="auto", cmap="RdBu_r", vmin=vmin, vmax=vmax)
     ax.set_xticks(range(len(names)))
     ax.set_xticklabels(names, rotation=90)
     ax.set_yticks(range(matrix.shape[0]))
     ax.set_yticklabels([f"neuron {i}" for i in range(matrix.shape[0])])
     ax.set_title(title)
-    fig.colorbar(im, ax=ax, label="Pearson r")
+    fig.colorbar(im, ax=ax, label=cbar_label)
     fig.tight_layout()
     fig.savefig(out_path, dpi=150)
     plt.close(fig)
 
 
 def discover_runs_by_alpha(root_dir):
-    """
-    Scans root_dir's immediate subdirectories for run folders containing both
-    best_model.pth and metrics.csv, reads each run's (constant) alpha from the
-    metrics.csv "Alpha" column, and groups run paths by that alpha value.
-    Returns: dict {alpha: [Path(best_model.pth), ...]}, sorted by alpha descending.
-    """
     root_dir = Path(root_dir)
     groups = {}
     for run_dir in sorted(root_dir.iterdir()):
@@ -238,42 +230,51 @@ def discover_runs_by_alpha(root_dir):
 
 def run_group(model_paths, device, out_dir, tag):
     print(f"\n=== {tag} ({len(model_paths)} run(s)) ===")
-    building_matrices, concept_matrices = [], []
+    corr_matrices, auroc_matrices = [], []
     for model_path in model_paths:
         print(f"[loading] {model_path}")
-        building_probs, concept_probs, labels = get_probabilities_and_labels(
-            model_path, device, constants.BATCH_SIZE
-        )
-        building_labels = labels[:, :building_classes]
-        concept_labels = labels[:, building_classes:concepts_pos]
+        pool_probs, labels = get_probabilities_and_labels(model_path, device, constants.BATCH_SIZE)
+        group_labels = labels[:, :concepts_pos]   # same order as ALL_BUILDING_CLASSES + ALL_CONCEPTS
 
-        building_matrices.append(correlation_matrix(building_probs, building_labels))
-        concept_matrices.append(correlation_matrix(concept_probs, concept_labels))
+        corr_matrices.append(correlation_matrix(pool_probs, group_labels))
+        auroc_matrices.append(auroc_matrix(pool_probs, group_labels))
 
-    avg_building_matrix = np.mean(building_matrices, axis=0)
-    avg_concept_matrix = np.mean(concept_matrices, axis=0)
+    avg_corr = np.mean(corr_matrices, axis=0)      # shape (29, 29): full shared pool x full label set
+    avg_auroc = np.mean(auroc_matrices, axis=0)
 
-    pd.DataFrame(avg_building_matrix, columns=ALL_BUILDING_CLASSES).to_csv(
+    # Split columns (labels) into building/concept groups; keep all 29 rows (the
+    # full shared pool) for both, since a building's random alternatives include
+    # concept-slot neurons and vice versa.
+    building_corr, concept_corr = avg_corr[:, :building_classes], avg_corr[:, building_classes:concepts_pos]
+    building_auroc, concept_auroc = avg_auroc[:, :building_classes], avg_auroc[:, building_classes:concepts_pos]
+
+    pd.DataFrame(building_corr, columns=ALL_BUILDING_CLASSES).to_csv(
         out_dir / f"building_neuron_correlation_{tag}.csv", index_label="neuron"
     )
-    pd.DataFrame(avg_concept_matrix, columns=ALL_CONCEPTS).to_csv(
+    pd.DataFrame(concept_corr, columns=ALL_CONCEPTS).to_csv(
         out_dir / f"concept_neuron_correlation_{tag}.csv", index_label="neuron"
     )
+    pd.DataFrame(building_auroc, columns=ALL_BUILDING_CLASSES).to_csv(
+        out_dir / f"building_neuron_auroc_{tag}.csv", index_label="neuron"
+    )
+    pd.DataFrame(concept_auroc, columns=ALL_CONCEPTS).to_csv(
+        out_dir / f"concept_neuron_auroc_{tag}.csv", index_label="neuron"
+    )
 
-    plot_heatmap(avg_building_matrix, ALL_BUILDING_CLASSES, f"Building-layer neuron correlation ({tag})",
-                 out_dir / f"building_neuron_correlation_{tag}.png")
-    plot_heatmap(avg_concept_matrix, ALL_CONCEPTS, f"Concept-layer neuron correlation ({tag})",
-                 out_dir / f"concept_neuron_correlation_{tag}.png")
+    plot_heatmap(building_corr, ALL_BUILDING_CLASSES, f"Building-layer neuron correlation ({tag})",
+                 out_dir / f"building_neuron_correlation_{tag}.png", vmin=-1, vmax=1, cbar_label="Pearson r")
+    plot_heatmap(concept_corr, ALL_CONCEPTS, f"Concept-layer neuron correlation ({tag})",
+                 out_dir / f"concept_neuron_correlation_{tag}.png", vmin=-1, vmax=1, cbar_label="Pearson r")
+    plot_heatmap(building_auroc, ALL_BUILDING_CLASSES, f"Building-layer neuron AUROC ({tag})",
+                 out_dir / f"building_neuron_auroc_{tag}.png", vmin=0, vmax=1, cbar_label="AUROC")
+    plot_heatmap(concept_auroc, ALL_CONCEPTS, f"Concept-layer neuron AUROC ({tag})",
+                 out_dir / f"concept_neuron_auroc_{tag}.png", vmin=0, vmax=1, cbar_label="AUROC")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Pearson correlation between every neuron in the concept/building "
-                    "layer (full unsliced pool) and every concept/building label's "
-                    "ground truth. Either point at a folder of run*_outputs subfolders "
-                    "(--root-dir), grouped automatically by the alpha recorded in each "
-                    "run's metrics.csv, or pass explicit checkpoint paths for a single "
-                    "combined group."
+        description="Pearson correlation and AUROC between every neuron in the shared "
+                    "Wide bottleneck layer and every concept/building label's ground truth."
     )
     parser.add_argument("model_paths", nargs="*", help="Explicit best_model.pth paths (single group mode).")
     parser.add_argument("--root-dir", type=Path, default=None,

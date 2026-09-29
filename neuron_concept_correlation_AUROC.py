@@ -22,8 +22,11 @@ import utils.constants as constants
 # USAGE
 # Point at a folder containing run*_outputs subfolders; each run's alpha is read
 # from its metrics.csv, runs are grouped by alpha, and one set of results is
-# produced per alpha group.
-# python3 neuron_concept_correlation.py --root-dir outputs/to_send/to_send_to_GPU_onlyEquiv --out-dir zzz_data_evaluation
+# produced per alpha group. Saves both Pearson correlation (used for the greedy/
+# oracle matching) and AUROC (used for the designated-vs-random robustness check)
+# matrices, as raw signed/unadjusted values -- take abs()/max(x, 1-x) downstream
+# for polarity-aware comparisons.
+# python3 neuron_concept_correlation_neuron_concept_correlation_AUROC.py --root-dir outputs/to_send/to_send_to_GPU_onlyEquiv --out-dir zzz_data_evaluation
 #
 # Old explicit-paths mode still works if you want a single combined group:
 # python3 neuron_concept_correlation.py run0/best_model.pth run1/best_model.pth run2/best_model.pth --out-dir zzz_data_evaluation
@@ -193,15 +196,36 @@ def correlation_matrix(pool_probs, group_labels):
     return matrix
 
 
-def plot_heatmap(matrix, names, title, out_path):
+def auroc_matrix(pool_probs, group_labels):
+    """Raw (not polarity-adjusted) AUROC per neuron-label pair. 0.5 = chance,
+    1.0 = perfect separation, 0.0 = perfect but polarity-inverted separation.
+    Take max(matrix, 1 - matrix) downstream for a polarity-aware comparison,
+    the AUROC equivalent of best_polarity_f1."""
+    x = pool_probs.numpy()
+    y = group_labels.numpy()
+    pool_size = x.shape[1]
+    n_labels = y.shape[1]
+
+    matrix = np.full((pool_size, n_labels), 0.5)
+    for i in range(pool_size):
+        xi = x[:, i]
+        for j in range(n_labels):
+            yj = y[:, j]
+            if len(np.unique(yj)) < 2:
+                continue
+            matrix[i, j] = roc_auc_score(yj, xi)
+    return matrix
+
+
+def plot_heatmap(matrix, names, title, out_path, vmin=-1, vmax=1, cbar_label="Pearson r"):
     fig, ax = plt.subplots(figsize=(max(6, len(names) * 0.5), max(6, matrix.shape[0] * 0.3)))
-    im = ax.imshow(matrix, aspect="auto", cmap="RdBu_r", vmin=-1, vmax=1)
+    im = ax.imshow(matrix, aspect="auto", cmap="RdBu_r", vmin=vmin, vmax=vmax)
     ax.set_xticks(range(len(names)))
     ax.set_xticklabels(names, rotation=90)
     ax.set_yticks(range(matrix.shape[0]))
     ax.set_yticklabels([f"neuron {i}" for i in range(matrix.shape[0])])
     ax.set_title(title)
-    fig.colorbar(im, ax=ax, label="Pearson r")
+    fig.colorbar(im, ax=ax, label=cbar_label)
     fig.tight_layout()
     fig.savefig(out_path, dpi=150)
     plt.close(fig)
@@ -238,7 +262,8 @@ def discover_runs_by_alpha(root_dir):
 
 def run_group(model_paths, device, out_dir, tag):
     print(f"\n=== {tag} ({len(model_paths)} run(s)) ===")
-    building_matrices, concept_matrices = [], []
+    building_corr_matrices, concept_corr_matrices = [], []
+    building_auroc_matrices, concept_auroc_matrices = [], []
     for model_path in model_paths:
         print(f"[loading] {model_path}")
         building_probs, concept_probs, labels = get_probabilities_and_labels(
@@ -247,28 +272,43 @@ def run_group(model_paths, device, out_dir, tag):
         building_labels = labels[:, :building_classes]
         concept_labels = labels[:, building_classes:concepts_pos]
 
-        building_matrices.append(correlation_matrix(building_probs, building_labels))
-        concept_matrices.append(correlation_matrix(concept_probs, concept_labels))
+        building_corr_matrices.append(correlation_matrix(building_probs, building_labels))
+        concept_corr_matrices.append(correlation_matrix(concept_probs, concept_labels))
 
-    avg_building_matrix = np.mean(building_matrices, axis=0)
-    avg_concept_matrix = np.mean(concept_matrices, axis=0)
+        building_auroc_matrices.append(auroc_matrix(building_probs, building_labels))
+        concept_auroc_matrices.append(auroc_matrix(concept_probs, concept_labels))
 
-    pd.DataFrame(avg_building_matrix, columns=ALL_BUILDING_CLASSES).to_csv(
+    avg_building_corr = np.mean(building_corr_matrices, axis=0)
+    avg_concept_corr = np.mean(concept_corr_matrices, axis=0)
+    avg_building_auroc = np.mean(building_auroc_matrices, axis=0)
+    avg_concept_auroc = np.mean(concept_auroc_matrices, axis=0)
+
+    pd.DataFrame(avg_building_corr, columns=ALL_BUILDING_CLASSES).to_csv(
         out_dir / f"building_neuron_correlation_{tag}.csv", index_label="neuron"
     )
-    pd.DataFrame(avg_concept_matrix, columns=ALL_CONCEPTS).to_csv(
+    pd.DataFrame(avg_concept_corr, columns=ALL_CONCEPTS).to_csv(
         out_dir / f"concept_neuron_correlation_{tag}.csv", index_label="neuron"
     )
+    pd.DataFrame(avg_building_auroc, columns=ALL_BUILDING_CLASSES).to_csv(
+        out_dir / f"building_neuron_auroc_{tag}.csv", index_label="neuron"
+    )
+    pd.DataFrame(avg_concept_auroc, columns=ALL_CONCEPTS).to_csv(
+        out_dir / f"concept_neuron_auroc_{tag}.csv", index_label="neuron"
+    )
 
-    plot_heatmap(avg_building_matrix, ALL_BUILDING_CLASSES, f"Building-layer neuron correlation ({tag})",
-                 out_dir / f"building_neuron_correlation_{tag}.png")
-    plot_heatmap(avg_concept_matrix, ALL_CONCEPTS, f"Concept-layer neuron correlation ({tag})",
-                 out_dir / f"concept_neuron_correlation_{tag}.png")
+    plot_heatmap(avg_building_corr, ALL_BUILDING_CLASSES, f"Building-layer neuron correlation ({tag})",
+                 out_dir / f"building_neuron_correlation_{tag}.png", vmin=-1, vmax=1, cbar_label="Pearson r")
+    plot_heatmap(avg_concept_corr, ALL_CONCEPTS, f"Concept-layer neuron correlation ({tag})",
+                 out_dir / f"concept_neuron_correlation_{tag}.png", vmin=-1, vmax=1, cbar_label="Pearson r")
+    plot_heatmap(avg_building_auroc, ALL_BUILDING_CLASSES, f"Building-layer neuron AUROC ({tag})",
+                 out_dir / f"building_neuron_auroc_{tag}.png", vmin=0, vmax=1, cbar_label="AUROC")
+    plot_heatmap(avg_concept_auroc, ALL_CONCEPTS, f"Concept-layer neuron AUROC ({tag})",
+                 out_dir / f"concept_neuron_auroc_{tag}.png", vmin=0, vmax=1, cbar_label="AUROC")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Pearson correlation between every neuron in the concept/building "
+        description="Pearson correlation and AUROC between every neuron in the concept/building "
                     "layer (full unsliced pool) and every concept/building label's "
                     "ground truth. Either point at a folder of run*_outputs subfolders "
                     "(--root-dir), grouped automatically by the alpha recorded in each "
